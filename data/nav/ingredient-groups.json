@@ -2,71 +2,71 @@
   {
     "label": "Fruits",
     "anchor": "fruits",
-    "count": 30
+    "count": 28
   },
   {
     "label": "Vegetables",
     "anchor": "vegetables",
-    "count": 43
+    "count": 42
   },
   {
     "label": "Grains, cereals & bakery",
     "anchor": "grains-cereals--bakery",
-    "count": 35
+    "count": 21
   },
   {
     "label": "Legumes & pulses",
     "anchor": "legumes--pulses",
-    "count": 9
+    "count": 6
   },
   {
     "label": "Nuts & seeds",
     "anchor": "nuts--seeds",
-    "count": 7
+    "count": 8
   },
   {
     "label": "Oils & fats",
     "anchor": "oils--fats",
-    "count": 13
+    "count": 9
   },
   {
     "label": "Herbs, spices & botanicals",
     "anchor": "herbs-spices--botanicals",
-    "count": 13
+    "count": 14
   },
   {
     "label": "Meat & poultry",
     "anchor": "meat--poultry",
-    "count": 16
+    "count": 14
   },
   {
     "label": "Fish & seafood",
     "anchor": "fish--seafood",
-    "count": 14
+    "count": 13
   },
   {
     "label": "Dairy & eggs",
     "anchor": "dairy--eggs",
-    "count": 17
+    "count": 11
   },
   {
     "label": "Infant formula & baby foods",
     "anchor": "infant-formula--baby-foods",
-    "count": 20
+    "count": 1
   },
   {
     "label": "Beverages & water",
     "anchor": "beverages--water",
-    "count": 17
+    "count": 14
   },
   {
     "label": "Sweeteners & condiments",
     "anchor": "sweeteners--condiments",
-    "count": 11
+    "count": 9
   },
   {
     "label": "Prepared & composite foods",
     "anchor": "prepared--composite-foods",
-    "count": 12
+    "count": 3
   }
 ]

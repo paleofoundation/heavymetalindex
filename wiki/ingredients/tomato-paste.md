@@ -1,7 +1,7 @@
 ---
 type: ingredient
 commodity: tomato-paste
-title: "Tomato Paste"
+title: "Tomato paste"
 dek: "A concentrated tomato ingredient used in sauces, ketchup and formulated foods. The page covers metal occurrence, evaporation, sourcing and tin migration from cans."
 rail_highlights:
   - label: Exposure
@@ -12,7 +12,7 @@ rail_highlights:
     text: Canned tomato products have a tin migration pathway
     source: sources/trandafir2012-tin-canned-foods-icp-ms
     source_label: Canned food study
-label: "Tomato Paste"
+label: "Tomato paste"
 aliases: []
 category: vegetable-fruit
 contamination_profile:
@@ -50,8 +50,7 @@ quick_read:
 hero_image_alt: "An unmarked can of dense tomato paste and a separate bowl of smooth red tomato soup illustrating tomato paste ingredient context."
 ---
 
-# Tomato Paste
-
+# Tomato paste
 <!-- BEGIN: hmi-opening -->
 <div class="hmi-quick-read">
   <div class="hmi-quick-read-label">Quick read</div>

@@ -1,0 +1,185 @@
+{
+ "source_id": "jecfa-73rd-cadmium-2010",
+ "primary_artifact": "/Volumes/HMI-Library/heavy-metal-index-raw/reports/9789241660648_eng.pdf",
+ "primary_sha256": "00e91ef842f884c0d244f7a8b9d48ff62dc60fccff78bfadaf757e3daf1123b6",
+ "text_copy": "data/evidence/contracts/most-studied-rollout-2026-10-22/cocoa/primary/jecfa-73rd-cadmium-2010.txt",
+ "disposition": "occurrence_extracted",
+ "disposition_reason": "WHO FAS 64 (JECFA 73) cadmium addendum reports cocoa only inside combined 'coffee, tea & cocoa' categories (no cocoa-specific Cd numbers), but the lead addendum in the same volume prints Singapore 2008 Pb data for cocoa products (n=206, mean 0.692 mg/kg, max 45.4) and cocoa butter (n=34, all <LOD), with three named high cocoa powder values.",
+ "disposition_locator": "Lead addendum Section 6.5, Table 9; Table 25",
+ "study": {
+  "design": "monitoring summary (JECFA monograph, cadmium and lead addenda)",
+  "material_scope": "cocoa products except cocoa butter; cocoa butter (Pb, Singapore)",
+  "growing_origin_vs_market": "Singapore market samples; growing origin not reported",
+  "collection_period": "2008 (Singapore)",
+  "n_total": 240,
+  "sampling_unit": "individual food samples",
+  "method": "not reported",
+  "lod_loq": "Pb LOD 0.09 mg/kg, LOQ 0.3 mg/kg",
+  "basis": "as sold",
+  "qa": "not reported"
+ },
+ "findings": [
+  {
+   "id": "jecfa-73rd-cadmium-2010:Pb:cocoa-products-except-for-cocoa-butter-singapore-market-2008:mean",
+   "analyte": "Pb",
+   "material": "Cocoa products except for cocoa butter",
+   "form": "mixed_products",
+   "group": "Singapore market 2008",
+   "group_kind": "purchase_market",
+   "n": 206,
+   "statistic": "mean",
+   "reported": {
+    "value": 0.692,
+    "sd": null,
+    "min": null,
+    "max": null,
+    "unit": "mg/kg",
+    "text": "206 / 44 / 0.692 / 45.4"
+   },
+   "value_ug_kg": 692.0,
+   "min_ug_kg": null,
+   "max_ug_kg": null,
+   "sd_ug_kg": null,
+   "basis": "as sold",
+   "years": [
+    2008
+   ],
+   "conversion": "mg/kg x 1000",
+   "censoring": "44 of 206 <LOD (LOD 0.09 mg/kg); substitution for the mean not stated",
+   "lod_ug_kg": 90,
+   "locator": "Lead addendum, Section 6.5 Singapore and Table 9 (p. 444-445 of WHO FAS 64)",
+   "notes": "Singapore national data submitted to JECFA 73 (lead addendum); 437 samples of 1009 collected in 2008 analysed for Pb; method not reported; LOD 0.09 mg/kg, LOQ 0.3 mg/kg; 57% of all samples <LOD. Treatment of <LOD in the mean not stated. Repeated in Table 25 (p. 476) as \"Cocoa & chocolate & products\" n=206, weighted mean 0.692, range of national means \"<LOD-0.69\", max 45.4 (Singapore-only data). Category mixes cocoa products (incl. cocoa powder) and possibly chocolate; product mix not specified."
+  },
+  {
+   "id": "jecfa-73rd-cadmium-2010:Pb:cocoa-products-except-for-cocoa-butter-singapore-market-2008:max",
+   "analyte": "Pb",
+   "material": "Cocoa products except for cocoa butter",
+   "form": "mixed_products",
+   "group": "Singapore market 2008",
+   "group_kind": "purchase_market",
+   "n": 206,
+   "statistic": "max",
+   "reported": {
+    "value": 45.4,
+    "sd": null,
+    "min": null,
+    "max": null,
+    "unit": "mg/kg",
+    "text": null
+   },
+   "value_ug_kg": 45400.0,
+   "min_ug_kg": null,
+   "max_ug_kg": null,
+   "sd_ug_kg": null,
+   "basis": "as sold",
+   "years": [
+    2008
+   ],
+   "conversion": "mg/kg x 1000",
+   "censoring": "44 of 206 <LOD",
+   "lod_ug_kg": 90,
+   "locator": "Lead addendum, Section 6.5 Singapore and Table 9 (p. 444-445 of WHO FAS 64)",
+   "notes": "Singapore national data submitted to JECFA 73 (lead addendum); 437 samples of 1009 collected in 2008 analysed for Pb; method not reported; LOD 0.09 mg/kg, LOQ 0.3 mg/kg; 57% of all samples <LOD. Treatment of <LOD in the mean not stated. Repeated in Table 25 (p. 476) as \"Cocoa & chocolate & products\" n=206, weighted mean 0.692, range of national means \"<LOD-0.69\", max 45.4 (Singapore-only data). Maximum is a cocoa powder sample (text)."
+  },
+  {
+   "id": "jecfa-73rd-cadmium-2010:Pb:cocoa-butter-singapore-market-2008:below_LOD",
+   "analyte": "Pb",
+   "material": "Cocoa butter",
+   "form": "butter",
+   "group": "Singapore market 2008",
+   "group_kind": "purchase_market",
+   "n": 34,
+   "statistic": "below_LOD",
+   "reported": {
+    "value": null,
+    "sd": null,
+    "min": null,
+    "max": null,
+    "unit": "mg/kg",
+    "text": "34 / 34 / <LOD / <LOD"
+   },
+   "value_ug_kg": null,
+   "min_ug_kg": null,
+   "max_ug_kg": null,
+   "sd_ug_kg": null,
+   "basis": "as sold",
+   "years": [
+    2008
+   ],
+   "conversion": "none",
+   "censoring": "all 34 samples <LOD",
+   "lod_ug_kg": 90,
+   "locator": "Lead addendum, Section 6.5 Singapore and Table 9 (p. 444-445 of WHO FAS 64)",
+   "notes": "Singapore national data submitted to JECFA 73 (lead addendum); 437 samples of 1009 collected in 2008 analysed for Pb; method not reported; LOD 0.09 mg/kg, LOQ 0.3 mg/kg; 57% of all samples <LOD. Treatment of <LOD in the mean not stated. Repeated in Table 25 (p. 476) as \"Cocoa & chocolate & products\" n=206, weighted mean 0.692, range of national means \"<LOD-0.69\", max 45.4 (Singapore-only data)."
+  }
+ ],
+ "sample_values": [
+  {
+   "sample": "Singapore cocoa powder (highest Pb #1)",
+   "group": "Singapore market 2008",
+   "form": "powder",
+   "analyte": "Pb",
+   "value_ug_kg": 45400.0,
+   "censored": false,
+   "bound_ug_kg": null,
+   "locator": "Section 6.5 text, p. 444"
+  },
+  {
+   "sample": "Singapore cocoa powder (highest Pb #2)",
+   "group": "Singapore market 2008",
+   "form": "powder",
+   "analyte": "Pb",
+   "value_ug_kg": 35400.0,
+   "censored": false,
+   "bound_ug_kg": null,
+   "locator": "Section 6.5 text, p. 444"
+  },
+  {
+   "sample": "Singapore cocoa powder (highest Pb #3)",
+   "group": "Singapore market 2008",
+   "form": "powder",
+   "analyte": "Pb",
+   "value_ug_kg": 25300.0,
+   "censored": false,
+   "bound_ug_kg": null,
+   "locator": "Section 6.5 text, p. 444"
+  }
+ ],
+ "controls": [],
+ "regulatory": [],
+ "exposure": [
+  {
+   "statement": "JECFA 73 established a PTMI for cadmium (replacing the PTWI of 7 µg/kg bw, which was withdrawn).",
+   "population": "general population",
+   "value": "25 µg/kg bw per month",
+   "locator": "Cadmium addendum, Section 10 (text near line of 'PTMI established was 25 µg/kg bw')"
+  },
+  {
+   "statement": "JECFA 73 withdrew the lead PTWI of 25 µg/kg bw as no longer health protective.",
+   "population": "general population",
+   "value": "PTWI 25 µg/kg bw/week withdrawn",
+   "locator": "Lead addendum, Evaluation, p. 481"
+  },
+  {
+   "statement": "Cocoa products listed among foods with the highest frequency of detectable lead (with shellfish, organ meats etc.).",
+   "population": "occurrence statement",
+   "value": null,
+   "locator": "Lead addendum, Section 9.7-9.8 text, pp. 461 and 475"
+  },
+  {
+   "statement": "Cadmium: EFSA-derived exposure contribution for 'Coffee, tea, cocoa' (0.002 mg/kg as liquid x 601 g/day) = 1.1 µg/day; cocoa not separated.",
+   "population": "European adults",
+   "value": "1.1 µg/day",
+   "locator": "Cadmium addendum, exposure table (EFSA 2009 data)"
+  }
+ ],
+ "contradictions_with_stored_summary": [
+  "Stored summary records only 'Coffee, tea, cocoa 1.1' exposure and contains no cocoa occurrence data; it omits the Singapore cocoa lead data (mean 0.692 mg/kg, max 45.4 mg/kg; three cocoa powder samples 45.4, 35.4, 25.3 mg/kg) printed in the lead addendum of the same volume."
+ ],
+ "unresolved": [
+  "Cadmium cocoa data in this volume are only combined coffee/tea/cocoa categories (e.g. food industry aggregated raw materials 2002-2009: coffee, tea & cocoa mean 1.75 mg/kg 'particularly the latter', n=1284, max 1327 mg/kg) - cocoa share not extractable.",
+  "The lead findings sit in the lead addendum of this WHO FAS 64 volume; the source_id names cadmium. Parent should decide whether lead rows belong to this source record or a separate jecfa-73rd-lead record.",
+  "Singapore <LOD handling in the mean not stated; product composition of 'cocoa products except cocoa butter' not given.",
+  "Table 25 range '<LOD-0.69' for 'Cocoa & chocolate & products' is inconsistent with a single-country (Singapore) dataset; not resolvable."
+ ]
+}

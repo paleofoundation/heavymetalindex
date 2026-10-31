@@ -6,7 +6,7 @@ import ts from "typescript"
 import { globbySync } from "globby"
 import { aliasToSlug, coerceToArray } from "../quartz/util/aliasSlugs"
 import { FilePath, FullSlug, isRelativeURL, simplifySlug, slugifyFilePath } from "../quartz/util/path"
-import { isPublicWikiRecord } from "./lib/source-publication.mjs"
+import { isPublicWikiRecord, isRetiredRecord } from "./lib/source-publication.mjs"
 import { isIntentionallyGone, normalizePublicPath } from "../lib/gone-410"
 
 type RecordPage = { slug: string; aliases: string[] }
@@ -32,7 +32,10 @@ export function buildAliasRegistry(pages: RecordPage[], legacy: { source: string
       real.add(`${parent}/index`)
     }
   }
-  const legacyMap = new Map(legacy.map(({ source, destination }) => [normalizePublicPath(source), normalizePublicPath(destination)]))
+  // Pattern rules (/metals/sources/:id, regex groups) match many paths and name no page, so they
+  // are not aliases; only literal redirect sources enter the registry.
+  const literal = legacy.filter(({ source }) => !/[:(*]/.test(source))
+  const legacyMap = new Map(literal.map(({ source, destination }) => [normalizePublicPath(source), normalizePublicPath(destination)]))
   const claims = new Map<string, Set<string>>()
   for (const page of pages) for (const alias of page.aliases) {
     const source = aliasPath(alias, page.slug)
@@ -97,9 +100,32 @@ export function generateAliasRegistry(repoRoot: string) {
   for (const relative of globbySync("**/*.md", { cwd: wiki, ignore, gitignore: true }).sort()) {
     const slug = slugifyFilePath(relative as FilePath)
     const { data } = matter(fs.readFileSync(path.join(wiki, relative), "utf8"))
-    if (!isPublicWikiRecord(data, slug)) continue
     const aliases = coerceToArray(data.aliases ?? data.alias).map(aliasToSlug)
     if (data.permalink != null && String(data.permalink) !== "") aliases.push(String(data.permalink) as FullSlug)
+    if (isRetiredRecord(data)) {
+      // Own the stub's aliases from the published page at the end of the
+      // redirect chain. Stopping at the next stub leaves alias HTML pointing
+      // at another redirect. A target with no file must not become a phantom
+      // page: the stub remains the URL that actually returns.
+      let target = String(data.redirect_target ?? "").trim().replace(/^\/+/, "")
+      const seen = new Set<string>([slug])
+      while (target && !seen.has(target) && fs.existsSync(path.join(wiki, `${target}.md`))) {
+        seen.add(target)
+        const next = matter(fs.readFileSync(path.join(wiki, `${target}.md`), "utf8")).data
+        if (!isRetiredRecord(next)) break
+        const followed = String(next.redirect_target ?? "").trim().replace(/^\/+/, "")
+        if (!followed || followed === target) break
+        target = followed
+      }
+      if (target && fs.existsSync(path.join(wiki, `${target}.md`)) && !isRetiredRecord(matter(fs.readFileSync(path.join(wiki, `${target}.md`), "utf8")).data)) {
+        aliases.push(slug)
+        pages.push({ slug: target, aliases })
+        continue
+      }
+      pages.push({ slug, aliases })
+      continue
+    }
+    if (!isPublicWikiRecord(data, slug)) continue
     pages.push({ slug, aliases })
   }
   const { redirects } = JSON.parse(fs.readFileSync(path.join(repoRoot, "vercel.json"), "utf8"))

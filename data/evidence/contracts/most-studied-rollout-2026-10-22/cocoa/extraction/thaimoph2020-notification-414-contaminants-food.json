@@ -1,0 +1,54 @@
+{
+  "source_id": "thaimoph2020-notification-414-contaminants-food",
+  "primary_artifact": "/Volumes/HMI-Library/Regulatory documents/Thailand_MOPH-Notification-414_2020_Contaminants-in-Food_EN.pdf",
+  "primary_sha256": "ab8ddc7f5cd9d03e8a2302caeac9d9e90d2b71760bf113ba56432932f23627d7",
+  "text_copy": "data/evidence/contracts/most-studied-rollout-2026-10-22/cocoa/primary/thaimoph2020-notification-414-contaminants-food.txt",
+  "disposition": "exposure_or_regulatory_used",
+  "disposition_reason": "Annex 1 cadmium table sets 0.8 mg/kg for chocolate containing or declaring >=50 to <70% total cocoa solids and 0.9 mg/kg for >=70%, dry matter basis, as prepared for wholesale or retail distribution. Clause 4(2) makes Codex CXS 193 MLs apply to foods not listed in Annex 1.",
+  "disposition_locator": "Annex 1, 1. Cadmium (cont.), 'Chocolate Products' rows, PDF p. 4; Clauses 4 and 7",
+  "study": {
+    "design": "regulation",
+    "material_scope": "chocolate >=50% total cocoa solids",
+    "growing_origin_vs_market": null,
+    "collection_period": null,
+    "n_total": null,
+    "sampling_unit": null,
+    "method": null,
+    "lod_loq": null,
+    "basis": "whole commodity as prepared for wholesale or retail distribution; class by % total cocoa solids on a dry matter basis",
+    "qa": null
+  },
+  "findings": [],
+  "sample_values": [],
+  "controls": [],
+  "regulatory": [
+    {
+      "jurisdiction": "Thailand",
+      "instrument": "Notification of the Ministry of Public Health (No. 414) B.E. 2563 (2020) Re: Standards for Contaminants in Food (unofficial English translation)",
+      "analyte": "Cd",
+      "product": "Chocolate Products: Chocolate containing or declaring ≥ 50% to < 70% total cocoa solids on a dry matter basis (including sweet chocolate, Gianduja chocolate, semi-bitter table chocolate, Vermicelli chocolate/chocolate flakes, and bitter table chocolate)",
+      "value": 0.8,
+      "unit": "mg/kg",
+      "status": "in force 180 days after publication in the Government Gazette of 20 May 2020 (Clause 7; computed ≈ 16 November 2020)",
+      "locator": "Annex 1, Cadmium (cont.), PDF p. 4",
+      "basis": "as prepared for wholesale or retail distribution"
+    },
+    {
+      "jurisdiction": "Thailand",
+      "instrument": "Notification of the Ministry of Public Health (No. 414) B.E. 2563 (2020) Re: Standards for Contaminants in Food (unofficial English translation)",
+      "analyte": "Cd",
+      "product": "Chocolate Products: Chocolate containing or declaring ≥ 70% total cocoa solids on a dry matter basis",
+      "value": 0.9,
+      "unit": "mg/kg",
+      "status": "in force 180 days after publication in the Government Gazette of 20 May 2020 (Clause 7; computed ≈ 16 November 2020)",
+      "locator": "Annex 1, Cadmium (cont.), PDF p. 4",
+      "basis": "as prepared for wholesale or retail distribution"
+    }
+  ],
+  "contradictions_with_stored_summary": [],
+  "unresolved": [
+    "By Clause 4(2), Codex CXS 193 (updated version) MLs apply to foods not in Annex 1, which would bring in the Codex cocoa powder (2.0) and <30% / 30-50% chocolate (0.3 / 0.7 mg/kg) Cd MLs by reference; these are not printed in the Thai text and are not recorded as Thai rows.",
+    "Unofficial English translation; the Thai text prevails.",
+    "Exact in-force date depends on the day-count convention for '180 days'."
+  ]
+}

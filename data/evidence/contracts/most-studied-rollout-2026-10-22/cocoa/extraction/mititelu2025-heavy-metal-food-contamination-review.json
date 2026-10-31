@@ -1,0 +1,44 @@
+{
+  "source_id": "mititelu2025-heavy-metal-food-contamination-review",
+  "primary_artifact": "/Volumes/HMI-Library/heavy-metal-index-raw/Manual Fetch Kimi /03_Grains_and_Grain_Products/03_Grains_and_Grain_Products/Assessing Heavy Metal Contamination in Food (Review - Tin in Cereals).pdf",
+  "primary_sha256": "7ae39dac066091d015180a6eff29564b2f05eb91ea0e3727cdc9a59d242f874f",
+  "text_copy": "data/evidence/contracts/most-studied-rollout-2026-10-22/cocoa/primary/mititelu2025-heavy-metal-food-contamination-review.txt",
+  "disposition": "context_only",
+  "disposition_reason": "Narrative review of heavy metals in food; cocoa content is limited to secondary table rows quoting other studies: Cd in chocolate, Belgium 0.010-0.090 mg/kg [ref 131, Vromman et al.] and Serbia 0.034 mg/kg [ref 143, Skrbic et al.]; Pb 15.306 ug/kg and Sn 6.01 ug/kg for a mixed Italian category 'sweets, chocolate, cakes (and other pastries)'; and a claimed 'EFSA' Ni maximum level of 0.80 mg/kg for chocolate and cocoa products. No primary measurements, n, method or basis are given for the cocoa rows.",
+  "disposition_locator": "Table 1 (PDF p.4); Table 3 Cadmium (PDF p.24-25); Table 4 Lead (PDF p.27); Table 6 Tin (PDF p.32)",
+  "study": {
+    "design": "review",
+    "material_scope": "none (no cocoa material analysed)",
+    "growing_origin_vs_market": null,
+    "collection_period": null,
+    "n_total": null,
+    "sampling_unit": null,
+    "method": null,
+    "lod_loq": null,
+    "basis": null,
+    "qa": null
+  },
+  "findings": [],
+  "sample_values": [],
+  "controls": [],
+  "regulatory": [
+    {
+      "jurisdiction": "EU (as claimed)",
+      "instrument": "attributed to EFSA [ref 10]",
+      "analyte": "Ni",
+      "product": "Chocolate and cocoa products",
+      "value": 0.8,
+      "unit": "mg/kg",
+      "status": "claimed by review; not verifiable as an EU maximum level",
+      "locator": "Table 1, PDF p.4"
+    }
+  ],
+  "contradictions_with_stored_summary": [
+    "Stored summary reproduces 'Ni Chocolate and cocoa products 0.80 mg/kg EFSA' as if a regulatory limit; primary attributes it to EFSA but this is not a real EU ML."
+  ],
+  "unresolved": [
+    "Ni 0.80 mg/kg 'EFSA' maximum level for chocolate/cocoa does not correspond to any EU regulatory maximum (EFSA does not set MLs; no EU Ni ML exists for cocoa); treat as unreliable and do not use as regulatory value.",
+    "Belgian chocolate Cd 0.010-0.090 mg/kg (Vromman et al., ref 131) and Serbian chocolate Cd 0.034 mg/kg (Skrbic et al., ref 143) are secondary restatements; primary papers are not in wiki/sources and were not checked. Not extracted as occurrence rows from this review because n, basis, chocolate type and method are absent.",
+    "Italian Pb/Sn rows are for a mixed sweets/chocolate/cakes category, out of cocoa scope."
+  ]
+}

@@ -1,0 +1,67 @@
+{
+ "source_id": "signes-pastor2020-nh-infants-apple-arsenic-urine",
+ "primary_artifact": "/Users/kmfp/papers-for-claude/hmi-thin/batch-14-addendum/pdfs/10.1007_s12403-020-00356-7.pdf",
+ "primary_sha256": "89f10e1b6cdcc2c52f5ac8c0f250646c3dfa34081b78c0b332c4097eab4d1c7c",
+ "extracted_at": "2026-10-25",
+ "extractor": "engine-v1",
+ "disposition": "context",
+ "disposition_reason": "Cohort biomarker study relating infant urinary arsenic species to apple product intake from food diaries; no apple or food concentrations were measured, and apple juice values in the discussion are quoted from FDA and Consumer Reports.",
+ "disposition_locator": "Abstract; Results, Table 1; Discussion",
+ "study": {
+  "design": "Cross-sectional analysis within the New Hampshire Birth Cohort Study (urinary arsenic vs three-day food diary)",
+  "origin": "",
+  "market": "",
+  "period": {
+   "from": 2013,
+   "to": 2016,
+   "as_reported": "Infants reaching one year of age during 2013 to 2016"
+  },
+  "method": "Urinary arsenic speciation by HPLC-ICP-MS (Agilent 8900); tap water total As by ICP-MS",
+  "lod": [
+   "Urinary species LOD 0.06-0.10 µg/L; water LOD 0.04 µg/L"
+  ],
+  "basis": "unknown",
+  "qa": "",
+  "site_context": "ordinary"
+ },
+ "findings": [],
+ "sample_values": [],
+ "controls": [
+  {
+   "control": "exclusive apple product consumption (juice, puree, whole fruit, mixed products)",
+   "stage": "consumer",
+   "evidence_kind": "observational",
+   "comparator": "infants eating no apple products (n=59, geometric mean urinary sum As 2.78 µg/L)",
+   "outcome": "Geometric mean urinary sum As 2.38 (juice, n=30), 2.46 (puree, n=67), 2.28 (whole fruit, n=20), 2.73 µg/L (mixed, n=21); no significant association with apple intake",
+   "analytes": [
+    "iAs",
+    "MMA",
+    "DMA"
+   ],
+   "locator": "Abstract; Results p. 5-6"
+  }
+ ],
+ "unresolved": [
+  "Urine is a biological matrix, not a food result; no food concentrations were extracted.",
+  "Apple juice survey values in the discussion are quoted from FDA and Consumer Reports and were not extracted."
+ ],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [
+  {
+   "what": "FDA proposed action level for inorganic arsenic in apple juice, as cited",
+   "value": "10 µg/kg",
+   "locator": "Introduction"
+  }
+ ],
+ "source_record_corrections": [
+  "The PDF is the HHS Public Access author manuscript (PMC), not the publisher version; it gives the final citation Expo Health 2020 Dec;12(4):561-567, doi:10.1007/s12403-020-00356-7."
+ ],
+ "source_record": "wiki/sources/signes-pastor2020-nh-infants-apple-arsenic-urine.md",
+ "non_numeric_findings": [],
+ "merged_unmatched": [],
+ "merged_snapshot": null,
+ "raw_output": "data/evidence/findings/extract/raw/signes-pastor2020-nh-infants-apple-arsenic-urine.json"
+}

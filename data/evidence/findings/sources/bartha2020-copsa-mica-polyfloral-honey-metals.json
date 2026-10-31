@@ -1,0 +1,454 @@
+{
+ "source_id": "bartha2020-copsa-mica-polyfloral-honey-metals",
+ "primary_artifact": "/Users/kmfp/papers-for-claude/hmi-thin/batch-10-addendum/pdfs/10.3390_ijerph17051507.pdf",
+ "primary_sha256": "3cf377bf837fedbf70ae04343ea5c1f2c35f952a985c2912d84f423555ffa158",
+ "extracted_at": "2026-10-25",
+ "extractor": "engine-v1",
+ "disposition": "occurrence_extracted",
+ "disposition_reason": "Table 5 prints the range and median of lead, cadmium, zinc and copper in 24 polyfloral honeys from six apiaries around a historically polluted non-ferrous metal industrial site.",
+ "disposition_locator": "Table 5, p. 5",
+ "study": {
+  "design": "Case study of apiaries at increasing distance from an industrial pollution source",
+  "origin": "Copsa Mica, Micasasa, Tarnava, Valea Viilor and Seica Mica, Sibiu area, Romania",
+  "market": "collected directly from local beekeepers (stationary apiaries)",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": ""
+  },
+  "method": "1 g honey in water, HNO3 microwave digestion (Top Wave); Pb and Cd by GFAAS, Zn and Cu by flame AAS (Shimadzu AA-6300)",
+  "lod": [
+   "not stated"
+  ],
+  "basis": "as_sold",
+  "qa": "Triplicate digestion and blank; no CRM or recovery reported",
+  "site_context": "industrial"
+ },
+ "findings": [
+  {
+   "id": "bartha2020-copsa-mica-polyfloral-honey-metals:Pb:honey-polyfloral-six-stationary-apiaries-copsa-mic:median",
+   "material": {
+    "label_as_printed": "Honey, polyfloral",
+    "page": "ingredients/honey",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/honey"
+    ]
+   },
+   "analyte": "Pb",
+   "group": "six stationary apiaries, Copsa Mica and neighboring villages (1.1-10.5 km from the industrial platform)",
+   "group_kind": "all_samples",
+   "n": 24,
+   "statistic": "median",
+   "reported": "1.49 mg/kg",
+   "value_ugkg": 1490,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 5, p. 5",
+   "integrity_flag": null,
+   "notes": "Coefficient of variation 56.27%. Industrially polluted area; four samples per apiary.",
+   "statistic_raw": "median"
+  },
+  {
+   "id": "bartha2020-copsa-mica-polyfloral-honey-metals:Pb:honey-polyfloral-six-stationary-apiaries-copsa-mic:min",
+   "material": {
+    "label_as_printed": "Honey, polyfloral",
+    "page": "ingredients/honey",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/honey"
+    ]
+   },
+   "analyte": "Pb",
+   "group": "six stationary apiaries, Copsa Mica and neighboring villages (1.1-10.5 km from the industrial platform)",
+   "group_kind": "all_samples",
+   "n": 24,
+   "statistic": "min",
+   "reported": "0.76 mg/kg",
+   "value_ugkg": 760,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 5, p. 5",
+   "integrity_flag": null,
+   "notes": "",
+   "statistic_raw": "min"
+  },
+  {
+   "id": "bartha2020-copsa-mica-polyfloral-honey-metals:Pb:honey-polyfloral-six-stationary-apiaries-copsa-mic:max",
+   "material": {
+    "label_as_printed": "Honey, polyfloral",
+    "page": "ingredients/honey",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/honey"
+    ]
+   },
+   "analyte": "Pb",
+   "group": "six stationary apiaries, Copsa Mica and neighboring villages (1.1-10.5 km from the industrial platform)",
+   "group_kind": "all_samples",
+   "n": 24,
+   "statistic": "max",
+   "reported": "3.41 mg/kg",
+   "value_ugkg": 3410,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 5, p. 5",
+   "integrity_flag": null,
+   "notes": "",
+   "statistic_raw": "max"
+  },
+  {
+   "id": "bartha2020-copsa-mica-polyfloral-honey-metals:Cd:honey-polyfloral-six-stationary-apiaries-copsa-mic:median",
+   "material": {
+    "label_as_printed": "Honey, polyfloral",
+    "page": "ingredients/honey",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/honey"
+    ]
+   },
+   "analyte": "Cd",
+   "group": "six stationary apiaries, Copsa Mica and neighboring villages (1.1-10.5 km from the industrial platform)",
+   "group_kind": "all_samples",
+   "n": 24,
+   "statistic": "median",
+   "reported": "2.20 mg/kg",
+   "value_ugkg": 2200,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 5, p. 5",
+   "integrity_flag": null,
+   "notes": "Coefficient of variation 81.90%. Industrially polluted area; four samples per apiary.",
+   "statistic_raw": "median"
+  },
+  {
+   "id": "bartha2020-copsa-mica-polyfloral-honey-metals:Cd:honey-polyfloral-six-stationary-apiaries-copsa-mic:min",
+   "material": {
+    "label_as_printed": "Honey, polyfloral",
+    "page": "ingredients/honey",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/honey"
+    ]
+   },
+   "analyte": "Cd",
+   "group": "six stationary apiaries, Copsa Mica and neighboring villages (1.1-10.5 km from the industrial platform)",
+   "group_kind": "all_samples",
+   "n": 24,
+   "statistic": "min",
+   "reported": "0.05 mg/kg",
+   "value_ugkg": 50,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 5, p. 5",
+   "integrity_flag": null,
+   "notes": "",
+   "statistic_raw": "min"
+  },
+  {
+   "id": "bartha2020-copsa-mica-polyfloral-honey-metals:Cd:honey-polyfloral-six-stationary-apiaries-copsa-mic:max",
+   "material": {
+    "label_as_printed": "Honey, polyfloral",
+    "page": "ingredients/honey",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/honey"
+    ]
+   },
+   "analyte": "Cd",
+   "group": "six stationary apiaries, Copsa Mica and neighboring villages (1.1-10.5 km from the industrial platform)",
+   "group_kind": "all_samples",
+   "n": 24,
+   "statistic": "max",
+   "reported": "3.81 mg/kg",
+   "value_ugkg": 3810,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 5, p. 5",
+   "integrity_flag": null,
+   "notes": "",
+   "statistic_raw": "max"
+  },
+  {
+   "id": "bartha2020-copsa-mica-polyfloral-honey-metals:Zn:honey-polyfloral-six-stationary-apiaries-copsa-mic:median",
+   "material": {
+    "label_as_printed": "Honey, polyfloral",
+    "page": "ingredients/honey",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/honey"
+    ]
+   },
+   "analyte": "Zn",
+   "group": "six stationary apiaries, Copsa Mica and neighboring villages (1.1-10.5 km from the industrial platform)",
+   "group_kind": "all_samples",
+   "n": 24,
+   "statistic": "median",
+   "reported": "20.40 mg/kg",
+   "value_ugkg": 20400,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 5, p. 5",
+   "integrity_flag": null,
+   "notes": "Coefficient of variation 36.74%. Industrially polluted area; four samples per apiary.",
+   "statistic_raw": "median"
+  },
+  {
+   "id": "bartha2020-copsa-mica-polyfloral-honey-metals:Zn:honey-polyfloral-six-stationary-apiaries-copsa-mic:min",
+   "material": {
+    "label_as_printed": "Honey, polyfloral",
+    "page": "ingredients/honey",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/honey"
+    ]
+   },
+   "analyte": "Zn",
+   "group": "six stationary apiaries, Copsa Mica and neighboring villages (1.1-10.5 km from the industrial platform)",
+   "group_kind": "all_samples",
+   "n": 24,
+   "statistic": "min",
+   "reported": "15.00 mg/kg",
+   "value_ugkg": 15000,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 5, p. 5",
+   "integrity_flag": null,
+   "notes": "",
+   "statistic_raw": "min"
+  },
+  {
+   "id": "bartha2020-copsa-mica-polyfloral-honey-metals:Zn:honey-polyfloral-six-stationary-apiaries-copsa-mic:max",
+   "material": {
+    "label_as_printed": "Honey, polyfloral",
+    "page": "ingredients/honey",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/honey"
+    ]
+   },
+   "analyte": "Zn",
+   "group": "six stationary apiaries, Copsa Mica and neighboring villages (1.1-10.5 km from the industrial platform)",
+   "group_kind": "all_samples",
+   "n": 24,
+   "statistic": "max",
+   "reported": "36.40 mg/kg",
+   "value_ugkg": 36400,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 5, p. 5",
+   "integrity_flag": null,
+   "notes": "",
+   "statistic_raw": "max"
+  },
+  {
+   "id": "bartha2020-copsa-mica-polyfloral-honey-metals:Cu:honey-polyfloral-six-stationary-apiaries-copsa-mic:median",
+   "material": {
+    "label_as_printed": "Honey, polyfloral",
+    "page": "ingredients/honey",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/honey"
+    ]
+   },
+   "analyte": "Cu",
+   "group": "six stationary apiaries, Copsa Mica and neighboring villages (1.1-10.5 km from the industrial platform)",
+   "group_kind": "all_samples",
+   "n": 24,
+   "statistic": "median",
+   "reported": "3.70 mg/kg",
+   "value_ugkg": 3700,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 5, p. 5",
+   "integrity_flag": null,
+   "notes": "Coefficient of variation 122.63%. Industrially polluted area; four samples per apiary.",
+   "statistic_raw": "median"
+  },
+  {
+   "id": "bartha2020-copsa-mica-polyfloral-honey-metals:Cu:honey-polyfloral-six-stationary-apiaries-copsa-mic:min",
+   "material": {
+    "label_as_printed": "Honey, polyfloral",
+    "page": "ingredients/honey",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/honey"
+    ]
+   },
+   "analyte": "Cu",
+   "group": "six stationary apiaries, Copsa Mica and neighboring villages (1.1-10.5 km from the industrial platform)",
+   "group_kind": "all_samples",
+   "n": 24,
+   "statistic": "min",
+   "reported": "2.00 mg/kg",
+   "value_ugkg": 2000,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 5, p. 5",
+   "integrity_flag": null,
+   "notes": "",
+   "statistic_raw": "min"
+  },
+  {
+   "id": "bartha2020-copsa-mica-polyfloral-honey-metals:Cu:honey-polyfloral-six-stationary-apiaries-copsa-mic:max",
+   "material": {
+    "label_as_printed": "Honey, polyfloral",
+    "page": "ingredients/honey",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/honey"
+    ]
+   },
+   "analyte": "Cu",
+   "group": "six stationary apiaries, Copsa Mica and neighboring villages (1.1-10.5 km from the industrial platform)",
+   "group_kind": "all_samples",
+   "n": 24,
+   "statistic": "max",
+   "reported": "33.00 mg/kg",
+   "value_ugkg": 33000,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 5, p. 5",
+   "integrity_flag": null,
+   "notes": "",
+   "statistic_raw": "max"
+  }
+ ],
+ "sample_values": [],
+ "controls": [
+  {
+   "control": "apiary exposure to the main valley air corridor",
+   "stage": "sourcing",
+   "evidence_kind": "observational",
+   "comparator": "frontal exposure (main valley) vs secondary valley apiaries",
+   "outcome": "Pb on average about 1 mg/kg higher in main-valley apiaries (Mann-Whitney p = 0.05); Cd, Zn, Cu not different",
+   "analytes": [
+    "Pb",
+    "Cd",
+    "Zn",
+    "Cu"
+   ],
+   "locator": "Table 6; Section 3"
+  },
+  {
+   "control": "distance from the pollution source",
+   "stage": "sourcing",
+   "evidence_kind": "observational",
+   "comparator": "apiaries 1.12 to 10.54 km from the source",
+   "outcome": "Cd decreases and Cu increases with distance (figure only, values not read); Pb and Zn unrelated (Spearman -0.029, p = 0.96)",
+   "analytes": [
+    "Cd",
+    "Cu",
+    "Pb",
+    "Zn"
+   ],
+   "locator": "Figure 2"
+  }
+ ],
+ "unresolved": [
+  "Per-apiary values are not tabulated (Figure 2 only).",
+  "Sampling year given only as 'the closing year of industrial production activity'; no date printed.",
+  "Detection limits not stated; very high cadmium (median 2.20 mg/kg) reported without CRM support."
+ ],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [
+  {
+   "what": "EU maximum levels cited (Regulation 1881/2006 as amended by 2015/1005)",
+   "value": "Pb 0.10 mg/kg; Cd 0.05 mg/kg; median Pb exceeds the limit",
+   "locator": "Discussion, p. 8"
+  }
+ ],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/bartha2020-copsa-mica-polyfloral-honey-metals.md",
+ "non_numeric_findings": [],
+ "merged_unmatched": [],
+ "merged_snapshot": null,
+ "raw_output": "data/evidence/findings/extract/raw/bartha2020-copsa-mica-polyfloral-honey-metals.json"
+}

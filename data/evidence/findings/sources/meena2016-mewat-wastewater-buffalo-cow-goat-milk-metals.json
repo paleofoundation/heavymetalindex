@@ -1,0 +1,879 @@
+{
+ "source_id": "meena2016-mewat-wastewater-buffalo-cow-goat-milk-metals",
+ "primary_artifact": "/Users/kmfp/papers-for-claude/hmi-thin/batch-10/pdfs/half-and-half__Meena2016__10.31018_jans.v8i3.1008.pdf",
+ "primary_sha256": "739d733a895a3758b961d1c880c12838b33c45a5d59e22ea8e806dabf3424480",
+ "extracted_at": "2026-10-25",
+ "extractor": "engine-v1",
+ "disposition": "occurrence_extracted",
+ "disposition_reason": "The Results text prints mean iron, copper, manganese, zinc, chromium, nickel, lead and cadmium in buffalo and goat milk and nickel and lead in cow milk (dry weight) from a wastewater-irrigated village; most per-species values are otherwise figure-only.",
+ "disposition_locator": "Results p. 1605; Discussion p. 1608",
+ "study": {
+  "design": "Field survey of milk from animals fed fodder irrigated with polluted drain water, with health risk assessment",
+  "origin": "Ujjina village, Nuh block, Mewat district, Haryana, India (downstream of Nuh, Chandeni and Kotla drains)",
+  "market": "farm animals (not retail)",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "winter and summer seasons (years not stated)"
+  },
+  "method": "Milk dried at 70 C; 3 g HNO3/H2O2 hot-plate digestion; AAS / polarograph",
+  "lod": [
+   "not stated"
+  ],
+  "basis": "dry",
+  "qa": "Reagent blank only; no CRM or recovery",
+  "site_context": "wastewater"
+ },
+ "findings": [
+  {
+   "id": "meena2016-mewat-wastewater-buffalo-cow-goat-milk-metals:Fe:buffalo-milk-ujjina-village-mewat-district-haryana:mean",
+   "material": {
+    "label_as_printed": "Buffalo milk",
+    "page": "ingredients/milk-and-dairy",
+    "form": "dried",
+    "state": "raw",
+    "route_rule": "exact",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Fe",
+   "group": "Ujjina village, Mewat district, Haryana (drain-water irrigated fodder), winter and summer",
+   "group_kind": "all_samples",
+   "n": null,
+   "statistic": "mean",
+   "reported": "10.43 ppm",
+   "value_ugkg": 10430,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "ppm",
+   "basis": "dry",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Results text, p. 1605",
+   "integrity_flag": null,
+   "notes": "Mean printed in the Results text (values also shown in Figures 2-6); sample count not stated; results per g dry milk.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "meena2016-mewat-wastewater-buffalo-cow-goat-milk-metals:Cu:buffalo-milk-ujjina-village-mewat-district-haryana:mean",
+   "material": {
+    "label_as_printed": "Buffalo milk",
+    "page": "ingredients/milk-and-dairy",
+    "form": "dried",
+    "state": "raw",
+    "route_rule": "exact",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Cu",
+   "group": "Ujjina village, Mewat district, Haryana (drain-water irrigated fodder), winter and summer",
+   "group_kind": "all_samples",
+   "n": null,
+   "statistic": "mean",
+   "reported": "1.23 ppm",
+   "value_ugkg": 1230,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "ppm",
+   "basis": "dry",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Results text, p. 1605",
+   "integrity_flag": null,
+   "notes": "Mean printed in the Results text (values also shown in Figures 2-6); sample count not stated; results per g dry milk.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "meena2016-mewat-wastewater-buffalo-cow-goat-milk-metals:Mn:buffalo-milk-ujjina-village-mewat-district-haryana:mean",
+   "material": {
+    "label_as_printed": "Buffalo milk",
+    "page": "ingredients/milk-and-dairy",
+    "form": "dried",
+    "state": "raw",
+    "route_rule": "exact",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Mn",
+   "group": "Ujjina village, Mewat district, Haryana (drain-water irrigated fodder), winter and summer",
+   "group_kind": "all_samples",
+   "n": null,
+   "statistic": "mean",
+   "reported": "0.60 ppm",
+   "value_ugkg": 600,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "ppm",
+   "basis": "dry",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Results text, p. 1605",
+   "integrity_flag": null,
+   "notes": "Mean printed in the Results text (values also shown in Figures 2-6); sample count not stated; results per g dry milk.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "meena2016-mewat-wastewater-buffalo-cow-goat-milk-metals:Zn:buffalo-milk-ujjina-village-mewat-district-haryana:mean",
+   "material": {
+    "label_as_printed": "Buffalo milk",
+    "page": "ingredients/milk-and-dairy",
+    "form": "dried",
+    "state": "raw",
+    "route_rule": "exact",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Zn",
+   "group": "Ujjina village, Mewat district, Haryana (drain-water irrigated fodder), winter and summer",
+   "group_kind": "all_samples",
+   "n": null,
+   "statistic": "mean",
+   "reported": "2.32 ppm",
+   "value_ugkg": 2320,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "ppm",
+   "basis": "dry",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Results text, p. 1605",
+   "integrity_flag": null,
+   "notes": "Mean printed in the Results text (values also shown in Figures 2-6); sample count not stated; results per g dry milk.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "meena2016-mewat-wastewater-buffalo-cow-goat-milk-metals:Cr:buffalo-milk-ujjina-village-mewat-district-haryana:mean",
+   "material": {
+    "label_as_printed": "Buffalo milk",
+    "page": "ingredients/milk-and-dairy",
+    "form": "dried",
+    "state": "raw",
+    "route_rule": "exact",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Cr",
+   "group": "Ujjina village, Mewat district, Haryana (drain-water irrigated fodder), winter and summer",
+   "group_kind": "all_samples",
+   "n": null,
+   "statistic": "mean",
+   "reported": "0.05 ppm",
+   "value_ugkg": 50,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "ppm",
+   "basis": "dry",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Results text, p. 1605",
+   "integrity_flag": null,
+   "notes": "Mean printed in the Results text (values also shown in Figures 2-6); sample count not stated; results per g dry milk.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "meena2016-mewat-wastewater-buffalo-cow-goat-milk-metals:Ni:buffalo-milk-ujjina-village-mewat-district-haryana:mean",
+   "material": {
+    "label_as_printed": "Buffalo milk",
+    "page": "ingredients/milk-and-dairy",
+    "form": "dried",
+    "state": "raw",
+    "route_rule": "exact",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Ni",
+   "group": "Ujjina village, Mewat district, Haryana (drain-water irrigated fodder), winter and summer",
+   "group_kind": "all_samples",
+   "n": null,
+   "statistic": "mean",
+   "reported": "0.17 ppm",
+   "value_ugkg": 170,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "ppm",
+   "basis": "dry",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Results text, p. 1605",
+   "integrity_flag": null,
+   "notes": "Mean printed in the Results text (values also shown in Figures 2-6); sample count not stated; results per g dry milk.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "meena2016-mewat-wastewater-buffalo-cow-goat-milk-metals:Pb:buffalo-milk-ujjina-village-mewat-district-haryana:mean",
+   "material": {
+    "label_as_printed": "Buffalo milk",
+    "page": "ingredients/milk-and-dairy",
+    "form": "dried",
+    "state": "raw",
+    "route_rule": "exact",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Pb",
+   "group": "Ujjina village, Mewat district, Haryana (drain-water irrigated fodder), winter and summer",
+   "group_kind": "all_samples",
+   "n": null,
+   "statistic": "mean",
+   "reported": "0.28 ppm",
+   "value_ugkg": 280,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "ppm",
+   "basis": "dry",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Results text, p. 1605",
+   "integrity_flag": null,
+   "notes": "Mean printed in the Results text (values also shown in Figures 2-6); sample count not stated; results per g dry milk.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "meena2016-mewat-wastewater-buffalo-cow-goat-milk-metals:Cd:buffalo-milk-ujjina-village-mewat-district-haryana:mean",
+   "material": {
+    "label_as_printed": "Buffalo milk",
+    "page": "ingredients/milk-and-dairy",
+    "form": "dried",
+    "state": "raw",
+    "route_rule": "exact",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Cd",
+   "group": "Ujjina village, Mewat district, Haryana (drain-water irrigated fodder), winter and summer",
+   "group_kind": "all_samples",
+   "n": null,
+   "statistic": "mean",
+   "reported": "0.13 ppm",
+   "value_ugkg": 130,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "ppm",
+   "basis": "dry",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Results text, p. 1605",
+   "integrity_flag": null,
+   "notes": "Mean printed in the Results text (values also shown in Figures 2-6); sample count not stated; results per g dry milk.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "meena2016-mewat-wastewater-buffalo-cow-goat-milk-metals:Ni:cow-milk-ujjina-village-mewat-district-haryana-dra:mean",
+   "material": {
+    "label_as_printed": "Cow milk",
+    "page": "ingredients/milk-and-dairy",
+    "form": "dried",
+    "state": "raw",
+    "route_rule": "exact",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Ni",
+   "group": "Ujjina village, Mewat district, Haryana (drain-water irrigated fodder), winter and summer",
+   "group_kind": "all_samples",
+   "n": null,
+   "statistic": "mean",
+   "reported": "0.16 ppm",
+   "value_ugkg": 160,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "ppm",
+   "basis": "dry",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Results text, p. 1605",
+   "integrity_flag": null,
+   "notes": "Mean printed in the Results text (values also shown in Figures 2-6); sample count not stated; results per g dry milk. Only Ni and Pb are printed for cow milk; other metals figure-only (Figures 4-5).",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "meena2016-mewat-wastewater-buffalo-cow-goat-milk-metals:Pb:cow-milk-ujjina-village-mewat-district-haryana-dra:mean",
+   "material": {
+    "label_as_printed": "Cow milk",
+    "page": "ingredients/milk-and-dairy",
+    "form": "dried",
+    "state": "raw",
+    "route_rule": "exact",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Pb",
+   "group": "Ujjina village, Mewat district, Haryana (drain-water irrigated fodder), winter and summer",
+   "group_kind": "all_samples",
+   "n": null,
+   "statistic": "mean",
+   "reported": "0.41 ppm",
+   "value_ugkg": 410,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "ppm",
+   "basis": "dry",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Results text, p. 1605",
+   "integrity_flag": null,
+   "notes": "Mean printed in the Results text (values also shown in Figures 2-6); sample count not stated; results per g dry milk. Only Ni and Pb are printed for cow milk; other metals figure-only (Figures 4-5).",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "meena2016-mewat-wastewater-buffalo-cow-goat-milk-metals:Fe:goat-milk-ujjina-village-mewat-district-haryana-dr:mean",
+   "material": {
+    "label_as_printed": "Goat milk",
+    "page": "ingredients/milk-and-dairy",
+    "form": "dried",
+    "state": "raw",
+    "route_rule": "exact",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Fe",
+   "group": "Ujjina village, Mewat district, Haryana (drain-water irrigated fodder), winter and summer",
+   "group_kind": "all_samples",
+   "n": null,
+   "statistic": "mean",
+   "reported": "11.24 ppm",
+   "value_ugkg": 11240,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "ppm",
+   "basis": "dry",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Results text, p. 1605",
+   "integrity_flag": null,
+   "notes": "Mean printed in the Results text (values also shown in Figures 2-6); sample count not stated; results per g dry milk.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "meena2016-mewat-wastewater-buffalo-cow-goat-milk-metals:Zn:goat-milk-ujjina-village-mewat-district-haryana-dr:mean",
+   "material": {
+    "label_as_printed": "Goat milk",
+    "page": "ingredients/milk-and-dairy",
+    "form": "dried",
+    "state": "raw",
+    "route_rule": "exact",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Zn",
+   "group": "Ujjina village, Mewat district, Haryana (drain-water irrigated fodder), winter and summer",
+   "group_kind": "all_samples",
+   "n": null,
+   "statistic": "mean",
+   "reported": "2.47 ppm",
+   "value_ugkg": 2470,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "ppm",
+   "basis": "dry",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Results text, p. 1605",
+   "integrity_flag": null,
+   "notes": "Mean printed in the Results text (values also shown in Figures 2-6); sample count not stated; results per g dry milk.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "meena2016-mewat-wastewater-buffalo-cow-goat-milk-metals:Cr:goat-milk-ujjina-village-mewat-district-haryana-dr:mean",
+   "material": {
+    "label_as_printed": "Goat milk",
+    "page": "ingredients/milk-and-dairy",
+    "form": "dried",
+    "state": "raw",
+    "route_rule": "exact",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Cr",
+   "group": "Ujjina village, Mewat district, Haryana (drain-water irrigated fodder), winter and summer",
+   "group_kind": "all_samples",
+   "n": null,
+   "statistic": "mean",
+   "reported": "0.07 ppm",
+   "value_ugkg": 70,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "ppm",
+   "basis": "dry",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Results text, p. 1605",
+   "integrity_flag": null,
+   "notes": "Mean printed in the Results text (values also shown in Figures 2-6); sample count not stated; results per g dry milk.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "meena2016-mewat-wastewater-buffalo-cow-goat-milk-metals:Pb:goat-milk-ujjina-village-mewat-district-haryana-dr:mean",
+   "material": {
+    "label_as_printed": "Goat milk",
+    "page": "ingredients/milk-and-dairy",
+    "form": "dried",
+    "state": "raw",
+    "route_rule": "exact",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Pb",
+   "group": "Ujjina village, Mewat district, Haryana (drain-water irrigated fodder), winter and summer",
+   "group_kind": "all_samples",
+   "n": null,
+   "statistic": "mean",
+   "reported": "0.05 ppm",
+   "value_ugkg": 50,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "ppm",
+   "basis": "dry",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Results text, p. 1605",
+   "integrity_flag": null,
+   "notes": "Mean printed in the Results text (values also shown in Figures 2-6); sample count not stated; results per g dry milk.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "meena2016-mewat-wastewater-buffalo-cow-goat-milk-metals:Cu:goat-milk-ujjina-village-mewat-district-haryana-dr:mean",
+   "material": {
+    "label_as_printed": "Goat milk",
+    "page": "ingredients/milk-and-dairy",
+    "form": "dried",
+    "state": "raw",
+    "route_rule": "exact",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Cu",
+   "group": "Ujjina village, Mewat district, Haryana (drain-water irrigated fodder), winter and summer",
+   "group_kind": "all_samples",
+   "n": null,
+   "statistic": "mean",
+   "reported": "0.11 ppm",
+   "value_ugkg": 110,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "ppm",
+   "basis": "dry",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Results text, p. 1605",
+   "integrity_flag": null,
+   "notes": "Mean printed in the Results text (values also shown in Figures 2-6); sample count not stated; results per g dry milk.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "meena2016-mewat-wastewater-buffalo-cow-goat-milk-metals:Mn:goat-milk-ujjina-village-mewat-district-haryana-dr:mean",
+   "material": {
+    "label_as_printed": "Goat milk",
+    "page": "ingredients/milk-and-dairy",
+    "form": "dried",
+    "state": "raw",
+    "route_rule": "exact",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Mn",
+   "group": "Ujjina village, Mewat district, Haryana (drain-water irrigated fodder), winter and summer",
+   "group_kind": "all_samples",
+   "n": null,
+   "statistic": "mean",
+   "reported": "0.04 ppm",
+   "value_ugkg": 40,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "ppm",
+   "basis": "dry",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Results text, p. 1605",
+   "integrity_flag": null,
+   "notes": "Mean printed in the Results text (values also shown in Figures 2-6); sample count not stated; results per g dry milk.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "meena2016-mewat-wastewater-buffalo-cow-goat-milk-metals:Ni:goat-milk-ujjina-village-mewat-district-haryana-dr:mean",
+   "material": {
+    "label_as_printed": "Goat milk",
+    "page": "ingredients/milk-and-dairy",
+    "form": "dried",
+    "state": "raw",
+    "route_rule": "exact",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Ni",
+   "group": "Ujjina village, Mewat district, Haryana (drain-water irrigated fodder), winter and summer",
+   "group_kind": "all_samples",
+   "n": null,
+   "statistic": "mean",
+   "reported": "0.01 ppm",
+   "value_ugkg": 10,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "ppm",
+   "basis": "dry",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Results text, p. 1605",
+   "integrity_flag": null,
+   "notes": "Mean printed in the Results text (values also shown in Figures 2-6); sample count not stated; results per g dry milk.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "meena2016-mewat-wastewater-buffalo-cow-goat-milk-metals:Cd:goat-milk-ujjina-village-mewat-district-haryana-dr:mean",
+   "material": {
+    "label_as_printed": "Goat milk",
+    "page": "ingredients/milk-and-dairy",
+    "form": "dried",
+    "state": "raw",
+    "route_rule": "exact",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Cd",
+   "group": "Ujjina village, Mewat district, Haryana (drain-water irrigated fodder), winter and summer",
+   "group_kind": "all_samples",
+   "n": null,
+   "statistic": "mean",
+   "reported": "0.01 ppm",
+   "value_ugkg": 10,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "ppm",
+   "basis": "dry",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Results text, p. 1605",
+   "integrity_flag": null,
+   "notes": "Mean printed in the Results text (values also shown in Figures 2-6); sample count not stated; results per g dry milk.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "meena2016-mewat-wastewater-buffalo-cow-goat-milk-metals:Fe:milk-buffalo-cow-and-goat-study-overall-ujjina-vil:mean",
+   "material": {
+    "label_as_printed": "Milk (buffalo, cow and goat, study overall)",
+    "page": "ingredients/milk-and-dairy",
+    "form": "dried",
+    "state": "raw",
+    "route_rule": "exact",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Fe",
+   "group": "Ujjina village, Mewat district, Haryana (drain-water irrigated fodder), winter and summer",
+   "group_kind": "all_samples",
+   "n": null,
+   "statistic": "mean",
+   "reported": "10.90 mg/kg",
+   "value_ugkg": 10900,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "dry",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Discussion, p. 1608",
+   "integrity_flag": null,
+   "notes": "Study-level value printed in the comparison with other countries; how it was pooled is not stated.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "meena2016-mewat-wastewater-buffalo-cow-goat-milk-metals:Cu:milk-buffalo-cow-and-goat-study-overall-ujjina-vil:mean",
+   "material": {
+    "label_as_printed": "Milk (buffalo, cow and goat, study overall)",
+    "page": "ingredients/milk-and-dairy",
+    "form": "dried",
+    "state": "raw",
+    "route_rule": "exact",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Cu",
+   "group": "Ujjina village, Mewat district, Haryana (drain-water irrigated fodder), winter and summer",
+   "group_kind": "all_samples",
+   "n": null,
+   "statistic": "mean",
+   "reported": "0.903 mg/kg",
+   "value_ugkg": 903,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "dry",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Discussion, p. 1608",
+   "integrity_flag": null,
+   "notes": "Study-level value printed in the comparison with other countries; how it was pooled is not stated.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "meena2016-mewat-wastewater-buffalo-cow-goat-milk-metals:Mn:milk-buffalo-cow-and-goat-study-overall-ujjina-vil:mean",
+   "material": {
+    "label_as_printed": "Milk (buffalo, cow and goat, study overall)",
+    "page": "ingredients/milk-and-dairy",
+    "form": "dried",
+    "state": "raw",
+    "route_rule": "exact",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Mn",
+   "group": "Ujjina village, Mewat district, Haryana (drain-water irrigated fodder), winter and summer",
+   "group_kind": "all_samples",
+   "n": null,
+   "statistic": "mean",
+   "reported": "0.320 mg/kg",
+   "value_ugkg": 320,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "dry",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Discussion, p. 1608",
+   "integrity_flag": null,
+   "notes": "Study-level value printed in the comparison with other countries; how it was pooled is not stated.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "meena2016-mewat-wastewater-buffalo-cow-goat-milk-metals:Zn:milk-buffalo-cow-and-goat-study-overall-ujjina-vil:mean",
+   "material": {
+    "label_as_printed": "Milk (buffalo, cow and goat, study overall)",
+    "page": "ingredients/milk-and-dairy",
+    "form": "dried",
+    "state": "raw",
+    "route_rule": "exact",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Zn",
+   "group": "Ujjina village, Mewat district, Haryana (drain-water irrigated fodder), winter and summer",
+   "group_kind": "all_samples",
+   "n": null,
+   "statistic": "mean",
+   "reported": "2.253 mg/kg",
+   "value_ugkg": 2253,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "dry",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Discussion, p. 1608",
+   "integrity_flag": null,
+   "notes": "Study-level value printed in the comparison with other countries; how it was pooled is not stated.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "meena2016-mewat-wastewater-buffalo-cow-goat-milk-metals:Cr:milk-buffalo-cow-and-goat-study-overall-ujjina-vil:mean",
+   "material": {
+    "label_as_printed": "Milk (buffalo, cow and goat, study overall)",
+    "page": "ingredients/milk-and-dairy",
+    "form": "dried",
+    "state": "raw",
+    "route_rule": "exact",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Cr",
+   "group": "Ujjina village, Mewat district, Haryana (drain-water irrigated fodder), winter and summer",
+   "group_kind": "all_samples",
+   "n": null,
+   "statistic": "mean",
+   "reported": "0.077 mg/kg",
+   "value_ugkg": 77,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "dry",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Discussion, p. 1608",
+   "integrity_flag": null,
+   "notes": "Study-level value printed in the comparison with other countries; how it was pooled is not stated.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "meena2016-mewat-wastewater-buffalo-cow-goat-milk-metals:Ni:milk-buffalo-cow-and-goat-study-overall-ujjina-vil:mean",
+   "material": {
+    "label_as_printed": "Milk (buffalo, cow and goat, study overall)",
+    "page": "ingredients/milk-and-dairy",
+    "form": "dried",
+    "state": "raw",
+    "route_rule": "exact",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Ni",
+   "group": "Ujjina village, Mewat district, Haryana (drain-water irrigated fodder), winter and summer",
+   "group_kind": "all_samples",
+   "n": null,
+   "statistic": "mean",
+   "reported": "0.120 mg/kg",
+   "value_ugkg": 120,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "dry",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Discussion, p. 1608",
+   "integrity_flag": null,
+   "notes": "Study-level value printed in the comparison with other countries; how it was pooled is not stated.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "meena2016-mewat-wastewater-buffalo-cow-goat-milk-metals:Pb:milk-buffalo-cow-and-goat-study-overall-ujjina-vil:mean",
+   "material": {
+    "label_as_printed": "Milk (buffalo, cow and goat, study overall)",
+    "page": "ingredients/milk-and-dairy",
+    "form": "dried",
+    "state": "raw",
+    "route_rule": "exact",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Pb",
+   "group": "Ujjina village, Mewat district, Haryana (drain-water irrigated fodder), winter and summer",
+   "group_kind": "all_samples",
+   "n": null,
+   "statistic": "mean",
+   "reported": "0.234 mg/kg",
+   "value_ugkg": 234,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "dry",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Discussion, p. 1608",
+   "integrity_flag": null,
+   "notes": "Study-level value printed in the comparison with other countries; how it was pooled is not stated.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "meena2016-mewat-wastewater-buffalo-cow-goat-milk-metals:Cd:milk-buffalo-cow-and-goat-study-overall-ujjina-vil:mean",
+   "material": {
+    "label_as_printed": "Milk (buffalo, cow and goat, study overall)",
+    "page": "ingredients/milk-and-dairy",
+    "form": "dried",
+    "state": "raw",
+    "route_rule": "exact",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Cd",
+   "group": "Ujjina village, Mewat district, Haryana (drain-water irrigated fodder), winter and summer",
+   "group_kind": "all_samples",
+   "n": null,
+   "statistic": "mean",
+   "reported": "0.234 mg/kg",
+   "value_ugkg": 234,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "dry",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Discussion, p. 1608",
+   "integrity_flag": "Overall Cd 0.234 mg/kg exceeds the printed buffalo (0.13) and goat (0.01) means, while cow Cd THQ (2) is below buffalo (5); cannot be an average of the species means; identical to the Pb value",
+   "notes": "Study-level value printed in the comparison with other countries; how it was pooled is not stated.",
+   "statistic_raw": "mean"
+  }
+ ],
+ "sample_values": [],
+ "controls": [
+  {
+   "control": "animal species (buffalo vs cow vs goat)",
+   "stage": "sourcing",
+   "evidence_kind": "observational",
+   "comparator": "goat milk",
+   "outcome": "Pb buffalo 0.28 and cow 0.41 vs goat 0.05 ppm dry weight; Cd buffalo 0.13 vs goat 0.01 ppm",
+   "analytes": [
+    "Pb",
+    "Cd"
+   ],
+   "locator": "Results p. 1605"
+  }
+ ],
+ "unresolved": [
+  "Sample numbers per species and season not stated.",
+  "Cow milk Fe, Cu, Mn, Zn, Cr and Cd only in Figures 4-5 (figure-only, not extracted).",
+  "Overall study Pb and Cd both printed as 0.234 mg/kg; the Cd value is inconsistent with the species means.",
+  "Title mentions milk products but only milk was analysed.",
+  "Dry-weight basis; moisture content not reported so fresh-weight values cannot be derived."
+ ],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [
+  {
+   "what": "Daily intake of metals from 290 g/day milk vs maximum allowable limit (FDA 2001, EC 2003)",
+   "value": "Pb DIM male cow 0.81, buffalo 0.88, goat 0.21 vs MAL 0.07 (units printed as mg/kg)",
+   "locator": "Table 1, p. 1608"
+  },
+  {
+   "what": "THQ",
+   "value": "Pb THQ 3 (buffalo, cow), Cd 5 (buffalo), 2 (cow)",
+   "locator": "Table 2"
+  }
+ ],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/meena2016-mewat-wastewater-buffalo-cow-goat-milk-metals.md",
+ "non_numeric_findings": [],
+ "merged_unmatched": [],
+ "merged_snapshot": null,
+ "raw_output": "data/evidence/findings/extract/raw/meena2016-mewat-wastewater-buffalo-cow-goat-milk-metals.json"
+}

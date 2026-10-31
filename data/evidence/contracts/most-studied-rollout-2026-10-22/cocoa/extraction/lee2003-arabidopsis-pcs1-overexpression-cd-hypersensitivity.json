@@ -1,0 +1,29 @@
+{
+  "source_id": "lee2003-arabidopsis-pcs1-overexpression-cd-hypersensitivity",
+  "primary_artifact": "/Volumes/HMI-Library/heavy-metal-index-raw/Manual Fetch Kimi /June 8/Kimi_Agent_Black Market Peptide Metal Survey/heavy_metals_peptides/38_Overexpression_of_Arabidopsis_Phytochelatin_Synthase_Paradox.pdf",
+  "primary_sha256": "d92f749175be255ca1185c468f5af69641574d04558615c036db0ddc0ba03b69",
+  "text_copy": "data/evidence/contracts/most-studied-rollout-2026-10-22/cocoa/primary/lee2003-arabidopsis-pcs1-overexpression-cd-hypersensitivity.txt",
+  "disposition": "out_of_scope",
+  "disposition_reason": "Plant physiology study of Arabidopsis phytochelatin synthase (AtPCS1) overexpression causing Cd hypersensitivity; the primary text contains no mention of cocoa, cacao, chocolate or Theobroma.",
+  "disposition_locator": "Whole document searched (zero matches)",
+  "study": {
+    "design": "laboratory plant study",
+    "material_scope": "Arabidopsis thaliana transgenic lines; no cocoa",
+    "growing_origin_vs_market": null,
+    "collection_period": null,
+    "n_total": null,
+    "sampling_unit": null,
+    "method": null,
+    "lod_loq": null,
+    "basis": null,
+    "qa": null
+  },
+  "findings": [],
+  "sample_values": [],
+  "controls": [],
+  "regulatory": [],
+  "contradictions_with_stored_summary": [
+    "The stored wiki summary mentions cacao as a candidate crop for the finding's implications; the primary paper does not mention cacao (wiki extrapolation)."
+  ],
+  "unresolved": []
+}

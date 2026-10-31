@@ -1,0 +1,545 @@
+{
+ "source_id": "sani2024-hadejia-nigeria-chocolates-metals",
+ "primary_artifact": "/Users/kmfp/papers-for-claude/hmi-thin/batch-04/pdfs/chocolate-pudding__Sani2024__10.38124_ijisrt_ijisrt24nov875.pdf",
+ "primary_sha256": "111a8565584f99b439683b403b1f3496d757f21b018b466ff473f89e6ea302e7",
+ "extracted_at": "2026-10-24",
+ "extractor": "engine-v1",
+ "disposition": "no_numeric_results",
+ "disposition_reason": "Table 1 gives one lead, cadmium, chromium and nickel value for each of four chocolate brands, but the printed mg/g unit is implausible, so values are flagged and not converted.",
+ "disposition_locator": "Table 1, p. 1543",
+ "study": {
+  "design": "small market survey of chocolate brands",
+  "origin": "not stated",
+  "market": "one supermarket, Hadejia metropolis, Jigawa State, Nigeria",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": ""
+  },
+  "method": "flame AAS (AAS 460) after hot-plate wet digestion with HNO3/H2O2 (1:1) at 80 C",
+  "lod": [
+   "not reported"
+  ],
+  "basis": "dry",
+  "qa": "reagent blank only; no CRM or recovery",
+  "site_context": "market"
+ },
+ "findings": [],
+ "sample_values": [],
+ "controls": [],
+ "unresolved": [
+  "Table 1 unit 'mg/g' gives 50-170 mg/kg Pb and 280-650 mg/kg Cr, implausible for chocolate; text repeats mg/g. Values kept verbatim, value_ugkg null.",
+  "Text range for Pb (0.005-0.17) conflicts with Table 1 minimum 0.05.",
+  "Comparison row 'FAO/WHO RDA' (Pb 0.015, Cd 0.005, Cr 0.1, Ni 0.1) is not a recognised food limit.",
+  "Text mentions 'soft chocolate' and 'candy samples' but only four chocolates are reported.",
+  "No LOD, CRM or recoveries."
+ ],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/sani2024-hadejia-nigeria-chocolates-metals.md",
+ "non_numeric_findings": [
+  {
+   "id": "sani2024-hadejia-nigeria-chocolates-metals:Pb:chocolate-retail-chocolate-product-bc:sample_value",
+   "material": {
+    "label_as_printed": "Chocolate",
+    "page": "ingredients/chocolate",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "exact",
+    "pages_also": [
+     "products/chocolate"
+    ]
+   },
+   "analyte": "Pb",
+   "group": "retail chocolate product (BC)",
+   "group_kind": "brand_category",
+   "n": 1,
+   "statistic": "sample_value",
+   "reported": "0.05 mg/g",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/g",
+   "basis": "dry",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 1, row BC, column Pb, p. 1543",
+   "integrity_flag": "Unit label mg/g implies 50 mg/kg Pb, implausible for chocolate and inconsistent with the cited comparison data; true unit (possibly mg/kg or mg/L of digest) cannot be determined",
+   "notes": "Coded brand bought at one supermarket in Hadejia; samples oven-dried at 70 C before digestion; triplicate digests, single value printed. value_ugkg withheld because of the unit conflict.",
+   "statistic_raw": "sample_value"
+  },
+  {
+   "id": "sani2024-hadejia-nigeria-chocolates-metals:Cd:chocolate-retail-chocolate-product-bc:sample_value",
+   "material": {
+    "label_as_printed": "Chocolate",
+    "page": "ingredients/chocolate",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "exact",
+    "pages_also": [
+     "products/chocolate"
+    ]
+   },
+   "analyte": "Cd",
+   "group": "retail chocolate product (BC)",
+   "group_kind": "brand_category",
+   "n": 1,
+   "statistic": "sample_value",
+   "reported": "0.03 mg/g",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/g",
+   "basis": "dry",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 1, row BC, column Cd, p. 1543",
+   "integrity_flag": "Unit label mg/g implies 30 mg/kg Cd, implausible for chocolate and inconsistent with the cited comparison data; true unit (possibly mg/kg or mg/L of digest) cannot be determined",
+   "notes": "Coded brand bought at one supermarket in Hadejia; samples oven-dried at 70 C before digestion; triplicate digests, single value printed. value_ugkg withheld because of the unit conflict.",
+   "statistic_raw": "sample_value"
+  },
+  {
+   "id": "sani2024-hadejia-nigeria-chocolates-metals:Cr:chocolate-retail-chocolate-product-bc:sample_value",
+   "material": {
+    "label_as_printed": "Chocolate",
+    "page": "ingredients/chocolate",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "exact",
+    "pages_also": [
+     "products/chocolate"
+    ]
+   },
+   "analyte": "Cr",
+   "group": "retail chocolate product (BC)",
+   "group_kind": "brand_category",
+   "n": 1,
+   "statistic": "sample_value",
+   "reported": "0.65 mg/g",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/g",
+   "basis": "dry",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 1, row BC, column Cr, p. 1543",
+   "integrity_flag": "Unit label mg/g implies 650 mg/kg Cr, implausible for chocolate and inconsistent with the cited comparison data; true unit (possibly mg/kg or mg/L of digest) cannot be determined",
+   "notes": "Coded brand bought at one supermarket in Hadejia; samples oven-dried at 70 C before digestion; triplicate digests, single value printed. value_ugkg withheld because of the unit conflict.",
+   "statistic_raw": "sample_value"
+  },
+  {
+   "id": "sani2024-hadejia-nigeria-chocolates-metals:Ni:chocolate-retail-chocolate-product-bc:sample_value",
+   "material": {
+    "label_as_printed": "Chocolate",
+    "page": "ingredients/chocolate",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "exact",
+    "pages_also": [
+     "products/chocolate"
+    ]
+   },
+   "analyte": "Ni",
+   "group": "retail chocolate product (BC)",
+   "group_kind": "brand_category",
+   "n": 1,
+   "statistic": "sample_value",
+   "reported": "0.07 mg/g",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/g",
+   "basis": "dry",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 1, row BC, column Ni, p. 1543",
+   "integrity_flag": "Unit label mg/g implies 70 mg/kg Ni, implausible for chocolate and inconsistent with the cited comparison data; true unit (possibly mg/kg or mg/L of digest) cannot be determined",
+   "notes": "Coded brand bought at one supermarket in Hadejia; samples oven-dried at 70 C before digestion; triplicate digests, single value printed. value_ugkg withheld because of the unit conflict.",
+   "statistic_raw": "sample_value"
+  },
+  {
+   "id": "sani2024-hadejia-nigeria-chocolates-metals:Pb:chocolate-retail-chocolate-product-gc:sample_value",
+   "material": {
+    "label_as_printed": "Chocolate",
+    "page": "ingredients/chocolate",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "exact",
+    "pages_also": [
+     "products/chocolate"
+    ]
+   },
+   "analyte": "Pb",
+   "group": "retail chocolate product (GC)",
+   "group_kind": "brand_category",
+   "n": 1,
+   "statistic": "sample_value",
+   "reported": "0.11 mg/g",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/g",
+   "basis": "dry",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 1, row GC, column Pb, p. 1543",
+   "integrity_flag": "Unit label mg/g implies 110 mg/kg Pb, implausible for chocolate and inconsistent with the cited comparison data; true unit (possibly mg/kg or mg/L of digest) cannot be determined",
+   "notes": "Coded brand bought at one supermarket in Hadejia; samples oven-dried at 70 C before digestion; triplicate digests, single value printed. value_ugkg withheld because of the unit conflict.",
+   "statistic_raw": "sample_value"
+  },
+  {
+   "id": "sani2024-hadejia-nigeria-chocolates-metals:Cd:chocolate-retail-chocolate-product-gc:sample_value",
+   "material": {
+    "label_as_printed": "Chocolate",
+    "page": "ingredients/chocolate",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "exact",
+    "pages_also": [
+     "products/chocolate"
+    ]
+   },
+   "analyte": "Cd",
+   "group": "retail chocolate product (GC)",
+   "group_kind": "brand_category",
+   "n": 1,
+   "statistic": "sample_value",
+   "reported": "0.04 mg/g",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/g",
+   "basis": "dry",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 1, row GC, column Cd, p. 1543",
+   "integrity_flag": "Unit label mg/g implies 40 mg/kg Cd, implausible for chocolate and inconsistent with the cited comparison data; true unit (possibly mg/kg or mg/L of digest) cannot be determined",
+   "notes": "Coded brand bought at one supermarket in Hadejia; samples oven-dried at 70 C before digestion; triplicate digests, single value printed. value_ugkg withheld because of the unit conflict.",
+   "statistic_raw": "sample_value"
+  },
+  {
+   "id": "sani2024-hadejia-nigeria-chocolates-metals:Cr:chocolate-retail-chocolate-product-gc:sample_value",
+   "material": {
+    "label_as_printed": "Chocolate",
+    "page": "ingredients/chocolate",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "exact",
+    "pages_also": [
+     "products/chocolate"
+    ]
+   },
+   "analyte": "Cr",
+   "group": "retail chocolate product (GC)",
+   "group_kind": "brand_category",
+   "n": 1,
+   "statistic": "sample_value",
+   "reported": "0.47 mg/g",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/g",
+   "basis": "dry",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 1, row GC, column Cr, p. 1543",
+   "integrity_flag": "Unit label mg/g implies 470 mg/kg Cr, implausible for chocolate and inconsistent with the cited comparison data; true unit (possibly mg/kg or mg/L of digest) cannot be determined",
+   "notes": "Coded brand bought at one supermarket in Hadejia; samples oven-dried at 70 C before digestion; triplicate digests, single value printed. value_ugkg withheld because of the unit conflict.",
+   "statistic_raw": "sample_value"
+  },
+  {
+   "id": "sani2024-hadejia-nigeria-chocolates-metals:Ni:chocolate-retail-chocolate-product-gc:sample_value",
+   "material": {
+    "label_as_printed": "Chocolate",
+    "page": "ingredients/chocolate",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "exact",
+    "pages_also": [
+     "products/chocolate"
+    ]
+   },
+   "analyte": "Ni",
+   "group": "retail chocolate product (GC)",
+   "group_kind": "brand_category",
+   "n": 1,
+   "statistic": "sample_value",
+   "reported": "0.08 mg/g",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/g",
+   "basis": "dry",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 1, row GC, column Ni, p. 1543",
+   "integrity_flag": "Unit label mg/g implies 80 mg/kg Ni, implausible for chocolate and inconsistent with the cited comparison data; true unit (possibly mg/kg or mg/L of digest) cannot be determined",
+   "notes": "Coded brand bought at one supermarket in Hadejia; samples oven-dried at 70 C before digestion; triplicate digests, single value printed. value_ugkg withheld because of the unit conflict.",
+   "statistic_raw": "sample_value"
+  },
+  {
+   "id": "sani2024-hadejia-nigeria-chocolates-metals:Pb:chocolate-retail-chocolate-product-lc:sample_value",
+   "material": {
+    "label_as_printed": "Chocolate",
+    "page": "ingredients/chocolate",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "exact",
+    "pages_also": [
+     "products/chocolate"
+    ]
+   },
+   "analyte": "Pb",
+   "group": "retail chocolate product (LC)",
+   "group_kind": "brand_category",
+   "n": 1,
+   "statistic": "sample_value",
+   "reported": "0.1 mg/g",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/g",
+   "basis": "dry",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 1, row LC, column Pb, p. 1543",
+   "integrity_flag": "Unit label mg/g implies 100 mg/kg Pb, implausible for chocolate and inconsistent with the cited comparison data; true unit (possibly mg/kg or mg/L of digest) cannot be determined",
+   "notes": "Coded brand bought at one supermarket in Hadejia; samples oven-dried at 70 C before digestion; triplicate digests, single value printed. value_ugkg withheld because of the unit conflict.",
+   "statistic_raw": "sample_value"
+  },
+  {
+   "id": "sani2024-hadejia-nigeria-chocolates-metals:Cd:chocolate-retail-chocolate-product-lc:sample_value",
+   "material": {
+    "label_as_printed": "Chocolate",
+    "page": "ingredients/chocolate",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "exact",
+    "pages_also": [
+     "products/chocolate"
+    ]
+   },
+   "analyte": "Cd",
+   "group": "retail chocolate product (LC)",
+   "group_kind": "brand_category",
+   "n": 1,
+   "statistic": "sample_value",
+   "reported": "0.05 mg/g",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/g",
+   "basis": "dry",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 1, row LC, column Cd, p. 1543",
+   "integrity_flag": "Unit label mg/g implies 50 mg/kg Cd, implausible for chocolate and inconsistent with the cited comparison data; true unit (possibly mg/kg or mg/L of digest) cannot be determined",
+   "notes": "Coded brand bought at one supermarket in Hadejia; samples oven-dried at 70 C before digestion; triplicate digests, single value printed. value_ugkg withheld because of the unit conflict.",
+   "statistic_raw": "sample_value"
+  },
+  {
+   "id": "sani2024-hadejia-nigeria-chocolates-metals:Cr:chocolate-retail-chocolate-product-lc:sample_value",
+   "material": {
+    "label_as_printed": "Chocolate",
+    "page": "ingredients/chocolate",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "exact",
+    "pages_also": [
+     "products/chocolate"
+    ]
+   },
+   "analyte": "Cr",
+   "group": "retail chocolate product (LC)",
+   "group_kind": "brand_category",
+   "n": 1,
+   "statistic": "sample_value",
+   "reported": "0.28 mg/g",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/g",
+   "basis": "dry",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 1, row LC, column Cr, p. 1543",
+   "integrity_flag": "Unit label mg/g implies 280 mg/kg Cr, implausible for chocolate and inconsistent with the cited comparison data; true unit (possibly mg/kg or mg/L of digest) cannot be determined",
+   "notes": "Coded brand bought at one supermarket in Hadejia; samples oven-dried at 70 C before digestion; triplicate digests, single value printed. value_ugkg withheld because of the unit conflict.",
+   "statistic_raw": "sample_value"
+  },
+  {
+   "id": "sani2024-hadejia-nigeria-chocolates-metals:Ni:chocolate-retail-chocolate-product-lc:sample_value",
+   "material": {
+    "label_as_printed": "Chocolate",
+    "page": "ingredients/chocolate",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "exact",
+    "pages_also": [
+     "products/chocolate"
+    ]
+   },
+   "analyte": "Ni",
+   "group": "retail chocolate product (LC)",
+   "group_kind": "brand_category",
+   "n": 1,
+   "statistic": "sample_value",
+   "reported": "0.1 mg/g",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/g",
+   "basis": "dry",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 1, row LC, column Ni, p. 1543",
+   "integrity_flag": "Unit label mg/g implies 100 mg/kg Ni, implausible for chocolate and inconsistent with the cited comparison data; true unit (possibly mg/kg or mg/L of digest) cannot be determined",
+   "notes": "Coded brand bought at one supermarket in Hadejia; samples oven-dried at 70 C before digestion; triplicate digests, single value printed. value_ugkg withheld because of the unit conflict.",
+   "statistic_raw": "sample_value"
+  },
+  {
+   "id": "sani2024-hadejia-nigeria-chocolates-metals:Pb:chocolate-retail-chocolate-product-sc:sample_value",
+   "material": {
+    "label_as_printed": "Chocolate",
+    "page": "ingredients/chocolate",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "exact",
+    "pages_also": [
+     "products/chocolate"
+    ]
+   },
+   "analyte": "Pb",
+   "group": "retail chocolate product (SC)",
+   "group_kind": "brand_category",
+   "n": 1,
+   "statistic": "sample_value",
+   "reported": "0.17 mg/g",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/g",
+   "basis": "dry",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 1, row SC, column Pb, p. 1543",
+   "integrity_flag": "Unit label mg/g implies 170 mg/kg Pb, implausible for chocolate and inconsistent with the cited comparison data; true unit (possibly mg/kg or mg/L of digest) cannot be determined",
+   "notes": "Coded brand bought at one supermarket in Hadejia; samples oven-dried at 70 C before digestion; triplicate digests, single value printed. value_ugkg withheld because of the unit conflict.",
+   "statistic_raw": "sample_value"
+  },
+  {
+   "id": "sani2024-hadejia-nigeria-chocolates-metals:Cd:chocolate-retail-chocolate-product-sc:sample_value",
+   "material": {
+    "label_as_printed": "Chocolate",
+    "page": "ingredients/chocolate",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "exact",
+    "pages_also": [
+     "products/chocolate"
+    ]
+   },
+   "analyte": "Cd",
+   "group": "retail chocolate product (SC)",
+   "group_kind": "brand_category",
+   "n": 1,
+   "statistic": "sample_value",
+   "reported": "0.05 mg/g",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/g",
+   "basis": "dry",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 1, row SC, column Cd, p. 1543",
+   "integrity_flag": "Unit label mg/g implies 50 mg/kg Cd, implausible for chocolate and inconsistent with the cited comparison data; true unit (possibly mg/kg or mg/L of digest) cannot be determined",
+   "notes": "Coded brand bought at one supermarket in Hadejia; samples oven-dried at 70 C before digestion; triplicate digests, single value printed. value_ugkg withheld because of the unit conflict.",
+   "statistic_raw": "sample_value"
+  },
+  {
+   "id": "sani2024-hadejia-nigeria-chocolates-metals:Cr:chocolate-retail-chocolate-product-sc:sample_value",
+   "material": {
+    "label_as_printed": "Chocolate",
+    "page": "ingredients/chocolate",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "exact",
+    "pages_also": [
+     "products/chocolate"
+    ]
+   },
+   "analyte": "Cr",
+   "group": "retail chocolate product (SC)",
+   "group_kind": "brand_category",
+   "n": 1,
+   "statistic": "sample_value",
+   "reported": "0.53 mg/g",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/g",
+   "basis": "dry",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 1, row SC, column Cr, p. 1543",
+   "integrity_flag": "Unit label mg/g implies 530 mg/kg Cr, implausible for chocolate and inconsistent with the cited comparison data; true unit (possibly mg/kg or mg/L of digest) cannot be determined",
+   "notes": "Coded brand bought at one supermarket in Hadejia; samples oven-dried at 70 C before digestion; triplicate digests, single value printed. value_ugkg withheld because of the unit conflict.",
+   "statistic_raw": "sample_value"
+  },
+  {
+   "id": "sani2024-hadejia-nigeria-chocolates-metals:Ni:chocolate-retail-chocolate-product-sc:sample_value",
+   "material": {
+    "label_as_printed": "Chocolate",
+    "page": "ingredients/chocolate",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "exact",
+    "pages_also": [
+     "products/chocolate"
+    ]
+   },
+   "analyte": "Ni",
+   "group": "retail chocolate product (SC)",
+   "group_kind": "brand_category",
+   "n": 1,
+   "statistic": "sample_value",
+   "reported": "0.06 mg/g",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/g",
+   "basis": "dry",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 1, row SC, column Ni, p. 1543",
+   "integrity_flag": "Unit label mg/g implies 60 mg/kg Ni, implausible for chocolate and inconsistent with the cited comparison data; true unit (possibly mg/kg or mg/L of digest) cannot be determined",
+   "notes": "Coded brand bought at one supermarket in Hadejia; samples oven-dried at 70 C before digestion; triplicate digests, single value printed. value_ugkg withheld because of the unit conflict.",
+   "statistic_raw": "sample_value"
+  }
+ ],
+ "merged_unmatched": [],
+ "merged_snapshot": null,
+ "raw_output": "data/evidence/findings/extract/raw/sani2024-hadejia-nigeria-chocolates-metals.json"
+}

@@ -1,0 +1,42 @@
+{
+ "source_id": "liu2022-wild-edible-mushrooms-elements-review",
+ "primary_artifact": "/Users/kmfp/papers-for-claude/hmi-thin/batch-04-addendum/pdfs/10.3390_jof8090964.pdf",
+ "primary_sha256": "5a832d9bc6dd81d237027016c5f8820bcfee6488bab302d17905de89585d010b",
+ "extracted_at": "2026-10-24",
+ "extractor": "engine-v1",
+ "disposition": "context",
+ "disposition_reason": "Narrative review compiling iron, manganese, zinc, copper, cadmium, lead, mercury and arsenic levels reported by other studies for nearly 400 wild edible mushroom species from 10 countries; it reports no primary measurements.",
+ "disposition_locator": "Tables 2-5 and 7-10; Sections 3-5",
+ "study": {
+  "design": "Literature review",
+  "origin": "multiple countries (as compiled)",
+  "market": "",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": ""
+  },
+  "method": "not applicable (review)",
+  "lod": [],
+  "basis": "unknown",
+  "qa": "not applicable",
+  "site_context": "ordinary"
+ },
+ "findings": [],
+ "sample_values": [],
+ "controls": [],
+ "unresolved": [
+  "All concentrations are quoted from other papers (Tables 2-5, 7-10); none are extracted here. Primary sources should be ingested individually if needed."
+ ],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/liu2022-wild-edible-mushrooms-elements-review.md",
+ "non_numeric_findings": [],
+ "merged_unmatched": [],
+ "merged_snapshot": null,
+ "raw_output": "data/evidence/findings/extract/raw/liu2022-wild-edible-mushrooms-elements-review.json"
+}

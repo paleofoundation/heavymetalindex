@@ -2,6 +2,8 @@
 # See https://heavymetalindex.com/licensing for the prose-vs-database-rights
 # license posture and the AI-agent integration guidance.
 
+# Every named group below repeats the Disallow lines: a crawler follows only
+# the most specific group that names it, never the * group as well.
 User-agent: *
 Allow: /
 Disallow: /api/
@@ -14,20 +16,41 @@ Disallow: /tags/
 # (see tools/postbuild-inject-jsonld.mjs).
 User-agent: Googlebot
 Allow: /
+Disallow: /api/
+Disallow: /lint/
+Disallow: /tags/
 User-agent: Googlebot-News
 Allow: /
+Disallow: /api/
+Disallow: /lint/
+Disallow: /tags/
 User-agent: Bingbot
 Allow: /
+Disallow: /api/
+Disallow: /lint/
+Disallow: /tags/
 User-agent: DuckDuckBot
 Allow: /
+Disallow: /api/
+Disallow: /lint/
+Disallow: /tags/
 
 # Academic and citation-graph crawlers.
 User-agent: SemanticScholarBot
 Allow: /
+Disallow: /api/
+Disallow: /lint/
+Disallow: /tags/
 User-agent: CCBot
 Allow: /
+Disallow: /api/
+Disallow: /lint/
+Disallow: /tags/
 User-agent: OpenAlexBot
 Allow: /
+Disallow: /api/
+Disallow: /lint/
+Disallow: /tags/
 
 # AI-agent crawlers. Permitted to read the wiki — prose is CC BY 4.0;
 # bulk extraction of the structured database is governed by /licensing
@@ -36,18 +59,39 @@ Allow: /
 # feature requires a commercial licence.
 User-agent: GPTBot
 Allow: /
+Disallow: /api/
+Disallow: /lint/
+Disallow: /tags/
 User-agent: ChatGPT-User
 Allow: /
+Disallow: /api/
+Disallow: /lint/
+Disallow: /tags/
 User-agent: ClaudeBot
 Allow: /
+Disallow: /api/
+Disallow: /lint/
+Disallow: /tags/
 User-agent: Claude-Web
 Allow: /
+Disallow: /api/
+Disallow: /lint/
+Disallow: /tags/
 User-agent: anthropic-ai
 Allow: /
+Disallow: /api/
+Disallow: /lint/
+Disallow: /tags/
 User-agent: PerplexityBot
 Allow: /
+Disallow: /api/
+Disallow: /lint/
+Disallow: /tags/
 User-agent: Google-Extended
 Allow: /
+Disallow: /api/
+Disallow: /lint/
+Disallow: /tags/
 
 Sitemap: https://heavymetalindex.com/sitemap.xml
 Sitemap: https://heavymetalindex.com/sitemap-scholarly.xml

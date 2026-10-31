@@ -45,3 +45,18 @@ test("the committed registry is generated from the current published frontmatter
   assert.equal(actual.redirects["/regulations/eu-2023-915"], "/regulations/eu2023-contaminants-maximum-levels")
   assert.equal(actual.redirects["/ingredients/human-milk"], undefined)
 })
+
+test("pattern redirect rules are not aliases; literal rules still are", () => {
+  const registry = buildAliasRegistry(
+    [{ slug: "sources/a-record", aliases: [] }],
+    [
+      { source: "/metals/sources/:id", destination: "/sources/:id" },
+      { source: "/metals/sources/old-id", destination: "/sources/a-record" },
+    ],
+    [],
+  )
+  assert.equal(registry.redirects["/metals/sources/:id"], undefined)
+  assert.equal((registry as any).link_targets?.["/metals/sources/:id"], undefined)
+  assert.equal(JSON.stringify(registry).includes("/metals/sources/:id"), false)
+  assert.equal(JSON.stringify(registry).includes("/metals/sources/old-id"), true)
+})

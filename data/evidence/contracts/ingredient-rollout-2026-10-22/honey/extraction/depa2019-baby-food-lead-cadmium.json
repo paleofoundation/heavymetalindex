@@ -1,0 +1,31 @@
+{
+  "source_id": "depa2019-baby-food-lead-cadmium",
+  "primary_artifact": "/Users/kmfp/HMI-Library-backup/heavy-metal-index-raw/manual-fetch/seasonal-geographic-variance/ingested/ing-infant-formula-cd_2019_10-61841-turcomat-v10i1-14953.pdf",
+  "primary_sha256": "1f97c1f819f0a7be60a2465b696d910f64dc8795ad3240e63b923a5d805707e1",
+  "text_copy": "data/evidence/contracts/ingredient-rollout-2026-10-22/honey/primary/depa2019-baby-food-lead-cadmium.txt",
+  "disposition": "out_of_scope",
+  "disposition_reason": "The paper has no results for honey itself. Its only honey rows are 'Cereals with honey', 4 retail infant-cereal products that contain honey, with Pb and Cd in the whole cereal. These are a honey-containing composite food, not honey.",
+  "disposition_locator": "Table 1 'Cadmium concentrations' row 'Cereals with honey', p.802 (PDF p.6, text-copy line 293); Table 2 'Lead concentrations' row 'Cereals with honey', p.803 (PDF p.7, text-copy line 354)",
+  "study": {
+    "design": "market survey of retail infant foods and cereals",
+    "material_scope": "63 baby food and cereal SKUs (milk powders, infant cereals including 4 'cereals with honey', miscellaneous baby foods). No plain honey.",
+    "growing_origin_vs_market": "'nearby supermarkets and online shops'. Country not stated; product origin not stated.",
+    "collection_period": null,
+    "n_total": 63,
+    "sampling_unit": "retail products (SKUs)",
+    "method": "Microwave HNO3/HCl digestion; graphite-furnace AAS (Shimadzu AA-6300)",
+    "lod_loq": "LOD not reported numerically",
+    "basis": "not stated (as sold presumed)",
+    "qa": "CRMs, blanks and positive controls are said to have been run; no recovery values reported"
+  },
+  "findings": [],
+  "sample_values": [],
+  "controls": [],
+  "contradictions_with_stored_summary": [
+    "There is no honey-related contradiction. The wiki reports the 'cereals with honey' means (Cd 1.89, Pb 1.08 ug/kg) correctly and does not route them to honey."
+  ],
+  "unresolved": [
+    "Excluded honey-containing rows, recorded for traceability and NOT honey findings. 'Cereals with honey' (n=4 products): Cd average 1.89, min 1.62, max 3.79 ug/kg, 1 below LOD (Table 1). Pb average 1.08, min blank, max 4.31 ug/kg, 3 below LOD (Table 2). The max cells wrap across two lines in the PDF ('3.7/9', '4.3/1'); the rendered page reads them as 3.79 and 4.31.",
+    "The paper is internally inconsistent. Pb is stated as above LOD in 49.21% of samples (31/63), as found 'in 46 of the tested samples', and as '45 samples', but Table 2's <LOD column sums to 40 of 63 (23 detected). Cd is stated as 12.5% below LOD, but Table 1 sums to 9/63 (14.3%). The text says milk-powder Pb had '68 below LOD' with n=22. In Table 2 the cereals Pb minimum (3.88) is above its average (3.24). The low-tier venue, with no collection period, country or numeric LODs, limits its use in any case."
+  ]
+}

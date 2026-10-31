@@ -94,7 +94,7 @@ used_in_products: []
 audience: ["regulator","educator","consumer","app"]
 literature_scope: cited
 updated: "2026-10-15"
-sources: 1
+sources: 2
 last_full_resynthesis: null
 hero_image: /static/heroes/tomato-pasta-sauce.webp
 quick_read:
@@ -133,16 +133,16 @@ This provisional ingredient page records source-specific measurements for tomato
 
 | Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
 |---------|----------|---------------|------------|-------------|
-| Pb | pending | — | — | — |
-| Cd | pending | — | — | — |
-| iAs | pending | — | — | — |
-| tAs | pending | — | — | — |
-| tHg | pending | — | — | — |
-| Ni | pending | — | — | — |
-| Al | pending | — | — | — |
-| Cr | pending | — | — | — |
-| Sn | pending | — | — | — |
-| U | pending | — | — | — |
+| Lead (Pb) | pending | — | — | — |
+| Cadmium (Cd) | pending | — | — | — |
+| Inorganic arsenic (iAs) | pending | — | — | — |
+| Total arsenic (tAs) | pending | — | — | — |
+| Total mercury (tHg) | pending | — | — | — |
+| Nickel (Ni) | pending | — | — | — |
+| Aluminum (Al) | pending | — | — | — |
+| Chromium (Cr) | pending | — | — | — |
+| Tin (Sn) | pending | — | — | — |
+| Uranium (U) | pending | — | — | — |
 
 The profile fields remain pending until an evidence synthesis supports a population estimate. Source observations are listed separately below. The FDA Total Diet Study table later on this page is unchanged.
 
@@ -225,11 +225,12 @@ Works cited in this page's text, in first-appearance order. See [Sources](#sourc
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-<p class="hmi-table-note">Sources catalogued for this page. The last column says how each source is used here.</p>
+<p class="hmi-table-note">Source records associated with this topic. Inclusion does not establish that every finding applies to this product or ingredient. References above identify works cited in the text.</p>
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
 | 1 | [[sources/fda2022-tds-elements-fy2018-fy2020\|FDA 2022]]. *FY2018-FY2020 TDS Elements Analytical Results*, FDA Total Diet Study | 2022 | Government dataset | US-FDA Pb, Cd, tAs, iAs, tHg, Ni, Cr, U, Sb occurrence in 3276 prepared food, beverage and water composites across 307 TDS foods, FY2018-FY2020 US collections (n=3276) |
+| 2 | [[sources/stojanovic2021-serbia-canned-meat-tinplate-metals\|Stojanović et al. 2021]]. *Determination of toxic elements in meat products from Serbia packaged in tinplate cans*, Research Square preprint, posted 26 February 2021 (version 1) | 2021 | Preprint | Contribution to this topic remains under review; see the source record for its reported scope. |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-fda-tds-occurrence -->
@@ -251,5 +252,13 @@ FDA measured the prepared foods named below. Each row describes that food and pr
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-This page has no substantive edit history yet. Future revisions will be recorded here once the change lands in [git](https://github.com/paleofoundation/heavymetalindex).
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [c6879c777](https://github.com/paleofoundation/heavymetalindex/commit/c6879c777) | 2026-10-28 | major | 14 sources removed; contamination-profile values revised; 10 sections removed |
+| [800c0e0fb](https://github.com/paleofoundation/heavymetalindex/commit/800c0e0fb) | 2026-10-17 | minor | Narrative text revised |
+| [1d5aa5b5b](https://github.com/paleofoundation/heavymetalindex/commit/1d5aa5b5b) | 2026-10-17 | minor | Narrative text revised |
+| [4b02f1fc8](https://github.com/paleofoundation/heavymetalindex/commit/4b02f1fc8) | 2026-10-16 | major | 3 sources added and 3 removed; 2 sections added; narrative text revised |
+| [d7d9a933d](https://github.com/paleofoundation/heavymetalindex/commit/d7d9a933d) | 2026-10-15 | major | 10 sources added; 1 section added; narrative text revised |
 <!-- END: hmi-page-history -->

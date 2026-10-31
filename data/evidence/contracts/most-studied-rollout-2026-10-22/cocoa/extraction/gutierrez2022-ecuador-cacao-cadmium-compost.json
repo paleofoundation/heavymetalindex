@@ -1,0 +1,178 @@
+{
+  "source_id": "gutierrez2022-ecuador-cacao-cadmium-compost",
+  "primary_artifact": "/Volumes/HMI-Library/heavy-metal-index-raw/manual-fetch/seasonal-geographic-variance/auto-fetched/gap-chocolate-cd_2022_10-3389-fenvs-2022-954521.pdf",
+  "primary_sha256": "0897586d06e9d0685ad3f2c4ff89fec388dc6a050efe40b716ef08c98db95b19",
+  "text_copy": "data/evidence/contracts/most-studied-rollout-2026-10-22/cocoa/primary/gutierrez2022-ecuador-cacao-cadmium-compost.txt",
+  "disposition": "mitigation_extracted",
+  "disposition_reason": "Field trial of surface compost at two rates versus control on four Ecuadorian cacao farms, reporting soil Cd fractionation, humic/fulvic-acid-bound Cd, pH and SOC by treatment, and only correlation coefficients between soil pools and leaf/bean Cd. Unfermented bean Cd was measured but no bean (or leaf) Cd concentrations are printed by farm or treatment, so there are no occurrence findings; the extractable content is soil-level mitigation evidence plus correlations.",
+  "disposition_locator": "Methods (PDF pp.2-5); Tables 2-5 (PDF pp.6, 9); Figures 2-4",
+  "study": {
+    "design": "field trial (randomized complete block, 3 replicates per farm, 3 treatments)",
+    "material_scope": "cacao-farm soil (0-5 and 5-20 cm), cacao leaves, unfermented unpeeled oven-dried beans from ripe pods",
+    "growing_origin_vs_market": "Grown on four farms in Ecuador: farms 1-3 Manabí, farm 4 Guayas; no market products",
+    "collection_period": null,
+    "n_total": null,
+    "sampling_unit": "plot of 21 trees, 5 central trees sampled; 3 replicate plots per treatment per farm",
+    "method": "Beans and leaves: HNO3 digestion, ICP-OES (farms 1-3) or microwave digestion and ICP-MS (farm 4); soil total Cd aqua regia, ICP-OES; sequential fractions GFAAS (H2O and EDTA by ICP-MS)",
+    "lod_loq": "PQL: ICP-OES 24 µg Cd/L, GFAAS 0.6 µg Cd/L, ICP-MS 0.6 µg Cd/L (solution basis)",
+    "basis": "beans oven-dried 65 °C 72 h (dry weight); soil air-dried",
+    "qa": "CRMs NIST 2709a soil (80.1 ± 0.05%), NIST 1573a leaves (96.4 ± 0.03%; 92.9 ± 3.70% farm 4), FDA-CP36 cacao beans (98.3 ± 0.01%) not used for farm 4, NIST 2384 baking chocolate for farm 4 (91.5 ± 10.2%); duplicate CV beans 1.29-2.80%"
+  },
+  "findings": [],
+  "sample_values": [],
+  "controls": [
+    {
+      "control": "Surface compost application (low rate; Methods: 6.25 Mg/ha/yr, table footnotes: 12.5 Mg/ha/yr) within 1 m of trunk after removing litter; commercial compost 62% OM, pH >= 6.16, Cd 0.03 mg/kg",
+      "stage": "farm and soil management",
+      "evidence_kind": "measured",
+      "design": "field trial",
+      "comparator": "no-compost control plots, farm 1 (Manabí, Ecuador), applied once, soil sampled 3 months and beans 12 months after application; n=3 replicate plots, mean ± SE; * = Dunnett p<0.05",
+      "outcome": "0-5 cm: humic-acid-bound Cd 1.35±0.5 -> 2.25±0.8 µg/kg; fulvic-acid-bound Cd 11.2±0.2 -> 12.4±0.5 µg/kg; pH 7.7 -> 7.2; SOC 1.37 -> 1.96 %; 5-20 cm: humic-acid-bound Cd 0.41±0.2 -> 0.43±0.1 µg/kg; fulvic-acid-bound Cd 7.65±0.4 -> 7.97±1.8 µg/kg; pH 7.2 -> 6.8; SOC 0.70 -> 0.89 %. Bean and leaf Cd by treatment are NOT reported, so no bean-Cd effect size is available.",
+      "analytes": [
+        "Cd"
+      ],
+      "scale": "field plot",
+      "locator": "Tables 2 and 3 (PDF pp.6, 9)"
+    },
+    {
+      "control": "Surface compost application (high rate; Methods: 12.5 Mg/ha/yr, table footnotes: 25 Mg/ha/yr) within 1 m of trunk after removing litter; commercial compost 62% OM, pH >= 6.16, Cd 0.03 mg/kg",
+      "stage": "farm and soil management",
+      "evidence_kind": "measured",
+      "design": "field trial",
+      "comparator": "no-compost control plots, farm 1 (Manabí, Ecuador), applied once, soil sampled 3 months and beans 12 months after application; n=3 replicate plots, mean ± SE; * = Dunnett p<0.05",
+      "outcome": "0-5 cm: humic-acid-bound Cd 1.35±0.5 -> 8.08±1.1* µg/kg; fulvic-acid-bound Cd 11.2±0.2 -> 15.2±1.0* µg/kg; pH 7.7 -> 6.6; SOC 1.37 -> 2.14 %; 5-20 cm: humic-acid-bound Cd 0.41±0.2 -> 3.22±0.3* µg/kg; fulvic-acid-bound Cd 7.65±0.4 -> 8.07±1.1 µg/kg; pH 7.2 -> 6.8; SOC 0.70 -> 0.90 %. Bean and leaf Cd by treatment are NOT reported, so no bean-Cd effect size is available.",
+      "analytes": [
+        "Cd"
+      ],
+      "scale": "field plot",
+      "locator": "Tables 2 and 3 (PDF pp.6, 9)"
+    },
+    {
+      "control": "Surface compost application (low rate; Methods: 6.25 Mg/ha/yr, table footnotes: 12.5 Mg/ha/yr) within 1 m of trunk after removing litter; commercial compost 62% OM, pH >= 6.16, Cd 0.03 mg/kg",
+      "stage": "farm and soil management",
+      "evidence_kind": "measured",
+      "design": "field trial",
+      "comparator": "no-compost control plots, farm 2 (Manabí, Ecuador), applied once, soil sampled 3 months and beans 12 months after application; n=3 replicate plots, mean ± SE; * = Dunnett p<0.05",
+      "outcome": "0-5 cm: humic-acid-bound Cd 1.33±0.4 -> 1.67±0.2 µg/kg; fulvic-acid-bound Cd 7.10±0.3 -> 7.46±0.7 µg/kg; pH 6.5 -> 6.3; SOC 3.59 -> 3.73 %; 5-20 cm: humic-acid-bound Cd 1.90±0.1 -> 1.59±0.4 µg/kg; fulvic-acid-bound Cd 5.32±1.2 -> 9.62±1.4 µg/kg; pH 6.3 -> 6.2; SOC 2.33 -> 2.82 %. Bean and leaf Cd by treatment are NOT reported, so no bean-Cd effect size is available.",
+      "analytes": [
+        "Cd"
+      ],
+      "scale": "field plot",
+      "locator": "Tables 2 and 3 (PDF pp.6, 9)"
+    },
+    {
+      "control": "Surface compost application (high rate; Methods: 12.5 Mg/ha/yr, table footnotes: 25 Mg/ha/yr) within 1 m of trunk after removing litter; commercial compost 62% OM, pH >= 6.16, Cd 0.03 mg/kg",
+      "stage": "farm and soil management",
+      "evidence_kind": "measured",
+      "design": "field trial",
+      "comparator": "no-compost control plots, farm 2 (Manabí, Ecuador), applied once, soil sampled 3 months and beans 12 months after application; n=3 replicate plots, mean ± SE; * = Dunnett p<0.05",
+      "outcome": "0-5 cm: humic-acid-bound Cd 1.33±0.4 -> 2.60±0.1* µg/kg; fulvic-acid-bound Cd 7.10±0.3 -> 12.1±2.3 µg/kg; pH 6.5 -> 5.9; SOC 3.59 -> 3.65 %; 5-20 cm: humic-acid-bound Cd 1.90±0.1 -> 2.32±0.4 µg/kg; fulvic-acid-bound Cd 5.32±1.2 -> 12.0±0.4* µg/kg; pH 6.3 -> 6.0; SOC 2.33 -> 2.28 %. Bean and leaf Cd by treatment are NOT reported, so no bean-Cd effect size is available.",
+      "analytes": [
+        "Cd"
+      ],
+      "scale": "field plot",
+      "locator": "Tables 2 and 3 (PDF pp.6, 9)"
+    },
+    {
+      "control": "Surface compost application (low rate; Methods: 6.25 Mg/ha/yr, table footnotes: 12.5 Mg/ha/yr) within 1 m of trunk after removing litter; commercial compost 62% OM, pH >= 6.16, Cd 0.03 mg/kg",
+      "stage": "farm and soil management",
+      "evidence_kind": "measured",
+      "design": "field trial",
+      "comparator": "no-compost control plots, farm 3 (Manabí, Ecuador), applied once, soil sampled 3 months and beans 12 months after application; n=3 replicate plots, mean ± SE; * = Dunnett p<0.05",
+      "outcome": "0-5 cm: humic-acid-bound Cd 0.99±0.1 -> 0.87±0.1 µg/kg; fulvic-acid-bound Cd 6.66±0.7 -> 10.8±2.3 µg/kg; pH 6.9 -> 6.7; SOC 2.28 -> 2.70 %; 5-20 cm: humic-acid-bound Cd 0.89±0.1 -> 0.98±0.2 µg/kg; fulvic-acid-bound Cd 5.67±0.5 -> 8.63±1.2 µg/kg; pH 6.8 -> 6.5; SOC 1.75 -> 2.07 %. Bean and leaf Cd by treatment are NOT reported, so no bean-Cd effect size is available.",
+      "analytes": [
+        "Cd"
+      ],
+      "scale": "field plot",
+      "locator": "Tables 2 and 3 (PDF pp.6, 9)"
+    },
+    {
+      "control": "Surface compost application (high rate; Methods: 12.5 Mg/ha/yr, table footnotes: 25 Mg/ha/yr) within 1 m of trunk after removing litter; commercial compost 62% OM, pH >= 6.16, Cd 0.03 mg/kg",
+      "stage": "farm and soil management",
+      "evidence_kind": "measured",
+      "design": "field trial",
+      "comparator": "no-compost control plots, farm 3 (Manabí, Ecuador), applied once, soil sampled 3 months and beans 12 months after application; n=3 replicate plots, mean ± SE; * = Dunnett p<0.05",
+      "outcome": "0-5 cm: humic-acid-bound Cd 0.99±0.1 -> 1.72±0.1* µg/kg; fulvic-acid-bound Cd 6.66±0.7 -> 8.06±1.6 µg/kg; pH 6.9 -> 6.5; SOC 2.28 -> 3.28* %; 5-20 cm: humic-acid-bound Cd 0.89±0.1 -> 1.61±0.1* µg/kg; fulvic-acid-bound Cd 5.67±0.5 -> 10.6±0.9* µg/kg; pH 6.8 -> 6.4; SOC 1.75 -> 2.58* %. Bean and leaf Cd by treatment are NOT reported, so no bean-Cd effect size is available.",
+      "analytes": [
+        "Cd"
+      ],
+      "scale": "field plot",
+      "locator": "Tables 2 and 3 (PDF pp.6, 9)"
+    },
+    {
+      "control": "Surface compost application (low rate; Methods: 6.25 Mg/ha/yr, table footnotes: 12.5 Mg/ha/yr) within 1 m of trunk after removing litter; commercial compost 62% OM, pH >= 6.16, Cd 0.03 mg/kg",
+      "stage": "farm and soil management",
+      "evidence_kind": "measured",
+      "design": "field trial",
+      "comparator": "no-compost control plots, farm 4 (Guayas, Ecuador), applied twice, soil sampled 12 months after first application; n=3 replicate plots, mean ± SE; * = Dunnett p<0.05",
+      "outcome": "0-5 cm: humic-acid-bound Cd 0.73±0.1 -> 0.89±0.0 µg/kg; fulvic-acid-bound Cd 52.5±12 -> 85.7±8.7 µg/kg; pH 7.0 -> 7.3*; SOC 2.24 -> 3.19 %; 5-20 cm: humic-acid-bound Cd 0.78±0.0 -> 0.85±0.1 µg/kg; fulvic-acid-bound Cd 22.0±4.1 -> 33.3±0.8 µg/kg; pH 7.0 -> 7.2*; SOC 1.30 -> 1.56 %. Bean and leaf Cd by treatment are NOT reported, so no bean-Cd effect size is available.",
+      "analytes": [
+        "Cd"
+      ],
+      "scale": "field plot",
+      "locator": "Tables 2 and 3 (PDF pp.6, 9)"
+    },
+    {
+      "control": "Surface compost application (high rate; Methods: 12.5 Mg/ha/yr, table footnotes: 25 Mg/ha/yr) within 1 m of trunk after removing litter; commercial compost 62% OM, pH >= 6.16, Cd 0.03 mg/kg",
+      "stage": "farm and soil management",
+      "evidence_kind": "measured",
+      "design": "field trial",
+      "comparator": "no-compost control plots, farm 4 (Guayas, Ecuador), applied twice, soil sampled 12 months after first application; n=3 replicate plots, mean ± SE; * = Dunnett p<0.05",
+      "outcome": "0-5 cm: humic-acid-bound Cd 0.73±0.1 -> 1.01±0.1* µg/kg; fulvic-acid-bound Cd 52.5±12 -> 86.6±10 µg/kg; pH 7.0 -> 7.1; SOC 2.24 -> 2.80 %; 5-20 cm: humic-acid-bound Cd 0.78±0.0 -> 1.47±0.2* µg/kg; fulvic-acid-bound Cd 22.0±4.1 -> 72.1±5.8* µg/kg; pH 7.0 -> 7.1; SOC 1.30 -> 1.36 %. Bean and leaf Cd by treatment are NOT reported, so no bean-Cd effect size is available.",
+      "analytes": [
+        "Cd"
+      ],
+      "scale": "field plot",
+      "locator": "Tables 2 and 3 (PDF pp.6, 9)"
+    },
+    {
+      "control": "Surface compost application: redistribution of labile soil Cd (KNO3/H2O-extractable)",
+      "stage": "farm and soil management",
+      "evidence_kind": "measured",
+      "design": "field trial",
+      "comparator": "no-compost control plots",
+      "outcome": "Farm 1: KNO3/H2O-Cd 1.54-fold lower with low rate at 0-5 cm (p<0.05) and 1.44-fold lower with high rate at 5-20 cm; farm 4: high rate 1.13- and 1.11-fold lower at the two depths. NaOH-bound Cd ~3-fold (3.32-fold) higher with high rate at farm 4; EDTA-Cd 4- and 3.8-fold higher (farm 1, low/high) and 1.6- and 1.8-fold higher (farm 4). HNO3-Cd unchanged. Values only in Figures 2-4 (text fold-changes).",
+      "analytes": [
+        "Cd"
+      ],
+      "scale": "field plot",
+      "locator": "Results 'Cadmium pools affected by organic matter application', PDF pp.5-6; Figures 2-4"
+    },
+    {
+      "control": "Increase soil Cd bound to fulvic acid / soil organic carbon (via high-fulvic-acid compost) as a bean-Cd mitigation pathway",
+      "stage": "farm and soil management",
+      "evidence_kind": "observational",
+      "design": "field trial",
+      "comparator": "correlation across all plots and four farms",
+      "outcome": "Bean Cd correlations (surface 0-5 cm / below surface 5-20 cm): Cd-FA r = -0.31 / -0.32 (single star, which the source legend defines as p<0.1); SOC r = -0.39 / -0.38 (p<0.05); Cd-HNO3 r = -0.50 / -0.52 (p<0.05); Cd-NaOH r = -0.23 (ns) / -0.29 (p<0.1); Cd-HA r = +0.36 (p<0.05) / +0.06; Cd-EDTA r = +0.37 (p<0.05) / -0.26 (ns). Bean Cd vs Leaf-Cd1 r = 0.66, vs Leaf-Cd2 r = 0.41.",
+      "analytes": [
+        "Cd"
+      ],
+      "scale": "farm",
+      "locator": "Tables 4 and 5 (PDF p.9)"
+    }
+  ],
+  "regulatory": [],
+  "context_notes": [
+    "Total soil Cd across the four farms ranged 0.37 to 0.92 mg/kg; all clay soils.",
+    "Authors note a 0.6 mg/kg dry-weight bean Cd threshold that may impair commercialization (cited, not a regulation in this paper)."
+  ],
+  "contradictions_with_stored_summary": [
+    "Stored summary says cacao-bean recovery was 98.3% against FDA-CP36 'across all farms'; the primary says the CRMs (including FDA-CP36) were used except for farm 4, which used NIST 2384.",
+    "Stored summary explains the 12.5/25 Mg/ha/yr table labels as due to farm 4 receiving two applications; the primary gives no such explanation (the conflict is unexplained).",
+    "Stored summary says the humic- and fulvic-acid fractions were quantified by GFAAS; the primary states only that 'the different soil fractions (except H2O and EDTA)' were quantified by GFAAS and does not name the instrument for HA/FA explicitly.",
+    "Stored summary characterises the abstract claim that leaf and bean Cd were negatively correlated with EDTA-extractable Cd without noting that Tables 4-5 contradict it for beans."
+  ],
+  "integrity_issues": [
+    "Compost rates: Methods and abstract give 6.25 (low) and 12.5 (high) Mg/ha per annum; Table 2 and 3 footnotes give 12.5 and 25 Mg/ha per year.",
+    "Discussion states compost increased soil pH by 0.2 units on average at both depths, but Table 2 shows lower mean pH in compost plots at farms 1-3 (e.g. farm 1 surface 7.7 control vs 6.6 high rate); only farm 4 low rate increased (significantly).",
+    "Abstract says leaf and bean Cd were negatively and significantly correlated with EDTA-extractable Cd, but Table 4 gives bean-Cd vs Cd-EDTA r = +0.37 (p<0.05) and leaf r = +0.36, and Table 5 gives bean r = -0.26 (ns).",
+    "Correlation-table legend defines '*p < 0.1' as 'statistically significant', a non-standard threshold; claims of significant bean-Cd vs Cd-FA correlation rest on p<0.1.",
+    "Abstract says 'cacao pots were collected' (pods)."
+  ],
+  "unresolved": [
+    "Bean and leaf Cd concentrations by farm and treatment are not printed in the paper; the data availability statement says raw data are available from the authors on request. No bean-level mitigation effect size can be extracted.",
+    "Calendar dates of compost application and sampling are not reported.",
+    "Fraction concentrations for KNO3/H2O, NaOH, EDTA and HNO3 pools are shown only in figures; only text fold-changes are extracted."
+  ]
+}

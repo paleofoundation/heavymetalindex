@@ -1,0 +1,27 @@
+{
+  "source_id": "hidalgo2015-gluten-free-cereal-bars-argentina",
+  "primary_artifact": "/Users/kmfp/Documents/ChatGPT/HeavyMetalIndex.com/site/data/evidence/contracts/cocoa/primary-recovered/hidalgo2015.pdf",
+  "primary_sha256": "1ad07377b8409e93fd9aacf1941cf02b3fb887af64c471a94dbbf32e998807fa",
+  "text_copy": "data/evidence/contracts/most-studied-rollout-2026-10-22/cocoa/primary/hidalgo2015-gluten-free-cereal-bars-argentina.txt",
+  "disposition": "out_of_scope",
+  "disposition_reason": "Gluten-free cereal bars from Argentina by ICP-MS; one group is rice and whole amaranth cereal bars with dark chocolate (n=6: As 17.4 +/- 0.9, Cd 16.8 +/- 0.1, Pb 15.8 +/- 4.2 ug/kg), with the authors attributing the higher Cd to cocoa. Chocolate-containing cereal bars are a composite food outside the cocoa page scope; no cocoa or chocolate itself was analysed.",
+  "disposition_locator": "Section 2 sample description (PDF p.2: 'Chocolate (Rice and whole amaranth based cereal bars with dark chocolate - unsweetened chocolate, cane sugar, cocoa butter-)'); Table 2 row 'Chocolate' (PDF p.3); Section 3.1.2 Cadmium text (PDF p.3); exposure table row 'Chocolate' (PDF p.4)",
+  "study": {
+    "design": "market survey",
+    "material_scope": "gluten-free cereal bars incl. bars with dark chocolate (composite)",
+    "growing_origin_vs_market": "purchased in Argentina; cocoa origin not stated",
+    "collection_period": null,
+    "n_total": null,
+    "sampling_unit": null,
+    "method": "ICP-MS",
+    "lod_loq": null,
+    "basis": "as sold (ug/kg)",
+    "qa": null
+  },
+  "findings": [],
+  "sample_values": [],
+  "controls": [],
+  "regulatory": [],
+  "contradictions_with_stored_summary": [],
+  "unresolved": []
+}

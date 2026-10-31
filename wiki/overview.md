@@ -1,4 +1,5 @@
 ---
+noindex: true
 dek: "A curated reference covering heavy metals across the human food system. Its scope includes commodities, products, contamination pathways, analytical methods, regulation and health effects."
 type: overview
 updated: 2026-04-24

@@ -1,0 +1,232 @@
+{
+ "source_id": "akinola2019-lagos-suya-spice-lead",
+ "primary_artifact": "/Users/kmfp/papers-for-claude/hmi-thin/batch-08/pdfs/brown-gravy__Akinola2019__10.31871_wjir.6.4.25.pdf",
+ "primary_sha256": "760234c51e2c1b3410bfe467bd3bf533f328ba23857e9b591791ce3479f61462",
+ "extracted_at": "2026-10-24",
+ "extractor": "engine-v1",
+ "disposition": "occurrence_extracted",
+ "disposition_reason": "Lead in six suya spice samples bought from five vendors in Agege and one branded control from Ikeja, Lagos, is reported only as below 0.1 ppm. Iron, copper and other minerals are shown only in bar figures.",
+ "disposition_locator": "Table 2, p. 52",
+ "study": {
+  "design": "market survey, one sample per vendor analysed in triplicate",
+  "origin": "not stated (traditional Hausa spice blend)",
+  "market": "five suya vendors in Agege and one retail store in Ikeja, Lagos State, Nigeria",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": ""
+  },
+  "method": "flame AAS (Shimadzu AA-7000) after dry ashing and acid digestion (AOAC 2010)",
+  "lod": [
+   "not stated; lead reported as <0.1 ppm"
+  ],
+  "basis": "unknown",
+  "qa": "none reported (no CRM, no recoveries)",
+  "site_context": "market"
+ },
+ "findings": [
+  {
+   "id": "akinola2019-lagos-suya-spice-lead:Pb:suya-spice-seasoning-blend-ikeja-control-branded-r:not_detected",
+   "material": {
+    "label_as_printed": "Suya spice (seasoning blend)",
+    "page": "ingredients/spices",
+    "form": "powder",
+    "state": "as_sold",
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/spices"
+    ]
+   },
+   "analyte": "Pb",
+   "group": "Ikeja (control, branded retail product)",
+   "group_kind": "market",
+   "n": null,
+   "statistic": "not_detected",
+   "reported": "<0.1 ppm",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "ppm",
+   "basis": "unknown",
+   "censoring": "lt_lod",
+   "lod_ugkg": 100,
+   "locator": "Table 2, p. 52",
+   "integrity_flag": null,
+   "notes": "Reported only as below 0.1 ppm; analyses in triplicate. The 0.1 ppm figure is the reporting threshold, not a stated LOD.",
+   "statistic_raw": "not_detected"
+  },
+  {
+   "id": "akinola2019-lagos-suya-spice-lead:Pb:suya-spice-seasoning-blend-oko-oba-vendor:not_detected",
+   "material": {
+    "label_as_printed": "Suya spice (seasoning blend)",
+    "page": "ingredients/spices",
+    "form": "powder",
+    "state": "as_sold",
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/spices"
+    ]
+   },
+   "analyte": "Pb",
+   "group": "Oko oba vendor",
+   "group_kind": "market",
+   "n": null,
+   "statistic": "not_detected",
+   "reported": "<0.1 ppm",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "ppm",
+   "basis": "unknown",
+   "censoring": "lt_lod",
+   "lod_ugkg": 100,
+   "locator": "Table 2, p. 52",
+   "integrity_flag": null,
+   "notes": "Reported only as below 0.1 ppm; analyses in triplicate. The 0.1 ppm figure is the reporting threshold, not a stated LOD.",
+   "statistic_raw": "not_detected"
+  },
+  {
+   "id": "akinola2019-lagos-suya-spice-lead:Pb:suya-spice-seasoning-blend-mangoro-vendor:not_detected",
+   "material": {
+    "label_as_printed": "Suya spice (seasoning blend)",
+    "page": "ingredients/spices",
+    "form": "powder",
+    "state": "as_sold",
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/spices"
+    ]
+   },
+   "analyte": "Pb",
+   "group": "Mangoro vendor",
+   "group_kind": "market",
+   "n": null,
+   "statistic": "not_detected",
+   "reported": "<0.1 ppm",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "ppm",
+   "basis": "unknown",
+   "censoring": "lt_lod",
+   "lod_ugkg": 100,
+   "locator": "Table 2, p. 52",
+   "integrity_flag": null,
+   "notes": "Reported only as below 0.1 ppm; analyses in triplicate. The 0.1 ppm figure is the reporting threshold, not a stated LOD.",
+   "statistic_raw": "not_detected"
+  },
+  {
+   "id": "akinola2019-lagos-suya-spice-lead:Pb:suya-spice-seasoning-blend-abule-egba-vendor:not_detected",
+   "material": {
+    "label_as_printed": "Suya spice (seasoning blend)",
+    "page": "ingredients/spices",
+    "form": "powder",
+    "state": "as_sold",
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/spices"
+    ]
+   },
+   "analyte": "Pb",
+   "group": "Abule egba vendor",
+   "group_kind": "market",
+   "n": null,
+   "statistic": "not_detected",
+   "reported": "<0.1 ppm",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "ppm",
+   "basis": "unknown",
+   "censoring": "lt_lod",
+   "lod_ugkg": 100,
+   "locator": "Table 2, p. 52",
+   "integrity_flag": null,
+   "notes": "Reported only as below 0.1 ppm; analyses in triplicate. The 0.1 ppm figure is the reporting threshold, not a stated LOD.",
+   "statistic_raw": "not_detected"
+  },
+  {
+   "id": "akinola2019-lagos-suya-spice-lead:Pb:suya-spice-seasoning-blend-oniwaya-vendor:not_detected",
+   "material": {
+    "label_as_printed": "Suya spice (seasoning blend)",
+    "page": "ingredients/spices",
+    "form": "powder",
+    "state": "as_sold",
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/spices"
+    ]
+   },
+   "analyte": "Pb",
+   "group": "Oniwaya vendor",
+   "group_kind": "market",
+   "n": null,
+   "statistic": "not_detected",
+   "reported": "<0.1 ppm",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "ppm",
+   "basis": "unknown",
+   "censoring": "lt_lod",
+   "lod_ugkg": 100,
+   "locator": "Table 2, p. 52",
+   "integrity_flag": null,
+   "notes": "Reported only as below 0.1 ppm; analyses in triplicate. The 0.1 ppm figure is the reporting threshold, not a stated LOD.",
+   "statistic_raw": "not_detected"
+  },
+  {
+   "id": "akinola2019-lagos-suya-spice-lead:Pb:suya-spice-seasoning-blend-pen-cinema-vendor:not_detected",
+   "material": {
+    "label_as_printed": "Suya spice (seasoning blend)",
+    "page": "ingredients/spices",
+    "form": "powder",
+    "state": "as_sold",
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/spices"
+    ]
+   },
+   "analyte": "Pb",
+   "group": "Pen cinema vendor",
+   "group_kind": "market",
+   "n": null,
+   "statistic": "not_detected",
+   "reported": "<0.1 ppm",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "ppm",
+   "basis": "unknown",
+   "censoring": "lt_lod",
+   "lod_ugkg": 100,
+   "locator": "Table 2, p. 52",
+   "integrity_flag": null,
+   "notes": "Reported only as below 0.1 ppm; analyses in triplicate. The 0.1 ppm figure is the reporting threshold, not a stated LOD.",
+   "statistic_raw": "not_detected"
+  }
+ ],
+ "sample_values": [],
+ "controls": [],
+ "unresolved": [
+  "Iron, copper, sodium, potassium, calcium and magnesium values appear only in Figures 1-6; the abstract quotes maxima (e.g. iron 1.58, copper 1.59) without units, so they were not extracted.",
+  "No DOI is printed in the PDF; the manifest DOI 10.31871/wjir.6.4.25 could not be confirmed from the document."
+ ],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/akinola2019-lagos-suya-spice-lead.md",
+ "non_numeric_findings": [],
+ "merged_unmatched": [],
+ "merged_snapshot": null,
+ "raw_output": "data/evidence/findings/extract/raw/akinola2019-lagos-suya-spice-lead.json"
+}

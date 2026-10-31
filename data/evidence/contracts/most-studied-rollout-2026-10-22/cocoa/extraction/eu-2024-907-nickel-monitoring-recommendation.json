@@ -1,0 +1,41 @@
+{
+  "source_id": "eu-2024-907-nickel-monitoring-recommendation",
+  "primary_artifact": "/Volumes/HMI-Library/heavy-metal-index-raw/Manual Fetch Kimi /June 3 Folder/OJ_L_202400907_EN_TXT.pdf",
+  "primary_sha256": "c88ecf52edb8680fb84064a8d3cbe9b024ec95ffdc1d4cd9de61625517b59458",
+  "text_copy": "data/evidence/contracts/most-studied-rollout-2026-10-22/cocoa/primary/eu-2024-907-nickel-monitoring-recommendation.txt",
+  "disposition": "context_only",
+  "disposition_reason": "Recommendation asks Member States and food business operators to monitor nickel in food during 2025-2027, explicitly including chocolate and cocoa beans, and to report the cocoa solids content of chocolate samples; it sets no numerical limit.",
+  "disposition_locator": "Recommendation points 1, 2 and 5 (PDF pp. 2-3)",
+  "study": {
+    "design": "regulation",
+    "material_scope": "monitoring scope: chocolate, chocolate spreads, cocoa beans",
+    "growing_origin_vs_market": null,
+    "collection_period": null,
+    "n_total": null,
+    "sampling_unit": null,
+    "method": null,
+    "lod_loq": null,
+    "basis": null,
+    "qa": null
+  },
+  "findings": [],
+  "sample_values": [],
+  "controls": [
+    {
+      "control": "Monitor nickel in chocolate and cocoa beans 2025-2027; report cocoa solids content for chocolate samples; gather and promote mitigation measures",
+      "stage": "regulation",
+      "evidence_kind": "guidance",
+      "design": "regulatory recommendation",
+      "comparator": null,
+      "outcome": "no numerical outcome",
+      "analytes": [
+        "Ni"
+      ],
+      "scale": "guidance",
+      "locator": "Points 1-3, 5"
+    }
+  ],
+  "regulatory": [],
+  "contradictions_with_stored_summary": [],
+  "unresolved": []
+}

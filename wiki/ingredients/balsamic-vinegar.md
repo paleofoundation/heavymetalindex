@@ -1,7 +1,7 @@
 ---
 type: ingredient
 commodity: balsamic-vinegar
-title: "Balsamic Vinegar"
+title: "Balsamic vinegar"
 dek: "An aged condiment made from grape must, with traditional and industrial forms. Explore the evidence on metal occurrence, concentration, aging vessels and packaging."
 rail_highlights:
   - label: Exposure
@@ -12,7 +12,7 @@ rail_highlights:
     text: Lead testing methods were evaluated in vinegar samples
     source: sources/ndungu2004-lead-vinegar-icpms-gfaas
     source_label: Method study
-label: "Balsamic Vinegar"
+label: "Balsamic vinegar"
 aliases: [aceto-balsamico, traditional-balsamic-vinegar, balsamic-vinegar-of-modena]
 category: condiment
 contamination_profile:
@@ -110,8 +110,7 @@ quick_read:
 hero_image_alt: "Unmarked bottles and dishes of pale amber and dark vinegar, an apple and dark grapes illustrating balsamic vinegar ingredient context."
 ---
 
-# Balsamic Vinegar
-
+# Balsamic vinegar
 <!-- BEGIN: hmi-opening -->
 <div class="hmi-quick-read">
   <div class="hmi-quick-read-label">Quick read</div>

@@ -1,0 +1,32 @@
+{
+  "source_id": "chekri2019-french-infant-toddler-tds-trace-elements",
+  "primary_artifact": "/Volumes/HMI-Library/heavy-metal-index-raw/studies/1-s2.0-S0889157518301868-am.pdf",
+  "primary_sha256": "73f7f1c97d2462a96056d8081f52fee0f21d03dfab073b3f33141290cbad1200",
+  "text_copy": "data/evidence/contracts/most-studied-rollout-2026-10-22/cocoa/primary/chekri2019-french-infant-toddler-tds-trace-elements.txt",
+  "disposition": "context_only",
+  "disposition_reason": "The French infant/toddler TDS analysed composite foods 'as consumed' (dry chocolate biscuits, refrigerated chocolate mousse, chocolate croissants, an instant hot chocolate drink, baby cereal with cocoa); no cocoa material or chocolate product per se was analysed. The authors attribute elevated Al, Cd, Cr, Co and Ni in those composite foods to their chocolate content.",
+  "disposition_locator": "Abstract (lines ~62-64); Section 3.1 Aluminium (p.9-10); 3.5 Cadmium; Chromium section (dry chocolate biscuit 178, chocolate mousse 280, chocolate croissant 162 µg/kg); 3.9 Nickel (dry chocolate biscuit 527, chocolate mousse 605, chocolate croissant 295, instant hot chocolate drink 96.2 µg/kg); Table 5",
+  "study": {
+    "design": "total diet study (infants and toddlers)",
+    "material_scope": "composite foods as consumed; none in cocoa page scope",
+    "growing_origin_vs_market": "French market; cocoa origin not reported",
+    "collection_period": null,
+    "n_total": 291,
+    "sampling_unit": "composite food samples as consumed",
+    "method": "ICP-MS",
+    "lod_loq": "element-specific, not cocoa-specific",
+    "basis": "fresh weight as consumed",
+    "qa": "reported for the whole survey, not cocoa-specific"
+  },
+  "findings": [],
+  "sample_values": [],
+  "controls": [],
+  "regulatory": [],
+  "contradictions_with_stored_summary": [
+    "None material; the stored summary correctly frames cocoa/chocolate as contributors to composite foods. Routing to ingredients/cocoa should be context only, not occurrence."
+  ],
+  "unresolved": [
+    "Supplementary Tables SM-1/SM-2 (per-sample LB values) are not in the accepted-manuscript PDF; they could hold per-sample values for the chocolate-containing composites, but these would still be out of scope (composite foods)."
+  ],
+  "notes_out_of_scope": "Out-of-scope composite values cited in text (µg/kg fresh weight as consumed): Al dry chocolate biscuits 10,000 (n=1), refrigerated chocolate mousse 9350, chocolate croissants 6710, baby cereal with biscuit and cocoa 1090 and 695; Cr dry chocolate biscuit 178, chocolate mousse 280, chocolate croissant 162; Ni dry chocolate biscuit 527, chocolate mousse 605, chocolate croissant 295, instant hot chocolate drink 96.2. Co and V values also given but not tracked analytes."
+}

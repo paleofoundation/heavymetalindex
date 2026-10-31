@@ -1,0 +1,41 @@
+{
+  "source_id": "fda-tds-elements-2018-2020",
+  "primary_artifact": "/Volumes/HMI-Library/heavy-metal-index-raw/manual-fetch/Kimi_Agent_Download Corruption Issue/condiments2_papers/05_Snacks_Canned_Prepared/FDA_TDS_FY2018-2020_Elements_Report.pdf",
+  "primary_sha256": "ba1f8c1ed5a35fe4faef6e48db6c4490d88405739a4480e623fdbc3097e9f1ef",
+  "text_copy": "data/evidence/contracts/most-studied-rollout-2026-10-22/cocoa/primary/fda-tds-elements-2018-2020.txt",
+  "disposition": "duplicate_of:fda2022-tds-elements-fy2018-fy2020",
+  "disposition_reason": "FDA TDS FY2018-2020 elements narrative report. Cocoa content restates the per-sample dataset without values: cocoa powder (added FY2020, one sample) among highest Cd and Pb foods; chocolate/sugar candy Pb all below the 100 ppb FDA action level (max 8.3 ppb, 6 of 9 ND); milk chocolate candy bar among highest-mean Cr foods. Numeric rows belong to the per-sample dataset fda2022-tds-elements-fy2018-fy2020.",
+  "disposition_locator": "Executive Summary p.4; Section 2 p.8 (food list additions incl. cocoa powder); Section 4.1.2 Selected Toxic Elements p.19-20; Table 3 (Cr top foods)",
+  "study": {
+    "design": "total diet study",
+    "material_scope": "cocoa powder (1 sample), milk chocolate candy bar",
+    "growing_origin_vs_market": "US retail (TDS market baskets)",
+    "collection_period": "FY2018-FY2020",
+    "n_total": null,
+    "sampling_unit": null,
+    "method": null,
+    "lod_loq": null,
+    "basis": null,
+    "qa": null
+  },
+  "findings": [],
+  "sample_values": [],
+  "controls": [],
+  "regulatory": [
+    {
+      "jurisdiction": "US",
+      "instrument": "FDA 2006 guidance (action level) for lead in candy",
+      "analyte": "Pb",
+      "product": "chocolate and sugar-based candy",
+      "value": 100,
+      "unit": "ug/kg (ppb)",
+      "status": "guidance level as cited",
+      "locator": "Executive Summary p.4; Section 4.1.2 p.19"
+    }
+  ],
+  "contradictions_with_stored_summary": [],
+  "unresolved": [
+    "Report gives no numeric cocoa powder Cd/Pb value; use the per-sample dataset.",
+    "The '9 results' chocolate/sugar candy statistic mixes milk chocolate bar with hard candy; not cocoa-specific."
+  ]
+}

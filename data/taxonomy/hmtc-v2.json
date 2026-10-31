@@ -1,6 +1,6 @@
 {
   "$comment": "HMTc Comprehensive Testing Category Taxonomy v2.2 (2026-06-09). Source: /Users/karenpendergrass/Desktop/document_pdf.pdf (v2.0 base); v2.1 appended cats 24-26 (docs/governance/taxonomy-reorganization-2026-06.md); v2.2 is the matrix-family re-cut (docs/governance/taxonomy-v2.2-matrix-family-recut.md). For Step Zero-locked categories the live row identity is the page frontmatter + routing layer, which this seed does not mirror: the Cat 1/2/4 row arrays below remain the v2.0 scaffold and are STALE versus the live locked state. In particular the v2.2 Cat 4 split (live rows 8-18 re-homed to Cat 27 Legumes / 28 Nuts-Seeds-Butters / 29 Edible Fungi) and the Cat 7 dissolution (Phase B, cats 30-35) are tracked in governance + frontmatter, not by editing these stale arrays. Envelope: 35 categories. Cat 30-35 are the Cat 7 dissolution (30 Culinary Oils & Fats, 31 Sweeteners & Syrups, 32 Condiments/Sauces/Dressings, 33 Chocolate/Cocoa/Confectionery, 34 Herbs/Spices/Seasonings/Salt, 35 Prepared & Packaged Meals), 2026-06-09, per category-7-dissolution-step0-event.md; Cat 7 retired-in-place. Any elected tobacco category appends after 35. The v2.1 'reserved Cat 27 = tobacco' is superseded: Cat 27 is now Legumes; tobacco renumbers. Authored by K. Pendergrass, K. Eyer, D. Aleru; v2.1/v2.2 expansion by Claude (co-architect).",
-  "version": "2.2",
+  "version": "2.3",
   "version_date": "2026-06-09",
   "panel_metals": [
     "Pb",
@@ -12,7 +12,7 @@
     "Sn",
     "Al"
   ],
-  "organizing_principle": "exposure pathway × regulatory jurisdiction, with user population (ages 0-5 vs general) as a secondary routing variable only where regulation explicitly distinguishes it",
+  "organizing_principle": "exposure pathway \u00d7 regulatory jurisdiction, with user population (ages 0-5 vs general) as a secondary routing variable only where regulation explicitly distinguishes it",
   "categories": [
     {
       "n": 1,
@@ -38,17 +38,17 @@
         },
         {
           "row": 4,
-          "name": "Fruit purées (general)",
+          "name": "Fruit pur\u00e9es (general)",
           "slug": "fruit-purees"
         },
         {
           "row": 5,
-          "name": "Non-root vegetable purées",
+          "name": "Non-root vegetable pur\u00e9es",
           "slug": "non-root-vegetable-purees"
         },
         {
           "row": 6,
-          "name": "Root-vegetable purées",
+          "name": "Root-vegetable pur\u00e9es",
           "slug": "root-vegetable-purees"
         },
         {
@@ -184,7 +184,7 @@
         "Leave-on baby products (lotion, oil, powder) marketed for ages 0-5 route here, not to Category 13 (Leave-on Cosmetics)."
       ],
       "regulatory_anchors": "FDA cosmetics product-category codes; CPSIA total lead limits; California Prop 65 (Pb, Cd in children's products); EU Cosmetics Regulation 1223/2009.",
-      "status": "live 16-row lock (Step Zero Protocol v1.4 §0G, 2026-05-16); JSON synced to live 2026-06-09 per category-2-step0-amendment-1.md"
+      "status": "live 16-row lock (Step Zero Protocol v1.4 \u00a70G, 2026-05-16); JSON synced to live 2026-06-09 per category-2-step0-amendment-1.md"
     },
     {
       "n": 3,
@@ -225,7 +225,7 @@
         },
         {
           "row": 7,
-          "name": "Rice (white, brown, wild — bulk grain)",
+          "name": "Rice (white, brown, wild \u2014 bulk grain)",
           "slug": "rice-bulk-grain"
         },
         {
@@ -250,8 +250,13 @@
         },
         {
           "row": 12,
-          "name": "Grain-based snacks (crackers, biscuits, cookies, popcorn, pretzels) — non-rice clean counterpart to rice-snacks",
+          "name": "Grain-based snacks (crackers, biscuits, cookies, popcorn, pretzels) \u2014 non-rice clean counterpart to rice-snacks",
           "slug": "grain-based-snacks"
+        },
+        {
+          "row": 13,
+          "name": "Potato and vegetable chips",
+          "slug": "potato-and-vegetable-chips"
         }
       ],
       "boundary_rules": [
@@ -416,6 +421,16 @@
           "row": 18,
           "name": "Coffee, ready-to-drink",
           "slug": "coffee-ready-to-drink"
+        },
+        {
+          "row": 19,
+          "name": "Meal-replacement drinks",
+          "slug": "meal-replacement-drinks"
+        },
+        {
+          "row": 20,
+          "name": "Distilled spirits",
+          "slug": "distilled-spirits"
         }
       ],
       "boundary_rules": [
@@ -438,17 +453,17 @@
       "subcategories": [
         {
           "row": 1,
-          "name": "Fish — freshwater (tilapia, catfish, trout)",
+          "name": "Fish \u2014 freshwater (tilapia, catfish, trout)",
           "slug": "fish-freshwater"
         },
         {
           "row": 2,
-          "name": "Fish — marine, non-predatory (sardines, anchovies, salmon, cod)",
+          "name": "Fish \u2014 marine, non-predatory (sardines, anchovies, salmon, cod)",
           "slug": "fish-marine-non-predatory"
         },
         {
           "row": 3,
-          "name": "Fish — marine, predatory (tuna, swordfish, shark, king mackerel)",
+          "name": "Fish \u2014 marine, predatory (tuna, swordfish, shark, king mackerel)",
           "slug": "fish-marine-predatory"
         },
         {
@@ -458,7 +473,7 @@
         },
         {
           "row": 5,
-          "name": "Seaweed/kelp foods (nori, wakame, kombu, dulse — as food products)",
+          "name": "Seaweed/kelp foods (nori, wakame, kombu, dulse \u2014 as food products)",
           "slug": "seaweed-kelp-foods"
         },
         {
@@ -531,12 +546,12 @@
         },
         {
           "row": 10,
-          "name": "Snacks (crackers, granola/snack bars, cookies, chips, popcorn — when not primarily a grain or produce product)",
+          "name": "Snacks (crackers, granola/snack bars, cookies, chips, popcorn \u2014 when not primarily a grain or produce product)",
           "slug": "snacks-general"
         },
         {
           "row": 11,
-          "name": "Canned foods, general (canned tomatoes, beans, soups — with tin flag)",
+          "name": "Canned foods, general (canned tomatoes, beans, soups \u2014 with tin flag)",
           "slug": "canned-foods-general"
         },
         {
@@ -552,7 +567,7 @@
         "A product that is primarily a grain product (e.g., plain pasta) routes to Category 3. A mixed product (frozen lasagna) routes here.",
         "Products marketed for ages 0-5 route to Category 1."
       ],
-      "contamination_platform_notes": "Cacao → Cd, Pb (from soil); spices → Pb, Cr (from adulteration, processing); canned goods → Sn (from tinplate migration).",
+      "contamination_platform_notes": "Cacao \u2192 Cd, Pb (from soil); spices \u2192 Pb, Cr (from adulteration, processing); canned goods \u2192 Sn (from tinplate migration).",
       "regulatory_anchors": "EU Reg. 2023/915 for Cd in cacao/chocolate, Pb in spices and herbs, Sn in canned foods; FDA guidance on Pb in spices; Codex MLs for Pb in salt; FDA Pb action levels for foods."
     },
     {
@@ -584,9 +599,9 @@
         }
       ],
       "boundary_rules": [
-        "Flavored water routes to Category 5 (Beverages), not here — flavoring changes the matrix and regulatory treatment.",
+        "Flavored water routes to Category 5 (Beverages), not here \u2014 flavoring changes the matrix and regulatory treatment.",
         "Sparkling water with no flavoring or sweetener routes here.",
-        "This category has binding numeric limits for all 8 HMTc metals from multiple authorities — it is the most comprehensively regulated category in the taxonomy."
+        "This category has binding numeric limits for all 8 HMTc metals from multiple authorities \u2014 it is the most comprehensively regulated category in the taxonomy."
       ],
       "regulatory_anchors": "EPA Maximum Contaminant Levels (MCLs) for Pb, As, Hg, Cd, Cr, Ni (secondary standard); FDA 21 CFR 165.110 bottled water quality standards; EU Drinking Water Directive 2020/2184 (parametric values for Pb, As, Hg, Cd, Cr, Ni, Al)."
     },
@@ -634,15 +649,15 @@
         },
         {
           "row": 8,
-          "name": "Feeding accessories (spoons, plates, bowls — child-sized)",
+          "name": "Feeding accessories (spoons, plates, bowls \u2014 child-sized)",
           "slug": "feeding-accessories-child-sized"
         }
       ],
       "boundary_rules": [
-        "Products in this category are defined by mouthing and contact exposure — the child puts the product in or near their mouth, or it contacts food/milk that the child ingests.",
+        "Products in this category are defined by mouthing and contact exposure \u2014 the child puts the product in or near their mouth, or it contacts food/milk that the child ingests.",
         "Bottles and nipples must meet FDA food-contact substance standards in addition to CPSIA.",
         "A general-market reusable straw not marketed for children routes to Category 23 (Food-Contact Consumer Goods).",
-        "A teething toy routes here, not to Category 21 (Children's Toys) — the mouthing-specific exposure pathway governs."
+        "A teething toy routes here, not to Category 21 (Children's Toys) \u2014 the mouthing-specific exposure pathway governs."
       ],
       "regulatory_anchors": "CPSIA total lead limits; CPSC child care article definition; FDA food-contact substance regulations; EU food-contact material regulations; EU Toy Safety Directive 2009/48/EC migration limits."
     },
@@ -715,7 +730,7 @@
         }
       ],
       "boundary_rules": [
-        "Products in this category are defined by surface contact exposure — the child's skin contacts coatings, textiles, or structural materials for extended periods.",
+        "Products in this category are defined by surface contact exposure \u2014 the child's skin contacts coatings, textiles, or structural materials for extended periods.",
         "Analytical approach is surface wipe/extraction for coatings and substrate analysis for structural components.",
         "Textiles are tested for extractable metals under conditions simulating sweat and saliva contact."
       ],
@@ -776,7 +791,7 @@
       ],
       "boundary_rules": [
         "Products marketed for ages 0-5 route to Category 1 (mixed meals subcategory).",
-        "Organ meats/offal are tested as a subcategory of their respective animal type — organs may accumulate higher Cd and Pb than muscle meat.",
+        "Organ meats/offal are tested as a subcategory of their respective animal type \u2014 organs may accumulate higher Cd and Pb than muscle meat.",
         "Pet food containing meat/poultry routes to Category 17 (Pet Foods), not here."
       ],
       "contamination_platform_notes": "Organ meats (especially liver, kidney) accumulate Cd and Pb at higher levels than muscle tissue. Game meats may contain Pb from lead ammunition.",
@@ -897,14 +912,14 @@
       ],
       "boundary_rules": [
         "Fabric-intended products route to Category 19 (Laundry and Fabric-Contact).",
-        "Disinfectants/sanitizers are a distinct sub-scope (EPA-registered pesticide products) — if included, treat as a separate testing bucket within this category.",
+        "Disinfectants/sanitizers are a distinct sub-scope (EPA-registered pesticide products) \u2014 if included, treat as a separate testing bucket within this category.",
         "Dish soaps route here (they contact dishes, not fabric)."
       ],
       "regulatory_anchors": "EPA Safer Choice product-type list; Green Seal GS-8 household cleaner scoping; CA SB 258 (Cleaning Product Right to Know Act); NY Household Cleaner Disclosure Act."
     },
     {
       "n": 13,
-      "name": "Cosmetics and Personal Care — Leave-on",
+      "name": "Cosmetics and Personal Care \u2014 Leave-on",
       "slug_prefix": "",
       "exposure_pathway": "Dermal (prolonged skin/hair/nail contact)",
       "regulatory_jurisdiction": "FDA cosmetics, EU Cosmetics Regulation 1223/2009",
@@ -931,12 +946,12 @@
         },
         {
           "row": 5,
-          "name": "Makeup — foundation, powders, blush/rouge",
+          "name": "Makeup \u2014 foundation, powders, blush/rouge",
           "slug": "makeup-foundation-powders-blush"
         },
         {
           "row": 6,
-          "name": "Makeup — body/leg paints, bases, fixatives (including airbrush)",
+          "name": "Makeup \u2014 body/leg paints, bases, fixatives (including airbrush)",
           "slug": "makeup-body-paints-bases-fixatives"
         },
         {
@@ -986,7 +1001,7 @@
         },
         {
           "row": 16,
-          "name": "Traditional/imported eye cosmetics (kohl, surma, kajal) — extreme-Pb platform",
+          "name": "Traditional/imported eye cosmetics (kohl, surma, kajal) \u2014 extreme-Pb platform",
           "slug": "traditional-eye-cosmetics"
         },
         {
@@ -1016,7 +1031,7 @@
     },
     {
       "n": 14,
-      "name": "Cosmetics and Personal Care — Rinse-off",
+      "name": "Cosmetics and Personal Care \u2014 Rinse-off",
       "slug_prefix": "",
       "exposure_pathway": "Dermal (brief skin contact, then rinsed)",
       "regulatory_jurisdiction": "FDA cosmetics, EU Cosmetics Regulation 1223/2009",
@@ -1086,7 +1101,7 @@
         "Product must be applied to skin/hair and intentionally rinsed off after use.",
         "Baby shampoo/body wash routes to Category 2 (Infant Personal Care), not here.",
         "A leave-in conditioner routes to Category 13 (Leave-on), not here.",
-        "Intimate washes route to Category 15 (Feminine Care), not here — mucosal contact pathway overrides rinse-off classification."
+        "Intimate washes route to Category 15 (Feminine Care), not here \u2014 mucosal contact pathway overrides rinse-off classification."
       ],
       "regulatory_anchors": "FDA cosmetics product-category codes (rinse-off tertiary categories); EU Cosmetics Regulation 1223/2009; Health Canada Cosmetic Ingredient Hotlist."
     },
@@ -1149,9 +1164,9 @@
         }
       ],
       "boundary_rules": [
-        "Routing is governed by mucosal/intimate contact exposure pathway — not by product function or gender of user.",
+        "Routing is governed by mucosal/intimate contact exposure pathway \u2014 not by product function or gender of user.",
         "Intimate washes route here, not to Category 14, because vaginal mucosal exposure is a distinct and more permeable pathway than general skin contact.",
-        "A general body wash used incidentally in the intimate area does not route here — marketing and intended-use positioning determine routing."
+        "A general body wash used incidentally in the intimate area does not route here \u2014 marketing and intended-use positioning determine routing."
       ],
       "regulatory_anchors": "21 CFR Part 884 (tampons as Class II medical devices, pads including intralabial and reusable); FDA menstrual cup device classification; EU Medical Devices Regulation 2017/745; FDA cosmetics categories for douches/feminine deodorants."
     },
@@ -1229,68 +1244,68 @@
         },
         {
           "row": 14,
-          "name": "Ingredient class — vitamin/mineral (single, multi-mineral, multi-vitamin/mineral)",
+          "name": "Ingredient class \u2014 vitamin/mineral (single, multi-mineral, multi-vitamin/mineral)",
           "slug": "supplements-vitamin-mineral"
         },
         {
           "row": 15,
-          "name": "Ingredient class — botanicals/herbs/traditional formulas",
+          "name": "Ingredient class \u2014 botanicals/herbs/traditional formulas",
           "slug": "supplements-botanicals-herbs"
         },
         {
           "row": 16,
-          "name": "Ingredient class — amino acids & isolates",
+          "name": "Ingredient class \u2014 amino acids & isolates",
           "slug": "supplements-amino-acids-isolates"
         },
         {
           "row": 17,
-          "name": "Ingredient class — enzymes",
+          "name": "Ingredient class \u2014 enzymes",
           "slug": "supplements-enzymes"
         },
         {
           "row": 18,
-          "name": "Ingredient class — live microbials/probiotics",
+          "name": "Ingredient class \u2014 live microbials/probiotics",
           "slug": "supplements-probiotics"
         },
         {
           "row": 19,
-          "name": "Ingredient class — algae/seaweed-based",
+          "name": "Ingredient class \u2014 algae/seaweed-based",
           "slug": "supplements-algae-seaweed-based"
         },
         {
           "row": 20,
-          "name": "Ingredient class — protein/collagen powders",
+          "name": "Ingredient class \u2014 protein/collagen powders",
           "slug": "supplements-protein-collagen-powders"
         },
         {
           "row": 21,
-          "name": "Ingredient class — oil-based supplements (fish oil/omega-3 and similar)",
+          "name": "Ingredient class \u2014 oil-based supplements (fish oil/omega-3 and similar)",
           "slug": "supplements-oil-based"
         },
         {
           "row": 22,
-          "name": "Ingredient class — clay/mineral/earth-derived (bentonite, diatomaceous earth, zeolite, shilajit) — Pb/As dirty",
+          "name": "Ingredient class \u2014 clay/mineral/earth-derived (bentonite, diatomaceous earth, zeolite, shilajit) \u2014 Pb/As dirty",
           "slug": "supplements-clay-mineral-earth"
         },
         {
           "row": 23,
-          "name": "Ingredient class — mushroom/fungal extracts (lion's mane, reishi, cordyceps, chaga)",
+          "name": "Ingredient class \u2014 mushroom/fungal extracts (lion's mane, reishi, cordyceps, chaga)",
           "slug": "supplements-mushroom-fungal"
         },
         {
           "row": 24,
-          "name": "Ingredient class — greens/superfood blends (Pb/Cd/iAs hyperaccumulator)",
+          "name": "Ingredient class \u2014 greens/superfood blends (Pb/Cd/iAs hyperaccumulator)",
           "slug": "supplements-greens-superfood"
         }
       ],
       "boundary_rules": [
         "Product must bear a Supplement Facts panel or be marketed/labeled as a dietary supplement under DSHEA.",
-        "FDA's definition requires supplements be ingested/swallowed — topical or inhaled products are excluded.",
+        "FDA's definition requires supplements be ingested/swallowed \u2014 topical or inhaled products are excluded.",
         "A product with a Nutrition Facts panel is a conventional food and routes to Categories 3-8.",
         "A tea sold as conventional food routes to Category 5. The same tea with a Supplement Facts panel routes here.",
         "Manuka honey with a Supplement Facts panel routes here. Regular honey routes to Category 7."
       ],
-      "regulatory_anchors": "FDA DSHEA framework; USP <2232> elemental impurities limits; California Prop 65 MADLs (Pb MADL 0.5 µg/day as serving-based reference); NY AG consent decrees (precedent for Pb in supplements)."
+      "regulatory_anchors": "FDA DSHEA framework; USP <2232> elemental impurities limits; California Prop 65 MADLs (Pb MADL 0.5 \u00b5g/day as serving-based reference); NY AG consent decrees (precedent for Pb in supplements)."
     },
     {
       "n": 17,
@@ -1401,9 +1416,9 @@
         }
       ],
       "boundary_rules": [
-        "Product is intended for animal consumption as a supplement — not as the sole or primary diet.",
+        "Product is intended for animal consumption as a supplement \u2014 not as the sole or primary diet.",
         "If a product bears an AAFCO nutritional adequacy statement, it routes to Category 17 (Pet Foods).",
-        "A dental chew routes to Category 17 (pet chews subcategory) — primary function is food/treat, not supplementation."
+        "A dental chew routes to Category 17 (pet chews subcategory) \u2014 primary function is food/treat, not supplementation."
       ],
       "regulatory_anchors": "FDA CVM compliance policies; NASC quality guidelines (voluntary, non-binding); EU feed additive regulations (Regulation 1831/2003)."
     },
@@ -1482,7 +1497,7 @@
       ],
       "boundary_rules": [
         "Product must be intended to contact fabrics during washing, drying, or treatment.",
-        "A carpet cleaner is Category 12 (Household Cleaning), not here — unless it is specifically a fabric-care product for upholstery.",
+        "A carpet cleaner is Category 12 (Household Cleaning), not here \u2014 unless it is specifically a fabric-care product for upholstery.",
         "Dryer sheets route here (fabric softener subcategory)."
       ],
       "regulatory_anchors": "Green Seal GS-48 scope; EPA Safer Choice product types for laundry."
@@ -1546,7 +1561,7 @@
         }
       ],
       "boundary_rules": [
-        "Primary site of exposure is the oral cavity → routes here, regardless of whether the product is regulated as a cosmetic, OTC drug, or device. Exposure pathway governs, not regulatory classification.",
+        "Primary site of exposure is the oral cavity \u2192 routes here, regardless of whether the product is regulated as a cosmetic, OTC drug, or device. Exposure pathway governs, not regulatory classification.",
         "A whitening mouthwash with no drug claim is still Oral Care (oral cavity exposure), not Rinse-off Cosmetics.",
         "A fluoride mouthwash is Oral Care, not Dietary Supplements."
       ],
@@ -1763,13 +1778,13 @@
         "Marketing/positioning determines routing when the same product could serve multiple functions."
       ],
       "regulatory_anchors": "RIVM air-freshener product-type list (exposure-factor framework); CPSC candle guidance on lead in metal-cored wicks; EU CLP Regulation (volatile chemical hazard classification).",
-      "contamination_platform_notes": "Two mechanically distinct emission types. Evaporative emitters (sprays, plug-ins, diffusers, reed diffusers — rows 1-4, 7-10) = lower-load clean counterpart. Combustion emitters (scented candles r5, wax melts r6, incense r11) = Pb/Ni dirty platform: lead-cored wicks (banned US 2003 but present in imports) and metal-bearing colorants/fragrance carriers volatilize into the breathing zone. Clean/dirty drawn on the shared Pb/Ni axis; the two emission types are never pooled."
+      "contamination_platform_notes": "Two mechanically distinct emission types. Evaporative emitters (sprays, plug-ins, diffusers, reed diffusers \u2014 rows 1-4, 7-10) = lower-load clean counterpart. Combustion emitters (scented candles r5, wax melts r6, incense r11) = Pb/Ni dirty platform: lead-cored wicks (banned US 2003 but present in imports) and metal-bearing colorants/fragrance carriers volatilize into the breathing zone. Clean/dirty drawn on the shared Pb/Ni axis; the two emission types are never pooled."
     },
     {
       "n": 23,
       "name": "Food-Contact Consumer Goods and Kitchenware",
       "slug_prefix": "",
-      "exposure_pathway": "Ingestion (indirect — metals migrate/leach from product into food/beverage)",
+      "exposure_pathway": "Ingestion (indirect \u2014 metals migrate/leach from product into food/beverage)",
       "regulatory_jurisdiction": "FDA (food-contact substances), EU (food-contact material regulations), California Prop 65",
       "subcategories": [
         {
@@ -1927,10 +1942,10 @@
         "Product must contact food during storage, preparation, cooking, or serving.",
         "A cast iron pan routes here (metal and alloy cookware). A ceramic mug routes here (ceramicware).",
         "A stainless steel water bottle routes here (metal bottles/tumblers). A water filter routes here.",
-        "Infant bottles/nipples route to Category 9 when marketed for ages 0-5 — even though they are food-contact items, the infant exposure pathway and regulatory treatment take priority."
+        "Infant bottles/nipples route to Category 9 when marketed for ages 0-5 \u2014 even though they are food-contact items, the infant exposure pathway and regulatory treatment take priority."
       ],
       "regulatory_anchors": "FDA food-contact substance definitions (21 CFR Parts 170-199); EU food-contact material framework regulation (Regulation 1935/2004) and implementing measures; EU Annex I material-family list (Regulation 10/2011 for plastics, Directive 84/500/EEC for ceramics); FDA ceramics/lead leaching compliance policy guide; California Prop 65 (Pb/Cd in ceramicware, cookware).",
-      "contamination_platform_notes": "Three distinct migration bands, never pooled into one row-pass distribution: (a) packaging-migration band (rows 1-11) — Sn/Pb from tinplate/closures, references the canonical cans-lids tin node; (b) glaze/decoration-leach band (rows 12-16) — Pb/Cd, decorated/colored-glaze dirty vs plain food-grade glass clean; (c) alloy-leach band (rows 17-28) — Al/Ni/Cr, bare aluminum/specialty-alloy dirty vs stainless/inert-coated clean. Water filters (29-30) are a distinct treatment-device sub-platform (NSF/ANSI 42/53/58, metal-removal purpose) cross-linked to Cat 8, never pooled into the alloy/glaze bands."
+      "contamination_platform_notes": "Three distinct migration bands, never pooled into one row-pass distribution: (a) packaging-migration band (rows 1-11) \u2014 Sn/Pb from tinplate/closures, references the canonical cans-lids tin node; (b) glaze/decoration-leach band (rows 12-16) \u2014 Pb/Cd, decorated/colored-glaze dirty vs plain food-grade glass clean; (c) alloy-leach band (rows 17-28) \u2014 Al/Ni/Cr, bare aluminum/specialty-alloy dirty vs stainless/inert-coated clean. Water filters (29-30) are a distinct treatment-device sub-platform (NSF/ANSI 42/53/58, metal-removal purpose) cross-linked to Cat 8, never pooled into the alloy/glaze bands."
     },
     {
       "n": 24,
@@ -1943,12 +1958,12 @@
       "subcategories": [
         {
           "row": 1,
-          "name": "Liquid milk — cow",
+          "name": "Liquid milk \u2014 cow",
           "slug": "dairy-milk-cow"
         },
         {
           "row": 2,
-          "name": "Liquid milk — goat / sheep / other ruminant",
+          "name": "Liquid milk \u2014 goat / sheep / other ruminant",
           "slug": "dairy-milk-goat-sheep"
         },
         {
@@ -1985,6 +2000,11 @@
           "row": 9,
           "name": "Butter and ghee (dairy fat)",
           "slug": "butter-and-ghee"
+        },
+        {
+          "row": 10,
+          "name": "Frozen desserts",
+          "slug": "frozen-desserts"
         }
       ],
       "boundary_rules": [
@@ -2051,7 +2071,7 @@
       "slug_prefix": "",
       "status": "v2.1 scaffold (Step Zero lock; no candidate values)",
       "domain": "Ingestible and applied health products",
-      "exposure_pathway": "Parenteral (injection) + oral gray-market — a pathway absent from v2.0",
+      "exposure_pathway": "Parenteral (injection) + oral gray-market \u2014 a pathway absent from v2.0",
       "regulatory_jurisdiction": "FDA (unapproved/misbranded drugs); no certification framework exists for this class",
       "subcategories": [
         {
@@ -2086,7 +2106,7 @@
         "Topical copper-peptide serums and cosmetic peptide actives route to Category 13 Row 3, not here.",
         "Only unregulated/gray-market ingestible and injectable research compounds sold outside the supplement framework route here."
       ],
-      "contamination_platform_notes": "Overseas/unregulated synthesis drives Pb, Cd, As, Al, Ni, Cr contamination (Craven 2025: oral Ni near the ~200 ug/day PDE; oral Al mean 651 ug/g). The parenteral route bypasses gut absorption — see the standards-methodology variants in category-26-step0-lock.md.",
+      "contamination_platform_notes": "Overseas/unregulated synthesis drives Pb, Cd, As, Al, Ni, Cr contamination (Craven 2025: oral Ni near the ~200 ug/day PDE; oral Al mean 651 ug/g). The parenteral route bypasses gut absorption \u2014 see the standards-methodology variants in category-26-step0-lock.md.",
       "regulatory_anchors": "No lawful product limit exists; the locked min(percentile, regulatory ceiling) rule loses its cap term for this class (see category-26-step0-lock.md). USP <232> PDEs referenced as a toxicological anchor only."
     },
     {
@@ -2185,17 +2205,17 @@
       "subcategories": [
         {
           "row": 1,
-          "name": "Mushrooms — cultivated common (button/Agaricus; clean counterpart)",
+          "name": "Mushrooms \u2014 cultivated common (button/Agaricus; clean counterpart)",
           "slug": "cultivated-mushrooms"
         },
         {
           "row": 2,
-          "name": "Mushrooms — wild and processed-wild (contaminated)",
+          "name": "Mushrooms \u2014 wild and processed-wild (contaminated)",
           "slug": "wild-mushrooms"
         },
         {
           "row": 3,
-          "name": "Mushrooms — oyster and shiitake (cadmium accumulators)",
+          "name": "Mushrooms \u2014 oyster and shiitake (cadmium accumulators)",
           "slug": "cultivated-mushrooms-oyster-shiitake"
         }
       ],
@@ -2225,6 +2245,16 @@
           "row": 2,
           "name": "Other cooking/seed oils (canola, sunflower, coconut, avocado, sesame)",
           "slug": "cooking-oils-other"
+        },
+        {
+          "row": 3,
+          "name": "Margarine and spreads",
+          "slug": "margarine-and-spreads"
+        },
+        {
+          "row": 4,
+          "name": "Non-dairy creamer",
+          "slug": "non-dairy-creamer"
         }
       ],
       "boundary_rules": [
@@ -2262,6 +2292,11 @@
           "row": 4,
           "name": "Rice and grain syrups",
           "slug": "rice-grain-syrup"
+        },
+        {
+          "row": 5,
+          "name": "Jams, jellies and fruit spreads",
+          "slug": "jams-and-jellies"
         }
       ],
       "boundary_rules": [
@@ -2304,6 +2339,11 @@
           "row": 5,
           "name": "Mustard, mayonnaise, dressings",
           "slug": "mustard-mayo-dressings"
+        },
+        {
+          "row": 6,
+          "name": "Gravies",
+          "slug": "gravies"
         }
       ],
       "boundary_rules": [
@@ -2403,6 +2443,11 @@
           "row": 2,
           "name": "Soups, broths, and stocks (canned, dry-mix, bouillon, RTD carton)",
           "slug": "soups-broths-stocks"
+        },
+        {
+          "row": 3,
+          "name": "Puddings and gelatin desserts",
+          "slug": "puddings-and-gelatin-desserts"
         }
       ],
       "boundary_rules": [
@@ -2415,12 +2460,12 @@
     }
   ],
   "novel_product_routing_protocol": [
-    "Flag the product as 'unassigned — pending category review.'",
+    "Flag the product as 'unassigned \u2014 pending category review.'",
     "Identify the primary exposure pathway (ingestion, dermal, inhalation, mucosal, indirect/migration).",
     "Identify the applicable regulatory jurisdiction (FDA, EU, CPSC, EPA, etc.).",
-    "Determine whether the product fits an existing category with a boundary-rule clarification — if yes, update the boundary rules for that category and assign the product.",
-    "If no existing category can accommodate the product without distorting its scope — propose a new category with exposure pathway, regulatory anchors, and subcategories. The new category must be approved before any standards build begins.",
-    "No product is certified until its category assignment is resolved. An unassigned product does not default to a general or other bucket — it waits."
+    "Determine whether the product fits an existing category with a boundary-rule clarification \u2014 if yes, update the boundary rules for that category and assign the product.",
+    "If no existing category can accommodate the product without distorting its scope \u2014 propose a new category with exposure pathway, regulatory anchors, and subcategories. The new category must be approved before any standards build begins.",
+    "No product is certified until its category assignment is resolved. An unassigned product does not default to a general or other bucket \u2014 it waits."
   ],
   "navigational_domains": {
     "$comment": "Presentational navigation layer (v2.1). Groups categories for browsing and citation; changes no category number or identity. See docs/governance/taxonomy-reorganization-2026-06.md.",
@@ -2470,20 +2515,20 @@
     ]
   },
   "v2_1_changelog": [
-    "2026-06-08 — v2.1 additive expansion (no renumbering). Per docs/governance/taxonomy-reorganization-2026-06.md.",
+    "2026-06-08 \u2014 v2.1 additive expansion (no renumbering). Per docs/governance/taxonomy-reorganization-2026-06.md.",
     "Added Category 24 Dairy and Milk Products (8 rows; scaffold, no candidate values).",
     "Added Category 25 Cannabis, Hemp, and CBD Products (6 rows; scaffold).",
     "Added Category 26 Peptides, SARMs, and Research Chemicals (4 rows; scaffold; introduces the parenteral pathway).",
     "Added navigational_domains (seven-domain presentational layer).",
-    "New rows in locked categories — recorded canonically in page frontmatter + Step Zero amendment docs with their live row numbers, not mirrored into the stale v2.0 row arrays above: Category 4 mushrooms cultivated (row 17, clean) and wild (row 18, contaminated) per category-4-step0-amendment-1.md; Category 21 children's metal jewelry (row 22) per category-21-step0-amendment-1.md.",
+    "New rows in locked categories \u2014 recorded canonically in page frontmatter + Step Zero amendment docs with their live row numbers, not mirrored into the stale v2.0 row arrays above: Category 4 mushrooms cultivated (row 17, clean) and wild (row 18, contaminated) per category-4-step0-amendment-1.md; Category 21 children's metal jewelry (row 22) per category-21-step0-amendment-1.md.",
     "Category 22 gains an evaporative-vs-combustion clean/platform framing (no new row numbers).",
     "Reserved, not added: Category 27 Tobacco/Nicotine/Vaping; vape-hardware factoring; candidate rows (imported confectionery Cat 7, wine/spirits Cat 5, non-food pet toys).",
     "Deferred: the canned/snacks matrix-beats-format reorganization (kept in place per the local Cat 6 lock)."
   ],
   "v2_2_changelog": [
-    "2026-06-09 — v2.2 matrix-family re-cut. Per docs/governance/taxonomy-v2.2-matrix-family-recut.md.",
+    "2026-06-09 \u2014 v2.2 matrix-family re-cut. Per docs/governance/taxonomy-v2.2-matrix-family-recut.md.",
     "Phase A (this commit): Cat 4 slimmed from 'Fruits, Vegetables, and Produce' to 'Fruits and Vegetables' (live rows 1-7); live rows 8-18 retired-in-place and re-homed to new Cat 27 Legumes and Pulses, Cat 28 Nuts/Seeds/Butters, Cat 29 Edible Fungi. Scaffold-level; Cat 4 has no shipped standards.",
-    "Phase B (staged): Cat 7 dissolves — its 9 shipped rows re-home to Cat 30 Culinary Oils and Fats, Cat 31 Sweeteners and Syrups, Cat 32 Condiments/Sauces/Vinegars, Cat 33 Cocoa and Chocolate, Cat 34 Herbs/Spices/Seasonings/Salt, with butter/ghee to Cat 24 Dairy, snacks to Cat 3, mixed-meals to Cat 35 Prepared and Packaged Meals; shipped values carried forward unchanged.",
+    "Phase B (staged): Cat 7 dissolves \u2014 its 9 shipped rows re-home to Cat 30 Culinary Oils and Fats, Cat 31 Sweeteners and Syrups, Cat 32 Condiments/Sauces/Vinegars, Cat 33 Cocoa and Chocolate, Cat 34 Herbs/Spices/Seasonings/Salt, with butter/ghee to Cat 24 Dairy, snacks to Cat 3, mixed-meals to Cat 35 Prepared and Packaged Meals; shipped values carried forward unchanged.",
     "Supersedes v2.1: mushrooms move from Cat 4 r17/18 to Cat 29; the v2.1 'reserved Cat 27 = tobacco' is reassigned (Cat 27 = Legumes; tobacco renumbers to the next free number).",
     "Never renumber: re-homed rows retire in place (Cat 4 r8-18, and Cat 7 r1-12 in Phase B, become gaps); new categories append; live row identity is page frontmatter, not the stale Cat 4 array above."
   ]

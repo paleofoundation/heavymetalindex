@@ -1,0 +1,4618 @@
+{
+  "release": "hmi-rollout-bU-20261024",
+  "from": "/private/tmp/hmi-rollout-b345-20261024",
+  "out": "/private/tmp/hmi-rollout-bU-20261024",
+  "working_folder": "/Users/kmfp/ops/heavymetalindex",
+  "pages": [
+    {
+      "page": "ingredients/almond",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/almond/candidate/almond.md",
+      "candidate_sha256": "7a991bb65892af552da0f24fd75e90a3641b466b108954b33ab9b0cd62779c89",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/apple-juice",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/apple-juice/candidate/apple-juice.md",
+      "candidate_sha256": "dbd9324ed1adb36836c88c67a32e75cb6ec72917427f4eaf7251bf5d24274fb3",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/asparagus",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/asparagus/candidate/asparagus.md",
+      "candidate_sha256": "9f8f710b30c58c79a1441a4be08d18acf45d62dc9a5d74df2b3e216039be88ed",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/baked-beans",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/baked-beans/candidate/baked-beans.md",
+      "candidate_sha256": "ce735188395bae40dfcbe46557f0a640e66280ec4df46c73a030ac7fa2bbe494",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/baked-potato-with-peel",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/baked-potato-with-peel/candidate/baked-potato-with-peel.md",
+      "candidate_sha256": "9c14131be764463ec8d32deab0a8c47acdc5606ceee94a220ea437b74e9e4999",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/bee-pollen",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/bee-pollen/candidate/bee-pollen.md",
+      "candidate_sha256": "419212cf3208391fa08b9dad27e7b5885642f7651740cbabdbf7a682318cee88",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/beef",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/beef/candidate/beef.md",
+      "candidate_sha256": "7723ced35c95333d01cf247ad1160d918c185a40c34c250c72b14123b7577883",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/beer",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/beer/candidate/beer.md",
+      "candidate_sha256": "82402bb5ba0e6c13f1177c68ce0c6552c1e83f92e68bb7fe29de097676994696",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/beet",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/beet/candidate/beet.md",
+      "candidate_sha256": "746d696bd7828f75566a7533ff5cf6884bc68f8388c662637ade7ea698c81ef0",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/blueberries",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/blueberries/candidate/blueberries.md",
+      "candidate_sha256": "8d27d6cf1db83cd92920df19c09884c879f8cec94f96b78693cdc874bece2be1",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/bologna-luncheon-meat",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/bologna-luncheon-meat/candidate/bologna-luncheon-meat.md",
+      "candidate_sha256": "3d1f6e9908ca7192e24e6ce4e0cbd7918b75a729198fddfa6ea5b47d0094215e",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/brassica",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/brassica/candidate/brassica.md",
+      "candidate_sha256": "16b183e166d75944a05ad99970d336c2c1c0aabd28f3eb4c074c81f1497570ab",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/bread",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/bread/candidate/bread.md",
+      "candidate_sha256": "f0640a30908fa7dc7dc93b98ba7e73cbd37345640690c0b9380f516bf33a1a5e",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/broccoli",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/broccoli/candidate/broccoli.md",
+      "candidate_sha256": "956a0e8a88eaef6ca379f4c49e866cd81acf8a66f1c7b01e8e3fb7dc63cb2449",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/brussels-sprouts",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/brussels-sprouts/candidate/brussels-sprouts.md",
+      "candidate_sha256": "b46825adb14982408092861367cf298b48be23b72d27053986e1700710d1a784",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/cabbage",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/cabbage/candidate/cabbage.md",
+      "candidate_sha256": "fee2e27ceff7f541526a15317270f94de31e8e0e9f94e171ca8b8b78d3ae8319",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/camellia-sinensis",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/camellia-sinensis/candidate/camellia-sinensis.md",
+      "candidate_sha256": "15819e99bc6f1d36410eabae818e9b490f5d388d7ea2c90f047991d75c074250",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/canned-corn",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/canned-corn/candidate/canned-corn.md",
+      "candidate_sha256": "823124304050309782491c6316ad406b588b932a7d34c47d915186d8b5d0afdd",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/canned-green-beans",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/canned-green-beans/candidate/canned-green-beans.md",
+      "candidate_sha256": "c637944755c98f71c786147f6919d9d10774768430388bb985b5431d0e63f9a3",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/canned-mushrooms",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/canned-mushrooms/candidate/canned-mushrooms.md",
+      "candidate_sha256": "43859b66b18855ef190c24d2f96e99a87a77a45c5ce4c022d6bc422d569c8825",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/canned-tuna",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/canned-tuna/candidate/canned-tuna.md",
+      "candidate_sha256": "f18a06b901d1a0e5a86bd6694661f0a3f2d3a5d60e09663e9eb6536741c815ae",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/carrot",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/carrot/candidate/carrot.md",
+      "candidate_sha256": "7170ef4807cce319e23ed5ba77a246dfa3c62d49dfc311868b4204fe032ca6c2",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/catfish",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/catfish/candidate/catfish.md",
+      "candidate_sha256": "92698c67dad6b25fff5dd6ef35b5b7569ef458c0a596ee692ecd00023cec98fc",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/cauliflower",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/cauliflower/candidate/cauliflower.md",
+      "candidate_sha256": "fb19e07918e3f6903d6008495ed481b2a6a640e31c46c7c61ff5195d929173c5",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/celery",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/celery/candidate/celery.md",
+      "candidate_sha256": "ea7afa109f31a4e3b46d80db5225d83d3102ad4e6747ebe0e443cdff39eb4b5e",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/chicken",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/chicken/candidate/chicken.md",
+      "candidate_sha256": "23b3dfe2e220facc9b9c704e1b5f4aaa82e16e0c3f2579971809cd3eb89198d3",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/chickpeas",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/chickpeas/candidate/chickpeas.md",
+      "candidate_sha256": "6eb36e71ce98f1e4b924e92d962e9b597d334eed927db3c5593beb7d8363ffe6",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/chocolate-reduced-fat-milk",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/chocolate-reduced-fat-milk/candidate/chocolate-reduced-fat-milk.md",
+      "candidate_sha256": "7618fdddbeccfc47fa500555713dc1ed5f1d623f2431eb3895810aedbb4fb770",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/clementines-tangerines",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/clementines-tangerines/candidate/clementines-tangerines.md",
+      "candidate_sha256": "5cb9956bd13a703005b320bb72a23e0d0e8656dfbf60857d732eb5e40e65fd70",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/coconut",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/coconut/candidate/coconut.md",
+      "candidate_sha256": "cafb021ba4cbeb0e81bdb713de9d9ac34d16861efca49f574900508ec03ac1a9",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/coconut-water",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/coconut-water/candidate/coconut-water.md",
+      "candidate_sha256": "2973d4c71ff660e8463f71627544c3a109deb5c2e4a2d67b34b10c73612bb925",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/coffee",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/coffee/candidate/coffee.md",
+      "candidate_sha256": "459c2d966cd70feb910fae99d38f87e7471844d4d0835a7fe114d1880d27e973",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/coriander",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/coriander/candidate/coriander.md",
+      "candidate_sha256": "212958681a0f605a1e9530258c89ecdf659660e53c0dc27bb5251d745c9da50c",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/corn-flakes",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/corn-flakes/candidate/corn-flakes.md",
+      "candidate_sha256": "2e9166744b6edc871b5645e331d716b8a7df9994837a81422b0a9f930bf5ded0",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/cosmetic-clay",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/cosmetic-clay/candidate/cosmetic-clay.md",
+      "candidate_sha256": "c1c9e93f8fe4e5e33173fbb36f66a13a508c0c95b5e088dd33133645019d394b",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/cottage-cheese",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/cottage-cheese/candidate/cottage-cheese.md",
+      "candidate_sha256": "e2393ffb52c0cb19a240c90919ba265cdc352e4e6ec8da2a0ff304697cb3c365",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/cucumber",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/cucumber/candidate/cucumber.md",
+      "candidate_sha256": "8f9b460443262cf92bd330d79526e536e5342caa41fe7107897f641e573393eb",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/cumin",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/cumin/candidate/cumin.md",
+      "candidate_sha256": "b7aa3f8f09d105f9cd6973b0f2266942d2735aa9a778af9e3b01e72cc32233de",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/dried-herbs",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/dried-herbs/candidate/dried-herbs.md",
+      "candidate_sha256": "c749a635135d0ef7390b149fc37656d3f6959b7d6ce7d506a945ff89bfdf3965",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/edible-insects",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/edible-insects/candidate/edible-insects.md",
+      "candidate_sha256": "528006e8dab6d180002c70be1da8fbf2a589e2eeb94870034be06dc661ef90aa",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/eggplant",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/eggplant/candidate/eggplant.md",
+      "candidate_sha256": "de174e3a4a9b49c9b9369419d4fe355b8f56c3ef46171586163ea06c06346410",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/eggs",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/eggs/candidate/eggs.md",
+      "candidate_sha256": "3cade49ccd6327b9c7beea2476be64b26f38de57cfc4e31c1fe14602ae7551eb",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/flaxseeds",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/flaxseeds/candidate/flaxseeds.md",
+      "candidate_sha256": "a12ca90f1920d8bbfd38c09650d32f17aebdca4cb80d292e9d72169d1747bd23",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/frankfurter",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/frankfurter/candidate/frankfurter.md",
+      "candidate_sha256": "31590db89afb382c6747708012d564de9a9ae59340c83bda9fc4e6ad52e34cad",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/french-fries",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/french-fries/candidate/french-fries.md",
+      "candidate_sha256": "328be87975a8aaf6c8c1acb3716145116c1230d28d06655873b0e4a4a3873469",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/fresh-herbs",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/fresh-herbs/candidate/fresh-herbs.md",
+      "candidate_sha256": "c0ee9f7a36168dfa5eb6b1a4ccb0dfe01e819663f62663a98d88953ac8cfced9",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/freshwater-fish",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/freshwater-fish/candidate/freshwater-fish.md",
+      "candidate_sha256": "106de61c543e6152d500bd2acd88ccb62fc749fcd49f88fe054db6b6c06f7756",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/frozen-peas",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/frozen-peas/candidate/frozen-peas.md",
+      "candidate_sha256": "f96677c4a2dad6c7192f4cbaed9e12f73b93cd6749d56c7db1a1c616aeba6f99",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/garlic",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/garlic/candidate/garlic.md",
+      "candidate_sha256": "523124d21858c738d7b72ded4af97c9e69a760ad81386296ef430cecfe03c4ff",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/grape-juice",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/grape-juice/candidate/grape-juice.md",
+      "candidate_sha256": "400f1d976ce35ccb2a033a20ffdd4a82e4ba3fec3ada283528c570a40fa66457",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/grapefruit-juice",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/grapefruit-juice/candidate/grapefruit-juice.md",
+      "candidate_sha256": "8ebf85094ef03c9e4a29c1b48cc661036bef01e6d41b814a38f035fb5a4940d1",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/grapes",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/grapes/candidate/grapes.md",
+      "candidate_sha256": "62d083e96b8ace4c9c6b2ea6fe1786424ad0d9ef31a8ae7e25a05ffe9a9ad820",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/green-beans",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/green-beans/candidate/green-beans.md",
+      "candidate_sha256": "3989241cff738bbfb3d397196c26948af425fbe973f3cf25232674a8a72af4ea",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/guava",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/guava/candidate/guava.md",
+      "candidate_sha256": "98503aae99127671237d791a1a633c4b7254af0ea799f5e2fc473cd05007f71e",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/ham",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/ham/candidate/ham.md",
+      "candidate_sha256": "40174b098af1218d6916ac8be818e1e88843b8370807e5d41341ad691f23d0dc",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/hard-candy",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/hard-candy/candidate/hard-candy.md",
+      "candidate_sha256": "0d87ed9f4bfb39826c13c039607faf242ca4df7d09afb59f2f09dcadad9fdb9c",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/hazelnuts",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/hazelnuts/candidate/hazelnuts.md",
+      "candidate_sha256": "fe9f6711892fdf77440bf3e7774d7dd7db0cd4f5640c3c693e4a2c7fac19f81d",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/hemp",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/hemp/candidate/hemp.md",
+      "candidate_sha256": "0a98b2488ebd9a0aee61bade9925aa020dfb30178c2d9fcd73927fdc501fc963",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/herbal-botanicals",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/herbal-botanicals/candidate/herbal-botanicals.md",
+      "candidate_sha256": "0f3ae60819df542955912abab6e89c39e995af050f1f834432dbc3ddbe621243",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/ice-cream",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/ice-cream/candidate/ice-cream.md",
+      "candidate_sha256": "f6126f176b6bbb24406b299df23e0b5752a4e12b3690cd32f77757739d71b49c",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/iceberg-lettuce",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/iceberg-lettuce/candidate/iceberg-lettuce.md",
+      "candidate_sha256": "3a93463ce596240d4155a6350887acff8889a14065cfd49b168cf3a7fb0f8ccb",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/infant-formula-powder",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/infant-formula-powder/candidate/infant-formula-powder.md",
+      "candidate_sha256": "b4350dcbf12299cfd31958612b0c8a3c8240a829fd5a35151c9b0fd581b90d09",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/iodized-salt",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/iodized-salt/candidate/iodized-salt.md",
+      "candidate_sha256": "74cd14630a78c859c4adee83beb384a83e62f93602f22c9cded99f45f0d4731e",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/jujube-fruit",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/jujube-fruit/candidate/jujube-fruit.md",
+      "candidate_sha256": "d14d29d16802cec83d923cbf6975efd7a882112625695e9788df0b021c2b3aee",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/kale",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/kale/candidate/kale.md",
+      "candidate_sha256": "6c51dd059c5fd8c6a7b0410e0677242d1a378b52d93e0f87543027d63f131746",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/ketchup",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/ketchup/candidate/ketchup.md",
+      "candidate_sha256": "d62269e44001afa42bdaac68fa4cc78f82616eb60aba5755082a276c8116b6ee",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/kidney-beans",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/kidney-beans/candidate/kidney-beans.md",
+      "candidate_sha256": "39541f94cb13698cd1c25c1a878024d5c4e85a671cfe727e4ae84e69b1d4415d",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/lamb-chop",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/lamb-chop/candidate/lamb-chop.md",
+      "candidate_sha256": "076c56cd5926461f85c99e451b137eaf9195e4435095aa7567108b6377b575ab",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/leeks",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/leeks/candidate/leeks.md",
+      "candidate_sha256": "5bb7e06ef7dc18816320f9b795183b716b36eeb1bbd336def90391115c8a0570",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/legumes",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/legumes/candidate/legumes.md",
+      "candidate_sha256": "0cd295d30a6aeaf0c70295064483d48426ae3f59f5947d64d6d50620b9e02811",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/lemon-juice",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/lemon-juice/candidate/lemon-juice.md",
+      "candidate_sha256": "66e9cc224b7db1020d9ffe3ad65d71e22c2238390f0859a7652100fde4c6141a",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/mango-juice",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/mango-juice/candidate/mango-juice.md",
+      "candidate_sha256": "8f4fc1a1b44e5f4660bd20d3ecedd813b27a7651ea570d6c8dcb6ad1ec6a1c89",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/matcha-powder",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/matcha-powder/candidate/matcha-powder.md",
+      "candidate_sha256": "0538fc45af2a22ab2b649b6fc44accb70485ed8b01a68211c2dc4d5784ee8108",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/mayonnaise",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/mayonnaise/candidate/mayonnaise.md",
+      "candidate_sha256": "5eb13c022c7f7571a884994fc5a2606d358e117ad88a5b01323ff10cb4ea4c06",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/meat",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/meat/candidate/meat.md",
+      "candidate_sha256": "fe2104f034dd85c0e413bb2132895161bb152947871ea64220feda31b0e34632",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/melon",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/melon/candidate/melon.md",
+      "candidate_sha256": "262515a30d3f0e2517a33a1fdfedde8bf7050855422853da32751cac312ae7cf",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/milk-and-dairy",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/milk-and-dairy/candidate/milk-and-dairy.md",
+      "candidate_sha256": "88d0483de01bdc7fd8c4751eae6d789fa9f420fef9845985a9087e5b1552653c",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/mozzarella",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/mozzarella/candidate/mozzarella.md",
+      "candidate_sha256": "e20bd392ee931ff9b2eec0de29d83c946c01463f2671ae2764b70fdba6d3152c",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/mushrooms",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/mushrooms/candidate/mushrooms.md",
+      "candidate_sha256": "2f931246f7b2417637136322c10e4f834baad2d4a198ee13bf2eef71ce4d9a0f",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/mustard",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/mustard/candidate/mustard.md",
+      "candidate_sha256": "e43ab192bc8f365191f8a77a49dcfe307b63dcdb072b6dc677f044083ab4262f",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/non-rice-grains",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/non-rice-grains/candidate/non-rice-grains.md",
+      "candidate_sha256": "a77a6be053b87aea2b22c152f1dc08300ecf536eda3e0382d7f2acaa51be9354",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/noodles",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/noodles/candidate/noodles.md",
+      "candidate_sha256": "f138962eda1c67c9dd7ff6e9440ad62c28531bdf0585431389f869e6b5807545",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/oat",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/oat/candidate/oat.md",
+      "candidate_sha256": "eb95fd9814488f3591e590c85c18ef2890d76a39fdf7dd93469974b79f5d45a5",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/okra",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/okra/candidate/okra.md",
+      "candidate_sha256": "29614cf036bf726695ace49d2707dac930999fee692c996620a0e0d4922658dd",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/olive-oil",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/olive-oil/candidate/olive-oil.md",
+      "candidate_sha256": "fda4dcac5744d2d901fb7d7d7b5e84a4773798f8817b699fb3f4ed11e38b2b4f",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/olives",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/olives/candidate/olives.md",
+      "candidate_sha256": "b84fc60b961c57002aa5a8069ef138958af911cc9542ed222ecfc05a0b5c46ee",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/orange-juice",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/orange-juice/candidate/orange-juice.md",
+      "candidate_sha256": "3a2a0daf3c85b77e21445b0962bab54b86eda8daa8107a1bc64024cf4a0f0ca1",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/oranges",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/oranges/candidate/oranges.md",
+      "candidate_sha256": "6e2c1d38010f97d453f3a7e3ffc792905a4bab993b92ef21d252787e020365c3",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/oyster",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/oyster/candidate/oyster.md",
+      "candidate_sha256": "7f42cbf9ef3596356c6fbdd6e32e36235cf0a83b7658650ab2062649b49b7885",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/parsley",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/parsley/candidate/parsley.md",
+      "candidate_sha256": "9d8e0f2fda0b5bff19d4cad7e0c52f6f547619f8340d06e89f02c1a9fff29be8",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/parsnips",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/parsnips/candidate/parsnips.md",
+      "candidate_sha256": "29ecaad576ac35a1a16b4152428dc3cc920e230b547375e34c93437af3339d84",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/pasta",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/pasta/candidate/pasta.md",
+      "candidate_sha256": "85d6679b0f43f22c0e4ff6bd0969c28c1da8b601685f60213ca3d36819d13291",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/peach",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/peach/candidate/peach.md",
+      "candidate_sha256": "167a60e4dcfc2d1f0071cf0804f2476e1ead0bfb85180c66d5e2c84bcc9fea99",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/peanuts",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/peanuts/candidate/peanuts.md",
+      "candidate_sha256": "ee39a5e0223802ad95cc47476ab1ca7691f6f1cc9b1e7ce928f5e234f44c3310",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/pear",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/pear/candidate/pear.md",
+      "candidate_sha256": "8e2eea259ba0ac11c97b261dd11eaa634a5907d1bce7759c80a2e36d4daaf5dd",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/pear-juice",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/pear-juice/candidate/pear-juice.md",
+      "candidate_sha256": "fa5ee08ad3a4017360597bcb9bedf073844a6acf69c43025517951be7abc2981",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/peppers",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/peppers/candidate/peppers.md",
+      "candidate_sha256": "ce6c0b346051b0f5be7928a84cf0f7a0332e993302d2b510570d0465a353210c",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/pineapple",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/pineapple/candidate/pineapple.md",
+      "candidate_sha256": "b9ec81eb6693ae1eb3bdda41349232fbfb128ca6f438258d301158e700141af9",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/pineapple-juice",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/pineapple-juice/candidate/pineapple-juice.md",
+      "candidate_sha256": "744c32f9e3272d596f1bcacb68b776075be353106e16d456280af7365cee1db0",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/plums",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/plums/candidate/plums.md",
+      "candidate_sha256": "b48527e8c636e0d9c948d8463e0cabc961b1932a7f53a5858314fe425dc6c491",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/popcorn",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/popcorn/candidate/popcorn.md",
+      "candidate_sha256": "b2568d23046bbdcf9da7643e168039b7e23094e19c0e46789e9a5781f25f5300",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/pork-bacon",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/pork-bacon/candidate/pork-bacon.md",
+      "candidate_sha256": "d0d4f0110fd32dfbc07444cff5373b08624b1cd9474a4996de88b0bfba3f8cb6",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/potato-chips",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/potato-chips/candidate/potato-chips.md",
+      "candidate_sha256": "f9abf0a9ce9632e3de8d92831763cbfdfaebffb090025bc36cbe8e2903ccf47b",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/potatoes",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/potatoes/candidate/potatoes.md",
+      "candidate_sha256": "11ca9f72955f26c35069514f27538ecd96aebb216c999c33bac5cbf606b93a50",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/poultry",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/poultry/candidate/poultry.md",
+      "candidate_sha256": "b8fa6ae8a424ca87597ac1e1ba61e8ac762c7df0e1668e9896f510a37c1265fd",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/processed-american-cheese",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/processed-american-cheese/candidate/processed-american-cheese.md",
+      "candidate_sha256": "8fa33cabf104291df4fd919125032f6208c6c188f4ab7d210c8ba004ee548278",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/protein-powder",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/protein-powder/candidate/protein-powder.md",
+      "candidate_sha256": "2e87c275b4d6026c1ba2de28d22e379ee0005d748476cfc43dab0df0ae6cc768",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/quinoa",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/quinoa/candidate/quinoa.md",
+      "candidate_sha256": "b51cc0f82ad516b6932e6b13b86511259b1db88eeaac61124775048db70c80e8",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/raisins",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/raisins/candidate/raisins.md",
+      "candidate_sha256": "fdae4f8bb6bebcc0f48cda7296a90f85487fe16b6c981a370be54686e613bfa2",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/raspberries",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/raspberries/candidate/raspberries.md",
+      "candidate_sha256": "528b255a1ff14a94233227ba57a84d8ff90b815ef4ffb93147f32d7c46b09b18",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/rice-cereal",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/rice-cereal/candidate/rice-cereal.md",
+      "candidate_sha256": "6768a78737fff3cb28f79e766ef143218073edeb76d4bd5dc37597ae31398852",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/rice-flour",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/rice-flour/candidate/rice-flour.md",
+      "candidate_sha256": "19636948012176c72b77661aef36d6602e0be9b19edaeb839188373356dd757a",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/salami",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/salami/candidate/salami.md",
+      "candidate_sha256": "c76e61dc63745837d763ddb5426266ec288ae077e800caedc9fa266a692a616e",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/salmon",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/salmon/candidate/salmon.md",
+      "candidate_sha256": "d1bbf6c0b6a702d994f722a658f823b33a210e63cf5b23edcaeaed88243d1235",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/salt",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/salt/candidate/salt.md",
+      "candidate_sha256": "6feb24b6939838fe75e8c0da393727265f8d49e20723a3d3d02848d7ab2b7882",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/sea-salt",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/sea-salt/candidate/sea-salt.md",
+      "candidate_sha256": "46739cf6f1fbff880658180180a2ce6ff22f99f3c2d329db66bc809189e1fa97",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/sesame",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/sesame/candidate/sesame.md",
+      "candidate_sha256": "d2d5eefcefeda2a6a26c342a6c7d216df1e29f8bba24bd18c5b14787211e71b7",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/shellfish",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/shellfish/candidate/shellfish.md",
+      "candidate_sha256": "63dc91f885ca7114ff7afe3deb6590184a4a2ee7ac2412912200419b04f5fc62",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/shrimp",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/shrimp/candidate/shrimp.md",
+      "candidate_sha256": "c16c0fb5f81b175bc025f3dc2bfacbcdb7277e11f370086b19c0f40fa22711dd",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/soy",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/soy/candidate/soy.md",
+      "candidate_sha256": "d030885d7deb499359129e5d813aaa8531b49e04cf48d90aef3ced70001901ce",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/soybean-oil",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/soybean-oil/candidate/soybean-oil.md",
+      "candidate_sha256": "43a1a4ec019189417a8ce7e2be19a8d1191a996b4ed0aaa320852f03cd4805fe",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/spices",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/spices/candidate/spices.md",
+      "candidate_sha256": "6c09533362cedc08e81a556faf19ac2df979e950ca4a627747260d040946ee2e",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/squash",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/squash/candidate/squash.md",
+      "candidate_sha256": "b2d4d015b8a08abb20fe15ff56c490f0d407bd096f4d62a1575ea943f3723da5",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/strawberries",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/strawberries/candidate/strawberries.md",
+      "candidate_sha256": "0b3cf59df2b1c94e2db86c0c93eb05b3f663381586fbad21703e2007d6d29ef4",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/sunflower-oil",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/sunflower-oil/candidate/sunflower-oil.md",
+      "candidate_sha256": "dccb069e44c16c119536744a961fd05581c975a54f9d2282c3c1b1c6b59faae8",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/sweet-potato",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/sweet-potato/candidate/sweet-potato.md",
+      "candidate_sha256": "0822dd888da077179866b5856cde11408e48a4a66ecb6e4602155ff72017655b",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/swordfish",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/swordfish/candidate/swordfish.md",
+      "candidate_sha256": "773d453a9aa6bf6c80237f11557954dbf2b68648d908ad34839e48acda719b74",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/tea",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/tea/candidate/tea.md",
+      "candidate_sha256": "8b5d42acec8e0debc8913a8310ae1be1bfa0e57a879410d86dbbe083387ba8a1",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/tilapia",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/tilapia/candidate/tilapia.md",
+      "candidate_sha256": "c5f1ec1fdb489ba7e00b965954526a8077a680bfa6a570829d7ab1925c903efe",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/tomato-paste",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/tomato-paste/candidate/tomato-paste.md",
+      "candidate_sha256": "102ce744e1683d392e0d8a7c358e7617dabed158eb9355359e00f9504f216b47",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/tomato-sauce",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/tomato-sauce/candidate/tomato-sauce.md",
+      "candidate_sha256": "1acad07e09fa77e55425e7aba45637434c40136ba2e2b4a0e38405335c95f8f4",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/turkey",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/turkey/candidate/turkey.md",
+      "candidate_sha256": "f84900428738bc739cfaab581eba26498c2e086098caa384a2b68309f69617ad",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/turmeric",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/turmeric/candidate/turmeric.md",
+      "candidate_sha256": "8233cf4deb7de059efab9a2ba9e53845f32b3d4be2eb7627559fb1bd5ca8d10e",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/vegetable-oils",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/vegetable-oils/candidate/vegetable-oils.md",
+      "candidate_sha256": "c4fcc55932937b8f7e826601088a43a2186beefdec569ee7d66990eb80a78c13",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/vinegar",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/vinegar/candidate/vinegar.md",
+      "candidate_sha256": "0e0522bd1457ad06b55fcc52bb7dd69b376f8d9dbf729883fd5141a200312afb",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/walnuts",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/walnuts/candidate/walnuts.md",
+      "candidate_sha256": "45ef036bc43f36ef0b05a0910951719e54abdd355ca6bed9b9a3dc9737dd9cba",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/watermelon",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/watermelon/candidate/watermelon.md",
+      "candidate_sha256": "5ad0f34bde0156e61a4149eb38d743fb6834d4d873c50791e4c47199a53ca09a",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/wheat-flour",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/wheat-flour/candidate/wheat-flour.md",
+      "candidate_sha256": "39441cd0fa2e72ea96d21effba3dc97c4dbe1923a647596cfccb27943eb84993",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/whey",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/whey/candidate/whey.md",
+      "candidate_sha256": "a8a8073474c97297a3730ae5b8e9857cd97e8606bf98d5a29c989598ee55c4bc",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/white-bread",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/white-bread/candidate/white-bread.md",
+      "candidate_sha256": "2d241c76a2567997a3ad8f6853bbbadfd505e218c8de5abaa099d5e7727c1a4f",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/white-sugar",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/white-sugar/candidate/white-sugar.md",
+      "candidate_sha256": "ec360746f2ce914505a0cd182408f156545b26768e248c4c997075e1ca17e79d",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/wholemeal-bread",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/wholemeal-bread/candidate/wholemeal-bread.md",
+      "candidate_sha256": "28a7406e14c07c6d0558df52b207b7b87544d6c38cca74df83d1aaedde0e9160",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/wine",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/wine/candidate/wine.md",
+      "candidate_sha256": "a704dfb1a4afec843098ec11b0fe7797dc786f8720bc8abaf5b0a2850263d482",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/winter-squash",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/winter-squash/candidate/winter-squash.md",
+      "candidate_sha256": "c756272ef4f58a2daab6d9cbe68a52709a9d174a61269b6e47511bb06dd27af1",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/yam",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/yam/candidate/yam.md",
+      "candidate_sha256": "62331b1d16334d2cffa992cc54836c8d1591c52722b902e0eadaa45038890b45",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/yogurt",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/yogurt/candidate/yogurt.md",
+      "candidate_sha256": "34ffd998e65e477c54550eedf6578277efc08fd6c0d55cb62adeaca36882dbef",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/zucchini",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/zucchini/candidate/zucchini.md",
+      "candidate_sha256": "eb676eb5509749eebea03f76f0afb47d27c688de819ea395cd8dba6010863f3c",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    }
+  ],
+  "shared": [
+    "quartz/components/scripts/analyteExplorer.inline.ts",
+    "quartz/components/styles/analyteExplorer.scss",
+    "tools/contracts/pilot",
+    "tools/contracts/analyte-explorer.test.mjs",
+    "tools/engine/page",
+    "tools/engine/release",
+    "tools/engine/gates",
+    "data/evidence/engine/controls",
+    "tools/audit-ingredient-presentation.mjs",
+    "quartz/plugins/emitters/contentIndex.tsx",
+    "quartz/util/buildDate.ts",
+    "tools/ingredient-presentation-gate.test.mjs",
+    "data/evidence/contracts/grouped-table-transition.json",
+    "AGENTS.md",
+    "docs/contracts/ingredient-canonical-style.md",
+    "docs/contracts/claude-ingredient-playbook.md",
+    "docs/contracts/source-first-engine.md"
+  ],
+  "copied": [
+    {
+      "file": "wiki/ingredients/almond.md",
+      "why": "ingredients/almond candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/sources/grembecka2013-poland-honeys-bee-products-minerals.md",
+      "why": "ingredients/almond citation",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/caridi2021-italy-flour-radiological-chemical-risk.md",
+      "why": "ingredients/almond citation",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/kulluk2023-konya-dried-fruits-nuts-metals.md",
+      "why": "ingredients/almond citation",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/ruzik2022-poland-plant-drinks-arsenic-speciation.md",
+      "why": "ingredients/almond ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/tkachenko2025-ukraine-chocolate-paste-organic-pb-cd.md",
+      "why": "ingredients/almond ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/wall2025-uk-milk-plant-beverages-minerals.md",
+      "why": "ingredients/almond ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/ingredients/apple-juice.md",
+      "why": "ingredients/apple-juice candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/sources/anastacio2018-portugal-fruit-juices-trace-metals.md",
+      "why": "ingredients/apple-juice citation",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/bora2020-romania-fruit-juices-metals.md",
+      "why": "ingredients/apple-juice citation",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/othman2010-riyadh-market-foods-lead.md",
+      "why": "ingredients/apple-juice ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/roberge2009-tucson-beverages-broths-arsenic.md",
+      "why": "ingredients/apple-juice ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/signes-pastor2020-nh-infants-apple-arsenic-urine.md",
+      "why": "ingredients/apple-juice ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/ingredients/asparagus.md",
+      "why": "ingredients/asparagus candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/sources/norton2015-britain-vegetables-fruit-cadmium-lead.md",
+      "why": "ingredients/asparagus citation",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/chigona2026-great-dyke-wild-foods-geophagy.md",
+      "why": "ingredients/asparagus citation",
+      "status": "new"
+    },
+    {
+      "file": "wiki/ingredients/baked-beans.md",
+      "why": "ingredients/baked-beans candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/sources/suleiman2019-maiduguri-baked-beans-metals.md",
+      "why": "ingredients/baked-beans citation",
+      "status": "new"
+    },
+    {
+      "file": "wiki/ingredients/baked-potato-with-peel.md",
+      "why": "ingredients/baked-potato-with-peel candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/bee-pollen.md",
+      "why": "ingredients/bee-pollen candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/sources/bayir2022-konya-honey-pollen-heavy-metals.md",
+      "why": "ingredients/bee-pollen citation",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/matuszewska2021-poland-bee-pollen-propolis-royal-jelly.md",
+      "why": "ingredients/bee-pollen citation",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/trimmel2026-austria-bees-bee-products-elements.md",
+      "why": "ingredients/bee-pollen citation",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/belinaaldemita2020-philippines-stingless-bee-pollen.md",
+      "why": "ingredients/bee-pollen ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/ciric2023-bee-pollen-bioindicator-review.md",
+      "why": "ingredients/bee-pollen ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/durkalec2026-europe-bee-stored-pollen-elements.md",
+      "why": "ingredients/bee-pollen ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/fatrcovasramkova2019-bee-pollen-nutrition-toxicology-review.md",
+      "why": "ingredients/bee-pollen ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/ilhan2023-konya-urban-bee-pollen-honey-metals.md",
+      "why": "ingredients/bee-pollen ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/maragou2016-greece-honey-pollen-propolis-mercury.md",
+      "why": "ingredients/bee-pollen ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/papa2021-po-valley-bee-pollen-particulate-matter.md",
+      "why": "ingredients/bee-pollen ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/zajdel2023-lowicz-osmia-pollen-heavy-metals.md",
+      "why": "ingredients/bee-pollen ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/ingredients/beef.md",
+      "why": "ingredients/beef candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/sources/adjei2023-ghana-market-beef-metals.md",
+      "why": "ingredients/beef citation",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/bilandzic2020-zagreb-beef-pork-cuts-elements.md",
+      "why": "ingredients/beef citation",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/stojanovic2021-serbia-canned-meat-tinplate-metals.md",
+      "why": "ingredients/beef citation",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/adilbekov2026-kazakhstan-livestock-fish-metals.md",
+      "why": "ingredients/beef citation",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/szkoda2013-poland-animal-tissues-milk-metals.md",
+      "why": "ingredients/beef citation",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/hossain2022-dhaka-market-beef-metals.md",
+      "why": "ingredients/beef citation",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/todorovska2023-north-macedonia-meat-fish-metals.md",
+      "why": "ingredients/beef citation",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/marin2018-valencia-foodstuffs-metals.md",
+      "why": "ingredients/beef citation",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/boahene2020-tamale-abattoir-meat-pb-cd.md",
+      "why": "ingredients/beef ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/chowdhury2024-noakhali-meat-poultry-metals.md",
+      "why": "ingredients/beef ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/eldars2022-egypt-canned-tuna-processed-meat-metals.md",
+      "why": "ingredients/beef ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/hsu2017-animal-bone-broth-metals.md",
+      "why": "ingredients/beef ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/jamil2015-lahore-chicken-goat-cow-organs-metals.md",
+      "why": "ingredients/beef ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/kasozi2021-soroti-beef-multivariate-preprint.md",
+      "why": "ingredients/beef ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/korfali2013-lebanon-canned-foods-metals.md",
+      "why": "ingredients/beef ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/litrenta2025-ready-to-eat-fish-meat-elements.md",
+      "why": "ingredients/beef ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/lukacova2015-slovakia-meat-salami-ham-cadmium.md",
+      "why": "ingredients/beef ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/nieblacanelo2022-tenerife-instant-soups-al-cd-pb.md",
+      "why": "ingredients/beef ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/okeke2024-okpuno-pork-beef-metals.md",
+      "why": "ingredients/beef ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/pan2023-southeast-china-vegetables-cadmium.md",
+      "why": "ingredients/beef ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/rostek2010-poland-canned-meat-pies-metals.md",
+      "why": "ingredients/beef ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/saulawa2024-kaduna-suya-fried-meat-cadmium-lead.md",
+      "why": "ingredients/beef ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/shaikh2025-mumbai-ready-to-eat-foods-voltammetry.md",
+      "why": "ingredients/beef ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/suzukiinoue2024-us-1980-food-cadmium-intake.md",
+      "why": "ingredients/beef ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/tapia2026-toxic-residues-meat-review.md",
+      "why": "ingredients/beef ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/tokay2022-balikesir-canned-frozen-vegetables.md",
+      "why": "ingredients/beef ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/toskovic2025-srpska-pates-meat-spreads-metals.md",
+      "why": "ingredients/beef ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/zheng2025-zhejiang-prepared-meat-dishes-elements.md",
+      "why": "ingredients/beef ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/ingredients/beer.md",
+      "why": "ingredients/beer candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/sources/okafor2022-awka-alcoholic-beverages-metals.md",
+      "why": "ingredients/beer citation",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/soares2003-brazil-beers-lead-cadmium.md",
+      "why": "ingredients/beer citation",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/gajek2021-poland-ciders-low-alcohol-beverages-elements.md",
+      "why": "ingredients/beer ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/ingredients/beet.md",
+      "why": "ingredients/beet candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/sources/guerra2012-sao-paulo-vegetables-fruits-metals.md",
+      "why": "ingredients/beet citation",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/altikulac2025-kastamonu-vegetables-toxic-elements.md",
+      "why": "ingredients/beet citation",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/chmielewski2025-warsaw-allotment-vegetables-fruits-metals.md",
+      "why": "ingredients/beet citation",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/todorovska2023-macedonia-vegetables-canned-metals.md",
+      "why": "ingredients/beet citation",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/nikolic2014-novi-sad-market-vegetables-metals.md",
+      "why": "ingredients/beet ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/rani2025-haryana-industrial-vegetables-metals.md",
+      "why": "ingredients/beet ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/silva2025-sri-lanka-vegetables-trace-elements-intake.md",
+      "why": "ingredients/beet ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/silva2026-sri-lanka-vegetables-bioaccumulation-soil.md",
+      "why": "ingredients/beet ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/ingredients/blueberries.md",
+      "why": "ingredients/blueberries candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/sources/drozdz2018-poland-wild-cultivated-blueberries-minerals.md",
+      "why": "ingredients/blueberries citation",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/mustatea2021-romania-food-supplements-lead-cadmium.md",
+      "why": "ingredients/blueberries citation",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/klavins2021-blueberries-bilberries-elements-isotopes.md",
+      "why": "ingredients/blueberries citation",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/babeker2022-sudan-raw-sugar-metals.md",
+      "why": "ingredients/blueberries ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/brasanacvukanovic2018-montenegro-wild-bilberry-elements.md",
+      "why": "ingredients/blueberries ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/cammerata2022-durum-air-classification-arsenic.md",
+      "why": "ingredients/blueberries ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/dinkelaker2020-russia-wild-vaccinium-berries-metals.md",
+      "why": "ingredients/blueberries ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/ertl2018-austria-grain-flour-bread-pasta-elements.md",
+      "why": "ingredients/blueberries ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/gruszecka-kosowska2019-southern-poland-fruits-elements.md",
+      "why": "ingredients/blueberries ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/huang2026-china-jasmine-flower-cakes-metals.md",
+      "why": "ingredients/blueberries ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/korzeniowska2025-beskids-mosses-bilberries-metals.md",
+      "why": "ingredients/blueberries ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/kowaluk2025-poland-gingerbread-elements-des-extraction.md",
+      "why": "ingredients/blueberries ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/krasniqi2026-kosovo-wheat-flour-metals.md",
+      "why": "ingredients/blueberries ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/moiseenko2021-russia-wild-blueberry-cowberry-metals.md",
+      "why": "ingredients/blueberries ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/ofori2016-ghana-cereal-root-tuber-flour-metals.md",
+      "why": "ingredients/blueberries ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/rebezov2020-russia-food-lead-cadmium-arsenic-monitoring.md",
+      "why": "ingredients/blueberries ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/warczyk2024-expressway-bilberry-mosses-metals.md",
+      "why": "ingredients/blueberries ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/ingredients/bologna-luncheon-meat.md",
+      "why": "ingredients/bologna-luncheon-meat candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/sources/antisari2015-bologna-urban-garden-vegetables-metals.md",
+      "why": "ingredients/bologna-luncheon-meat ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/barone2021-italy-pork-meat-products-metals.md",
+      "why": "ingredients/bologna-luncheon-meat ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/korish2020-chicken-meat-liver-eggs-metals.md",
+      "why": "ingredients/bologna-luncheon-meat ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/pappuswamy2021-south-india-poultry-cadmium-lead.md",
+      "why": "ingredients/bologna-luncheon-meat ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/ingredients/brassica.md",
+      "why": "ingredients/brassica candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/sources/sulaiman2020-jengka-malaysia-leafy-vegetables-metals.md",
+      "why": "ingredients/brassica citation",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/affum2020-sekondi-takoradi-urban-farm-vegetables-metals.md",
+      "why": "ingredients/brassica citation",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/kipelo2025-kinshasa-chinese-cabbage-trace-elements.md",
+      "why": "ingredients/brassica ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/shakya2014-kathmandu-market-cabbage-cauliflower-metals.md",
+      "why": "ingredients/brassica ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/wadood2021-multan-rawalpindi-vegetables-heavy-metals.md",
+      "why": "ingredients/brassica ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/ingredients/bread.md",
+      "why": "ingredients/bread candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/sources/angali2025-susangerd-bread-heavy-metals-cvd.md",
+      "why": "ingredients/bread citation",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/tutuwa2023-jalingo-bread-baking-fuel-metals.md",
+      "why": "ingredients/bread citation",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/ghasemi2022-mashhad-bread-baking-methods-metals.md",
+      "why": "ingredients/bread citation",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/khodaei2023-isfahan-flat-breads-metals.md",
+      "why": "ingredients/bread citation",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/joseph2024-makurdi-bread-heavy-metals.md",
+      "why": "ingredients/bread citation",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/abuova2021-wheat-bread-lead-additive-method.md",
+      "why": "ingredients/bread ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/altwaiq2019-jordan-selected-diets-metals.md",
+      "why": "ingredients/bread ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/bossou2021-benin-wheat-bread-lead.md",
+      "why": "ingredients/bread ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/ibrahim2026-kaduna-bread-bromate-metals.md",
+      "why": "ingredients/bread ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/khmeleva2020-orel-wheat-grain-steeping-metals.md",
+      "why": "ingredients/bread ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/naghipour2014-rasht-breads-metals.md",
+      "why": "ingredients/bread ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/noori2022-khuzestan-wheat-flour-lead-cadmium.md",
+      "why": "ingredients/bread ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/onwordi2024-nigeria-biscuits-metals.md",
+      "why": "ingredients/bread ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/pirhadi2022-iran-wheat-flour-toxic-elements.md",
+      "why": "ingredients/bread ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/swinden2006-wheaten-products-cadmium-thesis.md",
+      "why": "ingredients/bread ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/tabatabae2024-zahedan-bread-metals-risk.md",
+      "why": "ingredients/bread ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/ingredients/broccoli.md",
+      "why": "ingredients/broccoli candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/sources/banyen2013-bangkok-vegetables-dpasv-metals.md",
+      "why": "ingredients/broccoli citation",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/altinsoy2025-turkey-cheese-metals.md",
+      "why": "ingredients/broccoli ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/ingredients/brussels-sprouts.md",
+      "why": "ingredients/brussels-sprouts candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/cabbage.md",
+      "why": "ingredients/cabbage candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/sources/antoine2017-jamaica-fruits-vegetables-metals.md",
+      "why": "ingredients/cabbage citation",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/harmanescu2011-banat-mining-vegetables-metals.md",
+      "why": "ingredients/cabbage citation",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/nisa2020-quetta-market-fruits-vegetables-metals.md",
+      "why": "ingredients/cabbage citation",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/alsalimi2026-aden-yemen-market-vegetables-lead.md",
+      "why": "ingredients/cabbage citation",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/abbas2010-sindh-vegetables-toxic-metals.md",
+      "why": "ingredients/cabbage ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/grembecka2012-poland-confectionery-sugar-cocoa-chocolate-minerals.md",
+      "why": "ingredients/cabbage ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/nowar2024-bangladesh-vegetables-metals-systematic-review.md",
+      "why": "ingredients/cabbage ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/onakpa2022-gwagwalada-market-vegetables-metals.md",
+      "why": "ingredients/cabbage ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/rehman2017-kp-pakistan-vegetables-lead-cadmium.md",
+      "why": "ingredients/cabbage ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/stancic2016-varazdin-market-vegetables-metals.md",
+      "why": "ingredients/cabbage ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/ingredients/camellia-sinensis.md",
+      "why": "ingredients/camellia-sinensis candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/sources/kolackova2020-matcha-minerals-trace-elements.md",
+      "why": "ingredients/camellia-sinensis ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/kolackova2021-matcha-ice-tea-elements.md",
+      "why": "ingredients/camellia-sinensis ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/mrazkova2025-czech-cereal-mixtures-elements.md",
+      "why": "ingredients/camellia-sinensis ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/ingredients/canned-corn.md",
+      "why": "ingredients/canned-corn candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/canned-green-beans.md",
+      "why": "ingredients/canned-green-beans candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/sources/okorafor2026-nasarawa-seeds-legumes-metals.md",
+      "why": "ingredients/canned-green-beans ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/salama2005-egypt-foodstuffs-cd-pb.md",
+      "why": "ingredients/canned-green-beans ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/ingredients/canned-mushrooms.md",
+      "why": "ingredients/canned-mushrooms candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/sources/barea-sepulveda2022-spain-morocco-wild-mushrooms-elements.md",
+      "why": "ingredients/canned-mushrooms ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/bucurica2024-prahova-wild-mushrooms-metals.md",
+      "why": "ingredients/canned-mushrooms ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/domagalska2026-poland-dried-mushrooms-toxic-elements.md",
+      "why": "ingredients/canned-mushrooms ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/golian2021-oyster-mushroom-strains-metals.md",
+      "why": "ingredients/canned-mushrooms ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/kumar2022-uttarakhand-button-mushroom-metals.md",
+      "why": "ingredients/canned-mushrooms ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/liu2022-wild-edible-mushrooms-elements-review.md",
+      "why": "ingredients/canned-mushrooms ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/maihara2012-brazil-shiitake-cadmium.md",
+      "why": "ingredients/canned-mushrooms ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/mleczek2021-poland-wild-cultivated-mushrooms-elements.md",
+      "why": "ingredients/canned-mushrooms ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/okumus2025-canakkale-wild-agaricus-elements.md",
+      "why": "ingredients/canned-mushrooms ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/qin2024-shaanxi-edible-mushrooms-metals.md",
+      "why": "ingredients/canned-mushrooms ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/rashid2018-bangladesh-cultivated-oyster-mushrooms-arsenic.md",
+      "why": "ingredients/canned-mushrooms ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/rusin2025-poland-wild-mushrooms-metals.md",
+      "why": "ingredients/canned-mushrooms ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/siric2016-croatia-wild-saprophytic-mushrooms-metals.md",
+      "why": "ingredients/canned-mushrooms ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/stihi2025-dambovita-wild-mushrooms-metals.md",
+      "why": "ingredients/canned-mushrooms ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/yildiz2024-trabzon-cultivated-wild-mushrooms-elements.md",
+      "why": "ingredients/canned-mushrooms ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/ingredients/canned-tuna.md",
+      "why": "ingredients/canned-tuna candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/sources/islamoglu2021-istanbul-produce-fish-icpms-metals.md",
+      "why": "ingredients/canned-tuna citation",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/hussien2021-taif-canned-tuna-salmon-sardine-elements.md",
+      "why": "ingredients/canned-tuna citation",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/bushanati2024-derna-canned-tuna-metals.md",
+      "why": "ingredients/canned-tuna citation",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/abolghait2015-libya-canned-tuna-little-tunny-metals.md",
+      "why": "ingredients/canned-tuna ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/alhammadi2023-yemen-canned-tuna-mercury-dma.md",
+      "why": "ingredients/canned-tuna ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/terbeche2022-algeria-canned-tomato-fish-metals.md",
+      "why": "ingredients/canned-tuna ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/trujillocruz2026-quito-canned-tuna-oil-mercury.md",
+      "why": "ingredients/canned-tuna ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/ingredients/carrot.md",
+      "why": "ingredients/carrot candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/sources/chowdhury2024-noakhali-vegetables-metals.md",
+      "why": "ingredients/carrot citation",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/osmalakurpiewska2026-silesia-root-vegetables-cadmium-lead.md",
+      "why": "ingredients/carrot citation",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/iessa2024-sebha-market-vegetables-metals.md",
+      "why": "ingredients/carrot citation",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/shivakumar2020-bangalore-vegetables-fruits-metals.md",
+      "why": "ingredients/carrot citation",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/laizu2007-dhaka-vegetables-arsenic-speciation.md",
+      "why": "ingredients/carrot citation",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/esho2026-osun-potato-carrot-metals.md",
+      "why": "ingredients/carrot ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/hassoon2018-baghdad-imported-local-vegetables-xrf.md",
+      "why": "ingredients/carrot ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/mostafa2023-mymensingh-market-vegetables-lead-cadmium.md",
+      "why": "ingredients/carrot ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/nangbes2024-bokkos-potato-carrot-metals.md",
+      "why": "ingredients/carrot ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/rotimi2018-lagos-market-fruits-metals.md",
+      "why": "ingredients/carrot ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/seczkowska2026-veggie-burger-fermented-rapeseed-meal.md",
+      "why": "ingredients/carrot ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/solivellapoveda2026-fish-baby-food-review.md",
+      "why": "ingredients/carrot ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/truzzi2019-tenebrio-feeding-substrates-metals.md",
+      "why": "ingredients/carrot ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/vincevica-gaile2011-latvia-onion-carrot-elements.md",
+      "why": "ingredients/carrot ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/ingredients/catfish.md",
+      "why": "ingredients/catfish candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/sources/alghabshi2018-oman-salted-dry-fish-metals.md",
+      "why": "ingredients/catfish ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/onyenweaku2025-calabar-cooked-meats-pah-metals.md",
+      "why": "ingredients/catfish ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/ingredients/cauliflower.md",
+      "why": "ingredients/cauliflower candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/sources/sultana2019-dhaka-kawran-bazar-vegetables-metals.md",
+      "why": "ingredients/cauliflower citation",
+      "status": "new"
+    },
+    {
+      "file": "wiki/ingredients/celery.md",
+      "why": "ingredients/celery candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/sources/adeniyi2021-jos-market-vegetables-metals.md",
+      "why": "ingredients/celery citation",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/grandez2022-chachapoyas-market-vegetables-metals.md",
+      "why": "ingredients/celery ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/ingredients/chicken.md",
+      "why": "ingredients/chicken candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/sources/hashem2024-baghdad-boiled-chicken-lead-cadmium.md",
+      "why": "ingredients/chicken citation",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/igwemmar2022-abuja-poultry-chicken-metals.md",
+      "why": "ingredients/chicken citation",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/mathaiyan2021-tamil-nadu-broiler-parts-lead-arsenic.md",
+      "why": "ingredients/chicken citation",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/alsubeihi2022-amman-boneless-chicken-trace-elements.md",
+      "why": "ingredients/chicken citation",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/ogu2020-southern-nigeria-chicken-muscle-metals.md",
+      "why": "ingredients/chicken citation",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/alvarez2026-chicken-arsenic-speciation-hgaas.md",
+      "why": "ingredients/chicken citation",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/al-sultany2024-hilla-local-imported-chicken-metals.md",
+      "why": "ingredients/chicken citation",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/nachman2013-us-chicken-arsenic-species.md",
+      "why": "ingredients/chicken citation",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/acho2026-cote-divoire-hen-meat-eggs-lead-cadmium.md",
+      "why": "ingredients/chicken ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/ali2026-sulaimani-noodles-pasta-metals-icpoes.md",
+      "why": "ingredients/chicken ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/atawy2026-iraq-instant-noodles-lead-cadmium-risk.md",
+      "why": "ingredients/chicken ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/collumb2019-las-vegas-gluten-free-pasta-flour-elements.md",
+      "why": "ingredients/chicken ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/deryabin2024-broiler-liver-meat-elements-microbiome.md",
+      "why": "ingredients/chicken ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/edet2024-akwa-ibom-broiler-meat-organs-metals.md",
+      "why": "ingredients/chicken ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/hakeem2020-pakistan-chicken-meat-metals-review.md",
+      "why": "ingredients/chicken ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/hoque2023-poultry-chicken-heavy-metals-review.md",
+      "why": "ingredients/chicken ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/kakoma2021-windhoek-instant-noodles-metals.md",
+      "why": "ingredients/chicken ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/lasky2004-us-chicken-total-arsenic.md",
+      "why": "ingredients/chicken ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/salamat2022-lahore-broiler-liver-kidney-lead-cadmium.md",
+      "why": "ingredients/chicken ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/ingredients/chickpeas.md",
+      "why": "ingredients/chickpeas candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/chocolate-reduced-fat-milk.md",
+      "why": "ingredients/chocolate-reduced-fat-milk candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/sources/kithure2023-nairobi-cocoa-products-lead.md",
+      "why": "ingredients/chocolate-reduced-fat-milk ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/ingredients/clementines-tangerines.md",
+      "why": "ingredients/clementines-tangerines candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/sources/lee2011-korea-retail-fruits-heavy-metals.md",
+      "why": "ingredients/clementines-tangerines citation",
+      "status": "new"
+    },
+    {
+      "file": "wiki/ingredients/coconut.md",
+      "why": "ingredients/coconut candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/sources/mehari2015-north-carolina-fruits-vegetables-processed-foods.md",
+      "why": "ingredients/coconut citation",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/warsakoon2010-sri-lanka-coconut-products-metals.md",
+      "why": "ingredients/coconut citation",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/ahmad2024-bangladesh-green-coconut-water-metals.md",
+      "why": "ingredients/coconut ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/darosa2019-rice-milk-arsenic-speciation.md",
+      "why": "ingredients/coconut ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/jonnalagadda2022-india-tender-coconut-water-contaminants.md",
+      "why": "ingredients/coconut ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/ingredients/coconut-water.md",
+      "why": "ingredients/coconut-water candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/coffee.md",
+      "why": "ingredients/coffee candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/sources/guadalupe2024-instant-coffee-metals-risk.md",
+      "why": "ingredients/coffee citation",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/sadeghi2020-tehran-packaged-raw-milk-metals.md",
+      "why": "ingredients/coffee ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/ingredients/coriander.md",
+      "why": "ingredients/coriander candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/sources/eslami2026-rafsanjan-leafy-vegetables-metals.md",
+      "why": "ingredients/coriander ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/gupta2022-jhansi-highway-field-vegetables-metals.md",
+      "why": "ingredients/coriander ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/tefera2021-gondar-ethiopian-spices-metals.md",
+      "why": "ingredients/coriander ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/ingredients/corn-flakes.md",
+      "why": "ingredients/corn-flakes candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/sources/atwa2009-egypt-infant-weaning-breakfast-foods-metals.md",
+      "why": "ingredients/corn-flakes citation",
+      "status": "new"
+    },
+    {
+      "file": "wiki/ingredients/cosmetic-clay.md",
+      "why": "ingredients/cosmetic-clay candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/sources/fischer2025-poland-cosmetic-clays-mercury.md",
+      "why": "ingredients/cosmetic-clay citation",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/alqahtani2024-saudi-cosmetics-lead-cadmium.md",
+      "why": "ingredients/cosmetic-clay ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/bamidele2023-ilorin-skin-lightening-mercury-arsenic.md",
+      "why": "ingredients/cosmetic-clay ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/bastos2023-bentonite-peloid-formulation.md",
+      "why": "ingredients/cosmetic-clay ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/bastos2023-peloids-perspiration-bioaccessibility.md",
+      "why": "ingredients/cosmetic-clay ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/coulibaly2018-cote-divoire-clays-digestion.md",
+      "why": "ingredients/cosmetic-clay ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/hancerliogullari2023-turkey-sepiolite-clay-metals.md",
+      "why": "ingredients/cosmetic-clay ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/ijeoma2014-onitsha-edible-clays-metals.md",
+      "why": "ingredients/cosmetic-clay ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/mafe2025-calabash-chalk-geophagia-review.md",
+      "why": "ingredients/cosmetic-clay ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/mensah2025-kumasi-geophagic-clays-nir.md",
+      "why": "ingredients/cosmetic-clay ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/mouri2023-limpopo-geophagic-materials-metals.md",
+      "why": "ingredients/cosmetic-clay ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/nkansah2016-kumasi-geophagic-white-clay.md",
+      "why": "ingredients/cosmetic-clay ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/rukondo2024-tanzania-geophagic-soils-metals.md",
+      "why": "ingredients/cosmetic-clay ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/sanchezgutierrez2025-mexico-lipstick-eyeshadow-metals.md",
+      "why": "ingredients/cosmetic-clay ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/ingredients/cottage-cheese.md",
+      "why": "ingredients/cottage-cheese candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/sources/sarsembayeva2020-almaty-milk-fermented-metals.md",
+      "why": "ingredients/cottage-cheese citation",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/crupi2022-sicily-lactose-free-dairy-elements.md",
+      "why": "ingredients/cottage-cheese citation",
+      "status": "new"
+    },
+    {
+      "file": "wiki/ingredients/cucumber.md",
+      "why": "ingredients/cucumber candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/sources/rajni2026-faridabad-farm-vegetables-lead-cadmium.md",
+      "why": "ingredients/cucumber citation",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/sultana2021-dhaka-kawran-bazar-fruit-vegetables-metals.md",
+      "why": "ingredients/cucumber citation",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/assaad2020-lebanon-tabbouli-vegetables-metals.md",
+      "why": "ingredients/cucumber ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/shuaibu2025-kaura-namoda-seasonal-produce-metals.md",
+      "why": "ingredients/cucumber ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/uroko2019-umuahia-market-fruits-metals.md",
+      "why": "ingredients/cucumber ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/ingredients/cumin.md",
+      "why": "ingredients/cumin candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/dried-herbs.md",
+      "why": "ingredients/dried-herbs candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/sources/ozden2021-turkey-herbs-spices-metals.md",
+      "why": "ingredients/dried-herbs ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/ingredients/edible-insects.md",
+      "why": "ingredients/edible-insects candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/sources/ajdini2025-house-cricket-seaweed-diet-elements.md",
+      "why": "ingredients/edible-insects citation",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/holowaty2024-french-online-edible-insects-elements.md",
+      "why": "ingredients/edible-insects citation",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/ezeonyejiaku2025-nigeria-palm-weevil-termites-metals.md",
+      "why": "ingredients/edible-insects citation",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/koseckova2022-cricket-powders-insect-minerals.md",
+      "why": "ingredients/edible-insects citation",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/sanonofre2024-online-edible-insects-trace-elements.md",
+      "why": "ingredients/edible-insects citation",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/cuestaramos2024-edible-insects-defatted-cakes-metals.md",
+      "why": "ingredients/edible-insects citation",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/mintah2026-ghana-farmed-palm-weevil-larvae.md",
+      "why": "ingredients/edible-insects citation",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/efsa2024-house-cricket-frozen-dried-powder-novel-food.md",
+      "why": "ingredients/edible-insects citation",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/efsa2026-house-cricket-spray-dried-powder-novel-food.md",
+      "why": "ingredients/edible-insects citation",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/banjo2013-nigeria-edible-insects-shelf-life-metals.md",
+      "why": "ingredients/edible-insects ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/baxter2025-imported-black-soldier-fly-larvae-lead-arsenic.md",
+      "why": "ingredients/edible-insects ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/esgalhado2026-edible-insects-contaminants-scoping-review.md",
+      "why": "ingredients/edible-insects ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/farkas2026-eu-edible-insects-chemical-safety-review.md",
+      "why": "ingredients/edible-insects ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/vanderfelsklerx2016-insect-larvae-substrate-metal-uptake.md",
+      "why": "ingredients/edible-insects ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/ingredients/eggplant.md",
+      "why": "ingredients/eggplant candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/sources/ahmed2024-erbil-local-imported-vegetables-xrf.md",
+      "why": "ingredients/eggplant citation",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/younis2023-erbil-local-imported-vegetables-metals.md",
+      "why": "ingredients/eggplant citation",
+      "status": "new"
+    },
+    {
+      "file": "wiki/ingredients/eggs.md",
+      "why": "ingredients/eggs candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/sources/siddiqui2012-karachi-hen-eggs-lead-cadmium.md",
+      "why": "ingredients/eggs citation",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/hoseini2023-tehran-hen-eggs-lead-cadmium.md",
+      "why": "ingredients/eggs ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/ingredients/flaxseeds.md",
+      "why": "ingredients/flaxseeds candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/sources/mattila2018-finland-plant-protein-products-nutrients.md",
+      "why": "ingredients/flaxseeds ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/ingredients/frankfurter.md",
+      "why": "ingredients/frankfurter candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/french-fries.md",
+      "why": "ingredients/french-fries candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/sources/legresley2021-uk-fast-food-french-fries-lead.md",
+      "why": "ingredients/french-fries citation",
+      "status": "new"
+    },
+    {
+      "file": "wiki/ingredients/fresh-herbs.md",
+      "why": "ingredients/fresh-herbs candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/sources/naghibi2025-babol-leafy-bulb-vegetables-lead-cadmium.md",
+      "why": "ingredients/fresh-herbs ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/piri2026-zabol-wastewater-vegetables-lead-cadmium-arsenic.md",
+      "why": "ingredients/fresh-herbs ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/ingredients/freshwater-fish.md",
+      "why": "ingredients/freshwater-fish candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/frozen-peas.md",
+      "why": "ingredients/frozen-peas candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/garlic.md",
+      "why": "ingredients/garlic candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/sources/naser2014-gazipur-onion-garlic-chilli-metals.md",
+      "why": "ingredients/garlic citation",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/sultana2021-dhaka-stem-vegetables-metals.md",
+      "why": "ingredients/garlic citation",
+      "status": "new"
+    },
+    {
+      "file": "wiki/ingredients/grape-juice.md",
+      "why": "ingredients/grape-juice candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/sources/mohamed2020-yemen-fruit-juices-metals-icpoes.md",
+      "why": "ingredients/grape-juice citation",
+      "status": "new"
+    },
+    {
+      "file": "wiki/ingredients/grapefruit-juice.md",
+      "why": "ingredients/grapefruit-juice candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/grapes.md",
+      "why": "ingredients/grapes candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/sources/vanwyk2021-south-africa-grape-spirits-metals.md",
+      "why": "ingredients/grapes citation",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/li2018-china-grapes-copper-heavy-metals.md",
+      "why": "ingredients/grapes citation",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/nie2016-china-deciduous-fruits-metals.md",
+      "why": "ingredients/grapes citation",
+      "status": "new"
+    },
+    {
+      "file": "wiki/ingredients/green-beans.md",
+      "why": "ingredients/green-beans candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/guava.md",
+      "why": "ingredients/guava candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/sources/ezeonyejiaku2017-awka-market-fruits-arsenic.md",
+      "why": "ingredients/guava citation",
+      "status": "new"
+    },
+    {
+      "file": "wiki/ingredients/ham.md",
+      "why": "ingredients/ham candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/sources/chowdhury2015-west-bengal-pork-products-metals.md",
+      "why": "ingredients/ham citation",
+      "status": "new"
+    },
+    {
+      "file": "wiki/ingredients/hard-candy.md",
+      "why": "ingredients/hard-candy candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/sources/prattay2024-dhaka-candies-chocolates-wrappers-metals.md",
+      "why": "ingredients/hard-candy citation",
+      "status": "new"
+    },
+    {
+      "file": "wiki/ingredients/hazelnuts.md",
+      "why": "ingredients/hazelnuts candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/hemp.md",
+      "why": "ingredients/hemp candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/sources/milana2024-alternative-protein-safety-review.md",
+      "why": "ingredients/hemp ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/ingredients/herbal-botanicals.md",
+      "why": "ingredients/herbal-botanicals candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/ice-cream.md",
+      "why": "ingredients/ice-cream candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/sources/rantasa2026-slovenia-vegetables-ice-cream-wine-metals.md",
+      "why": "ingredients/ice-cream citation",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/ercaliskan2025-turkey-packaged-ice-cream-trace-elements.md",
+      "why": "ingredients/ice-cream ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/ingredients/iceberg-lettuce.md",
+      "why": "ingredients/iceberg-lettuce candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/infant-formula-powder.md",
+      "why": "ingredients/infant-formula-powder candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/sources/abdelkhalek2015-mansoura-milk-powder-infant-formula-metals.md",
+      "why": "ingredients/infant-formula-powder citation",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/karimidehcheshmeh2021-iran-infant-formula-lead-cadmium.md",
+      "why": "ingredients/infant-formula-powder citation",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/dominguez2017-tenerife-infant-formula-metals.md",
+      "why": "ingredients/infant-formula-powder citation",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/meng2023-china-liquid-milk-infant-formula-safety.md",
+      "why": "ingredients/infant-formula-powder citation",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/salem2025-bani-waleed-infant-formula-metals.md",
+      "why": "ingredients/infant-formula-powder citation",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/almeida2022-brazil-infant-formula-minerals.md",
+      "why": "ingredients/infant-formula-powder ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/castro2010-brasilia-infant-formula-milk-pb-cd.md",
+      "why": "ingredients/infant-formula-powder ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/ozturk2023-kirsehir-infant-formula-elements.md",
+      "why": "ingredients/infant-formula-powder ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/vella2019-malta-infant-foods-formulae-metals.md",
+      "why": "ingredients/infant-formula-powder ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/rabiu2024-gusau-infant-formulas-children-foods-metals.md",
+      "why": "ingredients/infant-formula-powder ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/ingredients/iodized-salt.md",
+      "why": "ingredients/iodized-salt candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/sources/caridi2019-food-salt-radioactivity-metals.md",
+      "why": "ingredients/iodized-salt citation",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/disalvo2023-gourmet-table-salts-minerals.md",
+      "why": "ingredients/iodized-salt ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/eftekhari2014-shiraz-table-salt-metals.md",
+      "why": "ingredients/iodized-salt ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/fayetmoore2020-australia-pink-salt-minerals.md",
+      "why": "ingredients/iodized-salt ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/salsabiela2021-indramayu-field-salt-metals.md",
+      "why": "ingredients/iodized-salt ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/ingredients/jujube-fruit.md",
+      "why": "ingredients/jujube-fruit candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/sources/du2025-shanxi-jujube-heavy-elements.md",
+      "why": "ingredients/jujube-fruit citation",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/yan2014-china-jujube-essential-toxic-elements.md",
+      "why": "ingredients/jujube-fruit citation",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/rahman2018-chinese-jujube-cultivars-metals.md",
+      "why": "ingredients/jujube-fruit citation",
+      "status": "new"
+    },
+    {
+      "file": "wiki/ingredients/kale.md",
+      "why": "ingredients/kale candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/ketchup.md",
+      "why": "ingredients/ketchup candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/sources/oladapo2023-nigeria-tomato-paste-ketchup-metals.md",
+      "why": "ingredients/ketchup citation",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/torkashvand2026-iran-sauces-metals.md",
+      "why": "ingredients/ketchup citation",
+      "status": "new"
+    },
+    {
+      "file": "wiki/ingredients/kidney-beans.md",
+      "why": "ingredients/kidney-beans candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/lamb-chop.md",
+      "why": "ingredients/lamb-chop candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/leeks.md",
+      "why": "ingredients/leeks candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/legumes.md",
+      "why": "ingredients/legumes candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/sources/adam2022-tamale-cereals-legumes-metals.md",
+      "why": "ingredients/legumes ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/usman2021-yobe-rice-beans-metals.md",
+      "why": "ingredients/legumes ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/ingredients/lemon-juice.md",
+      "why": "ingredients/lemon-juice candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/mango-juice.md",
+      "why": "ingredients/mango-juice candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/sources/aziz2026-pakistan-mango-juice-metals-bioaccessibility.md",
+      "why": "ingredients/mango-juice ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/ingredients/matcha-powder.md",
+      "why": "ingredients/matcha-powder candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/sources/thai2026-matcha-powder-thailand-metals.md",
+      "why": "ingredients/matcha-powder citation",
+      "status": "new"
+    },
+    {
+      "file": "wiki/ingredients/mayonnaise.md",
+      "why": "ingredients/mayonnaise candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/meat.md",
+      "why": "ingredients/meat candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/sources/lenti2021-italy-wild-boar-ragu-lead.md",
+      "why": "ingredients/meat citation",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/covaciu2024-romania-pork-cuts-elements.md",
+      "why": "ingredients/meat ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/gonzalezsuarez2022-tenerife-baby-food-jars-elements.md",
+      "why": "ingredients/meat ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/hromis2026-crayfish-shell-chitosan-coatings.md",
+      "why": "ingredients/meat ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/leite2022-brazil-canned-sardines-toxic-metals.md",
+      "why": "ingredients/meat ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/mendoza2023-calapan-tilapia-parts-metals.md",
+      "why": "ingredients/meat ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/solidum2015-philippines-canned-meat-fish-cadmium-chromium.md",
+      "why": "ingredients/meat ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/ulrich2001-hodonin-swine-farms-mercury-cadmium-lead.md",
+      "why": "ingredients/meat ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/ingredients/melon.md",
+      "why": "ingredients/melon candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/sources/ibanga2019-new-bussa-traditional-seed-oils.md",
+      "why": "ingredients/melon citation",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/lanre-iyanda2012-abeokuta-kulikuli-robo-metals.md",
+      "why": "ingredients/melon ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/oladele2020-akure-sliced-watermelon-metals.md",
+      "why": "ingredients/melon ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/ingredients/milk-and-dairy.md",
+      "why": "ingredients/milk-and-dairy candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/sources/amer2021-alexandria-raw-milk-dairy-processing-pb-cd-al.md",
+      "why": "ingredients/milk-and-dairy citation",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/almasiova2024-slovakia-sheep-milk-whey-cheese-elements.md",
+      "why": "ingredients/milk-and-dairy citation",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/budaraga2022-padang-fresh-cow-milk-metals.md",
+      "why": "ingredients/milk-and-dairy citation",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/feng2026-henan-retail-milk-dairy-toxic-elements.md",
+      "why": "ingredients/milk-and-dairy citation",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/marcus2026-organic-conventional-dairy-icpms.md",
+      "why": "ingredients/milk-and-dairy citation",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/muhib2016-dhaka-cow-milk-metals.md",
+      "why": "ingredients/milk-and-dairy citation",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/nasiru2022-kano-raw-cow-milk-metals.md",
+      "why": "ingredients/milk-and-dairy citation",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/saleh2025-kirkuk-milk-lead-cadmium.md",
+      "why": "ingredients/milk-and-dairy citation",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/badar2025-raiwind-milk-cd-pb-cu.md",
+      "why": "ingredients/milk-and-dairy citation",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/chirinos-peinado2026-huancayo-raw-milk-pb-cd.md",
+      "why": "ingredients/milk-and-dairy citation",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/meena2016-mewat-wastewater-buffalo-cow-goat-milk-metals.md",
+      "why": "ingredients/milk-and-dairy citation",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/siddique2023-punjab-marketed-milk-seasonal.md",
+      "why": "ingredients/milk-and-dairy citation",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/fuentesgandara2025-colombia-caribbean-raw-milk-metals.md",
+      "why": "ingredients/milk-and-dairy citation",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/jolly2017-bangladesh-cow-milk-edxrf-metals.md",
+      "why": "ingredients/milk-and-dairy citation",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/sengul2026-hatay-raw-milk-industrial-metals.md",
+      "why": "ingredients/milk-and-dairy citation",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/issa2016-alexandria-dairy-products-metals.md",
+      "why": "ingredients/milk-and-dairy citation",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/lukacova2012-raw-uht-cow-milk-elements.md",
+      "why": "ingredients/milk-and-dairy citation",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/khan2021-peshawar-raw-milk-trace-toxic-metals.md",
+      "why": "ingredients/milk-and-dairy citation",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/chiarelli2008-turin-eu-milk-cheese-metals.md",
+      "why": "ingredients/milk-and-dairy citation",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/elbagermi2020-misurata-pasteurized-long-life-milk-metals.md",
+      "why": "ingredients/milk-and-dairy citation",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/sani2020-kaduna-branded-unbranded-cow-milk-metals.md",
+      "why": "ingredients/milk-and-dairy citation",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/turker2022-ankara-retail-milk-metals.md",
+      "why": "ingredients/milk-and-dairy citation",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/gurbuz2025-southeastern-anatolia-cheeses-minerals.md",
+      "why": "ingredients/milk-and-dairy citation",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/perez-carrera2016-cordoba-raw-milk-trace-elements.md",
+      "why": "ingredients/milk-and-dairy citation",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/abdulmounam2023-milk-heavy-metals-review.md",
+      "why": "ingredients/milk-and-dairy ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/abulgasim2025-sabratha-processed-cheese-lead-cadmium.md",
+      "why": "ingredients/milk-and-dairy ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/ahmed2023-wheat-based-sweets-metals.md",
+      "why": "ingredients/milk-and-dairy ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/al-garory2020-basrah-cow-buffalo-dairy-metals.md",
+      "why": "ingredients/milk-and-dairy ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/al-shdidi2010-baghdad-processed-cheese-emulsifying-salts.md",
+      "why": "ingredients/milk-and-dairy ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/anguebesfranseschi2023-mexico-artisanal-cheese-metals.md",
+      "why": "ingredients/milk-and-dairy ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/antonenko2025-ukraine-functional-sauce-safety.md",
+      "why": "ingredients/milk-and-dairy ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/antunovic2005-croatia-ewe-milk-lactation-metals.md",
+      "why": "ingredients/milk-and-dairy ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/antunovic2012-organic-goat-milk-lactation-metals.md",
+      "why": "ingredients/milk-and-dairy ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/arianejad2015-arak-raw-cow-milk-hg-as-ni-sn.md",
+      "why": "ingredients/milk-and-dairy ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/banica2024-romania-milk-microplastics-pahs-metals.md",
+      "why": "ingredients/milk-and-dairy ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/basaran2025-turkiye-milk-dairy-metals.md",
+      "why": "ingredients/milk-and-dairy ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/beyhan2021-turkey-bitter-milk-white-chocolate-metals.md",
+      "why": "ingredients/milk-and-dairy ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/castro-bedrinana2023-junin-raw-milk-pb-cd-as.md",
+      "why": "ingredients/milk-and-dairy ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/chiarelli2009-turin-raw-milk-contaminants.md",
+      "why": "ingredients/milk-and-dairy ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/chirinos2022-mantaro-fresh-cow-milk-pb-cd.md",
+      "why": "ingredients/milk-and-dairy ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/cidiroglu2021-istanbul-heat-treated-milk-metals.md",
+      "why": "ingredients/milk-and-dairy ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/danezis2019-greek-gruyere-type-cheese-61-elements.md",
+      "why": "ingredients/milk-and-dairy ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/deandrade2024-portugal-milk-soy-carcinogenic-risk.md",
+      "why": "ingredients/milk-and-dairy ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/geronimo2025-brazil-cereal-complementary-foods-elements.md",
+      "why": "ingredients/milk-and-dairy ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/grassi2025-buffalo-caciotta-spiked-metals.md",
+      "why": "ingredients/milk-and-dairy ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/guillod-magnin2018-swiss-toddler-rice-arsenic-species.md",
+      "why": "ingredients/milk-and-dairy ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/gurmeric2026-turkiye-cheeses-metals-regions.md",
+      "why": "ingredients/milk-and-dairy ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/harlia2018-west-java-milk-dodol-pb-cd.md",
+      "why": "ingredients/milk-and-dairy ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/hassan2025-milk-products-metal-transfer.md",
+      "why": "ingredients/milk-and-dairy ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/katsouri2022-greek-quality-label-cheese-labelling.md",
+      "why": "ingredients/milk-and-dairy ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/kilicaltun2020-sheep-milk-dairy-products-elements.md",
+      "why": "ingredients/milk-and-dairy ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/kilicaltun2021-kahramanmaras-cow-milk-elements.md",
+      "why": "ingredients/milk-and-dairy ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/korac2023-sarajevo-cow-sheep-goat-milk-metals.md",
+      "why": "ingredients/milk-and-dairy ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/maharjan2024-kathmandu-chocolates-cd-ni-pb.md",
+      "why": "ingredients/milk-and-dairy ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/marzabadi2026-iran-rice-pasta-metals-risk.md",
+      "why": "ingredients/milk-and-dairy ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/mititelu2021-romania-milk-powder-xrf-elements.md",
+      "why": "ingredients/milk-and-dairy ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/muneam2023-iraq-cheese-lead-cadmium-chromium.md",
+      "why": "ingredients/milk-and-dairy ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/muneam2023-najaf-imported-cheese-cadmium.md",
+      "why": "ingredients/milk-and-dairy ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/nesic2025-serbia-chocolate-cadmium-risk.md",
+      "why": "ingredients/milk-and-dairy ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/newton2023-uk-retail-milk-trace-elements.md",
+      "why": "ingredients/milk-and-dairy ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/nguyen2021-ho-chi-minh-cheese-metals-pesticides.md",
+      "why": "ingredients/milk-and-dairy ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/nguyen2024-vietnam-milk-dairy-cadmium-mercury.md",
+      "why": "ingredients/milk-and-dairy ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/nwoke2021-nigeria-dairy-products-metals.md",
+      "why": "ingredients/milk-and-dairy ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/ogoko2024-abia-non-alcoholic-beverages-metals.md",
+      "why": "ingredients/milk-and-dairy ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/okori2024-cross-river-crude-palm-oil-metals.md",
+      "why": "ingredients/milk-and-dairy ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/oliveira2026-brazil-chocolate-bars-total-arsenic.md",
+      "why": "ingredients/milk-and-dairy ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/oliveirafilho2023-pernambuco-raw-cow-milk-metals.md",
+      "why": "ingredients/milk-and-dairy ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/pasqualone2021-biscuit-contaminants-review.md",
+      "why": "ingredients/milk-and-dairy ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/petkovic2016-srpska-milk-dairy-contaminants.md",
+      "why": "ingredients/milk-and-dairy ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/pourimani2026-iran-pasta-wheat-germ-metals.md",
+      "why": "ingredients/milk-and-dairy ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/qin2009-china-japan-cow-milk-metals.md",
+      "why": "ingredients/milk-and-dairy ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/reinholds2020-latvia-blue-cheese-metals-mycotoxins.md",
+      "why": "ingredients/milk-and-dairy ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/shariar2014-chittagong-milk-yoghurt-ghee-lead.md",
+      "why": "ingredients/milk-and-dairy ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/shrivastava2025-bhopal-milk-products-metals.md",
+      "why": "ingredients/milk-and-dairy ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/souto2025-milk-dairy-metals-review.md",
+      "why": "ingredients/milk-and-dairy ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/su2026-henan-dairy-mineral-elements.md",
+      "why": "ingredients/milk-and-dairy ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/vanderschueren2019-single-origin-chocolates-elements.md",
+      "why": "ingredients/milk-and-dairy ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/wahab2023-sulaimani-wheat-flour-metals.md",
+      "why": "ingredients/milk-and-dairy ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/yang2025-jiangsu-dairy-farm-soil-feces-pb-cd.md",
+      "why": "ingredients/milk-and-dairy ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/zhou2019-china-individual-cow-milk-metals.md",
+      "why": "ingredients/milk-and-dairy ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/ingredients/mozzarella.md",
+      "why": "ingredients/mozzarella candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/mushrooms.md",
+      "why": "ingredients/mushrooms candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/mustard.md",
+      "why": "ingredients/mustard candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/non-rice-grains.md",
+      "why": "ingredients/non-rice-grains candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/sources/bielecka2022-poland-gluten-free-cereals-metals.md",
+      "why": "ingredients/non-rice-grains citation",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/wodaje2015-ambo-market-cereals-metals.md",
+      "why": "ingredients/non-rice-grains ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/zubairuyushau2025-challawa-grains-beans-metals.md",
+      "why": "ingredients/non-rice-grains ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/lawan2023-borno-sorghum-maize-metals.md",
+      "why": "ingredients/non-rice-grains ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/larsen2020-ghana-milled-maize-millet-metals.md",
+      "why": "ingredients/non-rice-grains ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/ingredients/noodles.md",
+      "why": "ingredients/noodles candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/sources/ihedioha2018-nigeria-pasta-heavy-metals.md",
+      "why": "ingredients/noodles ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/ingredients/oat.md",
+      "why": "ingredients/oat candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/sources/mukherjee2019-india-rolled-oats-lead.md",
+      "why": "ingredients/oat citation",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/myrzhkbayeva2022-kazakhstan-oat-varieties-metals.md",
+      "why": "ingredients/oat ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/ingredients/okra.md",
+      "why": "ingredients/okra candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/sources/uba2022-dutse-market-fruits-vegetables-metals.md",
+      "why": "ingredients/okra citation",
+      "status": "new"
+    },
+    {
+      "file": "wiki/ingredients/olive-oil.md",
+      "why": "ingredients/olive-oil candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/olives.md",
+      "why": "ingredients/olives candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/orange-juice.md",
+      "why": "ingredients/orange-juice candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/oranges.md",
+      "why": "ingredients/oranges candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/sources/jacimovic2022-serbia-dark-chocolate-elements.md",
+      "why": "ingredients/oranges ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/zhang2021-shandong-vegetables-fruits-metals.md",
+      "why": "ingredients/oranges ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/ingredients/oyster.md",
+      "why": "ingredients/oyster candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/sources/piras2013-sardinia-bivalves-lead-cadmium-mercury.md",
+      "why": "ingredients/oyster citation",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/shiomi1988-japan-bivalve-tissues-arsenic.md",
+      "why": "ingredients/oyster citation",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/dellal2022-dakhla-bay-bivalves-cadmium.md",
+      "why": "ingredients/oyster ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/dufault2009-hfcs-mercury-chlor-alkali.md",
+      "why": "ingredients/oyster ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/meloni2022-calich-lagoon-farmed-mussels-elements.md",
+      "why": "ingredients/oyster ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/ruelasinzunza2023-mexico-canned-mollusks-mercury.md",
+      "why": "ingredients/oyster ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/ingredients/parsley.md",
+      "why": "ingredients/parsley candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/parsnips.md",
+      "why": "ingredients/parsnips candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/pasta.md",
+      "why": "ingredients/pasta candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/sources/fattobene2024-durum-wheat-milling-elements.md",
+      "why": "ingredients/pasta ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/khan2022-swabi-wheat-grain-metals.md",
+      "why": "ingredients/pasta ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/sirison2025-thailand-wolffia-globosa-functional-food.md",
+      "why": "ingredients/pasta ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/somda2019-ouagadougou-wastewater-tomato-metals.md",
+      "why": "ingredients/pasta ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/ingredients/peach.md",
+      "why": "ingredients/peach candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/sources/weber2021-rice-bran-arsenic-speciation.md",
+      "why": "ingredients/peach ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/ingredients/peanuts.md",
+      "why": "ingredients/peanuts candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/sources/akinola2019-lagos-suya-spice-lead.md",
+      "why": "ingredients/peanuts ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/jia2022-china-market-chocolate-cadmium.md",
+      "why": "ingredients/peanuts ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/ingredients/pear.md",
+      "why": "ingredients/pear candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/sources/sharma2022-bareilly-india-market-fruits-vegetables-metals.md",
+      "why": "ingredients/pear ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/ingredients/pear-juice.md",
+      "why": "ingredients/pear-juice candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/peppers.md",
+      "why": "ingredients/peppers candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/sources/awoyale2024-kwara-powdered-pepper-metals.md",
+      "why": "ingredients/peppers citation",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/duranteyanez2026-colombia-sweet-pepper-mining-soils.md",
+      "why": "ingredients/peppers citation",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/farombi2020-osogbo-peppers-metals.md",
+      "why": "ingredients/peppers citation",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/azizuddin2021-pakistan-chilli-cultivars-metals.md",
+      "why": "ingredients/peppers ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/costea2024-copsa-mica-bell-pepper-metals.md",
+      "why": "ingredients/peppers ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/gbedemah2024-accra-lettuce-bell-pepper-metals.md",
+      "why": "ingredients/peppers ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/lidikova2021-slovakia-chili-pepper-metals.md",
+      "why": "ingredients/peppers ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/makanjuola2016-abeokuta-peppers-metals.md",
+      "why": "ingredients/peppers ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/zhou2024-guizhou-dried-chili-metals.md",
+      "why": "ingredients/peppers ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/ingredients/pineapple.md",
+      "why": "ingredients/pineapple candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/pineapple-juice.md",
+      "why": "ingredients/pineapple-juice candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/plums.md",
+      "why": "ingredients/plums candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/popcorn.md",
+      "why": "ingredients/popcorn candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/pork-bacon.md",
+      "why": "ingredients/pork-bacon candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/potato-chips.md",
+      "why": "ingredients/potato-chips candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/sources/tahboub2025-jordan-potato-corn-chips-metals.md",
+      "why": "ingredients/potato-chips citation",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/jaradat2014-jordan-potato-corn-chips-metals.md",
+      "why": "ingredients/potato-chips citation",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/awan2025-nowshera-corn-potato-snacks-metals.md",
+      "why": "ingredients/potato-chips ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/saeid2022-libya-potato-chips-cadmium.md",
+      "why": "ingredients/potato-chips ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/ingredients/potatoes.md",
+      "why": "ingredients/potatoes candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/sources/bedoyaperales2023-moquegua-potato-altitude-metals.md",
+      "why": "ingredients/potatoes ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/ingredients/poultry.md",
+      "why": "ingredients/poultry candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/processed-american-cheese.md",
+      "why": "ingredients/processed-american-cheese candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/protein-powder.md",
+      "why": "ingredients/protein-powder candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/sources/bavatharani2026-india-protein-powders-labeling-metals.md",
+      "why": "ingredients/protein-powder citation",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/turkeri2026-turkey-protein-powder-elements.md",
+      "why": "ingredients/protein-powder citation",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/sriranjani2025-whey-vegan-protein-powders-icpms.md",
+      "why": "ingredients/protein-powder citation",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/ring2021-ireland-protein-powders-metals.md",
+      "why": "ingredients/protein-powder citation",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/philips2024-india-protein-supplements-contaminants.md",
+      "why": "ingredients/protein-powder citation",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/bethencourtbarbuzano2023-whey-protein-supplements-metals.md",
+      "why": "ingredients/protein-powder ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/horvath2025-hungary-protein-powders-metals.md",
+      "why": "ingredients/protein-powder ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/kolhe2025-protein-powders-lead-cadmium-review.md",
+      "why": "ingredients/protein-powder ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/ingredients/quinoa.md",
+      "why": "ingredients/quinoa candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/raisins.md",
+      "why": "ingredients/raisins candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/sources/kilic2024-antalya-dried-fruits-toxic-elements.md",
+      "why": "ingredients/raisins ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/ingredients/raspberries.md",
+      "why": "ingredients/raspberries candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/rice-cereal.md",
+      "why": "ingredients/rice-cereal candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/rice-flour.md",
+      "why": "ingredients/rice-flour candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/salami.md",
+      "why": "ingredients/salami candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/salmon.md",
+      "why": "ingredients/salmon candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/sources/pappalardo2020-fish-baby-food-authentication-metals.md",
+      "why": "ingredients/salmon ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/ingredients/salt.md",
+      "why": "ingredients/salt candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/sources/cfia2026-toxic-metals-selected-foods-2023-24.md",
+      "why": "ingredients/salt citation",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/lopez2022-spice-lead-adulteration-rapid-detection.md",
+      "why": "ingredients/salt ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/ingredients/sea-salt.md",
+      "why": "ingredients/sea-salt candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/sesame.md",
+      "why": "ingredients/sesame candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/shellfish.md",
+      "why": "ingredients/shellfish candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/sources/barone2022-adriatic-shi-drum-brown-meagre-metals.md",
+      "why": "ingredients/shellfish ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/najamuddin2022-blood-cockle-peel-adsorption-metals.md",
+      "why": "ingredients/shellfish ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/rakib2021-bangladesh-dried-fish-metals.md",
+      "why": "ingredients/shellfish ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/ingredients/shrimp.md",
+      "why": "ingredients/shrimp candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/sources/embaby2024-egypt-coastal-sardine-shrimp-metals.md",
+      "why": "ingredients/shrimp citation",
+      "status": "new"
+    },
+    {
+      "file": "wiki/ingredients/soy.md",
+      "why": "ingredients/soy candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/sources/hajara2026-bauchi-soya-white-red-beans-metals.md",
+      "why": "ingredients/soy ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/onoja2025-makurdi-crude-refined-soybean-oil.md",
+      "why": "ingredients/soy ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/shaheen2024-bangladesh-soybean-palm-oil-metals.md",
+      "why": "ingredients/soy ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/ingredients/soybean-oil.md",
+      "why": "ingredients/soybean-oil candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/spices.md",
+      "why": "ingredients/spices candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/sources/khalid2021-lahore-chili-turmeric-lead-chromium.md",
+      "why": "ingredients/spices ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/woldetsadik2023-refugee-spices-minerals-east-africa.md",
+      "why": "ingredients/spices ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/ingredients/squash.md",
+      "why": "ingredients/squash candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/strawberries.md",
+      "why": "ingredients/strawberries candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/sunflower-oil.md",
+      "why": "ingredients/sunflower-oil candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/sources/efsa2022-schizochytrium-atcc20889-oil-infant-formula.md",
+      "why": "ingredients/sunflower-oil ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/efsa2025-schizochytrium-atcc20889-oil-infant-formula.md",
+      "why": "ingredients/sunflower-oil ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/ingredients/sweet-potato.md",
+      "why": "ingredients/sweet-potato candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/swordfish.md",
+      "why": "ingredients/swordfish candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/tea.md",
+      "why": "ingredients/tea candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/sources/meeme2023-uganda-kombucha-quality-standards.md",
+      "why": "ingredients/tea ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/ingredients/tilapia.md",
+      "why": "ingredients/tilapia candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/sources/kingsley2016-bodo-river-tilapia-metals.md",
+      "why": "ingredients/tilapia ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/ingredients/tomato-paste.md",
+      "why": "ingredients/tomato-paste candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/sources/okoye2026-awka-sachet-tomato-paste-metals.md",
+      "why": "ingredients/tomato-paste citation",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/alqadeeri2026-libya-canned-tomato-paste-pb-cd.md",
+      "why": "ingredients/tomato-paste ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/ingredients/tomato-sauce.md",
+      "why": "ingredients/tomato-sauce candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/turkey.md",
+      "why": "ingredients/turkey candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/sources/bingol2010-turkey-canned-soft-drinks-metals.md",
+      "why": "ingredients/turkey ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/oltulu2023-turkey-food-supplements-metals.md",
+      "why": "ingredients/turkey ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/ingredients/turmeric.md",
+      "why": "ingredients/turmeric candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/vegetable-oils.md",
+      "why": "ingredients/vegetable-oils candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/vinegar.md",
+      "why": "ingredients/vinegar candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/walnuts.md",
+      "why": "ingredients/walnuts candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/sources/manousi2021-greek-walnut-oil-icp-aes-metals.md",
+      "why": "ingredients/walnuts citation",
+      "status": "new"
+    },
+    {
+      "file": "wiki/ingredients/watermelon.md",
+      "why": "ingredients/watermelon candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/wheat-flour.md",
+      "why": "ingredients/wheat-flour candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/sources/zhang2025-china-grain-products-cadmium-risk.md",
+      "why": "ingredients/wheat-flour citation",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/rubioarmendariz2021-cape-verde-cereals-metals.md",
+      "why": "ingredients/wheat-flour citation",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/aioanei2013-romania-organic-conventional-wheat-bran.md",
+      "why": "ingredients/wheat-flour ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/slinger2025-nmisa-cocoa-powder-icpms-poster.md",
+      "why": "ingredients/wheat-flour ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/ingredients/whey.md",
+      "why": "ingredients/whey candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/white-bread.md",
+      "why": "ingredients/white-bread candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/white-sugar.md",
+      "why": "ingredients/white-sugar candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/sources/alcivar2024-ecuador-sugarcane-panela-cadmium-lead.md",
+      "why": "ingredients/white-sugar citation",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/bekele2024-ethiopia-white-sugar-metals.md",
+      "why": "ingredients/white-sugar citation",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/topraksever2026-turkish-red-sugar-elements-icpms.md",
+      "why": "ingredients/white-sugar citation",
+      "status": "new"
+    },
+    {
+      "file": "wiki/ingredients/wholemeal-bread.md",
+      "why": "ingredients/wholemeal-bread candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/wine.md",
+      "why": "ingredients/wine candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/sources/voica2009-romania-wine-icpms-metals.md",
+      "why": "ingredients/wine ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/ingredients/winter-squash.md",
+      "why": "ingredients/winter-squash candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/sources/dada2024-ibadan-market-leafy-vegetables-metals.md",
+      "why": "ingredients/winter-squash citation",
+      "status": "new"
+    },
+    {
+      "file": "wiki/ingredients/yam.md",
+      "why": "ingredients/yam candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/yogurt.md",
+      "why": "ingredients/yogurt candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/sources/asomugha2021-awka-soft-drinks-metals-pahs.md",
+      "why": "ingredients/yogurt ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/sources/cfia2026-halifax-childrens-snacks-cereals-metals.md",
+      "why": "ingredients/yogurt ledger item",
+      "status": "new"
+    },
+    {
+      "file": "wiki/ingredients/zucchini.md",
+      "why": "ingredients/zucchini candidate",
+      "status": "updated"
+    }
+  ],
+  "repairs": [],
+  "warnings": []
+}

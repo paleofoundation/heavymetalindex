@@ -1,0 +1,47 @@
+{
+ "source_id": "kasozi2021-soroti-beef-multivariate-preprint",
+ "primary_artifact": "/Users/kmfp/papers-for-claude/hmi-thin/batch-05/pdfs/vegetable-beef-soup__Kasozi2023__10.1016_j.toxrep.2023.03.004.pdf",
+ "primary_sha256": "f8333181764d2064de8edf5a4b66d5a4bda36e55a2d86e868d8826baf4ae59d5",
+ "extracted_at": "2026-10-24",
+ "extractor": "engine-v1",
+ "disposition": "context",
+ "disposition_reason": "This preprint is part two of a two-part study and reprints the same 40 Soroti beef samples already extracted from kasozi2021-uganda-beef-metals (same eight metals; Cu range 0.7-3.6 ppm matches). Marked context so the data count once.",
+ "disposition_locator": "Section 1 (p. 3) and Table 1 (pp. 5-6)",
+ "study": {
+  "design": "Multivariate (PCA, cluster) and ILCR analysis of an existing beef dataset",
+  "origin": "Soroti District, Uganda",
+  "market": "local supplies, Soroti District",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": ""
+  },
+  "method": "1 g wet tissue digested with HNO3/HClO4, made up to 50 mL; flame AAS (PerkinElmer 2380)",
+  "lod": [
+   "not stated"
+  ],
+  "basis": "fresh",
+  "qa": "Blank and laboratory control samples; no CRM or recoveries reported",
+  "site_context": "market"
+ },
+ "findings": [],
+ "sample_values": [],
+ "controls": [],
+ "unresolved": [
+  "Per-sample values in Table 1 duplicate the dataset of Kasozi et al. 2021 (Frontiers in Nutrition, 10.3389/fnut.2021.592340), extracted under kasozi2021-uganda-beef-metals; not re-extracted.",
+  "The filed PDF is the Research Square preprint (posted 1 March 2021, DOI 10.21203/rs.3.rs-289141/v1), not the Toxicology Reports version of record (10.1016/j.toxrep.2023.03.004) named in the manifest."
+ ],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [],
+ "source_record_corrections": [
+  "Printed DOI is 10.21203/rs.3.rs-289141/v1 (Research Square preprint); manifest DOI 10.1016/j.toxrep.2023.03.004 is the later version of record, which was not filed."
+ ],
+ "source_record": "wiki/sources/kasozi2021-soroti-beef-multivariate-preprint.md",
+ "non_numeric_findings": [],
+ "merged_unmatched": [],
+ "merged_snapshot": null,
+ "raw_output": "data/evidence/findings/extract/raw/kasozi2021-soroti-beef-multivariate-preprint.json"
+}

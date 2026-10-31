@@ -1,0 +1,51 @@
+{
+  "source_id": "meharg2008-rice-arsenic-literature-review",
+  "primary_artifact": "/Volumes/HMI-Library/heavy-metal-index-raw/Manual Fetch Kimi /June 8/Kimi_Agent_Download Corruption Issue/_extracted_may31_cat03_grains/cat03_grains/Levels of arsenic in rice - Literature review.pdf",
+  "primary_sha256": "6eebd6ac05008afb4550c279ad6f5f8620bf4933065843121ead617051fb53f1",
+  "text_copy": "data/evidence/contracts/most-studied-rollout-2026-10-22/cocoa/primary/meharg2008-rice-arsenic-literature-review.txt",
+  "disposition": "exposure_or_regulatory_used",
+  "disposition_reason": "Rice arsenic literature review (FSA). Only cocoa-relevant content is Table 5.6 reproducing China's maximum levels for arsenic in foods: total As 0.5 mg/kg for 'Cacao fat & chocolate' and 1.0 mg/kg for 'Other cacao products'. Also lists FSA total-As result for 'Chocolate rice sandwiches' (a rice-based composite snack, out of cocoa scope).",
+  "disposition_locator": "Table 5.6, PDF p.52; Table 3.10 and FSA appendix rows (PDF p.28 and ~p.30) for chocolate rice sandwiches",
+  "study": {
+    "design": "review",
+    "material_scope": "no cocoa material analysed; regulatory table only",
+    "growing_origin_vs_market": null,
+    "collection_period": null,
+    "n_total": null,
+    "sampling_unit": null,
+    "method": null,
+    "lod_loq": null,
+    "basis": null,
+    "qa": null
+  },
+  "findings": [],
+  "sample_values": [],
+  "controls": [],
+  "regulatory": [
+    {
+      "jurisdiction": "China",
+      "instrument": "PRC standard for maximum levels of arsenic in foods (as cited, ref 64 in Meharg 2008)",
+      "analyte": "tAs",
+      "product": "Cacao fat & chocolate",
+      "value": 0.5,
+      "unit": "mg/kg",
+      "status": "as reported in 2008 review; current status not verified",
+      "locator": "Table 5.6, PDF p.52"
+    },
+    {
+      "jurisdiction": "China",
+      "instrument": "PRC standard for maximum levels of arsenic in foods (as cited, ref 64 in Meharg 2008)",
+      "analyte": "tAs",
+      "product": "Other cacao products",
+      "value": 1.0,
+      "unit": "mg/kg",
+      "status": "as reported in 2008 review; current status not verified",
+      "locator": "Table 5.6, PDF p.52"
+    }
+  ],
+  "contradictions_with_stored_summary": [],
+  "unresolved": [
+    "Chinese standard number/version not given in the table; current GB 2762 cocoa arsenic limits not checked against this 2008 restatement.",
+    "'Chocolate rice sandwiches' total As 0.106 mg/kg (Table 3.10) and 0.198/0.147 mg/kg (appendix) are rice composite products, excluded from cocoa scope."
+  ]
+}

@@ -1,4 +1,9 @@
 ---
+retired: true
+noindex: true
+redirect_target: products/infant-formula-powder-non-soy
+retirement_date: 2026-10-25
+retirement_authority: "HMI-HELD-TRIAGE-1 (Elon PASS 25 Oct 2026 21:01): 301 to parent; findings stay in the store"
 title: Infant Formula Ingredients
 dek: "Protein bases, carbohydrates, oils and premixes contribute to finished infant formula. Evidence covers ingredient differences, processing, packaging and measured metals across formula formats."
 rail_highlights:

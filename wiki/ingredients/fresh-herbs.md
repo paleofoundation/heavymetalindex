@@ -1,7 +1,7 @@
 ---
 type: ingredient
 commodity: fresh-herbs
-title: "Fresh Herbs"
+title: "Fresh herbs"
 dek: "Fresh leaves, flowers and aerial parts of culinary aromatic plants. Explore the evidence on metal occurrence, growing conditions and comparisons with dried herbs."
 rail_highlights:
   - label: Exposure
@@ -12,7 +12,7 @@ rail_highlights:
     text: Fresh and dried herb measurements use different moisture bases
     source: sources/winiarska-mieczan2023-cd-pb-polish-herbs-spices
     source_label: Herb study
-label: "Fresh Herbs"
+label: "Fresh herbs"
 aliases: [fresh-culinary-herbs, raw-herbs, basil, mint, perilla]
 category: herb-spice
 contamination_profile:
@@ -110,8 +110,7 @@ quick_read:
 hero_image_alt: "Fresh leafy herbs and delicate dill sprigs beside dishes of dried herbs and slender brown spice seeds illustrating fresh herbs ingredient context."
 ---
 
-# Fresh Herbs
-
+# Fresh herbs
 <!-- BEGIN: hmi-opening -->
 <div class="hmi-quick-read">
   <div class="hmi-quick-read-label">Quick read</div>

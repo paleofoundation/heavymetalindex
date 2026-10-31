@@ -1,0 +1,197 @@
+{
+  "source_id": "anses2026-tds3-metals-france",
+  "primary_artifact": "/Volumes/HMI-Library/heavy-metal-index-raw/Manual Fetch Kimi /June 8/Kimi_Agent_Global Heavy Metal Reports/reports/France/ANSES_2019_TDS3.pdf",
+  "primary_sha256": "b993c882f1ef1c3d104dcedabd88f45cde22664271f36f3f9fd687b17e0412d0",
+  "text_copy": "AUDIT/primary/anses2026-tds3-metals-france.txt",
+  "disposition": "occurrence_extracted",
+  "disposition_reason": "The ANSES TDS3 opinion (20 January 2026) reports metals only by food group; the only cocoa-relevant row is the mixed group 'Confectionery and chocolate' (12 samples) with Al, Cd, total Hg and Pb means. No chocolate-only or cocoa-powder value is printed; values extracted as mixed_products. ANSES also recommends further work on cocoa's contribution to cadmium exposure.",
+  "disposition_locator": "Table 6 p.17/29; sampling p.5/29; censoring rules p.6/29; Table 9 PDF p.21 (printed p.20/29); recommendations PDF p.22",
+  "study": {
+    "design": "total diet study",
+    "material_scope": "food group 'Confectionery and chocolate' as consumed",
+    "growing_origin_vs_market": "Purchase market France (Loiret, Puy-de-Dôme, Hérault departments); growing origin not reported",
+    "collection_period": "May 2021 to August 2022",
+    "n_total": 12,
+    "sampling_unit": "samples, each a pool of 12 sub-samples of the same or similar food product (conventional and/or organic)",
+    "method": "Analysed by ANSES Laboratory for Food Safety (LSAL); technique, LOD and LOQ not given in this opinion (in ANSES 2024b methodological report)",
+    "lod_loq": "not reported in this document",
+    "basis": "fresh weight, foods prepared as consumed",
+    "qa": "ISO/IEC 17025 laboratories; no matrix-specific QA reported."
+  },
+  "findings": [
+    {
+      "id": "anses2026-tds3-metals-france:Al:confectionery-chocolate-group:mean",
+      "analyte": "Al",
+      "material": "Confectionery and chocolate (food group)",
+      "form": "mixed_products",
+      "group": "France TDS3 food group \"Confectionery and chocolate\" (12 samples)",
+      "group_kind": "form",
+      "n": 12,
+      "statistic": "mean",
+      "reported": {
+        "value": 14,
+        "sd": 13,
+        "min": null,
+        "max": null,
+        "unit": "mg/kg",
+        "text": "100 | 14 (13)"
+      },
+      "value_ug_kg": 14000,
+      "min_ug_kg": null,
+      "max_ug_kg": null,
+      "sd_ug_kg": 13000,
+      "basis": "fresh weight, foods prepared as consumed",
+      "years": [
+        2021,
+        2022
+      ],
+      "conversion": "mg/kg x 1000",
+      "censoring": "100% detection; LB mean reported (LB=UB)",
+      "lod_ug_kg": null,
+      "locator": "Table 6, row \"Confectionery and chocolate (12)\", p.17/29",
+      "notes": "Group-level statistic mixing chocolate with non-chocolate confectionery; NOT chocolate-specific. Includes organic and conventional samples. Do not use as a chocolate occurrence value without the group composition."
+    },
+    {
+      "id": "anses2026-tds3-metals-france:Cd:confectionery-chocolate-group:mean",
+      "analyte": "Cd",
+      "material": "Confectionery and chocolate (food group)",
+      "form": "mixed_products",
+      "group": "France TDS3 food group \"Confectionery and chocolate\" (12 samples)",
+      "group_kind": "form",
+      "n": 12,
+      "statistic": "mean",
+      "reported": {
+        "value": 58,
+        "sd": 78,
+        "min": null,
+        "max": null,
+        "unit": "µg/kg",
+        "text": "100 | 58 (78)"
+      },
+      "value_ug_kg": 58,
+      "min_ug_kg": null,
+      "max_ug_kg": null,
+      "sd_ug_kg": 78,
+      "basis": "fresh weight, foods prepared as consumed",
+      "years": [
+        2021,
+        2022
+      ],
+      "conversion": "none",
+      "censoring": "100% detection; LB=UB",
+      "lod_ug_kg": null,
+      "locator": "Table 6, row \"Confectionery and chocolate (12)\", p.17/29",
+      "notes": "Group-level statistic mixing chocolate with non-chocolate confectionery; NOT chocolate-specific. Includes organic and conventional samples. Do not use as a chocolate occurrence value without the group composition."
+    },
+    {
+      "id": "anses2026-tds3-metals-france:Pb:confectionery-chocolate-group:mean",
+      "analyte": "Pb",
+      "material": "Confectionery and chocolate (food group)",
+      "form": "mixed_products",
+      "group": "France TDS3 food group \"Confectionery and chocolate\" (12 samples)",
+      "group_kind": "form",
+      "n": 12,
+      "statistic": "mean",
+      "reported": {
+        "value": 11,
+        "sd": 7.5,
+        "min": null,
+        "max": null,
+        "unit": "µg/kg",
+        "text": "100 | 11 (7.5)"
+      },
+      "value_ug_kg": 11,
+      "min_ug_kg": null,
+      "max_ug_kg": null,
+      "sd_ug_kg": 7.5,
+      "basis": "fresh weight, foods prepared as consumed",
+      "years": [
+        2021,
+        2022
+      ],
+      "conversion": "none",
+      "censoring": "100% detection; LB=UB",
+      "lod_ug_kg": null,
+      "locator": "Table 6, row \"Confectionery and chocolate (12)\", p.17/29",
+      "notes": "Group-level statistic mixing chocolate with non-chocolate confectionery; NOT chocolate-specific. Includes organic and conventional samples. Do not use as a chocolate occurrence value without the group composition."
+    },
+    {
+      "id": "anses2026-tds3-metals-france:tHg:confectionery-chocolate-group-lb:mean",
+      "analyte": "tHg",
+      "material": "Confectionery and chocolate (food group)",
+      "form": "mixed_products",
+      "group": "France TDS3 food group \"Confectionery and chocolate\" (12 samples)",
+      "group_kind": "form",
+      "n": 12,
+      "statistic": "mean",
+      "reported": {
+        "value": 1.8,
+        "sd": 2.6,
+        "min": null,
+        "max": null,
+        "unit": "µg/kg",
+        "text": "42 | 1.8 (2.6) - 7.6 (4.6)"
+      },
+      "value_ug_kg": 1.8,
+      "min_ug_kg": null,
+      "max_ug_kg": null,
+      "sd_ug_kg": 2.6,
+      "basis": "fresh weight, foods prepared as consumed",
+      "years": [
+        2021,
+        2022
+      ],
+      "conversion": "none",
+      "censoring": "42% detection; LB (<LOD=0, LOD<=x<LOQ=LOD) mean",
+      "lod_ug_kg": null,
+      "locator": "Table 6, row \"Confectionery and chocolate (12)\", p.17/29",
+      "notes": "Group-level statistic mixing chocolate with non-chocolate confectionery; NOT chocolate-specific. Includes organic and conventional samples. Do not use as a chocolate occurrence value without the group composition. Column is \"total or inorganic mercury\"; for non-seafood/non-rice foods the value is total Hg (assumed equal to inorganic Hg by ANSES).",
+      "bound": "LB"
+    },
+    {
+      "id": "anses2026-tds3-metals-france:tHg:confectionery-chocolate-group-ub:mean",
+      "analyte": "tHg",
+      "material": "Confectionery and chocolate (food group)",
+      "form": "mixed_products",
+      "group": "France TDS3 food group \"Confectionery and chocolate\" (12 samples)",
+      "group_kind": "form",
+      "n": 12,
+      "statistic": "mean",
+      "reported": {
+        "value": 7.6,
+        "sd": 4.6,
+        "min": null,
+        "max": null,
+        "unit": "µg/kg",
+        "text": "42 | 1.8 (2.6) - 7.6 (4.6)"
+      },
+      "value_ug_kg": 7.6,
+      "min_ug_kg": null,
+      "max_ug_kg": null,
+      "sd_ug_kg": 4.6,
+      "basis": "fresh weight, foods prepared as consumed",
+      "years": [
+        2021,
+        2022
+      ],
+      "conversion": "none",
+      "censoring": "42% detection; UB (<LOD=LOD, LOD<=x<LOQ=LOQ) mean",
+      "lod_ug_kg": null,
+      "locator": "Table 6, row \"Confectionery and chocolate (12)\", p.17/29",
+      "notes": "Group-level statistic mixing chocolate with non-chocolate confectionery; NOT chocolate-specific. Includes organic and conventional samples. Do not use as a chocolate occurrence value without the group composition. Total Hg.",
+      "bound": "UB"
+    }
+  ],
+  "sample_values": [],
+  "controls": [],
+  "regulatory": [],
+  "notes": "Also in Table 4: acrylamide for the same group (not tracked). Silver (Ag) column not tracked. Methylmercury (Table 5) was not measured in confectionery/chocolate. Table 9: 'Confectionery and chocolate' is listed as a main contributor at 6% (C) in the column that aligns with aluminium (children). Recommendation (PDF p.22): 'undertaking additional work on the total contribution of cocoa to cadmium exposure' because international authorities focus on Cd in cocoa, although TDS3 did not find chocolate to be a major contributor to mean Cd exposure. No regulatory exceedances for Cd, total Hg or Pb in any sample.",
+  "contradictions_with_stored_summary": [
+    "Stored summary describes the group values correctly as confectionery-and-chocolate but routes the source to chocolate products/ingredients without flagging that values are not chocolate-specific."
+  ],
+  "unresolved": [
+    "Composition of the 'Confectionery and chocolate' group (which TDS3 foods, share of chocolate) is not given in this opinion; it is in the ANSES 2024b methodological report, not available here.",
+    "Table 9 column alignment for the 6% (C) confectionery-and-chocolate contribution is read as aluminium from text layout; not independently verified from the PDF graphic.",
+    "Per-sample values and LOD/LOQ not published in this opinion."
+  ]
+}

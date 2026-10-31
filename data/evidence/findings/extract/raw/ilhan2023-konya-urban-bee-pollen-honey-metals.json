@@ -1,0 +1,29 @@
+{
+ "source_id": "ilhan2023-konya-urban-bee-pollen-honey-metals",
+ "primary_artifact": "/Users/kmfp/papers-for-claude/hmi-thin/batch-08/pdfs/bee-pollen__Ilhan2023__10.51458_bstd.2023.36.pdf",
+ "primary_sha256": "f70d5af2d16672f16052fae585ffbcf07a4279b708616cb51b5869dd30aaea19",
+ "disposition": "context",
+ "disposition_reason": "Reprint of data: the 2018 Konya urban colonies (L1 to L4, same coordinates, same methods) were first reported per location by Bayir and Aygun 2022; this paper pools them (e.g. pollen Cd 0.0105, Pb 0.146 mg/kg; honey Cd 0.0065, Pb 0.113 mg/kg) for PCA and LDA, so its values are not extracted as independent findings.",
+ "disposition_locator": "Material and Methods p. 50-51; Table 1 p. 51",
+ "study": {
+  "design": "Re-analysis (PCA and LDA) of honey bee, bee pollen and honey metals from 20 colonies at four urban-fringe Konya sites",
+  "origin": "Konya, Turkey; locations L1 to L4",
+  "market": "produced in study hives",
+  "period_text": "2018; pollen May and June; honey harvested 15 to 20 July (as printed)",
+  "method": "ICP-AES after HNO3/H2O2 microwave digestion",
+  "lod_text": "not reported",
+  "basis": "unknown",
+  "qa": "Blank and NIST SRM 1547 peach leaves per run; recoveries not reported",
+  "site_context": "ordinary"
+ },
+ "findings": [],
+ "sample_values": [],
+ "controls": [],
+ "regulatory_or_exposure": [],
+ "unresolved": [
+  "Sites, colonies, year and method match Bayir and Aygun 2022 (preprint 10.21203/rs.3.rs-1302296/v1), which the authors cite as 'our previous study'; pooled Table 1 means equal the averages of that preprint's L1 to L4 means, so the data are a reprint.",
+  "Honey harvest window printed as July 15 to July 20, while the earlier preprint printed 15 July to 15 August.",
+  "Table 1 reports mean ± standard error (X̄ ± Sx) in mg/kg for honey bee, bee pollen and honey."
+ ],
+ "source_record_corrections": []
+}

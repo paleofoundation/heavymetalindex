@@ -1,0 +1,116 @@
+{
+ "source_id": "hromis2026-crayfish-shell-chitosan-coatings",
+ "primary_artifact": "/Users/kmfp/papers-for-claude/hmi-thin/batch-02/pdfs/chitosan__Hromis2026__10.3390_gels12080664.pdf",
+ "primary_sha256": "888ae4b143c8302ed7c34032cd3b582cca8aa46fe0a4fefcedc8bf63f684cb8e",
+ "disposition": "occurrence_extracted",
+ "disposition_reason": "The only printed heavy metal values are Pb, Cd and Hg in the dried crayfish shell used to make chitosan; chitin results are figure-only and the finished chitosan was not reported numerically.",
+ "disposition_locator": "Section 2.7, p. 8",
+ "study": {
+  "design": "Laboratory extraction study producing chitosan from invasive crayfish shells by different demineralization and deproteinization routes, testing coating properties",
+  "origin": "Faxonius limosus from the Danube River, Serbia",
+  "market": "",
+  "period_text": "",
+  "method": "Pb and Cd: flame AAS (Varian SpectrAA-10) after dry ashing (EN 14082); Hg and other metals: AAS",
+  "lod_text": "not stated",
+  "basis": "dry",
+  "qa": "No CRM, recovery or LOD reported",
+  "site_context": "experimental"
+ },
+ "findings": [
+  {
+   "material_label": "Crayfish shell, boiled and dried, raw material for chitosan (Faxonius limosus)",
+   "form": "dried",
+   "state": null,
+   "analyte": "Pb",
+   "group": "Danube River crayfish shells, Novi Sad",
+   "group_kind": "site",
+   "n": null,
+   "statistic": "mean",
+   "reported": "0.183 ± 0.06 mg/kg",
+   "value_ugkg": 183,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 60,
+   "unit_original": "mg/kg",
+   "basis": "dry",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Section 2.7, p. 8",
+   "integrity_flag": null,
+   "notes": "Shell raw material, not finished chitosan; chitin and chitosan metal values are shown only in Figure 4 (log scale). Pb and Cd by flame AAS after dry ashing; Hg by AAS. Duplicate tests, repeated three times."
+  },
+  {
+   "material_label": "Crayfish shell, boiled and dried, raw material for chitosan (Faxonius limosus)",
+   "form": "dried",
+   "state": null,
+   "analyte": "Cd",
+   "group": "Danube River crayfish shells, Novi Sad",
+   "group_kind": "site",
+   "n": null,
+   "statistic": "mean",
+   "reported": "0.136 ± 0.05 mg/kg",
+   "value_ugkg": 136,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 50,
+   "unit_original": "mg/kg",
+   "basis": "dry",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Section 2.7, p. 8",
+   "integrity_flag": null,
+   "notes": "Shell raw material, not finished chitosan; chitin and chitosan metal values are shown only in Figure 4 (log scale). Pb and Cd by flame AAS after dry ashing; Hg by AAS. Duplicate tests, repeated three times."
+  },
+  {
+   "material_label": "Crayfish shell, boiled and dried, raw material for chitosan (Faxonius limosus)",
+   "form": "dried",
+   "state": null,
+   "analyte": "tHg",
+   "group": "Danube River crayfish shells, Novi Sad",
+   "group_kind": "site",
+   "n": null,
+   "statistic": "mean",
+   "reported": "0.124 ± 0.033 mg/kg",
+   "value_ugkg": 124,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 33,
+   "unit_original": "mg/kg",
+   "basis": "dry",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Section 2.7, p. 8",
+   "integrity_flag": null,
+   "notes": "Shell raw material, not finished chitosan; chitin and chitosan metal values are shown only in Figure 4 (log scale). Pb and Cd by flame AAS after dry ashing; Hg by AAS. Duplicate tests, repeated three times."
+  }
+ ],
+ "sample_values": [],
+ "controls": [
+  {
+   "control": "demineralization (HCl to pH 1.3 or 0.5) and one deproteinization step",
+   "stage": "processing",
+   "evidence_kind": "measured",
+   "comparator": "raw crayfish shell",
+   "outcome": "Metal contents strongly reduced in chitin DM1.3 and further in DM0.5 (Ca 2% and 0.02% of shell); Pb, Cd and Hg values for chitin are figure-only (Figure 4)",
+   "analytes": [
+    "Pb",
+    "Cd",
+    "tHg"
+   ],
+   "locator": "Section 2.7, Figure 4"
+  }
+ ],
+ "regulatory_or_exposure": [
+  {
+   "what": "Commission Regulation (EU) 2023/915 maximum level for crustacean meat, cited",
+   "value": "0.5 mg/kg for Pb, Cd and Hg",
+   "locator": "Section 2.7"
+  }
+ ],
+ "unresolved": [
+  "Pb, Cd and Hg in chitin and finished chitosan are shown only in Figure 4 on a log scale; no values recorded.",
+  "Basis of shell results not labelled; shells were oven dried before analysis.",
+  "Crayfish collection dates not stated."
+ ],
+ "source_record_corrections": []
+}

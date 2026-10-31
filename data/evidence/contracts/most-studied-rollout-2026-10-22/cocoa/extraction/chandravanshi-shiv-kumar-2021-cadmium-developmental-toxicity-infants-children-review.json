@@ -1,0 +1,27 @@
+{
+  "source_id": "chandravanshi-shiv-kumar-2021-cadmium-developmental-toxicity-infants-children-review",
+  "primary_artifact": "/Volumes/HMI-Library/heavy-metal-index-raw/studies/FM_8207007_Developmental_toxicity_of_cadmium_in_infants_and_children_a.pdf",
+  "primary_sha256": "169412eb4fed032992afc9cce708780e5c87e6e5d8629915804ca6ccfa7d2af9",
+  "text_copy": "data/evidence/contracts/most-studied-rollout-2026-10-22/cocoa/primary/chandravanshi-shiv-kumar-2021-cadmium-developmental-toxicity-infants-children-review.txt",
+  "disposition": "out_of_scope",
+  "disposition_reason": "Review of developmental toxicity of cadmium in infants and children; the full primary text contains no mention of cocoa, cacao, chocolate or Theobroma.",
+  "disposition_locator": "Whole document searched (all pages of pdftotext output; zero matches for cocoa|cacao|chocolat|theobroma)",
+  "study": {
+    "design": "review",
+    "material_scope": "cadmium developmental toxicology; no cocoa content",
+    "growing_origin_vs_market": null,
+    "collection_period": null,
+    "n_total": null,
+    "sampling_unit": null,
+    "method": null,
+    "lod_loq": null,
+    "basis": null,
+    "qa": null
+  },
+  "findings": [],
+  "sample_values": [],
+  "controls": [],
+  "regulatory": [],
+  "contradictions_with_stored_summary": [],
+  "unresolved": []
+}

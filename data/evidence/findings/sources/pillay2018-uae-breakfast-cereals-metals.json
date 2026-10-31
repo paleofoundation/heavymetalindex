@@ -1,0 +1,53 @@
+{
+ "source_id": "pillay2018-uae-breakfast-cereals-metals",
+ "primary_artifact": "/Users/kmfp/papers-for-claude/hmi-thin/batch-04/pdfs/cereal__Pillay2018__10.15406_japlr.2018.07.00270.pdf",
+ "primary_sha256": "65f59e9f7fb304224b4820730b43af554f80a42e2fc80e955ed8591c2d5378da",
+ "extracted_at": "2026-10-24",
+ "extractor": "engine-v1",
+ "disposition": "no_numeric_results",
+ "disposition_reason": "Per-sample arsenic, cadmium, mercury and lead results for eight breakfast cereal brands are shown only as bar figures (Figures 2-5); the text gives only approximate ranges and the abstract states them in µg/L of digest, so no concentration can be recorded.",
+ "disposition_locator": "Figures 2-5, pp. 479-480",
+ "study": {
+  "design": "retail survey of eight breakfast cereal brands",
+  "origin": "not stated",
+  "market": "local retail outlets, United Arab Emirates",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": ""
+  },
+  "method": "HNO3 digestion, dilution in 1% HNO3, ICP-MS (PerkinElmer DRC-e), triplicate aliquots",
+  "lod": [
+   "not reported"
+  ],
+  "basis": "unknown",
+  "qa": "calibration verified with certified aqueous standards (Fluka 70007, QC2-1, Table 1); no food CRM; RSD <5%",
+  "site_context": "market"
+ },
+ "findings": [],
+ "sample_values": [],
+ "controls": [],
+ "unresolved": [
+  "Values are figure-only (Figures 2-5); not read off bars.",
+  "Text gives approximate ranges only: As 'range 100-180ppb' with sample 7 '>800ppb'; Cd 'about 10-60ppb'; Hg 'about 250-400ppb'; Pb two samples elevated, sample 7 more than five times the limit. Abstract gives As 100-900, Cd 8-50, Hg 270-370, Pb 115-30000 µg/L (digest units), which conflict with the ppb text; none recorded.",
+  "Mercury at 250-400 ppb in cereals is implausibly high for food and is not corroborated by QA on a food matrix.",
+  "Sample mass, dilution and basis not stated."
+ ],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [
+  {
+   "what": "Limits quoted by authors: As 1400 ppb solid foods, Cd 100 ppb cereals, Hg 500 ppb foodstuff",
+   "value": "1400 / 100 / 500 ppb",
+   "locator": "pp. 479-480"
+  }
+ ],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/pillay2018-uae-breakfast-cereals-metals.md",
+ "non_numeric_findings": [],
+ "merged_unmatched": [],
+ "merged_snapshot": null,
+ "raw_output": "data/evidence/findings/extract/raw/pillay2018-uae-breakfast-cereals-metals.json"
+}

@@ -1,0 +1,224 @@
+{
+  "source_id": "manouchehri2021-honey-heavy-metals-review",
+  "primary_artifact": "/Users/kmfp/HMI-Library-backup/heavy-metal-index-raw/Papers Cube Manual Fetch/10.31467-uluaricilik.973053-1886804.pdf",
+  "primary_sha256": "773ad862521ed4ba33df109c25dc9a3d790ed59d77678b12162d84d5cb3bca65",
+  "text_copy": "data/evidence/contracts/ingredient-rollout-2026-10-22/honey/primary/manouchehri2021-honey-heavy-metals-review.txt",
+  "disposition": "mitigation_extracted",
+  "disposition_reason": "Narrative 'systematic' review (keywords + 6 databases, no PRISMA, no pooling) that tabulates honey metal means from cited studies (Table 1) and makes apiary-siting and container/storage statements; no new honey measurements, so no occurrence findings are extracted here, only control/mitigation statements.",
+  "disposition_locator": "Method for review, printed p.239; Results/Table 1, printed pp.240-241; Discussion, printed pp.241-242; Conclusion, printed p.243",
+  "study": {
+    "design": "review (narrative; described by authors as systematic review; keyword search of Google Scholar, SID, Scopus, PubMed, Science Direct, ISI; no PRISMA, no inclusion criteria, no pooling)",
+    "material_scope": "honey (literature); bee bodies and pollen mentioned only as context",
+    "growing_origin_vs_market": "not applicable (secondary); Table 1 rows labelled by country only, origin vs purchase market not distinguished",
+    "collection_period": null,
+    "n_total": null,
+    "sampling_unit": "cited studies (29 rows in Table 1)",
+    "method": "not applicable (review); cited studies used ICP-OES, ICP-MS, ICP-AES, AAS, FAAS, GFAAS, HGAAS and others per Table 1 'Method' column",
+    "lod_loq": null,
+    "basis": "Table 1 units heterogeneous and unharmonised (ug/kg, ppm, mg/kg, ug/l, ppb, ug/g, ng/g, mg/L, 'mg/kg d.w', 'mg/kg wet weight')",
+    "qa": null
+  },
+  "findings": [],
+  "sample_values": [],
+  "controls": [
+    {
+      "control": "Locate honey-production hives away from highways and railways",
+      "stage": "apiary siting",
+      "evidence_kind": "guidance",
+      "comparator": "Croatian/Kosovo honey Pb vs other European countries' reported values",
+      "outcome": "Authors state Croatian and Kosovo findings of honey Pb higher than other European countries 'highlight the need' for hive siting far from highways and railways.",
+      "analytes": [
+        "Pb"
+      ],
+      "locator": "printed journal page 241 (PDF p.5), Discussion, right column; text copy lines 369-381",
+      "cited_primary": [
+        "Bilandzic et al. 2011 (Food Chem 128:1160)",
+        "Fadil et al. 2020 (Rasayan J Chem)"
+      ],
+      "note": "Guidance is the review authors' inference; the cited studies' design (whether road distance was measured) is not described in the review."
+    },
+    {
+      "control": "Avoid apiaries near industrial centres / industrial areas",
+      "stage": "apiary siting",
+      "evidence_kind": "observational",
+      "comparator": "industrial vs rural areas",
+      "outcome": "Review reports a direct relationship between honey metal contamination and industry-related environmental pollution / number of industrial centres; industrial-city honey higher than rural honey (Nigeria).",
+      "analytes": [
+        "Cd",
+        "tHg",
+        "tAs",
+        "Fe",
+        "Cu",
+        "Mn",
+        "Zn"
+      ],
+      "locator": "printed journal page 241 (PDF p.5), Discussion, left and right columns; continued p.242 top; text copy lines 376-399",
+      "cited_primary": [
+        "Demirezen & Aksoy 2005",
+        "Al-Khalifa & Al-Arify 1999 (cited for a Turkey study; the reference is a Saudi honey physicochemical/pollen paper)",
+        "Samimi et al. 2001 (Saveh, Markazi, Iran: Cd and As)",
+        "Toma et al. 2020 (Nigeria)"
+      ],
+      "note": "Statement 'amounts of heavy metals ... (especially cadmium and mercury) were higher than permissible rate' is attached to the Al-Khalifa & Al-Arify 1999 citation; citation-content match is doubtful (see unresolved)."
+    },
+    {
+      "control": "Air and surface-water pollution near apiary as metal source",
+      "stage": "apiary siting",
+      "evidence_kind": "observational",
+      "comparator": "",
+      "outcome": "Positive relationship between honey metal content, respiration of contaminated airborne particles and contaminated surface water.",
+      "analytes": [],
+      "locator": "printed journal page 241 (PDF p.5), Discussion, left column; text copy lines 399-408",
+      "cited_primary": [
+        "Berinde & Michnea 2013"
+      ]
+    },
+    {
+      "control": "Volcanic soils / volcanic activity as a geogenic source",
+      "stage": "apiary siting",
+      "evidence_kind": "observational",
+      "comparator": "",
+      "outcome": "Volcanic activity affects honey (Etna); high honey Al in Chile (6.15 +/- 4.53 mg/kg) attributed to colonies on volcanic soils; Cd 0.01-0.05 mg/kg.",
+      "analytes": [
+        "Al",
+        "Cd"
+      ],
+      "locator": "printed journal page 241 (PDF p.5), Discussion, left column; text copy lines 409-427",
+      "cited_primary": [
+        "Cimino et al. 1984",
+        "Fredes & Montenegro 2006"
+      ],
+      "note": "Values are the review's restatement of a cited study; not extracted as occurrence."
+    },
+    {
+      "control": "Separate environmental-origin from beekeeping-origin contamination sources",
+      "stage": "harvest",
+      "evidence_kind": "context",
+      "comparator": "",
+      "outcome": "Honey contamination sources classified into environmental origin and those related to beekeeping and maintenance; another source is contact with contaminants, tools, beekeeping practices, floral sources, utensils, insects, animals and water.",
+      "analytes": [],
+      "locator": "printed journal page 241 (PDF p.5), Discussion, left column; text copy lines 354-364; printed journal page 242 (PDF p.6), Discussion, left column; text copy lines 449-455",
+      "cited_primary": [
+        "Mahmoudi et al. 2014 (reference title is an oxytetracycline-residue ELISA/HPLC paper)"
+      ],
+      "note": "Cited reference does not obviously support a metals statement; treat as review-author assertion."
+    },
+    {
+      "control": "Use coated / solderless storage cans; avoid bare metal containers for acidic honey",
+      "stage": "storage/packaging",
+      "evidence_kind": "guidance",
+      "comparator": "soldered/uncoated metal cans",
+      "outcome": "Honey (average pH 3.9) can corrode metal cans over time; suitable coatings and solderless cans can reduce Pb and Sn in honey.",
+      "analytes": [
+        "Pb",
+        "Sn"
+      ],
+      "locator": "printed journal page 242 (PDF p.6), Discussion, left column; text copy lines 457-471",
+      "cited_primary": [
+        "Bonyadian et al. 2011 (reference title: 'Determination of lead, tin, copper and cadmium in Iranian canned fish')"
+      ],
+      "note": "Cited reference is a canned-fish study, so the honey-specific claim is not directly supported by its citation."
+    },
+    {
+      "control": "Storage of honey in metal containers / wax composition raises Pb",
+      "stage": "storage/packaging",
+      "evidence_kind": "observational",
+      "comparator": "waxed (comb) honey vs other samples",
+      "outcome": "Waxed honey contained more lead than other samples, attributed to storage in metal containers and wax chemical composition.",
+      "analytes": [
+        "Pb"
+      ],
+      "locator": "printed journal page 242 (PDF p.6), Discussion, left column; text copy lines 471-479",
+      "cited_primary": [
+        "Bonyadian et al. 2011 (canned-fish reference; see note)"
+      ],
+      "note": "Same citation mismatch as above; no numbers given."
+    },
+    {
+      "control": "Bee filtering: honey carries less metal than bees and pollen",
+      "stage": "apiary siting",
+      "evidence_kind": "context",
+      "comparator": "",
+      "outcome": "Adult bee bodies reported more contaminated than pollen and honey; bees appear to reduce contamination while producing honey; honey metals significantly lower than in bees due to filtering by bees.",
+      "analytes": [],
+      "locator": "printed journal page 242 (PDF p.6), Discussion, left col. bottom and right col. top; text copy lines 481-485, 398-404; printed journal page 243 (PDF p.7), Conclusion; text copy lines 505-509",
+      "cited_primary": [
+        "Samimi et al. 2001",
+        "Bogdanov 2006 (Apidologie 37:1-18)"
+      ]
+    },
+    {
+      "control": "Honey (and bees) as bioindicator of environmental metal pollution",
+      "stage": "testing",
+      "evidence_kind": "context",
+      "comparator": "",
+      "outcome": "Honey is used as an indicator for measuring environmental pollution such as heavy metal pollution.",
+      "analytes": [],
+      "locator": "printed journal page 239 (PDF p.3), Introduction, right column; text copy lines 169-171",
+      "cited_primary": [
+        "Celli & Maccagnani 2003"
+      ]
+    },
+    {
+      "control": "Market surveillance of honey quality",
+      "stage": "testing",
+      "evidence_kind": "guidance",
+      "comparator": "",
+      "outcome": "Authors conclude that studying the quality of honey in the consumer market is necessary to protect consumers, and the public should be informed.",
+      "analytes": [],
+      "locator": "printed journal page 243 (PDF p.7), Conclusion; text copy lines 509-516; abstract p.237 lines 44-46"
+    },
+    {
+      "control": "Analytical techniques for honey metals",
+      "stage": "testing",
+      "evidence_kind": "context",
+      "comparator": "",
+      "outcome": "Lists ICP-OES, FES, FAAS, ICP-MS, HPLC, AAS, TXRF, GFAAS, HGAAS; ICP-OES described as most applied, with excellent sensitivity.",
+      "analytes": [],
+      "locator": "printed journal page 242 (PDF p.6), Discussion, right column; text copy lines 454-485",
+      "cited_primary": [
+        "Fakhri et al. 2019"
+      ]
+    },
+    {
+      "control": "Compare honey results with national/FAO-WHO limits and PTDI",
+      "stage": "regulation",
+      "evidence_kind": "context",
+      "comparator": "",
+      "outcome": "Cites ISIRI (Iran) PTDI for Pb, Cd, Hg, As (0.0036, 0.001, 0.007, 0.0021 mg/kg bw); several cited studies report honey below FAO/WHO or Indian limits; Toma et al. report Fe/Cu/Mn/Zn above WHO/FAO 'maximum allowable concentration'.",
+      "analytes": [
+        "Pb",
+        "Cd",
+        "tHg",
+        "tAs"
+      ],
+      "locator": "printed journal page 241 (PDF p.5), Discussion, left column; text copy lines 364-376; printed journal page 242 (PDF p.6), Discussion; text copy lines 439-448, 430-436",
+      "cited_primary": [
+        "Mahmoudi & Emami 2015",
+        "Altekin et al. 2015",
+        "Piven et al. 2020",
+        "Bhalchandra & Baviskar 2015",
+        "Toma et al. 2020"
+      ],
+      "note": "PTDI units printed as 'milligrams per kilogram of temporary bodyweight' (sic); no honey-specific ML is stated in the review."
+    }
+  ],
+  "notes": "Primary studies cited (Table 1 rows, as printed; NOT re-extracted here): Sobhanardakani & Kianpour 2016 (Iran); Mahmoudi et al. 2018 (NW Iran); Saghaei et al. 2012 (Urmia, Iran); Piran et al. 2015 (Kurdistan, Iran, As); Akbari et al. 2012 (Iranian market brands); Aghamirlou et al. 2015 (Iran; already in this audit's primary folder); Altekin et al. 2015 (Turkey); Temizer et al. 2018 (Turkey, chestnut); Sarker et al. 2015 (Bangladesh); Ekici 2018 (Ardahan, Turkey); Dhahir & Hemed 2015 (Iraq); UT 2015 (Turkey brands); Magna et al. 2018 (Ghana); Quinto et al. 2016 (Italy); Piven et al. 2020 (Ukraine); Fadil et al. 2020 (Kosovo); Tomczyk et al. 2020 (Poland; already in this audit's primary folder); Kanbur et al. 2021 (Rize, Turkey); Yohannes et al. 2018 (Ethiopia); Toma et al. 2020 (Nigeria); Ernest et al. 2018 (Nigeria); Oroian et al. 2016 (Romania); de Andrade et al. 2014 (Brazil); Bhalchandra & Baviskar 2015 (India); Aljedani 2017 (Saudi Arabia; already in this audit's primary folder); Moujanni et al. 2017 (Tadla-Azilal, Morocco); Winiarska-Mieczan et al. 2021 (Poland); Bilandzic et al. 2011 (Croatia); Sajtos et al. 2019 (Hungary). Discussion-only citations: Samimi et al. 2001; Demirezen & Aksoy 2005; Al-Khalifa & Al-Arify 1999; Berinde & Michnea 2013; Cimino et al. 1984; Fredes & Montenegro 2006; Tuzen et al. 2007; Bogdanov 2006; Leblebici & Aksoy 2008; Celli & Maccagnani 2003; Fakhri et al. 2019. Candidate primaries for direct extraction if present in the library: Quinto 2016, Bilandzic 2011, Winiarska-Mieczan 2021, Kanbur 2021, Fadil 2020, Sajtos 2019.",
+  "contradictions_with_stored_summary": [
+    "Summary gives Italy (Quinto 2016) Cr as '116 +/- 10.7 ug/kg'; Table 1 prints '12.8+/-10.7' in the Chrome column (PDF p.4, text line 259).",
+    "Summary assigns Sobhanardakani & Kianpour 2016 '56.15 +/- 54.32 ug/kg' to Al; in Table 1 the value starts at the Nickle column (character offset 113, header 'Nickle' at 113; Aluminium at 124), i.e. Ni not Al.",
+    "Summary assigns Ghana (Magna 2018) '15.785 +/- 10.968 mg/kg' to Al; the value sits in the Nickle column (same offset analysis, text line 254), i.e. Ni not Al.",
+    "Summary states Akbari/Saghaei market Pb as '0.011, 0.935, and 0.04 mg/kg'; Discussion prints '0/11, 0/935, and 0/04 mg/kg' (= 0.11) and Table 1 Akbari Lead is 0.11 +/- 0.05 mg/kg (p.242 lines 406-416; p.240 line 226).",
+    "Summary describes Aghamirlou 2015 as 'Markazi Province, n=25 industrial-area samples ... attributed to industrial proximity'; Table 1 gives no region or industrial attribution for that row; the Saveh/Markazi industrial statement in the Discussion is attributed to Samimi et al. 2001 and concerns Cd and As.",
+    "Summary frames 'Turkey/Iran: Cd and Hg above permitted limits'; the source attaches that statement to a Turkey study cited as Al-Khalifa & Al-Arify 1999, not to Iran.",
+    "Summary attributes the bee-body > honey filtering observation to Altekin 2015 / Piven 2020; the source attributes it to Samimi et al. 2001 and Bogdanov 2006.",
+    "Summary says Table 1 aggregates '28 cited studies across 19 countries, sampling years 2010-2021'; Table 1 has 29 rows from 18 country labels (incl. 'Tadla-Azilal', Morocco), its title says 2011-2021, the Year column runs 2010-2020 and contains a typo '1017' (Ghana) and '2019' for Bilandzic et al. 2011.",
+    "Summary describes Bhalchandra & Baviskar findings and Hungary MP-AES discrepancy correctly; Croatia Al 288.5 and Fe 82.5 'mg/kg' reported in summary without noting the unit is implausible for honey (likely ug/kg or a transcription issue in the review)."
+  ],
+  "unresolved": [
+    "Header citation gives pages 238-248 but printed page numbers run 237-246; locators here use printed page numbers.",
+    "Several citations do not match the claims they support: Bonyadian et al. 2011 (canned fish) for honey container/storage Pb-Sn; Mahmoudi et al. 2014 (oxytetracycline residues) for beekeeping-practice contamination sources; Al-Khalifa & Al-Arify 1999 (Saudi honey physicochemistry) for a Turkish industrial-centres finding; Tuzen et al. 2007 (Turkish honeys) for a 'study done in China'; Saghaei et al. 2012 (Iran) for a 'study conducted in Saudi Arabia'. Control statements resting on these citations should be traced to an actual primary before use.",
+    "Table 1 column alignment in the pdftotext layout is ambiguous for some sparse rows; column assignments above were checked by character offset only for the rows named in contradictions.",
+    "Units in Table 1 are not harmonised and some appear implausible (Ghana Pb 79.815 mg/kg; Croatia Al 288.5 mg/kg); review values must not be used as occurrence data."
+  ]
+}

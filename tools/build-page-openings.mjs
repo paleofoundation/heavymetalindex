@@ -27,6 +27,7 @@
 
 import fs from "node:fs"
 import { contractOwnsPage } from "./contracts/page-owner.mjs"
+import { isRetiredRecord } from "./lib/source-publication.mjs"
 import path from "node:path"
 import matter from "gray-matter"
 
@@ -253,7 +254,7 @@ function main() {
     const section = inScope(rel)
     const raw = fs.readFileSync(path.join(ROOT, rel), "utf8")
     const parsed = matter(raw)
-    if (parsed.data.draft === true) continue
+    if (parsed.data.draft === true || isRetiredRecord(parsed.data)) continue
     if (contractOwnsPage(raw)) {
       if (hasCompiledOpening(raw)) ok++
       else problems.push(`${rel}: compiled page needs one three-point Quick read before its sections`)

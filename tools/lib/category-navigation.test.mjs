@@ -25,4 +25,6 @@ test("ingredient hub rollups preserve the existing category mapping", () => {
   assert.equal(ingredientGroup("grain-product"), "Grains & cereals")
   assert.equal(ingredientGroup("seafood-composite"), "Fish & seafood")
   assert.equal(ingredientGroup("not-a-category"), "Other")
+  assert.equal(ingredientGroup("unclassified", "almond"), "Nuts & seeds")
+  assert.equal(ingredientGroup("unclassified", "ingredients/almond"), "Nuts & seeds")
 })

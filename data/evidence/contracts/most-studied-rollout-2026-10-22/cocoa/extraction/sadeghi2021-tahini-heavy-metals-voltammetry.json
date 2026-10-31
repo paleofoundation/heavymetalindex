@@ -1,0 +1,27 @@
+{
+  "source_id": "sadeghi2021-tahini-heavy-metals-voltammetry",
+  "primary_artifact": "/Volumes/HMI-Library/heavy-metal-index-raw/manual-fetch/Kimi_Agent_Download Corruption Issue/condiments2_papers/03_Condiments/06_Sadeghi_tahini_heavy_metals_2021.pdf",
+  "primary_sha256": "26c2cc6e27c2bfeb1ce1c5a804495ad34e122c67714081fc41ad1147d3106e0b",
+  "text_copy": "data/evidence/contracts/most-studied-rollout-2026-10-22/cocoa/primary/sadeghi2021-tahini-heavy-metals-voltammetry.txt",
+  "disposition": "out_of_scope",
+  "disposition_reason": "Tahini (sesame paste) survey from Tehran; 5 of 37 brands were flavoured tahini made with coffee, chocolate, date, vanilla or cocoa, reported only as a pooled 'flavored tahini' group. These are flavoured sesame spreads, outside the cocoa page scope, and no cocoa-specific result is given.",
+  "disposition_locator": "Materials and methods (sample description); Table 1 'Flavored' rows",
+  "study": {
+    "design": "market survey (tahini)",
+    "material_scope": "flavoured tahini (out of scope)",
+    "growing_origin_vs_market": null,
+    "collection_period": null,
+    "n_total": null,
+    "sampling_unit": null,
+    "method": null,
+    "lod_loq": null,
+    "basis": null,
+    "qa": null
+  },
+  "findings": [],
+  "sample_values": [],
+  "controls": [],
+  "regulatory": [],
+  "contradictions_with_stored_summary": [],
+  "unresolved": []
+}

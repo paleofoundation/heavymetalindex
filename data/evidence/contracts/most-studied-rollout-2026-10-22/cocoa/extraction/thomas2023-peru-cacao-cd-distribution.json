@@ -1,0 +1,218 @@
+{
+  "source_id": "thomas2023-peru-cacao-cd-distribution",
+  "primary_artifact": "/Volumes/HMI-Library/heavy-metal-index-raw/studies/thomas2023-peru-cacao-cd-distribution.pdf",
+  "primary_sha256": "91b9e16b1ce3f4780c626aaf69db4615d6e8f72b5585975f34be28ba131b3a92",
+  "text_copy": "data/evidence/contracts/most-studied-rollout-2026-10-22/cocoa/primary/thomas2023-peru-cacao-cd-distribution.txt",
+  "disposition": "occurrence_extracted",
+  "disposition_reason": "Nationwide Peru survey (2018 bean Cd data points, 2051 soil) used to build random-forest predictive maps; the main text prints measured bean Cd summaries only for two Piura irrigation-contrast sites (Las Lomas, La Quemazón). Department-level results are model-predicted proportions of farms in Cd classes (Fig. 8, graphical) and percentage ranges of farms above buyer thresholds, not measured regional statistics; the authors state they cannot share the data.",
+  "disposition_locator": "Section 2.1 (p.2-4), Section 3 Results (p.5-6), Fig. 8 (p.11), Data availability (p.13)",
+  "study": {
+    "design": "farm survey (nationwide, tree-level and farm-composite sampling) with random-forest spatial modelling",
+    "material_scope": "cacao beans (pods harvested, beans oven-dried at 70 C, whole beans ground) and soils 0-20 cm",
+    "growing_origin_vs_market": "grown in Peru: 563 tree-level farms in 35 provinces of 13 departments (Tumbes, Piura, Amazonas, Cajamarca, San Martin, Ucayali, Huanuco, Pasco, Junin, Cusco, Madre de Dios, Ayacucho, plus others; Loreto and Puno appear in Fig. 8) plus 484 farm-composite farms; not market samples",
+    "collection_period": "April 2018 to September 2019 (tree-level sampling); farm-composite sampling period not separately stated",
+    "n_total": 2018,
+    "sampling_unit": "1534 tree-level bean samples (up to 4 pods per tree, up to 6 trees per farm, 563 farms) + 484 farm-level composite bean samples (5-10 pods, ~1 kg fresh beans per farm)",
+    "method": "Tree-level beans: SENASA ISO-certified lab, 0.5 g digested in 6 ml HNO3 + 2 ml H2O2 at 200 C, ICP-MS. Farm composites: SGS, AOAC Official Method 2013.06 (modified 2019). Soil: SGS aqua regia open block, ICP-MS (Nexion 2000C).",
+    "lod_loq": "Beans (SENASA tree-level): LOQ 0.047 mg/kg. Beans (SGS farm composites): LOD 0.01 mg/kg, LOQ 0.03 mg/kg. Soil: LOQ 0.01 mg/kg.",
+    "basis": "whole beans oven-dried at 70 C for 48 h to ~7% moisture (reported as mg/kg; dry-weight basis not explicitly stated, residual moisture ~7%)",
+    "qa": "Soil: CRM OREAS 906 (0.42 ± 0.04 mg/kg Cd), 5% duplicates, blanks every 50. SENASA: blanks and duplicates every 10 samples, internal bean Cd controls. SGS beans: average recovery 105% (80-110%). Both labs in a 24-lab interlaboratory ring test (z-scores < 2)."
+  },
+  "findings": [
+    {
+      "id": "thomas2023-peru-cacao-cd-distribution:Cd:las-lomas-piura-irrigated-upstream-active-mining:mean",
+      "analyte": "Cd",
+      "material": "cacao beans (unfermented beans from harvested pods, oven-dried, ground whole)",
+      "form": "beans",
+      "group": "Las Lomas, Piura (irrigated; upstream active mining)",
+      "group_kind": "farm_or_site",
+      "n": null,
+      "statistic": "mean",
+      "reported": {
+        "value": 7.12,
+        "sd": 2.7,
+        "min": null,
+        "max": null,
+        "unit": "mg kg-1",
+        "text": "bean Cd 7.12 ± 2.7 mg kg−1"
+      },
+      "value_ug_kg": 7120.0,
+      "min_ug_kg": null,
+      "max_ug_kg": null,
+      "sd_ug_kg": 2700.0,
+      "basis": "whole beans oven-dried at 70 C for 48 h to ~7% moisture (reported as mg/kg; dry-weight basis not explicitly stated, residual moisture ~7%)",
+      "years": [
+        2018,
+        2019
+      ],
+      "conversion": "mg/kg x 1000",
+      "censoring": "not described for this site summary; national protocol analysed remaining trees on a farm only if the first randomly selected tree exceeded bean LOQ 0.047 mg/kg or soil 0.05 mg/kg",
+      "lod_ug_kg": null,
+      "locator": "Section 3 Results, p.5, paragraph on DGT irrigation water (Las Lomas / La Quemazón)",
+      "notes": "Among the highest bean Cd in Piura; corresponding soil Cd 2.80 ± 0.82 mg/kg. n of trees/farms not reported. Selected as a high-Cd contrast site, not a random regional sample."
+    },
+    {
+      "id": "thomas2023-peru-cacao-cd-distribution:Cd:la-quemazon-piura-irrigated-fewer-upstream-mines:mean",
+      "analyte": "Cd",
+      "material": "cacao beans (unfermented beans from harvested pods, oven-dried, ground whole)",
+      "form": "beans",
+      "group": "La Quemazon, Piura (irrigated; fewer upstream mines)",
+      "group_kind": "farm_or_site",
+      "n": null,
+      "statistic": "mean",
+      "reported": {
+        "value": 0.72,
+        "sd": 0.36,
+        "min": null,
+        "max": null,
+        "unit": "mg kg-1",
+        "text": "bean Cd 0.72 ± 0.36 mg kg−1"
+      },
+      "value_ug_kg": 720.0,
+      "min_ug_kg": null,
+      "max_ug_kg": null,
+      "sd_ug_kg": 360.0,
+      "basis": "whole beans oven-dried at 70 C for 48 h to ~7% moisture (reported as mg/kg; dry-weight basis not explicitly stated, residual moisture ~7%)",
+      "years": [
+        2018,
+        2019
+      ],
+      "conversion": "mg/kg x 1000",
+      "censoring": "not described for this site summary; national protocol analysed remaining trees on a farm only if the first randomly selected tree exceeded bean LOQ 0.047 mg/kg or soil 0.05 mg/kg",
+      "lod_ug_kg": null,
+      "locator": "Section 3 Results, p.5, paragraph on DGT irrigation water (Las Lomas / La Quemazón)",
+      "notes": "Among the lowest bean Cd in Piura; corresponding soil Cd 0.54 ± 0.1 mg/kg. n not reported. Authors note Las Lomas bean Cd ten times higher despite only ~4x higher irrigation-water Cd load."
+    }
+  ],
+  "sample_values": [],
+  "controls": [
+    {
+      "control": "Siting / sourcing by geography: avoid or segregate beans from high-Cd departments",
+      "stage": "sourcing and procurement",
+      "evidence_kind": "observational",
+      "design": "survey",
+      "comparator": "Model-predicted bean Cd across Peruvian departments",
+      "outcome": "Predicted share of farms potentially impacted (bean Cd above 0.8 / 0.5 mg/kg buyer thresholds): Tumbes 59-89%, Piura 89-100%, Amazonas 51-79%, Loreto 27-95%; nationally 16-45% of cacao farming households and 9.2-41% of national production. Fig. 8 (graphical) shows southern departments (Cusco, Ayacucho, Junin, Puno) almost entirely in the <0.5 mg/kg predicted class. These are random-forest predictions (bean model spatial-block CV R2 0.48 ± 0.26), not measured means.",
+      "analytes": [
+        "Cd"
+      ],
+      "scale": "farm",
+      "locator": "Section 3 Results p.6; Fig. 8 p.11; Abstract"
+    },
+    {
+      "control": "Irrigation water source (upstream mining vs fewer mines)",
+      "stage": "farm and soil management",
+      "evidence_kind": "measured",
+      "design": "survey",
+      "comparator": "Las Lomas canal (active mining upstream) vs La Quemazon canal (fewer mines, different bedrock), DGT membranes monthly for one year (12 per site)",
+      "outcome": "Labile Cd in irrigation water 0.315 ± 0.267 ug/L (Las Lomas) vs 0.085 ± 0.108 ug/L (La Quemazon); estimated bioavailable Cd influx 3.15 ± 2.67 vs 0.85 ± 1.08 mg per tree per year; bean Cd 7.12 ± 2.70 vs 0.72 ± 0.36 mg/kg. Two sites only; soil Cd also differed (2.80 vs 0.54 mg/kg), so water is not isolated as the cause.",
+      "analytes": [
+        "Cd"
+      ],
+      "scale": "farm",
+      "locator": "Section 2.1 p.4; Section 3 p.5-6; Section 4.2 p.12"
+    },
+    {
+      "control": "Flood-plain (alluvial) vs hillside siting",
+      "stage": "farm and soil management",
+      "evidence_kind": "observational",
+      "design": "survey",
+      "comparator": "Alluvial-plain farms flooded at least once a decade vs hillside farms, Santiago River watershed, Amazonas",
+      "outcome": "3.5-fold difference in Cd translocation factor (bean Cd / soil Cd); absolute bean values not reported. Nationally bean Cd tended to be higher near lakes/rivers, under alluvial flooding and on fluvial deposits, and near active mining (Piura-Tumbes; San Martin-Huanuco-Ucayali-Pasco).",
+      "analytes": [
+        "Cd"
+      ],
+      "scale": "farm",
+      "locator": "Section 3 p.5; Section 4.2 p.12"
+    },
+    {
+      "control": "Soil pH (context for liming)",
+      "stage": "farm and soil management",
+      "evidence_kind": "observational",
+      "design": "survey",
+      "comparator": "Partial dependence of bean Cd on soil pH in nationwide random-forest model",
+      "outcome": "Soil pH related positively to soil Cd but negatively to bean Cd (higher Cd solubility/translocation in acidic soils); no numeric effect size printed. Not an intervention test.",
+      "analytes": [
+        "Cd"
+      ],
+      "scale": "farm",
+      "locator": "Section 3 p.5; Section 4.2 p.12; Fig. 4"
+    },
+    {
+      "control": "Blending beans from high- and low-Cd areas (bulk market)",
+      "stage": "blending and formulation",
+      "evidence_kind": "context",
+      "design": "review",
+      "comparator": "Unblended high-Cd alluvial Huallaga beans (Huanuco)",
+      "outcome": "Authors assume Huanuco farmers report no Cd-related losses because buyers mix beans from alluvial high-Cd farms with beans from further from the river; no measured blend values.",
+      "analytes": [
+        "Cd"
+      ],
+      "scale": "guidance",
+      "locator": "Section 4.3 p.12"
+    },
+    {
+      "control": "Buyer bean acceptance thresholds",
+      "stage": "lot acceptance and release",
+      "evidence_kind": "context",
+      "design": "survey",
+      "comparator": "n/a",
+      "outcome": "In Peru buyers typically use 0.5 mg/kg for bulk beans and 0.8 to 1.2 mg/kg for single-origin fine-flavour beans; 0.6 mg/kg cited as unofficial importer threshold; some buyers request as low as 0.3 mg/kg. Piura farmers reported average income losses of 31% (Villar et al. 2022, cited).",
+      "analytes": [
+        "Cd"
+      ],
+      "scale": "guidance",
+      "locator": "Section 2.4 p.5; Section 4.3 p.12; Section 1 p.2"
+    }
+  ],
+  "regulatory": [
+    {
+      "jurisdiction": "EU",
+      "instrument": "Regulation (EU) 488/2014",
+      "analyte": "Cd",
+      "product": "chocolate and cocoa derivatives (source states existing limits range 0.3 to 0.8 mg/kg depending on product; individual values not itemised)",
+      "value": null,
+      "unit": "mg/kg",
+      "status": "cited as in force",
+      "locator": "Section 1 p.2; Section 4.3 p.12"
+    },
+    {
+      "jurisdiction": "US-CA",
+      "instrument": "Proposition 65 industrial agreement (19/02/2018)",
+      "analyte": "Cd",
+      "product": "chocolate (no value given)",
+      "value": null,
+      "unit": "",
+      "status": "cited",
+      "locator": "Section 1 p.2"
+    },
+    {
+      "jurisdiction": "AU/NZ; ID; RU",
+      "instrument": "FSANZ Standard 1.4.1; Indonesian National Standard; SanPin 2.3.2-1078-01",
+      "analyte": "Cd",
+      "product": "chocolate (no values given)",
+      "value": null,
+      "unit": "",
+      "status": "cited",
+      "locator": "Section 1 p.2"
+    }
+  ],
+  "contradictions_with_stored_summary": [
+    "Summary reports 'irrigation water Cd ... Las Lomas 2.80 ± 0.82 mg/m3 (soil Cd sites), 7.12 ± 2.70 mg/m3 (bean Cd sites)'; primary: 2.80 ± 0.82 and 7.12 ± 2.70 mg/kg are soil and bean Cd at Las Lomas; irrigation water was 0.315 ± 0.267 ug/L (Las Lomas) and 0.085 ± 0.108 ug/L (La Quemazon). Summary also omits La Quemazon bean Cd 0.72 ± 0.36 mg/kg.",
+    "Summary says 'Farm-level bean analysis: SENASA'; primary: SENASA analysed tree-level beans (LOQ 0.047), SGS analysed farm-level composites (LOD 0.01, LOQ 0.03).",
+    "Summary lists aqua regia digestion alongside bean method; aqua regia was for soil; beans were HNO3/H2O2.",
+    "Summary says '100-150 farms targeted per region'; primary says 100-150 cacao trees per region.",
+    "Summary states 'EU regulatory thresholds for cacao: 0.6 mg/kg (cacao powder), 0.8 mg/kg (cacao beans) per EC 488/2014'; primary does not state this; it cites 0.6 mg/kg as an unofficial importer threshold and says limits range 0.3-0.8 mg/kg depending on product.",
+    "Summary gives sample_n 2194 (trees); bean data points were 2018 (1534 tree-level + 484 composites); 2194 trees were selected/sampled.",
+    "Summary says '<20% of farms nationally affected'; the Results give 16-45% of households (0.8 vs 0.5 mg/kg thresholds); the <20% figure appears only in the abstract/highlights.",
+    "Summary says regional block CV R2 0.36-0.87; primary: regional R2 ranged 0.36-0.87 for soil and 0.22-0.85 for bean models.",
+    "Summary says Las Lomas irrigation Cd highest in 'dry season'; primary says June-October (Las Lomas) and May-June (La Quemazon)."
+  ],
+  "unresolved": [
+    "Measured bean Cd summaries by department/region (means, medians, ranges, n) are not printed in the main text; Supplementary material (Figs S1-S27, Suppl. 1) was not available in the library and the authors state they cannot share data.",
+    "Fig. 8 department proportions are model predictions shown only graphically; not transcribed as numbers.",
+    "n of trees/farms behind the Las Lomas and La Quemazon means not reported.",
+    "Internal inconsistency: abstract says <20% of households nationally impacted; Results say 16-45% depending on threshold.",
+    "Whether the 70 C oven-dried beans (~7% moisture) are reported on a dry-weight or as-dried basis is not stated."
+  ]
+}

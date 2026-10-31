@@ -1,0 +1,31 @@
+{
+  "source_id": "hernandez-montoya2026-heavy-metals-foods-review",
+  "primary_artifact": "/Volumes/HMI-Library/heavy-metal-index-raw/Manual Fetch Kimi /condiment_papers/05_PB_Vanilla_Spices/Heavy Metal Contamination in Foods_ A Review.pdf",
+  "primary_sha256": "70522a80500041ab0054109f0986b3ac7996e5db4d95d0f61a0207be8b1e165c",
+  "text_copy": "data/evidence/contracts/most-studied-rollout-2026-10-22/cocoa/primary/hernandez-montoya2026-heavy-metals-foods-review.txt",
+  "disposition": "context_only",
+  "disposition_reason": "General review of heavy metals in foods; cocoa appears only in Table 1 of maximum limits, listing Cd in chocolate (>50% cocoa) 0.80 mg/kg and chocolate (>70% cocoa) 0.90 mg/kg, both attributed to EU 1881/2006. Secondary regulatory summary; no cocoa occurrence data.",
+  "disposition_locator": "PDF p.8, Table 1 (Maximum permissible limits ... Codex CXS 193-1995 Rev. 2024, EC 1881/2006, EU 2023/915), Cadmium rows",
+  "study": {
+    "design": "review",
+    "material_scope": "general foods; cocoa only in a limits table",
+    "growing_origin_vs_market": null,
+    "collection_period": null,
+    "n_total": null,
+    "sampling_unit": null,
+    "method": null,
+    "lod_loq": null,
+    "basis": null,
+    "qa": null
+  },
+  "findings": [],
+  "sample_values": [],
+  "controls": [],
+  "regulatory": [],
+  "contradictions_with_stored_summary": [
+    "Table 1 attributes Cd 0.80 mg/kg (>50% cocoa) and 0.90 mg/kg (>70% cocoa) chocolate limits to EU 1881/2006; the 0.8/0.9 split by >=50-<70% and >=70% total cocoa solids matches Codex CXS 193 wording, whereas EU 1881/2006 (as amended by 488/2014) and EU 2023/915 set 0.80 mg/kg for chocolate with >=50% total dry cocoa solids and no 0.90 category. Not used as a regulatory source; verify against the instruments directly."
+  ],
+  "unresolved": [
+    "Secondary limits table with apparent attribution error; not recorded as a regulatory row."
+  ]
+}

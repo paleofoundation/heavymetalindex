@@ -1,0 +1,30 @@
+{
+ "source_id": "kasozi2021-soroti-beef-multivariate-preprint",
+ "primary_artifact": "/Users/kmfp/papers-for-claude/hmi-thin/batch-05/pdfs/vegetable-beef-soup__Kasozi2023__10.1016_j.toxrep.2023.03.004.pdf",
+ "primary_sha256": "f8333181764d2064de8edf5a4b66d5a4bda36e55a2d86e868d8826baf4ae59d5",
+ "disposition": "context",
+ "disposition_reason": "This preprint is part two of a two-part study and reprints the same 40 Soroti beef samples already extracted from kasozi2021-uganda-beef-metals (same eight metals; Cu range 0.7-3.6 ppm matches). Marked context so the data count once.",
+ "disposition_locator": "Section 1 (p. 3) and Table 1 (pp. 5-6)",
+ "study": {
+  "design": "Multivariate (PCA, cluster) and ILCR analysis of an existing beef dataset",
+  "origin": "Soroti District, Uganda",
+  "market": "local supplies, Soroti District",
+  "period_text": "",
+  "method": "1 g wet tissue digested with HNO3/HClO4, made up to 50 mL; flame AAS (PerkinElmer 2380)",
+  "lod_text": "not stated",
+  "basis": "fresh",
+  "qa": "Blank and laboratory control samples; no CRM or recoveries reported",
+  "site_context": "market"
+ },
+ "findings": [],
+ "sample_values": [],
+ "controls": [],
+ "regulatory_or_exposure": [],
+ "unresolved": [
+  "Per-sample values in Table 1 duplicate the dataset of Kasozi et al. 2021 (Frontiers in Nutrition, 10.3389/fnut.2021.592340), extracted under kasozi2021-uganda-beef-metals; not re-extracted.",
+  "The filed PDF is the Research Square preprint (posted 1 March 2021, DOI 10.21203/rs.3.rs-289141/v1), not the Toxicology Reports version of record (10.1016/j.toxrep.2023.03.004) named in the manifest."
+ ],
+ "source_record_corrections": [
+  "Printed DOI is 10.21203/rs.3.rs-289141/v1 (Research Square preprint); manifest DOI 10.1016/j.toxrep.2023.03.004 is the later version of record, which was not filed."
+ ]
+}

@@ -1,6 +1,8 @@
 ---
+hmtc_subcategory_name: "Baby cereals / grain products (dry)"
+hmtc_category_name: "Infant and Child Foods"
 type: product-category
-category: infant-rice-cereal
+category: baby-cereals-dry
 title: "Infant Rice Cereal"
 dek: "Rice based cereals for infants are covered alongside related dry cereal and rice cereal ingredient pages. This page describes the scope and interpretation of the literature record."
 typical_ingredients: []
@@ -18,8 +20,8 @@ created_routed_sources: 2
 provisional_scaffold: true
 provisional_created: 2026-05-20
 provisional_reason: "autonomy loop: 2 source(s) declared products:[infant-rice-cereal] with no existing page"
-hmtc_category: pending_taxonomy_review
-hmtc_row: pending_taxonomy_review
+hmtc_category: 1
+hmtc_row: 3
 governance_status: "Provisional scaffold. Sources route here; HMTc category, within-row clean/dirty splits, platform classification, and certification thresholds do not derive from this page until a Step 0 Lock is authored."
 hero_image: /static/heroes/arsenic-rice-water-soil.webp
 hero_image_alt: "Uncooked rice in a shallow ceramic dish, scattered rice grains, a clear glass of water and dark soil illustrating infant rice cereal product-format context."
@@ -94,32 +96,74 @@ This page reports what the peer-reviewed and government literature says about he
 
 No row-specific public recall or enforcement synthesis has been promoted for Infant Rice Cereal in this pass. Regulatory references on this page should be read as context unless a source ties an event to this exact product scope and analyte. Future enforcement prose should remain event-framed and should not convert source mentions into brand rankings.
 
+<!-- BEGIN: hmi-page-references -->
+## References
+
+Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to a source record with bibliographic details, reported findings, and document provenance.
+
+1. [[sources/cheng2023-cadmium-rice-cultivars-root-microbiome|Metagenomic and machine learning-aided identification of biomarkers driving distinctive Cd accumulation features in the root-associated microbiome of two rice cultivars]]<span class="hmi-ref-meta">Cheng Z, Zheng Q, Shi J, He Y, Yang X, Huang X, et al. · ISME Communications · 2023 · [doi.org/10.1038/s43705-023-00213-z](https://doi.org/10.1038/s43705-023-00213-z)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+2. [[sources/coryell2019-gut-microbiome-arsenic-toxicity|The Human Gut Microbiome's Influence on Arsenic Toxicity]]<span class="hmi-ref-meta">Michael Coryell, Barbara A. Roggenbeck, and Seth T. Walk · Current Pharmacology Reports, Vol. 5, No. 6, pp. 491-504 · 2019 · [doi.org/10.1007/s40495-019-00206-4](https://doi.org/10.1007/s40495-019-00206-4)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+3. [[sources/cot2013-uk-aluminium-infant-diet|Statement on the potential risks from aluminium in the infant diet]]<span class="hmi-ref-meta">UK Committee on Toxicity of Chemicals in Food, Consumer Products and the Environment · Committee on Toxicity (COT), Statement 2013/01, June 2013 · 2013 · [cot.food.gov.uk](https://cot.food.gov.uk/sites/default/files/cot/cotstaalu.pdf)</span><span class="hmi-ref-tag">Government</span>
+4. [[sources/fda-tds-elements-2018-2020|Total Diet Study Report: Fiscal Years 2018-2020 Elements Data]]<span class="hmi-ref-meta">U.S. Food and Drug Administration · 2022 · [www.fda.gov](https://www.fda.gov/food/fda-total-diet-study-tds/fda-total-diet-study-tds-results)</span><span class="hmi-ref-tag">Government</span>
+5. [[sources/fda2016-arsenic-rice-cereal-analytic-results|Analytical Results: Inorganic Arsenic in Infant/Toddler Foods (2016)]]<span class="hmi-ref-meta">US Food and Drug Administration · 2016 · [www.fda.gov](https://www.fda.gov/food/risk-and-safety-assessments-food/arsenic-rice-and-rice-products-risk-assessment)</span><span class="hmi-ref-tag">Dataset</span>
+6. [[sources/fda2016-infant-toddler-foods-inorganic-arsenic|Analytical Results from Inorganic Arsenic in Rice Cereals for Infants, Non-Rice Infant Cereal and Other Foods Commonly Eaten by Infants and Toddlers]]<span class="hmi-ref-meta">U.S. Food and Drug Administration · 2016 · [www.fda.gov](https://www.fda.gov/media/157605/download)</span><span class="hmi-ref-tag">Dataset</span>
+7. [[sources/fda2018-iAs-infant-rice-cereals-fy2018|Fiscal Year 2018 Arsenic in Infant Rice Cereals Assignment Data]]<span class="hmi-ref-meta">FDA · U.S. Food and Drug Administration · 2018 · [www.fda.gov](https://www.fda.gov/media/135552/download)</span><span class="hmi-ref-tag">Government</span>
+8. [[sources/fda2022-tds-elements-fy2018-fy2020|FY2018-FY2020 TDS Elements Analytical Results]]<span class="hmi-ref-meta">U.S. Food and Drug Administration · FDA Total Diet Study · 2022 · [www.fda.gov](https://www.fda.gov/food/fda-total-diet-study-tds/fda-total-diet-study-tds-results)</span><span class="hmi-ref-tag">Dataset</span>
+9. [[sources/hoen2018-infant-arsenic-gut-microbiome|Sex-specific associations of infants' gut microbiome with arsenic exposure]]<span class="hmi-ref-meta">Anne G. Hoen, Juliette C. Madan, Zhigang Li, Modupe Coker, Sara N. Lundgren, Hilary G. Morrison, et al. · Scientific Reports · 2018 · [doi.org/10.1038/s41598-018-30581-9](https://doi.org/10.1038/s41598-018-30581-9)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+10. [[sources/lu-2014-arsenic-gut-microbiome-metabolomics|Arsenic Exposure Perturbs the Gut Microbiome and Its Metabolic Profile in Mice: An Integrated Metagenomics and Metabolomics Analysis]]<span class="hmi-ref-meta">Kun Lu, Ryan Phillip Abo, Katherine Ann Schlieper, Michelle E. Graffam, Stuart Levine, John S. Wishnok, et al. · Environmental Health Perspectives · 2014 · [doi.org/10.1289/ehp.1307429](https://doi.org/10.1289/ehp.1307429)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+11. [[sources/meharg2008-rice-arsenic-literature-review|Levels of arsenic in rice - literature review]]<span class="hmi-ref-meta">A.A. Meharg, Eureka Adomaco, Youssef Lawgali, Claire Deacon, and Paul Williams · Food Standards Agency contract C101045 · 2008</span><span class="hmi-ref-tag">Government</span>
+12. [[sources/mielech2021-contamination-food-infants-toddlers|Assessment of the Risk of Contamination of Food for Infants and Toddlers]]<span class="hmi-ref-meta">Anita Mielech, Anna Puścion-Jakubik, and Katarzyna Socha · Nutrients · 2021 · [doi.org/10.3390/nu13072358](https://doi.org/10.3390/nu13072358)</span><span class="hmi-ref-tag">Review</span>
+13. [[sources/shi2020-rice-based-infant-food-cadmium-arsenic|Avoiding Rice-Based Cadmium and Inorganic Arsenic in Infant Diets Through Selection of Products Low in Concentration of These Contaminants]]<span class="hmi-ref-meta">Shi Z, Carey M, Davidson E, Meharg C, and Meharg AA · Exposure and Health 13:229-235 · 2020 · [doi.org/10.1007/s12403-020-00376-3](https://doi.org/10.1007/s12403-020-00376-3)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+14. [[sources/signes-pastor2017-infant-arsenic-rice-weaning|Levels of infants' urinary arsenic metabolites related to formula feeding and weaning with rice products exceeding the EU inorganic arsenic standard]]<span class="hmi-ref-meta">Antonio J. Signes-Pastor, Jayne V. Woodside, Paul McMullan, Karen Mullan, Manus Carey, Margaret R. Karagas, et al. · PLOS ONE · 2017 · [doi.org/10.1371/journal.pone.0176923](https://doi.org/10.1371/journal.pone.0176923)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+15. [[sources/signes-pastor2022-infant-elements-nhbcs|Dietary Exposure to Essential and Non-essential Elements During Infants' First Year of Life in the New Hampshire Birth Cohort Study]]<span class="hmi-ref-meta">Antonio J. Signes-Pastor, Vicki Sayarath, Brian Jackson, Kathryn L. Cottingham, Tracy Punshon, and Margaret R. Karagas · Exposure and Health · 2022 · [doi.org/10.1007/s12403-022-00489-x](https://doi.org/10.1007/s12403-022-00489-x)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+<!-- END: hmi-page-references -->
+
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-<p class="hmi-table-note">Sources catalogued for this page. The last column says how each source is used here.</p>
+<p class="hmi-table-note">Source records associated with this topic. Inclusion does not establish that every finding applies to this product or ingredient. References above identify works cited in the text.</p>
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
 | 1 | [[sources/vincevica-gaile2024-libya-infant-toddler-food-arsenic\|Vincevica-Gaile et al. 2024]]. *Total Concentration of Arsenic in Commercial Infant/Toddler Food: A Preliminary Study in Libya*, BIO Web of Conferences | 2024 | Peer-reviewed | LY tAs occurrence in Commercial infant/toddler foods purchased in supermarkets in Sabha, Tripoli, and Benghazi, Libya. (n=36) |
-| 2 | [[sources/efsa2021-chronic-exposure-iAs\|EFSA 2021]]. *Chronic dietary exposure to inorganic arsenic*, EFSA Journal | 2021 | Government report | EU iAs, tAs occurrence in 13,608 analytical results on inorganic arsenic in food and drinking water (7,623 drinking water; 5,985 food) submitted to... (n=13608) |
-| 3 | [[sources/lodhi2021-methyl-inorganic-mercury-infant-formula\|Lodhi et al. 2021]]. *Evaluation of the Methyl and Inorganic Mercury in Infant Formula Milk and Cereals Samples: Estimated Risk Assessment in Children under 2.0 Years*, ACS Food Science & Technology | 2021 | Peer-reviewed | PK tHg, MeHg occurrence in 20 infant formula milk samples (starting, follow-on, grown-up) and 10 baby cereal samples purchased in Hyderabad, Pakistan (n=30) |
-| 4 | [[sources/shi2020-rice-based-infant-food-cadmium-arsenic\|Shi et al. 2020]]. *Avoiding Rice-Based Cadmium and Inorganic Arsenic in Infant Diets Through Selection of Products Low in Concentration of These Contaminants*, Exposure and Health 13:229-235 | 2020 | Peer-reviewed | UK/EU Cd, iAs occurrence in Rice-based products available on the UK market, including products labeled for infants and generic rice products that infants... (n=Rice-based baby foods, generic rice crackers/cakes/cereals, and UK-purchased polished rice by origin; exact per-category n is figure/table dependent.) |
-| 5 | [[sources/shi2020-rice-grain-cadmium-global-supply-chain\|Shi et al. 2020]]. *Rice Grain Cadmium Concentrations in the Global Supply-Chain*, Exposure and Health 12:869-876 | 2020 | Peer-reviewed | GLOBAL Cd occurrence in Global polished white market-rice supply-chain samples purchased from retailers across 32 countries on six continents; country-level n and... (n=2270) |
-| 6 | [[sources/unknown2016-risk-arsenic-rice-cereal\|Shibata et al. 2016]]. *Risk Assessment of Arsenic in Rice Cereal and Other Dietary Sources for Infants and Toddlers in the U.S.*, International Journal of Environmental Research and Public Health | 2016 | Peer reviewed journal | Cited reference from International Journal of Environmental Research and Public Health |
-| 7 | [[sources/fda2013-ias-rice-products-sampling\|FDA 2013]]. *Analytical Results from Inorganic Arsenic in Rice and Rice Products Sampling, September 2013*, U.S. Food and Drug Administration | 2013 | Regulation | US iAs, tAs concentrations (n=1300) |
+| 2 | [[sources/lodhi2021-methyl-inorganic-mercury-infant-formula\|Lodhi et al. 2021]]. *Evaluation of the Methyl and Inorganic Mercury in Infant Formula Milk and Cereals Samples: Estimated Risk Assessment in Children under 2.0 Years*, ACS Food Science & Technology | 2021 | Peer-reviewed | PK tHg, MeHg occurrence in 20 infant formula milk samples (starting, follow-on, grown-up) and 10 baby cereal samples purchased in Hyderabad, Pakistan (n=30) |
+| 3 | [[sources/shi2020-rice-based-infant-food-cadmium-arsenic\|Shi et al. 2020]]. *Avoiding Rice-Based Cadmium and Inorganic Arsenic in Infant Diets Through Selection of Products Low in Concentration of These Contaminants*, Exposure and Health 13:229-235 | 2020 | Peer-reviewed | UK/EU Cd, iAs occurrence in Rice-based products available on the UK market, including products labeled for infants and generic rice products that infants... (n=Rice-based baby foods, generic rice crackers/cakes/cereals, and UK-purchased polished rice by origin; exact per-category n is figure/table dependent.) |
+| 4 | [[sources/shi2020-rice-grain-cadmium-global-supply-chain\|Shi et al. 2020]]. *Rice Grain Cadmium Concentrations in the Global Supply-Chain*, Exposure and Health 12:869-876 | 2020 | Peer-reviewed | GLOBAL Cd occurrence in Global polished white market-rice supply-chain samples purchased from retailers across 32 countries on six continents; country-level n and... (n=2270) |
+| 5 | [[sources/guillod-magnin2018-swiss-toddler-rice-arsenic-species\|Guillod-Magnin et al. 2018]]. *Arsenic species in rice and rice-based products consumed by toddlers in Switzerland*, Food Additives & Contaminants: Part A, 35(6): 1164-1178 | 2018 | Peer-reviewed | Contribution to this topic remains under review; see the source record for its reported scope. |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [c6879c777](https://github.com/paleofoundation/heavymetalindex/commit/c6879c777) | 2026-10-28 | major | 16 sources added; 1 section added; narrative text revised |
+| [ae8831bcc](https://github.com/paleofoundation/heavymetalindex/commit/ae8831bcc) | 2026-10-15 | major | 1 section added; narrative text revised |
+| [3aa5aa523](https://github.com/paleofoundation/heavymetalindex/commit/3aa5aa523) | 2026-09-28 | correction | Narrative text revised |
 | [ad172bca7](https://github.com/paleofoundation/heavymetalindex/commit/ad172bca7) | 2026-08-09 | correction | Narrative text revised |
 | [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | minor | Narrative text revised |
-| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
-| [91c7d5591](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591) | 2026-08-02 | minor | Narrative text revised |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 <!-- END: hmi-page-history -->
+
+## Measurements filed from the retired ingredient page
+
+These sources were cited on the ingredient record before that record was retired.
+
+- [[sources/cheng2023-cadmium-rice-cultivars-root-microbiome]]
+- [[sources/coryell2019-gut-microbiome-arsenic-toxicity]]
+- [[sources/cot2013-uk-aluminium-infant-diet\]]
+- [[sources/fda-tds-elements-2018-2020\]]
+- [[sources/fda2016-arsenic-rice-cereal-analytic-results]]
+- [[sources/fda2016-infant-toddler-foods-inorganic-arsenic\]]
+- [[sources/fda2018-iAs-infant-rice-cereals-fy2018]]
+- [[sources/fda2022-tds-elements-fy2018-fy2020]]
+- [[sources/fda2022-tds-elements-fy2018-fy2020\]]
+- [[sources/hoen2018-infant-arsenic-gut-microbiome]]
+- [[sources/lu-2014-arsenic-gut-microbiome-metabolomics]]
+- [[sources/meharg2008-rice-arsenic-literature-review\]]
+- [[sources/mielech2021-contamination-food-infants-toddlers\]]
+- [[sources/shi2020-rice-based-infant-food-cadmium-arsenic]]
+- [[sources/signes-pastor2017-infant-arsenic-rice-weaning\]]
+- [[sources/signes-pastor2022-infant-elements-nhbcs\]]
+- [[sources/trace2025-trace-element-intake-dairy-free]]

@@ -1,0 +1,16 @@
+import crypto from 'node:crypto';import fs from 'node:fs';import path from 'node:path';import os from 'node:os';import {execFileSync} from 'node:child_process';
+import {root,audit,candidatePath,synthesisPath,buildIngredient} from './build.mjs';import {collectPreviewContext,copyPreviewAssets,verifyPreviewContext} from '../../pilot/preview-context.mjs';
+buildIngredient({check:true});const staging=fs.mkdtempSync(path.join(os.tmpdir(),'hmi-fish-paired-'));const output=path.join(root,audit,'preview');
+const s=JSON.parse(fs.readFileSync(path.join(root,synthesisPath),'utf8')),rice=JSON.parse(fs.readFileSync(path.join(root,'data/evidence/syntheses/pilot-rice-v1.json'),'utf8'));
+const pages=['wiki/ingredients/fish.md','wiki/ingredients/rice.md'];const texts=[fs.readFileSync(path.join(root,candidatePath),'utf8'),fs.readFileSync(path.join(root,pages[1]),'utf8')];
+const sources=[...new Set(texts.flatMap(t=>[...t.matchAll(/\[\[sources\/([^|\\\]]+)/g)].map(m=>`wiki/sources/${m[1]}.md`)))].filter(f=>fs.existsSync(path.join(root,f)));
+try{const coverage=collectPreviewContext({base:root,pages,syntheses:[s,rice],sources,maxContextPages:110,extraTargets:['authors/karen-pendergrass','sources/index']});coverage.scope='Paired Fish candidate and current canonical Rice. No shared files, registrations or source records written.';
+const files=[...pages,...sources,...coverage.context_pages.map(x=>x.path)];for(const file of files){const dest=path.join(staging,file.replace(/^wiki\//,''));fs.mkdirSync(path.dirname(dest),{recursive:true});fs.copyFileSync(path.join(root,file===pages[0]?candidatePath:file),dest);}
+const hash=f=>crypto.createHash('sha256').update(fs.readFileSync(path.join(root,f))).digest('hex');
+const walk=d=>fs.readdirSync(path.join(root,d),{withFileTypes:true}).flatMap(e=>e.isDirectory()?walk(path.join(d,e.name)):[path.join(d,e.name)]);
+const inputFiles=[...new Set([candidatePath,synthesisPath,`${audit}/occurrence-findings.json`,`${audit}/mitigation-records.json`,'data/design/page-hero-images.json','quartz.config.ts','quartz.layout.ts',...files.filter(f=>f!==pages[0]),...walk('quartz').filter(f=>/\.(?:ts|tsx|scss)$/.test(f)),...walk('tools/contracts/pilot').filter(f=>f.endsWith('.mjs')),'tools/lib/occurrence-comparison.mjs'])].sort();
+const inputHashes=Object.fromEntries(inputFiles.map(f=>[f,hash(f)]));
+copyPreviewAssets({base:root,staging,outerPreview:output,files:files.filter(f=>f!==pages[0]),manifest:coverage});
+fs.writeFileSync(path.join(staging,'index.md'),'---\ntitle: Fish and Rice local comparison\n---\n# Fish and Rice\n\n[[ingredients/fish]] · [[ingredients/rice]]\n');
+execFileSync(process.execPath,[path.join(root,'quartz/bootstrap-cli.mjs'),'build','-d',staging,'-o',output,'--concurrency','1'],{cwd:root,stdio:'inherit'});verifyPreviewContext(output,coverage);for(const [f,h]of Object.entries(inputHashes))if(hash(f)!==h)throw Error('Preview input changed during build: '+f);fs.writeFileSync(path.join(root,audit,'targeted-correction/preview-inputs.json'),JSON.stringify({candidate_sha256:inputHashes[candidatePath],inputs:inputHashes},null,2)+'\n');fs.writeFileSync(path.join(root,audit,'preview-coverage.json'),JSON.stringify(coverage,null,2)+'\n');console.log(output);
+}finally{fs.rmSync(staging,{recursive:true,force:true});}

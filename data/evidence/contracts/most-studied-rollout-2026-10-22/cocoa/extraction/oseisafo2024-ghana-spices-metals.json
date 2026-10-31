@@ -1,0 +1,29 @@
+{
+  "source_id": "oseisafo2024-ghana-spices-metals",
+  "primary_artifact": "/Volumes/HMI-Library/heavy-metal-index-raw/markdown/FM_11527527/FM_11527527.md",
+  "primary_sha256": "32e27fae6efa87485eef0629768f3e3c093fb6d17eb08221bda347998d5329c1",
+  "text_copy": "data/evidence/contracts/most-studied-rollout-2026-10-22/cocoa/primary/oseisafo2024-ghana-spices-metals.txt",
+  "disposition": "out_of_scope",
+  "disposition_reason": "Survey of As, Pb, Cd, Fe, Zn in spices from Ghanaian markets. The only cocoa mention is use of a cocoa powder CRM (FAPAS 07340) for quality assurance; no cocoa samples were analysed.",
+  "disposition_locator": "Section 2.7 Quality Assurance; Table 4 (CRM recovery)",
+  "study": {
+    "design": "market survey (spices)",
+    "material_scope": "none (no cocoa material analysed)",
+    "growing_origin_vs_market": null,
+    "collection_period": null,
+    "n_total": null,
+    "sampling_unit": null,
+    "method": null,
+    "lod_loq": null,
+    "basis": null,
+    "qa": "CRM FAPAS 07340 cocoa powder used for recovery"
+  },
+  "findings": [],
+  "sample_values": [],
+  "controls": [],
+  "regulatory": [],
+  "contradictions_with_stored_summary": [],
+  "unresolved": [
+    "Table 4 CRM recovery values are not rendered in the markdown primary (caption only); stored summary states recoveries Pb 103%, As 108%, Cd 93.14% which could not be verified from the primary text copy. These are QA recoveries, not occurrence."
+  ]
+}

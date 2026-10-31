@@ -1,0 +1,169 @@
+{
+ "source_id": "grimaldi2017-prop65-chocolate-settlement-news",
+ "primary_artifact": "/Volumes/HMI-Library/heavy-metal-index-raw/Manual Fetch Kimi /June 3 Folder/Proposition 65 Settlement May Establish New Industry Standard For Lead And Cadmium In Chocolate _ Grimaldi Law Offices _ San Francisco.pdf",
+ "primary_sha256": "c525f2f6eb699ee7c1e35f5db121d2df1914198fc4e96efbe49e158c2f6c5276",
+ "text_copy": "AUDIT/primary/grimaldi2017-prop65-chocolate-settlement-news.txt",
+ "disposition": "exposure_or_regulatory_used",
+ "disposition_reason": "Four-page attorney commentary (30 Dec 2017) describing the proposed Prop 65 settlement between As You Sow and nine chocolate manufacturers. It contains no cocoa occurrence measurements; its only cocoa-relevant numbers are the cacao-percentage-tiered Pb and Cd warning triggers and drop-down levels (ppm), recorded here as regulatory rows.",
+ "disposition_locator": "article pp. 1-3 (settlement description and Pb/Cd trigger tables)",
+ "study": {
+  "design": "news / legal commentary",
+  "material_scope": "chocolate products by cacao percentage (regulatory triggers only)",
+  "growing_origin_vs_market": "California (Prop 65) market; no samples",
+  "collection_period": null,
+  "n_total": null,
+  "sampling_unit": null,
+  "method": null,
+  "lod_loq": null,
+  "basis": "trigger concentrations in ppm, basis not specified (product as sold implied)",
+  "qa": null
+ },
+ "findings": [],
+ "sample_values": [],
+ "controls": [
+  {
+   "control": "Industry-wide warning triggers tied to cacao percentage, with automatic drop-down levels and an expert committee to investigate sources and feasible reductions",
+   "stage": "regulation",
+   "evidence_kind": "context",
+   "design": "legal settlement (as described)",
+   "comparator": "none",
+   "outcome": "No measured outcome. Settlement 'creates incentives for settling defendants to regularly test for the presence of lead and cadmium'; committee to work on a consensus basis and set warning concentrations; maximum settlement payment $210,375 (large grinder/wholesaler with US sales >$500 million).",
+   "analytes": [
+    "Pb",
+    "Cd"
+   ],
+   "scale": "guidance",
+   "locator": "article pp. 1-3"
+  }
+ ],
+ "regulatory": [
+  {
+   "jurisdiction": "US-California",
+   "instrument": "Proposed Prop 65 settlement/consent judgment (As You Sow and nine chocolate manufacturers), as summarised in attorney commentary",
+   "analyte": "Pb",
+   "product": "chocolate products, cacao percentage Up to 65%",
+   "value": 0.1,
+   "unit": "ppm",
+   "status": "proposed Dec 2017; warnings required beginning one year after court approval (court review set for 14 Feb 2018)",
+   "locator": "article pp. 2-3, lead/cadmium tables"
+  },
+  {
+   "jurisdiction": "US-California",
+   "instrument": "Same settlement, automatic 'drop down' level",
+   "analyte": "Pb",
+   "product": "chocolate products, cacao percentage Up to 65%",
+   "value": 0.065,
+   "unit": "ppm",
+   "status": "applies beginning the 7th year after court approval unless the expert committee recommends otherwise",
+   "locator": "article pp. 2-3, lead/cadmium tables"
+  },
+  {
+   "jurisdiction": "US-California",
+   "instrument": "Proposed Prop 65 settlement/consent judgment (As You Sow and nine chocolate manufacturers), as summarised in attorney commentary",
+   "analyte": "Pb",
+   "product": "chocolate products, cacao percentage More than 65% and up to 95%",
+   "value": 0.15,
+   "unit": "ppm",
+   "status": "proposed Dec 2017; warnings required beginning one year after court approval (court review set for 14 Feb 2018)",
+   "locator": "article pp. 2-3, lead/cadmium tables"
+  },
+  {
+   "jurisdiction": "US-California",
+   "instrument": "Same settlement, automatic 'drop down' level",
+   "analyte": "Pb",
+   "product": "chocolate products, cacao percentage More than 65% and up to 95%",
+   "value": 0.1,
+   "unit": "ppm",
+   "status": "applies beginning the 7th year after court approval unless the expert committee recommends otherwise",
+   "locator": "article pp. 2-3, lead/cadmium tables"
+  },
+  {
+   "jurisdiction": "US-California",
+   "instrument": "Proposed Prop 65 settlement/consent judgment (As You Sow and nine chocolate manufacturers), as summarised in attorney commentary",
+   "analyte": "Pb",
+   "product": "chocolate products, cacao percentage More than 95%",
+   "value": 0.225,
+   "unit": "ppm",
+   "status": "proposed Dec 2017; warnings required beginning one year after court approval (court review set for 14 Feb 2018)",
+   "locator": "article pp. 2-3, lead/cadmium tables"
+  },
+  {
+   "jurisdiction": "US-California",
+   "instrument": "Same settlement, automatic 'drop down' level",
+   "analyte": "Pb",
+   "product": "chocolate products, cacao percentage More than 95%",
+   "value": 0.2,
+   "unit": "ppm",
+   "status": "applies beginning the 7th year after court approval unless the expert committee recommends otherwise",
+   "locator": "article pp. 2-3, lead/cadmium tables"
+  },
+  {
+   "jurisdiction": "US-California",
+   "instrument": "Proposed Prop 65 settlement/consent judgment (As You Sow and nine chocolate manufacturers), as summarised in attorney commentary",
+   "analyte": "Cd",
+   "product": "chocolate products, cacao percentage Up to 65%",
+   "value": 0.4,
+   "unit": "ppm",
+   "status": "proposed Dec 2017; warnings required beginning one year after court approval (court review set for 14 Feb 2018)",
+   "locator": "article pp. 2-3, lead/cadmium tables"
+  },
+  {
+   "jurisdiction": "US-California",
+   "instrument": "Same settlement, automatic 'drop down' level",
+   "analyte": "Cd",
+   "product": "chocolate products, cacao percentage Up to 65%",
+   "value": 0.32,
+   "unit": "ppm",
+   "status": "applies beginning the 7th year after court approval unless the expert committee recommends otherwise",
+   "locator": "article pp. 2-3, lead/cadmium tables"
+  },
+  {
+   "jurisdiction": "US-California",
+   "instrument": "Proposed Prop 65 settlement/consent judgment (As You Sow and nine chocolate manufacturers), as summarised in attorney commentary",
+   "analyte": "Cd",
+   "product": "chocolate products, cacao percentage More than 65% and up to 95%",
+   "value": 0.45,
+   "unit": "ppm",
+   "status": "proposed Dec 2017; warnings required beginning one year after court approval (court review set for 14 Feb 2018)",
+   "locator": "article pp. 2-3, lead/cadmium tables"
+  },
+  {
+   "jurisdiction": "US-California",
+   "instrument": "Same settlement, automatic 'drop down' level",
+   "analyte": "Cd",
+   "product": "chocolate products, cacao percentage More than 65% and up to 95%",
+   "value": 0.4,
+   "unit": "ppm",
+   "status": "applies beginning the 7th year after court approval unless the expert committee recommends otherwise",
+   "locator": "article pp. 2-3, lead/cadmium tables"
+  },
+  {
+   "jurisdiction": "US-California",
+   "instrument": "Proposed Prop 65 settlement/consent judgment (As You Sow and nine chocolate manufacturers), as summarised in attorney commentary",
+   "analyte": "Cd",
+   "product": "chocolate products, cacao percentage More than 95%",
+   "value": 0.96,
+   "unit": "ppm",
+   "status": "proposed Dec 2017; warnings required beginning one year after court approval (court review set for 14 Feb 2018)",
+   "locator": "article pp. 2-3, lead/cadmium tables"
+  },
+  {
+   "jurisdiction": "US-California",
+   "instrument": "Same settlement, automatic 'drop down' level",
+   "analyte": "Cd",
+   "product": "chocolate products, cacao percentage More than 95%",
+   "value": 0.8,
+   "unit": "ppm",
+   "status": "applies beginning the 7th year after court approval unless the expert committee recommends otherwise",
+   "locator": "article pp. 2-3, lead/cadmium tables"
+  }
+ ],
+ "contradictions_with_stored_summary": [
+  "Stored summary refers to the drop-down as a 'year-7' ladder; the article says levels are reduced 'beginning on the 7th year after the court approves the settlement', whereas the later Expert Committee report (AYS 2022) states the drop-down applies at the sixth anniversary of the Compliance Date (one year after entry); consistent in substance but the stored wording should cite the article's phrasing.",
+  "Stored summary says the article documents 'Expert Committee' operation details beyond the text; the article only states the committee works on a consensus basis, is funded by settling defendants and determines warning concentrations - no further details."
+ ],
+ "unresolved": [
+  "Article is secondary commentary on a proposed settlement; the entered Consent Judgment text (Feb 2018) was not read here. Trigger values match those quoted from the Consent Judgment in the AYS 2022 Expert Committee report (Attachment 3 s.2.3)."
+ ],
+ "notes": "Brand/company names of settling defendants appear in the article (public-record regulatory event); not reproduced in findings. No occurrence data."
+}

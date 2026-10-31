@@ -1,4 +1,9 @@
 ---
+retired: true
+noindex: true
+redirect_target: products/fruit-snacks
+retirement_date: 2026-10-25
+retirement_authority: "HMI-HELD-TRIAGE-1 (Elon PASS 25 Oct 2026 21:01): 301 to parent; findings stay in the store"
 title: "Fruit snack candy"
 dek: "Source observations describe metal testing in fruit snack candies, with concentrations and reporting limits retained for the sampled foods."
 rail_highlights:

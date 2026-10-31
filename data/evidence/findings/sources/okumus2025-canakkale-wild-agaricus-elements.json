@@ -1,0 +1,430 @@
+{
+ "source_id": "okumus2025-canakkale-wild-agaricus-elements",
+ "primary_artifact": "/Users/kmfp/papers-for-claude/hmi-thin/batch-04/pdfs/cream-of-mushroom-soup__Okumus2025__10.1186_s12870-025-06520-y.pdf",
+ "primary_sha256": "46c587a07c4a30cdf3aa304478cb1c38f4046a432fc84f62722d3ba8c45f5927",
+ "extracted_at": "2026-10-24",
+ "extractor": "engine-v1",
+ "disposition": "occurrence_extracted",
+ "disposition_reason": "Cadmium, lead, arsenic and mercury were measured by ICP-MS in three wild Agaricus mushroom species collected in Çanakkale, Turkey.",
+ "disposition_locator": "Table 5, p. 6",
+ "study": {
+  "design": "antioxidant and elemental impurity analysis of three wild Agaricus species, single collections",
+  "origin": "wild, Çanakkale province, Turkey",
+  "market": "not sold; wild-collected",
+  "period": {
+   "from": 2023,
+   "to": 2023,
+   "as_reported": "November-December 2023"
+  },
+  "method": "microwave HNO3/H2O2 digestion (Ethos Easy); Cd, Pb, As, Hg by ICP-MS per USP <232>/<233>",
+  "lod": [
+   "LOD Cd 0.01, Pb 0.03, As 0.01, Hg 0.03 µg/kg (calibration standards; Table 4, p. 6)"
+  ],
+  "basis": "dry",
+  "qa": "triplicate analyses; calibration R2 ≥ 0.9997; no CRM or recovery reported",
+  "site_context": "ordinary"
+ },
+ "findings": [
+  {
+   "id": "okumus2025-canakkale-wild-agaricus-elements:Cd:wild-mushroom-agaricus-bernardii-fruit-body-canakk:mean",
+   "material": {
+    "label_as_printed": "Wild mushroom (Agaricus bernardii), fruit body",
+    "page": "ingredients/wild-mushrooms",
+    "form": "dried",
+    "state": null,
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/wild-mushrooms"
+    ]
+   },
+   "analyte": "Cd",
+   "group": "Çanakkale, university campus meadow under Cupressus, collected 24 Nov 2023",
+   "group_kind": "site",
+   "n": 1,
+   "statistic": "mean",
+   "reported": "1972.38 ± 0.53 µg/kg",
+   "value_ugkg": 1972.38,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 0.53,
+   "unit_original": "µg/kg",
+   "basis": "dry",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 5, p. 6",
+   "integrity_flag": null,
+   "notes": "fruit bodies air-dried at 22 °C and milled (dry weight basis implied, not labelled); one collection per species; SD from triplicate analyses",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "okumus2025-canakkale-wild-agaricus-elements:Pb:wild-mushroom-agaricus-bernardii-fruit-body-canakk:mean",
+   "material": {
+    "label_as_printed": "Wild mushroom (Agaricus bernardii), fruit body",
+    "page": "ingredients/wild-mushrooms",
+    "form": "dried",
+    "state": null,
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/wild-mushrooms"
+    ]
+   },
+   "analyte": "Pb",
+   "group": "Çanakkale, university campus meadow under Cupressus, collected 24 Nov 2023",
+   "group_kind": "site",
+   "n": 1,
+   "statistic": "mean",
+   "reported": "2008.09 ± 4.25 µg/kg",
+   "value_ugkg": 2008.09,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 4.25,
+   "unit_original": "µg/kg",
+   "basis": "dry",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 5, p. 6",
+   "integrity_flag": null,
+   "notes": "fruit bodies air-dried at 22 °C and milled (dry weight basis implied, not labelled); one collection per species; SD from triplicate analyses",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "okumus2025-canakkale-wild-agaricus-elements:tAs:wild-mushroom-agaricus-bernardii-fruit-body-canakk:mean",
+   "material": {
+    "label_as_printed": "Wild mushroom (Agaricus bernardii), fruit body",
+    "page": "ingredients/wild-mushrooms",
+    "form": "dried",
+    "state": null,
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/wild-mushrooms"
+    ]
+   },
+   "analyte": "tAs",
+   "group": "Çanakkale, university campus meadow under Cupressus, collected 24 Nov 2023",
+   "group_kind": "site",
+   "n": 1,
+   "statistic": "mean",
+   "reported": "3092.53 ± 1.98 µg/kg",
+   "value_ugkg": 3092.53,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 1.98,
+   "unit_original": "µg/kg",
+   "basis": "dry",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 5, p. 6",
+   "integrity_flag": null,
+   "notes": "fruit bodies air-dried at 22 °C and milled (dry weight basis implied, not labelled); one collection per species; SD from triplicate analyses",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "okumus2025-canakkale-wild-agaricus-elements:tHg:wild-mushroom-agaricus-bernardii-fruit-body-canakk:mean",
+   "material": {
+    "label_as_printed": "Wild mushroom (Agaricus bernardii), fruit body",
+    "page": "ingredients/wild-mushrooms",
+    "form": "dried",
+    "state": null,
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/wild-mushrooms"
+    ]
+   },
+   "analyte": "tHg",
+   "group": "Çanakkale, university campus meadow under Cupressus, collected 24 Nov 2023",
+   "group_kind": "site",
+   "n": 1,
+   "statistic": "mean",
+   "reported": "250.09 ± 2.52 µg/kg",
+   "value_ugkg": 250.09,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 2.52,
+   "unit_original": "µg/kg",
+   "basis": "dry",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 5, p. 6",
+   "integrity_flag": null,
+   "notes": "fruit bodies air-dried at 22 °C and milled (dry weight basis implied, not labelled); one collection per species; SD from triplicate analyses",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "okumus2025-canakkale-wild-agaricus-elements:Cd:wild-mushroom-agaricus-cupreobrunneus-fruit-body-c:mean",
+   "material": {
+    "label_as_printed": "Wild mushroom (Agaricus cupreobrunneus), fruit body",
+    "page": "ingredients/wild-mushrooms",
+    "form": "dried",
+    "state": null,
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/wild-mushrooms"
+    ]
+   },
+   "analyte": "Cd",
+   "group": "Çanakkale, meadow between Orhaniye redoubt and Kumkale village, collected 21 Nov 2023",
+   "group_kind": "site",
+   "n": 1,
+   "statistic": "mean",
+   "reported": "1775.54 ± 1.37 µg/kg",
+   "value_ugkg": 1775.54,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 1.37,
+   "unit_original": "µg/kg",
+   "basis": "dry",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 5, p. 6",
+   "integrity_flag": null,
+   "notes": "fruit bodies air-dried at 22 °C and milled (dry weight basis implied, not labelled); one collection per species; SD from triplicate analyses",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "okumus2025-canakkale-wild-agaricus-elements:Pb:wild-mushroom-agaricus-cupreobrunneus-fruit-body-c:mean",
+   "material": {
+    "label_as_printed": "Wild mushroom (Agaricus cupreobrunneus), fruit body",
+    "page": "ingredients/wild-mushrooms",
+    "form": "dried",
+    "state": null,
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/wild-mushrooms"
+    ]
+   },
+   "analyte": "Pb",
+   "group": "Çanakkale, meadow between Orhaniye redoubt and Kumkale village, collected 21 Nov 2023",
+   "group_kind": "site",
+   "n": 1,
+   "statistic": "mean",
+   "reported": "2377.37 ± 2.56 µg/kg",
+   "value_ugkg": 2377.37,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 2.56,
+   "unit_original": "µg/kg",
+   "basis": "dry",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 5, p. 6",
+   "integrity_flag": null,
+   "notes": "fruit bodies air-dried at 22 °C and milled (dry weight basis implied, not labelled); one collection per species; SD from triplicate analyses",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "okumus2025-canakkale-wild-agaricus-elements:tAs:wild-mushroom-agaricus-cupreobrunneus-fruit-body-c:mean",
+   "material": {
+    "label_as_printed": "Wild mushroom (Agaricus cupreobrunneus), fruit body",
+    "page": "ingredients/wild-mushrooms",
+    "form": "dried",
+    "state": null,
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/wild-mushrooms"
+    ]
+   },
+   "analyte": "tAs",
+   "group": "Çanakkale, meadow between Orhaniye redoubt and Kumkale village, collected 21 Nov 2023",
+   "group_kind": "site",
+   "n": 1,
+   "statistic": "mean",
+   "reported": "1804.27 ± 0.76 µg/kg",
+   "value_ugkg": 1804.27,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 0.76,
+   "unit_original": "µg/kg",
+   "basis": "dry",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 5, p. 6",
+   "integrity_flag": null,
+   "notes": "fruit bodies air-dried at 22 °C and milled (dry weight basis implied, not labelled); one collection per species; SD from triplicate analyses",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "okumus2025-canakkale-wild-agaricus-elements:tHg:wild-mushroom-agaricus-cupreobrunneus-fruit-body-c:mean",
+   "material": {
+    "label_as_printed": "Wild mushroom (Agaricus cupreobrunneus), fruit body",
+    "page": "ingredients/wild-mushrooms",
+    "form": "dried",
+    "state": null,
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/wild-mushrooms"
+    ]
+   },
+   "analyte": "tHg",
+   "group": "Çanakkale, meadow between Orhaniye redoubt and Kumkale village, collected 21 Nov 2023",
+   "group_kind": "site",
+   "n": 1,
+   "statistic": "mean",
+   "reported": "576.53 ± 1.42 µg/kg",
+   "value_ugkg": 576.53,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 1.42,
+   "unit_original": "µg/kg",
+   "basis": "dry",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 5, p. 6",
+   "integrity_flag": null,
+   "notes": "fruit bodies air-dried at 22 °C and milled (dry weight basis implied, not labelled); one collection per species; SD from triplicate analyses",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "okumus2025-canakkale-wild-agaricus-elements:Cd:wild-mushroom-agaricus-bresadolanus-fruit-body-can:mean",
+   "material": {
+    "label_as_printed": "Wild mushroom (Agaricus bresadolanus), fruit body",
+    "page": "ingredients/wild-mushrooms",
+    "form": "dried",
+    "state": null,
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/wild-mushrooms"
+    ]
+   },
+   "analyte": "Cd",
+   "group": "Çanakkale, university campus garden meadow, collected 19 Dec 2023",
+   "group_kind": "site",
+   "n": 1,
+   "statistic": "mean",
+   "reported": "7521.61 ± 2.84 µg/kg",
+   "value_ugkg": 7521.61,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 2.84,
+   "unit_original": "µg/kg",
+   "basis": "dry",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 5, p. 6",
+   "integrity_flag": null,
+   "notes": "fruit bodies air-dried at 22 °C and milled (dry weight basis implied, not labelled); one collection per species; SD from triplicate analyses; this species is reported in the literature as toxic (paper cites a reference titled as such)",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "okumus2025-canakkale-wild-agaricus-elements:Pb:wild-mushroom-agaricus-bresadolanus-fruit-body-can:mean",
+   "material": {
+    "label_as_printed": "Wild mushroom (Agaricus bresadolanus), fruit body",
+    "page": "ingredients/wild-mushrooms",
+    "form": "dried",
+    "state": null,
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/wild-mushrooms"
+    ]
+   },
+   "analyte": "Pb",
+   "group": "Çanakkale, university campus garden meadow, collected 19 Dec 2023",
+   "group_kind": "site",
+   "n": 1,
+   "statistic": "mean",
+   "reported": "1176.87 ± 1.21 µg/kg",
+   "value_ugkg": 1176.87,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 1.21,
+   "unit_original": "µg/kg",
+   "basis": "dry",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 5, p. 6",
+   "integrity_flag": null,
+   "notes": "fruit bodies air-dried at 22 °C and milled (dry weight basis implied, not labelled); one collection per species; SD from triplicate analyses; this species is reported in the literature as toxic (paper cites a reference titled as such)",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "okumus2025-canakkale-wild-agaricus-elements:tAs:wild-mushroom-agaricus-bresadolanus-fruit-body-can:mean",
+   "material": {
+    "label_as_printed": "Wild mushroom (Agaricus bresadolanus), fruit body",
+    "page": "ingredients/wild-mushrooms",
+    "form": "dried",
+    "state": null,
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/wild-mushrooms"
+    ]
+   },
+   "analyte": "tAs",
+   "group": "Çanakkale, university campus garden meadow, collected 19 Dec 2023",
+   "group_kind": "site",
+   "n": 1,
+   "statistic": "mean",
+   "reported": "15201.26 ± 2.34 µg/kg",
+   "value_ugkg": 15201.26,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 2.34,
+   "unit_original": "µg/kg",
+   "basis": "dry",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 5, p. 6",
+   "integrity_flag": null,
+   "notes": "fruit bodies air-dried at 22 °C and milled (dry weight basis implied, not labelled); one collection per species; SD from triplicate analyses; this species is reported in the literature as toxic (paper cites a reference titled as such)",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "okumus2025-canakkale-wild-agaricus-elements:tHg:wild-mushroom-agaricus-bresadolanus-fruit-body-can:mean",
+   "material": {
+    "label_as_printed": "Wild mushroom (Agaricus bresadolanus), fruit body",
+    "page": "ingredients/wild-mushrooms",
+    "form": "dried",
+    "state": null,
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/wild-mushrooms"
+    ]
+   },
+   "analyte": "tHg",
+   "group": "Çanakkale, university campus garden meadow, collected 19 Dec 2023",
+   "group_kind": "site",
+   "n": 1,
+   "statistic": "mean",
+   "reported": "147.86 ± 3.24 µg/kg",
+   "value_ugkg": 147.86,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 3.24,
+   "unit_original": "µg/kg",
+   "basis": "dry",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 5, p. 6",
+   "integrity_flag": null,
+   "notes": "fruit bodies air-dried at 22 °C and milled (dry weight basis implied, not labelled); one collection per species; SD from triplicate analyses; this species is reported in the literature as toxic (paper cites a reference titled as such)",
+   "statistic_raw": "mean"
+  }
+ ],
+ "sample_values": [],
+ "controls": [],
+ "unresolved": [
+  "Discussion (p. 8) says samples were collected near the Central district of Bingöl, contradicting Methods (Çanakkale).",
+  "Abstract prints the As range as '15201.26–3092.53 µg/kg', omitting the A. cupreobrunneus value 1804.27.",
+  "Ingestion rate used for EDI not checked; sample size is one collection per species."
+ ],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [
+  {
+   "what": "FAO/WHO maximum levels cited for mushrooms",
+   "value": "Cd 0.20 mg/kg; Hg 0.05 mg/kg",
+   "locator": "Discussion, p. 8"
+  },
+  {
+   "what": "THQ, HI and cancer risk (adult 70 kg)",
+   "value": "HI 1.29, 0.98, 5.57; As THQ 4.78 in A. bresadolanus",
+   "locator": "Table 5"
+  }
+ ],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/okumus2025-canakkale-wild-agaricus-elements.md",
+ "non_numeric_findings": [],
+ "merged_unmatched": [],
+ "merged_snapshot": null,
+ "raw_output": "data/evidence/findings/extract/raw/okumus2025-canakkale-wild-agaricus-elements.json"
+}

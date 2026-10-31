@@ -1,7 +1,7 @@
 ---
 type: ingredient
 commodity: herbs-and-spices
-title: "Herbs And Spices"
+title: "Herbs and spices"
 dek: "Aromatic plant materials used for seasoning. Evidence covers metal occurrence, soil and deposition pathways, adulteration, drying, sourcing and regulatory guidance."
 rail_highlights:
   - label: Exposure
@@ -12,7 +12,7 @@ rail_highlights:
     text: New York derived health based guidance values for spices
     source: sources/nys-doh2019-metals-spices-guidance
     source_label: New York guidance
-label: "Herbs And Spices"
+label: "Herbs and spices"
 aliases: [seasonings, dried-herbs-and-spices]
 category: herb-spice
 contamination_profile:
@@ -110,8 +110,7 @@ quick_read:
 hero_image_alt: "Fresh leafy herbs and delicate dill sprigs beside dishes of dried herbs and slender brown spice seeds illustrating herbs and spices ingredient context."
 ---
 
-# Herbs And Spices
-
+# Herbs and spices
 <!-- BEGIN: hmi-opening -->
 <div class="hmi-quick-read">
   <div class="hmi-quick-read-label">Quick read</div>

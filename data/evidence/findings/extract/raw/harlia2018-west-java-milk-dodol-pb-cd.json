@@ -1,0 +1,132 @@
+{
+ "source_id": "harlia2018-west-java-milk-dodol-pb-cd",
+ "primary_artifact": "/Users/kmfp/papers-for-claude/hmi-thin/batch-07/pdfs/reduced-fat-milk__Harlia2018__10.1088_1755-1315_102_1_012050.pdf",
+ "primary_sha256": "646d045091528ce01ca6e6e395d043b1a0f59cd51faeb191b819b59a6dd091ca",
+ "disposition": "occurrence_extracted",
+ "disposition_reason": "The results text prints mean ± SD lead for fresh farm milk, street-vendor pasteurized milk and a home-made milk confection from West Java; cadmium results are figure-only.",
+ "disposition_locator": "Section 3, p. 2; Figures 1-2",
+ "study": {
+  "design": "Exploratory survey with multistage sampling, descriptive analysis",
+  "origin": "Pemulihan subdistrict, Sumedang (fresh milk); Pangalengan (confection), West Java, Indonesia",
+  "market": "street vendors in Bandung (pasteurized milk)",
+  "period_text": "",
+  "method": "Atomic absorption spectrophotometry (digestion not described)",
+  "lod_text": "not reported",
+  "basis": "as_sold",
+  "qa": "not reported",
+  "site_context": "ordinary"
+ },
+ "findings": [
+  {
+   "material_label": "Cow milk, fresh (raw, farm)",
+   "form": "liquid",
+   "state": null,
+   "analyte": "Pb",
+   "group": "30 dairy farmers, Pemulihan subdistrict, Sumedang",
+   "group_kind": "site",
+   "n": 30,
+   "statistic": "mean",
+   "reported": "0.5578±0,4308 (CV 77.23%)",
+   "value_ugkg": 557.8,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 430.8,
+   "unit_original": "ppm",
+   "basis": "fresh",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Results text, p. 2",
+   "integrity_flag": null,
+   "notes": "Unit not printed beside the mean; Figure 1 axis is ppm, the limit is stated in ppm, and the printed CV matches mean and SD, so ppm (mg/kg) is taken. Text says 83% contaminated and 53% above the 1.00 ppm limit; the abstract says 57%."
+  },
+  {
+   "material_label": "Cow milk, pasteurized (street vendors)",
+   "form": "liquid",
+   "state": "as_sold",
+   "analyte": "Pb",
+   "group": "3 street vendors, Bandung, 10 repetitions each",
+   "group_kind": "market",
+   "n": 30,
+   "statistic": "mean",
+   "reported": "0.0047±0.0027 (CV 57.45%)",
+   "value_ugkg": 4.7,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 2.7,
+   "unit_original": "ppm",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Results text, p. 2",
+   "integrity_flag": null,
+   "notes": "Unit not printed beside the mean; Figure 1 axis is ppm, the limit is stated in ppm, and the printed CV matches mean and SD, so ppm (mg/kg) is taken. Abstract: 67% of pasteurized samples contained lead, all below the limit."
+  },
+  {
+   "material_label": "Milk confection, toffee-like, home industry",
+   "form": "confection",
+   "state": "as_sold",
+   "analyte": "Pb",
+   "group": "3 home industries, Pangalengan, 10 repetitions each",
+   "group_kind": "site",
+   "n": 30,
+   "statistic": "mean",
+   "reported": "0.3173±0.2990 (CV 94.23%)",
+   "value_ugkg": 317.3,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 299.0,
+   "unit_original": "ppm",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Results text, p. 2",
+   "integrity_flag": null,
+   "notes": "Unit not printed beside the mean; Figure 1 axis is ppm, the limit is stated in ppm, and the printed CV matches mean and SD, so ppm (mg/kg) is taken. Printed product name is a regional milk confection (dodol milk); abstract says 60% contaminated with Pb and Cd above the limit. Basis of the confection value (fresh product) is not stated."
+  }
+ ],
+ "sample_values": [],
+ "controls": [
+  {
+   "control": "processing of milk (fresh vs pasteurized vs confection)",
+   "stage": "processing",
+   "evidence_kind": "observational",
+   "comparator": "fresh farm milk",
+   "outcome": "Pb mean 0.5578 ppm (fresh) vs 0.0047 ppm (pasteurized, different vendors) and 0.3173 ppm (confection, different producers); not paired samples",
+   "analytes": [
+    "Pb"
+   ],
+   "locator": "Section 3, p. 2"
+  },
+  {
+   "control": "milk container on farm (plastic bucket vs milk can)",
+   "stage": "farm",
+   "evidence_kind": "observational",
+   "comparator": "milk can",
+   "outcome": "Text says plastic-bucket milk had higher Pb; no numbers printed",
+   "analytes": [
+    "Pb"
+   ],
+   "locator": "Section 3, p. 2"
+  }
+ ],
+ "regulatory_or_exposure": [
+  {
+   "what": "Indonesian National Standard (INS 1998) lead limit for milk and dairy products",
+   "value": "below 1.00 ppm",
+   "locator": "Introduction, p. 2"
+  },
+  {
+   "what": "EPA (1985) cadmium limit used by the authors",
+   "value": "below 0.01 ppm",
+   "locator": "Introduction, p. 2"
+  }
+ ],
+ "unresolved": [
+  "Cadmium values exist only in Figure 2 (fresh milk mostly above 0.01 ppm, confection below); figure-only, not extracted.",
+  "Per-sample lead values exist only in Figure 1 (25 points for fresh/pasteurized, 18 for confection), which does not match n = 30 per product.",
+  "Abstract says 57% of fresh milk above the lead limit; text says 53%.",
+  "No collection dates, digestion method, LOD or quality control are reported.",
+  "Conference proceedings paper (ISFA 2017)."
+ ],
+ "source_record_corrections": []
+}

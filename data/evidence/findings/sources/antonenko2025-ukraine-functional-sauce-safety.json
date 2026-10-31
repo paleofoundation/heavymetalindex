@@ -1,0 +1,427 @@
+{
+ "source_id": "antonenko2025-ukraine-functional-sauce-safety",
+ "primary_artifact": "/Users/kmfp/papers-for-claude/hmi-thin/batch-08/pdfs/brown-gravy__Antonenko2025__10.31891_2307-5732-2025-355-109.pdf",
+ "primary_sha256": "e7b75d1270f9de6c65dd20c5351aabf309e4a076323ce04e72d77c149c48a867",
+ "extracted_at": "2026-10-24",
+ "extractor": "engine-v1",
+ "disposition": "occurrence_extracted",
+ "disposition_reason": "Table 2 prints Pb, Cu and Zn in two experimental and two control sauces; cadmium, arsenic and mercury are only described as absent.",
+ "disposition_locator": "Table 2, p. 762",
+ "study": {
+  "design": "product development study comparing two experimental sauces with traditional control sauces",
+  "origin": "laboratory-prepared sauces, Ukraine",
+  "market": "not purchased",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": ""
+  },
+  "method": "GOST 26932-86 (Pb), GOST 26933-86 (Cd), GOST 26930-86 (As), GOST 26927-86 (Hg), GOST 26931-86 (Cu), GOST 26934-86 (Zn); instrument not stated",
+  "lod": [
+   "not reported"
+  ],
+  "basis": "unknown",
+  "qa": "not reported",
+  "site_context": "experimental"
+ },
+ "findings": [
+  {
+   "id": "antonenko2025-ukraine-functional-sauce-safety:Pb:milk-sauce-control-traditional-recipe-control-milk:mean",
+   "material": {
+    "label_as_printed": "Milk sauce, control (traditional recipe)",
+    "page": "ingredients/milk-and-dairy",
+    "form": "cooked",
+    "state": "as_eaten",
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Pb",
+   "group": "control milk sauce",
+   "group_kind": "treatment",
+   "n": null,
+   "statistic": "mean",
+   "reported": "0.02 mg/kg",
+   "value_ugkg": 20,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 762",
+   "integrity_flag": null,
+   "notes": "Single value per sauce; number of samples and replicates not stated. Laboratory-prepared sauce; basis presumably wet weight but not stated.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "antonenko2025-ukraine-functional-sauce-safety:Cu:milk-sauce-control-traditional-recipe-control-milk:mean",
+   "material": {
+    "label_as_printed": "Milk sauce, control (traditional recipe)",
+    "page": "ingredients/milk-and-dairy",
+    "form": "cooked",
+    "state": "as_eaten",
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Cu",
+   "group": "control milk sauce",
+   "group_kind": "treatment",
+   "n": null,
+   "statistic": "mean",
+   "reported": "0.12 mg/kg",
+   "value_ugkg": 120,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 762",
+   "integrity_flag": null,
+   "notes": "Single value per sauce; number of samples and replicates not stated. Laboratory-prepared sauce; basis presumably wet weight but not stated.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "antonenko2025-ukraine-functional-sauce-safety:Zn:milk-sauce-control-traditional-recipe-control-milk:mean",
+   "material": {
+    "label_as_printed": "Milk sauce, control (traditional recipe)",
+    "page": "ingredients/milk-and-dairy",
+    "form": "cooked",
+    "state": "as_eaten",
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Zn",
+   "group": "control milk sauce",
+   "group_kind": "treatment",
+   "n": null,
+   "statistic": "mean",
+   "reported": "0.42 mg/kg",
+   "value_ugkg": 420,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 762",
+   "integrity_flag": null,
+   "notes": "Single value per sauce; number of samples and replicates not stated. Laboratory-prepared sauce; basis presumably wet weight but not stated.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "antonenko2025-ukraine-functional-sauce-safety:Pb:milk-sauce-with-pumpkin-and-carrot-puree-flour-rep:mean",
+   "material": {
+    "label_as_printed": "Milk sauce with pumpkin and carrot puree, flour replaced by polydextrose, gum arabic and protein-fat additive (experimental)",
+    "page": null,
+    "form": "cooked",
+    "state": "as_eaten",
+    "route_rule": "ambiguous",
+    "route_candidates": [
+     "ingredients/milk-and-dairy",
+     "ingredients/winter-squash",
+     "ingredients/carrot"
+    ]
+   },
+   "analyte": "Pb",
+   "group": "experimental milk-pumpkin sauce, composite mixture 15%",
+   "group_kind": "treatment",
+   "n": null,
+   "statistic": "mean",
+   "reported": "0.02 mg/kg",
+   "value_ugkg": 20,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 762",
+   "integrity_flag": null,
+   "notes": "Single value per sauce; number of samples and replicates not stated. Laboratory-prepared sauce; basis presumably wet weight but not stated.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "antonenko2025-ukraine-functional-sauce-safety:Cu:milk-sauce-with-pumpkin-and-carrot-puree-flour-rep:mean",
+   "material": {
+    "label_as_printed": "Milk sauce with pumpkin and carrot puree, flour replaced by polydextrose, gum arabic and protein-fat additive (experimental)",
+    "page": null,
+    "form": "cooked",
+    "state": "as_eaten",
+    "route_rule": "ambiguous",
+    "route_candidates": [
+     "ingredients/milk-and-dairy",
+     "ingredients/winter-squash",
+     "ingredients/carrot"
+    ]
+   },
+   "analyte": "Cu",
+   "group": "experimental milk-pumpkin sauce, composite mixture 15%",
+   "group_kind": "treatment",
+   "n": null,
+   "statistic": "mean",
+   "reported": "0.04 mg/kg",
+   "value_ugkg": 40,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 762",
+   "integrity_flag": null,
+   "notes": "Single value per sauce; number of samples and replicates not stated. Laboratory-prepared sauce; basis presumably wet weight but not stated.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "antonenko2025-ukraine-functional-sauce-safety:Zn:milk-sauce-with-pumpkin-and-carrot-puree-flour-rep:mean",
+   "material": {
+    "label_as_printed": "Milk sauce with pumpkin and carrot puree, flour replaced by polydextrose, gum arabic and protein-fat additive (experimental)",
+    "page": null,
+    "form": "cooked",
+    "state": "as_eaten",
+    "route_rule": "ambiguous",
+    "route_candidates": [
+     "ingredients/milk-and-dairy",
+     "ingredients/winter-squash",
+     "ingredients/carrot"
+    ]
+   },
+   "analyte": "Zn",
+   "group": "experimental milk-pumpkin sauce, composite mixture 15%",
+   "group_kind": "treatment",
+   "n": null,
+   "statistic": "mean",
+   "reported": "0.43 mg/kg",
+   "value_ugkg": 430,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 762",
+   "integrity_flag": null,
+   "notes": "Single value per sauce; number of samples and replicates not stated. Laboratory-prepared sauce; basis presumably wet weight but not stated.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "antonenko2025-ukraine-functional-sauce-safety:Pb:white-sauce-control-traditional-recipe-control-whi:mean",
+   "material": {
+    "label_as_printed": "White sauce, control (traditional recipe)",
+    "page": null,
+    "form": "cooked",
+    "state": "as_eaten",
+    "route_rule": "no_match"
+   },
+   "analyte": "Pb",
+   "group": "control white sauce",
+   "group_kind": "treatment",
+   "n": null,
+   "statistic": "mean",
+   "reported": "0.02 mg/kg",
+   "value_ugkg": 20,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 762",
+   "integrity_flag": null,
+   "notes": "Single value per sauce; number of samples and replicates not stated. Laboratory-prepared sauce; basis presumably wet weight but not stated.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "antonenko2025-ukraine-functional-sauce-safety:Cu:white-sauce-control-traditional-recipe-control-whi:mean",
+   "material": {
+    "label_as_printed": "White sauce, control (traditional recipe)",
+    "page": null,
+    "form": "cooked",
+    "state": "as_eaten",
+    "route_rule": "no_match"
+   },
+   "analyte": "Cu",
+   "group": "control white sauce",
+   "group_kind": "treatment",
+   "n": null,
+   "statistic": "mean",
+   "reported": "0.11 mg/kg",
+   "value_ugkg": 110,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 762",
+   "integrity_flag": null,
+   "notes": "Single value per sauce; number of samples and replicates not stated. Laboratory-prepared sauce; basis presumably wet weight but not stated.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "antonenko2025-ukraine-functional-sauce-safety:Zn:white-sauce-control-traditional-recipe-control-whi:mean",
+   "material": {
+    "label_as_printed": "White sauce, control (traditional recipe)",
+    "page": null,
+    "form": "cooked",
+    "state": "as_eaten",
+    "route_rule": "no_match"
+   },
+   "analyte": "Zn",
+   "group": "control white sauce",
+   "group_kind": "treatment",
+   "n": null,
+   "statistic": "mean",
+   "reported": "0.51 mg/kg",
+   "value_ugkg": 510,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 762",
+   "integrity_flag": null,
+   "notes": "Single value per sauce; number of samples and replicates not stated. Laboratory-prepared sauce; basis presumably wet weight but not stated.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "antonenko2025-ukraine-functional-sauce-safety:Pb:white-sauce-flour-replaced-by-polydextrose-gum-ara:mean",
+   "material": {
+    "label_as_printed": "White sauce, flour replaced by polydextrose, gum arabic and protein-fat additive (experimental)",
+    "page": null,
+    "form": "cooked",
+    "state": "as_eaten",
+    "route_rule": "composite"
+   },
+   "analyte": "Pb",
+   "group": "experimental white sauce, composite mixture 15%",
+   "group_kind": "treatment",
+   "n": null,
+   "statistic": "mean",
+   "reported": "0.02 mg/kg",
+   "value_ugkg": 20,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 762",
+   "integrity_flag": null,
+   "notes": "Single value per sauce; number of samples and replicates not stated. Laboratory-prepared sauce; basis presumably wet weight but not stated.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "antonenko2025-ukraine-functional-sauce-safety:Cu:white-sauce-flour-replaced-by-polydextrose-gum-ara:mean",
+   "material": {
+    "label_as_printed": "White sauce, flour replaced by polydextrose, gum arabic and protein-fat additive (experimental)",
+    "page": null,
+    "form": "cooked",
+    "state": "as_eaten",
+    "route_rule": "composite"
+   },
+   "analyte": "Cu",
+   "group": "experimental white sauce, composite mixture 15%",
+   "group_kind": "treatment",
+   "n": null,
+   "statistic": "mean",
+   "reported": "0.12 mg/kg",
+   "value_ugkg": 120,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 762",
+   "integrity_flag": null,
+   "notes": "Single value per sauce; number of samples and replicates not stated. Laboratory-prepared sauce; basis presumably wet weight but not stated.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "antonenko2025-ukraine-functional-sauce-safety:Zn:white-sauce-flour-replaced-by-polydextrose-gum-ara:mean",
+   "material": {
+    "label_as_printed": "White sauce, flour replaced by polydextrose, gum arabic and protein-fat additive (experimental)",
+    "page": null,
+    "form": "cooked",
+    "state": "as_eaten",
+    "route_rule": "composite"
+   },
+   "analyte": "Zn",
+   "group": "experimental white sauce, composite mixture 15%",
+   "group_kind": "treatment",
+   "n": null,
+   "statistic": "mean",
+   "reported": "0.51 mg/kg",
+   "value_ugkg": 510,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 762",
+   "integrity_flag": null,
+   "notes": "Single value per sauce; number of samples and replicates not stated. Laboratory-prepared sauce; basis presumably wet weight but not stated.",
+   "statistic_raw": "mean"
+  }
+ ],
+ "sample_values": [],
+ "controls": [
+  {
+   "control": "replacing wheat flour with a polydextrose, gum arabic and protein-fat composite mixture",
+   "stage": "processing",
+   "evidence_kind": "measured",
+   "comparator": "traditional milk and white sauces",
+   "outcome": "Pb 0.02 mg/kg in all four sauces; Cu 0.12 -> 0.04 mg/kg (milk) and 0.11 -> 0.12 mg/kg (white); Zn 0.42 -> 0.43 and 0.51 -> 0.51 mg/kg",
+   "analytes": [
+    "Pb",
+    "Cu",
+    "Zn"
+   ],
+   "locator": "Table 2, p. 762"
+  }
+ ],
+ "unresolved": [
+  "Text states cadmium, arsenic and mercury were 'absent' in control and test samples 'as per MPC standards' (p. 762) without detection limits or values; not recorded as findings.",
+  "Table 2 prints 90Sr 45 Bq/kg for the experimental milk-pumpkin sauce against a stated limit of 20 Bq/kg, while the text says radionuclides were within limits; radionuclides are outside the findings scope.",
+  "Sample numbers, instrument, LOD and QA are not reported."
+ ],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [
+  {
+   "what": "maximum permissible levels used by the authors (Ukraine)",
+   "value": "Pb 0.1, Cu 0.5, Zn 3.0 mg/kg; 137Cs 30 Bq/kg, 90Sr 20 Bq/kg",
+   "locator": "Table 2 remark, p. 762"
+  }
+ ],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/antonenko2025-ukraine-functional-sauce-safety.md",
+ "non_numeric_findings": [],
+ "merged_unmatched": [],
+ "merged_snapshot": null,
+ "raw_output": "data/evidence/findings/extract/raw/antonenko2025-ukraine-functional-sauce-safety.json"
+}

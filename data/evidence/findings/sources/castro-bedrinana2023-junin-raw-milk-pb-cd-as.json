@@ -1,0 +1,337 @@
+{
+ "source_id": "castro-bedrinana2023-junin-raw-milk-pb-cd-as",
+ "primary_artifact": "/Users/kmfp/papers-for-claude/hmi-thin/batch-07/pdfs/reduced-fat-milk__Castro-Bedrinana2023__10.3390_toxics11100809.pdf",
+ "primary_sha256": "5070ca18cbb15d59fc80456dbd3db3cb4ed2ab3220dc19b02969c197873a8efb",
+ "extracted_at": "2026-10-24",
+ "extractor": "engine-v1",
+ "disposition": "occurrence_extracted",
+ "disposition_reason": "Table 1 prints mean, SD, minimum and maximum lead, cadmium and arsenic in 24 raw milk samples from 12 cows on one farm next to a mineral concentrator and dump in the Mantaro Valley, Peru.",
+ "disposition_locator": "Table 1, p. 6",
+ "study": {
+  "design": "Single-farm case study of soil, pasture and raw milk with dietary risk assessment",
+  "origin": "El Tambo district, Huancayo province, Junín, Peru (3214 m a.s.l.)",
+  "market": "not applicable (raw milk at farm)",
+  "period": {
+   "from": 2022,
+   "to": 2022,
+   "as_reported": "April and May 2022"
+  },
+  "method": "Dry ashing at 450 °C then HNO3; flame AAS (AOAC 973.35) for Pb, Cd and As",
+  "lod": [
+   "Milk LOD Pb 0.03, Cd 0.03, As 0.028 µg/L; forage 2.40, 0.40, 0.03 µg/kg; soil 0.1, 0.01, 0.02 mg/kg"
+  ],
+  "basis": "fresh",
+  "qa": "Precision checked with standard solutions (Pb 155, Cd 150, As 50 mg/kg; measured 148, 152, 49.6); no milk CRM reported",
+  "site_context": "mining"
+ },
+ "findings": [
+  {
+   "id": "castro-bedrinana2023-junin-raw-milk-pb-cd-as:Pb:cow-milk-raw-holstein-farm-representative-dairy-fa:mean",
+   "material": {
+    "label_as_printed": "Cow milk, raw (Holstein, farm)",
+    "page": "ingredients/milk-and-dairy",
+    "form": "liquid",
+    "state": null,
+    "route_rule": "form",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Pb",
+   "group": "representative dairy farm, El Tambo, Huancayo, Junín (beside a mineral concentrator and former municipal dump)",
+   "group_kind": "site",
+   "n": 24,
+   "statistic": "mean",
+   "reported": "0.062 (SD 0.008) mg/kg",
+   "value_ugkg": 62,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 8,
+   "unit_original": "mg/kg",
+   "basis": "fresh",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 1, p. 6",
+   "integrity_flag": null,
+   "notes": "24 samples from 12 cows (April and May 2022). Flame AAS; stated milk LOD 0.03 µg/L. Table 1 MPL used by the authors for milk: Pb 0.02, Cd 0.003, As 0.014 mg/kg.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "castro-bedrinana2023-junin-raw-milk-pb-cd-as:Pb:cow-milk-raw-holstein-farm-representative-dairy-fa:min",
+   "material": {
+    "label_as_printed": "Cow milk, raw (Holstein, farm)",
+    "page": "ingredients/milk-and-dairy",
+    "form": "liquid",
+    "state": null,
+    "route_rule": "form",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Pb",
+   "group": "representative dairy farm, El Tambo, Huancayo, Junín (beside a mineral concentrator and former municipal dump)",
+   "group_kind": "site",
+   "n": 24,
+   "statistic": "min",
+   "reported": "0.047 mg/kg",
+   "value_ugkg": 47,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "fresh",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 1, p. 6",
+   "integrity_flag": null,
+   "notes": "24 samples from 12 cows (April and May 2022). Flame AAS; stated milk LOD 0.03 µg/L. Table 1 MPL used by the authors for milk: Pb 0.02, Cd 0.003, As 0.014 mg/kg.",
+   "statistic_raw": "min"
+  },
+  {
+   "id": "castro-bedrinana2023-junin-raw-milk-pb-cd-as:Pb:cow-milk-raw-holstein-farm-representative-dairy-fa:max",
+   "material": {
+    "label_as_printed": "Cow milk, raw (Holstein, farm)",
+    "page": "ingredients/milk-and-dairy",
+    "form": "liquid",
+    "state": null,
+    "route_rule": "form",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Pb",
+   "group": "representative dairy farm, El Tambo, Huancayo, Junín (beside a mineral concentrator and former municipal dump)",
+   "group_kind": "site",
+   "n": 24,
+   "statistic": "max",
+   "reported": "0.077 mg/kg",
+   "value_ugkg": 77,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "fresh",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 1, p. 6",
+   "integrity_flag": null,
+   "notes": "24 samples from 12 cows (April and May 2022). Flame AAS; stated milk LOD 0.03 µg/L. Table 1 MPL used by the authors for milk: Pb 0.02, Cd 0.003, As 0.014 mg/kg.",
+   "statistic_raw": "max"
+  },
+  {
+   "id": "castro-bedrinana2023-junin-raw-milk-pb-cd-as:Cd:cow-milk-raw-holstein-farm-representative-dairy-fa:mean",
+   "material": {
+    "label_as_printed": "Cow milk, raw (Holstein, farm)",
+    "page": "ingredients/milk-and-dairy",
+    "form": "liquid",
+    "state": null,
+    "route_rule": "form",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Cd",
+   "group": "representative dairy farm, El Tambo, Huancayo, Junín (beside a mineral concentrator and former municipal dump)",
+   "group_kind": "site",
+   "n": 24,
+   "statistic": "mean",
+   "reported": "0.014 (SD 0.005) mg/kg",
+   "value_ugkg": 14,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 5,
+   "unit_original": "mg/kg",
+   "basis": "fresh",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 1, p. 6",
+   "integrity_flag": null,
+   "notes": "24 samples from 12 cows (April and May 2022). Flame AAS; stated milk LOD 0.03 µg/L. Table 1 MPL used by the authors for milk: Pb 0.02, Cd 0.003, As 0.014 mg/kg.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "castro-bedrinana2023-junin-raw-milk-pb-cd-as:Cd:cow-milk-raw-holstein-farm-representative-dairy-fa:min",
+   "material": {
+    "label_as_printed": "Cow milk, raw (Holstein, farm)",
+    "page": "ingredients/milk-and-dairy",
+    "form": "liquid",
+    "state": null,
+    "route_rule": "form",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Cd",
+   "group": "representative dairy farm, El Tambo, Huancayo, Junín (beside a mineral concentrator and former municipal dump)",
+   "group_kind": "site",
+   "n": 24,
+   "statistic": "min",
+   "reported": "0.008 mg/kg",
+   "value_ugkg": 8,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "fresh",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 1, p. 6",
+   "integrity_flag": null,
+   "notes": "24 samples from 12 cows (April and May 2022). Flame AAS; stated milk LOD 0.03 µg/L. Table 1 MPL used by the authors for milk: Pb 0.02, Cd 0.003, As 0.014 mg/kg.",
+   "statistic_raw": "min"
+  },
+  {
+   "id": "castro-bedrinana2023-junin-raw-milk-pb-cd-as:Cd:cow-milk-raw-holstein-farm-representative-dairy-fa:max",
+   "material": {
+    "label_as_printed": "Cow milk, raw (Holstein, farm)",
+    "page": "ingredients/milk-and-dairy",
+    "form": "liquid",
+    "state": null,
+    "route_rule": "form",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Cd",
+   "group": "representative dairy farm, El Tambo, Huancayo, Junín (beside a mineral concentrator and former municipal dump)",
+   "group_kind": "site",
+   "n": 24,
+   "statistic": "max",
+   "reported": "0.026 mg/kg",
+   "value_ugkg": 26,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "fresh",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 1, p. 6",
+   "integrity_flag": null,
+   "notes": "24 samples from 12 cows (April and May 2022). Flame AAS; stated milk LOD 0.03 µg/L. Table 1 MPL used by the authors for milk: Pb 0.02, Cd 0.003, As 0.014 mg/kg.",
+   "statistic_raw": "max"
+  },
+  {
+   "id": "castro-bedrinana2023-junin-raw-milk-pb-cd-as:tAs:cow-milk-raw-holstein-farm-representative-dairy-fa:mean",
+   "material": {
+    "label_as_printed": "Cow milk, raw (Holstein, farm)",
+    "page": "ingredients/milk-and-dairy",
+    "form": "liquid",
+    "state": null,
+    "route_rule": "form",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "tAs",
+   "group": "representative dairy farm, El Tambo, Huancayo, Junín (beside a mineral concentrator and former municipal dump)",
+   "group_kind": "site",
+   "n": 24,
+   "statistic": "mean",
+   "reported": "0.03 (SD 0.028) mg/kg",
+   "value_ugkg": 30,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 28,
+   "unit_original": "mg/kg",
+   "basis": "fresh",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 1, p. 6",
+   "integrity_flag": null,
+   "notes": "24 samples from 12 cows (April and May 2022). Flame AAS; stated milk LOD 0.028 µg/L. Table 1 MPL used by the authors for milk: Pb 0.02, Cd 0.003, As 0.014 mg/kg.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "castro-bedrinana2023-junin-raw-milk-pb-cd-as:tAs:cow-milk-raw-holstein-farm-representative-dairy-fa:min",
+   "material": {
+    "label_as_printed": "Cow milk, raw (Holstein, farm)",
+    "page": "ingredients/milk-and-dairy",
+    "form": "liquid",
+    "state": null,
+    "route_rule": "form",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "tAs",
+   "group": "representative dairy farm, El Tambo, Huancayo, Junín (beside a mineral concentrator and former municipal dump)",
+   "group_kind": "site",
+   "n": 24,
+   "statistic": "min",
+   "reported": "0.009 mg/kg",
+   "value_ugkg": 9,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "fresh",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 1, p. 6",
+   "integrity_flag": null,
+   "notes": "24 samples from 12 cows (April and May 2022). Flame AAS; stated milk LOD 0.028 µg/L. Table 1 MPL used by the authors for milk: Pb 0.02, Cd 0.003, As 0.014 mg/kg.",
+   "statistic_raw": "min"
+  },
+  {
+   "id": "castro-bedrinana2023-junin-raw-milk-pb-cd-as:tAs:cow-milk-raw-holstein-farm-representative-dairy-fa:max",
+   "material": {
+    "label_as_printed": "Cow milk, raw (Holstein, farm)",
+    "page": "ingredients/milk-and-dairy",
+    "form": "liquid",
+    "state": null,
+    "route_rule": "form",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "tAs",
+   "group": "representative dairy farm, El Tambo, Huancayo, Junín (beside a mineral concentrator and former municipal dump)",
+   "group_kind": "site",
+   "n": 24,
+   "statistic": "max",
+   "reported": "0.096 mg/kg",
+   "value_ugkg": 96,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "fresh",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 1, p. 6",
+   "integrity_flag": null,
+   "notes": "24 samples from 12 cows (April and May 2022). Flame AAS; stated milk LOD 0.028 µg/L. Table 1 MPL used by the authors for milk: Pb 0.02, Cd 0.003, As 0.014 mg/kg.",
+   "statistic_raw": "max"
+  }
+ ],
+ "sample_values": [],
+ "controls": [],
+ "unresolved": [
+  "Arsenic by flame AAS at 193.7 nm with a stated milk LOD of 0.028 µg/L is far below what flame AAS normally achieves; the LOD values may be mislabelled.",
+  "Soil and pasture values (Table 1) are not food findings: soil Pb 652.35, Cd 7.09, As 6.29 mg/kg; pasture Pb 23.17, Cd 0.250, As 0.063 mg/kg.",
+  "Whether raw milk is reported on fresh weight is implied (50 g homogenized milk ashed) but not stated."
+ ],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [
+  {
+   "what": "Maximum permissible limits for milk used by the authors",
+   "value": "Pb 0.02, Cd 0.0026, As 0.014 mg/kg (Table 1 prints Cd 0.003)",
+   "locator": "Section 2.5; Table 1"
+  },
+  {
+   "what": "Hazard index above 1 for children under 7, 9 and 11 years at low, medium and high milk intake; arsenic target hazard quotient above 1",
+   "value": "HI > 1",
+   "locator": "Abstract; Table 3"
+  }
+ ],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/castro-bedrinana2023-junin-raw-milk-pb-cd-as.md",
+ "non_numeric_findings": [],
+ "merged_unmatched": [],
+ "merged_snapshot": null,
+ "raw_output": "data/evidence/findings/extract/raw/castro-bedrinana2023-junin-raw-milk-pb-cd-as.json"
+}

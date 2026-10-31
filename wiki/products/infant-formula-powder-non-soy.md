@@ -646,3 +646,20 @@ The five most recent substantive edits to this page, classified major (evidence 
 | [91c7d5591](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591) | 2026-08-02 | minor | Narrative text revised |
 | [0f0b1cd7c](https://github.com/paleofoundation/heavymetalindex/commit/0f0b1cd7c) | 2026-08-01 | correction | Narrative text revised |
 <!-- END: hmi-page-history -->
+
+## Measurements filed from the retired ingredient page
+
+These sources were cited on the ingredient record before that record was retired.
+
+- [[sources/atsdr-aluminum-toxprofile-2008]]
+- [[sources/atsdr-aluminum-toxprofile-2008\]]
+- [[sources/bao2024-iron-homeostasis-intestinal-immunity-gut-microbiota]]
+- [[sources/chen2021-imbalanced-zinc-gut-microbiota-markers]]
+- [[sources/coryell2018-gut-microbiome-arsenic-toxicity-protection]]
+- [[sources/efsa-arsenic-contam-2009]]
+- [[sources/feng2022-pediococcus-gr1-heavy-metals-gut-microbiota-metabolome]]
+- [[sources/hoen2018-infant-arsenic-gut-microbiome]]
+- [[sources/igweze2020-al-as-hg-infant-formula-nigeria]]
+- [[sources/odhiambo2015-infant-formula-nairobi-trace-elements]]
+- [[sources/sipahi2014-toxic-metals-infant-formulas-turkey]]
+- [[sources/soto-ocana2024-metal-availability-early-life-microbiome]]

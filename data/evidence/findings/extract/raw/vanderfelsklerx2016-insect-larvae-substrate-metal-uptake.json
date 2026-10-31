@@ -1,0 +1,87 @@
+{
+ "source_id": "vanderfelsklerx2016-insect-larvae-substrate-metal-uptake",
+ "primary_artifact": "/Users/kmfp/papers-for-claude/hmi-thin/batch-03/pdfs/edible-insects__vanderFels-Klerx2016__10.1371_journal.pone.0166186.pdf",
+ "primary_sha256": "ec9a64a5c6b7d6c07cb6ee5d36c7521c38c20f696833f548415f3326b87303bd",
+ "disposition": "no_numeric_results",
+ "disposition_reason": "Larval metal concentrations from the spiked-feed experiment are printed only as bar charts (Fig 1) with raw data in an unfiled supplement; the printed tables give only feed spiking levels and bioaccumulation factors.",
+ "disposition_locator": "Fig 1; Table 3",
+ "study": {
+  "design": "controlled rearing experiment: 14 diet treatments x 3 replicates per species, feed spiked with Cd, Pb or As at 0.5, 1 and 2 times the EC complete-feed maximum level",
+  "origin": "laboratory-reared larvae, Wageningen University, the Netherlands",
+  "market": "not applicable",
+  "period_text": "",
+  "method": "microwave HNO3 digestion; graphite-furnace ETAAS (PerkinElmer AAnalyst 800) with Pd/Mg(NO3)2 modifier",
+  "lod_text": "0.1 mg/kg for Cd, Pb and As",
+  "basis": "dry",
+  "qa": "homogeneity tests on 1.0 ML spiked feed (10 samples per element); no CRM recoveries reported",
+  "site_context": "experimental"
+ },
+ "findings": [],
+ "sample_values": [],
+ "controls": [
+  {
+   "control": "Feed contamination level (0.5, 1.0, 2.0 x EC ML) - bioaccumulation factor, black soldier fly larvae (Hermetia illucens)",
+   "stage": "farm",
+   "evidence_kind": "measured",
+   "comparator": "control feed and control acid feed",
+   "outcome": "Cd BAF 9.5 / 6.1 / 6.9 vs controls 5.8 and 8.1 (all >1, no significant difference); Pb BAF 1.2 / 1.4 / 1.2 vs controls 1.1 and 1.8; As BAF 0.58 / 0.56 / 0.49 (dry-matter basis)",
+   "analytes": [
+    "Cd",
+    "Pb",
+    "tAs"
+   ],
+   "locator": "Table 3, p. 7"
+  },
+  {
+   "control": "Feed contamination level (0.5, 1.0, 2.0 x EC ML) - bioaccumulation factor, yellow mealworm larvae (Tenebrio molitor)",
+   "stage": "farm",
+   "evidence_kind": "measured",
+   "comparator": "control feed and control acid feed",
+   "outcome": "As BAF 1.4 / 1.6 / 2.6 (2.0 ML significantly higher); Pb BAF 0.043 / 0.046 / 0.051; Cd BAF 0.71 / 0.65 / 0.69 vs controls 0.43 and 0.48 (significantly higher, all <1)",
+   "analytes": [
+    "tAs",
+    "Pb",
+    "Cd"
+   ],
+   "locator": "Table 3, p. 7"
+  },
+  {
+   "control": "Two days on clean (original) feed before harvest after the 2.0 ML treatment (gut purging), black soldier fly larvae",
+   "stage": "farm",
+   "evidence_kind": "measured",
+   "comparator": "2.0 ML treatment harvested directly",
+   "outcome": "Cd in larvae decreased by 30% (text); Pb and As decreased to below the EC feed-material limit (values figure-only, Fig 1A-C)",
+   "analytes": [
+    "Cd",
+    "Pb",
+    "tAs"
+   ],
+   "locator": "Results, p. 6; Fig 1"
+  },
+  {
+   "control": "Two days on clean feed before harvest after the 2.0 ML treatment, yellow mealworm larvae",
+   "stage": "farm",
+   "evidence_kind": "measured",
+   "comparator": "2.0 ML treatment harvested directly",
+   "outcome": "As in larvae similar to the 2.0 ML treatment (retained); Pb and Cd excreted (direction only, values figure-only, Fig 1D-F)",
+   "analytes": [
+    "tAs",
+    "Pb",
+    "Cd"
+   ],
+   "locator": "Results, p. 6; Fig 1"
+  }
+ ],
+ "regulatory_or_exposure": [
+  {
+   "what": "EU Directive 2002/32/EC maximum levels in complete feed (12% moisture) used as spiking basis",
+   "value": "As 2.00, Cd 0.50, Pb 5.00 mg/kg (1.0 ML)",
+   "locator": "Table 1, p. 3"
+  }
+ ],
+ "unresolved": [
+  "Larval Cd, Pb and As concentrations are shown only in Fig 1 bar charts; full data are in S1 Table, which is not filed next to the PDF (searched /Users/kmfp/papers-for-claude/hmi-thin/batch-03/pdfs on 2026-10-24). Values not read from charts.",
+  "Base feed concentrations (BSF feed Cd 0.06, Pb 0.15, As <0.1 mg/kg; mealworm feed Cd 0.13, Pb <0.1, As <0.1 mg/kg) are feed, not findings."
+ ],
+ "source_record_corrections": []
+}

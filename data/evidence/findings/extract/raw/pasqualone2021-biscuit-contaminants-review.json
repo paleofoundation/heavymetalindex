@@ -1,0 +1,33 @@
+{
+ "source_id": "pasqualone2021-biscuit-contaminants-review",
+ "primary_artifact": "/Users/kmfp/papers-for-claude/hmi-thin/batch-04-addendum/pdfs/10.3390_foods10112751.pdf",
+ "primary_sha256": "e06b160c27b36d9fd24ce1906ac95c1eb8522126bac60fb515e7509fd12e9bbc",
+ "disposition": "context",
+ "disposition_reason": "Narrative review of physical, chemical and biological contaminants of biscuits; heavy-metal values (cadmium, lead, nickel) are quoted from other surveys, not measured.",
+ "disposition_locator": "Section 3 heavy metals, Table 1, pp. 6-7",
+ "study": {
+  "design": "literature review",
+  "origin": "",
+  "market": "",
+  "period_text": "",
+  "method": "not applicable",
+  "lod_text": "",
+  "basis": "unknown",
+  "qa": "not applicable",
+  "site_context": "monitoring"
+ },
+ "findings": [],
+ "sample_values": [],
+ "controls": [],
+ "regulatory_or_exposure": [
+  {
+   "what": "EC Reg. 1881/2006 limits for cereal grains quoted: Cd 0.10 mg/kg, Pb 0.20 mg/kg; EFSA 2020 nickel TDI raised from 2.8 to 13 µg/kg bw",
+   "value": "Cd 0.10; Pb 0.20 mg/kg; Ni TDI 13 µg/kg bw",
+   "locator": "pp. 6-7"
+  }
+ ],
+ "unresolved": [
+  "Quoted survey values (e.g. Nigerian biscuits Cd 0.02-0.03 mg/kg; Indian biscuits Ni 5.7-9.8 µg/g; Cd up to 0.35 and Pb up to 2.8 mg/kg in other surveys) belong to the cited primary papers and are not recorded."
+ ],
+ "source_record_corrections": []
+}

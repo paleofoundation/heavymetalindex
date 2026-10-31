@@ -1,4 +1,9 @@
 ---
+retired: true
+noindex: true
+redirect_target: products/fruit-juices-non-apple
+retirement_date: 2026-10-25
+retirement_authority: "HMI-HELD-TRIAGE-1 (Elon PASS 25 Oct 2026 21:01): 301 to parent; findings stay in the store"
 title: "Fruit juice ready drinks"
 dek: "Diluted juice beverages made with water and fruit juice, sometimes with sugars or flavor components. The page covers metal measurements, ingredient sources, processing and preparation."
 rail_highlights:

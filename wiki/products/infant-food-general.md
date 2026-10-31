@@ -1,6 +1,8 @@
 ---
+hmtc_subcategory_name: "Mixed meals (meat & grain combos)"
+hmtc_category_name: "Infant and Child Foods"
 type: product-category
-category: infant-food-general
+category: mixed-meals
 title: "Infant Food General"
 dek: "A broad infant food category covering reported metal concentrations and exposure context. Food measurements are distinguished from biomarker studies and experimental models."
 rail_highlights:
@@ -12,8 +14,8 @@ rail_highlights:
     text: Infant food mercury results report totals without speciation
     source: sources/cot2003-infant-food-metals
     source_label: COT statement
-hmtc_category: pending_taxonomy_review
-hmtc_row: pending_taxonomy_review
+hmtc_category: 1
+hmtc_row: 7
 provisional_scaffold: true
 provisional_created: 2026-05-17
 provisional_reason: "heal-gaps: routing_unresolved entry from source research2024-research-b declared product/infant-food-general, no close-slug match"
@@ -21,7 +23,7 @@ primary_metals_of_concern: []
 typical_ingredients: []
 applicable_regulations: []
 literature_scope: cited
-sources: 17
+sources: 18
 wiki_doi: null
 updated: 2026-10-15
 hero_image: /static/heroes/infant-food-purees-unmarked-bowls.webp
@@ -120,21 +122,21 @@ Works cited in this page's text, in first-appearance order. See [Sources](#sourc
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-<p class="hmi-table-note">Sources catalogued for this page. The last column says how each source is used here.</p>
+<p class="hmi-table-note">Source records associated with this topic. Inclusion does not establish that every finding applies to this product or ingredient. References above identify works cited in the text.</p>
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/bzikowska-jura2024-human-milk-elements-poland\|Bzikowska-Jura et al. 2024]]. *Essential and non-essential element concentrations in human milk samples and the assessment of infants' exposure*, Scientific Reports 14:8140 | 2024 | Peer-reviewed | PL Al, tAs, Ba, Be, Cd, Co, Cr, Cu, tHg, Mn, Mo, Ni, Pb, Sn, Tl, Th, U, V occurrence in Thirty human-milk samples from exclusively breastfeeding mothers in Warsaw, Poland, collected 4-6 weeks postpartum (n=30) |
-| 2 | [[sources/vincevica-gaile2024-libya-infant-toddler-food-arsenic\|Vincevica-Gaile et al. 2024]]. *Total Concentration of Arsenic in Commercial Infant/Toddler Food: A Preliminary Study in Libya*, BIO Web of Conferences | 2024 | Peer-reviewed | LY tAs occurrence in Commercial infant/toddler foods purchased in supermarkets in Sabha, Tripoli, and Benghazi, Libya. (n=36) |
-| 3 | [[sources/amarh2023-ghana-infant-food-heavy-metals\|Amarh et al. 2023]]. *Health risk assessment of some selected heavy metals in infant food sold in Wa, Ghana*, Heliyon | 2023 | Peer-reviewed | GH tAs, Cd, Cr, tHg, Mn, Ni, Pb, Sb occurrence in Locally and internationally produced infant formula and baby-food samples sold in Wa, Ghana (n=22) |
-| 4 | [[sources/lin2023-donor-milk-lead-mercury\|Y-C et al. 2023]]. *Health Risk of Infants Exposed to Lead and Mercury Through Breastfeeding*, Exposure and Health | 2023 | Peer-reviewed | TW Pb, tHg occurrence in donor milk from a Taiwanese human milk bank |
-| 5 | [[sources/mansouri2023-smoking-trace-elements-human-milk\|Mansouri et al. 2023]]. *The effects of active and passive smoking on selected trace element levels in human milk*, Scientific Reports 13:20756 | 2023 | Peer-reviewed | IR Mg, Mn, Fe, Co, Cu, Zn, tAs, Cd, Cr, tHg, Ni, Pb occurrence in One hundred breast-milk samples from lactating women in Kermanshah, western Iran, grouped as passive smokers, active smokers, and... (n=100) |
-| 6 | [[sources/mielech2021-contamination-food-infants-toddlers\|Mielech et al. 2021]]. *Assessment of the Risk of Contamination of Food for Infants and Toddlers*, Nutrients | 2021 | Review | PL/NO/US Pb, Cd, tAs, iAs, tHg occurrence in Narrative literature review of 83 publications (2004–2021, mainly October 2020–March 2021 search window) on contaminants in foods for... |
-| 7 | [[sources/depa2019-baby-food-lead-cadmium\|Depa 2019]]. *Heavy Metals in Baby Foods and Cereal Products*, Turkish Journal of Computer and Mathematics Education | 2019 | Peer-reviewed | Pb, Cd occurrence in Baby foods and cereal products, including milk powder and cereal-based products (n=63) |
-| 8 | [[sources/abaas2018-breast-milk-nickel\|Nassir et al. 2018]]. *Determination of Nickel Concentration in the Breast Milk of Lactating Mothers Living In Hilla City*, Journal of University of Babylon for Pure and Applied Sciences | 2018 | Peer-reviewed | IQ Ni occurrence in lactating mothers living in Hilla City, Iraq |
-| 9 | [[sources/bfr2018-infant-food-cadmium-lead\|BfR 2018]]. *EU maximum levels for cadmium in food for infants and young children sufficient - Exposure to lead should fundamentally be reduced to the achievable minimum*, BfR Opinion No. 026/2018 | 2018 | Government report | DE/EU Cd, Pb occurrence in BfR assessment of German Federal Control Plan 2015 and Monitoring 2015 occurrence data for foods for infants and... (n=522) |
-| 10 | [[sources/deroma2017-prepared-meals-italy-metals\|De et al. 2017]]. *Occurrence of cadmium, lead, mercury, and arsenic in prepared meals in Italy: Potential relevance for intake assessment*, Journal of Food Composition and Analysis | 2017 | Peer-reviewed | IT Cd, Pb, tHg, tAs occurrence in Seventeen pooled prepared-meal composites collected from Italian baby food, school canteen, office canteen, fast food, duplicate-portion, vegetarian, and... (n=17) |
-| 11 | [[sources/klein2017-human-milk-trace-elements\|Klein et al. 2017]]. *Concentrations of trace elements in human milk: Comparisons among women in Argentina, Namibia, Poland, and the United States*, PLOS ONE | 2017 | Peer-reviewed | AR/NA/PL Pb, tAs occurrence in lactating mothers from Argentina, Namibia, Poland, and the United States (n=70) |
+| 1 | [[sources/jacobs2026-us-baby-food-metals-risk-interpretation\|Jacobs et al. 2026]]. *Risk interpretation of arsenic, lead, cadmium, and mercury reported in US baby foods*, Public Health and Toxicology 2026, 6 (2): 8 | 2026 | Peer-reviewed | Contribution to this topic remains under review; see the source record for its reported scope. |
+| 2 | [[sources/bzikowska-jura2024-human-milk-elements-poland\|Bzikowska-Jura et al. 2024]]. *Essential and non-essential element concentrations in human milk samples and the assessment of infants' exposure*, Scientific Reports 14:8140 | 2024 | Peer-reviewed | PL Al, tAs, Ba, Be, Cd, Co, Cr, Cu, tHg, Mn, Mo, Ni, Pb, Sn, Tl, Th, U, V occurrence in Thirty human-milk samples from exclusively breastfeeding mothers in Warsaw, Poland, collected 4-6 weeks postpartum (n=30) |
+| 3 | [[sources/vincevica-gaile2024-libya-infant-toddler-food-arsenic\|Vincevica-Gaile et al. 2024]]. *Total Concentration of Arsenic in Commercial Infant/Toddler Food: A Preliminary Study in Libya*, BIO Web of Conferences | 2024 | Peer-reviewed | LY tAs occurrence in Commercial infant/toddler foods purchased in supermarkets in Sabha, Tripoli, and Benghazi, Libya. (n=36) |
+| 4 | [[sources/amarh2023-ghana-infant-food-heavy-metals\|Amarh et al. 2023]]. *Health risk assessment of some selected heavy metals in infant food sold in Wa, Ghana*, Heliyon | 2023 | Peer-reviewed | GH tAs, Cd, Cr, tHg, Mn, Ni, Pb, Sb occurrence in Locally and internationally produced infant formula and baby-food samples sold in Wa, Ghana (n=22) |
+| 5 | [[sources/lin2023-donor-milk-lead-mercury\|Y-C et al. 2023]]. *Health Risk of Infants Exposed to Lead and Mercury Through Breastfeeding*, Exposure and Health | 2023 | Peer-reviewed | TW Pb, tHg occurrence in donor milk from a Taiwanese human milk bank |
+| 6 | [[sources/mansouri2023-smoking-trace-elements-human-milk\|Mansouri et al. 2023]]. *The effects of active and passive smoking on selected trace element levels in human milk*, Scientific Reports 13:20756 | 2023 | Peer-reviewed | IR Mg, Mn, Fe, Co, Cu, Zn, tAs, Cd, Cr, tHg, Ni, Pb occurrence in One hundred breast-milk samples from lactating women in Kermanshah, western Iran, grouped as passive smokers, active smokers, and... (n=100) |
+| 7 | [[sources/mielech2021-contamination-food-infants-toddlers\|Mielech et al. 2021]]. *Assessment of the Risk of Contamination of Food for Infants and Toddlers*, Nutrients | 2021 | Review | PL/NO/US Pb, Cd, tAs, iAs, tHg occurrence in Narrative literature review of 83 publications (2004–2021, mainly October 2020–March 2021 search window) on contaminants in foods for... |
+| 8 | [[sources/depa2019-baby-food-lead-cadmium\|Depa 2019]]. *Heavy Metals in Baby Foods and Cereal Products*, Turkish Journal of Computer and Mathematics Education | 2019 | Peer-reviewed | Pb, Cd occurrence in Baby foods and cereal products, including milk powder and cereal-based products (n=63) |
+| 9 | [[sources/abaas2018-breast-milk-nickel\|Nassir et al. 2018]]. *Determination of Nickel Concentration in the Breast Milk of Lactating Mothers Living In Hilla City*, Journal of University of Babylon for Pure and Applied Sciences | 2018 | Peer-reviewed | IQ Ni occurrence in lactating mothers living in Hilla City, Iraq |
+| 10 | [[sources/bfr2018-infant-food-cadmium-lead\|BfR 2018]]. *EU maximum levels for cadmium in food for infants and young children sufficient - Exposure to lead should fundamentally be reduced to the achievable minimum*, BfR Opinion No. 026/2018 | 2018 | Government report | DE/EU Cd, Pb occurrence in BfR assessment of German Federal Control Plan 2015 and Monitoring 2015 occurrence data for foods for infants and... (n=522) |
+| 11 | [[sources/deroma2017-prepared-meals-italy-metals\|De et al. 2017]]. *Occurrence of cadmium, lead, mercury, and arsenic in prepared meals in Italy: Potential relevance for intake assessment*, Journal of Food Composition and Analysis | 2017 | Peer-reviewed | IT Cd, Pb, tHg, tAs occurrence in Seventeen pooled prepared-meal composites collected from Italian baby food, school canteen, office canteen, fast food, duplicate-portion, vegetarian, and... (n=17) |
 | 12 | [[sources/efsa2015-nickel-food-water\|EFSA 2015]]. *Scientific Opinion on the risks to public health related to the presence of nickel in food and drinking water*, EFSA Journal 2015;13(2):4002, 202 pp. | 2015 | Government report | EU Ni occurrence in 18,885 food samples and 25,700 drinking water samples (final dataset after exclusions) submitted to EFSA from 15 European... (n=18885) |
 | 13 | [[sources/fsa2014-infant-foods-metals\|FSA 2014]]. *Survey of metals and other elements in commercial infant foods, infant formula and non-infant specific foods*, Food Standards Agency report | 2014 | Government report | GB Al, Sb, tAs, iAs, Cd, Cr, Cu, Pb, Mn, tHg, Ni, Se, Sn, Zn occurrence in Forty-seven infant formula samples, 200 commercial infant foods, and 50 composite 'other foods' samples purchased from UK retail... (n=297) |
 | 14 | [[sources/efsa2012-cadmium-dietary-exposure-europe\|EFSA 2012]]. *Cadmium dietary exposure in the European population*, EFSA Journal 2012;10(1):2551 | 2012 | Government report | EU Cd occurrence in Cadmium occurrence results in food submitted to EFSA from 22 EU Member States, 3 European Economic Area or... (n=178541) |
@@ -184,13 +186,13 @@ No enforcement or recall synthesis has been promoted for this broad infant-food 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [73dc6d727](https://github.com/paleofoundation/heavymetalindex/commit/73dc6d727) | 2026-10-17 | minor | Narrative text revised |
+| [4b02f1fc8](https://github.com/paleofoundation/heavymetalindex/commit/4b02f1fc8) | 2026-10-16 | major | 2 sources added; 4 sections added and 1 removed; narrative text revised |
+| [5cf35e941](https://github.com/paleofoundation/heavymetalindex/commit/5cf35e941) | 2026-10-15 | major | 14 sources added; 2 sections added; narrative text revised |
+| [3aa5aa523](https://github.com/paleofoundation/heavymetalindex/commit/3aa5aa523) | 2026-09-28 | correction | Narrative text revised |
 | [ad172bca7](https://github.com/paleofoundation/heavymetalindex/commit/ad172bca7) | 2026-08-09 | correction | Narrative text revised |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | minor | Narrative text revised |
-| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
-| [91c7d5591](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591) | 2026-08-02 | minor | Narrative text revised |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 <!-- END: hmi-page-history -->

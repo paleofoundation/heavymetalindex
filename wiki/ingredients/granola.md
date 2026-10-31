@@ -1,4 +1,9 @@
 ---
+retired: true
+noindex: true
+redirect_target: products/breakfast-cereal-non-rice
+retirement_date: 2026-10-25
+retirement_authority: "HMI-HELD-TRIAGE-1 (Elon PASS 25 Oct 2026 21:01): 301 to parent; findings stay in the store"
 title: "Granola"
 dek: "Reported measurements cover metals in granola, including chromium species. The evidence distinguishes food measurements from experimental studies of hexavalent chromium and gut microbiota."
 rail_highlights:

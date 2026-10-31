@@ -1,0 +1,33 @@
+{
+  "source_id": "ibrahim2025-metals-flavored-dairy-egypt",
+  "primary_artifact": "/Volumes/HMI-Library/heavy-metal-index-raw/markdown/FM_12847127/FM_12847127.md",
+  "primary_sha256": "3af3a6ecb723f9a6364b413d8ca286308ed423bf1d51ca3fa68880c00c323f25",
+  "text_copy": "/Users/kmfp/Documents/ChatGPT/HeavyMetalIndex.com/site/data/evidence/contracts/most-studied-rollout-2026-10-22/cocoa/primary/ibrahim2025-metals-flavored-dairy-egypt.txt",
+  "findings": [],
+  "sample_values": [],
+  "controls": [],
+  "regulatory": [],
+  "contradictions_with_stored_summary": [
+    "Stored summary does not list cocoa as an ingredient; consistent. Its note that chocolate milk powder Al is 'consistent with cocoa-derived Al' reflects the authors' interpretation, not a cocoa measurement."
+  ],
+  "unresolved": [
+    "Collection period not reported in the extracted text.",
+    "Original PDF not located via access map; markdown conversion used as primary."
+  ],
+  "disposition": "out_of_scope",
+  "disposition_reason": "ICP-MS/MS survey of 180 flavoured dairy products from Giza, Egypt (15 per product-flavour). Chocolate items are chocolate pasteurized milk, chocolate UHT milk, chocolate milk powder and chocolate ice cream, all flavoured dairy composites; no cocoa powder, drinking-chocolate powder or chocolate itself was analysed. Chocolate milk powder had the highest Al (4.785 ± 1.590 mg/kg) and Cr (1.279 mg/kg), which the authors attribute partly to cocoa powder, but these are dairy-matrix values.",
+  "disposition_locator": "Materials and Methods 'Sample Collection and Identification'; Table 1 (C-MP, C-PM, C-UHT, C-IC rows); Results paragraphs on Al and Cu",
+  "study": {
+    "design": "market survey with dietary exposure/risk assessment",
+    "material_scope": "chocolate-flavoured milk, milk powder and ice cream (composites; out of scope)",
+    "growing_origin_vs_market": "collected in Giza governorate, Egypt; cocoa origin not reported",
+    "collection_period": null,
+    "n_total": 0,
+    "sampling_unit": "retail flavoured dairy products, 15 per product-flavour",
+    "method": "ICP-MS/MS (Agilent 8800) after microwave HNO3/HCl digestion",
+    "lod_loq": "Pb LOD 0.0026/LOQ 0.0085 ppb; As 0.015/0.049; Al 0.096/0.317; Sb 0.023/0.078 ppb",
+    "basis": "mg/L or mg/kg as sold",
+    "qa": "ISO 17025 lab; no CRM reported in extracted text"
+  },
+  "notes": "Primary artifact is a Marker-converted markdown of the article (no PDF path in access map); text copy is a verbatim copy of that markdown. Authors cite Stahl et al. and Bertoldi et al. for Al 80-312 and 10.6-275 mg/kg in cocoa powder (secondary citations, context only)."
+}

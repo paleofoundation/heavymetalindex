@@ -1,0 +1,88 @@
+{
+  "source_id": "masri2025-toxicant-foods-california",
+  "primary_artifact": "/Volumes/HMI-Library/heavy-metal-index-raw/Manual Fetch Discovery/masri2025-matcha-heavy-metal.pdf",
+  "primary_sha256": "d52043a930027d6e2626c5461437e7550b473436bb6cb17abfd0e209198d5160",
+  "text_copy": "/Users/kmfp/Documents/ChatGPT/HeavyMetalIndex.com/site/data/evidence/contracts/most-studied-rollout-2026-10-22/cocoa/primary/masri2025-toxicant-foods-california.txt",
+  "findings": [],
+  "sample_values": [],
+  "controls": [],
+  "regulatory": [
+    {
+      "jurisdiction": "California (Proposition 65)",
+      "instrument": "court consent judgment for chocolate products (as described by authors, ref 73)",
+      "analyte": "Pb",
+      "product": "chocolate products (depending on cocoa content)",
+      "value": 0.225,
+      "unit": "ppm",
+      "status": "as described by authors; consent judgment, not a statutory ML; details not given in primary",
+      "locator": "Discussion, p.17 (ref 73)"
+    },
+    {
+      "jurisdiction": "California (Proposition 65)",
+      "instrument": "court consent judgment for chocolate products (as described by authors, ref 73)",
+      "analyte": "Cd",
+      "product": "chocolate products (depending on cocoa content)",
+      "value": 0.96,
+      "unit": "ppm (unit omitted in text; ppm implied)",
+      "status": "as described by authors",
+      "locator": "Discussion, p.17 (ref 73)"
+    },
+    {
+      "jurisdiction": "California (Proposition 65)",
+      "instrument": "court decisions on nutritional powders (as described by authors)",
+      "analyte": "Pb",
+      "product": "nutritional powders containing chocolate",
+      "value": 4,
+      "unit": "µg/day",
+      "status": "as described by authors",
+      "locator": "Discussion, p.17 (ref 73)"
+    }
+  ],
+  "contradictions_with_stored_summary": [
+    "None material; the stored summary's description matches. Archive filename 'masri2025-matcha-heavy-metal.pdf' is a misleading name but the PDF content is this Nutrients 2025 Prop 65 survey."
+  ],
+  "unresolved": [
+    "Prop 65 chocolate consent-judgment values are second-hand (authors' description of ref 73); the instrument, cocoa-content tiers and Cd unit are not specified in the primary text."
+  ],
+  "disposition": "exposure_or_regulatory_used",
+  "disposition_reason": "Online dietary survey (N = 186 Southern California adults and adolescents) that measured no metal concentrations; it reports intake of 'Chocolate Foods' (mean 9.6 g/day all participants; 12.2 g/day among consumers) and 'Chocolate Drink Powder' (2.4 and 10.8 g/day), and cites Prop 65 consent-judgment allowances for chocolate (0.225 ppm Pb, 0.960 Cd depending on cocoa content).",
+  "disposition_locator": "Table 2 p.7; Results 3.2 pp.6-7; Table 3 p.9; Discussion p.17 (ref 73)",
+  "study": {
+    "design": "cross-sectional online 7-day food frequency survey (no contaminant measurement)",
+    "material_scope": "consumption of chocolate foods and chocolate drink powder",
+    "growing_origin_vs_market": "not applicable; consumers in Southern California",
+    "collection_period": "1 March to 15 June 2023",
+    "n_total": 186,
+    "sampling_unit": "survey respondents (60.8% adults, 39.2% adolescents)",
+    "method": "Qualtrics online questionnaire adapted from NHANES FFQ; powder serving masses from USDA FoodData Central",
+    "lod_loq": null,
+    "basis": "g/person/day as consumed",
+    "qa": "excluded respondents with completion times <3.38 min"
+  },
+  "exposure_notes": {
+    "chocolate_foods": {
+      "n_consumers": 149,
+      "pct": 78.8,
+      "mean_g_day_all": 9.6,
+      "median_g_day_all": 6.1,
+      "mean_portion_g": 30.0,
+      "freq_EO_day": 0.42,
+      "mean_g_day_consumers": 12.2,
+      "median_g_day_consumers": 6.1,
+      "locator": "Table 2, p.7"
+    },
+    "chocolate_drink_powder": {
+      "n_consumers": 42,
+      "pct": 22.2,
+      "mean_g_day_all": 2.4,
+      "median_g_day_all": 0.0,
+      "mean_portion_g": 23.3,
+      "portion_source": "USDA FoodData Central",
+      "freq_EO_day": 0.49,
+      "mean_g_day_consumers": 10.8,
+      "median_g_day_consumers": 6.7,
+      "locator": "Table 2, p.7"
+    },
+    "note": "'Chocolate Foods' is a broad category not restricted to chocolate as defined on the cocoa page; regression (Table 3) shows chocolate-food intake higher among Caucasians by up to 9.2 g/day."
+  }
+}

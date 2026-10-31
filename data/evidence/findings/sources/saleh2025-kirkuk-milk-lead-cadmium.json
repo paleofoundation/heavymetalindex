@@ -1,0 +1,1363 @@
+{
+ "source_id": "saleh2025-kirkuk-milk-lead-cadmium",
+ "primary_artifact": "/Users/kmfp/papers-for-claude/hmi-thin/batch-07/pdfs/reduced-fat-milk__Saleh2025__10.36346_sarjmb.2025.v06i02.002.pdf",
+ "primary_sha256": "9163055abce1f03a1d81b4a1fa0daa476eaae5dca67424492a1df9c54671f02e",
+ "extracted_at": "2026-10-24",
+ "extractor": "engine-v1",
+ "disposition": "occurrence_extracted",
+ "disposition_reason": "Tables 1 and 2 print lead and cadmium ranges and means in raw milk by site and by species.",
+ "disposition_locator": "Tables 1-2, pp. 33-34",
+ "study": {
+  "design": "cross-sectional survey of raw milk",
+  "origin": "dairy farms in Kirkuk (Laylan, Altun Kupri) and Sulaymaniyah, Iraq",
+  "market": "dairy farms, dairy shops/vendors and retail dairy centers, Kirkuk and Sulaymaniyah, Iraq",
+  "period": {
+   "from": 2023,
+   "to": 2024,
+   "as_reported": "November 2023 to July 2024"
+  },
+  "method": "wet digestion (HNO3/perchloric acid, water bath) then air-acetylene flame AAS (Buck Scientific 210 VGP)",
+  "lod": [
+   "not reported"
+  ],
+  "basis": "unknown",
+  "qa": "reagent blanks subtracted; no CRM or recovery reported",
+  "site_context": "ordinary"
+ },
+ "findings": [
+  {
+   "id": "saleh2025-kirkuk-milk-lead-cadmium:Cd:milk-raw-mixed-species-laylan-iraq:mean",
+   "material": {
+    "label_as_printed": "Milk (raw, mixed species)",
+    "page": "ingredients/milk-and-dairy",
+    "form": null,
+    "state": null,
+    "route_rule": "exact",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Cd",
+   "group": "Laylan, Iraq",
+   "group_kind": "site",
+   "n": null,
+   "statistic": "mean",
+   "reported": "0.03 – 0.06 (0.045) mg/kg",
+   "value_ugkg": 45,
+   "min_ugkg": 30,
+   "max_ugkg": 60,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 1, p. 33",
+   "integrity_flag": null,
+   "notes": "Milk of all species pooled by site; number of samples per site not stated.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "saleh2025-kirkuk-milk-lead-cadmium:Cd:milk-raw-mixed-species-laylan-iraq:min",
+   "material": {
+    "label_as_printed": "Milk (raw, mixed species)",
+    "page": "ingredients/milk-and-dairy",
+    "form": null,
+    "state": null,
+    "route_rule": "exact",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Cd",
+   "group": "Laylan, Iraq",
+   "group_kind": "site",
+   "n": null,
+   "statistic": "min",
+   "reported": "0.03 – 0.06 (0.045) mg/kg",
+   "value_ugkg": 30,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 1, p. 33",
+   "integrity_flag": null,
+   "notes": "Minimum of the printed range.",
+   "statistic_raw": "min"
+  },
+  {
+   "id": "saleh2025-kirkuk-milk-lead-cadmium:Cd:milk-raw-mixed-species-laylan-iraq:max",
+   "material": {
+    "label_as_printed": "Milk (raw, mixed species)",
+    "page": "ingredients/milk-and-dairy",
+    "form": null,
+    "state": null,
+    "route_rule": "exact",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Cd",
+   "group": "Laylan, Iraq",
+   "group_kind": "site",
+   "n": null,
+   "statistic": "max",
+   "reported": "0.03 – 0.06 (0.045) mg/kg",
+   "value_ugkg": 60,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 1, p. 33",
+   "integrity_flag": null,
+   "notes": "Maximum of the printed range.",
+   "statistic_raw": "max"
+  },
+  {
+   "id": "saleh2025-kirkuk-milk-lead-cadmium:Pb:milk-raw-mixed-species-laylan-iraq:mean",
+   "material": {
+    "label_as_printed": "Milk (raw, mixed species)",
+    "page": "ingredients/milk-and-dairy",
+    "form": null,
+    "state": null,
+    "route_rule": "exact",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Pb",
+   "group": "Laylan, Iraq",
+   "group_kind": "site",
+   "n": null,
+   "statistic": "mean",
+   "reported": "0.41 – 0.53 (0.470) mg/kg",
+   "value_ugkg": 470,
+   "min_ugkg": 410,
+   "max_ugkg": 530,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 1, p. 33",
+   "integrity_flag": null,
+   "notes": "Milk of all species pooled by site; number of samples per site not stated.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "saleh2025-kirkuk-milk-lead-cadmium:Pb:milk-raw-mixed-species-laylan-iraq:min",
+   "material": {
+    "label_as_printed": "Milk (raw, mixed species)",
+    "page": "ingredients/milk-and-dairy",
+    "form": null,
+    "state": null,
+    "route_rule": "exact",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Pb",
+   "group": "Laylan, Iraq",
+   "group_kind": "site",
+   "n": null,
+   "statistic": "min",
+   "reported": "0.41 – 0.53 (0.470) mg/kg",
+   "value_ugkg": 410,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 1, p. 33",
+   "integrity_flag": null,
+   "notes": "Minimum of the printed range.",
+   "statistic_raw": "min"
+  },
+  {
+   "id": "saleh2025-kirkuk-milk-lead-cadmium:Pb:milk-raw-mixed-species-laylan-iraq:max",
+   "material": {
+    "label_as_printed": "Milk (raw, mixed species)",
+    "page": "ingredients/milk-and-dairy",
+    "form": null,
+    "state": null,
+    "route_rule": "exact",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Pb",
+   "group": "Laylan, Iraq",
+   "group_kind": "site",
+   "n": null,
+   "statistic": "max",
+   "reported": "0.41 – 0.53 (0.470) mg/kg",
+   "value_ugkg": 530,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 1, p. 33",
+   "integrity_flag": null,
+   "notes": "Maximum of the printed range.",
+   "statistic_raw": "max"
+  },
+  {
+   "id": "saleh2025-kirkuk-milk-lead-cadmium:Cd:milk-raw-mixed-species-altun-kupri-iraq:mean",
+   "material": {
+    "label_as_printed": "Milk (raw, mixed species)",
+    "page": "ingredients/milk-and-dairy",
+    "form": null,
+    "state": null,
+    "route_rule": "exact",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Cd",
+   "group": "Altun Kupri, Iraq",
+   "group_kind": "site",
+   "n": null,
+   "statistic": "mean",
+   "reported": "0.00 – 0.01 0.01 (0.005) mg/kg",
+   "value_ugkg": 5,
+   "min_ugkg": null,
+   "min_censored": true,
+   "max_ugkg": 10,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 1, p. 33",
+   "integrity_flag": "text range 0.01–0.01 conflicts with printed mean 0.005",
+   "notes": "Milk of all species pooled by site; number of samples per site not stated. Table cell garbled in layout (\"0.00 – 0.01 0.01\"); text gives range 0.01–0.01 with mean 0.005, which conflicts with a minimum of 0.01.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "saleh2025-kirkuk-milk-lead-cadmium:Cd:milk-raw-mixed-species-altun-kupri-iraq:min",
+   "material": {
+    "label_as_printed": "Milk (raw, mixed species)",
+    "page": "ingredients/milk-and-dairy",
+    "form": null,
+    "state": null,
+    "route_rule": "exact",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Cd",
+   "group": "Altun Kupri, Iraq",
+   "group_kind": "site",
+   "n": null,
+   "statistic": "min",
+   "reported": "0.00 – 0.01 0.01 (0.005) mg/kg",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "unknown",
+   "censoring": "nd",
+   "lod_ugkg": null,
+   "locator": "Table 1, p. 33",
+   "integrity_flag": null,
+   "notes": "Minimum of the printed range. Printed as 0; recorded as not detected.",
+   "statistic_raw": "min"
+  },
+  {
+   "id": "saleh2025-kirkuk-milk-lead-cadmium:Cd:milk-raw-mixed-species-altun-kupri-iraq:max",
+   "material": {
+    "label_as_printed": "Milk (raw, mixed species)",
+    "page": "ingredients/milk-and-dairy",
+    "form": null,
+    "state": null,
+    "route_rule": "exact",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Cd",
+   "group": "Altun Kupri, Iraq",
+   "group_kind": "site",
+   "n": null,
+   "statistic": "max",
+   "reported": "0.00 – 0.01 0.01 (0.005) mg/kg",
+   "value_ugkg": 10,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 1, p. 33",
+   "integrity_flag": null,
+   "notes": "Maximum of the printed range.",
+   "statistic_raw": "max"
+  },
+  {
+   "id": "saleh2025-kirkuk-milk-lead-cadmium:Pb:milk-raw-mixed-species-altun-kupri-iraq:mean",
+   "material": {
+    "label_as_printed": "Milk (raw, mixed species)",
+    "page": "ingredients/milk-and-dairy",
+    "form": null,
+    "state": null,
+    "route_rule": "exact",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Pb",
+   "group": "Altun Kupri, Iraq",
+   "group_kind": "site",
+   "n": null,
+   "statistic": "mean",
+   "reported": "0. 05 – 0.13 (0.090) mg/kg",
+   "value_ugkg": 90,
+   "min_ugkg": 50,
+   "max_ugkg": 130,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 1, p. 33",
+   "integrity_flag": null,
+   "notes": "Milk of all species pooled by site; number of samples per site not stated.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "saleh2025-kirkuk-milk-lead-cadmium:Pb:milk-raw-mixed-species-altun-kupri-iraq:min",
+   "material": {
+    "label_as_printed": "Milk (raw, mixed species)",
+    "page": "ingredients/milk-and-dairy",
+    "form": null,
+    "state": null,
+    "route_rule": "exact",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Pb",
+   "group": "Altun Kupri, Iraq",
+   "group_kind": "site",
+   "n": null,
+   "statistic": "min",
+   "reported": "0. 05 – 0.13 (0.090) mg/kg",
+   "value_ugkg": 50,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 1, p. 33",
+   "integrity_flag": null,
+   "notes": "Minimum of the printed range.",
+   "statistic_raw": "min"
+  },
+  {
+   "id": "saleh2025-kirkuk-milk-lead-cadmium:Pb:milk-raw-mixed-species-altun-kupri-iraq:max",
+   "material": {
+    "label_as_printed": "Milk (raw, mixed species)",
+    "page": "ingredients/milk-and-dairy",
+    "form": null,
+    "state": null,
+    "route_rule": "exact",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Pb",
+   "group": "Altun Kupri, Iraq",
+   "group_kind": "site",
+   "n": null,
+   "statistic": "max",
+   "reported": "0. 05 – 0.13 (0.090) mg/kg",
+   "value_ugkg": 130,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 1, p. 33",
+   "integrity_flag": null,
+   "notes": "Maximum of the printed range.",
+   "statistic_raw": "max"
+  },
+  {
+   "id": "saleh2025-kirkuk-milk-lead-cadmium:Cd:milk-raw-mixed-species-sulaymaniyah-iraq:mean",
+   "material": {
+    "label_as_printed": "Milk (raw, mixed species)",
+    "page": "ingredients/milk-and-dairy",
+    "form": null,
+    "state": null,
+    "route_rule": "exact",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Cd",
+   "group": "Sulaymaniyah, Iraq",
+   "group_kind": "site",
+   "n": null,
+   "statistic": "mean",
+   "reported": "0.02 – 0.05 0.03 (0.03) mg/kg",
+   "value_ugkg": 30,
+   "min_ugkg": 20,
+   "max_ugkg": 50,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 1, p. 33",
+   "integrity_flag": null,
+   "notes": "Milk of all species pooled by site; number of samples per site not stated.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "saleh2025-kirkuk-milk-lead-cadmium:Cd:milk-raw-mixed-species-sulaymaniyah-iraq:min",
+   "material": {
+    "label_as_printed": "Milk (raw, mixed species)",
+    "page": "ingredients/milk-and-dairy",
+    "form": null,
+    "state": null,
+    "route_rule": "exact",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Cd",
+   "group": "Sulaymaniyah, Iraq",
+   "group_kind": "site",
+   "n": null,
+   "statistic": "min",
+   "reported": "0.02 – 0.05 0.03 (0.03) mg/kg",
+   "value_ugkg": 20,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 1, p. 33",
+   "integrity_flag": null,
+   "notes": "Minimum of the printed range.",
+   "statistic_raw": "min"
+  },
+  {
+   "id": "saleh2025-kirkuk-milk-lead-cadmium:Cd:milk-raw-mixed-species-sulaymaniyah-iraq:max",
+   "material": {
+    "label_as_printed": "Milk (raw, mixed species)",
+    "page": "ingredients/milk-and-dairy",
+    "form": null,
+    "state": null,
+    "route_rule": "exact",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Cd",
+   "group": "Sulaymaniyah, Iraq",
+   "group_kind": "site",
+   "n": null,
+   "statistic": "max",
+   "reported": "0.02 – 0.05 0.03 (0.03) mg/kg",
+   "value_ugkg": 50,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 1, p. 33",
+   "integrity_flag": null,
+   "notes": "Maximum of the printed range.",
+   "statistic_raw": "max"
+  },
+  {
+   "id": "saleh2025-kirkuk-milk-lead-cadmium:Pb:milk-raw-mixed-species-sulaymaniyah-iraq:mean",
+   "material": {
+    "label_as_printed": "Milk (raw, mixed species)",
+    "page": "ingredients/milk-and-dairy",
+    "form": null,
+    "state": null,
+    "route_rule": "exact",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Pb",
+   "group": "Sulaymaniyah, Iraq",
+   "group_kind": "site",
+   "n": null,
+   "statistic": "mean",
+   "reported": "0.12 – 0.25 (0.185) mg/kg",
+   "value_ugkg": 185,
+   "min_ugkg": 120,
+   "max_ugkg": 250,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 1, p. 33",
+   "integrity_flag": null,
+   "notes": "Milk of all species pooled by site; number of samples per site not stated.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "saleh2025-kirkuk-milk-lead-cadmium:Pb:milk-raw-mixed-species-sulaymaniyah-iraq:min",
+   "material": {
+    "label_as_printed": "Milk (raw, mixed species)",
+    "page": "ingredients/milk-and-dairy",
+    "form": null,
+    "state": null,
+    "route_rule": "exact",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Pb",
+   "group": "Sulaymaniyah, Iraq",
+   "group_kind": "site",
+   "n": null,
+   "statistic": "min",
+   "reported": "0.12 – 0.25 (0.185) mg/kg",
+   "value_ugkg": 120,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 1, p. 33",
+   "integrity_flag": null,
+   "notes": "Minimum of the printed range.",
+   "statistic_raw": "min"
+  },
+  {
+   "id": "saleh2025-kirkuk-milk-lead-cadmium:Pb:milk-raw-mixed-species-sulaymaniyah-iraq:max",
+   "material": {
+    "label_as_printed": "Milk (raw, mixed species)",
+    "page": "ingredients/milk-and-dairy",
+    "form": null,
+    "state": null,
+    "route_rule": "exact",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Pb",
+   "group": "Sulaymaniyah, Iraq",
+   "group_kind": "site",
+   "n": null,
+   "statistic": "max",
+   "reported": "0.12 – 0.25 (0.185) mg/kg",
+   "value_ugkg": 250,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 1, p. 33",
+   "integrity_flag": null,
+   "notes": "Maximum of the printed range.",
+   "statistic_raw": "max"
+  },
+  {
+   "id": "saleh2025-kirkuk-milk-lead-cadmium:Cd:cow-milk-raw-kirkuk-and-sulaymaniyah-farms-shops-a:mean",
+   "material": {
+    "label_as_printed": "Cow milk (raw)",
+    "page": "ingredients/milk-and-dairy",
+    "form": null,
+    "state": null,
+    "route_rule": "exact",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Cd",
+   "group": "Kirkuk and Sulaymaniyah farms, shops and dairy centers",
+   "group_kind": "variety",
+   "n": 20,
+   "statistic": "mean",
+   "reported": "0.01 – 0.05 (0.03) mg/kg",
+   "value_ugkg": 30,
+   "min_ugkg": 10,
+   "max_ugkg": 50,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 34",
+   "integrity_flag": null,
+   "notes": "",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "saleh2025-kirkuk-milk-lead-cadmium:Cd:cow-milk-raw-kirkuk-and-sulaymaniyah-farms-shops-a:min",
+   "material": {
+    "label_as_printed": "Cow milk (raw)",
+    "page": "ingredients/milk-and-dairy",
+    "form": null,
+    "state": null,
+    "route_rule": "exact",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Cd",
+   "group": "Kirkuk and Sulaymaniyah farms, shops and dairy centers",
+   "group_kind": "variety",
+   "n": 20,
+   "statistic": "min",
+   "reported": "0.01 – 0.05 (0.03) mg/kg",
+   "value_ugkg": 10,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 34",
+   "integrity_flag": null,
+   "notes": "",
+   "statistic_raw": "min"
+  },
+  {
+   "id": "saleh2025-kirkuk-milk-lead-cadmium:Cd:cow-milk-raw-kirkuk-and-sulaymaniyah-farms-shops-a:max",
+   "material": {
+    "label_as_printed": "Cow milk (raw)",
+    "page": "ingredients/milk-and-dairy",
+    "form": null,
+    "state": null,
+    "route_rule": "exact",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Cd",
+   "group": "Kirkuk and Sulaymaniyah farms, shops and dairy centers",
+   "group_kind": "variety",
+   "n": 20,
+   "statistic": "max",
+   "reported": "0.01 – 0.05 (0.03) mg/kg",
+   "value_ugkg": 50,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 34",
+   "integrity_flag": null,
+   "notes": "",
+   "statistic_raw": "max"
+  },
+  {
+   "id": "saleh2025-kirkuk-milk-lead-cadmium:Pb:cow-milk-raw-kirkuk-and-sulaymaniyah-farms-shops-a:mean",
+   "material": {
+    "label_as_printed": "Cow milk (raw)",
+    "page": "ingredients/milk-and-dairy",
+    "form": null,
+    "state": null,
+    "route_rule": "exact",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Pb",
+   "group": "Kirkuk and Sulaymaniyah farms, shops and dairy centers",
+   "group_kind": "variety",
+   "n": 20,
+   "statistic": "mean",
+   "reported": "0.01– 0.03 (0.02) mg/kg",
+   "value_ugkg": 20,
+   "min_ugkg": 10,
+   "max_ugkg": 30,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 34",
+   "integrity_flag": null,
+   "notes": "",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "saleh2025-kirkuk-milk-lead-cadmium:Pb:cow-milk-raw-kirkuk-and-sulaymaniyah-farms-shops-a:min",
+   "material": {
+    "label_as_printed": "Cow milk (raw)",
+    "page": "ingredients/milk-and-dairy",
+    "form": null,
+    "state": null,
+    "route_rule": "exact",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Pb",
+   "group": "Kirkuk and Sulaymaniyah farms, shops and dairy centers",
+   "group_kind": "variety",
+   "n": 20,
+   "statistic": "min",
+   "reported": "0.01– 0.03 (0.02) mg/kg",
+   "value_ugkg": 10,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 34",
+   "integrity_flag": null,
+   "notes": "",
+   "statistic_raw": "min"
+  },
+  {
+   "id": "saleh2025-kirkuk-milk-lead-cadmium:Pb:cow-milk-raw-kirkuk-and-sulaymaniyah-farms-shops-a:max",
+   "material": {
+    "label_as_printed": "Cow milk (raw)",
+    "page": "ingredients/milk-and-dairy",
+    "form": null,
+    "state": null,
+    "route_rule": "exact",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Pb",
+   "group": "Kirkuk and Sulaymaniyah farms, shops and dairy centers",
+   "group_kind": "variety",
+   "n": 20,
+   "statistic": "max",
+   "reported": "0.01– 0.03 (0.02) mg/kg",
+   "value_ugkg": 30,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 34",
+   "integrity_flag": null,
+   "notes": "",
+   "statistic_raw": "max"
+  },
+  {
+   "id": "saleh2025-kirkuk-milk-lead-cadmium:Cd:sheep-milk-raw-kirkuk-and-sulaymaniyah-farms-shops:mean",
+   "material": {
+    "label_as_printed": "Sheep milk (raw)",
+    "page": "ingredients/milk-and-dairy",
+    "form": null,
+    "state": null,
+    "route_rule": "exact",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Cd",
+   "group": "Kirkuk and Sulaymaniyah farms, shops and dairy centers",
+   "group_kind": "variety",
+   "n": 20,
+   "statistic": "mean",
+   "reported": "0.02– 0.06 (0.04) mg/kg",
+   "value_ugkg": 40,
+   "min_ugkg": 20,
+   "max_ugkg": 60,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 34",
+   "integrity_flag": null,
+   "notes": "",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "saleh2025-kirkuk-milk-lead-cadmium:Cd:sheep-milk-raw-kirkuk-and-sulaymaniyah-farms-shops:min",
+   "material": {
+    "label_as_printed": "Sheep milk (raw)",
+    "page": "ingredients/milk-and-dairy",
+    "form": null,
+    "state": null,
+    "route_rule": "exact",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Cd",
+   "group": "Kirkuk and Sulaymaniyah farms, shops and dairy centers",
+   "group_kind": "variety",
+   "n": 20,
+   "statistic": "min",
+   "reported": "0.02– 0.06 (0.04) mg/kg",
+   "value_ugkg": 20,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 34",
+   "integrity_flag": null,
+   "notes": "",
+   "statistic_raw": "min"
+  },
+  {
+   "id": "saleh2025-kirkuk-milk-lead-cadmium:Cd:sheep-milk-raw-kirkuk-and-sulaymaniyah-farms-shops:max",
+   "material": {
+    "label_as_printed": "Sheep milk (raw)",
+    "page": "ingredients/milk-and-dairy",
+    "form": null,
+    "state": null,
+    "route_rule": "exact",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Cd",
+   "group": "Kirkuk and Sulaymaniyah farms, shops and dairy centers",
+   "group_kind": "variety",
+   "n": 20,
+   "statistic": "max",
+   "reported": "0.02– 0.06 (0.04) mg/kg",
+   "value_ugkg": 60,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 34",
+   "integrity_flag": null,
+   "notes": "",
+   "statistic_raw": "max"
+  },
+  {
+   "id": "saleh2025-kirkuk-milk-lead-cadmium:Pb:sheep-milk-raw-kirkuk-and-sulaymaniyah-farms-shops:mean",
+   "material": {
+    "label_as_printed": "Sheep milk (raw)",
+    "page": "ingredients/milk-and-dairy",
+    "form": null,
+    "state": null,
+    "route_rule": "exact",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Pb",
+   "group": "Kirkuk and Sulaymaniyah farms, shops and dairy centers",
+   "group_kind": "variety",
+   "n": 20,
+   "statistic": "mean",
+   "reported": "0.05 – 0.1 (0.03) mg/kg",
+   "value_ugkg": 30,
+   "min_ugkg": 50,
+   "max_ugkg": 100,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 34",
+   "integrity_flag": "printed mean 0.03 mg/kg lies outside its own printed range 0.05–0.1 mg/kg (Table 2 and text agree)",
+   "notes": "",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "saleh2025-kirkuk-milk-lead-cadmium:Pb:sheep-milk-raw-kirkuk-and-sulaymaniyah-farms-shops:min",
+   "material": {
+    "label_as_printed": "Sheep milk (raw)",
+    "page": "ingredients/milk-and-dairy",
+    "form": null,
+    "state": null,
+    "route_rule": "exact",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Pb",
+   "group": "Kirkuk and Sulaymaniyah farms, shops and dairy centers",
+   "group_kind": "variety",
+   "n": 20,
+   "statistic": "min",
+   "reported": "0.05 – 0.1 (0.03) mg/kg",
+   "value_ugkg": 50,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 34",
+   "integrity_flag": null,
+   "notes": "",
+   "statistic_raw": "min"
+  },
+  {
+   "id": "saleh2025-kirkuk-milk-lead-cadmium:Pb:sheep-milk-raw-kirkuk-and-sulaymaniyah-farms-shops:max",
+   "material": {
+    "label_as_printed": "Sheep milk (raw)",
+    "page": "ingredients/milk-and-dairy",
+    "form": null,
+    "state": null,
+    "route_rule": "exact",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Pb",
+   "group": "Kirkuk and Sulaymaniyah farms, shops and dairy centers",
+   "group_kind": "variety",
+   "n": 20,
+   "statistic": "max",
+   "reported": "0.05 – 0.1 (0.03) mg/kg",
+   "value_ugkg": 100,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 34",
+   "integrity_flag": null,
+   "notes": "",
+   "statistic_raw": "max"
+  },
+  {
+   "id": "saleh2025-kirkuk-milk-lead-cadmium:Cd:goat-milk-raw-kirkuk-and-sulaymaniyah-farms-shops-:mean",
+   "material": {
+    "label_as_printed": "Goat milk (raw)",
+    "page": "ingredients/milk-and-dairy",
+    "form": null,
+    "state": null,
+    "route_rule": "exact",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Cd",
+   "group": "Kirkuk and Sulaymaniyah farms, shops and dairy centers",
+   "group_kind": "variety",
+   "n": 20,
+   "statistic": "mean",
+   "reported": "0.02 - 0.06 (0.04) mg/kg",
+   "value_ugkg": 40,
+   "min_ugkg": 20,
+   "max_ugkg": 60,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 34",
+   "integrity_flag": null,
+   "notes": "",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "saleh2025-kirkuk-milk-lead-cadmium:Cd:goat-milk-raw-kirkuk-and-sulaymaniyah-farms-shops-:min",
+   "material": {
+    "label_as_printed": "Goat milk (raw)",
+    "page": "ingredients/milk-and-dairy",
+    "form": null,
+    "state": null,
+    "route_rule": "exact",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Cd",
+   "group": "Kirkuk and Sulaymaniyah farms, shops and dairy centers",
+   "group_kind": "variety",
+   "n": 20,
+   "statistic": "min",
+   "reported": "0.02 - 0.06 (0.04) mg/kg",
+   "value_ugkg": 20,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 34",
+   "integrity_flag": null,
+   "notes": "",
+   "statistic_raw": "min"
+  },
+  {
+   "id": "saleh2025-kirkuk-milk-lead-cadmium:Cd:goat-milk-raw-kirkuk-and-sulaymaniyah-farms-shops-:max",
+   "material": {
+    "label_as_printed": "Goat milk (raw)",
+    "page": "ingredients/milk-and-dairy",
+    "form": null,
+    "state": null,
+    "route_rule": "exact",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Cd",
+   "group": "Kirkuk and Sulaymaniyah farms, shops and dairy centers",
+   "group_kind": "variety",
+   "n": 20,
+   "statistic": "max",
+   "reported": "0.02 - 0.06 (0.04) mg/kg",
+   "value_ugkg": 60,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 34",
+   "integrity_flag": null,
+   "notes": "",
+   "statistic_raw": "max"
+  },
+  {
+   "id": "saleh2025-kirkuk-milk-lead-cadmium:Pb:goat-milk-raw-kirkuk-and-sulaymaniyah-farms-shops-:mean",
+   "material": {
+    "label_as_printed": "Goat milk (raw)",
+    "page": "ingredients/milk-and-dairy",
+    "form": null,
+    "state": null,
+    "route_rule": "exact",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Pb",
+   "group": "Kirkuk and Sulaymaniyah farms, shops and dairy centers",
+   "group_kind": "variety",
+   "n": 20,
+   "statistic": "mean",
+   "reported": "0.07 – 0.1 (0.04) mg/kg",
+   "value_ugkg": 40,
+   "min_ugkg": 70,
+   "max_ugkg": 100,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 34",
+   "integrity_flag": "printed mean 0.04 mg/kg lies outside its own printed range 0.07–0.1 mg/kg (Table 2 and text agree)",
+   "notes": "",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "saleh2025-kirkuk-milk-lead-cadmium:Pb:goat-milk-raw-kirkuk-and-sulaymaniyah-farms-shops-:min",
+   "material": {
+    "label_as_printed": "Goat milk (raw)",
+    "page": "ingredients/milk-and-dairy",
+    "form": null,
+    "state": null,
+    "route_rule": "exact",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Pb",
+   "group": "Kirkuk and Sulaymaniyah farms, shops and dairy centers",
+   "group_kind": "variety",
+   "n": 20,
+   "statistic": "min",
+   "reported": "0.07 – 0.1 (0.04) mg/kg",
+   "value_ugkg": 70,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 34",
+   "integrity_flag": null,
+   "notes": "",
+   "statistic_raw": "min"
+  },
+  {
+   "id": "saleh2025-kirkuk-milk-lead-cadmium:Pb:goat-milk-raw-kirkuk-and-sulaymaniyah-farms-shops-:max",
+   "material": {
+    "label_as_printed": "Goat milk (raw)",
+    "page": "ingredients/milk-and-dairy",
+    "form": null,
+    "state": null,
+    "route_rule": "exact",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Pb",
+   "group": "Kirkuk and Sulaymaniyah farms, shops and dairy centers",
+   "group_kind": "variety",
+   "n": 20,
+   "statistic": "max",
+   "reported": "0.07 – 0.1 (0.04) mg/kg",
+   "value_ugkg": 100,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 34",
+   "integrity_flag": null,
+   "notes": "",
+   "statistic_raw": "max"
+  },
+  {
+   "id": "saleh2025-kirkuk-milk-lead-cadmium:Cd:buffalo-milk-raw-kirkuk-and-sulaymaniyah-farms-sho:mean",
+   "material": {
+    "label_as_printed": "Buffalo milk (raw)",
+    "page": "ingredients/milk-and-dairy",
+    "form": null,
+    "state": null,
+    "route_rule": "exact",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Cd",
+   "group": "Kirkuk and Sulaymaniyah farms, shops and dairy centers",
+   "group_kind": "variety",
+   "n": 20,
+   "statistic": "mean",
+   "reported": "0.01 - 0.04 (0.025) mg/kg",
+   "value_ugkg": 25,
+   "min_ugkg": 10,
+   "max_ugkg": 40,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 34",
+   "integrity_flag": null,
+   "notes": "",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "saleh2025-kirkuk-milk-lead-cadmium:Cd:buffalo-milk-raw-kirkuk-and-sulaymaniyah-farms-sho:min",
+   "material": {
+    "label_as_printed": "Buffalo milk (raw)",
+    "page": "ingredients/milk-and-dairy",
+    "form": null,
+    "state": null,
+    "route_rule": "exact",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Cd",
+   "group": "Kirkuk and Sulaymaniyah farms, shops and dairy centers",
+   "group_kind": "variety",
+   "n": 20,
+   "statistic": "min",
+   "reported": "0.01 - 0.04 (0.025) mg/kg",
+   "value_ugkg": 10,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 34",
+   "integrity_flag": null,
+   "notes": "",
+   "statistic_raw": "min"
+  },
+  {
+   "id": "saleh2025-kirkuk-milk-lead-cadmium:Cd:buffalo-milk-raw-kirkuk-and-sulaymaniyah-farms-sho:max",
+   "material": {
+    "label_as_printed": "Buffalo milk (raw)",
+    "page": "ingredients/milk-and-dairy",
+    "form": null,
+    "state": null,
+    "route_rule": "exact",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Cd",
+   "group": "Kirkuk and Sulaymaniyah farms, shops and dairy centers",
+   "group_kind": "variety",
+   "n": 20,
+   "statistic": "max",
+   "reported": "0.01 - 0.04 (0.025) mg/kg",
+   "value_ugkg": 40,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 34",
+   "integrity_flag": null,
+   "notes": "",
+   "statistic_raw": "max"
+  },
+  {
+   "id": "saleh2025-kirkuk-milk-lead-cadmium:Pb:buffalo-milk-raw-kirkuk-and-sulaymaniyah-farms-sho:mean",
+   "material": {
+    "label_as_printed": "Buffalo milk (raw)",
+    "page": "ingredients/milk-and-dairy",
+    "form": null,
+    "state": null,
+    "route_rule": "exact",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Pb",
+   "group": "Kirkuk and Sulaymaniyah farms, shops and dairy centers",
+   "group_kind": "variety",
+   "n": 20,
+   "statistic": "mean",
+   "reported": "0.06 – 0.09 (0.075) mg/kg",
+   "value_ugkg": 75,
+   "min_ugkg": 60,
+   "max_ugkg": 90,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 34",
+   "integrity_flag": null,
+   "notes": "",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "saleh2025-kirkuk-milk-lead-cadmium:Pb:buffalo-milk-raw-kirkuk-and-sulaymaniyah-farms-sho:min",
+   "material": {
+    "label_as_printed": "Buffalo milk (raw)",
+    "page": "ingredients/milk-and-dairy",
+    "form": null,
+    "state": null,
+    "route_rule": "exact",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Pb",
+   "group": "Kirkuk and Sulaymaniyah farms, shops and dairy centers",
+   "group_kind": "variety",
+   "n": 20,
+   "statistic": "min",
+   "reported": "0.06 – 0.09 (0.075) mg/kg",
+   "value_ugkg": 60,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 34",
+   "integrity_flag": null,
+   "notes": "",
+   "statistic_raw": "min"
+  },
+  {
+   "id": "saleh2025-kirkuk-milk-lead-cadmium:Pb:buffalo-milk-raw-kirkuk-and-sulaymaniyah-farms-sho:max",
+   "material": {
+    "label_as_printed": "Buffalo milk (raw)",
+    "page": "ingredients/milk-and-dairy",
+    "form": null,
+    "state": null,
+    "route_rule": "exact",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Pb",
+   "group": "Kirkuk and Sulaymaniyah farms, shops and dairy centers",
+   "group_kind": "variety",
+   "n": 20,
+   "statistic": "max",
+   "reported": "0.06 – 0.09 (0.075) mg/kg",
+   "value_ugkg": 90,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 34",
+   "integrity_flag": null,
+   "notes": "",
+   "statistic_raw": "max"
+  }
+ ],
+ "sample_values": [],
+ "controls": [],
+ "unresolved": [
+  "Sample count conflict: text says 100 samples of milk and dairy products but lists only 80 (20 each of cow, sheep, goat, buffalo milk); no dairy-product (non-milk) metal results are reported.",
+  "Per-site sample counts in Table 1 not stated.",
+  "\"Total\" rows in Tables 1 and 2 are sums of Cd and Pb, not analytes; not recorded. Text gives cow milk total as \"1.03 - 0.08 mg/kg\", conflicting with Table 2 (0.04 - 0.08).",
+  "Results reported as mg/kg although 2 mL or 2 g aliquots were digested; whether mg/kg or mg/L is meant is not stated.",
+  "Protein and fat results (Tables 3-4, Figures 5-8) are not metal findings."
+ ],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [
+  {
+   "what": "Maximum permitted limit for cadmium in milk cited as WHO/Codex",
+   "value": "0.02–0.05 mg/kg",
+   "locator": "p. 34"
+  },
+  {
+   "what": "Maximum permissible limit for lead in milk cited as WHO",
+   "value": "0.02 mg/kg",
+   "locator": "p. 34"
+  }
+ ],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/saleh2025-kirkuk-milk-lead-cadmium.md",
+ "non_numeric_findings": [],
+ "merged_unmatched": [],
+ "merged_snapshot": null,
+ "raw_output": "data/evidence/findings/extract/raw/saleh2025-kirkuk-milk-lead-cadmium.json"
+}

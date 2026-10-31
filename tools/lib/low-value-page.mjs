@@ -1,4 +1,26 @@
-import { citationReviewIssue } from "./source-publication.mjs"
+import fs from "node:fs"
+import path from "node:path"
+import { citationReviewIssue, isRetiredRecord } from "./source-publication.mjs"
+
+// Pages that receive a 301 (fold targets such as soft-drink-bases) stay indexable whatever
+// their stub status: redirected URLs land there (HMI-HELD-TRIAGE-1, Elon 26 Oct 2026 04:18 (5)).
+let cachedTargets
+export function redirectTargets(root = process.cwd()) {
+  if (cachedTargets && cachedTargets.root === root) return cachedTargets.set
+  const set = new Set()
+  const add = (dest) => {
+    const slug = String(dest ?? "").split(/[#?]/)[0].replace(/^\/+|\/+$/g, "")
+    if (slug && !/^[a-z]+:/i.test(slug)) set.add(slug)
+  }
+  try {
+    for (const r of JSON.parse(fs.readFileSync(path.join(root, "vercel.json"), "utf8")).redirects ?? []) add(r.destination)
+  } catch {}
+  try {
+    for (const dest of Object.values(JSON.parse(fs.readFileSync(path.join(root, "data/redirects/aliases-301.json"), "utf8")).redirects ?? {})) add(dest)
+  } catch {}
+  cachedTargets = { root, set }
+  return set
+}
 
 const OPERATIONAL = [
   "audits",
@@ -75,6 +97,12 @@ function hasPromotedSources(frontmatter, body) {
   return false
 }
 
+function hasCitedEvidence(body) {
+  if (/data-occurrence-row|class="hmi-form-group"/.test(body)) return true
+  const refs = body.search(/^##\s+References\s*$/m)
+  return refs >= 0 && /\[\[sources\/[^\]\s|]+/.test(body.slice(refs))
+}
+
 export function isLowValuePage(frontmatter = {}, slug = "", fileData = {}) {
   const normalized = String(slug)
     .replace(/^\/+|\/+$/g, "")
@@ -82,7 +110,21 @@ export function isLowValuePage(frontmatter = {}, slug = "", fileData = {}) {
     .replace(/\/$/, "")
   if (OPERATIONAL.some((prefix) => normalized === prefix || normalized.startsWith(`${prefix}/`)))
     return true
-  if (citationReviewIssue(frontmatter)) return true
+  if ((fileData.redirectTargets ?? redirectTargets()).has(normalized)) return false
+  if (isRetiredRecord(frontmatter)) return true
+  // A product with a taxonomy category is a live index page even when the
+  // body is still a scaffold. Products with no category number stay on the
+  // evidence rules until they are filed. Retired stubs are excluded above.
+  const categoryNumber = frontmatter.hmtc_category
+  if (
+    String(frontmatter.type) === "product-category" &&
+    /^products\/[^/]+$/.test(normalized) &&
+    Number.isInteger(categoryNumber)
+  )
+    return false
+  // Bibliographic review flags apply to source records; a regulation or topic page with an
+  // unverified title is still a substantive page (#441 follow-up, 26 Oct 2026).
+  if (normalized.startsWith("sources/") && citationReviewIssue(frontmatter)) return true
 
   const body = String(fileData.indexingBody ?? fileData.body ?? fileData.text ?? "")
   const food =
@@ -90,7 +132,9 @@ export function isLowValuePage(frontmatter = {}, slug = "", fileData = {}) {
     (/^(?:ingredients|products)\/[^/]+$/.test(normalized) &&
       !/^(?:ingredients|products)\/categories$/.test(normalized) &&
       !/(?:^|\/)index$/.test(String(slug)))
-  if (food && !hasPopulatedProfile(frontmatter) && !hasPromotedSources(frontmatter, body))
+  // A food page whose body cites source records or renders occurrence rows (the source-first
+  // engine and reviewed builds) is substantive, whatever its legacy profile fields say.
+  if (food && !hasPopulatedProfile(frontmatter) && !hasPromotedSources(frontmatter, body) && !hasCitedEvidence(body))
     return true
 
   // Match the generator's active body templates, not historic provenance or

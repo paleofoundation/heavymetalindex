@@ -1,0 +1,27 @@
+{
+  "source_id": "nassar2025-spectrophotometric-cadmium-method",
+  "primary_artifact": "/Volumes/HMI-Library/heavy-metal-index-raw/markdown/FM_12069838/FM_12069838.md",
+  "primary_sha256": "78a593bfa20ced336f088895c1849ed822886a0058ec7ce7df1a1b333f04a72f",
+  "text_copy": "data/evidence/contracts/most-studied-rollout-2026-10-22/cocoa/primary/nassar2025-spectrophotometric-cadmium-method.txt",
+  "disposition": "out_of_scope",
+  "disposition_reason": "Analytical-chemistry paper developing a bis-thiosemicarbazone UV-Vis method for Cd(II) in solution; no cocoa, cacao or chocolate mention and no food occurrence data for cocoa.",
+  "disposition_locator": "Whole text searched (0 hits)",
+  "study": {
+    "design": "analytical method development",
+    "material_scope": "none (no cocoa material analysed)",
+    "growing_origin_vs_market": null,
+    "collection_period": null,
+    "n_total": null,
+    "sampling_unit": null,
+    "method": null,
+    "lod_loq": null,
+    "basis": null,
+    "qa": null
+  },
+  "findings": [],
+  "sample_values": [],
+  "controls": [],
+  "regulatory": [],
+  "contradictions_with_stored_summary": [],
+  "unresolved": []
+}

@@ -1,4 +1,9 @@
 ---
+retired: true
+noindex: true
+redirect_target: products/dairy-cream
+retirement_date: 2026-10-25
+retirement_authority: "HMI-HELD-TRIAGE-1 (Elon PASS 25 Oct 2026 21:01): 301 to parent; findings stay in the store"
 title: "Half and half"
 dek: "A dairy product combining whole milk and cream, used in coffee, sauces and baking. Evidence covers measured metals, processing, ingredient uses and regulatory limits."
 rail_highlights:

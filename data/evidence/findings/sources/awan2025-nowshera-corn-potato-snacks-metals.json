@@ -1,0 +1,469 @@
+{
+ "source_id": "awan2025-nowshera-corn-potato-snacks-metals",
+ "primary_artifact": "/Users/kmfp/papers-for-claude/hmi-thin/batch-05-addendum/nondoi/pdfs/awan_2025_cream-of-potato-soup.pdf",
+ "primary_sha256": "df5ea0528620be2ffbd815a507e8cbca674bcdda6731dee6980e83a8f31edb57",
+ "extracted_at": "2026-10-24",
+ "extractor": "engine-v1",
+ "disposition": "occurrence_extracted",
+ "disposition_reason": "The Results text prints range and mean ± SD of lead, cadmium, chromium and copper across 96 potato and corn snack samples from District Nowshera.",
+ "disposition_locator": "Results, p. 246",
+ "study": {
+  "design": "Cross-sectional market survey, convenience sampling of 96 snack products",
+  "origin": "not stated (branded and locally manufactured products)",
+  "market": "shops and supermarkets in Pabbi, Nowshera and Jahangira tehsils, District Nowshera, Khyber Pakhtunkhwa, Pakistan",
+  "period": {
+   "from": 2023,
+   "to": 2024,
+   "as_reported": "December 2023 to May 2024"
+  },
+  "method": "Nitric/perchloric acid digestion; AAS",
+  "lod": [
+   "not stated"
+  ],
+  "basis": "unknown",
+  "qa": "not reported",
+  "site_context": "market"
+ },
+ "findings": [
+  {
+   "id": "awan2025-nowshera-corn-potato-snacks-metals:Pb:potato-corn-and-mixed-based-snacks-all-96-snack-sa:min",
+   "material": {
+    "label_as_printed": "Potato-, corn- and mixed-based snacks",
+    "page": null,
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "ambiguous",
+    "route_candidates": [
+     "ingredients/potatoes",
+     "ingredients/corn"
+    ]
+   },
+   "analyte": "Pb",
+   "group": "all 96 snack samples (60 potato-based, 24 corn-based, 12 mixed; 53 branded, 43 local), District Nowshera",
+   "group_kind": "all_samples",
+   "n": 96,
+   "statistic": "min",
+   "reported": "0.057 mg/kg",
+   "value_ugkg": 57,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Results, p. 246",
+   "integrity_flag": null,
+   "notes": "",
+   "statistic_raw": "min"
+  },
+  {
+   "id": "awan2025-nowshera-corn-potato-snacks-metals:Pb:potato-corn-and-mixed-based-snacks-all-96-snack-sa:max",
+   "material": {
+    "label_as_printed": "Potato-, corn- and mixed-based snacks",
+    "page": null,
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "ambiguous",
+    "route_candidates": [
+     "ingredients/potatoes",
+     "ingredients/corn"
+    ]
+   },
+   "analyte": "Pb",
+   "group": "all 96 snack samples (60 potato-based, 24 corn-based, 12 mixed; 53 branded, 43 local), District Nowshera",
+   "group_kind": "all_samples",
+   "n": 96,
+   "statistic": "max",
+   "reported": "0.422 mg/kg",
+   "value_ugkg": 422,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Results, p. 246",
+   "integrity_flag": null,
+   "notes": "",
+   "statistic_raw": "max"
+  },
+  {
+   "id": "awan2025-nowshera-corn-potato-snacks-metals:Pb:potato-corn-and-mixed-based-snacks-all-96-snack-sa:mean",
+   "material": {
+    "label_as_printed": "Potato-, corn- and mixed-based snacks",
+    "page": null,
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "ambiguous",
+    "route_candidates": [
+     "ingredients/potatoes",
+     "ingredients/corn"
+    ]
+   },
+   "analyte": "Pb",
+   "group": "all 96 snack samples (60 potato-based, 24 corn-based, 12 mixed; 53 branded, 43 local), District Nowshera",
+   "group_kind": "all_samples",
+   "n": 96,
+   "statistic": "mean",
+   "reported": "0.214 ± 0.094 mg/kg",
+   "value_ugkg": 214,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 94,
+   "unit_original": "mg/kg",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Results, p. 246",
+   "integrity_flag": null,
+   "notes": "",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "awan2025-nowshera-corn-potato-snacks-metals:Cd:potato-corn-and-mixed-based-snacks-all-96-snack-sa:min",
+   "material": {
+    "label_as_printed": "Potato-, corn- and mixed-based snacks",
+    "page": null,
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "ambiguous",
+    "route_candidates": [
+     "ingredients/potatoes",
+     "ingredients/corn"
+    ]
+   },
+   "analyte": "Cd",
+   "group": "all 96 snack samples (60 potato-based, 24 corn-based, 12 mixed; 53 branded, 43 local), District Nowshera",
+   "group_kind": "all_samples",
+   "n": 96,
+   "statistic": "min",
+   "reported": "0.004 mg/kg",
+   "value_ugkg": 4,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Results, p. 246",
+   "integrity_flag": null,
+   "notes": "",
+   "statistic_raw": "min"
+  },
+  {
+   "id": "awan2025-nowshera-corn-potato-snacks-metals:Cd:potato-corn-and-mixed-based-snacks-all-96-snack-sa:max",
+   "material": {
+    "label_as_printed": "Potato-, corn- and mixed-based snacks",
+    "page": null,
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "ambiguous",
+    "route_candidates": [
+     "ingredients/potatoes",
+     "ingredients/corn"
+    ]
+   },
+   "analyte": "Cd",
+   "group": "all 96 snack samples (60 potato-based, 24 corn-based, 12 mixed; 53 branded, 43 local), District Nowshera",
+   "group_kind": "all_samples",
+   "n": 96,
+   "statistic": "max",
+   "reported": "0.045 mg/kg",
+   "value_ugkg": 45,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Results, p. 246",
+   "integrity_flag": null,
+   "notes": "",
+   "statistic_raw": "max"
+  },
+  {
+   "id": "awan2025-nowshera-corn-potato-snacks-metals:Cd:potato-corn-and-mixed-based-snacks-all-96-snack-sa:mean",
+   "material": {
+    "label_as_printed": "Potato-, corn- and mixed-based snacks",
+    "page": null,
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "ambiguous",
+    "route_candidates": [
+     "ingredients/potatoes",
+     "ingredients/corn"
+    ]
+   },
+   "analyte": "Cd",
+   "group": "all 96 snack samples (60 potato-based, 24 corn-based, 12 mixed; 53 branded, 43 local), District Nowshera",
+   "group_kind": "all_samples",
+   "n": 96,
+   "statistic": "mean",
+   "reported": "0.012 ± 0.009 mg/kg",
+   "value_ugkg": 12,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 9,
+   "unit_original": "mg/kg",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Results, p. 246",
+   "integrity_flag": null,
+   "notes": "",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "awan2025-nowshera-corn-potato-snacks-metals:Cr:potato-corn-and-mixed-based-snacks-all-96-snack-sa:min",
+   "material": {
+    "label_as_printed": "Potato-, corn- and mixed-based snacks",
+    "page": null,
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "ambiguous",
+    "route_candidates": [
+     "ingredients/potatoes",
+     "ingredients/corn"
+    ]
+   },
+   "analyte": "Cr",
+   "group": "all 96 snack samples (60 potato-based, 24 corn-based, 12 mixed; 53 branded, 43 local), District Nowshera",
+   "group_kind": "all_samples",
+   "n": 96,
+   "statistic": "min",
+   "reported": "2.137 mg/kg",
+   "value_ugkg": 2137,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Results, p. 246",
+   "integrity_flag": null,
+   "notes": "",
+   "statistic_raw": "min"
+  },
+  {
+   "id": "awan2025-nowshera-corn-potato-snacks-metals:Cr:potato-corn-and-mixed-based-snacks-all-96-snack-sa:max",
+   "material": {
+    "label_as_printed": "Potato-, corn- and mixed-based snacks",
+    "page": null,
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "ambiguous",
+    "route_candidates": [
+     "ingredients/potatoes",
+     "ingredients/corn"
+    ]
+   },
+   "analyte": "Cr",
+   "group": "all 96 snack samples (60 potato-based, 24 corn-based, 12 mixed; 53 branded, 43 local), District Nowshera",
+   "group_kind": "all_samples",
+   "n": 96,
+   "statistic": "max",
+   "reported": "2.328 mg/kg",
+   "value_ugkg": 2328,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Results, p. 246",
+   "integrity_flag": null,
+   "notes": "",
+   "statistic_raw": "max"
+  },
+  {
+   "id": "awan2025-nowshera-corn-potato-snacks-metals:Cr:potato-corn-and-mixed-based-snacks-all-96-snack-sa:mean",
+   "material": {
+    "label_as_printed": "Potato-, corn- and mixed-based snacks",
+    "page": null,
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "ambiguous",
+    "route_candidates": [
+     "ingredients/potatoes",
+     "ingredients/corn"
+    ]
+   },
+   "analyte": "Cr",
+   "group": "all 96 snack samples (60 potato-based, 24 corn-based, 12 mixed; 53 branded, 43 local), District Nowshera",
+   "group_kind": "all_samples",
+   "n": 96,
+   "statistic": "mean",
+   "reported": "2.211 ± 0.047 mg/kg",
+   "value_ugkg": 2211,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 47,
+   "unit_original": "mg/kg",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Results, p. 246",
+   "integrity_flag": null,
+   "notes": "Abstract prints chromium as 2.21 ± 0.05 mg/kg.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "awan2025-nowshera-corn-potato-snacks-metals:Cu:potato-corn-and-mixed-based-snacks-all-96-snack-sa:min",
+   "material": {
+    "label_as_printed": "Potato-, corn- and mixed-based snacks",
+    "page": null,
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "ambiguous",
+    "route_candidates": [
+     "ingredients/potatoes",
+     "ingredients/corn"
+    ]
+   },
+   "analyte": "Cu",
+   "group": "all 96 snack samples (60 potato-based, 24 corn-based, 12 mixed; 53 branded, 43 local), District Nowshera",
+   "group_kind": "all_samples",
+   "n": 96,
+   "statistic": "min",
+   "reported": "0.009 mg/kg",
+   "value_ugkg": 9,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Results, p. 246",
+   "integrity_flag": null,
+   "notes": "",
+   "statistic_raw": "min"
+  },
+  {
+   "id": "awan2025-nowshera-corn-potato-snacks-metals:Cu:potato-corn-and-mixed-based-snacks-all-96-snack-sa:max",
+   "material": {
+    "label_as_printed": "Potato-, corn- and mixed-based snacks",
+    "page": null,
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "ambiguous",
+    "route_candidates": [
+     "ingredients/potatoes",
+     "ingredients/corn"
+    ]
+   },
+   "analyte": "Cu",
+   "group": "all 96 snack samples (60 potato-based, 24 corn-based, 12 mixed; 53 branded, 43 local), District Nowshera",
+   "group_kind": "all_samples",
+   "n": 96,
+   "statistic": "max",
+   "reported": "0.102 mg/kg",
+   "value_ugkg": 102,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Results, p. 246",
+   "integrity_flag": null,
+   "notes": "",
+   "statistic_raw": "max"
+  },
+  {
+   "id": "awan2025-nowshera-corn-potato-snacks-metals:Cu:potato-corn-and-mixed-based-snacks-all-96-snack-sa:mean",
+   "material": {
+    "label_as_printed": "Potato-, corn- and mixed-based snacks",
+    "page": null,
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "ambiguous",
+    "route_candidates": [
+     "ingredients/potatoes",
+     "ingredients/corn"
+    ]
+   },
+   "analyte": "Cu",
+   "group": "all 96 snack samples (60 potato-based, 24 corn-based, 12 mixed; 53 branded, 43 local), District Nowshera",
+   "group_kind": "all_samples",
+   "n": 96,
+   "statistic": "mean",
+   "reported": "0.043 ± 0.019 mg/kg",
+   "value_ugkg": 43,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 19,
+   "unit_original": "mg/kg",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Results, p. 246",
+   "integrity_flag": null,
+   "notes": "",
+   "statistic_raw": "mean"
+  }
+ ],
+ "sample_values": [],
+ "controls": [
+  {
+   "control": "local vs branded snacks",
+   "stage": "sourcing",
+   "evidence_kind": "observational",
+   "comparator": "branded snacks",
+   "outcome": "Abstract: Cd (p = 0.001) and Cr (p = 0.013) higher in local products; Pb and Cu not different; group values shown in a figure only",
+   "analytes": [
+    "Cd",
+    "Cr",
+    "Pb",
+    "Cu"
+   ],
+   "locator": "Abstract; Figure 2"
+  },
+  {
+   "control": "snack base (potato vs corn vs mixed)",
+   "stage": "sourcing",
+   "evidence_kind": "observational",
+   "comparator": "other snack types",
+   "outcome": "Table 1 ANOVA p-values only (Pb 0.442, Cd 0.001, Cr 0.013, Cu 0.326); no group means printed",
+   "analytes": [
+    "Pb",
+    "Cd",
+    "Cr",
+    "Cu"
+   ],
+   "locator": "Table 1, p. 247"
+  }
+ ],
+ "unresolved": [
+  "No potato-only results are printed; all concentrations are pooled across potato, corn and mixed snacks.",
+  "The same p-values (Cd 0.001, Cr 0.013) are attributed to the local-vs-branded test in the abstract and to the snack-type ANOVA in Table 1.",
+  "Chromium spanning only 2.137-2.328 mg/kg in 96 different products is unusually narrow; no QA is reported.",
+  "Weight basis not stated."
+ ],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [
+  {
+   "what": "WHO/FAO limits used by authors",
+   "value": "Pb 0.5, Cd 0.1, Cr 1, Cu 0.4 mg/kg",
+   "locator": "p. 246"
+  }
+ ],
+ "source_record_corrections": [
+  "PDF prints DOI 10.59736/IJP.23.04.1011; recorded as access URL only (doi: null) pending Crossref verification."
+ ],
+ "source_record": "wiki/sources/awan2025-nowshera-corn-potato-snacks-metals.md",
+ "non_numeric_findings": [],
+ "merged_unmatched": [],
+ "merged_snapshot": null,
+ "raw_output": "data/evidence/findings/extract/raw/awan2025-nowshera-corn-potato-snacks-metals.json"
+}

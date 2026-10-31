@@ -1,6 +1,8 @@
 ---
+hmtc_subcategory_name: "Baby cereals / grain products (dry)"
+hmtc_category_name: "Infant and Child Foods"
 type: product-category
-category: infant-porridges-dairy-free
+category: baby-cereals-dry
 title: "Infant Porridges Dairy Free"
 dek: "Porridges for infants without a dairy base are examined through reported arsenic measurements. The page preserves distinctions between baby porridge results and broader porridge summaries."
 rail_highlights:
@@ -12,8 +14,8 @@ rail_highlights:
     text: Baby porridge measurements describe the marketed wet product
     source: sources/noh2023-arsenic-rice-snacks-korea
     source_label: Korean survey
-hmtc_category: pending_taxonomy_review
-hmtc_row: pending_taxonomy_review
+hmtc_category: 1
+hmtc_row: 3
 provisional_scaffold: true
 provisional_created: 2026-05-17
 provisional_reason: "heal-gaps: routing_unresolved entry from source trace2025-trace-element-intake-dairy-free declared product/infant-porridges-dairy-free, no close-slug match"
@@ -85,7 +87,7 @@ Works cited in this page's text, in first-appearance order. See [Sources](#sourc
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-<p class="hmi-table-note">Sources catalogued for this page. The last column says how each source is used here.</p>
+<p class="hmi-table-note">Source records associated with this topic. Inclusion does not establish that every finding applies to this product or ingredient. References above identify works cited in the text.</p>
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
@@ -104,13 +106,13 @@ The five most recent substantive edits to this page. The full version history li
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [25025979f](https://github.com/paleofoundation/heavymetalindex/commit/25025979f) | 2026-10-17 | minor | Narrative text revised |
+| [4b02f1fc8](https://github.com/paleofoundation/heavymetalindex/commit/4b02f1fc8) | 2026-10-16 | major | 1 source removed; 4 sections added and 1 removed; narrative text revised |
+| [9b6ae06c0](https://github.com/paleofoundation/heavymetalindex/commit/9b6ae06c0) | 2026-10-16 | major | 5 sources added; 2 sections added; narrative text revised |
+| [3aa5aa523](https://github.com/paleofoundation/heavymetalindex/commit/3aa5aa523) | 2026-09-28 | correction | Narrative text revised |
 | [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | minor | Narrative text revised |
-| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
-| [91c7d5591](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591) | 2026-08-02 | minor | Narrative text revised |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [bff8abb72](https://github.com/paleofoundation/heavymetalindex/commit/bff8abb72) | 2026-07-27 | correction | 1 section added and 1 removed |
 <!-- END: hmi-page-history -->

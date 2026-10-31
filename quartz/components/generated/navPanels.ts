@@ -39,37 +39,37 @@ export const navPanels: NavPanel[] = [
           {
             "label": "Lead",
             "slug": "metals/lead",
-            "count": 1455
+            "count": 2034
           },
           {
             "label": "Cadmium",
             "slug": "metals/cadmium",
-            "count": 1584
+            "count": 2103
           },
           {
             "label": "Arsenic",
             "slug": "metals/arsenic",
-            "count": 875
+            "count": 1058
           },
           {
             "label": "Mercury",
             "slug": "metals/mercury",
-            "count": 875
+            "count": 995
           },
           {
             "label": "Nickel",
             "slug": "metals/nickel",
-            "count": 774
+            "count": 935
           },
           {
             "label": "Chromium",
             "slug": "metals/chromium",
-            "count": 879
+            "count": 1017
           },
           {
             "label": "Aluminum",
             "slug": "metals/aluminum",
-            "count": 530
+            "count": 585
           }
         ]
       },
@@ -79,37 +79,37 @@ export const navPanels: NavPanel[] = [
           {
             "label": "Inorganic arsenic",
             "slug": "metals/arsenic-inorganic",
-            "count": 107
+            "count": 119
           },
           {
             "label": "Total arsenic",
             "slug": "metals/arsenic-total",
-            "count": 368
+            "count": 445
           },
           {
             "label": "Methylmercury",
             "slug": "metals/mercury-methyl",
-            "count": 62
+            "count": 63
           },
           {
             "label": "Total mercury",
             "slug": "metals/mercury-total",
-            "count": 276
+            "count": 315
           },
           {
             "label": "Hexavalent chromium",
             "slug": "metals/chromium-hexavalent",
-            "count": 74
+            "count": 77
           },
           {
             "label": "Tin",
             "slug": "metals/tin",
-            "count": 226
+            "count": 239
           },
           {
             "label": "Antimony",
             "slug": "metals/antimony",
-            "count": 68
+            "count": 152
           }
         ]
       },
@@ -131,16 +131,16 @@ export const navPanels: NavPanel[] = [
           {
             "label": "Testing methods",
             "slug": "testing",
-            "count": 2
+            "count": 14
           }
         ]
       }
     ],
-    "allLabel": "All 36 metals"
+    "allLabel": "All 37 metals"
   },
   {
     "key": "ingredients",
-    "label": "Foods",
+    "label": "Ingredients",
     "panelLabel": "Foods & ingredients",
     "slug": "ingredients",
     "blurb": "Commodity-level contamination profiles: why an ingredient accumulates, and how much.",
@@ -151,37 +151,37 @@ export const navPanels: NavPanel[] = [
           {
             "label": "Rice",
             "slug": "ingredients/rice",
-            "count": 264
+            "count": 265
           },
           {
             "label": "Cocoa",
             "slug": "ingredients/cocoa",
-            "count": 69
+            "count": 76
           },
           {
             "label": "Fish",
             "slug": "ingredients/fish",
-            "count": 304
+            "count": 316
           },
           {
             "label": "Leafy greens",
             "slug": "ingredients/leafy-greens",
-            "count": 38
+            "count": 41
           },
           {
             "label": "Black pepper",
             "slug": "ingredients/black-pepper",
-            "count": 12
+            "count": 13
           },
           {
             "label": "Seaweed",
             "slug": "ingredients/seaweed",
-            "count": 85
+            "count": 88
           },
           {
             "label": "Cinnamon",
             "slug": "ingredients/cinnamon",
-            "count": 19
+            "count": 20
           }
         ]
       },
@@ -192,43 +192,43 @@ export const navPanels: NavPanel[] = [
             "label": "Fruits",
             "slug": "ingredients",
             "anchor": "fruits",
-            "count": 30
+            "count": 28
           },
           {
             "label": "Vegetables",
             "slug": "ingredients",
             "anchor": "vegetables",
-            "count": 43
+            "count": 42
           },
           {
             "label": "Grains, cereals & bakery",
             "slug": "ingredients",
             "anchor": "grains-cereals--bakery",
-            "count": 35
+            "count": 21
           },
           {
             "label": "Fish & seafood",
             "slug": "ingredients",
             "anchor": "fish--seafood",
-            "count": 14
+            "count": 13
           },
           {
             "label": "Meat & poultry",
             "slug": "ingredients",
             "anchor": "meat--poultry",
-            "count": 16
+            "count": 14
           },
           {
             "label": "Herbs, spices & botanicals",
             "slug": "ingredients",
             "anchor": "herbs-spices--botanicals",
-            "count": 13
+            "count": 14
           },
           {
             "label": "Beverages & water",
             "slug": "ingredients",
             "anchor": "beverages--water",
-            "count": 17
+            "count": 14
           }
         ]
       },
@@ -254,7 +254,7 @@ export const navPanels: NavPanel[] = [
         ]
       }
     ],
-    "allLabel": "All 363 ingredients"
+    "allLabel": "All 388 ingredients"
   },
   {
     "key": "products",
@@ -269,7 +269,7 @@ export const navPanels: NavPanel[] = [
           {
             "label": "Infant formula, powder",
             "slug": "products/infant-formula-powder-non-soy",
-            "count": 57
+            "count": 60
           },
           {
             "label": "Infant formula, soy",
@@ -279,17 +279,17 @@ export const navPanels: NavPanel[] = [
           {
             "label": "Rice-based baby cereal",
             "slug": "products/baby-cereals-dry-rice-based",
-            "count": 77
+            "count": 79
           },
           {
             "label": "Non-rice baby cereal",
             "slug": "products/baby-cereals-dry-non-rice",
-            "count": 37
+            "count": 38
           },
           {
             "label": "Fruit purees",
             "slug": "products/fruit-purees",
-            "count": 34
+            "count": 35
           },
           {
             "label": "Vegetable purees",
@@ -299,7 +299,7 @@ export const navPanels: NavPanel[] = [
           {
             "label": "Rice snacks & crackers",
             "slug": "products/rice-snacks-crackers",
-            "count": 13
+            "count": 15
           }
         ]
       },
@@ -309,37 +309,37 @@ export const navPanels: NavPanel[] = [
           {
             "label": "Seafood",
             "slug": "products/fish-marine-predatory",
-            "count": 368
+            "count": 370
           },
           {
             "label": "Shellfish",
             "slug": "products/shellfish",
-            "count": 452
+            "count": 454
           },
           {
             "label": "Seaweed & kelp foods",
             "slug": "products/seaweed-kelp-foods",
-            "count": 209
+            "count": 210
           },
           {
             "label": "Bottled drinking water",
             "slug": "products/bottled-drinking-water",
-            "count": 27
+            "count": 45
           },
           {
             "label": "Baby wipes",
             "slug": "products/baby-wipes",
-            "count": 79
+            "count": 93
           },
           {
             "label": "Baby lotion & cream",
             "slug": "products/baby-lotion-cream",
-            "count": 16
+            "count": 20
           },
           {
             "label": "Mineral sunscreen",
             "slug": "products/baby-sunscreen-mineral",
-            "count": 138
+            "count": 160
           }
         ]
       },
@@ -353,7 +353,7 @@ export const navPanels: NavPanel[] = [
           {
             "label": "Testing & verification",
             "slug": "testing",
-            "count": 2
+            "count": 14
           },
           {
             "label": "Limits by jurisdiction",
@@ -362,7 +362,7 @@ export const navPanels: NavPanel[] = [
         ]
       }
     ],
-    "allLabel": "All 416 categories"
+    "allLabel": "All 491 categories"
   },
   {
     "key": "regulations",
@@ -458,7 +458,7 @@ export const navPanels: NavPanel[] = [
         ]
       }
     ],
-    "allLabel": "All 180 regulations"
+    "allLabel": "All 198 regulations"
   },
   {
     "key": "evidence",
@@ -499,7 +499,7 @@ export const navPanels: NavPanel[] = [
           {
             "label": "Defensibility audits",
             "slug": "audits",
-            "count": 16
+            "count": 15
           }
         ]
       },
@@ -509,17 +509,17 @@ export const navPanels: NavPanel[] = [
           {
             "label": "Source archive",
             "slug": "sources",
-            "count": 3088
+            "count": 3936
           },
           {
             "label": "Synthesis findings",
             "slug": "synthesis",
-            "count": 25
+            "count": 32
           },
           {
             "label": "Testing methods",
             "slug": "testing",
-            "count": 2
+            "count": 14
           },
           {
             "label": "ICP-MS",

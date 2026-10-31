@@ -1,0 +1,97 @@
+{
+  "source_id": "codex-cxs-193-1995",
+  "primary_artifact": "/Volumes/HMI-Library/Regulatory documents/CXS_193e.pdf",
+  "primary_sha256": "71abd98377fdf1ce82644e147902b136c5e067a52a86af2f6b8142f227507c65",
+  "text_copy": "data/evidence/contracts/most-studied-rollout-2026-10-22/cocoa/primary/codex-cxs-193-1995-2025-edition.txt",
+  "disposition": "exposure_or_regulatory_used",
+  "disposition_reason": "The 2025 edition's cadmium schedule lists five cocoa/chocolate MLs: chocolates <30% total cocoa solids (dry matter basis) 0.3, >=30-<50% 0.7, >=50-<70% 0.8, >=70% 0.9, and cocoa powder (100% total cocoa solids, dry matter basis, ready for consumption) 2.0 mg/kg. The access-map primary (2009-amended edition) contains no cocoa or chocolate ML (only 'excluding cocoa butter' in the vegetable-oil lead rows).",
+  "disposition_locator": "2025 edition, Cadmium schedule, cocoa/chocolate rows, printed/PDF p. 60; 2009 edition Schedule I p. 35 (no cocoa ML)",
+  "study": {
+    "design": "regulation",
+    "material_scope": "chocolate by total cocoa solids class; 100% cocoa powder",
+    "growing_origin_vs_market": null,
+    "collection_period": null,
+    "n_total": null,
+    "sampling_unit": null,
+    "method": null,
+    "lod_loq": null,
+    "basis": "whole commodity as prepared for wholesale or retail distribution; class defined by % total cocoa solids on a dry matter basis",
+    "qa": null
+  },
+  "findings": [],
+  "sample_values": [],
+  "controls": [],
+  "regulatory": [
+    {
+      "jurisdiction": "Codex",
+      "instrument": "Codex General Standard for Contaminants and Toxins in Food and Feed (CXS 193-1995), edition 'adopted in 1995, last amended in 2025'",
+      "analyte": "Cd",
+      "product": "Chocolates containing or declaring < 30% total cocoa solids on a dry matter basis (including milk chocolate, family milk chocolate, milk chocolate couverture, Gianduja milk chocolate, table chocolate, milk chocolate Vermicelli/milk chocolate flakes)",
+      "value": 0.3,
+      "unit": "mg/kg",
+      "status": "Codex international standard (adopted; not self-executing); adoption year not printed in the table; CCCF17 report states the cocoa MLs were adopted 2018-2022",
+      "locator": "CXS 193-1995 (2025 ed.) Cadmium schedule, p. 60",
+      "basis": "whole commodity as prepared for wholesale or retail distribution"
+    },
+    {
+      "jurisdiction": "Codex",
+      "instrument": "Codex General Standard for Contaminants and Toxins in Food and Feed (CXS 193-1995), edition 'adopted in 1995, last amended in 2025'",
+      "analyte": "Cd",
+      "product": "Chocolate containing or declaring ≥ 30% to < 50% total cocoa solids on a dry matter basis (including sweet chocolate, Gianduja chocolate, semi-bitter table chocolate, Vermicelli chocolate/chocolate flakes, bitter table chocolate, couverture chocolate)",
+      "value": 0.7,
+      "unit": "mg/kg",
+      "status": "Codex international standard (as above)",
+      "locator": "CXS 193-1995 (2025 ed.) Cadmium schedule, p. 60",
+      "basis": "whole commodity as prepared for wholesale or retail distribution"
+    },
+    {
+      "jurisdiction": "Codex",
+      "instrument": "Codex General Standard for Contaminants and Toxins in Food and Feed (CXS 193-1995), edition 'adopted in 1995, last amended in 2025'",
+      "analyte": "Cd",
+      "product": "Chocolate containing or declaring ≥ 50% to < 70% total cocoa solids on a dry matter basis (including sweet chocolate, Gianduja chocolate, semi-bitter table chocolate, Vermicelli chocolate/chocolate flakes, and bitter table chocolate)",
+      "value": 0.8,
+      "unit": "mg/kg",
+      "status": "Codex international standard (as above)",
+      "locator": "CXS 193-1995 (2025 ed.) Cadmium schedule, p. 60",
+      "basis": "whole commodity as prepared for wholesale or retail distribution"
+    },
+    {
+      "jurisdiction": "Codex",
+      "instrument": "Codex General Standard for Contaminants and Toxins in Food and Feed (CXS 193-1995), edition 'adopted in 1995, last amended in 2025'",
+      "analyte": "Cd",
+      "product": "Chocolate containing or declaring ≥ 70% total cocoa solids on a dry matter basis (including sweet chocolate, Gianduja chocolate, semi-bitter table chocolate, Vermicelli chocolate/chocolate flakes, and bitter table chocolate)",
+      "value": 0.9,
+      "unit": "mg/kg",
+      "status": "Codex international standard (as above)",
+      "locator": "CXS 193-1995 (2025 ed.) Cadmium schedule, p. 60",
+      "basis": "whole commodity as prepared for wholesale or retail distribution"
+    },
+    {
+      "jurisdiction": "Codex",
+      "instrument": "Codex General Standard for Contaminants and Toxins in Food and Feed (CXS 193-1995), edition 'adopted in 1995, last amended in 2025'",
+      "analyte": "Cd",
+      "product": "Cocoa powder (100% total cocoa solids on a dry matter basis) ready for consumption; applies also to cocoa powder used as an ingredient in other foods; does not apply to cocoa powder-based drink mixes containing other ingredients such as milk powder and sugar",
+      "value": 2.0,
+      "unit": "mg/kg",
+      "status": "Codex international standard (as above)",
+      "locator": "CXS 193-1995 (2025 ed.) Cadmium schedule, p. 60",
+      "basis": "whole commodity as prepared for wholesale or retail distribution"
+    }
+  ],
+  "contradictions_with_stored_summary": [
+    "Stored summary attributes the 2.0 mg/kg 100% cocoa powder ML to the standard generally; it is only in the amended (2018+) editions, not in the 2009-amended copy that the access map lists as primary.",
+    "Stored summary says CCCF17 (2024) 'added the new quinoa cadmium ML'; not checked here (out of cocoa scope)."
+  ],
+  "unresolved": [
+    "The specific CAC session/year that adopted each cocoa row is not printed in the CXS 193 table; CCCF17 gives only '2018-2022' (note: MLs are adopted by the Commission, not CCCF).",
+    "No Codex lead, arsenic, mercury or nickel ML names cocoa or chocolate in the 2025 edition."
+  ],
+  "also_read": [
+    {
+      "path": "/Volumes/HMI-Library/heavy-metal-index-raw/manual-fetch/Kimi_Agent_Download Corruption Issue/condiments2_papers/03_Condiments/09_Codex_CXS_193_1995.pdf",
+      "sha256": "5adf44c2d50c2cf6fa2f8cafac9db379fda930f6337c2d8dfe0e2fcddf8534dc",
+      "text_copy": "data/evidence/contracts/most-studied-rollout-2026-10-22/cocoa/primary/codex-cxs-193-1995.txt",
+      "note": "access-map primary; 2009-amended edition; no cocoa/chocolate ML"
+    }
+  ]
+}

@@ -1,0 +1,232 @@
+{
+ "source_id": "hoseini2023-tehran-hen-eggs-lead-cadmium",
+ "primary_artifact": "/Users/kmfp/papers-for-claude/hmi-thin/batch-06-addendum/pdfs/10.1002_fsn3.3268.pdf",
+ "primary_sha256": "83521f11a34c63b79ceba29ba6187aa57a8a665de5607a4132c8246e8a76cb7f",
+ "extracted_at": "2026-10-24",
+ "extractor": "engine-v1",
+ "disposition": "occurrence_extracted",
+ "disposition_reason": "Forty-two supermarket hen eggs from Tehran were analysed for lead and cadmium by ICP-MS; Table 2 gives range, minimum, maximum and mean ± SE.",
+ "disposition_locator": "Table 2, p. 2886",
+ "study": {
+  "design": "Retail survey of hen eggs with Monte Carlo risk assessment",
+  "origin": "not stated (Iranian brands)",
+  "market": "supermarkets, Tehran, Iran",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": ""
+  },
+  "method": "Drying at 70 °C, HNO3/H2O2 digestion (150 °C, 4 h); ICP-MS (PerkinElmer Elan 6100 DRC-e)",
+  "lod": [
+   "LOD/LOQ not stated; values below LOQ set to LOQ/2 for statistics"
+  ],
+  "basis": "unknown",
+  "qa": "Addition/recovery 93-103%; precision RSD 1.3% (n = 10); blanks; 3 repetitions",
+  "site_context": "market"
+ },
+ "findings": [
+  {
+   "id": "hoseini2023-tehran-hen-eggs-lead-cadmium:Pb:hen-eggs-whole-egg-contents-shell-removed-supermar:mean",
+   "material": {
+    "label_as_printed": "Hen eggs (whole egg contents, shell removed)",
+    "page": "ingredients/eggs",
+    "form": "raw",
+    "state": null,
+    "route_rule": "ngram"
+   },
+   "analyte": "Pb",
+   "group": "supermarket eggs from best-selling brands, Tehran",
+   "group_kind": "market",
+   "n": 42,
+   "statistic": "mean",
+   "reported": "7.158 ± 0.248 µg kg−1",
+   "value_ugkg": 7.158,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "µg/kg",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 2886",
+   "integrity_flag": null,
+   "notes": "± is SE (0.248 µg/kg). Basis unclear: whole egg contents were dried 24 h at 70 °C before digestion, yet Section 2.7 says results are per kg moist weight. Text (p. 2886) gives 7.158 ± 0.240.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "hoseini2023-tehran-hen-eggs-lead-cadmium:Pb:hen-eggs-whole-egg-contents-shell-removed-supermar:min",
+   "material": {
+    "label_as_printed": "Hen eggs (whole egg contents, shell removed)",
+    "page": "ingredients/eggs",
+    "form": "raw",
+    "state": null,
+    "route_rule": "ngram"
+   },
+   "analyte": "Pb",
+   "group": "supermarket eggs from best-selling brands, Tehran",
+   "group_kind": "market",
+   "n": 42,
+   "statistic": "min",
+   "reported": "2.4 µg kg−1",
+   "value_ugkg": 2.4,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "µg/kg",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 2886",
+   "integrity_flag": null,
+   "notes": "Basis unclear: whole egg contents were dried 24 h at 70 °C before digestion, yet Section 2.7 says results are per kg moist weight.",
+   "statistic_raw": "min"
+  },
+  {
+   "id": "hoseini2023-tehran-hen-eggs-lead-cadmium:Pb:hen-eggs-whole-egg-contents-shell-removed-supermar:max",
+   "material": {
+    "label_as_printed": "Hen eggs (whole egg contents, shell removed)",
+    "page": "ingredients/eggs",
+    "form": "raw",
+    "state": null,
+    "route_rule": "ngram"
+   },
+   "analyte": "Pb",
+   "group": "supermarket eggs from best-selling brands, Tehran",
+   "group_kind": "market",
+   "n": 42,
+   "statistic": "max",
+   "reported": "9.0 µg kg−1",
+   "value_ugkg": 9,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "µg/kg",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 2886",
+   "integrity_flag": null,
+   "notes": "Basis unclear: whole egg contents were dried 24 h at 70 °C before digestion, yet Section 2.7 says results are per kg moist weight.",
+   "statistic_raw": "max"
+  },
+  {
+   "id": "hoseini2023-tehran-hen-eggs-lead-cadmium:Cd:hen-eggs-whole-egg-contents-shell-removed-supermar:mean",
+   "material": {
+    "label_as_printed": "Hen eggs (whole egg contents, shell removed)",
+    "page": "ingredients/eggs",
+    "form": "raw",
+    "state": null,
+    "route_rule": "ngram"
+   },
+   "analyte": "Cd",
+   "group": "supermarket eggs from best-selling brands, Tehran",
+   "group_kind": "market",
+   "n": 42,
+   "statistic": "mean",
+   "reported": "2.83 ± 0.151 µg kg−1",
+   "value_ugkg": 2.83,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "µg/kg",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 2886",
+   "integrity_flag": null,
+   "notes": "± is SE (0.151 µg/kg). Basis unclear: whole egg contents were dried 24 h at 70 °C before digestion, yet Section 2.7 says results are per kg moist weight.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "hoseini2023-tehran-hen-eggs-lead-cadmium:Cd:hen-eggs-whole-egg-contents-shell-removed-supermar:min",
+   "material": {
+    "label_as_printed": "Hen eggs (whole egg contents, shell removed)",
+    "page": "ingredients/eggs",
+    "form": "raw",
+    "state": null,
+    "route_rule": "ngram"
+   },
+   "analyte": "Cd",
+   "group": "supermarket eggs from best-selling brands, Tehran",
+   "group_kind": "market",
+   "n": 42,
+   "statistic": "min",
+   "reported": "1.19 µg kg−1",
+   "value_ugkg": 1.19,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "µg/kg",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 2886",
+   "integrity_flag": null,
+   "notes": "Basis unclear: whole egg contents were dried 24 h at 70 °C before digestion, yet Section 2.7 says results are per kg moist weight.",
+   "statistic_raw": "min"
+  },
+  {
+   "id": "hoseini2023-tehran-hen-eggs-lead-cadmium:Cd:hen-eggs-whole-egg-contents-shell-removed-supermar:max",
+   "material": {
+    "label_as_printed": "Hen eggs (whole egg contents, shell removed)",
+    "page": "ingredients/eggs",
+    "form": "raw",
+    "state": null,
+    "route_rule": "ngram"
+   },
+   "analyte": "Cd",
+   "group": "supermarket eggs from best-selling brands, Tehran",
+   "group_kind": "market",
+   "n": 42,
+   "statistic": "max",
+   "reported": "5.0 µg kg−1",
+   "value_ugkg": 5,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "µg/kg",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 2886",
+   "integrity_flag": null,
+   "notes": "Basis unclear: whole egg contents were dried 24 h at 70 °C before digestion, yet Section 2.7 says results are per kg moist weight.",
+   "statistic_raw": "max"
+  }
+ ],
+ "sample_values": [],
+ "controls": [],
+ "unresolved": [
+  "Brand count conflict: abstract says 42 eggs from 17 major brands, Methods say 21 best-selling brands (two eggs each).",
+  "Collection dates not reported.",
+  "Basis (dry vs moist weight) unclear.",
+  "Lead mean SE differs between Table 2 (0.248) and text (0.240)."
+ ],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [
+  {
+   "what": "FAO/WHO limits for eggs quoted by authors",
+   "value": "Pb 500 µg/kg; Cd 50 µg/kg",
+   "locator": "p. 2886"
+  },
+  {
+   "what": "Egg intake used for exposure (adults 18-50, Iran); body weight",
+   "value": "25.4 g/day; 70 kg",
+   "locator": "Section 2.3.1, p. 2885"
+  },
+  {
+   "what": "THQ (Pb, Cd) and ILCR (Pb) for adults",
+   "value": "THQ < 1; ILCR < 10^-6",
+   "locator": "Abstract; Section 3"
+  }
+ ],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/hoseini2023-tehran-hen-eggs-lead-cadmium.md",
+ "non_numeric_findings": [],
+ "merged_unmatched": [],
+ "merged_snapshot": null,
+ "raw_output": "data/evidence/findings/extract/raw/hoseini2023-tehran-hen-eggs-lead-cadmium.json"
+}

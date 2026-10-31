@@ -1,0 +1,58 @@
+{
+ "source_id": "milana2024-alternative-protein-safety-review",
+ "primary_artifact": "/Users/kmfp/papers-for-claude/hmi-thin/batch-02/pdfs/non-soy-protein-source__Milana2024__10.1111_1541-4337.13377.pdf",
+ "primary_sha256": "3572e24847d430860f01db515e3f802dff45b450086608f3ef532435a5ea0cef",
+ "extracted_at": "2026-10-24",
+ "extractor": "engine-v1",
+ "disposition": "context",
+ "disposition_reason": "Review that compiles metal and other contaminant levels reported by other studies (e.g. Table 3 legume upper levels, microalgae and duckweed values); it generates no primary measurements.",
+ "disposition_locator": "Abstract; Table 3; Sections on soil-based and aquatic proteins",
+ "study": {
+  "design": "Comprehensive literature review of chemical and microbiological hazards in emerging alternative protein sources (faba bean, mung bean, lentils, black gram, cowpea, quinoa, hemp, leaf proteins, microalgae, duckweeds) and analogues",
+  "origin": "",
+  "market": "",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": ""
+  },
+  "method": "",
+  "lod": [],
+  "basis": "unknown",
+  "qa": "",
+  "site_context": "ordinary"
+ },
+ "findings": [],
+ "sample_values": [],
+ "controls": [],
+ "unresolved": [
+  "All concentration figures are quotes of other papers or EFSA opinions; primary sources would need separate ingest."
+ ],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [
+  {
+   "what": "EU maximum level for cadmium in legumes (as cited)",
+   "value": "0.020 mg/kg",
+   "locator": "Soil-based sources section, p. 5 (Regulation (EU) 2023/915)"
+  },
+  {
+   "what": "EU maximum level for lead in legumes (as cited)",
+   "value": "0.10 mg/kg (pulses 0.20 mg/kg as cited)",
+   "locator": "Soil-based sources section, p. 7"
+  },
+  {
+   "what": "EU maximum levels cited when discussing a microalgae product",
+   "value": "Cd 0.10 mg/kg; Pb 3.0 mg/kg",
+   "locator": "Microalgae section, p. 12"
+  }
+ ],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/milana2024-alternative-protein-safety-review.md",
+ "non_numeric_findings": [],
+ "merged_unmatched": [],
+ "merged_snapshot": null,
+ "raw_output": "data/evidence/findings/extract/raw/milana2024-alternative-protein-safety-review.json"
+}

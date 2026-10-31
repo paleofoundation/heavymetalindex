@@ -1,0 +1,136 @@
+{
+  "source_id": "ramtahal2016-cacao-cadmium-trinidad",
+  "primary_artifact": "/Volumes/HMI-Library/heavy-metal-index-raw/studies/ramtahal2016-cacao-cadmium-trinidad.pdf",
+  "primary_sha256": "6ae9f0b5629a9117b0ccf9791b324427bab7ab415020f38e8501b67e6178c472",
+  "text_copy": "data/evidence/contracts/most-studied-rollout-2026-10-22/cocoa/primary/ramtahal2016-cacao-cadmium-trinidad.txt",
+  "disposition": "occurrence_extracted",
+  "disposition_reason": "Farm survey of 45 Trinidad and Tobago plantations reporting Cd ranges in cacao nibs and shells (testae) from unfermented, oven-dried beans, plus leaf, pod and soil Cd and Pearson correlations between tissues and soil. Only ranges are printed; no means, per-site or per-soil-type values.",
+  "disposition_locator": "Section 4.1 (p. 40) for tissue ranges; Table 3 and Section 4.2 for correlations",
+  "study": {
+    "design": "farm survey",
+    "material_scope": "cacao bean nibs and shells (testae) from ripe pods, unfermented (rinsed of mucilage, oven-dried); leaves, pod husks and soils as context",
+    "growing_origin_vs_market": "Grown in Trinidad and Tobago (45 plantations across soil types I-VII); field samples, not purchased",
+    "collection_period": null,
+    "n_total": 45,
+    "sampling_unit": "plantation (8-12 randomly selected trees per site; leaves and ripe pods per tree, soil cores 0-30 cm at drip zone); whether reported ranges are per tree or per site is not stated",
+    "method": "Concentrated HNO3 digestion (12 h pre-digest, 6 h at 130 °C), flame AAS",
+    "lod_loq": "Cd: detection threshold stated only as 'detectable (>0.3 µg/g)'; no formal LOD/LOQ reported",
+    "basis": "dry weight (beans rinsed of mucilage, oven-dried at 105 °C for 4-5 h, then separated into nibs and shells; Section 2.1)",
+    "qa": "No cocoa CRM available; NIST SRM 1570a spinach leaves 2.69 ± 0.05 vs 2.89 µg/g certified (95.5% recovery); NIST SRM 2710 soil 99.0% recovery; 23 replicate CRM sets over an 18-month experimental period (Table 2)"
+  },
+  "findings": [
+    {
+      "id": "ramtahal2016-cacao-cadmium-trinidad:Cd:nibs-all-sampled-plantations-trinidad-and-tobago:range",
+      "analyte": "Cd",
+      "material": "bean nibs",
+      "form": "nibs",
+      "group": "all sampled plantations, Trinidad and Tobago",
+      "group_kind": "all_samples",
+      "n": null,
+      "statistic": "range",
+      "reported": {
+        "value": null,
+        "sd": null,
+        "min": 0.35,
+        "max": 3.82,
+        "unit": "µg/g",
+        "text": "nibs (0.35 - 3.82 µg/g)"
+      },
+      "value_ug_kg": null,
+      "min_ug_kg": 350.0,
+      "max_ug_kg": 3820.0,
+      "sd_ug_kg": null,
+      "basis": "dry weight (beans rinsed of mucilage, oven-dried at 105 °C for 4-5 h, then separated into nibs and shells; Section 2.1)",
+      "years": null,
+      "conversion": "µg/g x 1000",
+      "censoring": "Paper states only that 'more than 50% of the locations sampled contained detectable (>0.3 µg/g) Cd in the cacao tissues sampled'; the printed ranges therefore appear to cover quantified results only. Number of non-detect sites/trees per tissue not reported; not imputed.",
+      "lod_ug_kg": 300,
+      "locator": "Section 4.1, p. 40",
+      "notes": "Unfermented nibs (beans removed from ripe pods, rinsed, oven-dried, nibs separated from shells); concentrations are not for fermented/dried commercial beans. n per tissue not stated (45 plantations, 8-12 trees each). Ranges not broken down by site, cultivar or soil type."
+    },
+    {
+      "id": "ramtahal2016-cacao-cadmium-trinidad:Cd:shell-all-sampled-plantations-trinidad-and-tobago:range",
+      "analyte": "Cd",
+      "material": "bean shells / testae",
+      "form": "shell",
+      "group": "all sampled plantations, Trinidad and Tobago",
+      "group_kind": "all_samples",
+      "n": null,
+      "statistic": "range",
+      "reported": {
+        "value": null,
+        "sd": null,
+        "min": 0.44,
+        "max": 4.41,
+        "unit": "µg/g",
+        "text": "shells (0.44 - 4.41 µg/g)"
+      },
+      "value_ug_kg": null,
+      "min_ug_kg": 440.0,
+      "max_ug_kg": 4410.0,
+      "sd_ug_kg": null,
+      "basis": "dry weight (beans rinsed of mucilage, oven-dried at 105 °C for 4-5 h, then separated into nibs and shells; Section 2.1)",
+      "years": null,
+      "conversion": "µg/g x 1000",
+      "censoring": "Paper states only that 'more than 50% of the locations sampled contained detectable (>0.3 µg/g) Cd in the cacao tissues sampled'; the printed ranges therefore appear to cover quantified results only. Number of non-detect sites/trees per tissue not reported; not imputed.",
+      "lod_ug_kg": 300,
+      "locator": "Section 4.1, p. 40",
+      "notes": "Shells of unfermented, oven-dried beans. Shell > nib order reported (leaves > pods > shells > nibs)."
+    }
+  ],
+  "sample_values": [],
+  "controls": [
+    {
+      "control": "Pre-harvest screening of bean Cd from leaf or pod-husk Cd (tissue-to-tissue correlation)",
+      "stage": "sourcing and procurement",
+      "evidence_kind": "observational",
+      "design": "survey",
+      "comparator": "Pearson correlation of nib Cd with other tissues across sites",
+      "outcome": "nib/shell r = 0.86, nib/leaf r = 0.79, nib/pod r = 0.76, shell/leaf r = 0.83, shell/pod r = 0.68, leaf/pod r = 0.80 (all p < 0.05); authors propose estimating bean Cd from leaves/pods when pods are unavailable and monitoring soil treatments via tissue Cd. No validation of prediction error reported.",
+      "analytes": [
+        "Cd"
+      ],
+      "scale": "farm",
+      "locator": "Section 4.2, Table 3; Conclusion"
+    },
+    {
+      "control": "Use bioavailable (DTPA/AB-DTPA/EDTA) rather than total HNO3-extractable soil Cd to assess farm risk",
+      "stage": "farm and soil management",
+      "evidence_kind": "observational",
+      "design": "survey",
+      "comparator": "total HNO3-extractable soil Cd (0.3-1.7 µg/g) vs tissue Cd",
+      "outcome": "nib/soil r = 0.35, shell/soil r = 0.43, leaf/soil r = 0.34, pod/soil r = 0.50 (significant but weak); authors conclude total soil Cd may not reflect plant availability",
+      "analytes": [
+        "Cd"
+      ],
+      "scale": "farm",
+      "locator": "Section 4.2, Table 3, p. 41"
+    },
+    {
+      "control": "Context: candidate Cd sources at higher-Cd sites (volcanic soils, flood-prone areas with possible industrial input, long history of phosphate fertilizer, recycling of leaf and pod litter)",
+      "stage": "farm and soil management",
+      "evidence_kind": "context",
+      "design": "survey",
+      "comparator": "none (narrative)",
+      "outcome": "No quantitative comparison reported",
+      "analytes": [
+        "Cd"
+      ],
+      "scale": "farm",
+      "locator": "Section 4.1, p. 40"
+    }
+  ],
+  "regulatory": [],
+  "contradictions_with_stored_summary": [
+    "Stored summary 'Implications' says nib Cd up to 3.82 µg/g 'exceeds the EU maximum level for cocoa beans (0.30 mg/kg as of Regulation 488/2014 amendment period)'. The primary text cites only a 'proposed European Union standard' for beans and gives no 0.30 mg/kg value; Regulation 488/2014 sets limits for chocolate and cocoa powder products, not raw beans.",
+    "Stored summary says nib values are 'across soil types'; the paper prints only overall tissue ranges with no breakdown by soil type, site or cultivar.",
+    "Stored summary omits that beans were unfermented (rinsed, oven-dried at 105 °C), and that shells (0.44-4.41 µg/g) were measured; it also omits pod/soil and shell/soil correlations (0.50, 0.43 listed only partly).",
+    "Stored 'Trinidad and Tobago is a secondary high-Cd cacao origin ... with documented exceedances' is an interpretation not made in the paper."
+  ],
+  "unresolved": [
+    "Collection dates not reported (only an '18-month experimental period' for CRM QC); years left null.",
+    "Number of nib and shell analyses (trees vs plantations) behind each range not stated; n left null.",
+    "Share of sites/tissues below the ~0.3 µg/g detection threshold not reported per tissue.",
+    "Cultivars sampled not named ('wide variety of cacao cultivars')."
+  ]
+}

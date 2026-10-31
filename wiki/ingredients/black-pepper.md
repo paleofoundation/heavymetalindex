@@ -1,9 +1,9 @@
 ---
 type: ingredient
 commodity: black-pepper
-title: "Black Pepper"
+title: "Black pepper"
 dek: "A spice derived from Piper nigrum, covered through surveys of packaged and loose market products. Explore the evidence on metal occurrence, processing, geographic variation and unresolved arsenic and chromium species."
-label: "Black Pepper"
+label: "Black pepper"
 aliases: []
 category: herb-spice
 contamination_profile:
@@ -42,8 +42,7 @@ quick_read:
 hero_image_alt: "Black and pale peppercorns, turmeric powder and cinnamon sticks illustrating black pepper ingredient context."
 ---
 
-# Black Pepper
-
+# Black pepper
 <!-- BEGIN: hmi-opening -->
 <div class="hmi-quick-read">
   <div class="hmi-quick-read-label">Quick read</div>

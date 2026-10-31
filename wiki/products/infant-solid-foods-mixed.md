@@ -1,6 +1,8 @@
 ---
+hmtc_subcategory_name: "Mixed meals (meat & grain combos)"
+hmtc_category_name: "Infant and Child Foods"
 type: product-category
-category: infant-solid-foods-mixed
+category: mixed-meals
 title: "Infant Solid Foods Mixed"
 dek: "Mixed solid foods eaten during weaning are examined through arsenic exposure studies. The evidence distinguishes dietary and urinary measurements and identifies rice containing products as a separate exposure context."
 rail_highlights:
@@ -12,8 +14,8 @@ rail_highlights:
     text: Exposure evidence does not establish mixed food concentrations
     source: sources/signes-pastor2018-infants-dietary-arsenic-solid-food
     source_label: Infant cohort
-hmtc_category: pending_taxonomy_review
-hmtc_row: pending_taxonomy_review
+hmtc_category: 1
+hmtc_row: 7
 provisional_scaffold: true
 provisional_created: 2026-05-20
 provisional_reason: "heal-gaps: routing_unresolved entry from source unknown2016-risk-arsenic-rice-cereal declared product/infant-solid-foods-mixed, no close-slug match"
@@ -22,7 +24,7 @@ primary_metals_of_concern: []
 typical_ingredients: []
 applicable_regulations: []
 literature_scope: thin
-sources: 1
+sources: 0
 wiki_doi: null
 updated: 2026-05-20
 hero_image: /static/heroes/soft-grain-vegetable-food-bowls.webp
@@ -44,7 +46,7 @@ The literature corpus for this product class is currently thin. Sources route he
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record.
+Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to a source record with bibliographic details, reported findings, and document provenance.
 
 1. [[sources/shibata2016-arsenic-rice-cereal-risk-assessment-us|Risk Assessment of Arsenic in Rice Cereal and Other Dietary Sources for Infants and Toddlers in the U.S]]<span class="hmi-ref-meta">Shibata T, Meng C, Umoren J, and West H · International Journal of Environmental Research and Public Health 13(4):361 · 2016 · [doi.org/10.3390/ijerph13040361](https://doi.org/10.3390/ijerph13040361)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 2. [[sources/signes-pastor2018-infants-dietary-arsenic-solid-food|Infants' dietary arsenic exposure during transition to solid food]]<span class="hmi-ref-meta">Signes-Pastor AJ, Cottingham KL, Carey M, Sayarath V, Palys T, Meharg AA, et al. · Scientific Reports 8(1):7114 · 2018 · [doi.org/10.1038/s41598-018-25372-1](https://doi.org/10.1038/s41598-018-25372-1)</span><span class="hmi-ref-tag">Peer-reviewed</span>
@@ -105,13 +107,13 @@ No recall or enforcement synthesis has been promoted for this provisional mixed-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [25025979f](https://github.com/paleofoundation/heavymetalindex/commit/25025979f) | 2026-10-17 | minor | Narrative text revised |
+| [3aa5aa523](https://github.com/paleofoundation/heavymetalindex/commit/3aa5aa523) | 2026-09-28 | correction | Narrative text revised |
+| [7f68f8c2c](https://github.com/paleofoundation/heavymetalindex/commit/7f68f8c2c) | 2026-08-27 | correction | 2 sources removed; narrative text revised |
+| [e0f4705c7](https://github.com/paleofoundation/heavymetalindex/commit/e0f4705c7) | 2026-08-18 | correction | 1 source added and 1 removed; narrative text revised |
 | [ad172bca7](https://github.com/paleofoundation/heavymetalindex/commit/ad172bca7) | 2026-08-09 | correction | Narrative text revised |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 2 sources added; narrative text revised |
-| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
-| [91c7d5591](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591) | 2026-08-02 | minor | Narrative text revised |
-| [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | major | 2 sources added; narrative text revised |
 <!-- END: hmi-page-history -->

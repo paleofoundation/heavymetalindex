@@ -1,14 +1,14 @@
 ---
 type: ingredient
 commodity: wine-vinegar
-title: "Wine Vinegar"
+title: "Wine vinegar"
 dek: "An acidic product made by fermenting wine and used in dressings, marinades and sauces. Explore the evidence on lead, source wine and contact materials."
 rail_highlights:
   - label: Exposure
     text: Lead measured in regional wine vinegar surveys
     source: sources/ndungu2004-lead-vinegar-icpms-gfaas
     source_label: Vinegar study
-label: "Wine Vinegar"
+label: "Wine vinegar"
 aliases: []
 category: vinegar
 contamination_profile:
@@ -46,8 +46,7 @@ quick_read:
 hero_image_alt: "Unmarked bottles and dishes of pale amber and dark vinegar, an apple and dark grapes illustrating wine vinegar ingredient context."
 ---
 
-# Wine Vinegar
-
+# Wine vinegar
 <!-- BEGIN: hmi-opening -->
 <div class="hmi-quick-read">
   <div class="hmi-quick-read-label">Quick read</div>

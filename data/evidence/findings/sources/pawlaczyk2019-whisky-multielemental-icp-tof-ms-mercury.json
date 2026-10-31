@@ -1,0 +1,175 @@
+{
+ "source_id": "pawlaczyk2019-whisky-multielemental-icp-tof-ms-mercury",
+ "primary_artifact": "/Users/kmfp/papers-for-claude/hmi-thin/batch-07-addendum/pdfs/10.3390_molecules24071193.pdf",
+ "primary_sha256": "c6e0f15df8cd55f8b1725d51e08b3b38e33fa88a310f113b24228e57871db99f",
+ "extracted_at": "2026-10-24",
+ "extractor": "engine-v1",
+ "disposition": "occurrence_extracted",
+ "disposition_reason": "Section 2.1 prints average total mercury by whisky origin; all other elements are semi-quantitative signal intensities and not concentrations.",
+ "disposition_locator": "Section 2.1, p. 5",
+ "study": {
+  "design": "Multielemental fingerprinting of 20 whiskies by origin and type",
+  "origin": "Scotland (Speyside, Highlands, Lowlands), Ireland, USA, per label",
+  "market": "Not stated",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": ""
+  },
+  "method": "ICP-TOF-MS semi-quantitative signal intensities for 21 isotopes after microwave HNO3 digestion; total Hg by automatic mercury analyzer (thermal decomposition, CV AAS)",
+  "lod": [
+   "Not stated"
+  ],
+  "basis": "as_sold",
+  "qa": "Hg calibration 0-50 ng with L-cysteine standards; no reference material for whisky available",
+  "site_context": "market"
+ },
+ "findings": [
+  {
+   "id": "pawlaczyk2019-whisky-multielemental-icp-tof-ms-mercury:tHg:scotch-whisky-scotland-speyside:mean",
+   "material": {
+    "label_as_printed": "Scotch whisky",
+    "page": "ingredients/whiskey",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "exact"
+   },
+   "analyte": "tHg",
+   "group": "Scotland, Speyside",
+   "group_kind": "region",
+   "n": null,
+   "statistic": "mean",
+   "reported": "1.82 µg/L",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "µg/L",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Section 2.1, p. 5",
+   "integrity_flag": null,
+   "notes": "Average total mercury by direct thermal decomposition analyzer (triplicate 50 µL injections); number of samples per region not legible in the extracted Table 1. Per-litre result kept unconverted.",
+   "statistic_raw": "mean",
+   "value_native": 1.82
+  },
+  {
+   "id": "pawlaczyk2019-whisky-multielemental-icp-tof-ms-mercury:tHg:american-whiskey-united-states:mean",
+   "material": {
+    "label_as_printed": "American whiskey",
+    "page": "ingredients/whiskey",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "ngram"
+   },
+   "analyte": "tHg",
+   "group": "United States",
+   "group_kind": "region",
+   "n": null,
+   "statistic": "mean",
+   "reported": "4.56 µg/L",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "µg/L",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Section 2.1, p. 5",
+   "integrity_flag": null,
+   "notes": "Average total mercury by direct thermal decomposition analyzer (triplicate 50 µL injections); number of samples per region not legible in the extracted Table 1. Per-litre result kept unconverted.",
+   "statistic_raw": "mean",
+   "value_native": 4.56
+  },
+  {
+   "id": "pawlaczyk2019-whisky-multielemental-icp-tof-ms-mercury:tHg:scotch-whisky-scotland-highlands:mean",
+   "material": {
+    "label_as_printed": "Scotch whisky",
+    "page": "ingredients/whiskey",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "exact"
+   },
+   "analyte": "tHg",
+   "group": "Scotland, Highlands",
+   "group_kind": "region",
+   "n": null,
+   "statistic": "mean",
+   "reported": "2.13 µg/L",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "µg/L",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Section 2.1, p. 5",
+   "integrity_flag": null,
+   "notes": "Average total mercury by direct thermal decomposition analyzer (triplicate 50 µL injections); number of samples per region not legible in the extracted Table 1. Per-litre result kept unconverted.",
+   "statistic_raw": "mean",
+   "value_native": 2.13
+  },
+  {
+   "id": "pawlaczyk2019-whisky-multielemental-icp-tof-ms-mercury:tHg:irish-whiskey-ireland:mean",
+   "material": {
+    "label_as_printed": "Irish whiskey",
+    "page": "ingredients/whiskey",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "ngram"
+   },
+   "analyte": "tHg",
+   "group": "Ireland",
+   "group_kind": "region",
+   "n": null,
+   "statistic": "mean",
+   "reported": "2.16 µg/L",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "µg/L",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Section 2.1, p. 5",
+   "integrity_flag": null,
+   "notes": "Average total mercury by direct thermal decomposition analyzer (triplicate 50 µL injections); number of samples per region not legible in the extracted Table 1. Per-litre result kept unconverted.",
+   "statistic_raw": "mean",
+   "value_native": 2.16
+  }
+ ],
+ "sample_values": [],
+ "controls": [],
+ "unresolved": [
+  "ICP-TOF-MS data (including Cd and Pb) are semi-quantitative signal intensities, not concentrations; not extracted.",
+  "Per-sample mercury values and per-region sample counts not printed in readable form (Table 1 text layer is garbled).",
+  "Single malt vs blended mercury comparison is figure-only.",
+  "Manifest metals 'unverified'; the paper quantifies only mercury."
+ ],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [
+  {
+   "what": "Polish maximum level for mercury in spirits >20% alcohol (Regulation of 13 January 2003)",
+   "value": "20 µg/L; not exceeded in any sample",
+   "locator": "Section 2.1, p. 5"
+  },
+  {
+   "what": "Polish limits for Pb, Cd, As cited",
+   "value": "Pb 0.4 mg/kg, Cd 0.05 mg/kg, As 0.20 mg/kg; signal comparison with a standard suggested no exceedance",
+   "locator": "Section 3.2, p. 13"
+  }
+ ],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/pawlaczyk2019-whisky-multielemental-icp-tof-ms-mercury.md",
+ "non_numeric_findings": [],
+ "merged_unmatched": [],
+ "merged_snapshot": null,
+ "raw_output": "data/evidence/findings/extract/raw/pawlaczyk2019-whisky-multielemental-icp-tof-ms-mercury.json"
+}

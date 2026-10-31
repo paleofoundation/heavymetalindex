@@ -1,0 +1,145 @@
+{
+ "source_id": "arianejad2015-arak-raw-cow-milk-hg-as-ni-sn",
+ "primary_artifact": "/Users/kmfp/papers-for-claude/hmi-thin/batch-10-addendum/pdfs/10.15171_hpp.2015.021.pdf",
+ "primary_sha256": "280f6fb87aab31be22d98efa49bfc505f6caa2c67260bcd6a25823a1d99141c5",
+ "disposition": "occurrence_extracted",
+ "disposition_reason": "Table 2 prints ranges of mercury, arsenic, nickel and tin in 32 raw cow milk samples from industrial and traditional farms around Arak, Iran.",
+ "disposition_locator": "Table 2, p. 178",
+ "study": {
+  "design": "Cross-sectional survey of raw cow milk from industrial and traditional dairy farms",
+  "origin": "four sub-cities of Arak City, Markazi Province, central Iran (polluted industrial city)",
+  "market": "farm milk containers (not retail)",
+  "period_text": "August 2014 to November 2014",
+  "method": "25 g dry ashing at 450 C, HNO3 dissolution; graphite furnace AAS (Varian AA230, GTA 340)",
+  "lod_text": "not stated",
+  "basis": "as_sold",
+  "qa": "No CRM, recovery or LOD reported",
+  "site_context": "industrial"
+ },
+ "findings": [
+  {
+   "material_label": "Raw cow's milk",
+   "form": "liquid",
+   "state": "raw",
+   "analyte": "tHg",
+   "group": "traditional and industrial dairy farms, Arak sub-cities, Markazi Province, Iran",
+   "group_kind": "all_samples",
+   "n": 32,
+   "statistic": "range",
+   "reported": "7.29 -14.95 µg/l µg/L",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "µg/L",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 178",
+   "integrity_flag": null,
+   "notes": "Range over 32 samples (16 industrial, 16 traditional farms); farm-type means are figure-only (Figure 1). Per-litre result (µg/L); not converted to µg/kg."
+  },
+  {
+   "material_label": "Raw cow's milk",
+   "form": "liquid",
+   "state": "raw",
+   "analyte": "tAs",
+   "group": "traditional and industrial dairy farms, Arak sub-cities, Markazi Province, Iran",
+   "group_kind": "all_samples",
+   "n": 32,
+   "statistic": "range",
+   "reported": "15.20 - 25.90 µg/l µg/L",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "µg/L",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 178",
+   "integrity_flag": null,
+   "notes": "Range over 32 samples (16 industrial, 16 traditional farms); farm-type means are figure-only (Figure 1). Per-litre result (µg/L); not converted to µg/kg."
+  },
+  {
+   "material_label": "Raw cow's milk",
+   "form": "liquid",
+   "state": "raw",
+   "analyte": "Ni",
+   "group": "traditional and industrial dairy farms, Arak sub-cities, Markazi Province, Iran",
+   "group_kind": "all_samples",
+   "n": 32,
+   "statistic": "range",
+   "reported": "45.10 -310.55 µg/l µg/L",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "µg/L",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 178",
+   "integrity_flag": null,
+   "notes": "Range over 32 samples (16 industrial, 16 traditional farms); farm-type means are figure-only (Figure 1). Per-litre result (µg/L); not converted to µg/kg."
+  },
+  {
+   "material_label": "Raw cow's milk",
+   "form": "liquid",
+   "state": "raw",
+   "analyte": "Sn",
+   "group": "traditional and industrial dairy farms, Arak sub-cities, Markazi Province, Iran",
+   "group_kind": "all_samples",
+   "n": 32,
+   "statistic": "range",
+   "reported": "29.78 -314.64 µg/l µg/L",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "µg/L",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 178",
+   "integrity_flag": null,
+   "notes": "Range over 32 samples (16 industrial, 16 traditional farms); farm-type means are figure-only (Figure 1). Per-litre result (µg/L); not converted to µg/kg."
+  }
+ ],
+ "sample_values": [],
+ "controls": [
+  {
+   "control": "farm type (traditional vs industrial dairy farms)",
+   "stage": "farm",
+   "evidence_kind": "observational",
+   "comparator": "industrial farms",
+   "outcome": "Hg and Sn significantly higher in traditional farms (P<0.05); Ni higher in industrial farms (P<0.05); As similar; values figure-only (Figure 1)",
+   "analytes": [
+    "tHg",
+    "Sn",
+    "Ni",
+    "tAs"
+   ],
+   "locator": "Results p. 178; Figure 1"
+  }
+ ],
+ "regulatory_or_exposure": [
+  {
+   "what": "Codex permissible limits cited by authors (Table 2)",
+   "value": "Hg 500, As 140, Ni 200, Sn 300 µg/l",
+   "locator": "Table 2"
+  },
+  {
+   "what": "Estimated daily intake at 150 L/capita/year",
+   "value": "Hg 4.50, As 8.52, Ni 34.92, Sn 28.23 µg/day",
+   "locator": "Table 2"
+  }
+ ],
+ "unresolved": [
+  "Farm-type and site means shown only in Figure 1; not extracted.",
+  "No LOD, CRM or recovery data reported.",
+  "Cited Codex limits for Hg and As in milk do not correspond to known Codex standards; recorded as printed.",
+  "Abstract says 8 sites; methods say four sub-cities with eight samples each."
+ ],
+ "source_record_corrections": []
+}

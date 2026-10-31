@@ -1,0 +1,303 @@
+{
+  "source_id": "chang2022-cocoa-fermentation-rhizobium-cadmium",
+  "primary_artifact": "/Volumes/HMI-Library/heavy-metal-index-raw/manual-fetch/seasonal-geographic-variance/auto-fetched/gap-chocolate-cd_2022_10-53730-ijhs-v6ns3-8672.pdf",
+  "primary_sha256": "a8aeb1cfa9891b37f365f90979891000dcd03e7bd25ed46177d2f7b10f55a328",
+  "text_copy": "AUDIT/primary/chang2022-cocoa-fermentation-rhizobium-cadmium.txt",
+  "disposition": "mitigation_extracted",
+  "disposition_reason": "Fermentation-stage intervention study (Ecuador, Quevedo) inoculating Rhizobium japonicum at 0, 3 and 5% into 2 kg micro-fermenter batches of Nacional and Trinitario cocoa; Table 16 reports Cd in the resulting dried beans for six variety x dose cells. Effect is small (Nacional 0.36 -> 0.34/0.35; Trinitario 0.36 -> 0.30/0.29 mg/kg) and no Cd-specific variance or significance test is reported.",
+  "disposition_locator": "Abstract; Materials and Methods (Table 1 arrangement, 'Cadmium test'); Table 16 p. 11368-11369; Conclusions p. 11369",
+  "study": {
+    "design": "processing study (fermentation-stage completely randomized bifactorial experiment, 3 replications)",
+    "material_scope": "fermented, sun-dried cocoa beans of Nacional and Trinitario varieties; cocoa paste made only for sensory analysis (Cd not reported for paste)",
+    "growing_origin_vs_market": "Pods harvested by the authors (Universidad Tecnica Estatal de Quevedo, Los Rios, Ecuador); farm/site not stated. Not a market sample.",
+    "collection_period": null,
+    "n_total": 18,
+    "sampling_unit": "2 kg micro-fermenter cell (6 treatments x 3 replications = 18 cells, 36 kg fresh mass); Cd printed per treatment (6 values)",
+    "method": "1 g crushed dry beans, microwave wet digestion with nitric acid, filtration, graphite-furnace atomic absorption",
+    "lod_loq": "not reported",
+    "basis": "dried beans as analysed; no dry-weight normalisation stated",
+    "qa": "no CRM, recovery, or blank information reported"
+  },
+  "findings": [
+    {
+      "id": "chang2022-cocoa-fermentation-rhizobium-cadmium:Cd:nacional-rj0pct:sample_value",
+      "analyte": "Cd",
+      "material": "fermented, sun-dried cocoa beans (\"dry cocoa beans\" crushed for analysis)",
+      "form": "beans",
+      "group": "National cocoa, Rhizobium japonicum 0%",
+      "group_kind": "processing_stage",
+      "n": null,
+      "statistic": "sample_value",
+      "reported": {
+        "value": 0.36,
+        "sd": null,
+        "min": null,
+        "max": null,
+        "unit": "mg/kg",
+        "text": "National 0% 0.36"
+      },
+      "value_ug_kg": 360,
+      "min_ug_kg": null,
+      "max_ug_kg": null,
+      "sd_ug_kg": null,
+      "basis": "dried beans as analysed (sun-dried 6 days; moisture stated as reduced 'from 8 to 6%'); no dry-matter correction stated",
+      "years": null,
+      "conversion": "mg/kg x 1000",
+      "censoring": "positive printed value; no LOD/LOQ reported",
+      "lod_ug_kg": null,
+      "locator": "Table 16 (pdf pp. 11368-11369), 'Interaction of cocoa varieties by Rhizobium japonicum induction on cadmium concentrations in cocoa'",
+      "notes": "Single printed value per treatment cell with no SD, n, or statistical test for Cd. Design was 3 replications per treatment (Methods), but the table does not say whether the value is a mean of replicates. Nacional and Trinitario untreated controls both 0.36 mg/kg.",
+      "integrity_issue": "Abstract states Cd reduced 'from 36 to 29 mg/kg (ppm)', 100x higher than Table 16 (0.36 -> 0.29 mg/kg); table value adopted. Table numbering also inconsistent (text cites Table 17, printed as Table 16)."
+    },
+    {
+      "id": "chang2022-cocoa-fermentation-rhizobium-cadmium:Cd:nacional-rj3pct:sample_value",
+      "analyte": "Cd",
+      "material": "fermented, sun-dried cocoa beans (\"dry cocoa beans\" crushed for analysis)",
+      "form": "beans",
+      "group": "National cocoa, Rhizobium japonicum 3%",
+      "group_kind": "processing_stage",
+      "n": null,
+      "statistic": "sample_value",
+      "reported": {
+        "value": 0.34,
+        "sd": null,
+        "min": null,
+        "max": null,
+        "unit": "mg/kg",
+        "text": "National 3% 0.34"
+      },
+      "value_ug_kg": 340,
+      "min_ug_kg": null,
+      "max_ug_kg": null,
+      "sd_ug_kg": null,
+      "basis": "dried beans as analysed (sun-dried 6 days; moisture stated as reduced 'from 8 to 6%'); no dry-matter correction stated",
+      "years": null,
+      "conversion": "mg/kg x 1000",
+      "censoring": "positive printed value; no LOD/LOQ reported",
+      "lod_ug_kg": null,
+      "locator": "Table 16 (pdf pp. 11368-11369), 'Interaction of cocoa varieties by Rhizobium japonicum induction on cadmium concentrations in cocoa'",
+      "notes": "Single printed value per treatment cell with no SD, n, or statistical test for Cd. Design was 3 replications per treatment (Methods), but the table does not say whether the value is a mean of replicates. Nacional and Trinitario untreated controls both 0.36 mg/kg.",
+      "integrity_issue": "Abstract states Cd reduced 'from 36 to 29 mg/kg (ppm)', 100x higher than Table 16 (0.36 -> 0.29 mg/kg); table value adopted. Table numbering also inconsistent (text cites Table 17, printed as Table 16)."
+    },
+    {
+      "id": "chang2022-cocoa-fermentation-rhizobium-cadmium:Cd:nacional-rj5pct:sample_value",
+      "analyte": "Cd",
+      "material": "fermented, sun-dried cocoa beans (\"dry cocoa beans\" crushed for analysis)",
+      "form": "beans",
+      "group": "National cocoa, Rhizobium japonicum 5%",
+      "group_kind": "processing_stage",
+      "n": null,
+      "statistic": "sample_value",
+      "reported": {
+        "value": 0.35,
+        "sd": null,
+        "min": null,
+        "max": null,
+        "unit": "mg/kg",
+        "text": "National 5% 0.35"
+      },
+      "value_ug_kg": 350,
+      "min_ug_kg": null,
+      "max_ug_kg": null,
+      "sd_ug_kg": null,
+      "basis": "dried beans as analysed (sun-dried 6 days; moisture stated as reduced 'from 8 to 6%'); no dry-matter correction stated",
+      "years": null,
+      "conversion": "mg/kg x 1000",
+      "censoring": "positive printed value; no LOD/LOQ reported",
+      "lod_ug_kg": null,
+      "locator": "Table 16 (pdf pp. 11368-11369), 'Interaction of cocoa varieties by Rhizobium japonicum induction on cadmium concentrations in cocoa'",
+      "notes": "Single printed value per treatment cell with no SD, n, or statistical test for Cd. Design was 3 replications per treatment (Methods), but the table does not say whether the value is a mean of replicates. Nacional and Trinitario untreated controls both 0.36 mg/kg.",
+      "integrity_issue": "Abstract states Cd reduced 'from 36 to 29 mg/kg (ppm)', 100x higher than Table 16 (0.36 -> 0.29 mg/kg); table value adopted. Table numbering also inconsistent (text cites Table 17, printed as Table 16)."
+    },
+    {
+      "id": "chang2022-cocoa-fermentation-rhizobium-cadmium:Cd:trinitario-rj0pct:sample_value",
+      "analyte": "Cd",
+      "material": "fermented, sun-dried cocoa beans (\"dry cocoa beans\" crushed for analysis)",
+      "form": "beans",
+      "group": "Trinitarian cocoa, Rhizobium japonicum 0%",
+      "group_kind": "processing_stage",
+      "n": null,
+      "statistic": "sample_value",
+      "reported": {
+        "value": 0.36,
+        "sd": null,
+        "min": null,
+        "max": null,
+        "unit": "mg/kg",
+        "text": "Trinitarian 0% 0.36"
+      },
+      "value_ug_kg": 360,
+      "min_ug_kg": null,
+      "max_ug_kg": null,
+      "sd_ug_kg": null,
+      "basis": "dried beans as analysed (sun-dried 6 days; moisture stated as reduced 'from 8 to 6%'); no dry-matter correction stated",
+      "years": null,
+      "conversion": "mg/kg x 1000",
+      "censoring": "positive printed value; no LOD/LOQ reported",
+      "lod_ug_kg": null,
+      "locator": "Table 16 (pdf pp. 11368-11369), 'Interaction of cocoa varieties by Rhizobium japonicum induction on cadmium concentrations in cocoa'",
+      "notes": "Single printed value per treatment cell with no SD, n, or statistical test for Cd. Design was 3 replications per treatment (Methods), but the table does not say whether the value is a mean of replicates. Nacional and Trinitario untreated controls both 0.36 mg/kg.",
+      "integrity_issue": "Abstract states Cd reduced 'from 36 to 29 mg/kg (ppm)', 100x higher than Table 16 (0.36 -> 0.29 mg/kg); table value adopted. Table numbering also inconsistent (text cites Table 17, printed as Table 16)."
+    },
+    {
+      "id": "chang2022-cocoa-fermentation-rhizobium-cadmium:Cd:trinitario-rj3pct:sample_value",
+      "analyte": "Cd",
+      "material": "fermented, sun-dried cocoa beans (\"dry cocoa beans\" crushed for analysis)",
+      "form": "beans",
+      "group": "Trinitarian cocoa, Rhizobium japonicum 3%",
+      "group_kind": "processing_stage",
+      "n": null,
+      "statistic": "sample_value",
+      "reported": {
+        "value": 0.3,
+        "sd": null,
+        "min": null,
+        "max": null,
+        "unit": "mg/kg",
+        "text": "Trinitarian 3% 0.30"
+      },
+      "value_ug_kg": 300,
+      "min_ug_kg": null,
+      "max_ug_kg": null,
+      "sd_ug_kg": null,
+      "basis": "dried beans as analysed (sun-dried 6 days; moisture stated as reduced 'from 8 to 6%'); no dry-matter correction stated",
+      "years": null,
+      "conversion": "mg/kg x 1000",
+      "censoring": "positive printed value; no LOD/LOQ reported",
+      "lod_ug_kg": null,
+      "locator": "Table 16 (pdf pp. 11368-11369), 'Interaction of cocoa varieties by Rhizobium japonicum induction on cadmium concentrations in cocoa'",
+      "notes": "Single printed value per treatment cell with no SD, n, or statistical test for Cd. Design was 3 replications per treatment (Methods), but the table does not say whether the value is a mean of replicates. Nacional and Trinitario untreated controls both 0.36 mg/kg.",
+      "integrity_issue": "Abstract states Cd reduced 'from 36 to 29 mg/kg (ppm)', 100x higher than Table 16 (0.36 -> 0.29 mg/kg); table value adopted. Table numbering also inconsistent (text cites Table 17, printed as Table 16)."
+    },
+    {
+      "id": "chang2022-cocoa-fermentation-rhizobium-cadmium:Cd:trinitario-rj5pct:sample_value",
+      "analyte": "Cd",
+      "material": "fermented, sun-dried cocoa beans (\"dry cocoa beans\" crushed for analysis)",
+      "form": "beans",
+      "group": "Trinitarian cocoa, Rhizobium japonicum 5%",
+      "group_kind": "processing_stage",
+      "n": null,
+      "statistic": "sample_value",
+      "reported": {
+        "value": 0.29,
+        "sd": null,
+        "min": null,
+        "max": null,
+        "unit": "mg/kg",
+        "text": "Trinitarian 5% 0.29"
+      },
+      "value_ug_kg": 290,
+      "min_ug_kg": null,
+      "max_ug_kg": null,
+      "sd_ug_kg": null,
+      "basis": "dried beans as analysed (sun-dried 6 days; moisture stated as reduced 'from 8 to 6%'); no dry-matter correction stated",
+      "years": null,
+      "conversion": "mg/kg x 1000",
+      "censoring": "positive printed value; no LOD/LOQ reported",
+      "lod_ug_kg": null,
+      "locator": "Table 16 (pdf pp. 11368-11369), 'Interaction of cocoa varieties by Rhizobium japonicum induction on cadmium concentrations in cocoa'",
+      "notes": "Single printed value per treatment cell with no SD, n, or statistical test for Cd. Design was 3 replications per treatment (Methods), but the table does not say whether the value is a mean of replicates. Nacional and Trinitario untreated controls both 0.36 mg/kg.",
+      "integrity_issue": "Abstract states Cd reduced 'from 36 to 29 mg/kg (ppm)', 100x higher than Table 16 (0.36 -> 0.29 mg/kg); table value adopted. Table numbering also inconsistent (text cites Table 17, printed as Table 16)."
+    }
+  ],
+  "sample_values": [
+    {
+      "sample": "National RJ 0%",
+      "group": "National cocoa",
+      "form": "beans",
+      "analyte": "Cd",
+      "value_ug_kg": 360,
+      "censored": false,
+      "bound_ug_kg": null,
+      "locator": "Table 16"
+    },
+    {
+      "sample": "National RJ 3%",
+      "group": "National cocoa",
+      "form": "beans",
+      "analyte": "Cd",
+      "value_ug_kg": 340,
+      "censored": false,
+      "bound_ug_kg": null,
+      "locator": "Table 16"
+    },
+    {
+      "sample": "National RJ 5%",
+      "group": "National cocoa",
+      "form": "beans",
+      "analyte": "Cd",
+      "value_ug_kg": 350,
+      "censored": false,
+      "bound_ug_kg": null,
+      "locator": "Table 16"
+    },
+    {
+      "sample": "Trinitarian RJ 0%",
+      "group": "Trinitarian cocoa",
+      "form": "beans",
+      "analyte": "Cd",
+      "value_ug_kg": 360,
+      "censored": false,
+      "bound_ug_kg": null,
+      "locator": "Table 16"
+    },
+    {
+      "sample": "Trinitarian RJ 3%",
+      "group": "Trinitarian cocoa",
+      "form": "beans",
+      "analyte": "Cd",
+      "value_ug_kg": 300,
+      "censored": false,
+      "bound_ug_kg": null,
+      "locator": "Table 16"
+    },
+    {
+      "sample": "Trinitarian RJ 5%",
+      "group": "Trinitarian cocoa",
+      "form": "beans",
+      "analyte": "Cd",
+      "value_ug_kg": 290,
+      "censored": false,
+      "bound_ug_kg": null,
+      "locator": "Table 16"
+    }
+  ],
+  "controls": [
+    {
+      "control": "Rhizobium japonicum liquid inoculant added to fresh fermentative mass (3% = 60 mL or 5% = 100 mL per 2 kg), 4-day box fermentation then 6-day sun drying",
+      "stage": "harvest and post-harvest (fermentation, drying)",
+      "evidence_kind": "measured",
+      "design": "processing study (micro-fermenter, CRBD, 3 replications)",
+      "comparator": "same variety fermented without inoculant (0%)",
+      "outcome": "Trinitario: bean Cd 0.36 -> 0.30 mg/kg at 3% (-17%) and 0.36 -> 0.29 mg/kg at 5% (-19%). Nacional: 0.36 -> 0.34 mg/kg at 3% (-6%) and 0.36 -> 0.35 mg/kg at 5% (-3%). No SD, n per value, or significance test reported for Cd; no mechanism or mass balance shown.",
+      "analytes": [
+        "Cd"
+      ],
+      "scale": "pilot (2 kg micro-fermenter cells)",
+      "locator": "Table 16; Methods 'Induction of Rhizobium japonicum'"
+    }
+  ],
+  "regulatory": [
+    {
+      "jurisdiction": "EU",
+      "instrument": "Regulation (EU) No 488/2014",
+      "analyte": "Cd",
+      "product": "cited generically as limits for 'cocoa paste used for chocolate production'; no numeric limit printed in the paper",
+      "value": null,
+      "unit": null,
+      "status": "cited as in force; no value given",
+      "locator": "Abstract; Conclusions"
+    }
+  ],
+  "contradictions_with_stored_summary": [
+    "Stored summary lists matrices including cocoa-paste; the primary reports Cd only for dried beans (paste used for sensory only).",
+    "Stored summary does not mention that the paper prints no SD, n per value, or significance test for Cd, nor the Table 16 vs 'Table 17' numbering mismatch.",
+    "Stored summary otherwise matches Table 16 values and correctly flags the abstract's 36 -> 29 mg/kg unit slip."
+  ],
+  "unresolved": [
+    "Whether Table 16 values are means of 3 replications or single composites is not stated.",
+    "Whether analysed beans were whole (with shell) or nibs is not explicit; Methods say 'dry cocoa beans were crushed'; shelling is described only for the paste-making step.",
+    "Growing farm/site and harvest dates are not reported.",
+    "The paper claims all treatments 'comply with' EU 488/2014, but that regulation sets limits for chocolate/cocoa powder products, not beans; the compliance claim cannot be verified from the paper."
+  ]
+}

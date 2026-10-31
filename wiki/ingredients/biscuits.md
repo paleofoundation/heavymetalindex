@@ -1,4 +1,9 @@
 ---
+retired: true
+noindex: true
+redirect_target: products/snacks-general
+retirement_date: 2026-10-25
+retirement_authority: "HMI-HELD-TRIAGE-1 (Elon PASS 25 Oct 2026 21:01): 301 to parent; findings stay in the store"
 title: "Biscuits"
 dek: "Baked foods covered through imported biscuit measurements and FDA survey observations. Explore the evidence on lead, cadmium, other measured elements and the limits of applying gut studies to biscuits."
 rail_highlights:

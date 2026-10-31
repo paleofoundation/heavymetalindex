@@ -1,0 +1,411 @@
+{
+  "source_id": "fera2015-uk-tds-metals",
+  "primary_artifact": "/Volumes/HMI-Library/heavy-metal-index-raw/Manual Fetch Kimi /03_Grains_and_Grain_Products/03_Grains_and_Grain_Products/UK Total Diet Study of metals and other elements in food.pdf",
+  "primary_sha256": "42f26f4a8f861576f5f992217ff2d56ac03c13d4c37d9561595a104350d6e5f1",
+  "text_copy": "AUDIT/primary/fera2015-uk-tds-metals.txt",
+  "disposition": "occurrence_extracted",
+  "disposition_reason": "Fera's 2014 UK TDS reports single-composite concentrations for category 10_60 'Chocolate confectionery' (24 retail samples pooled, analysed as is) for Al, Cr, Ni, total As, iAs, Cd, Sn, Hg and Pb. The category mixes solid chocolate with filled chocolate bars, so it is extracted as mixed_products.",
+  "disposition_locator": "Table 15 (PDF pp.24-25); Annex 1 preparation (Group 10, PDF p.48); Annex 2 proportions (category 60 = 354 g/kg of Group 10); sections 2.1 and 4",
+  "study": {
+    "design": "total diet study",
+    "material_scope": "UK retail chocolate confectionery (solid and filled chocolate bars/sweets) analysed as is",
+    "growing_origin_vs_market": "Purchase market UK (24 local-authority locations); growing origin not reported",
+    "collection_period": "Not stated with dates; report calls it 'the 2014 TDS' and LIMS codes are S14-*. Years set to [2014] on that basis.",
+    "n_total": 24,
+    "sampling_unit": "one composite of 24 retail samples (equal sub-sample quantities) per category",
+    "method": "Microwave digestion (HNO3/HCl 4:1, UltraWAVE), ICP-MS Agilent 7700x; iAs by HCl/HBr/hydrazine chloroform extraction then ICP-MS",
+    "lod_loq": {
+      "iAs": "LoD 0.012 mg/kg (as printed '<0.012')",
+      "Sn": "LoD 0.01 mg/kg",
+      "tHg": "LoD 0.0005 mg/kg",
+      "general": "LoD = 3 SD of reagent blanks, LoQ = 10 SD; vary with sample weight (Table 3)"
+    },
+    "basis": "as received or prepared (chocolate bars analysed as is, no preparation), fresh weight",
+    "qa": "UKAS ISO17025; 10% duplicate audit; spike recovery 80-120% (Cd 99%, Pb 94%, iAs 76%, Hg 96%); CRMs incl. NIST 1548a Total diet (Cd our 31 vs cert 35 µg/kg; Pb 48 vs 44 µg/kg)."
+  },
+  "findings": [
+    {
+      "id": "fera2015-uk-tds-metals:Al:chocolate-confectionery:sample_value",
+      "analyte": "Al",
+      "material": "Chocolate confectionery (category 10_60)",
+      "form": "mixed_products",
+      "group": "UK TDS category 10_60 \"Chocolate confectionery\"",
+      "group_kind": "form",
+      "n": 1,
+      "statistic": "sample_value",
+      "reported": {
+        "value": 6.04,
+        "sd": null,
+        "min": null,
+        "max": null,
+        "unit": "mg/kg",
+        "text": "6.04"
+      },
+      "value_ug_kg": 6040.0,
+      "min_ug_kg": null,
+      "max_ug_kg": null,
+      "sd_ug_kg": null,
+      "basis": "as received or prepared (chocolate bars analysed as is, no preparation), fresh weight",
+      "years": [
+        2014
+      ],
+      "conversion": "mg/kg x 1000",
+      "censoring": "",
+      "lod_ug_kg": null,
+      "locator": "Table 15 (Sugars and Preserves category, mg/kg as received or prepared), row S14-042915 10_60 \"Chocolate confectionery\", PDF p.24",
+      "notes": "Single category composite of 24 retail samples (one per local authority, 24 UK locations); category includes solid unfilled chocolate bars and unspecified chocolate AND filled chocolate-coated bars and sweets (e.g. Mars, Snickers, Minstrels) per Annex 1."
+    },
+    {
+      "id": "fera2015-uk-tds-metals:Cr:chocolate-confectionery:sample_value",
+      "analyte": "Cr",
+      "material": "Chocolate confectionery (category 10_60)",
+      "form": "mixed_products",
+      "group": "UK TDS category 10_60 \"Chocolate confectionery\"",
+      "group_kind": "form",
+      "n": 1,
+      "statistic": "sample_value",
+      "reported": {
+        "value": 0.18,
+        "sd": null,
+        "min": null,
+        "max": null,
+        "unit": "mg/kg",
+        "text": "0.18"
+      },
+      "value_ug_kg": 180.0,
+      "min_ug_kg": null,
+      "max_ug_kg": null,
+      "sd_ug_kg": null,
+      "basis": "as received or prepared (chocolate bars analysed as is, no preparation), fresh weight",
+      "years": [
+        2014
+      ],
+      "conversion": "mg/kg x 1000",
+      "censoring": "",
+      "lod_ug_kg": null,
+      "locator": "Table 15 (Sugars and Preserves category, mg/kg as received or prepared), row S14-042915 10_60 \"Chocolate confectionery\", PDF p.24",
+      "notes": "Single category composite of 24 retail samples (one per local authority, 24 UK locations); category includes solid unfilled chocolate bars and unspecified chocolate AND filled chocolate-coated bars and sweets (e.g. Mars, Snickers, Minstrels) per Annex 1. Total chromium."
+    },
+    {
+      "id": "fera2015-uk-tds-metals:Ni:chocolate-confectionery:sample_value",
+      "analyte": "Ni",
+      "material": "Chocolate confectionery (category 10_60)",
+      "form": "mixed_products",
+      "group": "UK TDS category 10_60 \"Chocolate confectionery\"",
+      "group_kind": "form",
+      "n": 1,
+      "statistic": "sample_value",
+      "reported": {
+        "value": 0.61,
+        "sd": null,
+        "min": null,
+        "max": null,
+        "unit": "mg/kg",
+        "text": "0.61"
+      },
+      "value_ug_kg": 610.0,
+      "min_ug_kg": null,
+      "max_ug_kg": null,
+      "sd_ug_kg": null,
+      "basis": "as received or prepared (chocolate bars analysed as is, no preparation), fresh weight",
+      "years": [
+        2014
+      ],
+      "conversion": "mg/kg x 1000",
+      "censoring": "",
+      "lod_ug_kg": null,
+      "locator": "Table 15 (Sugars and Preserves category, mg/kg as received or prepared), row S14-042915 10_60 \"Chocolate confectionery\", PDF p.24",
+      "notes": "Single category composite of 24 retail samples (one per local authority, 24 UK locations); category includes solid unfilled chocolate bars and unspecified chocolate AND filled chocolate-coated bars and sweets (e.g. Mars, Snickers, Minstrels) per Annex 1."
+    },
+    {
+      "id": "fera2015-uk-tds-metals:tAs:chocolate-confectionery:sample_value",
+      "analyte": "tAs",
+      "material": "Chocolate confectionery (category 10_60)",
+      "form": "mixed_products",
+      "group": "UK TDS category 10_60 \"Chocolate confectionery\"",
+      "group_kind": "form",
+      "n": 1,
+      "statistic": "sample_value",
+      "reported": {
+        "value": 0.005,
+        "sd": null,
+        "min": null,
+        "max": null,
+        "unit": "mg/kg",
+        "text": "~0.005"
+      },
+      "value_ug_kg": 5.0,
+      "min_ug_kg": null,
+      "max_ug_kg": null,
+      "sd_ug_kg": null,
+      "basis": "as received or prepared (chocolate bars analysed as is, no preparation), fresh weight",
+      "years": [
+        2014
+      ],
+      "conversion": "mg/kg x 1000",
+      "censoring": "Prefixed \"~\": above LoD but below LoQ (semi-quantitative)",
+      "lod_ug_kg": null,
+      "locator": "Table 15 (Sugars and Preserves category, mg/kg as received or prepared), row S14-042915 10_60 \"Chocolate confectionery\", PDF p.24",
+      "notes": "Single category composite of 24 retail samples (one per local authority, 24 UK locations); category includes solid unfilled chocolate bars and unspecified chocolate AND filled chocolate-coated bars and sweets (e.g. Mars, Snickers, Minstrels) per Annex 1.",
+      "semi_quantitative": true
+    },
+    {
+      "id": "fera2015-uk-tds-metals:iAs:chocolate-confectionery:below_LOD",
+      "analyte": "iAs",
+      "material": "Chocolate confectionery (category 10_60)",
+      "form": "mixed_products",
+      "group": "UK TDS category 10_60 \"Chocolate confectionery\"",
+      "group_kind": "form",
+      "n": 1,
+      "statistic": "below_LOD",
+      "reported": {
+        "value": null,
+        "sd": null,
+        "min": null,
+        "max": null,
+        "unit": "mg/kg",
+        "text": "<0.012"
+      },
+      "value_ug_kg": null,
+      "min_ug_kg": null,
+      "max_ug_kg": null,
+      "sd_ug_kg": null,
+      "basis": "as received or prepared (chocolate bars analysed as is, no preparation), fresh weight",
+      "years": [
+        2014
+      ],
+      "conversion": "mg/kg x 1000",
+      "censoring": "<LoD 0.012 mg/kg; no value imputed",
+      "lod_ug_kg": 12,
+      "locator": "Table 15 (Sugars and Preserves category, mg/kg as received or prepared), row S14-042915 10_60 \"Chocolate confectionery\", PDF p.24",
+      "notes": "Single category composite of 24 retail samples (one per local authority, 24 UK locations); category includes solid unfilled chocolate bars and unspecified chocolate AND filled chocolate-coated bars and sweets (e.g. Mars, Snickers, Minstrels) per Annex 1."
+    },
+    {
+      "id": "fera2015-uk-tds-metals:Cd:chocolate-confectionery:sample_value",
+      "analyte": "Cd",
+      "material": "Chocolate confectionery (category 10_60)",
+      "form": "mixed_products",
+      "group": "UK TDS category 10_60 \"Chocolate confectionery\"",
+      "group_kind": "form",
+      "n": 1,
+      "statistic": "sample_value",
+      "reported": {
+        "value": 0.016,
+        "sd": null,
+        "min": null,
+        "max": null,
+        "unit": "mg/kg",
+        "text": "0.016"
+      },
+      "value_ug_kg": 16.0,
+      "min_ug_kg": null,
+      "max_ug_kg": null,
+      "sd_ug_kg": null,
+      "basis": "as received or prepared (chocolate bars analysed as is, no preparation), fresh weight",
+      "years": [
+        2014
+      ],
+      "conversion": "mg/kg x 1000",
+      "censoring": "",
+      "lod_ug_kg": null,
+      "locator": "Table 15 (Sugars and Preserves category, mg/kg as received or prepared), row S14-042915 10_60 \"Chocolate confectionery\", PDF p.25",
+      "notes": "Single category composite of 24 retail samples (one per local authority, 24 UK locations); category includes solid unfilled chocolate bars and unspecified chocolate AND filled chocolate-coated bars and sweets (e.g. Mars, Snickers, Minstrels) per Annex 1."
+    },
+    {
+      "id": "fera2015-uk-tds-metals:Sn:chocolate-confectionery:below_LOD",
+      "analyte": "Sn",
+      "material": "Chocolate confectionery (category 10_60)",
+      "form": "mixed_products",
+      "group": "UK TDS category 10_60 \"Chocolate confectionery\"",
+      "group_kind": "form",
+      "n": 1,
+      "statistic": "below_LOD",
+      "reported": {
+        "value": null,
+        "sd": null,
+        "min": null,
+        "max": null,
+        "unit": "mg/kg",
+        "text": "<0.01"
+      },
+      "value_ug_kg": null,
+      "min_ug_kg": null,
+      "max_ug_kg": null,
+      "sd_ug_kg": null,
+      "basis": "as received or prepared (chocolate bars analysed as is, no preparation), fresh weight",
+      "years": [
+        2014
+      ],
+      "conversion": "mg/kg x 1000",
+      "censoring": "<LoD 0.01 mg/kg",
+      "lod_ug_kg": 10,
+      "locator": "Table 15 (Sugars and Preserves category, mg/kg as received or prepared), row S14-042915 10_60 \"Chocolate confectionery\", PDF p.25",
+      "notes": "Single category composite of 24 retail samples (one per local authority, 24 UK locations); category includes solid unfilled chocolate bars and unspecified chocolate AND filled chocolate-coated bars and sweets (e.g. Mars, Snickers, Minstrels) per Annex 1."
+    },
+    {
+      "id": "fera2015-uk-tds-metals:tHg:chocolate-confectionery:below_LOD",
+      "analyte": "tHg",
+      "material": "Chocolate confectionery (category 10_60)",
+      "form": "mixed_products",
+      "group": "UK TDS category 10_60 \"Chocolate confectionery\"",
+      "group_kind": "form",
+      "n": 1,
+      "statistic": "below_LOD",
+      "reported": {
+        "value": null,
+        "sd": null,
+        "min": null,
+        "max": null,
+        "unit": "mg/kg",
+        "text": "<0.0005"
+      },
+      "value_ug_kg": null,
+      "min_ug_kg": null,
+      "max_ug_kg": null,
+      "sd_ug_kg": null,
+      "basis": "as received or prepared (chocolate bars analysed as is, no preparation), fresh weight",
+      "years": [
+        2014
+      ],
+      "conversion": "mg/kg x 1000",
+      "censoring": "<LoD 0.0005 mg/kg",
+      "lod_ug_kg": 0.5,
+      "locator": "Table 15 (Sugars and Preserves category, mg/kg as received or prepared), row S14-042915 10_60 \"Chocolate confectionery\", PDF p.25",
+      "notes": "Single category composite of 24 retail samples (one per local authority, 24 UK locations); category includes solid unfilled chocolate bars and unspecified chocolate AND filled chocolate-coated bars and sweets (e.g. Mars, Snickers, Minstrels) per Annex 1."
+    },
+    {
+      "id": "fera2015-uk-tds-metals:Pb:chocolate-confectionery:sample_value",
+      "analyte": "Pb",
+      "material": "Chocolate confectionery (category 10_60)",
+      "form": "mixed_products",
+      "group": "UK TDS category 10_60 \"Chocolate confectionery\"",
+      "group_kind": "form",
+      "n": 1,
+      "statistic": "sample_value",
+      "reported": {
+        "value": 0.007,
+        "sd": null,
+        "min": null,
+        "max": null,
+        "unit": "mg/kg",
+        "text": "0.007"
+      },
+      "value_ug_kg": 7.0,
+      "min_ug_kg": null,
+      "max_ug_kg": null,
+      "sd_ug_kg": null,
+      "basis": "as received or prepared (chocolate bars analysed as is, no preparation), fresh weight",
+      "years": [
+        2014
+      ],
+      "conversion": "mg/kg x 1000",
+      "censoring": "",
+      "lod_ug_kg": null,
+      "locator": "Table 15 (Sugars and Preserves category, mg/kg as received or prepared), row S14-042915 10_60 \"Chocolate confectionery\", PDF p.25",
+      "notes": "Single category composite of 24 retail samples (one per local authority, 24 UK locations); category includes solid unfilled chocolate bars and unspecified chocolate AND filled chocolate-coated bars and sweets (e.g. Mars, Snickers, Minstrels) per Annex 1."
+    }
+  ],
+  "sample_values": [
+    {
+      "sample": "S14-042915 (10_60 Chocolate confectionery)",
+      "group": "UK TDS category 10_60 \"Chocolate confectionery\"",
+      "form": "mixed_products",
+      "analyte": "Al",
+      "value_ug_kg": 6040.0,
+      "censored": false,
+      "bound_ug_kg": null,
+      "locator": "Table 15 (Sugars and Preserves category, mg/kg as received or prepared), row S14-042915 10_60 \"Chocolate confectionery\", PDF p.24"
+    },
+    {
+      "sample": "S14-042915 (10_60 Chocolate confectionery)",
+      "group": "UK TDS category 10_60 \"Chocolate confectionery\"",
+      "form": "mixed_products",
+      "analyte": "Cr",
+      "value_ug_kg": 180.0,
+      "censored": false,
+      "bound_ug_kg": null,
+      "locator": "Table 15 (Sugars and Preserves category, mg/kg as received or prepared), row S14-042915 10_60 \"Chocolate confectionery\", PDF p.24"
+    },
+    {
+      "sample": "S14-042915 (10_60 Chocolate confectionery)",
+      "group": "UK TDS category 10_60 \"Chocolate confectionery\"",
+      "form": "mixed_products",
+      "analyte": "Ni",
+      "value_ug_kg": 610.0,
+      "censored": false,
+      "bound_ug_kg": null,
+      "locator": "Table 15 (Sugars and Preserves category, mg/kg as received or prepared), row S14-042915 10_60 \"Chocolate confectionery\", PDF p.24"
+    },
+    {
+      "sample": "S14-042915 (10_60 Chocolate confectionery)",
+      "group": "UK TDS category 10_60 \"Chocolate confectionery\"",
+      "form": "mixed_products",
+      "analyte": "tAs",
+      "value_ug_kg": 5.0,
+      "censored": false,
+      "bound_ug_kg": null,
+      "locator": "Table 15 (Sugars and Preserves category, mg/kg as received or prepared), row S14-042915 10_60 \"Chocolate confectionery\", PDF p.24"
+    },
+    {
+      "sample": "S14-042915 (10_60 Chocolate confectionery)",
+      "group": "UK TDS category 10_60 \"Chocolate confectionery\"",
+      "form": "mixed_products",
+      "analyte": "iAs",
+      "value_ug_kg": null,
+      "censored": true,
+      "bound_ug_kg": 12,
+      "locator": "Table 15 (Sugars and Preserves category, mg/kg as received or prepared), row S14-042915 10_60 \"Chocolate confectionery\", PDF p.24"
+    },
+    {
+      "sample": "S14-042915 (10_60 Chocolate confectionery)",
+      "group": "UK TDS category 10_60 \"Chocolate confectionery\"",
+      "form": "mixed_products",
+      "analyte": "Cd",
+      "value_ug_kg": 16.0,
+      "censored": false,
+      "bound_ug_kg": null,
+      "locator": "Table 15 (Sugars and Preserves category, mg/kg as received or prepared), row S14-042915 10_60 \"Chocolate confectionery\", PDF p.25"
+    },
+    {
+      "sample": "S14-042915 (10_60 Chocolate confectionery)",
+      "group": "UK TDS category 10_60 \"Chocolate confectionery\"",
+      "form": "mixed_products",
+      "analyte": "Sn",
+      "value_ug_kg": null,
+      "censored": true,
+      "bound_ug_kg": 10,
+      "locator": "Table 15 (Sugars and Preserves category, mg/kg as received or prepared), row S14-042915 10_60 \"Chocolate confectionery\", PDF p.25"
+    },
+    {
+      "sample": "S14-042915 (10_60 Chocolate confectionery)",
+      "group": "UK TDS category 10_60 \"Chocolate confectionery\"",
+      "form": "mixed_products",
+      "analyte": "tHg",
+      "value_ug_kg": null,
+      "censored": true,
+      "bound_ug_kg": 0.5,
+      "locator": "Table 15 (Sugars and Preserves category, mg/kg as received or prepared), row S14-042915 10_60 \"Chocolate confectionery\", PDF p.25"
+    },
+    {
+      "sample": "S14-042915 (10_60 Chocolate confectionery)",
+      "group": "UK TDS category 10_60 \"Chocolate confectionery\"",
+      "form": "mixed_products",
+      "analyte": "Pb",
+      "value_ug_kg": 7.0,
+      "censored": false,
+      "bound_ug_kg": null,
+      "locator": "Table 15 (Sugars and Preserves category, mg/kg as received or prepared), row S14-042915 10_60 \"Chocolate confectionery\", PDF p.25"
+    }
+  ],
+  "controls": [],
+  "regulatory": [],
+  "notes": "Out-of-scope cocoa-containing categories: 'Chocolate biscuits' (2_10) and 'Sweet biscuits including half-coated chocolate biscuits'; 'Cocoa, drinking chocolate' (17_108) was prepared per Annex 1 as a beverage ('Add hot water and stir well, according to instructions on label'), i.e. a drink as consumed, and is therefore out of scope: its printed values were Al 2.07, Cr ~0.06, Ni 0.22, As <0.006, iAs <0.003, Cd <0.006, Sn <0.02, Hg <0.001, Pb <0.004 mg/kg. Group 10 'Sugars and Preserves' group composite mixes sugar, jams, chocolate and sugar confectionery and is not extracted. Untracked elements for chocolate confectionery (Mn, Cu, Zn, Se, Sr, Mo, Sb, I, Ba, Bi etc.) ignored.",
+  "contradictions_with_stored_summary": [
+    "Stored summary reports chocolate biscuits (out of scope) but omits the chocolate confectionery category values (e.g. Cd 0.016, Pb 0.007, Ni 0.61, Al 6.04 mg/kg)."
+  ],
+  "unresolved": [
+    "Exact sampling dates are not given in this report (only 'the 2014 TDS' and the sampling contractor's separate report).",
+    "Table 3 header labels LoD/LoQ in µg/kg, but its numbers match the mg/kg '<' values in the results tables (e.g. iAs 0.012); unit label appears wrong.",
+    "Proportion of solid vs filled chocolate products within the category composite is not reported."
+  ]
+}

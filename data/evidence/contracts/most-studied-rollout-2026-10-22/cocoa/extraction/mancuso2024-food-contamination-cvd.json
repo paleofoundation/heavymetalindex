@@ -1,0 +1,29 @@
+{
+  "source_id": "mancuso2024-food-contamination-cvd",
+  "primary_artifact": "/Volumes/HMI-Library/heavy-metal-index-raw/markdown/FM_11405437_Food_contamination_and_cardiovascular_disease_a_narrative_re/FM_11405437_Food_contamination_and_cardiovascular_disease_a_narrative_re.md",
+  "primary_sha256": "6e9032627d87bd4b88fe37f12bd2ca3212550047e3691a910c40efa8e72b0121",
+  "text_copy": "data/evidence/contracts/most-studied-rollout-2026-10-22/cocoa/primary/mancuso2024-food-contamination-cvd.txt",
+  "disposition": "context_only",
+  "disposition_reason": "Narrative review of food contamination and cardiovascular disease; cocoa appears only in Table 1 as a food in which metals are mainly present ('Cocoa') and cocoa seeds as a PAH food. No cocoa concentrations or cocoa-specific findings.",
+  "disposition_locator": "Table 1 'Types of food contaminants and foods they are mainly present' (Metals row: 'Cocoa'; PAHs row: 'Cocoa seeds')",
+  "study": {
+    "design": "review",
+    "material_scope": "general food contaminants; cocoa listed in a table only",
+    "growing_origin_vs_market": null,
+    "collection_period": null,
+    "n_total": null,
+    "sampling_unit": null,
+    "method": null,
+    "lod_loq": null,
+    "basis": null,
+    "qa": null
+  },
+  "findings": [],
+  "sample_values": [],
+  "controls": [],
+  "regulatory": [],
+  "contradictions_with_stored_summary": [
+    "Wiki frontmatter routes this source to ingredients/cocoa, but the primary only lists cocoa in Table 1 without data."
+  ],
+  "unresolved": []
+}

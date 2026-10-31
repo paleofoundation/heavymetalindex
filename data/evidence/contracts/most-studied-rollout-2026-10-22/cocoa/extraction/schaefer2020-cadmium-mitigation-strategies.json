@@ -1,0 +1,73 @@
+{
+  "source_id": "schaefer2020-cadmium-mitigation-strategies",
+  "primary_artifact": "/Volumes/HMI-Library/heavy-metal-index-raw/Manual Fetch Kimi /condiment_papers/05_PB_Vanilla_Spices/Cadmium_ Mitigation strategies to reduce dietary exposure.pdf",
+  "primary_sha256": "f9395e27261bbfcd90954d2270a0235c891faa9dc40794f0ccf4bcd8d4b34c3e",
+  "text_copy": "AUDIT/primary/schaefer2020-cadmium-mitigation-strategies.txt",
+  "disposition": "context_only",
+  "disposition_reason": "FDA/CFSAN concise review of Cd mitigation across all foods. Cocoa appears only in (a) the JECFA 2011 statement that mean Cd was 0.1-4.8 mg/kg collectively across crustaceans, organ meats, vegetables, nuts/oilseeds, spices, coffee, tea and cocoa (no cocoa-specific value), and (b) a paragraph noting the Codex Code of Practice for prevention and reduction of Cd in cocoa (in development) and possible Codex MLs for cocoa products. Mitigation measures are generic (soil pH/lime, low-Cd varieties, avoiding phosphate fertilizer, Zn, irrigation-water chloride, removing galvanized/Cd-plated equipment) with no cocoa-specific or numeric outcomes.",
+  "disposition_locator": "p. 261 (JECFA category range); p. 263 sections 3.1.1-3.1.3; Table 1 p. 265; section 4.2 p. 266",
+  "study": {
+    "design": "review (concise, non-systematic)",
+    "material_scope": "all foods; cocoa mentioned only at category/codex level",
+    "growing_origin_vs_market": "not applicable",
+    "collection_period": null,
+    "n_total": null,
+    "sampling_unit": "not applicable",
+    "method": "secondary",
+    "lod_loq": "not applicable",
+    "basis": "not stated for JECFA range",
+    "qa": "not applicable"
+  },
+  "findings": [],
+  "sample_values": [],
+  "controls": [
+    {
+      "control": "Commodity-specific Codex Code of Practice for prevention and reduction of Cd contamination in cocoa (primary production and post-harvest recommendations)",
+      "stage": "regulation",
+      "evidence_kind": "guidance",
+      "design": "code of practice (cited as in development, CAC 2019)",
+      "comparator": "none",
+      "outcome": "No numbers; review recommends commodity-specific COPs and notes CCCF considered maximum levels for Cd in cocoa products (citing Abt et al. 2018).",
+      "analytes": [
+        "Cd"
+      ],
+      "scale": "guidance",
+      "locator": "Section 4.2, p. 266"
+    },
+    {
+      "control": "Raise soil pH with lime (and biochar, Si fertilizers); select low-Cd varieties; avoid phosphate fertilizers in favour of N and K; add Zn; test irrigation water for chloride",
+      "stage": "farm and soil management",
+      "evidence_kind": "guidance",
+      "design": "review (generic, not cocoa-specific)",
+      "comparator": "none",
+      "outcome": "Generic statements: Cd solubility higher at pH 3.0-5.0, bioavailability reduced above pH 6; no cocoa data or numeric effect sizes.",
+      "analytes": [
+        "Cd"
+      ],
+      "scale": "guidance",
+      "locator": "Sections 3.1.1-3.1.3, p. 263; Table 1, p. 265"
+    },
+    {
+      "control": "Discontinue cadmium-plated utensils and galvanized equipment in post-harvest/food production",
+      "stage": "processing (shelling, winnowing, alkalisation, conching)",
+      "evidence_kind": "guidance",
+      "design": "review (generic)",
+      "comparator": "none",
+      "outcome": "No numbers; generic manufacturer step.",
+      "analytes": [
+        "Cd"
+      ],
+      "scale": "guidance",
+      "locator": "Table 1, p. 265; Section 4.1"
+    }
+  ],
+  "regulatory": [],
+  "contradictions_with_stored_summary": [
+    "Stored summary does not mention the Codex Code of Practice for Cd in cocoa (section 4.2), the review's only cocoa-specific content.",
+    "Stored summary correctly notes the JECFA 0.1-4.8 mg/kg range is collective across categories including cocoa; no cocoa-specific value exists in the primary.",
+    "Stored summary lists children's mixed-dish exposure contributors (brownies, chocolate cake); these are out of scope for the cocoa page and give no cocoa concentration."
+  ],
+  "unresolved": [
+    "Page locators assume journal pagination 261-266 as printed in the PDF text."
+  ]
+}

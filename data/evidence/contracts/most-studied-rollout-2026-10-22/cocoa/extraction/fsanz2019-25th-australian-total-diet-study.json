@@ -1,0 +1,303 @@
+{
+  "source_id": "fsanz2019-25th-australian-total-diet-study",
+  "primary_artifact": "/Volumes/HMI-Library/heavy-metal-index-raw/Manual Fetch Kimi /04_Meat_Poultry_Seafood/04_Meat_Poultry_Seafood/P0160_25th Australian Total Diet Study.pdf",
+  "primary_sha256": "529f57593c5918a3be9112c061dea3e084455531e7ac464e179f4d0742c6391f",
+  "supplementary_artifacts": [
+    {
+      "path": "/Users/kmfp/Documents/ChatGPT/HeavyMetalIndex.com/site/data/evidence/contracts/cocoa/primary-recovered/fsanz2019-appendices.pdf",
+      "sha256": "e807eb6e4ab33086069f7eaf7b59a8e66047c86aca042fad87ec497e7909b095",
+      "text_copy": "AUDIT/primary/fsanz2019-25th-australian-total-diet-study-appendices.txt",
+      "note": "Food-level concentration tables are in Appendix 3 of this appendices volume."
+    }
+  ],
+  "text_copy": "AUDIT/primary/fsanz2019-25th-australian-total-diet-study.txt",
+  "disposition": "occurrence_extracted",
+  "disposition_reason": "The 25th ATDS analysed 'Chocolate, milk' (4 composites) for total As, Cd, Pb and total Hg: Cd and Pb detected in all composites, total As and total Hg not detected. Inorganic As and Hg species were analysed only in seafood/rice/sushi, not chocolate.",
+  "disposition_locator": "Appendix 3 Tables A.2, A.3, A.4, A.7 (appendices PDF pp.9, 14, 19, 25); main report Table 2 (p.20), sampling pp.17-18, Tables 6-7 (pp.43, 49)",
+  "study": {
+    "design": "total diet study",
+    "material_scope": "retail milk chocolate analysed as purchased (national food)",
+    "growing_origin_vs_market": "Purchase market Australia (four states/territories); cocoa growing origin not reported",
+    "collection_period": "13-24 May 2013 (autumn) and 17-28 February 2014 (summer)",
+    "n_total": 4,
+    "sampling_unit": "composite samples, each of three primary retail purchases from one state/territory",
+    "method": "ICP-MS after acid digestion (Symbio Laboratories, NATA-accredited)",
+    "lod_loq": {
+      "Cd": "LOR 0.005 mg/kg",
+      "Pb": "LOR 0.005 mg/kg",
+      "tAs": "LOR 0.005 mg/kg",
+      "tHg": "LOR 0.005 mg/kg",
+      "note": "LOR = LOD; LOQ = 5 x LOD (Table 2 footnote)"
+    },
+    "basis": "ready-to-eat composite (milk chocolate as purchased; no preparation instruction in Appendix 5), wet/as-consumed weight",
+    "qa": "NATA-accredited methods; no chocolate-specific CRM/recovery reported."
+  },
+  "findings": [
+    {
+      "id": "fsanz2019-25th-australian-total-diet-study:tAs:milk-chocolate:not_detected",
+      "analyte": "tAs",
+      "material": "Chocolate, milk",
+      "form": "milk_chocolate",
+      "group": "Australia, national food (4 composites from 4 states/territories)",
+      "group_kind": "purchase_market",
+      "n": 4,
+      "statistic": "not_detected",
+      "reported": {
+        "value": null,
+        "sd": null,
+        "min": null,
+        "max": null,
+        "unit": "mg/kg",
+        "text": "4 | 0 | 0 | Nil detects"
+      },
+      "value_ug_kg": null,
+      "min_ug_kg": null,
+      "max_ug_kg": null,
+      "sd_ug_kg": null,
+      "basis": "ready-to-eat composite (milk chocolate as purchased; no preparation instruction in Appendix 5), wet/as-consumed weight",
+      "years": [
+        2013,
+        2014
+      ],
+      "conversion": "mg/kg x 1000",
+      "censoring": "0 of 4 composites detected; source prints \"Nil detects\" without bound values",
+      "lod_ug_kg": 5.0,
+      "locator": "Appendices (Appendix 3), Table A.2 \"Concentrations of total arsenic\", row \"Chocolate, milk\", PDF p.9",
+      "notes": "LOR for Cd, Pb, Hg, As by ICP-MS = 0.005 mg/kg (main report Table 2); LOR=LOD."
+    },
+    {
+      "id": "fsanz2019-25th-australian-total-diet-study:tHg:milk-chocolate:not_detected",
+      "analyte": "tHg",
+      "material": "Chocolate, milk",
+      "form": "milk_chocolate",
+      "group": "Australia, national food (4 composites from 4 states/territories)",
+      "group_kind": "purchase_market",
+      "n": 4,
+      "statistic": "not_detected",
+      "reported": {
+        "value": null,
+        "sd": null,
+        "min": null,
+        "max": null,
+        "unit": "mg/kg",
+        "text": "4 | 0 | 0 | Nil detects"
+      },
+      "value_ug_kg": null,
+      "min_ug_kg": null,
+      "max_ug_kg": null,
+      "sd_ug_kg": null,
+      "basis": "ready-to-eat composite (milk chocolate as purchased; no preparation instruction in Appendix 5), wet/as-consumed weight",
+      "years": [
+        2013,
+        2014
+      ],
+      "conversion": "mg/kg x 1000",
+      "censoring": "0 of 4 composites detected; \"Nil detects\"",
+      "lod_ug_kg": 5.0,
+      "locator": "Appendices (Appendix 3), Table A.7 \"Concentrations of total mercury\", row \"Chocolate, milk\", PDF p.25",
+      "notes": "LOR 0.005 mg/kg (Table 2)."
+    },
+    {
+      "id": "fsanz2019-25th-australian-total-diet-study:Cd:milk-chocolate:mean",
+      "analyte": "Cd",
+      "material": "Chocolate, milk",
+      "form": "milk_chocolate",
+      "group": "Australia, national food (4 composites from 4 states/territories)",
+      "group_kind": "purchase_market",
+      "n": 4,
+      "statistic": "mean",
+      "reported": {
+        "value": 0.015,
+        "sd": null,
+        "min": null,
+        "max": null,
+        "unit": "mg/kg",
+        "text": "4 | 4 | 100 | 0.015 | 0.015 | 0.015 | 0.015 | 0.008 | 0.022"
+      },
+      "value_ug_kg": 15.0,
+      "min_ug_kg": null,
+      "max_ug_kg": null,
+      "sd_ug_kg": null,
+      "basis": "ready-to-eat composite (milk chocolate as purchased; no preparation instruction in Appendix 5), wet/as-consumed weight",
+      "years": [
+        2013,
+        2014
+      ],
+      "conversion": "mg/kg x 1000",
+      "censoring": "All 4 composites detected (100%); nd=0 and nd=LOR statistics identical",
+      "lod_ug_kg": 5.0,
+      "locator": "Appendices (Appendix 3), Table A.3 \"Concentrations of cadmium\", row \"Chocolate, milk\", PDF p.14",
+      "notes": "Mean of 4 composites (3 purchases each)."
+    },
+    {
+      "id": "fsanz2019-25th-australian-total-diet-study:Cd:milk-chocolate:median",
+      "analyte": "Cd",
+      "material": "Chocolate, milk",
+      "form": "milk_chocolate",
+      "group": "Australia, national food (4 composites from 4 states/territories)",
+      "group_kind": "purchase_market",
+      "n": 4,
+      "statistic": "median",
+      "reported": {
+        "value": 0.015,
+        "sd": null,
+        "min": null,
+        "max": null,
+        "unit": "mg/kg",
+        "text": "4 | 4 | 100 | 0.015 | 0.015 | 0.015 | 0.015 | 0.008 | 0.022"
+      },
+      "value_ug_kg": 15.0,
+      "min_ug_kg": null,
+      "max_ug_kg": null,
+      "sd_ug_kg": null,
+      "basis": "ready-to-eat composite (milk chocolate as purchased; no preparation instruction in Appendix 5), wet/as-consumed weight",
+      "years": [
+        2013,
+        2014
+      ],
+      "conversion": "mg/kg x 1000",
+      "censoring": "All 4 composites detected (100%); nd=0 and nd=LOR statistics identical",
+      "lod_ug_kg": 5.0,
+      "locator": "Appendices (Appendix 3), Table A.3 \"Concentrations of cadmium\", row \"Chocolate, milk\", PDF p.14",
+      "notes": "P50 of 4 composites."
+    },
+    {
+      "id": "fsanz2019-25th-australian-total-diet-study:Cd:milk-chocolate:range",
+      "analyte": "Cd",
+      "material": "Chocolate, milk",
+      "form": "milk_chocolate",
+      "group": "Australia, national food (4 composites from 4 states/territories)",
+      "group_kind": "purchase_market",
+      "n": 4,
+      "statistic": "range",
+      "reported": {
+        "value": null,
+        "sd": null,
+        "min": 0.008,
+        "max": 0.022,
+        "unit": "mg/kg",
+        "text": "4 | 4 | 100 | 0.015 | 0.015 | 0.015 | 0.015 | 0.008 | 0.022"
+      },
+      "value_ug_kg": null,
+      "min_ug_kg": 8.0,
+      "max_ug_kg": 22.0,
+      "sd_ug_kg": null,
+      "basis": "ready-to-eat composite (milk chocolate as purchased; no preparation instruction in Appendix 5), wet/as-consumed weight",
+      "years": [
+        2013,
+        2014
+      ],
+      "conversion": "mg/kg x 1000",
+      "censoring": "All 4 composites detected (100%); nd=0 and nd=LOR statistics identical",
+      "lod_ug_kg": 5.0,
+      "locator": "Appendices (Appendix 3), Table A.3 \"Concentrations of cadmium\", row \"Chocolate, milk\", PDF p.14",
+      "notes": "Min and max composite."
+    },
+    {
+      "id": "fsanz2019-25th-australian-total-diet-study:Pb:milk-chocolate:mean",
+      "analyte": "Pb",
+      "material": "Chocolate, milk",
+      "form": "milk_chocolate",
+      "group": "Australia, national food (4 composites from 4 states/territories)",
+      "group_kind": "purchase_market",
+      "n": 4,
+      "statistic": "mean",
+      "reported": {
+        "value": 0.006,
+        "sd": null,
+        "min": null,
+        "max": null,
+        "unit": "mg/kg",
+        "text": "4 | 4 | 100 | 0.006 | 0.006 | 0.006 | 0.006 | 0.005 | 0.007"
+      },
+      "value_ug_kg": 6.0,
+      "min_ug_kg": null,
+      "max_ug_kg": null,
+      "sd_ug_kg": null,
+      "basis": "ready-to-eat composite (milk chocolate as purchased; no preparation instruction in Appendix 5), wet/as-consumed weight",
+      "years": [
+        2013,
+        2014
+      ],
+      "conversion": "mg/kg x 1000",
+      "censoring": "All 4 composites detected (100%); nd=0 and nd=LOR statistics identical",
+      "lod_ug_kg": 5.0,
+      "locator": "Appendices (Appendix 3), Table A.4 \"Concentrations of lead\", row \"Chocolate, milk\", PDF p.19",
+      "notes": "Mean of 4 composites (3 purchases each)."
+    },
+    {
+      "id": "fsanz2019-25th-australian-total-diet-study:Pb:milk-chocolate:median",
+      "analyte": "Pb",
+      "material": "Chocolate, milk",
+      "form": "milk_chocolate",
+      "group": "Australia, national food (4 composites from 4 states/territories)",
+      "group_kind": "purchase_market",
+      "n": 4,
+      "statistic": "median",
+      "reported": {
+        "value": 0.006,
+        "sd": null,
+        "min": null,
+        "max": null,
+        "unit": "mg/kg",
+        "text": "4 | 4 | 100 | 0.006 | 0.006 | 0.006 | 0.006 | 0.005 | 0.007"
+      },
+      "value_ug_kg": 6.0,
+      "min_ug_kg": null,
+      "max_ug_kg": null,
+      "sd_ug_kg": null,
+      "basis": "ready-to-eat composite (milk chocolate as purchased; no preparation instruction in Appendix 5), wet/as-consumed weight",
+      "years": [
+        2013,
+        2014
+      ],
+      "conversion": "mg/kg x 1000",
+      "censoring": "All 4 composites detected (100%); nd=0 and nd=LOR statistics identical",
+      "lod_ug_kg": 5.0,
+      "locator": "Appendices (Appendix 3), Table A.4 \"Concentrations of lead\", row \"Chocolate, milk\", PDF p.19",
+      "notes": "P50 of 4 composites."
+    },
+    {
+      "id": "fsanz2019-25th-australian-total-diet-study:Pb:milk-chocolate:range",
+      "analyte": "Pb",
+      "material": "Chocolate, milk",
+      "form": "milk_chocolate",
+      "group": "Australia, national food (4 composites from 4 states/territories)",
+      "group_kind": "purchase_market",
+      "n": 4,
+      "statistic": "range",
+      "reported": {
+        "value": null,
+        "sd": null,
+        "min": 0.005,
+        "max": 0.007,
+        "unit": "mg/kg",
+        "text": "4 | 4 | 100 | 0.006 | 0.006 | 0.006 | 0.006 | 0.005 | 0.007"
+      },
+      "value_ug_kg": null,
+      "min_ug_kg": 5.0,
+      "max_ug_kg": 7.0,
+      "sd_ug_kg": null,
+      "basis": "ready-to-eat composite (milk chocolate as purchased; no preparation instruction in Appendix 5), wet/as-consumed weight",
+      "years": [
+        2013,
+        2014
+      ],
+      "conversion": "mg/kg x 1000",
+      "censoring": "All 4 composites detected (100%); nd=0 and nd=LOR statistics identical",
+      "lod_ug_kg": 5.0,
+      "locator": "Appendices (Appendix 3), Table A.4 \"Concentrations of lead\", row \"Chocolate, milk\", PDF p.19",
+      "notes": "Min and max composite. Minimum equals the LOR (0.005 mg/kg)."
+    }
+  ],
+  "sample_values": [],
+  "controls": [],
+  "regulatory": [],
+  "notes": "Out-of-scope cocoa-containing foods also tabulated: 'Cake, chocolate, iced' and 'Hot chocolate beverage' (made up as directed on label using tap water, or light milk if label specifies; i.e. a drink as consumed, not powder). Main report Tables 6 and 7 quote external comparators for milk chocolate (Cd mean nd=LOR: 23rd ATDS 0.042, US FDA 0.021, EFSA 0.021, NZ 0.039 mg/kg; Pb: 23rd ATDS 0.028, US FDA 0.011 [LB], EFSA 0.039, NZ 0.027 [middle bound] mg/kg); these are secondary citations, not 25th ATDS measurements. 'Chocolates and fudge' was a minor contributor to lead exposure for all ages except teenagers 13-18 (5%) (main report PDF p.51).",
+  "contradictions_with_stored_summary": [
+    "Stored summary lists chocolate among foods with Cd detected in all composites but gives no milk chocolate concentration values (Cd 0.015, Pb 0.006 mg/kg); it reports chocolate cake values only."
+  ],
+  "unresolved": [
+    "Which four states/territories supplied the milk chocolate composites is not stated."
+  ]
+}

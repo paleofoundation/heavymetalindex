@@ -1,0 +1,35 @@
+{
+ "source_id": "chiarelli2009-turin-raw-milk-contaminants",
+ "primary_artifact": "/Users/kmfp/papers-for-claude/hmi-thin/batch-10/pdfs/skim-milk__Chiarelli2009__10.4081_ijfs.2009.6.48.pdf",
+ "primary_sha256": "04d938b4c44253fffddf3c1ccfa64a22f440b03d2d91eda903eb41272271367c",
+ "disposition": "no_numeric_results",
+ "disposition_reason": "The paper states only that metal levels in all raw milk samples were below or close to the LOQs; no concentrations, counts above LOQ or summary statistics are printed for any metal.",
+ "disposition_locator": "Risultati, p. 50",
+ "study": {
+  "design": "Multi-year official monitoring of raw bovine milk for metals, PCBs and pesticides",
+  "origin": "75 cattle farms supplying the Turin central dairy, Province of Turin, Italy",
+  "market": "raw milk sampled weekly at farm/dairy intake",
+  "period_text": "2005-2008 (51, 50, 51 and 50 samples for metals in 2005, 2006, 2007, 2008)",
+  "method": "Microwave pressure digestion (HNO3 + H2O2) of 2 g; Zeeman GFAAS for As, Cd, Cr, Pb; flame AAS for Fe; direct mercury analyzer (TDA-AAS, EPA 7473) for Hg",
+  "lod_text": "LOQ: As 0.01, Cd 0.01, Cr 0.05, Pb 0.04, Hg 0.100 mg/kg",
+  "basis": "fresh",
+  "qa": "Calibration against standard solutions; UNI EN 13805 and 14083 methods; no CRM results printed",
+  "site_context": "monitoring"
+ },
+ "findings": [],
+ "sample_values": [],
+ "controls": [],
+ "regulatory_or_exposure": [
+  {
+   "what": "EU Regulation 333/2007 sampling and analysis methods; EU lead limit said to be widely respected",
+   "value": "not printed",
+   "locator": "Risultati, p. 50"
+  }
+ ],
+ "unresolved": [
+  "Metal results are qualitative only (\"below or close to the LOQ\"); because some values were near rather than below the LOQ, they cannot be recorded as censored non-detects.",
+  "The English summary says 252 samples and lists Cd, Cr, Fe, Hg, Pb, Zn, while the methods give 202 samples (51+50+51+50) for As, Cd, Cr, Fe, Hg, Pb; zinc has no method described.",
+  "No DOI is printed in the PDF; manifest DOI 10.4081/ijfs.2009.6.48 used. Manifest note \"As not measured\" is contradicted by the methods, which include arsenic."
+ ],
+ "source_record_corrections": []
+}

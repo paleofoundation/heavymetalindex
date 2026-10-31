@@ -43,7 +43,7 @@ The same section says rinsing has a minimal effect on grain arsenic while removi
 
 ## Provenance and extraction limits
 
-The original HTML is preserved at the raw path above. Selected facts are structured in the local pilot intervention register and reviewed in `data/evidence/contracts/pilot-2026-10-17/mitigation-review.json`. Original studies behind the summarized ranges, exact denominators and confidence intervals were not independently reconstructed in this extension. Full ingest and whole-library routing completion are not claimed.
+The original HTML is preserved at the raw path above. Selected facts are structured in the local pilot intervention register and reviewed in the structured evidence record. Original studies behind the summarized ranges, exact denominators and confidence intervals were not independently reconstructed in this extension. Full ingest and whole-library routing completion are not claimed.
 
 ## Related evidence
 
