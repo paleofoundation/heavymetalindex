@@ -13,7 +13,13 @@
 sites/
 public/
 node_modules/
-raw/
+raw/*
+!raw/manual-fetch/
+raw/manual-fetch/*
+# Build-time contract inputs (tools/contracts/pilot) must reach Vercel git builds.
+!raw/manual-fetch/mitigation-pilot-20261018/
+!raw/manual-fetch/rice-audit-20261018/
+!raw/manual-fetch/rice-varieties-20261019/
 .git/
 .vercel/output/
 .claude/
