@@ -10,8 +10,19 @@ export function isPendingSource(frontmatter = {}) {
     String(frontmatter.evidence_tier ?? "").toLowerCase() === "pending"
 }
 
+// A retired page, or one that only exists to name a redirect target, is not a
+// listable record. Category indexes, nav counts and public exports must skip
+// it even when the alias registry has not been regenerated yet.
+export function isRetiredRecord(frontmatter = {}) {
+  if (frontmatter.retired === true || frontmatter.retired === "true") return true
+  if (String(frontmatter.status ?? "").toLowerCase() === "retired") return true
+  const target = frontmatter.redirect_target
+  return typeof target === "string" && target.trim() !== ""
+}
+
 export function isPublicWikiRecord(frontmatter = {}, slug = "") {
   if (frontmatter.draft === true || frontmatter.draft === "true") return false
+  if (isRetiredRecord(frontmatter)) return false
   return !(isSourceRecord(frontmatter, slug) && isPendingSource(frontmatter))
 }
 

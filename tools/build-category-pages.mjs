@@ -26,8 +26,20 @@ const WIKI = path.join(ROOT, "wiki")
 
 const registry = JSON.parse(fs.readFileSync(path.join(ROOT, "data/redirects/aliases-301.json"), "utf8"))
 const gone = new Set(JSON.parse(fs.readFileSync(path.join(ROOT, "data/redirects/gone-410.json"), "utf8")).paths.map(normalizeLinkPath))
+// Read redirect sources from vercel.json directly. The alias registry is
+// regenerated later in prebuild, so a stale aliases-301.json must not put a
+// redirected URL back on a category card.
+const redirectSources = new Set()
+for (const entry of JSON.parse(fs.readFileSync(path.join(ROOT, "vercel.json"), "utf8")).redirects ?? []) {
+  const source = String(entry?.source ?? "")
+  if (!source.startsWith("/") || /[:(*]/.test(source)) continue
+  redirectSources.add(normalizeLinkPath(source))
+}
 const validPage = (fm, slug) =>
-  isPublicWikiRecord(fm, slug) && !gone.has(`/${slug}`) && !Object.hasOwn(registry.linkTargets, `/${slug}`)
+  isPublicWikiRecord(fm, slug) &&
+  !gone.has(`/${slug}`) &&
+  !redirectSources.has(`/${slug}`) &&
+  !Object.hasOwn(registry.linkTargets, `/${slug}`)
 
 const slugify = (s) =>
   String(s).toLowerCase().replace(/&/g, "and").replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "")

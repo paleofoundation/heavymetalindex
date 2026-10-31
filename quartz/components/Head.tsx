@@ -12,6 +12,8 @@ import { plainMetalText } from "../../tools/lib/metal-names.mjs"
 import { buildMetaDescription, cleanDescription } from "../util/metaDescription"
 import { isLowValuePage } from "../../tools/lib/low-value-page.mjs"
 import { locForPublicPath, publicPathForContentSlug } from "../../tools/lib/sitemap-indexability.mjs"
+import aliasRegistry from "../../data/redirects/aliases-301.json"
+import { isRetiredRecord } from "../../tools/lib/source-publication.mjs"
 
 function frontmatterString(value: unknown): string | undefined {
   if (value === undefined || value === null) return undefined
@@ -35,6 +37,18 @@ function frontmatterBoolean(value: unknown): boolean {
   if (typeof value === "boolean") return value
   if (typeof value === "string") return ["true", "yes", "1"].includes(value.trim().toLowerCase())
   return false
+}
+
+// A page that only exists to redirect should name the page that returns 200.
+function canonicalPublicPath(slug: string | undefined): string {
+  const targets = (aliasRegistry as { linkTargets?: Record<string, string | null> }).linkTargets ?? {}
+  let publicPath = publicPathForContentSlug(slug ?? "")
+  const seen = new Set<string>()
+  while (typeof targets[publicPath] === "string" && !seen.has(publicPath)) {
+    seen.add(publicPath)
+    publicPath = targets[publicPath] as string
+  }
+  return publicPath
 }
 
 // og:type — "article" for substantive documents (metal/ingredient/regulation/
@@ -231,13 +245,10 @@ export default (() => {
     // slash because vercel.json sets trailingSlash to false. The homepage is
     // `/`. A canonical that points at `/foo/` is a 308, so the tag uses the
     // extensionless path that returns 200.
-    const socialUrl =
-      fileData.slug === "404"
-        ? url.toString()
-        : locForPublicPath(
-            publicPathForContentSlug(fileData.slug!),
-            `https://${cfg.baseUrl ?? "example.com"}`,
-          )
+    const origin = `https://${cfg.baseUrl ?? "example.com"}`
+    const socialPath = canonicalPublicPath(fileData.slug)
+    const socialUrl = fileData.slug === "404" ? url.toString() : locForPublicPath(socialPath, origin)
+    const retired = isRetiredRecord(fileData.frontmatter ?? {})
 
     const usesCustomOgImage = ctx.cfg.plugins.emitters.some(
       (e) => e.name === CustomOgImagesEmitterName,
@@ -305,10 +316,11 @@ export default (() => {
         <link rel="icon" href={iconPath} />
         <meta name="description" content={description} />
         {pageJsonLd ? <script id="hmi-page-jsonld" type="application/ld+json" dangerouslySetInnerHTML={{ __html: serializeJsonLd(pageJsonLd) }} /> : null}
-        {frontmatterBoolean(fileData.frontmatter?.noindex) && (
+        {(frontmatterBoolean(fileData.frontmatter?.noindex) || retired) && (
           <meta name="robots" content="noindex, nofollow" />
         )}
         {!frontmatterBoolean(fileData.frontmatter?.noindex) &&
+          !retired &&
           isLowValuePage(fileData.frontmatter, String(fileData.slug ?? ""), fileData) && (
             <meta name="robots" content="noindex, follow" />
           )}

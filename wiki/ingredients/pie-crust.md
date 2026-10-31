@@ -1,7 +1,7 @@
 ---
 retired: true
 noindex: true
-redirect_target: ingredients/wheat
+redirect_target: products/bread-and-baked-goods
 retirement_date: 2026-10-25
 retirement_authority: "HMI-HELD-TRIAGE-1 (Elon PASS 25 Oct 2026 21:01): 301 to parent; findings stay in the store"
 title: "Pie crust"

@@ -182,7 +182,7 @@ export function createOpenAlexAdapter(opts: OpenAlexAdapterOptions = {}): Source
   }
 
   async function openAlexGet(url: string): Promise<Response> {
-    const retryable = new Set([429, 502, 503])
+    const retryable = new Set([429, 502, 503, 504])
     let res = await fetchFn(url, { headers: buildHeaders() })
     // Anonymous-tier search calls have returned 503 and then 429 during CI.
     // One 1s retry was not enough. Back off a few times before failing the call.
