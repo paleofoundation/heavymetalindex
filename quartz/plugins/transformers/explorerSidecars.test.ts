@@ -61,7 +61,7 @@ test("every row of a large explorer resolves to its own drawer and comparison de
   assert.equal(order.length, total)
   order.forEach((source, index) => {
     const { chunk, offset } = chunkPosition(index, size)
-    const sidecar = sidecars.get(`ingredients/big.hmi-occurrence-big.${chunk}`)
+    const sidecar = sidecars.get(`ingredients/big.hmi-occurrence-big.${chunk}` as FullSlug)
     assert.ok(sidecar, `chunk ${chunk} exists`)
     assert.match(sidecar.evidence[offset], new RegExp(`sources/${source}"`), `row ${index} opens its own source`)
   })
