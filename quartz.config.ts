@@ -162,12 +162,16 @@ const config: QuartzConfig = {
       // the <meta name="description"> Head emits. See searchSnippet.ts.
       Plugin.SearchSnippet(),
       Plugin.Latex({ renderEngine: "katex" }),
+      // Must stay last: moves occurrence-explorer payloads, after every other
+      // transform, into JSON beside the page. See explorerSidecars.ts.
+      Plugin.ExplorerSidecars(),
     ],
     filters: [Plugin.RemoveDrafts()],
     emitters: [
       Plugin.AliasRedirects(),
       Plugin.ComponentResources(),
       Plugin.ContentPage(),
+      Plugin.ExplorerSidecarFiles(),
       Plugin.FolderPage(),
       Plugin.TagPage(),
       Plugin.ContentIndex({
