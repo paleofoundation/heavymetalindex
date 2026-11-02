@@ -1,0 +1,98 @@
+{
+  "order": "HMI-PROTEIN-PEA-RICE-1",
+  "batch": 93,
+  "label": "Pea protein and rice protein ingredient heroes",
+  "styleDocument": "docs/IMAGE-STYLE.md",
+  "generationDate": "2026-11-02",
+  "generator": "Grok Bot built-in image generation (16:9 master, no 3:1 option), cropped to 3:1, Lanczos-resized and encoded with ffmpeg libwebp",
+  "note": "The masters are 1280x720, so the 3:1 band (1280x427) is upscaled about 1.69x to 2164x721; the canonical 2172x724 panoramic master was not available from this generator. No XMP block embedded.",
+  "pageCount": 2,
+  "uniqueAssetCount": 2,
+  "newAssetCount": 2,
+  "assets": [
+    {
+      "path": "quartz/static/heroes/pea-protein-powder-split-peas-pod.webp",
+      "url": "/static/heroes/pea-protein-powder-split-peas-pod.webp",
+      "name": "A bowl of pale pea protein powder, a dish of split peas, loose green peas and an open pea pod",
+      "description": "AI-generated conceptual editorial still life of a bowl of pale pea protein powder, a dish of split peas, loose green peas and an open pea pod.",
+      "creditText": "Heavy Metal Index",
+      "digitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+      "generationDate": "2026-11-02",
+      "original": "pea-protein-v1.png",
+      "originalSha256": "30c16e7b52536a940e80fa28635b90e7721c52f591e0b47719612759d07d566d",
+      "originalWidth": 1280,
+      "originalHeight": 720,
+      "referenceImages": [
+        "quartz/static/heroes/soybeans-tofu-powder-sauce.webp",
+        "quartz/static/heroes/chickpeas-dry-cooked.webp"
+      ],
+      "crop": {
+        "left": 0,
+        "top": 140,
+        "width": 1280,
+        "height": 427,
+        "resizedTo": [
+          2164,
+          721
+        ],
+        "resample": "lanczos"
+      },
+      "width": 2164,
+      "height": 721,
+      "format": "image/webp",
+      "quality": 85,
+      "bytes": 109280,
+      "sha256": "7c5ec133cfb31d5b05c215c2dc9a7b388efc0174b9dece26cc0bbd8686b99974",
+      "reused": false,
+      "prompt": "Use case: photorealistic-natural. Decorative Heavy Metal Index website hero, editorial photographic still life. Panoramic 3:1, objects in center-right, dark soft-focus left half for white title copy. Charcoal work surface, restrained natural side light, muted earth colors with burgundy undertones, premium scientific publication style. No people, text, labels, brands, diagrams, warning signs or watermark. Conceptual context only, no visible contamination or analytical results. Scene: A dark ceramic bowl of pale cream-yellow pea protein powder with a simple clean scoop, beside a small dish of green split peas and a few fresh green peas and an open pea pod. Ingredient context only. Keep the compact subjects in the center-right, within the band between the middle and the right edge, and the left half dark, empty and softly focused. Wide panoramic framing with generous empty margin above and below the subjects.",
+      "pages": [
+        {
+          "page": "wiki/ingredients/pea-protein.md",
+          "alt": "A dark ceramic bowl of pale pea protein powder, a dish of green split peas, loose green peas and an open pea pod illustrating pea protein ingredient context."
+        }
+      ]
+    },
+    {
+      "path": "quartz/static/heroes/rice-protein-powder-brown-rice-grains.webp",
+      "url": "/static/heroes/rice-protein-powder-brown-rice-grains.webp",
+      "name": "A bowl of pale rice protein powder with a wooden scoop, a dish of uncooked brown rice and scattered rice grains",
+      "description": "AI-generated conceptual editorial still life of a bowl of pale rice protein powder with a wooden scoop, a dish of uncooked brown rice and scattered rice grains.",
+      "creditText": "Heavy Metal Index",
+      "digitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+      "generationDate": "2026-11-02",
+      "original": "rice-protein-v1.png",
+      "originalSha256": "abbafea791a219049075323fdb72329999a8031f3869beb954a8f9d5eeb69c59",
+      "originalWidth": 1280,
+      "originalHeight": 720,
+      "referenceImages": [
+        "quartz/static/heroes/soybeans-tofu-powder-sauce.webp",
+        "quartz/static/heroes/chickpeas-dry-cooked.webp"
+      ],
+      "crop": {
+        "left": 0,
+        "top": 205,
+        "width": 1280,
+        "height": 427,
+        "resizedTo": [
+          2164,
+          721
+        ],
+        "resample": "lanczos"
+      },
+      "width": 2164,
+      "height": 721,
+      "format": "image/webp",
+      "quality": 85,
+      "bytes": 122984,
+      "sha256": "964246bdaee5ffb9bd3b5ad01f74bbe66a344580e670fcb3dabea5515c14d275",
+      "reused": false,
+      "prompt": "Use case: photorealistic-natural. Decorative Heavy Metal Index website hero, editorial photographic still life. Panoramic 3:1, objects in center-right, dark soft-focus left half for white title copy. Charcoal work surface, restrained natural side light, muted earth colors with burgundy undertones, premium scientific publication style. No people, text, labels, brands, diagrams, warning signs or watermark. Conceptual context only, no visible contamination or analytical results. Scene: A dark ceramic bowl of fine off-white to light beige rice protein powder with a simple clean scoop, beside a small dish of uncooked brown rice grains and a few scattered white and brown rice grains. Ingredient context only. Keep the compact subjects in the center-right, within the band between the middle and the right edge, and the left half dark, empty and softly focused. Wide panoramic framing with generous empty margin above and below the subjects.",
+      "pages": [
+        {
+          "page": "wiki/ingredients/rice-protein.md",
+          "alt": "A dark ceramic bowl of pale rice protein powder with a wooden scoop, a dish of uncooked brown rice and scattered rice grains illustrating rice protein ingredient context."
+        }
+      ]
+    }
+  ]
+}

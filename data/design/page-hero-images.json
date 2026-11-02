@@ -296,7 +296,9 @@
     "/static/heroes/tahini.webp": "631a49fab0ddcd5e9b966091577a174817ca4e7f6e7e23497387c550c2e6fd9c",
     "/static/heroes/tea-infusions.webp": "b2b730352dbc439f2f2fb6c3fd9c87d4aa60a853f102bc7e758efc950a1761e6",
     "/static/heroes/vegetable-juices.webp": "88eb1046c8ded08ffb499369d516f87228656ffc125cd2eff5d416fd1462390d",
-    "/static/heroes/wine.webp": "fc988433c07421f51404e7537c6db61bef40e206dac1bfead08f259de6159813"
+    "/static/heroes/wine.webp": "fc988433c07421f51404e7537c6db61bef40e206dac1bfead08f259de6159813",
+    "/static/heroes/pea-protein-powder-split-peas-pod.webp": "7c5ec133cfb31d5b05c215c2dc9a7b388efc0174b9dece26cc0bbd8686b99974",
+    "/static/heroes/rice-protein-powder-brown-rice-grains.webp": "964246bdaee5ffb9bd3b5ad01f74bbe66a344580e670fcb3dabea5515c14d275"
   },
   "pages": {
     "about": {
@@ -9421,16 +9423,12 @@
       "hero_image_alt": "A bowl of roasted crickets, a dish of dried mealworms and a dish of cricket flour on a dark stone surface."
     },
     "ingredients/pea-protein": {
-      "hero_image": "/static/heroes/green-beans-frozen-peas.webp",
-      "hero_image_alt": "Green beans and frozen green peas.",
-      "placeholder": true,
-      "placeholder_note": "Stand-in image until the owner supplies page artwork (HMI-PROTEIN-PEA-RICE-1, 2 Nov 2026). Not final."
+      "hero_image": "/static/heroes/pea-protein-powder-split-peas-pod.webp",
+      "hero_image_alt": "A dark ceramic bowl of pale pea protein powder, a dish of green split peas, loose green peas and an open pea pod illustrating pea protein ingredient context."
     },
     "ingredients/rice-protein": {
-      "hero_image": "/static/heroes/rice-grain-flour-noodles-cakes.webp",
-      "hero_image_alt": "Rice grain, rice flour, rice noodles, puffed rice and rice cakes.",
-      "placeholder": true,
-      "placeholder_note": "Stand-in image until the owner supplies page artwork (HMI-PROTEIN-PEA-RICE-1, 2 Nov 2026). Not final."
+      "hero_image": "/static/heroes/rice-protein-powder-brown-rice-grains.webp",
+      "hero_image_alt": "A dark ceramic bowl of pale rice protein powder with a wooden scoop, a dish of uncooked brown rice and scattered rice grains illustrating rice protein ingredient context."
     }
   }
 }
