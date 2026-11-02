@@ -1,0 +1,1324 @@
+{
+  "method": "hmi-pooled-reference-v2",
+  "frozen": "2026-11-02",
+  "admission": [
+    {
+      "finding": "horvath2025-hungary-protein-powders-metals:Pb:protein-powder-plant-based-vegan-retail-product-17:not_detected",
+      "source": "horvath2025-hungary-protein-powders-metals",
+      "analyte": "Pb",
+      "reference_id": null,
+      "reason": "The source reports no numerical value or limit for this result; its position cannot be identified.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "horvath2025-hungary-protein-powders-metals:Cd:protein-powder-plant-based-vegan-retail-product-17:not_detected",
+      "source": "horvath2025-hungary-protein-powders-metals",
+      "analyte": "Cd",
+      "reference_id": null,
+      "reason": "The source reports no numerical value or limit for this result; its position cannot be identified.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "hosojima2017-rice-endosperm-protein-cadmium:Cd:rice-endosperm-protein-powder-rep-purified-acid-wa:mean",
+      "source": "hosojima2017-rice-endosperm-protein-cadmium",
+      "analyte": "Cd",
+      "reference_id": null,
+      "reason": "The source does not state whether results are fresh or dry weight, so no reference applies.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "fda2013-ias-rice-products-sampling:tAs:protein-beverages-brown-rice-protein-powder-bevera:sample_value",
+      "source": "fda2013-ias-rice-products-sampling",
+      "analyte": "tAs",
+      "reference_id": "hmi-pooled-reference-v2:rice-protein-8db3b75ddfe7:4aa66a133211",
+      "reason": null,
+      "level": "high",
+      "target": {
+        "lower": 260,
+        "upper": 260,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2013-ias-rice-products-sampling:tAs:rice-protein-powders-blend-of-protein-fruits-veggi:sample_value",
+      "source": "fda2013-ias-rice-products-sampling",
+      "analyte": "tAs",
+      "reference_id": "hmi-pooled-reference-v2:rice-protein-8db3b75ddfe7:4aa66a133211",
+      "reason": null,
+      "level": "high",
+      "target": {
+        "lower": 130,
+        "upper": 130,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2013-ias-rice-products-sampling:tAs:rice-protein-powders-blend-of-protein-fruits-veggi:sample_value#2",
+      "source": "fda2013-ias-rice-products-sampling",
+      "analyte": "tAs",
+      "reference_id": "hmi-pooled-reference-v2:rice-protein-8db3b75ddfe7:4aa66a133211",
+      "reason": null,
+      "level": "high",
+      "target": {
+        "lower": 230,
+        "upper": 230,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2013-ias-rice-products-sampling:tAs:rice-protein-powders-chocolate-plant-protein-shake:sample_value",
+      "source": "fda2013-ias-rice-products-sampling",
+      "analyte": "tAs",
+      "reference_id": "hmi-pooled-reference-v2:rice-protein-8db3b75ddfe7:4aa66a133211",
+      "reason": null,
+      "level": "moderate",
+      "target": {
+        "lower": 100,
+        "upper": 100,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2013-ias-rice-products-sampling:tAs:rice-protein-powders-high-protein-energy-meal-diet:sample_value",
+      "source": "fda2013-ias-rice-products-sampling",
+      "analyte": "tAs",
+      "reference_id": "hmi-pooled-reference-v2:rice-protein-8db3b75ddfe7:4aa66a133211",
+      "reason": null,
+      "level": "low",
+      "target": {
+        "lower": 60,
+        "upper": 60,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2013-ias-rice-products-sampling:tAs:rice-protein-powders-high-protein-energy-meal-diet:sample_value#2",
+      "source": "fda2013-ias-rice-products-sampling",
+      "analyte": "tAs",
+      "reference_id": "hmi-pooled-reference-v2:rice-protein-8db3b75ddfe7:4aa66a133211",
+      "reason": null,
+      "level": "moderate",
+      "target": {
+        "lower": 110,
+        "upper": 110,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2013-ias-rice-products-sampling:tAs:rice-protein-powders-organic-meal-replacement-diet:sample_value",
+      "source": "fda2013-ias-rice-products-sampling",
+      "analyte": "tAs",
+      "reference_id": "hmi-pooled-reference-v2:rice-protein-8db3b75ddfe7:4aa66a133211",
+      "reason": null,
+      "level": "moderate",
+      "target": {
+        "lower": 120,
+        "upper": 120,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2013-ias-rice-products-sampling:tAs:rice-protein-powders-plant-based-drink-mix-dietary:sample_value",
+      "source": "fda2013-ias-rice-products-sampling",
+      "analyte": "tAs",
+      "reference_id": "hmi-pooled-reference-v2:rice-protein-8db3b75ddfe7:4aa66a133211",
+      "reason": null,
+      "level": "low",
+      "target": {
+        "lower": 70,
+        "upper": 70,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2013-ias-rice-products-sampling:tAs:rice-protein-powders-protein-energizer-dietary-sup:sample_value",
+      "source": "fda2013-ias-rice-products-sampling",
+      "analyte": "tAs",
+      "reference_id": "hmi-pooled-reference-v2:rice-protein-8db3b75ddfe7:4aa66a133211",
+      "reason": null,
+      "level": "moderate",
+      "target": {
+        "lower": 86,
+        "upper": 86,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2013-ias-rice-products-sampling:tAs:rice-protein-powders-protein-energizer-dietary-sup:sample_value#2",
+      "source": "fda2013-ias-rice-products-sampling",
+      "analyte": "tAs",
+      "reference_id": "hmi-pooled-reference-v2:rice-protein-8db3b75ddfe7:4aa66a133211",
+      "reason": null,
+      "level": "moderate",
+      "target": {
+        "lower": 94,
+        "upper": 94,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2013-ias-rice-products-sampling:tAs:rice-protein-powders-raw-protein-dietary-supplemen:sample_value",
+      "source": "fda2013-ias-rice-products-sampling",
+      "analyte": "tAs",
+      "reference_id": "hmi-pooled-reference-v2:rice-protein-8db3b75ddfe7:4aa66a133211",
+      "reason": null,
+      "level": "moderate",
+      "target": {
+        "lower": 108,
+        "upper": 108,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2013-ias-rice-products-sampling:tAs:rice-protein-powders-raw-vegan-chocolate-dietary-s:sample_value",
+      "source": "fda2013-ias-rice-products-sampling",
+      "analyte": "tAs",
+      "reference_id": "hmi-pooled-reference-v2:rice-protein-8db3b75ddfe7:4aa66a133211",
+      "reason": null,
+      "level": "moderate",
+      "target": {
+        "lower": 90,
+        "upper": 90,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2013-ias-rice-products-sampling:tAs:rice-protein-powders-plant-based-energizer-dietary:not_detected",
+      "source": "fda2013-ias-rice-products-sampling",
+      "analyte": "tAs",
+      "reference_id": "hmi-pooled-reference-v2:rice-protein-8db3b75ddfe7:4aa66a133211",
+      "reason": null,
+      "level": "low",
+      "target": {
+        "lower": 0,
+        "upper": 10,
+        "exact": false,
+        "statistic": "non-detect bounds"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "horvath2025-hungary-protein-powders-metals:tAs:protein-powder-plant-based-vegan-retail-product-17:not_detected",
+      "source": "horvath2025-hungary-protein-powders-metals",
+      "analyte": "tAs",
+      "reference_id": null,
+      "reason": "The source reports no numerical value or limit for this result; its position cannot be identified.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "fda2013-ias-rice-products-sampling:tAs:protein-beverages-brown-rice-protein-beverages-pro:sample_value",
+      "source": "fda2013-ias-rice-products-sampling",
+      "analyte": "tAs",
+      "reference_id": "hmi-pooled-reference-v2:rice-protein-203badecdc99:8183dacc2f23",
+      "reason": null,
+      "level": "high",
+      "target": {
+        "lower": 130,
+        "upper": 130,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2013-ias-rice-products-sampling:tAs:protein-beverages-brown-rice-protein-chocolate-fla:sample_value",
+      "source": "fda2013-ias-rice-products-sampling",
+      "analyte": "tAs",
+      "reference_id": "hmi-pooled-reference-v2:rice-protein-203badecdc99:8183dacc2f23",
+      "reason": null,
+      "level": "moderate",
+      "target": {
+        "lower": 82,
+        "upper": 82,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2013-ias-rice-products-sampling:tAs:protein-beverages-rice-protein-chocolate-beverages:sample_value",
+      "source": "fda2013-ias-rice-products-sampling",
+      "analyte": "tAs",
+      "reference_id": "hmi-pooled-reference-v2:rice-protein-203badecdc99:8183dacc2f23",
+      "reason": null,
+      "level": "moderate",
+      "target": {
+        "lower": 73,
+        "upper": 73,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2013-ias-rice-products-sampling:tAs:protein-beverages-rice-protein-plain-beverages-pro:sample_value",
+      "source": "fda2013-ias-rice-products-sampling",
+      "analyte": "tAs",
+      "reference_id": "hmi-pooled-reference-v2:rice-protein-203badecdc99:8183dacc2f23",
+      "reason": null,
+      "level": "moderate",
+      "target": {
+        "lower": 94,
+        "upper": 94,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2013-ias-rice-products-sampling:tAs:protein-beverages-rice-protein-vanilla-beverages-p:sample_value",
+      "source": "fda2013-ias-rice-products-sampling",
+      "analyte": "tAs",
+      "reference_id": "hmi-pooled-reference-v2:rice-protein-203badecdc99:8183dacc2f23",
+      "reason": null,
+      "level": "moderate",
+      "target": {
+        "lower": 110,
+        "upper": 110,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2013-ias-rice-products-sampling:tAs:protein-beverages-brown-rice-protein-beverages-pro:not_detected",
+      "source": "fda2013-ias-rice-products-sampling",
+      "analyte": "tAs",
+      "reference_id": "hmi-pooled-reference-v2:rice-protein-203badecdc99:8183dacc2f23",
+      "reason": null,
+      "level": "low",
+      "target": {
+        "lower": 0,
+        "upper": 10,
+        "exact": false,
+        "statistic": "non-detect bounds"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2013-ias-rice-products-sampling:iAs:protein-beverages-brown-rice-protein-powder-bevera:sample_value",
+      "source": "fda2013-ias-rice-products-sampling",
+      "analyte": "iAs",
+      "reference_id": "hmi-pooled-reference-v2:rice-protein-f841e7876af9:eed9d65b5a53",
+      "reason": null,
+      "level": "high",
+      "target": {
+        "lower": 99,
+        "upper": 99,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2013-ias-rice-products-sampling:iAs:rice-protein-powders-blend-of-protein-fruits-veggi:sample_value",
+      "source": "fda2013-ias-rice-products-sampling",
+      "analyte": "iAs",
+      "reference_id": "hmi-pooled-reference-v2:rice-protein-f841e7876af9:eed9d65b5a53",
+      "reason": null,
+      "level": "moderate",
+      "target": {
+        "lower": 71,
+        "upper": 71,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2013-ias-rice-products-sampling:iAs:rice-protein-powders-blend-of-protein-fruits-veggi:sample_value#2",
+      "source": "fda2013-ias-rice-products-sampling",
+      "analyte": "iAs",
+      "reference_id": "hmi-pooled-reference-v2:rice-protein-f841e7876af9:eed9d65b5a53",
+      "reason": null,
+      "level": "high",
+      "target": {
+        "lower": 152,
+        "upper": 152,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2013-ias-rice-products-sampling:iAs:rice-protein-powders-chocolate-plant-protein-shake:sample_value",
+      "source": "fda2013-ias-rice-products-sampling",
+      "analyte": "iAs",
+      "reference_id": "hmi-pooled-reference-v2:rice-protein-f841e7876af9:eed9d65b5a53",
+      "reason": null,
+      "level": "high",
+      "target": {
+        "lower": 72,
+        "upper": 72,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2013-ias-rice-products-sampling:iAs:rice-protein-powders-high-protein-energy-meal-diet:sample_value",
+      "source": "fda2013-ias-rice-products-sampling",
+      "analyte": "iAs",
+      "reference_id": "hmi-pooled-reference-v2:rice-protein-f841e7876af9:eed9d65b5a53",
+      "reason": null,
+      "level": "low",
+      "target": {
+        "lower": 42,
+        "upper": 42,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2013-ias-rice-products-sampling:iAs:rice-protein-powders-high-protein-energy-meal-diet:sample_value#2",
+      "source": "fda2013-ias-rice-products-sampling",
+      "analyte": "iAs",
+      "reference_id": "hmi-pooled-reference-v2:rice-protein-f841e7876af9:eed9d65b5a53",
+      "reason": null,
+      "level": "moderate",
+      "target": {
+        "lower": 71,
+        "upper": 71,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2013-ias-rice-products-sampling:iAs:rice-protein-powders-organic-meal-replacement-diet:sample_value",
+      "source": "fda2013-ias-rice-products-sampling",
+      "analyte": "iAs",
+      "reference_id": "hmi-pooled-reference-v2:rice-protein-f841e7876af9:eed9d65b5a53",
+      "reason": null,
+      "level": "moderate",
+      "target": {
+        "lower": 67,
+        "upper": 67,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2013-ias-rice-products-sampling:iAs:rice-protein-powders-plant-based-drink-mix-dietary:sample_value",
+      "source": "fda2013-ias-rice-products-sampling",
+      "analyte": "iAs",
+      "reference_id": "hmi-pooled-reference-v2:rice-protein-f841e7876af9:eed9d65b5a53",
+      "reason": null,
+      "level": "low",
+      "target": {
+        "lower": 39,
+        "upper": 39,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2013-ias-rice-products-sampling:iAs:rice-protein-powders-plant-based-energizer-dietary:sample_value",
+      "source": "fda2013-ias-rice-products-sampling",
+      "analyte": "iAs",
+      "reference_id": null,
+      "reason": "The source reports no numerical value or limit for this result; its position cannot be identified.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "fda2013-ias-rice-products-sampling:iAs:rice-protein-powders-protein-energizer-dietary-sup:sample_value",
+      "source": "fda2013-ias-rice-products-sampling",
+      "analyte": "iAs",
+      "reference_id": "hmi-pooled-reference-v2:rice-protein-f841e7876af9:eed9d65b5a53",
+      "reason": null,
+      "level": "low",
+      "target": {
+        "lower": 37,
+        "upper": 37,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2013-ias-rice-products-sampling:iAs:rice-protein-powders-protein-energizer-dietary-sup:sample_value#2",
+      "source": "fda2013-ias-rice-products-sampling",
+      "analyte": "iAs",
+      "reference_id": "hmi-pooled-reference-v2:rice-protein-f841e7876af9:eed9d65b5a53",
+      "reason": null,
+      "level": "moderate",
+      "target": {
+        "lower": 43,
+        "upper": 43,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2013-ias-rice-products-sampling:iAs:rice-protein-powders-raw-protein-dietary-supplemen:sample_value",
+      "source": "fda2013-ias-rice-products-sampling",
+      "analyte": "iAs",
+      "reference_id": "hmi-pooled-reference-v2:rice-protein-f841e7876af9:eed9d65b5a53",
+      "reason": null,
+      "level": "moderate",
+      "target": {
+        "lower": 50,
+        "upper": 50,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2013-ias-rice-products-sampling:iAs:rice-protein-powders-raw-vegan-chocolate-dietary-s:sample_value",
+      "source": "fda2013-ias-rice-products-sampling",
+      "analyte": "iAs",
+      "reference_id": "hmi-pooled-reference-v2:rice-protein-f841e7876af9:eed9d65b5a53",
+      "reason": null,
+      "level": "moderate",
+      "target": {
+        "lower": 44,
+        "upper": 44,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2013-ias-rice-products-sampling:iAs:protein-beverages-brown-rice-protein-beverages-pro:sample_value",
+      "source": "fda2013-ias-rice-products-sampling",
+      "analyte": "iAs",
+      "reference_id": null,
+      "reason": "The source reports no numerical value or limit for this result; its position cannot be identified.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "fda2013-ias-rice-products-sampling:iAs:protein-beverages-brown-rice-protein-beverages-pro:sample_value#2",
+      "source": "fda2013-ias-rice-products-sampling",
+      "analyte": "iAs",
+      "reference_id": "hmi-pooled-reference-v2:rice-protein-e572877ed71a:4f8d0b5e6fec",
+      "reason": null,
+      "level": "high",
+      "target": {
+        "lower": 53,
+        "upper": 53,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2013-ias-rice-products-sampling:iAs:protein-beverages-brown-rice-protein-chocolate-fla:sample_value",
+      "source": "fda2013-ias-rice-products-sampling",
+      "analyte": "iAs",
+      "reference_id": "hmi-pooled-reference-v2:rice-protein-e572877ed71a:4f8d0b5e6fec",
+      "reason": null,
+      "level": "moderate",
+      "target": {
+        "lower": 37,
+        "upper": 37,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2013-ias-rice-products-sampling:iAs:protein-beverages-rice-protein-chocolate-beverages:sample_value",
+      "source": "fda2013-ias-rice-products-sampling",
+      "analyte": "iAs",
+      "reference_id": "hmi-pooled-reference-v2:rice-protein-e572877ed71a:4f8d0b5e6fec",
+      "reason": null,
+      "level": "low",
+      "target": {
+        "lower": 25,
+        "upper": 25,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2013-ias-rice-products-sampling:iAs:protein-beverages-rice-protein-plain-beverages-pro:sample_value",
+      "source": "fda2013-ias-rice-products-sampling",
+      "analyte": "iAs",
+      "reference_id": "hmi-pooled-reference-v2:rice-protein-e572877ed71a:4f8d0b5e6fec",
+      "reason": null,
+      "level": "moderate",
+      "target": {
+        "lower": 30,
+        "upper": 30,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2013-ias-rice-products-sampling:iAs:protein-beverages-rice-protein-vanilla-beverages-p:sample_value",
+      "source": "fda2013-ias-rice-products-sampling",
+      "analyte": "iAs",
+      "reference_id": "hmi-pooled-reference-v2:rice-protein-e572877ed71a:4f8d0b5e6fec",
+      "reason": null,
+      "level": "moderate",
+      "target": {
+        "lower": 47,
+        "upper": 47,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2013-ias-rice-products-sampling:DMA:protein-beverages-brown-rice-protein-powder-bevera:sample_value",
+      "source": "fda2013-ias-rice-products-sampling",
+      "analyte": "DMA",
+      "reference_id": "hmi-pooled-reference-v2:rice-protein-b1c3894183f2:e13dc4fdcfb8",
+      "reason": null,
+      "level": "high",
+      "target": {
+        "lower": 79,
+        "upper": 79,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2013-ias-rice-products-sampling:DMA:rice-protein-powders-blend-of-protein-fruits-veggi:sample_value",
+      "source": "fda2013-ias-rice-products-sampling",
+      "analyte": "DMA",
+      "reference_id": "hmi-pooled-reference-v2:rice-protein-b1c3894183f2:e13dc4fdcfb8",
+      "reason": null,
+      "level": "high",
+      "target": {
+        "lower": 21,
+        "upper": 21,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2013-ias-rice-products-sampling:DMA:rice-protein-powders-chocolate-plant-protein-shake:sample_value",
+      "source": "fda2013-ias-rice-products-sampling",
+      "analyte": "DMA",
+      "reference_id": "hmi-pooled-reference-v2:rice-protein-b1c3894183f2:e13dc4fdcfb8",
+      "reason": null,
+      "level": "moderate",
+      "target": {
+        "lower": 14,
+        "upper": 14,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2013-ias-rice-products-sampling:DMA:rice-protein-powders-high-protein-energy-meal-diet:sample_value",
+      "source": "fda2013-ias-rice-products-sampling",
+      "analyte": "DMA",
+      "reference_id": "hmi-pooled-reference-v2:rice-protein-b1c3894183f2:e13dc4fdcfb8",
+      "reason": null,
+      "level": "low",
+      "target": {
+        "lower": 6,
+        "upper": 6,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2013-ias-rice-products-sampling:DMA:rice-protein-powders-high-protein-energy-meal-diet:sample_value#2",
+      "source": "fda2013-ias-rice-products-sampling",
+      "analyte": "DMA",
+      "reference_id": "hmi-pooled-reference-v2:rice-protein-b1c3894183f2:e13dc4fdcfb8",
+      "reason": null,
+      "level": "moderate",
+      "target": {
+        "lower": 7,
+        "upper": 7,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2013-ias-rice-products-sampling:DMA:rice-protein-powders-organic-meal-replacement-diet:sample_value",
+      "source": "fda2013-ias-rice-products-sampling",
+      "analyte": "DMA",
+      "reference_id": "hmi-pooled-reference-v2:rice-protein-b1c3894183f2:e13dc4fdcfb8",
+      "reason": null,
+      "level": "moderate",
+      "target": {
+        "lower": 20,
+        "upper": 20,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2013-ias-rice-products-sampling:DMA:rice-protein-powders-protein-energizer-dietary-sup:sample_value",
+      "source": "fda2013-ias-rice-products-sampling",
+      "analyte": "DMA",
+      "reference_id": "hmi-pooled-reference-v2:rice-protein-b1c3894183f2:e13dc4fdcfb8",
+      "reason": null,
+      "level": "moderate",
+      "target": {
+        "lower": 18,
+        "upper": 18,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2013-ias-rice-products-sampling:DMA:rice-protein-powders-protein-energizer-dietary-sup:sample_value#2",
+      "source": "fda2013-ias-rice-products-sampling",
+      "analyte": "DMA",
+      "reference_id": "hmi-pooled-reference-v2:rice-protein-b1c3894183f2:e13dc4fdcfb8",
+      "reason": null,
+      "level": "high",
+      "target": {
+        "lower": 22,
+        "upper": 22,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2013-ias-rice-products-sampling:DMA:rice-protein-powders-raw-protein-dietary-supplemen:sample_value",
+      "source": "fda2013-ias-rice-products-sampling",
+      "analyte": "DMA",
+      "reference_id": "hmi-pooled-reference-v2:rice-protein-b1c3894183f2:e13dc4fdcfb8",
+      "reason": null,
+      "level": "moderate",
+      "target": {
+        "lower": 20,
+        "upper": 20,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2013-ias-rice-products-sampling:DMA:rice-protein-powders-raw-vegan-chocolate-dietary-s:sample_value",
+      "source": "fda2013-ias-rice-products-sampling",
+      "analyte": "DMA",
+      "reference_id": "hmi-pooled-reference-v2:rice-protein-b1c3894183f2:e13dc4fdcfb8",
+      "reason": null,
+      "level": "moderate",
+      "target": {
+        "lower": 16,
+        "upper": 16,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2013-ias-rice-products-sampling:DMA:rice-protein-powders-blend-of-protein-fruits-veggi:not_detected",
+      "source": "fda2013-ias-rice-products-sampling",
+      "analyte": "DMA",
+      "reference_id": "hmi-pooled-reference-v2:rice-protein-b1c3894183f2:e13dc4fdcfb8",
+      "reason": null,
+      "level": "low",
+      "target": {
+        "lower": 0,
+        "upper": 2,
+        "exact": false,
+        "statistic": "non-detect bounds"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2013-ias-rice-products-sampling:DMA:rice-protein-powders-plant-based-drink-mix-dietary:not_detected",
+      "source": "fda2013-ias-rice-products-sampling",
+      "analyte": "DMA",
+      "reference_id": "hmi-pooled-reference-v2:rice-protein-b1c3894183f2:e13dc4fdcfb8",
+      "reason": null,
+      "level": "low",
+      "target": {
+        "lower": 0,
+        "upper": 2,
+        "exact": false,
+        "statistic": "non-detect bounds"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2013-ias-rice-products-sampling:DMA:protein-beverages-brown-rice-protein-beverages-pro:sample_value",
+      "source": "fda2013-ias-rice-products-sampling",
+      "analyte": "DMA",
+      "reference_id": "hmi-pooled-reference-v2:rice-protein-40735b3c12e2:7620a7ca48c1",
+      "reason": null,
+      "level": "moderate",
+      "target": {
+        "lower": 19,
+        "upper": 19,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2013-ias-rice-products-sampling:DMA:protein-beverages-brown-rice-protein-chocolate-fla:sample_value",
+      "source": "fda2013-ias-rice-products-sampling",
+      "analyte": "DMA",
+      "reference_id": "hmi-pooled-reference-v2:rice-protein-40735b3c12e2:7620a7ca48c1",
+      "reason": null,
+      "level": "low",
+      "target": {
+        "lower": 13,
+        "upper": 13,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2013-ias-rice-products-sampling:DMA:protein-beverages-rice-protein-chocolate-beverages:sample_value",
+      "source": "fda2013-ias-rice-products-sampling",
+      "analyte": "DMA",
+      "reference_id": "hmi-pooled-reference-v2:rice-protein-40735b3c12e2:7620a7ca48c1",
+      "reason": null,
+      "level": "moderate",
+      "target": {
+        "lower": 24,
+        "upper": 24,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2013-ias-rice-products-sampling:DMA:protein-beverages-rice-protein-plain-beverages-pro:sample_value",
+      "source": "fda2013-ias-rice-products-sampling",
+      "analyte": "DMA",
+      "reference_id": "hmi-pooled-reference-v2:rice-protein-40735b3c12e2:7620a7ca48c1",
+      "reason": null,
+      "level": "high",
+      "target": {
+        "lower": 35,
+        "upper": 35,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2013-ias-rice-products-sampling:DMA:protein-beverages-rice-protein-vanilla-beverages-p:sample_value",
+      "source": "fda2013-ias-rice-products-sampling",
+      "analyte": "DMA",
+      "reference_id": "hmi-pooled-reference-v2:rice-protein-40735b3c12e2:7620a7ca48c1",
+      "reason": null,
+      "level": "moderate",
+      "target": {
+        "lower": 22,
+        "upper": 22,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2013-ias-rice-products-sampling:MMA:protein-beverages-brown-rice-protein-powder-bevera:not_detected",
+      "source": "fda2013-ias-rice-products-sampling",
+      "analyte": "MMA",
+      "reference_id": "hmi-pooled-reference-v2:rice-protein-60b7ec16d738:ef874b75444c",
+      "reason": "Reporting bounds or insufficient reference spread prevent a stable Low / Moderate / High classification.",
+      "level": null,
+      "target": {
+        "lower": 0,
+        "upper": 2,
+        "exact": false,
+        "statistic": "non-detect bounds"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2013-ias-rice-products-sampling:MMA:rice-protein-powders-protein-energizer-dietary-sup:sample_value",
+      "source": "fda2013-ias-rice-products-sampling",
+      "analyte": "MMA",
+      "reference_id": "hmi-pooled-reference-v2:rice-protein-60b7ec16d738:ef874b75444c",
+      "reason": "Reporting bounds or insufficient reference spread prevent a stable Low / Moderate / High classification.",
+      "level": null,
+      "target": {
+        "lower": 3,
+        "upper": 3,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2013-ias-rice-products-sampling:MMA:rice-protein-powders-protein-energizer-dietary-sup:sample_value#2",
+      "source": "fda2013-ias-rice-products-sampling",
+      "analyte": "MMA",
+      "reference_id": "hmi-pooled-reference-v2:rice-protein-60b7ec16d738:ef874b75444c",
+      "reason": "Reporting bounds or insufficient reference spread prevent a stable Low / Moderate / High classification.",
+      "level": null,
+      "target": {
+        "lower": 6,
+        "upper": 6,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2013-ias-rice-products-sampling:MMA:rice-protein-powders-raw-vegan-chocolate-dietary-s:sample_value",
+      "source": "fda2013-ias-rice-products-sampling",
+      "analyte": "MMA",
+      "reference_id": "hmi-pooled-reference-v2:rice-protein-60b7ec16d738:ef874b75444c",
+      "reason": "Reporting bounds or insufficient reference spread prevent a stable Low / Moderate / High classification.",
+      "level": null,
+      "target": {
+        "lower": 4,
+        "upper": 4,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2013-ias-rice-products-sampling:MMA:rice-protein-powders-blend-of-protein-fruits-veggi:not_detected",
+      "source": "fda2013-ias-rice-products-sampling",
+      "analyte": "MMA",
+      "reference_id": "hmi-pooled-reference-v2:rice-protein-60b7ec16d738:ef874b75444c",
+      "reason": "Reporting bounds or insufficient reference spread prevent a stable Low / Moderate / High classification.",
+      "level": null,
+      "target": {
+        "lower": 0,
+        "upper": 2,
+        "exact": false,
+        "statistic": "non-detect bounds"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2013-ias-rice-products-sampling:MMA:rice-protein-powders-blend-of-protein-fruits-veggi:not_detected#2",
+      "source": "fda2013-ias-rice-products-sampling",
+      "analyte": "MMA",
+      "reference_id": "hmi-pooled-reference-v2:rice-protein-60b7ec16d738:ef874b75444c",
+      "reason": "Reporting bounds or insufficient reference spread prevent a stable Low / Moderate / High classification.",
+      "level": null,
+      "target": {
+        "lower": 0,
+        "upper": 2,
+        "exact": false,
+        "statistic": "non-detect bounds"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2013-ias-rice-products-sampling:MMA:rice-protein-powders-chocolate-plant-protein-shake:not_detected",
+      "source": "fda2013-ias-rice-products-sampling",
+      "analyte": "MMA",
+      "reference_id": "hmi-pooled-reference-v2:rice-protein-60b7ec16d738:ef874b75444c",
+      "reason": "Reporting bounds or insufficient reference spread prevent a stable Low / Moderate / High classification.",
+      "level": null,
+      "target": {
+        "lower": 0,
+        "upper": 2,
+        "exact": false,
+        "statistic": "non-detect bounds"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2013-ias-rice-products-sampling:MMA:rice-protein-powders-high-protein-energy-meal-diet:not_detected",
+      "source": "fda2013-ias-rice-products-sampling",
+      "analyte": "MMA",
+      "reference_id": "hmi-pooled-reference-v2:rice-protein-60b7ec16d738:ef874b75444c",
+      "reason": "Reporting bounds or insufficient reference spread prevent a stable Low / Moderate / High classification.",
+      "level": null,
+      "target": {
+        "lower": 0,
+        "upper": 2,
+        "exact": false,
+        "statistic": "non-detect bounds"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2013-ias-rice-products-sampling:MMA:rice-protein-powders-high-protein-energy-meal-diet:not_detected#2",
+      "source": "fda2013-ias-rice-products-sampling",
+      "analyte": "MMA",
+      "reference_id": "hmi-pooled-reference-v2:rice-protein-60b7ec16d738:ef874b75444c",
+      "reason": "Reporting bounds or insufficient reference spread prevent a stable Low / Moderate / High classification.",
+      "level": null,
+      "target": {
+        "lower": 0,
+        "upper": 2,
+        "exact": false,
+        "statistic": "non-detect bounds"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2013-ias-rice-products-sampling:MMA:rice-protein-powders-organic-meal-replacement-diet:not_detected",
+      "source": "fda2013-ias-rice-products-sampling",
+      "analyte": "MMA",
+      "reference_id": "hmi-pooled-reference-v2:rice-protein-60b7ec16d738:ef874b75444c",
+      "reason": "Reporting bounds or insufficient reference spread prevent a stable Low / Moderate / High classification.",
+      "level": null,
+      "target": {
+        "lower": 0,
+        "upper": 2,
+        "exact": false,
+        "statistic": "non-detect bounds"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2013-ias-rice-products-sampling:MMA:rice-protein-powders-plant-based-drink-mix-dietary:not_detected",
+      "source": "fda2013-ias-rice-products-sampling",
+      "analyte": "MMA",
+      "reference_id": "hmi-pooled-reference-v2:rice-protein-60b7ec16d738:ef874b75444c",
+      "reason": "Reporting bounds or insufficient reference spread prevent a stable Low / Moderate / High classification.",
+      "level": null,
+      "target": {
+        "lower": 0,
+        "upper": 2,
+        "exact": false,
+        "statistic": "non-detect bounds"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2013-ias-rice-products-sampling:MMA:rice-protein-powders-raw-protein-dietary-supplemen:not_detected",
+      "source": "fda2013-ias-rice-products-sampling",
+      "analyte": "MMA",
+      "reference_id": "hmi-pooled-reference-v2:rice-protein-60b7ec16d738:ef874b75444c",
+      "reason": "Reporting bounds or insufficient reference spread prevent a stable Low / Moderate / High classification.",
+      "level": null,
+      "target": {
+        "lower": 0,
+        "upper": 2,
+        "exact": false,
+        "statistic": "non-detect bounds"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2013-ias-rice-products-sampling:MMA:protein-beverages-brown-rice-protein-beverages-pro:sample_value",
+      "source": "fda2013-ias-rice-products-sampling",
+      "analyte": "MMA",
+      "reference_id": "hmi-pooled-reference-v2:rice-protein-73cc5dc69537:95b588eaeec9",
+      "reason": null,
+      "level": "high",
+      "target": {
+        "lower": 8,
+        "upper": 8,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2013-ias-rice-products-sampling:MMA:protein-beverages-brown-rice-protein-chocolate-fla:sample_value",
+      "source": "fda2013-ias-rice-products-sampling",
+      "analyte": "MMA",
+      "reference_id": "hmi-pooled-reference-v2:rice-protein-73cc5dc69537:95b588eaeec9",
+      "reason": null,
+      "level": "moderate",
+      "target": {
+        "lower": 5,
+        "upper": 5,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2013-ias-rice-products-sampling:MMA:protein-beverages-rice-protein-vanilla-beverages-p:sample_value",
+      "source": "fda2013-ias-rice-products-sampling",
+      "analyte": "MMA",
+      "reference_id": "hmi-pooled-reference-v2:rice-protein-73cc5dc69537:95b588eaeec9",
+      "reason": null,
+      "level": "moderate",
+      "target": {
+        "lower": 7,
+        "upper": 7,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2013-ias-rice-products-sampling:MMA:protein-beverages-rice-protein-chocolate-beverages:not_detected",
+      "source": "fda2013-ias-rice-products-sampling",
+      "analyte": "MMA",
+      "reference_id": "hmi-pooled-reference-v2:rice-protein-73cc5dc69537:95b588eaeec9",
+      "reason": "Reporting bounds or insufficient reference spread prevent a stable Low / Moderate / High classification.",
+      "level": null,
+      "target": {
+        "lower": 0,
+        "upper": 2,
+        "exact": false,
+        "statistic": "non-detect bounds"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2013-ias-rice-products-sampling:MMA:protein-beverages-rice-protein-plain-beverages-pro:not_detected",
+      "source": "fda2013-ias-rice-products-sampling",
+      "analyte": "MMA",
+      "reference_id": "hmi-pooled-reference-v2:rice-protein-73cc5dc69537:95b588eaeec9",
+      "reason": "Reporting bounds or insufficient reference spread prevent a stable Low / Moderate / High classification.",
+      "level": null,
+      "target": {
+        "lower": 0,
+        "upper": 2,
+        "exact": false,
+        "statistic": "non-detect bounds"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "cfia2020-toxic-metals-selected-foods-2018-19:tHg:brown-rice-protein-powder-single-sample:sample_value",
+      "source": "cfia2020-toxic-metals-selected-foods-2018-19",
+      "analyte": "tHg",
+      "reference_id": "hmi-pooled-reference-v2:rice-protein-e0c00e626210:c5e686cfb500",
+      "reason": "Only 1 reference unit is available; at least four are required by this descriptive display rule.",
+      "level": null,
+      "target": {
+        "lower": 22,
+        "upper": 22,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "horvath2025-hungary-protein-powders-metals:tHg:protein-powder-plant-based-vegan-retail-product-17:not_detected",
+      "source": "horvath2025-hungary-protein-powders-metals",
+      "analyte": "tHg",
+      "reference_id": null,
+      "reason": "The source reports no numerical value or limit for this result; its position cannot be identified.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "horvath2025-hungary-protein-powders-metals:Al:protein-powder-plant-based-vegan-retail-product-17:mean",
+      "source": "horvath2025-hungary-protein-powders-metals",
+      "analyte": "Al",
+      "reference_id": null,
+      "reason": "Dry-weight results have no compatible dry-weight reference for this form in the ledger.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "horvath2025-hungary-protein-powders-metals:Cu:protein-powder-plant-based-vegan-retail-product-17:mean",
+      "source": "horvath2025-hungary-protein-powders-metals",
+      "analyte": "Cu",
+      "reference_id": null,
+      "reason": "Dry-weight results have no compatible dry-weight reference for this form in the ledger.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "horvath2025-hungary-protein-powders-metals:Mn:protein-powder-plant-based-vegan-retail-product-17:mean",
+      "source": "horvath2025-hungary-protein-powders-metals",
+      "analyte": "Mn",
+      "reference_id": null,
+      "reason": "Dry-weight results have no compatible dry-weight reference for this form in the ledger.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "horvath2025-hungary-protein-powders-metals:Se:protein-powder-plant-based-vegan-retail-product-17:not_detected",
+      "source": "horvath2025-hungary-protein-powders-metals",
+      "analyte": "Se",
+      "reference_id": null,
+      "reason": "The source reports no numerical value or limit for this result; its position cannot be identified.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "horvath2025-hungary-protein-powders-metals:Ba:protein-powder-plant-based-vegan-retail-product-17:not_detected",
+      "source": "horvath2025-hungary-protein-powders-metals",
+      "analyte": "Ba",
+      "reference_id": null,
+      "reason": "The source reports no numerical value or limit for this result; its position cannot be identified.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "horvath2025-hungary-protein-powders-metals:Rb:protein-powder-plant-based-vegan-retail-product-17:not_detected",
+      "source": "horvath2025-hungary-protein-powders-metals",
+      "analyte": "Rb",
+      "reference_id": null,
+      "reason": "The source reports no numerical value or limit for this result; its position cannot be identified.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    }
+  ],
+  "unit_audit": [
+    {
+      "unit": "horvath2025-hungary-protein-powders-metals:Pb:protein-powder-plant-based-vegan-retail-product-17:not_detected",
+      "admitted": false,
+      "reason": "not detected without a numeric value or reporting limit"
+    },
+    {
+      "unit": "horvath2025-hungary-protein-powders-metals:Cd:protein-powder-plant-based-vegan-retail-product-17:not_detected",
+      "admitted": false,
+      "reason": "not detected without a numeric value or reporting limit"
+    },
+    {
+      "unit": "hosojima2017-rice-endosperm-protein-cadmium:Cd:rice-endosperm-protein-powder-rep-purified-acid-wa:mean",
+      "admitted": false,
+      "reason": "a mean is not an observed subgroup median or sample value"
+    },
+    {
+      "unit": "horvath2025-hungary-protein-powders-metals:tAs:protein-powder-plant-based-vegan-retail-product-17:not_detected",
+      "admitted": false,
+      "reason": "not detected without a numeric value or reporting limit"
+    },
+    {
+      "unit": "fda2013-ias-rice-products-sampling:iAs:rice-protein-powders-plant-based-energizer-dietary:sample_value",
+      "admitted": false,
+      "reason": "sample value without a numeric value or reporting limit"
+    },
+    {
+      "unit": "fda2013-ias-rice-products-sampling:iAs:protein-beverages-brown-rice-protein-beverages-pro:sample_value",
+      "admitted": false,
+      "reason": "sample value without a numeric value or reporting limit"
+    },
+    {
+      "unit": "horvath2025-hungary-protein-powders-metals:tHg:protein-powder-plant-based-vegan-retail-product-17:not_detected",
+      "admitted": false,
+      "reason": "not detected without a numeric value or reporting limit"
+    },
+    {
+      "unit": "horvath2025-hungary-protein-powders-metals:Al:protein-powder-plant-based-vegan-retail-product-17:mean",
+      "admitted": false,
+      "reason": "a mean is not an observed subgroup median or sample value"
+    },
+    {
+      "unit": "horvath2025-hungary-protein-powders-metals:Cu:protein-powder-plant-based-vegan-retail-product-17:mean",
+      "admitted": false,
+      "reason": "a mean is not an observed subgroup median or sample value"
+    },
+    {
+      "unit": "horvath2025-hungary-protein-powders-metals:Mn:protein-powder-plant-based-vegan-retail-product-17:mean",
+      "admitted": false,
+      "reason": "a mean is not an observed subgroup median or sample value"
+    },
+    {
+      "unit": "horvath2025-hungary-protein-powders-metals:Se:protein-powder-plant-based-vegan-retail-product-17:not_detected",
+      "admitted": false,
+      "reason": "not detected without a numeric value or reporting limit"
+    },
+    {
+      "unit": "horvath2025-hungary-protein-powders-metals:Ba:protein-powder-plant-based-vegan-retail-product-17:not_detected",
+      "admitted": false,
+      "reason": "not detected without a numeric value or reporting limit"
+    },
+    {
+      "unit": "horvath2025-hungary-protein-powders-metals:Rb:protein-powder-plant-based-vegan-retail-product-17:not_detected",
+      "admitted": false,
+      "reason": "not detected without a numeric value or reporting limit"
+    }
+  ],
+  "unit_counts": {
+    "tAs|rice-protein: Rice protein, powder or ground|As sold, as eaten or fresh weight": {
+      "units": 13,
+      "families": [
+        "fda2013-ias-rice-products-sampling"
+      ]
+    },
+    "tAs|rice-protein: Rice protein, as sold|As sold, as eaten or fresh weight": {
+      "units": 6,
+      "families": [
+        "fda2013-ias-rice-products-sampling"
+      ]
+    },
+    "iAs|rice-protein: Rice protein, powder or ground|As sold, as eaten or fresh weight": {
+      "units": 12,
+      "families": [
+        "fda2013-ias-rice-products-sampling"
+      ]
+    },
+    "iAs|rice-protein: Rice protein, as sold|As sold, as eaten or fresh weight": {
+      "units": 5,
+      "families": [
+        "fda2013-ias-rice-products-sampling"
+      ]
+    },
+    "DMA|rice-protein: Rice protein, powder or ground|As sold, as eaten or fresh weight": {
+      "units": 12,
+      "families": [
+        "fda2013-ias-rice-products-sampling"
+      ]
+    },
+    "DMA|rice-protein: Rice protein, as sold|As sold, as eaten or fresh weight": {
+      "units": 5,
+      "families": [
+        "fda2013-ias-rice-products-sampling"
+      ]
+    },
+    "MMA|rice-protein: Rice protein, powder or ground|As sold, as eaten or fresh weight": {
+      "units": 12,
+      "families": [
+        "fda2013-ias-rice-products-sampling"
+      ]
+    },
+    "MMA|rice-protein: Rice protein, as sold|As sold, as eaten or fresh weight": {
+      "units": 5,
+      "families": [
+        "fda2013-ias-rice-products-sampling"
+      ]
+    },
+    "tHg|rice-protein: Rice protein, powder or ground|As sold, as eaten or fresh weight": {
+      "units": 1,
+      "families": [
+        "cfia2020-toxic-metals-selected-foods-2018-19"
+      ]
+    }
+  }
+}

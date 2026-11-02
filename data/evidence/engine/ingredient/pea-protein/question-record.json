@@ -1,0 +1,1868 @@
+{
+  "contract_version": "1.0.0",
+  "family": "ingredient",
+  "page_slug": "ingredients/pea-protein",
+  "coverage_state": "partial",
+  "answers": [
+    {
+      "question_id": "HMI-ING-001",
+      "scope": {
+        "analytes": "Pb, Cd, tHg, Cr, Sn, Co, V, Au, Ba, Be, Bi, Li, Mo, Pt, Ti and Tl",
+        "material_form": "Pea protein, powder or ground",
+        "basis": "As reported; µg/kg; no moisture conversion",
+        "geography_market": "Reporting region, purchase market or growing area as each source reports",
+        "period": "Source collection years where reported; unreported dates stay unknown",
+        "stage": "Growing area, processing, retail and release testing",
+        "population_route": "Dietary ingestion",
+        "comparator_outcome": "HMI references by form and basis; same-study site, sampling and form contrasts"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "available",
+      "answer": "The page covers protein isolated or concentrated from dried peas, sold as powder; the two measured products are pea protein powders bought at retail.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Every source record and indexed dataset row that names pea protein",
+        "protocol_ref": "data/evidence/engine/ingredient/pea-protein/evidence-ledger.json",
+        "record_refs": [
+          "data/evidence/engine/ingredient/pea-protein/synthesis.json"
+        ],
+        "screening_ref": "data/evidence/engine/ingredient/pea-protein/evidence-ledger.json",
+        "searched_through": "2026-11-02",
+        "limitations": [
+          "Existing HMI library only; no new external literature search"
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [
+        "wiki/sources/ring2021-ireland-protein-powders-metals.md"
+      ],
+      "synthesis_refs": [
+        "data/evidence/syntheses/engine-ingredient-pea-protein-v1.json#identity/1"
+      ],
+      "applicability": "Applies only to the source-specific material, period, preparation and endpoint stated in the answer and attached evidence records",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/ingredients/pea-protein.md"
+      ]
+    },
+    {
+      "question_id": "HMI-ING-002",
+      "scope": {
+        "analytes": "Pb, Cd, tHg, Cr, Sn, Co, V, Au, Ba, Be, Bi, Li, Mo, Pt, Ti and Tl",
+        "material_form": "Pea protein, powder or ground",
+        "basis": "As reported; µg/kg; no moisture conversion",
+        "geography_market": "Reporting region, purchase market or growing area as each source reports",
+        "period": "Source collection years where reported; unreported dates stay unknown",
+        "stage": "Growing area, processing, retail and release testing",
+        "population_route": "Dietary ingestion",
+        "comparator_outcome": "HMI references by form and basis; same-study site, sampling and form contrasts"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "available",
+      "answer": "Isolate, concentrate, flavored powders and blends are distinct materials: an isolate holds more protein than a concentrate, and flavored or blended powders add other ingredients. No study in the Index separates isolate from concentrate.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Every source record and indexed dataset row that names pea protein",
+        "protocol_ref": "data/evidence/engine/ingredient/pea-protein/evidence-ledger.json",
+        "record_refs": [
+          "data/evidence/engine/ingredient/pea-protein/synthesis.json"
+        ],
+        "screening_ref": "data/evidence/engine/ingredient/pea-protein/evidence-ledger.json",
+        "searched_through": "2026-11-02",
+        "limitations": [
+          "Existing HMI library only; no new external literature search"
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [
+        "wiki/sources/ring2021-ireland-protein-powders-metals.md"
+      ],
+      "synthesis_refs": [
+        "data/evidence/syntheses/engine-ingredient-pea-protein-v1.json#identity/2"
+      ],
+      "applicability": "Applies only to the source-specific material, period, preparation and endpoint stated in the answer and attached evidence records",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/ingredients/pea-protein.md"
+      ]
+    },
+    {
+      "question_id": "HMI-ING-003",
+      "scope": {
+        "analytes": "Pb, Cd, tHg, Cr, Sn, Co, V, Au, Ba, Be, Bi, Li, Mo, Pt, Ti and Tl",
+        "material_form": "Pea protein, powder or ground",
+        "basis": "As reported; µg/kg; no moisture conversion",
+        "geography_market": "Reporting region, purchase market or growing area as each source reports",
+        "period": "Source collection years where reported; unreported dates stay unknown",
+        "stage": "Growing area, processing, retail and release testing",
+        "population_route": "Dietary ingestion",
+        "comparator_outcome": "HMI references by form and basis; same-study site, sampling and form contrasts"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "available",
+      "answer": "Results for whole peas, other pulses or mixed plant powders do not transfer to pea protein, because protein isolation changes which part of the seed remains. No study in the Index measured metals in peas before and after protein isolation.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Every source record and indexed dataset row that names pea protein",
+        "protocol_ref": "data/evidence/engine/ingredient/pea-protein/evidence-ledger.json",
+        "record_refs": [
+          "data/evidence/engine/ingredient/pea-protein/synthesis.json"
+        ],
+        "screening_ref": "data/evidence/engine/ingredient/pea-protein/evidence-ledger.json",
+        "searched_through": "2026-11-02",
+        "limitations": [
+          "Existing HMI library only; no new external literature search"
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [
+        "wiki/sources/ring2021-ireland-protein-powders-metals.md",
+        "wiki/sources/horvath2025-hungary-protein-powders-metals.md"
+      ],
+      "synthesis_refs": [
+        "data/evidence/syntheses/engine-ingredient-pea-protein-v1.json#identity/3"
+      ],
+      "applicability": "Applies only to the source-specific material, period, preparation and endpoint stated in the answer and attached evidence records",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/ingredients/pea-protein.md"
+      ]
+    },
+    {
+      "question_id": "HMI-ING-004",
+      "scope": {
+        "analytes": "Pb, Cd, tHg, Cr, Sn, Co, V, Au, Ba, Be, Bi, Li, Mo, Pt, Ti and Tl",
+        "material_form": "Pea protein, powder or ground",
+        "basis": "As reported; µg/kg; no moisture conversion",
+        "geography_market": "Reporting region, purchase market or growing area as each source reports",
+        "period": "Source collection years where reported; unreported dates stay unknown",
+        "stage": "Growing area, processing, retail and release testing",
+        "population_route": "Dietary ingestion",
+        "comparator_outcome": "HMI references by form and basis; same-study site, sampling and form contrasts"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "available",
+      "answer": "Lead and cadmium are the supported concerns: both were present in the two pea protein powders measured, and mercury was quantified in one of them. Arsenic is unassessed because it was not measured.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Every source record and indexed dataset row that names pea protein",
+        "protocol_ref": "data/evidence/engine/ingredient/pea-protein/evidence-ledger.json",
+        "record_refs": [
+          "data/evidence/engine/ingredient/pea-protein/synthesis.json"
+        ],
+        "screening_ref": "data/evidence/engine/ingredient/pea-protein/evidence-ledger.json",
+        "searched_through": "2026-11-02",
+        "limitations": [
+          "Existing HMI library only; no new external literature search"
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [
+        "wiki/sources/ring2021-ireland-protein-powders-metals.md"
+      ],
+      "synthesis_refs": [
+        "data/evidence/syntheses/engine-ingredient-pea-protein-v1.json#summary/1"
+      ],
+      "applicability": "Applies only to the source-specific material, period, preparation and endpoint stated in the answer and attached evidence records",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/ingredients/pea-protein.md"
+      ]
+    },
+    {
+      "question_id": "HMI-ING-005",
+      "scope": {
+        "analytes": "Pb, Cd, tHg, Cr, Sn, Co, V, Au, Ba, Be, Bi, Li, Mo, Pt, Ti and Tl",
+        "material_form": "Pea protein, powder or ground",
+        "basis": "As reported; µg/kg; no moisture conversion",
+        "geography_market": "Reporting region, purchase market or growing area as each source reports",
+        "period": "Source collection years where reported; unreported dates stay unknown",
+        "stage": "Growing area, processing, retail and release testing",
+        "population_route": "Dietary ingestion",
+        "comparator_outcome": "HMI references by form and basis; same-study site, sampling and form contrasts"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "available",
+      "answer": "Lot testing for lead, cadmium and inorganic arsenic deserves priority, because the two measured powders differed by more than twofold in cadmium at nearly equal lead. Origin-based sourcing cannot be prioritized on current evidence.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Every source record and indexed dataset row that names pea protein",
+        "protocol_ref": "data/evidence/engine/ingredient/pea-protein/evidence-ledger.json",
+        "record_refs": [
+          "data/evidence/engine/ingredient/pea-protein/synthesis.json"
+        ],
+        "screening_ref": "data/evidence/engine/ingredient/pea-protein/evidence-ledger.json",
+        "searched_through": "2026-11-02",
+        "limitations": [
+          "Existing HMI library only; no new external literature search"
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [
+        "wiki/sources/ring2021-ireland-protein-powders-metals.md"
+      ],
+      "synthesis_refs": [
+        "data/evidence/syntheses/engine-ingredient-pea-protein-v1.json#summary/2"
+      ],
+      "applicability": "Applies only to the source-specific material, period, preparation and endpoint stated in the answer and attached evidence records",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/ingredients/pea-protein.md"
+      ]
+    },
+    {
+      "question_id": "HMI-ING-006",
+      "scope": {
+        "analytes": "Pb, Cd, tHg, Cr, Sn, Co, V, Au, Ba, Be, Bi, Li, Mo, Pt, Ti and Tl",
+        "material_form": "Pea protein, powder or ground",
+        "basis": "As reported; µg/kg; no moisture conversion",
+        "geography_market": "Reporting region, purchase market or growing area as each source reports",
+        "period": "Source collection years where reported; unreported dates stay unknown",
+        "stage": "Growing area, processing, retail and release testing",
+        "population_route": "Dietary ingestion",
+        "comparator_outcome": "HMI references by form and basis; same-study site, sampling and form contrasts"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "available",
+      "answer": "The gaps that limit decisions are the absence of arsenic data, the absence of growing-origin data and the small number of products.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Every source record and indexed dataset row that names pea protein",
+        "protocol_ref": "data/evidence/engine/ingredient/pea-protein/evidence-ledger.json",
+        "record_refs": [
+          "data/evidence/engine/ingredient/pea-protein/synthesis.json"
+        ],
+        "screening_ref": "data/evidence/engine/ingredient/pea-protein/evidence-ledger.json",
+        "searched_through": "2026-11-02",
+        "limitations": [
+          "Existing HMI library only; no new external literature search"
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [
+        "wiki/sources/ring2021-ireland-protein-powders-metals.md",
+        "wiki/sources/horvath2025-hungary-protein-powders-metals.md"
+      ],
+      "synthesis_refs": [
+        "data/evidence/syntheses/engine-ingredient-pea-protein-v1.json#summary/3"
+      ],
+      "applicability": "Applies only to the source-specific material, period, preparation and endpoint stated in the answer and attached evidence records",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/ingredients/pea-protein.md"
+      ]
+    },
+    {
+      "question_id": "HMI-ING-007",
+      "scope": {
+        "analytes": "Pb, Cd, tHg, Cr, Sn, Co, V, Au, Ba, Be, Bi, Li, Mo, Pt, Ti and Tl",
+        "material_form": "Pea protein, powder or ground",
+        "basis": "As reported; µg/kg; no moisture conversion",
+        "geography_market": "Reporting region, purchase market or growing area as each source reports",
+        "period": "Source collection years where reported; unreported dates stay unknown",
+        "stage": "Growing area, processing, retail and release testing",
+        "population_route": "Dietary ingestion",
+        "comparator_outcome": "HMI references by form and basis; same-study site, sampling and form contrasts"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "available",
+      "answer": "Lead, cadmium and mercury were measured, with 13 other elements; total and inorganic arsenic were not.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Every source record and indexed dataset row that names pea protein",
+        "protocol_ref": "data/evidence/engine/ingredient/pea-protein/evidence-ledger.json",
+        "record_refs": [
+          "data/evidence/engine/ingredient/pea-protein/synthesis.json"
+        ],
+        "screening_ref": "data/evidence/engine/ingredient/pea-protein/evidence-ledger.json",
+        "searched_through": "2026-11-02",
+        "limitations": [
+          "Existing HMI library only; no new external literature search"
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [
+        "wiki/sources/ring2021-ireland-protein-powders-metals.md"
+      ],
+      "synthesis_refs": [
+        "data/evidence/syntheses/engine-ingredient-pea-protein-v1.json#occurrence/1"
+      ],
+      "applicability": "Applies only to the source-specific material, period, preparation and endpoint stated in the answer and attached evidence records",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/ingredients/pea-protein.md"
+      ]
+    },
+    {
+      "question_id": "HMI-ING-008",
+      "scope": {
+        "analytes": "Pb, Cd, tHg, Cr, Sn, Co, V, Au, Ba, Be, Bi, Li, Mo, Pt, Ti and Tl",
+        "material_form": "Pea protein, powder or ground",
+        "basis": "As reported; µg/kg; no moisture conversion",
+        "geography_market": "Reporting region, purchase market or growing area as each source reports",
+        "period": "Source collection years where reported; unreported dates stay unknown",
+        "stage": "Growing area, processing, retail and release testing",
+        "population_route": "Dietary ingestion",
+        "comparator_outcome": "HMI references by form and basis; same-study site, sampling and form contrasts"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "available",
+      "answer": "Each value is one analysis of one retail product: lead 22.2 and 22.5 µg/kg, cadmium 40.6 and 15.4 µg/kg, mercury 4.3 µg/kg and below 0.2 µg/kg. Five pea blends in a Hungarian survey were below an unprinted detection limit for arsenic, cadmium, mercury and lead.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Every source record and indexed dataset row that names pea protein",
+        "protocol_ref": "data/evidence/engine/ingredient/pea-protein/evidence-ledger.json",
+        "record_refs": [
+          "data/evidence/engine/ingredient/pea-protein/synthesis.json"
+        ],
+        "screening_ref": "data/evidence/engine/ingredient/pea-protein/evidence-ledger.json",
+        "searched_through": "2026-11-02",
+        "limitations": [
+          "Existing HMI library only; no new external literature search"
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [
+        "wiki/sources/ring2021-ireland-protein-powders-metals.md",
+        "wiki/sources/horvath2025-hungary-protein-powders-metals.md"
+      ],
+      "synthesis_refs": [
+        "data/evidence/syntheses/engine-ingredient-pea-protein-v1.json#occurrence/2"
+      ],
+      "applicability": "Applies only to the source-specific material, period, preparation and endpoint stated in the answer and attached evidence records",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/ingredients/pea-protein.md"
+      ]
+    },
+    {
+      "question_id": "HMI-ING-009",
+      "scope": {
+        "analytes": "Pb, Cd, tHg, Cr, Sn, Co, V, Au, Ba, Be, Bi, Li, Mo, Pt, Ti and Tl",
+        "material_form": "Pea protein, powder or ground",
+        "basis": "As reported; µg/kg; no moisture conversion",
+        "geography_market": "Reporting region, purchase market or growing area as each source reports",
+        "period": "Source collection years where reported; unreported dates stay unknown",
+        "stage": "Growing area, processing, retail and release testing",
+        "population_route": "Dietary ingestion",
+        "comparator_outcome": "HMI references by form and basis; same-study site, sampling and form contrasts"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "available",
+      "answer": "Total arsenic and inorganic arsenic are unassessed for pea protein. The blend non-detects cannot be bounded because the detection limit was not printed.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Every source record and indexed dataset row that names pea protein",
+        "protocol_ref": "data/evidence/engine/ingredient/pea-protein/evidence-ledger.json",
+        "record_refs": [
+          "data/evidence/engine/ingredient/pea-protein/synthesis.json"
+        ],
+        "screening_ref": "data/evidence/engine/ingredient/pea-protein/evidence-ledger.json",
+        "searched_through": "2026-11-02",
+        "limitations": [
+          "Existing HMI library only; no new external literature search"
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [
+        "wiki/sources/ring2021-ireland-protein-powders-metals.md",
+        "wiki/sources/horvath2025-hungary-protein-powders-metals.md"
+      ],
+      "synthesis_refs": [
+        "data/evidence/syntheses/engine-ingredient-pea-protein-v1.json#occurrence/3"
+      ],
+      "applicability": "Applies only to the source-specific material, period, preparation and endpoint stated in the answer and attached evidence records",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/ingredients/pea-protein.md"
+      ]
+    },
+    {
+      "question_id": "HMI-ING-010",
+      "scope": {
+        "analytes": "Pb, Cd, tHg, Cr, Sn, Co, V, Au, Ba, Be, Bi, Li, Mo, Pt, Ti and Tl",
+        "material_form": "Pea protein, powder or ground",
+        "basis": "As reported; µg/kg; no moisture conversion",
+        "geography_market": "Reporting region, purchase market or growing area as each source reports",
+        "period": "Source collection years where reported; unreported dates stay unknown",
+        "stage": "Growing area, processing, retail and release testing",
+        "population_route": "Dietary ingestion",
+        "comparator_outcome": "HMI references by form and basis; same-study site, sampling and form contrasts"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "available",
+      "answer": "No study in the Index measured root uptake or other biological pathways for pea protein.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Every source record and indexed dataset row that names pea protein",
+        "protocol_ref": "data/evidence/engine/ingredient/pea-protein/evidence-ledger.json",
+        "record_refs": [
+          "data/evidence/engine/ingredient/pea-protein/synthesis.json"
+        ],
+        "screening_ref": "data/evidence/engine/ingredient/pea-protein/evidence-ledger.json",
+        "searched_through": "2026-11-02",
+        "limitations": [
+          "Existing HMI library only; no new external literature search"
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [
+        "wiki/sources/ring2021-ireland-protein-powders-metals.md"
+      ],
+      "synthesis_refs": [
+        "data/evidence/syntheses/engine-ingredient-pea-protein-v1.json#pathways/1"
+      ],
+      "applicability": "Applies only to the source-specific material, period, preparation and endpoint stated in the answer and attached evidence records",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/ingredients/pea-protein.md"
+      ]
+    },
+    {
+      "question_id": "HMI-ING-011",
+      "scope": {
+        "analytes": "Pb, Cd, tHg, Cr, Sn, Co, V, Au, Ba, Be, Bi, Li, Mo, Pt, Ti and Tl",
+        "material_form": "Pea protein, powder or ground",
+        "basis": "As reported; µg/kg; no moisture conversion",
+        "geography_market": "Reporting region, purchase market or growing area as each source reports",
+        "period": "Source collection years where reported; unreported dates stay unknown",
+        "stage": "Growing area, processing, retail and release testing",
+        "population_route": "Dietary ingestion",
+        "comparator_outcome": "HMI references by form and basis; same-study site, sampling and form contrasts"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "available",
+      "answer": "No study in the Index measured contamination from agricultural inputs, processing, equipment or packaging for pea protein.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Every source record and indexed dataset row that names pea protein",
+        "protocol_ref": "data/evidence/engine/ingredient/pea-protein/evidence-ledger.json",
+        "record_refs": [
+          "data/evidence/engine/ingredient/pea-protein/synthesis.json"
+        ],
+        "screening_ref": "data/evidence/engine/ingredient/pea-protein/evidence-ledger.json",
+        "searched_through": "2026-11-02",
+        "limitations": [
+          "Existing HMI library only; no new external literature search"
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [
+        "wiki/sources/ring2021-ireland-protein-powders-metals.md"
+      ],
+      "synthesis_refs": [
+        "data/evidence/syntheses/engine-ingredient-pea-protein-v1.json#pathways/2"
+      ],
+      "applicability": "Applies only to the source-specific material, period, preparation and endpoint stated in the answer and attached evidence records",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/ingredients/pea-protein.md"
+      ]
+    },
+    {
+      "question_id": "HMI-ING-012",
+      "scope": {
+        "analytes": "Pb, Cd, tHg, Cr, Sn, Co, V, Au, Ba, Be, Bi, Li, Mo, Pt, Ti and Tl",
+        "material_form": "Pea protein, powder or ground",
+        "basis": "As reported; µg/kg; no moisture conversion",
+        "geography_market": "Reporting region, purchase market or growing area as each source reports",
+        "period": "Source collection years where reported; unreported dates stay unknown",
+        "stage": "Growing area, processing, retail and release testing",
+        "population_route": "Dietary ingestion",
+        "comparator_outcome": "HMI references by form and basis; same-study site, sampling and form contrasts"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "available",
+      "answer": "The plant-protein attribution is inferred from a market screen of unspecified plant powders; it is not a measured result for pea protein.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Every source record and indexed dataset row that names pea protein",
+        "protocol_ref": "data/evidence/engine/ingredient/pea-protein/evidence-ledger.json",
+        "record_refs": [
+          "data/evidence/engine/ingredient/pea-protein/synthesis.json"
+        ],
+        "screening_ref": "data/evidence/engine/ingredient/pea-protein/evidence-ledger.json",
+        "searched_through": "2026-11-02",
+        "limitations": [
+          "Existing HMI library only; no new external literature search"
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [
+        "wiki/sources/cleanlabel2025-protein-powder-heavy-metals.md"
+      ],
+      "synthesis_refs": [
+        "data/evidence/syntheses/engine-ingredient-pea-protein-v1.json#pathways/3"
+      ],
+      "applicability": "Applies only to the source-specific material, period, preparation and endpoint stated in the answer and attached evidence records",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/ingredients/pea-protein.md"
+      ]
+    },
+    {
+      "question_id": "HMI-ING-013",
+      "scope": {
+        "analytes": "Pb, Cd, tHg, Cr, Sn, Co, V, Au, Ba, Be, Bi, Li, Mo, Pt, Ti and Tl",
+        "material_form": "Pea protein, powder or ground",
+        "basis": "As reported; µg/kg; no moisture conversion",
+        "geography_market": "Reporting region, purchase market or growing area as each source reports",
+        "period": "Source collection years where reported; unreported dates stay unknown",
+        "stage": "Growing area, processing, retail and release testing",
+        "population_route": "Dietary ingestion",
+        "comparator_outcome": "HMI references by form and basis; same-study site, sampling and form contrasts"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "available",
+      "answer": "No pea protein result is linked to growing origin, growing conditions, variety or harvest period.\n\nWhich pea protein measured lowest in each metal? For cadmium and mercury, the second Irish powder measured lowest: 15.4 µg/kg cadmium and mercury below 0.2 µg/kg, against 40.6 and 4.3 µg/kg in the first. For lead the two powders were effectively the same, 22.5 and 22.2 µg/kg. Two products from one market do not show that either source is reliably lower.\n\nCan country of origin pick a lower-metal pea protein? Not yet: no published pea protein result names the growing region, and the blends with a stated production country were below an unprinted detection limit. Origin-linked lot results are the evidence that would answer it.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Every source record and indexed dataset row that names pea protein",
+        "protocol_ref": "data/evidence/engine/ingredient/pea-protein/evidence-ledger.json",
+        "record_refs": [
+          "data/evidence/engine/ingredient/pea-protein/synthesis.json"
+        ],
+        "screening_ref": "data/evidence/engine/ingredient/pea-protein/evidence-ledger.json",
+        "searched_through": "2026-11-02",
+        "limitations": [
+          "Existing HMI library only; no new external literature search"
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [
+        "wiki/sources/ring2021-ireland-protein-powders-metals.md",
+        "wiki/sources/horvath2025-hungary-protein-powders-metals.md"
+      ],
+      "synthesis_refs": [
+        "data/evidence/syntheses/engine-ingredient-pea-protein-v1.json#variation/1"
+      ],
+      "applicability": "Applies only to the source-specific material, period, preparation and endpoint stated in the answer and attached evidence records",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/ingredients/pea-protein.md"
+      ]
+    },
+    {
+      "question_id": "HMI-ING-014",
+      "scope": {
+        "analytes": "Pb, Cd, tHg, Cr, Sn, Co, V, Au, Ba, Be, Bi, Li, Mo, Pt, Ti and Tl",
+        "material_form": "Pea protein, powder or ground",
+        "basis": "As reported; µg/kg; no moisture conversion",
+        "geography_market": "Reporting region, purchase market or growing area as each source reports",
+        "period": "Source collection years where reported; unreported dates stay unknown",
+        "stage": "Growing area, processing, retail and release testing",
+        "population_route": "Dietary ingestion",
+        "comparator_outcome": "HMI references by form and basis; same-study site, sampling and form contrasts"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "available",
+      "answer": "The only variation observed is between two retail products, which differed more than twofold in cadmium at nearly equal lead. Within-lot and between-lot variation are unmeasured.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Every source record and indexed dataset row that names pea protein",
+        "protocol_ref": "data/evidence/engine/ingredient/pea-protein/evidence-ledger.json",
+        "record_refs": [
+          "data/evidence/engine/ingredient/pea-protein/synthesis.json"
+        ],
+        "screening_ref": "data/evidence/engine/ingredient/pea-protein/evidence-ledger.json",
+        "searched_through": "2026-11-02",
+        "limitations": [
+          "Existing HMI library only; no new external literature search"
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [
+        "wiki/sources/ring2021-ireland-protein-powders-metals.md"
+      ],
+      "synthesis_refs": [
+        "data/evidence/syntheses/engine-ingredient-pea-protein-v1.json#variation/2"
+      ],
+      "applicability": "Applies only to the source-specific material, period, preparation and endpoint stated in the answer and attached evidence records",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/ingredients/pea-protein.md"
+      ]
+    },
+    {
+      "question_id": "HMI-ING-015",
+      "scope": {
+        "analytes": "Pb, Cd, tHg, Cr, Sn, Co, V, Au, Ba, Be, Bi, Li, Mo, Pt, Ti and Tl",
+        "material_form": "Pea protein, powder or ground",
+        "basis": "As reported; µg/kg; no moisture conversion",
+        "geography_market": "Reporting region, purchase market or growing area as each source reports",
+        "period": "Source collection years where reported; unreported dates stay unknown",
+        "stage": "Growing area, processing, retail and release testing",
+        "population_route": "Dietary ingestion",
+        "comparator_outcome": "HMI references by form and basis; same-study site, sampling and form contrasts"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "available",
+      "answer": "No comparison supports an origin or supplier preference. Generalizing from two products bought in Ireland to a country or supplier would be unjustified.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Every source record and indexed dataset row that names pea protein",
+        "protocol_ref": "data/evidence/engine/ingredient/pea-protein/evidence-ledger.json",
+        "record_refs": [
+          "data/evidence/engine/ingredient/pea-protein/synthesis.json"
+        ],
+        "screening_ref": "data/evidence/engine/ingredient/pea-protein/evidence-ledger.json",
+        "searched_through": "2026-11-02",
+        "limitations": [
+          "Existing HMI library only; no new external literature search"
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [
+        "wiki/sources/ring2021-ireland-protein-powders-metals.md"
+      ],
+      "synthesis_refs": [
+        "data/evidence/syntheses/engine-ingredient-pea-protein-v1.json#variation/3"
+      ],
+      "applicability": "Applies only to the source-specific material, period, preparation and endpoint stated in the answer and attached evidence records",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/ingredients/pea-protein.md"
+      ]
+    },
+    {
+      "question_id": "HMI-ING-016",
+      "scope": {
+        "analytes": "Pb, Cd, tHg, Cr, Sn, Co, V, Au, Ba, Be, Bi, Li, Mo, Pt, Ti and Tl",
+        "material_form": "Pea protein, powder or ground",
+        "basis": "As reported; µg/kg; no moisture conversion",
+        "geography_market": "Reporting region, purchase market or growing area as each source reports",
+        "period": "Source collection years where reported; unreported dates stay unknown",
+        "stage": "Growing area, processing, retail and release testing",
+        "population_route": "Dietary ingestion",
+        "comparator_outcome": "HMI references by form and basis; same-study site, sampling and form contrasts"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "available",
+      "answer": "No processing step has a measured effect on metals in pea protein in the Index.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Every source record and indexed dataset row that names pea protein",
+        "protocol_ref": "data/evidence/engine/ingredient/pea-protein/evidence-ledger.json",
+        "record_refs": [
+          "data/evidence/engine/ingredient/pea-protein/synthesis.json"
+        ],
+        "screening_ref": "data/evidence/engine/ingredient/pea-protein/evidence-ledger.json",
+        "searched_through": "2026-11-02",
+        "limitations": [
+          "Existing HMI library only; no new external literature search"
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [
+        "wiki/sources/ring2021-ireland-protein-powders-metals.md",
+        "wiki/sources/horvath2025-hungary-protein-powders-metals.md"
+      ],
+      "synthesis_refs": [
+        "data/evidence/syntheses/engine-ingredient-pea-protein-v1.json#processing/1"
+      ],
+      "applicability": "Applies only to the source-specific material, period, preparation and endpoint stated in the answer and attached evidence records",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/ingredients/pea-protein.md"
+      ]
+    },
+    {
+      "question_id": "HMI-ING-017",
+      "scope": {
+        "analytes": "Pb, Cd, tHg, Cr, Sn, Co, V, Au, Ba, Be, Bi, Li, Mo, Pt, Ti and Tl",
+        "material_form": "Pea protein, powder or ground",
+        "basis": "As reported; µg/kg; no moisture conversion",
+        "geography_market": "Reporting region, purchase market or growing area as each source reports",
+        "period": "Source collection years where reported; unreported dates stay unknown",
+        "stage": "Growing area, processing, retail and release testing",
+        "population_route": "Dietary ingestion",
+        "comparator_outcome": "HMI references by form and basis; same-study site, sampling and form contrasts"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "available",
+      "answer": "Isolate and concentrate are distinct fractions of the pea seed. Their metal content has not been compared in any study in the Index.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Every source record and indexed dataset row that names pea protein",
+        "protocol_ref": "data/evidence/engine/ingredient/pea-protein/evidence-ledger.json",
+        "record_refs": [
+          "data/evidence/engine/ingredient/pea-protein/synthesis.json"
+        ],
+        "screening_ref": "data/evidence/engine/ingredient/pea-protein/evidence-ledger.json",
+        "searched_through": "2026-11-02",
+        "limitations": [
+          "Existing HMI library only; no new external literature search"
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [
+        "wiki/sources/ring2021-ireland-protein-powders-metals.md"
+      ],
+      "synthesis_refs": [
+        "data/evidence/syntheses/engine-ingredient-pea-protein-v1.json#processing/2"
+      ],
+      "applicability": "Applies only to the source-specific material, period, preparation and endpoint stated in the answer and attached evidence records",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/ingredients/pea-protein.md"
+      ]
+    },
+    {
+      "question_id": "HMI-ING-018",
+      "scope": {
+        "analytes": "Pb, Cd, tHg, Cr, Sn, Co, V, Au, Ba, Be, Bi, Li, Mo, Pt, Ti and Tl",
+        "material_form": "Pea protein, powder or ground",
+        "basis": "As reported; µg/kg; no moisture conversion",
+        "geography_market": "Reporting region, purchase market or growing area as each source reports",
+        "period": "Source collection years where reported; unreported dates stay unknown",
+        "stage": "Growing area, processing, retail and release testing",
+        "population_route": "Dietary ingestion",
+        "comparator_outcome": "HMI references by form and basis; same-study site, sampling and form contrasts"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "available",
+      "answer": "Removal, redistribution and concentration cannot be distinguished without a before-and-after mass balance, which no study reports. The two products have no paired raw-material results.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Every source record and indexed dataset row that names pea protein",
+        "protocol_ref": "data/evidence/engine/ingredient/pea-protein/evidence-ledger.json",
+        "record_refs": [
+          "data/evidence/engine/ingredient/pea-protein/synthesis.json"
+        ],
+        "screening_ref": "data/evidence/engine/ingredient/pea-protein/evidence-ledger.json",
+        "searched_through": "2026-11-02",
+        "limitations": [
+          "Existing HMI library only; no new external literature search"
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [
+        "wiki/sources/ring2021-ireland-protein-powders-metals.md"
+      ],
+      "synthesis_refs": [
+        "data/evidence/syntheses/engine-ingredient-pea-protein-v1.json#processing/3"
+      ],
+      "applicability": "Applies only to the source-specific material, period, preparation and endpoint stated in the answer and attached evidence records",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/ingredients/pea-protein.md"
+      ]
+    },
+    {
+      "question_id": "HMI-ING-019",
+      "scope": {
+        "analytes": "Pb, Cd, tHg, Cr, Sn, Co, V, Au, Ba, Be, Bi, Li, Mo, Pt, Ti and Tl",
+        "material_form": "Pea protein, powder or ground",
+        "basis": "As reported; µg/kg; no moisture conversion",
+        "geography_market": "Reporting region, purchase market or growing area as each source reports",
+        "period": "Source collection years where reported; unreported dates stay unknown",
+        "stage": "Growing area, processing, retail and release testing",
+        "population_route": "Dietary ingestion",
+        "comparator_outcome": "HMI references by form and basis; same-study site, sampling and form contrasts"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "available",
+      "answer": "No prevention, mitigation or remediation measure has been evaluated for pea protein in the Index.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Every source record and indexed dataset row that names pea protein",
+        "protocol_ref": "data/evidence/engine/ingredient/pea-protein/evidence-ledger.json",
+        "record_refs": [
+          "data/evidence/engine/ingredient/pea-protein/synthesis.json"
+        ],
+        "screening_ref": "data/evidence/engine/ingredient/pea-protein/evidence-ledger.json",
+        "searched_through": "2026-11-02",
+        "limitations": [
+          "Existing HMI library only; no new external literature search"
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [
+        "wiki/sources/ring2021-ireland-protein-powders-metals.md",
+        "wiki/sources/horvath2025-hungary-protein-powders-metals.md"
+      ],
+      "synthesis_refs": [
+        "data/evidence/syntheses/engine-ingredient-pea-protein-v1.json#controls/1"
+      ],
+      "applicability": "Applies only to the source-specific material, period, preparation and endpoint stated in the answer and attached evidence records",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/ingredients/pea-protein.md"
+      ]
+    },
+    {
+      "question_id": "HMI-ING-020",
+      "scope": {
+        "analytes": "Pb, Cd, tHg, Cr, Sn, Co, V, Au, Ba, Be, Bi, Li, Mo, Pt, Ti and Tl",
+        "material_form": "Pea protein, powder or ground",
+        "basis": "As reported; µg/kg; no moisture conversion",
+        "geography_market": "Reporting region, purchase market or growing area as each source reports",
+        "period": "Source collection years where reported; unreported dates stay unknown",
+        "stage": "Growing area, processing, retail and release testing",
+        "population_route": "Dietary ingestion",
+        "comparator_outcome": "HMI references by form and basis; same-study site, sampling and form contrasts"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "available",
+      "answer": "With no evaluated control, there is no stage, condition or comparator to report. Lot testing is a detection step, not a tested reduction.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Every source record and indexed dataset row that names pea protein",
+        "protocol_ref": "data/evidence/engine/ingredient/pea-protein/evidence-ledger.json",
+        "record_refs": [
+          "data/evidence/engine/ingredient/pea-protein/synthesis.json"
+        ],
+        "screening_ref": "data/evidence/engine/ingredient/pea-protein/evidence-ledger.json",
+        "searched_through": "2026-11-02",
+        "limitations": [
+          "Existing HMI library only; no new external literature search"
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [
+        "wiki/sources/horvath2025-hungary-protein-powders-metals.md"
+      ],
+      "synthesis_refs": [
+        "data/evidence/syntheses/engine-ingredient-pea-protein-v1.json#controls/2"
+      ],
+      "applicability": "Applies only to the source-specific material, period, preparation and endpoint stated in the answer and attached evidence records",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/ingredients/pea-protein.md"
+      ]
+    },
+    {
+      "question_id": "HMI-ING-021",
+      "scope": {
+        "analytes": "Pb, Cd, tHg, Cr, Sn, Co, V, Au, Ba, Be, Bi, Li, Mo, Pt, Ti and Tl",
+        "material_form": "Pea protein, powder or ground",
+        "basis": "As reported; µg/kg; no moisture conversion",
+        "geography_market": "Reporting region, purchase market or growing area as each source reports",
+        "period": "Source collection years where reported; unreported dates stay unknown",
+        "stage": "Growing area, processing, retail and release testing",
+        "population_route": "Dietary ingestion",
+        "comparator_outcome": "HMI references by form and basis; same-study site, sampling and form contrasts"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "available",
+      "answer": "There is no field or commercial evidence for a control; verification rests on lot testing with a stated quantification limit.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Every source record and indexed dataset row that names pea protein",
+        "protocol_ref": "data/evidence/engine/ingredient/pea-protein/evidence-ledger.json",
+        "record_refs": [
+          "data/evidence/engine/ingredient/pea-protein/synthesis.json"
+        ],
+        "screening_ref": "data/evidence/engine/ingredient/pea-protein/evidence-ledger.json",
+        "searched_through": "2026-11-02",
+        "limitations": [
+          "Existing HMI library only; no new external literature search"
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [
+        "wiki/sources/horvath2025-hungary-protein-powders-metals.md"
+      ],
+      "synthesis_refs": [
+        "data/evidence/syntheses/engine-ingredient-pea-protein-v1.json#controls/3"
+      ],
+      "applicability": "Applies only to the source-specific material, period, preparation and endpoint stated in the answer and attached evidence records",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/ingredients/pea-protein.md"
+      ]
+    },
+    {
+      "question_id": "HMI-ING-022",
+      "scope": {
+        "analytes": "Pb, Cd, tHg, Cr, Sn, Co, V, Au, Ba, Be, Bi, Li, Mo, Pt, Ti and Tl",
+        "material_form": "Pea protein, powder or ground",
+        "basis": "As reported; µg/kg; no moisture conversion",
+        "geography_market": "Reporting region, purchase market or growing area as each source reports",
+        "period": "Source collection years where reported; unreported dates stay unknown",
+        "stage": "Growing area, processing, retail and release testing",
+        "population_route": "Dietary ingestion",
+        "comparator_outcome": "HMI references by form and basis; same-study site, sampling and form contrasts"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "available",
+      "answer": "No intervention for pea protein has been tested, so no shift of contamination to another metal or by-product is documented. The two products show that lead and cadmium can diverge between sources.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Every source record and indexed dataset row that names pea protein",
+        "protocol_ref": "data/evidence/engine/ingredient/pea-protein/evidence-ledger.json",
+        "record_refs": [
+          "data/evidence/engine/ingredient/pea-protein/synthesis.json"
+        ],
+        "screening_ref": "data/evidence/engine/ingredient/pea-protein/evidence-ledger.json",
+        "searched_through": "2026-11-02",
+        "limitations": [
+          "Existing HMI library only; no new external literature search"
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [
+        "wiki/sources/ring2021-ireland-protein-powders-metals.md"
+      ],
+      "synthesis_refs": [
+        "data/evidence/syntheses/engine-ingredient-pea-protein-v1.json#tradeoffs/1"
+      ],
+      "applicability": "Applies only to the source-specific material, period, preparation and endpoint stated in the answer and attached evidence records",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/ingredients/pea-protein.md"
+      ]
+    },
+    {
+      "question_id": "HMI-ING-023",
+      "scope": {
+        "analytes": "Pb, Cd, tHg, Cr, Sn, Co, V, Au, Ba, Be, Bi, Li, Mo, Pt, Ti and Tl",
+        "material_form": "Pea protein, powder or ground",
+        "basis": "As reported; µg/kg; no moisture conversion",
+        "geography_market": "Reporting region, purchase market or growing area as each source reports",
+        "period": "Source collection years where reported; unreported dates stay unknown",
+        "stage": "Growing area, processing, retail and release testing",
+        "population_route": "Dietary ingestion",
+        "comparator_outcome": "HMI references by form and basis; same-study site, sampling and form contrasts"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "available",
+      "answer": "No effects on nutrition, yield, sensory quality, stability or waste streams were measured.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Every source record and indexed dataset row that names pea protein",
+        "protocol_ref": "data/evidence/engine/ingredient/pea-protein/evidence-ledger.json",
+        "record_refs": [
+          "data/evidence/engine/ingredient/pea-protein/synthesis.json"
+        ],
+        "screening_ref": "data/evidence/engine/ingredient/pea-protein/evidence-ledger.json",
+        "searched_through": "2026-11-02",
+        "limitations": [
+          "Existing HMI library only; no new external literature search"
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [
+        "wiki/sources/ring2021-ireland-protein-powders-metals.md",
+        "wiki/sources/horvath2025-hungary-protein-powders-metals.md"
+      ],
+      "synthesis_refs": [
+        "data/evidence/syntheses/engine-ingredient-pea-protein-v1.json#tradeoffs/2"
+      ],
+      "applicability": "Applies only to the source-specific material, period, preparation and endpoint stated in the answer and attached evidence records",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/ingredients/pea-protein.md"
+      ]
+    },
+    {
+      "question_id": "HMI-ING-024",
+      "scope": {
+        "analytes": "Pb, Cd, tHg, Cr, Sn, Co, V, Au, Ba, Be, Bi, Li, Mo, Pt, Ti and Tl",
+        "material_form": "Pea protein, powder or ground",
+        "basis": "As reported; µg/kg; no moisture conversion",
+        "geography_market": "Reporting region, purchase market or growing area as each source reports",
+        "period": "Source collection years where reported; unreported dates stay unknown",
+        "stage": "Growing area, processing, retail and release testing",
+        "population_route": "Dietary ingestion",
+        "comparator_outcome": "HMI references by form and basis; same-study site, sampling and form contrasts"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "available",
+      "answer": "Costs, constraints and failure modes of controls for pea protein are unknown. The only documented failure mode is a non-detect reported without its detection limit.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Every source record and indexed dataset row that names pea protein",
+        "protocol_ref": "data/evidence/engine/ingredient/pea-protein/evidence-ledger.json",
+        "record_refs": [
+          "data/evidence/engine/ingredient/pea-protein/synthesis.json"
+        ],
+        "screening_ref": "data/evidence/engine/ingredient/pea-protein/evidence-ledger.json",
+        "searched_through": "2026-11-02",
+        "limitations": [
+          "Existing HMI library only; no new external literature search"
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [
+        "wiki/sources/horvath2025-hungary-protein-powders-metals.md"
+      ],
+      "synthesis_refs": [
+        "data/evidence/syntheses/engine-ingredient-pea-protein-v1.json#tradeoffs/3"
+      ],
+      "applicability": "Applies only to the source-specific material, period, preparation and endpoint stated in the answer and attached evidence records",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/ingredients/pea-protein.md"
+      ]
+    },
+    {
+      "question_id": "HMI-ING-025",
+      "scope": {
+        "analytes": "Pb, Cd, tHg, Cr, Sn, Co, V, Au, Ba, Be, Bi, Li, Mo, Pt, Ti and Tl",
+        "material_form": "Pea protein, powder or ground",
+        "basis": "As reported; µg/kg; no moisture conversion",
+        "geography_market": "Reporting region, purchase market or growing area as each source reports",
+        "period": "Source collection years where reported; unreported dates stay unknown",
+        "stage": "Growing area, processing, retail and release testing",
+        "population_route": "Dietary ingestion",
+        "comparator_outcome": "HMI references by form and basis; same-study site, sampling and form contrasts"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "available",
+      "answer": "Sampling should be lot-based: a single product analysis, as in the published studies, describes that product and not a supplier's production. Each pea result in the Index is one analysis of one product.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Every source record and indexed dataset row that names pea protein",
+        "protocol_ref": "data/evidence/engine/ingredient/pea-protein/evidence-ledger.json",
+        "record_refs": [
+          "data/evidence/engine/ingredient/pea-protein/synthesis.json"
+        ],
+        "screening_ref": "data/evidence/engine/ingredient/pea-protein/evidence-ledger.json",
+        "searched_through": "2026-11-02",
+        "limitations": [
+          "Existing HMI library only; no new external literature search"
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [
+        "wiki/sources/ring2021-ireland-protein-powders-metals.md"
+      ],
+      "synthesis_refs": [
+        "data/evidence/syntheses/engine-ingredient-pea-protein-v1.json#testing/1"
+      ],
+      "applicability": "Applies only to the source-specific material, period, preparation and endpoint stated in the answer and attached evidence records",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/ingredients/pea-protein.md"
+      ]
+    },
+    {
+      "question_id": "HMI-ING-026",
+      "scope": {
+        "analytes": "Pb, Cd, tHg, Cr, Sn, Co, V, Au, Ba, Be, Bi, Li, Mo, Pt, Ti and Tl",
+        "material_form": "Pea protein, powder or ground",
+        "basis": "As reported; µg/kg; no moisture conversion",
+        "geography_market": "Reporting region, purchase market or growing area as each source reports",
+        "period": "Source collection years where reported; unreported dates stay unknown",
+        "stage": "Growing area, processing, retail and release testing",
+        "population_route": "Dietary ingestion",
+        "comparator_outcome": "HMI references by form and basis; same-study site, sampling and form contrasts"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "available",
+      "answer": "Lead, cadmium and mercury need a method with quantification limits well below the decision level; the published study used sector-field ICP-MS with limits as low as 0.2 µg/kg for mercury. Inorganic arsenic needs a speciation method.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Every source record and indexed dataset row that names pea protein",
+        "protocol_ref": "data/evidence/engine/ingredient/pea-protein/evidence-ledger.json",
+        "record_refs": [
+          "data/evidence/engine/ingredient/pea-protein/synthesis.json"
+        ],
+        "screening_ref": "data/evidence/engine/ingredient/pea-protein/evidence-ledger.json",
+        "searched_through": "2026-11-02",
+        "limitations": [
+          "Existing HMI library only; no new external literature search"
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [
+        "wiki/sources/ring2021-ireland-protein-powders-metals.md"
+      ],
+      "synthesis_refs": [
+        "data/evidence/syntheses/engine-ingredient-pea-protein-v1.json#testing/2"
+      ],
+      "applicability": "Applies only to the source-specific material, period, preparation and endpoint stated in the answer and attached evidence records",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/ingredients/pea-protein.md"
+      ]
+    },
+    {
+      "question_id": "HMI-ING-027",
+      "scope": {
+        "analytes": "Pb, Cd, tHg, Cr, Sn, Co, V, Au, Ba, Be, Bi, Li, Mo, Pt, Ti and Tl",
+        "material_form": "Pea protein, powder or ground",
+        "basis": "As reported; µg/kg; no moisture conversion",
+        "geography_market": "Reporting region, purchase market or growing area as each source reports",
+        "period": "Source collection years where reported; unreported dates stay unknown",
+        "stage": "Growing area, processing, retail and release testing",
+        "population_route": "Dietary ingestion",
+        "comparator_outcome": "HMI references by form and basis; same-study site, sampling and form contrasts"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "available",
+      "answer": "A non-detect establishes only that the result was below the stated limit; without a printed limit it establishes nothing about how low the metal was. Arsenic remains untested in pea protein.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Every source record and indexed dataset row that names pea protein",
+        "protocol_ref": "data/evidence/engine/ingredient/pea-protein/evidence-ledger.json",
+        "record_refs": [
+          "data/evidence/engine/ingredient/pea-protein/synthesis.json"
+        ],
+        "screening_ref": "data/evidence/engine/ingredient/pea-protein/evidence-ledger.json",
+        "searched_through": "2026-11-02",
+        "limitations": [
+          "Existing HMI library only; no new external literature search"
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [
+        "wiki/sources/horvath2025-hungary-protein-powders-metals.md",
+        "wiki/sources/ring2021-ireland-protein-powders-metals.md"
+      ],
+      "synthesis_refs": [
+        "data/evidence/syntheses/engine-ingredient-pea-protein-v1.json#testing/3"
+      ],
+      "applicability": "Applies only to the source-specific material, period, preparation and endpoint stated in the answer and attached evidence records",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/ingredients/pea-protein.md"
+      ]
+    },
+    {
+      "question_id": "HMI-ING-028",
+      "scope": {
+        "analytes": "Pb, Cd, tHg, Cr, Sn, Co, V, Au, Ba, Be, Bi, Li, Mo, Pt, Ti and Tl",
+        "material_form": "Pea protein, powder or ground",
+        "basis": "As reported; µg/kg; no moisture conversion",
+        "geography_market": "Reporting region, purchase market or growing area as each source reports",
+        "period": "Source collection years where reported; unreported dates stay unknown",
+        "stage": "Growing area, processing, retail and release testing",
+        "population_route": "Dietary ingestion",
+        "comparator_outcome": "HMI references by form and basis; same-study site, sampling and form contrasts"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "available",
+      "answer": "A buyer should request the growing origin of the peas, whether the material is isolate or concentrate, the laboratory, accreditation, report number, quantification limits and lot-level results for lead, cadmium, mercury and inorganic arsenic. No published pea protein result supplies origin or arsenic.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Every source record and indexed dataset row that names pea protein",
+        "protocol_ref": "data/evidence/engine/ingredient/pea-protein/evidence-ledger.json",
+        "record_refs": [
+          "data/evidence/engine/ingredient/pea-protein/synthesis.json"
+        ],
+        "screening_ref": "data/evidence/engine/ingredient/pea-protein/evidence-ledger.json",
+        "searched_through": "2026-11-02",
+        "limitations": [
+          "Existing HMI library only; no new external literature search"
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [
+        "wiki/sources/ring2021-ireland-protein-powders-metals.md"
+      ],
+      "synthesis_refs": [
+        "data/evidence/syntheses/engine-ingredient-pea-protein-v1.json#procurement/1"
+      ],
+      "applicability": "Applies only to the source-specific material, period, preparation and endpoint stated in the answer and attached evidence records",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/ingredients/pea-protein.md"
+      ]
+    },
+    {
+      "question_id": "HMI-ING-029",
+      "scope": {
+        "analytes": "Pb, Cd, tHg, Cr, Sn, Co, V, Au, Ba, Be, Bi, Li, Mo, Pt, Ti and Tl",
+        "material_form": "Pea protein, powder or ground",
+        "basis": "As reported; µg/kg; no moisture conversion",
+        "geography_market": "Reporting region, purchase market or growing area as each source reports",
+        "period": "Source collection years where reported; unreported dates stay unknown",
+        "stage": "Growing area, processing, retail and release testing",
+        "population_route": "Dietary ingestion",
+        "comparator_outcome": "HMI references by form and basis; same-study site, sampling and form contrasts"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "available",
+      "answer": "The EU maximum level of 0.10 mg/kg cadmium for proteins from pulses is a legal requirement where it applies. A per-serving lead target derived from California's 0.5 µg/day level is a policy choice that depends on the serving size.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Every source record and indexed dataset row that names pea protein",
+        "protocol_ref": "data/evidence/engine/ingredient/pea-protein/evidence-ledger.json",
+        "record_refs": [
+          "data/evidence/engine/ingredient/pea-protein/synthesis.json"
+        ],
+        "screening_ref": "data/evidence/engine/ingredient/pea-protein/evidence-ledger.json",
+        "searched_through": "2026-11-02",
+        "limitations": [
+          "Existing HMI library only; no new external literature search"
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [
+        "wiki/sources/eu-2023-915-contaminants-maximum-levels.md",
+        "wiki/sources/oehha-lead-prop65-listing.md"
+      ],
+      "synthesis_refs": [
+        "data/evidence/syntheses/engine-ingredient-pea-protein-v1.json#procurement/2"
+      ],
+      "applicability": "Applies only to the source-specific material, period, preparation and endpoint stated in the answer and attached evidence records",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/ingredients/pea-protein.md"
+      ]
+    },
+    {
+      "question_id": "HMI-ING-030",
+      "scope": {
+        "analytes": "Pb, Cd, tHg, Cr, Sn, Co, V, Au, Ba, Be, Bi, Li, Mo, Pt, Ti and Tl",
+        "material_form": "Pea protein, powder or ground",
+        "basis": "As reported; µg/kg; no moisture conversion",
+        "geography_market": "Reporting region, purchase market or growing area as each source reports",
+        "period": "Source collection years where reported; unreported dates stay unknown",
+        "stage": "Growing area, processing, retail and release testing",
+        "population_route": "Dietary ingestion",
+        "comparator_outcome": "HMI references by form and basis; same-study site, sampling and form contrasts"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "available",
+      "answer": "A change of pea origin, processor, isolate or concentrate, laboratory or quantification limit, or a lot result well above earlier lots, should trigger requalification. The more than twofold cadmium difference between two products shows how much sources can differ.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Every source record and indexed dataset row that names pea protein",
+        "protocol_ref": "data/evidence/engine/ingredient/pea-protein/evidence-ledger.json",
+        "record_refs": [
+          "data/evidence/engine/ingredient/pea-protein/synthesis.json"
+        ],
+        "screening_ref": "data/evidence/engine/ingredient/pea-protein/evidence-ledger.json",
+        "searched_through": "2026-11-02",
+        "limitations": [
+          "Existing HMI library only; no new external literature search"
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [
+        "wiki/sources/ring2021-ireland-protein-powders-metals.md"
+      ],
+      "synthesis_refs": [
+        "data/evidence/syntheses/engine-ingredient-pea-protein-v1.json#procurement/3"
+      ],
+      "applicability": "Applies only to the source-specific material, period, preparation and endpoint stated in the answer and attached evidence records",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/ingredients/pea-protein.md"
+      ]
+    },
+    {
+      "question_id": "HMI-ING-031",
+      "scope": {
+        "analytes": "Pb, Cd, tHg, Cr, Sn, Co, V, Au, Ba, Be, Bi, Li, Mo, Pt, Ti and Tl",
+        "material_form": "Pea protein, powder or ground",
+        "basis": "As reported; µg/kg; no moisture conversion",
+        "geography_market": "Reporting region, purchase market or growing area as each source reports",
+        "period": "Source collection years where reported; unreported dates stay unknown",
+        "stage": "Growing area, processing, retail and release testing",
+        "population_route": "Dietary ingestion",
+        "comparator_outcome": "HMI references by form and basis; same-study site, sampling and form contrasts"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "available",
+      "answer": "A finished-product estimate scales with the share of pea protein in the formula, the serving size and the other ingredients. The study's labeled servings were 30 g and 10 g.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Every source record and indexed dataset row that names pea protein",
+        "protocol_ref": "data/evidence/engine/ingredient/pea-protein/evidence-ledger.json",
+        "record_refs": [
+          "data/evidence/engine/ingredient/pea-protein/synthesis.json"
+        ],
+        "screening_ref": "data/evidence/engine/ingredient/pea-protein/evidence-ledger.json",
+        "searched_through": "2026-11-02",
+        "limitations": [
+          "Existing HMI library only; no new external literature search"
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [
+        "wiki/sources/ring2021-ireland-protein-powders-metals.md"
+      ],
+      "synthesis_refs": [
+        "data/evidence/syntheses/engine-ingredient-pea-protein-v1.json#product/1"
+      ],
+      "applicability": "Applies only to the source-specific material, period, preparation and endpoint stated in the answer and attached evidence records",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/ingredients/pea-protein.md"
+      ]
+    },
+    {
+      "question_id": "HMI-ING-032",
+      "scope": {
+        "analytes": "Pb, Cd, tHg, Cr, Sn, Co, V, Au, Ba, Be, Bi, Li, Mo, Pt, Ti and Tl",
+        "material_form": "Pea protein, powder or ground",
+        "basis": "As reported; µg/kg; no moisture conversion",
+        "geography_market": "Reporting region, purchase market or growing area as each source reports",
+        "period": "Source collection years where reported; unreported dates stay unknown",
+        "stage": "Growing area, processing, retail and release testing",
+        "population_route": "Dietary ingestion",
+        "comparator_outcome": "HMI references by form and basis; same-study site, sampling and form contrasts"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "available",
+      "answer": "Consumption frequency matters: the study used one to three servings a day for a 70 kg adult. Children, pregnant consumers and heavy users need their own intake assumptions.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Every source record and indexed dataset row that names pea protein",
+        "protocol_ref": "data/evidence/engine/ingredient/pea-protein/evidence-ledger.json",
+        "record_refs": [
+          "data/evidence/engine/ingredient/pea-protein/synthesis.json"
+        ],
+        "screening_ref": "data/evidence/engine/ingredient/pea-protein/evidence-ledger.json",
+        "searched_through": "2026-11-02",
+        "limitations": [
+          "Existing HMI library only; no new external literature search"
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [
+        "wiki/sources/ring2021-ireland-protein-powders-metals.md"
+      ],
+      "synthesis_refs": [
+        "data/evidence/syntheses/engine-ingredient-pea-protein-v1.json#product/2"
+      ],
+      "applicability": "Applies only to the source-specific material, period, preparation and endpoint stated in the answer and attached evidence records",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/ingredients/pea-protein.md"
+      ]
+    },
+    {
+      "question_id": "HMI-ING-033",
+      "scope": {
+        "analytes": "Pb, Cd, tHg, Cr, Sn, Co, V, Au, Ba, Be, Bi, Li, Mo, Pt, Ti and Tl",
+        "material_form": "Pea protein, powder or ground",
+        "basis": "As reported; µg/kg; no moisture conversion",
+        "geography_market": "Reporting region, purchase market or growing area as each source reports",
+        "period": "Source collection years where reported; unreported dates stay unknown",
+        "stage": "Growing area, processing, retail and release testing",
+        "population_route": "Dietary ingestion",
+        "comparator_outcome": "HMI references by form and basis; same-study site, sampling and form contrasts"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "available",
+      "answer": "Any claim about a finished product or a population's intake requires measurement of that product and a separate exposure assessment. Two retail products do not represent the market.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Every source record and indexed dataset row that names pea protein",
+        "protocol_ref": "data/evidence/engine/ingredient/pea-protein/evidence-ledger.json",
+        "record_refs": [
+          "data/evidence/engine/ingredient/pea-protein/synthesis.json"
+        ],
+        "screening_ref": "data/evidence/engine/ingredient/pea-protein/evidence-ledger.json",
+        "searched_through": "2026-11-02",
+        "limitations": [
+          "Existing HMI library only; no new external literature search"
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [
+        "wiki/sources/ring2021-ireland-protein-powders-metals.md"
+      ],
+      "synthesis_refs": [
+        "data/evidence/syntheses/engine-ingredient-pea-protein-v1.json#product/3"
+      ],
+      "applicability": "Applies only to the source-specific material, period, preparation and endpoint stated in the answer and attached evidence records",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/ingredients/pea-protein.md"
+      ]
+    },
+    {
+      "question_id": "HMI-ING-034",
+      "scope": {
+        "analytes": "Pb, Cd, tHg, Cr, Sn, Co, V, Au, Ba, Be, Bi, Li, Mo, Pt, Ti and Tl",
+        "material_form": "Pea protein, powder or ground",
+        "basis": "As reported; µg/kg; no moisture conversion",
+        "geography_market": "Reporting region, purchase market or growing area as each source reports",
+        "period": "Source collection years where reported; unreported dates stay unknown",
+        "stage": "Growing area, processing, retail and release testing",
+        "population_route": "Dietary ingestion",
+        "comparator_outcome": "HMI references by form and basis; same-study site, sampling and form contrasts"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "available",
+      "answer": "The EU 0.10 mg/kg cadmium level for proteins from pulses applies to pea protein; the EU 1.0 mg/kg supplement level applies where it is sold as a food supplement. California's per-day levels for lead and cadmium apply to products sold there. China's bean rows are the nearest GB 2762 entries.\n\nDoes pea protein contain lead? Both pea protein powders with published results contained lead, at 22.2 and 22.5 µg/kg as sold. Two products cannot show how common or how high lead is across the market.\n\nDoes pea protein contain cadmium? Yes: the two measured powders had 40.6 and 15.4 µg/kg cadmium. Both are below the EU maximum level of 0.10 mg/kg (100 µg/kg) for proteins from pulses.\n\nIs arsenic a concern in pea protein? It is unknown: no published pea protein result reports total or inorganic arsenic. Pea blends in one survey were below detection for arsenic, but the detection limit was not printed. Ask for inorganic arsenic on each lot.\n\nIs pea protein lower in metals than whey protein? In the one study that measured both, both pea powders were above the whey median for lead, 8.6 µg/kg across 27 whey powders, and one pea powder had more cadmium than any whey powder. With two pea products this is a tentative comparison, not a rule.\n\nIs pea protein lower in metals than rice protein? They cannot be compared directly for most metals. Pea protein has lead and cadmium results but no arsenic; rice protein has arsenic results but no quantified lead result. See [[ingredients/rice-protein]] for the rice evidence.\n\nWhich country grows the lowest-metal peas for protein? No published pea protein result names the growing region, so China, Vietnam, the USA and Canada cannot be compared. Origin-linked lot results would answer it.\n\nDoes organic pea protein have fewer metals? No pea-specific data exist; across a US market screen of protein powders of all types, organic products averaged three times the lead and twice the cadmium of non-organic ones. That screen did not separate pea protein.\n\nDo flavored pea protein powders carry more metals? Across all protein powders in a US market screen, chocolate-flavored products averaged four times the lead and 110 times the cadmium of vanilla-flavored products. No study separates flavored pea protein.\n\nHow do I check a pea protein against California Prop 65? Multiply the lead concentration by the serving weight: 22.2 µg/kg × 0.030 kg = 0.666 µg per 30 g serving, against the 0.5 µg/day level. Warning requirements depend on more than this arithmetic.\n\nWhat does \"not detected\" mean on a pea protein certificate? It means the result was below the laboratory's limit, not that the metal is absent. One survey reported pea blends as below detection without printing the limit, so the result shows nothing about how low the metal was.\n\nWhat should a pea protein supplier's test report include? The accredited laboratory's name and ISO/IEC 17025 status, the report number, the method, the quantification limit for each metal, inorganic arsenic as well as total arsenic, and the lot tested. The published evidence lacks arsenic and, in one survey, detection limits.\n\nDoes the EU limit metals in pea protein? Yes for cadmium: 0.10 mg/kg for proteins from pulses, and 1.0 mg/kg for food supplements in general. The Index has not yet transcribed the EU lead rows that may apply.\n\nDoes China set a limit for pea protein? GB 2762-2022 has no protein powder row; beans are limited to 0.2 mg/kg lead and 0.2 mg/kg cadmium. The 2025 edition replaced it from 2026-09-02, and its bean rows are not yet in the Index.\n\nDoes FDA Closer to Zero cover pea protein? No: its action levels cover foods for babies and young children.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Every source record and indexed dataset row that names pea protein",
+        "protocol_ref": "data/evidence/engine/ingredient/pea-protein/evidence-ledger.json",
+        "record_refs": [
+          "data/evidence/engine/ingredient/pea-protein/synthesis.json"
+        ],
+        "screening_ref": "data/evidence/engine/ingredient/pea-protein/evidence-ledger.json",
+        "searched_through": "2026-11-02",
+        "limitations": [
+          "Existing HMI library only; no new external literature search"
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [
+        "wiki/sources/eu-2023-915-contaminants-maximum-levels.md",
+        "wiki/sources/oehha-lead-prop65-listing.md",
+        "wiki/sources/oehha-cadmium-prop65-madl-2001.md",
+        "wiki/sources/usda-fas2023-china-gb-2762-2022-translation.md",
+        "wiki/sources/ring2021-ireland-protein-powders-metals.md",
+        "wiki/sources/horvath2025-hungary-protein-powders-metals.md",
+        "wiki/sources/cleanlabel2025-protein-powder-heavy-metals.md",
+        "wiki/sources/chinanhc2025-gb-2762-contaminants.md",
+        "wiki/sources/fda-ctz-Pb-babyfood-2025.md"
+      ],
+      "synthesis_refs": [
+        "data/evidence/syntheses/engine-ingredient-pea-protein-v1.json#assessment/1"
+      ],
+      "applicability": "Applies only to the source-specific material, period, preparation and endpoint stated in the answer and attached evidence records",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/ingredients/pea-protein.md"
+      ]
+    },
+    {
+      "question_id": "HMI-ING-035",
+      "scope": {
+        "analytes": "Pb, Cd, tHg, Cr, Sn, Co, V, Au, Ba, Be, Bi, Li, Mo, Pt, Ti and Tl",
+        "material_form": "Pea protein, powder or ground",
+        "basis": "As reported; µg/kg; no moisture conversion",
+        "geography_market": "Reporting region, purchase market or growing area as each source reports",
+        "period": "Source collection years where reported; unreported dates stay unknown",
+        "stage": "Growing area, processing, retail and release testing",
+        "population_route": "Dietary ingestion",
+        "comparator_outcome": "HMI references by form and basis; same-study site, sampling and form contrasts"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "available",
+      "answer": "Every record that names pea protein was read: two give pea-specific results and five do not report pea protein separately.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Every source record and indexed dataset row that names pea protein",
+        "protocol_ref": "data/evidence/engine/ingredient/pea-protein/evidence-ledger.json",
+        "record_refs": [
+          "data/evidence/engine/ingredient/pea-protein/synthesis.json"
+        ],
+        "screening_ref": "data/evidence/engine/ingredient/pea-protein/evidence-ledger.json",
+        "searched_through": "2026-11-02",
+        "limitations": [
+          "Existing HMI library only; no new external literature search"
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [
+        "wiki/sources/ring2021-ireland-protein-powders-metals.md",
+        "wiki/sources/horvath2025-hungary-protein-powders-metals.md",
+        "wiki/sources/cleanlabel2025-protein-powder-heavy-metals.md",
+        "wiki/sources/kolhe2025-protein-powders-lead-cadmium-review.md",
+        "wiki/sources/bandara2020-protein-powder-heavy-metals.md",
+        "wiki/sources/sriranjani2025-whey-vegan-protein-powders-icpms.md",
+        "wiki/sources/mattila2018-finland-plant-protein-products-nutrients.md"
+      ],
+      "synthesis_refs": [
+        "data/evidence/syntheses/engine-ingredient-pea-protein-v1.json#assessment/2"
+      ],
+      "applicability": "Applies only to the source-specific material, period, preparation and endpoint stated in the answer and attached evidence records",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/ingredients/pea-protein.md"
+      ]
+    },
+    {
+      "question_id": "HMI-ING-036",
+      "scope": {
+        "analytes": "Pb, Cd, tHg, Cr, Sn, Co, V, Au, Ba, Be, Bi, Li, Mo, Pt, Ti and Tl",
+        "material_form": "Pea protein, powder or ground",
+        "basis": "As reported; µg/kg; no moisture conversion",
+        "geography_market": "Reporting region, purchase market or growing area as each source reports",
+        "period": "Source collection years where reported; unreported dates stay unknown",
+        "stage": "Growing area, processing, retail and release testing",
+        "population_route": "Dietary ingestion",
+        "comparator_outcome": "HMI references by form and basis; same-study site, sampling and form contrasts"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "available",
+      "answer": "Unresolved: arsenic, growing origin, isolate against concentrate, processing effects and any reduction measure. This version adds the page from the Index source records available on 2 November 2026.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Every source record and indexed dataset row that names pea protein",
+        "protocol_ref": "data/evidence/engine/ingredient/pea-protein/evidence-ledger.json",
+        "record_refs": [
+          "data/evidence/engine/ingredient/pea-protein/synthesis.json"
+        ],
+        "screening_ref": "data/evidence/engine/ingredient/pea-protein/evidence-ledger.json",
+        "searched_through": "2026-11-02",
+        "limitations": [
+          "Existing HMI library only; no new external literature search"
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [
+        "wiki/sources/ring2021-ireland-protein-powders-metals.md"
+      ],
+      "synthesis_refs": [
+        "data/evidence/syntheses/engine-ingredient-pea-protein-v1.json#assessment/3"
+      ],
+      "applicability": "Applies only to the source-specific material, period, preparation and endpoint stated in the answer and attached evidence records",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/ingredients/pea-protein.md"
+      ]
+    }
+  ]
+}

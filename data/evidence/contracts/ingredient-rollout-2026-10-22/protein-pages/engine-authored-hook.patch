@@ -1,0 +1,27 @@
+diff --git a/Users/kmfp/ops/heavymetalindex/tools/engine/page/page.mjs b/tools/engine/page/page.mjs
+index 0c083d583..d57424cb1 100644
+--- a/Users/kmfp/ops/heavymetalindex/tools/engine/page/page.mjs
++++ b/tools/engine/page/page.mjs
+@@ -64,6 +64,22 @@ export function compilePage(page) {
+   const controls = controlsFor(evidence, occ.rows);
+   evidence.controls = controls.records;
+   const { synthesis: s, facts, faqBank } = buildSynthesis(evidence, occ, register);
++  // An authored record, when one exists, replaces the templated prose section by section.
++  // Rows, references, comparisons, ledger and gates stay generated from the evidence.
++  const authoredFile = `data/evidence/syntheses/ingredient-${page.slug}-authored.json`;
++  if (page.family === 'ingredient' && exists(authoredFile)) {
++    const A = json(authoredFile);
++    for (const k of ['quick_read', 'lede', 'description', 'section_headings', 'universal_faqs', 'reader_links']) if (A[k] !== undefined) s[k] = A[k];
++    for (const sec of A.sections ?? []) {
++      const t = s.sections.find(x => x.id === sec.id);
++      if (!t) throw Error(`Authored section ${sec.id} is not a contract section`);
++      if (sec.presentation) t.presentation = sec.presentation;
++      if (sec.answers) {
++        if (sec.answers.length !== t.answers.length) throw Error(`Authored section ${sec.id} must keep every canonical answer`);
++        t.answers = t.answers.map((a, i) => ({ ...a, ...sec.answers[i] }));
++      }
++    }
++  }
+   validateSentenceCitationPlacements(s);
+   const record = questionRecord(s, root);
+   const o = outputs(page);

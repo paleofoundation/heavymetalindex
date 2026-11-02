@@ -1,0 +1,87 @@
+{
+ "source_id": "hosojima2017-rice-endosperm-protein-cadmium",
+ "primary_artifact": "/Users/kmfp/HMI-Library-backup/heavy-metal-index-raw/manual-fetch/seasonal-geographic-variance/ingested/ing-casein-pb_2017_10-1038-s41598-017-18340-8.pdf",
+ "primary_sha256": "51093cb633dcf907af519f858678b389c86b4e99e450a6ce8d118d09ff675bad",
+ "extracted_at": "2026-10-22",
+ "extractor": "engine-v1",
+ "disposition": "occurrence_extracted",
+ "disposition_reason": "Clinical pilot trial of purified rice endosperm protein (REP) powder; Table 1 prints the Cd content of the REP supplement (5 batches). The remaining results concern patient outcomes.",
+ "disposition_locator": "Table 1",
+ "study": {
+  "design": "randomized crossover trial; supplement composition measured on 5 production batches",
+  "origin": "Japan (supplement prepared for the trial)",
+  "market": "not applicable (study-prepared supplement)",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": ""
+  },
+  "method": "atomic absorption spectrophotometry for Cd",
+  "lod": [],
+  "basis": "unknown",
+  "qa": "",
+  "site_context": "experimental"
+ },
+ "findings": [
+  {
+   "id": "hosojima2017-rice-endosperm-protein-cadmium:Cd:rice-endosperm-protein-powder-rep-purified-acid-wa:mean",
+   "material": {
+    "label_as_printed": "Rice endosperm protein powder (REP, purified, acid-washed)",
+    "page": "ingredients/rice-protein",
+    "form": "powder",
+    "state": "as_sold",
+    "route_rule": "override:HMI-PROTEIN-PEA-RICE-1"
+   },
+   "analyte": "Cd",
+   "group": "average of 5 batches",
+   "group_kind": "all_samples",
+   "n": 5,
+   "statistic": "mean",
+   "reported": "0.14 ± 0.17 ppm",
+   "value_ugkg": 140,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 170,
+   "unit_original": "ppm",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 1",
+   "integrity_flag": null,
+   "notes": "SD exceeds the mean, so batch-to-batch variation is large. Water content of powder 2.5%.",
+   "statistic_raw": "mean"
+  }
+ ],
+ "sample_values": [],
+ "controls": [
+  {
+   "control": "Washing the REP aggregate four times with dilute HCl (pH 4.0) to remove minerals and heavy metals such as Cd",
+   "stage": "processing",
+   "evidence_kind": "observational",
+   "comparator": "unwashed REP aggregate",
+   "outcome": "Procedure described; no pre-wash Cd value reported, so the effect is not quantified. Final powder 0.14 +/- 0.17 ppm Cd",
+   "analytes": [
+    "Cd"
+   ],
+   "locator": "Methods, REP preparation; Table 1"
+  }
+ ],
+ "unresolved": [
+  "No pre-wash Cd concentration, so the cadmium removal effect of the HCl washes is unquantified.",
+  "Soy and casein reference columns have Cd 'N/A'."
+ ],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/hosojima2017-rice-endosperm-protein-cadmium.md",
+ "non_numeric_findings": [],
+ "merged_unmatched": [],
+ "merged_snapshot": {
+  "extractor": "merged:data/evidence/contracts/most-studied-rollout-2026-10-22/rice/extraction/hosojima2017-rice-endosperm-protein-cadmium.json",
+  "findings": []
+ },
+ "raw_output": "data/evidence/findings/extract/raw/hosojima2017-rice-endosperm-protein-cadmium.json"
+}

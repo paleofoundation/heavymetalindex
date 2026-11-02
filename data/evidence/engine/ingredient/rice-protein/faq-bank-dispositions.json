@@ -1,0 +1,113 @@
+{
+  "selected_count": 4,
+  "bank": [
+    {
+      "id": "ING-FAQ-01",
+      "status": "selected",
+      "question": "What heavy metals are found in rice protein?",
+      "answer_locator": "What heavy metals are found in rice protein?",
+      "primary_locator": "Occurrence table",
+      "source_keys": [
+        "horvath2025-hungary-protein-powders-metals",
+        "hosojima2017-rice-endosperm-protein-cadmium",
+        "fda2013-ias-rice-products-sampling",
+        "cfia2020-toxic-metals-selected-foods-2018-19"
+      ]
+    },
+    {
+      "id": "ING-FAQ-02",
+      "status": "not_applicable",
+      "reason": "No study compares exposed and ordinary settings for this food."
+    },
+    {
+      "id": "ING-FAQ-03",
+      "status": "not_applicable",
+      "reason": "No study in the ledger compares organic and conventional production for metals."
+    },
+    {
+      "id": "ING-FAQ-04",
+      "status": "selected",
+      "question": "Which types of rice protein have the lowest levels?",
+      "answer_locator": "Which types of rice protein have the lowest levels?",
+      "primary_locator": "HMI references by form",
+      "source_keys": [
+        "fda2013-ias-rice-products-sampling"
+      ]
+    },
+    {
+      "id": "ING-FAQ-05",
+      "status": "not_applicable",
+      "reason": "No comparable regional medians or same-study group comparisons."
+    },
+    {
+      "id": "ING-FAQ-06",
+      "status": "not_applicable",
+      "reason": "Derived products have their own pages."
+    },
+    {
+      "id": "ING-FAQ-07",
+      "status": "deferred",
+      "reason": "No exposure assessment in the ledger."
+    },
+    {
+      "id": "ING-FAQ-08",
+      "status": "deferred",
+      "reason": "No limit verified from primary text for this page."
+    },
+    {
+      "id": "ING-FAQ-09",
+      "status": "selected",
+      "question": "Does processing change heavy metals in rice protein?",
+      "answer_locator": "Does processing change heavy metals in rice protein?",
+      "primary_locator": "Same-study form contrasts",
+      "source_keys": [
+        "fda2013-ias-rice-products-sampling"
+      ]
+    },
+    {
+      "id": "ING-FAQ-10",
+      "status": "selected",
+      "question": "How much of the arsenic in rice protein is inorganic?",
+      "answer_locator": "How much of the arsenic in rice protein is inorganic?",
+      "primary_locator": "Inorganic arsenic rows",
+      "source_keys": [
+        "fda2013-ias-rice-products-sampling"
+      ]
+    },
+    {
+      "id": "ING-FAQ-11",
+      "status": "deferred",
+      "reason": "Needs a direct comparison or authoritative guidance that the ledger does not contain for this food."
+    },
+    {
+      "id": "ING-FAQ-12",
+      "status": "deferred",
+      "reason": "Needs a direct comparison or authoritative guidance that the ledger does not contain for this food."
+    },
+    {
+      "id": "ING-FAQ-13",
+      "status": "deferred",
+      "reason": "Needs a direct comparison or authoritative guidance that the ledger does not contain for this food."
+    },
+    {
+      "id": "ING-FAQ-14",
+      "status": "deferred",
+      "reason": "Needs a direct comparison or authoritative guidance that the ledger does not contain for this food."
+    },
+    {
+      "id": "ING-FAQ-15",
+      "status": "deferred",
+      "reason": "Needs a direct comparison or authoritative guidance that the ledger does not contain for this food."
+    },
+    {
+      "id": "ING-FAQ-16",
+      "status": "deferred",
+      "reason": "Needs a direct comparison or authoritative guidance that the ledger does not contain for this food."
+    },
+    {
+      "id": "ING-FAQ-17",
+      "status": "deferred",
+      "reason": "Needs a direct comparison or authoritative guidance that the ledger does not contain for this food."
+    }
+  ]
+}

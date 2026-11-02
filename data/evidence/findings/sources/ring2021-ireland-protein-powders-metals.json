@@ -281,10 +281,10 @@
    "id": "ring2021-ireland-protein-powders-metals:Be:protein-powder-pea-retail-sample-p2-retail-product:not_detected",
    "material": {
     "label_as_printed": "Protein powder, pea (retail sample P2)",
-    "page": "ingredients/protein-powder",
+    "page": "ingredients/pea-protein",
     "form": "powder",
     "state": "as_sold",
-    "route_rule": "ngram"
+    "route_rule": "override:HMI-PROTEIN-PEA-RICE-1"
    },
    "analyte": "Be",
    "group": "retail product P2 (pea), bought online and in Cork retail outlets, Ireland",
@@ -309,10 +309,10 @@
    "id": "ring2021-ireland-protein-powders-metals:Cd:protein-powder-pea-retail-sample-p2-retail-product:sample_value",
    "material": {
     "label_as_printed": "Protein powder, pea (retail sample P2)",
-    "page": "ingredients/protein-powder",
+    "page": "ingredients/pea-protein",
     "form": "powder",
     "state": "as_sold",
-    "route_rule": "ngram"
+    "route_rule": "override:HMI-PROTEIN-PEA-RICE-1"
    },
    "analyte": "Cd",
    "group": "retail product P2 (pea), bought online and in Cork retail outlets, Ireland",
@@ -337,10 +337,10 @@
    "id": "ring2021-ireland-protein-powders-metals:Sn:protein-powder-pea-retail-sample-p2-retail-product:sample_value",
    "material": {
     "label_as_printed": "Protein powder, pea (retail sample P2)",
-    "page": "ingredients/protein-powder",
+    "page": "ingredients/pea-protein",
     "form": "powder",
     "state": "as_sold",
-    "route_rule": "ngram"
+    "route_rule": "override:HMI-PROTEIN-PEA-RICE-1"
    },
    "analyte": "Sn",
    "group": "retail product P2 (pea), bought online and in Cork retail outlets, Ireland",
@@ -365,10 +365,10 @@
    "id": "ring2021-ireland-protein-powders-metals:Ba:protein-powder-pea-retail-sample-p2-retail-product:sample_value",
    "material": {
     "label_as_printed": "Protein powder, pea (retail sample P2)",
-    "page": "ingredients/protein-powder",
+    "page": "ingredients/pea-protein",
     "form": "powder",
     "state": "as_sold",
-    "route_rule": "ngram"
+    "route_rule": "override:HMI-PROTEIN-PEA-RICE-1"
    },
    "analyte": "Ba",
    "group": "retail product P2 (pea), bought online and in Cork retail outlets, Ireland",
@@ -393,10 +393,10 @@
    "id": "ring2021-ireland-protein-powders-metals:tHg:protein-powder-pea-retail-sample-p2-retail-product:sample_value",
    "material": {
     "label_as_printed": "Protein powder, pea (retail sample P2)",
-    "page": "ingredients/protein-powder",
+    "page": "ingredients/pea-protein",
     "form": "powder",
     "state": "as_sold",
-    "route_rule": "ngram"
+    "route_rule": "override:HMI-PROTEIN-PEA-RICE-1"
    },
    "analyte": "tHg",
    "group": "retail product P2 (pea), bought online and in Cork retail outlets, Ireland",
@@ -421,10 +421,10 @@
    "id": "ring2021-ireland-protein-powders-metals:Tl:protein-powder-pea-retail-sample-p2-retail-product:sample_value",
    "material": {
     "label_as_printed": "Protein powder, pea (retail sample P2)",
-    "page": "ingredients/protein-powder",
+    "page": "ingredients/pea-protein",
     "form": "powder",
     "state": "as_sold",
-    "route_rule": "ngram"
+    "route_rule": "override:HMI-PROTEIN-PEA-RICE-1"
    },
    "analyte": "Tl",
    "group": "retail product P2 (pea), bought online and in Cork retail outlets, Ireland",
@@ -449,10 +449,10 @@
    "id": "ring2021-ireland-protein-powders-metals:Pb:protein-powder-pea-retail-sample-p2-retail-product:sample_value",
    "material": {
     "label_as_printed": "Protein powder, pea (retail sample P2)",
-    "page": "ingredients/protein-powder",
+    "page": "ingredients/pea-protein",
     "form": "powder",
     "state": "as_sold",
-    "route_rule": "ngram"
+    "route_rule": "override:HMI-PROTEIN-PEA-RICE-1"
    },
    "analyte": "Pb",
    "group": "retail product P2 (pea), bought online and in Cork retail outlets, Ireland",
@@ -477,10 +477,10 @@
    "id": "ring2021-ireland-protein-powders-metals:Cr:protein-powder-pea-retail-sample-p2-retail-product:sample_value",
    "material": {
     "label_as_printed": "Protein powder, pea (retail sample P2)",
-    "page": "ingredients/protein-powder",
+    "page": "ingredients/pea-protein",
     "form": "powder",
     "state": "as_sold",
-    "route_rule": "ngram"
+    "route_rule": "override:HMI-PROTEIN-PEA-RICE-1"
    },
    "analyte": "Cr",
    "group": "retail product P2 (pea), bought online and in Cork retail outlets, Ireland",
@@ -505,10 +505,10 @@
    "id": "ring2021-ireland-protein-powders-metals:Co:protein-powder-pea-retail-sample-p2-retail-product:sample_value",
    "material": {
     "label_as_printed": "Protein powder, pea (retail sample P2)",
-    "page": "ingredients/protein-powder",
+    "page": "ingredients/pea-protein",
     "form": "powder",
     "state": "as_sold",
-    "route_rule": "ngram"
+    "route_rule": "override:HMI-PROTEIN-PEA-RICE-1"
    },
    "analyte": "Co",
    "group": "retail product P2 (pea), bought online and in Cork retail outlets, Ireland",
@@ -2997,10 +2997,10 @@
    "id": "ring2021-ireland-protein-powders-metals:Be:protein-powder-pea-retail-sample-p12-retail-produc:sample_value",
    "material": {
     "label_as_printed": "Protein powder, pea (retail sample P12)",
-    "page": "ingredients/protein-powder",
+    "page": "ingredients/pea-protein",
     "form": "powder",
     "state": "as_sold",
-    "route_rule": "ngram"
+    "route_rule": "override:HMI-PROTEIN-PEA-RICE-1"
    },
    "analyte": "Be",
    "group": "retail product P12 (pea), bought online and in Cork retail outlets, Ireland",
@@ -3025,10 +3025,10 @@
    "id": "ring2021-ireland-protein-powders-metals:Cd:protein-powder-pea-retail-sample-p12-retail-produc:sample_value",
    "material": {
     "label_as_printed": "Protein powder, pea (retail sample P12)",
-    "page": "ingredients/protein-powder",
+    "page": "ingredients/pea-protein",
     "form": "powder",
     "state": "as_sold",
-    "route_rule": "ngram"
+    "route_rule": "override:HMI-PROTEIN-PEA-RICE-1"
    },
    "analyte": "Cd",
    "group": "retail product P12 (pea), bought online and in Cork retail outlets, Ireland",
@@ -3053,10 +3053,10 @@
    "id": "ring2021-ireland-protein-powders-metals:Sn:protein-powder-pea-retail-sample-p12-retail-produc:sample_value",
    "material": {
     "label_as_printed": "Protein powder, pea (retail sample P12)",
-    "page": "ingredients/protein-powder",
+    "page": "ingredients/pea-protein",
     "form": "powder",
     "state": "as_sold",
-    "route_rule": "ngram"
+    "route_rule": "override:HMI-PROTEIN-PEA-RICE-1"
    },
    "analyte": "Sn",
    "group": "retail product P12 (pea), bought online and in Cork retail outlets, Ireland",
@@ -3081,10 +3081,10 @@
    "id": "ring2021-ireland-protein-powders-metals:Ba:protein-powder-pea-retail-sample-p12-retail-produc:sample_value",
    "material": {
     "label_as_printed": "Protein powder, pea (retail sample P12)",
-    "page": "ingredients/protein-powder",
+    "page": "ingredients/pea-protein",
     "form": "powder",
     "state": "as_sold",
-    "route_rule": "ngram"
+    "route_rule": "override:HMI-PROTEIN-PEA-RICE-1"
    },
    "analyte": "Ba",
    "group": "retail product P12 (pea), bought online and in Cork retail outlets, Ireland",
@@ -3109,10 +3109,10 @@
    "id": "ring2021-ireland-protein-powders-metals:tHg:protein-powder-pea-retail-sample-p12-retail-produc:not_detected",
    "material": {
     "label_as_printed": "Protein powder, pea (retail sample P12)",
-    "page": "ingredients/protein-powder",
+    "page": "ingredients/pea-protein",
     "form": "powder",
     "state": "as_sold",
-    "route_rule": "ngram"
+    "route_rule": "override:HMI-PROTEIN-PEA-RICE-1"
    },
    "analyte": "tHg",
    "group": "retail product P12 (pea), bought online and in Cork retail outlets, Ireland",
@@ -3137,10 +3137,10 @@
    "id": "ring2021-ireland-protein-powders-metals:Tl:protein-powder-pea-retail-sample-p12-retail-produc:sample_value",
    "material": {
     "label_as_printed": "Protein powder, pea (retail sample P12)",
-    "page": "ingredients/protein-powder",
+    "page": "ingredients/pea-protein",
     "form": "powder",
     "state": "as_sold",
-    "route_rule": "ngram"
+    "route_rule": "override:HMI-PROTEIN-PEA-RICE-1"
    },
    "analyte": "Tl",
    "group": "retail product P12 (pea), bought online and in Cork retail outlets, Ireland",
@@ -3165,10 +3165,10 @@
    "id": "ring2021-ireland-protein-powders-metals:Pb:protein-powder-pea-retail-sample-p12-retail-produc:sample_value",
    "material": {
     "label_as_printed": "Protein powder, pea (retail sample P12)",
-    "page": "ingredients/protein-powder",
+    "page": "ingredients/pea-protein",
     "form": "powder",
     "state": "as_sold",
-    "route_rule": "ngram"
+    "route_rule": "override:HMI-PROTEIN-PEA-RICE-1"
    },
    "analyte": "Pb",
    "group": "retail product P12 (pea), bought online and in Cork retail outlets, Ireland",
@@ -3193,10 +3193,10 @@
    "id": "ring2021-ireland-protein-powders-metals:Cr:protein-powder-pea-retail-sample-p12-retail-produc:sample_value",
    "material": {
     "label_as_printed": "Protein powder, pea (retail sample P12)",
-    "page": "ingredients/protein-powder",
+    "page": "ingredients/pea-protein",
     "form": "powder",
     "state": "as_sold",
-    "route_rule": "ngram"
+    "route_rule": "override:HMI-PROTEIN-PEA-RICE-1"
    },
    "analyte": "Cr",
    "group": "retail product P12 (pea), bought online and in Cork retail outlets, Ireland",
@@ -3221,10 +3221,10 @@
    "id": "ring2021-ireland-protein-powders-metals:Co:protein-powder-pea-retail-sample-p12-retail-produc:sample_value",
    "material": {
     "label_as_printed": "Protein powder, pea (retail sample P12)",
-    "page": "ingredients/protein-powder",
+    "page": "ingredients/pea-protein",
     "form": "powder",
     "state": "as_sold",
-    "route_rule": "ngram"
+    "route_rule": "override:HMI-PROTEIN-PEA-RICE-1"
    },
    "analyte": "Co",
    "group": "retail product P12 (pea), bought online and in Cork retail outlets, Ireland",
@@ -9724,10 +9724,10 @@
    "id": "ring2021-ireland-protein-powders-metals:Li:protein-powder-pea-retail-sample-p2-retail-product:sample_value",
    "material": {
     "label_as_printed": "Protein powder, pea (retail sample P2)",
-    "page": "ingredients/protein-powder",
+    "page": "ingredients/pea-protein",
     "form": "powder",
     "state": "as_sold",
-    "route_rule": "ngram"
+    "route_rule": "override:HMI-PROTEIN-PEA-RICE-1"
    },
    "analyte": "Li",
    "group": "retail product P2 (pea), bought online and in Cork retail outlets, Ireland",
@@ -9753,10 +9753,10 @@
    "id": "ring2021-ireland-protein-powders-metals:Mo:protein-powder-pea-retail-sample-p2-retail-product:sample_value",
    "material": {
     "label_as_printed": "Protein powder, pea (retail sample P2)",
-    "page": "ingredients/protein-powder",
+    "page": "ingredients/pea-protein",
     "form": "powder",
     "state": "as_sold",
-    "route_rule": "ngram"
+    "route_rule": "override:HMI-PROTEIN-PEA-RICE-1"
    },
    "analyte": "Mo",
    "group": "retail product P2 (pea), bought online and in Cork retail outlets, Ireland",
@@ -9782,10 +9782,10 @@
    "id": "ring2021-ireland-protein-powders-metals:Pt:protein-powder-pea-retail-sample-p2-retail-product:sample_value",
    "material": {
     "label_as_printed": "Protein powder, pea (retail sample P2)",
-    "page": "ingredients/protein-powder",
+    "page": "ingredients/pea-protein",
     "form": "powder",
     "state": "as_sold",
-    "route_rule": "ngram"
+    "route_rule": "override:HMI-PROTEIN-PEA-RICE-1"
    },
    "analyte": "Pt",
    "group": "retail product P2 (pea), bought online and in Cork retail outlets, Ireland",
@@ -9811,10 +9811,10 @@
    "id": "ring2021-ireland-protein-powders-metals:Au:protein-powder-pea-retail-sample-p2-retail-product:sample_value",
    "material": {
     "label_as_printed": "Protein powder, pea (retail sample P2)",
-    "page": "ingredients/protein-powder",
+    "page": "ingredients/pea-protein",
     "form": "powder",
     "state": "as_sold",
-    "route_rule": "ngram"
+    "route_rule": "override:HMI-PROTEIN-PEA-RICE-1"
    },
    "analyte": "Au",
    "group": "retail product P2 (pea), bought online and in Cork retail outlets, Ireland",
@@ -9840,10 +9840,10 @@
    "id": "ring2021-ireland-protein-powders-metals:Bi:protein-powder-pea-retail-sample-p2-retail-product:sample_value",
    "material": {
     "label_as_printed": "Protein powder, pea (retail sample P2)",
-    "page": "ingredients/protein-powder",
+    "page": "ingredients/pea-protein",
     "form": "powder",
     "state": "as_sold",
-    "route_rule": "ngram"
+    "route_rule": "override:HMI-PROTEIN-PEA-RICE-1"
    },
    "analyte": "Bi",
    "group": "retail product P2 (pea), bought online and in Cork retail outlets, Ireland",
@@ -9869,10 +9869,10 @@
    "id": "ring2021-ireland-protein-powders-metals:Ti:protein-powder-pea-retail-sample-p2-retail-product:sample_value",
    "material": {
     "label_as_printed": "Protein powder, pea (retail sample P2)",
-    "page": "ingredients/protein-powder",
+    "page": "ingredients/pea-protein",
     "form": "powder",
     "state": "as_sold",
-    "route_rule": "ngram"
+    "route_rule": "override:HMI-PROTEIN-PEA-RICE-1"
    },
    "analyte": "Ti",
    "group": "retail product P2 (pea), bought online and in Cork retail outlets, Ireland",
@@ -9898,10 +9898,10 @@
    "id": "ring2021-ireland-protein-powders-metals:V:protein-powder-pea-retail-sample-p2-retail-product:sample_value",
    "material": {
     "label_as_printed": "Protein powder, pea (retail sample P2)",
-    "page": "ingredients/protein-powder",
+    "page": "ingredients/pea-protein",
     "form": "powder",
     "state": "as_sold",
-    "route_rule": "ngram"
+    "route_rule": "override:HMI-PROTEIN-PEA-RICE-1"
    },
    "analyte": "V",
    "group": "retail product P2 (pea), bought online and in Cork retail outlets, Ireland",
@@ -12276,10 +12276,10 @@
    "id": "ring2021-ireland-protein-powders-metals:Li:protein-powder-pea-retail-sample-p12-retail-produc:sample_value",
    "material": {
     "label_as_printed": "Protein powder, pea (retail sample P12)",
-    "page": "ingredients/protein-powder",
+    "page": "ingredients/pea-protein",
     "form": "powder",
     "state": "as_sold",
-    "route_rule": "ngram"
+    "route_rule": "override:HMI-PROTEIN-PEA-RICE-1"
    },
    "analyte": "Li",
    "group": "retail product P12 (pea), bought online and in Cork retail outlets, Ireland",
@@ -12305,10 +12305,10 @@
    "id": "ring2021-ireland-protein-powders-metals:Mo:protein-powder-pea-retail-sample-p12-retail-produc:sample_value",
    "material": {
     "label_as_printed": "Protein powder, pea (retail sample P12)",
-    "page": "ingredients/protein-powder",
+    "page": "ingredients/pea-protein",
     "form": "powder",
     "state": "as_sold",
-    "route_rule": "ngram"
+    "route_rule": "override:HMI-PROTEIN-PEA-RICE-1"
    },
    "analyte": "Mo",
    "group": "retail product P12 (pea), bought online and in Cork retail outlets, Ireland",
@@ -12334,10 +12334,10 @@
    "id": "ring2021-ireland-protein-powders-metals:Pt:protein-powder-pea-retail-sample-p12-retail-produc:sample_value",
    "material": {
     "label_as_printed": "Protein powder, pea (retail sample P12)",
-    "page": "ingredients/protein-powder",
+    "page": "ingredients/pea-protein",
     "form": "powder",
     "state": "as_sold",
-    "route_rule": "ngram"
+    "route_rule": "override:HMI-PROTEIN-PEA-RICE-1"
    },
    "analyte": "Pt",
    "group": "retail product P12 (pea), bought online and in Cork retail outlets, Ireland",
@@ -12363,10 +12363,10 @@
    "id": "ring2021-ireland-protein-powders-metals:Au:protein-powder-pea-retail-sample-p12-retail-produc:sample_value",
    "material": {
     "label_as_printed": "Protein powder, pea (retail sample P12)",
-    "page": "ingredients/protein-powder",
+    "page": "ingredients/pea-protein",
     "form": "powder",
     "state": "as_sold",
-    "route_rule": "ngram"
+    "route_rule": "override:HMI-PROTEIN-PEA-RICE-1"
    },
    "analyte": "Au",
    "group": "retail product P12 (pea), bought online and in Cork retail outlets, Ireland",
@@ -12392,10 +12392,10 @@
    "id": "ring2021-ireland-protein-powders-metals:Bi:protein-powder-pea-retail-sample-p12-retail-produc:sample_value",
    "material": {
     "label_as_printed": "Protein powder, pea (retail sample P12)",
-    "page": "ingredients/protein-powder",
+    "page": "ingredients/pea-protein",
     "form": "powder",
     "state": "as_sold",
-    "route_rule": "ngram"
+    "route_rule": "override:HMI-PROTEIN-PEA-RICE-1"
    },
    "analyte": "Bi",
    "group": "retail product P12 (pea), bought online and in Cork retail outlets, Ireland",
@@ -12421,10 +12421,10 @@
    "id": "ring2021-ireland-protein-powders-metals:Ti:protein-powder-pea-retail-sample-p12-retail-produc:sample_value",
    "material": {
     "label_as_printed": "Protein powder, pea (retail sample P12)",
-    "page": "ingredients/protein-powder",
+    "page": "ingredients/pea-protein",
     "form": "powder",
     "state": "as_sold",
-    "route_rule": "ngram"
+    "route_rule": "override:HMI-PROTEIN-PEA-RICE-1"
    },
    "analyte": "Ti",
    "group": "retail product P12 (pea), bought online and in Cork retail outlets, Ireland",
@@ -12450,10 +12450,10 @@
    "id": "ring2021-ireland-protein-powders-metals:V:protein-powder-pea-retail-sample-p12-retail-produc:sample_value",
    "material": {
     "label_as_printed": "Protein powder, pea (retail sample P12)",
-    "page": "ingredients/protein-powder",
+    "page": "ingredients/pea-protein",
     "form": "powder",
     "state": "as_sold",
-    "route_rule": "ngram"
+    "route_rule": "override:HMI-PROTEIN-PEA-RICE-1"
    },
    "analyte": "V",
    "group": "retail product P12 (pea), bought online and in Cork retail outlets, Ireland",

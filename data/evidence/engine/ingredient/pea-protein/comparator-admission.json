@@ -1,0 +1,585 @@
+{
+  "method": "hmi-pooled-reference-v2",
+  "frozen": "2026-11-02",
+  "admission": [
+    {
+      "finding": "ring2021-ireland-protein-powders-metals:Pb:protein-powder-pea-retail-sample-p12-retail-produc:sample_value",
+      "source": "ring2021-ireland-protein-powders-metals",
+      "analyte": "Pb",
+      "reference_id": "hmi-pooled-reference-v2:pea-protein-9abd3cdd6591:bc5b292e3818",
+      "reason": "Only 2 reference unit is available; at least four are required by this descriptive display rule.",
+      "level": null,
+      "target": {
+        "lower": 22.5,
+        "upper": 22.5,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "ring2021-ireland-protein-powders-metals:Pb:protein-powder-pea-retail-sample-p2-retail-product:sample_value",
+      "source": "ring2021-ireland-protein-powders-metals",
+      "analyte": "Pb",
+      "reference_id": "hmi-pooled-reference-v2:pea-protein-9abd3cdd6591:bc5b292e3818",
+      "reason": "Only 2 reference unit is available; at least four are required by this descriptive display rule.",
+      "level": null,
+      "target": {
+        "lower": 22.2,
+        "upper": 22.2,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "ring2021-ireland-protein-powders-metals:Cd:protein-powder-pea-retail-sample-p12-retail-produc:sample_value",
+      "source": "ring2021-ireland-protein-powders-metals",
+      "analyte": "Cd",
+      "reference_id": "hmi-pooled-reference-v2:pea-protein-f78a9cb8a2a4:9fdd60c788cf",
+      "reason": "Only 2 reference unit is available; at least four are required by this descriptive display rule.",
+      "level": null,
+      "target": {
+        "lower": 15.4,
+        "upper": 15.4,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "ring2021-ireland-protein-powders-metals:Cd:protein-powder-pea-retail-sample-p2-retail-product:sample_value",
+      "source": "ring2021-ireland-protein-powders-metals",
+      "analyte": "Cd",
+      "reference_id": "hmi-pooled-reference-v2:pea-protein-f78a9cb8a2a4:9fdd60c788cf",
+      "reason": "Only 2 reference unit is available; at least four are required by this descriptive display rule.",
+      "level": null,
+      "target": {
+        "lower": 40.6,
+        "upper": 40.6,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "ring2021-ireland-protein-powders-metals:tHg:protein-powder-pea-retail-sample-p12-retail-produc:not_detected",
+      "source": "ring2021-ireland-protein-powders-metals",
+      "analyte": "tHg",
+      "reference_id": "hmi-pooled-reference-v2:pea-protein-56dce793f4ac:a79a86d4846c",
+      "reason": "Only 2 reference unit is available; at least four are required by this descriptive display rule.",
+      "level": null,
+      "target": {
+        "lower": 0,
+        "upper": 0.2,
+        "exact": false,
+        "statistic": "non-detect bounds"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "ring2021-ireland-protein-powders-metals:tHg:protein-powder-pea-retail-sample-p2-retail-product:sample_value",
+      "source": "ring2021-ireland-protein-powders-metals",
+      "analyte": "tHg",
+      "reference_id": "hmi-pooled-reference-v2:pea-protein-56dce793f4ac:a79a86d4846c",
+      "reason": "Only 2 reference unit is available; at least four are required by this descriptive display rule.",
+      "level": null,
+      "target": {
+        "lower": 4.3,
+        "upper": 4.3,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "ring2021-ireland-protein-powders-metals:Cr:protein-powder-pea-retail-sample-p12-retail-produc:sample_value",
+      "source": "ring2021-ireland-protein-powders-metals",
+      "analyte": "Cr",
+      "reference_id": "hmi-pooled-reference-v2:pea-protein-1b5722f9b52a:a70a29c4a5eb",
+      "reason": "Only 2 reference unit is available; at least four are required by this descriptive display rule.",
+      "level": null,
+      "target": {
+        "lower": 210.7,
+        "upper": 210.7,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "ring2021-ireland-protein-powders-metals:Cr:protein-powder-pea-retail-sample-p2-retail-product:sample_value",
+      "source": "ring2021-ireland-protein-powders-metals",
+      "analyte": "Cr",
+      "reference_id": "hmi-pooled-reference-v2:pea-protein-1b5722f9b52a:a70a29c4a5eb",
+      "reason": "Only 2 reference unit is available; at least four are required by this descriptive display rule.",
+      "level": null,
+      "target": {
+        "lower": 289.2,
+        "upper": 289.2,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "ring2021-ireland-protein-powders-metals:Sn:protein-powder-pea-retail-sample-p12-retail-produc:sample_value",
+      "source": "ring2021-ireland-protein-powders-metals",
+      "analyte": "Sn",
+      "reference_id": "hmi-pooled-reference-v2:pea-protein-fb9ccbe22b32:46982172eebe",
+      "reason": "Only 2 reference unit is available; at least four are required by this descriptive display rule.",
+      "level": null,
+      "target": {
+        "lower": 329.7,
+        "upper": 329.7,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "ring2021-ireland-protein-powders-metals:Sn:protein-powder-pea-retail-sample-p2-retail-product:sample_value",
+      "source": "ring2021-ireland-protein-powders-metals",
+      "analyte": "Sn",
+      "reference_id": "hmi-pooled-reference-v2:pea-protein-fb9ccbe22b32:46982172eebe",
+      "reason": "Only 2 reference unit is available; at least four are required by this descriptive display rule.",
+      "level": null,
+      "target": {
+        "lower": 26.7,
+        "upper": 26.7,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "ring2021-ireland-protein-powders-metals:Co:protein-powder-pea-retail-sample-p12-retail-produc:sample_value",
+      "source": "ring2021-ireland-protein-powders-metals",
+      "analyte": "Co",
+      "reference_id": "hmi-pooled-reference-v2:pea-protein-1a968278bbb3:a3278e2b7923",
+      "reason": "Only 2 reference unit is available; at least four are required by this descriptive display rule.",
+      "level": null,
+      "target": {
+        "lower": 89.5,
+        "upper": 89.5,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "ring2021-ireland-protein-powders-metals:Co:protein-powder-pea-retail-sample-p2-retail-product:sample_value",
+      "source": "ring2021-ireland-protein-powders-metals",
+      "analyte": "Co",
+      "reference_id": "hmi-pooled-reference-v2:pea-protein-1a968278bbb3:a3278e2b7923",
+      "reason": "Only 2 reference unit is available; at least four are required by this descriptive display rule.",
+      "level": null,
+      "target": {
+        "lower": 188.5,
+        "upper": 188.5,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "ring2021-ireland-protein-powders-metals:V:protein-powder-pea-retail-sample-p12-retail-produc:sample_value",
+      "source": "ring2021-ireland-protein-powders-metals",
+      "analyte": "V",
+      "reference_id": "hmi-pooled-reference-v2:pea-protein-77a674963781:0764e4ed6bb1",
+      "reason": "Only 2 reference unit is available; at least four are required by this descriptive display rule.",
+      "level": null,
+      "target": {
+        "lower": 43.5,
+        "upper": 43.5,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "ring2021-ireland-protein-powders-metals:V:protein-powder-pea-retail-sample-p2-retail-product:sample_value",
+      "source": "ring2021-ireland-protein-powders-metals",
+      "analyte": "V",
+      "reference_id": "hmi-pooled-reference-v2:pea-protein-77a674963781:0764e4ed6bb1",
+      "reason": "Only 2 reference unit is available; at least four are required by this descriptive display rule.",
+      "level": null,
+      "target": {
+        "lower": 40.8,
+        "upper": 40.8,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "ring2021-ireland-protein-powders-metals:Au:protein-powder-pea-retail-sample-p12-retail-produc:sample_value",
+      "source": "ring2021-ireland-protein-powders-metals",
+      "analyte": "Au",
+      "reference_id": "hmi-pooled-reference-v2:pea-protein-ad22aada8661:9539f6186540",
+      "reason": "Only 2 reference unit is available; at least four are required by this descriptive display rule.",
+      "level": null,
+      "target": {
+        "lower": 7.4,
+        "upper": 7.4,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "ring2021-ireland-protein-powders-metals:Au:protein-powder-pea-retail-sample-p2-retail-product:sample_value",
+      "source": "ring2021-ireland-protein-powders-metals",
+      "analyte": "Au",
+      "reference_id": "hmi-pooled-reference-v2:pea-protein-ad22aada8661:9539f6186540",
+      "reason": "Only 2 reference unit is available; at least four are required by this descriptive display rule.",
+      "level": null,
+      "target": {
+        "lower": 10.8,
+        "upper": 10.8,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "ring2021-ireland-protein-powders-metals:Ba:protein-powder-pea-retail-sample-p12-retail-produc:sample_value",
+      "source": "ring2021-ireland-protein-powders-metals",
+      "analyte": "Ba",
+      "reference_id": "hmi-pooled-reference-v2:pea-protein-7c984ec0753e:f1c8f935322b",
+      "reason": "Only 2 reference unit is available; at least four are required by this descriptive display rule.",
+      "level": null,
+      "target": {
+        "lower": 263.7,
+        "upper": 263.7,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "ring2021-ireland-protein-powders-metals:Ba:protein-powder-pea-retail-sample-p2-retail-product:sample_value",
+      "source": "ring2021-ireland-protein-powders-metals",
+      "analyte": "Ba",
+      "reference_id": "hmi-pooled-reference-v2:pea-protein-7c984ec0753e:f1c8f935322b",
+      "reason": "Only 2 reference unit is available; at least four are required by this descriptive display rule.",
+      "level": null,
+      "target": {
+        "lower": 319.3,
+        "upper": 319.3,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "ring2021-ireland-protein-powders-metals:Be:protein-powder-pea-retail-sample-p12-retail-produc:sample_value",
+      "source": "ring2021-ireland-protein-powders-metals",
+      "analyte": "Be",
+      "reference_id": "hmi-pooled-reference-v2:pea-protein-458197501c69:14d9a5e7efeb",
+      "reason": "Only 2 reference unit is available; at least four are required by this descriptive display rule.",
+      "level": null,
+      "target": {
+        "lower": 5.5,
+        "upper": 5.5,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "ring2021-ireland-protein-powders-metals:Be:protein-powder-pea-retail-sample-p2-retail-product:not_detected",
+      "source": "ring2021-ireland-protein-powders-metals",
+      "analyte": "Be",
+      "reference_id": "hmi-pooled-reference-v2:pea-protein-458197501c69:14d9a5e7efeb",
+      "reason": "Only 2 reference unit is available; at least four are required by this descriptive display rule.",
+      "level": null,
+      "target": {
+        "lower": 0,
+        "upper": 0.9,
+        "exact": false,
+        "statistic": "non-detect bounds"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "ring2021-ireland-protein-powders-metals:Bi:protein-powder-pea-retail-sample-p12-retail-produc:sample_value",
+      "source": "ring2021-ireland-protein-powders-metals",
+      "analyte": "Bi",
+      "reference_id": "hmi-pooled-reference-v2:pea-protein-b5b63bfba04c:35c545c8f10f",
+      "reason": "Only 2 reference unit is available; at least four are required by this descriptive display rule.",
+      "level": null,
+      "target": {
+        "lower": 1,
+        "upper": 1,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "ring2021-ireland-protein-powders-metals:Bi:protein-powder-pea-retail-sample-p2-retail-product:sample_value",
+      "source": "ring2021-ireland-protein-powders-metals",
+      "analyte": "Bi",
+      "reference_id": "hmi-pooled-reference-v2:pea-protein-b5b63bfba04c:35c545c8f10f",
+      "reason": "Only 2 reference unit is available; at least four are required by this descriptive display rule.",
+      "level": null,
+      "target": {
+        "lower": 0.8,
+        "upper": 0.8,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "ring2021-ireland-protein-powders-metals:Li:protein-powder-pea-retail-sample-p12-retail-produc:sample_value",
+      "source": "ring2021-ireland-protein-powders-metals",
+      "analyte": "Li",
+      "reference_id": "hmi-pooled-reference-v2:pea-protein-aa6501df2a2a:c7866685848e",
+      "reason": "Only 2 reference unit is available; at least four are required by this descriptive display rule.",
+      "level": null,
+      "target": {
+        "lower": 54.4,
+        "upper": 54.4,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "ring2021-ireland-protein-powders-metals:Li:protein-powder-pea-retail-sample-p2-retail-product:sample_value",
+      "source": "ring2021-ireland-protein-powders-metals",
+      "analyte": "Li",
+      "reference_id": "hmi-pooled-reference-v2:pea-protein-aa6501df2a2a:c7866685848e",
+      "reason": "Only 2 reference unit is available; at least four are required by this descriptive display rule.",
+      "level": null,
+      "target": {
+        "lower": 30.3,
+        "upper": 30.3,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "ring2021-ireland-protein-powders-metals:Mo:protein-powder-pea-retail-sample-p12-retail-produc:sample_value",
+      "source": "ring2021-ireland-protein-powders-metals",
+      "analyte": "Mo",
+      "reference_id": "hmi-pooled-reference-v2:pea-protein-07202f1bab6f:07f799144eca",
+      "reason": "Only 2 reference unit is available; at least four are required by this descriptive display rule.",
+      "level": null,
+      "target": {
+        "lower": 2348.7,
+        "upper": 2348.7,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "ring2021-ireland-protein-powders-metals:Mo:protein-powder-pea-retail-sample-p2-retail-product:sample_value",
+      "source": "ring2021-ireland-protein-powders-metals",
+      "analyte": "Mo",
+      "reference_id": "hmi-pooled-reference-v2:pea-protein-07202f1bab6f:07f799144eca",
+      "reason": "Only 2 reference unit is available; at least four are required by this descriptive display rule.",
+      "level": null,
+      "target": {
+        "lower": 1492.6,
+        "upper": 1492.6,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "ring2021-ireland-protein-powders-metals:Pt:protein-powder-pea-retail-sample-p12-retail-produc:sample_value",
+      "source": "ring2021-ireland-protein-powders-metals",
+      "analyte": "Pt",
+      "reference_id": "hmi-pooled-reference-v2:pea-protein-f014dd5f7f82:607df02935e1",
+      "reason": "Only 2 reference unit is available; at least four are required by this descriptive display rule.",
+      "level": null,
+      "target": {
+        "lower": 43.5,
+        "upper": 43.5,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "ring2021-ireland-protein-powders-metals:Pt:protein-powder-pea-retail-sample-p2-retail-product:sample_value",
+      "source": "ring2021-ireland-protein-powders-metals",
+      "analyte": "Pt",
+      "reference_id": "hmi-pooled-reference-v2:pea-protein-f014dd5f7f82:607df02935e1",
+      "reason": "Only 2 reference unit is available; at least four are required by this descriptive display rule.",
+      "level": null,
+      "target": {
+        "lower": 102.7,
+        "upper": 102.7,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "ring2021-ireland-protein-powders-metals:Ti:protein-powder-pea-retail-sample-p12-retail-produc:sample_value",
+      "source": "ring2021-ireland-protein-powders-metals",
+      "analyte": "Ti",
+      "reference_id": "hmi-pooled-reference-v2:pea-protein-d1cabd52a0bd:8f7be024eb7d",
+      "reason": "Only 2 reference unit is available; at least four are required by this descriptive display rule.",
+      "level": null,
+      "target": {
+        "lower": 677.2,
+        "upper": 677.2,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "ring2021-ireland-protein-powders-metals:Ti:protein-powder-pea-retail-sample-p2-retail-product:sample_value",
+      "source": "ring2021-ireland-protein-powders-metals",
+      "analyte": "Ti",
+      "reference_id": "hmi-pooled-reference-v2:pea-protein-d1cabd52a0bd:8f7be024eb7d",
+      "reason": "Only 2 reference unit is available; at least four are required by this descriptive display rule.",
+      "level": null,
+      "target": {
+        "lower": 709,
+        "upper": 709,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "ring2021-ireland-protein-powders-metals:Tl:protein-powder-pea-retail-sample-p12-retail-produc:sample_value",
+      "source": "ring2021-ireland-protein-powders-metals",
+      "analyte": "Tl",
+      "reference_id": "hmi-pooled-reference-v2:pea-protein-5dbec2de450a:07bdd00bc301",
+      "reason": "Only 2 reference unit is available; at least four are required by this descriptive display rule.",
+      "level": null,
+      "target": {
+        "lower": 0.3,
+        "upper": 0.3,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "ring2021-ireland-protein-powders-metals:Tl:protein-powder-pea-retail-sample-p2-retail-product:sample_value",
+      "source": "ring2021-ireland-protein-powders-metals",
+      "analyte": "Tl",
+      "reference_id": "hmi-pooled-reference-v2:pea-protein-5dbec2de450a:07bdd00bc301",
+      "reason": "Only 2 reference unit is available; at least four are required by this descriptive display rule.",
+      "level": null,
+      "target": {
+        "lower": 0.3,
+        "upper": 0.3,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    }
+  ],
+  "unit_audit": [],
+  "unit_counts": {
+    "Pb|pea-protein: Pea protein, powder or ground|As sold, as eaten or fresh weight": {
+      "units": 2,
+      "families": [
+        "ring2021-ireland-protein-powders-metals"
+      ]
+    },
+    "Cd|pea-protein: Pea protein, powder or ground|As sold, as eaten or fresh weight": {
+      "units": 2,
+      "families": [
+        "ring2021-ireland-protein-powders-metals"
+      ]
+    },
+    "tHg|pea-protein: Pea protein, powder or ground|As sold, as eaten or fresh weight": {
+      "units": 2,
+      "families": [
+        "ring2021-ireland-protein-powders-metals"
+      ]
+    },
+    "Cr|pea-protein: Pea protein, powder or ground|As sold, as eaten or fresh weight": {
+      "units": 2,
+      "families": [
+        "ring2021-ireland-protein-powders-metals"
+      ]
+    },
+    "Sn|pea-protein: Pea protein, powder or ground|As sold, as eaten or fresh weight": {
+      "units": 2,
+      "families": [
+        "ring2021-ireland-protein-powders-metals"
+      ]
+    },
+    "Co|pea-protein: Pea protein, powder or ground|As sold, as eaten or fresh weight": {
+      "units": 2,
+      "families": [
+        "ring2021-ireland-protein-powders-metals"
+      ]
+    },
+    "V|pea-protein: Pea protein, powder or ground|As sold, as eaten or fresh weight": {
+      "units": 2,
+      "families": [
+        "ring2021-ireland-protein-powders-metals"
+      ]
+    },
+    "Au|pea-protein: Pea protein, powder or ground|As sold, as eaten or fresh weight": {
+      "units": 2,
+      "families": [
+        "ring2021-ireland-protein-powders-metals"
+      ]
+    },
+    "Ba|pea-protein: Pea protein, powder or ground|As sold, as eaten or fresh weight": {
+      "units": 2,
+      "families": [
+        "ring2021-ireland-protein-powders-metals"
+      ]
+    },
+    "Be|pea-protein: Pea protein, powder or ground|As sold, as eaten or fresh weight": {
+      "units": 2,
+      "families": [
+        "ring2021-ireland-protein-powders-metals"
+      ]
+    },
+    "Bi|pea-protein: Pea protein, powder or ground|As sold, as eaten or fresh weight": {
+      "units": 2,
+      "families": [
+        "ring2021-ireland-protein-powders-metals"
+      ]
+    },
+    "Li|pea-protein: Pea protein, powder or ground|As sold, as eaten or fresh weight": {
+      "units": 2,
+      "families": [
+        "ring2021-ireland-protein-powders-metals"
+      ]
+    },
+    "Mo|pea-protein: Pea protein, powder or ground|As sold, as eaten or fresh weight": {
+      "units": 2,
+      "families": [
+        "ring2021-ireland-protein-powders-metals"
+      ]
+    },
+    "Pt|pea-protein: Pea protein, powder or ground|As sold, as eaten or fresh weight": {
+      "units": 2,
+      "families": [
+        "ring2021-ireland-protein-powders-metals"
+      ]
+    },
+    "Ti|pea-protein: Pea protein, powder or ground|As sold, as eaten or fresh weight": {
+      "units": 2,
+      "families": [
+        "ring2021-ireland-protein-powders-metals"
+      ]
+    },
+    "Tl|pea-protein: Pea protein, powder or ground|As sold, as eaten or fresh weight": {
+      "units": 2,
+      "families": [
+        "ring2021-ireland-protein-powders-metals"
+      ]
+    }
+  }
+}

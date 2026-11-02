@@ -1,0 +1,1888 @@
+{
+  "contract_version": "1.0.0",
+  "family": "ingredient",
+  "page_slug": "ingredients/rice-protein",
+  "coverage_state": "partial",
+  "answers": [
+    {
+      "question_id": "HMI-ING-001",
+      "scope": {
+        "analytes": "Pb, Cd, tAs, iAs, DMA, MMA, tHg, Al, Cu, Mn, Se, Ba and Rb",
+        "material_form": "Rice protein, powder or ground and Rice protein, as sold",
+        "basis": "As reported; µg/kg; no moisture conversion",
+        "geography_market": "Reporting region, purchase market or growing area as each source reports",
+        "period": "Source collection years where reported; unreported dates stay unknown",
+        "stage": "Growing area, processing, retail and release testing",
+        "population_route": "Dietary ingestion",
+        "comparator_outcome": "HMI references by form and basis; same-study site, sampling and form contrasts"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "available",
+      "answer": "The page covers rice protein powders: brown rice protein, rice protein labeled without brown, endosperm protein and FDA's rice protein powder category.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Every source record and indexed dataset row that names rice protein",
+        "protocol_ref": "data/evidence/engine/ingredient/rice-protein/evidence-ledger.json",
+        "record_refs": [
+          "data/evidence/engine/ingredient/rice-protein/synthesis.json"
+        ],
+        "screening_ref": "data/evidence/engine/ingredient/rice-protein/evidence-ledger.json",
+        "searched_through": "2026-11-02",
+        "limitations": [
+          "Existing HMI library only; no new external literature search"
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [
+        "wiki/sources/fda2013-ias-rice-products-sampling.md",
+        "wiki/sources/hosojima2017-rice-endosperm-protein-cadmium.md"
+      ],
+      "synthesis_refs": [
+        "data/evidence/syntheses/engine-ingredient-rice-protein-v1.json#identity/1"
+      ],
+      "applicability": "Applies only to the source-specific material, period, preparation and endpoint stated in the answer and attached evidence records",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/ingredients/rice-protein.md"
+      ]
+    },
+    {
+      "question_id": "HMI-ING-002",
+      "scope": {
+        "analytes": "Pb, Cd, tAs, iAs, DMA, MMA, tHg, Al, Cu, Mn, Se, Ba and Rb",
+        "material_form": "Rice protein, powder or ground and Rice protein, as sold",
+        "basis": "As reported; µg/kg; no moisture conversion",
+        "geography_market": "Reporting region, purchase market or growing area as each source reports",
+        "period": "Source collection years where reported; unreported dates stay unknown",
+        "stage": "Growing area, processing, retail and release testing",
+        "population_route": "Dietary ingestion",
+        "comparator_outcome": "HMI references by form and basis; same-study site, sampling and form contrasts"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "available",
+      "answer": "Brown rice protein, endosperm protein and blended powders are distinct materials; the cadmium figure belongs to endosperm protein only. FDA's category mixes single-protein powders with blends.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Every source record and indexed dataset row that names rice protein",
+        "protocol_ref": "data/evidence/engine/ingredient/rice-protein/evidence-ledger.json",
+        "record_refs": [
+          "data/evidence/engine/ingredient/rice-protein/synthesis.json"
+        ],
+        "screening_ref": "data/evidence/engine/ingredient/rice-protein/evidence-ledger.json",
+        "searched_through": "2026-11-02",
+        "limitations": [
+          "Existing HMI library only; no new external literature search"
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [
+        "wiki/sources/hosojima2017-rice-endosperm-protein-cadmium.md",
+        "wiki/sources/fda2013-ias-rice-products-sampling.md"
+      ],
+      "synthesis_refs": [
+        "data/evidence/syntheses/engine-ingredient-rice-protein-v1.json#identity/2"
+      ],
+      "applicability": "Applies only to the source-specific material, period, preparation and endpoint stated in the answer and attached evidence records",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/ingredients/rice-protein.md"
+      ]
+    },
+    {
+      "question_id": "HMI-ING-003",
+      "scope": {
+        "analytes": "Pb, Cd, tAs, iAs, DMA, MMA, tHg, Al, Cu, Mn, Se, Ba and Rb",
+        "material_form": "Rice protein, powder or ground and Rice protein, as sold",
+        "basis": "As reported; µg/kg; no moisture conversion",
+        "geography_market": "Reporting region, purchase market or growing area as each source reports",
+        "period": "Source collection years where reported; unreported dates stay unknown",
+        "stage": "Growing area, processing, retail and release testing",
+        "population_route": "Dietary ingestion",
+        "comparator_outcome": "HMI references by form and basis; same-study site, sampling and form contrasts"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "available",
+      "answer": "Rice grain results do not convert to rice protein results, because protein isolation separates the protein from starch and, for brown rice protein, may keep bran material. Arsenic concentrates in the bran and germ, so the fraction used changes the expected arsenic.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Every source record and indexed dataset row that names rice protein",
+        "protocol_ref": "data/evidence/engine/ingredient/rice-protein/evidence-ledger.json",
+        "record_refs": [
+          "data/evidence/engine/ingredient/rice-protein/synthesis.json"
+        ],
+        "screening_ref": "data/evidence/engine/ingredient/rice-protein/evidence-ledger.json",
+        "searched_through": "2026-11-02",
+        "limitations": [
+          "Existing HMI library only; no new external literature search"
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [
+        "wiki/sources/scott2025-brown-white-rice-arsenic.md"
+      ],
+      "synthesis_refs": [
+        "data/evidence/syntheses/engine-ingredient-rice-protein-v1.json#identity/3"
+      ],
+      "applicability": "Applies only to the source-specific material, period, preparation and endpoint stated in the answer and attached evidence records",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/ingredients/rice-protein.md"
+      ]
+    },
+    {
+      "question_id": "HMI-ING-004",
+      "scope": {
+        "analytes": "Pb, Cd, tAs, iAs, DMA, MMA, tHg, Al, Cu, Mn, Se, Ba and Rb",
+        "material_form": "Rice protein, powder or ground and Rice protein, as sold",
+        "basis": "As reported; µg/kg; no moisture conversion",
+        "geography_market": "Reporting region, purchase market or growing area as each source reports",
+        "period": "Source collection years where reported; unreported dates stay unknown",
+        "stage": "Growing area, processing, retail and release testing",
+        "population_route": "Dietary ingestion",
+        "comparator_outcome": "HMI references by form and basis; same-study site, sampling and form contrasts"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "available",
+      "answer": "Inorganic arsenic is supported by 19 FDA samples; cadmium by one endosperm protein study and a Canadian survey statement; mercury by one sample. Lead is unquantified.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Every source record and indexed dataset row that names rice protein",
+        "protocol_ref": "data/evidence/engine/ingredient/rice-protein/evidence-ledger.json",
+        "record_refs": [
+          "data/evidence/engine/ingredient/rice-protein/synthesis.json"
+        ],
+        "screening_ref": "data/evidence/engine/ingredient/rice-protein/evidence-ledger.json",
+        "searched_through": "2026-11-02",
+        "limitations": [
+          "Existing HMI library only; no new external literature search"
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [
+        "wiki/sources/fda2013-ias-rice-products-sampling.md",
+        "wiki/sources/hosojima2017-rice-endosperm-protein-cadmium.md",
+        "wiki/sources/cfia2020-toxic-metals-selected-foods-2018-19.md",
+        "wiki/sources/horvath2025-hungary-protein-powders-metals.md"
+      ],
+      "synthesis_refs": [
+        "data/evidence/syntheses/engine-ingredient-rice-protein-v1.json#summary/1"
+      ],
+      "applicability": "Applies only to the source-specific material, period, preparation and endpoint stated in the answer and attached evidence records",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/ingredients/rice-protein.md"
+      ]
+    },
+    {
+      "question_id": "HMI-ING-005",
+      "scope": {
+        "analytes": "Pb, Cd, tAs, iAs, DMA, MMA, tHg, Al, Cu, Mn, Se, Ba and Rb",
+        "material_form": "Rice protein, powder or ground and Rice protein, as sold",
+        "basis": "As reported; µg/kg; no moisture conversion",
+        "geography_market": "Reporting region, purchase market or growing area as each source reports",
+        "period": "Source collection years where reported; unreported dates stay unknown",
+        "stage": "Growing area, processing, retail and release testing",
+        "population_route": "Dietary ingestion",
+        "comparator_outcome": "HMI references by form and basis; same-study site, sampling and form contrasts"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "available",
+      "answer": "Lot testing for inorganic arsenic and cadmium deserves priority, and the material type matters: in a small comparison, powders labeled brown rice protein had higher inorganic arsenic than those labeled rice protein.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Every source record and indexed dataset row that names rice protein",
+        "protocol_ref": "data/evidence/engine/ingredient/rice-protein/evidence-ledger.json",
+        "record_refs": [
+          "data/evidence/engine/ingredient/rice-protein/synthesis.json"
+        ],
+        "screening_ref": "data/evidence/engine/ingredient/rice-protein/evidence-ledger.json",
+        "searched_through": "2026-11-02",
+        "limitations": [
+          "Existing HMI library only; no new external literature search"
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [
+        "wiki/sources/fda2013-ias-rice-products-sampling.md"
+      ],
+      "synthesis_refs": [
+        "data/evidence/syntheses/engine-ingredient-rice-protein-v1.json#summary/2"
+      ],
+      "applicability": "Applies only to the source-specific material, period, preparation and endpoint stated in the answer and attached evidence records",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/ingredients/rice-protein.md"
+      ]
+    },
+    {
+      "question_id": "HMI-ING-006",
+      "scope": {
+        "analytes": "Pb, Cd, tAs, iAs, DMA, MMA, tHg, Al, Cu, Mn, Se, Ba and Rb",
+        "material_form": "Rice protein, powder or ground and Rice protein, as sold",
+        "basis": "As reported; µg/kg; no moisture conversion",
+        "geography_market": "Reporting region, purchase market or growing area as each source reports",
+        "period": "Source collection years where reported; unreported dates stay unknown",
+        "stage": "Growing area, processing, retail and release testing",
+        "population_route": "Dietary ingestion",
+        "comparator_outcome": "HMI references by form and basis; same-study site, sampling and form contrasts"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "available",
+      "answer": "The limiting gaps are lead, growing origin and cadmium in brown rice protein, which has no quantified result.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Every source record and indexed dataset row that names rice protein",
+        "protocol_ref": "data/evidence/engine/ingredient/rice-protein/evidence-ledger.json",
+        "record_refs": [
+          "data/evidence/engine/ingredient/rice-protein/synthesis.json"
+        ],
+        "screening_ref": "data/evidence/engine/ingredient/rice-protein/evidence-ledger.json",
+        "searched_through": "2026-11-02",
+        "limitations": [
+          "Existing HMI library only; no new external literature search"
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [
+        "wiki/sources/fda2013-ias-rice-products-sampling.md",
+        "wiki/sources/hosojima2017-rice-endosperm-protein-cadmium.md",
+        "wiki/sources/horvath2025-hungary-protein-powders-metals.md"
+      ],
+      "synthesis_refs": [
+        "data/evidence/syntheses/engine-ingredient-rice-protein-v1.json#summary/3"
+      ],
+      "applicability": "Applies only to the source-specific material, period, preparation and endpoint stated in the answer and attached evidence records",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/ingredients/rice-protein.md"
+      ]
+    },
+    {
+      "question_id": "HMI-ING-007",
+      "scope": {
+        "analytes": "Pb, Cd, tAs, iAs, DMA, MMA, tHg, Al, Cu, Mn, Se, Ba and Rb",
+        "material_form": "Rice protein, powder or ground and Rice protein, as sold",
+        "basis": "As reported; µg/kg; no moisture conversion",
+        "geography_market": "Reporting region, purchase market or growing area as each source reports",
+        "period": "Source collection years where reported; unreported dates stay unknown",
+        "stage": "Growing area, processing, retail and release testing",
+        "population_route": "Dietary ingestion",
+        "comparator_outcome": "HMI references by form and basis; same-study site, sampling and form contrasts"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "available",
+      "answer": "Total arsenic, inorganic arsenic, dimethylarsinic acid and monomethylarsonic acid were measured by FDA; cadmium by one study; mercury by one survey; lead, cadmium, arsenic and mercury in one brown rice protein powder below an unprinted detection limit.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Every source record and indexed dataset row that names rice protein",
+        "protocol_ref": "data/evidence/engine/ingredient/rice-protein/evidence-ledger.json",
+        "record_refs": [
+          "data/evidence/engine/ingredient/rice-protein/synthesis.json"
+        ],
+        "screening_ref": "data/evidence/engine/ingredient/rice-protein/evidence-ledger.json",
+        "searched_through": "2026-11-02",
+        "limitations": [
+          "Existing HMI library only; no new external literature search"
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [
+        "wiki/sources/fda2013-ias-rice-products-sampling.md",
+        "wiki/sources/hosojima2017-rice-endosperm-protein-cadmium.md",
+        "wiki/sources/cfia2020-toxic-metals-selected-foods-2018-19.md",
+        "wiki/sources/horvath2025-hungary-protein-powders-metals.md"
+      ],
+      "synthesis_refs": [
+        "data/evidence/syntheses/engine-ingredient-rice-protein-v1.json#occurrence/1"
+      ],
+      "applicability": "Applies only to the source-specific material, period, preparation and endpoint stated in the answer and attached evidence records",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/ingredients/rice-protein.md"
+      ]
+    },
+    {
+      "question_id": "HMI-ING-008",
+      "scope": {
+        "analytes": "Pb, Cd, tAs, iAs, DMA, MMA, tHg, Al, Cu, Mn, Se, Ba and Rb",
+        "material_form": "Rice protein, powder or ground and Rice protein, as sold",
+        "basis": "As reported; µg/kg; no moisture conversion",
+        "geography_market": "Reporting region, purchase market or growing area as each source reports",
+        "period": "Source collection years where reported; unreported dates stay unknown",
+        "stage": "Growing area, processing, retail and release testing",
+        "population_route": "Dietary ingestion",
+        "comparator_outcome": "HMI references by form and basis; same-study site, sampling and form contrasts"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "available",
+      "answer": "Inorganic arsenic was quantified in 17 of 19 FDA samples, 25 to 152 µg/kg; three total arsenic values were trace results between the 10 µg/kg detection limit and the 80 µg/kg quantification limit. Five endosperm protein batches averaged 0.14 mg/kg cadmium with a standard deviation of 0.17 mg/kg.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Every source record and indexed dataset row that names rice protein",
+        "protocol_ref": "data/evidence/engine/ingredient/rice-protein/evidence-ledger.json",
+        "record_refs": [
+          "data/evidence/engine/ingredient/rice-protein/synthesis.json"
+        ],
+        "screening_ref": "data/evidence/engine/ingredient/rice-protein/evidence-ledger.json",
+        "searched_through": "2026-11-02",
+        "limitations": [
+          "Existing HMI library only; no new external literature search"
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [
+        "wiki/sources/fda2013-ias-rice-products-sampling.md",
+        "wiki/sources/hosojima2017-rice-endosperm-protein-cadmium.md"
+      ],
+      "synthesis_refs": [
+        "data/evidence/syntheses/engine-ingredient-rice-protein-v1.json#occurrence/2"
+      ],
+      "applicability": "Applies only to the source-specific material, period, preparation and endpoint stated in the answer and attached evidence records",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/ingredients/rice-protein.md"
+      ]
+    },
+    {
+      "question_id": "HMI-ING-009",
+      "scope": {
+        "analytes": "Pb, Cd, tAs, iAs, DMA, MMA, tHg, Al, Cu, Mn, Se, Ba and Rb",
+        "material_form": "Rice protein, powder or ground and Rice protein, as sold",
+        "basis": "As reported; µg/kg; no moisture conversion",
+        "geography_market": "Reporting region, purchase market or growing area as each source reports",
+        "period": "Source collection years where reported; unreported dates stay unknown",
+        "stage": "Growing area, processing, retail and release testing",
+        "population_route": "Dietary ingestion",
+        "comparator_outcome": "HMI references by form and basis; same-study site, sampling and form contrasts"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "available",
+      "answer": "Lead is unassessed in quantified form, and brown rice protein cadmium has no quantified result. Two FDA inorganic arsenic values are substitutes for non-detects and are held from comparison.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Every source record and indexed dataset row that names rice protein",
+        "protocol_ref": "data/evidence/engine/ingredient/rice-protein/evidence-ledger.json",
+        "record_refs": [
+          "data/evidence/engine/ingredient/rice-protein/synthesis.json"
+        ],
+        "screening_ref": "data/evidence/engine/ingredient/rice-protein/evidence-ledger.json",
+        "searched_through": "2026-11-02",
+        "limitations": [
+          "Existing HMI library only; no new external literature search"
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [
+        "wiki/sources/horvath2025-hungary-protein-powders-metals.md",
+        "wiki/sources/hosojima2017-rice-endosperm-protein-cadmium.md",
+        "wiki/sources/fda2013-ias-rice-products-sampling.md"
+      ],
+      "synthesis_refs": [
+        "data/evidence/syntheses/engine-ingredient-rice-protein-v1.json#occurrence/3"
+      ],
+      "applicability": "Applies only to the source-specific material, period, preparation and endpoint stated in the answer and attached evidence records",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/ingredients/rice-protein.md"
+      ]
+    },
+    {
+      "question_id": "HMI-ING-010",
+      "scope": {
+        "analytes": "Pb, Cd, tAs, iAs, DMA, MMA, tHg, Al, Cu, Mn, Se, Ba and Rb",
+        "material_form": "Rice protein, powder or ground and Rice protein, as sold",
+        "basis": "As reported; µg/kg; no moisture conversion",
+        "geography_market": "Reporting region, purchase market or growing area as each source reports",
+        "period": "Source collection years where reported; unreported dates stay unknown",
+        "stage": "Growing area, processing, retail and release testing",
+        "population_route": "Dietary ingestion",
+        "comparator_outcome": "HMI references by form and basis; same-study site, sampling and form contrasts"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "available",
+      "answer": "Root uptake from paddy soil explains why rice carries arsenic and cadmium, and bran localization explains why brown rice holds more arsenic. Neither has been measured through to rice protein.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Every source record and indexed dataset row that names rice protein",
+        "protocol_ref": "data/evidence/engine/ingredient/rice-protein/evidence-ledger.json",
+        "record_refs": [
+          "data/evidence/engine/ingredient/rice-protein/synthesis.json"
+        ],
+        "screening_ref": "data/evidence/engine/ingredient/rice-protein/evidence-ledger.json",
+        "searched_through": "2026-11-02",
+        "limitations": [
+          "Existing HMI library only; no new external literature search"
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [
+        "wiki/sources/scott2025-brown-white-rice-arsenic.md"
+      ],
+      "synthesis_refs": [
+        "data/evidence/syntheses/engine-ingredient-rice-protein-v1.json#pathways/1"
+      ],
+      "applicability": "Applies only to the source-specific material, period, preparation and endpoint stated in the answer and attached evidence records",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/ingredients/rice-protein.md"
+      ]
+    },
+    {
+      "question_id": "HMI-ING-011",
+      "scope": {
+        "analytes": "Pb, Cd, tAs, iAs, DMA, MMA, tHg, Al, Cu, Mn, Se, Ba and Rb",
+        "material_form": "Rice protein, powder or ground and Rice protein, as sold",
+        "basis": "As reported; µg/kg; no moisture conversion",
+        "geography_market": "Reporting region, purchase market or growing area as each source reports",
+        "period": "Source collection years where reported; unreported dates stay unknown",
+        "stage": "Growing area, processing, retail and release testing",
+        "population_route": "Dietary ingestion",
+        "comparator_outcome": "HMI references by form and basis; same-study site, sampling and form contrasts"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "available",
+      "answer": "No study measured contamination from processing, equipment or packaging for rice protein.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Every source record and indexed dataset row that names rice protein",
+        "protocol_ref": "data/evidence/engine/ingredient/rice-protein/evidence-ledger.json",
+        "record_refs": [
+          "data/evidence/engine/ingredient/rice-protein/synthesis.json"
+        ],
+        "screening_ref": "data/evidence/engine/ingredient/rice-protein/evidence-ledger.json",
+        "searched_through": "2026-11-02",
+        "limitations": [
+          "Existing HMI library only; no new external literature search"
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [
+        "wiki/sources/fda2013-ias-rice-products-sampling.md",
+        "wiki/sources/hosojima2017-rice-endosperm-protein-cadmium.md"
+      ],
+      "synthesis_refs": [
+        "data/evidence/syntheses/engine-ingredient-rice-protein-v1.json#pathways/2"
+      ],
+      "applicability": "Applies only to the source-specific material, period, preparation and endpoint stated in the answer and attached evidence records",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/ingredients/rice-protein.md"
+      ]
+    },
+    {
+      "question_id": "HMI-ING-012",
+      "scope": {
+        "analytes": "Pb, Cd, tAs, iAs, DMA, MMA, tHg, Al, Cu, Mn, Se, Ba and Rb",
+        "material_form": "Rice protein, powder or ground and Rice protein, as sold",
+        "basis": "As reported; µg/kg; no moisture conversion",
+        "geography_market": "Reporting region, purchase market or growing area as each source reports",
+        "period": "Source collection years where reported; unreported dates stay unknown",
+        "stage": "Growing area, processing, retail and release testing",
+        "population_route": "Dietary ingestion",
+        "comparator_outcome": "HMI references by form and basis; same-study site, sampling and form contrasts"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "available",
+      "answer": "The rice-based attribution for cadmium is a survey interpretation, not a traced pathway.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Every source record and indexed dataset row that names rice protein",
+        "protocol_ref": "data/evidence/engine/ingredient/rice-protein/evidence-ledger.json",
+        "record_refs": [
+          "data/evidence/engine/ingredient/rice-protein/synthesis.json"
+        ],
+        "screening_ref": "data/evidence/engine/ingredient/rice-protein/evidence-ledger.json",
+        "searched_through": "2026-11-02",
+        "limitations": [
+          "Existing HMI library only; no new external literature search"
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [
+        "wiki/sources/cfia2020-toxic-metals-selected-foods-2018-19.md"
+      ],
+      "synthesis_refs": [
+        "data/evidence/syntheses/engine-ingredient-rice-protein-v1.json#pathways/3"
+      ],
+      "applicability": "Applies only to the source-specific material, period, preparation and endpoint stated in the answer and attached evidence records",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/ingredients/rice-protein.md"
+      ]
+    },
+    {
+      "question_id": "HMI-ING-013",
+      "scope": {
+        "analytes": "Pb, Cd, tAs, iAs, DMA, MMA, tHg, Al, Cu, Mn, Se, Ba and Rb",
+        "material_form": "Rice protein, powder or ground and Rice protein, as sold",
+        "basis": "As reported; µg/kg; no moisture conversion",
+        "geography_market": "Reporting region, purchase market or growing area as each source reports",
+        "period": "Source collection years where reported; unreported dates stay unknown",
+        "stage": "Growing area, processing, retail and release testing",
+        "population_route": "Dietary ingestion",
+        "comparator_outcome": "HMI references by form and basis; same-study site, sampling and form contrasts"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "available",
+      "answer": "No rice protein result is linked to growing origin, conditions, variety or harvest period; FDA rows carry product labels and categories only.\n\nIs brown rice protein higher in arsenic than other rice protein? In the FDA survey, powders labeled brown rice protein had 37 to 99 µg/kg inorganic arsenic where quantified, and powders labeled rice protein had 25 to 47 µg/kg. Rice bran concentrates arsenic, which fits that direction. Three or four samples per group make it tentative.\n\nCan country of origin pick a lower-arsenic rice protein? Not on current evidence: no rice protein result names the growing region. The rice grain evidence on origin does not transfer to protein without measurements of the protein itself.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Every source record and indexed dataset row that names rice protein",
+        "protocol_ref": "data/evidence/engine/ingredient/rice-protein/evidence-ledger.json",
+        "record_refs": [
+          "data/evidence/engine/ingredient/rice-protein/synthesis.json"
+        ],
+        "screening_ref": "data/evidence/engine/ingredient/rice-protein/evidence-ledger.json",
+        "searched_through": "2026-11-02",
+        "limitations": [
+          "Existing HMI library only; no new external literature search"
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [
+        "wiki/sources/fda2013-ias-rice-products-sampling.md",
+        "wiki/sources/cfia2020-toxic-metals-selected-foods-2018-19.md",
+        "wiki/sources/scott2025-brown-white-rice-arsenic.md",
+        "wiki/sources/hosojima2017-rice-endosperm-protein-cadmium.md"
+      ],
+      "synthesis_refs": [
+        "data/evidence/syntheses/engine-ingredient-rice-protein-v1.json#variation/1"
+      ],
+      "applicability": "Applies only to the source-specific material, period, preparation and endpoint stated in the answer and attached evidence records",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/ingredients/rice-protein.md"
+      ]
+    },
+    {
+      "question_id": "HMI-ING-014",
+      "scope": {
+        "analytes": "Pb, Cd, tAs, iAs, DMA, MMA, tHg, Al, Cu, Mn, Se, Ba and Rb",
+        "material_form": "Rice protein, powder or ground and Rice protein, as sold",
+        "basis": "As reported; µg/kg; no moisture conversion",
+        "geography_market": "Reporting region, purchase market or growing area as each source reports",
+        "period": "Source collection years where reported; unreported dates stay unknown",
+        "stage": "Growing area, processing, retail and release testing",
+        "population_route": "Dietary ingestion",
+        "comparator_outcome": "HMI references by form and basis; same-study site, sampling and form contrasts"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "available",
+      "answer": "Variation is between retail products: inorganic arsenic ran from 25 to 152 µg/kg across 17 quantified FDA samples. Batch variation is visible only in the endosperm protein standard deviation of 0.17 mg/kg cadmium.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Every source record and indexed dataset row that names rice protein",
+        "protocol_ref": "data/evidence/engine/ingredient/rice-protein/evidence-ledger.json",
+        "record_refs": [
+          "data/evidence/engine/ingredient/rice-protein/synthesis.json"
+        ],
+        "screening_ref": "data/evidence/engine/ingredient/rice-protein/evidence-ledger.json",
+        "searched_through": "2026-11-02",
+        "limitations": [
+          "Existing HMI library only; no new external literature search"
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [
+        "wiki/sources/fda2013-ias-rice-products-sampling.md",
+        "wiki/sources/hosojima2017-rice-endosperm-protein-cadmium.md"
+      ],
+      "synthesis_refs": [
+        "data/evidence/syntheses/engine-ingredient-rice-protein-v1.json#variation/2"
+      ],
+      "applicability": "Applies only to the source-specific material, period, preparation and endpoint stated in the answer and attached evidence records",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/ingredients/rice-protein.md"
+      ]
+    },
+    {
+      "question_id": "HMI-ING-015",
+      "scope": {
+        "analytes": "Pb, Cd, tAs, iAs, DMA, MMA, tHg, Al, Cu, Mn, Se, Ba and Rb",
+        "material_form": "Rice protein, powder or ground and Rice protein, as sold",
+        "basis": "As reported; µg/kg; no moisture conversion",
+        "geography_market": "Reporting region, purchase market or growing area as each source reports",
+        "period": "Source collection years where reported; unreported dates stay unknown",
+        "stage": "Growing area, processing, retail and release testing",
+        "population_route": "Dietary ingestion",
+        "comparator_outcome": "HMI references by form and basis; same-study site, sampling and form contrasts"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "available",
+      "answer": "The label comparison supports asking whether a protein is made from brown rice; it does not support a country or supplier preference. Generalizing from US retail samples to a growing region would be unjustified.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Every source record and indexed dataset row that names rice protein",
+        "protocol_ref": "data/evidence/engine/ingredient/rice-protein/evidence-ledger.json",
+        "record_refs": [
+          "data/evidence/engine/ingredient/rice-protein/synthesis.json"
+        ],
+        "screening_ref": "data/evidence/engine/ingredient/rice-protein/evidence-ledger.json",
+        "searched_through": "2026-11-02",
+        "limitations": [
+          "Existing HMI library only; no new external literature search"
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [
+        "wiki/sources/fda2013-ias-rice-products-sampling.md",
+        "wiki/sources/scott2025-brown-white-rice-arsenic.md"
+      ],
+      "synthesis_refs": [
+        "data/evidence/syntheses/engine-ingredient-rice-protein-v1.json#variation/3"
+      ],
+      "applicability": "Applies only to the source-specific material, period, preparation and endpoint stated in the answer and attached evidence records",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/ingredients/rice-protein.md"
+      ]
+    },
+    {
+      "question_id": "HMI-ING-016",
+      "scope": {
+        "analytes": "Pb, Cd, tAs, iAs, DMA, MMA, tHg, Al, Cu, Mn, Se, Ba and Rb",
+        "material_form": "Rice protein, powder or ground and Rice protein, as sold",
+        "basis": "As reported; µg/kg; no moisture conversion",
+        "geography_market": "Reporting region, purchase market or growing area as each source reports",
+        "period": "Source collection years where reported; unreported dates stay unknown",
+        "stage": "Growing area, processing, retail and release testing",
+        "population_route": "Dietary ingestion",
+        "comparator_outcome": "HMI references by form and basis; same-study site, sampling and form contrasts"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "available",
+      "answer": "No processing step has a measured before-and-after effect on metals in rice protein.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Every source record and indexed dataset row that names rice protein",
+        "protocol_ref": "data/evidence/engine/ingredient/rice-protein/evidence-ledger.json",
+        "record_refs": [
+          "data/evidence/engine/ingredient/rice-protein/synthesis.json"
+        ],
+        "screening_ref": "data/evidence/engine/ingredient/rice-protein/evidence-ledger.json",
+        "searched_through": "2026-11-02",
+        "limitations": [
+          "Existing HMI library only; no new external literature search"
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [
+        "wiki/sources/hosojima2017-rice-endosperm-protein-cadmium.md",
+        "wiki/sources/fda2013-ias-rice-products-sampling.md"
+      ],
+      "synthesis_refs": [
+        "data/evidence/syntheses/engine-ingredient-rice-protein-v1.json#processing/1"
+      ],
+      "applicability": "Applies only to the source-specific material, period, preparation and endpoint stated in the answer and attached evidence records",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/ingredients/rice-protein.md"
+      ]
+    },
+    {
+      "question_id": "HMI-ING-017",
+      "scope": {
+        "analytes": "Pb, Cd, tAs, iAs, DMA, MMA, tHg, Al, Cu, Mn, Se, Ba and Rb",
+        "material_form": "Rice protein, powder or ground and Rice protein, as sold",
+        "basis": "As reported; µg/kg; no moisture conversion",
+        "geography_market": "Reporting region, purchase market or growing area as each source reports",
+        "period": "Source collection years where reported; unreported dates stay unknown",
+        "stage": "Growing area, processing, retail and release testing",
+        "population_route": "Dietary ingestion",
+        "comparator_outcome": "HMI references by form and basis; same-study site, sampling and form contrasts"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "available",
+      "answer": "Brown rice protein keeps bran-associated material; endosperm protein starts from milled flour.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Every source record and indexed dataset row that names rice protein",
+        "protocol_ref": "data/evidence/engine/ingredient/rice-protein/evidence-ledger.json",
+        "record_refs": [
+          "data/evidence/engine/ingredient/rice-protein/synthesis.json"
+        ],
+        "screening_ref": "data/evidence/engine/ingredient/rice-protein/evidence-ledger.json",
+        "searched_through": "2026-11-02",
+        "limitations": [
+          "Existing HMI library only; no new external literature search"
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [
+        "wiki/sources/scott2025-brown-white-rice-arsenic.md",
+        "wiki/sources/hosojima2017-rice-endosperm-protein-cadmium.md"
+      ],
+      "synthesis_refs": [
+        "data/evidence/syntheses/engine-ingredient-rice-protein-v1.json#processing/2"
+      ],
+      "applicability": "Applies only to the source-specific material, period, preparation and endpoint stated in the answer and attached evidence records",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/ingredients/rice-protein.md"
+      ]
+    },
+    {
+      "question_id": "HMI-ING-018",
+      "scope": {
+        "analytes": "Pb, Cd, tAs, iAs, DMA, MMA, tHg, Al, Cu, Mn, Se, Ba and Rb",
+        "material_form": "Rice protein, powder or ground and Rice protein, as sold",
+        "basis": "As reported; µg/kg; no moisture conversion",
+        "geography_market": "Reporting region, purchase market or growing area as each source reports",
+        "period": "Source collection years where reported; unreported dates stay unknown",
+        "stage": "Growing area, processing, retail and release testing",
+        "population_route": "Dietary ingestion",
+        "comparator_outcome": "HMI references by form and basis; same-study site, sampling and form contrasts"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "available",
+      "answer": "Without a mass balance, removal, redistribution and concentration cannot be distinguished. The acid wash is described as a removal step but has no measured outcome.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Every source record and indexed dataset row that names rice protein",
+        "protocol_ref": "data/evidence/engine/ingredient/rice-protein/evidence-ledger.json",
+        "record_refs": [
+          "data/evidence/engine/ingredient/rice-protein/synthesis.json"
+        ],
+        "screening_ref": "data/evidence/engine/ingredient/rice-protein/evidence-ledger.json",
+        "searched_through": "2026-11-02",
+        "limitations": [
+          "Existing HMI library only; no new external literature search"
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [
+        "wiki/sources/hosojima2017-rice-endosperm-protein-cadmium.md"
+      ],
+      "synthesis_refs": [
+        "data/evidence/syntheses/engine-ingredient-rice-protein-v1.json#processing/3"
+      ],
+      "applicability": "Applies only to the source-specific material, period, preparation and endpoint stated in the answer and attached evidence records",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/ingredients/rice-protein.md"
+      ]
+    },
+    {
+      "question_id": "HMI-ING-019",
+      "scope": {
+        "analytes": "Pb, Cd, tAs, iAs, DMA, MMA, tHg, Al, Cu, Mn, Se, Ba and Rb",
+        "material_form": "Rice protein, powder or ground and Rice protein, as sold",
+        "basis": "As reported; µg/kg; no moisture conversion",
+        "geography_market": "Reporting region, purchase market or growing area as each source reports",
+        "period": "Source collection years where reported; unreported dates stay unknown",
+        "stage": "Growing area, processing, retail and release testing",
+        "population_route": "Dietary ingestion",
+        "comparator_outcome": "HMI references by form and basis; same-study site, sampling and form contrasts"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "available",
+      "answer": "Foliar silicon for grain cadmium and acid washing of extracted protein have been described; only the silicon effect on grain is measured.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Every source record and indexed dataset row that names rice protein",
+        "protocol_ref": "data/evidence/engine/ingredient/rice-protein/evidence-ledger.json",
+        "record_refs": [
+          "data/evidence/engine/ingredient/rice-protein/synthesis.json"
+        ],
+        "screening_ref": "data/evidence/engine/ingredient/rice-protein/evidence-ledger.json",
+        "searched_through": "2026-11-02",
+        "limitations": [
+          "Existing HMI library only; no new external literature search"
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [
+        "wiki/sources/zhao2023-silicon-cd-rice.md",
+        "wiki/sources/hosojima2017-rice-endosperm-protein-cadmium.md"
+      ],
+      "synthesis_refs": [
+        "data/evidence/syntheses/engine-ingredient-rice-protein-v1.json#controls/1"
+      ],
+      "applicability": "Applies only to the source-specific material, period, preparation and endpoint stated in the answer and attached evidence records",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/ingredients/rice-protein.md"
+      ]
+    },
+    {
+      "question_id": "HMI-ING-020",
+      "scope": {
+        "analytes": "Pb, Cd, tAs, iAs, DMA, MMA, tHg, Al, Cu, Mn, Se, Ba and Rb",
+        "material_form": "Rice protein, powder or ground and Rice protein, as sold",
+        "basis": "As reported; µg/kg; no moisture conversion",
+        "geography_market": "Reporting region, purchase market or growing area as each source reports",
+        "period": "Source collection years where reported; unreported dates stay unknown",
+        "stage": "Growing area, processing, retail and release testing",
+        "population_route": "Dietary ingestion",
+        "comparator_outcome": "HMI references by form and basis; same-study site, sampling and form contrasts"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "available",
+      "answer": "The silicon result comes from a pot experiment in cadmium-amended soil, compared with unsprayed plants of the same variety.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Every source record and indexed dataset row that names rice protein",
+        "protocol_ref": "data/evidence/engine/ingredient/rice-protein/evidence-ledger.json",
+        "record_refs": [
+          "data/evidence/engine/ingredient/rice-protein/synthesis.json"
+        ],
+        "screening_ref": "data/evidence/engine/ingredient/rice-protein/evidence-ledger.json",
+        "searched_through": "2026-11-02",
+        "limitations": [
+          "Existing HMI library only; no new external literature search"
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [
+        "wiki/sources/zhao2023-silicon-cd-rice.md"
+      ],
+      "synthesis_refs": [
+        "data/evidence/syntheses/engine-ingredient-rice-protein-v1.json#controls/2"
+      ],
+      "applicability": "Applies only to the source-specific material, period, preparation and endpoint stated in the answer and attached evidence records",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/ingredients/rice-protein.md"
+      ]
+    },
+    {
+      "question_id": "HMI-ING-021",
+      "scope": {
+        "analytes": "Pb, Cd, tAs, iAs, DMA, MMA, tHg, Al, Cu, Mn, Se, Ba and Rb",
+        "material_form": "Rice protein, powder or ground and Rice protein, as sold",
+        "basis": "As reported; µg/kg; no moisture conversion",
+        "geography_market": "Reporting region, purchase market or growing area as each source reports",
+        "period": "Source collection years where reported; unreported dates stay unknown",
+        "stage": "Growing area, processing, retail and release testing",
+        "population_route": "Dietary ingestion",
+        "comparator_outcome": "HMI references by form and basis; same-study site, sampling and form contrasts"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "available",
+      "answer": "No field or commercial evidence links either control to lower metals in rice protein. Verification rests on lot testing.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Every source record and indexed dataset row that names rice protein",
+        "protocol_ref": "data/evidence/engine/ingredient/rice-protein/evidence-ledger.json",
+        "record_refs": [
+          "data/evidence/engine/ingredient/rice-protein/synthesis.json"
+        ],
+        "screening_ref": "data/evidence/engine/ingredient/rice-protein/evidence-ledger.json",
+        "searched_through": "2026-11-02",
+        "limitations": [
+          "Existing HMI library only; no new external literature search"
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [
+        "wiki/sources/fda2013-ias-rice-products-sampling.md"
+      ],
+      "synthesis_refs": [
+        "data/evidence/syntheses/engine-ingredient-rice-protein-v1.json#controls/3"
+      ],
+      "applicability": "Applies only to the source-specific material, period, preparation and endpoint stated in the answer and attached evidence records",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/ingredients/rice-protein.md"
+      ]
+    },
+    {
+      "question_id": "HMI-ING-022",
+      "scope": {
+        "analytes": "Pb, Cd, tAs, iAs, DMA, MMA, tHg, Al, Cu, Mn, Se, Ba and Rb",
+        "material_form": "Rice protein, powder or ground and Rice protein, as sold",
+        "basis": "As reported; µg/kg; no moisture conversion",
+        "geography_market": "Reporting region, purchase market or growing area as each source reports",
+        "period": "Source collection years where reported; unreported dates stay unknown",
+        "stage": "Growing area, processing, retail and release testing",
+        "population_route": "Dietary ingestion",
+        "comparator_outcome": "HMI references by form and basis; same-study site, sampling and form contrasts"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "available",
+      "answer": "Yes: drier water management lowered grain arsenic and raised grain cadmium in a field study.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Every source record and indexed dataset row that names rice protein",
+        "protocol_ref": "data/evidence/engine/ingredient/rice-protein/evidence-ledger.json",
+        "record_refs": [
+          "data/evidence/engine/ingredient/rice-protein/synthesis.json"
+        ],
+        "screening_ref": "data/evidence/engine/ingredient/rice-protein/evidence-ledger.json",
+        "searched_through": "2026-11-02",
+        "limitations": [
+          "Existing HMI library only; no new external literature search"
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [
+        "wiki/sources/seyfferth2025-rice-water-management-as-hg-cd.md"
+      ],
+      "synthesis_refs": [
+        "data/evidence/syntheses/engine-ingredient-rice-protein-v1.json#tradeoffs/1"
+      ],
+      "applicability": "Applies only to the source-specific material, period, preparation and endpoint stated in the answer and attached evidence records",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/ingredients/rice-protein.md"
+      ]
+    },
+    {
+      "question_id": "HMI-ING-023",
+      "scope": {
+        "analytes": "Pb, Cd, tAs, iAs, DMA, MMA, tHg, Al, Cu, Mn, Se, Ba and Rb",
+        "material_form": "Rice protein, powder or ground and Rice protein, as sold",
+        "basis": "As reported; µg/kg; no moisture conversion",
+        "geography_market": "Reporting region, purchase market or growing area as each source reports",
+        "period": "Source collection years where reported; unreported dates stay unknown",
+        "stage": "Growing area, processing, retail and release testing",
+        "population_route": "Dietary ingestion",
+        "comparator_outcome": "HMI references by form and basis; same-study site, sampling and form contrasts"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "available",
+      "answer": "Yield fell by 25 to 40 percent under the driest conditions; nutrition and sensory effects in rice protein were not measured.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Every source record and indexed dataset row that names rice protein",
+        "protocol_ref": "data/evidence/engine/ingredient/rice-protein/evidence-ledger.json",
+        "record_refs": [
+          "data/evidence/engine/ingredient/rice-protein/synthesis.json"
+        ],
+        "screening_ref": "data/evidence/engine/ingredient/rice-protein/evidence-ledger.json",
+        "searched_through": "2026-11-02",
+        "limitations": [
+          "Existing HMI library only; no new external literature search"
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [
+        "wiki/sources/seyfferth2025-rice-water-management-as-hg-cd.md"
+      ],
+      "synthesis_refs": [
+        "data/evidence/syntheses/engine-ingredient-rice-protein-v1.json#tradeoffs/2"
+      ],
+      "applicability": "Applies only to the source-specific material, period, preparation and endpoint stated in the answer and attached evidence records",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/ingredients/rice-protein.md"
+      ]
+    },
+    {
+      "question_id": "HMI-ING-024",
+      "scope": {
+        "analytes": "Pb, Cd, tAs, iAs, DMA, MMA, tHg, Al, Cu, Mn, Se, Ba and Rb",
+        "material_form": "Rice protein, powder or ground and Rice protein, as sold",
+        "basis": "As reported; µg/kg; no moisture conversion",
+        "geography_market": "Reporting region, purchase market or growing area as each source reports",
+        "period": "Source collection years where reported; unreported dates stay unknown",
+        "stage": "Growing area, processing, retail and release testing",
+        "population_route": "Dietary ingestion",
+        "comparator_outcome": "HMI references by form and basis; same-study site, sampling and form contrasts"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "available",
+      "answer": "Costs and failure modes for rice protein controls are undocumented. A failure mode visible in the data is reliance on total arsenic, which leaves the inorganic share unknown.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Every source record and indexed dataset row that names rice protein",
+        "protocol_ref": "data/evidence/engine/ingredient/rice-protein/evidence-ledger.json",
+        "record_refs": [
+          "data/evidence/engine/ingredient/rice-protein/synthesis.json"
+        ],
+        "screening_ref": "data/evidence/engine/ingredient/rice-protein/evidence-ledger.json",
+        "searched_through": "2026-11-02",
+        "limitations": [
+          "Existing HMI library only; no new external literature search"
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [
+        "wiki/sources/fda2013-ias-rice-products-sampling.md"
+      ],
+      "synthesis_refs": [
+        "data/evidence/syntheses/engine-ingredient-rice-protein-v1.json#tradeoffs/3"
+      ],
+      "applicability": "Applies only to the source-specific material, period, preparation and endpoint stated in the answer and attached evidence records",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/ingredients/rice-protein.md"
+      ]
+    },
+    {
+      "question_id": "HMI-ING-025",
+      "scope": {
+        "analytes": "Pb, Cd, tAs, iAs, DMA, MMA, tHg, Al, Cu, Mn, Se, Ba and Rb",
+        "material_form": "Rice protein, powder or ground and Rice protein, as sold",
+        "basis": "As reported; µg/kg; no moisture conversion",
+        "geography_market": "Reporting region, purchase market or growing area as each source reports",
+        "period": "Source collection years where reported; unreported dates stay unknown",
+        "stage": "Growing area, processing, retail and release testing",
+        "population_route": "Dietary ingestion",
+        "comparator_outcome": "HMI references by form and basis; same-study site, sampling and form contrasts"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "available",
+      "answer": "Sampling should be lot-based; a single retail product describes that product. Each FDA row is one product sample.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Every source record and indexed dataset row that names rice protein",
+        "protocol_ref": "data/evidence/engine/ingredient/rice-protein/evidence-ledger.json",
+        "record_refs": [
+          "data/evidence/engine/ingredient/rice-protein/synthesis.json"
+        ],
+        "screening_ref": "data/evidence/engine/ingredient/rice-protein/evidence-ledger.json",
+        "searched_through": "2026-11-02",
+        "limitations": [
+          "Existing HMI library only; no new external literature search"
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [
+        "wiki/sources/fda2013-ias-rice-products-sampling.md"
+      ],
+      "synthesis_refs": [
+        "data/evidence/syntheses/engine-ingredient-rice-protein-v1.json#testing/1"
+      ],
+      "applicability": "Applies only to the source-specific material, period, preparation and endpoint stated in the answer and attached evidence records",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/ingredients/rice-protein.md"
+      ]
+    },
+    {
+      "question_id": "HMI-ING-026",
+      "scope": {
+        "analytes": "Pb, Cd, tAs, iAs, DMA, MMA, tHg, Al, Cu, Mn, Se, Ba and Rb",
+        "material_form": "Rice protein, powder or ground and Rice protein, as sold",
+        "basis": "As reported; µg/kg; no moisture conversion",
+        "geography_market": "Reporting region, purchase market or growing area as each source reports",
+        "period": "Source collection years where reported; unreported dates stay unknown",
+        "stage": "Growing area, processing, retail and release testing",
+        "population_route": "Dietary ingestion",
+        "comparator_outcome": "HMI references by form and basis; same-study site, sampling and form contrasts"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "available",
+      "answer": "Inorganic arsenic needs a speciation method with a quantification limit well below the decision level; FDA's was 12 µg/kg in this product group. Cadmium was measured by atomic absorption in the endosperm protein study.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Every source record and indexed dataset row that names rice protein",
+        "protocol_ref": "data/evidence/engine/ingredient/rice-protein/evidence-ledger.json",
+        "record_refs": [
+          "data/evidence/engine/ingredient/rice-protein/synthesis.json"
+        ],
+        "screening_ref": "data/evidence/engine/ingredient/rice-protein/evidence-ledger.json",
+        "searched_through": "2026-11-02",
+        "limitations": [
+          "Existing HMI library only; no new external literature search"
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [
+        "wiki/sources/fda2013-ias-rice-products-sampling.md",
+        "wiki/sources/hosojima2017-rice-endosperm-protein-cadmium.md"
+      ],
+      "synthesis_refs": [
+        "data/evidence/syntheses/engine-ingredient-rice-protein-v1.json#testing/2"
+      ],
+      "applicability": "Applies only to the source-specific material, period, preparation and endpoint stated in the answer and attached evidence records",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/ingredients/rice-protein.md"
+      ]
+    },
+    {
+      "question_id": "HMI-ING-027",
+      "scope": {
+        "analytes": "Pb, Cd, tAs, iAs, DMA, MMA, tHg, Al, Cu, Mn, Se, Ba and Rb",
+        "material_form": "Rice protein, powder or ground and Rice protein, as sold",
+        "basis": "As reported; µg/kg; no moisture conversion",
+        "geography_market": "Reporting region, purchase market or growing area as each source reports",
+        "period": "Source collection years where reported; unreported dates stay unknown",
+        "stage": "Growing area, processing, retail and release testing",
+        "population_route": "Dietary ingestion",
+        "comparator_outcome": "HMI references by form and basis; same-study site, sampling and form contrasts"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "available",
+      "answer": "A non-detect means below the stated limit; substituted half-limit values are not measurements. Lead remains untested in quantified form.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Every source record and indexed dataset row that names rice protein",
+        "protocol_ref": "data/evidence/engine/ingredient/rice-protein/evidence-ledger.json",
+        "record_refs": [
+          "data/evidence/engine/ingredient/rice-protein/synthesis.json"
+        ],
+        "screening_ref": "data/evidence/engine/ingredient/rice-protein/evidence-ledger.json",
+        "searched_through": "2026-11-02",
+        "limitations": [
+          "Existing HMI library only; no new external literature search"
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [
+        "wiki/sources/fda2013-ias-rice-products-sampling.md",
+        "wiki/sources/horvath2025-hungary-protein-powders-metals.md"
+      ],
+      "synthesis_refs": [
+        "data/evidence/syntheses/engine-ingredient-rice-protein-v1.json#testing/3"
+      ],
+      "applicability": "Applies only to the source-specific material, period, preparation and endpoint stated in the answer and attached evidence records",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/ingredients/rice-protein.md"
+      ]
+    },
+    {
+      "question_id": "HMI-ING-028",
+      "scope": {
+        "analytes": "Pb, Cd, tAs, iAs, DMA, MMA, tHg, Al, Cu, Mn, Se, Ba and Rb",
+        "material_form": "Rice protein, powder or ground and Rice protein, as sold",
+        "basis": "As reported; µg/kg; no moisture conversion",
+        "geography_market": "Reporting region, purchase market or growing area as each source reports",
+        "period": "Source collection years where reported; unreported dates stay unknown",
+        "stage": "Growing area, processing, retail and release testing",
+        "population_route": "Dietary ingestion",
+        "comparator_outcome": "HMI references by form and basis; same-study site, sampling and form contrasts"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "available",
+      "answer": "A buyer should request rice type (brown or milled), growing origin, laboratory, accreditation, report number, quantification limits and lot-level inorganic arsenic, cadmium, lead and mercury. No published rice protein result supplies origin or quantified lead.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Every source record and indexed dataset row that names rice protein",
+        "protocol_ref": "data/evidence/engine/ingredient/rice-protein/evidence-ledger.json",
+        "record_refs": [
+          "data/evidence/engine/ingredient/rice-protein/synthesis.json"
+        ],
+        "screening_ref": "data/evidence/engine/ingredient/rice-protein/evidence-ledger.json",
+        "searched_through": "2026-11-02",
+        "limitations": [
+          "Existing HMI library only; no new external literature search"
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [
+        "wiki/sources/fda2013-ias-rice-products-sampling.md",
+        "wiki/sources/horvath2025-hungary-protein-powders-metals.md"
+      ],
+      "synthesis_refs": [
+        "data/evidence/syntheses/engine-ingredient-rice-protein-v1.json#procurement/1"
+      ],
+      "applicability": "Applies only to the source-specific material, period, preparation and endpoint stated in the answer and attached evidence records",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/ingredients/rice-protein.md"
+      ]
+    },
+    {
+      "question_id": "HMI-ING-029",
+      "scope": {
+        "analytes": "Pb, Cd, tAs, iAs, DMA, MMA, tHg, Al, Cu, Mn, Se, Ba and Rb",
+        "material_form": "Rice protein, powder or ground and Rice protein, as sold",
+        "basis": "As reported; µg/kg; no moisture conversion",
+        "geography_market": "Reporting region, purchase market or growing area as each source reports",
+        "period": "Source collection years where reported; unreported dates stay unknown",
+        "stage": "Growing area, processing, retail and release testing",
+        "population_route": "Dietary ingestion",
+        "comparator_outcome": "HMI references by form and basis; same-study site, sampling and form contrasts"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "available",
+      "answer": "EU rice rows and China's rice powder rows are legal requirements for those foods; applying them to rice protein is a specification choice. A per-serving target from California's levels is also a policy choice.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Every source record and indexed dataset row that names rice protein",
+        "protocol_ref": "data/evidence/engine/ingredient/rice-protein/evidence-ledger.json",
+        "record_refs": [
+          "data/evidence/engine/ingredient/rice-protein/synthesis.json"
+        ],
+        "screening_ref": "data/evidence/engine/ingredient/rice-protein/evidence-ledger.json",
+        "searched_through": "2026-11-02",
+        "limitations": [
+          "Existing HMI library only; no new external literature search"
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [
+        "wiki/sources/eu-2023-915-contaminants-maximum-levels.md",
+        "wiki/sources/usda-fas2023-china-gb-2762-2022-translation.md",
+        "wiki/sources/oehha-lead-prop65-listing.md"
+      ],
+      "synthesis_refs": [
+        "data/evidence/syntheses/engine-ingredient-rice-protein-v1.json#procurement/2"
+      ],
+      "applicability": "Applies only to the source-specific material, period, preparation and endpoint stated in the answer and attached evidence records",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/ingredients/rice-protein.md"
+      ]
+    },
+    {
+      "question_id": "HMI-ING-030",
+      "scope": {
+        "analytes": "Pb, Cd, tAs, iAs, DMA, MMA, tHg, Al, Cu, Mn, Se, Ba and Rb",
+        "material_form": "Rice protein, powder or ground and Rice protein, as sold",
+        "basis": "As reported; µg/kg; no moisture conversion",
+        "geography_market": "Reporting region, purchase market or growing area as each source reports",
+        "period": "Source collection years where reported; unreported dates stay unknown",
+        "stage": "Growing area, processing, retail and release testing",
+        "population_route": "Dietary ingestion",
+        "comparator_outcome": "HMI references by form and basis; same-study site, sampling and form contrasts"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "available",
+      "answer": "A change of rice type or origin, processor, laboratory or quantification limit, or a lot well above earlier lots, should trigger requalification. Inorganic arsenic varied sixfold across quantified FDA samples.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Every source record and indexed dataset row that names rice protein",
+        "protocol_ref": "data/evidence/engine/ingredient/rice-protein/evidence-ledger.json",
+        "record_refs": [
+          "data/evidence/engine/ingredient/rice-protein/synthesis.json"
+        ],
+        "screening_ref": "data/evidence/engine/ingredient/rice-protein/evidence-ledger.json",
+        "searched_through": "2026-11-02",
+        "limitations": [
+          "Existing HMI library only; no new external literature search"
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [
+        "wiki/sources/fda2013-ias-rice-products-sampling.md"
+      ],
+      "synthesis_refs": [
+        "data/evidence/syntheses/engine-ingredient-rice-protein-v1.json#procurement/3"
+      ],
+      "applicability": "Applies only to the source-specific material, period, preparation and endpoint stated in the answer and attached evidence records",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/ingredients/rice-protein.md"
+      ]
+    },
+    {
+      "question_id": "HMI-ING-031",
+      "scope": {
+        "analytes": "Pb, Cd, tAs, iAs, DMA, MMA, tHg, Al, Cu, Mn, Se, Ba and Rb",
+        "material_form": "Rice protein, powder or ground and Rice protein, as sold",
+        "basis": "As reported; µg/kg; no moisture conversion",
+        "geography_market": "Reporting region, purchase market or growing area as each source reports",
+        "period": "Source collection years where reported; unreported dates stay unknown",
+        "stage": "Growing area, processing, retail and release testing",
+        "population_route": "Dietary ingestion",
+        "comparator_outcome": "HMI references by form and basis; same-study site, sampling and form contrasts"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "available",
+      "answer": "A finished-product estimate scales with the share of rice protein in the formula, the serving size and the other ingredients. FDA's reference servings for the category ran from 18 to 85 g.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Every source record and indexed dataset row that names rice protein",
+        "protocol_ref": "data/evidence/engine/ingredient/rice-protein/evidence-ledger.json",
+        "record_refs": [
+          "data/evidence/engine/ingredient/rice-protein/synthesis.json"
+        ],
+        "screening_ref": "data/evidence/engine/ingredient/rice-protein/evidence-ledger.json",
+        "searched_through": "2026-11-02",
+        "limitations": [
+          "Existing HMI library only; no new external literature search"
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [
+        "wiki/sources/fda2013-ias-rice-products-sampling.md"
+      ],
+      "synthesis_refs": [
+        "data/evidence/syntheses/engine-ingredient-rice-protein-v1.json#product/1"
+      ],
+      "applicability": "Applies only to the source-specific material, period, preparation and endpoint stated in the answer and attached evidence records",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/ingredients/rice-protein.md"
+      ]
+    },
+    {
+      "question_id": "HMI-ING-032",
+      "scope": {
+        "analytes": "Pb, Cd, tAs, iAs, DMA, MMA, tHg, Al, Cu, Mn, Se, Ba and Rb",
+        "material_form": "Rice protein, powder or ground and Rice protein, as sold",
+        "basis": "As reported; µg/kg; no moisture conversion",
+        "geography_market": "Reporting region, purchase market or growing area as each source reports",
+        "period": "Source collection years where reported; unreported dates stay unknown",
+        "stage": "Growing area, processing, retail and release testing",
+        "population_route": "Dietary ingestion",
+        "comparator_outcome": "HMI references by form and basis; same-study site, sampling and form contrasts"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "available",
+      "answer": "Daily use, several servings a day and use by children change exposure in proportion to the amount eaten. FDA's infant rice cereal action level of 100 µg/kg shows how intended population changes the reference used.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Every source record and indexed dataset row that names rice protein",
+        "protocol_ref": "data/evidence/engine/ingredient/rice-protein/evidence-ledger.json",
+        "record_refs": [
+          "data/evidence/engine/ingredient/rice-protein/synthesis.json"
+        ],
+        "screening_ref": "data/evidence/engine/ingredient/rice-protein/evidence-ledger.json",
+        "searched_through": "2026-11-02",
+        "limitations": [
+          "Existing HMI library only; no new external literature search"
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [
+        "wiki/sources/fda2020-ias-infant-rice-cereal-guidance.md"
+      ],
+      "synthesis_refs": [
+        "data/evidence/syntheses/engine-ingredient-rice-protein-v1.json#product/2"
+      ],
+      "applicability": "Applies only to the source-specific material, period, preparation and endpoint stated in the answer and attached evidence records",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/ingredients/rice-protein.md"
+      ]
+    },
+    {
+      "question_id": "HMI-ING-033",
+      "scope": {
+        "analytes": "Pb, Cd, tAs, iAs, DMA, MMA, tHg, Al, Cu, Mn, Se, Ba and Rb",
+        "material_form": "Rice protein, powder or ground and Rice protein, as sold",
+        "basis": "As reported; µg/kg; no moisture conversion",
+        "geography_market": "Reporting region, purchase market or growing area as each source reports",
+        "period": "Source collection years where reported; unreported dates stay unknown",
+        "stage": "Growing area, processing, retail and release testing",
+        "population_route": "Dietary ingestion",
+        "comparator_outcome": "HMI references by form and basis; same-study site, sampling and form contrasts"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "available",
+      "answer": "Any intake conclusion needs measurement of the finished product and a separate exposure assessment. The FDA samples date from 2012 to 2013 and may not represent current products.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Every source record and indexed dataset row that names rice protein",
+        "protocol_ref": "data/evidence/engine/ingredient/rice-protein/evidence-ledger.json",
+        "record_refs": [
+          "data/evidence/engine/ingredient/rice-protein/synthesis.json"
+        ],
+        "screening_ref": "data/evidence/engine/ingredient/rice-protein/evidence-ledger.json",
+        "searched_through": "2026-11-02",
+        "limitations": [
+          "Existing HMI library only; no new external literature search"
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [
+        "wiki/sources/fda2013-ias-rice-products-sampling.md"
+      ],
+      "synthesis_refs": [
+        "data/evidence/syntheses/engine-ingredient-rice-protein-v1.json#product/3"
+      ],
+      "applicability": "Applies only to the source-specific material, period, preparation and endpoint stated in the answer and attached evidence records",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/ingredients/rice-protein.md"
+      ]
+    },
+    {
+      "question_id": "HMI-ING-034",
+      "scope": {
+        "analytes": "Pb, Cd, tAs, iAs, DMA, MMA, tHg, Al, Cu, Mn, Se, Ba and Rb",
+        "material_form": "Rice protein, powder or ground and Rice protein, as sold",
+        "basis": "As reported; µg/kg; no moisture conversion",
+        "geography_market": "Reporting region, purchase market or growing area as each source reports",
+        "period": "Source collection years where reported; unreported dates stay unknown",
+        "stage": "Growing area, processing, retail and release testing",
+        "population_route": "Dietary ingestion",
+        "comparator_outcome": "HMI references by form and basis; same-study site, sampling and form contrasts"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "available",
+      "answer": "No regulatory row names rice protein; the EU rice and rice flour rows, California's per-day levels and China's rice powder rows are the nearest instruments.\n\nHow much arsenic is in rice protein? In FDA's US retail sampling, 17 of 19 rice protein samples had quantified inorganic arsenic from 25 to 152 µg/kg, median 47 µg/kg (Index calculation). These samples date from 2012 to 2013.\n\nWhy does rice protein contain arsenic? The rice plant takes up arsenic from flooded paddy soil, and arsenic concentrates in the bran and germ that brown rice keeps. Rice protein is made from that grain.\n\nIs inorganic arsenic or total arsenic the right test for rice protein? Inorganic arsenic: in FDA's samples it was between 32 and 72 percent of total arsenic, so a total figure does not give the inorganic share. Rice limits are set for inorganic arsenic.\n\nDoes rice protein contain cadmium? Rice endosperm protein averaged 0.14 mg/kg cadmium across five batches, and a Canadian survey found rice-based protein powders highest in cadmium among the protein types it tested. No quantified result exists for brown rice protein.\n\nDoes rice protein contain lead? No quantified result exists; one brown rice protein powder was below an unprinted detection limit. Ask for lead with a stated quantification limit.\n\nDoes rice protein contain mercury? One brown rice protein powder in a Canadian survey had 0.022 ppm mercury, the highest value in that survey.\n\nIs brown rice protein higher in arsenic than other rice protein? In a small FDA comparison, yes: 37 to 99 µg/kg inorganic arsenic in brown rice protein against 25 to 47 µg/kg in rice protein where quantified. The comparison is tentative.\n\nIs rice protein higher in arsenic than pea protein? Pea protein has no arsenic data, so they cannot be compared. Rice protein's inorganic arsenic is documented in 17 samples. See [[ingredients/pea-protein]].\n\nWhich country grows the lowest-arsenic rice for protein? No rice protein result names the growing region, so China, Vietnam, the USA and Canada cannot be compared for rice protein. Rice grain origin data are on [[ingredients/rice]] but do not convert directly to protein.\n\nCan processing remove arsenic or cadmium from rice protein? Acid washing is used to remove cadmium during extraction, but its effect was not measured. No arsenic removal step for rice protein has been measured.\n\nHow do I check a rice protein against California Prop 65? Multiply concentration by serving weight: 0.14 mg/kg cadmium × 30 g = 4.2 µg, against the 4.1 µg/day cadmium level. The Index does not yet hold the inorganic arsenic level.\n\nWhat does \"not detected\" mean on a rice protein certificate? It means below the laboratory limit; one survey reported a brown rice protein as below detection without printing the limit. FDA replaced non-speciated results with half the total arsenic value, which is a substitute, not a measurement.\n\nWhat should a rice protein supplier's test report include? The accredited laboratory's name and ISO/IEC 17025 status, the report number, the method, quantification limits, inorganic arsenic by speciation, cadmium, lead and mercury, the rice type and the lot tested. The published evidence lacks quantified lead and growing origin.\n\nDoes the EU limit metals in rice protein? No row names rice protein; rice rows set cadmium at 0.15 mg/kg and inorganic arsenic at 0.15 or 0.25 mg/kg depending on the rice form.\n\nDoes China set a limit for rice protein? GB 2762-2022 has no protein powder row; rice powder is limited to 0.2 mg/kg cadmium and 0.2 mg/kg inorganic arsenic. The 2025 edition replaced it from 2026-09-02.\n\nDoes FDA limit arsenic in rice protein? No: FDA's 100 µg/kg inorganic arsenic action level applies to infant rice cereal.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Every source record and indexed dataset row that names rice protein",
+        "protocol_ref": "data/evidence/engine/ingredient/rice-protein/evidence-ledger.json",
+        "record_refs": [
+          "data/evidence/engine/ingredient/rice-protein/synthesis.json"
+        ],
+        "screening_ref": "data/evidence/engine/ingredient/rice-protein/evidence-ledger.json",
+        "searched_through": "2026-11-02",
+        "limitations": [
+          "Existing HMI library only; no new external literature search"
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [
+        "wiki/sources/eu-2023-915-contaminants-maximum-levels.md",
+        "wiki/sources/oehha-lead-prop65-listing.md",
+        "wiki/sources/oehha-cadmium-prop65-madl-2001.md",
+        "wiki/sources/usda-fas2023-china-gb-2762-2022-translation.md",
+        "wiki/sources/fda2013-ias-rice-products-sampling.md",
+        "wiki/sources/scott2025-brown-white-rice-arsenic.md",
+        "wiki/sources/hosojima2017-rice-endosperm-protein-cadmium.md",
+        "wiki/sources/cfia2020-toxic-metals-selected-foods-2018-19.md",
+        "wiki/sources/horvath2025-hungary-protein-powders-metals.md",
+        "wiki/sources/oehha-arsenic-prop65-listing.md",
+        "wiki/sources/chinanhc2025-gb-2762-contaminants.md",
+        "wiki/sources/fda2020-ias-infant-rice-cereal-guidance.md"
+      ],
+      "synthesis_refs": [
+        "data/evidence/syntheses/engine-ingredient-rice-protein-v1.json#assessment/1"
+      ],
+      "applicability": "Applies only to the source-specific material, period, preparation and endpoint stated in the answer and attached evidence records",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/ingredients/rice-protein.md"
+      ]
+    },
+    {
+      "question_id": "HMI-ING-035",
+      "scope": {
+        "analytes": "Pb, Cd, tAs, iAs, DMA, MMA, tHg, Al, Cu, Mn, Se, Ba and Rb",
+        "material_form": "Rice protein, powder or ground and Rice protein, as sold",
+        "basis": "As reported; µg/kg; no moisture conversion",
+        "geography_market": "Reporting region, purchase market or growing area as each source reports",
+        "period": "Source collection years where reported; unreported dates stay unknown",
+        "stage": "Growing area, processing, retail and release testing",
+        "population_route": "Dietary ingestion",
+        "comparator_outcome": "HMI references by form and basis; same-study site, sampling and form contrasts"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "available",
+      "answer": "Every record that reports rice protein separately was read and extracted: four occurrence sources, with three context sources for pathways and controls.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Every source record and indexed dataset row that names rice protein",
+        "protocol_ref": "data/evidence/engine/ingredient/rice-protein/evidence-ledger.json",
+        "record_refs": [
+          "data/evidence/engine/ingredient/rice-protein/synthesis.json"
+        ],
+        "screening_ref": "data/evidence/engine/ingredient/rice-protein/evidence-ledger.json",
+        "searched_through": "2026-11-02",
+        "limitations": [
+          "Existing HMI library only; no new external literature search"
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [
+        "wiki/sources/fda2013-ias-rice-products-sampling.md",
+        "wiki/sources/hosojima2017-rice-endosperm-protein-cadmium.md",
+        "wiki/sources/cfia2020-toxic-metals-selected-foods-2018-19.md",
+        "wiki/sources/horvath2025-hungary-protein-powders-metals.md",
+        "wiki/sources/scott2025-brown-white-rice-arsenic.md",
+        "wiki/sources/zhao2023-silicon-cd-rice.md",
+        "wiki/sources/seyfferth2025-rice-water-management-as-hg-cd.md"
+      ],
+      "synthesis_refs": [
+        "data/evidence/syntheses/engine-ingredient-rice-protein-v1.json#assessment/2"
+      ],
+      "applicability": "Applies only to the source-specific material, period, preparation and endpoint stated in the answer and attached evidence records",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/ingredients/rice-protein.md"
+      ]
+    },
+    {
+      "question_id": "HMI-ING-036",
+      "scope": {
+        "analytes": "Pb, Cd, tAs, iAs, DMA, MMA, tHg, Al, Cu, Mn, Se, Ba and Rb",
+        "material_form": "Rice protein, powder or ground and Rice protein, as sold",
+        "basis": "As reported; µg/kg; no moisture conversion",
+        "geography_market": "Reporting region, purchase market or growing area as each source reports",
+        "period": "Source collection years where reported; unreported dates stay unknown",
+        "stage": "Growing area, processing, retail and release testing",
+        "population_route": "Dietary ingestion",
+        "comparator_outcome": "HMI references by form and basis; same-study site, sampling and form contrasts"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "available",
+      "answer": "Unresolved: quantified lead, brown rice protein cadmium, growing origin and measured processing effects. This version adds the page from the Index records available on 2 November 2026.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Every source record and indexed dataset row that names rice protein",
+        "protocol_ref": "data/evidence/engine/ingredient/rice-protein/evidence-ledger.json",
+        "record_refs": [
+          "data/evidence/engine/ingredient/rice-protein/synthesis.json"
+        ],
+        "screening_ref": "data/evidence/engine/ingredient/rice-protein/evidence-ledger.json",
+        "searched_through": "2026-11-02",
+        "limitations": [
+          "Existing HMI library only; no new external literature search"
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [
+        "wiki/sources/fda2013-ias-rice-products-sampling.md"
+      ],
+      "synthesis_refs": [
+        "data/evidence/syntheses/engine-ingredient-rice-protein-v1.json#assessment/3"
+      ],
+      "applicability": "Applies only to the source-specific material, period, preparation and endpoint stated in the answer and attached evidence records",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/ingredients/rice-protein.md"
+      ]
+    }
+  ]
+}

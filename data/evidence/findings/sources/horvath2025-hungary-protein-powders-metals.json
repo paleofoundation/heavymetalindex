@@ -3221,10 +3221,10 @@
    "id": "horvath2025-hungary-protein-powders-metals:Al:protein-powder-plant-based-vegan-retail-product-17:mean",
    "material": {
     "label_as_printed": "Protein powder, plant-based (vegan) (retail product 17: brown rice)",
-    "page": "ingredients/protein-powder",
+    "page": "ingredients/rice-protein",
     "form": "powder",
     "state": "as_sold",
-    "route_rule": "ngram"
+    "route_rule": "override:HMI-PROTEIN-PEA-RICE-1"
    },
    "analyte": "Al",
    "group": "retail product 17, bought online in Hungary, produced in USA",
@@ -3249,10 +3249,10 @@
    "id": "horvath2025-hungary-protein-powders-metals:Mn:protein-powder-plant-based-vegan-retail-product-17:mean",
    "material": {
     "label_as_printed": "Protein powder, plant-based (vegan) (retail product 17: brown rice)",
-    "page": "ingredients/protein-powder",
+    "page": "ingredients/rice-protein",
     "form": "powder",
     "state": "as_sold",
-    "route_rule": "ngram"
+    "route_rule": "override:HMI-PROTEIN-PEA-RICE-1"
    },
    "analyte": "Mn",
    "group": "retail product 17, bought online in Hungary, produced in USA",
@@ -3277,10 +3277,10 @@
    "id": "horvath2025-hungary-protein-powders-metals:Cu:protein-powder-plant-based-vegan-retail-product-17:mean",
    "material": {
     "label_as_printed": "Protein powder, plant-based (vegan) (retail product 17: brown rice)",
-    "page": "ingredients/protein-powder",
+    "page": "ingredients/rice-protein",
     "form": "powder",
     "state": "as_sold",
-    "route_rule": "ngram"
+    "route_rule": "override:HMI-PROTEIN-PEA-RICE-1"
    },
    "analyte": "Cu",
    "group": "retail product 17, bought online in Hungary, produced in USA",
@@ -3305,10 +3305,10 @@
    "id": "horvath2025-hungary-protein-powders-metals:Se:protein-powder-plant-based-vegan-retail-product-17:not_detected",
    "material": {
     "label_as_printed": "Protein powder, plant-based (vegan) (retail product 17: brown rice)",
-    "page": "ingredients/protein-powder",
+    "page": "ingredients/rice-protein",
     "form": "powder",
     "state": "as_sold",
-    "route_rule": "ngram"
+    "route_rule": "override:HMI-PROTEIN-PEA-RICE-1"
    },
    "analyte": "Se",
    "group": "retail product 17, bought online in Hungary, produced in USA",
@@ -3333,10 +3333,10 @@
    "id": "horvath2025-hungary-protein-powders-metals:Rb:protein-powder-plant-based-vegan-retail-product-17:not_detected",
    "material": {
     "label_as_printed": "Protein powder, plant-based (vegan) (retail product 17: brown rice)",
-    "page": "ingredients/protein-powder",
+    "page": "ingredients/rice-protein",
     "form": "powder",
     "state": "as_sold",
-    "route_rule": "ngram"
+    "route_rule": "override:HMI-PROTEIN-PEA-RICE-1"
    },
    "analyte": "Rb",
    "group": "retail product 17, bought online in Hungary, produced in USA",
@@ -3361,10 +3361,10 @@
    "id": "horvath2025-hungary-protein-powders-metals:Ba:protein-powder-plant-based-vegan-retail-product-17:not_detected",
    "material": {
     "label_as_printed": "Protein powder, plant-based (vegan) (retail product 17: brown rice)",
-    "page": "ingredients/protein-powder",
+    "page": "ingredients/rice-protein",
     "form": "powder",
     "state": "as_sold",
-    "route_rule": "ngram"
+    "route_rule": "override:HMI-PROTEIN-PEA-RICE-1"
    },
    "analyte": "Ba",
    "group": "retail product 17, bought online in Hungary, produced in USA",
@@ -5517,10 +5517,10 @@
    "id": "horvath2025-hungary-protein-powders-metals:Pb:protein-powder-plant-based-vegan-retail-product-17:not_detected",
    "material": {
     "label_as_printed": "Protein powder, plant-based (vegan) (retail product 17: brown rice)",
-    "page": "ingredients/protein-powder",
+    "page": "ingredients/rice-protein",
     "form": "powder",
     "state": "as_sold",
-    "route_rule": "ngram"
+    "route_rule": "override:HMI-PROTEIN-PEA-RICE-1"
    },
    "analyte": "Pb",
    "group": "retail product 17, bought online in Hungary, produced in USA",
@@ -5545,10 +5545,10 @@
    "id": "horvath2025-hungary-protein-powders-metals:Cd:protein-powder-plant-based-vegan-retail-product-17:not_detected",
    "material": {
     "label_as_printed": "Protein powder, plant-based (vegan) (retail product 17: brown rice)",
-    "page": "ingredients/protein-powder",
+    "page": "ingredients/rice-protein",
     "form": "powder",
     "state": "as_sold",
-    "route_rule": "ngram"
+    "route_rule": "override:HMI-PROTEIN-PEA-RICE-1"
    },
    "analyte": "Cd",
    "group": "retail product 17, bought online in Hungary, produced in USA",
@@ -5573,10 +5573,10 @@
    "id": "horvath2025-hungary-protein-powders-metals:tAs:protein-powder-plant-based-vegan-retail-product-17:not_detected",
    "material": {
     "label_as_printed": "Protein powder, plant-based (vegan) (retail product 17: brown rice)",
-    "page": "ingredients/protein-powder",
+    "page": "ingredients/rice-protein",
     "form": "powder",
     "state": "as_sold",
-    "route_rule": "ngram"
+    "route_rule": "override:HMI-PROTEIN-PEA-RICE-1"
    },
    "analyte": "tAs",
    "group": "retail product 17, bought online in Hungary, produced in USA",
@@ -5601,10 +5601,10 @@
    "id": "horvath2025-hungary-protein-powders-metals:tHg:protein-powder-plant-based-vegan-retail-product-17:not_detected",
    "material": {
     "label_as_printed": "Protein powder, plant-based (vegan) (retail product 17: brown rice)",
-    "page": "ingredients/protein-powder",
+    "page": "ingredients/rice-protein",
     "form": "powder",
     "state": "as_sold",
-    "route_rule": "ngram"
+    "route_rule": "override:HMI-PROTEIN-PEA-RICE-1"
    },
    "analyte": "tHg",
    "group": "retail product 17, bought online in Hungary, produced in USA",
