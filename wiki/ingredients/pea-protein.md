@@ -1,4 +1,6 @@
 ---
+hero_image: /static/heroes/green-beans-frozen-peas.webp
+hero_image_alt: "Green beans and frozen green peas."
 title: "Pea protein"
 dek: "Lead, cadmium, arsenic and mercury evidence for pea protein isolate and concentrate. Two retail pea powders carry published single-product results; most origin and arsenic questions have no published data."
 description: "Published lead, cadmium, arsenic and mercury results for pea protein isolate and concentrate, with EU, California Prop 65, FDA and China limits and the questions a buyer should ask a supplier."

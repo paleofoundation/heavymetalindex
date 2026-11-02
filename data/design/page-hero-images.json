@@ -9419,6 +9419,18 @@
     "ingredients/edible-insects": {
       "hero_image": "/static/heroes/edible-insects.webp",
       "hero_image_alt": "A bowl of roasted crickets, a dish of dried mealworms and a dish of cricket flour on a dark stone surface."
+    },
+    "ingredients/pea-protein": {
+      "hero_image": "/static/heroes/green-beans-frozen-peas.webp",
+      "hero_image_alt": "Green beans and frozen green peas.",
+      "placeholder": true,
+      "placeholder_note": "Stand-in image until the owner supplies page artwork (HMI-PROTEIN-PEA-RICE-1, 2 Nov 2026). Not final."
+    },
+    "ingredients/rice-protein": {
+      "hero_image": "/static/heroes/rice-grain-flour-noodles-cakes.webp",
+      "hero_image_alt": "Rice grain, rice flour, rice noodles, puffed rice and rice cakes.",
+      "placeholder": true,
+      "placeholder_note": "Stand-in image until the owner supplies page artwork (HMI-PROTEIN-PEA-RICE-1, 2 Nov 2026). Not final."
     }
   }
 }

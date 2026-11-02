@@ -1,4 +1,6 @@
 ---
+hero_image: /static/heroes/rice-grain-flour-noodles-cakes.webp
+hero_image_alt: "Rice grain, rice flour, rice noodles, puffed rice and rice cakes."
 title: "Rice protein"
 dek: "Arsenic, cadmium, lead and mercury evidence for brown rice protein and other rice-derived protein powders. Published results are few, mostly summary figures, and none is reported by growing origin."
 description: "Published inorganic arsenic, cadmium, lead and mercury results for brown rice protein, with EU, California Prop 65, FDA and China limits and the questions a buyer should ask a supplier."

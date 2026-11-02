@@ -35,7 +35,7 @@ Order HMI-PROTEIN-PEA-RICE-1, second instruction: build `/ingredients/pea-protei
 
 ## Blockers
 
-1. **No hero artwork.** Neither page has an entry in `data/design/page-hero-images.json`. The engine returns `blocked: missing_required_input`. In the throwaway runtime only, stand-in images (green beans and peas; dairy and protein powder) were registered to let the build run. They are not for release, and the owner must supply or approve real artwork.
+1. **Hero artwork: stand-ins registered.** At the owner's request (2 Nov 2026), both pages carry existing site images as stand-ins, flagged `placeholder: true` in `data/design/page-hero-images.json` and set in the wiki frontmatter: pea protein uses `green-beans-frozen-peas.webp`, rice protein uses `rice-grain-flour-noodles-cakes.webp` (the same image as Rice). The owner must still supply or approve final artwork.
 2. **Main cannot render the canonical Rice style.**
    - `quartz/components/approvedRiceChrome.tsx`, which emits `data-ingredient-presentation="rice-shared-v1"`, exists only in the live workspace (`~/ops/heavymetalindex`, HEAD in `engine-runtime-ops-head.txt`).
    - Main's `tools/engine/page/page.mjs` imports `pageHeroImage`, which main's `hero-images.mjs` does not export, and `tools/contracts/build-thin-pages-ledger.mjs` is missing.
@@ -89,4 +89,4 @@ The owner should decide one of the following:
 - (a) Port the shared Rice chrome and a coherent engine from the live workspace to main. This is a shared-infrastructure change. After that, register the page owners and baselines and rebuild from main.
 - (b) Render and accept these candidates in a copy of the live workspace, which deploys production, for Elon to release.
 
-Either way, hero artwork is required first.
+Either way, final hero artwork replaces the stand-ins before release.
