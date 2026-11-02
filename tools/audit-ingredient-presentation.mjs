@@ -23,7 +23,8 @@ export function inspectIngredientPresentation(html) {
  }
  const hero=nodes.find(n=>has(n,'hero-band'));
  const image=hero&&descendants(hero).find(n=>has(n,'hero-background'));
- if(!image||!attrs(image).src)errors.push('Original hero image missing');
+ // A registered image withheld for the wrong subject is a deliberate text-only hero.
+ if((!image||!attrs(image).src)&&!(hero&&attrs(hero)['data-hero-withheld']))errors.push('Original hero image missing');
  const occurrence=nodes.filter(n=>attrs(n)['data-comparison-state']);
  const meaningful=occurrence.filter(n=>['rated','direct'].includes(attrs(n)['data-comparison-state'])).length;
  if(!meaningful)errors.push('Occurrence table has no usable rated or direct comparator; review/recover compatible reference evidence before publication');

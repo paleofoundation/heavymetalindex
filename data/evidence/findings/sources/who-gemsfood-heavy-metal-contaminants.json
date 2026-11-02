@@ -1,0 +1,44 @@
+{
+  "source_id": "who-gemsfood-heavy-metal-contaminants",
+  "primary_artifact": "raw/reports/gemsfood-contaminants/2026-06-20-export/Aluminum.csv",
+  "primary_sha256": "79d40dce87b775b71c0a8d098ebdb8b6af0b945047f97a078ff6ed18d309baae",
+  "extracted_at": "2026-10-22",
+  "extractor": "engine-v1",
+  "disposition": "occurrence_extracted",
+  "disposition_reason": "WHO GEMS/Food individual and aggregated results for every food: Pb, Cd, Hg, Al, Sn, Ni and Cr from the June 2026 export and every arsenic species from the May 2026 per-region exports.",
+  "disposition_locator": "raw/reports/gemsfood-contaminants/2026-06-20-export/*.csv; raw/reports/gemsfood-contaminants/who-gemsfood-arsenic-*-2026-05-04.csv",
+  "study": {
+    "design": "international monitoring database (national submissions)",
+    "origin": "Submitting WHO region; FoodOriginName gives domestic/imported only",
+    "market": "per record (WHO reporting region)",
+    "period": {
+      "from": null,
+      "to": null,
+      "as_reported": "per record (Year field)"
+    },
+    "method": "per submitting laboratory or programme method",
+    "lod": [],
+    "basis": "as_sold",
+    "qa": "AnalyticalQAName per record",
+    "site_context": "monitoring"
+  },
+  "findings": [],
+  "sample_values": [],
+  "controls": [],
+  "unresolved": [
+    "Country identity is not in the export, so WHO region cannot be read as growing origin."
+  ],
+  "dataset": {
+    "manifest": "data/evidence/findings/datasets/who-gemsfood-heavy-metal-contaminants.manifest.json",
+    "shards": [
+      "data/evidence/findings/datasets/who-gemsfood-heavy-metal-contaminants--Pb.jsonl.gz"
+    ],
+    "decisions": "data/evidence/findings/datasets/who-gemsfood-heavy-metal-contaminants--decisions.jsonl.gz",
+    "rows": 22,
+    "scope": "Scoped subset for ingredients/rice-protein only (HMI-PROTEIN-PEA-RICE-1). The full GEMS/Food shards are kept outside the repository; this file set is replaced when they are synced."
+  },
+  "extraction_scope": "complete",
+  "extraction_owners": [
+    "engine-v1"
+  ]
+}

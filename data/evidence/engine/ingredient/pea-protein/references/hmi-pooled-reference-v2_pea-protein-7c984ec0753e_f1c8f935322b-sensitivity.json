@@ -1,0 +1,70 @@
+{
+  "label": "Equal weight per subgroup",
+  "distribution": {
+    "scope": {
+      "ingredient": "pea-protein",
+      "analyte": "Ba",
+      "basis": "Pea protein, powder or ground; As sold, as eaten or fresh weight, µg/kg; no moisture conversion",
+      "statistic": "subgroup median concentration",
+      "market": "International pea protein evidence library",
+      "period": "Source collection years as reported"
+    },
+    "weighting": "family-group",
+    "n": 2,
+    "family_count": 1,
+    "families": [
+      "ring2021-ireland-protein-powders-metals"
+    ],
+    "q1": {
+      "lower": 263.7,
+      "upper": 263.7,
+      "exact": true
+    },
+    "median": {
+      "lower": 291.5,
+      "upper": 291.5,
+      "exact": true
+    },
+    "q3": {
+      "lower": 319.3,
+      "upper": 319.3,
+      "exact": true
+    },
+    "units": [
+      {
+        "ingredient": "pea-protein",
+        "analyte": "Ba",
+        "basis": "Pea protein, powder or ground; As sold, as eaten or fresh weight, µg/kg; no moisture conversion",
+        "statistic": "subgroup median concentration",
+        "market": "International pea protein evidence library",
+        "period": "Source collection years as reported",
+        "id": "med-23a51f5f371c",
+        "family": "ring2021-ireland-protein-powders-metals",
+        "group": "retail product 12th percentile (pea), bought online and in Cork retail outlets, Ireland",
+        "lower": 263.7,
+        "upper": 263.7,
+        "n": 1,
+        "locator": "Table 6, p. 9",
+        "weight": 0.5
+      },
+      {
+        "ingredient": "pea-protein",
+        "analyte": "Ba",
+        "basis": "Pea protein, powder or ground; As sold, as eaten or fresh weight, µg/kg; no moisture conversion",
+        "statistic": "subgroup median concentration",
+        "market": "International pea protein evidence library",
+        "period": "Source collection years as reported",
+        "id": "med-a0c787aa4c27",
+        "family": "ring2021-ireland-protein-powders-metals",
+        "group": "retail product P2 (pea), bought online and in Cork retail outlets, Ireland",
+        "lower": 319.3,
+        "upper": 319.3,
+        "n": 1,
+        "locator": "Table 6, p. 9",
+        "weight": 0.5
+      }
+    ],
+    "eligible": false,
+    "quantile_method": "Inverse weighted empirical CDF; midpoint at exact cumulative-weight boundaries"
+  }
+}

@@ -1,0 +1,651 @@
+{
+  "schema_version": 1,
+  "ingredient": "rice-protein",
+  "html_sha256": "361fd400542c6f779ce6c2edff78560ca7b4af883393b38918c453ec96d340ca",
+  "universe_sha256": "fbb7bfa60adf86d0fb36a60fcb8363c062247462f9b90b979135c9eabbc475fb",
+  "universe_size": 55,
+  "universe_complete": true,
+  "universe_discovery_gaps": 0,
+  "source_records": 6,
+  "dataset_rows": 49,
+  "dispositions": {
+    "occurrence_extracted": 27,
+    "out_of_scope": 29,
+    "context_only": 1
+  },
+  "extracted_results": 86,
+  "ledger_status": "present",
+  "rendered_rows": 86,
+  "rendered_row_ids": [
+    "hmi-occurrence-rice-protein-Al-0",
+    "hmi-occurrence-rice-protein-Ba-0",
+    "hmi-occurrence-rice-protein-Cd-0",
+    "hmi-occurrence-rice-protein-Cd-1",
+    "hmi-occurrence-rice-protein-Cu-0",
+    "hmi-occurrence-rice-protein-DMA-0",
+    "hmi-occurrence-rice-protein-DMA-1",
+    "hmi-occurrence-rice-protein-DMA-10",
+    "hmi-occurrence-rice-protein-DMA-11",
+    "hmi-occurrence-rice-protein-DMA-12",
+    "hmi-occurrence-rice-protein-DMA-13",
+    "hmi-occurrence-rice-protein-DMA-14",
+    "hmi-occurrence-rice-protein-DMA-15",
+    "hmi-occurrence-rice-protein-DMA-16",
+    "hmi-occurrence-rice-protein-DMA-2",
+    "hmi-occurrence-rice-protein-DMA-3",
+    "hmi-occurrence-rice-protein-DMA-4",
+    "hmi-occurrence-rice-protein-DMA-5",
+    "hmi-occurrence-rice-protein-DMA-6",
+    "hmi-occurrence-rice-protein-DMA-7",
+    "hmi-occurrence-rice-protein-DMA-8",
+    "hmi-occurrence-rice-protein-DMA-9",
+    "hmi-occurrence-rice-protein-MMA-0",
+    "hmi-occurrence-rice-protein-MMA-1",
+    "hmi-occurrence-rice-protein-MMA-10",
+    "hmi-occurrence-rice-protein-MMA-11",
+    "hmi-occurrence-rice-protein-MMA-12",
+    "hmi-occurrence-rice-protein-MMA-13",
+    "hmi-occurrence-rice-protein-MMA-14",
+    "hmi-occurrence-rice-protein-MMA-15",
+    "hmi-occurrence-rice-protein-MMA-16",
+    "hmi-occurrence-rice-protein-MMA-2",
+    "hmi-occurrence-rice-protein-MMA-3",
+    "hmi-occurrence-rice-protein-MMA-4",
+    "hmi-occurrence-rice-protein-MMA-5",
+    "hmi-occurrence-rice-protein-MMA-6",
+    "hmi-occurrence-rice-protein-MMA-7",
+    "hmi-occurrence-rice-protein-MMA-8",
+    "hmi-occurrence-rice-protein-MMA-9",
+    "hmi-occurrence-rice-protein-Mn-0",
+    "hmi-occurrence-rice-protein-Pb-0",
+    "hmi-occurrence-rice-protein-Pb-1",
+    "hmi-occurrence-rice-protein-Pb-2",
+    "hmi-occurrence-rice-protein-Rb-0",
+    "hmi-occurrence-rice-protein-Se-0",
+    "hmi-occurrence-rice-protein-iAs-0",
+    "hmi-occurrence-rice-protein-iAs-1",
+    "hmi-occurrence-rice-protein-iAs-10",
+    "hmi-occurrence-rice-protein-iAs-11",
+    "hmi-occurrence-rice-protein-iAs-12",
+    "hmi-occurrence-rice-protein-iAs-13",
+    "hmi-occurrence-rice-protein-iAs-14",
+    "hmi-occurrence-rice-protein-iAs-15",
+    "hmi-occurrence-rice-protein-iAs-16",
+    "hmi-occurrence-rice-protein-iAs-17",
+    "hmi-occurrence-rice-protein-iAs-18",
+    "hmi-occurrence-rice-protein-iAs-2",
+    "hmi-occurrence-rice-protein-iAs-3",
+    "hmi-occurrence-rice-protein-iAs-4",
+    "hmi-occurrence-rice-protein-iAs-5",
+    "hmi-occurrence-rice-protein-iAs-6",
+    "hmi-occurrence-rice-protein-iAs-7",
+    "hmi-occurrence-rice-protein-iAs-8",
+    "hmi-occurrence-rice-protein-iAs-9",
+    "hmi-occurrence-rice-protein-tAs-0",
+    "hmi-occurrence-rice-protein-tAs-1",
+    "hmi-occurrence-rice-protein-tAs-10",
+    "hmi-occurrence-rice-protein-tAs-11",
+    "hmi-occurrence-rice-protein-tAs-12",
+    "hmi-occurrence-rice-protein-tAs-13",
+    "hmi-occurrence-rice-protein-tAs-14",
+    "hmi-occurrence-rice-protein-tAs-15",
+    "hmi-occurrence-rice-protein-tAs-16",
+    "hmi-occurrence-rice-protein-tAs-17",
+    "hmi-occurrence-rice-protein-tAs-18",
+    "hmi-occurrence-rice-protein-tAs-19",
+    "hmi-occurrence-rice-protein-tAs-2",
+    "hmi-occurrence-rice-protein-tAs-3",
+    "hmi-occurrence-rice-protein-tAs-4",
+    "hmi-occurrence-rice-protein-tAs-5",
+    "hmi-occurrence-rice-protein-tAs-6",
+    "hmi-occurrence-rice-protein-tAs-7",
+    "hmi-occurrence-rice-protein-tAs-8",
+    "hmi-occurrence-rice-protein-tAs-9",
+    "hmi-occurrence-rice-protein-tHg-0",
+    "hmi-occurrence-rice-protein-tHg-1"
+  ],
+  "by_analyte": {
+    "Pb": {
+      "rows": 3,
+      "rated": 2,
+      "direct": 0,
+      "bounded": 0,
+      "unavailable": 1,
+      "missing": 0,
+      "unavailable_reasons": {
+        "no_numeric_value_or_bound": 1
+      }
+    },
+    "Cd": {
+      "rows": 2,
+      "rated": 0,
+      "direct": 0,
+      "bounded": 0,
+      "unavailable": 2,
+      "missing": 0,
+      "unavailable_reasons": {
+        "no_numeric_value_or_bound": 1,
+        "basis_incompatible_with_all_references": 1
+      }
+    },
+    "tAs": {
+      "rows": 20,
+      "rated": 19,
+      "direct": 0,
+      "bounded": 0,
+      "unavailable": 1,
+      "missing": 0,
+      "unavailable_reasons": {
+        "no_numeric_value_or_bound": 1
+      }
+    },
+    "iAs": {
+      "rows": 19,
+      "rated": 17,
+      "direct": 0,
+      "bounded": 0,
+      "unavailable": 2,
+      "missing": 0,
+      "unavailable_reasons": {
+        "no_numeric_value_or_bound": 2
+      }
+    },
+    "DMA": {
+      "rows": 17,
+      "rated": 17,
+      "direct": 0,
+      "bounded": 0,
+      "unavailable": 0,
+      "missing": 0,
+      "unavailable_reasons": {}
+    },
+    "MMA": {
+      "rows": 17,
+      "rated": 3,
+      "direct": 0,
+      "bounded": 1,
+      "unavailable": 13,
+      "missing": 0,
+      "unavailable_reasons": {
+        "bounds_span_categories": 13
+      }
+    },
+    "tHg": {
+      "rows": 2,
+      "rated": 0,
+      "direct": 0,
+      "bounded": 0,
+      "unavailable": 2,
+      "missing": 0,
+      "unavailable_reasons": {
+        "reference_below_display_minimum_after_full_ledger": 1,
+        "no_numeric_value_or_bound": 1
+      }
+    },
+    "Al": {
+      "rows": 1,
+      "rated": 0,
+      "direct": 0,
+      "bounded": 0,
+      "unavailable": 1,
+      "missing": 0,
+      "unavailable_reasons": {
+        "basis_incompatible_with_all_references": 1
+      }
+    },
+    "Cu": {
+      "rows": 1,
+      "rated": 0,
+      "direct": 0,
+      "bounded": 0,
+      "unavailable": 1,
+      "missing": 0,
+      "unavailable_reasons": {
+        "basis_incompatible_with_all_references": 1
+      }
+    },
+    "Mn": {
+      "rows": 1,
+      "rated": 0,
+      "direct": 0,
+      "bounded": 0,
+      "unavailable": 1,
+      "missing": 0,
+      "unavailable_reasons": {
+        "basis_incompatible_with_all_references": 1
+      }
+    },
+    "Se": {
+      "rows": 1,
+      "rated": 0,
+      "direct": 0,
+      "bounded": 0,
+      "unavailable": 1,
+      "missing": 0,
+      "unavailable_reasons": {
+        "no_numeric_value_or_bound": 1
+      }
+    },
+    "Ba": {
+      "rows": 1,
+      "rated": 0,
+      "direct": 0,
+      "bounded": 0,
+      "unavailable": 1,
+      "missing": 0,
+      "unavailable_reasons": {
+        "no_numeric_value_or_bound": 1
+      }
+    },
+    "Rb": {
+      "rows": 1,
+      "rated": 0,
+      "direct": 0,
+      "bounded": 0,
+      "unavailable": 1,
+      "missing": 0,
+      "unavailable_reasons": {
+        "no_numeric_value_or_bound": 1
+      }
+    }
+  },
+  "rendered_references": [
+    {
+      "id": "hmi-pooled-reference-v2:rice-protein-07dc36a9d6f5:4c8d4123dbc3",
+      "scope_text": "HMI rice protein Pb reference · Rice protein, powder or ground, dry weight. Rice protein, powder or ground; Dry weight, µg/kg; no moisture conversion. Distribution of subgroup median concentration values.",
+      "source_ids": [
+        "who-gemsfood-heavy-metal-contaminants"
+      ]
+    },
+    {
+      "id": "hmi-pooled-reference-v2:rice-protein-8db3b75ddfe7:4aa66a133211",
+      "scope_text": "HMI rice protein tAs reference · Rice protein, powder or ground. Rice protein, powder or ground; As sold, as eaten or fresh weight, µg/kg; no moisture conversion. Distribution of subgroup median concentration values.",
+      "source_ids": [
+        "fda2013-ias-rice-products-sampling"
+      ]
+    },
+    {
+      "id": "hmi-pooled-reference-v2:rice-protein-203badecdc99:8183dacc2f23",
+      "scope_text": "HMI rice protein tAs reference · Rice protein, as sold. Rice protein, as sold; As sold, as eaten or fresh weight, µg/kg; no moisture conversion. Distribution of subgroup median concentration values.",
+      "source_ids": [
+        "fda2013-ias-rice-products-sampling"
+      ]
+    },
+    {
+      "id": "hmi-pooled-reference-v2:rice-protein-f841e7876af9:eed9d65b5a53",
+      "scope_text": "HMI rice protein iAs reference · Rice protein, powder or ground. Rice protein, powder or ground; As sold, as eaten or fresh weight, µg/kg; no moisture conversion. Distribution of subgroup median concentration values.",
+      "source_ids": [
+        "fda2013-ias-rice-products-sampling"
+      ]
+    },
+    {
+      "id": "hmi-pooled-reference-v2:rice-protein-e572877ed71a:4f8d0b5e6fec",
+      "scope_text": "HMI rice protein iAs reference · Rice protein, as sold. Rice protein, as sold; As sold, as eaten or fresh weight, µg/kg; no moisture conversion. Distribution of subgroup median concentration values.",
+      "source_ids": [
+        "fda2013-ias-rice-products-sampling"
+      ]
+    },
+    {
+      "id": "hmi-pooled-reference-v2:rice-protein-b1c3894183f2:e13dc4fdcfb8",
+      "scope_text": "HMI rice protein DMA reference · Rice protein, powder or ground. Rice protein, powder or ground; As sold, as eaten or fresh weight, µg/kg; no moisture conversion. Distribution of subgroup median concentration values.",
+      "source_ids": [
+        "fda2013-ias-rice-products-sampling"
+      ]
+    },
+    {
+      "id": "hmi-pooled-reference-v2:rice-protein-40735b3c12e2:7620a7ca48c1",
+      "scope_text": "HMI rice protein DMA reference · Rice protein, as sold. Rice protein, as sold; As sold, as eaten or fresh weight, µg/kg; no moisture conversion. Distribution of subgroup median concentration values.",
+      "source_ids": [
+        "fda2013-ias-rice-products-sampling"
+      ]
+    },
+    {
+      "id": "hmi-pooled-reference-v2:rice-protein-60b7ec16d738:ef874b75444c",
+      "scope_text": "HMI rice protein MMA reference · Rice protein, powder or ground. Rice protein, powder or ground; As sold, as eaten or fresh weight, µg/kg; no moisture conversion. Distribution of subgroup median concentration values.",
+      "source_ids": [
+        "fda2013-ias-rice-products-sampling"
+      ]
+    },
+    {
+      "id": "hmi-pooled-reference-v2:rice-protein-73cc5dc69537:95b588eaeec9",
+      "scope_text": "HMI rice protein MMA reference · Rice protein, as sold. Rice protein, as sold; As sold, as eaten or fresh weight, µg/kg; no moisture conversion. Distribution of subgroup median concentration values.",
+      "source_ids": [
+        "fda2013-ias-rice-products-sampling"
+      ]
+    },
+    {
+      "id": "hmi-pooled-reference-v2:rice-protein-e0c00e626210:c5e686cfb500",
+      "scope_text": "HMI rice protein tHg reference · Rice protein, powder or ground. Rice protein, powder or ground; As sold, as eaten or fresh weight, µg/kg; no moisture conversion. Distribution of subgroup median concentration values.",
+      "source_ids": [
+        "cfia2020-toxic-metals-selected-foods-2018-19"
+      ]
+    }
+  ],
+  "reference_families": [
+    {
+      "id": "hmi-pooled-reference-v2:rice-protein-07dc36a9d6f5:4c8d4123dbc3",
+      "scope": {
+        "analyte": "Pb",
+        "material": "rice-protein: Rice protein, powder or ground",
+        "basis": "Dry weight",
+        "unit": "µg/kg"
+      },
+      "family_ids": [
+        "who-gemsfood-heavy-metal-contaminants"
+      ],
+      "unit_ids": [
+        "rice-protein-07dc36a9d6f5:gems-241324b5da82",
+        "rice-protein-07dc36a9d6f5:gems-2bd62a6ffeb1",
+        "rice-protein-07dc36a9d6f5:gems-e63799ee3a56",
+        "rice-protein-07dc36a9d6f5:gems-ee4f4fd2b64d"
+      ]
+    },
+    {
+      "id": "hmi-pooled-reference-v2:rice-protein-203badecdc99:8183dacc2f23",
+      "scope": {
+        "analyte": "tAs",
+        "material": "rice-protein: Rice protein, as sold",
+        "basis": "As sold, as eaten or fresh weight",
+        "unit": "µg/kg"
+      },
+      "family_ids": [
+        "fda2013-ias-rice-products-sampling"
+      ],
+      "unit_ids": [
+        "rice-protein-203badecdc99:med-5e9341ac2fcc",
+        "rice-protein-203badecdc99:med-69151cf6de9d",
+        "rice-protein-203badecdc99:med-8dc42fb4d597",
+        "rice-protein-203badecdc99:med-c39b2bc1b8db",
+        "rice-protein-203badecdc99:med-dda7f361fada",
+        "rice-protein-203badecdc99:med-e4c499116fed"
+      ]
+    },
+    {
+      "id": "hmi-pooled-reference-v2:rice-protein-40735b3c12e2:7620a7ca48c1",
+      "scope": {
+        "analyte": "DMA",
+        "material": "rice-protein: Rice protein, as sold",
+        "basis": "As sold, as eaten or fresh weight",
+        "unit": "µg/kg"
+      },
+      "family_ids": [
+        "fda2013-ias-rice-products-sampling"
+      ],
+      "unit_ids": [
+        "rice-protein-40735b3c12e2:med-12a00d63e184",
+        "rice-protein-40735b3c12e2:med-38a8e31162bd",
+        "rice-protein-40735b3c12e2:med-4b0c7c790d1c",
+        "rice-protein-40735b3c12e2:med-56589e2613b0",
+        "rice-protein-40735b3c12e2:med-dd00b66ce4ff"
+      ]
+    },
+    {
+      "id": "hmi-pooled-reference-v2:rice-protein-60b7ec16d738:ef874b75444c",
+      "scope": {
+        "analyte": "MMA",
+        "material": "rice-protein: Rice protein, powder or ground",
+        "basis": "As sold, as eaten or fresh weight",
+        "unit": "µg/kg"
+      },
+      "family_ids": [
+        "fda2013-ias-rice-products-sampling"
+      ],
+      "unit_ids": [
+        "rice-protein-60b7ec16d738:med-22046d230f64",
+        "rice-protein-60b7ec16d738:med-2a6208affd1e",
+        "rice-protein-60b7ec16d738:med-67ea7c746b96",
+        "rice-protein-60b7ec16d738:med-a1c540bc66ef",
+        "rice-protein-60b7ec16d738:med-a6e2ea607fe1",
+        "rice-protein-60b7ec16d738:med-c2bf9c186443",
+        "rice-protein-60b7ec16d738:med-cd0c0fd3a042",
+        "rice-protein-60b7ec16d738:med-d8d4b5411c24",
+        "rice-protein-60b7ec16d738:med-d9171703875a",
+        "rice-protein-60b7ec16d738:med-d9c2a5ff3578",
+        "rice-protein-60b7ec16d738:med-de58219bd833",
+        "rice-protein-60b7ec16d738:med-f389f7b86d4f"
+      ]
+    },
+    {
+      "id": "hmi-pooled-reference-v2:rice-protein-73cc5dc69537:95b588eaeec9",
+      "scope": {
+        "analyte": "MMA",
+        "material": "rice-protein: Rice protein, as sold",
+        "basis": "As sold, as eaten or fresh weight",
+        "unit": "µg/kg"
+      },
+      "family_ids": [
+        "fda2013-ias-rice-products-sampling"
+      ],
+      "unit_ids": [
+        "rice-protein-73cc5dc69537:med-13ec0cd05876",
+        "rice-protein-73cc5dc69537:med-6fb73185f9b3",
+        "rice-protein-73cc5dc69537:med-9f761fce60b5",
+        "rice-protein-73cc5dc69537:med-e2c6b941b7a8",
+        "rice-protein-73cc5dc69537:med-f0427cd7f68e"
+      ]
+    },
+    {
+      "id": "hmi-pooled-reference-v2:rice-protein-8db3b75ddfe7:4aa66a133211",
+      "scope": {
+        "analyte": "tAs",
+        "material": "rice-protein: Rice protein, powder or ground",
+        "basis": "As sold, as eaten or fresh weight",
+        "unit": "µg/kg"
+      },
+      "family_ids": [
+        "fda2013-ias-rice-products-sampling"
+      ],
+      "unit_ids": [
+        "rice-protein-8db3b75ddfe7:med-0856a26b554b",
+        "rice-protein-8db3b75ddfe7:med-50751090d543",
+        "rice-protein-8db3b75ddfe7:med-53b70e7b99e8",
+        "rice-protein-8db3b75ddfe7:med-55d3c1bf2d96",
+        "rice-protein-8db3b75ddfe7:med-8eee8c2ccae6",
+        "rice-protein-8db3b75ddfe7:med-c96fab5358a6",
+        "rice-protein-8db3b75ddfe7:med-c9df508ae073",
+        "rice-protein-8db3b75ddfe7:med-cc341046bcad",
+        "rice-protein-8db3b75ddfe7:med-d5286a6dd14f",
+        "rice-protein-8db3b75ddfe7:med-e07a35ffd2c4",
+        "rice-protein-8db3b75ddfe7:med-ea5adfba7e86",
+        "rice-protein-8db3b75ddfe7:med-ed9692a674cd",
+        "rice-protein-8db3b75ddfe7:med-fa95d00a989a"
+      ]
+    },
+    {
+      "id": "hmi-pooled-reference-v2:rice-protein-b1c3894183f2:e13dc4fdcfb8",
+      "scope": {
+        "analyte": "DMA",
+        "material": "rice-protein: Rice protein, powder or ground",
+        "basis": "As sold, as eaten or fresh weight",
+        "unit": "µg/kg"
+      },
+      "family_ids": [
+        "fda2013-ias-rice-products-sampling"
+      ],
+      "unit_ids": [
+        "rice-protein-b1c3894183f2:med-038f08b33ca6",
+        "rice-protein-b1c3894183f2:med-0e34736b87f6",
+        "rice-protein-b1c3894183f2:med-1e0b4470cbd8",
+        "rice-protein-b1c3894183f2:med-259d64d10013",
+        "rice-protein-b1c3894183f2:med-2746ea615c9e",
+        "rice-protein-b1c3894183f2:med-2baf4de94063",
+        "rice-protein-b1c3894183f2:med-31df7cc92ea6",
+        "rice-protein-b1c3894183f2:med-40cd2f7dbacb",
+        "rice-protein-b1c3894183f2:med-86a44c1b7c54",
+        "rice-protein-b1c3894183f2:med-994887097ec4",
+        "rice-protein-b1c3894183f2:med-e178c01772bf",
+        "rice-protein-b1c3894183f2:med-e3bd61c06b96"
+      ]
+    },
+    {
+      "id": "hmi-pooled-reference-v2:rice-protein-e0c00e626210:c5e686cfb500",
+      "scope": {
+        "analyte": "tHg",
+        "material": "rice-protein: Rice protein, powder or ground",
+        "basis": "As sold, as eaten or fresh weight",
+        "unit": "µg/kg"
+      },
+      "family_ids": [
+        "cfia2020-toxic-metals-selected-foods-2018-19"
+      ],
+      "unit_ids": [
+        "rice-protein-e0c00e626210:med-b347ec47ea09"
+      ]
+    },
+    {
+      "id": "hmi-pooled-reference-v2:rice-protein-e572877ed71a:4f8d0b5e6fec",
+      "scope": {
+        "analyte": "iAs",
+        "material": "rice-protein: Rice protein, as sold",
+        "basis": "As sold, as eaten or fresh weight",
+        "unit": "µg/kg"
+      },
+      "family_ids": [
+        "fda2013-ias-rice-products-sampling"
+      ],
+      "unit_ids": [
+        "rice-protein-e572877ed71a:med-1120871cbc6c",
+        "rice-protein-e572877ed71a:med-28fc259c4d87",
+        "rice-protein-e572877ed71a:med-2df0187bfbdd",
+        "rice-protein-e572877ed71a:med-4e2399518b3d",
+        "rice-protein-e572877ed71a:med-7d3d72daacd3"
+      ]
+    },
+    {
+      "id": "hmi-pooled-reference-v2:rice-protein-f841e7876af9:eed9d65b5a53",
+      "scope": {
+        "analyte": "iAs",
+        "material": "rice-protein: Rice protein, powder or ground",
+        "basis": "As sold, as eaten or fresh weight",
+        "unit": "µg/kg"
+      },
+      "family_ids": [
+        "fda2013-ias-rice-products-sampling"
+      ],
+      "unit_ids": [
+        "rice-protein-f841e7876af9:med-11e9e6fbf56e",
+        "rice-protein-f841e7876af9:med-1352692c1a2e",
+        "rice-protein-f841e7876af9:med-13fd742a83d6",
+        "rice-protein-f841e7876af9:med-163619a25c81",
+        "rice-protein-f841e7876af9:med-2f0771851213",
+        "rice-protein-f841e7876af9:med-45d3bfee07eb",
+        "rice-protein-f841e7876af9:med-4829cb1e5b87",
+        "rice-protein-f841e7876af9:med-5ba6422f7ec2",
+        "rice-protein-f841e7876af9:med-8c7b4a4a1a1a",
+        "rice-protein-f841e7876af9:med-93a522983cd7",
+        "rice-protein-f841e7876af9:med-a47031b95dc5",
+        "rice-protein-f841e7876af9:med-a5fc9bab122e"
+      ]
+    },
+    {
+      "id": "rice-protein-assessment:Al:rice-protein: Rice protein, powder or ground:Dry weight",
+      "scope": {
+        "analyte": "Al",
+        "material": "rice-protein: Rice protein, powder or ground",
+        "basis": "Dry weight",
+        "unit": "µg/kg"
+      },
+      "family_ids": [],
+      "unit_ids": []
+    },
+    {
+      "id": "rice-protein-assessment:Ba:rice-protein: Rice protein, powder or ground:Dry weight",
+      "scope": {
+        "analyte": "Ba",
+        "material": "rice-protein: Rice protein, powder or ground",
+        "basis": "Dry weight",
+        "unit": "µg/kg"
+      },
+      "family_ids": [],
+      "unit_ids": []
+    },
+    {
+      "id": "rice-protein-assessment:Cd:rice-protein: Rice protein, powder or ground:Basis not stated by the source",
+      "scope": {
+        "analyte": "Cd",
+        "material": "rice-protein: Rice protein, powder or ground",
+        "basis": "Basis not stated by the source",
+        "unit": "µg/kg"
+      },
+      "family_ids": [],
+      "unit_ids": []
+    },
+    {
+      "id": "rice-protein-assessment:Cd:rice-protein: Rice protein, powder or ground:Dry weight",
+      "scope": {
+        "analyte": "Cd",
+        "material": "rice-protein: Rice protein, powder or ground",
+        "basis": "Dry weight",
+        "unit": "µg/kg"
+      },
+      "family_ids": [],
+      "unit_ids": []
+    },
+    {
+      "id": "rice-protein-assessment:Cu:rice-protein: Rice protein, powder or ground:Dry weight",
+      "scope": {
+        "analyte": "Cu",
+        "material": "rice-protein: Rice protein, powder or ground",
+        "basis": "Dry weight",
+        "unit": "µg/kg"
+      },
+      "family_ids": [],
+      "unit_ids": []
+    },
+    {
+      "id": "rice-protein-assessment:Mn:rice-protein: Rice protein, powder or ground:Dry weight",
+      "scope": {
+        "analyte": "Mn",
+        "material": "rice-protein: Rice protein, powder or ground",
+        "basis": "Dry weight",
+        "unit": "µg/kg"
+      },
+      "family_ids": [],
+      "unit_ids": []
+    },
+    {
+      "id": "rice-protein-assessment:Rb:rice-protein: Rice protein, powder or ground:Dry weight",
+      "scope": {
+        "analyte": "Rb",
+        "material": "rice-protein: Rice protein, powder or ground",
+        "basis": "Dry weight",
+        "unit": "µg/kg"
+      },
+      "family_ids": [],
+      "unit_ids": []
+    },
+    {
+      "id": "rice-protein-assessment:Se:rice-protein: Rice protein, powder or ground:Dry weight",
+      "scope": {
+        "analyte": "Se",
+        "material": "rice-protein: Rice protein, powder or ground",
+        "basis": "Dry weight",
+        "unit": "µg/kg"
+      },
+      "family_ids": [],
+      "unit_ids": []
+    },
+    {
+      "id": "rice-protein-assessment:tAs:rice-protein: Rice protein, powder or ground:Dry weight",
+      "scope": {
+        "analyte": "tAs",
+        "material": "rice-protein: Rice protein, powder or ground",
+        "basis": "Dry weight",
+        "unit": "µg/kg"
+      },
+      "family_ids": [],
+      "unit_ids": []
+    },
+    {
+      "id": "rice-protein-assessment:tHg:rice-protein: Rice protein, powder or ground:Dry weight",
+      "scope": {
+        "analyte": "tHg",
+        "material": "rice-protein: Rice protein, powder or ground",
+        "basis": "Dry weight",
+        "unit": "µg/kg"
+      },
+      "family_ids": [],
+      "unit_ids": []
+    }
+  ]
+}

@@ -66,6 +66,8 @@ export function inspectHero(page, html) {
   walk(parse(html), n => { if (n.attrs?.some(a => a.name === 'class' && a.value.split(' ').includes('hero-band'))) hero = n; });
   if (!hero) return { checked: true, errors: ['Preserved page hero missing'] };
   walk(hero, n => { const a = Object.fromEntries((n.attrs ?? []).map(a => [a.name, a.value])); if (a.class?.split(' ').includes('hero-background')) found = a; });
+  // A withheld registered image (wrong subject) must not render at all.
+  if (model.withheld) return { checked: true, errors: found ? ['Withheld hero image still rendered'] : [] };
   return { checked: true, errors: !found || !found.src?.endsWith(model.hero_image.replace(/^\//, '')) ? ['Hero image regression'] : typeof found.alt !== 'string' ? ['Hero image alt missing'] : [] };
 }
 

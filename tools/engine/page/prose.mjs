@@ -22,7 +22,7 @@ export function P(...sentences) {
 }
 const lower = s => s ? s[0].toLowerCase() + s.slice(1) : s;
 const v = x => `${fmt(x)} µg/kg`;
-const bounds = t => !t ? null : t.exact ? v(t.lower) : t.lower === 0 ? `below ${v(t.upper)}` : `${fmt(t.lower)}–${v(t.upper)}`;
+const bounds = t => !t ? null : t.exact ? v(t.lower) : t.lower === 0 ? `below ${v(t.upper)}` : `${fmt(t.lower)} to ${v(t.upper)}`;
 const cap = (xs, n) => xs.slice(0, n);
 
 // ---------------------------------------------------------------- facts

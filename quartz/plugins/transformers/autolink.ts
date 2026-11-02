@@ -147,7 +147,12 @@ function walk(
     } else {
       if (child.type === "element") {
         if (child.tagName === "a") recordLink(child)
-        walk(child, blocked || referenceSection || SKIP_TAGS.has(child.tagName), repl, recordLink, startSection)
+        // Every Quick Read stays visually quiet; authored source citations survive.
+        const classes = child.properties?.className
+        const quickRead = child.properties?.dataHmiQuickRead !== undefined ||
+          (Array.isArray(classes) ? classes.includes('hmi-quick-read') : String(classes ?? '').split(/\s+/).includes('hmi-quick-read')) ||
+          /(?:^|-)quick-read$/.test(String(child.properties?.id ?? ''))
+        walk(child, blocked || referenceSection || quickRead || SKIP_TAGS.has(child.tagName), repl, recordLink, startSection)
       }
       out.push(child)
     }

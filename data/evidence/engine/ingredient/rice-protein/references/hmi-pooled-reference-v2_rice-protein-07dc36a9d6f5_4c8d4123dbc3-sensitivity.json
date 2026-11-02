@@ -1,0 +1,102 @@
+{
+  "label": "Equal weight per subgroup",
+  "distribution": {
+    "scope": {
+      "ingredient": "rice-protein",
+      "analyte": "Pb",
+      "basis": "Rice protein, powder or ground; Dry weight, µg/kg; no moisture conversion",
+      "statistic": "subgroup median concentration",
+      "market": "International rice protein evidence library",
+      "period": "Source collection years as reported"
+    },
+    "weighting": "family-group",
+    "n": 4,
+    "family_count": 1,
+    "families": [
+      "who-gemsfood-heavy-metal-contaminants"
+    ],
+    "q1": {
+      "lower": 245.255,
+      "upper": 245.255,
+      "exact": true
+    },
+    "median": {
+      "lower": 264.92499999999995,
+      "upper": 264.92499999999995,
+      "exact": true
+    },
+    "q3": {
+      "lower": 305.525,
+      "upper": 305.525,
+      "exact": true
+    },
+    "units": [
+      {
+        "ingredient": "rice-protein",
+        "analyte": "Pb",
+        "basis": "Rice protein, powder or ground; Dry weight, µg/kg; no moisture conversion",
+        "statistic": "subgroup median concentration",
+        "market": "International rice protein evidence library",
+        "period": "Source collection years as reported",
+        "id": "gems-e63799ee3a56",
+        "family": "who-gemsfood-heavy-metal-contaminants",
+        "group": "PAHO 2014",
+        "lower": 274.4,
+        "upper": 274.4,
+        "n": 3,
+        "locator": "Rice protein, powder or ground, PAHO, 2014: HMI median of 3 individual GEMS/Food results",
+        "weight": 0.25
+      },
+      {
+        "ingredient": "rice-protein",
+        "analyte": "Pb",
+        "basis": "Rice protein, powder or ground; Dry weight, µg/kg; no moisture conversion",
+        "statistic": "subgroup median concentration",
+        "market": "International rice protein evidence library",
+        "period": "Source collection years as reported",
+        "id": "gems-241324b5da82",
+        "family": "who-gemsfood-heavy-metal-contaminants",
+        "group": "PAHO 2017",
+        "lower": 235.06,
+        "upper": 235.06,
+        "n": 11,
+        "locator": "Rice protein, powder or ground, PAHO, 2017: HMI median of 11 individual GEMS/Food results",
+        "weight": 0.25
+      },
+      {
+        "ingredient": "rice-protein",
+        "analyte": "Pb",
+        "basis": "Rice protein, powder or ground; Dry weight, µg/kg; no moisture conversion",
+        "statistic": "subgroup median concentration",
+        "market": "International rice protein evidence library",
+        "period": "Source collection years as reported",
+        "id": "gems-2bd62a6ffeb1",
+        "family": "who-gemsfood-heavy-metal-contaminants",
+        "group": "PAHO 2014",
+        "lower": 336.65,
+        "upper": 336.65,
+        "n": 2,
+        "locator": "Rice protein, powder or ground, PAHO, 2014: HMI median of 2 individual GEMS/Food results",
+        "weight": 0.25
+      },
+      {
+        "ingredient": "rice-protein",
+        "analyte": "Pb",
+        "basis": "Rice protein, powder or ground; Dry weight, µg/kg; no moisture conversion",
+        "statistic": "subgroup median concentration",
+        "market": "International rice protein evidence library",
+        "period": "Source collection years as reported",
+        "id": "gems-ee4f4fd2b64d",
+        "family": "who-gemsfood-heavy-metal-contaminants",
+        "group": "PAHO 2017",
+        "lower": 255.45,
+        "upper": 255.45,
+        "n": 6,
+        "locator": "Rice protein, powder or ground, PAHO, 2017: HMI median of 6 individual GEMS/Food results",
+        "weight": 0.25
+      }
+    ],
+    "eligible": true,
+    "quantile_method": "Inverse weighted empirical CDF; midpoint at exact cumulative-weight boundaries"
+  }
+}

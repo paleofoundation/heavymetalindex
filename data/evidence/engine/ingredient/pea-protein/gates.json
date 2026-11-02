@@ -1,0 +1,94 @@
+{
+  "page": "ingredient/pea-protein",
+  "origin": "store:data/evidence/findings/by-page/ingredients/pea-protein.json",
+  "store_state": {
+    "coverage": "data/evidence/findings/coverage.json",
+    "coverage_sha256": null,
+    "coverage_mtime": null,
+    "by_page": "data/evidence/findings/by-page/ingredients/pea-protein.json",
+    "by_page_sha256": "e8c1b99ec03e881a10bc63be10f22694d3c4472d72f742d29cda2296d7b2fa7c"
+  },
+  "status": "fail",
+  "gates": {
+    "1": {
+      "status": "pass",
+      "errors": 0,
+      "first": []
+    },
+    "2": {
+      "status": "pass",
+      "errors": 0,
+      "first": []
+    },
+    "3": {
+      "status": "pass",
+      "errors": 0,
+      "first": []
+    },
+    "4": {
+      "status": "pass",
+      "errors": 0,
+      "first": []
+    },
+    "5": {
+      "status": "pass",
+      "errors": 0,
+      "first": []
+    },
+    "6": {
+      "status": "pass",
+      "errors": 0,
+      "first": []
+    },
+    "7": {
+      "status": "pass",
+      "errors": 0,
+      "first": []
+    }
+  },
+  "presentation": {
+    "errors": [
+      "Occurrence table has no usable rated or direct comparator; review/recover compatible reference evidence before publication"
+    ],
+    "meaningful_comparator_rows": 0,
+    "mitigation_rows": 0
+  },
+  "hero": {
+    "checked": true,
+    "errors": []
+  },
+  "rows": 32,
+  "states": {
+    "unavailable": 32
+  },
+  "legacy_findings": 0,
+  "lost_findings": [],
+  "ledger_errors": [],
+  "undecided_items": 0,
+  "undecided_sample": [],
+  "undecided_by_file": {},
+  "control_error": null,
+  "thin": "thin",
+  "thin_reasons": [
+    "few_occurrence_families",
+    "decision_analyte_without_comparison",
+    "no_lower_contamination_comparison",
+    "no_applicable_cited_control"
+  ],
+  "thin_errors": [],
+  "publishable": false,
+  "controls": {
+    "records": 0,
+    "group": "vegetable",
+    "own": 0,
+    "borrowed": 0
+  },
+  "dropped_fields": [],
+  "html": "data/evidence/engine/ingredient/pea-protein/preview/ingredients/pea-protein.html",
+  "html_bytes": 462650,
+  "discoverable_outputs": [],
+  "mirror": {
+    "mirrored": false,
+    "reason": "Only passing pages are mirrored"
+  }
+}

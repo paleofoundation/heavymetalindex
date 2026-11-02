@@ -10,3 +10,4 @@ export type HeroImageRecord = {
 }
 export function heroImageRecord(asset: unknown): HeroImageRecord | undefined
 export function heroImageObject(asset: unknown): Record<string, unknown> | undefined
+export function pageHeroImage(slug: unknown, frontmatter?: Record<string, unknown>): { image: string | undefined; alt: string; withheld?: unknown } | undefined

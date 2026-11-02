@@ -1497,15 +1497,23 @@
             },
             {
               "question": "Is pea protein lower in metals than rice protein?",
-              "text": "They cannot be compared directly for most metals. Pea protein has lead and cadmium results but no arsenic; rice protein has arsenic results but no quantified lead result. See [[ingredients/rice-protein]] for the rice evidence.",
+              "text": "They cannot be compared directly for most metals. Pea protein has lead and cadmium results but no arsenic. For lead, the two measured pea powders had 22.2 and 22.5 µg/kg, below all 22 rice protein powders in WHO GEMS/Food results from the Americas, which ran from 110 to 445 µg/kg. The two come from different surveys, countries and years, so the gap is indicative; see [[ingredients/rice-protein]] for the rice evidence.",
               "source_keys": [
-                "ring2021-ireland-protein-powders-metals"
+                "ring2021-ireland-protein-powders-metals",
+                "who-gemsfood-heavy-metal-contaminants"
               ],
               "citation_spans": [
                 {
-                  "after": "Pea protein has lead and cadmium results but no arsenic; rice protein has arsenic results but no quantified lead result.",
+                  "after": "Pea protein has lead and cadmium results but no arsenic.",
                   "source_keys": [
                     "ring2021-ireland-protein-powders-metals"
+                  ]
+                },
+                {
+                  "after": "For lead, the two measured pea powders had 22.2 and 22.5 µg/kg, below all 22 rice protein powders in WHO GEMS/Food results from the Americas, which ran from 110 to 445 µg/kg.",
+                  "source_keys": [
+                    "ring2021-ireland-protein-powders-metals",
+                    "who-gemsfood-heavy-metal-contaminants"
                   ]
                 }
               ],

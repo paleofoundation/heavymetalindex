@@ -23,7 +23,7 @@ export function periodText(years, studyPeriod) {
   const ys = (years?.filter(Number.isFinite).length ? years.filter(Number.isFinite) : yearsOf(studyPeriod));
   if (!ys.length) return 'Collection date unreported';
   const lo = Math.min(...ys), hi = Math.max(...ys);
-  return lo === hi ? String(lo) : `${lo}–${hi}`;
+  return lo === hi ? String(lo) : `${lo} to ${hi}`;
 }
 const gemsParts = group => {
   const m = String(group ?? '').match(/WHO region (\w+)(?:;\s*([^;]+))?(?:;\s*(.+))?/);

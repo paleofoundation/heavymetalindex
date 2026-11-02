@@ -1,0 +1,43 @@
+{
+  "dataset_id": "who-gemsfood-heavy-metal-contaminants",
+  "scope": "Scoped subset for ingredients/rice-protein only (HMI-PROTEIN-PEA-RICE-1). The full GEMS/Food shards are kept outside the repository; this file set is replaced when they are synced.",
+  "inputs": [
+    {
+      "path": "raw/reports/gemsfood-contaminants/2026-06-20-export/Lead.csv",
+      "sha256": "865e7e0e36222600533af19f47890a3546674ec0d1d2216cb1737e43dc745659"
+    },
+    {
+      "path": "raw/reports/gemsfood-contaminants/who-gemsfood-lead-paho-2014-2014-2026-05-04.csv",
+      "sha256": "3ed0b6398b9469f8ff592da10c781bc68f62f434827660a2c8172393d628c508"
+    },
+    {
+      "path": "raw/reports/gemsfood-contaminants/who-gemsfood-lead-paho-2017-2017-2026-05-04.csv",
+      "sha256": "02825a323e94793d8561e3c391af2bca6f5a67434f838579cfadbf913498d791"
+    },
+    {
+      "path": "raw/reports/gemsfood-contaminants/2026-06-20-export/Mercury.csv",
+      "sha256": "2357a622755c1ed10b0fa25fda66b5614348105acc348d50c9535edfabebd8e8"
+    },
+    {
+      "path": "raw/reports/gemsfood-contaminants/who-gemsfood-arsenic-total-euro-2017-2017-2026-05-04.csv",
+      "sha256": "3f9fedff148db762da1df38850151b530b0a77f5b44bfa39fd9df97b12063d68"
+    },
+    {
+      "path": "raw/reports/gemsfood-contaminants/who-gemsfood-arsenic-total-euro-2021-2021-2026-05-04.csv",
+      "sha256": "6d8ea5924ba125c53333a85bca7c2f8ca35ee4d5c7456e239beff6b26a6f11d0"
+    },
+    {
+      "path": "raw/reports/gemsfood-contaminants/who-gemsfood-total-mercury-euro-2017-2017-2026-05-04.csv",
+      "sha256": "e44f4042947d491bfcb9ed9f789af28d54f55ac53489910b79f081b529159a89"
+    }
+  ],
+  "counts": {
+    "rows": 22,
+    "decisions": 27
+  },
+  "shards": [
+    "data/evidence/findings/datasets/who-gemsfood-heavy-metal-contaminants--Pb.jsonl.gz"
+  ],
+  "decisions": "data/evidence/findings/datasets/who-gemsfood-heavy-metal-contaminants--decisions.jsonl.gz",
+  "generator": "tools/contracts/ingredients/protein-pages/gems-rice-protein.mjs"
+}

@@ -1,0 +1,72 @@
+{
+ "source_id": "zhao2023-silicon-cd-rice",
+ "primary_artifact": "/Users/kmfp/HMI-Library-backup/heavy-metal-index-raw/markdown/FM_9872021/FM_9872021.md",
+ "primary_sha256": "0934bcf7b8c2ed87cf4f789b70b88cfbcb534a794433fa02d9f2ce1286e2c068",
+ "extracted_at": "2026-10-22",
+ "extractor": "engine-v1",
+ "disposition": "no_numeric_results",
+ "disposition_reason": "Pot experiment on six rice varieties with Cd-spiked soil and foliar Si; brown-rice Cd values are only in Fig. 3, the text gives percentage changes with and without Si, which are recorded as controls.",
+ "disposition_locator": "Section 3.2, Fig. 3",
+ "study": {
+  "design": "Pot experiment, six indica rice varieties, foliar nano-silica vs water control, n=3 pots",
+  "origin": "Guangxi University experimental field soil, Nanning, Guangxi, China, spiked with CdCl2",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": ""
+  },
+  "method": "Microwave HNO3 digestion; GFAAS (PinAAcle 900T)",
+  "lod": [
+   "not stated"
+  ],
+  "basis": "dry",
+  "qa": "reference materials used (not detailed)",
+  "site_context": "experimental"
+ },
+ "findings": [],
+ "sample_values": [],
+ "controls": [
+  {
+   "control": "Foliar spraying of nano-silica fertilizer (1.7 g/L, twice: tillering and grain-filling) in a Cd-spiked pot soil (1.20 mg/kg total soil Cd)",
+   "stage": "farm",
+   "evidence_kind": "measured",
+   "comparator": "water-sprayed control (CK), same variety",
+   "outcome": "Brown-rice Cd increased 15.7% in WY1179 and 24.1% in YHSM (Si-stimulated varieties); decreased 34.3% to 65.7% in JLY1377, MXZ2 and YLY900 (per-variety split not printed in text); decreased in YXYLS (magnitude not printed). Absolute brown-rice Cd concentrations are shown in Fig. 3 only.",
+   "analytes": [
+    "Cd"
+   ],
+   "locator": "Section 3.2, Fig. 3"
+  },
+  {
+   "control": "Rice variety (six indica varieties: YHSM, MXZ2 conventional; YXYLS, JLY1377, WY1179, YLY900 hybrid)",
+   "stage": "farm",
+   "evidence_kind": "measured",
+   "comparator": "other varieties under identical Cd-spiked pot conditions without Si (CK)",
+   "outcome": "Highest brown-rice Cd in WY1179 and YLY900; lowest in JLY1377, MXZ2, YHSM and YXYLS (values figure-only)",
+   "analytes": [
+    "Cd"
+   ],
+   "locator": "Section 3.2, Fig. 3"
+  }
+ ],
+ "unresolved": [
+  "Brown-rice Cd concentrations per variety and treatment are shown only in Fig. 3 (not read off the chart).",
+  "Translocation factors (Table 3) are ratios, not concentrations. Soil, root, stem, leaf, panicle and glume Cd are non-food tissues.",
+  "Pot experiment, soil spiked to 1.20 mg/kg Cd with CdCl2; results are not a market occurrence survey."
+ ],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/zhao2023-silicon-cd-rice.md",
+ "non_numeric_findings": [],
+ "merged_unmatched": [],
+ "merged_snapshot": {
+  "extractor": "merged:data/evidence/contracts/most-studied-rollout-2026-10-22/rice/extraction/zhao2023-silicon-cd-rice.json",
+  "findings": []
+ },
+ "raw_output": "data/evidence/findings/extract/raw/zhao2023-silicon-cd-rice.json"
+}

@@ -72,7 +72,7 @@
       ]
     },
     "dois_or_author_year": {
-      "pages": 616,
+      "pages": 617,
       "paths": [
         "wiki/ingredients/algae.md",
         "wiki/ingredients/almond-beverage.md",
@@ -313,6 +313,7 @@
         "wiki/ingredients/rice-koji.md",
         "wiki/ingredients/rice-milk.md",
         "wiki/ingredients/rice-noodles.md",
+        "wiki/ingredients/rice-protein.md",
         "wiki/ingredients/rice-puffs.md",
         "wiki/ingredients/rice.md",
         "wiki/ingredients/root-vegetable-purees.md",
@@ -1472,7 +1473,7 @@
       ]
     },
     "metal_symbols": {
-      "pages": 592,
+      "pages": 593,
       "paths": [
         "wiki/ingredients/almond.md",
         "wiki/ingredients/apple-cider-vinegar.md",
@@ -1654,6 +1655,7 @@
         "wiki/ingredients/rice-cakes.md",
         "wiki/ingredients/rice-cereal.md",
         "wiki/ingredients/rice-flour.md",
+        "wiki/ingredients/rice-protein.md",
         "wiki/ingredients/rice-puffs.md",
         "wiki/ingredients/rice.md",
         "wiki/ingredients/root-vegetable-purees.md",
@@ -2794,7 +2796,7 @@
       ]
     },
     "uncertainty_note": {
-      "pages": 916,
+      "pages": 917,
       "paths": [
         "wiki/ingredients/algae.md",
         "wiki/ingredients/almond-beverage.md",
@@ -3089,6 +3091,7 @@
         "wiki/ingredients/rice-koji.md",
         "wiki/ingredients/rice-milk.md",
         "wiki/ingredients/rice-noodles.md",
+        "wiki/ingredients/rice-protein.md",
         "wiki/ingredients/rice-puffs.md",
         "wiki/ingredients/rice.md",
         "wiki/ingredients/root-vegetable-purees.md",

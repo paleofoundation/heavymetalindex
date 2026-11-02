@@ -1,0 +1,92 @@
+{
+  "page": "ingredient/rice-protein",
+  "origin": "store:data/evidence/findings/by-page/ingredients/rice-protein.json",
+  "store_state": {
+    "coverage": "data/evidence/findings/coverage.json",
+    "coverage_sha256": null,
+    "coverage_mtime": null,
+    "by_page": "data/evidence/findings/by-page/ingredients/rice-protein.json",
+    "by_page_sha256": "86f07307af1316fea1484b3b56e79c944a8a2383256ff069699ff5a07f6ebd48"
+  },
+  "status": "pass",
+  "gates": {
+    "1": {
+      "status": "pass",
+      "errors": 0,
+      "first": []
+    },
+    "2": {
+      "status": "pass",
+      "errors": 0,
+      "first": []
+    },
+    "3": {
+      "status": "pass",
+      "errors": 0,
+      "first": []
+    },
+    "4": {
+      "status": "pass",
+      "errors": 0,
+      "first": []
+    },
+    "5": {
+      "status": "pass",
+      "errors": 0,
+      "first": []
+    },
+    "6": {
+      "status": "pass",
+      "errors": 0,
+      "first": []
+    },
+    "7": {
+      "status": "pass",
+      "errors": 0,
+      "first": []
+    }
+  },
+  "presentation": {
+    "errors": [],
+    "meaningful_comparator_rows": 58,
+    "mitigation_rows": 0
+  },
+  "hero": {
+    "checked": true,
+    "errors": []
+  },
+  "rows": 86,
+  "states": {
+    "rated": 58,
+    "unavailable": 27,
+    "bounded": 1
+  },
+  "legacy_findings": 0,
+  "lost_findings": [],
+  "ledger_errors": [],
+  "undecided_items": 0,
+  "undecided_sample": [],
+  "undecided_by_file": {},
+  "control_error": null,
+  "thin": "thin",
+  "thin_reasons": [
+    "decision_analyte_without_comparison",
+    "no_applicable_cited_control"
+  ],
+  "thin_errors": [],
+  "publishable": true,
+  "controls": {
+    "records": 0,
+    "group": "cereal",
+    "own": 0,
+    "borrowed": 0
+  },
+  "dropped_fields": [],
+  "html": "data/evidence/engine/ingredient/rice-protein/preview/ingredients/rice-protein.html",
+  "html_bytes": 616280,
+  "discoverable_outputs": [],
+  "mirror": {
+    "mirrored": true,
+    "to": "data/evidence/contracts/rice-protein"
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "label": "Equal weight per subgroup",
+  "distribution": {
+    "scope": {
+      "ingredient": "rice-protein",
+      "analyte": "tAs",
+      "basis": "Rice protein, as sold; As sold, as eaten or fresh weight, µg/kg; no moisture conversion",
+      "statistic": "subgroup median concentration",
+      "market": "International rice protein evidence library",
+      "period": "Source collection years as reported"
+    },
+    "weighting": "family-group",
+    "n": 6,
+    "family_count": 1,
+    "families": [
+      "fda2013-ias-rice-products-sampling"
+    ],
+    "q1": {
+      "lower": 73,
+      "upper": 73,
+      "exact": true
+    },
+    "median": {
+      "lower": 88,
+      "upper": 88,
+      "exact": true
+    },
+    "q3": {
+      "lower": 110,
+      "upper": 110,
+      "exact": true
+    },
+    "units": [
+      {
+        "ingredient": "rice-protein",
+        "analyte": "tAs",
+        "basis": "Rice protein, as sold; As sold, as eaten or fresh weight, µg/kg; no moisture conversion",
+        "statistic": "subgroup median concentration",
+        "market": "International rice protein evidence library",
+        "period": "Source collection years as reported",
+        "id": "med-c39b2bc1b8db",
+        "family": "fda2013-ias-rice-products-sampling",
+        "group": "Beverages: Protein Beverages",
+        "lower": 130,
+        "upper": 130,
+        "n": 1,
+        "locator": "Full Analytical Results - Rice Products, sample 334095704",
+        "weight": 0.16666666666666666
+      },
+      {
+        "ingredient": "rice-protein",
+        "analyte": "tAs",
+        "basis": "Rice protein, as sold; As sold, as eaten or fresh weight, µg/kg; no moisture conversion",
+        "statistic": "subgroup median concentration",
+        "market": "International rice protein evidence library",
+        "period": "Source collection years as reported",
+        "id": "med-5e9341ac2fcc",
+        "family": "fda2013-ias-rice-products-sampling",
+        "group": "Beverages: Protein Beverages",
+        "lower": 82,
+        "upper": 82,
+        "n": 1,
+        "locator": "Full Analytical Results - Rice Products, sample 333512027",
+        "weight": 0.16666666666666666
+      },
+      {
+        "ingredient": "rice-protein",
+        "analyte": "tAs",
+        "basis": "Rice protein, as sold; As sold, as eaten or fresh weight, µg/kg; no moisture conversion",
+        "statistic": "subgroup median concentration",
+        "market": "International rice protein evidence library",
+        "period": "Source collection years as reported",
+        "id": "med-dda7f361fada",
+        "family": "fda2013-ias-rice-products-sampling",
+        "group": "Beverages: Protein Beverages",
+        "lower": 73,
+        "upper": 73,
+        "n": 1,
+        "locator": "Full Analytical Results - Rice Products, sample 333512301",
+        "weight": 0.16666666666666666
+      },
+      {
+        "ingredient": "rice-protein",
+        "analyte": "tAs",
+        "basis": "Rice protein, as sold; As sold, as eaten or fresh weight, µg/kg; no moisture conversion",
+        "statistic": "subgroup median concentration",
+        "market": "International rice protein evidence library",
+        "period": "Source collection years as reported",
+        "id": "med-e4c499116fed",
+        "family": "fda2013-ias-rice-products-sampling",
+        "group": "Beverages: Protein Beverages",
+        "lower": 94,
+        "upper": 94,
+        "n": 1,
+        "locator": "Full Analytical Results - Rice Products, sample 333512299",
+        "weight": 0.16666666666666666
+      },
+      {
+        "ingredient": "rice-protein",
+        "analyte": "tAs",
+        "basis": "Rice protein, as sold; As sold, as eaten or fresh weight, µg/kg; no moisture conversion",
+        "statistic": "subgroup median concentration",
+        "market": "International rice protein evidence library",
+        "period": "Source collection years as reported",
+        "id": "med-8dc42fb4d597",
+        "family": "fda2013-ias-rice-products-sampling",
+        "group": "Beverages: Protein Beverages",
+        "lower": 110,
+        "upper": 110,
+        "n": 1,
+        "locator": "Full Analytical Results - Rice Products, sample 333688277",
+        "weight": 0.16666666666666666
+      },
+      {
+        "ingredient": "rice-protein",
+        "analyte": "tAs",
+        "basis": "Rice protein, as sold; As sold, as eaten or fresh weight, µg/kg; no moisture conversion",
+        "statistic": "subgroup median concentration",
+        "market": "International rice protein evidence library",
+        "period": "Source collection years as reported",
+        "id": "med-69151cf6de9d",
+        "family": "fda2013-ias-rice-products-sampling",
+        "group": "Beverages: Protein Beverages",
+        "lower": 0,
+        "upper": 10,
+        "n": 1,
+        "locator": "Full Analytical Results - Rice Products, sample 334095916b",
+        "weight": 0.16666666666666666
+      }
+    ],
+    "eligible": true,
+    "quantile_method": "Inverse weighted empirical CDF; midpoint at exact cumulative-weight boundaries"
+  }
+}

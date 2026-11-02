@@ -29,6 +29,10 @@ export function buildPreview(compiled, finalRel, { quiet = true } = {}) {
     const coverage = collectPreviewContext({ base: root, pages, syntheses: compiled.map(c => c.synthesis), sources, extraTargets: ['authors/karen-pendergrass', 'sources/index'], maxContextPages: 80 * compiled.length });
     const files = [...new Set([...sources, ...coverage.context_pages.map(x => x.path)])].filter(f => f !== 'wiki/sources/index.md' && !pages.includes(f) && exists(f));
     for (const f of files) { const to = path.join(stagingRoot, f); fs.mkdirSync(path.dirname(to), { recursive: true }); fs.copyFileSync(path.join(root, f), to); }
+    // A metal page splits its table onto its generated evidence page (metalEvidence transformer).
+    for (const f of files.filter(f => /^wiki\/metals\/[a-z0-9-]+\.md$/.test(f)).map(f => f.replace(/\.md$/, '/evidence.md')).filter(exists)) {
+      const to = path.join(stagingRoot, f); fs.mkdirSync(path.dirname(to), { recursive: true }); fs.copyFileSync(path.join(root, f), to);
+    }
     for (const c of compiled) { const to = path.join(stagingRoot, wikiPath(c.page)); fs.mkdirSync(path.dirname(to), { recursive: true }); fs.writeFileSync(to, c.candidate); }
     const baseline = 'data/evidence/contracts/pilot-2026-10-17/baseline.json';
     if (exists(baseline)) { fs.mkdirSync(path.dirname(path.join(stagingRoot, baseline)), { recursive: true }); fs.copyFileSync(path.join(root, baseline), path.join(stagingRoot, baseline)); }

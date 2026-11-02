@@ -1,0 +1,126 @@
+{
+ "source_id": "scott2025-brown-white-rice-arsenic",
+ "primary_artifact": "/Users/kmfp/HMI-Library-backup/heavy-metal-index-raw/markdown/FM_12411130/FM_12411130.md",
+ "primary_sha256": "a267b22b808dbc78285601562346443d1b8f11c18a5a1dedb0cdbce11957f330",
+ "extracted_at": "2026-10-22",
+ "extractor": "engine-v1",
+ "disposition": "context",
+ "disposition_reason": "Exposure assessment built on pooled means of published brown-vs-white rice studies; no new measurements. Table 4 unit label (µg/kg) is inconsistent with the magnitudes (mg/kg).",
+ "disposition_locator": "Table 4, p. 5; Section 3.1",
+ "study": {
+  "design": "Literature compilation and exposure estimate using US NHANES 'What We Eat in America' rice intake",
+  "origin": "Mixed: studies worldwide, and a US-focused subset",
+  "market": "Mixed (compiled)",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": ""
+  },
+  "method": "Not applicable (compilation of published studies with differing methods)",
+  "lod": [],
+  "basis": "unknown",
+  "qa": "",
+  "site_context": "market"
+ },
+ "findings": [],
+ "sample_values": [],
+ "controls": [
+  {
+   "control": "Choosing white (milled) rice instead of brown rice",
+   "stage": "sourcing",
+   "evidence_kind": "measured",
+   "comparator": "Brown rice versus white rice, US-focused studies (pooled means)",
+   "outcome": "tAs 0.278 -> 0.244 (-12%), iAs 0.138 -> 0.093 (-33%) going from brown to white; equivalently brown is +14% tAs and +48% iAs versus white. Percentages computed from printed pooled means; unit printed as ug/kg, likely mg/kg.",
+   "analytes": [
+    "tAs",
+    "iAs"
+   ],
+   "locator": "Table 4, USA mean row"
+  },
+  {
+   "control": "Choosing white (milled) rice instead of brown rice",
+   "stage": "sourcing",
+   "evidence_kind": "measured",
+   "comparator": "Brown rice versus white rice, worldwide pooled means",
+   "outcome": "tAs 0.277 -> 0.231 (-17%), iAs 0.163 -> 0.136 (-17%) going from brown to white; brown is +20% tAs and +20% iAs versus white. Percentages computed from printed pooled means.",
+   "analytes": [
+    "tAs",
+    "iAs"
+   ],
+   "locator": "Table 4, Total mean row"
+  },
+  {
+   "control": "Milling/polishing removes the bran",
+   "stage": "processing",
+   "evidence_kind": "measured",
+   "comparator": "Rice bran versus white rice endosperm, worldwide pooled means",
+   "outcome": "Bran tAs 2.148 vs white 0.231 and bran iAs 1.769 vs white 0.136 (about 9-fold and 13-fold, computed); the authors state bran has 72.2%-98.3% higher inorganic arsenic than white rice.",
+   "analytes": [
+    "tAs",
+    "iAs"
+   ],
+   "locator": "Table 4; Section 3.1"
+  },
+  {
+   "control": "Origin: US-grown versus rest-of-world rice",
+   "stage": "sourcing",
+   "evidence_kind": "measured",
+   "comparator": "US-focused studies versus global pooled studies, inorganic share of total As",
+   "outcome": "iAs share of tAs 33% (US) vs 53% (global) for white rice and 48% (US) vs 65% (global) for brown rice; US pooled iAs 0.093 vs global 0.136 for white rice.",
+   "analytes": [
+    "iAs",
+    "tAs"
+   ],
+   "locator": "Table 4; Section 3.1"
+  },
+  {
+   "control": "Rice type chosen for young children (brown versus white)",
+   "stage": "consumer",
+   "evidence_kind": "observational",
+   "comparator": "Brown versus white rice intake among children 6-24 months",
+   "outcome": "Authors' calculation: eaters-only iAs intake from brown rice 0.295 ug/kg bw/day versus 0.140 from white rice at 6-24 months, using the pooled US means (derived, not measured).",
+   "analytes": [
+    "iAs"
+   ],
+   "locator": "Table 8"
+  }
+ ],
+ "unresolved": [
+  "Unit mislabeled in Table 4 (ug/kg vs likely mg/kg).",
+  "Text value 0.224 for US white rice tAs conflicts with Table 4 value 0.244.",
+  "Per-study rows in Table 4 not extracted (other authors' data); number of studies in each pooled mean not stated.",
+  "Several per-study iAs% values exceed 100 (e.g. 113 for bran) or iAs exceeds tAs (Naito et al. 2015 white rice iAs 0.683 vs tAs 0.250) in the compilation.",
+  "Exposure tables 7-8 are derived estimates and not extracted.",
+  "11 pooled literature means removed: Table 4 averages values from earlier studies (not new measurements) and labels them µg/kg although the magnitudes (e.g. US white rice tAs 0.244) are mg/kg."
+ ],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [
+  {
+   "what": "FDA action level for inorganic arsenic in infant rice cereal (2020)",
+   "value": "100 ppb",
+   "locator": "Table 2"
+  },
+  {
+   "what": "JECFA 2001 inorganic arsenic limits for husked and polished rice (as cited)",
+   "value": "350 ppb husked; 200 ppb polished",
+   "locator": "Table 2"
+  },
+  {
+   "what": "Mean rice intake, eaters only, 6-24 months (WWEIA)",
+   "value": "brown 2.14 g/kg bw/day; white 1.51 g/kg bw/day (24-60 months white 1.55)",
+   "locator": "Table 6; Section 3.2"
+  }
+ ],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/scott2025-brown-white-rice-arsenic.md",
+ "non_numeric_findings": [],
+ "merged_unmatched": [],
+ "merged_snapshot": {
+  "extractor": "merged:data/evidence/contracts/most-studied-rollout-2026-10-22/rice/extraction/scott2025-brown-white-rice-arsenic.json",
+  "findings": []
+ },
+ "raw_output": "data/evidence/findings/extract/raw/scott2025-brown-white-rice-arsenic.json"
+}

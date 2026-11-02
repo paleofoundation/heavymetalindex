@@ -2773,12 +2773,23 @@
    "statistic_raw": "not_detected"
   }
  ],
- "datasets": {},
+ "datasets": {
+  "who-gemsfood-heavy-metal-contaminants": {
+   "rows": 22,
+   "analytes": {
+    "Pb": 22
+   },
+   "shards": [
+    "data/evidence/findings/datasets/who-gemsfood-heavy-metal-contaminants--Pb.jsonl.gz"
+   ]
+  }
+ },
  "sources": [
   "cfia2020-toxic-metals-selected-foods-2018-19",
   "fda2013-ias-rice-products-sampling",
   "horvath2025-hungary-protein-powders-metals",
-  "hosojima2017-rice-endosperm-protein-cadmium"
+  "hosojima2017-rice-endosperm-protein-cadmium",
+  "who-gemsfood-heavy-metal-contaminants"
  ],
  "analytes": {
   "tAs": 20,
@@ -2793,6 +2804,6 @@
   "Se": 1,
   "Rb": 1,
   "Ba": 1,
-  "Pb": 1
+  "Pb": 23
  }
 }

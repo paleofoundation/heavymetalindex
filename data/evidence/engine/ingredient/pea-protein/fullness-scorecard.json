@@ -1,0 +1,602 @@
+{
+  "schema_version": 1,
+  "ingredient": "pea-protein",
+  "html_sha256": "e102f573b52ab772f566a55b7dd6ddd04c92d0fbc2ed66c3d0a853133b42c5e2",
+  "universe_sha256": "25e1924d66e88b037ac9850c321570cd3a98162695ca4fdf18492a59ff163f72",
+  "universe_size": 2,
+  "universe_complete": true,
+  "universe_discovery_gaps": 0,
+  "source_records": 2,
+  "dataset_rows": 0,
+  "dispositions": {
+    "out_of_scope": 1,
+    "occurrence_extracted": 1
+  },
+  "extracted_results": 32,
+  "ledger_status": "present",
+  "rendered_rows": 32,
+  "rendered_row_ids": [
+    "hmi-occurrence-pea-protein-Au-0",
+    "hmi-occurrence-pea-protein-Au-1",
+    "hmi-occurrence-pea-protein-Ba-0",
+    "hmi-occurrence-pea-protein-Ba-1",
+    "hmi-occurrence-pea-protein-Be-0",
+    "hmi-occurrence-pea-protein-Be-1",
+    "hmi-occurrence-pea-protein-Bi-0",
+    "hmi-occurrence-pea-protein-Bi-1",
+    "hmi-occurrence-pea-protein-Cd-0",
+    "hmi-occurrence-pea-protein-Cd-1",
+    "hmi-occurrence-pea-protein-Co-0",
+    "hmi-occurrence-pea-protein-Co-1",
+    "hmi-occurrence-pea-protein-Cr-0",
+    "hmi-occurrence-pea-protein-Cr-1",
+    "hmi-occurrence-pea-protein-Li-0",
+    "hmi-occurrence-pea-protein-Li-1",
+    "hmi-occurrence-pea-protein-Mo-0",
+    "hmi-occurrence-pea-protein-Mo-1",
+    "hmi-occurrence-pea-protein-Pb-0",
+    "hmi-occurrence-pea-protein-Pb-1",
+    "hmi-occurrence-pea-protein-Pt-0",
+    "hmi-occurrence-pea-protein-Pt-1",
+    "hmi-occurrence-pea-protein-Sn-0",
+    "hmi-occurrence-pea-protein-Sn-1",
+    "hmi-occurrence-pea-protein-Ti-0",
+    "hmi-occurrence-pea-protein-Ti-1",
+    "hmi-occurrence-pea-protein-Tl-0",
+    "hmi-occurrence-pea-protein-Tl-1",
+    "hmi-occurrence-pea-protein-V-0",
+    "hmi-occurrence-pea-protein-V-1",
+    "hmi-occurrence-pea-protein-tHg-0",
+    "hmi-occurrence-pea-protein-tHg-1"
+  ],
+  "by_analyte": {
+    "Pb": {
+      "rows": 2,
+      "rated": 0,
+      "direct": 0,
+      "bounded": 0,
+      "unavailable": 2,
+      "missing": 0,
+      "unavailable_reasons": {
+        "reference_below_display_minimum_after_full_ledger": 2
+      }
+    },
+    "Cd": {
+      "rows": 2,
+      "rated": 0,
+      "direct": 0,
+      "bounded": 0,
+      "unavailable": 2,
+      "missing": 0,
+      "unavailable_reasons": {
+        "reference_below_display_minimum_after_full_ledger": 2
+      }
+    },
+    "tHg": {
+      "rows": 2,
+      "rated": 0,
+      "direct": 0,
+      "bounded": 0,
+      "unavailable": 2,
+      "missing": 0,
+      "unavailable_reasons": {
+        "reference_below_display_minimum_after_full_ledger": 2
+      }
+    },
+    "Cr": {
+      "rows": 2,
+      "rated": 0,
+      "direct": 0,
+      "bounded": 0,
+      "unavailable": 2,
+      "missing": 0,
+      "unavailable_reasons": {
+        "reference_below_display_minimum_after_full_ledger": 2
+      }
+    },
+    "Sn": {
+      "rows": 2,
+      "rated": 0,
+      "direct": 0,
+      "bounded": 0,
+      "unavailable": 2,
+      "missing": 0,
+      "unavailable_reasons": {
+        "reference_below_display_minimum_after_full_ledger": 2
+      }
+    },
+    "Co": {
+      "rows": 2,
+      "rated": 0,
+      "direct": 0,
+      "bounded": 0,
+      "unavailable": 2,
+      "missing": 0,
+      "unavailable_reasons": {
+        "reference_below_display_minimum_after_full_ledger": 2
+      }
+    },
+    "V": {
+      "rows": 2,
+      "rated": 0,
+      "direct": 0,
+      "bounded": 0,
+      "unavailable": 2,
+      "missing": 0,
+      "unavailable_reasons": {
+        "reference_below_display_minimum_after_full_ledger": 2
+      }
+    },
+    "Au": {
+      "rows": 2,
+      "rated": 0,
+      "direct": 0,
+      "bounded": 0,
+      "unavailable": 2,
+      "missing": 0,
+      "unavailable_reasons": {
+        "reference_below_display_minimum_after_full_ledger": 2
+      }
+    },
+    "Ba": {
+      "rows": 2,
+      "rated": 0,
+      "direct": 0,
+      "bounded": 0,
+      "unavailable": 2,
+      "missing": 0,
+      "unavailable_reasons": {
+        "reference_below_display_minimum_after_full_ledger": 2
+      }
+    },
+    "Be": {
+      "rows": 2,
+      "rated": 0,
+      "direct": 0,
+      "bounded": 0,
+      "unavailable": 2,
+      "missing": 0,
+      "unavailable_reasons": {
+        "reference_below_display_minimum_after_full_ledger": 2
+      }
+    },
+    "Bi": {
+      "rows": 2,
+      "rated": 0,
+      "direct": 0,
+      "bounded": 0,
+      "unavailable": 2,
+      "missing": 0,
+      "unavailable_reasons": {
+        "reference_below_display_minimum_after_full_ledger": 2
+      }
+    },
+    "Li": {
+      "rows": 2,
+      "rated": 0,
+      "direct": 0,
+      "bounded": 0,
+      "unavailable": 2,
+      "missing": 0,
+      "unavailable_reasons": {
+        "reference_below_display_minimum_after_full_ledger": 2
+      }
+    },
+    "Mo": {
+      "rows": 2,
+      "rated": 0,
+      "direct": 0,
+      "bounded": 0,
+      "unavailable": 2,
+      "missing": 0,
+      "unavailable_reasons": {
+        "reference_below_display_minimum_after_full_ledger": 2
+      }
+    },
+    "Pt": {
+      "rows": 2,
+      "rated": 0,
+      "direct": 0,
+      "bounded": 0,
+      "unavailable": 2,
+      "missing": 0,
+      "unavailable_reasons": {
+        "reference_below_display_minimum_after_full_ledger": 2
+      }
+    },
+    "Ti": {
+      "rows": 2,
+      "rated": 0,
+      "direct": 0,
+      "bounded": 0,
+      "unavailable": 2,
+      "missing": 0,
+      "unavailable_reasons": {
+        "reference_below_display_minimum_after_full_ledger": 2
+      }
+    },
+    "Tl": {
+      "rows": 2,
+      "rated": 0,
+      "direct": 0,
+      "bounded": 0,
+      "unavailable": 2,
+      "missing": 0,
+      "unavailable_reasons": {
+        "reference_below_display_minimum_after_full_ledger": 2
+      }
+    }
+  },
+  "rendered_references": [
+    {
+      "id": "hmi-pooled-reference-v2:pea-protein-9abd3cdd6591:bc5b292e3818",
+      "scope_text": "HMI pea protein Pb reference · Pea protein, powder or ground. Pea protein, powder or ground; As sold, as eaten or fresh weight, µg/kg; no moisture conversion. Distribution of subgroup median concentration values.",
+      "source_ids": [
+        "ring2021-ireland-protein-powders-metals"
+      ]
+    },
+    {
+      "id": "hmi-pooled-reference-v2:pea-protein-f78a9cb8a2a4:9fdd60c788cf",
+      "scope_text": "HMI pea protein Cd reference · Pea protein, powder or ground. Pea protein, powder or ground; As sold, as eaten or fresh weight, µg/kg; no moisture conversion. Distribution of subgroup median concentration values.",
+      "source_ids": [
+        "ring2021-ireland-protein-powders-metals"
+      ]
+    },
+    {
+      "id": "hmi-pooled-reference-v2:pea-protein-56dce793f4ac:a79a86d4846c",
+      "scope_text": "HMI pea protein tHg reference · Pea protein, powder or ground. Pea protein, powder or ground; As sold, as eaten or fresh weight, µg/kg; no moisture conversion. Distribution of subgroup median concentration values.",
+      "source_ids": [
+        "ring2021-ireland-protein-powders-metals"
+      ]
+    },
+    {
+      "id": "hmi-pooled-reference-v2:pea-protein-1b5722f9b52a:a70a29c4a5eb",
+      "scope_text": "HMI pea protein Cr reference · Pea protein, powder or ground. Pea protein, powder or ground; As sold, as eaten or fresh weight, µg/kg; no moisture conversion. Distribution of subgroup median concentration values.",
+      "source_ids": [
+        "ring2021-ireland-protein-powders-metals"
+      ]
+    },
+    {
+      "id": "hmi-pooled-reference-v2:pea-protein-fb9ccbe22b32:46982172eebe",
+      "scope_text": "HMI pea protein Sn reference · Pea protein, powder or ground. Pea protein, powder or ground; As sold, as eaten or fresh weight, µg/kg; no moisture conversion. Distribution of subgroup median concentration values.",
+      "source_ids": [
+        "ring2021-ireland-protein-powders-metals"
+      ]
+    },
+    {
+      "id": "hmi-pooled-reference-v2:pea-protein-1a968278bbb3:a3278e2b7923",
+      "scope_text": "HMI pea protein Co reference · Pea protein, powder or ground. Pea protein, powder or ground; As sold, as eaten or fresh weight, µg/kg; no moisture conversion. Distribution of subgroup median concentration values.",
+      "source_ids": [
+        "ring2021-ireland-protein-powders-metals"
+      ]
+    },
+    {
+      "id": "hmi-pooled-reference-v2:pea-protein-77a674963781:0764e4ed6bb1",
+      "scope_text": "HMI pea protein V reference · Pea protein, powder or ground. Pea protein, powder or ground; As sold, as eaten or fresh weight, µg/kg; no moisture conversion. Distribution of subgroup median concentration values.",
+      "source_ids": [
+        "ring2021-ireland-protein-powders-metals"
+      ]
+    },
+    {
+      "id": "hmi-pooled-reference-v2:pea-protein-ad22aada8661:9539f6186540",
+      "scope_text": "HMI pea protein Au reference · Pea protein, powder or ground. Pea protein, powder or ground; As sold, as eaten or fresh weight, µg/kg; no moisture conversion. Distribution of subgroup median concentration values.",
+      "source_ids": [
+        "ring2021-ireland-protein-powders-metals"
+      ]
+    },
+    {
+      "id": "hmi-pooled-reference-v2:pea-protein-7c984ec0753e:f1c8f935322b",
+      "scope_text": "HMI pea protein Ba reference · Pea protein, powder or ground. Pea protein, powder or ground; As sold, as eaten or fresh weight, µg/kg; no moisture conversion. Distribution of subgroup median concentration values.",
+      "source_ids": [
+        "ring2021-ireland-protein-powders-metals"
+      ]
+    },
+    {
+      "id": "hmi-pooled-reference-v2:pea-protein-458197501c69:14d9a5e7efeb",
+      "scope_text": "HMI pea protein Be reference · Pea protein, powder or ground. Pea protein, powder or ground; As sold, as eaten or fresh weight, µg/kg; no moisture conversion. Distribution of subgroup median concentration values.",
+      "source_ids": [
+        "ring2021-ireland-protein-powders-metals"
+      ]
+    },
+    {
+      "id": "hmi-pooled-reference-v2:pea-protein-b5b63bfba04c:35c545c8f10f",
+      "scope_text": "HMI pea protein Bi reference · Pea protein, powder or ground. Pea protein, powder or ground; As sold, as eaten or fresh weight, µg/kg; no moisture conversion. Distribution of subgroup median concentration values.",
+      "source_ids": [
+        "ring2021-ireland-protein-powders-metals"
+      ]
+    },
+    {
+      "id": "hmi-pooled-reference-v2:pea-protein-aa6501df2a2a:c7866685848e",
+      "scope_text": "HMI pea protein Li reference · Pea protein, powder or ground. Pea protein, powder or ground; As sold, as eaten or fresh weight, µg/kg; no moisture conversion. Distribution of subgroup median concentration values.",
+      "source_ids": [
+        "ring2021-ireland-protein-powders-metals"
+      ]
+    },
+    {
+      "id": "hmi-pooled-reference-v2:pea-protein-07202f1bab6f:07f799144eca",
+      "scope_text": "HMI pea protein Mo reference · Pea protein, powder or ground. Pea protein, powder or ground; As sold, as eaten or fresh weight, µg/kg; no moisture conversion. Distribution of subgroup median concentration values.",
+      "source_ids": [
+        "ring2021-ireland-protein-powders-metals"
+      ]
+    },
+    {
+      "id": "hmi-pooled-reference-v2:pea-protein-f014dd5f7f82:607df02935e1",
+      "scope_text": "HMI pea protein Pt reference · Pea protein, powder or ground. Pea protein, powder or ground; As sold, as eaten or fresh weight, µg/kg; no moisture conversion. Distribution of subgroup median concentration values.",
+      "source_ids": [
+        "ring2021-ireland-protein-powders-metals"
+      ]
+    },
+    {
+      "id": "hmi-pooled-reference-v2:pea-protein-d1cabd52a0bd:8f7be024eb7d",
+      "scope_text": "HMI pea protein Ti reference · Pea protein, powder or ground. Pea protein, powder or ground; As sold, as eaten or fresh weight, µg/kg; no moisture conversion. Distribution of subgroup median concentration values.",
+      "source_ids": [
+        "ring2021-ireland-protein-powders-metals"
+      ]
+    },
+    {
+      "id": "hmi-pooled-reference-v2:pea-protein-5dbec2de450a:07bdd00bc301",
+      "scope_text": "HMI pea protein Tl reference · Pea protein, powder or ground. Pea protein, powder or ground; As sold, as eaten or fresh weight, µg/kg; no moisture conversion. Distribution of subgroup median concentration values.",
+      "source_ids": [
+        "ring2021-ireland-protein-powders-metals"
+      ]
+    }
+  ],
+  "reference_families": [
+    {
+      "id": "hmi-pooled-reference-v2:pea-protein-07202f1bab6f:07f799144eca",
+      "scope": {
+        "analyte": "Mo",
+        "material": "pea-protein: Pea protein, powder or ground",
+        "basis": "As sold, as eaten or fresh weight",
+        "unit": "µg/kg"
+      },
+      "family_ids": [
+        "ring2021-ireland-protein-powders-metals"
+      ],
+      "unit_ids": [
+        "pea-protein-07202f1bab6f:med-5a6991adfefc",
+        "pea-protein-07202f1bab6f:med-5f8b4d416539"
+      ]
+    },
+    {
+      "id": "hmi-pooled-reference-v2:pea-protein-1a968278bbb3:a3278e2b7923",
+      "scope": {
+        "analyte": "Co",
+        "material": "pea-protein: Pea protein, powder or ground",
+        "basis": "As sold, as eaten or fresh weight",
+        "unit": "µg/kg"
+      },
+      "family_ids": [
+        "ring2021-ireland-protein-powders-metals"
+      ],
+      "unit_ids": [
+        "pea-protein-1a968278bbb3:med-4b265ca7740a",
+        "pea-protein-1a968278bbb3:med-f3f498389e96"
+      ]
+    },
+    {
+      "id": "hmi-pooled-reference-v2:pea-protein-1b5722f9b52a:a70a29c4a5eb",
+      "scope": {
+        "analyte": "Cr",
+        "material": "pea-protein: Pea protein, powder or ground",
+        "basis": "As sold, as eaten or fresh weight",
+        "unit": "µg/kg"
+      },
+      "family_ids": [
+        "ring2021-ireland-protein-powders-metals"
+      ],
+      "unit_ids": [
+        "pea-protein-1b5722f9b52a:med-b94a7fcdfb67",
+        "pea-protein-1b5722f9b52a:med-dee5e436cddb"
+      ]
+    },
+    {
+      "id": "hmi-pooled-reference-v2:pea-protein-458197501c69:14d9a5e7efeb",
+      "scope": {
+        "analyte": "Be",
+        "material": "pea-protein: Pea protein, powder or ground",
+        "basis": "As sold, as eaten or fresh weight",
+        "unit": "µg/kg"
+      },
+      "family_ids": [
+        "ring2021-ireland-protein-powders-metals"
+      ],
+      "unit_ids": [
+        "pea-protein-458197501c69:med-2798e71651ad",
+        "pea-protein-458197501c69:med-baf91a3533aa"
+      ]
+    },
+    {
+      "id": "hmi-pooled-reference-v2:pea-protein-56dce793f4ac:a79a86d4846c",
+      "scope": {
+        "analyte": "tHg",
+        "material": "pea-protein: Pea protein, powder or ground",
+        "basis": "As sold, as eaten or fresh weight",
+        "unit": "µg/kg"
+      },
+      "family_ids": [
+        "ring2021-ireland-protein-powders-metals"
+      ],
+      "unit_ids": [
+        "pea-protein-56dce793f4ac:med-2c657ebcef83",
+        "pea-protein-56dce793f4ac:med-74084e36a688"
+      ]
+    },
+    {
+      "id": "hmi-pooled-reference-v2:pea-protein-5dbec2de450a:07bdd00bc301",
+      "scope": {
+        "analyte": "Tl",
+        "material": "pea-protein: Pea protein, powder or ground",
+        "basis": "As sold, as eaten or fresh weight",
+        "unit": "µg/kg"
+      },
+      "family_ids": [
+        "ring2021-ireland-protein-powders-metals"
+      ],
+      "unit_ids": [
+        "pea-protein-5dbec2de450a:med-31864586605d",
+        "pea-protein-5dbec2de450a:med-857dc8d6dbdf"
+      ]
+    },
+    {
+      "id": "hmi-pooled-reference-v2:pea-protein-77a674963781:0764e4ed6bb1",
+      "scope": {
+        "analyte": "V",
+        "material": "pea-protein: Pea protein, powder or ground",
+        "basis": "As sold, as eaten or fresh weight",
+        "unit": "µg/kg"
+      },
+      "family_ids": [
+        "ring2021-ireland-protein-powders-metals"
+      ],
+      "unit_ids": [
+        "pea-protein-77a674963781:med-2b8870d5c5a0",
+        "pea-protein-77a674963781:med-ffe921d53a7d"
+      ]
+    },
+    {
+      "id": "hmi-pooled-reference-v2:pea-protein-7c984ec0753e:f1c8f935322b",
+      "scope": {
+        "analyte": "Ba",
+        "material": "pea-protein: Pea protein, powder or ground",
+        "basis": "As sold, as eaten or fresh weight",
+        "unit": "µg/kg"
+      },
+      "family_ids": [
+        "ring2021-ireland-protein-powders-metals"
+      ],
+      "unit_ids": [
+        "pea-protein-7c984ec0753e:med-23a51f5f371c",
+        "pea-protein-7c984ec0753e:med-a0c787aa4c27"
+      ]
+    },
+    {
+      "id": "hmi-pooled-reference-v2:pea-protein-9abd3cdd6591:bc5b292e3818",
+      "scope": {
+        "analyte": "Pb",
+        "material": "pea-protein: Pea protein, powder or ground",
+        "basis": "As sold, as eaten or fresh weight",
+        "unit": "µg/kg"
+      },
+      "family_ids": [
+        "ring2021-ireland-protein-powders-metals"
+      ],
+      "unit_ids": [
+        "pea-protein-9abd3cdd6591:med-291c53734fb0",
+        "pea-protein-9abd3cdd6591:med-56524c5b0c01"
+      ]
+    },
+    {
+      "id": "hmi-pooled-reference-v2:pea-protein-aa6501df2a2a:c7866685848e",
+      "scope": {
+        "analyte": "Li",
+        "material": "pea-protein: Pea protein, powder or ground",
+        "basis": "As sold, as eaten or fresh weight",
+        "unit": "µg/kg"
+      },
+      "family_ids": [
+        "ring2021-ireland-protein-powders-metals"
+      ],
+      "unit_ids": [
+        "pea-protein-aa6501df2a2a:med-345c5183b6d0",
+        "pea-protein-aa6501df2a2a:med-d3412db2696c"
+      ]
+    },
+    {
+      "id": "hmi-pooled-reference-v2:pea-protein-ad22aada8661:9539f6186540",
+      "scope": {
+        "analyte": "Au",
+        "material": "pea-protein: Pea protein, powder or ground",
+        "basis": "As sold, as eaten or fresh weight",
+        "unit": "µg/kg"
+      },
+      "family_ids": [
+        "ring2021-ireland-protein-powders-metals"
+      ],
+      "unit_ids": [
+        "pea-protein-ad22aada8661:med-24fae0d22575",
+        "pea-protein-ad22aada8661:med-91f300a50ea6"
+      ]
+    },
+    {
+      "id": "hmi-pooled-reference-v2:pea-protein-b5b63bfba04c:35c545c8f10f",
+      "scope": {
+        "analyte": "Bi",
+        "material": "pea-protein: Pea protein, powder or ground",
+        "basis": "As sold, as eaten or fresh weight",
+        "unit": "µg/kg"
+      },
+      "family_ids": [
+        "ring2021-ireland-protein-powders-metals"
+      ],
+      "unit_ids": [
+        "pea-protein-b5b63bfba04c:med-19f246a027ac",
+        "pea-protein-b5b63bfba04c:med-235612155b57"
+      ]
+    },
+    {
+      "id": "hmi-pooled-reference-v2:pea-protein-d1cabd52a0bd:8f7be024eb7d",
+      "scope": {
+        "analyte": "Ti",
+        "material": "pea-protein: Pea protein, powder or ground",
+        "basis": "As sold, as eaten or fresh weight",
+        "unit": "µg/kg"
+      },
+      "family_ids": [
+        "ring2021-ireland-protein-powders-metals"
+      ],
+      "unit_ids": [
+        "pea-protein-d1cabd52a0bd:med-88aa371dbe9a",
+        "pea-protein-d1cabd52a0bd:med-9d5369d1f457"
+      ]
+    },
+    {
+      "id": "hmi-pooled-reference-v2:pea-protein-f014dd5f7f82:607df02935e1",
+      "scope": {
+        "analyte": "Pt",
+        "material": "pea-protein: Pea protein, powder or ground",
+        "basis": "As sold, as eaten or fresh weight",
+        "unit": "µg/kg"
+      },
+      "family_ids": [
+        "ring2021-ireland-protein-powders-metals"
+      ],
+      "unit_ids": [
+        "pea-protein-f014dd5f7f82:med-322b4901f00e",
+        "pea-protein-f014dd5f7f82:med-fedd3674db80"
+      ]
+    },
+    {
+      "id": "hmi-pooled-reference-v2:pea-protein-f78a9cb8a2a4:9fdd60c788cf",
+      "scope": {
+        "analyte": "Cd",
+        "material": "pea-protein: Pea protein, powder or ground",
+        "basis": "As sold, as eaten or fresh weight",
+        "unit": "µg/kg"
+      },
+      "family_ids": [
+        "ring2021-ireland-protein-powders-metals"
+      ],
+      "unit_ids": [
+        "pea-protein-f78a9cb8a2a4:med-1d325e14e063",
+        "pea-protein-f78a9cb8a2a4:med-c9fe7558fc15"
+      ]
+    },
+    {
+      "id": "hmi-pooled-reference-v2:pea-protein-fb9ccbe22b32:46982172eebe",
+      "scope": {
+        "analyte": "Sn",
+        "material": "pea-protein: Pea protein, powder or ground",
+        "basis": "As sold, as eaten or fresh weight",
+        "unit": "µg/kg"
+      },
+      "family_ids": [
+        "ring2021-ireland-protein-powders-metals"
+      ],
+      "unit_ids": [
+        "pea-protein-fb9ccbe22b32:med-751716d83112",
+        "pea-protein-fb9ccbe22b32:med-abeeb7e2f3f6"
+      ]
+    }
+  ]
+}

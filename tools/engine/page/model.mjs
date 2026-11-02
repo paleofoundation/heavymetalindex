@@ -53,8 +53,8 @@ function findingText(f) {
   const c = censoredBound(f);
   if (c) return `<${fmt(c.upper)} µg/kg${f.statistic === 'mean' ? ' (mean below the reporting limit)' : ''}`;
   if (['below_LOD', 'not_detected'].includes(f.statistic)) return 'Not detected (no numerical limit reported)';
-  if (f.statistic === 'median' && f.median_bounds) { const [a, b] = f.median_bounds; return a === b ? `${fmt(a)} µg/kg (median)` : a === 0 ? `median <${fmt(b)} µg/kg (below reporting limits)` : `median ${fmt(a)}–${fmt(b)} µg/kg (bounds)`; }
-  if (f.statistic === 'range' && Number.isFinite(f.max)) return Number.isFinite(f.min) ? `${fmt(f.min)}–${fmt(f.max)} µg/kg (range)` : `up to ${fmt(f.max)} µg/kg (range; lowest below the limit)`;
+  if (f.statistic === 'median' && f.median_bounds) { const [a, b] = f.median_bounds; return a === b ? `${fmt(a)} µg/kg (median)` : a === 0 ? `median <${fmt(b)} µg/kg (below reporting limits)` : `median ${fmt(a)} to ${fmt(b)} µg/kg (bounds)`; }
+  if (f.statistic === 'range' && Number.isFinite(f.max)) return Number.isFinite(f.min) ? `${fmt(f.min)} to ${fmt(f.max)} µg/kg (range)` : `up to ${fmt(f.max)} µg/kg (range; lowest below the limit)`;
   if (f.statistic === 'min' && Number.isFinite(f.value ?? f.min)) return `${fmt(f.value ?? f.min)} µg/kg (minimum)`;
   if (f.statistic === 'max' && Number.isFinite(f.value ?? f.max)) return `${fmt(f.value ?? f.max)} µg/kg (maximum)`;
   if (Number.isFinite(f.value)) return `${fmt(f.value)} µg/kg (${statisticLabel(f.statistic)}${Number.isFinite(f.sd) ? ` ± ${fmt(f.sd)} SD` : ''})`;
@@ -261,7 +261,7 @@ function contrast(r, rows) {
   const detail = `${r.region}: ${r.finding_text}; comparison ${ref.region}${ref.material_key !== r.material_key ? ` (${ref.food.toLowerCase()})` : ''}: ${ref.finding_text}. ${r.locator}; comparison ${ref.locator}.`;
   if (!t.exact || !rt.exact) {
     const overlap = !(t.upper < rt.lower || t.lower > rt.upper);
-    return { direction: overlap ? 'bounded' : (t.upper < rt.lower ? 'lower' : 'higher'), label: overlap ? 'Limits overlap' : `${fmt(t.lower)}–${fmt(t.upper)} versus ${fmt(rt.lower)}–${fmt(rt.upper)} µg/kg`,
+    return { direction: overlap ? 'bounded' : (t.upper < rt.lower ? 'lower' : 'higher'), label: overlap ? 'Limits overlap' : `${fmt(t.lower)} to ${fmt(t.upper)} versus ${fmt(rt.lower)} to ${fmt(rt.upper)} µg/kg`,
       kind: 'site_or_form', target: t, reference: rt, reference_form: `${ref.food}: ${ref.region}`, detail, context: `${ctx} Reporting-limit bounds retained.`, ref_id: ref.id, contrast_kind: hit.kind };
   }
   const direction = t.lower < rt.lower ? 'lower' : t.lower > rt.lower ? 'higher' : 'same';

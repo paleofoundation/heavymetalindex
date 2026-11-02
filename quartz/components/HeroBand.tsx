@@ -1,4 +1,4 @@
-import { ApprovedRiceHero } from "./approvedRiceChrome"
+import { ApprovedRiceHero, CanonicalIngredientHero } from "./approvedRiceChrome"
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
 import { FullSlug, SimpleSlug, resolveRelative, simplifySlug } from "../util/path"
 import style from "./styles/heroBand.scss"
@@ -213,6 +213,8 @@ export default (() => {
     const slug = (fileData.slug ?? "") as FullSlug
     const fm = (fileData.frontmatter ?? {}) as Record<string, unknown>
     if (String(slug) === "ingredients/rice" && fm.presentation_lock === "rice-2026-10-19") return <ApprovedRiceHero />
+    // Only compiler-owned pages (page_contract_version) take the canonical chrome; legacy pages keep this band.
+    if (fm.page_contract_version && fm.ingredient_presentation === "rice-shared-v1" && fm.ingredient_chrome) return <CanonicalIngredientHero model={fm.ingredient_chrome} />
     if (String(slug) === KAREN.slug) return <AuthorProfileHero
       slug={slug}
       heroImage={typeof fm.hero_image === "string" ? fm.hero_image : sectionHero("authors")?.image}

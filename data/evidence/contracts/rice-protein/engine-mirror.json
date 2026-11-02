@@ -1,0 +1,10 @@
+{
+  "written_by": "tools/engine/gates/mirror.mjs",
+  "from": "data/evidence/engine/ingredient/rice-protein",
+  "build_date": "2026-11-02",
+  "files": [
+    "evidence-ledger.json",
+    "fullness-scorecard.json"
+  ],
+  "note": "Reference artifacts named in the ledger stay under the engine directory."
+}

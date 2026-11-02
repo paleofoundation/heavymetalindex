@@ -1,0 +1,118 @@
+{
+  "label": "Equal weight per subgroup",
+  "distribution": {
+    "scope": {
+      "ingredient": "rice-protein",
+      "analyte": "iAs",
+      "basis": "Rice protein, as sold; As sold, as eaten or fresh weight, µg/kg; no moisture conversion",
+      "statistic": "subgroup median concentration",
+      "market": "International rice protein evidence library",
+      "period": "Source collection years as reported"
+    },
+    "weighting": "family-group",
+    "n": 5,
+    "family_count": 1,
+    "families": [
+      "fda2013-ias-rice-products-sampling"
+    ],
+    "q1": {
+      "lower": 30,
+      "upper": 30,
+      "exact": true
+    },
+    "median": {
+      "lower": 37,
+      "upper": 37,
+      "exact": true
+    },
+    "q3": {
+      "lower": 47,
+      "upper": 47,
+      "exact": true
+    },
+    "units": [
+      {
+        "ingredient": "rice-protein",
+        "analyte": "iAs",
+        "basis": "Rice protein, as sold; As sold, as eaten or fresh weight, µg/kg; no moisture conversion",
+        "statistic": "subgroup median concentration",
+        "market": "International rice protein evidence library",
+        "period": "Source collection years as reported",
+        "id": "med-7d3d72daacd3",
+        "family": "fda2013-ias-rice-products-sampling",
+        "group": "Beverages: Protein Beverages",
+        "lower": 53,
+        "upper": 53,
+        "n": 1,
+        "locator": "Full Analytical Results - Rice Products, sample 334095704",
+        "weight": 0.2
+      },
+      {
+        "ingredient": "rice-protein",
+        "analyte": "iAs",
+        "basis": "Rice protein, as sold; As sold, as eaten or fresh weight, µg/kg; no moisture conversion",
+        "statistic": "subgroup median concentration",
+        "market": "International rice protein evidence library",
+        "period": "Source collection years as reported",
+        "id": "med-4e2399518b3d",
+        "family": "fda2013-ias-rice-products-sampling",
+        "group": "Beverages: Protein Beverages",
+        "lower": 37,
+        "upper": 37,
+        "n": 1,
+        "locator": "Full Analytical Results - Rice Products, sample 333512027",
+        "weight": 0.2
+      },
+      {
+        "ingredient": "rice-protein",
+        "analyte": "iAs",
+        "basis": "Rice protein, as sold; As sold, as eaten or fresh weight, µg/kg; no moisture conversion",
+        "statistic": "subgroup median concentration",
+        "market": "International rice protein evidence library",
+        "period": "Source collection years as reported",
+        "id": "med-1120871cbc6c",
+        "family": "fda2013-ias-rice-products-sampling",
+        "group": "Beverages: Protein Beverages",
+        "lower": 25,
+        "upper": 25,
+        "n": 1,
+        "locator": "Full Analytical Results - Rice Products, sample 333512301",
+        "weight": 0.2
+      },
+      {
+        "ingredient": "rice-protein",
+        "analyte": "iAs",
+        "basis": "Rice protein, as sold; As sold, as eaten or fresh weight, µg/kg; no moisture conversion",
+        "statistic": "subgroup median concentration",
+        "market": "International rice protein evidence library",
+        "period": "Source collection years as reported",
+        "id": "med-28fc259c4d87",
+        "family": "fda2013-ias-rice-products-sampling",
+        "group": "Beverages: Protein Beverages",
+        "lower": 30,
+        "upper": 30,
+        "n": 1,
+        "locator": "Full Analytical Results - Rice Products, sample 333512299",
+        "weight": 0.2
+      },
+      {
+        "ingredient": "rice-protein",
+        "analyte": "iAs",
+        "basis": "Rice protein, as sold; As sold, as eaten or fresh weight, µg/kg; no moisture conversion",
+        "statistic": "subgroup median concentration",
+        "market": "International rice protein evidence library",
+        "period": "Source collection years as reported",
+        "id": "med-2df0187bfbdd",
+        "family": "fda2013-ias-rice-products-sampling",
+        "group": "Beverages: Protein Beverages",
+        "lower": 47,
+        "upper": 47,
+        "n": 1,
+        "locator": "Full Analytical Results - Rice Products, sample 333688277",
+        "weight": 0.2
+      }
+    ],
+    "eligible": true,
+    "quantile_method": "Inverse weighted empirical CDF; midpoint at exact cumulative-weight boundaries"
+  }
+}

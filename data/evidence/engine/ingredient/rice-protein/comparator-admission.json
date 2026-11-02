@@ -3,6 +3,36 @@
   "frozen": "2026-11-02",
   "admission": [
     {
+      "finding": "who-gemsfood-heavy-metal-contaminants:Pb:brown-rice-protein-powder:dry:paho-random:median",
+      "source": "who-gemsfood-heavy-metal-contaminants",
+      "analyte": "Pb",
+      "reference_id": "hmi-pooled-reference-v2:rice-protein-07dc36a9d6f5:4c8d4123dbc3",
+      "reason": null,
+      "level": "low",
+      "target": {
+        "lower": 236.72,
+        "upper": 236.72,
+        "exact": true,
+        "statistic": "median"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "who-gemsfood-heavy-metal-contaminants:Pb:rice-protein-powder:dry:paho-random:median",
+      "source": "who-gemsfood-heavy-metal-contaminants",
+      "analyte": "Pb",
+      "reference_id": "hmi-pooled-reference-v2:rice-protein-07dc36a9d6f5:4c8d4123dbc3",
+      "reason": null,
+      "level": "moderate",
+      "target": {
+        "lower": 255.45,
+        "upper": 255.45,
+        "exact": true,
+        "statistic": "median"
+      },
+      "contributes": true
+    },
+    {
       "finding": "horvath2025-hungary-protein-powders-metals:Pb:protein-powder-plant-based-vegan-retail-product-17:not_detected",
       "source": "horvath2025-hungary-protein-powders-metals",
       "analyte": "Pb",
@@ -1266,6 +1296,12 @@
     }
   ],
   "unit_counts": {
+    "Pb|rice-protein: Rice protein, powder or ground|Dry weight": {
+      "units": 4,
+      "families": [
+        "who-gemsfood-heavy-metal-contaminants"
+      ]
+    },
     "tAs|rice-protein: Rice protein, powder or ground|As sold, as eaten or fresh weight": {
       "units": 13,
       "families": [

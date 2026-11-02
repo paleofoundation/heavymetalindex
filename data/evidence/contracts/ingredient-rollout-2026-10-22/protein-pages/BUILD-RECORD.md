@@ -2,7 +2,7 @@
 
 Order HMI-PROTEIN-PEA-RICE-1, second instruction: build `/ingredients/pea-protein` and `/ingredients/rice-protein` in the Rice canonical style through `renderContractArticle` and the grouped findings table, with Olives-style superscripts, lower-contamination sourcing comparisons, up to 20 FAQs, a prose-depth acceptance record and a paired desktop/phone comparison with Rice.
 
-**Status: candidates compiled, not presentation-ready, not publishable.** Two blockers are outside this build (see below). The provisional pages from PR #467 remain the committed `wiki/` pages until the blockers are cleared.
+**Status (2 November 2026, evening):** the Rice chrome and the page builder now run from this branch, with no overlay. `/ingredients/rice-protein` passes every engine gate (seven evidence gates, presentation, hero) and is installed as the canonical page. `/ingredients/pea-protein` compiles and passes the seven evidence gates and the hero gate, but fails one presentation rule, an occurrence table with no usable comparator, so it stays on its provisional page. See "Port to main" below.
 
 ## What is in this commit
 
@@ -36,6 +36,8 @@ Order HMI-PROTEIN-PEA-RICE-1, second instruction: build `/ingredients/pea-protei
 ## Blockers
 
 1. **Hero artwork: cleared (2 Nov 2026).** The stand-ins are replaced by new heroes in the canonical style: `/static/heroes/pea-protein-powder-split-peas-pod.webp` and `/static/heroes/rice-protein-powder-brown-rice-grains.webp`, registered in `data/design/page-hero-images.json` (no `placeholder` flag) and the wiki frontmatter, provenance in `data/design/image-batch-93.json` (common prompt from batches 04/22/27 verbatim, only the scene changed; subjects center-right, dark left half; WebP 2164x721, quality 85). Re-run in a throwaway runtime with the recorded overlay hashes: `compilePage` reports `hero: true` for both pages and `build.mjs` no longer returns `missing_required_input`; it now stops at the isolated preview (authored cross-link between the two pages has no preview destination), as before. Caveat: the generator returns 1280x720 masters, so the 3:1 band is upscaled to 2164x721 rather than cropped from a 2172x724 master; no XMP block is embedded. The owner should still approve the artwork.
+Blockers 2 and 3 below are cleared by the port to main; they are kept as written for the record.
+
 2. **Main cannot render the canonical Rice style.**
    - `quartz/components/approvedRiceChrome.tsx`, which emits `data-ingredient-presentation="rice-shared-v1"`, exists only in the live workspace (`~/ops/heavymetalindex`, HEAD in `engine-runtime-ops-head.txt`).
    - Main's `tools/engine/page/page.mjs` imports `pageHeroImage`, which main's `hero-images.mjs` does not export, and `tools/contracts/build-thin-pages-ledger.mjs` is missing.
@@ -59,8 +61,8 @@ Order HMI-PROTEIN-PEA-RICE-1, second instruction: build `/ingredients/pea-protei
 | Rice | Inorganic arsenic | Labeled "rice protein" 25, 30, 47 against "brown rice protein" 37, 53, 99 (+1 ND) µg/kg; FDA protein beverage powders median 42 against rice protein powder category median 50 | Tentatively lower (non-brown), supported by bran localization; not a supported preference |
 | Rice | Cadmium | Only endosperm protein mean 0.14 ± 0.17 mg/kg; CFIA statement that rice-based powders are highest | Unresolved for brown rice protein |
 | Rice | Mercury | One sample 0.022 ppm | Unresolved |
-| Rice | Lead | Non-detect without a printed LOD | Unresolved |
-| Rice | Origin (China, Vietnam, USA, Canada) | No origin on FDA product rows or CFIA; Hosojima flour origin not stated | Unresolved: needs origin-linked lots |
+| Rice | Lead | WHO GEMS/Food PAHO, 22 powders: labeled brown rice protein median 237 µg/kg (110 to 394, n 14) against labeled rice protein median 255 µg/kg (147 to 445, n 8), Index calculations | No lower label; the brown rice direction for inorganic arsenic does not repeat for lead |
+| Rice | Origin (China, Vietnam, USA, Canada) | No origin on FDA product rows or CFIA; Hosojima flour origin not stated; GEMS/Food gives the WHO region (PAHO) only, and for 2014 one domestic, one imported, three unknown | Unresolved: needs origin-linked lots |
 
 ## Prose-depth acceptance (authored text, drawers closed; rendered check pending)
 
@@ -82,11 +84,58 @@ This is reviewed against the authored records. The rendered check, at matching w
 | Review | pass | pass | Limits by instrument and date; EU lead rows and GB 2762-2025 rows marked not transcribed |
 | FAQs | 14, pass | 16, pass | Distinct reader questions; no FAQ holds the only statement of a main finding |
 
+## Port to main (2 November 2026, evening)
+
+Owner instruction: bring the shared Rice layout and the in-sync builder files from the live workspace into the repo, register both pages with main's checks, rebuild and get CI green. The live workspace and main diverged at #219 (ops: 9 commits plus uncommitted work; main: 570 commits), so files were merged one at a time, not copied over.
+
+**Layout and builder (from the live workspace unless noted):**
+
+| File | Change |
+| --- | --- |
+| `quartz/components/ingredientChrome.mjs`, `.d.mts` | New: binds page facts into the frozen Rice hero and rail markup. |
+| `quartz/components/approvedRiceChrome.tsx` | Adds `CanonicalIngredientHero` and `CanonicalIngredientRail`, which emit `data-ingredient-presentation="rice-shared-v1"`. |
+| `quartz/components/HeroBand.tsx`, `Rail.tsx` | One line each. Only compiler-owned pages (`page_contract_version`) take the canonical chrome. Main's restored engine pages and Plantain had that marker dropped, so they keep their current band (Oyster's hero is not in the asset registry and would throw). |
+| `quartz/plugins/transformers/autolink.ts` | The Quick Read is never auto-linked (AGENTS.md rule). This also clears the five Quick Read errors on main's own `rice.html`. |
+| `tools/lib/hero-images.mjs`, `.d.mts` | Adds `pageHeroImage`, which main's `page.mjs` already imported. |
+| `tools/contracts/build-thin-pages-ledger.mjs` | New; imported by `build.mjs` and four ingredient tools. |
+| `tools/contracts/pilot/analyte-table.mjs` | "Q1–Q3" becomes "Q1 to Q3" in shared notes. |
+| `tools/engine/gates/index.mjs`, `tools/audit-ingredient-presentation.mjs` | Withheld-hero handling, paired with `pageHeroImage`. |
+| `tools/engine/page/page.mjs` | The authored-synthesis hook (`engine-authored-hook.patch`), now in the repo. |
+| `tools/engine/page/preview.mjs` | (This branch.) Stages each metal page's generated `evidence.md`, which main's metal-evidence transformer requires. |
+| `tools/engine/page/{inputs,model,prose}.mjs` | (This branch.) Printed ranges use "to" instead of an en dash. |
+| `tools/contracts/page-owner.mjs` | Registers `data/evidence/engine/ingredient/rice-protein/synthesis.json` as a compiler owner, so `lint:page-openings` checks the compiled Quick Read. Plantain's route, dropping the marker, renders a second, generic Quick Read above the compiled one. |
+| `data/evidence/page-structure-baseline.json` | Rice protein added to `dois_or_author_year`, `metal_symbols` and `uncertainty_note`, as Plantain is. All three come from the shared template. |
+
+The `engine-runtime-overlay.sha256` files from the earlier build are no longer needed to reproduce it.
+
+**New evidence: WHO GEMS/Food lead in rice protein.** On main, the independent discovery scan found 52 rice protein items the ledger did not decide. Main has no GEMS dataset shards; they are 174 MB and untracked even in the live workspace, which misroutes these rows to `ingredients/rice`. `tools/contracts/ingredients/protein-pages/gems-rice-protein.mjs` reads the backup-library CSVs with the scanner's own parser and writes a scoped store subset to `data/evidence/findings/datasets/`:
+
+- 22 routed rows: PAHO lead results for individual rice protein powders, random sampling, officially accredited labs, dry weight. There are 5 rows for 2014 (0.2164 to 0.4452 mg/kg, LOD 1 µg/kg, LOQ 4 µg/kg) and 17 for 2017 (110.40 to 393.53 µg/kg, no limit printed). Index calculations: median 241 µg/kg, range 110 to 445; labeled brown rice protein n 14, median 237; labeled rice protein n 8, median 255. One local name carried a brand, which is scrubbed to `[brand]`.
+- 22 `duplicate_of` decisions: the per-year PAHO files restate the same serials.
+- 5 `excluded` decisions: EURO animal feed (rice protein for feed).
+- Three source items are decided from the live workspace's complete store records: `efsa2024-organoarsenic-species` (no rice protein among its foods), `scott2025-brown-white-rice-arsenic` (context) and `zhao2023-silicon-cd-rice` (controls, no numeric result).
+
+The authored rice protein record was revised wherever it had said lead was unquantified. The changes cover the overview, profile, variation (lead does not repeat the brown rice direction), testing, procurement, exposure (median 7.2 µg per 30 g scoop, range 3.3 to 13.4 µg, against 0.5 µg/day; Index calculations) and FAQs. The pea FAQ comparing pea with rice now gives the lead contrast, marked indicative.
+
+**Results.**
+
+- `ingredient/rice-protein` passes all seven engine gates, presentation and hero. It has 86 rows, no undecided items and 58 meaningful comparator rows, and thin reasons `decision_analyte_without_comparison` and `no_applicable_cited_control` (thin pages may publish when every gate passes). It is installed as `wiki/ingredients/rice-protein.md` exactly as compiled (`HMI_BUILD_DATE=2026-11-02`, built from the provisional page, so its old heading anchors keep resolving).
+- `ingredient/pea-protein` passes gates 1 to 7 and the hero gate. Presentation fails with "Occurrence table has no usable rated or direct comparator". Two Ring 2021 powders cannot form an HMI reference (four units needed). The rules forbid borrowing Ring's whey powders as a comparator and inventing comparisons. No GEMS/Food export holds pea protein. The pea page therefore stays the provisional page from this PR, and its compiled candidate is kept as a record. To publish it, find more pea protein lots with lead and cadmium (and arsenic), such as monitoring programs, total diet studies or retail surveys.
+- Because pea protein stays provisional, the rice protein record names the pea protein page in plain text rather than linking it. The preview gate refuses links to provisional pages.
+- Full-site build (`quartz build -d wiki`, no prebuild): `inspectIngredientPresentation` reports no errors for `rice-protein.html` (marker present, hero `/static/heroes/rice-protein-powder-brown-rice-grains.webp` loaded at 2164x721) or for `rice.html`.
+- CI on the branch: `npm test` 843 pass, 0 fail; `lint:page-structure` baseline holds; `lint:page-openings` 0 problems; `lint:thin-with-evidence` PASS; `npm run check` pass; `contracts:pilot:check` and `contracts:check` pass. Main has no `lint:ingredient-presentation` or `lint:hero-preservation` script; the audit above was run directly.
+
+**Remaining dashes on the rendered rice protein page:** official source titles (CFIA, OEHHA, China GB), which are not edited, and one bounded range ("1.5–2.5 (bounded)") printed by `tools/contracts/pilot/comparisons.mjs`. That file is shared with the hash-pinned Rice pilot.
+
+## Paired visual comparison with Rice
+
+`visual/`: rice protein and Rice at 1440x900 and 375x812 (mobile emulation), from the full-site build served locally. Both pages show the same shell: breadcrumb and Ingredient chip, H1, dek, Cite and Version history buttons, author block, Page snapshot, a Quick Read with three facets, the left contents rail and the right Key evidence rail. Both heroes load at 2164x721 with the same cover fit and 65% 50% focal point. One difference comes from the artwork: at phone width, Rice's photo shows behind the title, but the rice protein crop falls mostly on the new image's dark left half, so the band reads as plain dark. The artwork was not changed.
+
+## Prose-depth acceptance, rendered
+
+Rice protein was rechecked on the rendered page with drawers closed: each section still passes on the table above. Lead is now stated in the overview, profile, variation, exposure and FAQs. Pea protein is unchanged; it is not rendered canonically.
+
 ## Next step
 
-The owner should decide one of the following:
-
-- (a) Port the shared Rice chrome and a coherent engine from the live workspace to main. This is a shared-infrastructure change. After that, register the page owners and baselines and rebuild from main.
-- (b) Render and accept these candidates in a copy of the live workspace, which deploys production, for Elon to release.
-
-Either way, the hero artwork needs the owner's approval before release.
+- Rice protein: ready for review and release (Elon deploys production; never `--prod` from here). The live workspace still routes the GEMS rice protein lead rows to `ingredients/rice`. If rice protein is released from there, add the routing override, or regenerate the shards from this subset.
+- Pea protein: an evidence fetch is needed before a canonical build can publish.

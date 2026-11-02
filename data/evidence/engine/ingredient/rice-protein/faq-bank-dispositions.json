@@ -1,5 +1,5 @@
 {
-  "selected_count": 4,
+  "selected_count": 5,
   "bank": [
     {
       "id": "ING-FAQ-01",
@@ -8,10 +8,10 @@
       "answer_locator": "What heavy metals are found in rice protein?",
       "primary_locator": "Occurrence table",
       "source_keys": [
+        "who-gemsfood-heavy-metal-contaminants",
         "horvath2025-hungary-protein-powders-metals",
         "hosojima2017-rice-endosperm-protein-cadmium",
-        "fda2013-ias-rice-products-sampling",
-        "cfia2020-toxic-metals-selected-foods-2018-19"
+        "fda2013-ias-rice-products-sampling"
       ]
     },
     {
@@ -36,8 +36,13 @@
     },
     {
       "id": "ING-FAQ-05",
-      "status": "not_applicable",
-      "reason": "No comparable regional medians or same-study group comparisons."
+      "status": "selected",
+      "question": "Which regions report the lowest levels in rice protein?",
+      "answer_locator": "Which regions report the lowest levels in rice protein?",
+      "primary_locator": "GEMS/Food regional medians",
+      "source_keys": [
+        "who-gemsfood-heavy-metal-contaminants"
+      ]
     },
     {
       "id": "ING-FAQ-06",

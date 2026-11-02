@@ -173,7 +173,7 @@
       },
       "workflow_state": "assessing",
       "evidence_state": "available",
-      "answer": "Inorganic arsenic is supported by 19 FDA samples; cadmium by one endosperm protein study and a Canadian survey statement; mercury by one sample. Lead is unquantified.",
+      "answer": "Inorganic arsenic is supported by 19 FDA samples and lead by 22 GEMS/Food results; cadmium by one endosperm protein study and a Canadian survey statement; mercury by one sample.",
       "search": {
         "status": "in_progress",
         "scope": "Every source record and indexed dataset row that names rice protein",
@@ -190,9 +190,9 @@
       },
       "evidence_refs": [
         "wiki/sources/fda2013-ias-rice-products-sampling.md",
+        "wiki/sources/who-gemsfood-heavy-metal-contaminants.md",
         "wiki/sources/hosojima2017-rice-endosperm-protein-cadmium.md",
-        "wiki/sources/cfia2020-toxic-metals-selected-foods-2018-19.md",
-        "wiki/sources/horvath2025-hungary-protein-powders-metals.md"
+        "wiki/sources/cfia2020-toxic-metals-selected-foods-2018-19.md"
       ],
       "synthesis_refs": [
         "data/evidence/syntheses/engine-ingredient-rice-protein-v1.json#summary/1"
@@ -227,7 +227,7 @@
       },
       "workflow_state": "assessing",
       "evidence_state": "available",
-      "answer": "Lot testing for inorganic arsenic and cadmium deserves priority, and the material type matters: in a small comparison, powders labeled brown rice protein had higher inorganic arsenic than those labeled rice protein.",
+      "answer": "Lot testing for inorganic arsenic, lead and cadmium deserves priority, and the material type matters: in a small comparison, powders labeled brown rice protein had higher inorganic arsenic than those labeled rice protein.",
       "search": {
         "status": "in_progress",
         "scope": "Every source record and indexed dataset row that names rice protein",
@@ -278,7 +278,7 @@
       },
       "workflow_state": "assessing",
       "evidence_state": "available",
-      "answer": "The limiting gaps are lead, growing origin and cadmium in brown rice protein, which has no quantified result.",
+      "answer": "The limiting gaps are growing origin, cadmium in brown rice protein, which has no quantified result, and lead results from outside the Americas.",
       "search": {
         "status": "in_progress",
         "scope": "Every source record and indexed dataset row that names rice protein",
@@ -296,7 +296,7 @@
       "evidence_refs": [
         "wiki/sources/fda2013-ias-rice-products-sampling.md",
         "wiki/sources/hosojima2017-rice-endosperm-protein-cadmium.md",
-        "wiki/sources/horvath2025-hungary-protein-powders-metals.md"
+        "wiki/sources/who-gemsfood-heavy-metal-contaminants.md"
       ],
       "synthesis_refs": [
         "data/evidence/syntheses/engine-ingredient-rice-protein-v1.json#summary/3"
@@ -331,7 +331,7 @@
       },
       "workflow_state": "assessing",
       "evidence_state": "available",
-      "answer": "Total arsenic, inorganic arsenic, dimethylarsinic acid and monomethylarsonic acid were measured by FDA; cadmium by one study; mercury by one survey; lead, cadmium, arsenic and mercury in one brown rice protein powder below an unprinted detection limit.",
+      "answer": "Total arsenic, inorganic arsenic, dimethylarsinic acid and monomethylarsonic acid were measured by FDA; cadmium by one study; mercury by one survey; lead by WHO GEMS/Food in 22 powders; and lead, cadmium, arsenic and mercury in one brown rice protein powder below an unprinted detection limit.",
       "search": {
         "status": "in_progress",
         "scope": "Every source record and indexed dataset row that names rice protein",
@@ -350,6 +350,7 @@
         "wiki/sources/fda2013-ias-rice-products-sampling.md",
         "wiki/sources/hosojima2017-rice-endosperm-protein-cadmium.md",
         "wiki/sources/cfia2020-toxic-metals-selected-foods-2018-19.md",
+        "wiki/sources/who-gemsfood-heavy-metal-contaminants.md",
         "wiki/sources/horvath2025-hungary-protein-powders-metals.md"
       ],
       "synthesis_refs": [
@@ -437,7 +438,7 @@
       },
       "workflow_state": "assessing",
       "evidence_state": "available",
-      "answer": "Lead is unassessed in quantified form, and brown rice protein cadmium has no quantified result. Two FDA inorganic arsenic values are substitutes for non-detects and are held from comparison.",
+      "answer": "Brown rice protein cadmium has no quantified result. Two FDA inorganic arsenic values are substitutes for non-detects and are held from comparison.",
       "search": {
         "status": "in_progress",
         "scope": "Every source record and indexed dataset row that names rice protein",
@@ -453,7 +454,6 @@
         "unresolved_access": []
       },
       "evidence_refs": [
-        "wiki/sources/horvath2025-hungary-protein-powders-metals.md",
         "wiki/sources/hosojima2017-rice-endosperm-protein-cadmium.md",
         "wiki/sources/fda2013-ias-rice-products-sampling.md"
       ],
@@ -644,7 +644,7 @@
       },
       "workflow_state": "assessing",
       "evidence_state": "available",
-      "answer": "No rice protein result is linked to growing origin, conditions, variety or harvest period; FDA rows carry product labels and categories only.\n\nIs brown rice protein higher in arsenic than other rice protein? In the FDA survey, powders labeled brown rice protein had 37 to 99 µg/kg inorganic arsenic where quantified, and powders labeled rice protein had 25 to 47 µg/kg. Rice bran concentrates arsenic, which fits that direction. Three or four samples per group make it tentative.\n\nCan country of origin pick a lower-arsenic rice protein? Not on current evidence: no rice protein result names the growing region. The rice grain evidence on origin does not transfer to protein without measurements of the protein itself.",
+      "answer": "No rice protein result is linked to growing origin, conditions, variety or harvest period; FDA rows carry product labels and categories only, and GEMS/Food rows a reporting region.\n\nIs brown rice protein higher in arsenic than other rice protein? In the FDA survey, powders labeled brown rice protein had 37 to 99 µg/kg inorganic arsenic where quantified, and powders labeled rice protein had 25 to 47 µg/kg. Rice bran concentrates arsenic, which fits that direction. Three or four samples per group make it tentative.\n\nCan country of origin pick a lower-arsenic rice protein? Not on current evidence: no rice protein result names the growing region. The rice grain evidence on origin does not transfer to protein without measurements of the protein itself.",
       "search": {
         "status": "in_progress",
         "scope": "Every source record and indexed dataset row that names rice protein",
@@ -662,6 +662,7 @@
       "evidence_refs": [
         "wiki/sources/fda2013-ias-rice-products-sampling.md",
         "wiki/sources/cfia2020-toxic-metals-selected-foods-2018-19.md",
+        "wiki/sources/who-gemsfood-heavy-metal-contaminants.md",
         "wiki/sources/scott2025-brown-white-rice-arsenic.md",
         "wiki/sources/hosojima2017-rice-endosperm-protein-cadmium.md"
       ],
@@ -750,7 +751,7 @@
       },
       "workflow_state": "assessing",
       "evidence_state": "available",
-      "answer": "The label comparison supports asking whether a protein is made from brown rice; it does not support a country or supplier preference. Generalizing from US retail samples to a growing region would be unjustified.",
+      "answer": "The label comparison supports asking whether a protein is made from brown rice; it does not support a country or supplier preference. Generalizing from US retail samples or one WHO region to a growing region would be unjustified.",
       "search": {
         "status": "in_progress",
         "scope": "Every source record and indexed dataset row that names rice protein",
@@ -1367,7 +1368,7 @@
       },
       "workflow_state": "assessing",
       "evidence_state": "available",
-      "answer": "A non-detect means below the stated limit; substituted half-limit values are not measurements. Lead remains untested in quantified form.",
+      "answer": "A non-detect means below the stated limit; substituted half-limit values are not measurements. The 2017 GEMS/Food lead results print no detection or quantification limit; the 2014 results print 1 and 4 µg/kg.",
       "search": {
         "status": "in_progress",
         "scope": "Every source record and indexed dataset row that names rice protein",
@@ -1384,7 +1385,8 @@
       },
       "evidence_refs": [
         "wiki/sources/fda2013-ias-rice-products-sampling.md",
-        "wiki/sources/horvath2025-hungary-protein-powders-metals.md"
+        "wiki/sources/horvath2025-hungary-protein-powders-metals.md",
+        "wiki/sources/who-gemsfood-heavy-metal-contaminants.md"
       ],
       "synthesis_refs": [
         "data/evidence/syntheses/engine-ingredient-rice-protein-v1.json#testing/3"
@@ -1419,7 +1421,7 @@
       },
       "workflow_state": "assessing",
       "evidence_state": "available",
-      "answer": "A buyer should request rice type (brown or milled), growing origin, laboratory, accreditation, report number, quantification limits and lot-level inorganic arsenic, cadmium, lead and mercury. No published rice protein result supplies origin or quantified lead.",
+      "answer": "A buyer should request rice type (brown or milled), growing origin, laboratory, accreditation, report number, quantification limits and lot-level inorganic arsenic, cadmium, lead and mercury. No published rice protein result supplies growing origin.",
       "search": {
         "status": "in_progress",
         "scope": "Every source record and indexed dataset row that names rice protein",
@@ -1436,7 +1438,7 @@
       },
       "evidence_refs": [
         "wiki/sources/fda2013-ias-rice-products-sampling.md",
-        "wiki/sources/horvath2025-hungary-protein-powders-metals.md"
+        "wiki/sources/who-gemsfood-heavy-metal-contaminants.md"
       ],
       "synthesis_refs": [
         "data/evidence/syntheses/engine-ingredient-rice-protein-v1.json#procurement/1"
@@ -1677,7 +1679,7 @@
       },
       "workflow_state": "assessing",
       "evidence_state": "available",
-      "answer": "Any intake conclusion needs measurement of the finished product and a separate exposure assessment. The FDA samples date from 2012 to 2013 and may not represent current products.",
+      "answer": "Any intake conclusion needs measurement of the finished product and a separate exposure assessment. The FDA samples date from 2012 to 2013 and the GEMS/Food lead results from 2014 and 2017, so they may not represent current products.",
       "search": {
         "status": "in_progress",
         "scope": "Every source record and indexed dataset row that names rice protein",
@@ -1693,7 +1695,8 @@
         "unresolved_access": []
       },
       "evidence_refs": [
-        "wiki/sources/fda2013-ias-rice-products-sampling.md"
+        "wiki/sources/fda2013-ias-rice-products-sampling.md",
+        "wiki/sources/who-gemsfood-heavy-metal-contaminants.md"
       ],
       "synthesis_refs": [
         "data/evidence/syntheses/engine-ingredient-rice-protein-v1.json#product/3"
@@ -1728,7 +1731,7 @@
       },
       "workflow_state": "assessing",
       "evidence_state": "available",
-      "answer": "No regulatory row names rice protein; the EU rice and rice flour rows, California's per-day levels and China's rice powder rows are the nearest instruments.\n\nHow much arsenic is in rice protein? In FDA's US retail sampling, 17 of 19 rice protein samples had quantified inorganic arsenic from 25 to 152 µg/kg, median 47 µg/kg (Index calculation). These samples date from 2012 to 2013.\n\nWhy does rice protein contain arsenic? The rice plant takes up arsenic from flooded paddy soil, and arsenic concentrates in the bran and germ that brown rice keeps. Rice protein is made from that grain.\n\nIs inorganic arsenic or total arsenic the right test for rice protein? Inorganic arsenic: in FDA's samples it was between 32 and 72 percent of total arsenic, so a total figure does not give the inorganic share. Rice limits are set for inorganic arsenic.\n\nDoes rice protein contain cadmium? Rice endosperm protein averaged 0.14 mg/kg cadmium across five batches, and a Canadian survey found rice-based protein powders highest in cadmium among the protein types it tested. No quantified result exists for brown rice protein.\n\nDoes rice protein contain lead? No quantified result exists; one brown rice protein powder was below an unprinted detection limit. Ask for lead with a stated quantification limit.\n\nDoes rice protein contain mercury? One brown rice protein powder in a Canadian survey had 0.022 ppm mercury, the highest value in that survey.\n\nIs brown rice protein higher in arsenic than other rice protein? In a small FDA comparison, yes: 37 to 99 µg/kg inorganic arsenic in brown rice protein against 25 to 47 µg/kg in rice protein where quantified. The comparison is tentative.\n\nIs rice protein higher in arsenic than pea protein? Pea protein has no arsenic data, so they cannot be compared. Rice protein's inorganic arsenic is documented in 17 samples. See [[ingredients/pea-protein]].\n\nWhich country grows the lowest-arsenic rice for protein? No rice protein result names the growing region, so China, Vietnam, the USA and Canada cannot be compared for rice protein. Rice grain origin data are on [[ingredients/rice]] but do not convert directly to protein.\n\nCan processing remove arsenic or cadmium from rice protein? Acid washing is used to remove cadmium during extraction, but its effect was not measured. No arsenic removal step for rice protein has been measured.\n\nHow do I check a rice protein against California Prop 65? Multiply concentration by serving weight: 0.14 mg/kg cadmium × 30 g = 4.2 µg, against the 4.1 µg/day cadmium level. The Index does not yet hold the inorganic arsenic level.\n\nWhat does \"not detected\" mean on a rice protein certificate? It means below the laboratory limit; one survey reported a brown rice protein as below detection without printing the limit. FDA replaced non-speciated results with half the total arsenic value, which is a substitute, not a measurement.\n\nWhat should a rice protein supplier's test report include? The accredited laboratory's name and ISO/IEC 17025 status, the report number, the method, quantification limits, inorganic arsenic by speciation, cadmium, lead and mercury, the rice type and the lot tested. The published evidence lacks quantified lead and growing origin.\n\nDoes the EU limit metals in rice protein? No row names rice protein; rice rows set cadmium at 0.15 mg/kg and inorganic arsenic at 0.15 or 0.25 mg/kg depending on the rice form.\n\nDoes China set a limit for rice protein? GB 2762-2022 has no protein powder row; rice powder is limited to 0.2 mg/kg cadmium and 0.2 mg/kg inorganic arsenic. The 2025 edition replaced it from 2026-09-02.\n\nDoes FDA limit arsenic in rice protein? No: FDA's 100 µg/kg inorganic arsenic action level applies to infant rice cereal.",
+      "answer": "No regulatory row names rice protein; the EU rice and rice flour rows, California's per-day levels and China's rice powder rows are the nearest instruments.\n\nHow much arsenic is in rice protein? In FDA's US retail sampling, 17 of 19 rice protein samples had quantified inorganic arsenic from 25 to 152 µg/kg, median 47 µg/kg (Index calculation). These samples date from 2012 to 2013.\n\nWhy does rice protein contain arsenic? The rice plant takes up arsenic from flooded paddy soil, and arsenic concentrates in the bran and germ that brown rice keeps. Rice protein is made from that grain.\n\nIs inorganic arsenic or total arsenic the right test for rice protein? Inorganic arsenic: in FDA's samples it was between 32 and 72 percent of total arsenic, so a total figure does not give the inorganic share. Rice limits are set for inorganic arsenic.\n\nDoes rice protein contain cadmium? Rice endosperm protein averaged 0.14 mg/kg cadmium across five batches, and a Canadian survey found rice-based protein powders highest in cadmium among the protein types it tested. No quantified result exists for brown rice protein.\n\nDoes rice protein contain lead? Yes: all 22 rice protein powders in WHO GEMS/Food results from the Americas had quantified lead, 110 to 445 µg/kg, median 241 µg/kg (Index calculation). Ask for lead with a stated quantification limit on every lot.\n\nDoes rice protein contain mercury? One brown rice protein powder in a Canadian survey had 0.022 ppm mercury, the highest value in that survey.\n\nIs brown rice protein higher in arsenic than other rice protein? In a small FDA comparison, yes: 37 to 99 µg/kg inorganic arsenic in brown rice protein against 25 to 47 µg/kg in rice protein where quantified. The comparison is tentative.\n\nIs rice protein higher in arsenic than pea protein? Pea protein has no arsenic data, so they cannot be compared. Rice protein's inorganic arsenic is documented in 17 samples. For lead, the two measured pea powders had 22.2 and 22.5 µg/kg, below all 22 GEMS/Food rice protein results, though from a different survey, country and year. The pea protein page sets out that evidence.\n\nWhich country grows the lowest-arsenic rice for protein? No rice protein result names the growing region, so China, Vietnam, the USA and Canada cannot be compared for rice protein. Rice grain origin data are on [[ingredients/rice]] but do not convert directly to protein.\n\nCan processing remove arsenic or cadmium from rice protein? Acid washing is used to remove cadmium during extraction, but its effect was not measured. No arsenic removal step for rice protein has been measured.\n\nHow do I check a rice protein against California Prop 65? Multiply concentration by serving weight: 241 µg/kg lead × 30 g = 7.2 µg, against the 0.5 µg/day lead level, and 0.14 mg/kg cadmium × 30 g = 4.2 µg, against the 4.1 µg/day cadmium level. The Index does not yet hold the inorganic arsenic level.\n\nWhat does \"not detected\" mean on a rice protein certificate? It means below the laboratory limit; one survey reported a brown rice protein as below detection without printing the limit. FDA replaced non-speciated results with half the total arsenic value, which is a substitute, not a measurement.\n\nWhat should a rice protein supplier's test report include? The accredited laboratory's name and ISO/IEC 17025 status, the report number, the method, quantification limits, inorganic arsenic by speciation, cadmium, lead and mercury, the rice type and the lot tested. The published evidence lacks growing origin and lead results from outside the Americas.\n\nDoes the EU limit metals in rice protein? No row names rice protein; rice rows set cadmium at 0.15 mg/kg and inorganic arsenic at 0.15 or 0.25 mg/kg depending on the rice form.\n\nDoes China set a limit for rice protein? GB 2762-2022 has no protein powder row; rice powder is limited to 0.2 mg/kg cadmium and 0.2 mg/kg inorganic arsenic. The 2025 edition replaced it from 2026-09-02.\n\nDoes FDA limit arsenic in rice protein? No: FDA's 100 µg/kg inorganic arsenic action level applies to infant rice cereal.",
       "search": {
         "status": "in_progress",
         "scope": "Every source record and indexed dataset row that names rice protein",
@@ -1752,8 +1755,10 @@
         "wiki/sources/scott2025-brown-white-rice-arsenic.md",
         "wiki/sources/hosojima2017-rice-endosperm-protein-cadmium.md",
         "wiki/sources/cfia2020-toxic-metals-selected-foods-2018-19.md",
-        "wiki/sources/horvath2025-hungary-protein-powders-metals.md",
+        "wiki/sources/who-gemsfood-heavy-metal-contaminants.md",
+        "wiki/sources/ring2021-ireland-protein-powders-metals.md",
         "wiki/sources/oehha-arsenic-prop65-listing.md",
+        "wiki/sources/horvath2025-hungary-protein-powders-metals.md",
         "wiki/sources/chinanhc2025-gb-2762-contaminants.md",
         "wiki/sources/fda2020-ias-infant-rice-cereal-guidance.md"
       ],
@@ -1790,7 +1795,7 @@
       },
       "workflow_state": "assessing",
       "evidence_state": "available",
-      "answer": "Every record that reports rice protein separately was read and extracted: four occurrence sources, with three context sources for pathways and controls.",
+      "answer": "Every record that reports rice protein separately was read and extracted: five occurrence sources, with three context sources for pathways and controls.",
       "search": {
         "status": "in_progress",
         "scope": "Every source record and indexed dataset row that names rice protein",
@@ -1807,6 +1812,7 @@
       },
       "evidence_refs": [
         "wiki/sources/fda2013-ias-rice-products-sampling.md",
+        "wiki/sources/who-gemsfood-heavy-metal-contaminants.md",
         "wiki/sources/hosojima2017-rice-endosperm-protein-cadmium.md",
         "wiki/sources/cfia2020-toxic-metals-selected-foods-2018-19.md",
         "wiki/sources/horvath2025-hungary-protein-powders-metals.md",
@@ -1847,7 +1853,7 @@
       },
       "workflow_state": "assessing",
       "evidence_state": "available",
-      "answer": "Unresolved: quantified lead, brown rice protein cadmium, growing origin and measured processing effects. This version adds the page from the Index records available on 2 November 2026.",
+      "answer": "Unresolved: lead outside the Americas, brown rice protein cadmium, growing origin and measured processing effects. This version adds the page from the Index records available on 2 November 2026.",
       "search": {
         "status": "in_progress",
         "scope": "Every source record and indexed dataset row that names rice protein",

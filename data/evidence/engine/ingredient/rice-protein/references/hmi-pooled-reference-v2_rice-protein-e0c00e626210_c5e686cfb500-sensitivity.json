@@ -1,0 +1,54 @@
+{
+  "label": "Equal weight per subgroup",
+  "distribution": {
+    "scope": {
+      "ingredient": "rice-protein",
+      "analyte": "tHg",
+      "basis": "Rice protein, powder or ground; As sold, as eaten or fresh weight, µg/kg; no moisture conversion",
+      "statistic": "subgroup median concentration",
+      "market": "International rice protein evidence library",
+      "period": "Source collection years as reported"
+    },
+    "weighting": "family-group",
+    "n": 1,
+    "family_count": 1,
+    "families": [
+      "cfia2020-toxic-metals-selected-foods-2018-19"
+    ],
+    "q1": {
+      "lower": 22,
+      "upper": 22,
+      "exact": true
+    },
+    "median": {
+      "lower": 22,
+      "upper": 22,
+      "exact": true
+    },
+    "q3": {
+      "lower": 22,
+      "upper": 22,
+      "exact": true
+    },
+    "units": [
+      {
+        "ingredient": "rice-protein",
+        "analyte": "tHg",
+        "basis": "Rice protein, powder or ground; As sold, as eaten or fresh weight, µg/kg; no moisture conversion",
+        "statistic": "subgroup median concentration",
+        "market": "International rice protein evidence library",
+        "period": "Source collection years as reported",
+        "id": "med-b347ec47ea09",
+        "family": "cfia2020-toxic-metals-selected-foods-2018-19",
+        "group": "single sample",
+        "lower": 22,
+        "upper": 22,
+        "n": 1,
+        "locator": "Mercury section p.8",
+        "weight": 1
+      }
+    ],
+    "eligible": false,
+    "quantile_method": "Inverse weighted empirical CDF; midpoint at exact cumulative-weight boundaries"
+  }
+}
