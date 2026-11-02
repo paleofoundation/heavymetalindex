@@ -12,7 +12,7 @@ evidence_tier: A
 license: "CC BY 4.0"
 raw_path: /Users/kmfp/papers-for-claude/hmi-thin/batch-01/pdfs/casein__Horvth2025__10.1017_jns.2025.10024.pdf
 metals: [As, Cd, Hg, Pb, Al, Ba, Cr, Ni, Co, Sb, Mn, Cu, Se]
-ingredients: ["[[ingredients/protein-powder]]", "[[ingredients/whey]]", "[[ingredients/casein]]", "[[ingredients/non-soy-protein-source]]"]
+ingredients: ["[[ingredients/protein-powder]]", "[[ingredients/whey]]", "[[ingredients/casein]]", "[[ingredients/non-soy-protein-source]]", "[[ingredients/pea-protein]]", "[[ingredients/rice-protein]]"]
 products: ["[[products/supplements-protein-collagen-powders]]"]
 matrices: [whey protein powder, casein protein powder, plant protein powder, beef protein powder]
 jurisdictions: [HU]

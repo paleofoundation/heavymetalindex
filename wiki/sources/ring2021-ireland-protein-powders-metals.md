@@ -12,7 +12,7 @@ evidence_tier: A
 license: "CC BY 4.0"
 raw_path: /Users/kmfp/papers-for-claude/hmi-thin/batch-01/pdfs/casein__Ring2021__10.3390_molecules26144347.pdf
 metals: [Cd, Hg, Pb, Al, Ba, Be, Co, Cr, Cu, Mn, Mo, Sn, Tl, V, Fe, Li, Au, Pt, Bi, Ti]
-ingredients: ["[[ingredients/protein-powder]]", "[[ingredients/whey]]", "[[ingredients/casein]]", "[[ingredients/non-soy-protein-source]]"]
+ingredients: ["[[ingredients/protein-powder]]", "[[ingredients/whey]]", "[[ingredients/casein]]", "[[ingredients/non-soy-protein-source]]", "[[ingredients/pea-protein]]"]
 products: ["[[products/supplements-protein-collagen-powders]]"]
 matrices: [whey protein powder, casein protein powder, pea protein powder, soy protein powder, mixed plant protein powder, blended protein powder]
 jurisdictions: [IE]

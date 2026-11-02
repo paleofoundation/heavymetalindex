@@ -1238,7 +1238,7 @@
           ]
         },
         {
-          "text": "Derivative evidence confirms the need to measure the final material. Hosojima’s protein-powder study includes a contaminant composition table, while Zhao tests microbial immobilization to remove cadmium from contaminated rice flour. One describes a specific ingredient used in a nutrition trial; the other evaluates a processing method. Neither supplies a universal grain-to-protein or grain-to-flour conversion, and laboratory removal requires separate process-safety and residual-food validation.",
+          "text": "Derivative evidence confirms the need to measure the final material. Hosojima’s [[ingredients/rice-protein|rice protein]] powder study includes a contaminant composition table, while Zhao tests microbial immobilization to remove cadmium from contaminated rice flour. One describes a specific ingredient used in a nutrition trial; the other evaluates a processing method. Neither supplies a universal grain-to-protein or grain-to-flour conversion, and laboratory removal requires separate process-safety and residual-food validation.",
           "source_keys": [
             "hosojima2017-rice-endosperm-protein-cadmium",
             "zhao2021-cadmium-removal-rice-flour"
@@ -1247,7 +1247,7 @@
           "passages": [
             {
               "question": "Do lower concentrations in rice-derived ingredients demonstrate metal removal?",
-              "text": "Derivative evidence confirms the need to measure the final material. Hosojima’s protein-powder study includes a contaminant composition table, while Zhao tests microbial immobilization to remove cadmium from contaminated rice flour. One describes a specific ingredient used in a nutrition trial; the other evaluates a processing method. Neither supplies a universal grain-to-protein or grain-to-flour conversion, and laboratory removal requires separate process-safety and residual-food validation.\n\nJackson’s rice-syrup-containing foods and D’Amato’s Italian-market beverages show why formulation and material identity travel with the result. The beverage study separately measures arsenic species, rather than estimating inorganic arsenic from a generic total-arsenic fraction. Its liquid-food concentrations cannot be compared directly with dry grain without accounting for rice inclusion and water. The [[regulations/eu2023-arsenic-rice-based-drinks|rice-based-drink regulatory scope]] is a distinct category with a selected EU provision shown in the requirements table.\n\nEFSA’s organoarsenic assessment describes thiolated species and evidence of transformation during processing, storage and acidic extraction. Its processed-commodity scenarios partly assume no DMA loss. These models cannot establish what actually happens in a particular puffed, stored or hydrolysed product. Species-preserving measurements and the relevant original processing studies are needed to resolve that question.\n\nA useful process calculation measures metal mass in the incoming rice and in each outgoing food, bran, water or sorbent stream, alongside moisture and yield. A lower concentration in a wetter product can occur without the same reduction in total metal mass. A process that transfers metal to waste also requires a disposal assessment; testing only the final concentration leaves that question unanswered.",
+              "text": "Derivative evidence confirms the need to measure the final material. Hosojima’s [[ingredients/rice-protein|rice protein]] powder study includes a contaminant composition table, while Zhao tests microbial immobilization to remove cadmium from contaminated rice flour. One describes a specific ingredient used in a nutrition trial; the other evaluates a processing method. Neither supplies a universal grain-to-protein or grain-to-flour conversion, and laboratory removal requires separate process-safety and residual-food validation.\n\nJackson’s rice-syrup-containing foods and D’Amato’s Italian-market beverages show why formulation and material identity travel with the result. The beverage study separately measures arsenic species, rather than estimating inorganic arsenic from a generic total-arsenic fraction. Its liquid-food concentrations cannot be compared directly with dry grain without accounting for rice inclusion and water. The [[regulations/eu2023-arsenic-rice-based-drinks|rice-based-drink regulatory scope]] is a distinct category with a selected EU provision shown in the requirements table.\n\nEFSA’s organoarsenic assessment describes thiolated species and evidence of transformation during processing, storage and acidic extraction. Its processed-commodity scenarios partly assume no DMA loss. These models cannot establish what actually happens in a particular puffed, stored or hydrolysed product. Species-preserving measurements and the relevant original processing studies are needed to resolve that question.\n\nA useful process calculation measures metal mass in the incoming rice and in each outgoing food, bran, water or sorbent stream, alongside moisture and yield. A lower concentration in a wetter product can occur without the same reduction in total metal mass. A process that transfers metal to waste also requires a disposal assessment; testing only the final concentration leaves that question unanswered.",
               "source_keys": [
                 "hosojima2017-rice-endosperm-protein-cadmium",
                 "zhao2021-cadmium-removal-rice-flour",
@@ -1259,7 +1259,7 @@
               ],
               "citation_spans": [
                 {
-                  "after": "Hosojima’s protein-powder study includes a contaminant composition table, while Zhao tests microbial immobilization to remove cadmium from contaminated rice flour.",
+                  "after": "Hosojima’s [[ingredients/rice-protein|rice protein]] powder study includes a contaminant composition table, while Zhao tests microbial immobilization to remove cadmium from contaminated rice flour.",
                   "source_keys": [
                     "hosojima2017-rice-endosperm-protein-cadmium",
                     "zhao2021-cadmium-removal-rice-flour"
@@ -1354,7 +1354,7 @@
           ],
           "citation_spans": [
             {
-              "after": "Hosojima’s protein-powder study includes a contaminant composition table, while Zhao tests microbial immobilization to remove cadmium from contaminated rice flour.",
+              "after": "Hosojima’s [[ingredients/rice-protein|rice protein]] powder study includes a contaminant composition table, while Zhao tests microbial immobilization to remove cadmium from contaminated rice flour.",
               "source_keys": [
                 "hosojima2017-rice-endosperm-protein-cadmium",
                 "zhao2021-cadmium-removal-rice-flour"
