@@ -211,6 +211,8 @@
     "/static/heroes/reed-diffuser-unmarked-bottle.webp": "20d85ffea003cd88e4c298887255e2e9de553f0ca384b5bbbb6c4e2f60b683ec",
     "/static/heroes/research-glassware-notebook-sampling-spoon.webp": "d6fe4d9fdbcd0997d7f1e552f5a538f60797d93998f3ed93a5c8abbfee58b127",
     "/static/heroes/rice-grain-flour-noodles-cakes.webp": "3ceec61b76e872e8f5691e8305f250565d638566c039e7d355023d309654f0b5",
+    "/static/heroes/rice-protein-grains-powder.webp": "bb856c2dbadb28e88b03e09a5b0f96242383e948873ef96fa2e9d0d063df7b6c",
+    "/static/heroes/pea-protein-split-peas-powder.webp": "31ae988483ca6d23a593777867c0dcc8f9dcba435bc21c1c4874ec3758f7f3d2",
     "/static/heroes/rice-plant-beverage.webp": "ae101cefd094c572ce8a088c32393ba249ec1a894801f36e8e441c9493d03d9c",
     "/static/heroes/root-vegetables-carrots-beets-potatoes.webp": "4b7acbbd1c22f9b3005dd28403dfc14f1928ad4b8abb216402fe18289b3bf0f2",
     "/static/heroes/salami-cured-slices.webp": "1e5b7f5ad7c8c49004b11bf5af5e992dd8ab79e4962a8d7906041c53784f7322",
@@ -1561,6 +1563,10 @@
       "hero_image": "/static/heroes/processed-cheese-slices.webp",
       "hero_image_alt": "A small stack of square orange processed-cheese slices illustrating processed american cheese ingredient context."
     },
+    "ingredients/pea-protein": {
+      "hero_image": "/static/heroes/pea-protein-split-peas-powder.webp",
+      "hero_image_alt": "Dry yellow split peas, an open pea pod and a bowl of fine pale powder illustrating pea protein ingredient context."
+    },
     "ingredients/protein-powder": {
       "hero_image": "/static/heroes/dairy-butter-protein-powder-milk.webp",
       "hero_image_alt": "A butter block, an unmarked jar of fine pale powder and a glass of milk illustrating protein powder ingredient context."
@@ -1636,6 +1642,10 @@
     "ingredients/rice-puffs": {
       "hero_image": "/static/heroes/rice-grain-flour-noodles-cakes.webp",
       "hero_image_alt": "Rice grain, rice flour, rice noodles, puffed rice and rice cakes illustrating rice Puffs ingredient context."
+    },
+    "ingredients/rice-protein": {
+      "hero_image": "/static/heroes/rice-protein-grains-powder.webp",
+      "hero_image_alt": "A bowl of brown rice grains and a bowl of fine off-white powder illustrating rice protein ingredient context."
     },
     "ingredients/rice": {
       "hero_image": "/static/heroes/rice-grain-flour-noodles-cakes.webp",

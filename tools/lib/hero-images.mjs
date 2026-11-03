@@ -1,4 +1,16 @@
+import fs from "node:fs"
 import images from "../../data/design/metal-hero-images.json" with { type: "json" }
+
+// Registered ingredient and product heroes. Read on demand so metal-only
+// callers do not parse the full page registry.
+let pageHeroes = null
+export function pageHeroImage(page) {
+  if (!pageHeroes) {
+    pageHeroes = JSON.parse(fs.readFileSync(new URL("../../data/design/page-hero-images.json", import.meta.url), "utf8")).pages ?? {}
+  }
+  const rec = pageHeroes[page]
+  return rec?.hero_image ? rec : null
+}
 
 // Only registered local assets can contribute image metadata. One stable image
 // identity is shared by the element/species pages that reuse the same asset.
