@@ -1,0 +1,40 @@
+{
+ "source_id": "gunti2019-emblica-selenium-nanoparticles-bioactivity",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-SELENIUM-1/10.3389_fmicb.2019.00931.pdf",
+ "primary_sha256": "7634faa9c754b1ae6b1acadc523a6ee6cc503e688dd8ff8f51f29aef83a13cff",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "out_of_scope",
+ "disposition_reason": "Nanoparticle synthesis paper; the only selenium toxicity numbers are in vitro cell-line IC50 values, not dietary exposure.",
+ "disposition_locator": "Abstract; Results p. 13",
+ "study": {
+  "design": "laboratory green synthesis and characterization of selenium nanoparticles; in vitro antioxidant, antimicrobial and cytotoxicity assays",
+  "origin": "India",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "not stated"
+  },
+  "method": "UV-vis, FTIR, XRD, Raman, zeta potential, DLS, SEM-EDX, HR-TEM; MTT and live/dead assays in N2a cells",
+  "lod": [],
+  "basis": "unknown",
+  "qa": "not applicable",
+  "site_context": "laboratory"
+ },
+ "findings": [],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/gunti2019-emblica-selenium-nanoparticles-bioactivity.md",
+ "non_numeric_findings": [
+  "N2a cells, MTT assay: sodium selenite IC50 14.01 and IC90 24.60 ug/mL; nanoparticle IC50 127.28 and IC90 234.41 ug/mL (Results, p. 13).",
+  "Nanoparticles 15 to 40 nm by HR-TEM (Abstract)."
+ ]
+}

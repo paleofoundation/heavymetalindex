@@ -1,0 +1,40 @@
+{
+ "source_id": "shao2025-eubacterium-limosum-tungsten-storage",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-TUNGSTEN-1/10.1128_mbio.02605-24.pdf",
+ "primary_sha256": "c28ed5aa2a8cf2aa8977d2a77d816a8817d3a238f0840bd81a198eea5f5bcdd9",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "context",
+ "disposition_reason": "Mechanistic microbiology: tungsten storage protein in a human gut bacterium; protein binding numbers only.",
+ "disposition_locator": "whole paper",
+ "study": {
+  "design": "laboratory culture, protein biochemistry and structural biology",
+  "origin": "human gut isolate",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "not stated"
+  },
+  "method": "ICP-MS metal tracking; ITC; X-ray crystallography",
+  "lod": [],
+  "basis": "unknown",
+  "qa": "Replicate measurements as stated",
+  "site_context": "laboratory"
+ },
+ "findings": [],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/shao2025-eubacterium-limosum-tungsten-storage.md",
+ "non_numeric_findings": [
+  "Tungstate-saturated Tub was not denatured by heating at 98 C for 10 min.",
+  "Gene co-occurrence analysis predicted comparable numbers of tungstate-binding and molybdate-binding TOBE proteins in the gut microbiome."
+ ]
+}

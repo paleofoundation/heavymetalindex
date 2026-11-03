@@ -1,0 +1,42 @@
+{
+ "source_id": "poonyam2019-bismuth-quadruple-therapy-probiotics",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-BISMUTH-1/10.31557_apjcp.2019.20.9.2859.pdf",
+ "primary_sha256": "784f240ad813fd9faecf45905b7ab38884f1c4e18155c1fa6d99daea2cfb1743",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "context",
+ "disposition_reason": "Randomized trial documenting oral bismuth subsalicylate dosing (1,048 mg twice daily) within quadruple H. pylori therapy and adverse-event rates of the combined regimen; no bismuth measured.",
+ "disposition_locator": "p. 2860 (regimen); Table 4, p. 2862",
+ "study": {
+  "design": "double-blind randomized placebo-controlled trial",
+  "origin": "Thailand",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "not stated; registered TCTR20190127003"
+  },
+  "method": "13C-urea breath test for eradication; questionnaire for adverse events; bismuth not measured",
+  "lod": [],
+  "basis": "not_applicable",
+  "qa": "not applicable",
+  "site_context": "clinical"
+ },
+ "findings": [],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [
+  "Oral bismuth subsalicylate 1,048 mg twice daily for 7 or 14 days within quadruple H. pylori therapy (p. 2860)."
+ ],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/poonyam2019-bismuth-quadruple-therapy-probiotics.md",
+ "non_numeric_findings": [
+  "Adding L. reuteri lowered nausea and vomiting, abdominal discomfort and bitter taste in the 14-day arms (Table 4, p. 2862).",
+  "Black stool is named as a common adverse event that should not be mistaken for upper gastrointestinal bleeding (pp. 2861 to 2862)."
+ ]
+}

@@ -1,0 +1,101 @@
+{
+ "source_id": "stewart1978-new-zealand-women-selenium-metabolism",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-SELENIUM-1/10.1079_bjn19780094.pdf",
+ "primary_sha256": "fc6040e2a93668b048e7e33c30429a1516ab4885c2322bc1f0b1cb4217125207",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "context",
+ "disposition_reason": "Selenium intake, excretion, absorption and whole-body selenium in four New Zealand women.",
+ "disposition_locator": "Abstract pp. 45; Results",
+ "study": {
+  "design": "human metabolic study with stable selenium balance and radioactive selenium-75 tracers (selenomethionine and selenite)",
+  "origin": "New Zealand",
+  "market": "free-living ad libitum diet",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "not stated (Abstract)"
+  },
+  "method": "fluorimetric stable selenium; gamma counting of selenium-75 in plasma, urine, feces and whole body",
+  "lod": [],
+  "basis": "unknown",
+  "qa": "not reported",
+  "site_context": "clinical research"
+ },
+ "findings": [
+  {
+   "id": "stewart1978-new-zealand-women-selenium-metabolism:Se:dietary-selenium-intake-ad-libitum-diet:mean",
+   "material": {
+    "label_as_printed": "Dietary selenium intake, ad libitum diet",
+    "page": "metals/selenium",
+    "form": null,
+    "state": null,
+    "route_rule": "override:HMI-METAL-INGEST-1"
+   },
+   "analyte": "Se",
+   "group": "Four young New Zealand women, 14-day period",
+   "group_kind": "study_group",
+   "n": 4,
+   "statistic": "mean",
+   "reported": "24.2 ug/d",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "ug/d",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Abstract point 2, p. 45",
+   "integrity_flag": null,
+   "notes": "Balance +0.3 ug/d; urinary 13.1 and fecal 10.8 ug/d.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "stewart1978-new-zealand-women-selenium-metabolism:Se:whole-body-selenium-selenomethionine-tracer-method-a:mean",
+   "material": {
+    "label_as_printed": "Whole-body selenium (selenomethionine tracer, method a)",
+    "page": "metals/selenium",
+    "form": null,
+    "state": null,
+    "route_rule": "override:HMI-METAL-INGEST-1"
+   },
+   "analyte": "Se",
+   "group": "Four young New Zealand women",
+   "group_kind": "study_group",
+   "n": 4,
+   "statistic": "mean",
+   "reported": "6.9 mg (range 4.7 to 10.0)",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Abstract point 5, p. 45",
+   "integrity_flag": null,
+   "notes": "Calculated body pool, not a concentration.",
+   "statistic_raw": "mean"
+  }
+ ],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [
+  "Abstract: mean dietary selenium 24.2 ug/d, urinary 13.1 ug/d, fecal 10.8 ug/d, balance +0.3 ug/d",
+  "Abstract: intestinal absorption of food selenium 0.76 to 0.83 of intake (mean 0.79)",
+  "Abstract: authors infer minimum dietary requirement probably not more than 20 ug/d"
+ ],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/stewart1978-new-zealand-women-selenium-metabolism.md",
+ "non_numeric_findings": [
+  "Whole-body selenium estimates were lower when derived from selenite tracer (mean 2.6 to 3.5 mg) than from selenomethionine (mean 5.2 to 6.9 mg) (Abstract).",
+  "New Zealand topsoils 0.1 to 4.0 ug/g selenium; much South Island arable land below 0.5 ug/g (Introduction, citing earlier work)."
+ ]
+}

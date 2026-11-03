@@ -1,0 +1,39 @@
+{
+ "source_id": "ramzannezhad2026-cerium-oxide-vanillin-sensor",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-RARE-EARTHS-1/cerium/10.1038_s41598-026-47253-8.pdf",
+ "primary_sha256": "95047fabf0c43e686a855c5e48f17863b5eacb7035b458d9856a587358d3d114",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "out_of_scope",
+ "disposition_reason": "Electrochemical sensor development; no cerium analyte data.",
+ "disposition_locator": "Abstract",
+ "study": {
+  "design": "electrochemical sensor development",
+  "origin": "Mazandaran, Iran",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "not stated"
+  },
+  "method": "voltammetry",
+  "lod": [],
+  "basis": "unknown",
+  "qa": "not applicable",
+  "site_context": "laboratory"
+ },
+ "findings": [],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/ramzannezhad2026-cerium-oxide-vanillin-sensor.md",
+ "non_numeric_findings": [
+  "Cerium oxide loading improved vanillin sensor performance."
+ ]
+}

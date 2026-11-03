@@ -1,0 +1,39 @@
+{
+ "source_id": "li2024-bismuth-electrode-cadmium-rice-water",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-BISMUTH-1/10.1038_s41598-024-69626-7.pdf",
+ "primary_sha256": "090d80b783b77b6827828f5a59c8459a2294507032f9c334ac795aa36c02eef0",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "out_of_scope",
+ "disposition_reason": "Bismuth is plated onto the electrode as a modifier; the analyte is cadmium in water and rice. No bismuth concentrations reported.",
+ "disposition_locator": "Abstract, p. 1",
+ "study": {
+  "design": "electrochemical sensor development",
+  "origin": "not stated",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "not stated"
+  },
+  "method": "Square-wave anodic stripping voltammetry, in situ bismuth-modified pre-anodized SPCE",
+  "lod": [],
+  "basis": "not_applicable",
+  "qa": "not applicable",
+  "site_context": "laboratory"
+ },
+ "findings": [],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/li2024-bismuth-electrode-cadmium-rice-water.md",
+ "non_numeric_findings": [
+  "Authors describe bismuth-modified electrodes as widely used because of low toxicity and a potential window close to mercury (p. 2)."
+ ]
+}

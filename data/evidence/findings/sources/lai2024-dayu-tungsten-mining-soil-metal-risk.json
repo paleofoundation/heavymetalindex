@@ -1,0 +1,47 @@
+{
+ "source_id": "lai2024-dayu-tungsten-mining-soil-metal-risk",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-TUNGSTEN-1/10.7717_peerj.17200.pdf",
+ "primary_sha256": "6dfe1c00c425eee599894fa6875a439f65a5febba34d2819b5c44abed8c1f20f",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "context",
+ "disposition_reason": "Soil tungsten reported only as ratios to background and as pollution and risk indices; absolute values are supplementary; tungsten not reported in rice.",
+ "disposition_locator": "Results pp. 8, 12 and 14; Table 6",
+ "study": {
+  "design": "field survey of agricultural soil and rice grain",
+  "origin": "Dayu county, Jiangxi, China",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "not stated"
+  },
+  "method": "ICP-MS (Thermo iCAP Q) after microwave H2SO4-HNO3-HF digestion",
+  "lod": [
+   "Not reported in main text"
+  ],
+  "basis": "dry_weight",
+  "qa": "GSS-5 reference soil n = 12; W SD 0.25%, RE -0.55%; duplicates and blanks",
+  "site_context": "mining-impacted agricultural field"
+ },
+ "findings": [],
+ "unresolved": [
+  "Absolute tungsten concentrations per site are in supplementary Table S1, not available here."
+ ],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [
+  "Authors used a Dutch soil screening value of 3 mg/kg for W (no Chinese agricultural screening value listed for W). Locator: Results, p. 8.",
+  "Jiangxi soil background value for W: 4.93 mg/kg. Locator: Abstract; Methods."
+ ],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/lai2024-dayu-tungsten-mining-soil-metal-risk.md",
+ "non_numeric_findings": [
+  "Pollution followed distance from the historical Xihuashan and active Piaotang mining areas.",
+  "Soil tungsten correlated positively with K2O and Na2O (Table 3)."
+ ]
+}

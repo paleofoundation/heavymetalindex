@@ -1,0 +1,41 @@
+{
+ "source_id": "cheng2026-rhizosphere-microbes-yttrium-lettuce",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-YTTRIUM-1/10.3390_microorganisms14050962.pdf",
+ "primary_sha256": "aa11c3c197404797c32d408237ba108287ee3d0708f8b0d4fa78a15a337bcd5f",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "context",
+ "disposition_reason": "Spiked-soil pot experiment reporting percentage changes in yttrium uptake; no extractable absolute concentrations.",
+ "disposition_locator": "whole paper",
+ "study": {
+  "design": "pot experiment with microbial inoculants",
+  "origin": "laboratory, Jiangxi, China",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "not stated"
+  },
+  "method": "ICP-MS",
+  "lod": [
+   "Not reported"
+  ],
+  "basis": "unknown",
+  "qa": "Five replicate pots; LSD test",
+  "site_context": "experimental"
+ },
+ "findings": [],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/cheng2026-rhizosphere-microbes-yttrium-lettuce.md",
+ "non_numeric_findings": [
+  "Both consortia reduced plant stress markers and raised soil enzyme activities."
+ ]
+}

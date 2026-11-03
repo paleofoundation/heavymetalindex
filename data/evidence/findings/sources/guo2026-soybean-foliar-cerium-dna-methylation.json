@@ -1,0 +1,68 @@
+{
+ "source_id": "guo2026-soybean-foliar-cerium-dna-methylation",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-RARE-EARTHS-1/cerium/10.3390_toxics14050369.pdf",
+ "primary_sha256": "ef48374ca1ba26ccacc370741ec524bd3a6211e073be205494aa5bb5f5b2ec2d",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "occurrence_extracted",
+ "disposition_reason": "Background soil cerium in the experimental soil; grain transfer reported only as a ratio to leaf concentration.",
+ "disposition_locator": "Methods p. 3; Results p. 6",
+ "study": {
+  "design": "pot experiment with foliar treatment",
+  "origin": "Shenyang Agroecosystem Research Station, China",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "May to September 2025"
+  },
+  "method": "ICP-MS; WGBS; qRT-PCR",
+  "lod": [],
+  "basis": "dry_weight",
+  "qa": "not reported",
+  "site_context": "experimental"
+ },
+ "findings": [
+  {
+   "id": "guo2026-soybean-foliar-cerium-dna-methylation:Ce:meadow-brown-soil-shenyang-background-cerium:mean",
+   "material": {
+    "label_as_printed": "Meadow brown soil, Shenyang, background cerium",
+    "page": "metals/rare-earths",
+    "form": "soil",
+    "state": "air-dried",
+    "route_rule": "override:HMI-METAL-INGEST-1"
+   },
+   "analyte": "Ce",
+   "group": "experimental pot soil",
+   "group_kind": "site",
+   "n": null,
+   "statistic": "mean",
+   "reported": "41.22 ± 3.65 mg/kg",
+   "value_ugkg": 41220,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "dry_weight",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Methods, p. 3",
+   "integrity_flag": null,
+   "notes": "Topsoil 0 to 20 cm.",
+   "statistic_raw": "mean"
+  }
+ ],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/guo2026-soybean-foliar-cerium-dna-methylation.md",
+ "non_numeric_findings": [
+  "Cerium transfer from leaves to grain below 5% and to roots 0.3% to 2.4%."
+ ]
+}

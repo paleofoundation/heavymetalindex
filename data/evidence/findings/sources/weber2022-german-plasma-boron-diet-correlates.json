@@ -1,0 +1,130 @@
+{
+ "source_id": "weber2022-german-plasma-boron-diet-correlates",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-BORON-1/10.1007_s00394-021-02730-w.pdf",
+ "primary_sha256": "482a925ddcbe5dbc8c2e8dfe152bb12c36b52e110bd65c60d4f524cf8eacd329",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "occurrence_extracted",
+ "disposition_reason": "ICP-MS plasma boron distribution (median and IQR) in 899 German adults, with tertile and seasonal medians.",
+ "disposition_locator": "Table 1, p. 5; Table 2, p. 6",
+ "study": {
+  "design": "cross-sectional analysis within a population-based cohort",
+  "origin": "Kiel, Germany",
+  "market": null,
+  "period": {
+   "from": "2010",
+   "to": "2012",
+   "as_reported": "first follow-up examination 2010 to 2012"
+  },
+  "method": "microwave digestion; ICP-MS (iCAP Q) per DIN EN ISO 17294-2",
+  "lod": [],
+  "basis": "unknown",
+  "qa": "rhodium internal standard; collision/reaction cell",
+  "site_context": "general_population"
+ },
+ "findings": [
+  {
+   "id": "weber2022-german-plasma-boron-diet-correlates:B:plasma-lithium-heparin--popgen-cohort-adults-all:median",
+   "material": {
+    "label_as_printed": "Plasma (lithium heparin)",
+    "page": "metals/boron",
+    "form": null,
+    "state": null,
+    "route_rule": "override:HMI-METAL-INGEST-1"
+   },
+   "analyte": "B",
+   "group": "PopGen cohort adults, all",
+   "group_kind": "population",
+   "n": 899,
+   "statistic": "median",
+   "reported": "33.80 µg/L (IQR 25.61; 44.65)",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "µg/L",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 1, p. 5",
+   "integrity_flag": null,
+   "notes": "Human biological matrix; value_ugkg left null (per volume).",
+   "statistic_raw": "median"
+  },
+  {
+   "id": "weber2022-german-plasma-boron-diet-correlates:B:plasma-lithium-heparin--examined-in-summer:median",
+   "material": {
+    "label_as_printed": "Plasma (lithium heparin)",
+    "page": "metals/boron",
+    "form": null,
+    "state": null,
+    "route_rule": "override:HMI-METAL-INGEST-1"
+   },
+   "analyte": "B",
+   "group": "examined in summer",
+   "group_kind": "season",
+   "n": 168,
+   "statistic": "median",
+   "reported": "36.9 µg/L (28.7; 48.3)",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "µg/L",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 6",
+   "integrity_flag": null,
+   "notes": "",
+   "statistic_raw": "median"
+  },
+  {
+   "id": "weber2022-german-plasma-boron-diet-correlates:B:plasma-lithium-heparin--examined-in-winter:median",
+   "material": {
+    "label_as_printed": "Plasma (lithium heparin)",
+    "page": "metals/boron",
+    "form": null,
+    "state": null,
+    "route_rule": "override:HMI-METAL-INGEST-1"
+   },
+   "analyte": "B",
+   "group": "examined in winter",
+   "group_kind": "season",
+   "n": 340,
+   "statistic": "median",
+   "reported": "31.4 µg/L (23.4; 42.3)",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "µg/L",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 6",
+   "integrity_flag": null,
+   "notes": "",
+   "statistic_raw": "median"
+  }
+ ],
+ "unresolved": [
+  "Spring and autumn medians not routed as separate findings."
+ ],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [
+  "Upper intake level of 20 mg boron/day for adults, cited from other literature (Introduction, p. 2).",
+  "EU dietary boron intake 0.8 to 1.9 mg/day, cited (Introduction, p. 2)."
+ ],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/weber2022-german-plasma-boron-diet-correlates.md",
+ "non_numeric_findings": [
+  "Plasma boron was inversely associated with BMI, plasma lipids and CRP, and directly with age and phosphate.",
+  "Below an eGFR of about 97 mL/min/1.73 m2, lower kidney function went with higher plasma boron, interpreted as reduced renal clearance."
+ ]
+}

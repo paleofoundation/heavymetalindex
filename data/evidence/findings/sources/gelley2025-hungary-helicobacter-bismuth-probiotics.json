@@ -1,0 +1,42 @@
+{
+ "source_id": "gelley2025-hungary-helicobacter-bismuth-probiotics",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-BISMUTH-1/10.3390_antibiotics14090870.pdf",
+ "primary_sha256": "6c842ae25314f4a16939c1985dc4c795ab79a1d87345c7fe3a5583b48580f76b",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "context",
+ "disposition_reason": "Retrospective clinical review documenting oral bismuth oxide and bismuth citrate dosing (4 x 120 mg daily) and eradication outcomes; no bismuth concentrations or adverse events.",
+ "disposition_locator": "Table 16, p. 17; Tables 7 to 9, p. 10",
+ "study": {
+  "design": "retrospective real-world clinical data analysis",
+  "origin": "Budapest, Hungary",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "2016 to 2024"
+  },
+  "method": "Outcome by 14C breath test or stool antigen; bismuth not measured",
+  "lod": [],
+  "basis": "not_applicable",
+  "qa": "not applicable",
+  "site_context": "clinical"
+ },
+ "findings": [],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [
+  "Oral bismuth oxide or bismuth citrate 4 x 120 mg daily within H. pylori regimens (Table 16, p. 17)."
+ ],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/gelley2025-hungary-helicobacter-bismuth-probiotics.md",
+ "non_numeric_findings": [
+  "Bismuth preparations did not differ significantly in eradication success (p = 0.0670, Table 9, p. 10).",
+  "Probiotics increased success of bismuth-containing regimens (Table 8, p. 10)."
+ ]
+}

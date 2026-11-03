@@ -1,0 +1,39 @@
+{
+ "source_id": "li2024-lanthanum-tea-waste-biochar-fluoride",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-RARE-EARTHS-1/lanthanum/10.3390_ma17030766.pdf",
+ "primary_sha256": "4915183db189059863b3215650b135e133874d6e7b0cabe96860f4e40f22acbc",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "out_of_scope",
+ "disposition_reason": "Water-treatment material study; no exposure-relevant data.",
+ "disposition_locator": "Abstract",
+ "study": {
+  "design": "adsorbent development",
+  "origin": "Lhasa, China",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "not stated"
+  },
+  "method": "adsorption tests",
+  "lod": [],
+  "basis": "unknown",
+  "qa": "not applicable",
+  "site_context": "laboratory"
+ },
+ "findings": [],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/li2024-lanthanum-tea-waste-biochar-fluoride.md",
+ "non_numeric_findings": [
+  "Lanthanum-modified tea waste biochar removed fluoride from spring water."
+ ]
+}

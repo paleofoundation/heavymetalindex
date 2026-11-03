@@ -1,0 +1,66 @@
+{
+ "source_id": "moffat2020-israel-bioavailable-strontium-isotopes",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-STRONTIUM-1/10.5194_essd-12-3641-2020.pdf",
+ "primary_sha256": "3f1d8b553fd0a041c8b95f2bfb06be782a30a7fcd12a96ca4b519ce4d219b648",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "context",
+ "disposition_reason": "Isotope-ratio baseline data paper; no exposure-relevant concentrations.",
+ "disposition_locator": "pp. 3643 to 3649",
+ "study": {
+  "design": "isoscape data paper",
+  "origin": "Israel",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "not stated"
+  },
+  "method": "ammonium nitrate leach; MC-ICP-MS isotope ratios",
+  "lod": [],
+  "basis": "unknown",
+  "qa": "NIST SRM 987",
+  "site_context": "field"
+ },
+ "findings": [
+  {
+   "id": "moffat2020-israel-bioavailable-strontium-isotopes:Sr:israel-soil-leachate-isotope-range:range",
+   "material": {
+    "label_as_printed": "Soil leachates, Israel",
+    "page": "metals/strontium",
+    "form": "soil leachate",
+    "state": "field",
+    "route_rule": "override:HMI-METAL-INGEST-1"
+   },
+   "analyte": "Sr",
+   "group": "60 soil samples",
+   "group_kind": "site_set",
+   "n": 60,
+   "statistic": "range",
+   "reported": "0.70577 to 0.71020 (87Sr/86Sr)",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "isotope ratio",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "p. 3643",
+   "integrity_flag": null,
+   "notes": "Isotope ratio, not a concentration.",
+   "statistic_raw": "range"
+  }
+ ],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/moffat2020-israel-bioavailable-strontium-isotopes.md",
+ "non_numeric_findings": []
+}

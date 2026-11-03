@@ -1,0 +1,39 @@
+{
+ "source_id": "yang2025-rice-cerium-oxide-salt-tolerance",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-RARE-EARTHS-1/cerium/10.3390_antiox14080994.pdf",
+ "primary_sha256": "bcb3713660ed1b66fe20d8a161f8a9676731c96870f41eb8a9364a17cdd426c4",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "no_numeric_results",
+ "disposition_reason": "Plant stress physiology without cerium concentration data.",
+ "disposition_locator": "Abstract; Methods",
+ "study": {
+  "design": "seed priming and salt-stress experiment",
+  "origin": "Guangzhou, China",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "not stated"
+  },
+  "method": "physiology, metabolomics and transcriptomics",
+  "lod": [],
+  "basis": "unknown",
+  "qa": "not reported",
+  "site_context": "experimental"
+ },
+ "findings": [],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/yang2025-rice-cerium-oxide-salt-tolerance.md",
+ "non_numeric_findings": [
+  "Nanoceria priming improved salt tolerance by different mechanisms in two cultivars."
+ ]
+}

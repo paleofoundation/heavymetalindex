@@ -1,0 +1,96 @@
+{
+ "source_id": "dhaliwal2022-india-mustard-foliar-boron-nitrogen",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-BORON-1/10.3389_fpls.2022.976391.pdf",
+ "primary_sha256": "7333b4a58f4f2eb3f030530d3b206028107cbd6c0dd61b0c41d953fd812f7d60",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "occurrence_extracted",
+ "disposition_reason": "Seed and stover boron (mg/kg, oven-dry) under nine foliar boron and nitrogen treatments.",
+ "disposition_locator": "Table 3, p. 7",
+ "study": {
+  "design": "field experiment, randomized block",
+  "origin": "Ludhiana, Punjab, India",
+  "market": null,
+  "period": {
+   "from": "2020",
+   "to": "2022",
+   "as_reported": "2020 to 2021 and 2021 to 2022 seasons"
+  },
+  "method": "nitric-perchloric digestion; AAS (Varian AAS 240 FS) as stated",
+  "lod": [],
+  "basis": "dry_weight",
+  "qa": "not described",
+  "site_context": "agricultural"
+ },
+ "findings": [
+  {
+   "id": "dhaliwal2022-india-mustard-foliar-boron-nitrogen:B:indian-mustard-seed-control-t1--control-recommended-npk-only:mean",
+   "material": {
+    "label_as_printed": "Indian mustard seed, control (T1)",
+    "page": "ingredients/oilseeds",
+    "form": null,
+    "state": "raw",
+    "route_rule": "override:HMI-METAL-INGEST-1"
+   },
+   "analyte": "B",
+   "group": "control (recommended NPK only)",
+   "group_kind": "treatment",
+   "n": 3,
+   "statistic": "mean",
+   "reported": "16.17 mg kg-1",
+   "value_ugkg": 16170,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "dry_weight",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 3, p. 7",
+   "integrity_flag": null,
+   "notes": "",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "dhaliwal2022-india-mustard-foliar-boron-nitrogen:B:indian-mustard-seed-1-0-borax-1-0-urea-at-flowering-and-caps--t9:mean",
+   "material": {
+    "label_as_printed": "Indian mustard seed, 1.0% borax + 1.0% urea at flowering and capsule formation (T9)",
+    "page": "ingredients/oilseeds",
+    "form": null,
+    "state": "raw",
+    "route_rule": "override:HMI-METAL-INGEST-1"
+   },
+   "analyte": "B",
+   "group": "T9",
+   "group_kind": "treatment",
+   "n": 3,
+   "statistic": "mean",
+   "reported": "27.71 mg kg-1",
+   "value_ugkg": 27710,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "dry_weight",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 3, p. 7",
+   "integrity_flag": null,
+   "notes": "",
+   "statistic_raw": "mean"
+  }
+ ],
+ "unresolved": [
+  "Intermediate treatments and stover rows not routed individually."
+ ],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/dhaliwal2022-india-mustard-foliar-boron-nitrogen.md",
+ "non_numeric_findings": []
+}

@@ -1,0 +1,37 @@
+{
+ "source_id": "deville2011-zirconium-acetate-ice-shaping",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-ZIRCONIUM-1/10.1371_journal.pone.0026474.pdf",
+ "primary_sha256": "a61030d69766d64841d07071a8ae1a8e0cd0ccec93365668e6e2b3ff34911dfe",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "out_of_scope",
+ "disposition_reason": "Materials paper using zirconium acetate as an ice-shaping additive in ceramic processing; no zirconium occurrence, exposure or toxicity data.",
+ "disposition_locator": "Abstract",
+ "study": {
+  "design": "laboratory materials study",
+  "origin": "not stated",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "not stated"
+  },
+  "method": "ice templating; X-ray imaging; SEM",
+  "lod": [],
+  "basis": "unknown",
+  "qa": "not applicable",
+  "site_context": "laboratory"
+ },
+ "findings": [],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/deville2011-zirconium-acetate-ice-shaping.md",
+ "non_numeric_findings": []
+}

@@ -1,0 +1,187 @@
+{
+ "source_id": "chilimba2011-malawi-maize-grain-soil-selenium",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-SELENIUM-1/10.1038_srep00072.pdf",
+ "primary_sha256": "8b3146656a8d9f5163564d879e61d7cfce1a7f5dcefe99c6491d6f865cfe1104",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "occurrence_extracted",
+ "disposition_reason": "Maize grain and soil selenium at 88 Malawi field sites and modeled intake from maize.",
+ "disposition_locator": "Abstract; Results pp. 3 to 5; Table 2",
+ "study": {
+  "design": "national field survey of maize grain and soil with GIS extrapolation of dietary intake",
+  "origin": "Malawi",
+  "market": "farmers fields and research stations",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "May 2009 and 2010"
+  },
+  "method": "ICP-MS (hydrogen reaction cell) after microwave HNO3/H2O2 digestion; NIST 1567a wheat flour reference material",
+  "lod": [
+   "not stated"
+  ],
+  "basis": "dry_weight",
+  "qa": "Reference materials NIST 1567a and NIST 1646a; two blanks per digestion batch",
+  "site_context": "agricultural field"
+ },
+ "findings": [
+  {
+   "id": "chilimba2011-malawi-maize-grain-soil-selenium:Se:maize-grain-all-sites:median",
+   "material": {
+    "label_as_printed": "Maize grain, all sites",
+    "page": "ingredients/corn",
+    "form": null,
+    "state": "raw",
+    "route_rule": "override:HMI-METAL-INGEST-1"
+   },
+   "analyte": "Se",
+   "group": "Farmers fields and research stations across Malawi, 2009 and 2010",
+   "group_kind": "study_group",
+   "n": 88,
+   "statistic": "median",
+   "reported": "0.019 mg/kg (range 0.005 to 0.533)",
+   "value_ugkg": 19.0,
+   "min_ugkg": 5.0,
+   "max_ugkg": 533.0,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "dry_weight",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Abstract; Results p. 4",
+   "integrity_flag": null,
+   "notes": "Composite of 8 cobs per field; ICP-MS; converted x1000.",
+   "statistic_raw": "median"
+  },
+  {
+   "id": "chilimba2011-malawi-maize-grain-soil-selenium:Se:maize-grain-2009-survey:median",
+   "material": {
+    "label_as_printed": "Maize grain, 2009 survey",
+    "page": "ingredients/corn",
+    "form": null,
+    "state": "raw",
+    "route_rule": "override:HMI-METAL-INGEST-1"
+   },
+   "analyte": "Se",
+   "group": "73 sites in 27 Extension Planning Areas, May 2009",
+   "group_kind": "study_group",
+   "n": 73,
+   "statistic": "median",
+   "reported": "0.016 mg/kg (range 0.0045 to 0.533)",
+   "value_ugkg": 16.0,
+   "min_ugkg": 4.5,
+   "max_ugkg": 533.0,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "dry_weight",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Results p. 3",
+   "integrity_flag": null,
+   "notes": "Over 70% of samples lower than earlier literature values.",
+   "statistic_raw": "median"
+  },
+  {
+   "id": "chilimba2011-malawi-maize-grain-soil-selenium:Se:maize-grain-shire-valley-eutric-vertisol-sites-2010:range",
+   "material": {
+    "label_as_printed": "Maize grain, Shire Valley Eutric Vertisol sites, 2010",
+    "page": "ingredients/corn",
+    "form": null,
+    "state": "raw",
+    "route_rule": "override:HMI-METAL-INGEST-1"
+   },
+   "analyte": "Se",
+   "group": "15 sites, soil pH 6.97 to 8.02",
+   "group_kind": "study_group",
+   "n": 13,
+   "statistic": "range",
+   "reported": "0.173 to 0.413 mg/kg for 13 of 15 sites",
+   "value_ugkg": null,
+   "min_ugkg": 173.0,
+   "max_ugkg": 413.0,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "dry_weight",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Results p. 4",
+   "integrity_flag": null,
+   "notes": "Two Mangoti sites lower at 0.0054 mg/kg.",
+   "statistic_raw": "range"
+  },
+  {
+   "id": "chilimba2011-malawi-maize-grain-soil-selenium:Se:soil-total-selenium:median",
+   "material": {
+    "label_as_printed": "Soil, total selenium",
+    "page": "metals/selenium",
+    "form": null,
+    "state": null,
+    "route_rule": "override:HMI-METAL-INGEST-1"
+   },
+   "analyte": "Se",
+   "group": "Farmers fields and research stations across Malawi, 2009 and 2010",
+   "group_kind": "study_group",
+   "n": null,
+   "statistic": "median",
+   "reported": "0.1623 mg/kg (mean 0.1941; range 0.0521 to 0.6195)",
+   "value_ugkg": 162.3,
+   "min_ugkg": 52.1,
+   "max_ugkg": 619.5,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "dry_weight",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Results p. 4",
+   "integrity_flag": null,
+   "notes": "HF/HNO3/HClO4 digestion.",
+   "statistic_raw": "median"
+  },
+  {
+   "id": "chilimba2011-malawi-maize-grain-soil-selenium:Se:soil-kh2po4-extractable-selenium:median",
+   "material": {
+    "label_as_printed": "Soil, KH2PO4-extractable selenium",
+    "page": "metals/selenium",
+    "form": null,
+    "state": null,
+    "route_rule": "override:HMI-METAL-INGEST-1"
+   },
+   "analyte": "Se",
+   "group": "Farmers fields and research stations across Malawi, 2009 and 2010",
+   "group_kind": "study_group",
+   "n": null,
+   "statistic": "median",
+   "reported": "0.0046 mg/kg (mean 0.0056; range 0.0013 to 0.0158)",
+   "value_ugkg": 4.6,
+   "min_ugkg": 1.3,
+   "max_ugkg": 15.8,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "dry_weight",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Results p. 5",
+   "integrity_flag": null,
+   "notes": "Phosphate-extractable fraction.",
+   "statistic_raw": "median"
+  }
+ ],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [
+  "Abstract: estimated median selenium intake from maize 6.7 ug per person per day (range 1.6 to 189) at 0.354 kg maize per day",
+  "p. 5: 50% of population below 6, 75% below 7, 90% below 7.5 ug per day from maize; non-maize sources 15 to 22 ug per day",
+  "Abstract: suboptimal intake defined as 20 to 30 ug per person per day"
+ ],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/chilimba2011-malawi-maize-grain-soil-selenium.md",
+ "non_numeric_findings": [
+  "Grain selenium up to 10-fold higher on soils with pH above 6.5 (Eutric Vertisols) (Abstract).",
+  "Funded primarily by Yara GmbH (fertilizer company); one author employed at Yara International (Acknowledgements; Competing interests)."
+ ]
+}

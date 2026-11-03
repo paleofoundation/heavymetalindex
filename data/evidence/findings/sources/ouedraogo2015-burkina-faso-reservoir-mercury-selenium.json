@@ -1,0 +1,129 @@
+{
+ "source_id": "ouedraogo2015-burkina-faso-reservoir-mercury-selenium",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-SELENIUM-1/10.1371_journal.pone.0123048.pdf",
+ "primary_sha256": "7eb42337af0a9701b68807ec663d04f249a6a7f6e69031d7b90719be95546c04",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "occurrence_extracted",
+ "disposition_reason": "Mean total selenium in fish muscle from three West African reservoirs; no selenium biomagnification.",
+ "disposition_locator": "Results p. 9; Tables 2 and 4",
+ "study": {
+  "design": "field food web survey of three reservoirs with stable isotopes",
+  "origin": "Burkina Faso",
+  "market": "wild-caught fish and invertebrates",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "2010 rainy season"
+  },
+  "method": "total selenium by hydride generation atomic fluorescence spectrometry after microwave HNO3/H2O2 digestion",
+  "lod": [
+   "MDL 22 ng/L aqueous; 0.022 ug/g dry weight for solids (Methods, p. 4)"
+  ],
+  "basis": "wet_weight",
+  "qa": "DORM-3 and TORT-2 reference materials; procedural blanks 21 +/- 8 ng/L; selenate conversion 109 +/- 9%",
+  "site_context": "freshwater reservoir"
+ },
+ "findings": [
+  {
+   "id": "ouedraogo2015-burkina-faso-reservoir-mercury-selenium:Se:fish-muscle-all-species-loumbila-reservoir:mean",
+   "material": {
+    "label_as_printed": "Fish muscle, all species, Loumbila reservoir",
+    "page": "ingredients/freshwater-fish",
+    "form": null,
+    "state": "raw",
+    "route_rule": "override:HMI-METAL-INGEST-1"
+   },
+   "analyte": "Se",
+   "group": "Loumbila reservoir, Burkina Faso, 2010 rainy season",
+   "group_kind": "study_group",
+   "n": 22,
+   "statistic": "mean",
+   "reported": "147 +/- 100 ng/g wet weight",
+   "value_ugkg": 147.0,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 100.0,
+   "unit_original": "ng/g",
+   "basis": "wet_weight",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Results p. 9; Table 2; n from Table 3",
+   "integrity_flag": null,
+   "notes": "Total selenium by HG-AFS; ng/g equals ug/kg.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "ouedraogo2015-burkina-faso-reservoir-mercury-selenium:Se:fish-muscle-all-species-ziga-reservoir:mean",
+   "material": {
+    "label_as_printed": "Fish muscle, all species, Ziga reservoir",
+    "page": "ingredients/freshwater-fish",
+    "form": null,
+    "state": "raw",
+    "route_rule": "override:HMI-METAL-INGEST-1"
+   },
+   "analyte": "Se",
+   "group": "Ziga reservoir, Burkina Faso, 2010 rainy season",
+   "group_kind": "study_group",
+   "n": 25,
+   "statistic": "mean",
+   "reported": "264 +/- 82 ng/g wet weight",
+   "value_ugkg": 264.0,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 82.0,
+   "unit_original": "ng/g",
+   "basis": "wet_weight",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Results p. 9; Table 2; n from Table 3",
+   "integrity_flag": null,
+   "notes": "Total selenium by HG-AFS; ng/g equals ug/kg.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "ouedraogo2015-burkina-faso-reservoir-mercury-selenium:Se:fish-muscle-all-species-kompienga-reservoir:mean",
+   "material": {
+    "label_as_printed": "Fish muscle, all species, Kompienga reservoir",
+    "page": "ingredients/freshwater-fish",
+    "form": null,
+    "state": "raw",
+    "route_rule": "override:HMI-METAL-INGEST-1"
+   },
+   "analyte": "Se",
+   "group": "Kompienga reservoir, Burkina Faso, 2010 rainy season",
+   "group_kind": "study_group",
+   "n": 49,
+   "statistic": "mean",
+   "reported": "167 +/- 168 ng/g wet weight",
+   "value_ugkg": 167.0,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 168.0,
+   "unit_original": "ng/g",
+   "basis": "wet_weight",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Results p. 9; Table 2; n from Table 3",
+   "integrity_flag": null,
+   "notes": "Total selenium by HG-AFS; ng/g equals ug/kg.",
+   "statistic_raw": "mean"
+  }
+ ],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [
+  "p. 9: authors compare fish selenium with a cited threshold of 3 ug/g wet weight; all reservoir means were below it"
+ ],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/ouedraogo2015-burkina-faso-reservoir-mercury-selenium.md",
+ "non_numeric_findings": [
+  "Selenium trophic magnification factor did not differ from 1; selenium did not biomagnify (Results; Table 4).",
+  "All fish had selenium to mercury molar ratios above 1; the selenium to methylmercury ratio fell with trophic position (Results)."
+ ]
+}

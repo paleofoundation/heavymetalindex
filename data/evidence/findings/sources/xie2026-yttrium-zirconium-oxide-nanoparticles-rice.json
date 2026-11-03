@@ -1,0 +1,68 @@
+{
+ "source_id": "xie2026-yttrium-zirconium-oxide-nanoparticles-rice",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-YTTRIUM-1/10.3390_plants15111727.pdf",
+ "primary_sha256": "30077255c86415e149cb2565a4791c04925e99119390836f649b48099fb556c6",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "context",
+ "disposition_reason": "Spiked hydroponic exposure; root yttrium range in seedlings, not food occurrence.",
+ "disposition_locator": "whole paper",
+ "study": {
+  "design": "hydroponic nanoparticle exposure",
+  "origin": "laboratory, China",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "not stated"
+  },
+  "method": "ICP-MS after HNO3-H2O2 digestion (commercial laboratory)",
+  "lod": [
+   "Not reported"
+  ],
+  "basis": "dry_weight",
+  "qa": "Not described",
+  "site_context": "experimental"
+ },
+ "findings": [
+  {
+   "id": "xie2026-yttrium-zirconium-oxide-nanoparticles-rice:Y:rice-seedling-root-under-yttrium-oxide-nanoparticle-exposure:range:1",
+   "material": {
+    "label_as_printed": "Rice seedling root under yttrium oxide nanoparticle exposure",
+    "page": "metals/yttrium",
+    "form": "root",
+    "state": "unknown",
+    "route_rule": "override:HMI-METAL-INGEST-1"
+   },
+   "analyte": "Y",
+   "group": "5 to 100 mg/L Y2O3 NP treatments",
+   "group_kind": "treatment",
+   "n": null,
+   "statistic": "range",
+   "reported": "5014.12 to 11,255.05 mg/kg DW",
+   "value_ugkg": null,
+   "min_ugkg": 5014120,
+   "max_ugkg": 11255050,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "dry_weight",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Section 3.5; Abstract",
+   "integrity_flag": null,
+   "notes": "Spiked hydroponics; range across treatments as printed.",
+   "statistic_raw": "range"
+  }
+ ],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/xie2026-yttrium-zirconium-oxide-nanoparticles-rice.md",
+ "non_numeric_findings": []
+}

@@ -1,0 +1,39 @@
+{
+ "source_id": "meng2024-lanthanum-barium-titanate-sulfadiazine",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-RARE-EARTHS-1/lanthanum/10.3390_molecules29081719.pdf",
+ "primary_sha256": "07f4bbc9a87cf70ab660006749a7ee192f47c817f65567893336e77db3c6a55a",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "out_of_scope",
+ "disposition_reason": "Catalysis study; no exposure-relevant data.",
+ "disposition_locator": "Abstract",
+ "study": {
+  "design": "catalyst development",
+  "origin": "Shanghai, China",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "not stated"
+  },
+  "method": "degradation kinetics",
+  "lod": [],
+  "basis": "unknown",
+  "qa": "not applicable",
+  "site_context": "laboratory"
+ },
+ "findings": [],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/meng2024-lanthanum-barium-titanate-sulfadiazine.md",
+ "non_numeric_findings": [
+  "Lanthanum doping improved piezocatalytic antibiotic degradation."
+ ]
+}

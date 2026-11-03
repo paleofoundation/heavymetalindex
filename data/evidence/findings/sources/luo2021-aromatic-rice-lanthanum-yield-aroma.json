@@ -1,0 +1,39 @@
+{
+ "source_id": "luo2021-aromatic-rice-lanthanum-yield-aroma",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-RARE-EARTHS-1/lanthanum/10.1186_s12870-021-03006-5.pdf",
+ "primary_sha256": "074f41081db592903163687289c562c80046485338480e8b196378e2bee87548",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "no_numeric_results",
+ "disposition_reason": "Agronomic response to lanthanum; no lanthanum concentrations in grain.",
+ "disposition_locator": "Abstract",
+ "study": {
+  "design": "pot and two-year field experiments",
+  "origin": "Guangzhou, China",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "two growing years (field)"
+  },
+  "method": "grain quality and enzyme assays",
+  "lod": [],
+  "basis": "unknown",
+  "qa": "not reported",
+  "site_context": "experimental"
+ },
+ "findings": [],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/luo2021-aromatic-rice-lanthanum-yield-aroma.md",
+ "non_numeric_findings": [
+  "Lanthanum raised grain 2-acetyl-1-pyrroline and yield in aromatic rice."
+ ]
+}

@@ -1,0 +1,154 @@
+{
+ "source_id": "cao2025-kiwifruit-compost-lanthanum-cerium-soil",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-RARE-EARTHS-1/cerium/10.1038_s41598-025-06435-6.pdf",
+ "primary_sha256": "279861cd174c77ee9a85cc96ec232e7c5a50cf84f96fc49bed1c8168c683e40b",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "occurrence_extracted",
+ "disposition_reason": "Total lanthanum and cerium in farmland soil near rare earth tailings and day-28 mobile-fraction concentrations under compost ratios.",
+ "disposition_locator": "Methods and Table 2, p. 7; Results p. 5",
+ "study": {
+  "design": "soil incubation with compost amendment and sequential extraction",
+  "origin": "farmland near Maoniuping rare earth tailings, Sichuan, China",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "28-day incubation; dates not stated"
+  },
+  "method": "Tessier sequential extraction; ICP-MS (PerkinElmer NexION 2000)",
+  "lod": [],
+  "basis": "dry_weight",
+  "qa": "three parallel samples; no reference material reported",
+  "site_context": "agricultural soil near mining waste"
+ },
+ "findings": [
+  {
+   "id": "cao2025-kiwifruit-compost-lanthanum-cerium-soil:La:farmland-topsoil-near-rare-earth-tailings-total-lanthanum:single_value",
+   "material": {
+    "label_as_printed": "Farmland topsoil near rare earth tailings, total lanthanum",
+    "page": "metals/rare-earths",
+    "form": "soil",
+    "state": "air-dried",
+    "route_rule": "override:HMI-METAL-INGEST-1"
+   },
+   "analyte": "La",
+   "group": "test soil before compost",
+   "group_kind": "site",
+   "n": null,
+   "statistic": "single_value",
+   "reported": "about 29.0 mg/kg",
+   "value_ugkg": 29000,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "dry_weight",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Methods and Table 2, p. 7",
+   "integrity_flag": null,
+   "notes": "Reported as approximate.",
+   "statistic_raw": "single_value"
+  },
+  {
+   "id": "cao2025-kiwifruit-compost-lanthanum-cerium-soil:Ce:farmland-topsoil-near-rare-earth-tailings-total-cerium:single_value",
+   "material": {
+    "label_as_printed": "Farmland topsoil near rare earth tailings, total cerium",
+    "page": "metals/rare-earths",
+    "form": "soil",
+    "state": "air-dried",
+    "route_rule": "override:HMI-METAL-INGEST-1"
+   },
+   "analyte": "Ce",
+   "group": "test soil before compost",
+   "group_kind": "site",
+   "n": null,
+   "statistic": "single_value",
+   "reported": "about 67.6 mg/kg",
+   "value_ugkg": 67600,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "dry_weight",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Methods and Table 2, p. 7",
+   "integrity_flag": null,
+   "notes": "Reported as approximate.",
+   "statistic_raw": "single_value"
+  },
+  {
+   "id": "cao2025-kiwifruit-compost-lanthanum-cerium-soil:La:soil-mobile-lanthanum-fraction-day-28-no-compost:mean",
+   "material": {
+    "label_as_printed": "Soil mobile lanthanum fraction, day 28, no compost",
+    "page": "metals/rare-earths",
+    "form": "soil extract fraction",
+    "state": "incubated",
+    "route_rule": "override:HMI-METAL-INGEST-1"
+   },
+   "analyte": "La",
+   "group": "0% compost",
+   "group_kind": "treatment",
+   "n": 3,
+   "statistic": "mean",
+   "reported": "3.868 mg/kg (13.8%)",
+   "value_ugkg": 3868,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "dry_weight",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "p. 5, Fig. 3a",
+   "integrity_flag": null,
+   "notes": "Sum of exchangeable, carbonate-bound and Fe-Mn-oxide-bound fractions.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "cao2025-kiwifruit-compost-lanthanum-cerium-soil:Ce:soil-mobile-cerium-fraction-day-28-no-compost:mean",
+   "material": {
+    "label_as_printed": "Soil mobile cerium fraction, day 28, no compost",
+    "page": "metals/rare-earths",
+    "form": "soil extract fraction",
+    "state": "incubated",
+    "route_rule": "override:HMI-METAL-INGEST-1"
+   },
+   "analyte": "Ce",
+   "group": "0% compost",
+   "group_kind": "treatment",
+   "n": 3,
+   "statistic": "mean",
+   "reported": "5.476 mg/kg (8.1%)",
+   "value_ugkg": 5476,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "dry_weight",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "p. 5, Fig. 3b",
+   "integrity_flag": null,
+   "notes": "Sum of exchangeable, carbonate-bound and Fe-Mn-oxide-bound fractions.",
+   "statistic_raw": "mean"
+  }
+ ],
+ "unresolved": [
+  "Per-fraction concentrations at all compost ratios not recorded."
+ ],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/cao2025-kiwifruit-compost-lanthanum-cerium-soil.md",
+ "non_numeric_findings": [
+  "Compost shifted lanthanum and cerium toward residual fractions, mainly between days 14 and 21."
+ ]
+}

@@ -1,0 +1,72 @@
+{
+ "source_id": "idota2013-alginate-strontium-cesium-rats",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-STRONTIUM-1/10.1248_bpb.b12-00899.pdf",
+ "primary_sha256": "8fc3246dc9e4300b67c02f0a65ea24f93f7c4f017f658a97c365e234f2111f02",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "context",
+ "disposition_reason": "Rat absorption and excretion study of alginate as a strontium countermeasure; plasma pharmacokinetic values, no food occurrence.",
+ "disposition_locator": "Results, pp. 2 to 3; Table 1",
+ "study": {
+  "design": "in vitro binding and rat feeding experiment",
+  "origin": "laboratory, Japan",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "two-week feeding; dates not given"
+  },
+  "method": "graphite furnace atomic absorption spectrometry",
+  "lod": [
+   "Detection limit for filtrate recovery 1.0 x 10^-4 percent of amount added (Fig. 1 legend)"
+  ],
+  "basis": "unknown",
+  "qa": "Experiments in duplicate (in vitro); n = 5 per group in vivo",
+  "site_context": "laboratory"
+ },
+ "findings": [
+  {
+   "id": "idota2013-alginate-strontium-cesium-rats:Sr:rat-plasma-baseline:mean",
+   "material": {
+    "label_as_printed": "Rat plasma, native strontium, six-week-old rats",
+    "page": "metals/strontium",
+    "form": "plasma",
+    "state": "biological",
+    "route_rule": "override:HMI-METAL-INGEST-1"
+   },
+   "analyte": "Sr",
+   "group": "control rats at start",
+   "group_kind": "group",
+   "n": 5,
+   "statistic": "mean",
+   "reported": "301.8 ± 45.5 ng/mL",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "ng/mL",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Results, p. 2",
+   "integrity_flag": null,
+   "notes": "Plasma; not a food concentration.",
+   "statistic_raw": "mean"
+  }
+ ],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [
+  "The authors state that the IAEA recommends sodium alginate at 4 g per person per day for patients exposed to large amounts of radioactive strontium (Introduction, p. 1)."
+ ],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/idota2013-alginate-strontium-cesium-rats.md",
+ "non_numeric_findings": [
+  "Calcium alginate lowered both strontium and cesium absorption; sodium alginate lowered only strontium absorption (Abstract)."
+ ]
+}

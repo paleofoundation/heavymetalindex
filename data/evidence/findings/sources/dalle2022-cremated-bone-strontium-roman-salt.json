@@ -1,0 +1,96 @@
+{
+ "source_id": "dalle2022-cremated-bone-strontium-roman-salt",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-STRONTIUM-1/10.1038_s41598-022-12880-4.pdf",
+ "primary_sha256": "36910e8581e5d384be67a4dd6b41c3176fdadd8bd58ccc28865a169058621a9b",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "occurrence_extracted",
+ "disposition_reason": "Strontium concentrations (ppm, Ca-normalized) and isotope ratios in cremated human bone by period and site.",
+ "disposition_locator": "Results, p. 5; Fig. 2",
+ "study": {
+  "design": "archaeological bioarchaeology study of cremated remains",
+  "origin": "Belgium (Destelbergen, Blicquy, Herstal, Fize-le-Marsal)",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "Metal Ages to Gallo-Roman period"
+  },
+  "method": "MC-ICP-MS isotope ratios; sector-field ICP-MS concentrations",
+  "lod": [],
+  "basis": "unknown",
+  "qa": "Concentrations normalized to 40 wt% Ca; reference standards per Methods",
+  "site_context": "archaeological"
+ },
+ "findings": [
+  {
+   "id": "dalle2022-cremated-bone-strontium-roman-salt:Sr:destelbergen-gallo-roman-bone:iqr",
+   "material": {
+    "label_as_printed": "Cremated human bone, Destelbergen, Gallo-Roman",
+    "page": "metals/strontium",
+    "form": "cremated bone",
+    "state": "archaeological",
+    "route_rule": "override:HMI-METAL-INGEST-1"
+   },
+   "analyte": "Sr",
+   "group": "Destelbergen Gallo-Roman burials",
+   "group_kind": "period_site",
+   "n": 33,
+   "statistic": "iqr",
+   "reported": "IQR 144 to 205 ppm (normalized to 40 wt% Ca)",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "ppm",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Results, p. 5",
+   "integrity_flag": null,
+   "notes": "n = 33 is the isotope-ratio group size; concentration n not restated in text. Human bone, so value_ugkg left null.",
+   "statistic_raw": "iqr"
+  },
+  {
+   "id": "dalle2022-cremated-bone-strontium-roman-salt:Sr:destelbergen-metal-ages-bone:iqr",
+   "material": {
+    "label_as_printed": "Cremated human bone, Destelbergen, Metal Ages",
+    "page": "metals/strontium",
+    "form": "cremated bone",
+    "state": "archaeological",
+    "route_rule": "override:HMI-METAL-INGEST-1"
+   },
+   "analyte": "Sr",
+   "group": "Destelbergen Metal Ages burials",
+   "group_kind": "period_site",
+   "n": 89,
+   "statistic": "iqr",
+   "reported": "IQR 87 to 130 ppm (normalized to 40 wt% Ca)",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "ppm",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Results, p. 5",
+   "integrity_flag": null,
+   "notes": "n = 89 is the isotope-ratio group size.",
+   "statistic_raw": "iqr"
+  }
+ ],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/dalle2022-cremated-bone-strontium-roman-salt.md",
+ "non_numeric_findings": [
+  "Higher bone strontium and seawater-like isotope ratios in Roman-period individuals are attributed to salt-preserved foods (Abstract; Discussion)."
+ ]
+}

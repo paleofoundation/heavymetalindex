@@ -1,0 +1,68 @@
+{
+ "source_id": "washburn2021-peru-conchucos-strontium-isoscape",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-STRONTIUM-1/10.1371_journal.pone.0248209.pdf",
+ "primary_sha256": "0817835dd1a047fef7a9d72bf701b3bbf9d17edfdcee18548cbc5cc5d1dc18d7",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "context",
+ "disposition_reason": "Isotope-ratio isoscape; no exposure-relevant concentrations.",
+ "disposition_locator": "Abstract; Results",
+ "study": {
+  "design": "isoscape survey",
+  "origin": "Conchucos region, Peru",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "not stated in abstract"
+  },
+  "method": "strontium isotope ratio mass spectrometry",
+  "lod": [],
+  "basis": "unknown",
+  "qa": "as reported",
+  "site_context": "field"
+ },
+ "findings": [
+  {
+   "id": "washburn2021-peru-conchucos-strontium-isoscape:Sr:regional-flora-fauna-isotope-range:range",
+   "material": {
+    "label_as_printed": "Modern flora and fauna, Conchucos",
+    "page": "metals/strontium",
+    "form": "plant and animal tissue",
+    "state": "field",
+    "route_rule": "override:HMI-METAL-INGEST-1"
+   },
+   "analyte": "Sr",
+   "group": "14 locations",
+   "group_kind": "site_set",
+   "n": 100,
+   "statistic": "range",
+   "reported": "0.7078 to 0.7214 (87Sr/86Sr)",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "isotope ratio",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Abstract, p. 1",
+   "integrity_flag": null,
+   "notes": "Isotope ratio, not a concentration.",
+   "statistic_raw": "range"
+  }
+ ],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/washburn2021-peru-conchucos-strontium-isoscape.md",
+ "non_numeric_findings": [
+  "Strontium isotope signatures are incorporated into skeletal tissue through food and water (Abstract)."
+ ]
+}

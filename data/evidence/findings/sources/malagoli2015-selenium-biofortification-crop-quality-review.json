@@ -1,0 +1,43 @@
+{
+ "source_id": "malagoli2015-selenium-biofortification-crop-quality-review",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-SELENIUM-1/10.3389_fpls.2015.00280.pdf",
+ "primary_sha256": "e6af4364e2225b63b553cfd711537a468d9a3bbf776e78d8be9263972bb26e89",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "context",
+ "disposition_reason": "Mini review of selenium uptake, assimilation and biofortification effects on crop secondary metabolites.",
+ "disposition_locator": "pp. 1 to 3",
+ "study": {
+  "design": "mini review",
+  "origin": "global literature",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "literature to 2015"
+  },
+  "method": "not applicable",
+  "lod": [],
+  "basis": "unknown",
+  "qa": "not applicable",
+  "site_context": "review"
+ },
+ "findings": [],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/malagoli2015-selenium-biofortification-crop-quality-review.md",
+ "non_numeric_findings": [
+  "Selenium deficiency is thought to affect 800 million people worldwide, per the review (p. 1).",
+  "Plants take up selenate through sulfate transporters (p. 1).",
+  "Seleniferous sites contain more than 1 and up to 100 mg/kg soil selenium; plant selenium at such sites may vary over 100-fold between species (p. 2).",
+  "Some organic forms such as methylselenocysteine appear to be particularly effective dietary sources (p. 1).",
+  "Selenium fertilization can change sulfur- and nitrogen-containing secondary metabolites such as glucosinolates in broccoli (p. 3)."
+ ]
+}

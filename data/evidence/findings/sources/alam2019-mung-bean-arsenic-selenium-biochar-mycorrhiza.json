@@ -1,0 +1,40 @@
+{
+ "source_id": "alam2019-mung-bean-arsenic-selenium-biochar-mycorrhiza",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-SELENIUM-1/10.3389_fphys.2019.00193.pdf",
+ "primary_sha256": "f196cfaf89804506658cbe2b8777465222ffdf9aa33d7c35005d02c19370b140",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "no_numeric_results",
+ "disposition_reason": "Plant stress physiology study; selenium was an amendment and no selenium concentrations in plants or food were measured.",
+ "disposition_locator": "Methods; Table 2 legend; Abstract",
+ "study": {
+  "design": "pot experiment with mung bean genotypes under 30 mg/kg arsenic stress, comparing biochar, arbuscular mycorrhizal fungi and selenium (15 mg/kg) soil amendments",
+  "origin": "Bangladesh",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "not stated"
+  },
+  "method": "chlorophyll, catalase and proline assays",
+  "lod": [],
+  "basis": "unknown",
+  "qa": "not applicable",
+  "site_context": "greenhouse"
+ },
+ "findings": [],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/alam2019-mung-bean-arsenic-selenium-biochar-mycorrhiza.md",
+ "non_numeric_findings": [
+  "Selenium applied to soil at 15 mg/kg as a stress relief treatment under 30 mg/kg arsenic (Methods).",
+  "Catalase activity rose and proline fell with biochar, mycorrhizal fungi and selenium treatments compared with arsenic-only control (Abstract)."
+ ]
+}

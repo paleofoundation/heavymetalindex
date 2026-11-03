@@ -1,0 +1,156 @@
+{
+ "source_id": "robinson1973-new-zealand-women-trace-element-balance",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-SELENIUM-1/10.1079_bjn19730025.pdf",
+ "primary_sha256": "3527127815752095851dc66ced03ed17420cd8a60a788517fd94370ce8420540",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "context",
+ "disposition_reason": "Small metabolic balance study giving dietary selenium intakes of 18 to 26 ug/d and urinary output of about half of intake in four women.",
+ "disposition_locator": "Table 2; Discussion pp. 202 to 204",
+ "study": {
+  "design": "metabolic balance study with fecal markers, three 6-day periods",
+  "origin": "New Zealand",
+  "market": "controlled diet of foods normally eaten by New Zealand women",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "1966 and 1967"
+  },
+  "method": "selenium by diaminonaphthalene fluorimetry in diet, urine and feces",
+  "lod": [],
+  "basis": "unknown",
+  "qa": "not reported for selenium",
+  "site_context": "controlled feeding"
+ },
+ "findings": [
+  {
+   "id": "robinson1973-new-zealand-women-trace-element-balance:Se:daily-dietary-selenium-intake-subject-d:single",
+   "material": {
+    "label_as_printed": "Daily dietary selenium intake, subject D",
+    "page": "metals/selenium",
+    "form": null,
+    "state": null,
+    "route_rule": "override:HMI-METAL-INGEST-1"
+   },
+   "analyte": "Se",
+   "group": "Young New Zealand woman, metabolic balance study 1966",
+   "group_kind": "study_group",
+   "n": 1,
+   "statistic": "single",
+   "reported": "26 ug/d",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "ug/d",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 198",
+   "integrity_flag": null,
+   "notes": "Constant diet of usual New Zealand foods; fluorimetric method.",
+   "statistic_raw": "single"
+  },
+  {
+   "id": "robinson1973-new-zealand-women-trace-element-balance:Se:daily-dietary-selenium-intake-subject-w:single",
+   "material": {
+    "label_as_printed": "Daily dietary selenium intake, subject W",
+    "page": "metals/selenium",
+    "form": null,
+    "state": null,
+    "route_rule": "override:HMI-METAL-INGEST-1"
+   },
+   "analyte": "Se",
+   "group": "Young New Zealand woman, metabolic balance study 1966",
+   "group_kind": "study_group",
+   "n": 1,
+   "statistic": "single",
+   "reported": "24 ug/d",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "ug/d",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 198",
+   "integrity_flag": null,
+   "notes": "Constant diet of usual New Zealand foods; fluorimetric method.",
+   "statistic_raw": "single"
+  },
+  {
+   "id": "robinson1973-new-zealand-women-trace-element-balance:Se:daily-dietary-selenium-intake-subject-g:single",
+   "material": {
+    "label_as_printed": "Daily dietary selenium intake, subject G",
+    "page": "metals/selenium",
+    "form": null,
+    "state": null,
+    "route_rule": "override:HMI-METAL-INGEST-1"
+   },
+   "analyte": "Se",
+   "group": "Young New Zealand woman, metabolic balance study 1967",
+   "group_kind": "study_group",
+   "n": 1,
+   "statistic": "single",
+   "reported": "18 ug/d",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "ug/d",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 198",
+   "integrity_flag": null,
+   "notes": "Constant diet of usual New Zealand foods; fluorimetric method.",
+   "statistic_raw": "single"
+  },
+  {
+   "id": "robinson1973-new-zealand-women-trace-element-balance:Se:daily-dietary-selenium-intake-subject-m:single",
+   "material": {
+    "label_as_printed": "Daily dietary selenium intake, subject M",
+    "page": "metals/selenium",
+    "form": null,
+    "state": null,
+    "route_rule": "override:HMI-METAL-INGEST-1"
+   },
+   "analyte": "Se",
+   "group": "Young New Zealand woman, metabolic balance study 1967",
+   "group_kind": "study_group",
+   "n": 1,
+   "statistic": "single",
+   "reported": "19 ug/d",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "ug/d",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 198",
+   "integrity_flag": null,
+   "notes": "Constant diet of usual New Zealand foods; fluorimetric method.",
+   "statistic_raw": "single"
+  }
+ ],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [
+  "Table 2: daily selenium intake 26, 24, 18, 19 ug/d (four women)",
+  "Discussion: urinary selenium 7 to 16 ug/d, about half of intake; urinary output to intake ratio 0.43 to 0.60"
+ ],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/robinson1973-new-zealand-women-trace-element-balance.md",
+ "non_numeric_findings": [
+  "Selenium balances appeared to be in equilibrium, with small or zero retention (Abstract; Discussion).",
+  "Authors note selenium is difficult to measure accurately because of contamination and interferences."
+ ]
+}

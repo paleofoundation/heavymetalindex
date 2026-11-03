@@ -1,0 +1,37 @@
+{
+ "source_id": "prasath2019-bismuth-oxide-battery-electrode",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-BISMUTH-1/10.1021_acsomega.8b03490.pdf",
+ "primary_sha256": "b246e5e0f81e45a9907d3b24f9eb4f907c5866cbb4c652f830a824e7b05e987d",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "out_of_scope",
+ "disposition_reason": "Battery and supercapacitor electrode materials study; no relevance to bismuth exposure.",
+ "disposition_locator": "Abstract, p. 4943",
+ "study": {
+  "design": "materials chemistry",
+  "origin": "not stated",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "not stated"
+  },
+  "method": "Electrochemical cycling of CQD-Bi2O3 composite electrodes",
+  "lod": [],
+  "basis": "not_applicable",
+  "qa": "not applicable",
+  "site_context": "laboratory"
+ },
+ "findings": [],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/prasath2019-bismuth-oxide-battery-electrode.md",
+ "non_numeric_findings": []
+}

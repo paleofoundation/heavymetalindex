@@ -1,0 +1,39 @@
+{
+ "source_id": "vu2024-cerium-nanogel-choline-detection",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-RARE-EARTHS-1/cerium/10.3390_bios14120563.pdf",
+ "primary_sha256": "3be35df584e3a878877f937fd069b7739844a07990a4ac3dad4a6c377d4e0d8d",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "out_of_scope",
+ "disposition_reason": "Sensor development; cerium is a sensor component, not an analyte.",
+ "disposition_locator": "Abstract",
+ "study": {
+  "design": "biosensor development",
+  "origin": "Seongnam, Republic of Korea",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "not stated"
+  },
+  "method": "colorimetric assay",
+  "lod": [],
+  "basis": "unknown",
+  "qa": "not applicable",
+  "site_context": "laboratory"
+ },
+ "findings": [],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/vu2024-cerium-nanogel-choline-detection.md",
+ "non_numeric_findings": [
+  "Cerium nanogel cascade assay detected choline in spiked milk and infant formula."
+ ]
+}

@@ -1,0 +1,39 @@
+{
+ "source_id": "naemi2023-boron-citrate-obesity-trial-protocol",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-BORON-1/10.1136_bmjopen-2023-075941.pdf",
+ "primary_sha256": "38c4da505b02b1f14169ef1fcfedbc77374958d2b0e96507aaad43ecfc4523d7",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "no_numeric_results",
+ "disposition_reason": "Trial protocol; only the planned 10 mg/day boron dose is stated.",
+ "disposition_locator": "Methods, Study interventions",
+ "study": {
+  "design": "randomized controlled trial protocol",
+  "origin": "Tabriz, Iran",
+  "market": null,
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "registered 31 August 2022"
+  },
+  "method": "none for boron",
+  "lod": [],
+  "basis": "unknown",
+  "qa": "not applicable",
+  "site_context": "clinical"
+ },
+ "findings": [],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [
+  "Planned supplement dose 10 mg boron/day as boron citrate for 12 weeks (Methods)."
+ ],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/naemi2023-boron-citrate-obesity-trial-protocol.md",
+ "non_numeric_findings": []
+}

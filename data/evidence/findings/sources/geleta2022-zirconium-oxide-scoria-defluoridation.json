@@ -1,0 +1,39 @@
+{
+ "source_id": "geleta2022-zirconium-oxide-scoria-defluoridation",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-ZIRCONIUM-1/10.3390_molecules27082527.pdf",
+ "primary_sha256": "91a9ac75d17c05c175d72bf8eb484d0ebf03d489d7604b0267448306c0be8572",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "out_of_scope",
+ "disposition_reason": "Materials paper using zirconium as an oxide coating on scoria for fluoride removal; no zirconium occurrence, exposure or toxicity data.",
+ "disposition_locator": "Abstract",
+ "study": {
+  "design": "laboratory fixed-bed column study",
+  "origin": "not stated",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "not stated"
+  },
+  "method": "column adsorption; XRD, FTIR, XRF, SEM, ICP-OES",
+  "lod": [],
+  "basis": "unknown",
+  "qa": "not applicable",
+  "site_context": "laboratory"
+ },
+ "findings": [],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/geleta2022-zirconium-oxide-scoria-defluoridation.md",
+ "non_numeric_findings": [
+  "Fluoride capacity 58 mg/kg coated versus 13 mg/kg virgin scoria (Abstract)."
+ ]
+}

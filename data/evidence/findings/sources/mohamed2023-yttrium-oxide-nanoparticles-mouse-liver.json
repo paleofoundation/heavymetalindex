@@ -1,0 +1,68 @@
+{
+ "source_id": "mohamed2023-yttrium-oxide-nanoparticles-mouse-liver",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-YTTRIUM-1/10.1038_s41598-023-46522-0.pdf",
+ "primary_sha256": "008a62f008640b1db0521e2f6605b4e9fd009dfc270e42a4e0b7f5a41f4512a4",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "context",
+ "disposition_reason": "Animal genotoxicity study at one oral dose; comet assay values for liver tissue, no occurrence data.",
+ "disposition_locator": "whole paper",
+ "study": {
+  "design": "mouse oral repeated-dose study",
+  "origin": "laboratory animals, Egypt",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "not stated"
+  },
+  "method": "comet assay, ROS fluorescence, qRT-PCR",
+  "lod": [],
+  "basis": "unknown",
+  "qa": "Negative control group; ANOVA with Duncan test",
+  "site_context": "experimental"
+ },
+ "findings": [
+  {
+   "id": "mohamed2023-yttrium-oxide-nanoparticles-mouse-liver:Y:mouse-liver-dna-in-tail-after-oral-yttrium-oxide-nanoparticl:mean:1",
+   "material": {
+    "label_as_printed": "Mouse liver, %DNA in tail after oral yttrium oxide nanoparticles",
+    "page": "metals/yttrium",
+    "form": "tissue",
+    "state": "unknown",
+    "route_rule": "override:HMI-METAL-INGEST-1"
+   },
+   "analyte": "Y",
+   "group": "Group IV, 50 mg/kg bw",
+   "group_kind": "treatment",
+   "n": 5,
+   "statistic": "mean",
+   "reported": "23.29 +/- 4.44 % (control 27.44 +/- 8.41)",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "% DNA in tail",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 3",
+   "integrity_flag": null,
+   "notes": "",
+   "statistic_raw": "mean"
+  }
+ ],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [
+  "Acute oral LD50 of yttrium oxide nanoparticles in mice taken as above 2000 mg/kg. Locator: Results, p. 3."
+ ],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/mohamed2023-yttrium-oxide-nanoparticles-mouse-liver.md",
+ "non_numeric_findings": []
+}

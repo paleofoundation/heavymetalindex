@@ -1,0 +1,126 @@
+{
+ "source_id": "lizzi2021-wild-plants-cerium-oxide-nanoparticles",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-RARE-EARTHS-1/cerium/10.3390_plants10020335.pdf",
+ "primary_sha256": "59d939f3f6f58689f243026af35b7809734f2785ddf7d7f54c07cbbb26366f08",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "occurrence_extracted",
+ "disposition_reason": "Total cerium in substrate and in roots, stems and leaves (µg/kg dry weight) of two plant species under cerium oxide nanoparticle treatment.",
+ "disposition_locator": "Table 1, p. 7; p. 6",
+ "study": {
+  "design": "greenhouse pot experiment",
+  "origin": "Udine, Italy",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "full plant life cycle; dates not stated"
+  },
+  "method": "ICP-MS and single-particle ICP-MS",
+  "lod": [],
+  "basis": "dry_weight",
+  "qa": "not detailed in excerpt",
+  "site_context": "experimental"
+ },
+ "findings": [
+  {
+   "id": "lizzi2021-wild-plants-cerium-oxide-nanoparticles:Ce:potting-substrate-after-cerium-oxide-nanoparticle-amendment:single_value",
+   "material": {
+    "label_as_printed": "Potting substrate after cerium oxide nanoparticle amendment",
+    "page": "metals/rare-earths",
+    "form": "substrate",
+    "state": "amended",
+    "route_rule": "override:HMI-METAL-INGEST-1"
+   },
+   "analyte": "Ce",
+   "group": "200 mg/kg nanoparticle treatment",
+   "group_kind": "treatment",
+   "n": null,
+   "statistic": "single_value",
+   "reported": "290 mg/kg",
+   "value_ugkg": 290000,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "p. 6",
+   "integrity_flag": null,
+   "notes": "Measured after amendment.",
+   "statistic_raw": "single_value"
+  },
+  {
+   "id": "lizzi2021-wild-plants-cerium-oxide-nanoparticles:Ce:diplotaxis-tenuifolia-leaves-control:mean",
+   "material": {
+    "label_as_printed": "Diplotaxis tenuifolia leaves, control",
+    "page": "metals/rare-earths",
+    "form": "leaf",
+    "state": "dried",
+    "route_rule": "override:HMI-METAL-INGEST-1"
+   },
+   "analyte": "Ce",
+   "group": "control",
+   "group_kind": "treatment",
+   "n": 4,
+   "statistic": "mean",
+   "reported": "145 ± 158 µg/kg dw",
+   "value_ugkg": 145,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "µg/kg dw",
+   "basis": "dry_weight",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 1, p. 7",
+   "integrity_flag": null,
+   "notes": "Mean plus or minus SD.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "lizzi2021-wild-plants-cerium-oxide-nanoparticles:Ce:diplotaxis-tenuifolia-leaves-50-nm-cerium-oxide:mean",
+   "material": {
+    "label_as_printed": "Diplotaxis tenuifolia leaves, 50 nm cerium oxide",
+    "page": "metals/rare-earths",
+    "form": "leaf",
+    "state": "dried",
+    "route_rule": "override:HMI-METAL-INGEST-1"
+   },
+   "analyte": "Ce",
+   "group": "200 mg/kg 50 nm particles",
+   "group_kind": "treatment",
+   "n": 4,
+   "statistic": "mean",
+   "reported": "1044 ± 195 µg/kg dw",
+   "value_ugkg": 1044,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "µg/kg dw",
+   "basis": "dry_weight",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 1, p. 7",
+   "integrity_flag": null,
+   "notes": "Mean plus or minus SD.",
+   "statistic_raw": "mean"
+  }
+ ],
+ "unresolved": [
+  "Holcus lanatus leaf and stem values not recorded as findings."
+ ],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/lizzi2021-wild-plants-cerium-oxide-nanoparticles.md",
+ "non_numeric_findings": [
+  "Smaller (25 nm) particles produced the highest root cerium; translocation to leaves was limited."
+ ]
+}

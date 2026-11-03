@@ -1,0 +1,73 @@
+{
+ "source_id": "efsa2017-tungsten-oxide-food-contact-materials",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-TUNGSTEN-1/10.2903_j.efsa.2017.4661.pdf",
+ "primary_sha256": "7d73a8c29c56058631044926bea76761f64b99a772f87a00b3e4b76ec1d6c227",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "context",
+ "disposition_reason": "Regulatory safety opinion with migration value, genotoxicity results and a migration ceiling; no food occurrence data.",
+ "disposition_locator": "Sections 3 and 4",
+ "study": {
+  "design": "regulatory risk assessment of a food contact substance",
+  "origin": "applicant dossier",
+  "market": "EU authorisation procedure",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "not stated"
+  },
+  "method": "ICP-MS measurement of migration into simulants",
+  "lod": [
+   "Not stated"
+  ],
+  "basis": "unknown",
+  "qa": "OECD and GLP genotoxicity studies",
+  "site_context": "food contact material"
+ },
+ "findings": [
+  {
+   "id": "efsa2017-tungsten-oxide-food-contact-materials:W:95-ethanol-simulant-from-pet-plaques-with-150-mg-kg-tungsten:single:1",
+   "material": {
+    "label_as_printed": "95% ethanol simulant from PET plaques with 150 mg/kg tungsten oxide",
+    "page": "metals/tungsten",
+    "form": "food simulant",
+    "state": "unknown",
+    "route_rule": "override:HMI-METAL-INGEST-1"
+   },
+   "analyte": "W",
+   "group": "10 days at 60 C",
+   "group_kind": "treatment",
+   "n": null,
+   "statistic": "single",
+   "reported": "about 1 ug/kg (as W)",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "ug/kg",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Section 3.1, p. 5",
+   "integrity_flag": null,
+   "notes": "Simulant migration, not a food concentration; value_ugkg left null.",
+   "statistic_raw": "single"
+  }
+ ],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [
+  "EFSA CEF Panel: tungsten oxide (FCM No 1064) not of safety concern as reheat additive in PET up to 75 mg/kg PET; for other technical functions or polymers migration should not exceed 50 ug/kg food expressed as W. Locator: Section 4.",
+  "Panel noted ECHA oral DNEL of 0.6 mg/kg bw per day for tungsten oxide. Locator: Section 3.2."
+ ],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/efsa2017-tungsten-oxide-food-contact-materials.md",
+ "non_numeric_findings": [
+  "The substance is essentially insoluble in water, acid and alcohols but dissolves in aqueous alkali hydroxide."
+ ]
+}

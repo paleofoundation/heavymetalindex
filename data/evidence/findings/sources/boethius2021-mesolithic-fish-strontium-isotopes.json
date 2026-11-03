@@ -1,0 +1,39 @@
+{
+ "source_id": "boethius2021-mesolithic-fish-strontium-isotopes",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-STRONTIUM-1/10.1371_journal.pone.0245222.pdf",
+ "primary_sha256": "807d5c1b7effeaba17398964032bbcb3f8078dc01474e5f23bb0047ff94b4208",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "context",
+ "disposition_reason": "Isotope-ratio provenance study of archaeological fish; no concentrations.",
+ "disposition_locator": "Abstract; Results",
+ "study": {
+  "design": "archaeological isotope provenance study",
+  "origin": "Norje Sunnansund, Sweden",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "Early Holocene (Mesolithic)"
+  },
+  "method": "LA-MC-ICP-MS",
+  "lod": [],
+  "basis": "unknown",
+  "qa": "marine carbonate and NBS 987 standards",
+  "site_context": "archaeological"
+ },
+ "findings": [],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/boethius2021-mesolithic-fish-strontium-isotopes.md",
+ "non_numeric_findings": [
+  "Three regions of origin were indicated for fish at the site (Abstract)."
+ ]
+}

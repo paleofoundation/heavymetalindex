@@ -1,0 +1,39 @@
+{
+ "source_id": "ayub2023-maize-cerium-oxide-cadmium",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-RARE-EARTHS-1/cerium/10.3389_fpls.2023.1151786.pdf",
+ "primary_sha256": "766ee74b5f6936b0db3e03af48c9d080069da10d55013bf4d759d29619a5d809",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "context",
+ "disposition_reason": "Dose design and qualitative seedling cerium uptake; tissue cerium only graphed.",
+ "disposition_locator": "Abstract; Section 3.4, p. 5",
+ "study": {
+  "design": "greenhouse pot experiment",
+  "origin": "Fort Pierce, Florida, USA",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "seedling stage"
+  },
+  "method": "ICP-MS (Missouri State University)",
+  "lod": [],
+  "basis": "dry_weight",
+  "qa": "not reported",
+  "site_context": "experimental"
+ },
+ "findings": [],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/ayub2023-maize-cerium-oxide-cadmium.md",
+ "non_numeric_findings": [
+  "2000 mg/kg cerium oxide nanoparticles reduced maize biomass; 1000 mg/kg partly reversed cadmium toxicity."
+ ]
+}

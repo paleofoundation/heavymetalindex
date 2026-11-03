@@ -1,0 +1,43 @@
+{
+ "source_id": "nawaz2016-maize-fodder-selenium-drought",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-SELENIUM-1/10.3389_fpls.2016.01438.pdf",
+ "primary_sha256": "dfbb8510c60b24c1e3e498254a3567a1e51f12e6fd3b34035a7cb6dc7088499c",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "context",
+ "disposition_reason": "Fodder crop stress-physiology trial; shoot selenium shown only in a figure and as percent change.",
+ "disposition_locator": "Abstract; Methods p. 2; Fig. 5",
+ "study": {
+  "design": "lysimeter experiment on maize fodder under 100% and 60% field capacity with foliar sodium selenate (40 mg/L) versus water spray",
+  "origin": "Pakistan",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "not stated"
+  },
+  "method": "ICP-OES for shoot selenium; physiological and fodder quality assays",
+  "lod": [
+   "not stated"
+  ],
+  "basis": "dry_weight",
+  "qa": "not reported",
+  "site_context": "field lysimeter"
+ },
+ "findings": [],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/nawaz2016-maize-fodder-selenium-drought.md",
+ "non_numeric_findings": [
+  "Lysimeter soil total selenium 0.074 mg/kg (Methods p. 2).",
+  "Foliar selenate at 40 mg/L under water deficit raised shoot selenium by 36% and fodder yield by 15% relative to control (Abstract).",
+  "Funded by Higher Education Commission of Pakistan (Funding)."
+ ]
+}

@@ -1,0 +1,37 @@
+{
+ "source_id": "torabimonfared2021-tungsten-filament-humidity-sensor",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-TUNGSTEN-1/10.1038_s41598-021-97688-4.pdf",
+ "primary_sha256": "2d94dc3f13f860c98d572b6d8a4528f7857e55b20556d2a73794cacaf17a9f53",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "out_of_scope",
+ "disposition_reason": "Humidity sensor instrumentation; tungsten is a sensor component.",
+ "disposition_locator": "whole paper",
+ "study": {
+  "design": "sensor development",
+  "origin": "not applicable",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "not stated"
+  },
+  "method": "optical imaging, FTIR, XRD",
+  "lod": [],
+  "basis": "unknown",
+  "qa": "not applicable",
+  "site_context": "laboratory"
+ },
+ "findings": [],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/torabimonfared2021-tungsten-filament-humidity-sensor.md",
+ "non_numeric_findings": []
+}

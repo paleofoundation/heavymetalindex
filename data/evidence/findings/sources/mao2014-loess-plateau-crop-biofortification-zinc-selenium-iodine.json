@@ -1,0 +1,102 @@
+{
+ "source_id": "mao2014-loess-plateau-crop-biofortification-zinc-selenium-iodine",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-SELENIUM-1/10.4067_s0718-95162014005000036.pdf",
+ "primary_sha256": "3ad5947c3e1c5bd31be6c59c6ebebc3796b297e7183a65a6e3a2ad00d8e47ef2",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "occurrence_extracted",
+ "disposition_reason": "Wheat grain selenium with and without foliar selenite, and per-gram selenium response rates for six crops on loess soil.",
+ "disposition_locator": "Abstract; Results pp. 463 to 465",
+ "study": {
+  "design": "field biofortification trials with soil selenate, selenite, zinc sulfate and potassium iodate on six crops, plus foliar selenite and zinc on wheat",
+  "origin": "China",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "not stated in extracted text"
+  },
+  "method": "ICP-MS after HNO3-H2O2 digestion for selenium",
+  "lod": [
+   "not stated"
+  ],
+  "basis": "dry_weight",
+  "qa": "not stated",
+  "site_context": "agricultural field"
+ },
+ "findings": [
+  {
+   "id": "mao2014-loess-plateau-crop-biofortification-zinc-selenium-iodine:Se:winter-wheat-grain-no-foliar-selenium:mean",
+   "material": {
+    "label_as_printed": "Winter wheat grain, no foliar selenium",
+    "page": "ingredients/wheat",
+    "form": null,
+    "state": "raw",
+    "route_rule": "override:HMI-METAL-INGEST-1"
+   },
+   "analyte": "Se",
+   "group": "Field 3, loess plateau, Shaanxi, China",
+   "group_kind": "study_group",
+   "n": null,
+   "statistic": "mean",
+   "reported": "25 ug/kg",
+   "value_ugkg": 25.0,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "ug/kg",
+   "basis": "dry_weight",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Abstract p. 459",
+   "integrity_flag": null,
+   "notes": "Control of foliar selenite trial; ICP-MS.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "mao2014-loess-plateau-crop-biofortification-zinc-selenium-iodine:Se:winter-wheat-grain-foliar-selenite-60-g-se-ha:mean",
+   "material": {
+    "label_as_printed": "Winter wheat grain, foliar selenite 60 g Se/ha",
+    "page": "ingredients/wheat",
+    "form": null,
+    "state": "raw",
+    "route_rule": "override:HMI-METAL-INGEST-1"
+   },
+   "analyte": "Se",
+   "group": "Field 3, loess plateau, Shaanxi, China",
+   "group_kind": "study_group",
+   "n": null,
+   "statistic": "mean",
+   "reported": "312 ug/kg",
+   "value_ugkg": 312.0,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "ug/kg",
+   "basis": "dry_weight",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Abstract p. 459",
+   "integrity_flag": null,
+   "notes": "Experimental biofortification treatment.",
+   "statistic_raw": "mean"
+  }
+ ],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/mao2014-loess-plateau-crop-biofortification-zinc-selenium-iodine.md",
+ "non_numeric_findings": [
+  "Soil selenate at 1 g Se/ha raised selenium by 17.4 ug/kg in wheat grain, 8.6 in maize grain, 17.3 in soybean, 10.2 in potato tuber, 4.1 in canola seed and 76.8 in cabbage leaf (Results).",
+  "Biofortification target used: 300 ug/kg dry weight, reached at 16, 34, 15, 28, 71 and 3 g Se/ha selenate respectively (Results).",
+  "Soil selenite was far less effective: 0.2 ug/kg per g/ha for maize, 1.2 soybean, 0.9 potato, 6.5 cabbage (Results).",
+  "Foliar selenite reached the 300 ug/kg wheat target at 59 g/ha (Results).",
+  "Acknowledges HarvestPlus Biofortification Challenge Program, the International Fertilizer Industry Association and Chinese research funds (Acknowledgements)."
+ ]
+}

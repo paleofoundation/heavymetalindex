@@ -1,0 +1,37 @@
+{
+ "source_id": "scorsone2024-bdd-electrode-tryptophan-ecl",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-BORON-1/10.3390_s24113627.pdf",
+ "primary_sha256": "c29b85e1e30a96b5727d2c4814e50e5302a301571b47767e585c09a6fc96b0e0",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "out_of_scope",
+ "disposition_reason": "Materials or sensor study in which boron is part of the material; no boron occurrence or toxicity data.",
+ "disposition_locator": "Abstract; Methods",
+ "study": {
+  "design": "laboratory materials or method development",
+  "origin": null,
+  "market": null,
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "not applicable"
+  },
+  "method": "not applicable for boron",
+  "lod": [],
+  "basis": "unknown",
+  "qa": "not applicable",
+  "site_context": "laboratory"
+ },
+ "findings": [],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/scorsone2024-bdd-electrode-tryptophan-ecl.md",
+ "non_numeric_findings": []
+}

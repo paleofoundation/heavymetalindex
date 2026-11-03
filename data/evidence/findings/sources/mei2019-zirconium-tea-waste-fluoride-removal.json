@@ -1,0 +1,39 @@
+{
+ "source_id": "mei2019-zirconium-tea-waste-fluoride-removal",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-ZIRCONIUM-1/10.1039_c9ra07155e.pdf",
+ "primary_sha256": "f5f1cbc218b2cc979eb193f1779ab507d3d022af7893e480189866f8d39c20d3",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "out_of_scope",
+ "disposition_reason": "Materials paper using zirconium as an adsorbent for fluoride removal; no zirconium occurrence, exposure or toxicity data.",
+ "disposition_locator": "Abstract",
+ "study": {
+  "design": "laboratory adsorbent development",
+  "origin": "not stated",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "not stated"
+  },
+  "method": "adsorption experiments; SEM, EDS, XRD, BET, FTIR, XPS",
+  "lod": [],
+  "basis": "unknown",
+  "qa": "not applicable",
+  "site_context": "laboratory"
+ },
+ "findings": [],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/mei2019-zirconium-tea-waste-fluoride-removal.md",
+ "non_numeric_findings": [
+  "Maximum fluoride capacity 20.56 mg/g (Abstract)."
+ ]
+}

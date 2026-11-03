@@ -1,0 +1,39 @@
+{
+ "source_id": "litton2016-edwardsiella-endocarditis-indium-111-scan",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-INDIUM-1/10.1155_2016_1082160.pdf",
+ "primary_sha256": "42ff84b26d8cb2cf62337211aa3d3e672e6986c438aedda8ba81d20bff4b8b9d",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "out_of_scope",
+ "disposition_reason": "Clinical case report using indium-111 as a diagnostic radiotracer; no indium occurrence, exposure or toxicity data.",
+ "disposition_locator": "Abstract; Case Presentation",
+ "study": {
+  "design": "clinical case report",
+  "origin": "United States",
+  "market": "clinical",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "not stated"
+  },
+  "method": "indium-111 labeled white blood cell scintigraphy",
+  "lod": [],
+  "basis": "unknown",
+  "qa": "not applicable",
+  "site_context": "hospital"
+ },
+ "findings": [],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/litton2016-edwardsiella-endocarditis-indium-111-scan.md",
+ "non_numeric_findings": [
+  "Cited sensitivity 60 to 100% and specificity 68 to 92% for indium-111 white blood cell scintigraphy (Abstract)."
+ ]
+}

@@ -1,0 +1,37 @@
+{
+ "source_id": "lee2015-yttrium-adsorbents-arsenate-removal",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-YTTRIUM-1/10.3390_ijerph121013523.pdf",
+ "primary_sha256": "e1330b3559cf69e601b9c7f2683f4e276d8337a93f96985e91f149ae720ca551",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "out_of_scope",
+ "disposition_reason": "Adsorbent development for arsenate removal; no yttrium exposure data.",
+ "disposition_locator": "whole paper",
+ "study": {
+  "design": "materials development",
+  "origin": "not applicable",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "not stated"
+  },
+  "method": "adsorption isotherms and kinetics",
+  "lod": [],
+  "basis": "unknown",
+  "qa": "not applicable",
+  "site_context": "laboratory"
+ },
+ "findings": [],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/lee2015-yttrium-adsorbents-arsenate-removal.md",
+ "non_numeric_findings": []
+}

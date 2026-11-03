@@ -1,0 +1,39 @@
+{
+ "source_id": "willmes2014-france-bioavailable-strontium-isotope-database",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-STRONTIUM-1/10.5194_essd-6-117-2014.pdf",
+ "primary_sha256": "898714f15578e7f94fb3cd3003954f551083eae5926cddcec53e81081b75cdc0",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "context",
+ "disposition_reason": "Isotope-ratio baseline data paper; no exposure-relevant concentrations.",
+ "disposition_locator": "pp. 117 to 120",
+ "study": {
+  "design": "isoscape data paper",
+  "origin": "France",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "not stated"
+  },
+  "method": "MC-ICP-MS strontium isotope ratios",
+  "lod": [],
+  "basis": "unknown",
+  "qa": "NIST SRM 987 normalization",
+  "site_context": "field"
+ },
+ "findings": [],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/willmes2014-france-bioavailable-strontium-isotope-database.md",
+ "non_numeric_findings": [
+  "Database of bioavailable strontium isotope ratios from plants and soils at 840 French locations (p. 118)."
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "source_id": "adeyemo2022-lanthanum-chloride-catfish-mycotoxin-diet",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-RARE-EARTHS-1/lanthanum/10.3390_toxins14080553.pdf",
+ "primary_sha256": "6900c585c38e78819082e78864ac3f8bf41430ebcb5c97228755f9f35a9cabf8",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "context",
+ "disposition_reason": "Feed inclusion levels of lanthanum chloride in a catfish trial; no lanthanum measured in fish.",
+ "disposition_locator": "Abstract; Table 1",
+ "study": {
+  "design": "aquaculture feeding trial",
+  "origin": "Abuja, Nigeria",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "56 days"
+  },
+  "method": "growth, hematology and serum biochemistry",
+  "lod": [],
+  "basis": "unknown",
+  "qa": "not applicable",
+  "site_context": "experimental farm"
+ },
+ "findings": [],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [
+  "Experimental fish feed inclusion: lanthanum chloride 200 and 400 mg/kg (abstract)"
+ ],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/adeyemo2022-lanthanum-chloride-catfish-mycotoxin-diet.md",
+ "non_numeric_findings": [
+  "Lanthanum chloride improved growth and serum enzyme profiles in mycotoxin-challenged catfish."
+ ]
+}

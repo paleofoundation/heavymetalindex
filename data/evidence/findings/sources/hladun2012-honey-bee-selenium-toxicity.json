@@ -1,0 +1,41 @@
+{
+ "source_id": "hladun2012-honey-bee-selenium-toxicity",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-SELENIUM-1/10.1371_journal.pone.0034137.pdf",
+ "primary_sha256": "c410f7682513396ae59114b6ec6d5beb69dec536f9fa1405037870bdefb5a5de",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "out_of_scope",
+ "disposition_reason": "Insect ecotoxicology; no human dietary exposure or food concentration data.",
+ "disposition_locator": "Abstract; Methods",
+ "study": {
+  "design": "laboratory bioassays of honey bee gustatory response, sucrose responsiveness and survival after selenate, selenomethionine or methionine dosing",
+  "origin": "United States",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "not stated"
+  },
+  "method": "proboscis extension reflex assays; acute and chronic feeding at 0 to 6000 mg/L in 1 M sucrose",
+  "lod": [],
+  "basis": "unknown",
+  "qa": "not applicable",
+  "site_context": "laboratory"
+ },
+ "findings": [],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/hladun2012-honey-bee-selenium-toxicity.md",
+ "non_numeric_findings": [
+  "Bees fed selenate were less responsive to sucrose; chronic selenate dosing raised mortality more than a single dose (Abstract).",
+  "Selenomethionine increased mortality only at the highest concentration (Abstract).",
+  "Funded by University of California Riverside and a US EPA STAR fellowship (Funding statement)."
+ ]
+}

@@ -1,0 +1,39 @@
+{
+ "source_id": "palisoc2019-bismuth-electrode-herbal-supplements",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-BISMUTH-1/10.1038_s41598-019-54589-x.pdf",
+ "primary_sha256": "1916b08c0a18e216daff9cd8ce6b0a1321a366f072984efd5b3edb62b246701a",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "out_of_scope",
+ "disposition_reason": "Bismuth is the electrode modifier; analytes are lead and cadmium in herbal supplements. No bismuth concentrations reported.",
+ "disposition_locator": "Abstract, p. 1",
+ "study": {
+  "design": "electrochemical sensor development",
+  "origin": "not stated",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "not stated"
+  },
+  "method": "Square-wave anodic stripping voltammetry on bismuth/MWCNT/Nafion-modified graphite electrode; AAS comparison",
+  "lod": [],
+  "basis": "not_applicable",
+  "qa": "not applicable",
+  "site_context": "laboratory"
+ },
+ "findings": [],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/palisoc2019-bismuth-electrode-herbal-supplements.md",
+ "non_numeric_findings": [
+  "Bismuth is used as an electrode material for lead and cadmium stripping analysis; the authors cite its low toxicity as a reason (p. 2)."
+ ]
+}

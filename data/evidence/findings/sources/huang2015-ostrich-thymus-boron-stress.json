@@ -1,0 +1,41 @@
+{
+ "source_id": "huang2015-ostrich-thymus-boron-stress",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-BORON-1/10.1371_journal.pone.0129596.pdf",
+ "primary_sha256": "76b5476ec687571ce00b6f19b5b65f08261abdc2a1cc9737298b0cef42f4297e",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "context",
+ "disposition_reason": "Animal toxicology at a single high drinking-water dose; no measured boron concentrations.",
+ "disposition_locator": "Methods, Animals",
+ "study": {
+  "design": "controlled animal experiment",
+  "origin": "Wuhan, China",
+  "market": null,
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "not stated"
+  },
+  "method": "none for boron",
+  "lod": [],
+  "basis": "unknown",
+  "qa": "not applicable",
+  "site_context": "laboratory"
+ },
+ "findings": [],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [
+  "Drinking-water dose 640 mg/L for 90 days in ostrich chicks (Methods)."
+ ],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/huang2015-ostrich-thymus-boron-stress.md",
+ "non_numeric_findings": [
+  "Thymic structure intact; apoptosis tendency and autophagy and proliferation markers increased."
+ ]
+}

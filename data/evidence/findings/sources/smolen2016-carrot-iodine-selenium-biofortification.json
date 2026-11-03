@@ -1,0 +1,48 @@
+{
+ "source_id": "smolen2016-carrot-iodine-selenium-biofortification",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-SELENIUM-1/10.3389_fpls.2016.00730.pdf",
+ "primary_sha256": "3c59d30792df3526b2ba38b55dfba8ab419497afb0f47e1746d13d0f7d98296e",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "context",
+ "disposition_reason": "Field biofortification trial; selenium concentrations are shown only in figures, so only text-stated percentages of the RDA and speciation shares were extracted.",
+ "disposition_locator": "Results pp. 8 to 9; Discussion p. 14",
+ "study": {
+  "design": "three-year field fertilization experiment (2012 to 2014) with iodine and selenium (selenate or selenite) soil applications, 1 kg Se/ha",
+  "origin": "Poland",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "2012 to 2014"
+  },
+  "method": "ICP-OES (Se 169.090 nm) for total selenium; capillary electrophoresis with DAD for selenomethionine",
+  "lod": [
+   "not stated for selenium"
+  ],
+  "basis": "dry_weight",
+  "qa": "not reported",
+  "site_context": "agricultural field"
+ },
+ "findings": [],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [
+  "Discussion p. 14: authors use RDA of 55 ug selenium/d for adults and 60 to 70 ug/d for pregnant and lactating women",
+  "Results p. 9: a 100 g fresh portion of carrot fertilized with selenate would supply 500 to 650% of the adult RDA for selenium; selenite treatments oscillated around or exceeded 100%",
+  "Discussion p. 14: control carrots supplied 8.4% (2012) to 41.2% (2014) of the selenium RDA per 100 g"
+ ],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/smolen2016-carrot-iodine-selenium-biofortification.md",
+ "non_numeric_findings": [
+  "Selenate gave up to several dozen times higher selenium accumulation than selenite (Results p. 8).",
+  "Selenomethionine was the dominant measured form; no free selenate or selenite detected in carrot (Discussion).",
+  "Share of selenium present as selenomethionine in leaves ranged 18.4% to 96.3% (Results p. 9).",
+  "No negative effects on yield (Abstract)."
+ ]
+}

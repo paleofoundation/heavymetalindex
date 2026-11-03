@@ -1,0 +1,39 @@
+{
+ "source_id": "tan2020-zirconium-mof-fluoride-removal-water",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-ZIRCONIUM-1/10.1039_d0ra01268h.pdf",
+ "primary_sha256": "684607c54a56a32260af482ba13d12c180e871b2a2004a983e57efcf77609237",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "out_of_scope",
+ "disposition_reason": "Materials paper using zirconium as a metal-organic framework adsorbent for fluoride removal; no zirconium occurrence, exposure or toxicity data.",
+ "disposition_locator": "Abstract",
+ "study": {
+  "design": "laboratory adsorbent development",
+  "origin": "not stated",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "not stated"
+  },
+  "method": "adsorption experiments; PXRD, FESEM, XPS, BET",
+  "lod": [],
+  "basis": "unknown",
+  "qa": "not applicable",
+  "site_context": "laboratory"
+ },
+ "findings": [],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/tan2020-zirconium-mof-fluoride-removal-water.md",
+ "non_numeric_findings": [
+  "Fluoride capacity 19.42 mg/g; 92.3% removal (Abstract)."
+ ]
+}

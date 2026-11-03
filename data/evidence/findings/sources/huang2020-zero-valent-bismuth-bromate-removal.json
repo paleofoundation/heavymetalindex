@@ -1,0 +1,100 @@
+{
+ "source_id": "huang2020-zero-valent-bismuth-bromate-removal",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-BISMUTH-1/10.1039_c9ra10391k.pdf",
+ "primary_sha256": "ed0369a0502d93cda8923d69f75be44735e8dc65f4a5dbeb59e14129569c0608",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "context",
+ "disposition_reason": "Laboratory water-treatment study reporting residual dissolved bismuth released from bismuth microspheres (10 to 20 µg/L) and its removal by clinoptilolite filtration (<0.3 µg/L).",
+ "disposition_locator": "p. 4151; p. 4150 (method)",
+ "study": {
+  "design": "laboratory water-treatment experiment",
+  "origin": "China",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "not stated"
+  },
+  "method": "ICP-AES (PerkinElmer Optima 8300) for bismuth in treated water; ion chromatography for bromate and bromide",
+  "lod": [
+   "Bismuth reported as not detected below 0.3 µg/L after filtration (p. 4151)"
+  ],
+  "basis": "not_applicable",
+  "qa": "not reported for bismuth",
+  "site_context": "laboratory"
+ },
+ "findings": [
+  {
+   "id": "huang2020-zero-valent-bismuth-bromate-removal:Bi:residual-bismuth-reactor:range",
+   "material": {
+    "label_as_printed": "Residual bismuth in liquid phase after bromate reduction",
+    "page": "metals/bismuth",
+    "form": "water",
+    "state": "laboratory_treated",
+    "route_rule": "override:HMI-METAL-INGEST-1"
+   },
+   "analyte": "Bi",
+   "group": "Reactor experiments across initial bromate 0.20 to 5.00 mg/L",
+   "group_kind": "experimental_condition",
+   "n": null,
+   "statistic": "range",
+   "reported": "10-20 µg/L",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "µg/L",
+   "basis": "not_applicable",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "p. 4151 (Table S6 cited)",
+   "integrity_flag": null,
+   "notes": "Laboratory reactor water, not a drinking-water survey. Range as stated in text; supplement not reviewed.",
+   "statistic_raw": "kept at a low level of 10-20 µg/L"
+  },
+  {
+   "id": "huang2020-zero-valent-bismuth-bromate-removal:Bi:residual-bismuth-after-clinoptilolite:not_detected",
+   "material": {
+    "label_as_printed": "Bismuth residue after clinoptilolite filtration",
+    "page": "metals/bismuth",
+    "form": "water",
+    "state": "laboratory_treated",
+    "route_rule": "override:HMI-METAL-INGEST-1"
+   },
+   "analyte": "Bi",
+   "group": "Treated water after natural clinoptilolite filtration",
+   "group_kind": "experimental_condition",
+   "n": null,
+   "statistic": "not_detected",
+   "reported": "not detected (<0.3 µg/L)",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "µg/L",
+   "basis": "not_applicable",
+   "censoring": "left",
+   "lod_ugkg": null,
+   "locator": "p. 4151",
+   "integrity_flag": null,
+   "notes": "Not-detected threshold as printed.",
+   "statistic_raw": "not detected (<0.3 µg/L)"
+  }
+ ],
+ "unresolved": [
+  "Per-condition residual bismuth values are in supplementary Tables S6 and S7, which were not part of the reviewed PDF."
+ ],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/huang2020-zero-valent-bismuth-bromate-removal.md",
+ "non_numeric_findings": [
+  "Authors state that bismuth released from treatment materials into drinking water should be regulated (p. 4151)."
+ ]
+}

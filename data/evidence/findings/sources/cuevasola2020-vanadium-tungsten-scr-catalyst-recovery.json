@@ -1,0 +1,37 @@
+{
+ "source_id": "cuevasola2020-vanadium-tungsten-scr-catalyst-recovery",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-TUNGSTEN-1/10.1039_d0ra02229b.pdf",
+ "primary_sha256": "f6f436c9c334a3623a60af2cd9497897e8a4b17ee1557d5310618894a6f916fa",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "out_of_scope",
+ "disposition_reason": "Industrial metal recovery chemistry.",
+ "disposition_locator": "whole paper",
+ "study": {
+  "design": "hydrometallurgical process study",
+  "origin": "spent SCR catalyst",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "not stated"
+  },
+  "method": "solvent extraction",
+  "lod": [],
+  "basis": "unknown",
+  "qa": "not applicable",
+  "site_context": "industrial"
+ },
+ "findings": [],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/cuevasola2020-vanadium-tungsten-scr-catalyst-recovery.md",
+ "non_numeric_findings": []
+}

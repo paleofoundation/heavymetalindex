@@ -1,0 +1,41 @@
+{
+ "source_id": "tolkou2022-lanthanum-activated-carbon-chromium-removal",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-RARE-EARTHS-1/lanthanum/10.3390_nano12071067.pdf",
+ "primary_sha256": "2ea38b16f67fa078904e332555513957ac0ddc1361338a3ea1fc661cd3935f51",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "out_of_scope",
+ "disposition_reason": "Water-treatment material study; lanthanum leaching percentage recorded as context.",
+ "disposition_locator": "p. 5",
+ "study": {
+  "design": "adsorbent development",
+  "origin": "Thessaloniki, Greece",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "not stated"
+  },
+  "method": "bench-scale adsorption",
+  "lod": [],
+  "basis": "unknown",
+  "qa": "not applicable",
+  "site_context": "laboratory"
+ },
+ "findings": [],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [
+  "Lanthanum leaching from modified activated carbon about 3% (p. 5)"
+ ],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/tolkou2022-lanthanum-activated-carbon-chromium-removal.md",
+ "non_numeric_findings": [
+  "Lanthanum-modified carbon removed hexavalent chromium best at pH 5."
+ ]
+}

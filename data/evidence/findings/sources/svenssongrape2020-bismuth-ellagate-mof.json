@@ -1,0 +1,40 @@
+{
+ "source_id": "svenssongrape2020-bismuth-ellagate-mof",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-BISMUTH-1/10.1021_jacs.0c07525.pdf",
+ "primary_sha256": "8932c287f927e9e36fada073563d346badf4e5b246431ea559c669c56eea914c",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "out_of_scope",
+ "disposition_reason": "Materials chemistry with a single in vitro cytotoxicity test; not a dietary exposure or toxicity study.",
+ "disposition_locator": "p. 16799 (cytotoxicity); p. 16796 (background)",
+ "study": {
+  "design": "materials chemistry",
+  "origin": "not stated",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "not stated"
+  },
+  "method": "Cell viability assay in HL-60 cells; structural and adsorption analyses",
+  "lod": [],
+  "basis": "not_applicable",
+  "qa": "not applicable",
+  "site_context": "laboratory"
+ },
+ "findings": [],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/svenssongrape2020-bismuth-ellagate-mof.md",
+ "non_numeric_findings": [
+  "SU-101 IC80 = 1000 µg/mL in HL-60 cells after 24 h (p. 16799).",
+  "Authors state, citing earlier work, that median lethal doses of bismuth and many of its compounds are about 5 g/kg in rats (p. 16796, background)."
+ ]
+}
