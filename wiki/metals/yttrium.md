@@ -1,4 +1,6 @@
 ---
+hero_image: /static/heroes/yttrium-xenotime-ceramics.webp
+hero_image_alt: "Brown xenotime mineral specimens, white ceramic discs and a dish of white powder illustrating yttrium research context."
 title: Yttrium
 type: metal
 symbol: Y

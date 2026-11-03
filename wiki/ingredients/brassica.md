@@ -1,4 +1,6 @@
 ---
+hero_image: /static/heroes/brassica.webp
+hero_image_alt: "A head of broccoli, a small cauliflower, a wedge of green cabbage and Brussels sprouts on a dark stone surface."
 title: Brassica vegetables
 type: ingredient
 commodity: brassica

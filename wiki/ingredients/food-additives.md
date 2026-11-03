@@ -1,4 +1,6 @@
 ---
+hero_image: /static/heroes/food-additives.webp
+hero_image_alt: "Small glass bowls of white crystals, white powder, red and yellow colouring powders and a clear liquid, with metal measuring spoons."
 title: Food additives
 type: ingredient
 commodity: food-additives

@@ -1,4 +1,6 @@
 ---
+hero_image: /static/heroes/oilseeds.webp
+hero_image_alt: "Small stone bowls of pumpkin, black, sesame and sunflower seeds beside a glass cruet of golden oil."
 title: Oilseeds
 type: ingredient
 commodity: oilseeds

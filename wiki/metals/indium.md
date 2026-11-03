@@ -1,4 +1,6 @@
 ---
+hero_image: /static/heroes/indium-ingot-glass-panel.webp
+hero_image_alt: "A small silvery indium ingot beside a clear glass panel and laboratory glassware illustrating indium research context."
 title: Indium
 type: metal
 symbol: In

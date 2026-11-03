@@ -1,4 +1,6 @@
 ---
+hero_image: /static/heroes/wine.webp
+hero_image_alt: "A glass of white wine and a glass of red wine beside an unlabeled dark wine bottle and a bunch of red grapes."
 title: Wine
 type: ingredient
 commodity: wine

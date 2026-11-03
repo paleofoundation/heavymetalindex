@@ -1,4 +1,6 @@
 ---
+hero_image: /static/heroes/peppers.webp
+hero_image_alt: "Red, yellow and green bell peppers, one red pepper halved to show its seeds, with small red chili peppers on a burgundy cloth."
 title: Peppers
 type: ingredient
 commodity: peppers

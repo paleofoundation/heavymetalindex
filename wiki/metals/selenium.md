@@ -1,4 +1,6 @@
 ---
+hero_image: /static/heroes/selenium-brazil-nuts-fish-eggs.webp
+hero_image_alt: "Brazil nuts, a fish fillet, two eggs and grains illustrating selenium dietary research context."
 title: Selenium
 type: metal
 symbol: Se

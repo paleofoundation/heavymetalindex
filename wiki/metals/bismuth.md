@@ -1,4 +1,6 @@
 ---
+hero_image: /static/heroes/bismuth-crystal-specimen.webp
+hero_image_alt: "An iridescent stepped bismuth crystal, a small gray metal ingot and laboratory glassware illustrating bismuth research context."
 title: Bismuth
 type: metal
 symbol: Bi

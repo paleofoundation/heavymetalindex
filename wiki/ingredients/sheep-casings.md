@@ -1,4 +1,6 @@
 ---
+hero_image: /static/heroes/sheep-casings.webp
+hero_image_alt: "Translucent natural sheep casings coiled in a bowl of salted water, one length draped out, beside thin sausages."
 title: Sheep casings
 type: ingredient
 commodity: sheep-casings

@@ -1,4 +1,6 @@
 ---
+hero_image: /static/heroes/flaxseeds.webp
+hero_image_alt: "A stone bowl of brown flaxseeds, a small dish of golden flaxseeds, scattered seeds and a dried flax stem with round seed capsules."
 title: Flaxseeds
 type: ingredient
 commodity: flaxseeds

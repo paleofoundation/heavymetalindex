@@ -1,4 +1,6 @@
 ---
+hero_image: /static/heroes/hemp.webp
+hero_image_alt: "Bowls of hulled hemp hearts and whole hemp seeds beside a small glass bottle of green hemp seed oil and hemp leaves."
 title: Hemp
 type: ingredient
 commodity: hemp

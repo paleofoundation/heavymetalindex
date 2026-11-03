@@ -296,7 +296,21 @@
     "/static/heroes/tahini.webp": "631a49fab0ddcd5e9b966091577a174817ca4e7f6e7e23497387c550c2e6fd9c",
     "/static/heroes/tea-infusions.webp": "b2b730352dbc439f2f2fb6c3fd9c87d4aa60a853f102bc7e758efc950a1761e6",
     "/static/heroes/vegetable-juices.webp": "88eb1046c8ded08ffb499369d516f87228656ffc125cd2eff5d416fd1462390d",
-    "/static/heroes/wine.webp": "fc988433c07421f51404e7537c6db61bef40e206dac1bfead08f259de6159813"
+    "/static/heroes/wine.webp": "fc988433c07421f51404e7537c6db61bef40e206dac1bfead08f259de6159813",
+    "/static/heroes/bismuth-crystal-specimen.webp": "f0041461e011bcb55c31e3bb37c860f3a24647f3660857eb245522b9ef224d07",
+    "/static/heroes/boron-borate-minerals-dried-fruit.webp": "65b6fd455f0f64ce6aef66a36aab9186bbc6e56a5765813e677b134e496a9848",
+    "/static/heroes/corn-syrup-kernels-glass-jar.webp": "970fb725a304b2ac7508b5fc94b46c65ac8bc5b993ef40671c59c08b5f85412b",
+    "/static/heroes/germanium-metalloid-electronics.webp": "54138001bfaf70d973353add96d25f4362f09b8a165c150e6cf5fb19afb16e68",
+    "/static/heroes/indium-ingot-glass-panel.webp": "fb54361fc721754f2ef94da67ad9ea7f4861f2db0e65198fd1bf68a6300462a0",
+    "/static/heroes/kombucha-fermented-tea-jars.webp": "26fc32ac3539b9c904d75f808fb769956977402dee197e8cb1a0455f5b0ae52e",
+    "/static/heroes/rare-earth-ores-oxide-powders.webp": "1d4942f8c0fbc77898458ed742f49cd47e4d485f14a92f51a3f06c2e50c13b40",
+    "/static/heroes/rubidium-lepidolite-mineral.webp": "82098721a38390e257ba8ba2a5963226cf03ef6981a26d1f08054b7bad9335b3",
+    "/static/heroes/selenium-brazil-nuts-fish-eggs.webp": "2c958b20aec715f1edc7d81b2ae53eae4dd2407d2d3f883a499619e8c749f85e",
+    "/static/heroes/strontium-celestine-water-soil.webp": "e34c8abc004ab8a578223d8d5dafeb0a89a0b1cba21bc08ecd7ceed1482a1b91",
+    "/static/heroes/tungsten-ore-rods.webp": "e26b31537a4659e114d7197f2afd3b5492c09480a2c0a5067fad2e3dc34328e7",
+    "/static/heroes/water-lentils-duckweed.webp": "b32cf3ce551695ef667f94a5bf1dad67837dbc1c74cf26a6c2632028d7cc0be6",
+    "/static/heroes/yttrium-xenotime-ceramics.webp": "23f4f0f6ec31e142cfebfa3e62c1d7631dec672ce29f47b702d080df1624d718",
+    "/static/heroes/zirconium-zircon-ceramics.webp": "b6dea1d31b8c921bed5e9d9d0cd72600d15645caf1b246608f9b2e5133f477e3"
   },
   "pages": {
     "about": {
@@ -1885,7 +1899,7 @@
     },
     "ingredients/water": {
       "hero_image": "/static/heroes/antimony-water-polyester.webp",
-      "hero_image_alt": ""
+      "hero_image_alt": "A plain transparent water bottle, a clear drinking glass and folded white fabric illustrating drinking water ingredient context."
     },
     "ingredients/watermelon": {
       "hero_image": "/static/heroes/melons-watermelon-cantaloupe-mixed-fruit.webp",
@@ -9419,6 +9433,74 @@
     "ingredients/edible-insects": {
       "hero_image": "/static/heroes/edible-insects.webp",
       "hero_image_alt": "A bowl of roasted crickets, a dish of dried mealworms and a dish of cricket flour on a dark stone surface."
+    },
+    "ingredients/clay-geophagy": {
+      "hero_image": "/static/heroes/mineral-earth-powders-unmarked.webp",
+      "hero_image_alt": "Unmarked dishes of fine mineral earth and clay powders illustrating clay geophagy ingredient context."
+    },
+    "ingredients/high-fructose-corn-syrup": {
+      "hero_image": "/static/heroes/corn-syrup-kernels-glass-jar.webp",
+      "hero_image_alt": "A clear glass jar of thick corn syrup beside a corn cob and loose kernels illustrating high-fructose corn syrup ingredient context."
+    },
+    "ingredients/water-lentils": {
+      "hero_image": "/static/heroes/water-lentils-duckweed.webp",
+      "hero_image_alt": "Small green water lentil fronds floating in a glass dish of water illustrating water lentils ingredient context."
+    },
+    "metals/bismuth": {
+      "hero_image": "/static/heroes/bismuth-crystal-specimen.webp",
+      "hero_image_alt": "An iridescent stepped bismuth crystal, a small gray metal ingot and laboratory glassware illustrating bismuth research context."
+    },
+    "metals/boron": {
+      "hero_image": "/static/heroes/boron-borate-minerals-dried-fruit.webp",
+      "hero_image_alt": "Pale borate mineral specimens, dried apricots, almonds and laboratory glassware illustrating boron research context."
+    },
+    "metals/germanium": {
+      "hero_image": "/static/heroes/germanium-metalloid-electronics.webp",
+      "hero_image_alt": "A gray germanium metalloid fragment in a glass dish beside a polished wafer disk illustrating germanium research context."
+    },
+    "metals/indium": {
+      "hero_image": "/static/heroes/indium-ingot-glass-panel.webp",
+      "hero_image_alt": "A small silvery indium ingot beside a clear glass panel and laboratory glassware illustrating indium research context."
+    },
+    "metals/rare-earths": {
+      "hero_image": "/static/heroes/rare-earth-ores-oxide-powders.webp",
+      "hero_image_alt": "Dark ore specimens and dishes of white, pink and pale green oxide powders illustrating rare earth elements research context."
+    },
+    "metals/rubidium": {
+      "hero_image": "/static/heroes/rubidium-lepidolite-mineral.webp",
+      "hero_image_alt": "Lilac lepidolite mineral specimens, a sealed glass ampoule and a tray of soil illustrating rubidium research context."
+    },
+    "metals/selenium": {
+      "hero_image": "/static/heroes/selenium-brazil-nuts-fish-eggs.webp",
+      "hero_image_alt": "Brazil nuts, a fish fillet, two eggs and grains illustrating selenium dietary research context."
+    },
+    "metals/strontium": {
+      "hero_image": "/static/heroes/strontium-celestine-water-soil.webp",
+      "hero_image_alt": "A pale blue celestine crystal cluster, a glass of water and a tray of soil illustrating strontium research context."
+    },
+    "metals/tungsten": {
+      "hero_image": "/static/heroes/tungsten-ore-rods.webp",
+      "hero_image_alt": "A dark wolframite ore specimen, slender gray metal rods and a small metal cube illustrating tungsten research context."
+    },
+    "metals/yttrium": {
+      "hero_image": "/static/heroes/yttrium-xenotime-ceramics.webp",
+      "hero_image_alt": "Brown xenotime mineral specimens, white ceramic discs and a dish of white powder illustrating yttrium research context."
+    },
+    "metals/zirconium": {
+      "hero_image": "/static/heroes/zirconium-zircon-ceramics.webp",
+      "hero_image_alt": "Amber zircon crystals in a glass dish, pale zircon sand and a white ceramic fragment illustrating zirconium research context."
+    },
+    "products/kombucha-and-fermented-beverages": {
+      "hero_image": "/static/heroes/kombucha-fermented-tea-jars.webp",
+      "hero_image_alt": "An unlabeled jar of amber fermented tea with a culture, a glass of the drink and loose tea leaves illustrating kombucha and fermented beverages product-format context."
+    },
+    "products/plant-based-beverages": {
+      "hero_image": "/static/heroes/almond-plant-beverage.webp",
+      "hero_image_alt": "A glass of pale plant-based beverage with almonds illustrating plant-based beverages product-format context."
+    },
+    "products/ready-to-feed-formula": {
+      "hero_image": "/static/heroes/liquid-formula-closed-unmarked-bottles.webp",
+      "hero_image_alt": "Closed unmarked bottles of liquid infant formula illustrating ready-to-feed formula product-format context."
     }
   }
 }

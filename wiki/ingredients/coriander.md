@@ -1,4 +1,6 @@
 ---
+hero_image: /static/heroes/coriander.webp
+hero_image_alt: "A fresh bunch of coriander (cilantro) leaves beside a stone bowl of round coriander seeds, with seeds scattered in front."
 title: Coriander
 type: ingredient
 commodity: coriander

@@ -1,4 +1,6 @@
 ---
+hero_image: /static/heroes/water-lentils-duckweed.webp
+hero_image_alt: "Small green water lentil fronds floating in a glass dish of water illustrating water lentils ingredient context."
 title: Water lentils
 type: ingredient
 commodity: water-lentils

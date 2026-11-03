@@ -1,4 +1,6 @@
 ---
+hero_image: /static/heroes/boron-borate-minerals-dried-fruit.webp
+hero_image_alt: "Pale borate mineral specimens, dried apricots, almonds and laboratory glassware illustrating boron research context."
 title: Boron
 type: metal
 symbol: B

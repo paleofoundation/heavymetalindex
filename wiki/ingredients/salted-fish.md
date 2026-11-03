@@ -1,4 +1,6 @@
 ---
+hero_image: /static/heroes/salted-fish.webp
+hero_image_alt: "Salt-cured dried fish and a salted fish fillet crusted with coarse salt on a dark wooden board beside a bowl of sea salt."
 title: Salted fish
 type: ingredient
 commodity: salted-fish

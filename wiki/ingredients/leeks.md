@@ -1,4 +1,6 @@
 ---
+hero_image: /static/heroes/leeks.webp
+hero_image_alt: "Three whole leeks with white shafts, roots and dark green leaves beside a few cut leek rounds."
 title: Leeks
 type: ingredient
 commodity: leeks

@@ -1,4 +1,6 @@
 ---
+hero_image: /static/heroes/germanium-metalloid-electronics.webp
+hero_image_alt: "A gray germanium metalloid fragment in a glass dish beside a polished wafer disk illustrating germanium research context."
 title: Germanium
 type: metal
 symbol: Ge

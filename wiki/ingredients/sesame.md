@@ -1,4 +1,6 @@
 ---
+hero_image: /static/heroes/sesame.webp
+hero_image_alt: "Bowls of white and black sesame seeds, a wooden scoop spilling seeds and a dried sesame stem with open seed pods."
 title: Sesame seeds
 type: ingredient
 commodity: sesame

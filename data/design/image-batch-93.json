@@ -1,0 +1,488 @@
+{
+  "order": "HMI-IMAGE-GAPS-2026-11-03",
+  "batch": 93,
+  "label": "Placeholder sweep: ingredient, product and metal heroes",
+  "generationDate": "2026-11-03",
+  "generator": "OpenAI built-in ImageGen via Codex CLI (codex exec) on the Heavy Metal Index Mac",
+  "styleDocument": "docs/IMAGE-STYLE.md",
+  "interpretation": "AI-generated conceptual editorial still lifes, not photographs of tested samples or analytical evidence.",
+  "note": "XMP metadata not embedded (no exiftool on the generating machine); provenance recorded here.",
+  "pageCount": 39,
+  "uniqueNewAssetCount": 14,
+  "restoredAssets": {
+    "note": "Original published assets referenced by page-hero-images.json but absent from the repo; restored byte-identical (sha256 matches registry) from ~/hmi-reconcile-wt/public/static/heroes.",
+    "paths": [
+      "/static/heroes/algae.webp",
+      "/static/heroes/brassica.webp",
+      "/static/heroes/coriander.webp",
+      "/static/heroes/edible-insects.webp",
+      "/static/heroes/flaxseeds.webp",
+      "/static/heroes/food-additives.webp",
+      "/static/heroes/hemp.webp",
+      "/static/heroes/leeks.webp",
+      "/static/heroes/miso.webp",
+      "/static/heroes/oilseeds.webp",
+      "/static/heroes/okra.webp",
+      "/static/heroes/peppers.webp",
+      "/static/heroes/plantains-green-ripe-cut.webp",
+      "/static/heroes/rhodiola-rosea.webp",
+      "/static/heroes/salted-fish.webp",
+      "/static/heroes/sesame.webp",
+      "/static/heroes/sheep-casings.webp",
+      "/static/heroes/tahini.webp",
+      "/static/heroes/vegetable-juices.webp",
+      "/static/heroes/wine.webp"
+    ]
+  },
+  "assets": [
+    {
+      "path": "quartz/static/heroes/bismuth-crystal-specimen.webp",
+      "url": "/static/heroes/bismuth-crystal-specimen.webp",
+      "creditText": "Heavy Metal Index",
+      "digitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+      "original": "exec-2cfc5e0d-ca8a-4930-9172-3a12f607c57e.png",
+      "originalArchive": "~/.codex/generated_images/01a1a16b-9d11-7510-a6e1-bb58b38f8b41/exec-2cfc5e0d-ca8a-4930-9172-3a12f607c57e.png",
+      "originalSha256": "167d56ecdda1f38fa5240f2e780436a9ab8d5596dc5329a0b6997cfb34f32a15",
+      "originalWidth": 2172,
+      "originalHeight": 724,
+      "prompt": "Use case: photorealistic-natural. Decorative Heavy Metal Index website hero, editorial photographic still life. Panoramic 3:1, objects in center-right, dark soft-focus left half for white title copy. Charcoal work surface, restrained natural side light, muted earth colors with burgundy undertones, premium scientific publication style. No people, text, labels, brands, diagrams, warning signs or watermark. Conceptual context only, no visible contamination or analytical results. Scene: A single iridescent stair-stepped bismuth crystal specimen on a dark tray, a small gray metal ingot and unmarked laboratory glassware in soft focus. Materials research context.",
+      "width": 2164,
+      "height": 721,
+      "format": "webp",
+      "quality": 85,
+      "sha256": "f0041461e011bcb55c31e3bb37c860f3a24647f3660857eb245522b9ef224d07",
+      "bytes": 96276
+    },
+    {
+      "path": "quartz/static/heroes/boron-borate-minerals-dried-fruit.webp",
+      "url": "/static/heroes/boron-borate-minerals-dried-fruit.webp",
+      "creditText": "Heavy Metal Index",
+      "digitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+      "original": "exec-c5ac2518-ef82-487b-9eec-7c4f594274cf.png",
+      "originalArchive": "~/.codex/generated_images/01a1a16b-9d11-74b3-94ad-62697f53709d/exec-c5ac2518-ef82-487b-9eec-7c4f594274cf.png",
+      "originalSha256": "2c0a4028d5ff1d2a0d849c85772e5eb035602e69caa61bf744da1cc16a4cc5d9",
+      "originalWidth": 2172,
+      "originalHeight": 724,
+      "prompt": "Use case: photorealistic-natural. Decorative Heavy Metal Index website hero, editorial photographic still life. Panoramic 3:1, objects in center-right, dark soft-focus left half for white title copy. Charcoal work surface, restrained natural side light, muted earth colors with burgundy undertones, premium scientific publication style. No people, text, labels, brands, diagrams, warning signs or watermark. Conceptual context only, no visible contamination or analytical results. Scene: Pale white borate mineral specimens in a shallow sample dish, dried apricots and almonds, clean unmarked glass laboratory vessels.",
+      "width": 2164,
+      "height": 721,
+      "format": "webp",
+      "quality": 85,
+      "sha256": "65b6fd455f0f64ce6aef66a36aab9186bbc6e56a5765813e677b134e496a9848",
+      "bytes": 98936
+    },
+    {
+      "path": "quartz/static/heroes/corn-syrup-kernels-glass-jar.webp",
+      "url": "/static/heroes/corn-syrup-kernels-glass-jar.webp",
+      "creditText": "Heavy Metal Index",
+      "digitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+      "original": "exec-45c9b3e4-d284-42e7-b21f-1b84a86701c6.png",
+      "originalArchive": "~/.codex/generated_images/01a1a169-3302-7d00-9d28-eefe4dc7bc85/exec-45c9b3e4-d284-42e7-b21f-1b84a86701c6.png",
+      "originalSha256": "3ee2df4fd99dd4c311572fed1cf707c0f44a02d34f0de3f65d66f906262cc830",
+      "originalWidth": 2172,
+      "originalHeight": 724,
+      "prompt": "Use case: photorealistic-natural. Decorative Heavy Metal Index website hero, editorial photographic still life. Panoramic 3:1, objects in center-right, dark soft-focus left half for white title copy. Charcoal work surface, restrained natural side light, muted earth colors with burgundy undertones, premium scientific publication style. No people, text, labels, brands, diagrams, warning signs or watermark. Conceptual context only, no visible contamination or analytical results. Scene: A clear unmarked glass jar of thick clear corn syrup with a spoon drip, a ripe corn cob and loose yellow kernels.",
+      "width": 2164,
+      "height": 721,
+      "format": "webp",
+      "quality": 85,
+      "sha256": "970fb725a304b2ac7508b5fc94b46c65ac8bc5b993ef40671c59c08b5f85412b",
+      "bytes": 114068
+    },
+    {
+      "path": "quartz/static/heroes/germanium-metalloid-electronics.webp",
+      "url": "/static/heroes/germanium-metalloid-electronics.webp",
+      "creditText": "Heavy Metal Index",
+      "digitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+      "original": "exec-a425a7f9-3211-490b-a1cc-364f3f9fa8dd.png",
+      "originalArchive": "~/.codex/generated_images/01a1a16b-9d11-7633-9b5c-239e79f0b324/exec-a425a7f9-3211-490b-a1cc-364f3f9fa8dd.png",
+      "originalSha256": "ba30f963a23b81d27f6eb130cd7366a38d6b7a4c12c4411b0e4da68a2b8bc20b",
+      "originalWidth": 2172,
+      "originalHeight": 724,
+      "prompt": "Use case: photorealistic-natural. Decorative Heavy Metal Index website hero, editorial photographic still life. Panoramic 3:1, objects in center-right, dark soft-focus left half for white title copy. Charcoal work surface, restrained natural side light, muted earth colors with burgundy undertones, premium scientific publication style. No people, text, labels, brands, diagrams, warning signs or watermark. Conceptual context only, no visible contamination or analytical results. Scene: A lustrous gray germanium metalloid fragment in a glass sample dish, a plain polished semiconductor wafer disk and unmarked laboratory glassware. Materials research context.",
+      "width": 2164,
+      "height": 721,
+      "format": "webp",
+      "quality": 85,
+      "sha256": "54138001bfaf70d973353add96d25f4362f09b8a165c150e6cf5fb19afb16e68",
+      "bytes": 90744
+    },
+    {
+      "path": "quartz/static/heroes/indium-ingot-glass-panel.webp",
+      "url": "/static/heroes/indium-ingot-glass-panel.webp",
+      "creditText": "Heavy Metal Index",
+      "digitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+      "original": "exec-e1658804-7e2a-4c4a-8d30-11b9e9e2e6ba.png",
+      "originalArchive": "~/.codex/generated_images/01a1a16c-22f3-7e01-9c1b-c10c802cc6cc/exec-e1658804-7e2a-4c4a-8d30-11b9e9e2e6ba.png",
+      "originalSha256": "6c92da16a2feb1d67496e8153a4095f8fa9bd5af596d16f7d49d77439586f5ce",
+      "originalWidth": 2172,
+      "originalHeight": 724,
+      "prompt": "Use case: photorealistic-natural. Decorative Heavy Metal Index website hero, editorial photographic still life. Panoramic 3:1, objects in center-right, dark soft-focus left half for white title copy. Charcoal work surface, restrained natural side light, muted earth colors with burgundy undertones, premium scientific publication style. No people, text, labels, brands, diagrams, warning signs or watermark. Conceptual context only, no visible contamination or analytical results. Scene: A small soft silvery indium ingot, a thin clean sheet of transparent conductive glass and unmarked laboratory glassware. Electronic materials research context.",
+      "width": 2164,
+      "height": 721,
+      "format": "webp",
+      "quality": 85,
+      "sha256": "fb54361fc721754f2ef94da67ad9ea7f4861f2db0e65198fd1bf68a6300462a0",
+      "bytes": 67394
+    },
+    {
+      "path": "quartz/static/heroes/kombucha-fermented-tea-jars.webp",
+      "url": "/static/heroes/kombucha-fermented-tea-jars.webp",
+      "creditText": "Heavy Metal Index",
+      "digitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+      "original": "exec-d7310118-0320-454b-87aa-0814005c4fe3.png",
+      "originalArchive": "~/.codex/generated_images/01a1a168-b511-73c1-a6d3-4a5fadd9f7ec/exec-d7310118-0320-454b-87aa-0814005c4fe3.png",
+      "originalSha256": "c3b704917fbcd78f87b93bacd95efab9b1d9742b8abfe828e686a3a4fc2381b8",
+      "originalWidth": 2172,
+      "originalHeight": 724,
+      "prompt": "Use case: photorealistic-natural. Decorative Heavy Metal Index website hero, editorial photographic still life. Panoramic 3:1, objects in center-right, dark soft-focus left half for white title copy. Charcoal work surface, restrained natural side light, muted earth colors with burgundy undertones, premium scientific publication style. No people, text, labels, brands, diagrams, warning signs or watermark. Conceptual context only, no visible contamination or analytical results. Scene: An unlabeled glass jar of amber fermented tea with a pale scoby culture, a clear glass of the drink and loose tea leaves.",
+      "width": 2164,
+      "height": 721,
+      "format": "webp",
+      "quality": 85,
+      "sha256": "26fc32ac3539b9c904d75f808fb769956977402dee197e8cb1a0455f5b0ae52e",
+      "bytes": 89872
+    },
+    {
+      "path": "quartz/static/heroes/rare-earth-ores-oxide-powders.webp",
+      "url": "/static/heroes/rare-earth-ores-oxide-powders.webp",
+      "creditText": "Heavy Metal Index",
+      "digitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+      "original": "exec-03f0a986-5c77-4319-b379-3b0f992fd529.png",
+      "originalArchive": "~/.codex/generated_images/01a1a16c-32de-74a2-8d93-61ecb4028f50/exec-03f0a986-5c77-4319-b379-3b0f992fd529.png",
+      "originalSha256": "3038afa154fc8471e72f88be13745c7c5005f0210cf8774b1ea91d12f4b1a975",
+      "originalWidth": 2172,
+      "originalHeight": 724,
+      "prompt": "Use case: photorealistic-natural. Decorative Heavy Metal Index website hero, editorial photographic still life. Panoramic 3:1, objects in center-right, dark soft-focus left half for white title copy. Charcoal work surface, restrained natural side light, muted earth colors with burgundy undertones, premium scientific publication style. No people, text, labels, brands, diagrams, warning signs or watermark. Conceptual context only, no visible contamination or analytical results. Scene: Dark and reddish rare-earth ore rock specimens with small shallow dishes of pale oxide powders in white, pink and pale green, unmarked laboratory glassware.",
+      "width": 2164,
+      "height": 721,
+      "format": "webp",
+      "quality": 85,
+      "sha256": "1d4942f8c0fbc77898458ed742f49cd47e4d485f14a92f51a3f06c2e50c13b40",
+      "bytes": 118168
+    },
+    {
+      "path": "quartz/static/heroes/rubidium-lepidolite-mineral.webp",
+      "url": "/static/heroes/rubidium-lepidolite-mineral.webp",
+      "creditText": "Heavy Metal Index",
+      "digitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+      "original": "exec-7619e66f-c96a-4629-9036-a69adadd0e2b.png",
+      "originalArchive": "~/.codex/generated_images/01a1a16c-32de-7192-9377-9ae03951ecf8/exec-7619e66f-c96a-4629-9036-a69adadd0e2b.png",
+      "originalSha256": "de63f3ae372917c49a1c60880eb0bf65e4fa912b56e7b48376fde87bb2c01938",
+      "originalWidth": 2172,
+      "originalHeight": 724,
+      "prompt": "Use case: photorealistic-natural. Decorative Heavy Metal Index website hero, editorial photographic still life. Panoramic 3:1, objects in center-right, dark soft-focus left half for white title copy. Charcoal work surface, restrained natural side light, muted earth colors with burgundy undertones, premium scientific publication style. No people, text, labels, brands, diagrams, warning signs or watermark. Conceptual context only, no visible contamination or analytical results. Scene: Pink-lilac lepidolite mica mineral specimens, a sealed empty glass ampoule, dark soil in a ceramic tray and unmarked laboratory vessels. Geochemistry research context.",
+      "width": 2164,
+      "height": 721,
+      "format": "webp",
+      "quality": 85,
+      "sha256": "82098721a38390e257ba8ba2a5963226cf03ef6981a26d1f08054b7bad9335b3",
+      "bytes": 123160
+    },
+    {
+      "path": "quartz/static/heroes/selenium-brazil-nuts-fish-eggs.webp",
+      "url": "/static/heroes/selenium-brazil-nuts-fish-eggs.webp",
+      "creditText": "Heavy Metal Index",
+      "digitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+      "original": "exec-39ad01aa-e5ee-44ba-9693-ec6e94d36806.png",
+      "originalArchive": "~/.codex/generated_images/01a1a16b-9d05-7be3-87cd-11fc85009e04/exec-39ad01aa-e5ee-44ba-9693-ec6e94d36806.png",
+      "originalSha256": "5f1f546e172f17c90a14fa3147d742b431e3a52abf817830343e4a9dbc9bcd5c",
+      "originalWidth": 2172,
+      "originalHeight": 724,
+      "prompt": "Use case: photorealistic-natural. Decorative Heavy Metal Index website hero, editorial photographic still life. Panoramic 3:1, objects in center-right, dark soft-focus left half for white title copy. Charcoal work surface, restrained natural side light, muted earth colors with burgundy undertones, premium scientific publication style. No people, text, labels, brands, diagrams, warning signs or watermark. Conceptual context only, no visible contamination or analytical results. Scene: Brazil nuts in shells and shelled, a small fish fillet on a dark ceramic dish, two whole eggs and a few grains, dietary trace-element context.",
+      "width": 2164,
+      "height": 721,
+      "format": "webp",
+      "quality": 85,
+      "sha256": "2c958b20aec715f1edc7d81b2ae53eae4dd2407d2d3f883a499619e8c749f85e",
+      "bytes": 143052
+    },
+    {
+      "path": "quartz/static/heroes/strontium-celestine-water-soil.webp",
+      "url": "/static/heroes/strontium-celestine-water-soil.webp",
+      "creditText": "Heavy Metal Index",
+      "digitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+      "original": "exec-ec5b362e-66fd-438e-bd00-54cb6651330c.png",
+      "originalArchive": "~/.codex/generated_images/01a1a16c-3a97-7570-8b77-d87d0997df67/exec-ec5b362e-66fd-438e-bd00-54cb6651330c.png",
+      "originalSha256": "58e3ec69416c5ce0af4e743a99fa0949aab0bbc7401118bb5169507c0b30c8ab",
+      "originalWidth": 2172,
+      "originalHeight": 724,
+      "prompt": "Use case: photorealistic-natural. Decorative Heavy Metal Index website hero, editorial photographic still life. Panoramic 3:1, objects in center-right, dark soft-focus left half for white title copy. Charcoal work surface, restrained natural side light, muted earth colors with burgundy undertones, premium scientific publication style. No people, text, labels, brands, diagrams, warning signs or watermark. Conceptual context only, no visible contamination or analytical results. Scene: Pale blue celestine crystal cluster specimen, a clear glass of water and dark agricultural soil in a ceramic tray. Geochemistry and water context, no blue liquid.",
+      "width": 2164,
+      "height": 721,
+      "format": "webp",
+      "quality": 85,
+      "sha256": "e34c8abc004ab8a578223d8d5dafeb0a89a0b1cba21bc08ecd7ceed1482a1b91",
+      "bytes": 118546
+    },
+    {
+      "path": "quartz/static/heroes/tungsten-ore-rods.webp",
+      "url": "/static/heroes/tungsten-ore-rods.webp",
+      "creditText": "Heavy Metal Index",
+      "digitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+      "original": "exec-56bcb31b-5699-4c4e-9312-7814b63c1b04.png",
+      "originalArchive": "~/.codex/generated_images/01a1a16c-b8bb-7f61-a13c-eff32d1be8a0/exec-56bcb31b-5699-4c4e-9312-7814b63c1b04.png",
+      "originalSha256": "7c9475c3f928f55f6f14ff987ec51b5fe86ea0bed55ff8d901b88c3d0d846cc8",
+      "originalWidth": 2172,
+      "originalHeight": 724,
+      "prompt": "Use case: photorealistic-natural. Decorative Heavy Metal Index website hero, editorial photographic still life. Panoramic 3:1, objects in center-right, dark soft-focus left half for white title copy. Charcoal work surface, restrained natural side light, muted earth colors with burgundy undertones, premium scientific publication style. No people, text, labels, brands, diagrams, warning signs or watermark. Conceptual context only, no visible contamination or analytical results. Scene: A dark wolframite ore specimen, a few slender gray tungsten metal rods and a small dense metal cube on a dark tray, unmarked laboratory glassware. Industrial materials context.",
+      "width": 2164,
+      "height": 721,
+      "format": "webp",
+      "quality": 85,
+      "sha256": "e26b31537a4659e114d7197f2afd3b5492c09480a2c0a5067fad2e3dc34328e7",
+      "bytes": 104886
+    },
+    {
+      "path": "quartz/static/heroes/water-lentils-duckweed.webp",
+      "url": "/static/heroes/water-lentils-duckweed.webp",
+      "creditText": "Heavy Metal Index",
+      "digitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+      "original": "exec-327e4409-e2c1-4e73-a62d-7dea836f298e.png",
+      "originalArchive": "~/.codex/generated_images/01a1a16a-6645-7741-a406-8b8026d54304/exec-327e4409-e2c1-4e73-a62d-7dea836f298e.png",
+      "originalSha256": "7d1608d5cea4628d72b287463cf2355c3782393ed386777421a1e19a1c5d2b6a",
+      "originalWidth": 2172,
+      "originalHeight": 724,
+      "prompt": "Use case: photorealistic-natural. Decorative Heavy Metal Index website hero, editorial photographic still life. Panoramic 3:1, objects in center-right, dark soft-focus left half for white title copy. Charcoal work surface, restrained natural side light, muted earth colors with burgundy undertones, premium scientific publication style. No people, text, labels, brands, diagrams, warning signs or watermark. Conceptual context only, no visible contamination or analytical results. Scene: Tiny bright green water lentil (duckweed) fronds floating in a shallow glass dish of water, a small bowl of green duckweed powder.",
+      "width": 2164,
+      "height": 721,
+      "format": "webp",
+      "quality": 85,
+      "sha256": "b32cf3ce551695ef667f94a5bf1dad67837dbc1c74cf26a6c2632028d7cc0be6",
+      "bytes": 106636
+    },
+    {
+      "path": "quartz/static/heroes/yttrium-xenotime-ceramics.webp",
+      "url": "/static/heroes/yttrium-xenotime-ceramics.webp",
+      "creditText": "Heavy Metal Index",
+      "digitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+      "original": "exec-de36bfb1-9bfd-490b-abcc-c68bf8f531fb.png",
+      "originalArchive": "~/.codex/generated_images/01a1a16c-c888-7b90-b55c-75f9b058096a/exec-de36bfb1-9bfd-490b-abcc-c68bf8f531fb.png",
+      "originalSha256": "a3cd9d7912a5d6c33f94c7b9f96c79c6aa33169b41a20de7d0f5221729ea6f92",
+      "originalWidth": 2172,
+      "originalHeight": 724,
+      "prompt": "Use case: photorealistic-natural. Decorative Heavy Metal Index website hero, editorial photographic still life. Panoramic 3:1, objects in center-right, dark soft-focus left half for white title copy. Charcoal work surface, restrained natural side light, muted earth colors with burgundy undertones, premium scientific publication style. No people, text, labels, brands, diagrams, warning signs or watermark. Conceptual context only, no visible contamination or analytical results. Scene: Brown xenotime mineral specimens, small white ceramic discs and a shallow dish of white oxide powder, unmarked laboratory glassware. Materials research context.",
+      "width": 2164,
+      "height": 721,
+      "format": "webp",
+      "quality": 85,
+      "sha256": "23f4f0f6ec31e142cfebfa3e62c1d7631dec672ce29f47b702d080df1624d718",
+      "bytes": 92936
+    },
+    {
+      "path": "quartz/static/heroes/zirconium-zircon-ceramics.webp",
+      "url": "/static/heroes/zirconium-zircon-ceramics.webp",
+      "creditText": "Heavy Metal Index",
+      "digitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+      "original": "exec-914879ee-7117-4412-97d0-8951ed770814.png",
+      "originalArchive": "~/.codex/generated_images/01a1a16c-d057-74c3-97c3-b0afd717ce78/exec-914879ee-7117-4412-97d0-8951ed770814.png",
+      "originalSha256": "83d62f57544cbf6c51491232bea14b4768aacb5b4d03aa47330c2d9f3a318b75",
+      "originalWidth": 2172,
+      "originalHeight": 724,
+      "prompt": "Use case: photorealistic-natural. Decorative Heavy Metal Index website hero, editorial photographic still life. Panoramic 3:1, objects in center-right, dark soft-focus left half for white title copy. Charcoal work surface, restrained natural side light, muted earth colors with burgundy undertones, premium scientific publication style. No people, text, labels, brands, diagrams, warning signs or watermark. Conceptual context only, no visible contamination or analytical results. Scene: Small amber-brown zircon crystals in a glass sample dish, a white zirconia ceramic plate fragment and pale zircon sand in a ceramic tray, unmarked laboratory glassware.",
+      "width": 2164,
+      "height": 721,
+      "format": "webp",
+      "quality": 85,
+      "sha256": "b6dea1d31b8c921bed5e9d9d0cd72600d15645caf1b246608f9b2e5133f477e3",
+      "bytes": 98566
+    }
+  ],
+  "pages": [
+    {
+      "page": "ingredients/algae",
+      "hero_image": "/static/heroes/algae.webp",
+      "hero_image_alt": "A bowl of dried kelp seaweed, a dish of dark green spirulina powder and a stack of dried nori sheets."
+    },
+    {
+      "page": "ingredients/brassica",
+      "hero_image": "/static/heroes/brassica.webp",
+      "hero_image_alt": "A head of broccoli, a small cauliflower, a wedge of green cabbage and Brussels sprouts on a dark stone surface."
+    },
+    {
+      "page": "ingredients/cassava",
+      "hero_image": "/static/heroes/cassava-roots-flour.webp",
+      "hero_image_alt": "Whole and cut cassava roots beside a dish of cassava flour illustrating cassava ingredient context."
+    },
+    {
+      "page": "ingredients/clay-geophagy",
+      "hero_image": "/static/heroes/mineral-earth-powders-unmarked.webp",
+      "hero_image_alt": "Unmarked dishes of fine mineral earth and clay powders illustrating clay geophagy ingredient context."
+    },
+    {
+      "page": "ingredients/coriander",
+      "hero_image": "/static/heroes/coriander.webp",
+      "hero_image_alt": "A fresh bunch of coriander (cilantro) leaves beside a stone bowl of round coriander seeds, with seeds scattered in front."
+    },
+    {
+      "page": "ingredients/edible-insects",
+      "hero_image": "/static/heroes/edible-insects.webp",
+      "hero_image_alt": "A bowl of roasted crickets, a dish of dried mealworms and a dish of cricket flour on a dark stone surface."
+    },
+    {
+      "page": "ingredients/flaxseeds",
+      "hero_image": "/static/heroes/flaxseeds.webp",
+      "hero_image_alt": "A stone bowl of brown flaxseeds, a small dish of golden flaxseeds, scattered seeds and a dried flax stem with round seed capsules."
+    },
+    {
+      "page": "ingredients/food-additives",
+      "hero_image": "/static/heroes/food-additives.webp",
+      "hero_image_alt": "Small glass bowls of white crystals, white powder, red and yellow colouring powders and a clear liquid, with metal measuring spoons."
+    },
+    {
+      "page": "ingredients/hemp",
+      "hero_image": "/static/heroes/hemp.webp",
+      "hero_image_alt": "Bowls of hulled hemp hearts and whole hemp seeds beside a small glass bottle of green hemp seed oil and hemp leaves."
+    },
+    {
+      "page": "ingredients/high-fructose-corn-syrup",
+      "hero_image": "/static/heroes/corn-syrup-kernels-glass-jar.webp",
+      "hero_image_alt": "A clear glass jar of thick corn syrup beside a corn cob and loose kernels illustrating high-fructose corn syrup ingredient context."
+    },
+    {
+      "page": "ingredients/leeks",
+      "hero_image": "/static/heroes/leeks.webp",
+      "hero_image_alt": "Three whole leeks with white shafts, roots and dark green leaves beside a few cut leek rounds."
+    },
+    {
+      "page": "ingredients/oilseeds",
+      "hero_image": "/static/heroes/oilseeds.webp",
+      "hero_image_alt": "Small stone bowls of pumpkin, black, sesame and sunflower seeds beside a glass cruet of golden oil."
+    },
+    {
+      "page": "ingredients/okra",
+      "hero_image": "/static/heroes/okra.webp",
+      "hero_image_alt": "A pile of fresh green okra pods with a few cut pieces showing the star-shaped cross-section and white seeds."
+    },
+    {
+      "page": "ingredients/peppers",
+      "hero_image": "/static/heroes/peppers.webp",
+      "hero_image_alt": "Red, yellow and green bell peppers, one red pepper halved to show its seeds, with small red chili peppers on a burgundy cloth."
+    },
+    {
+      "page": "ingredients/plantain",
+      "hero_image": "/static/heroes/plantains-green-ripe-cut.webp",
+      "hero_image_alt": "Green and ripe plantains beside a plate of peeled plantain slices illustrating plantain ingredient context."
+    },
+    {
+      "page": "ingredients/rhodiola-rosea",
+      "hero_image": "/static/heroes/rhodiola-rosea.webp",
+      "hero_image_alt": "A whole Rhodiola rosea root with a pinkish cut face, a bowl of dried chopped root and a sprig with succulent leaves and yellow flowers."
+    },
+    {
+      "page": "ingredients/salted-fish",
+      "hero_image": "/static/heroes/salted-fish.webp",
+      "hero_image_alt": "Salt-cured dried fish and a salted fish fillet crusted with coarse salt on a dark wooden board beside a bowl of sea salt."
+    },
+    {
+      "page": "ingredients/sesame",
+      "hero_image": "/static/heroes/sesame.webp",
+      "hero_image_alt": "Bowls of white and black sesame seeds, a wooden scoop spilling seeds and a dried sesame stem with open seed pods."
+    },
+    {
+      "page": "ingredients/sheep-casings",
+      "hero_image": "/static/heroes/sheep-casings.webp",
+      "hero_image_alt": "Translucent natural sheep casings coiled in a bowl of salted water, one length draped out, beside thin sausages."
+    },
+    {
+      "page": "ingredients/tahini",
+      "hero_image": "/static/heroes/tahini.webp",
+      "hero_image_alt": "A dark bowl of smooth beige tahini with a spoon beside a small pile of hulled sesame seeds."
+    },
+    {
+      "page": "ingredients/water-lentils",
+      "hero_image": "/static/heroes/water-lentils-duckweed.webp",
+      "hero_image_alt": "Small green water lentil fronds floating in a glass dish of water illustrating water lentils ingredient context."
+    },
+    {
+      "page": "ingredients/water",
+      "hero_image": "/static/heroes/antimony-water-polyester.webp",
+      "hero_image_alt": "A plain transparent water bottle, a clear drinking glass and folded white fabric illustrating drinking water ingredient context."
+    },
+    {
+      "page": "ingredients/wine",
+      "hero_image": "/static/heroes/wine.webp",
+      "hero_image_alt": "A glass of white wine and a glass of red wine beside an unlabeled dark wine bottle and a bunch of red grapes."
+    },
+    {
+      "page": "metals/bismuth",
+      "hero_image": "/static/heroes/bismuth-crystal-specimen.webp",
+      "hero_image_alt": "An iridescent stepped bismuth crystal, a small gray metal ingot and laboratory glassware illustrating bismuth research context."
+    },
+    {
+      "page": "metals/boron",
+      "hero_image": "/static/heroes/boron-borate-minerals-dried-fruit.webp",
+      "hero_image_alt": "Pale borate mineral specimens, dried apricots, almonds and laboratory glassware illustrating boron research context."
+    },
+    {
+      "page": "metals/germanium",
+      "hero_image": "/static/heroes/germanium-metalloid-electronics.webp",
+      "hero_image_alt": "A gray germanium metalloid fragment in a glass dish beside a polished wafer disk illustrating germanium research context."
+    },
+    {
+      "page": "metals/indium",
+      "hero_image": "/static/heroes/indium-ingot-glass-panel.webp",
+      "hero_image_alt": "A small silvery indium ingot beside a clear glass panel and laboratory glassware illustrating indium research context."
+    },
+    {
+      "page": "metals/rare-earths",
+      "hero_image": "/static/heroes/rare-earth-ores-oxide-powders.webp",
+      "hero_image_alt": "Dark ore specimens and dishes of white, pink and pale green oxide powders illustrating rare earth elements research context."
+    },
+    {
+      "page": "metals/rubidium",
+      "hero_image": "/static/heroes/rubidium-lepidolite-mineral.webp",
+      "hero_image_alt": "Lilac lepidolite mineral specimens, a sealed glass ampoule and a tray of soil illustrating rubidium research context."
+    },
+    {
+      "page": "metals/selenium",
+      "hero_image": "/static/heroes/selenium-brazil-nuts-fish-eggs.webp",
+      "hero_image_alt": "Brazil nuts, a fish fillet, two eggs and grains illustrating selenium dietary research context."
+    },
+    {
+      "page": "metals/strontium",
+      "hero_image": "/static/heroes/strontium-celestine-water-soil.webp",
+      "hero_image_alt": "A pale blue celestine crystal cluster, a glass of water and a tray of soil illustrating strontium research context."
+    },
+    {
+      "page": "metals/tungsten",
+      "hero_image": "/static/heroes/tungsten-ore-rods.webp",
+      "hero_image_alt": "A dark wolframite ore specimen, slender gray metal rods and a small metal cube illustrating tungsten research context."
+    },
+    {
+      "page": "metals/yttrium",
+      "hero_image": "/static/heroes/yttrium-xenotime-ceramics.webp",
+      "hero_image_alt": "Brown xenotime mineral specimens, white ceramic discs and a dish of white powder illustrating yttrium research context."
+    },
+    {
+      "page": "metals/zirconium",
+      "hero_image": "/static/heroes/zirconium-zircon-ceramics.webp",
+      "hero_image_alt": "Amber zircon crystals in a glass dish, pale zircon sand and a white ceramic fragment illustrating zirconium research context."
+    },
+    {
+      "page": "products/kombucha-and-fermented-beverages",
+      "hero_image": "/static/heroes/kombucha-fermented-tea-jars.webp",
+      "hero_image_alt": "An unlabeled jar of amber fermented tea with a culture, a glass of the drink and loose tea leaves illustrating kombucha and fermented beverages product-format context."
+    },
+    {
+      "page": "products/miso",
+      "hero_image": "/static/heroes/miso.webp",
+      "hero_image_alt": "A wooden tub of light brown miso and a ceramic dish of dark red miso with a wooden spatula and a few soybeans."
+    },
+    {
+      "page": "products/plant-based-beverages",
+      "hero_image": "/static/heroes/almond-plant-beverage.webp",
+      "hero_image_alt": "A glass of pale plant-based beverage with almonds illustrating plant-based beverages product-format context."
+    },
+    {
+      "page": "products/ready-to-feed-formula",
+      "hero_image": "/static/heroes/liquid-formula-closed-unmarked-bottles.webp",
+      "hero_image_alt": "Closed unmarked bottles of liquid infant formula illustrating ready-to-feed formula product-format context."
+    },
+    {
+      "page": "products/vegetable-juices",
+      "hero_image": "/static/heroes/vegetable-juices.webp",
+      "hero_image_alt": "Three glasses of beetroot, carrot and green vegetable juice beside a whole beetroot, a carrot and celery stalks."
+    }
+  ]
+}

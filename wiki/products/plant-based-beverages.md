@@ -1,4 +1,6 @@
 ---
+hero_image: /static/heroes/almond-plant-beverage.webp
+hero_image_alt: "A glass of pale plant-based beverage with almonds illustrating plant-based beverages product-format context."
 hmtc_subcategory_name: "Plant milks, non-soy non-rice"
 hmtc_category_name: "Beverages"
 type: product-category
