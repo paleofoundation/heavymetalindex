@@ -1,0 +1,43 @@
+{
+ "source_id": "he2026-broiler-boron-hepatic-ferroptosis",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-BORON-1/10.3390_ani16050832.pdf",
+ "primary_sha256": "778bdf3e47c0316ca5cdaef442917e4e6051dbb6f5630a2d71fc58d23bb24dcf",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "context",
+ "disposition_reason": "Animal toxicology with dietary dose levels; tissue boron reported only in a figure.",
+ "disposition_locator": "Methods Section 2; Results 3.1, Figure 1",
+ "study": {
+  "design": "controlled animal feeding and cell experiments",
+  "origin": "Guangzhou, China",
+  "market": null,
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "not stated"
+  },
+  "method": "ICP-OES for liver boron",
+  "lod": [],
+  "basis": "unknown",
+  "qa": "not described",
+  "site_context": "laboratory"
+ },
+ "findings": [],
+ "unresolved": [
+  "Liver and serum boron concentrations only in Figure 1."
+ ],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [
+  "Dietary dose levels 120 and 240 mg/kg boron produced liver injury in broilers within 7 to 14 days (Methods; Results 3.1)."
+ ],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/he2026-broiler-boron-hepatic-ferroptosis.md",
+ "non_numeric_findings": [
+  "Boron downregulated SLC7A11 and GPX4 and upregulated ACSL4, TF and TFR in liver."
+ ]
+}

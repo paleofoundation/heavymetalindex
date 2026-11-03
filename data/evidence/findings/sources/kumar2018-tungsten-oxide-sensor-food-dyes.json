@@ -1,0 +1,37 @@
+{
+ "source_id": "kumar2018-tungsten-oxide-sensor-food-dyes",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-TUNGSTEN-1/10.1038_s41598-018-21605-5.pdf",
+ "primary_sha256": "20a009cb46e111d5eb54b6ca3e68e971885e1ad9980bde03057a6efaed5451bd",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "out_of_scope",
+ "disposition_reason": "Sensor materials development; tungsten is an electrode material, not measured as a contaminant.",
+ "disposition_locator": "whole paper",
+ "study": {
+  "design": "materials and sensor development",
+  "origin": "not applicable",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "not stated"
+  },
+  "method": "electrochemical methods",
+  "lod": [],
+  "basis": "unknown",
+  "qa": "not applicable",
+  "site_context": "laboratory"
+ },
+ "findings": [],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/kumar2018-tungsten-oxide-sensor-food-dyes.md",
+ "non_numeric_findings": []
+}

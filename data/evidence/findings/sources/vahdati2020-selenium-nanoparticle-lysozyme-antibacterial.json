@@ -1,0 +1,40 @@
+{
+ "source_id": "vahdati2020-selenium-nanoparticle-lysozyme-antibacterial",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-SELENIUM-1/10.1038_s41598-019-57333-7.pdf",
+ "primary_sha256": "f0d95653d63bc9873eb093559c487a359b5284edb1724acacce6db538d359cde",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "out_of_scope",
+ "disposition_reason": "Nanomaterial synthesis and antibacterial assay; no food, water, biological-tissue or intake measurement of selenium.",
+ "disposition_locator": "Abstract; Results",
+ "study": {
+  "design": "laboratory synthesis and antibacterial assay of selenium nanoparticles combined with lysozyme",
+  "origin": "Iran",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "not stated"
+  },
+  "method": "wet chemical synthesis; SEM, DLS, zeta potential; bacterial growth assays against Escherichia coli and Staphylococcus aureus",
+  "lod": [],
+  "basis": "unknown",
+  "qa": "not applicable",
+  "site_context": "laboratory"
+ },
+ "findings": [],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/vahdati2020-selenium-nanoparticle-lysozyme-antibacterial.md",
+ "non_numeric_findings": [
+  "Selenium nanoparticle MIC against S. aureus 82 ug/mL; lysozyme MIC 10 mg/mL (Results, Fig. 4).",
+  "Self-funded; university facilities (Acknowledgements)."
+ ]
+}

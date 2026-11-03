@@ -1,0 +1,37 @@
+{
+ "source_id": "wang2023-zirconium-mof-oxytetracycline-milk-sensor",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-ZIRCONIUM-1/10.3390_foods12112255.pdf",
+ "primary_sha256": "a2e47c10bfb3ae34b6ce80435135b986be904bca6aec47515c13c701919ebe76",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "out_of_scope",
+ "disposition_reason": "Materials paper using zirconium as a sensing material for an antibiotic residue; no zirconium occurrence, exposure or toxicity data.",
+ "disposition_locator": "Abstract",
+ "study": {
+  "design": "laboratory materials or sensor study",
+  "origin": "not stated",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "not stated"
+  },
+  "method": "material synthesis and characterization",
+  "lod": [],
+  "basis": "unknown",
+  "qa": "not applicable",
+  "site_context": "laboratory"
+ },
+ "findings": [],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/wang2023-zirconium-mof-oxytetracycline-milk-sensor.md",
+ "non_numeric_findings": []
+}

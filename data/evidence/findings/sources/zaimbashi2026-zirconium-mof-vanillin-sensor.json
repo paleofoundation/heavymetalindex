@@ -1,0 +1,37 @@
+{
+ "source_id": "zaimbashi2026-zirconium-mof-vanillin-sensor",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-ZIRCONIUM-1/10.1038_s41598-026-54992-1.pdf",
+ "primary_sha256": "932b176d6c4d6b7f2f8b1ac6deb01d91b39e80b810643a4c78d30b403abe4e6b",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "out_of_scope",
+ "disposition_reason": "Materials paper using zirconium as an electrode-modifying material for sensing other compounds; no zirconium occurrence, exposure or toxicity data.",
+ "disposition_locator": "Abstract",
+ "study": {
+  "design": "laboratory materials or sensor study",
+  "origin": "not stated",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "not stated"
+  },
+  "method": "material synthesis and characterization",
+  "lod": [],
+  "basis": "unknown",
+  "qa": "not applicable",
+  "site_context": "laboratory"
+ },
+ "findings": [],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/zaimbashi2026-zirconium-mof-vanillin-sensor.md",
+ "non_numeric_findings": []
+}

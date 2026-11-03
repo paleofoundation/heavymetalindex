@@ -1,0 +1,39 @@
+{
+ "source_id": "chen2024-lanthanum-amino-acid-chelate-rice-copper",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-RARE-EARTHS-1/lanthanum/10.1038_s41598-024-73771-4.pdf",
+ "primary_sha256": "76ab3e3f09de5df7c5a5eb338298543f2a94ea3bf4f91790389cdebb48fde8f2",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "no_numeric_results",
+ "disposition_reason": "Agrochemical development study; no lanthanum concentrations in food matrices.",
+ "disposition_locator": "Abstract",
+ "study": {
+  "design": "chemical synthesis and hydroponic seedling test",
+  "origin": "Suzhou, China",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "not stated"
+  },
+  "method": "spectroscopy, microscopy, seedling physiology",
+  "lod": [],
+  "basis": "unknown",
+  "qa": "not reported",
+  "site_context": "experimental"
+ },
+ "findings": [],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/chen2024-lanthanum-amino-acid-chelate-rice-copper.md",
+ "non_numeric_findings": [
+  "Lanthanum amino acid chelate lowered copper in rice seedling tissues."
+ ]
+}

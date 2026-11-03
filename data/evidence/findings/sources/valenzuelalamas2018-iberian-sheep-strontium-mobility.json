@@ -1,0 +1,39 @@
+{
+ "source_id": "valenzuelalamas2018-iberian-sheep-strontium-mobility",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-STRONTIUM-1/10.1371_journal.pone.0205283.pdf",
+ "primary_sha256": "a8ad7bd7f6884824f2b1aeddb3142ed52f272f57134b90d01ac98d0871df22ee",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "context",
+ "disposition_reason": "Isotope-ratio provenance study of archaeological livestock; no exposure-relevant concentrations.",
+ "disposition_locator": "Abstract; Results",
+ "study": {
+  "design": "archaeological isotope provenance study",
+  "origin": "Catalonia, Spain",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "7th to 3rd centuries BC"
+  },
+  "method": "strontium isotope ratio mass spectrometry",
+  "lod": [],
+  "basis": "unknown",
+  "qa": "NBS 987 standard",
+  "site_context": "archaeological"
+ },
+ "findings": [],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/valenzuelalamas2018-iberian-sheep-strontium-mobility.md",
+ "non_numeric_findings": [
+  "Sheep and goats consumed at the site were most likely reared within a few kilometers (Abstract)."
+ ]
+}

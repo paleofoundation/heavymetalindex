@@ -1,0 +1,41 @@
+{
+ "source_id": "yang2017-titanium-zirconium-water-mpt-mass-spectrometry",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-ZIRCONIUM-1/10.3390_ijerph14101129.pdf",
+ "primary_sha256": "f067237fb9d22616919f85fa0720179682e795b291ec6ff25a212b51dc7c173c",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "context",
+ "disposition_reason": "Analytical method paper; zirconium detection limit and linear range in standard solutions; no occurrence data.",
+ "disposition_locator": "Table 1 and Table 2 (p. 7); Conclusions",
+ "study": {
+  "design": "analytical method development",
+  "origin": "China",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "not stated"
+  },
+  "method": "microwave plasma torch ion source with LTQ ion trap MS, negative mode, MS2",
+  "lod": [
+   "Zr LOD 20 µg/L by MS2 (Table 1)"
+  ],
+  "basis": "unknown",
+  "qa": "not applicable",
+  "site_context": "laboratory"
+ },
+ "findings": [],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/yang2017-titanium-zirconium-water-mpt-mass-spectrometry.md",
+ "non_numeric_findings": [
+  "Zirconium LOD 20 µg/L, linear range 20 to 100 µg/L in water standards (Table 1, p. 7)."
+ ]
+}

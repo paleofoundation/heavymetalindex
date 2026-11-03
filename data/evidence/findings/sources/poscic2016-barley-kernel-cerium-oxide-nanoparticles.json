@@ -1,0 +1,128 @@
+{
+ "source_id": "poscic2016-barley-kernel-cerium-oxide-nanoparticles",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-RARE-EARTHS-1/cerium/10.3390_ijerph13060577.pdf",
+ "primary_sha256": "f2c73940967c91bbd16c9ad390f3c5b27b5edf986e61ce6a81d65aaca1ea587e",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "occurrence_extracted",
+ "disposition_reason": "Mean kernel cerium (mg/kg dry weight) for control and two cerium oxide nanoparticle soil treatments.",
+ "disposition_locator": "Table 5, p. 6",
+ "study": {
+  "design": "pot experiment to maturity",
+  "origin": "Udine, Italy (experimental soil)",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "not stated"
+  },
+  "method": "ICP-MS (Bruker Aurora M90) for cerium after HCl/HNO3 microwave digestion",
+  "lod": [
+   "Ce 1 µg/L in solution (ICP-MS), p. 4"
+  ],
+  "basis": "dry_weight",
+  "qa": "NIST 1573a tomato leaves, mean recovery 97%, RSD 1.3%; reagent blanks; triplicate readings",
+  "site_context": "experimental"
+ },
+ "findings": [
+  {
+   "id": "poscic2016-barley-kernel-cerium-oxide-nanoparticles:Ce:barley-kernels-control-soil:mean",
+   "material": {
+    "label_as_printed": "Barley kernels, control soil",
+    "page": "ingredients/cereals",
+    "form": "whole grain flour",
+    "state": "raw",
+    "route_rule": "override:HMI-METAL-INGEST-1"
+   },
+   "analyte": "Ce",
+   "group": "control (no nanoparticles)",
+   "group_kind": "treatment",
+   "n": 5,
+   "statistic": "mean",
+   "reported": "0.50 ± 0.20 mg/kg dw",
+   "value_ugkg": 500,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg dw",
+   "basis": "dry_weight",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 5, p. 6",
+   "integrity_flag": null,
+   "notes": "Mean plus or minus SE.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "poscic2016-barley-kernel-cerium-oxide-nanoparticles:Ce:barley-kernels-soil-with-500-mg-kg-cerium-oxide-nanoparticle:mean",
+   "material": {
+    "label_as_printed": "Barley kernels, soil with 500 mg/kg cerium oxide nanoparticles",
+    "page": "ingredients/cereals",
+    "form": "whole grain flour",
+    "state": "raw",
+    "route_rule": "override:HMI-METAL-INGEST-1"
+   },
+   "analyte": "Ce",
+   "group": "500 mg/kg cerium oxide nanoparticles in soil",
+   "group_kind": "treatment",
+   "n": 5,
+   "statistic": "mean",
+   "reported": "1.03 ± 0.84 mg/kg dw",
+   "value_ugkg": 1030,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg dw",
+   "basis": "dry_weight",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 5, p. 6",
+   "integrity_flag": null,
+   "notes": "Not significantly different from control.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "poscic2016-barley-kernel-cerium-oxide-nanoparticles:Ce:barley-kernels-soil-with-1000-mg-kg-cerium-oxide-nanoparticl:mean",
+   "material": {
+    "label_as_printed": "Barley kernels, soil with 1000 mg/kg cerium oxide nanoparticles",
+    "page": "ingredients/cereals",
+    "form": "whole grain flour",
+    "state": "raw",
+    "route_rule": "override:HMI-METAL-INGEST-1"
+   },
+   "analyte": "Ce",
+   "group": "1000 mg/kg cerium oxide nanoparticles in soil",
+   "group_kind": "treatment",
+   "n": 5,
+   "statistic": "mean",
+   "reported": "0.70 ± 0.37 mg/kg dw",
+   "value_ugkg": 700,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg dw",
+   "basis": "dry_weight",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 5, p. 6",
+   "integrity_flag": null,
+   "notes": "Not significantly different from control.",
+   "statistic_raw": "mean"
+  }
+ ],
+ "unresolved": [
+  "Titanium rows and nutrient tables not recorded."
+ ],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/poscic2016-barley-kernel-cerium-oxide-nanoparticles.md",
+ "non_numeric_findings": [
+  "Cerium oxide nanoparticles reduced kernel potassium and sulfur and altered amino acid profile."
+ ]
+}

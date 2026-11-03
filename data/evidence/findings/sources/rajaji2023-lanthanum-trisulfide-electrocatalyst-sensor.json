@@ -1,0 +1,39 @@
+{
+ "source_id": "rajaji2023-lanthanum-trisulfide-electrocatalyst-sensor",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-RARE-EARTHS-1/lanthanum/10.1016_j.ultsonch.2022.106251.pdf",
+ "primary_sha256": "0302aecccd668ad28fc1166c4b0283a89d32bacbedbe28a3e4a9ee1709dffa54",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "out_of_scope",
+ "disposition_reason": "Electrochemical sensor development; lanthanum not an analyte.",
+ "disposition_locator": "Abstract",
+ "study": {
+  "design": "electrochemical sensor development",
+  "origin": "New Taipei City, Taiwan",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "not stated"
+  },
+  "method": "voltammetry",
+  "lod": [],
+  "basis": "unknown",
+  "qa": "not applicable",
+  "site_context": "laboratory"
+ },
+ "findings": [],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/rajaji2023-lanthanum-trisulfide-electrocatalyst-sensor.md",
+ "non_numeric_findings": [
+  "Strontium-doped lanthanum sulfide electrode detected mesotrione."
+ ]
+}

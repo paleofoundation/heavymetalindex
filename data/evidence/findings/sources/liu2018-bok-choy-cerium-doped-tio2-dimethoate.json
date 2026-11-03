@@ -1,0 +1,39 @@
+{
+ "source_id": "liu2018-bok-choy-cerium-doped-tio2-dimethoate",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-RARE-EARTHS-1/cerium/10.1371_journal.pone.0197560.pdf",
+ "primary_sha256": "03c0b5beb15ddcbd5f267a58351a569e9a625ce303c363df6e70840bdd902560",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "no_numeric_results",
+ "disposition_reason": "Pesticide degradation study; no cerium concentration data.",
+ "disposition_locator": "Abstract; Materials p. 3",
+ "study": {
+  "design": "field trial of photocatalytic pesticide degradation",
+  "origin": "Hunan, China",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "not stated"
+  },
+  "method": "UPLC-MS for pesticide residues",
+  "lod": [],
+  "basis": "unknown",
+  "qa": "not reported",
+  "site_context": "experimental"
+ },
+ "findings": [],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/liu2018-bok-choy-cerium-doped-tio2-dimethoate.md",
+ "non_numeric_findings": [
+  "Cerium-doped titanium dioxide accelerated dimethoate degradation on bok choy."
+ ]
+}

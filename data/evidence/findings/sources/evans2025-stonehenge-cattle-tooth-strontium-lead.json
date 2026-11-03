@@ -1,0 +1,68 @@
+{
+ "source_id": "evans2025-stonehenge-cattle-tooth-strontium-lead",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-STRONTIUM-1/10.1016_j.jas.2025.106269.pdf",
+ "primary_sha256": "568219ebb5829f6fa4a7efe713066dfc21e204168903c43b1e5ce354975c4e5f",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "context",
+ "disposition_reason": "Single archaeological tooth multi-isotope study; enamel concentrations in an animal, not food or human matrices.",
+ "disposition_locator": "Abstract; pp. 4 to 6",
+ "study": {
+  "design": "sequential multi-isotope case study",
+  "origin": "Stonehenge, England",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "Neolithic"
+  },
+  "method": "isotope ratio mass spectrometry and ICP-MS element concentrations",
+  "lod": [],
+  "basis": "unknown",
+  "qa": "NBS 987 and laboratory standards",
+  "site_context": "archaeological"
+ },
+ "findings": [
+  {
+   "id": "evans2025-stonehenge-cattle-tooth-strontium-lead:Sr:cattle-enamel-high-concentration-slices:range",
+   "material": {
+    "label_as_printed": "Bos taurus M3 enamel slices",
+    "page": "metals/strontium",
+    "form": "enamel",
+    "state": "archaeological",
+    "route_rule": "override:HMI-METAL-INGEST-1"
+   },
+   "analyte": "Sr",
+   "group": "single tooth",
+   "group_kind": "sample",
+   "n": 1,
+   "statistic": "range",
+   "reported": "159 to 203 ppm",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "ppm",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "p. 6",
+   "integrity_flag": null,
+   "notes": "Animal enamel; value_ugkg left null (not a food matrix).",
+   "statistic_raw": "range"
+  }
+ ],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/evans2025-stonehenge-cattle-tooth-strontium-lead.md",
+ "non_numeric_findings": [
+  "Strontium in enamel is interpreted as wholly diet-derived, lead as a balance of diet and skeletal stores (Abstract)."
+ ]
+}

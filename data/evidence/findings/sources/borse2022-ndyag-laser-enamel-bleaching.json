@@ -1,0 +1,37 @@
+{
+ "source_id": "borse2022-ndyag-laser-enamel-bleaching",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-YTTRIUM-1/10.7759_cureus.31325.pdf",
+ "primary_sha256": "24de6c74081db5a71c37db68af9b22db5e197879b4ff68cfae9e02efa2d89807",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "out_of_scope",
+ "disposition_reason": "Dental laser application; yttrium is a laser crystal component.",
+ "disposition_locator": "whole paper",
+ "study": {
+  "design": "in vitro dental experiment",
+  "origin": "not applicable",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "not stated"
+  },
+  "method": "spectrophotometric color measurement",
+  "lod": [],
+  "basis": "unknown",
+  "qa": "control group",
+  "site_context": "laboratory"
+ },
+ "findings": [],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/borse2022-ndyag-laser-enamel-bleaching.md",
+ "non_numeric_findings": []
+}

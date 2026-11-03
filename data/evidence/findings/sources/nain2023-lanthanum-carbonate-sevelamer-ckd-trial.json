@@ -1,0 +1,41 @@
+{
+ "source_id": "nain2023-lanthanum-carbonate-sevelamer-ckd-trial",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-RARE-EARTHS-1/lanthanum/10.3390_pharmacy11010027.pdf",
+ "primary_sha256": "887b7d63ad5cc97ff768510e8787c39a9886080153b0ea5654bf0d9e7100ca13",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "context",
+ "disposition_reason": "Clinical dose of lanthanum carbonate and serum phosphate outcomes in CKD patients; no lanthanum concentrations.",
+ "disposition_locator": "Abstract; Methods p. 3; Results p. 5",
+ "study": {
+  "design": "randomized comparative clinical study",
+  "origin": "Haryana and Punjab, India",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "six-month follow-up (abstract states one year)"
+  },
+  "method": "routine clinical chemistry",
+  "lod": [],
+  "basis": "unknown",
+  "qa": "not applicable",
+  "site_context": "clinical"
+ },
+ "findings": [],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [
+  "Therapeutic oral dose in this study: lanthanum carbonate 500 mg three times daily (abstract)"
+ ],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/nain2023-lanthanum-carbonate-sevelamer-ckd-trial.md",
+ "non_numeric_findings": [
+  "Lanthanum carbonate lowered serum phosphate more than sevelamer carbonate over six months."
+ ]
+}

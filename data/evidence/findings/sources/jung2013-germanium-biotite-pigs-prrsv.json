@@ -1,0 +1,42 @@
+{
+ "source_id": "jung2013-germanium-biotite-pigs-prrsv",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-GERMANIUM-1/10.4142_jvs.2013.14.2.135.pdf",
+ "primary_sha256": "ebd77b6e10433e7db9b58ccc139c523a96629ed949f810f9b303dc5514fb1b36",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "context",
+ "disposition_reason": "Feed-supplement study of a germanium-containing aluminosilicate (36 ppm Ge as stated) with immune and antiviral endpoints in mice and pigs; no germanium concentrations measured in any matrix.",
+ "disposition_locator": "Materials and Methods p. 136; Results p. 138",
+ "study": {
+  "design": "controlled feeding experiments in mice and in virus-challenged pigs",
+  "origin": "Republic of Korea",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "not stated"
+  },
+  "method": "Germanium not measured; immune endpoints by MTT assay and flow cytometry; virus titers by plaque assay",
+  "lod": [],
+  "basis": "not_applicable",
+  "qa": "not applicable",
+  "site_context": "animal experiment"
+ },
+ "findings": [],
+ "unresolved": [
+  "Germanium content of the supplement (36 ppm) is a stated composition of supplied material, not an analytical result, and was not recorded as a finding."
+ ],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/jung2013-germanium-biotite-pigs-prrsv.md",
+ "non_numeric_findings": [
+  "Authors propose germanium biotite as a feed supplement to promote immune activity (abstract).",
+  "Authors attribute part of the effect to aluminosilicate acting as a non-specific immunostimulant (p. 140)."
+ ]
+}

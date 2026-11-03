@@ -1,0 +1,47 @@
+{
+ "source_id": "lyons2003-high-selenium-wheat-biofortification-review",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-SELENIUM-1/10.1079_nrr200255.pdf",
+ "primary_sha256": "25ea5736b28d6e4b192e8b241c6af0d4dbc81fb1763458ad1095473990f5b45c",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "context",
+ "disposition_reason": "Narrative review of selenium in soils, wheat and human health with secondary intake, toxicity and wheat concentration figures.",
+ "disposition_locator": "pp. 48 to 53",
+ "study": {
+  "design": "narrative review",
+  "origin": "Australia focus, global literature",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "literature to 2002"
+  },
+  "method": "not applicable",
+  "lod": [],
+  "basis": "unknown",
+  "qa": "not applicable",
+  "site_context": "review"
+ },
+ "findings": [],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [
+  "p. 48: review reports US RDA 55 ug/d for men and women and Australian recommendations of 85 and 70 ug/d (men, women)",
+  "p. 49: review reports WHO and EU upper safe limits of 400 and 300 ug/adult per day and a US reference dose of 350 ug/d for a 70 kg person",
+  "p. 49: review reports chronic selenosis in Enshi County, China, with coal-contaminated soil up to 8 mg/kg and intakes up to 7 mg/d",
+  "p. 48: review estimates Australian mean intake around 75 ug/d"
+ ],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/lyons2003-high-selenium-wheat-biofortification-review.md",
+ "non_numeric_findings": [
+  "Global adult intake ranges from 7 ug/d in Keshan disease areas to 5000 ug/d in Chinese selenosis areas, per the review (p. 49).",
+  "Finland domestic cereal selenium was 0.01 mg/kg or less before 1984 fertilization; spring wheat now about 0.25 mg/kg (p. 52).",
+  "Selenosis symptoms named: nail thickening and cracking, hair loss, skin lesions (p. 49).",
+  "Sodium selenate is the form generally used for crop fertilization (p. 51)."
+ ]
+}

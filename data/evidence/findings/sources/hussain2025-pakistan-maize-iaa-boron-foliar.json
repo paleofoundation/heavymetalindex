@@ -1,0 +1,39 @@
+{
+ "source_id": "hussain2025-pakistan-maize-iaa-boron-foliar",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-BORON-1/10.1186_s12870-025-07719-9.pdf",
+ "primary_sha256": "40174a1ac7f76763e6f3b218e9658f6bc77da88d3cae5c4bf589ca7d9be141ab",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "no_numeric_results",
+ "disposition_reason": "Agronomic pot study; boron is a treatment, no boron concentrations in grain, tissue, soil or water are reported.",
+ "disposition_locator": "Methods; Results",
+ "study": {
+  "design": "pot experiment",
+  "origin": "Gujrat, Pakistan",
+  "market": null,
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "not stated"
+  },
+  "method": "none for boron",
+  "lod": [],
+  "basis": "unknown",
+  "qa": "not applicable",
+  "site_context": "agricultural"
+ },
+ "findings": [],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/hussain2025-pakistan-maize-iaa-boron-foliar.md",
+ "non_numeric_findings": [
+  "Blended foliar sprays of indole acetic acid and boron (20 and 30 ppm) improved maize growth and yield traits."
+ ]
+}

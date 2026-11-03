@@ -1,0 +1,39 @@
+{
+ "source_id": "zhu2025-cerium-manganese-alumina-ozonation",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-RARE-EARTHS-1/cerium/10.1038_s41598-025-20406-x.pdf",
+ "primary_sha256": "56489af8a6239bb2929b32402ab874451b6a37724e573667a32ef0f3d0d93eec",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "out_of_scope",
+ "disposition_reason": "Catalysis study; no exposure-relevant data.",
+ "disposition_locator": "Abstract",
+ "study": {
+  "design": "catalyst development",
+  "origin": "Wuhan, China",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "not stated"
+  },
+  "method": "bench-scale ozonation tests",
+  "lod": [],
+  "basis": "unknown",
+  "qa": "not applicable",
+  "site_context": "laboratory"
+ },
+ "findings": [],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/zhu2025-cerium-manganese-alumina-ozonation.md",
+ "non_numeric_findings": [
+  "Cerium-manganese modified alumina enhanced catalytic ozonation of humic acid."
+ ]
+}

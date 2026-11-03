@@ -1,0 +1,39 @@
+{
+ "source_id": "kramer2022-new-zealand-strontium-isoscape-milk",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-STRONTIUM-1/10.1371_journal.pone.0264458.pdf",
+ "primary_sha256": "feb9c3e45e9188f4d56176ac89d08d77a57ee2bf41e85f8eaff540a13b416fb6",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "context",
+ "disposition_reason": "Isotope-ratio isoscape with milk-origin validation; no concentrations.",
+ "disposition_locator": "Abstract; Results, pp. 9 to 16",
+ "study": {
+  "design": "isoscape modeling and food-origin validation",
+  "origin": "New Zealand",
+  "market": "dairy farms",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "not stated"
+  },
+  "method": "MC-ICP-MS and TIMS isotope ratios; random forest model",
+  "lod": [],
+  "basis": "unknown",
+  "qa": "NIST SRM 987 and in-house standard",
+  "site_context": "field and farm"
+ },
+ "findings": [],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/kramer2022-new-zealand-strontium-isoscape-milk.md",
+ "non_numeric_findings": [
+  "Closest milk origin predictions averaged 7.05 km from true origin (Abstract)."
+ ]
+}

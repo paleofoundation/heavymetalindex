@@ -1,0 +1,40 @@
+{
+ "source_id": "sever2025-indium-111-irdye800cw-tissue-phantoms",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-INDIUM-1/10.1117_1.jbo.30.s1.s13705.pdf",
+ "primary_sha256": "6e77e0a03b84d1a5f6951268163bb7678f1e6af6ebf4656020690a054d2a953d",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "out_of_scope",
+ "disposition_reason": "Medical imaging study of the radiotracer indium-111; no indium occurrence, dietary exposure or toxicity data.",
+ "disposition_locator": "Abstract; Results; Disclosures",
+ "study": {
+  "design": "laboratory imaging phantom study",
+  "origin": "United States",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "not stated"
+  },
+  "method": "handheld gamma probe (Neoprobe) and fluorescence imaging (SPY-PHI)",
+  "lod": [],
+  "basis": "unknown",
+  "qa": "not applicable",
+  "site_context": "laboratory"
+ },
+ "findings": [],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/sever2025-indium-111-irdye800cw-tissue-phantoms.md",
+ "non_numeric_findings": [
+  "Gamma signal from indium-111 detected through up to 5 cm of tissue versus 0.5 cm for fluorescence (Abstract).",
+  "Disclosure: four authors filed a patent application on a dual-labeled tracer (Disclosures)."
+ ]
+}

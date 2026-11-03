@@ -1,0 +1,39 @@
+{
+ "source_id": "khan2023-phytogenic-cerium-oxide-nanoparticles-antioxidant",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-RARE-EARTHS-1/cerium/10.1038_s41598-023-31498-8.pdf",
+ "primary_sha256": "bca514b7bcef5732a4a7ff31727d444d7d75a6cc6ddeab4f7d5b1c33d32dc312",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "out_of_scope",
+ "disposition_reason": "Nanomaterial synthesis and in vitro bioassays; no exposure-relevant data.",
+ "disposition_locator": "Abstract",
+ "study": {
+  "design": "nanomaterial synthesis and in vitro assays",
+  "origin": "Rawalpindi, Pakistan",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "not stated"
+  },
+  "method": "in vitro assays",
+  "lod": [],
+  "basis": "unknown",
+  "qa": "not applicable",
+  "site_context": "laboratory"
+ },
+ "findings": [],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/khan2023-phytogenic-cerium-oxide-nanoparticles-antioxidant.md",
+ "non_numeric_findings": [
+  "In vitro antioxidant and enzyme inhibition by cerium oxide nanoparticles."
+ ]
+}

@@ -1,0 +1,101 @@
+{
+ "source_id": "he2021-fujian-serum-cerium-oral-cancer",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-RARE-EARTHS-1/cerium/10.3389_fpubh.2021.647120.pdf",
+ "primary_sha256": "44752907d37f31bc307abee199ccbf7fc06450fbda9cab835abd6a94e20e8ff3",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "occurrence_extracted",
+ "disposition_reason": "Serum cerium medians and interquartile ranges for 324 oral cancer cases and 650 controls measured by ICP-MS.",
+ "disposition_locator": "Results p. 5; Table 2 p. 3; Methods p. 4",
+ "study": {
+  "design": "hospital-based case-control study",
+  "origin": "Fujian Province, China",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "September 2011 to January 2018"
+  },
+  "method": "ICP-MS (PerkinElmer NexION 350X) after microwave digestion of serum",
+  "lod": [
+   "Ce 0.0003 µg/L (p. 4)"
+  ],
+  "basis": "unknown",
+  "qa": "Hair reference material GBW07601a, two blanks and two reference materials per run, 12.5% duplicates with RSD < 10%, recovery 89.1% to 92%",
+  "site_context": "clinical"
+ },
+ "findings": [
+  {
+   "id": "he2021-fujian-serum-cerium-oral-cancer:Ce:serum-oral-cancer-cases:median",
+   "material": {
+    "label_as_printed": "Serum, oral cancer cases",
+    "page": "metals/rare-earths",
+    "form": "serum",
+    "state": "biological",
+    "route_rule": "override:HMI-METAL-INGEST-1"
+   },
+   "analyte": "Ce",
+   "group": "oral cancer cases, Fujian",
+   "group_kind": "case_group",
+   "n": 324,
+   "statistic": "median",
+   "reported": "0.57 (0.21 to 3.02) µg/L",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "µg/L",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Results, p. 5",
+   "integrity_flag": null,
+   "notes": "Median with 25th to 75th percentile.",
+   "statistic_raw": "median"
+  },
+  {
+   "id": "he2021-fujian-serum-cerium-oral-cancer:Ce:serum-cancer-free-controls:median",
+   "material": {
+    "label_as_printed": "Serum, cancer-free controls",
+    "page": "metals/rare-earths",
+    "form": "serum",
+    "state": "biological",
+    "route_rule": "override:HMI-METAL-INGEST-1"
+   },
+   "analyte": "Ce",
+   "group": "hospital health-check controls, Fujian",
+   "group_kind": "control_group",
+   "n": 650,
+   "statistic": "median",
+   "reported": "2.27 (0.72 to 4.26) µg/L",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "µg/L",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Results, p. 5",
+   "integrity_flag": null,
+   "notes": "Median with 25th to 75th percentile.",
+   "statistic_raw": "median"
+  }
+ ],
+ "unresolved": [
+  "Stratified interaction tables (Table 3) not recorded beyond the abstract figures."
+ ],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/he2021-fujian-serum-cerium-oral-cancer.md",
+ "non_numeric_findings": [
+  "High serum cerium associated with lower adjusted odds of oral cancer (OR 0.60, 95% CI 0.43 to 0.84).",
+  "Authors could not determine cerium valence in serum."
+ ]
+}

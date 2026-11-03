@@ -1,0 +1,39 @@
+{
+ "source_id": "meng2025-exosome-cerium-dioxide-deoxynivalenol-liver",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-RARE-EARTHS-1/cerium/10.1186_s12951-025-03316-y.pdf",
+ "primary_sha256": "9f5cf60cd5b4b3bed176adb862c3d64348653bde545810e517ec01bd47cf069b",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "out_of_scope",
+ "disposition_reason": "Nanomedicine study; no exposure-relevant cerium data.",
+ "disposition_locator": "Abstract",
+ "study": {
+  "design": "cell and animal nanomedicine study",
+  "origin": "Wuhan, China",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "not stated"
+  },
+  "method": "cell assays, animal model, multi-omics",
+  "lod": [],
+  "basis": "unknown",
+  "qa": "not applicable",
+  "site_context": "laboratory"
+ },
+ "findings": [],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/meng2025-exosome-cerium-dioxide-deoxynivalenol-liver.md",
+ "non_numeric_findings": [
+  "Exosome-loaded cerium dioxide nanoparticles reduced deoxynivalenol liver injury in mice."
+ ]
+}

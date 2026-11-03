@@ -1,0 +1,39 @@
+{
+ "source_id": "moncel2019-neanderthal-payre-strontium-mobility",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-STRONTIUM-1/10.1371_journal.pone.0214925.pdf",
+ "primary_sha256": "208618d7c5c4c9004c5e652873c12cd355c20f37a1154b5ad204a0545051413c",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "context",
+ "disposition_reason": "Paleolithic isotope-ratio mobility study; no exposure-relevant data.",
+ "disposition_locator": "Table 2; Results",
+ "study": {
+  "design": "archaeological isotope and lithic study",
+  "origin": "Payre, Rhone Valley, France",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "Marine Isotope Stage 8 to 7"
+  },
+  "method": "micro-drilling and TIMS",
+  "lod": [],
+  "basis": "unknown",
+  "qa": "NBS 987 standard",
+  "site_context": "archaeological"
+ },
+ "findings": [],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/moncel2019-neanderthal-payre-strontium-mobility.md",
+ "non_numeric_findings": [
+  "Strontium isotope ratios in tooth enamel record the area where an individual lived while the tooth formed (Introduction)."
+ ]
+}

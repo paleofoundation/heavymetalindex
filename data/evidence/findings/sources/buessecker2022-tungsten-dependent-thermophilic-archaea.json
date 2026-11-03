@@ -1,0 +1,66 @@
+{
+ "source_id": "buessecker2022-tungsten-dependent-thermophilic-archaea",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-TUNGSTEN-1/10.1038_s41467-022-31452-8.pdf",
+ "primary_sha256": "d3dca6a52077c1ad5580ad589253fcf019ce261efc8989b71df03a0996fd8fac",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "context",
+ "disposition_reason": "Microbial ecology of a tungsten-requiring archaeon; culture-medium tungsten levels only.",
+ "disposition_locator": "whole paper",
+ "study": {
+  "design": "cultivation and genomics",
+  "origin": "Great Boiling Spring, Nevada, USA",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "not stated"
+  },
+  "method": "ICP-MS and ICP-OES (207.91 nm) for W in media and spring water",
+  "lod": [],
+  "basis": "unknown",
+  "qa": "Replicate cultures; ANOVA",
+  "site_context": "geothermal"
+ },
+ "findings": [
+  {
+   "id": "buessecker2022-tungsten-dependent-thermophilic-archaea:W:synthetic-medium-tungstate-threshold-for-growth:threshold:1",
+   "material": {
+    "label_as_printed": "Synthetic medium tungstate threshold for growth",
+    "page": "metals/tungsten",
+    "form": "culture medium",
+    "state": "unknown",
+    "route_rule": "override:HMI-METAL-INGEST-1"
+   },
+   "analyte": "W",
+   "group": "enrichment culture",
+   "group_kind": "treatment",
+   "n": null,
+   "statistic": "threshold",
+   "reported": "about 20 nM WO4",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "nM",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Fig. 2c; Results",
+   "integrity_flag": null,
+   "notes": "",
+   "statistic_raw": "threshold"
+  }
+ ],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/buessecker2022-tungsten-dependent-thermophilic-archaea.md",
+ "non_numeric_findings": []
+}

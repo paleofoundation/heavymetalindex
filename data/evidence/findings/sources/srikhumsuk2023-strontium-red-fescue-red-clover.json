@@ -1,0 +1,152 @@
+{
+ "source_id": "srikhumsuk2023-strontium-red-fescue-red-clover",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-STRONTIUM-1/10.1186_s40068-023-00297-5.pdf",
+ "primary_sha256": "27a812e0c123ec594f71881dc8d68019fd4323a3478b110907673271810e5e50",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "context",
+ "disposition_reason": "Spiked-soil plant toxicity and uptake experiment; tissue concentrations under experimental dosing, not occurrence in food.",
+ "disposition_locator": "Tables 2, 4 and 5, pp. 5 to 9",
+ "study": {
+  "design": "soil microcosm dose-response experiment",
+  "origin": "farm soil from South Lanarkshire, Scotland",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "10-week growth; dates not given"
+  },
+  "method": "microwave digestion and ICP-OES",
+  "lod": [],
+  "basis": "dry_weight",
+  "qa": "Triplicate treatments; statistics by ANOVA and LSD",
+  "site_context": "laboratory"
+ },
+ "findings": [
+  {
+   "id": "srikhumsuk2023-strontium-red-fescue-red-clover:Sr:red-fescue-shoot-control:mean",
+   "material": {
+    "label_as_printed": "F. rubra aerial tissue, controls",
+    "page": "metals/strontium",
+    "form": "shoot",
+    "state": "experimental",
+    "route_rule": "override:HMI-METAL-INGEST-1"
+   },
+   "analyte": "Sr",
+   "group": "unspiked control soil",
+   "group_kind": "treatment",
+   "n": 9,
+   "statistic": "mean",
+   "reported": "0.024 ± 0.005 g/kg",
+   "value_ugkg": 24000,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "g/kg",
+   "basis": "dry_weight",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 5, p. 9",
+   "integrity_flag": null,
+   "notes": "Converted 1 g/kg = 1,000,000 µg/kg; dry basis inferred from methods.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "srikhumsuk2023-strontium-red-fescue-red-clover:Sr:red-clover-shoot-control:mean",
+   "material": {
+    "label_as_printed": "T. pratense aerial tissue, controls",
+    "page": "metals/strontium",
+    "form": "shoot",
+    "state": "experimental",
+    "route_rule": "override:HMI-METAL-INGEST-1"
+   },
+   "analyte": "Sr",
+   "group": "unspiked control soil",
+   "group_kind": "treatment",
+   "n": 9,
+   "statistic": "mean",
+   "reported": "0.036 ± 0.003 g/kg",
+   "value_ugkg": 36000,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "g/kg",
+   "basis": "dry_weight",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 5, p. 9",
+   "integrity_flag": null,
+   "notes": "Red clover is a forage crop.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "srikhumsuk2023-strontium-red-fescue-red-clover:Sr:red-clover-shoot-40mm-combined:mean",
+   "material": {
+    "label_as_printed": "T. pratense aerial tissue, Com-GEx 40 mM",
+    "page": "metals/strontium",
+    "form": "shoot",
+    "state": "experimental",
+    "route_rule": "override:HMI-METAL-INGEST-1"
+   },
+   "analyte": "Sr",
+   "group": "40 mM combined exposure",
+   "group_kind": "treatment",
+   "n": 3,
+   "statistic": "mean",
+   "reported": "17.4 ± 5.31 g/kg",
+   "value_ugkg": 17400000,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "g/kg",
+   "basis": "dry_weight",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 5, p. 9",
+   "integrity_flag": null,
+   "notes": "Experimentally spiked soil.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "srikhumsuk2023-strontium-red-fescue-red-clover:Sr:red-fescue-shoot-40mm-combined:mean",
+   "material": {
+    "label_as_printed": "F. rubra aerial tissue, Com-GEx 40 mM",
+    "page": "metals/strontium",
+    "form": "shoot",
+    "state": "experimental",
+    "route_rule": "override:HMI-METAL-INGEST-1"
+   },
+   "analyte": "Sr",
+   "group": "40 mM combined exposure",
+   "group_kind": "treatment",
+   "n": 3,
+   "statistic": "mean",
+   "reported": "12.0 ± 1.77 g/kg",
+   "value_ugkg": 12000000,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "g/kg",
+   "basis": "dry_weight",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 5, p. 9",
+   "integrity_flag": null,
+   "notes": "Experimentally spiked soil.",
+   "statistic_raw": "mean"
+  }
+ ],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/srikhumsuk2023-strontium-red-fescue-red-clover.md",
+ "non_numeric_findings": [
+  "Red clover was the stronger accumulator; translocation factors up to 25.3 (Table 5)."
+ ]
+}

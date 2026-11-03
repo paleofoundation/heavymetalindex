@@ -1,0 +1,42 @@
+{
+ "source_id": "talukdar2015-rice-germanium-tolerance-loci",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-GERMANIUM-1/10.1371_journal.pone.0137577.pdf",
+ "primary_sha256": "2885e57624dd8823872f107edf097ac75b76124d60f46be6ee27906e5e07b9cc",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "context",
+ "disposition_reason": "Hydroponic dosing of rice seedlings with germanic acid; reports lesion dose-response, heritability and a twofold range in leaf germanium accumulation (figure only); no food occurrence data.",
+ "disposition_locator": "pp. 5 to 6 (Fig 1); p. 9 and p. 11 (Fig 4)",
+ "study": {
+  "design": "plant genetics: hydroponic germanium exposure with QTL and genome-wide association mapping",
+  "origin": "United Kingdom laboratory",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "not stated"
+  },
+  "method": "Total germanium in dried shoot tissue by ICP-MS (Agilent 7500) after microwave HNO3/H2O2 digestion; rhodium internal standard",
+  "lod": [],
+  "basis": "dry_weight",
+  "qa": "Certified reference material and blank digests (p. 5)",
+  "site_context": "laboratory"
+ },
+ "findings": [],
+ "unresolved": [
+  "Leaf germanium concentrations appear only in Fig 4; the text value of about 12 mg/g (p. 11) was not recorded because the unit and figure reading could not be verified."
+ ],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/talukdar2015-rice-germanium-tolerance-loci.md",
+ "non_numeric_findings": [
+  "Germanium is taken up by plant roots as Ge(OH)4 by the same mechanism as silicon (p. 2, background).",
+  "Lesion cover correlated with leaf germanium (R2 = 22.8%, P = 0.022) across 19 cultivars (p. 9)."
+ ]
+}

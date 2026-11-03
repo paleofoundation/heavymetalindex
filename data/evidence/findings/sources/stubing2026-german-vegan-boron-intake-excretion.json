@@ -1,0 +1,159 @@
+{
+ "source_id": "stubing2026-german-vegan-boron-intake-excretion",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-BORON-1/10.1007_s12011-026-05297-x.pdf",
+ "primary_sha256": "de8719c5d92231d6983034d494e0eb68c7f6fb8575d0e7fe4a53ffff8acc7ab2",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "occurrence_extracted",
+ "disposition_reason": "ICP-MS 24-hour urinary boron excretion (median, IQR) by diet group, with estimated intakes from weighed diaries.",
+ "disposition_locator": "Table 2, p. 5; Fig. 1",
+ "study": {
+  "design": "cross-sectional secondary analysis",
+  "origin": "Freiburg, Germany",
+  "market": null,
+  "period": {
+   "from": "2024-10",
+   "to": "2025-01",
+   "as_reported": "urine samples collected October 2024 to January 2025"
+  },
+  "method": "ICP-MS (PerkinElmer NexION 2000), tenfold dilution, four-point calibration",
+  "lod": [
+   "0.21 µg/L (urine)"
+  ],
+  "basis": "unknown",
+  "qa": "Seronorm Trace Elements Urine QC at two levels; yttrium and terbium internal standards",
+  "site_context": "general_population"
+ },
+ "findings": [
+  {
+   "id": "stubing2026-german-vegan-boron-intake-excretion:B:24-hour-urine--all-participants:median",
+   "material": {
+    "label_as_printed": "24-hour urine",
+    "page": "metals/boron",
+    "form": null,
+    "state": null,
+    "route_rule": "override:HMI-METAL-INGEST-1"
+   },
+   "analyte": "B",
+   "group": "all participants",
+   "group_kind": "population",
+   "n": 89,
+   "statistic": "median",
+   "reported": "1415.39 (1053.61-2169.99) µg/24-h",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "µg/24 h",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 5",
+   "integrity_flag": null,
+   "notes": "",
+   "statistic_raw": "median"
+  },
+  {
+   "id": "stubing2026-german-vegan-boron-intake-excretion:B:24-hour-urine--omnivores:median",
+   "material": {
+    "label_as_printed": "24-hour urine",
+    "page": "metals/boron",
+    "form": null,
+    "state": null,
+    "route_rule": "override:HMI-METAL-INGEST-1"
+   },
+   "analyte": "B",
+   "group": "omnivores",
+   "group_kind": "diet_group",
+   "n": 32,
+   "statistic": "median",
+   "reported": "1159.06 (875.72-1908.27) µg/24-h",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "µg/24 h",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 5",
+   "integrity_flag": null,
+   "notes": "",
+   "statistic_raw": "median"
+  },
+  {
+   "id": "stubing2026-german-vegan-boron-intake-excretion:B:24-hour-urine--lacto-ovo-vegetarians:median",
+   "material": {
+    "label_as_printed": "24-hour urine",
+    "page": "metals/boron",
+    "form": null,
+    "state": null,
+    "route_rule": "override:HMI-METAL-INGEST-1"
+   },
+   "analyte": "B",
+   "group": "lacto-ovo-vegetarians",
+   "group_kind": "diet_group",
+   "n": 28,
+   "statistic": "median",
+   "reported": "1498.50 (1025.20-2000.31) µg/24-h",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "µg/24 h",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 5",
+   "integrity_flag": null,
+   "notes": "",
+   "statistic_raw": "median"
+  },
+  {
+   "id": "stubing2026-german-vegan-boron-intake-excretion:B:24-hour-urine--vegans:median",
+   "material": {
+    "label_as_printed": "24-hour urine",
+    "page": "metals/boron",
+    "form": null,
+    "state": null,
+    "route_rule": "override:HMI-METAL-INGEST-1"
+   },
+   "analyte": "B",
+   "group": "vegans",
+   "group_kind": "diet_group",
+   "n": 29,
+   "statistic": "median",
+   "reported": "1848.59 (1326.51-2397.14) µg/24-h",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "µg/24 h",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 5",
+   "integrity_flag": null,
+   "notes": "",
+   "statistic_raw": "median"
+  }
+ ],
+ "unresolved": [
+  "Hyphens in the reported strings replace en dashes printed in the PDF."
+ ],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [
+  "Estimated intake medians 1515.35 (omnivores), 1654.36 (lacto-ovo-vegetarians), 1913.38 (vegans) µg/d (Fig. 1, p. 5).",
+  "EFSA UL stated as 10 mg/day; no participant exceeded it (Results, p. 4)."
+ ],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/stubing2026-german-vegan-boron-intake-excretion.md",
+ "non_numeric_findings": [
+  "Urinary boron correlated with potassium excretion in all groups and with phosphorus in vegans."
+ ]
+}

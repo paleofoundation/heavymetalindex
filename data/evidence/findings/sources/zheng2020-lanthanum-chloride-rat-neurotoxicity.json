@@ -1,0 +1,41 @@
+{
+ "source_id": "zheng2020-lanthanum-chloride-rat-neurotoxicity",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-RARE-EARTHS-1/lanthanum/10.1155_2020_5205142.pdf",
+ "primary_sha256": "bddd4e7563f393c899a2c670490b0dbacd78b3978a045b1ec3ac83e74163adc6",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "context",
+ "disposition_reason": "Animal developmental neurotoxicity study with drinking-water dose levels; tissue lanthanum shown only in a figure.",
+ "disposition_locator": "Methods p. 2; Figure 2 p. 5",
+ "study": {
+  "design": "developmental animal toxicity study",
+  "origin": "China",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "gestation, lactation and 28 days post-weaning"
+  },
+  "method": "ICP-MS for hippocampal lanthanum; behavioral and molecular assays",
+  "lod": [],
+  "basis": "unknown",
+  "qa": "not reported",
+  "site_context": "laboratory"
+ },
+ "findings": [],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [
+  "Experimental drinking water doses: 0.25%, 0.5% and 1% lanthanum chloride (p. 2)"
+ ],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/zheng2020-lanthanum-chloride-rat-neurotoxicity.md",
+ "non_numeric_findings": [
+  "Dose-dependent hippocampal lanthanum accumulation and learning deficits in offspring."
+ ]
+}

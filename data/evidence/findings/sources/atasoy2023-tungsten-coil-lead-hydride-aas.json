@@ -1,0 +1,37 @@
+{
+ "source_id": "atasoy2023-tungsten-coil-lead-hydride-aas",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-TUNGSTEN-1/10.1021_acsomega.3c01856.pdf",
+ "primary_sha256": "f60ca07e1205ff2682ad033702fea5b0b2bde11da499aaf9b4ce489cd47546b2",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "out_of_scope",
+ "disposition_reason": "Lead determination method; tungsten is an instrument component.",
+ "disposition_locator": "whole paper",
+ "study": {
+  "design": "analytical method development",
+  "origin": "not applicable",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "not stated"
+  },
+  "method": "hydride generation AAS with tungsten coil trap",
+  "lod": [],
+  "basis": "unknown",
+  "qa": "certified reference materials for lead",
+  "site_context": "laboratory"
+ },
+ "findings": [],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/atasoy2023-tungsten-coil-lead-hydride-aas.md",
+ "non_numeric_findings": []
+}

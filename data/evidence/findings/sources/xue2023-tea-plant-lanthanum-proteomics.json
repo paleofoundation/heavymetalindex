@@ -1,0 +1,39 @@
+{
+ "source_id": "xue2023-tea-plant-lanthanum-proteomics",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-RARE-EARTHS-1/lanthanum/10.3390_molecules28031124.pdf",
+ "primary_sha256": "f65f48ed644d4cca422b0884a1f9870cfa9084c968617bf9d88e357679f8c804",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "no_numeric_results",
+ "disposition_reason": "Proteomics study; tea leaf lanthanum only shown graphically.",
+ "disposition_locator": "Abstract; Figure 1",
+ "study": {
+  "design": "plant exposure with proteomic analysis",
+  "origin": "Fujian, China",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "not stated"
+  },
+  "method": "lanthanum analysis and proteomics",
+  "lod": [],
+  "basis": "unknown",
+  "qa": "not reported",
+  "site_context": "experimental"
+ },
+ "findings": [],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/xue2023-tea-plant-lanthanum-proteomics.md",
+ "non_numeric_findings": [
+  "Lanthanum content was higher in roots than leaves and differed by cultivar."
+ ]
+}

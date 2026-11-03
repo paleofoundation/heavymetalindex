@@ -1,0 +1,40 @@
+{
+ "source_id": "madany2023-oat-zirconium-elevated-co2-stress",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-ZIRCONIUM-1/10.3390_plants12223792.pdf",
+ "primary_sha256": "f6b73e47f8cbbe63fd350bdb372aed09ce9153a2a94c406150c219d9463a2599",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "context",
+ "disposition_reason": "Greenhouse phytotoxicity study at 400 mg/kg spiked soil; plant zirconium only in a figure; percentage effects on photosynthesis and a 40% uptake reduction under elevated CO2 are the usable numbers.",
+ "disposition_locator": "Methods 2.1 (p. 3); Results 3.1 (p. 5) and 3.2 (p. 7); Figure 1A",
+ "study": {
+  "design": "greenhouse pot experiment, randomized block",
+  "origin": "not stated",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "8 weeks; dates not stated"
+  },
+  "method": "HNO3 digestion at 185 °C; quadrupole ICP-MS (820-MS), yttrium internal standard",
+  "lod": [],
+  "basis": "dry_weight",
+  "qa": "not reported",
+  "site_context": "greenhouse"
+ },
+ "findings": [],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/madany2023-oat-zirconium-elevated-co2-stress.md",
+ "non_numeric_findings": [
+  "Zirconium at 400 mg/kg soil reduced oat biomass and photosynthesis and raised H2O2 and MDA (Results 3.1 to 3.3).",
+  "Elevated CO2 (710 ppm) cut oat zirconium by about 40% and restored growth (Results 3.1, p. 5)."
+ ]
+}

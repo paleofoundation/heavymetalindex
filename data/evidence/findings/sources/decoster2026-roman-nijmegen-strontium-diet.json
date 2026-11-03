@@ -1,0 +1,96 @@
+{
+ "source_id": "decoster2026-roman-nijmegen-strontium-diet",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-STRONTIUM-1/10.1371_journal.pone.0349604.pdf",
+ "primary_sha256": "c227f6d2fcf0b64bc6202cfa6c04b10e87ccbe561db7bd8c08bea67e510acd6c",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "occurrence_extracted",
+ "disposition_reason": "Strontium concentrations (ppm, Ca-normalized) and isotope ratios in cremated human bone by period and context.",
+ "disposition_locator": "Results, pp. 9 to 10; Fig 5",
+ "study": {
+  "design": "archaeological bioarchaeology study of cremated remains",
+  "origin": "Nijmegen, the Netherlands",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "Iron Age and Roman period"
+  },
+  "method": "TIMS/MC-ICP-MS isotope ratios; ICP-MS concentrations",
+  "lod": [],
+  "basis": "unknown",
+  "qa": "NIST SRM 987, 1400 and 1515; column blanks about 28 pg Sr",
+  "site_context": "archaeological"
+ },
+ "findings": [
+  {
+   "id": "decoster2026-roman-nijmegen-strontium-diet:Sr:iron-age-bone:range",
+   "material": {
+    "label_as_printed": "Long bone diaphyses, Iron Age",
+    "page": "metals/strontium",
+    "form": "cremated bone",
+    "state": "archaeological",
+    "route_rule": "override:HMI-METAL-INGEST-1"
+   },
+   "analyte": "Sr",
+   "group": "Iron Age population",
+   "group_kind": "period",
+   "n": null,
+   "statistic": "range",
+   "reported": "73 to 194 ppm (normalized to 40% Ca)",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "ppm",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Results, p. 10",
+   "integrity_flag": null,
+   "notes": "Human bone; value_ugkg null.",
+   "statistic_raw": "range"
+  },
+  {
+   "id": "decoster2026-roman-nijmegen-strontium-diet:Sr:roman-urban-south-bone:range",
+   "material": {
+    "label_as_printed": "Long bone diaphyses, Roman urban south",
+    "page": "metals/strontium",
+    "form": "cremated bone",
+    "state": "archaeological",
+    "route_rule": "override:HMI-METAL-INGEST-1"
+   },
+   "analyte": "Sr",
+   "group": "Roman urban population south of the Waal",
+   "group_kind": "period_context",
+   "n": 78,
+   "statistic": "range",
+   "reported": "90 to 264 ppm (IQR 138 to 177)",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "ppm",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Results, p. 10",
+   "integrity_flag": null,
+   "notes": "n = 78 is the isotope group size.",
+   "statistic_raw": "range"
+  }
+ ],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/decoster2026-roman-nijmegen-strontium-diet.md",
+ "non_numeric_findings": [
+  "Higher strontium in urban and military groups is described as possibly consistent with greater use of salt-preserved foods (Abstract)."
+ ]
+}

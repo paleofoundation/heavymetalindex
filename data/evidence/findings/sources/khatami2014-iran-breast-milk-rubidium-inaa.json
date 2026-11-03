@@ -1,0 +1,68 @@
+{
+ "source_id": "khatami2014-iran-breast-milk-rubidium-inaa",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-RUBIDIUM-1/26019773.pdf",
+ "primary_sha256": "e4fe269d26e2f97320cfa60d83c730b32809482c5d3c01fa1bed44c815e4456c",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "occurrence_extracted",
+ "disposition_reason": "INAA rubidium in transitional breast milk from 40 Iranian mothers: mean, median, SD, min and max on a dry weight basis, plus 40 individual values.",
+ "disposition_locator": "Abstract; Findings and Table 1 (p. 694)",
+ "study": {
+  "design": "prospective descriptive study",
+  "origin": "Iran (Mashhad)",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "January to September 2011"
+  },
+  "method": "instrumental neutron activation analysis; HPGe gamma spectrometry after 30 to 38 days decay",
+  "lod": [],
+  "basis": "dry_weight",
+  "qa": "Reference material B01 (apple leaves, Esfahan Nuclear Technology Center); recovery not reported",
+  "site_context": "hospital"
+ },
+ "findings": [
+  {
+   "id": "khatami2014-iran-breast-milk-rubidium-inaa:Rb:transitional-breast-milk--dried:mean",
+   "material": {
+    "label_as_printed": "Transitional breast milk, dried",
+    "page": "ingredients/breastmilk",
+    "form": "dried milk powder",
+    "state": "dried",
+    "route_rule": "override:HMI-METAL-INGEST-1"
+   },
+   "analyte": "Rb",
+   "group": "40 mothers, Mashhad, Iran, 3 to 15 days postpartum",
+   "group_kind": "overall",
+   "n": 40,
+   "statistic": "mean",
+   "reported": "32.176 ppm dry weight (SD 21.193; median 28.195; min 8.660; max 107.210)",
+   "value_ugkg": 32176,
+   "min_ugkg": 8660,
+   "max_ugkg": 107210,
+   "sd_ugkg": null,
+   "unit_original": "ppm dry weight",
+   "basis": "dry_weight",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Findings, p. 694; Table 1",
+   "integrity_flag": null,
+   "notes": "ppm taken as mg/kg; x1000 to ug/kg. SD 21.193 ppm = 21,193 ug/kg. Table 1 minimum is 8.659 ppm.",
+   "statistic_raw": "mean"
+  }
+ ],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/khatami2014-iran-breast-milk-rubidium-inaa.md",
+ "non_numeric_findings": [
+  "Rubidium did not correlate with maternal age or weight or with newborn weight, age or sex (Findings, p. 694)."
+ ]
+}

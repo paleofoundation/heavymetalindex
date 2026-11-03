@@ -1,0 +1,41 @@
+{
+ "source_id": "avesani2024-ckd-plant-diet-sodium-zirconium-cyclosilicate",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-ZIRCONIUM-1/10.1016_j.ajcnut.2024.06.025.pdf",
+ "primary_sha256": "36a45bdf187bb8d9832377e1d8c2dddeff8208bfe4c2a866be38a9f2d9382cdf",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "context",
+ "disposition_reason": "Clinical trial of a zirconium-containing potassium binder; dose and tolerability numbers only; no zirconium measured in any matrix.",
+ "disposition_locator": "Abstract; Methods (p. 720); Results (p. 722); Funding and Conflict of interest sections",
+ "study": {
+  "design": "single-arm 6-week feasibility clinical trial (NCT04207203)",
+  "origin": "Sweden",
+  "market": "clinical",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "6 weeks; calendar dates not reviewed"
+  },
+  "method": "plasma potassium, 24-h urine, food records; no zirconium analysis",
+  "lod": [],
+  "basis": "unknown",
+  "qa": "not applicable",
+  "site_context": "clinic"
+ },
+ "findings": [],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [
+  "Sodium zirconium cyclosilicate dosing in the trial: 30 g/d for 48 to 72 h, then 5 to 10 g/d (Methods, p. 720)."
+ ],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/avesani2024-ckd-plant-diet-sodium-zirconium-cyclosilicate.md",
+ "non_numeric_findings": [
+  "Funding: AstraZeneca, involved in study design (Funding section)."
+ ]
+}

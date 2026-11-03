@@ -1,0 +1,98 @@
+{
+ "source_id": "ishikawa2009-japan-soil-to-crop-strontium-transfer",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-STRONTIUM-1/10.3327_taesj.j08.057.pdf",
+ "primary_sha256": "15c1ab2e52f9a040791c51c06949a7704c88ff5364bc2addf1273d1f44bac1ea",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "occurrence_extracted",
+ "disposition_reason": "Stable strontium in 142 Japanese agricultural soils and edible crop parts (mg/kg dry weight) with crop-specific transfer factors.",
+ "disposition_locator": "Tables 1 to 3, pp. 2 to 3",
+ "study": {
+  "design": "national field survey with regression modeling",
+  "origin": "142 agricultural fields across Japan",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "harvest seasons; years not stated in paper"
+  },
+  "method": "element analysis per earlier institute report; statistical modeling",
+  "lod": [
+   "3 brown rice samples below detection limit (Table 3); LOD value not stated"
+  ],
+  "basis": "dry_weight",
+  "qa": "not described in this paper",
+  "site_context": "field"
+ },
+ "findings": [
+  {
+   "id": "ishikawa2009-japan-soil-to-crop-strontium-transfer:Sr:agricultural-soil:geometric_mean",
+   "material": {
+    "label_as_printed": "Sr in soil",
+    "page": "metals/strontium",
+    "form": "soil",
+    "state": "field",
+    "route_rule": "override:HMI-METAL-INGEST-1"
+   },
+   "analyte": "Sr",
+   "group": "142 agricultural fields",
+   "group_kind": "site_set",
+   "n": 142,
+   "statistic": "geometric_mean",
+   "reported": "7.8 x 10^1 mg/kg (min 1.2 x 10^1, max 3.6 x 10^2)",
+   "value_ugkg": 78000,
+   "min_ugkg": 12000,
+   "max_ugkg": 360000,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "dry_weight",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 1, p. 2",
+   "integrity_flag": null,
+   "notes": "Soil air-dried and sieved; converted 1 mg/kg = 1000 µg/kg.",
+   "statistic_raw": "geometric_mean"
+  },
+  {
+   "id": "ishikawa2009-japan-soil-to-crop-strontium-transfer:Sr:edible-crops-all:geometric_mean",
+   "material": {
+    "label_as_printed": "Sr in crop (edible parts)",
+    "page": "metals/strontium",
+    "form": "edible part",
+    "state": "raw",
+    "route_rule": "override:HMI-METAL-INGEST-1"
+   },
+   "analyte": "Sr",
+   "group": "25 crop types",
+   "group_kind": "crop_set",
+   "n": 146,
+   "statistic": "geometric_mean",
+   "reported": "1.6 x 10^0 mg/kg dry weight (min 1.3 x 10^-1, max 8.8 x 10^1)",
+   "value_ugkg": 1600,
+   "min_ugkg": 130,
+   "max_ugkg": 88000,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg dry weight",
+   "basis": "dry_weight",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 2",
+   "integrity_flag": null,
+   "notes": "All crops pooled.",
+   "statistic_raw": "geometric_mean"
+  }
+ ],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/ishikawa2009-japan-soil-to-crop-strontium-transfer.md",
+ "non_numeric_findings": [
+  "Crop calcium, not soil strontium, best explained crop strontium uptake (Results)."
+ ]
+}

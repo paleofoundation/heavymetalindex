@@ -1,0 +1,124 @@
+{
+ "source_id": "liu2024-lanthanum-rice-soil-methanotrophs",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-RARE-EARTHS-1/lanthanum/10.3389_fmicb.2024.1298154.pdf",
+ "primary_sha256": "7fe02c1cc9fe8ca3102f577270045e5be621233d73dc980255054becec75aa32",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "occurrence_extracted",
+ "disposition_reason": "Background lanthanum in three rice field soils from Jiangsu Province.",
+ "disposition_locator": "Table 1, p. 3",
+ "study": {
+  "design": "soil microcosm experiment",
+  "origin": "Jiangsu Province, China",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "soils collected October 2020; four-week incubation"
+  },
+  "method": "acid digestion and instrumental analysis by contract laboratory; 16S rRNA sequencing",
+  "lod": [],
+  "basis": "dry_weight",
+  "qa": "not reported",
+  "site_context": "agricultural soil"
+ },
+ "findings": [
+  {
+   "id": "liu2024-lanthanum-rice-soil-methanotrophs:La:rice-field-soil-yangzhou-acidic:single_value",
+   "material": {
+    "label_as_printed": "Rice field soil, Yangzhou (acidic)",
+    "page": "metals/rare-earths",
+    "form": "soil",
+    "state": "field-moist sample",
+    "route_rule": "override:HMI-METAL-INGEST-1"
+   },
+   "analyte": "La",
+   "group": "pH 5.67",
+   "group_kind": "site",
+   "n": null,
+   "statistic": "single_value",
+   "reported": "46.93 mg/kg dry soil",
+   "value_ugkg": 46930,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "dry_weight",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 1, p. 3",
+   "integrity_flag": null,
+   "notes": "Rice field topsoil 0 to 20 cm.",
+   "statistic_raw": "single_value"
+  },
+  {
+   "id": "liu2024-lanthanum-rice-soil-methanotrophs:La:rice-field-soil-xuzhou-neutral:single_value",
+   "material": {
+    "label_as_printed": "Rice field soil, Xuzhou (neutral)",
+    "page": "metals/rare-earths",
+    "form": "soil",
+    "state": "field-moist sample",
+    "route_rule": "override:HMI-METAL-INGEST-1"
+   },
+   "analyte": "La",
+   "group": "pH 7.2",
+   "group_kind": "site",
+   "n": null,
+   "statistic": "single_value",
+   "reported": "47.37 mg/kg dry soil",
+   "value_ugkg": 47370,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "dry_weight",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 1, p. 3",
+   "integrity_flag": null,
+   "notes": "Rice field topsoil 0 to 20 cm.",
+   "statistic_raw": "single_value"
+  },
+  {
+   "id": "liu2024-lanthanum-rice-soil-methanotrophs:La:rice-field-soil-yancheng-alkaline:single_value",
+   "material": {
+    "label_as_printed": "Rice field soil, Yancheng (alkaline)",
+    "page": "metals/rare-earths",
+    "form": "soil",
+    "state": "field-moist sample",
+    "route_rule": "override:HMI-METAL-INGEST-1"
+   },
+   "analyte": "La",
+   "group": "pH 8.36",
+   "group_kind": "site",
+   "n": null,
+   "statistic": "single_value",
+   "reported": "32.78 mg/kg dry soil",
+   "value_ugkg": 32780,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "dry_weight",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 1, p. 3",
+   "integrity_flag": null,
+   "notes": "Rice field topsoil 0 to 20 cm.",
+   "statistic_raw": "single_value"
+  }
+ ],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/liu2024-lanthanum-rice-soil-methanotrophs.md",
+ "non_numeric_findings": [
+  "Lanthanum addition inhibited methane consumption depending on soil pH and origin; Methylobacter, Methylosarcina and Methylocystis were key taxa."
+ ]
+}

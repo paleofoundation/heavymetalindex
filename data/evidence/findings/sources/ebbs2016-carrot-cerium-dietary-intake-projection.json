@@ -1,0 +1,103 @@
+{
+ "source_id": "ebbs2016-carrot-cerium-dietary-intake-projection",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-RARE-EARTHS-1/cerium/10.3389_fpls.2016.00188.pdf",
+ "primary_sha256": "3f417084317676699a7b0da32d162c842fd7f429141d195d1c9c79800d69e3cc",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "occurrence_extracted",
+ "disposition_reason": "Maximum fresh-weight cerium in experimentally grown carrots (nanoparticle and ionic treatments) and reverse-projected tissue thresholds against surrogate rare earth reference doses.",
+ "disposition_locator": "Table 1, p. 6; Materials and Methods, p. 3",
+ "study": {
+  "design": "greenhouse sand-culture exposure with dietary intake modeling",
+  "origin": "experimental",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "not stated"
+  },
+  "method": "tissue analysis described in an earlier companion paper; fresh-weight conversion and intake modeling",
+  "lod": [],
+  "basis": "wet_weight",
+  "qa": "not described in this paper",
+  "site_context": "experimental"
+ },
+ "findings": [
+  {
+   "id": "ebbs2016-carrot-cerium-dietary-intake-projection:Ce:carrot-unpeeled-maximum-observed-from-cerium-oxide-nanoparti:max",
+   "material": {
+    "label_as_printed": "Carrot (unpeeled), maximum observed from cerium oxide nanoparticle treatments",
+    "page": "ingredients/carrot",
+    "form": "whole taproot",
+    "state": "raw",
+    "route_rule": "override:HMI-METAL-INGEST-1"
+   },
+   "analyte": "Ce",
+   "group": "maximum single-replicate value across nanoparticle treatments (0.5 to 500 mg/kg dry weight in sand)",
+   "group_kind": "treatment",
+   "n": null,
+   "statistic": "max",
+   "reported": "65.8 mg/kg FW",
+   "value_ugkg": 65800,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg FW",
+   "basis": "wet_weight",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 1, p. 6",
+   "integrity_flag": null,
+   "notes": "Experimental sand-culture carrots; not a market sample.",
+   "statistic_raw": "max"
+  },
+  {
+   "id": "ebbs2016-carrot-cerium-dietary-intake-projection:Ce:carrot-unpeeled-maximum-observed-from-ionic-cerium-treatment:max",
+   "material": {
+    "label_as_printed": "Carrot (unpeeled), maximum observed from ionic cerium treatments",
+    "page": "ingredients/carrot",
+    "form": "whole taproot",
+    "state": "raw",
+    "route_rule": "override:HMI-METAL-INGEST-1"
+   },
+   "analyte": "Ce",
+   "group": "maximum single-replicate value across ionic cerium(IV) treatments",
+   "group_kind": "treatment",
+   "n": null,
+   "statistic": "max",
+   "reported": "126.9 mg/kg FW",
+   "value_ugkg": 126900,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg FW",
+   "basis": "wet_weight",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 1, p. 6",
+   "integrity_flag": null,
+   "notes": "Experimental sand-culture carrots; not a market sample.",
+   "statistic_raw": "max"
+  }
+ ],
+ "unresolved": [
+  "Zinc and copper results not recorded.",
+  "Mean surrogate reference dose printed with an apparently wrong unit (mg instead of µg)."
+ ],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [
+  "Surrogate oral reference dose for cerium: median of nine other rare earth elements, 5 µg/kg bw per day (p. 3)",
+  "Fresh-weight carrot cerium reaching the median surrogate in one serving: 1.0 mg/kg (age 1 to 3 years) to 6.1 mg/kg (males 19 to 30 years) (Table 1, p. 6)"
+ ],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/ebbs2016-carrot-cerium-dietary-intake-projection.md",
+ "non_numeric_findings": [
+  "Peeling lowered projected intake by about 10-fold to 100-fold.",
+  "Ionic cerium produced about twice the projected intake of cerium oxide nanoparticles."
+ ]
+}

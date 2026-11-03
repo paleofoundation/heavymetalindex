@@ -1,0 +1,39 @@
+{
+ "source_id": "zhang2018-carbon-coated-lanthanum-phosphate-removal",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-RARE-EARTHS-1/lanthanum/10.1039_c8ra01519h.pdf",
+ "primary_sha256": "16da435e698b65d886a53987afb81aed916266631157496260b243beec7f98a3",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "out_of_scope",
+ "disposition_reason": "Water-treatment material study; leakage only graphed.",
+ "disposition_locator": "Abstract; p. 3",
+ "study": {
+  "design": "adsorbent development",
+  "origin": "Harbin, China",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "not stated"
+  },
+  "method": "adsorption and leakage tests",
+  "lod": [],
+  "basis": "unknown",
+  "qa": "not applicable",
+  "site_context": "laboratory"
+ },
+ "findings": [],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/zhang2018-carbon-coated-lanthanum-phosphate-removal.md",
+ "non_numeric_findings": [
+  "Carbon coating reduced lanthanum leakage into water."
+ ]
+}

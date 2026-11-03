@@ -1,0 +1,43 @@
+{
+ "source_id": "feinberg2021-declining-sulfur-selenium-deposition-soils",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-SELENIUM-1/10.1038_s43247-021-00172-0.pdf",
+ "primary_sha256": "67a69e4ca248d0d73ab379f10272bd7db4e1657ee5e693d016d2b6922268c1da",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "context",
+ "disposition_reason": "Modeled atmospheric selenium deposition to agricultural soils and projected declines; no measured food or human concentrations.",
+ "disposition_locator": "Abstract; Results pp. 2 to 4; Fig. 2",
+ "study": {
+  "design": "global aerosol-chemistry-climate modeling (SOCOL-AER) of sulfur and selenium deposition, 2005-2009 versus 2095-2099 under SSP1-2.6 and SSP5-8.5, plus USA stream trend analysis",
+  "origin": "global",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "2005 to 2009 modeled; 2095 to 2099 projected; stream data 2000 to 2020"
+  },
+  "method": "atmospheric model with selenium chemistry; emissions scaled from sulfur dioxide",
+  "lod": [],
+  "basis": "unknown",
+  "qa": "model compared with observed particulate selenium trends",
+  "site_context": "environment"
+ },
+ "findings": [],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/feinberg2021-declining-sulfur-selenium-deposition-soils.md",
+ "non_numeric_findings": [
+  "Projected end-of-century decline in selenium deposition to Northern Hemisphere agricultural soils of 55 to 80% (Abstract).",
+  "Agricultural soils in Asia, North America and Europe: selenium deposition decline 70 to 80% (SSP1-2.6) and 55 to 65% (SSP5-8.5); Africa, Australia and South America 3 to 25% (p. 3).",
+  "Global selenium deposition projected to fall 31% (SSP1-2.6) and 23% (SSP5-8.5) (p. 2).",
+  "Authors state known selenium resources could be exhausted within 40 years if 20 g Se per ha were applied to all wheat fields, citing earlier work (p. 4).",
+  "Sulfate and selenate compete for the same plant uptake pathway (p. 4)."
+ ]
+}

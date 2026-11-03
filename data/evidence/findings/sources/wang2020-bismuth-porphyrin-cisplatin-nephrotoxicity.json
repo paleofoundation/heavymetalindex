@@ -1,0 +1,73 @@
+{
+ "source_id": "wang2020-bismuth-porphyrin-cisplatin-nephrotoxicity",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-BISMUTH-1/10.1016_j.isci.2020.101054.pdf",
+ "primary_sha256": "ed081cf4cd2a0e43ff7f6de461086d8a98309250efd100e70c5f08b9f3dd291e",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "context",
+ "disposition_reason": "Mouse pharmacology of an oral bismuth porphyrin: plasma Cmax 16.8 µg/L at 50 mg/kg, kidney accumulation, no or negligible BUN rise when given alone; cites plasma safety level 50 µg/L and alarm level 100 µg/L.",
+ "disposition_locator": "pp. 2 to 4 (Figure 2); p. 11",
+ "study": {
+  "design": "in vitro screening and mouse pharmacology and toxicology",
+  "origin": "Hong Kong",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "not stated"
+  },
+  "method": "Plasma and renal bismuth measured over 48 h after oral dosing (method in supplemental file, not reviewed)",
+  "lod": [],
+  "basis": "not_applicable",
+  "qa": "not reported in main text",
+  "site_context": "animal experiment"
+ },
+ "findings": [
+  {
+   "id": "wang2020-bismuth-porphyrin-cisplatin-nephrotoxicity:Bi:mouse-plasma-cmax-bitpp-50mgkg:max",
+   "material": {
+    "label_as_printed": "Mouse plasma bismuth after oral Bi(TPP) 50 mg/kg",
+    "page": "metals/bismuth",
+    "form": "plasma",
+    "state": "biological",
+    "route_rule": "override:HMI-METAL-INGEST-1"
+   },
+   "analyte": "Bi",
+   "group": "Mice, single oral dose of bismuth tetraphenylporphyrinate 50 mg/kg; 3 mice per time point",
+   "group_kind": "experimental_condition",
+   "n": 3,
+   "statistic": "max",
+   "reported": "Cmax 16.8 µg/L at Tmax 1 h; AUC0-48h 370.2 h·µg/L; t1/2 about 6 h",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "µg/L",
+   "basis": "not_applicable",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "p. 3; Figure 2F legend, p. 4",
+   "integrity_flag": null,
+   "notes": "Animal pharmacokinetic value for a synthetic drug candidate; not a dietary exposure.",
+   "statistic_raw": "Cmax"
+  }
+ ],
+ "unresolved": [
+  "Kidney bismuth time course shown only in Figure 2G; values not recorded."
+ ],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [
+  "Authors cite a documented plasma bismuth safety level of 50 µg/L and alarm level of 100 µg/L from earlier literature (p. 11)."
+ ],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/wang2020-bismuth-porphyrin-cisplatin-nephrotoxicity.md",
+ "non_numeric_findings": [
+  "Bismuth compounds given alone caused no or negligible increase in blood urea nitrogen in mice (Figure 2B, p. 2).",
+  "Authors state bismuth reaches its highest visceral concentrations in kidney proximal tubule cells (p. 2, background)."
+ ]
+}

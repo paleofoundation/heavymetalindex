@@ -1,0 +1,41 @@
+{
+ "source_id": "ariunbaatar2016-food-waste-anaerobic-digestion-selenium",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-SELENIUM-1/10.3389_fenvs.2016.00008.pdf",
+ "primary_sha256": "2b6c3dcf88362f26941652a40fd53eac911aefe65c76927339cc4aa0bb5d30a3",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "out_of_scope",
+ "disposition_reason": "Waste-treatment engineering; selenium is a process additive, not a food or human exposure measure.",
+ "disposition_locator": "Abstract",
+ "study": {
+  "design": "batch biomethane potential experiments on synthetic food waste with trace element supplementation",
+  "origin": "Netherlands and United States",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "not stated"
+  },
+  "method": "batch anaerobic digestion assays; trace element analysis of feedstock",
+  "lod": [],
+  "basis": "unknown",
+  "qa": "not applicable",
+  "site_context": "laboratory bioreactor"
+ },
+ "findings": [],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/ariunbaatar2016-food-waste-anaerobic-digestion-selenium.md",
+ "non_numeric_findings": [
+  "Selenate at 25 to 50 ug/L raised biomethane production by 30 to 35% regardless of feedstock (Abstract).",
+  "Synthetic food waste prepared in Tampa had 1.3 +/- 0.5 ug/g total solids selenium; Delft feedstock was below detection (Abstract).",
+  "Funded by EU Erasmus Mundus and US NSF grants (Acknowledgments)."
+ ]
+}

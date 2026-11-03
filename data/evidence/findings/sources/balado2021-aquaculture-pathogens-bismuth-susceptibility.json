@@ -1,0 +1,42 @@
+{
+ "source_id": "balado2021-aquaculture-pathogens-bismuth-susceptibility",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-BISMUTH-1/10.3390_microorganisms9112399.pdf",
+ "primary_sha256": "00beaa062bc370aedf07af0320b5f7dfb3b64f97d97cf27b35e95f568f82b575",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "context",
+ "disposition_reason": "Antibacterial MICs of bismuth(III) for aquaculture pathogens (13 to >780 µM) and an injected bismuth treatment trial in sole; no tissue residues measured.",
+ "disposition_locator": "Table 1, p. 3; Figure 3, pp. 5 to 6",
+ "study": {
+  "design": "in vitro susceptibility testing and fish infection-treatment trial",
+  "origin": "Spain",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "not stated"
+  },
+  "method": "Broth microdilution MIC; intraperitoneal treatment trial with Kaplan-Meier survival",
+  "lod": [],
+  "basis": "not_applicable",
+  "qa": "not applicable",
+  "site_context": "laboratory and aquaculture experiment"
+ },
+ "findings": [],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [
+  "Fish treatment doses: 0.1 mL of 1.3 µM or 13 µM bismuth-deferiprone by intraperitoneal injection; 65 µM in uninfected controls (pp. 5 to 6)."
+ ],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/balado2021-aquaculture-pathogens-bismuth-susceptibility.md",
+ "non_numeric_findings": [
+  "Bismuth MICs ranged from 13 to more than 780 µM across aquaculture pathogens (Table 1).",
+  "Authors propose bismuth therapy to reduce antibiotic use in aquaculture (abstract)."
+ ]
+}
