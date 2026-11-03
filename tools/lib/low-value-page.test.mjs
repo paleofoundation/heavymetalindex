@@ -53,9 +53,9 @@ test("real measured profiles and promoted source observations stay indexable", (
   }
   const almond = matter(fs.readFileSync("wiki/ingredients/almond.md", "utf8"))
   assert.equal(isLowValuePage(almond.data, "ingredients/almond"), false)
-  // Its current body still declares itself a structural node, an independent rule (tested without
-  // the redirect-target exemption; almond also receives 301s, which keeps it indexable on the site).
-  assert.equal(isLowValuePage(almond.data, "ingredients/almond", { body: almond.content, redirectTargets: new Set() }), true)
+  // The compiled almond article is indexable on its own evidence. The structural-node
+  // template is covered by the scaffold test below.
+  assert.equal(isLowValuePage(almond.data, "ingredients/almond", { body: almond.content, redirectTargets: new Set() }), false)
   assert.equal(
     isLowValuePage(
       { ...food, contributing_sources: ["sources/fda2022-tds-elements-fy2018-fy2020"] },

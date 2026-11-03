@@ -5,7 +5,7 @@ title: Sesame seeds
 type: ingredient
 commodity: sesame
 aliases: []
-category: seed
+category: unclassified
 provisional_scaffold: true
 provisional_created: 2026-10-15T00:00:00.000Z
 provisional_reason: >-
@@ -15,11 +15,12 @@ provisional_source: '[[sources/potorti2026-tahini-quality-safety-inorganic-eleme
 literature_scope: thin
 updated: '2026-10-22'
 evidence_scope: navigation-only
+page_contract_version: 1.0.0
 question_record: data/evidence/engine/ingredient/sesame/question-record.json
 synthesis_record: data/evidence/engine/ingredient/sesame/synthesis.json
 evidence_coverage: partial
 ingredient_presentation: rice-shared-v1
-sources: 3
+sources: 14
 description: >-
   Lead, cadmium, total arsenic, inorganic arsenic and total mercury in sesame
   seeds: monitoring results, studies, references by form and basis, limits,
@@ -91,34 +92,8 @@ ingredient_chrome:
         and a middle half…
       href: '#which-forms-and-regions-measured-lower'
       link_label: Variation
-quick_read:
-  summary: >-
-    Lead, cadmium, total arsenic, inorganic arsenic and total mercury in sesame
-    seeds are reported as monitoring results, studies, references by form and
-    basis, limits, testing and controls.
-  points:
-    - label: Metals of concern
-      text: the metals named by the studies cited on this page.
-    - label: Main drivers
-      text: 'form, origin and preparation stay separate.'
-    - label: Practical framing
-      text: this page does not pool those studies into one typical value.
 ---
 # Sesame seeds
-
-<!-- BEGIN: hmi-opening -->
-<div class="hmi-quick-read">
-  <div class="hmi-quick-read-label">Quick read</div>
-  <p>Lead, cadmium, total arsenic, inorganic arsenic and total mercury in sesame seeds are reported as monitoring results, studies, references by form and basis, limits, testing and controls.</p>
-  <ul>
-    <li><strong>Metals of concern:</strong> the metals named by the studies cited on this page.</li>
-    <li><strong>Main drivers:</strong> form, origin and preparation stay separate.</li>
-    <li><strong>Practical framing:</strong> this page does not pool those studies into one typical value.</li>
-  </ul>
-</div>
-
-This page draws on evidence from [[sources/who-gemsfood-heavy-metal-contaminants|WHO]] and [[sources/jecfa-91st-cadmium-2022|JECFA]], together with 7 peer-reviewed studies. The complete citation list is at the bottom of the page.
-<!-- END: hmi-opening -->
 
 <section class="hmi-quick-read" id="sesame-quick-read" data-hmi-quick-read aria-labelledby="sesame-quick-read-label"><div class="hmi-quick-read-label" id="sesame-quick-read-label">Quick read</div>
 
@@ -146,6 +121,7 @@ Ask for lot results with a quantification limit well below the limit that applie
 </ul>
 </section>
 
+
 <a id="decision-summary"></a>
 ## Sesame seeds overview
 
@@ -162,6 +138,8 @@ Across 2 other studies of ordinary farms and markets, reported lead means and me
 
 For a buyer the practical points are the form bought, the basis a result is reported on, where the sesame seeds came from and the laboratory’s reporting limit. Testing finds contamination but does not remove it.
 
+
+
 <a id="ingredient-identity-and-scope"></a>
 ## What counts as sesame seeds
 
@@ -175,6 +153,7 @@ For a buyer the practical points are the form bought, the basis a result is repo
 This page covers sesame seeds in 4 forms kept separate in every comparison: sesame seeds, as sold (130 results), sesame seeds, oil (17 results), sesame seeds, dried (7 results) and sesame seeds, cooked (2 results).<sup class="cite">[[sources/who-gemsfood-heavy-metal-contaminants|1]]<span class="cite-card"><span class="cite-card-head"><span class="cite-card-authors">World Health Organization · 2026</span><a class="cite-card-title" href="../sources/who-gemsfood-heavy-metal-contaminants">GEMS/Food Contaminants database heavy-metal exports</a></span><span class="cite-card-body"><span class="cite-card-journal">GEMS/Food Contamination Monitoring and Assessment Programme</span><a class="cite-card-review" href="../sources/who-gemsfood-heavy-metal-contaminants">Read source →</a></span></span></sup><sup class="cite">[[sources/zverina2025-plant-dairy-toxic-elements|2]]<span class="cite-card"><span class="cite-card-head"><span class="cite-card-authors">Ondřej Zvěřina, Pavlína Kosečková, Pavel Coufalík, Dominika Michaličková, Eva Duborská · 2025</span><a class="cite-card-title" href="../sources/zverina2025-plant-dairy-toxic-elements">Essential and toxic elements in plant-based dairy alternatives: implications for vegan diets</a></span><span class="cite-card-body"><span class="cite-card-journal">European Food Research and Technology</span><a class="cite-card-review" href="../sources/zverina2025-plant-dairy-toxic-elements">Read source →</a></span></span></sup><sup class="cite">[[sources/cicero2022-minerals-spices-aromatic-herbs|3]]<span class="cite-card"><span class="cite-card-head"><span class="cite-card-authors">Cicero N, Gervasi T, Durazzo A, Lucarini M, Macrì A, Nava V, Giarratana F, Tardugno R, Vadalà R, Santini A · 2022</span><a class="cite-card-title" href="../sources/cicero2022-minerals-spices-aromatic-herbs">Mineral and Microbiological Analysis of Spices and Aromatic Herbs</a></span><span class="cite-card-body"><span class="cite-card-journal">Foods</span><a class="cite-card-review" href="../sources/cicero2022-minerals-spices-aromatic-herbs">Read source →</a></span></span></sup><sup class="cite">[[sources/matloob2016-iraq-spices-heavy-metals|4]]<span class="cite-card"><span class="cite-card-head"><span class="cite-card-authors">Matloob MH · 2016</span><a class="cite-card-title" href="../sources/matloob2016-iraq-spices-heavy-metals">Using Stripping Voltammetry to Determine Heavy Metals in Cooking Spices Used in Iraq</a></span><span class="cite-card-body"><span class="cite-card-journal">Polish Journal of Environmental Studies</span><a class="cite-card-review" href="../sources/matloob2016-iraq-spices-heavy-metals">Read source →</a></span></span></sup><sup class="cite">[[sources/lee2019-food-processing-heavy-metals-migration|5]]<span class="cite-card"><span class="cite-card-head"><span class="cite-card-authors">Lee JG, Hwang JY, Lee HE, Kim TH, Choi JD, Gang GJ · 2019</span><a class="cite-card-title" href="../sources/lee2019-food-processing-heavy-metals-migration">Effects of food processing methods on migration of heavy metals to food</a></span><span class="cite-card-body"><span class="cite-card-journal">Applied Biological Chemistry</span><a class="cite-card-review" href="../sources/lee2019-food-processing-heavy-metals-migration">Read source →</a></span></span></sup><sup class="cite">[[sources/sadeghi2021-tahini-heavy-metals-voltammetry|6]]<span class="cite-card"><span class="cite-card-head"><span class="cite-card-authors">Sadeghi, Naficeh, Behzadi, Hassan Rezaei, Behzad, Masoomeh, Jannat, Behrooz, Hajimahmoodi, Mannan · 2021</span><a class="cite-card-title" href="../sources/sadeghi2021-tahini-heavy-metals-voltammetry">Simultaneous determination of heavy metals in Tahini by anodic stripping voltammetry</a></span><span class="cite-card-body"><span class="cite-card-journal">Journal of Human, Health and Halal Metrics</span><a class="cite-card-review" href="../sources/sadeghi2021-tahini-heavy-metals-voltammetry">Read source →</a></span></span></sup> Foods made from sesame seeds that have their own pages, such as sesame oil, are covered there.
 
 Results stay on the basis each source reports: as sold or fresh weight, dry weight, or unstated. Dry-weight, as-sold and unstated results are never pooled, and no moisture conversion is applied.
+
 
 <!-- BEGIN: hmi-fda-tds-occurrence -->
 
@@ -200,6 +179,7 @@ The table holds every extracted sesame seeds result: one row for each statistic 
 
 <!-- END: hmi-fda-tds-occurrence -->
 
+
 <a id="sources-and-contamination-pathways"></a>
 ## How metals reach sesame seeds
 
@@ -211,6 +191,8 @@ The table holds every extracted sesame seeds result: one row for each statistic 
 <a id="which-source-attribution-claims-are-measured-modelled-inferred-or-unresolved"></a>
 
 No study in the library compared sesame seeds from contaminated and ordinary settings, so the routes by which metals reach it are not measured here.
+
+
 
 <a id="ranges-by-source-region-and-variety"></a>
 ## Which forms and regions measured lower
@@ -228,6 +210,8 @@ Among GEMS/Food reporting regions, sesame seeds, as sold had the lowest lead sub
 
 In one study, lead across 5 groups of sesame seeds ranged from 0.07 µg/kg (flavored tahini product 35 (Tehran market)) to 0.3 µg/kg (flavored tahini product 33 (Tehran market)); the lowest is the lowest observed in that study, not an established sourcing preference.<sup class="cite">[[sources/sadeghi2021-tahini-heavy-metals-voltammetry|6]]<span class="cite-card"><span class="cite-card-head"><span class="cite-card-authors">Sadeghi, Naficeh, Behzadi, Hassan Rezaei, Behzad, Masoomeh, Jannat, Behrooz, Hajimahmoodi, Mannan · 2021</span><a class="cite-card-title" href="../sources/sadeghi2021-tahini-heavy-metals-voltammetry">Simultaneous determination of heavy metals in Tahini by anodic stripping voltammetry</a></span><span class="cite-card-body"><span class="cite-card-journal">Journal of Human, Health and Halal Metrics</span><a class="cite-card-review" href="../sources/sadeghi2021-tahini-heavy-metals-voltammetry">Read source →</a></span></span></sup>
 
+
+
 <a id="processing-effects-and-derivatives"></a>
 ## Processing, cooking and preparation
 
@@ -241,6 +225,8 @@ In one study, lead across 5 groups of sesame seeds ranged from 0.07 µg/kg (flav
 Processed or prepared forms were compared only with unprocessed sesame seeds in the same study and group. Sesame seeds, oil (GEMS/Food contaminants database) had cadmium lower at 4.7 µg/kg, against 23.9 µg/kg for the unprocessed form in the same group (sesame seeds, as sold).<sup class="cite">[[sources/jecfa-91st-cadmium-2022|9]]<span class="cite-card"><span class="cite-card-head"><span class="cite-card-authors">Joint FAO/WHO Expert Committee on Food Additives · 2022</span><a class="cite-card-title" href="../sources/jecfa-91st-cadmium-2022">Cadmium: dietary exposure assessment</a></span><span class="cite-card-body"><span class="cite-card-journal">WHO Food Additives Series, No. 82 (Safety evaluation of certain contaminants in food, prepared by the 91st meeting of JECFA)</span><a class="cite-card-review" href="../sources/jecfa-91st-cadmium-2022">Read source →</a></span></span></sup>
 
 Forms differ in water content, so a per-kilogram difference is not by itself a measured removal or gain of metal.
+
+
 
 <a id="mitigation-options"></a>
 ## Mitigation for sesame seeds
@@ -256,6 +242,8 @@ Lot testing against the applicable limit is the check that can be verified.
 
 <p class="hmi-mitigation-gap" data-mitigation-gap>No measured way to lower metals in this food is in the library yet.</p>
 
+
+
 <a id="trade-offs-and-failure-modes"></a>
 ## Trade-offs and limits of controls
 
@@ -267,6 +255,8 @@ Lot testing against the applicable limit is the check that can be verified.
 <a id="what-costs-constraints-adverse-effects-or-failure-modes-are-documented-and-which-are-unknown"></a>
 
 Metals do not move together, so a lot that passes a lead limit says little about cadmium, arsenic or nickel unless those are tested as well.
+
+
 
 <a id="sampling-and-testing"></a>
 ## Testing sesame seeds for metals
@@ -282,6 +272,8 @@ Results depend on the method and its reporting limit. Reporting limits for lead 
 
 A useful lot result names the form, the basis and a quantification limit well below the limit that applies.
 
+
+
 <a id="procurement-and-process-control"></a>
 ## Buying and verifying sesame seeds
 
@@ -294,6 +286,8 @@ A useful lot result names the form, the basis and a quantification limit well be
 
 No maximum level for metals in sesame seeds was verified from primary text for this page; buyers should confirm the limit that applies in the destination market.
 
+
+
 <a id="finished-product-and-exposure-implications"></a>
 ## Exposure from sesame seeds
 
@@ -305,6 +299,7 @@ No maximum level for metals in sesame seeds was verified from primary text for t
 <a id="what-conclusions-require-finished-product-measurements-or-a-separate-exposure-assessment"></a>
 
 No source in the library converted sesame seeds concentrations into a verified estimate of intake for a defined population. Concentrations describe the food, not individual risk.
+
 
 <a id="coverage"></a>
 <a id="indexed-source-records"></a>
@@ -322,6 +317,7 @@ No source in the library converted sesame seeds concentrations into a verified e
 Every source record that names sesame seeds was decided on its content: 14 occurrence extracted, 14 records in all. The occurrence table renders every extracted result; held values remain visible with their reason.
 
 References identify the sources used in these answers. The Sources index preserves additional discovery links; inclusion there does not mean a source has been reviewed for this assessment. Corrections, completed searches, new direct evidence and changes in requirements should reopen the relevant answer.
+
 
 <a id="universal-faqs"></a>
 ## Sesame seeds FAQs
@@ -365,7 +361,7 @@ Inorganic arsenic, the more toxic form, was measured in 4 results from 2 sources
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to a source record with bibliographic details, reported findings, and document provenance.
+Works cited on this page, in citation-number order. See [Sources](#sources) for this page's source inventory. Each title links to a source record with bibliographic details, reported findings, and document provenance.
 
 1. [[sources/who-gemsfood-heavy-metal-contaminants|GEMS/Food Contaminants database heavy-metal exports]]<span class="hmi-ref-meta">World Health Organization · GEMS/Food Contamination Monitoring and Assessment Programme · 2026 · [extranet.who.int](https://extranet.who.int/gemsfood/?DisplayFormat=1)</span><span class="hmi-ref-tag">Dataset</span>
 2. [[sources/zverina2025-plant-dairy-toxic-elements|Essential and toxic elements in plant-based dairy alternatives: implications for vegan diets]]<span class="hmi-ref-meta">Ondřej Zvěřina, Pavlína Kosečková, Pavel Coufalík, Dominika Michaličková, and Eva Duborská · European Food Research and Technology · 2025 · [doi.org/10.1007/s00217-025-04775-1](https://doi.org/10.1007/s00217-025-04775-1)</span><span class="hmi-ref-tag">Peer-reviewed</span>
@@ -382,17 +378,11 @@ Works cited in this page's text, in first-appearance order. See [Sources](#sourc
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-<p class="hmi-table-note">Source records associated with this topic. Inclusion does not establish that every finding applies to this product or ingredient. References above identify works cited in the text.</p>
-
-| # | Citation | Year | Type | Used on this page for |
-| --- | --- | ---: | --- | --- |
-| 1 | [[sources/okorafor2026-nasarawa-seeds-legumes-metals\|Okorafor et al. 2026]]. *Risk evaluation of the concentration of heavy metals in seeds, cereals, and legumes sold in Nasarawa major market, Nigeria*, Journal of Interdisciplinary Postgraduate Research 1(3):36-45 (2026) | 2026 | Peer-reviewed | Contribution to this topic remains under review; see the source record for its reported scope. |
-| 2 | [[sources/potorti2026-tahini-quality-safety-inorganic-elements\|Potortì et al. 2026]]. *Chemical Composition and Nutritional Quality of Commercial Tahini*, Applied Sciences | 2026 | Peer-reviewed | Contribution to this topic remains under review; see the source record for its reported scope. |
-| 3 | [[sources/sadeghi2021-tahini-heavy-metals-voltammetry\|Sadeghi et al. 2021]]. *Simultaneous determination of heavy metals in Tahini by anodic stripping voltammetry*, Journal of Human, Health and Halal Metrics | 2021 | Peer-reviewed | Contribution to this topic remains under review; see the source record for its reported scope. |
+Browse [Sesame seeds Sources](../sources/index?topic=ingredients%2Fsesame) for sources cited on this page and additional discovery candidates. The searchable index distinguishes verified citation use from discovery relationships whose relevance has not been established.
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-No substantive edit history is available in this build. The full commit record is available in [git](https://github.com/paleofoundation/heavymetalindex).
+22 October 2026: Rebuilt from every sesame seeds record in the library: 14 occurrence sources, references by form and basis, same-study contrasts.
 <!-- END: hmi-page-history -->

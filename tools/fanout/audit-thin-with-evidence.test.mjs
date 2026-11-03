@@ -22,6 +22,9 @@ const script = fileURLToPath(new URL("./audit-thin-with-evidence.mjs", import.me
 const repoRoot = path.resolve(path.dirname(script), "../..")
 
 const FILLED = [
+  "ingredients/bagel",
+  "ingredients/english-muffin",
+  "ingredients/monterey-jack-cheese",
   "products/dairy-milk-camel",
   "ingredients/palm-oil",
   "ingredients/rice-milk",
@@ -193,7 +196,6 @@ const FILLED = [
 // Chunk 16 left these baseline ingredients unfilled. Later cited fills removed
 // chicken nuggets, corn tortilla, doughnut, lemon-lime soft drink, and ramen soup.
 const CHUNK16_LEFT = [
-  "ingredients/bagel",
   "products/barbecue-sauce",
   "products/broccoli-cheese-soup",
   "products/butter-crackers",
@@ -207,13 +209,11 @@ const CHUNK16_LEFT = [
   "products/cream-of-mushroom-soup",
   "products/cream-of-potato-soup",
   "ingredients/diet-cola",
-  "ingredients/english-muffin",
   "ingredients/fruit-ice-pop",
   "ingredients/fruit-snack-candy",
   "ingredients/gelatin-dessert",
   "products/graham-crackers",
   "ingredients/italian-dressing",
-  "ingredients/monterey-jack-cheese",
   "ingredients/pasta-sauce",
   "ingredients/pie-crust",
   "products/pumpkin-pie",
@@ -310,6 +310,7 @@ test("a cited block needs a source link and a concentration", () => {
 test("cited scope without a block stays thin", () => {
   assert.equal(pageStillThin({ literature_scope: "cited" }, "plain"), true)
   assert.equal(pageStillThin({ literature_scope: "populated" }, "plain"), false)
+  assert.equal(pageStillThin({ page_contract_version: "1.0.0", literature_scope: "thin" }, '<div class="hmi-analyte-explorer"></div>'), false)
 })
 
 test("fixture fails thin-with-evidence and clears a valid block", () => {
@@ -476,6 +477,7 @@ test("live ratchet matches the baseline and this chunk is clear", () => {
   const corpus = loadMetalMicrobiomeCorpus(repoRoot)
   for (const id of MICROBIOME_PAGES) {
     const markdown = fs.readFileSync(path.join(repoRoot, "wiki", `${id}.md`), "utf8")
+    if (/^page_contract_version:\s*['"]?1\.0\.0['"]?\s*$/m.test(markdown) && markdown.includes("hmi-analyte-explorer")) continue
     assert.equal(microbiomeSectionIssue(markdown), null, id)
     assert.deepEqual(microbiomeCorpusIssues(markdown, corpus), [], id)
     assert.equal(markdown.includes(NO_MICROBIOME_EVIDENCE), false, id)

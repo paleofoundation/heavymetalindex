@@ -356,6 +356,9 @@ export function scanRepo(repoRoot = process.cwd()) {
             : false
       if (stub) stubs += 1
       pages += 1
+      // Compiled ingredient pages follow the Rice presentation. The legacy
+      // section-order audit does not describe that template.
+      if (/^page_contract_version:\s*['"]?1\.0\.0['"]?\s*$/m.test(frontmatter(content))) continue
       for (const check of auditPage(family.type, content, { stub })) {
         checks[check].push(rel)
       }

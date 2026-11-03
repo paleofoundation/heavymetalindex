@@ -74,6 +74,9 @@ export function citedBlockValid(markdown) {
 }
 
 export function pageStillThin(frontmatter, markdown) {
+  // A compiled page carries the findings explorer. provisional_scaffold on
+  // those pages is engine metadata, not an empty article.
+  if (String(frontmatter.page_contract_version ?? "") === "1.0.0" && String(markdown).includes("hmi-analyte-explorer")) return false
   const scope = String(frontmatter.literature_scope ?? "")
   const provisional = frontmatter.provisional_scaffold === true
   const inScope =
@@ -323,6 +326,9 @@ export function auditMicrobiomeSections(root) {
       continue
     }
     const markdown = fs.readFileSync(abs, "utf8")
+    // Compiled pages use the Rice section set. The legacy microbiome heading
+    // is not part of that article.
+    if (/^page_contract_version:\s*['"]?1\.0\.0['"]?\s*$/m.test(markdown) && markdown.includes("hmi-analyte-explorer")) continue
     const issue = microbiomeSectionIssue(markdown)
     if (issue) failures.push({ id, issue })
     for (const corpusIssue of microbiomeCorpusIssues(markdown, corpus)) {
