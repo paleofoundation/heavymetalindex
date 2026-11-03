@@ -3,7 +3,6 @@
   "purpose": "Preserve published hero image identity across evidence compiler rewrites; no scientific content is imported.",
   "assets": {
     "/static/heroes/air-dispenser-refill-bottles.webp": "60f78a973acf4fd08e7e9bee744e9cb00d69a8541a7598d4d0abfd8337c34224",
-    "/static/heroes/algae.webp": "70afd7425e2f303fdc36ba0239c0183fa1fa52ff7bc9475bad524f8060b94e71",
     "/static/heroes/alliums-garlic-onion.webp": "ad313019b85e137777433b2027940c4b451c88b8b3c055e30736ffbb510dee77",
     "/static/heroes/almond-plant-beverage.webp": "2194beb0f48ea342dbc6091edd8b08e17548f3d08b7f9c308859d8f83b63e7a3",
     "/static/heroes/aluminum-tea-food-contact.webp": "fd935d72404f9c376586ec93e9b5d05c5f4c45772598a028fdb9b52abfa8b61d",
@@ -14,7 +13,6 @@
     "/static/heroes/arsenic-rice-water-soil.webp": "b1afc3aee7d4f999580f980459da40ff746490b015089539c90d17b0e1f9cfda",
     "/static/heroes/art-craft-unmarked-materials.webp": "7fa70bfe5af27e41827f7ba738adcf63db7a1b63bf2a161e099a77d6c7401f16",
     "/static/heroes/avocado-whole-cut.webp": "4033483f6b191a933babccc19cdaaf8a84eae3276ed838fee665b765bbdfb21c",
-    "/static/heroes/baby-wipes-open-pack-nonwoven-sheets.webp": "15475641ef1518a4fc962412f2275c12ee0e55531f10c2a934254e136d4ee25a",
     "/static/heroes/bagels-plain-whole-cut.webp": "7abf8bc8db8ccf7b3ec4f6db1e6652e5c5a95454c93b90c82fd67427d09efb3b",
     "/static/heroes/baked-foods-biscuits-crackers-muffin-brownie-crumbs.webp": "b620f0328227c483d6ce2001a49b2be3731b7a6511a45de4dab150d9971cb6a6",
     "/static/heroes/bakeware-metal-ceramic.webp": "83bdde76ff7a1ff38666e8b47a200a6a2ba40b10703663128c958179a478bd87",
@@ -28,27 +26,21 @@
     "/static/heroes/beverages-beer-tea-juice-water.webp": "3b0ec52131adbcf96aeeb1bad288f0cef93511c7263b0b7bfe9b0fdb0ea17af5",
     "/static/heroes/bibs-neutral-fabric.webp": "e1093019e9d601dcb789ee0edf824d47c6cba8b27466283113d69bce8a920e7c",
     "/static/heroes/billfish-steak-portions.webp": "1532decb2f39bfccec0fbfdd2c0ec0ff4539950d9f1cf114f8d289c9c19fc665",
-    "/static/heroes/biscuits.webp": "751948001b5b0d57a1dee95376436c75c8607e311e7fe6365cf1a519ce320f85",
-    "/static/heroes/bismuth-crystal-specimen.webp": "f0041461e011bcb55c31e3bb37c860f3a24647f3660857eb245522b9ef224d07",
     "/static/heroes/black-beans-dry-cooked.webp": "ea65fe1b1dd178bb1b0ecc63b20fca1f012443b1cdb4aa69628bbe0ba04433b2",
     "/static/heroes/blankets-sleep-sack-fabric.webp": "ead9bdea47f6cdd2aeee13bae34675eac53009128743f2b6fe48fdfafc29916d",
     "/static/heroes/blender-processor-empty-jars.webp": "a35f1aa09911fce560709680f2140dd168ee05d8bb7378a37a4f96fb02ed978f",
     "/static/heroes/bologna-luncheon-meat-slices.webp": "3a751cd4cd0d9b5440d904c5a335b542fff61e7c5a6737615d62bdc129b5e7c9",
-    "/static/heroes/boron-borate-minerals-dried-fruit.webp": "65b6fd455f0f64ce6aef66a36aab9186bbc6e56a5765813e677b134e496a9848",
     "/static/heroes/botanical-cuttings-rooted-seedling.webp": "f7b2f4a2b555c52b3a5412d7809a7bff28f9087be995f8b36ea05909cb82bccb",
     "/static/heroes/botanical-extract-wax-dropper-cartridge.webp": "40eca7343c87dc3cc634d4d2576cce68da573a2bd0faf807b503fc5adffa54bf",
     "/static/heroes/bouillon-cubes-seasoning-powder.webp": "2b885b6e067386fd9b62795e42d7bffdfe1e02383db2802e61cabc27a51ae027",
-    "/static/heroes/brassica.webp": "da3927562620df75cc83d1fe5b6e75d1b8e7e4eb70f1be51d4b3ee362ff15e82",
     "/static/heroes/brassicas-cabbage-broccoli-cauliflower.webp": "5906eb10d88f94e58261f9b9b89a7cf30d06a1a19c012e5e3dda37daabd76c88",
     "/static/heroes/breath-freshener-spray-strips-lozenges.webp": "0ed7c4e08e689b2488fd1caf0104d88cadcdebed7014587a074d97cabad0e066",
     "/static/heroes/broccoli-soup-brown-gravy.webp": "58b34211609ce19a630a4f111fe1d5cb0bf1d9588c00dd8dce70ed9e31802799",
     "/static/heroes/cadmium-cocoa-grains-crops.webp": "d7553e08dad79c52b80e89435700659b4cf3cc20fd233fcf4a03c1cd9a1699aa",
-    "/static/heroes/camel-milk.webp": "1163d34dd4cb05c5401a7bc04cc3f804683790489d5b23d550ed8b2e7511e248",
     "/static/heroes/candles-wax-blocks-unlit.webp": "75504861f3a8c6e8568be75fd54b8c6280d60835f7f16aa6f2c6e0fa29f3873f",
     "/static/heroes/cannabis-dried-flower-unmarked-bottle.webp": "1334cb620a799374be26008e65a52e7f16218d2f7b6aa79b2e484fa5c66cc0d6",
     "/static/heroes/canned-meat-unmarked-tin.webp": "c351742df32a7bf1abd02ba7201fd74e619775e68e5ee79c27dec549c7ce7070",
     "/static/heroes/canned-mixed-fruit-cocktail.webp": "976c7e44ce7eab93693323449ab3063bcec6692c19b04f235314370bc1be5394",
-    "/static/heroes/canned-mushrooms.webp": "5fbd5e75c8ec7e80920553698c20f25ca02e16694dbfc2387f7eddb791c4bea7",
     "/static/heroes/canned-pork-beans.webp": "6f0d72757ab6de224317f6a781d185b4e5679209a82bb928f585e416296b4687",
     "/static/heroes/canned-spaghetti-tuna.webp": "14d2730dec8da84ed01203c44f8cdd79e38e77b8f51634eb4bb5f450f13b73d7",
     "/static/heroes/canned-vegetables-corn-green-beans-mushrooms.webp": "57646c49e11234edc7304681a874144a36692d775b70ac659a7e012ad83bee19",
@@ -82,10 +74,8 @@
     "/static/heroes/cookware-coated-pans.webp": "068076328329b301e51c7b816ee3ecb1361c75fe7968462a9f5d7f3d09087050",
     "/static/heroes/cookware-stainless-castiron-copper.webp": "0751728dac7bfd0beddf4f544824b78dc572eec8d68364c02d7cdbd5bbf7ee74",
     "/static/heroes/copper-water-lentils.webp": "af26019b5afa1276d011dfe598b22c70cd6f5b4a631c7decf22f2a34e04c2c8e",
-    "/static/heroes/coriander.webp": "260eef4a55ed5f8a039a8d029dc7055af6935953d46624486cf03b4e3d3e73d0",
     "/static/heroes/corn-flakes-grits-tortilla-cornbread.webp": "09154fb3a4d4032c9180b9478188eba50cdccdbcf341a8098038ca18a1804361",
     "/static/heroes/corn-oil-cob-kernels.webp": "8bd82d4acbc574b5fe3746979995947dacdaec1dea16441cd4f0b42c2eead34e",
-    "/static/heroes/corn-syrup-kernels-glass-jar.webp": "970fb725a304b2ac7508b5fc94b46c65ac8bc5b993ef40671c59c08b5f85412b",
     "/static/heroes/cosmetic-cream-jars-tube.webp": "b073aeaed21c91999279e41df55c7d7e5fb51e517226ee66438daef3bcff77ad",
     "/static/heroes/cranberry-juice-fruit.webp": "9822255fbd8dd3163069c354ef96b9a903501f999869fa19106961fd26c3fd80",
     "/static/heroes/cream-soups-mushroom-potato.webp": "3de99246f2101094c09213c425a9e09e8b4dc1985430137a4f28d8ce6769beeb",
@@ -99,7 +89,6 @@
     "/static/heroes/diapers-plain-folded.webp": "5396dc0e939dfbd057bc181d7c08f91d3340e47c18dede8a66ebcf4fb31791c5",
     "/static/heroes/dill-pickles-unmarked-jar.webp": "ec27f1c1f5ab99118c310365027459ae9db9f0af32f8f99f2a4828a2e8d4da62",
     "/static/heroes/dishwasher-tablets-powder.webp": "a757af7642e4c810c58c77bcc2a09acecd89560c2337bf02bcc986f8b7a0f38e",
-    "/static/heroes/edible-insects.webp": "f9f9335f291822032e22b67909ca001825204cd5fca0e7aa50fa9d83a4e903c6",
     "/static/heroes/edible-oils-olives-sunflower-seeds.webp": "6ba15f4e9d7449065f4bc7f2e0fc17c022cb8a417405808ca55317efe690d41e",
     "/static/heroes/eggs-whole-cracked-boiled.webp": "e8509a05ae7a8a464597c4f3faae2f4dd67330d2411be59a00c8c56c29e394ea",
     "/static/heroes/electronic-material-components-plain.webp": "e84f0e1fe1834ddb2701527c0d5ace7feeaa341a657f51beda7e7f12e3163f77",
@@ -114,11 +103,9 @@
     "/static/heroes/fibrous-craft-soft-toy-materials.webp": "e942f3678e8b59eae13f3190b27373ee3c2f57e89f633cac593533b324325470",
     "/static/heroes/filter-cartridge-housing-media.webp": "70353cb74cd542cf51e35ce83e52c9f100f63d20ebe8be1295d1789c25c3084f",
     "/static/heroes/fish-fingers-breaded-cut.webp": "232c5185c39229925dcf489c9552d260ae4a94ee1bea1ec09049cd16c1729d61",
-    "/static/heroes/flaxseeds.webp": "adf9435021f28b18685aa833a959bb33c45b240e3e99eb33642fc44da0185618",
     "/static/heroes/floss-interdental-cleaners.webp": "498e19b1bf08b327101f6f30cabe34202f56007fe9273c8c9bf4f4aebc9f231c",
     "/static/heroes/fluorescent-light-tubes-unlit.webp": "cae3b49cda35d7a59c659dbb3e78dddebd6dd2e5d817c17249ded69d95a17c18",
     "/static/heroes/foam-dart-toy-launcher-plain.webp": "228488508bbdde5137f5bfece38eceee13119828920fe7c00209b70e8c83b58f",
-    "/static/heroes/food-additives.webp": "3e3f09f17c6a8c11aa2208a7c13b1fd1d62f75e91743d9e7c585ece2d3e15e30",
     "/static/heroes/food-packaging-cans-jars-caps.webp": "99d7564fa8e132794c27ba540ee3b23a4a41e61500d710f38a39e041fc46a468",
     "/static/heroes/food-packaging-pouch-film-foil-carton.webp": "0f3d9aa27a157f56928f9e30ac5aa8874b7f885775646b52d71d4d051250044d",
     "/static/heroes/food-storage-containers-lids-pouch.webp": "e268a9f85fa2b7b91df865a045d9e6280f94296a93d27625ad16a85dbf7b383f",
@@ -129,14 +116,12 @@
     "/static/heroes/fruit-ice-pop-jelly-hard-candy.webp": "6f104fd74b8057ca5b76cc98087c8cf3011dbe3a9efb1f92bdb14cfaa07c67a2",
     "/static/heroes/garden-vegetables-tomato-cucumber-asparagus.webp": "fc0669b2d2555f3c8a2029ecd7cd5b506313db629975e0c6323efe74504f394d",
     "/static/heroes/gel-oil-fragrance-diffusers.webp": "07b6e695bb09ce060370bad8ff084d6969a04119cedde0f4f8fc70ca2c3b78a8",
-    "/static/heroes/germanium-metalloid-electronics.webp": "54138001bfaf70d973353add96d25f4362f09b8a165c150e6cf5fb19afb16e68",
     "/static/heroes/golden-oil-unmarked-bottle.webp": "3fbbfb677399df019d7a4fc2550f879b049c9af6c5ee23b25e0a23d281a0962a",
     "/static/heroes/graham-saltine-crackers.webp": "ce19060d0771b97ffbf4be59ab00f0fb84fb7a868b76ade8f3f98089046cbc00",
     "/static/heroes/grape-juice-jelly-gelatin-dessert.webp": "a29c9a30fc5dae58999abc19c5da2e97a0566e7f152ec1755c731b3252b40b15",
     "/static/heroes/green-beans-frozen-peas.webp": "961a5c222824fd238200269ff0d079fa263a71cf783fff15d419d52bb040a441",
     "/static/heroes/ground-beef-mince-patty.webp": "20b5ce5dbc8bc775d2a26f8d7ade81990ca743312f34bc71a6568e0602f47d26",
     "/static/heroes/ham-roast-slices.webp": "5e100fb7461f270c13c1e0246454e3fdb4e529bcac68a083347bb2f9263a62f8",
-    "/static/heroes/hemp.webp": "0dc94729b719ab03f835ac6b5a248748aff20b779a8b3ad22beb3e2d27b4cd61",
     "/static/heroes/herbs-fresh-dried-cumin-seeds.webp": "1abc2968cec772c4f4775de1b52eeec2efd84cdd00e5caba76151b8ed25dac85",
     "/static/heroes/herbs-sage-rosemary-thyme.webp": "a0262172007f07d7ee2ccefd3aef47e4ab7a78f25cfdb779e06f6676443cdb79",
     "/static/heroes/high-chair-booster-empty.webp": "c6017e2c2a48e3a8ffe8a19cdfd9b933707c75b4266051f38b1eea6b317bc03c",
@@ -144,7 +129,6 @@
     "/static/heroes/hot-chili-sauce-peppers.webp": "8a2be28981170a09200b51abfd9acf4928a1075bec140cd6d213ad48e8f2c10e",
     "/static/heroes/household-cleaner-bottles.webp": "1e6370f68d9426fc7985aa09cad78a826bbccc731ba09f5982551adc866e75a1",
     "/static/heroes/incense-sticks-cones-unlit.webp": "d34339fabe63c6d7924061673bf0a7ab8bcb2cc26d84b1f9ae097541bab3c95e",
-    "/static/heroes/indium-ingot-glass-panel.webp": "fb54361fc721754f2ef94da67ad9ea7f4861f2db0e65198fd1bf68a6300462a0",
     "/static/heroes/infant-cereal-rice-oats-porridge.webp": "87af0a5e5a247c1e2c82c9cbe5df76cfbe6140982db1722d3e2282f9c56354fb",
     "/static/heroes/infant-clothing-folded-plain.webp": "d9388c7bcf3f0053d35d302482cd80dd716e77a66ea4919f555c6bcdf54375a1",
     "/static/heroes/infant-food-purees-unmarked-bowls.webp": "00123ce244fafec5b3fc0a084b7329c0434aada2aabac3c86c3dca02040a42e1",
@@ -156,13 +140,11 @@
     "/static/heroes/jujube-fresh-dried-fruit.webp": "274bd0e3fce68c46d32a64b02c4bcb7531fbae8d1356e8a68b79db286974aca9",
     "/static/heroes/kettle-open-metal-interior.webp": "1cdf1011dbe59e9dfa2ec8141972f32f7388b04b16c32869bfcd2a594bf344f4",
     "/static/heroes/kitchen-utensils-metal-silicone.webp": "f5145d3965353e5e837e965efd8acfcdfd0c60176a47bbcfffb038674061b871",
-    "/static/heroes/kombucha-fermented-tea-jars.webp": "26fc32ac3539b9c904d75f808fb769956977402dee197e8cb1a0455f5b0ae52e",
     "/static/heroes/lamb-chops-bone-in.webp": "b530561f0b0b01d426e75237598a26ae6b24285f84f77f9b4cfd0cd96a36b382",
     "/static/heroes/laundry-fabric-spray-sheets.webp": "03f0dcd12ee4903d30cffd983d469c6b215cd2291ba4b2fe5153b1ce023456cb",
     "/static/heroes/lead-food-soil-water.webp": "3383b306e623dafce1e768b57b5e22df2a3b5ffc5aa3cf7a3a7d2bed2e91d780",
     "/static/heroes/leafy-greens-spinach-kale-lettuce.webp": "e6fe040e4524816b4855fe4dc09247f1a5f089213e6360345df0d0baf98ef2b3",
     "/static/heroes/leather-swatches-plain.webp": "8cd0f3b06200e4df81d059385c55f86ae4682470464c86bd02797ebe0c28a0ed",
-    "/static/heroes/leeks.webp": "47cf064d12c03d898fce9e24a48887128bb6efe4ffb6a6f2074effa105c052af",
     "/static/heroes/lemon-lime-juice-soft-drink.webp": "d0422cfba1b0f59f8242430a4064f49916d8ddd979c7dfa17f652c6084880b5d",
     "/static/heroes/lima-beans-green-dry.webp": "d9a16def56bdbcebc9fea6b8d6c76151debf9fe509e5ad1d820fbcf8d3ea2fe7",
     "/static/heroes/lip-balms-cosmetic-compacts.webp": "dbd65b4b8e6b5aca0f9e1815b5612af7b5e06d0a4f94462b1410fc0a870096f7",
@@ -179,21 +161,16 @@
     "/static/heroes/mercury-fish-water.webp": "7b9f43186f2ba3ff328ec8debaf329ab1396f4a38f92651e88e8580060432e71",
     "/static/heroes/milk-cream-unmarked-can-bottle.webp": "adf20a3c604a2cc175383489540ef38f37782ab0d3bb1872917acfea661e7301",
     "/static/heroes/mineral-earth-powders-unmarked.webp": "110c5ffdcc41b5bd1e780bb01efd72070bafab38d64586a70f81f1395e79fee1",
-    "/static/heroes/miso.webp": "59700b6be45e62bd3781710294c2a0f54bff9fa7fd8bc24e15de29eb1f375b8b",
     "/static/heroes/mouthwash-unmarked-bottle-cap.webp": "94cecd8c9115141083b92f5257df25066268df51fcb62cae2031e31244949cdb",
     "/static/heroes/mushrooms-fresh-button-oyster.webp": "a168dee62c8328c630b29d0991f62aa4e3601ea6edbbf0195dbcbe44628c0512",
-    "/static/heroes/mushrooms.webp": "8eb48ad685e0b34b570fc45d5c1496d5e81722c26b0e6f02fe0a79b1220a86a2",
     "/static/heroes/mustard-yellow-seeds.webp": "7f9f848895729eb02972ded30bcf100cb4ef920e69276ae34d1b3ede9425eff1",
     "/static/heroes/nail-polish-unmarked-bottles.webp": "1cbf7fb8b9c40bf78132e1f9c9cb689d80da33f7e2bd433d60bfb78fae335a14",
-    "/static/heroes/nail-polish.webp": "c6a6b0b876f5862ef70cc16dab1010656f2d6927bbadceb4531f1f2739fb77bb",
     "/static/heroes/nebulizing-diffuser-empty-glass.webp": "f3f1d0a4397666d749d22ba7bcfd9ce66a35c68d9bb9c3c4c02576fe1058c761",
     "/static/heroes/nickel-legumes-nuts-cocoa.webp": "bfb063f851212a9201d837e2f1cf2bce32888c2810cf653d4abfe7185aeacc4d",
     "/static/heroes/nut-seed-butters-almond-sunflower.webp": "add40a7bb591782689dbb9bd1c55154e9e91d5983cabb41847c11d089dc681d3",
     "/static/heroes/nuts-seeds-cashews-almonds-walnuts.webp": "c9f0dedc760814be63887cf7eedfa105537b5bca6ac18a6436283587769a9502",
     "/static/heroes/oats-porridge-granola-bran-cereals.webp": "1b932624c063ae89de5e02d94ff840f561453cf883b5c33b1c7ec9bbc58cc313",
     "/static/heroes/oilseeds-flax-sesame.webp": "ed8a57cb731ccf7860767ba4632ec9de8d04db2290d994a442bd263705f6e873",
-    "/static/heroes/oilseeds.webp": "b928c7ab30928913f31f868c7aa3b37efb887fd46591be2a99488af5432d0b67",
-    "/static/heroes/okra.webp": "21cbaf347b23ca0f593ab0086226baa49fefd76717fb66585e31efd249f39a71",
     "/static/heroes/oral-care-tube-tablets-tray.webp": "3a6013ea5119b5e87defe8637534e70466ec8786a20b7c91ffc11d5dc7fd40d3",
     "/static/heroes/oral-irrigator-reservoir-tips.webp": "3e34850775cc41cba8bcf629cd3562fe2c712233167c9830fe531354bc686422",
     "/static/heroes/oral-liquid-supplement-bottle-formats.webp": "184bcfe433271591433bd75e7112ef3496cde476f0d00548ef67d6a81fa2a69a",
@@ -206,7 +183,6 @@
     "/static/heroes/pancakes-amber-syrup.webp": "2cafd31879b5872b02c9e8479eefccdab58f1c63bfaab4d75d2206cabf9092e4",
     "/static/heroes/pasta-noodles-quinoa-grains.webp": "0774a863aa20acfb5e59041d546b6af82d5b40b30388ce5cec00e09e280509cb",
     "/static/heroes/peanuts-butter-golden-oil.webp": "5dc315490e2bc3ea19304d1e60aecc30a36db9e713ee674d92b5719e133f71ec",
-    "/static/heroes/peppers.webp": "b57de32c30b4491babb87a9e43967a32063926ececf0ac142c5c18bfd488e7db",
     "/static/heroes/period-underwear-plain-folded.webp": "085dd6ec9a40c2de26261d5dfdd8cfedc37ec9c77f414153997c5d6c8b93119d",
     "/static/heroes/pet-chews-treats-plain.webp": "9792df34da2a436de912bc6f131d2caad3c7e197503e2cb838e2a37264a077a5",
     "/static/heroes/pet-food-kibble-wet-food.webp": "b8d68f576d2284f396082222f0107ce00e6ce0166db74306e6b46471a818a0cb",
@@ -216,7 +192,6 @@
     "/static/heroes/piercing-stud-posts-backings.webp": "887d1d35f61d754b1f85f30f5c72b2c942f347763fa7c5d1981387f53be1f818",
     "/static/heroes/pineapple-juice-fruit.webp": "946da9fb047c105f8ba8ca449b54c948c8259b23726e8e9e25e8b341952216fc",
     "/static/heroes/pinto-beans-dry-cooked-refried.webp": "807a9d35b603799d9f5d9cf6ebe3d8801cc283a9d904907ef48811c19416ff7a",
-    "/static/heroes/plantains-green-ripe-cut.webp": "38c6924cb3f59b437357c3eba234ee8559419a213684c1c00488a010f823b041",
     "/static/heroes/play-yard-gate-empty.webp": "20aaff5a258962a25ed2737afdda94a7751507225a46579d7a90a09d1ecabb49",
     "/static/heroes/plug-in-evaporator-refill.webp": "a01195f71921631fc72848151f727b17dccafae8d4ab81f2397efe8489bac2ba",
     "/static/heroes/pomegranate-arils-peel.webp": "4fe8cae16f29e5dcefd6cabf2434b68d44852496b13e9804493d09bfd108c950",
@@ -231,22 +206,17 @@
     "/static/heroes/protective-face-masks-unused.webp": "af73164e77594c4bdb57ed92cd2fb58bf63a6fdfa4d0a37068e587c7cff6bdd6",
     "/static/heroes/ramen-broth-noodles.webp": "8bf2f8115bcf98a53daf22de6ec4e3dc065e4ecf6908604cf281e91049f098c3",
     "/static/heroes/ranch-dressing-herb-flecked.webp": "3acc37da711287ac2ca67ed664c7fd8e1b886bef956489a3998a3ad7732d0fa5",
-    "/static/heroes/rare-earth-ores-oxide-powders.webp": "1d4942f8c0fbc77898458ed742f49cd47e4d485f14a92f51a3f06c2e50c13b40",
     "/static/heroes/rattle-squeeze-bell-clip-toys.webp": "69ba8d35c89b46e7f51d5db45ec7d24c1b7210db80c5aa19e2de3e44e2558f3d",
     "/static/heroes/red-wine-grapes.webp": "b2d09990ca025f891bac4dd1878447f7614a7fb92ac5e8a0462bf6aa0fc2b51d",
     "/static/heroes/reed-diffuser-unmarked-bottle.webp": "20d85ffea003cd88e4c298887255e2e9de553f0ca384b5bbbb6c4e2f60b683ec",
     "/static/heroes/research-glassware-notebook-sampling-spoon.webp": "d6fe4d9fdbcd0997d7f1e552f5a538f60797d93998f3ed93a5c8abbfee58b127",
-    "/static/heroes/rhodiola-rosea.webp": "1dc2c04e9a9bf48d1b89f6f7d85879e3661d1bb4c10c22c1325fe919743bfc33",
     "/static/heroes/rice-grain-flour-noodles-cakes.webp": "3ceec61b76e872e8f5691e8305f250565d638566c039e7d355023d309654f0b5",
-    "/static/heroes/rice-koji.webp": "c659d9e74251c2bb8c7e92cf7916a553e31b1149e47b44c1c7129731a2385c0d",
     "/static/heroes/rice-plant-beverage.webp": "ae101cefd094c572ce8a088c32393ba249ec1a894801f36e8e441c9493d03d9c",
     "/static/heroes/root-vegetables-carrots-beets-potatoes.webp": "4b7acbbd1c22f9b3005dd28403dfc14f1928ad4b8abb216402fe18289b3bf0f2",
-    "/static/heroes/rubidium-lepidolite-mineral.webp": "82098721a38390e257ba8ba2a5963226cf03ef6981a26d1f08054b7bad9335b3",
     "/static/heroes/salami-cured-slices.webp": "1e5b7f5ad7c8c49004b11bf5af5e992dd8ab79e4962a8d7906041c53784f7322",
     "/static/heroes/salmon-fillet-portions.webp": "0e0b733366e7482287d3a8d8d8b6b55195f941346c22748b1c0f1141c95f22e0",
     "/static/heroes/salsa-chopped-tomato.webp": "02e29bad7db1d33410f5d1a0c359a75080666c00355aa966752a5b7e2bee08dd",
     "/static/heroes/salt-white-crystals.webp": "bddad8526fb695f269e06bafe082d9ad4635b9e42345c3dce259d8aad30bd8fd",
-    "/static/heroes/salted-fish.webp": "1777594eb626709e7dae8e614ed116604ef8506d2d7bdd95c4b8c48fe76866a0",
     "/static/heroes/sandwich-cookies-dark-cream.webp": "9caf7f3c1159fbcc4291054f70f81e622d80eb089c76bab52c6d8ecbe57a7094",
     "/static/heroes/seaweed-dried-marine.webp": "1dc454e54b3cc01c239d5965280da31390e35a1eb8705f49b41221576f8ed7d4",
     "/static/heroes/section-ingredients.webp": "6c2f0e135313b11ae9fc2d187fd55820c3931d0db98e28ca779edac1bef71a87",
@@ -254,10 +224,7 @@
     "/static/heroes/section-regulations.webp": "263d065d48385e5b9f69f271f70f65bf2e977447ae01f795cbe2e4b49c8beef0",
     "/static/heroes/section-sources.webp": "bf52dd7190b0c0f0f8836806185495220767bfe13909aeb06b21ea05213821c1",
     "/static/heroes/section-synthesis.webp": "cf409d24482309707bd0401f46d6d42fb334f1c020ed07329bf7a49c4f6c8be9",
-    "/static/heroes/selenium-brazil-nuts-fish-eggs.webp": "2c958b20aec715f1edc7d81b2ae53eae4dd2407d2d3f883a499619e8c749f85e",
-    "/static/heroes/sesame.webp": "bbb8dd971d64dde65468d1247e4b65442c294467e286912ea47e4ff23ba97cc2",
     "/static/heroes/shake-unmarked-bottle-glass.webp": "249d25f8183e974971d4a8155640e638e99dac4121bb092cd9e52d573a1de1af",
-    "/static/heroes/sheep-casings.webp": "e7f08d7a775ab064fc86377718bcdae64fb456921ced4dd4084d0b29460b04e9",
     "/static/heroes/shrimp-shell-on-peeled.webp": "450624f8cbbbf7aea211e005bc5160238e1fe9237ebf5fb431979a8118fc8796",
     "/static/heroes/sippy-cups-spout-straw-components.webp": "b2eabd5a43f2b78b1d2b4a248682e77e397b7f8f8a174417d96af30969118472",
     "/static/heroes/small-jewelry-unmarked-metal.webp": "dbb7669456199abb57bd50a6fa6e28cd4e05c0e80d79f1e2906d272a71b75ee3",
@@ -269,18 +236,14 @@
     "/static/heroes/soybeans-tofu-powder-sauce.webp": "654ba26105accba60dc33d14555b3d1551debea93a2accddfac8792d7d33eb16",
     "/static/heroes/spices-peppercorns-cinnamon-turmeric.webp": "43d7c9eaa45440d02a5c4ba8edeacde1afb8d394cec4afc28ac3fd6d6a0b03bf",
     "/static/heroes/spirits-clear-amber-unmarked.webp": "ef1b7b5e6d1a39fa51c4bc62792e03f26d950d89732165c43b604418f96e04b4",
-    "/static/heroes/spring-onion.webp": "d6e7c98762e0d979096613814314667142487bc84cdb67c9f2ec26c1d2ba5fad",
     "/static/heroes/squash-butternut-zucchini-eggplant.webp": "236bae09549dcb58405173f6cb253804fb42a5926a550c92dad6ab3a7690a55e",
     "/static/heroes/stroller-empty-burgundy.webp": "1e5b08e9e3307e13034b75566b4b4a005c5c1c57ddadcf45ad2b6caa0934098a",
-    "/static/heroes/strontium-celestine-water-soil.webp": "e34c8abc004ab8a578223d8d5dafeb0a89a0b1cba21bc08ecd7ceed1482a1b91",
     "/static/heroes/sugar-cookies-toaster-pastry.webp": "13ceaf7d47f9cf9d345c8fd3c21f88e36df8cb14c503fdc4930b8baccf502040",
     "/static/heroes/supplement-capsules-powder-jars.webp": "22769cfde53c585dffcf65ee5211b1b1ee79392dccf79ca62e59c962479ab375",
     "/static/heroes/swing-bouncer-empty.webp": "58fadc91ef18a8c49d124bf3f0406c086b09c7c306eec71e9e75cf6d5b311b20",
     "/static/heroes/swiss-cheese-holes-slices.webp": "41a416318c1f309007ef79521ddd37fb1365362b9bacb8d73fa8a4bdab0394ca",
     "/static/heroes/tableware-ceramic-glass-metal-plastic.webp": "07bf63136f697ac38c155158c52890d187722310c12621c509560ef923704429",
-    "/static/heroes/tahini.webp": "631a49fab0ddcd5e9b966091577a174817ca4e7f6e7e23497387c550c2e6fd9c",
     "/static/heroes/tattoo-ink-unmarked-bottles.webp": "dc201e2b2f5844607dc9973e5d26cd0fa8c4f8898f258200f908c693e1d908d4",
-    "/static/heroes/tea-infusions.webp": "b2b730352dbc439f2f2fb6c3fd9c87d4aa60a853f102bc7e758efc950a1761e6",
     "/static/heroes/textile-fasteners-snaps-zippers-buttons.webp": "152a03166902b262aa80e9f6aa95fcafd5a26230c313e45c87657fde7d64b068",
     "/static/heroes/tin-canned-tomatoes-juice.webp": "017c8cad11388350a65e23c34720b07a309d2b917f0f1bd9b8ea5e35cd0e09c3",
     "/static/heroes/tomato-pasta-sauce.webp": "aeadfb5fe49f8600a4f52621b874590460e9883e18c705c5676d695c9f2f77b4",
@@ -291,24 +254,61 @@
     "/static/heroes/toy-mobile-plain-rings.webp": "8a3af2ef457c14a707d35656ab687129f6feca8c2752689b2b8b904d7338ee25",
     "/static/heroes/trace-metals-geology-laboratory.webp": "6c2f0e135313b11ae9fc2d187fd55820c3931d0db98e28ca779edac1bef71a87",
     "/static/heroes/tropical-fruit-banana-mango-pineapple.webp": "9887a54e8ab98cb14198faa2add32bea8fa6abb3a1b8ca612ae7685f96bcf1bf",
-    "/static/heroes/tungsten-ore-rods.webp": "e26b31537a4659e114d7197f2afd3b5492c09480a2c0a5067fad2e3dc34328e7",
     "/static/heroes/turkey-raw-cooked-slices.webp": "de7bc86e13110186ad65c970cfac1c5ae92562a0df05868a520812b92a319f56",
     "/static/heroes/vegetable-beef-soups.webp": "4720eba6f78cbc36003ab3a1275680ad32f83b8ee163cdd13d0956c0b50ae611",
     "/static/heroes/vegetable-burger-patty.webp": "7589ccfcc783a3e4c8014e934bdefb571b282091911efb92e8ee2287de100ea1",
     "/static/heroes/vegetable-juice-tomato-carrot.webp": "3f0962976826aa7a12ce4d5c6a3f7b5c5506aabe009177a782c26a4a29d4e2a6",
-    "/static/heroes/vegetable-juices.webp": "88eb1046c8ded08ffb499369d516f87228656ffc125cd2eff5d416fd1462390d",
     "/static/heroes/vinegars-apple-cider-balsamic.webp": "884543ded2def30459b49c400e6d237e0222eda700cceb30faac0dbc410e3245",
     "/static/heroes/walker-empty-neutral.webp": "b5f926e55aa3b8f0409971f34ed411a9748f55ff2293453861dd10c9584f138f",
     "/static/heroes/washing-soap-bars-pump-bottles.webp": "a34225c401f34797781f47316cb9bb43d45c9428d7dd18130a1180fdebdc313d",
-    "/static/heroes/water-lentils-duckweed.webp": "b32cf3ce551695ef667f94a5bf1dad67837dbc1c74cf26a6c2632028d7cc0be6",
     "/static/heroes/wheat-cereal-biscuits.webp": "075555a9784a90e836a3b49880c62835fad54a4bc388c6e75d91764ed5e7cc39",
     "/static/heroes/wheat-grain-flour-bread.webp": "66901673f57c90af5b9b1fa26a76739f8d7ef50d00dd6b963c5111925bfc36de",
     "/static/heroes/white-cake-slice.webp": "2344deac442bbcfb5347b6c964fa794c39f3b2a7bbb983a46baac7188a56c845",
     "/static/heroes/white-sugar-granules.webp": "1188517c6728c73969c233f6279e6542d9a271d1d82b66742f1e6d5f4393bf10",
     "/static/heroes/white-wine-grapes.webp": "0568224936c55dd5c092f0ec09d1927431fc56e40f41e0446fad56050545f7a4",
-    "/static/heroes/wine.webp": "fc988433c07421f51404e7537c6db61bef40e206dac1bfead08f259de6159813",
     "/static/heroes/wipes-unmarked-pack.webp": "3e299c9a8b6f30b9e7ac2b6ad72f1d9885475d3f7b43299ad85418227a5f60db",
     "/static/heroes/yam-whole-cut.webp": "b03d1259304a4d738aba69c3f35df2c56ce1f7a62c41118290009640996225a1",
+    "/static/heroes/plantains-green-ripe-cut.webp": "38c6924cb3f59b437357c3eba234ee8559419a213684c1c00488a010f823b041",
+    "/static/heroes/baby-wipes-open-pack-nonwoven-sheets.webp": "15475641ef1518a4fc962412f2275c12ee0e55531f10c2a934254e136d4ee25a",
+    "/static/heroes/algae.webp": "70afd7425e2f303fdc36ba0239c0183fa1fa52ff7bc9475bad524f8060b94e71",
+    "/static/heroes/biscuits.webp": "751948001b5b0d57a1dee95376436c75c8607e311e7fe6365cf1a519ce320f85",
+    "/static/heroes/brassica.webp": "da3927562620df75cc83d1fe5b6e75d1b8e7e4eb70f1be51d4b3ee362ff15e82",
+    "/static/heroes/camel-milk.webp": "1163d34dd4cb05c5401a7bc04cc3f804683790489d5b23d550ed8b2e7511e248",
+    "/static/heroes/canned-mushrooms.webp": "5fbd5e75c8ec7e80920553698c20f25ca02e16694dbfc2387f7eddb791c4bea7",
+    "/static/heroes/coriander.webp": "260eef4a55ed5f8a039a8d029dc7055af6935953d46624486cf03b4e3d3e73d0",
+    "/static/heroes/edible-insects.webp": "f9f9335f291822032e22b67909ca001825204cd5fca0e7aa50fa9d83a4e903c6",
+    "/static/heroes/flaxseeds.webp": "adf9435021f28b18685aa833a959bb33c45b240e3e99eb33642fc44da0185618",
+    "/static/heroes/food-additives.webp": "3e3f09f17c6a8c11aa2208a7c13b1fd1d62f75e91743d9e7c585ece2d3e15e30",
+    "/static/heroes/hemp.webp": "0dc94729b719ab03f835ac6b5a248748aff20b779a8b3ad22beb3e2d27b4cd61",
+    "/static/heroes/leeks.webp": "47cf064d12c03d898fce9e24a48887128bb6efe4ffb6a6f2074effa105c052af",
+    "/static/heroes/miso.webp": "59700b6be45e62bd3781710294c2a0f54bff9fa7fd8bc24e15de29eb1f375b8b",
+    "/static/heroes/mushrooms.webp": "8eb48ad685e0b34b570fc45d5c1496d5e81722c26b0e6f02fe0a79b1220a86a2",
+    "/static/heroes/nail-polish.webp": "c6a6b0b876f5862ef70cc16dab1010656f2d6927bbadceb4531f1f2739fb77bb",
+    "/static/heroes/oilseeds.webp": "b928c7ab30928913f31f868c7aa3b37efb887fd46591be2a99488af5432d0b67",
+    "/static/heroes/okra.webp": "21cbaf347b23ca0f593ab0086226baa49fefd76717fb66585e31efd249f39a71",
+    "/static/heroes/peppers.webp": "b57de32c30b4491babb87a9e43967a32063926ececf0ac142c5c18bfd488e7db",
+    "/static/heroes/rhodiola-rosea.webp": "1dc2c04e9a9bf48d1b89f6f7d85879e3661d1bb4c10c22c1325fe919743bfc33",
+    "/static/heroes/rice-koji.webp": "c659d9e74251c2bb8c7e92cf7916a553e31b1149e47b44c1c7129731a2385c0d",
+    "/static/heroes/salted-fish.webp": "1777594eb626709e7dae8e614ed116604ef8506d2d7bdd95c4b8c48fe76866a0",
+    "/static/heroes/sesame.webp": "bbb8dd971d64dde65468d1247e4b65442c294467e286912ea47e4ff23ba97cc2",
+    "/static/heroes/sheep-casings.webp": "e7f08d7a775ab064fc86377718bcdae64fb456921ced4dd4084d0b29460b04e9",
+    "/static/heroes/spring-onion.webp": "d6e7c98762e0d979096613814314667142487bc84cdb67c9f2ec26c1d2ba5fad",
+    "/static/heroes/tahini.webp": "631a49fab0ddcd5e9b966091577a174817ca4e7f6e7e23497387c550c2e6fd9c",
+    "/static/heroes/tea-infusions.webp": "b2b730352dbc439f2f2fb6c3fd9c87d4aa60a853f102bc7e758efc950a1761e6",
+    "/static/heroes/vegetable-juices.webp": "88eb1046c8ded08ffb499369d516f87228656ffc125cd2eff5d416fd1462390d",
+    "/static/heroes/wine.webp": "fc988433c07421f51404e7537c6db61bef40e206dac1bfead08f259de6159813",
+    "/static/heroes/bismuth-crystal-specimen.webp": "f0041461e011bcb55c31e3bb37c860f3a24647f3660857eb245522b9ef224d07",
+    "/static/heroes/boron-borate-minerals-dried-fruit.webp": "65b6fd455f0f64ce6aef66a36aab9186bbc6e56a5765813e677b134e496a9848",
+    "/static/heroes/corn-syrup-kernels-glass-jar.webp": "970fb725a304b2ac7508b5fc94b46c65ac8bc5b993ef40671c59c08b5f85412b",
+    "/static/heroes/germanium-metalloid-electronics.webp": "54138001bfaf70d973353add96d25f4362f09b8a165c150e6cf5fb19afb16e68",
+    "/static/heroes/indium-ingot-glass-panel.webp": "fb54361fc721754f2ef94da67ad9ea7f4861f2db0e65198fd1bf68a6300462a0",
+    "/static/heroes/kombucha-fermented-tea-jars.webp": "26fc32ac3539b9c904d75f808fb769956977402dee197e8cb1a0455f5b0ae52e",
+    "/static/heroes/rare-earth-ores-oxide-powders.webp": "1d4942f8c0fbc77898458ed742f49cd47e4d485f14a92f51a3f06c2e50c13b40",
+    "/static/heroes/rubidium-lepidolite-mineral.webp": "82098721a38390e257ba8ba2a5963226cf03ef6981a26d1f08054b7bad9335b3",
+    "/static/heroes/selenium-brazil-nuts-fish-eggs.webp": "2c958b20aec715f1edc7d81b2ae53eae4dd2407d2d3f883a499619e8c749f85e",
+    "/static/heroes/strontium-celestine-water-soil.webp": "e34c8abc004ab8a578223d8d5dafeb0a89a0b1cba21bc08ecd7ceed1482a1b91",
+    "/static/heroes/tungsten-ore-rods.webp": "e26b31537a4659e114d7197f2afd3b5492c09480a2c0a5067fad2e3dc34328e7",
+    "/static/heroes/water-lentils-duckweed.webp": "b32cf3ce551695ef667f94a5bf1dad67837dbc1c74cf26a6c2632028d7cc0be6",
     "/static/heroes/yttrium-xenotime-ceramics.webp": "23f4f0f6ec31e142cfebfa3e62c1d7631dec672ce29f47b702d080df1624d718",
     "/static/heroes/zirconium-zircon-ceramics.webp": "b6dea1d31b8c921bed5e9d9d0cd72600d15645caf1b246608f9b2e5133f477e3"
   },
@@ -533,21 +533,13 @@
       "hero_image": "/static/heroes/research-glassware-notebook-sampling-spoon.webp",
       "hero_image_alt": "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating heavy metal index research context."
     },
-    "ingredients/algae": {
-      "hero_image": "/static/heroes/algae.webp",
-      "hero_image_alt": "A bowl of dried kelp seaweed, a dish of dark green spirulina powder and a stack of dried nori sheets."
-    },
-    "ingredients/almond": {
-      "hero_image": "/static/heroes/almond-plant-beverage.webp",
-      "hero_image_alt": "An unmarked bottle and glass of pale plant beverage with a separate dish of whole almonds illustrating almond ingredient context."
-    },
     "ingredients/almond-beverage": {
       "hero_image": "/static/heroes/almond-plant-beverage.webp",
       "hero_image_alt": "An unmarked bottle and glass of pale plant beverage with a separate dish of whole almonds illustrating almond beverage ingredient context."
     },
-    "ingredients/apple": {
-      "hero_image": "/static/heroes/orchard-fruit-apples-pears-stone-fruit.webp",
-      "hero_image_alt": "Apple, pear, peach, nectarine and plums illustrating apple ingredient context."
+    "ingredients/almond": {
+      "hero_image": "/static/heroes/almond-plant-beverage.webp",
+      "hero_image_alt": "An unmarked bottle and glass of pale plant beverage with a separate dish of whole almonds illustrating almond ingredient context."
     },
     "ingredients/apple-cider-vinegar": {
       "hero_image": "/static/heroes/vinegars-apple-cider-balsamic.webp",
@@ -560,6 +552,10 @@
     "ingredients/apple-pie": {
       "hero_image": "/static/heroes/apple-juice-pie-applesauce.webp",
       "hero_image_alt": "A glass of apple juice, a bowl of applesauce, a slice of apple pie and a whole apple illustrating apple pie ingredient context."
+    },
+    "ingredients/apple": {
+      "hero_image": "/static/heroes/orchard-fruit-apples-pears-stone-fruit.webp",
+      "hero_image_alt": "Apple, pear, peach, nectarine and plums illustrating apple ingredient context."
     },
     "ingredients/applesauce": {
       "hero_image": "/static/heroes/apple-juice-pie-applesauce.webp",
@@ -665,10 +661,6 @@
       "hero_image": "/static/heroes/oats-porridge-granola-bran-cereals.webp",
       "hero_image_alt": "Rolled oats, oatmeal, granola, oat rings and bran cereal with raisins illustrating bran cereal with raisins ingredient context."
     },
-    "ingredients/brassica": {
-      "hero_image": "/static/heroes/brassica.webp",
-      "hero_image_alt": "A head of broccoli, a small cauliflower, a wedge of green cabbage and Brussels sprouts on a dark stone surface."
-    },
     "ingredients/bread": {
       "hero_image": "/static/heroes/wheat-grain-flour-bread.webp",
       "hero_image_alt": "Wheat ears and grain, wheat flour, white bread and whole wheat bread illustrating bread ingredient context."
@@ -681,13 +673,13 @@
       "hero_image": "/static/heroes/liquid-formula-closed-unmarked-bottles.webp",
       "hero_image_alt": "Two closed unmarked feeding bottles and a sealed container illustrating breastmilk ingredient context."
     },
-    "ingredients/broccoli": {
-      "hero_image": "/static/heroes/brassicas-cabbage-broccoli-cauliflower.webp",
-      "hero_image_alt": "Cabbage, broccoli, Brussels sprouts and cauliflower illustrating broccoli ingredient context."
-    },
     "ingredients/broccoli-cheese-soup": {
       "hero_image": "/static/heroes/broccoli-soup-brown-gravy.webp",
       "hero_image_alt": "A bowl of creamy broccoli soup and a separate pouring vessel of brown gravy illustrating broccoli cheese soup ingredient context."
+    },
+    "ingredients/broccoli": {
+      "hero_image": "/static/heroes/brassicas-cabbage-broccoli-cauliflower.webp",
+      "hero_image_alt": "Cabbage, broccoli, Brussels sprouts and cauliflower illustrating broccoli ingredient context."
     },
     "ingredients/brown-gravy": {
       "hero_image": "/static/heroes/broccoli-soup-brown-gravy.webp",
@@ -701,13 +693,13 @@
       "hero_image": "/static/heroes/brassicas-cabbage-broccoli-cauliflower.webp",
       "hero_image_alt": "Cabbage, broccoli, Brussels sprouts and cauliflower illustrating brussels sprouts ingredient context."
     },
-    "ingredients/butter": {
-      "hero_image": "/static/heroes/dairy-butter-protein-powder-milk.webp",
-      "hero_image_alt": "A butter block, an unmarked jar of fine pale powder and a glass of milk illustrating butter ingredient context."
-    },
     "ingredients/butter-crackers": {
       "hero_image": "/static/heroes/baked-foods-biscuits-crackers-muffin-brownie-crumbs.webp",
       "hero_image_alt": "Plain biscuits, butter crackers, a blueberry muffin, a chocolate brownie and a dish of breadcrumbs illustrating butter crackers ingredient context."
+    },
+    "ingredients/butter": {
+      "hero_image": "/static/heroes/dairy-butter-protein-powder-milk.webp",
+      "hero_image_alt": "A butter block, an unmarked jar of fine pale powder and a glass of milk illustrating butter ingredient context."
     },
     "ingredients/butternut-squash": {
       "hero_image": "/static/heroes/squash-butternut-zucchini-eggplant.webp",
@@ -716,10 +708,6 @@
     "ingredients/cabbage": {
       "hero_image": "/static/heroes/brassicas-cabbage-broccoli-cauliflower.webp",
       "hero_image_alt": "Cabbage, broccoli, Brussels sprouts and cauliflower illustrating cabbage ingredient context."
-    },
-    "ingredients/camel-milk": {
-      "hero_image": "/static/heroes/camel-milk.webp",
-      "hero_image_alt": "A plain glass jug and a glass of white camel milk beside a small dish of dates on a woven cloth."
     },
     "ingredients/camellia-sinensis": {
       "hero_image": "/static/heroes/matcha-green-powder-tea.webp",
@@ -769,66 +757,6 @@
       "hero_image": "/static/heroes/nuts-seeds-cashews-almonds-walnuts.webp",
       "hero_image_alt": "Cashews, almonds, walnut pieces and pumpkin seeds in a shallow ceramic tray illustrating cashews ingredient context."
     },
-    "ingredients/cassava": {
-      "hero_image": "/static/heroes/cassava-roots-flour.webp",
-      "hero_image_alt": "Whole and cut cassava roots beside a dish of cassava flour illustrating cassava ingredient context."
-    },
-    "ingredients/categories/beverages-and-water": {
-      "hero_image": "/static/heroes/beverages-beer-tea-juice-water.webp",
-      "hero_image_alt": "An unmarked bottle, a glass of amber beer, a tea cup, orange juice, water and barley grains illustrating beverages & water ingredient context."
-    },
-    "ingredients/categories/dairy-and-eggs": {
-      "hero_image": "/static/heroes/dairy-butter-protein-powder-milk.webp",
-      "hero_image_alt": "A butter block, an unmarked jar of fine pale powder and a glass of milk illustrating dairy & eggs ingredient context."
-    },
-    "ingredients/categories/fish-and-seafood": {
-      "hero_image": "/static/heroes/mercury-fish-water.webp",
-      "hero_image_alt": "Fish, a fillet and water illustrating fish & seafood ingredient context."
-    },
-    "ingredients/categories/fruits": {
-      "hero_image": "/static/heroes/orchard-fruit-apples-pears-stone-fruit.webp",
-      "hero_image_alt": "Apple, pear, peach, nectarine and plums illustrating fruits ingredient context."
-    },
-    "ingredients/categories/grains-and-cereals": {
-      "hero_image": "/static/heroes/oats-porridge-granola-bran-cereals.webp",
-      "hero_image_alt": "Rolled oats, oatmeal, granola, oat rings and bran cereal with raisins illustrating grains & cereals ingredient context."
-    },
-    "ingredients/categories/herbs-spices-and-botanicals": {
-      "hero_image": "/static/heroes/spices-peppercorns-cinnamon-turmeric.webp",
-      "hero_image_alt": "Black and pale peppercorns, turmeric powder and cinnamon sticks illustrating herbs, spices & botanicals ingredient context."
-    },
-    "ingredients/categories/legumes-and-pulses": {
-      "hero_image": "/static/heroes/beans-dry-cooked-baked.webp",
-      "hero_image_alt": "Dry white and red beans, plain cooked beans and baked beans in tomato sauce illustrating legumes & pulses ingredient context."
-    },
-    "ingredients/categories/meat-and-poultry": {
-      "hero_image": "/static/heroes/meat-poultry-beef-chicken.webp",
-      "hero_image_alt": "An unseasoned raw beef cut and plain raw chicken breast pieces on separate dishes illustrating meat & poultry ingredient context."
-    },
-    "ingredients/categories/nuts-and-seeds": {
-      "hero_image": "/static/heroes/nuts-seeds-cashews-almonds-walnuts.webp",
-      "hero_image_alt": "Cashews, almonds, walnut pieces and pumpkin seeds in a shallow ceramic tray illustrating nuts & seeds ingredient context."
-    },
-    "ingredients/categories/oils-and-fats": {
-      "hero_image": "/static/heroes/edible-oils-olives-sunflower-seeds.webp",
-      "hero_image_alt": "Unmarked bottles and dishes of golden and amber oils, whole olives and sunflower seeds illustrating oils & fats ingredient context."
-    },
-    "ingredients/categories/other": {
-      "hero_image": "/static/heroes/infant-food-purees-unmarked-bowls.webp",
-      "hero_image_alt": "Five unmarked ceramic bowls of smooth pureed foods illustrating other ingredient context."
-    },
-    "ingredients/categories/prepared-and-composite-foods": {
-      "hero_image": "/static/heroes/chicken-broth-noodle-soup.webp",
-      "hero_image_alt": "A glass vessel of pale clear broth and a bowl of noodle soup with white chicken pieces and carrots illustrating prepared & composite foods ingredient context."
-    },
-    "ingredients/categories/sweeteners-and-condiments": {
-      "hero_image": "/static/heroes/vinegars-apple-cider-balsamic.webp",
-      "hero_image_alt": "Unmarked bottles and dishes of pale amber and dark vinegar, an apple and dark grapes illustrating sweeteners & condiments ingredient context."
-    },
-    "ingredients/categories/vegetables": {
-      "hero_image": "/static/heroes/leafy-greens-spinach-kale-lettuce.webp",
-      "hero_image_alt": "Spinach, kale, collard greens, romaine and iceberg lettuce illustrating vegetables ingredient context."
-    },
     "ingredients/catfish": {
       "hero_image": "/static/heroes/catfish-whole-fillet.webp",
       "hero_image_alt": "A whole catfish with natural barbels and a pale fish fillet illustrating catfish ingredient context."
@@ -841,10 +769,6 @@
       "hero_image": "/static/heroes/garden-vegetables-tomato-cucumber-asparagus.webp",
       "hero_image_alt": "Tomato, cucumber, green bell pepper, celery and asparagus illustrating celery ingredient context."
     },
-    "ingredients/cereal": {
-      "hero_image": "/static/heroes/oats-porridge-granola-bran-cereals.webp",
-      "hero_image_alt": "Rolled oats, oatmeal, granola, oat rings and bran cereal with raisins illustrating cereal ingredient context."
-    },
     "ingredients/cereal-bars": {
       "hero_image": "/static/heroes/cereal-granola-bars-oats.webp",
       "hero_image_alt": "Plain oat-and-grain cereal bars and a dish of rolled oats illustrating cereal bars ingredient context."
@@ -852,6 +776,10 @@
     "ingredients/cereal-based-infant-formula": {
       "hero_image": "/static/heroes/infant-formula-powder-unmarked-container.webp",
       "hero_image_alt": "An unmarked formula powder container, scoop and closed bottle of prepared formula illustrating cereal based infant formula ingredient context."
+    },
+    "ingredients/cereal": {
+      "hero_image": "/static/heroes/oats-porridge-granola-bran-cereals.webp",
+      "hero_image_alt": "Rolled oats, oatmeal, granola, oat rings and bran cereal with raisins illustrating cereal ingredient context."
     },
     "ingredients/cereals": {
       "hero_image": "/static/heroes/oats-porridge-granola-bran-cereals.webp",
@@ -873,10 +801,6 @@
       "hero_image": "/static/heroes/cheddar-cheese-crackers-pizza.webp",
       "hero_image_alt": "A wedge of orange cheese, golden crackers and a cheese pizza slice illustrating cheese pizza ingredient context."
     },
-    "ingredients/chicken": {
-      "hero_image": "/static/heroes/meat-poultry-beef-chicken.webp",
-      "hero_image_alt": "An unseasoned raw beef cut and plain raw chicken breast pieces on separate dishes illustrating chicken ingredient context."
-    },
     "ingredients/chicken-broth": {
       "hero_image": "/static/heroes/chicken-broth-noodle-soup.webp",
       "hero_image_alt": "A glass vessel of pale clear broth and a bowl of noodle soup with white chicken pieces and carrots illustrating chicken broth ingredient context."
@@ -893,6 +817,10 @@
       "hero_image": "/static/heroes/prepared-chicken-nuggets-potpie.webp",
       "hero_image_alt": "Golden chicken nuggets and a cut chicken potpie showing pale filling and vegetables illustrating chicken potpie ingredient context."
     },
+    "ingredients/chicken": {
+      "hero_image": "/static/heroes/meat-poultry-beef-chicken.webp",
+      "hero_image_alt": "An unseasoned raw beef cut and plain raw chicken breast pieces on separate dishes illustrating chicken ingredient context."
+    },
     "ingredients/chickpeas": {
       "hero_image": "/static/heroes/chickpeas-dry-cooked.webp",
       "hero_image_alt": "Bowls of dry chickpeas and plain cooked chickpeas illustrating chickpeas ingredient context."
@@ -904,10 +832,6 @@
     "ingredients/chitosan": {
       "hero_image": "/static/heroes/baking-powder-unmarked-jar.webp",
       "hero_image_alt": "An unmarked glass jar and ceramic dish of fine white powder with a plain metal spoon illustrating chitosan ingredient context."
-    },
-    "ingredients/chocolate": {
-      "hero_image": "/static/heroes/cadmium-cocoa-grains-crops.webp",
-      "hero_image_alt": "Cocoa, wheat and spinach beside soil illustrating chocolate ingredient context."
     },
     "ingredients/chocolate-cake": {
       "hero_image": "/static/heroes/chocolate-cake-cookies-nut-candy.webp",
@@ -933,21 +857,21 @@
       "hero_image": "/static/heroes/chocolate-milk-pudding-syrup.webp",
       "hero_image_alt": "A glass of pale chocolate milk, a bowl of chocolate pudding and unmarked chocolate-syrup containers illustrating chocolate syrup ingredient context."
     },
-    "ingredients/cinnamon": {
-      "hero_image": "/static/heroes/spices-peppercorns-cinnamon-turmeric.webp",
-      "hero_image_alt": "Black and pale peppercorns, turmeric powder and cinnamon sticks illustrating cinnamon ingredient context."
+    "ingredients/chocolate": {
+      "hero_image": "/static/heroes/cadmium-cocoa-grains-crops.webp",
+      "hero_image_alt": "Cocoa, wheat and spinach beside soil illustrating chocolate ingredient context."
     },
     "ingredients/cinnamon-roll": {
       "hero_image": "/static/heroes/cinnamon-roll-pastry.webp",
       "hero_image_alt": "A spiral pastry, a cut pastry portion showing its crumb and cinnamon sticks illustrating cinnamon roll ingredient context."
     },
+    "ingredients/cinnamon": {
+      "hero_image": "/static/heroes/spices-peppercorns-cinnamon-turmeric.webp",
+      "hero_image_alt": "Black and pale peppercorns, turmeric powder and cinnamon sticks illustrating cinnamon ingredient context."
+    },
     "ingredients/clam-chowder": {
       "hero_image": "/static/heroes/clam-chowder-shellfish.webp",
       "hero_image_alt": "A bowl of pale chowder with small clam pieces and potatoes beside closed clams illustrating clam chowder ingredient context."
-    },
-    "ingredients/clay-geophagy": {
-      "hero_image": "/static/heroes/mineral-earth-powders-unmarked.webp",
-      "hero_image_alt": "Unmarked dishes of fine mineral earth and clay powders illustrating clay geophagy ingredient context."
     },
     "ingredients/clementines-tangerines": {
       "hero_image": "/static/heroes/citrus-oranges-tangerines-grapefruit-juice.webp",
@@ -957,13 +881,13 @@
       "hero_image": "/static/heroes/cadmium-cocoa-grains-crops.webp",
       "hero_image_alt": "Cocoa, wheat and spinach beside soil illustrating cocoa ingredient context."
     },
-    "ingredients/coconut": {
-      "hero_image": "/static/heroes/tropical-fruit-banana-mango-pineapple.webp",
-      "hero_image_alt": "Bananas, mango, pineapple, guava and coconut illustrating coconut ingredient context."
-    },
     "ingredients/coconut-water": {
       "hero_image": "/static/heroes/coconut-water-young-coconut.webp",
       "hero_image_alt": "An opened young green coconut and a glass of pale clear liquid illustrating coconut water ingredient context."
+    },
+    "ingredients/coconut": {
+      "hero_image": "/static/heroes/tropical-fruit-banana-mango-pineapple.webp",
+      "hero_image_alt": "Bananas, mango, pineapple, guava and coconut illustrating coconut ingredient context."
     },
     "ingredients/cod": {
       "hero_image": "/static/heroes/cod-whitefish-fillets.webp",
@@ -981,14 +905,6 @@
       "hero_image": "/static/heroes/leafy-greens-spinach-kale-lettuce.webp",
       "hero_image_alt": "Spinach, kale, collard greens, romaine and iceberg lettuce illustrating collard greens ingredient context."
     },
-    "ingredients/coriander": {
-      "hero_image": "/static/heroes/coriander.webp",
-      "hero_image_alt": "A fresh bunch of coriander (cilantro) leaves beside a stone bowl of round coriander seeds, with seeds scattered in front."
-    },
-    "ingredients/corn": {
-      "hero_image": "/static/heroes/corn-flakes-grits-tortilla-cornbread.webp",
-      "hero_image_alt": "Corn, corn flakes, corn grits, corn tortillas and cornbread illustrating corn ingredient context."
-    },
     "ingredients/corn-flakes": {
       "hero_image": "/static/heroes/corn-flakes-grits-tortilla-cornbread.webp",
       "hero_image_alt": "Corn, corn flakes, corn grits, corn tortillas and cornbread illustrating corn flakes cereal ingredient context."
@@ -1004,6 +920,10 @@
     "ingredients/corn-tortilla": {
       "hero_image": "/static/heroes/corn-flakes-grits-tortilla-cornbread.webp",
       "hero_image_alt": "Corn, corn flakes, corn grits, corn tortillas and cornbread illustrating corn tortilla ingredient context."
+    },
+    "ingredients/corn": {
+      "hero_image": "/static/heroes/corn-flakes-grits-tortilla-cornbread.webp",
+      "hero_image_alt": "Corn, corn flakes, corn grits, corn tortillas and cornbread illustrating corn ingredient context."
     },
     "ingredients/cornbread": {
       "hero_image": "/static/heroes/corn-flakes-grits-tortilla-cornbread.webp",
@@ -1073,10 +993,6 @@
       "hero_image": "/static/heroes/herbs-fresh-dried-cumin-seeds.webp",
       "hero_image_alt": "Fresh leafy herbs and delicate dill sprigs beside dishes of dried herbs and slender brown spice seeds illustrating dried herbs ingredient context."
     },
-    "ingredients/edible-insects": {
-      "hero_image": "/static/heroes/edible-insects.webp",
-      "hero_image_alt": "A bowl of roasted crickets, a dish of dried mealworms and a dish of cricket flour on a dark stone surface."
-    },
     "ingredients/egg-noodles": {
       "hero_image": "/static/heroes/pasta-noodles-quinoa-grains.webp",
       "hero_image_alt": "Plain noodles, egg noodles, pasta, whole wheat pasta and quinoa illustrating egg noodles ingredient context."
@@ -1101,10 +1017,6 @@
       "hero_image": "/static/heroes/beverages-beer-tea-juice-water.webp",
       "hero_image_alt": "An unmarked bottle, a glass of amber beer, a tea cup, orange juice, water and barley grains illustrating fermented beverage bases ingredient context."
     },
-    "ingredients/fish": {
-      "hero_image": "/static/heroes/mercury-fish-water.webp",
-      "hero_image_alt": "Fish, a fillet and water illustrating fish ingredient context."
-    },
     "ingredients/fish-containing-baby-foods": {
       "hero_image": "/static/heroes/infant-food-purees-unmarked-bowls.webp",
       "hero_image_alt": "Five unmarked ceramic bowls of smooth pureed foods illustrating fish containing baby foods ingredient context."
@@ -1112,6 +1024,10 @@
     "ingredients/fish-fingers": {
       "hero_image": "/static/heroes/fish-fingers-breaded-cut.webp",
       "hero_image_alt": "Golden breaded fish fingers with one cut to show pale flaky fish illustrating fish fingers ingredient context."
+    },
+    "ingredients/fish": {
+      "hero_image": "/static/heroes/mercury-fish-water.webp",
+      "hero_image_alt": "Fish, a fillet and water illustrating fish ingredient context."
     },
     "ingredients/flavored-carbonated-bottled-waters": {
       "hero_image": "/static/heroes/carbonated-water-flavoring-vials.webp",
@@ -1121,17 +1037,9 @@
       "hero_image": "/static/heroes/carbonated-water-flavoring-vials.webp",
       "hero_image_alt": "An unmarked bottle and glass of clear carbonated water beside two small liquid vials illustrating flavoring ingredient context."
     },
-    "ingredients/flaxseeds": {
-      "hero_image": "/static/heroes/flaxseeds.webp",
-      "hero_image_alt": "A stone bowl of brown flaxseeds, a small dish of golden flaxseeds, scattered seeds and a dried flax stem with round seed capsules."
-    },
     "ingredients/flour-tortilla": {
       "hero_image": "/static/heroes/chapattis-flatbread-wheat.webp",
       "hero_image_alt": "Round chapatti flatbreads, a dish of whole-wheat flour and wheat grains illustrating flour tortilla ingredient context."
-    },
-    "ingredients/food-additives": {
-      "hero_image": "/static/heroes/food-additives.webp",
-      "hero_image_alt": "Small glass bowls of white crystals, white powder, red and yellow colouring powders and a clear liquid, with metal measuring spoons."
     },
     "ingredients/frankfurter": {
       "hero_image": "/static/heroes/frankfurter-sausages.webp",
@@ -1161,21 +1069,17 @@
       "hero_image": "/static/heroes/fresh-frozen-dairy-desserts.webp",
       "hero_image_alt": "Separate dishes of smooth white fresh dairy, a frozen white swirl and pale ice-cream scoops illustrating frozen yogurt ingredient context."
     },
-    "ingredients/fruit": {
-      "hero_image": "/static/heroes/melons-watermelon-cantaloupe-mixed-fruit.webp",
-      "hero_image_alt": "Cantaloupe, honeydew, watermelon and a bowl of mixed fruit illustrating fruit ingredient context."
-    },
     "ingredients/fruit-ice-pop": {
       "hero_image": "/static/heroes/fruit-ice-pop-jelly-hard-candy.webp",
       "hero_image_alt": "An unwrapped fruit ice pop, small jelly-candy cubes and separate amber and red hard candies illustrating fruit ice pop ingredient context."
     },
-    "ingredients/fruit-juice": {
-      "hero_image": "/static/heroes/citrus-oranges-tangerines-grapefruit-juice.webp",
-      "hero_image_alt": "Orange, clementine, tangerine, grapefruit and citrus juices illustrating fruit juice ingredient context."
-    },
     "ingredients/fruit-juice-ready-drinks": {
       "hero_image": "/static/heroes/citrus-oranges-tangerines-grapefruit-juice.webp",
       "hero_image_alt": "Orange, clementine, tangerine, grapefruit and citrus juices illustrating fruit juice ready drinks ingredient context."
+    },
+    "ingredients/fruit-juice": {
+      "hero_image": "/static/heroes/citrus-oranges-tangerines-grapefruit-juice.webp",
+      "hero_image_alt": "Orange, clementine, tangerine, grapefruit and citrus juices illustrating fruit juice ingredient context."
     },
     "ingredients/fruit-mixed": {
       "hero_image": "/static/heroes/melons-watermelon-cantaloupe-mixed-fruit.webp",
@@ -1188,6 +1092,10 @@
     "ingredients/fruit-snack-candy": {
       "hero_image": "/static/heroes/fruit-ice-pop-jelly-hard-candy.webp",
       "hero_image_alt": "An unwrapped fruit ice pop, small jelly-candy cubes and separate amber and red hard candies illustrating fruit snack candy ingredient context."
+    },
+    "ingredients/fruit": {
+      "hero_image": "/static/heroes/melons-watermelon-cantaloupe-mixed-fruit.webp",
+      "hero_image_alt": "Cantaloupe, honeydew, watermelon and a bowl of mixed fruit illustrating fruit ingredient context."
     },
     "ingredients/garlic": {
       "hero_image": "/static/heroes/alliums-garlic-onion.webp",
@@ -1213,13 +1121,13 @@
       "hero_image": "/static/heroes/grape-juice-jelly-gelatin-dessert.webp",
       "hero_image_alt": "A glass of dark purple juice, an unmarked jelly jar, translucent dessert-gel cubes and dark grapes illustrating grape juice ingredient context."
     },
-    "ingredients/grapefruit": {
-      "hero_image": "/static/heroes/citrus-oranges-tangerines-grapefruit-juice.webp",
-      "hero_image_alt": "Orange, clementine, tangerine, grapefruit and citrus juices illustrating grapefruit ingredient context."
-    },
     "ingredients/grapefruit-juice": {
       "hero_image": "/static/heroes/citrus-oranges-tangerines-grapefruit-juice.webp",
       "hero_image_alt": "Orange, clementine, tangerine, grapefruit and citrus juices illustrating grapefruit juice ingredient context."
+    },
+    "ingredients/grapefruit": {
+      "hero_image": "/static/heroes/citrus-oranges-tangerines-grapefruit-juice.webp",
+      "hero_image_alt": "Orange, clementine, tangerine, grapefruit and citrus juices illustrating grapefruit ingredient context."
     },
     "ingredients/grapes": {
       "hero_image": "/static/heroes/berries-grapes-raisins.webp",
@@ -1257,10 +1165,6 @@
       "hero_image": "/static/heroes/nickel-legumes-nuts-cocoa.webp",
       "hero_image_alt": "Lentils, nuts, oats and cocoa illustrating hazelnuts ingredient context."
     },
-    "ingredients/hemp": {
-      "hero_image": "/static/heroes/hemp.webp",
-      "hero_image_alt": "Bowls of hulled hemp hearts and whole hemp seeds beside a small glass bottle of green hemp seed oil and hemp leaves."
-    },
     "ingredients/herbal-botanicals": {
       "hero_image": "/static/heroes/herbs-fresh-dried-cumin-seeds.webp",
       "hero_image_alt": "Fresh leafy herbs and delicate dill sprigs beside dishes of dried herbs and slender brown spice seeds illustrating herbal botanicals ingredient context."
@@ -1268,10 +1172,6 @@
     "ingredients/herbs-and-spices": {
       "hero_image": "/static/heroes/herbs-fresh-dried-cumin-seeds.webp",
       "hero_image_alt": "Fresh leafy herbs and delicate dill sprigs beside dishes of dried herbs and slender brown spice seeds illustrating herbs and spices ingredient context."
-    },
-    "ingredients/high-fructose-corn-syrup": {
-      "hero_image": "/static/heroes/corn-syrup-kernels-glass-jar.webp",
-      "hero_image_alt": "A clear glass jar of thick corn syrup beside a corn cob and loose kernels illustrating high-fructose corn syrup ingredient context."
     },
     "ingredients/honey": {
       "hero_image": "/static/heroes/honey-jar-comb.webp",
@@ -1293,10 +1193,6 @@
       "hero_image": "/static/heroes/infant-cereal-rice-oats-porridge.webp",
       "hero_image_alt": "Dry rice and oat cereals, rice grains, rolled oats and smooth porridge illustrating infant cereal ingredients ingredient context."
     },
-    "ingredients/infant-formula": {
-      "hero_image": "/static/heroes/infant-formula-powder-unmarked-container.webp",
-      "hero_image_alt": "An unmarked formula powder container, scoop and closed bottle of prepared formula illustrating infant formula ingredient context."
-    },
     "ingredients/infant-formula-concentrated-liquid": {
       "hero_image": "/static/heroes/liquid-formula-closed-unmarked-bottles.webp",
       "hero_image_alt": "Two closed unmarked feeding bottles and a sealed container illustrating infant formula concentrated liquid ingredient context."
@@ -1312,6 +1208,10 @@
     "ingredients/infant-formula-rtf-liquid": {
       "hero_image": "/static/heroes/liquid-formula-closed-unmarked-bottles.webp",
       "hero_image_alt": "Two closed unmarked feeding bottles and a sealed container illustrating infant formula rtf liquid ingredient context."
+    },
+    "ingredients/infant-formula": {
+      "hero_image": "/static/heroes/infant-formula-powder-unmarked-container.webp",
+      "hero_image_alt": "An unmarked formula powder container, scoop and closed bottle of prepared formula illustrating infant formula ingredient context."
     },
     "ingredients/infant-mixed-grain-cereal": {
       "hero_image": "/static/heroes/infant-cereal-rice-oats-porridge.webp",
@@ -1361,10 +1261,6 @@
       "hero_image": "/static/heroes/brassicas-cabbage-broccoli-cauliflower.webp",
       "hero_image_alt": "Cabbage, broccoli, Brussels sprouts and cauliflower illustrating leafy Vegetables ingredient context."
     },
-    "ingredients/leeks": {
-      "hero_image": "/static/heroes/leeks.webp",
-      "hero_image_alt": "Three whole leeks with white shafts, roots and dark green leaves beside a few cut leek rounds."
-    },
     "ingredients/legumes": {
       "hero_image": "/static/heroes/beans-dry-cooked-baked.webp",
       "hero_image_alt": "Dry white and red beans, plain cooked beans and baked beans in tomato sauce illustrating legumes ingredient context."
@@ -1393,13 +1289,13 @@
       "hero_image": "/static/heroes/macaroni-cheese-elbow-pasta.webp",
       "hero_image_alt": "Elbow macaroni coated in golden cheese sauce in a dark ceramic bowl illustrating macaroni and cheese ingredient context."
     },
-    "ingredients/mango": {
-      "hero_image": "/static/heroes/tropical-fruit-banana-mango-pineapple.webp",
-      "hero_image_alt": "Bananas, mango, pineapple, guava and coconut illustrating mango ingredient context."
-    },
     "ingredients/mango-juice": {
       "hero_image": "/static/heroes/mango-pear-juice-fruit.webp",
       "hero_image_alt": "Separate glasses of golden and pale fruit juice with cut mango and a whole pear illustrating mango juice ingredient context."
+    },
+    "ingredients/mango": {
+      "hero_image": "/static/heroes/tropical-fruit-banana-mango-pineapple.webp",
+      "hero_image_alt": "Bananas, mango, pineapple, guava and coconut illustrating mango ingredient context."
     },
     "ingredients/margarine": {
       "hero_image": "/static/heroes/margarine-spread-block.webp",
@@ -1421,17 +1317,17 @@
       "hero_image": "/static/heroes/shake-unmarked-bottle-glass.webp",
       "hero_image_alt": "An unmarked beverage bottle and a glass of smooth pale beige shake illustrating meal replacement drink ingredient context."
     },
-    "ingredients/meat": {
-      "hero_image": "/static/heroes/meat-poultry-beef-chicken.webp",
-      "hero_image_alt": "An unseasoned raw beef cut and plain raw chicken breast pieces on separate dishes illustrating meat ingredient context."
+    "ingredients/meat-and-poultry-purees": {
+      "hero_image": "/static/heroes/infant-food-purees-unmarked-bowls.webp",
+      "hero_image_alt": "Five unmarked ceramic bowls of smooth pureed foods illustrating meat and poultry purees ingredient context."
     },
     "ingredients/meat-and-poultry": {
       "hero_image": "/static/heroes/meat-poultry-beef-chicken.webp",
       "hero_image_alt": "An unseasoned raw beef cut and plain raw chicken breast pieces on separate dishes illustrating meat and poultry ingredient context."
     },
-    "ingredients/meat-and-poultry-purees": {
-      "hero_image": "/static/heroes/infant-food-purees-unmarked-bowls.webp",
-      "hero_image_alt": "Five unmarked ceramic bowls of smooth pureed foods illustrating meat and poultry purees ingredient context."
+    "ingredients/meat": {
+      "hero_image": "/static/heroes/meat-poultry-beef-chicken.webp",
+      "hero_image_alt": "An unseasoned raw beef cut and plain raw chicken breast pieces on separate dishes illustrating meat ingredient context."
     },
     "ingredients/melon": {
       "hero_image": "/static/heroes/melons-watermelon-cantaloupe-mixed-fruit.webp",
@@ -1513,25 +1409,17 @@
       "hero_image": "/static/heroes/pasta-noodles-quinoa-grains.webp",
       "hero_image_alt": "Plain noodles, egg noodles, pasta, whole wheat pasta and quinoa illustrating noodles ingredient context."
     },
-    "ingredients/oat": {
-      "hero_image": "/static/heroes/oats-porridge-granola-bran-cereals.webp",
-      "hero_image_alt": "Rolled oats, oatmeal, granola, oat rings and bran cereal with raisins illustrating oat ingredient context."
-    },
     "ingredients/oat-ring-cereal": {
       "hero_image": "/static/heroes/oats-porridge-granola-bran-cereals.webp",
       "hero_image_alt": "Rolled oats, oatmeal, granola, oat rings and bran cereal with raisins illustrating oat ring cereal ingredient context."
     },
+    "ingredients/oat": {
+      "hero_image": "/static/heroes/oats-porridge-granola-bran-cereals.webp",
+      "hero_image_alt": "Rolled oats, oatmeal, granola, oat rings and bran cereal with raisins illustrating oat ingredient context."
+    },
     "ingredients/oatmeal": {
       "hero_image": "/static/heroes/oats-porridge-granola-bran-cereals.webp",
       "hero_image_alt": "Rolled oats, oatmeal, granola, oat rings and bran cereal with raisins illustrating oatmeal ingredient context."
-    },
-    "ingredients/oilseeds": {
-      "hero_image": "/static/heroes/oilseeds.webp",
-      "hero_image_alt": "Small stone bowls of pumpkin, black, sesame and sunflower seeds beside a glass cruet of golden oil."
-    },
-    "ingredients/okra": {
-      "hero_image": "/static/heroes/okra.webp",
-      "hero_image_alt": "A pile of fresh green okra pods with a few cut pieces showing the star-shaped cross-section and white seeds."
     },
     "ingredients/olive-oil": {
       "hero_image": "/static/heroes/edible-oils-olives-sunflower-seeds.webp",
@@ -1557,10 +1445,6 @@
       "hero_image": "/static/heroes/organ-meats-liver-kidney.webp",
       "hero_image_alt": "Separate raw liver and halved kidney portions on a dark ceramic tray illustrating organ meats ingredient context."
     },
-    "ingredients/oyster": {
-      "hero_image": "/static/heroes/oysters-half-shell.webp",
-      "hero_image_alt": "Oysters on the half shell, closed oyster shells, a marine stone and a clear glass vessel on a dark ceramic tray illustrating oyster ingredient context."
-    },
     "ingredients/palm-oil": {
       "hero_image": "/static/heroes/golden-oil-unmarked-bottle.webp",
       "hero_image_alt": "Golden edible oil in an unmarked glass bottle and a shallow dish illustrating palm oil ingredient context."
@@ -1581,13 +1465,13 @@
       "hero_image": "/static/heroes/root-vegetables-carrots-beets-potatoes.webp",
       "hero_image_alt": "Carrots, a beet, parsnips, sweet potato and potatoes illustrating parsnips ingredient context."
     },
-    "ingredients/pasta": {
-      "hero_image": "/static/heroes/pasta-noodles-quinoa-grains.webp",
-      "hero_image_alt": "Plain noodles, egg noodles, pasta, whole wheat pasta and quinoa illustrating pasta ingredient context."
-    },
     "ingredients/pasta-sauce": {
       "hero_image": "/static/heroes/tomato-pasta-sauce.webp",
       "hero_image_alt": "Red tomato sauce in a dark ceramic bowl beside tomatoes and basil illustrating pasta sauce ingredient context."
+    },
+    "ingredients/pasta": {
+      "hero_image": "/static/heroes/pasta-noodles-quinoa-grains.webp",
+      "hero_image_alt": "Plain noodles, egg noodles, pasta, whole wheat pasta and quinoa illustrating pasta ingredient context."
     },
     "ingredients/peach": {
       "hero_image": "/static/heroes/orchard-fruit-apples-pears-stone-fruit.webp",
@@ -1605,29 +1489,25 @@
       "hero_image": "/static/heroes/peanuts-butter-golden-oil.webp",
       "hero_image_alt": "Whole and shelled peanuts, a dish of peanut butter and an unmarked bottle of golden oil illustrating peanuts ingredient context."
     },
-    "ingredients/pear": {
-      "hero_image": "/static/heroes/orchard-fruit-apples-pears-stone-fruit.webp",
-      "hero_image_alt": "Apple, pear, peach, nectarine and plums illustrating pear ingredient context."
-    },
     "ingredients/pear-juice": {
       "hero_image": "/static/heroes/mango-pear-juice-fruit.webp",
       "hero_image_alt": "Separate glasses of golden and pale fruit juice with cut mango and a whole pear illustrating pear juice ingredient context."
     },
-    "ingredients/peppers": {
-      "hero_image": "/static/heroes/peppers.webp",
-      "hero_image_alt": "Red, yellow and green bell peppers, one red pepper halved to show its seeds, with small red chili peppers on a burgundy cloth."
+    "ingredients/pear": {
+      "hero_image": "/static/heroes/orchard-fruit-apples-pears-stone-fruit.webp",
+      "hero_image_alt": "Apple, pear, peach, nectarine and plums illustrating pear ingredient context."
     },
     "ingredients/pie-crust": {
       "hero_image": "/static/heroes/pie-crust-pumpkin-slice.webp",
       "hero_image_alt": "An unfilled pastry pie shell and a separate slice of pumpkin pie illustrating pie crust ingredient context."
     },
-    "ingredients/pineapple": {
-      "hero_image": "/static/heroes/tropical-fruit-banana-mango-pineapple.webp",
-      "hero_image_alt": "Bananas, mango, pineapple, guava and coconut illustrating pineapple ingredient context."
-    },
     "ingredients/pineapple-juice": {
       "hero_image": "/static/heroes/pineapple-juice-fruit.webp",
       "hero_image_alt": "A glass of pale golden juice beside cut pineapple and textured pineapple skin illustrating pineapple juice ingredient context."
+    },
+    "ingredients/pineapple": {
+      "hero_image": "/static/heroes/tropical-fruit-banana-mango-pineapple.webp",
+      "hero_image_alt": "Bananas, mango, pineapple, guava and coconut illustrating pineapple ingredient context."
     },
     "ingredients/pinto-beans": {
       "hero_image": "/static/heroes/pinto-beans-dry-cooked-refried.webp",
@@ -1636,10 +1516,6 @@
     "ingredients/plant-milk": {
       "hero_image": "/static/heroes/almond-plant-beverage.webp",
       "hero_image_alt": "An unmarked bottle and glass of pale plant beverage with a separate dish of whole almonds illustrating plant milk ingredient context."
-    },
-    "ingredients/plantain": {
-      "hero_image": "/static/heroes/plantains-green-ripe-cut.webp",
-      "hero_image_alt": "Green and ripe plantains beside a plate of peeled plantain slices illustrating plantain ingredient context."
     },
     "ingredients/plums": {
       "hero_image": "/static/heroes/orchard-fruit-apples-pears-stone-fruit.webp",
@@ -1705,13 +1581,13 @@
       "hero_image": "/static/heroes/ramen-broth-noodles.webp",
       "hero_image_alt": "A bowl of pale broth with thin wavy ramen noodles and scallion slices illustrating ramen soup ingredient context."
     },
-    "ingredients/ranch-dressing": {
-      "hero_image": "/static/heroes/ranch-dressing-herb-flecked.webp",
-      "hero_image_alt": "An unmarked bottle and dish of pale creamy dressing with fine herb flecks illustrating ranch dressing ingredient context."
-    },
     "ingredients/ranch-dressing-low-calorie": {
       "hero_image": "/static/heroes/ranch-dressing-herb-flecked.webp",
       "hero_image_alt": "An unmarked bottle and dish of pale creamy dressing with fine herb flecks illustrating ranch dressing low calorie ingredient context."
+    },
+    "ingredients/ranch-dressing": {
+      "hero_image": "/static/heroes/ranch-dressing-herb-flecked.webp",
+      "hero_image_alt": "An unmarked bottle and dish of pale creamy dressing with fine herb flecks illustrating ranch dressing ingredient context."
     },
     "ingredients/rapeseed-oil": {
       "hero_image": "/static/heroes/golden-oil-unmarked-bottle.webp",
@@ -1733,14 +1609,6 @@
       "hero_image": "/static/heroes/pinto-beans-dry-cooked-refried.webp",
       "hero_image_alt": "Separate dishes of dry pinto beans, cooked pinto beans and smooth mashed beans illustrating refried beans ingredient context."
     },
-    "ingredients/rhodiola-rosea": {
-      "hero_image": "/static/heroes/rhodiola-rosea.webp",
-      "hero_image_alt": "A whole Rhodiola rosea root with a pinkish cut face, a bowl of dried chopped root and a sprig with succulent leaves and yellow flowers."
-    },
-    "ingredients/rice": {
-      "hero_image": "/static/heroes/rice-grain-flour-noodles-cakes.webp",
-      "hero_image_alt": "Rice grain, rice flour, rice noodles, puffed rice and rice cakes illustrating rice ingredient context."
-    },
     "ingredients/rice-bran-oil": {
       "hero_image": "/static/heroes/golden-oil-unmarked-bottle.webp",
       "hero_image_alt": "Golden edible oil in an unmarked glass bottle and a shallow dish illustrating rice bran oil ingredient context."
@@ -1757,10 +1625,6 @@
       "hero_image": "/static/heroes/rice-grain-flour-noodles-cakes.webp",
       "hero_image_alt": "Rice grain, rice flour, rice noodles, puffed rice and rice cakes illustrating rice Flour ingredient context."
     },
-    "ingredients/rice-koji": {
-      "hero_image": "/static/heroes/rice-koji.webp",
-      "hero_image_alt": "A wooden tray of rice koji, cooked rice grains coated in white mold, with a broken clump showing mold threads binding the grains."
-    },
     "ingredients/rice-milk": {
       "hero_image": "/static/heroes/rice-plant-beverage.webp",
       "hero_image_alt": "An unmarked bottle and glass of pale plant beverage with a separate dish of uncooked rice grains illustrating rice milk ingredient context."
@@ -1772,6 +1636,10 @@
     "ingredients/rice-puffs": {
       "hero_image": "/static/heroes/rice-grain-flour-noodles-cakes.webp",
       "hero_image_alt": "Rice grain, rice flour, rice noodles, puffed rice and rice cakes illustrating rice Puffs ingredient context."
+    },
+    "ingredients/rice": {
+      "hero_image": "/static/heroes/rice-grain-flour-noodles-cakes.webp",
+      "hero_image_alt": "Rice grain, rice flour, rice noodles, puffed rice and rice cakes illustrating rice ingredient context."
     },
     "ingredients/root-vegetable-purees": {
       "hero_image": "/static/heroes/infant-food-purees-unmarked-bowls.webp",
@@ -1801,10 +1669,6 @@
       "hero_image": "/static/heroes/salt-white-crystals.webp",
       "hero_image_alt": "White salt crystals in a dark dish and an unmarked glass container illustrating salt ingredient context."
     },
-    "ingredients/salted-fish": {
-      "hero_image": "/static/heroes/salted-fish.webp",
-      "hero_image_alt": "Salt-cured dried fish and a salted fish fillet crusted with coarse salt on a dark wooden board beside a bowl of sea salt."
-    },
     "ingredients/saltine-crackers": {
       "hero_image": "/static/heroes/graham-saltine-crackers.webp",
       "hero_image_alt": "Rectangular brown graham crackers and a separate stack of pale square crackers illustrating saltine crackers ingredient context."
@@ -1829,10 +1693,6 @@
       "hero_image": "/static/heroes/dairy-butter-protein-powder-milk.webp",
       "hero_image_alt": "A butter block, an unmarked jar of fine pale powder and a glass of milk illustrating semi skimmed milk ingredient context."
     },
-    "ingredients/sesame": {
-      "hero_image": "/static/heroes/sesame.webp",
-      "hero_image_alt": "Bowls of white and black sesame seeds, a wooden scoop spilling seeds and a dried sesame stem with open seed pods."
-    },
     "ingredients/sesame-oil": {
       "hero_image": "/static/heroes/golden-oil-unmarked-bottle.webp",
       "hero_image_alt": "Golden edible oil in an unmarked glass bottle and a shallow dish illustrating sesame oil ingredient context."
@@ -1840,10 +1700,6 @@
     "ingredients/shark": {
       "hero_image": "/static/heroes/billfish-steak-portions.webp",
       "hero_image_alt": "Pale fish steak portions with dark skin edges illustrating shark ingredient context."
-    },
-    "ingredients/sheep-casings": {
-      "hero_image": "/static/heroes/sheep-casings.webp",
-      "hero_image_alt": "Translucent natural sheep casings coiled in a bowl of salted water, one length draped out, beside thin sausages."
     },
     "ingredients/shellfish": {
       "hero_image": "/static/heroes/organotins-shellfish-marine-context.webp",
@@ -1869,10 +1725,6 @@
       "hero_image": "/static/heroes/sorbet-sour-cream-dishes.webp",
       "hero_image_alt": "Separate dishes of red fruit sorbet scoops and thick white sour cream illustrating sour cream ingredient context."
     },
-    "ingredients/soy": {
-      "hero_image": "/static/heroes/soybeans-tofu-powder-sauce.webp",
-      "hero_image_alt": "Separate dishes of soybeans, tofu cubes, pale powder and dark soy sauce illustrating soy ingredient context."
-    },
     "ingredients/soy-based-infant-formula": {
       "hero_image": "/static/heroes/soy-formula-powder-liquid-context.webp",
       "hero_image_alt": "Unmarked powdered and liquid formula containers with a separate dish of soybeans illustrating soy based infant formula ingredient context."
@@ -1889,6 +1741,10 @@
       "hero_image": "/static/heroes/soybeans-tofu-powder-sauce.webp",
       "hero_image_alt": "Separate dishes of soybeans, tofu cubes, pale powder and dark soy sauce illustrating soy sauce ingredient context."
     },
+    "ingredients/soy": {
+      "hero_image": "/static/heroes/soybeans-tofu-powder-sauce.webp",
+      "hero_image_alt": "Separate dishes of soybeans, tofu cubes, pale powder and dark soy sauce illustrating soy ingredient context."
+    },
     "ingredients/soybean-oil": {
       "hero_image": "/static/heroes/golden-oil-unmarked-bottle.webp",
       "hero_image_alt": "Golden edible oil in an unmarked glass bottle and a shallow dish illustrating soybean oil ingredient context."
@@ -1904,10 +1760,6 @@
     "ingredients/sports-drink-bases": {
       "hero_image": "/static/heroes/carbonated-water-flavoring-vials.webp",
       "hero_image_alt": "An unmarked bottle and glass of clear carbonated water beside two small liquid vials illustrating sports drink bases ingredient context."
-    },
-    "ingredients/spring-onion": {
-      "hero_image": "/static/heroes/spring-onion.webp",
-      "hero_image_alt": "A bunch of spring onions with white bulbs, roots and green leaves beside a few sliced green rings."
     },
     "ingredients/squash": {
       "hero_image": "/static/heroes/squash-butternut-zucchini-eggplant.webp",
@@ -1941,10 +1793,6 @@
       "hero_image": "/static/heroes/billfish-steak-portions.webp",
       "hero_image_alt": "Pale fish steak portions with dark skin edges illustrating swordfish ingredient context."
     },
-    "ingredients/tahini": {
-      "hero_image": "/static/heroes/tahini.webp",
-      "hero_image_alt": "A dark bowl of smooth beige tahini with a spoon beside a small pile of hulled sesame seeds."
-    },
     "ingredients/tea": {
       "hero_image": "/static/heroes/beverages-beer-tea-juice-water.webp",
       "hero_image_alt": "An unmarked bottle, a glass of amber beer, a tea cup, orange juice, water and barley grains illustrating tea ingredient context."
@@ -1969,10 +1817,6 @@
       "hero_image": "/static/heroes/soybeans-tofu-powder-sauce.webp",
       "hero_image_alt": "Separate dishes of soybeans, tofu cubes, pale powder and dark soy sauce illustrating tofu ingredient context."
     },
-    "ingredients/tomato": {
-      "hero_image": "/static/heroes/garden-vegetables-tomato-cucumber-asparagus.webp",
-      "hero_image_alt": "Tomato, cucumber, green bell pepper, celery and asparagus illustrating tomato ingredient context."
-    },
     "ingredients/tomato-paste": {
       "hero_image": "/static/heroes/tomato-paste-soup.webp",
       "hero_image_alt": "An unmarked can of dense tomato paste and a separate bowl of smooth red tomato soup illustrating tomato paste ingredient context."
@@ -1985,17 +1829,21 @@
       "hero_image": "/static/heroes/tomato-paste-soup.webp",
       "hero_image_alt": "An unmarked can of dense tomato paste and a separate bowl of smooth red tomato soup illustrating tomato soup ingredient context."
     },
+    "ingredients/tomato": {
+      "hero_image": "/static/heroes/garden-vegetables-tomato-cucumber-asparagus.webp",
+      "hero_image_alt": "Tomato, cucumber, green bell pepper, celery and asparagus illustrating tomato ingredient context."
+    },
     "ingredients/tortilla-chips": {
       "hero_image": "/static/heroes/tortilla-chips-corn-triangles.webp",
       "hero_image_alt": "Plain triangular golden corn tortilla chips with natural bubbled texture illustrating tortilla chips ingredient context."
     },
-    "ingredients/turkey": {
-      "hero_image": "/static/heroes/turkey-raw-cooked-slices.webp",
-      "hero_image_alt": "Separate dishes of raw turkey breast portions and thin cooked turkey slices illustrating turkey ingredient context."
-    },
     "ingredients/turkey-luncheon-meat": {
       "hero_image": "/static/heroes/turkey-raw-cooked-slices.webp",
       "hero_image_alt": "Separate dishes of raw turkey breast portions and thin cooked turkey slices illustrating turkey luncheon meat ingredient context."
+    },
+    "ingredients/turkey": {
+      "hero_image": "/static/heroes/turkey-raw-cooked-slices.webp",
+      "hero_image_alt": "Separate dishes of raw turkey breast portions and thin cooked turkey slices illustrating turkey ingredient context."
     },
     "ingredients/turmeric": {
       "hero_image": "/static/heroes/spices-peppercorns-cinnamon-turmeric.webp",
@@ -2021,13 +1869,13 @@
       "hero_image": "/static/heroes/vegetable-beef-soups.webp",
       "hero_image_alt": "Separate bowls of vegetable soup and vegetable-beef soup with visible vegetable and meat pieces illustrating vegetable soup ingredient context."
     },
-    "ingredients/vegetables": {
-      "hero_image": "/static/heroes/garden-vegetables-tomato-cucumber-asparagus.webp",
-      "hero_image_alt": "Tomato, cucumber, green bell pepper, celery and asparagus illustrating vegetables ingredient context."
-    },
     "ingredients/vegetables-mixed": {
       "hero_image": "/static/heroes/garden-vegetables-tomato-cucumber-asparagus.webp",
       "hero_image_alt": "Tomato, cucumber, green bell pepper, celery and asparagus illustrating vegetables mixed ingredient context."
+    },
+    "ingredients/vegetables": {
+      "hero_image": "/static/heroes/garden-vegetables-tomato-cucumber-asparagus.webp",
+      "hero_image_alt": "Tomato, cucumber, green bell pepper, celery and asparagus illustrating vegetables ingredient context."
     },
     "ingredients/veggie-burger": {
       "hero_image": "/static/heroes/vegetable-burger-patty.webp",
@@ -2053,17 +1901,9 @@
       "hero_image": "/static/heroes/antimony-water-polyester.webp",
       "hero_image_alt": "A plain transparent water bottle, a clear drinking glass and folded white fabric illustrating drinking water ingredient context."
     },
-    "ingredients/water-lentils": {
-      "hero_image": "/static/heroes/water-lentils-duckweed.webp",
-      "hero_image_alt": "Small green water lentil fronds floating in a glass dish of water illustrating water lentils ingredient context."
-    },
     "ingredients/watermelon": {
       "hero_image": "/static/heroes/melons-watermelon-cantaloupe-mixed-fruit.webp",
       "hero_image_alt": "Cantaloupe, honeydew, watermelon and a bowl of mixed fruit illustrating watermelon ingredient context."
-    },
-    "ingredients/wheat": {
-      "hero_image": "/static/heroes/wheat-grain-flour-bread.webp",
-      "hero_image_alt": "Wheat ears and grain, wheat flour, white bread and whole wheat bread illustrating wheat ingredient context."
     },
     "ingredients/wheat-cereal-biscuits": {
       "hero_image": "/static/heroes/wheat-cereal-biscuits.webp",
@@ -2072,6 +1912,10 @@
     "ingredients/wheat-flour": {
       "hero_image": "/static/heroes/wheat-grain-flour-bread.webp",
       "hero_image_alt": "Wheat ears and grain, wheat flour, white bread and whole wheat bread illustrating wheat flour ingredient context."
+    },
+    "ingredients/wheat": {
+      "hero_image": "/static/heroes/wheat-grain-flour-bread.webp",
+      "hero_image_alt": "Wheat ears and grain, wheat flour, white bread and whole wheat bread illustrating wheat ingredient context."
     },
     "ingredients/whey": {
       "hero_image": "/static/heroes/dairy-butter-protein-powder-milk.webp",
@@ -2125,10 +1969,6 @@
       "hero_image": "/static/heroes/mushrooms-fresh-button-oyster.webp",
       "hero_image_alt": "Whole and cut button mushrooms beside oyster mushrooms illustrating wild mushrooms ingredient context."
     },
-    "ingredients/wine": {
-      "hero_image": "/static/heroes/wine.webp",
-      "hero_image_alt": "A glass of white wine and a glass of red wine beside an unlabeled dark wine bottle and a bunch of red grapes."
-    },
     "ingredients/wine-vinegar": {
       "hero_image": "/static/heroes/vinegars-apple-cider-balsamic.webp",
       "hero_image_alt": "Unmarked bottles and dishes of pale amber and dark vinegar, an apple and dark grapes illustrating wine vinegar ingredient context."
@@ -2165,15 +2005,15 @@
       "hero_image": "/static/heroes/antimony-water-polyester.webp",
       "hero_image_alt": "Bottled water and polyester fabric illustrating antimony research in consumer materials."
     },
-    "metals/arsenic": {
-      "hero_image": "/static/heroes/arsenic-rice-water-soil.webp",
-      "hero_image_alt": "Rice, drinking water and soil illustrating arsenic exposure pathways."
-    },
     "metals/arsenic-inorganic": {
       "hero_image": "/static/heroes/arsenic-rice-water-soil.webp",
       "hero_image_alt": "Rice, drinking water and soil illustrating arsenic exposure pathways."
     },
     "metals/arsenic-total": {
+      "hero_image": "/static/heroes/arsenic-rice-water-soil.webp",
+      "hero_image_alt": "Rice, drinking water and soil illustrating arsenic exposure pathways."
+    },
+    "metals/arsenic": {
       "hero_image": "/static/heroes/arsenic-rice-water-soil.webp",
       "hero_image_alt": "Rice, drinking water and soil illustrating arsenic exposure pathways."
     },
@@ -2185,14 +2025,6 @@
       "hero_image": "/static/heroes/trace-metals-geology-laboratory.webp",
       "hero_image_alt": "Geological specimens, soil and glass vessels illustrating beryllium research."
     },
-    "metals/bismuth": {
-      "hero_image": "/static/heroes/bismuth-crystal-specimen.webp",
-      "hero_image_alt": "An iridescent stepped bismuth crystal, a small gray metal ingot and laboratory glassware illustrating bismuth research context."
-    },
-    "metals/boron": {
-      "hero_image": "/static/heroes/boron-borate-minerals-dried-fruit.webp",
-      "hero_image_alt": "Pale borate mineral specimens, dried apricots, almonds and laboratory glassware illustrating boron research context."
-    },
     "metals/cadmium": {
       "hero_image": "/static/heroes/cadmium-cocoa-grains-crops.webp",
       "hero_image_alt": "Cocoa, grains and spinach beside soil illustrating dietary cadmium pathways."
@@ -2201,11 +2033,11 @@
       "hero_image": "/static/heroes/trace-metals-geology-laboratory.webp",
       "hero_image_alt": "Geological specimens, soil and glass vessels illustrating cesium research."
     },
-    "metals/chromium": {
+    "metals/chromium-hexavalent": {
       "hero_image": "/static/heroes/chromium-water-soil-materials.webp",
       "hero_image_alt": "Water, soil and stainless steel illustrating chromium exposure and materials research."
     },
-    "metals/chromium-hexavalent": {
+    "metals/chromium": {
       "hero_image": "/static/heroes/chromium-water-soil-materials.webp",
       "hero_image_alt": "Water, soil and stainless steel illustrating chromium exposure and materials research."
     },
@@ -2217,10 +2049,6 @@
       "hero_image": "/static/heroes/copper-water-lentils.webp",
       "hero_image_alt": "Copper tubing, water and lentils illustrating copper in materials and nutritional contexts."
     },
-    "metals/germanium": {
-      "hero_image": "/static/heroes/germanium-metalloid-electronics.webp",
-      "hero_image_alt": "A gray germanium metalloid fragment in a glass dish beside a polished wafer disk illustrating germanium research context."
-    },
     "metals/gold": {
       "hero_image": "/static/heroes/precious-metals-laboratory-specimens.webp",
       "hero_image_alt": "Metal specimens and glassware illustrating gold research context."
@@ -2228,10 +2056,6 @@
     "metals/index": {
       "hero_image": "/static/heroes/research-glassware-notebook-sampling-spoon.webp",
       "hero_image_alt": "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating the metal reference directory research context."
-    },
-    "metals/indium": {
-      "hero_image": "/static/heroes/indium-ingot-glass-panel.webp",
-      "hero_image_alt": "A small silvery indium ingot beside a clear glass panel and laboratory glassware illustrating indium research context."
     },
     "metals/iron": {
       "hero_image": "/static/heroes/iron-pan-lentils-spinach.webp",
@@ -2253,15 +2077,15 @@
       "hero_image": "/static/heroes/essential-metals-legumes-grains-seeds.webp",
       "hero_image_alt": "Lentils, seeds, oats and greens illustrating manganese nutrition context."
     },
-    "metals/mercury": {
-      "hero_image": "/static/heroes/mercury-fish-water.webp",
-      "hero_image_alt": "Fish and water illustrating dietary mercury exposure through aquatic food webs."
-    },
     "metals/mercury-methyl": {
       "hero_image": "/static/heroes/mercury-fish-water.webp",
       "hero_image_alt": "Fish and water illustrating dietary mercury exposure through aquatic food webs."
     },
     "metals/mercury-total": {
+      "hero_image": "/static/heroes/mercury-fish-water.webp",
+      "hero_image_alt": "Fish and water illustrating dietary mercury exposure through aquatic food webs."
+    },
+    "metals/mercury": {
       "hero_image": "/static/heroes/mercury-fish-water.webp",
       "hero_image_alt": "Fish and water illustrating dietary mercury exposure through aquatic food webs."
     },
@@ -2285,25 +2109,9 @@
       "hero_image": "/static/heroes/precious-metals-laboratory-specimens.webp",
       "hero_image_alt": "Metal specimens and glassware illustrating platinum research context."
     },
-    "metals/rare-earths": {
-      "hero_image": "/static/heroes/rare-earth-ores-oxide-powders.webp",
-      "hero_image_alt": "Dark ore specimens and dishes of white, pink and pale green oxide powders illustrating rare earth elements research context."
-    },
-    "metals/rubidium": {
-      "hero_image": "/static/heroes/rubidium-lepidolite-mineral.webp",
-      "hero_image_alt": "Lilac lepidolite mineral specimens, a sealed glass ampoule and a tray of soil illustrating rubidium research context."
-    },
-    "metals/selenium": {
-      "hero_image": "/static/heroes/selenium-brazil-nuts-fish-eggs.webp",
-      "hero_image_alt": "Brazil nuts, a fish fillet, two eggs and grains illustrating selenium dietary research context."
-    },
     "metals/silver": {
       "hero_image": "/static/heroes/precious-metals-laboratory-specimens.webp",
       "hero_image_alt": "Metal specimens and glassware illustrating silver research context."
-    },
-    "metals/strontium": {
-      "hero_image": "/static/heroes/strontium-celestine-water-soil.webp",
-      "hero_image_alt": "A pale blue celestine crystal cluster, a glass of water and a tray of soil illustrating strontium research context."
     },
     "metals/tellurium": {
       "hero_image": "/static/heroes/trace-metals-geology-laboratory.webp",
@@ -2313,21 +2121,17 @@
       "hero_image": "/static/heroes/trace-metals-geology-laboratory.webp",
       "hero_image_alt": "Geological specimens, soil and glass vessels illustrating thallium research."
     },
-    "metals/tin": {
+    "metals/tin-inorganic": {
       "hero_image": "/static/heroes/tin-canned-tomatoes-juice.webp",
       "hero_image_alt": "Canned tomatoes and fruit juice illustrating inorganic tin in food-contact contexts."
     },
-    "metals/tin-inorganic": {
+    "metals/tin": {
       "hero_image": "/static/heroes/tin-canned-tomatoes-juice.webp",
       "hero_image_alt": "Canned tomatoes and fruit juice illustrating inorganic tin in food-contact contexts."
     },
     "metals/titanium": {
       "hero_image": "/static/heroes/trace-metals-geology-laboratory.webp",
       "hero_image_alt": "Geological specimens, soil and glass vessels illustrating titanium research."
-    },
-    "metals/tungsten": {
-      "hero_image": "/static/heroes/tungsten-ore-rods.webp",
-      "hero_image_alt": "A dark wolframite ore specimen, slender gray metal rods and a small metal cube illustrating tungsten research context."
     },
     "metals/uranium": {
       "hero_image": "/static/heroes/trace-metals-geology-laboratory.webp",
@@ -2337,17 +2141,9 @@
       "hero_image": "/static/heroes/trace-metals-geology-laboratory.webp",
       "hero_image_alt": "Geological specimens, soil and glass vessels illustrating vanadium research."
     },
-    "metals/yttrium": {
-      "hero_image": "/static/heroes/yttrium-xenotime-ceramics.webp",
-      "hero_image_alt": "Brown xenotime mineral specimens, white ceramic discs and a dish of white powder illustrating yttrium research context."
-    },
     "metals/zinc": {
       "hero_image": "/static/heroes/essential-metals-legumes-grains-seeds.webp",
       "hero_image_alt": "Lentils, seeds, oats and greens illustrating zinc nutrition context."
-    },
-    "metals/zirconium": {
-      "hero_image": "/static/heroes/zirconium-zircon-ceramics.webp",
-      "hero_image_alt": "Amber zircon crystals in a glass dish, pale zircon sand and a white ceramic fragment illustrating zirconium research context."
     },
     "methodology": {
       "hero_image": "/static/heroes/research-glassware-notebook-sampling-spoon.webp",
@@ -2529,10 +2325,6 @@
       "hero_image": "/static/heroes/bibs-neutral-fabric.webp",
       "hero_image_alt": "Plain oatmeal and burgundy fabric bibs with rounded neck openings and simple fasteners illustrating bibs product-format context."
     },
-    "products/biscuits": {
-      "hero_image": "/static/heroes/biscuits.webp",
-      "hero_image_alt": "A stack of plain round golden biscuits on a dark plate, with one broken biscuit and crumbs."
-    },
     "products/blankets-and-sleep-sacks": {
       "hero_image": "/static/heroes/blankets-sleep-sack-fabric.webp",
       "hero_image_alt": "A folded oatmeal blanket and a plain burgundy sleep sack with a neck opening and closed fastener illustrating blankets and sleep sacks product-format context."
@@ -2617,10 +2409,6 @@
       "hero_image": "/static/heroes/canned-meat-unmarked-tin.webp",
       "hero_image_alt": "An unmarked open tin and a separate dish of pale shredded cooked meat illustrating canned meats product-format context."
     },
-    "products/canned-mushrooms": {
-      "hero_image": "/static/heroes/canned-mushrooms.webp",
-      "hero_image_alt": "An open plain metal can of sliced button mushrooms in brine beside a small bowl of drained mushroom slices."
-    },
     "products/canned-seafood": {
       "hero_image": "/static/heroes/canned-spaghetti-tuna.webp",
       "hero_image_alt": "Separate unmarked cans of spaghetti in tomato sauce and pale flaked fish illustrating canned seafood product-format context."
@@ -2644,142 +2432,6 @@
     "products/cashews": {
       "hero_image": "/static/heroes/nuts-seeds-cashews-almonds-walnuts.webp",
       "hero_image_alt": "Cashews, almonds, walnut pieces and pumpkin seeds in a shallow ceramic tray illustrating cashews product-format context."
-    },
-    "products/categories/beverages": {
-      "hero_image": "/static/heroes/beverages-beer-tea-juice-water.webp",
-      "hero_image_alt": "An unmarked bottle, a glass of amber beer, a tea cup, orange juice, water and barley grains illustrating beverages product-format context."
-    },
-    "products/categories/cannabis-hemp-and-cbd-products": {
-      "hero_image": "/static/heroes/cannabis-dried-flower-unmarked-bottle.webp",
-      "hero_image_alt": "Dried cannabis flower buds beside a closed unmarked amber jar illustrating cannabis hemp and cbd products product-format context."
-    },
-    "products/categories/children-s-toys-arts-and-crafts": {
-      "hero_image": "/static/heroes/art-craft-unmarked-materials.webp",
-      "hero_image_alt": "Unmarked paint pots, colored pencils, markers, modeling clay and a glue bottle illustrating children s toys arts and crafts product-format context."
-    },
-    "products/categories/chocolate-cocoa-and-confectionery": {
-      "hero_image": "/static/heroes/chocolate-cake-cookies-nut-candy.webp",
-      "hero_image_alt": "A slice of iced chocolate cake, chocolate-chip cookies and cut chocolate nut candy illustrating chocolate cocoa and confectionery product-format context."
-    },
-    "products/categories/condiments-sauces-and-dressings": {
-      "hero_image": "/static/heroes/condiments-ketchup-mayonnaise-vinaigrette.webp",
-      "hero_image_alt": "Separate dishes of ketchup, mayonnaise and herb-flecked vinaigrette with an unmarked dressing bottle illustrating condiments sauces and dressings product-format context."
-    },
-    "products/categories/cosmetics-and-personal-care-leave-on": {
-      "hero_image": "/static/heroes/cosmetic-cream-jars-tube.webp",
-      "hero_image_alt": "Two unmarked cosmetic cream jars, a squeeze tube and a dish of white cream illustrating cosmetics and personal care leave on product-format context."
-    },
-    "products/categories/cosmetics-and-personal-care-rinse-off": {
-      "hero_image": "/static/heroes/washing-soap-bars-pump-bottles.webp",
-      "hero_image_alt": "Plain soap bars beside an unmarked pump bottle and closed squeeze bottle illustrating cosmetics and personal care rinse off product-format context."
-    },
-    "products/categories/culinary-oils-and-fats": {
-      "hero_image": "/static/heroes/golden-oil-unmarked-bottle.webp",
-      "hero_image_alt": "Golden edible oil in an unmarked glass bottle and a shallow dish illustrating culinary oils and fats product-format context."
-    },
-    "products/categories/dairy-and-milk-products": {
-      "hero_image": "/static/heroes/dairy-butter-protein-powder-milk.webp",
-      "hero_image_alt": "A butter block, an unmarked jar of fine pale powder and a glass of milk illustrating dairy and milk products product-format context."
-    },
-    "products/categories/dietary-supplements-human": {
-      "hero_image": "/static/heroes/supplement-capsules-powder-jars.webp",
-      "hero_image_alt": "Unmarked containers, pale capsules and a separate dish of fine off-white powder illustrating dietary supplements human product-format context."
-    },
-    "products/categories/edible-fungi": {
-      "hero_image": "/static/heroes/mushrooms-fresh-button-oyster.webp",
-      "hero_image_alt": "Whole and cut button mushrooms beside oyster mushrooms illustrating edible fungi product-format context."
-    },
-    "products/categories/feminine-care": {
-      "hero_image": "/static/heroes/feminine-care-unmarked-products.webp",
-      "hero_image_alt": "Plain sanitary pads, tampons and a burgundy menstrual cup illustrating feminine care product-format context."
-    },
-    "products/categories/food-contact-consumer-goods-and-kitchenware": {
-      "hero_image": "/static/heroes/bakeware-metal-ceramic.webp",
-      "hero_image_alt": "A metal loaf tin, shallow baking tray and ceramic baking dish illustrating food contact consumer goods and kitchenware product-format context."
-    },
-    "products/categories/fruits-vegetables-and-produce": {
-      "hero_image": "/static/heroes/garden-vegetables-tomato-cucumber-asparagus.webp",
-      "hero_image_alt": "Tomato, cucumber, green bell pepper, celery and asparagus illustrating fruits vegetables and produce product-format context."
-    },
-    "products/categories/grains-cereals-and-rice-products": {
-      "hero_image": "/static/heroes/rice-grain-flour-noodles-cakes.webp",
-      "hero_image_alt": "Rice grain, rice flour, rice noodles, puffed rice and rice cakes illustrating grains cereals and rice products product-format context."
-    },
-    "products/categories/herbs-spices-seasonings-and-salt": {
-      "hero_image": "/static/heroes/spices-peppercorns-cinnamon-turmeric.webp",
-      "hero_image_alt": "Black and pale peppercorns, turmeric powder and cinnamon sticks illustrating herbs spices seasonings and salt product-format context."
-    },
-    "products/categories/home-air-and-inhalation-adjacent-products": {
-      "hero_image": "/static/heroes/air-dispenser-refill-bottles.webp",
-      "hero_image_alt": "An unmarked air-product dispenser beside closed refill containers and a sealed refill pod illustrating home air and inhalation adjacent products product-format context."
-    },
-    "products/categories/household-cleaning-and-dishwashing": {
-      "hero_image": "/static/heroes/household-cleaner-bottles.webp",
-      "hero_image_alt": "Unmarked spray and squeeze bottles with a folded cloth, stainless-steel panel and ceramic tile illustrating household cleaning and dishwashing product-format context."
-    },
-    "products/categories/infant-and-child-contact-products": {
-      "hero_image": "/static/heroes/liquid-formula-closed-unmarked-bottles.webp",
-      "hero_image_alt": "Two closed unmarked feeding bottles and a sealed container illustrating infant and child contact products product-format context."
-    },
-    "products/categories/infant-and-child-durable-goods-and-textiles": {
-      "hero_image": "/static/heroes/blankets-sleep-sack-fabric.webp",
-      "hero_image_alt": "A folded oatmeal blanket and a plain burgundy sleep sack with a neck opening and closed fastener illustrating infant and child durable goods and textiles product-format context."
-    },
-    "products/categories/infant-and-child-foods": {
-      "hero_image": "/static/heroes/infant-food-purees-unmarked-bowls.webp",
-      "hero_image_alt": "Five unmarked ceramic bowls of smooth pureed foods illustrating infant and child foods product-format context."
-    },
-    "products/categories/infant-and-child-personal-care": {
-      "hero_image": "/static/heroes/cosmetic-cream-jars-tube.webp",
-      "hero_image_alt": "Two unmarked cosmetic cream jars, a squeeze tube and a dish of white cream illustrating infant and child personal care product-format context."
-    },
-    "products/categories/laundry-and-fabric-contact-home-products": {
-      "hero_image": "/static/heroes/laundry-fabric-spray-sheets.webp",
-      "hero_image_alt": "An unmarked spray bottle beside folded neutral fabric and plain laundry sheets illustrating laundry and fabric contact home products product-format context."
-    },
-    "products/categories/legumes-and-pulses": {
-      "hero_image": "/static/heroes/beans-dry-cooked-baked.webp",
-      "hero_image_alt": "Dry white and red beans, plain cooked beans and baked beans in tomato sauce illustrating legumes and pulses product-format context."
-    },
-    "products/categories/meat-poultry-and-eggs": {
-      "hero_image": "/static/heroes/meat-poultry-beef-chicken.webp",
-      "hero_image_alt": "An unseasoned raw beef cut and plain raw chicken breast pieces on separate dishes illustrating meat poultry and eggs product-format context."
-    },
-    "products/categories/nuts-seeds-and-their-butters": {
-      "hero_image": "/static/heroes/peanuts-butter-golden-oil.webp",
-      "hero_image_alt": "Whole and shelled peanuts, a dish of peanut butter and an unmarked bottle of golden oil illustrating nuts seeds and their butters product-format context."
-    },
-    "products/categories/oral-care": {
-      "hero_image": "/static/heroes/breath-freshener-spray-strips-lozenges.webp",
-      "hero_image_alt": "An unmarked small spray bottle, plain white lozenges and thin translucent strips illustrating oral care product-format context."
-    },
-    "products/categories/peptides-sarms-and-research-chemicals": {
-      "hero_image": "/static/heroes/injectable-vials-closed-syringe.webp",
-      "hero_image_alt": "Plain sealed injectable-style vials and a capped unused syringe illustrating peptides sarms and research chemicals product-format context."
-    },
-    "products/categories/pet-foods": {
-      "hero_image": "/static/heroes/pet-food-kibble-wet-food.webp",
-      "hero_image_alt": "Separate dishes of brown dry pet-food kibble and moist cooked pet-food chunks beside an unmarked container illustrating pet foods product-format context."
-    },
-    "products/categories/pet-supplements": {
-      "hero_image": "/static/heroes/supplement-capsules-powder-jars.webp",
-      "hero_image_alt": "Unmarked containers, pale capsules and a separate dish of fine off-white powder illustrating pet supplements product-format context."
-    },
-    "products/categories/prepared-and-packaged-meals": {
-      "hero_image": "/static/heroes/chili-beans-ground-beef.webp",
-      "hero_image_alt": "A bowl of chili with red beans and cooked ground-meat pieces beside a dish of beans illustrating prepared and packaged meals product-format context."
-    },
-    "products/categories/seafood": {
-      "hero_image": "/static/heroes/shrimp-shell-on-peeled.webp",
-      "hero_image_alt": "Whole shell-on shrimp and a separate dish of peeled shrimp illustrating seafood product-format context."
-    },
-    "products/categories/sweeteners-and-syrups": {
-      "hero_image": "/static/heroes/pancakes-amber-syrup.webp",
-      "hero_image_alt": "A stack of plain pancakes beside an unmarked bottle and dish of amber syrup illustrating sweeteners and syrups product-format context."
-    },
-    "products/categories/water-and-water-based-products": {
-      "hero_image": "/static/heroes/beverages-beer-tea-juice-water.webp",
-      "hero_image_alt": "An unmarked bottle, a glass of amber beer, a tea cup, orange juice, water and barley grains illustrating water and water based products product-format context."
     },
     "products/category-5-beverages": {
       "hero_image": "/static/heroes/beverages-beer-tea-juice-water.webp",
@@ -3277,10 +2929,6 @@
       "hero_image": "/static/heroes/infant-formula-powder-unmarked-container.webp",
       "hero_image_alt": "An unmarked formula powder container, scoop and closed bottle of prepared formula illustrating infant food powder product-format context."
     },
-    "products/infant-food-puree": {
-      "hero_image": "/static/heroes/infant-food-purees-unmarked-bowls.webp",
-      "hero_image_alt": "Five unmarked ceramic bowls of smooth pureed foods illustrating infant food puree product-format context."
-    },
     "products/infant-food-puree-fish": {
       "hero_image": "/static/heroes/infant-food-purees-unmarked-bowls.webp",
       "hero_image_alt": "Five unmarked ceramic bowls of smooth pureed foods illustrating infant Food Puree Fish product-format context."
@@ -3301,6 +2949,10 @@
       "hero_image": "/static/heroes/infant-food-purees-unmarked-bowls.webp",
       "hero_image_alt": "Five unmarked ceramic bowls of smooth pureed foods illustrating infant Food Puree Vegetable product-format context."
     },
+    "products/infant-food-puree": {
+      "hero_image": "/static/heroes/infant-food-purees-unmarked-bowls.webp",
+      "hero_image_alt": "Five unmarked ceramic bowls of smooth pureed foods illustrating infant food puree product-format context."
+    },
     "products/infant-food-ready-to-eat": {
       "hero_image": "/static/heroes/infant-food-purees-unmarked-bowls.webp",
       "hero_image_alt": "Five unmarked ceramic bowls of smooth pureed foods illustrating infant food ready to eat product-format context."
@@ -3313,10 +2965,6 @@
       "hero_image": "/static/heroes/infant-food-purees-unmarked-bowls.webp",
       "hero_image_alt": "Five unmarked ceramic bowls of smooth pureed foods illustrating infant food vegetables product-format context."
     },
-    "products/infant-formula": {
-      "hero_image": "/static/heroes/infant-formula-powder-unmarked-container.webp",
-      "hero_image_alt": "An unmarked formula powder container, scoop and closed bottle of prepared formula illustrating infant Formula product-format context."
-    },
     "products/infant-formula-concentrated-liquid-non-soy": {
       "hero_image": "/static/heroes/liquid-formula-closed-unmarked-bottles.webp",
       "hero_image_alt": "Two closed unmarked feeding bottles and a sealed container illustrating infant Formula, Concentrated Liquid (Non-Soy) product-format context."
@@ -3325,17 +2973,13 @@
       "hero_image": "/static/heroes/liquid-formula-closed-unmarked-bottles.webp",
       "hero_image_alt": "Two closed unmarked feeding bottles and a sealed container illustrating infant Formula, Concentrated Liquid (Soy-Based) product-format context."
     },
-    "products/infant-formula-dairy": {
-      "hero_image": "/static/heroes/infant-formula-powder-unmarked-container.webp",
-      "hero_image_alt": "An unmarked formula powder container, scoop and closed bottle of prepared formula illustrating infant Formula Dairy product-format context."
-    },
     "products/infant-formula-dairy-free": {
       "hero_image": "/static/heroes/soy-formula-powder-liquid-context.webp",
       "hero_image_alt": "Unmarked powdered and liquid formula containers with a separate dish of soybeans illustrating infant Formula Dairy Free product-format context."
     },
-    "products/infant-formula-powder": {
+    "products/infant-formula-dairy": {
       "hero_image": "/static/heroes/infant-formula-powder-unmarked-container.webp",
-      "hero_image_alt": "An unmarked formula powder container, scoop and closed bottle of prepared formula illustrating infant Formula Powder product-format context."
+      "hero_image_alt": "An unmarked formula powder container, scoop and closed bottle of prepared formula illustrating infant Formula Dairy product-format context."
     },
     "products/infant-formula-powder-dairy": {
       "hero_image": "/static/heroes/infant-formula-powder-unmarked-container.webp",
@@ -3345,13 +2989,17 @@
       "hero_image": "/static/heroes/infant-formula-powder-unmarked-container.webp",
       "hero_image_alt": "An unmarked formula powder container, scoop and closed bottle of prepared formula illustrating infant Formula, Powder (Non-Soy) product-format context."
     },
+    "products/infant-formula-powder-soy-based": {
+      "hero_image": "/static/heroes/soy-formula-powder-liquid-context.webp",
+      "hero_image_alt": "Unmarked powdered and liquid formula containers with a separate dish of soybeans illustrating infant Formula, Powder (Soy-Based) product-format context."
+    },
     "products/infant-formula-powder-soy": {
       "hero_image": "/static/heroes/soy-formula-powder-liquid-context.webp",
       "hero_image_alt": "Unmarked powdered and liquid formula containers with a separate dish of soybeans illustrating infant Formula Powder Soy product-format context."
     },
-    "products/infant-formula-powder-soy-based": {
-      "hero_image": "/static/heroes/soy-formula-powder-liquid-context.webp",
-      "hero_image_alt": "Unmarked powdered and liquid formula containers with a separate dish of soybeans illustrating infant Formula, Powder (Soy-Based) product-format context."
+    "products/infant-formula-powder": {
+      "hero_image": "/static/heroes/infant-formula-powder-unmarked-container.webp",
+      "hero_image_alt": "An unmarked formula powder container, scoop and closed bottle of prepared formula illustrating infant Formula Powder product-format context."
     },
     "products/infant-formula-rtf-dairy": {
       "hero_image": "/static/heroes/liquid-formula-closed-unmarked-bottles.webp",
@@ -3373,17 +3021,21 @@
       "hero_image": "/static/heroes/liquid-formula-closed-unmarked-bottles.webp",
       "hero_image_alt": "Two closed unmarked feeding bottles and a sealed container illustrating infant Formula Stage1 product-format context."
     },
+    "products/infant-formula": {
+      "hero_image": "/static/heroes/infant-formula-powder-unmarked-container.webp",
+      "hero_image_alt": "An unmarked formula powder container, scoop and closed bottle of prepared formula illustrating infant Formula product-format context."
+    },
     "products/infant-juice": {
       "hero_image": "/static/heroes/citrus-oranges-tangerines-grapefruit-juice.webp",
       "hero_image_alt": "Orange, clementine, tangerine, grapefruit and citrus juices illustrating infant juice product-format context."
     },
-    "products/infant-porridges-dairy": {
-      "hero_image": "/static/heroes/infant-cereal-rice-oats-porridge.webp",
-      "hero_image_alt": "Dry rice and oat cereals, rice grains, rolled oats and smooth porridge illustrating infant porridges dairy product-format context."
-    },
     "products/infant-porridges-dairy-free": {
       "hero_image": "/static/heroes/infant-cereal-rice-oats-porridge.webp",
       "hero_image_alt": "Dry rice and oat cereals, rice grains, rolled oats and smooth porridge illustrating infant Porridges Dairy Free product-format context."
+    },
+    "products/infant-porridges-dairy": {
+      "hero_image": "/static/heroes/infant-cereal-rice-oats-porridge.webp",
+      "hero_image_alt": "Dry rice and oat cereals, rice grains, rolled oats and smooth porridge illustrating infant porridges dairy product-format context."
     },
     "products/infant-rice-cereal": {
       "hero_image": "/static/heroes/arsenic-rice-water-soil.webp",
@@ -3404,10 +3056,6 @@
     "products/kitchen-countertop-cleaners": {
       "hero_image": "/static/heroes/household-cleaner-bottles.webp",
       "hero_image_alt": "Unmarked spray and squeeze bottles with a folded cloth, stainless-steel panel and ceramic tile illustrating kitchen countertop cleaners product-format context."
-    },
-    "products/kombucha-and-fermented-beverages": {
-      "hero_image": "/static/heroes/kombucha-fermented-tea-jars.webp",
-      "hero_image_alt": "An unlabeled jar of amber fermented tea with a culture, a glass of the drink and loose tea leaves illustrating kombucha and fermented beverages product-format context."
     },
     "products/kombucha-tea-based": {
       "hero_image": "/static/heroes/beverages-beer-tea-juice-water.webp",
@@ -3506,10 +3154,6 @@
       "hero_image": "/static/heroes/antimony-water-polyester.webp",
       "hero_image_alt": "A water bottle, drinking glass and polyester fabric illustrating mineral water product-format context."
     },
-    "products/miso": {
-      "hero_image": "/static/heroes/miso.webp",
-      "hero_image_alt": "A wooden tub of light brown miso and a ceramic dish of dark red miso with a wooden spatula and a few soybeans."
-    },
     "products/mixed-meals-non-rice": {
       "hero_image": "/static/heroes/chili-beans-ground-beef.webp",
       "hero_image_alt": "A bowl of chili with red beans and cooked ground-meat pieces beside a dish of beans illustrating mixed meals non rice product-format context."
@@ -3526,17 +3170,9 @@
       "hero_image": "/static/heroes/mouthwash-unmarked-bottle-cap.webp",
       "hero_image_alt": "An unmarked mouthwash-style bottle of pale liquid and a separate plain cap-shaped cup illustrating mouthwash oral rinse product-format context."
     },
-    "products/mushrooms": {
-      "hero_image": "/static/heroes/mushrooms.webp",
-      "hero_image_alt": "Whole and halved brown cremini and white button mushrooms on a dark ceramic plate beside a burgundy cloth."
-    },
     "products/mustard-mayo-dressings": {
       "hero_image": "/static/heroes/condiments-ketchup-mayonnaise-vinaigrette.webp",
       "hero_image_alt": "Separate dishes of ketchup, mayonnaise and herb-flecked vinaigrette with an unmarked dressing bottle illustrating mustard mayo dressings product-format context."
-    },
-    "products/nail-polish": {
-      "hero_image": "/static/heroes/nail-polish.webp",
-      "hero_image_alt": "Four unlabeled glass bottles of nail polish in burgundy, nude and deep red shades, one open with its brush beside a drop of polish."
     },
     "products/nebula-diffusers": {
       "hero_image": "/static/heroes/nebulizing-diffuser-empty-glass.webp",
@@ -3702,10 +3338,6 @@
       "hero_image": "/static/heroes/piercing-stud-posts-backings.webp",
       "hero_image_alt": "Plain metal piercing stud posts and separate matching backings illustrating piercing post assemblies product-format context."
     },
-    "products/plant-based-beverages": {
-      "hero_image": "/static/heroes/almond-plant-beverage.webp",
-      "hero_image_alt": "A glass of pale plant-based beverage with almonds illustrating plant-based beverages product-format context."
-    },
     "products/plant-based-meat-alternatives": {
       "hero_image": "/static/heroes/vegetable-burger-patty.webp",
       "hero_image_alt": "A vegetable-burger patty and a cut patty showing coarse bean-and-vegetable texture illustrating plant based meat alternatives product-format context."
@@ -3741,10 +3373,6 @@
     "products/processed-meats": {
       "hero_image": "/static/heroes/bologna-luncheon-meat-slices.webp",
       "hero_image_alt": "An unwrapped bologna cylinder and round slices of pink luncheon meat illustrating processed meats product-format context."
-    },
-    "products/ready-to-feed-formula": {
-      "hero_image": "/static/heroes/liquid-formula-closed-unmarked-bottles.webp",
-      "hero_image_alt": "Closed unmarked bottles of liquid infant formula illustrating ready-to-feed formula product-format context."
     },
     "products/refined-sugar": {
       "hero_image": "/static/heroes/white-sugar-granules.webp",
@@ -4030,10 +3658,6 @@
       "hero_image": "/static/heroes/matcha-green-powder-tea.webp",
       "hero_image_alt": "Fine muted-green matcha powder and a plain bowl of green tea illustrating tea product-format context."
     },
-    "products/tea-infusions": {
-      "hero_image": "/static/heroes/tea-infusions.webp",
-      "hero_image_alt": "A glass cup of amber herbal tea surrounded by small piles of dried chamomile, mint leaves, hibiscus petals and black tea leaves."
-    },
     "products/teething-and-snacks-non-rice": {
       "hero_image": "/static/heroes/cereal-granola-bars-oats.webp",
       "hero_image_alt": "Plain oat-and-grain cereal bars and a dish of rolled oats illustrating teething and snacks non rice product-format context."
@@ -4166,10 +3790,6 @@
       "hero_image": "/static/heroes/potpourri-plain-sachet.webp",
       "hero_image_alt": "Dried flower petals, wood shavings and botanical pieces beside a plain cloth sachet illustrating vacuum cleaner fragrance additives product-format context."
     },
-    "products/vegetable-juices": {
-      "hero_image": "/static/heroes/vegetable-juices.webp",
-      "hero_image_alt": "Three glasses of beetroot, carrot and green vegetable juice beside a whole beetroot, a carrot and celery stalks."
-    },
     "products/vegetable-juices-non-root": {
       "hero_image": "/static/heroes/vegetable-juice-tomato-carrot.webp",
       "hero_image_alt": "A glass of red-orange juice beside tomato, carrot and celery illustrating vegetable juices non root product-format context."
@@ -4249,10 +3869,6 @@
     "regulations/brazil-anvisa-rdc-722-2022": {
       "hero_image": "/static/heroes/research-glassware-notebook-sampling-spoon.webp",
       "hero_image_alt": "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating brazil anvisa rdc 722 2022 research context."
-    },
-    "regulations/by-jurisdiction": {
-      "hero_image": "/static/heroes/research-glassware-notebook-sampling-spoon.webp",
-      "hero_image_alt": "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating by jurisdiction research context."
     },
     "regulations/ca-prop65-ab2762-cosmetics": {
       "hero_image": "/static/heroes/cosmetic-cream-jars-tube.webp",
@@ -4878,10 +4494,6 @@
       "hero_image": "/static/heroes/research-glassware-notebook-sampling-spoon.webp",
       "hero_image_alt": "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating thailand moph notification 414 2020 contaminants food research context."
     },
-    "regulations/timeline": {
-      "hero_image": "/static/heroes/research-glassware-notebook-sampling-spoon.webp",
-      "hero_image_alt": "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating timeline research context."
-    },
     "regulations/trinidad-tobago-food-drugs-metal-limits-2007": {
       "hero_image": "/static/heroes/research-glassware-notebook-sampling-spoon.webp",
       "hero_image_alt": "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating trinidad tobago food drugs metal limits 2007 research context."
@@ -4938,10 +4550,6 @@
       "hero_image": "/static/heroes/research-glassware-notebook-sampling-spoon.webp",
       "hero_image_alt": "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating atsdr research context."
     },
-    "regulators/by-metal": {
-      "hero_image": "/static/heroes/research-glassware-notebook-sampling-spoon.webp",
-      "hero_image_alt": "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating by metal research context."
-    },
     "regulators/codex": {
       "hero_image": "/static/heroes/research-glassware-notebook-sampling-spoon.webp",
       "hero_image_alt": "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating codex research context."
@@ -4953,10 +4561,6 @@
     "regulators/eu-commission": {
       "hero_image": "/static/heroes/research-glassware-notebook-sampling-spoon.webp",
       "hero_image_alt": "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating eu commission research context."
-    },
-    "regulators/index": {
-      "hero_image": "/static/heroes/research-glassware-notebook-sampling-spoon.webp",
-      "hero_image_alt": "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating index research context."
     },
     "regulators/jecfa": {
       "hero_image": "/static/heroes/research-glassware-notebook-sampling-spoon.webp",
@@ -7478,13 +7082,13 @@
       "hero_image": "/static/heroes/mercury-fish-water.webp",
       "hero_image_alt": "Fish, a fillet and water illustrating 2024 freshwater mercury biomagnification research context."
     },
-    "sources/authors2024-access-metrics-more-article-recommendations-supporting-information": {
-      "hero_image": "/static/heroes/research-glassware-notebook-sampling-spoon.webp",
-      "hero_image_alt": "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating 2024 supporting-information source 2 research context."
-    },
     "sources/authors2024-access-metrics-more-article-recommendations-supporting-information-2": {
       "hero_image": "/static/heroes/research-glassware-notebook-sampling-spoon.webp",
       "hero_image_alt": "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating 2024 supporting-information source 1 research context."
+    },
+    "sources/authors2024-access-metrics-more-article-recommendations-supporting-information": {
+      "hero_image": "/static/heroes/research-glassware-notebook-sampling-spoon.webp",
+      "hero_image_alt": "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating 2024 supporting-information source 2 research context."
     },
     "sources/authors2024-accumulation-of-toxic-metals-in-vegetable-crops-and": {
       "hero_image": "/static/heroes/garden-vegetables-tomato-cucumber-asparagus.webp",
@@ -7602,13 +7206,13 @@
       "hero_image": "/static/heroes/research-glassware-notebook-sampling-spoon.webp",
       "hero_image_alt": "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating 2024 developmental neurotoxicity assessment research context."
     },
-    "sources/authors2024-for-the-deposit-and-dissemination-of-scientific-re": {
-      "hero_image": "/static/heroes/research-glassware-notebook-sampling-spoon.webp",
-      "hero_image_alt": "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating 2024 archived scientific record 2 research context."
-    },
     "sources/authors2024-for-the-deposit-and-dissemination-of-scientific-re-2": {
       "hero_image": "/static/heroes/research-glassware-notebook-sampling-spoon.webp",
       "hero_image_alt": "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating 2024 archived scientific record 1 research context."
+    },
+    "sources/authors2024-for-the-deposit-and-dissemination-of-scientific-re": {
+      "hero_image": "/static/heroes/research-glassware-notebook-sampling-spoon.webp",
+      "hero_image_alt": "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating 2024 archived scientific record 2 research context."
     },
     "sources/authors2024-fungi-in-remediating-toxic-metals": {
       "hero_image": "/static/heroes/research-glassware-notebook-sampling-spoon.webp",
@@ -9498,9 +9102,405 @@
       "hero_image": "/static/heroes/small-jewelry-unmarked-metal.webp",
       "hero_image_alt": "Plain small metal bracelets, a chain necklace and unmarked pendants illustrating California 2010 jewelry-material regulation research context."
     },
+    "ingredients/cassava": {
+      "hero_image": "/static/heroes/cassava-roots-flour.webp",
+      "hero_image_alt": "Whole and cut cassava roots beside a dish of cassava flour illustrating cassava ingredient context."
+    },
+    "ingredients/plantain": {
+      "hero_image": "/static/heroes/plantains-green-ripe-cut.webp",
+      "hero_image_alt": "Green and ripe plantains beside a plate of peeled plantain slices illustrating plantain ingredient context."
+    },
     "synthesis/heavy-metals-in-baby-wipes": {
       "hero_image": "/static/heroes/baby-wipes-open-pack-nonwoven-sheets.webp",
       "hero_image_alt": "An unmarked open baby-wipes pack and folded white wipes on a dark ceramic tray illustrating baby-wipes product context."
+    },
+    "ingredients/categories/meat-and-poultry": {
+      "hero_image": "/static/heroes/meat-poultry-beef-chicken.webp",
+      "hero_image_alt": "An unseasoned raw beef cut and plain raw chicken breast pieces on separate dishes illustrating meat & poultry ingredient context."
+    },
+    "ingredients/categories/prepared-and-composite-foods": {
+      "hero_image": "/static/heroes/chicken-broth-noodle-soup.webp",
+      "hero_image_alt": "A glass vessel of pale clear broth and a bowl of noodle soup with white chicken pieces and carrots illustrating prepared & composite foods ingredient context."
+    },
+    "ingredients/categories/oils-and-fats": {
+      "hero_image": "/static/heroes/edible-oils-olives-sunflower-seeds.webp",
+      "hero_image_alt": "Unmarked bottles and dishes of golden and amber oils, whole olives and sunflower seeds illustrating oils & fats ingredient context."
+    },
+    "ingredients/categories/vegetables": {
+      "hero_image": "/static/heroes/leafy-greens-spinach-kale-lettuce.webp",
+      "hero_image_alt": "Spinach, kale, collard greens, romaine and iceberg lettuce illustrating vegetables ingredient context."
+    },
+    "ingredients/categories/fruits": {
+      "hero_image": "/static/heroes/orchard-fruit-apples-pears-stone-fruit.webp",
+      "hero_image_alt": "Apple, pear, peach, nectarine and plums illustrating fruits ingredient context."
+    },
+    "ingredients/categories/grains-and-cereals": {
+      "hero_image": "/static/heroes/oats-porridge-granola-bran-cereals.webp",
+      "hero_image_alt": "Rolled oats, oatmeal, granola, oat rings and bran cereal with raisins illustrating grains & cereals ingredient context."
+    },
+    "ingredients/categories/other": {
+      "hero_image": "/static/heroes/infant-food-purees-unmarked-bowls.webp",
+      "hero_image_alt": "Five unmarked ceramic bowls of smooth pureed foods illustrating other ingredient context."
+    },
+    "ingredients/categories/fish-and-seafood": {
+      "hero_image": "/static/heroes/mercury-fish-water.webp",
+      "hero_image_alt": "Fish, a fillet and water illustrating fish & seafood ingredient context."
+    },
+    "ingredients/categories/sweeteners-and-condiments": {
+      "hero_image": "/static/heroes/vinegars-apple-cider-balsamic.webp",
+      "hero_image_alt": "Unmarked bottles and dishes of pale amber and dark vinegar, an apple and dark grapes illustrating sweeteners & condiments ingredient context."
+    },
+    "ingredients/categories/legumes-and-pulses": {
+      "hero_image": "/static/heroes/beans-dry-cooked-baked.webp",
+      "hero_image_alt": "Dry white and red beans, plain cooked beans and baked beans in tomato sauce illustrating legumes & pulses ingredient context."
+    },
+    "ingredients/categories/beverages-and-water": {
+      "hero_image": "/static/heroes/beverages-beer-tea-juice-water.webp",
+      "hero_image_alt": "An unmarked bottle, a glass of amber beer, a tea cup, orange juice, water and barley grains illustrating beverages & water ingredient context."
+    },
+    "ingredients/categories/herbs-spices-and-botanicals": {
+      "hero_image": "/static/heroes/spices-peppercorns-cinnamon-turmeric.webp",
+      "hero_image_alt": "Black and pale peppercorns, turmeric powder and cinnamon sticks illustrating herbs, spices & botanicals ingredient context."
+    },
+    "ingredients/categories/dairy-and-eggs": {
+      "hero_image": "/static/heroes/dairy-butter-protein-powder-milk.webp",
+      "hero_image_alt": "A butter block, an unmarked jar of fine pale powder and a glass of milk illustrating dairy & eggs ingredient context."
+    },
+    "ingredients/categories/nuts-and-seeds": {
+      "hero_image": "/static/heroes/nuts-seeds-cashews-almonds-walnuts.webp",
+      "hero_image_alt": "Cashews, almonds, walnut pieces and pumpkin seeds in a shallow ceramic tray illustrating nuts & seeds ingredient context."
+    },
+    "products/categories/dietary-supplements-human": {
+      "hero_image": "/static/heroes/supplement-capsules-powder-jars.webp",
+      "hero_image_alt": "Unmarked containers, pale capsules and a separate dish of fine off-white powder illustrating dietary supplements human product-format context."
+    },
+    "products/categories/feminine-care": {
+      "hero_image": "/static/heroes/feminine-care-unmarked-products.webp",
+      "hero_image_alt": "Plain sanitary pads, tampons and a burgundy menstrual cup illustrating feminine care product-format context."
+    },
+    "products/categories/beverages": {
+      "hero_image": "/static/heroes/beverages-beer-tea-juice-water.webp",
+      "hero_image_alt": "An unmarked bottle, a glass of amber beer, a tea cup, orange juice, water and barley grains illustrating beverages product-format context."
+    },
+    "products/categories/cannabis-hemp-and-cbd-products": {
+      "hero_image": "/static/heroes/cannabis-dried-flower-unmarked-bottle.webp",
+      "hero_image_alt": "Dried cannabis flower buds beside a closed unmarked amber jar illustrating cannabis hemp and cbd products product-format context."
+    },
+    "products/categories/children-s-toys-arts-and-crafts": {
+      "hero_image": "/static/heroes/art-craft-unmarked-materials.webp",
+      "hero_image_alt": "Unmarked paint pots, colored pencils, markers, modeling clay and a glue bottle illustrating children s toys arts and crafts product-format context."
+    },
+    "products/categories/chocolate-cocoa-and-confectionery": {
+      "hero_image": "/static/heroes/chocolate-cake-cookies-nut-candy.webp",
+      "hero_image_alt": "A slice of iced chocolate cake, chocolate-chip cookies and cut chocolate nut candy illustrating chocolate cocoa and confectionery product-format context."
+    },
+    "products/categories/condiments-sauces-and-dressings": {
+      "hero_image": "/static/heroes/condiments-ketchup-mayonnaise-vinaigrette.webp",
+      "hero_image_alt": "Separate dishes of ketchup, mayonnaise and herb-flecked vinaigrette with an unmarked dressing bottle illustrating condiments sauces and dressings product-format context."
+    },
+    "products/categories/cosmetics-and-personal-care-leave-on": {
+      "hero_image": "/static/heroes/cosmetic-cream-jars-tube.webp",
+      "hero_image_alt": "Two unmarked cosmetic cream jars, a squeeze tube and a dish of white cream illustrating cosmetics and personal care leave on product-format context."
+    },
+    "products/categories/cosmetics-and-personal-care-rinse-off": {
+      "hero_image": "/static/heroes/washing-soap-bars-pump-bottles.webp",
+      "hero_image_alt": "Plain soap bars beside an unmarked pump bottle and closed squeeze bottle illustrating cosmetics and personal care rinse off product-format context."
+    },
+    "products/categories/culinary-oils-and-fats": {
+      "hero_image": "/static/heroes/golden-oil-unmarked-bottle.webp",
+      "hero_image_alt": "Golden edible oil in an unmarked glass bottle and a shallow dish illustrating culinary oils and fats product-format context."
+    },
+    "products/categories/dairy-and-milk-products": {
+      "hero_image": "/static/heroes/dairy-butter-protein-powder-milk.webp",
+      "hero_image_alt": "A butter block, an unmarked jar of fine pale powder and a glass of milk illustrating dairy and milk products product-format context."
+    },
+    "products/categories/edible-fungi": {
+      "hero_image": "/static/heroes/mushrooms-fresh-button-oyster.webp",
+      "hero_image_alt": "Whole and cut button mushrooms beside oyster mushrooms illustrating edible fungi product-format context."
+    },
+    "products/categories/food-contact-consumer-goods-and-kitchenware": {
+      "hero_image": "/static/heroes/bakeware-metal-ceramic.webp",
+      "hero_image_alt": "A metal loaf tin, shallow baking tray and ceramic baking dish illustrating food contact consumer goods and kitchenware product-format context."
+    },
+    "products/categories/fruits-vegetables-and-produce": {
+      "hero_image": "/static/heroes/garden-vegetables-tomato-cucumber-asparagus.webp",
+      "hero_image_alt": "Tomato, cucumber, green bell pepper, celery and asparagus illustrating fruits vegetables and produce product-format context."
+    },
+    "products/categories/grains-cereals-and-rice-products": {
+      "hero_image": "/static/heroes/rice-grain-flour-noodles-cakes.webp",
+      "hero_image_alt": "Rice grain, rice flour, rice noodles, puffed rice and rice cakes illustrating grains cereals and rice products product-format context."
+    },
+    "products/categories/herbs-spices-seasonings-and-salt": {
+      "hero_image": "/static/heroes/spices-peppercorns-cinnamon-turmeric.webp",
+      "hero_image_alt": "Black and pale peppercorns, turmeric powder and cinnamon sticks illustrating herbs spices seasonings and salt product-format context."
+    },
+    "products/categories/home-air-and-inhalation-adjacent-products": {
+      "hero_image": "/static/heroes/air-dispenser-refill-bottles.webp",
+      "hero_image_alt": "An unmarked air-product dispenser beside closed refill containers and a sealed refill pod illustrating home air and inhalation adjacent products product-format context."
+    },
+    "products/categories/pet-foods": {
+      "hero_image": "/static/heroes/pet-food-kibble-wet-food.webp",
+      "hero_image_alt": "Separate dishes of brown dry pet-food kibble and moist cooked pet-food chunks beside an unmarked container illustrating pet foods product-format context."
+    },
+    "products/categories/household-cleaning-and-dishwashing": {
+      "hero_image": "/static/heroes/household-cleaner-bottles.webp",
+      "hero_image_alt": "Unmarked spray and squeeze bottles with a folded cloth, stainless-steel panel and ceramic tile illustrating household cleaning and dishwashing product-format context."
+    },
+    "products/categories/infant-and-child-contact-products": {
+      "hero_image": "/static/heroes/liquid-formula-closed-unmarked-bottles.webp",
+      "hero_image_alt": "Two closed unmarked feeding bottles and a sealed container illustrating infant and child contact products product-format context."
+    },
+    "products/categories/infant-and-child-durable-goods-and-textiles": {
+      "hero_image": "/static/heroes/blankets-sleep-sack-fabric.webp",
+      "hero_image_alt": "A folded oatmeal blanket and a plain burgundy sleep sack with a neck opening and closed fastener illustrating infant and child durable goods and textiles product-format context."
+    },
+    "products/categories/infant-and-child-foods": {
+      "hero_image": "/static/heroes/infant-food-purees-unmarked-bowls.webp",
+      "hero_image_alt": "Five unmarked ceramic bowls of smooth pureed foods illustrating infant and child foods product-format context."
+    },
+    "products/categories/infant-and-child-personal-care": {
+      "hero_image": "/static/heroes/cosmetic-cream-jars-tube.webp",
+      "hero_image_alt": "Two unmarked cosmetic cream jars, a squeeze tube and a dish of white cream illustrating infant and child personal care product-format context."
+    },
+    "products/categories/laundry-and-fabric-contact-home-products": {
+      "hero_image": "/static/heroes/laundry-fabric-spray-sheets.webp",
+      "hero_image_alt": "An unmarked spray bottle beside folded neutral fabric and plain laundry sheets illustrating laundry and fabric contact home products product-format context."
+    },
+    "products/categories/legumes-and-pulses": {
+      "hero_image": "/static/heroes/beans-dry-cooked-baked.webp",
+      "hero_image_alt": "Dry white and red beans, plain cooked beans and baked beans in tomato sauce illustrating legumes and pulses product-format context."
+    },
+    "products/categories/meat-poultry-and-eggs": {
+      "hero_image": "/static/heroes/meat-poultry-beef-chicken.webp",
+      "hero_image_alt": "An unseasoned raw beef cut and plain raw chicken breast pieces on separate dishes illustrating meat poultry and eggs product-format context."
+    },
+    "products/categories/nuts-seeds-and-their-butters": {
+      "hero_image": "/static/heroes/peanuts-butter-golden-oil.webp",
+      "hero_image_alt": "Whole and shelled peanuts, a dish of peanut butter and an unmarked bottle of golden oil illustrating nuts seeds and their butters product-format context."
+    },
+    "products/categories/oral-care": {
+      "hero_image": "/static/heroes/breath-freshener-spray-strips-lozenges.webp",
+      "hero_image_alt": "An unmarked small spray bottle, plain white lozenges and thin translucent strips illustrating oral care product-format context."
+    },
+    "products/categories/peptides-sarms-and-research-chemicals": {
+      "hero_image": "/static/heroes/injectable-vials-closed-syringe.webp",
+      "hero_image_alt": "Plain sealed injectable-style vials and a capped unused syringe illustrating peptides sarms and research chemicals product-format context."
+    },
+    "products/categories/pet-supplements": {
+      "hero_image": "/static/heroes/supplement-capsules-powder-jars.webp",
+      "hero_image_alt": "Unmarked containers, pale capsules and a separate dish of fine off-white powder illustrating pet supplements product-format context."
+    },
+    "products/categories/prepared-and-packaged-meals": {
+      "hero_image": "/static/heroes/chili-beans-ground-beef.webp",
+      "hero_image_alt": "A bowl of chili with red beans and cooked ground-meat pieces beside a dish of beans illustrating prepared and packaged meals product-format context."
+    },
+    "products/categories/seafood": {
+      "hero_image": "/static/heroes/shrimp-shell-on-peeled.webp",
+      "hero_image_alt": "Whole shell-on shrimp and a separate dish of peeled shrimp illustrating seafood product-format context."
+    },
+    "products/categories/sweeteners-and-syrups": {
+      "hero_image": "/static/heroes/pancakes-amber-syrup.webp",
+      "hero_image_alt": "A stack of plain pancakes beside an unmarked bottle and dish of amber syrup illustrating sweeteners and syrups product-format context."
+    },
+    "products/categories/water-and-water-based-products": {
+      "hero_image": "/static/heroes/beverages-beer-tea-juice-water.webp",
+      "hero_image_alt": "An unmarked bottle, a glass of amber beer, a tea cup, orange juice, water and barley grains illustrating water and water based products product-format context."
+    },
+    "regulations/by-jurisdiction": {
+      "hero_image": "/static/heroes/research-glassware-notebook-sampling-spoon.webp",
+      "hero_image_alt": "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating by jurisdiction research context."
+    },
+    "regulations/timeline": {
+      "hero_image": "/static/heroes/research-glassware-notebook-sampling-spoon.webp",
+      "hero_image_alt": "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating timeline research context."
+    },
+    "regulators/by-metal": {
+      "hero_image": "/static/heroes/research-glassware-notebook-sampling-spoon.webp",
+      "hero_image_alt": "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating by metal research context."
+    },
+    "regulators/index": {
+      "hero_image": "/static/heroes/research-glassware-notebook-sampling-spoon.webp",
+      "hero_image_alt": "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating index research context."
+    },
+    "products/mushrooms": {
+      "hero_image": "/static/heroes/mushrooms.webp",
+      "hero_image_alt": "Whole and halved brown cremini and white button mushrooms on a dark ceramic plate beside a burgundy cloth."
+    },
+    "ingredients/oyster": {
+      "hero_image": "/static/heroes/oysters-half-shell.webp",
+      "hero_image_alt": "Oysters on the half shell, closed oyster shells, a marine stone and a clear glass vessel on a dark ceramic tray illustrating oyster ingredient context."
+    },
+    "ingredients/peppers": {
+      "hero_image": "/static/heroes/peppers.webp",
+      "hero_image_alt": "Red, yellow and green bell peppers, one red pepper halved to show its seeds, with small red chili peppers on a burgundy cloth."
+    },
+    "products/nail-polish": {
+      "hero_image": "/static/heroes/nail-polish.webp",
+      "hero_image_alt": "Four unlabeled glass bottles of nail polish in burgundy, nude and deep red shades, one open with its brush beside a drop of polish."
+    },
+    "ingredients/brassica": {
+      "hero_image": "/static/heroes/brassica.webp",
+      "hero_image_alt": "A head of broccoli, a small cauliflower, a wedge of green cabbage and Brussels sprouts on a dark stone surface."
+    },
+    "ingredients/oilseeds": {
+      "hero_image": "/static/heroes/oilseeds.webp",
+      "hero_image_alt": "Small stone bowls of pumpkin, black, sesame and sunflower seeds beside a glass cruet of golden oil."
+    },
+    "ingredients/flaxseeds": {
+      "hero_image": "/static/heroes/flaxseeds.webp",
+      "hero_image_alt": "A stone bowl of brown flaxseeds, a small dish of golden flaxseeds, scattered seeds and a dried flax stem with round seed capsules."
+    },
+    "ingredients/algae": {
+      "hero_image": "/static/heroes/algae.webp",
+      "hero_image_alt": "A bowl of dried kelp seaweed, a dish of dark green spirulina powder and a stack of dried nori sheets."
+    },
+    "products/tea-infusions": {
+      "hero_image": "/static/heroes/tea-infusions.webp",
+      "hero_image_alt": "A glass cup of amber herbal tea surrounded by small piles of dried chamomile, mint leaves, hibiscus petals and black tea leaves."
+    },
+    "ingredients/coriander": {
+      "hero_image": "/static/heroes/coriander.webp",
+      "hero_image_alt": "A fresh bunch of coriander (cilantro) leaves beside a stone bowl of round coriander seeds, with seeds scattered in front."
+    },
+    "ingredients/tahini": {
+      "hero_image": "/static/heroes/tahini.webp",
+      "hero_image_alt": "A dark bowl of smooth beige tahini with a spoon beside a small pile of hulled sesame seeds."
+    },
+    "ingredients/hemp": {
+      "hero_image": "/static/heroes/hemp.webp",
+      "hero_image_alt": "Bowls of hulled hemp hearts and whole hemp seeds beside a small glass bottle of green hemp seed oil and hemp leaves."
+    },
+    "ingredients/sesame": {
+      "hero_image": "/static/heroes/sesame.webp",
+      "hero_image_alt": "Bowls of white and black sesame seeds, a wooden scoop spilling seeds and a dried sesame stem with open seed pods."
+    },
+    "ingredients/wine": {
+      "hero_image": "/static/heroes/wine.webp",
+      "hero_image_alt": "A glass of white wine and a glass of red wine beside an unlabeled dark wine bottle and a bunch of red grapes."
+    },
+    "ingredients/food-additives": {
+      "hero_image": "/static/heroes/food-additives.webp",
+      "hero_image_alt": "Small glass bowls of white crystals, white powder, red and yellow colouring powders and a clear liquid, with metal measuring spoons."
+    },
+    "ingredients/camel-milk": {
+      "hero_image": "/static/heroes/camel-milk.webp",
+      "hero_image_alt": "A plain glass jug and a glass of white camel milk beside a small dish of dates on a woven cloth."
+    },
+    "products/biscuits": {
+      "hero_image": "/static/heroes/biscuits.webp",
+      "hero_image_alt": "A stack of plain round golden biscuits on a dark plate, with one broken biscuit and crumbs."
+    },
+    "ingredients/spring-onion": {
+      "hero_image": "/static/heroes/spring-onion.webp",
+      "hero_image_alt": "A bunch of spring onions with white bulbs, roots and green leaves beside a few sliced green rings."
+    },
+    "ingredients/leeks": {
+      "hero_image": "/static/heroes/leeks.webp",
+      "hero_image_alt": "Three whole leeks with white shafts, roots and dark green leaves beside a few cut leek rounds."
+    },
+    "ingredients/sheep-casings": {
+      "hero_image": "/static/heroes/sheep-casings.webp",
+      "hero_image_alt": "Translucent natural sheep casings coiled in a bowl of salted water, one length draped out, beside thin sausages."
+    },
+    "ingredients/okra": {
+      "hero_image": "/static/heroes/okra.webp",
+      "hero_image_alt": "A pile of fresh green okra pods with a few cut pieces showing the star-shaped cross-section and white seeds."
+    },
+    "ingredients/rhodiola-rosea": {
+      "hero_image": "/static/heroes/rhodiola-rosea.webp",
+      "hero_image_alt": "A whole Rhodiola rosea root with a pinkish cut face, a bowl of dried chopped root and a sprig with succulent leaves and yellow flowers."
+    },
+    "products/canned-mushrooms": {
+      "hero_image": "/static/heroes/canned-mushrooms.webp",
+      "hero_image_alt": "An open plain metal can of sliced button mushrooms in brine beside a small bowl of drained mushroom slices."
+    },
+    "products/vegetable-juices": {
+      "hero_image": "/static/heroes/vegetable-juices.webp",
+      "hero_image_alt": "Three glasses of beetroot, carrot and green vegetable juice beside a whole beetroot, a carrot and celery stalks."
+    },
+    "products/miso": {
+      "hero_image": "/static/heroes/miso.webp",
+      "hero_image_alt": "A wooden tub of light brown miso and a ceramic dish of dark red miso with a wooden spatula and a few soybeans."
+    },
+    "ingredients/rice-koji": {
+      "hero_image": "/static/heroes/rice-koji.webp",
+      "hero_image_alt": "A wooden tray of rice koji, cooked rice grains coated in white mold, with a broken clump showing mold threads binding the grains."
+    },
+    "ingredients/salted-fish": {
+      "hero_image": "/static/heroes/salted-fish.webp",
+      "hero_image_alt": "Salt-cured dried fish and a salted fish fillet crusted with coarse salt on a dark wooden board beside a bowl of sea salt."
+    },
+    "ingredients/edible-insects": {
+      "hero_image": "/static/heroes/edible-insects.webp",
+      "hero_image_alt": "A bowl of roasted crickets, a dish of dried mealworms and a dish of cricket flour on a dark stone surface."
+    },
+    "ingredients/clay-geophagy": {
+      "hero_image": "/static/heroes/mineral-earth-powders-unmarked.webp",
+      "hero_image_alt": "Unmarked dishes of fine mineral earth and clay powders illustrating clay geophagy ingredient context."
+    },
+    "ingredients/high-fructose-corn-syrup": {
+      "hero_image": "/static/heroes/corn-syrup-kernels-glass-jar.webp",
+      "hero_image_alt": "A clear glass jar of thick corn syrup beside a corn cob and loose kernels illustrating high-fructose corn syrup ingredient context."
+    },
+    "ingredients/water-lentils": {
+      "hero_image": "/static/heroes/water-lentils-duckweed.webp",
+      "hero_image_alt": "Small green water lentil fronds floating in a glass dish of water illustrating water lentils ingredient context."
+    },
+    "metals/bismuth": {
+      "hero_image": "/static/heroes/bismuth-crystal-specimen.webp",
+      "hero_image_alt": "An iridescent stepped bismuth crystal, a small gray metal ingot and laboratory glassware illustrating bismuth research context."
+    },
+    "metals/boron": {
+      "hero_image": "/static/heroes/boron-borate-minerals-dried-fruit.webp",
+      "hero_image_alt": "Pale borate mineral specimens, dried apricots, almonds and laboratory glassware illustrating boron research context."
+    },
+    "metals/germanium": {
+      "hero_image": "/static/heroes/germanium-metalloid-electronics.webp",
+      "hero_image_alt": "A gray germanium metalloid fragment in a glass dish beside a polished wafer disk illustrating germanium research context."
+    },
+    "metals/indium": {
+      "hero_image": "/static/heroes/indium-ingot-glass-panel.webp",
+      "hero_image_alt": "A small silvery indium ingot beside a clear glass panel and laboratory glassware illustrating indium research context."
+    },
+    "metals/rare-earths": {
+      "hero_image": "/static/heroes/rare-earth-ores-oxide-powders.webp",
+      "hero_image_alt": "Dark ore specimens and dishes of white, pink and pale green oxide powders illustrating rare earth elements research context."
+    },
+    "metals/rubidium": {
+      "hero_image": "/static/heroes/rubidium-lepidolite-mineral.webp",
+      "hero_image_alt": "Lilac lepidolite mineral specimens, a sealed glass ampoule and a tray of soil illustrating rubidium research context."
+    },
+    "metals/selenium": {
+      "hero_image": "/static/heroes/selenium-brazil-nuts-fish-eggs.webp",
+      "hero_image_alt": "Brazil nuts, a fish fillet, two eggs and grains illustrating selenium dietary research context."
+    },
+    "metals/strontium": {
+      "hero_image": "/static/heroes/strontium-celestine-water-soil.webp",
+      "hero_image_alt": "A pale blue celestine crystal cluster, a glass of water and a tray of soil illustrating strontium research context."
+    },
+    "metals/tungsten": {
+      "hero_image": "/static/heroes/tungsten-ore-rods.webp",
+      "hero_image_alt": "A dark wolframite ore specimen, slender gray metal rods and a small metal cube illustrating tungsten research context."
+    },
+    "metals/yttrium": {
+      "hero_image": "/static/heroes/yttrium-xenotime-ceramics.webp",
+      "hero_image_alt": "Brown xenotime mineral specimens, white ceramic discs and a dish of white powder illustrating yttrium research context."
+    },
+    "metals/zirconium": {
+      "hero_image": "/static/heroes/zirconium-zircon-ceramics.webp",
+      "hero_image_alt": "Amber zircon crystals in a glass dish, pale zircon sand and a white ceramic fragment illustrating zirconium research context."
+    },
+    "products/kombucha-and-fermented-beverages": {
+      "hero_image": "/static/heroes/kombucha-fermented-tea-jars.webp",
+      "hero_image_alt": "An unlabeled jar of amber fermented tea with a culture, a glass of the drink and loose tea leaves illustrating kombucha and fermented beverages product-format context."
+    },
+    "products/plant-based-beverages": {
+      "hero_image": "/static/heroes/almond-plant-beverage.webp",
+      "hero_image_alt": "A glass of pale plant-based beverage with almonds illustrating plant-based beverages product-format context."
+    },
+    "products/ready-to-feed-formula": {
+      "hero_image": "/static/heroes/liquid-formula-closed-unmarked-bottles.webp",
+      "hero_image_alt": "Closed unmarked bottles of liquid infant formula illustrating ready-to-feed formula product-format context."
     }
   }
 }
