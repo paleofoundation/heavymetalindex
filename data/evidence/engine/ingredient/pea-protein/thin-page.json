@@ -1,9 +1,9 @@
 {
   "slug": "pea-protein",
   "status": "thin",
-  "assessed_at": "2026-11-02T12:00:00Z",
-  "universe_items": 2,
-  "occurrence_families": 1,
+  "assessed_at": "2026-11-03T12:00:00Z",
+  "universe_items": 6,
+  "occurrence_families": 5,
   "analytes": [
     {
       "analyte": "Au",
@@ -48,9 +48,9 @@
     {
       "analyte": "Cd",
       "decision_relevant": true,
-      "results": 2,
+      "results": 19,
       "reference_units": 2,
-      "families": 1,
+      "families": 5,
       "rated": 0,
       "direct": 0,
       "note": ""
@@ -68,9 +68,9 @@
     {
       "analyte": "Cr",
       "decision_relevant": false,
-      "results": 2,
+      "results": 4,
       "reference_units": 2,
-      "families": 1,
+      "families": 2,
       "rated": 0,
       "direct": 0,
       "note": ""
@@ -96,11 +96,21 @@
       "note": ""
     },
     {
+      "analyte": "Ni",
+      "decision_relevant": false,
+      "results": 2,
+      "reference_units": 0,
+      "families": 1,
+      "rated": 0,
+      "direct": 0,
+      "note": ""
+    },
+    {
       "analyte": "Pb",
       "decision_relevant": true,
-      "results": 2,
+      "results": 19,
       "reference_units": 2,
-      "families": 1,
+      "families": 5,
       "rated": 0,
       "direct": 0,
       "note": ""
@@ -156,35 +166,38 @@
       "note": ""
     },
     {
+      "analyte": "tAs",
+      "decision_relevant": true,
+      "results": 15,
+      "reference_units": 0,
+      "families": 3,
+      "rated": 0,
+      "direct": 0,
+      "note": ""
+    },
+    {
       "analyte": "tHg",
       "decision_relevant": false,
-      "results": 2,
+      "results": 17,
       "reference_units": 2,
-      "families": 1,
+      "families": 4,
       "rated": 0,
       "direct": 0,
       "note": ""
     }
   ],
   "reasons": [
-    "few_occurrence_families",
     "decision_analyte_without_comparison",
     "no_lower_contamination_comparison",
     "no_applicable_cited_control"
   ],
-  "assessment": "1 occurrence family; Cd: 0 rated, 0 direct; Pb: 0 rated, 0 direct.",
+  "assessment": "5 occurrence families; Cd: 0 rated, 0 direct; Pb: 0 rated, 0 direct; tAs: 0 rated, 0 direct.",
   "fetch_targets": [
     {
       "what": "A measured control for metals in pea protein (siting, irrigation water, cultivar, processing, storage or lot testing)",
       "why": "No reviewed, cited control in the shared library applies to this food, so the mitigation table is empty.",
       "where": "Literature search: pea protein heavy metal reduction washing peeling cooking soil amendment; agency guidance on pea protein contaminants",
       "priority": "medium"
-    },
-    {
-      "what": "Monitoring or survey results for pea protein with stated form, basis and reporting limits",
-      "why": "Only 1 occurrence family are in the ledger, too few for a reference.",
-      "where": "National total diet studies; WHO GEMS/Food; EFSA occurrence data; literature search on the food name and its scientific name with lead, cadmium, arsenic",
-      "priority": "high"
     },
     {
       "what": "Subgroup medians or sample values for lead in pea protein from ordinary farms or markets",
@@ -199,10 +212,10 @@
       "priority": "medium"
     },
     {
-      "what": "Total arsenic measurements in pea protein",
-      "why": "The ledger has no total arsenic result for this food.",
-      "where": "Literature search: pea protein total arsenic; national monitoring",
-      "priority": "low"
+      "what": "Subgroup medians or sample values for total arsenic in pea protein from ordinary farms or markets",
+      "why": "No eligible HMI reference of at least four units exists for total arsenic.",
+      "where": "Monitoring datasets and surveys reporting total arsenic in pea protein by region or market",
+      "priority": "medium"
     },
     {
       "what": "Inorganic arsenic measurements in pea protein",

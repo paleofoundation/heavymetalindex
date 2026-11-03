@@ -1,4 +1,4 @@
-// Authored synthesis for /ingredients/pea-protein (order HMI-PROTEIN-PEA-RICE-1).
+// Authored synthesis for /ingredients/pea-protein (orders HMI-PROTEIN-PEA-RICE-1, HMI-PROTEIN-REBUILD-1).
 // Every number is from a cited source record or is labelled arithmetic on one.
 import { para, section, writeAuthored } from './author.mjs';
 
@@ -16,17 +16,25 @@ const B = 'bandara2020-protein-powder-heavy-metals';
 const SR = 'sriranjani2025-whey-vegan-protein-powders-icpms';
 const M = 'mattila2018-finland-plant-protein-products-nutrients';
 
+const L = 'lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals';
+const G4 = 'fda-grn804-pea-protein-manufacturer-batches';
+const G5 = 'fda-grn851-pea-protein-manufacturer-batches';
+const G7 = 'fda-grn788-pea-protein-manufacturer-batches';
+
+// Manufacturer figures below are from FDA GRAS notices 788, 804 and 851 (manufacturer
+// batch data, notifier and product names withheld): 15 results across six grades from
+// three manufacturers. Ranges and counts over them are Index calculations.
 const q = (question, ...paras) => ({ q: question, a: paras.length === 1 ? paras[0] : { ...paras[0], text: paras.map(p => p.text).join(' '), source_keys: [...new Set(paras.flatMap(p => p.source_keys))], citation_spans: paras.flatMap(p => p.citation_spans), ...(paras.some(p => p.citation_omission_reason) ? { citation_omission_reason: paras.find(p => p.citation_omission_reason).citation_omission_reason } : {}) } });
 
 const record = {
-  description: 'Lead, cadmium, mercury and arsenic evidence for pea protein isolate and concentrate, with labeled-serving arithmetic, applicable limits and what a buyer should ask a supplier.',
-  lede: 'Two retail pea protein powders carry the only published single-product metal results for pea protein: both contained lead and cadmium, and neither was tested for arsenic.',
+  description: 'Lead, cadmium, mercury and arsenic evidence for pea protein isolate and concentrate: four independently tested products, manufacturer batch data submitted to FDA, applicable limits and what a buyer should ask a supplier.',
+  lede: 'Four independently tested pea protein products and 15 manufacturer batch results carry the published metal evidence for pea protein: cadmium was found in most results, lead at low levels, and inorganic arsenic has never been measured.',
   quick_read: {
-    ...para(['Two retail pea protein powders are the only pea protein products with published single-product metal results, and both contained lead and cadmium.', R], 'Arsenic and growing origin have no published data.'),
+    ...para(['Independent tests of four pea protein products found lead and cadmium in two and neither in the other two.', R, L], ['Manufacturer tests submitted to FDA found cadmium in all 15 batches.', G4, G5, G7], 'Inorganic arsenic is unmeasured.'),
     facets: [
-      { label: 'Metals of concern', ...para(['Lead and cadmium were measured in both pea powders and mercury was quantified in one.', R], ['Arsenic was not measured.', R]) },
-      { label: 'Main drivers', ...para(['One powder had more than twice the cadmium of the other at nearly equal lead.', R], 'Origin, cultivar and isolation process have no published comparison.') },
-      { label: 'Practical framing', ...para(['At its labeled 30 g serving, one powder supplies more lead than the California 0.5 µg/day level.', R, OL], 'Test lots for lead, cadmium and inorganic arsenic.') },
+      { label: 'Metals of concern', ...para(['Cadmium is the most consistent finding: 1.0 to 80 µg/kg in manufacturer batches and 15.4 and 40.6 µg/kg in two retail powders.', G4, G5, G7, R], ['Inorganic arsenic was never measured.', R, L, G4, G5, G7]) },
+      { label: 'Main drivers', ...para(['Cadmium differed more than twofold between two retail powders at nearly equal lead.', R], 'Growing origin has no published data.') },
+      { label: 'Practical framing', ...para(['Every cadmium result is below the EU limit of 0.10 mg/kg for proteins from pulses.', EU, R, G4, G5, G7], 'Ask for inorganic arsenic, lead and cadmium on each lot.') },
     ],
   },
   section_headings: {
@@ -47,153 +55,154 @@ const record = {
   sections: [
     section('summary', {
       overview: [
-        para(['Two retail pea protein powders, bought in Ireland in 2016 and 2017, are the only pea protein products in the Index with published single-product metal results.', R], ['Both carried lead, at 22.2 and 22.5 µg/kg, and cadmium, at 40.6 and 15.4 µg/kg; mercury was 4.3 µg/kg in one and below the 0.2 µg/kg quantification limit in the other.', R], ['Arsenic was not measured.', R]),
-        para(['Lead matters most for a powder eaten daily: at the first powder\'s labeled 30 g serving, its lead content works out to 0.666 µg, above California\'s 0.5 µg/day lead level, while the second powder\'s labeled 10 g serving works out to 0.225 µg.', R, OL], 'These are calculations on two products, not a market estimate.', ['Both cadmium results are below the EU maximum level of 0.10 mg/kg for proteins from pulses.', R, EU]),
-        para(['The decisions that matter most for a buyer are which lot to accept and which tests to require, and the evidence limits both.', R, H], 'No pea protein result reports arsenic or the country where the peas were grown, so lead, cadmium and inorganic arsenic need to be measured on the lot itself.'),
+        para(['Four pea protein products have independent single-product metal results: two retail powders bought in Ireland in 2016 and 2017 had lead at 22.2 and 22.5 µg/kg and cadmium at 40.6 and 15.4 µg/kg.', R], ['Two unnamed concentrate brands tested in Spain had neither lead nor cadmium detected, at limits printed without a unit.', L]),
+        para(['Manufacturer batch data submitted to FDA with three GRAS notices add 15 results for six isolate and concentrate grades from three manufacturers; these are the manufacturers\' own tests, not independent measurements.', G4, G5, G7], ['Cadmium was quantified in all 15 at 1.0 to 80 µg/kg, lead in 11 at 10 to 40 µg/kg, and total arsenic and mercury in none (Index calculations).', G4, G5, G7]),
+        para(['Inorganic arsenic has not been measured in any pea protein product, independent or manufacturer, and no result names where the peas were grown.', R, L, G4, G5, G7], 'For a buyer, that makes lot testing for inorganic arsenic, lead and cadmium the decision point.'),
       ],
       answers: [
-        para(['Lead and cadmium are the supported concerns: both were present in the two pea protein powders measured, and mercury was quantified in one of them.', R], ['Arsenic is unassessed because it was not measured.', R]),
-        para(['Lot testing for lead, cadmium and inorganic arsenic deserves priority, because the two measured powders differed by more than twofold in cadmium at nearly equal lead.', R], 'Origin-based sourcing cannot be prioritized on current evidence.'),
-        para(['The gaps that limit decisions are the absence of arsenic data, the absence of growing-origin data and the small number of products.', R, H]),
+        para(['Cadmium and lead are the supported concerns: both were quantified in two independently tested retail powders and in most manufacturer batches.', R, G4, G5, G7], ['Inorganic arsenic is unmeasured, and total arsenic appears only as manufacturer results below their reporting limits.', G4, G5, G7]),
+        para(['Lot testing for inorganic arsenic, lead and cadmium deserves priority, because two retail powders differed more than twofold in cadmium at nearly equal lead.', R], 'Origin-based sourcing cannot be prioritized on current evidence.'),
+        para(['The gaps that limit decisions are the absence of inorganic arsenic data, the absence of growing-origin data and the small number of independently tested products.', R, L, H]),
       ],
     }),
     section('identity', {
       overview: [
-        para('This page covers pea protein isolate and pea protein concentrate, the protein fractions made from dried peas and sold as powder or used as an ingredient.', ['The quantified evidence is two powders described by their study as pea protein, measured as sold.', R]),
+        para('This page covers pea protein isolate and pea protein concentrate, the protein fractions made from dried peas and sold as powder or used as an ingredient.', ['The independent evidence is two retail powders described as pea protein and two concentrate brands; the manufacturer evidence covers four isolate grades and two concentrate grades.', R, L, G4, G5, G7]),
         para(['Blends that list pea alongside rice, pumpkin seed or other proteins are kept separate, because a blend result cannot be assigned to one protein.', H], 'Finished protein powders and mixed formulas are covered on the protein powder product page, and rice-derived protein on [[ingredients/rice-protein]].'),
       ],
       answers: [
-        para(['The page covers protein isolated or concentrated from dried peas, sold as powder; the two measured products are pea protein powders bought at retail.', R]),
-        para('Isolate, concentrate, flavored powders and blends are distinct materials: an isolate holds more protein than a concentrate, and flavored or blended powders add other ingredients.', ['No study in the Index separates isolate from concentrate.', R]),
-        para('Results for whole peas, other pulses or mixed plant powders do not transfer to pea protein, because protein isolation changes which part of the seed remains.', ['No study in the Index measured metals in peas before and after protein isolation.', R, H]),
+        para(['The page covers protein isolated or concentrated from dried peas, sold as powder; the independently tested products are retail powders and commercial concentrates.', R, L]),
+        para('Isolate, concentrate, flavored powders and blends are distinct materials: an isolate holds more protein than a concentrate, and flavored or blended powders add other ingredients.', ['One manufacturer\'s notice reports both an isolate of at least 85% protein and a concentrate of at least 65% protein.', G4]),
+        para('Results for whole peas, other pulses or mixed plant powders do not transfer to pea protein, because protein isolation changes which part of the seed remains.', ['No study in the Index measured metals in peas before and after protein isolation.', R, L, H]),
       ],
     }),
     section('occurrence', {
       overview: [
-        para(['The table lists every pea protein result in the Index: 32 rows from two products in one study, covering lead, cadmium and mercury and 13 other elements.', R], 'No row is graded Low, Moderate or High, because two products are too few to form a reference distribution.'),
-        para(['Lead was 22.2 and 22.5 µg/kg, cadmium 40.6 and 15.4 µg/kg, and mercury 4.3 µg/kg and below 0.2 µg/kg, all on the powder as sold.', R], 'Two products cannot support a median or a typical range.'),
+        para(['The table lists every pea protein result in the Index: 100 rows from five sources.', R, L, G4, G5, G7], ['Two are independent studies; three are FDA GRAS notices whose results are the manufacturers\' own batch tests, marked as manufacturer tests in the table.', R, L, G4, G5, G7], 'Manufacturer rows do not set a reference level for other rows.'),
+        para(['Independent results: lead 22.2 and 22.5 µg/kg and cadmium 40.6 and 15.4 µg/kg in two Irish retail powders, and lead and cadmium not detected in two Spanish concentrate brands.', R, L], ['Manufacturer results: cadmium 1.0 to 80 µg/kg in 15 of 15 batches, lead 10 to 40 µg/kg in 11 of 15, with total arsenic below 10 to 100 µg/kg and mercury below 2 to 10 µg/kg in all (Index calculations).', G4, G5, G7]),
       ],
       answers: [
-        para(['Lead, cadmium and mercury were measured, with 13 other elements; total and inorganic arsenic were not.', R]),
-        para(['Each value is one analysis of one retail product: lead 22.2 and 22.5 µg/kg, cadmium 40.6 and 15.4 µg/kg, mercury 4.3 µg/kg and below 0.2 µg/kg.', R], ['Five pea blends in a Hungarian survey were below an unprinted detection limit for arsenic, cadmium, mercury and lead.', H]),
-        para(['Total arsenic and inorganic arsenic are unassessed for pea protein.', R], ['The blend non-detects cannot be bounded because the detection limit was not printed.', H]),
+        para(['Lead, cadmium and mercury were measured independently with other elements, and lead, cadmium, total arsenic and mercury by the manufacturers.', R, L, G4, G5, G7], ['Inorganic arsenic was not measured in any pea protein product.', R, L, G4, G5, G7]),
+        para(['Each independent value is one retail product or brand: lead 22.2 and 22.5 µg/kg, cadmium 40.6 and 15.4 µg/kg, mercury 4.3 and below 0.2 µg/kg, and two brands with lead and cadmium not detected.', R, L], ['Manufacturer batch results ran from 10 to 40 µg/kg lead where quantified and 1.0 to 80 µg/kg cadmium.', G4, G5, G7]),
+        para(['Inorganic arsenic is unassessed for pea protein, and total arsenic appears only as manufacturer non-detects.', G4, G5, G7], ['The Spanish non-detects cannot be bounded because the detection limits were printed without a unit.', L]),
       ],
     }),
     section('pathways', {
       overview: [
-        para(['No study in the Index traces how lead or cadmium reach pea protein, whether through the soil, irrigation water, processing equipment or packaging.', R, H]),
+        para(['No study in the Index traces how lead or cadmium reach pea protein, whether through the soil, irrigation water, processing equipment or packaging.', R, L, H]),
         para(['A US market screen of 160 protein powders found that plant-based powders averaged three times the lead and five times the cadmium of whey-based powders, but it did not say which plant proteins those powders contained.', CL], 'That pattern fits a plant source for both metals, but it is an inference, not a measured pathway for pea protein.'),
       ],
       answers: [
-        para(['No study in the Index measured root uptake or other biological pathways for pea protein.', R]),
-        para(['No study in the Index measured contamination from agricultural inputs, processing, equipment or packaging for pea protein.', R]),
+        para(['No study in the Index measured root uptake or other biological pathways for pea protein.', R, L]),
+        para(['No study in the Index measured contamination from agricultural inputs, processing, equipment or packaging for pea protein.', R, L]),
         para(['The plant-protein attribution is inferred from a market screen of unspecified plant powders; it is not a measured result for pea protein.', CL]),
       ],
     }),
     section('variation', {
       overview: [
-        para(['Within the one study that measured pea protein, the two powders had nearly equal lead, 22.2 and 22.5 µg/kg, but cadmium differed more than twofold, 40.6 against 15.4 µg/kg.', R], 'The lowest observed result in that comparison is the second powder for cadmium and mercury; for lead the two are effectively tied.'),
-        para(['Compared with the 27 whey powders in the same study, both pea powders were above the whey median lead of 8.6 µg/kg, an Index calculation from the study table, but well below the highest whey value of 88.4 µg/kg.', R], ['The first pea powder\'s cadmium, 40.6 µg/kg, was higher than every one of the 26 whey powders with a quantified cadmium result, whose highest value was 23.2 µg/kg.', R], 'This is a within-study product-type comparison of two pea powders, so it is tentative, not a supported preference for whey over pea.'),
-        para(['No study reports pea protein by the country where the peas were grown, so China, Vietnam, the USA and Canada cannot be compared as origins for any metal.', R, H], ['Pea blends produced in the USA, Canada, Belgium and elsewhere in the EU were all below an unprinted detection limit, which cannot rank them, and production country is not growing origin.', H], 'Resolving this needs lot results for pea protein linked to the growing region, measured with a stated quantification limit.'),
+        para(['Among independently tested products, the two Irish powders had nearly equal lead, 22.2 and 22.5 µg/kg, but cadmium differed more than twofold, 40.6 against 15.4 µg/kg; the two Spanish concentrate brands had neither metal detected.', R, L], 'The lowest observed independent results are the two Spanish brands, but their limits are printed without a unit, so how low they were is unknown.'),
+        para(['Within one manufacturer\'s notice, the concentrate grade had more cadmium than the isolate grade, 41 and 15 µg/kg against 9.6, 8.1 and 1.0 µg/kg.', G4], ['Across another manufacturer\'s three isolate grades, cadmium ran from 40 to 80 µg/kg, with the highest lot in the third grade.', G5], 'These are manufacturer tests within single notices, so they show how grades of one producer compared, not which grade is lower on the market.'),
+        para(['No result reports pea protein by the country where the peas were grown, so China, Vietnam, the USA and Canada cannot be compared as origins for any metal.', R, L, G4, G5, G7], ['Pea blends produced in the USA, Canada, Belgium and elsewhere in the EU were all below an unprinted detection limit, which cannot rank them, and production country is not growing origin.', H], 'Resolving this needs lot results for pea protein linked to the growing region, measured with a stated quantification limit.'),
       ],
       answers: [
-        para(['No pea protein result is linked to growing origin, growing conditions, variety or harvest period.', R, H]),
-        para(['The only variation observed is between two retail products, which differed more than twofold in cadmium at nearly equal lead.', R], 'Within-lot and between-lot variation are unmeasured.'),
-        para('No comparison supports an origin or supplier preference.', ['Generalizing from two products bought in Ireland to a country or supplier would be unjustified.', R]),
+        para(['No pea protein result is linked to growing origin, growing conditions, variety or harvest period.', R, L, G4, G5, G7]),
+        para(['The variation observed is between products and grades: more than twofold in cadmium between two retail powders, and from 1.0 to 80 µg/kg cadmium across manufacturer batches.', R, G4, G5, G7], 'Within-lot variation is unmeasured.'),
+        para('No comparison supports an origin or supplier preference.', ['Generalizing from four independently tested products to a country or supplier would be unjustified.', R, L]),
       ],
       questions: [
-        q('Which pea protein measured lowest in each metal?', para(['For cadmium and mercury, the second Irish powder measured lowest: 15.4 µg/kg cadmium and mercury below 0.2 µg/kg, against 40.6 and 4.3 µg/kg in the first.', R], ['For lead the two powders were effectively the same, 22.5 and 22.2 µg/kg.', R], 'Two products from one market do not show that either source is reliably lower.')),
-        q('Can country of origin pick a lower-metal pea protein?', para(['Not yet: no published pea protein result names the growing region, and the blends with a stated production country were below an unprinted detection limit.', R, H], 'Origin-linked lot results are the evidence that would answer it.')),
+        q('Which pea protein measured lowest in each metal?', para(['Among independent results, the two Spanish concentrate brands had lead and cadmium not detected; of the Irish powders, the second was lower in cadmium and mercury, 15.4 µg/kg and below 0.2 µg/kg, against 40.6 and 4.3 µg/kg.', L, R], ['In manufacturer data, the lowest cadmium was 1.0 µg/kg in a blend of isolate batches.', G4], 'Four independent products from two markets do not show that any source is reliably lower.')),
+        q('Can country of origin pick a lower-metal pea protein?', para(['Not yet: no published pea protein result names the growing region, and the blends with a stated production country were below an unprinted detection limit.', R, L, H], 'Origin-linked lot results are the evidence that would answer it.')),
       ],
     }),
     section('processing', {
       overview: [
-        para(['No study in the Index compares lead, cadmium, arsenic or mercury in peas before and after protein isolation, or in isolate against concentrate.', R, H], 'Whether isolation removes these metals, leaves them in place or concentrates them as other seed components are removed is therefore unresolved.'),
-        para(['Both quantified powders are finished retail products whose processing the study does not describe.', R], 'Flavored and blended powders add ingredients that can change the result, so their evidence is kept on the protein powder product page.'),
+        para(['No study in the Index compares lead, cadmium, arsenic or mercury in peas before and after protein isolation.', R, L, H], ['One manufacturer\'s isolate grade had less cadmium than its concentrate grade made from the same extraction, 1.0 to 9.6 µg/kg against 15 and 41 µg/kg.', G4], 'Whether isolation removes cadmium is suggested by that one notice but not measured as a mass balance.'),
+        para(['The independently tested powders are finished retail products whose processing the studies do not describe.', R, L], 'Flavored and blended powders add ingredients that can change the result, so their evidence is kept on the protein powder product page.'),
       ],
       answers: [
-        para(['No processing step has a measured effect on metals in pea protein in the Index.', R, H]),
-        para('Isolate and concentrate are distinct fractions of the pea seed.', ['Their metal content has not been compared in any study in the Index.', R]),
-        para('Removal, redistribution and concentration cannot be distinguished without a before-and-after mass balance, which no study reports.', ['The two products have no paired raw-material results.', R]),
+        para(['No processing step has a measured before-and-after effect on metals in pea protein in the Index.', R, L, H]),
+        para('Isolate and concentrate are distinct fractions of the pea seed.', ['In one manufacturer\'s data, the isolate carried less cadmium than the concentrate.', G4]),
+        para('Removal, redistribution and concentration cannot be distinguished without a before-and-after mass balance, which no study reports.', ['No product has paired raw-material results.', R, G4]),
       ],
     }),
     section('controls', {
       overview: [
-        para(['No measured way to lower lead or cadmium in pea protein is in the Index, at the farm or in processing.', R, H], 'The control that can be verified today is testing each lot of finished protein and rejecting lots above the buyer\'s specification.'),
-        para('Testing detects contamination; it does not remove it.', ['A test is useful only when its quantification limit sits well below the level that matters, which the blend survey without a printed detection limit illustrates.', H]),
+        para(['No measured way to lower lead or cadmium in pea protein is in the Index, at the farm or in processing.', R, L, H], 'The control that can be verified today is testing each lot of finished protein and rejecting lots above the buyer\'s specification.'),
+        para('Testing detects contamination; it does not remove it.', ['A test is useful only when its quantification limit sits well below the level that matters, which the blend survey without a printed detection limit illustrates.', H], ['The manufacturer notices set specifications such as below 0.2 mg/kg for each metal, well above the results they report.', G5]),
       ],
       answers: [
-        para(['No prevention, mitigation or remediation measure has been evaluated for pea protein in the Index.', R, H]),
+        para(['No prevention, mitigation or remediation measure has been evaluated for pea protein in the Index.', R, L, H]),
         para('With no evaluated control, there is no stage, condition or comparator to report.', ['Lot testing is a detection step, not a tested reduction.', H]),
         para(['There is no field or commercial evidence for a control; verification rests on lot testing with a stated quantification limit.', H]),
       ],
     }),
     section('tradeoffs', {
       overview: [
-        para(['A lead-only specification would not have separated the two measured pea powders, because their lead was nearly equal while their cadmium differed more than twofold.', R], 'Metals do not move together, so a lot that passes one limit says little about the others unless each is tested.'),
-        para(['No study in the Index reports effects of any control on protein content, yield, taste, stability or waste streams for pea protein.', R, H]),
+        para(['A lead-only specification would not have separated the two Irish pea powders, because their lead was nearly equal while their cadmium differed more than twofold.', R], 'Metals do not move together, so a lot that passes one limit says little about the others unless each is tested.'),
+        para(['No study in the Index reports effects of any control on protein content, yield, taste, stability or waste streams for pea protein.', R, L, H]),
       ],
       answers: [
-        para('No intervention for pea protein has been tested, so no shift of contamination to another metal or by-product is documented.', ['The two products show that lead and cadmium can diverge between sources.', R]),
-        para(['No effects on nutrition, yield, sensory quality, stability or waste streams were measured.', R, H]),
-        para('Costs, constraints and failure modes of controls for pea protein are unknown.', ['The only documented failure mode is a non-detect reported without its detection limit.', H]),
+        para('No intervention for pea protein has been tested, so no shift of contamination to another metal or by-product is documented.', ['Two retail products show that lead and cadmium can diverge between sources.', R]),
+        para(['No effects on nutrition, yield, sensory quality, stability or waste streams were measured.', R, L, H]),
+        para('Costs, constraints and failure modes of controls for pea protein are unknown.', ['The documented failure modes are non-detects reported without a detection limit or without its unit.', H, L]),
       ],
     }),
     section('testing', {
       overview: [
-        para(['The study that quantified pea protein digested about 0.5 g of powder with nitric and hydrochloric acid and measured it by sector-field ICP-MS, reporting one value per product with stated quantification limits such as 0.2 µg/kg for mercury.', R], ['It did not measure arsenic.', R]),
-        para(['A survey that reported every pea blend as below detection did not print its detection limit, so those results cannot show how low the metals were.', H], 'A useful certificate names the accredited laboratory, the method, the quantification limit for each metal and the lot tested, and reports inorganic arsenic separately from total arsenic.'),
+        para(['The Irish study digested about 0.5 g of powder with nitric and hydrochloric acid and measured it by sector-field ICP-MS, with stated quantification limits such as 0.2 µg/kg for mercury; it did not measure arsenic.', R], ['The Spanish study used ICP-MS after nitric acid digestion and did not measure arsenic or mercury.', L]),
+        para(['The manufacturer notices used ICP-MS or national standard methods for total arsenic, and none speciated inorganic arsenic.', G4, G5, G7], 'A useful certificate names the accredited laboratory, the method, the quantification limit for each metal and the lot tested, and reports inorganic arsenic separately from total arsenic.'),
       ],
       answers: [
-        para('Sampling should be lot-based: a single product analysis, as in the published studies, describes that product and not a supplier\'s production.', ['Each pea result in the Index is one analysis of one product.', R]),
-        para(['Lead, cadmium and mercury need a method with quantification limits well below the decision level; the published study used sector-field ICP-MS with limits as low as 0.2 µg/kg for mercury.', R], 'Inorganic arsenic needs a speciation method.'),
-        para(['A non-detect establishes only that the result was below the stated limit; without a printed limit it establishes nothing about how low the metal was.', H], ['Arsenic remains untested in pea protein.', R]),
+        para('Sampling should be lot-based: a single product analysis describes that product and not a supplier\'s production.', ['Each independent pea result in the Index is one retail product or brand.', R, L]),
+        para(['Lead, cadmium and mercury need a method with quantification limits well below the decision level; the Irish study used sector-field ICP-MS with limits as low as 0.2 µg/kg for mercury.', R], 'Inorganic arsenic needs a speciation method.'),
+        para(['A non-detect establishes only that the result was below the stated limit; without a printed limit or unit it establishes nothing about how low the metal was.', H, L], ['Inorganic arsenic remains untested in pea protein.', R, L, G4, G5, G7]),
       ],
     }),
     section('procurement', {
       overview: [
-        para('A buyer should ask for the name of the testing laboratory and its ISO/IEC 17025 accreditation, the report number for each certificate, the quantification limit for each metal, inorganic arsenic rather than total arsenic alone, and results for the lot being bought.', ['These requests answer the gaps in the published evidence: the arsenic gap, the missing detection limits and the single-product results.', R, H]),
+        para('A buyer should ask for the name of the testing laboratory and its ISO/IEC 17025 accreditation, the report number for each certificate, the quantification limit for each metal, inorganic arsenic rather than total arsenic alone, and results for the lot being bought.', ['These requests answer the gaps in the published evidence: the inorganic arsenic gap, the missing detection limits and the few independently tested products.', R, L, H]),
         para(['For a product sold in California at a 30 g serving, the lead concentration that reaches the 0.5 µg/day level is 16.7 µg/kg (0.5 ÷ 0.030 kg), so a lead quantification limit well below that is needed; at a 10 g serving the figure is 50 µg/kg.', OL], 'Choosing a specification at or below such a figure is a policy decision for the buyer, not a value set by the evidence.'),
       ],
       answers: [
-        para('A buyer should request the growing origin of the peas, whether the material is isolate or concentrate, the laboratory, accreditation, report number, quantification limits and lot-level results for lead, cadmium, mercury and inorganic arsenic.', ['No published pea protein result supplies origin or arsenic.', R]),
+        para('A buyer should request the growing origin of the peas, whether the material is isolate or concentrate, the laboratory, accreditation, report number, quantification limits and lot-level results for lead, cadmium, mercury and inorganic arsenic.', ['No published pea protein result supplies growing origin or inorganic arsenic.', R, L, G4, G5, G7]),
         para(['The EU maximum level of 0.10 mg/kg cadmium for proteins from pulses is a legal requirement where it applies.', EU], ['A per-serving lead target derived from California\'s 0.5 µg/day level is a policy choice that depends on the serving size.', OL]),
-        para('A change of pea origin, processor, isolate or concentrate, laboratory or quantification limit, or a lot result well above earlier lots, should trigger requalification.', ['The more than twofold cadmium difference between two products shows how much sources can differ.', R]),
+        para('A change of pea origin, processor, isolate or concentrate, laboratory or quantification limit, or a lot result well above earlier lots, should trigger requalification.', ['Manufacturer cadmium results ranged from 1.0 to 80 µg/kg across batches.', G4, G5, G7]),
       ],
     }),
     section('product', {
       overview: [
-        para(['The study reported the labeled serving of each product: 30 g for the first pea powder and 10 g for the second.', R], ['At those servings the powders supply 0.666 and 0.225 µg of lead and 1.218 and 0.154 µg of cadmium, Index calculations from the study values; California\'s levels are 0.5 µg/day for lead and 4.1 µg/day for cadmium.', R, OL, OC]),
-        para('Two or three scoops a day, or pea protein used as one ingredient in a blend, change these figures in proportion to the amount eaten.', ['The study assessed intake at one to three servings a day for a 70 kg adult.', R], 'Whether a product needs a California warning depends on its labeled serving, daily use and the law\'s other provisions, which this page does not assess.'),
+        para(['The Irish study reported the labeled serving of each product: 30 g for the first pea powder and 10 g for the second.', R], ['At those servings the powders supply 0.666 and 0.225 µg of lead and 1.218 and 0.154 µg of cadmium, Index calculations from the study values; California\'s levels are 0.5 µg/day for lead and 4.1 µg/day for cadmium.', R, OL, OC]),
+        para(['At the highest manufacturer lead result, 40 µg/kg, a 30 g serving would supply 1.2 µg of lead, an Index calculation.', G4, OL], 'Two or three scoops a day, or pea protein used as one ingredient in a blend, change these figures in proportion to the amount eaten.', ['The Irish study assessed intake at one to three servings a day for a 70 kg adult.', R]),
       ],
       answers: [
-        para('A finished-product estimate scales with the share of pea protein in the formula, the serving size and the other ingredients.', ['The study\'s labeled servings were 30 g and 10 g.', R]),
-        para(['Consumption frequency matters: the study used one to three servings a day for a 70 kg adult.', R], 'Children, pregnant consumers and heavy users need their own intake assumptions.'),
-        para('Any claim about a finished product or a population\'s intake requires measurement of that product and a separate exposure assessment.', ['Two retail products do not represent the market.', R]),
+        para('A finished-product estimate scales with the share of pea protein in the formula, the serving size and the other ingredients.', ['The Irish study\'s labeled servings were 30 g and 10 g.', R]),
+        para(['Consumption frequency matters: the Irish study used one to three servings a day for a 70 kg adult.', R], 'Children, pregnant consumers and heavy users need their own intake assumptions.'),
+        para('Any claim about a finished product or a population\'s intake requires measurement of that product and a separate exposure assessment.', ['Four independently tested products do not represent the market.', R, L]),
       ],
     }),
     section('assessment', {
       overview: [
         para(['The EU sets a cadmium maximum level of 0.10 mg/kg for proteins from pulses and 1.0 mg/kg for food supplements in general.', EU], ['California sets a lead level of 0.5 µg/day and an oral cadmium level of 4.1 µg/day.', OL, OC], ['FDA Closer to Zero action levels cover foods for babies and young children, not protein powders or isolates.', CTZ], ['China GB 2762-2022 has no protein powder row; its nearest rows are beans, at 0.2 mg/kg lead and 0.2 mg/kg cadmium.', CN], ['GB 2762-2025 replaced the 2022 edition from 2026-09-02.', CN25]),
-        para(['The occurrence evidence is one Irish study of two pea powders and one Hungarian survey of pea blends below an unprinted detection limit.', R, H], ['A US market screen, a review, a risk assessment, a whey and vegan powder study and a Finnish plant protein study were read and do not report pea protein separately.', CL, K, B, SR, M], 'The Index has not yet transcribed the EU 2023/915 lead rows for pulses and food supplements, so no EU lead value is shown here.'),
+        para(['The independent occurrence evidence is one Irish study of two pea powders and one Spanish study of two concentrate brands; a Hungarian survey reports pea blends below an unprinted detection limit.', R, L, H], ['Three FDA GRAS notices add manufacturer batch data, which the Index labels as manufacturer tests and keeps out of reference levels.', G4, G5, G7], ['A US market screen, a review, a risk assessment, a whey and vegan powder study and a Finnish plant protein study were read and do not report pea protein separately.', CL, K, B, SR, M]),
       ],
       answers: [
         para(['The EU 0.10 mg/kg cadmium level for proteins from pulses applies to pea protein; the EU 1.0 mg/kg supplement level applies where it is sold as a food supplement.', EU], ['California\'s per-day levels for lead and cadmium apply to products sold there.', OL, OC], ['China\'s bean rows are the nearest GB 2762 entries.', CN]),
-        para(['Every record that names pea protein was read: two give pea-specific results and five do not report pea protein separately.', R, H, CL, K, B, SR, M]),
-        para('Unresolved: arsenic, growing origin, isolate against concentrate, processing effects and any reduction measure.', ['This version adds the page from the Index source records available on 2 November 2026.', R]),
+        para(['Every record that names pea protein was read: two independent studies and three manufacturer notices give pea-specific results, and six other records do not report pea protein separately.', R, L, G4, G5, G7, H, CL, K, B, SR, M]),
+        para('Unresolved: inorganic arsenic, growing origin, independent lot data, processing effects and any reduction measure.', ['This version adds the Spanish study and the three manufacturer notices from the Index records available on 3 November 2026.', L, G4, G5, G7]),
       ],
       faqs: [
-        q('Does pea protein contain lead?', para(['Both pea protein powders with published results contained lead, at 22.2 and 22.5 µg/kg as sold.', R], 'Two products cannot show how common or how high lead is across the market.')),
-        q('Does pea protein contain cadmium?', para(['Yes: the two measured powders had 40.6 and 15.4 µg/kg cadmium.', R], ['Both are below the EU maximum level of 0.10 mg/kg (100 µg/kg) for proteins from pulses.', EU])),
-        q('Is arsenic a concern in pea protein?', para(['It is unknown: no published pea protein result reports total or inorganic arsenic.', R], ['Pea blends in one survey were below detection for arsenic, but the detection limit was not printed.', H], 'Ask for inorganic arsenic on each lot.')),
+        q('Does pea protein contain lead?', para(['Two independently tested retail powders contained 22.2 and 22.5 µg/kg lead, and two concentrate brands had none detected.', R, L], ['Manufacturer tests quantified lead in 11 of 15 batches at 10 to 40 µg/kg.', G4, G5, G7])),
+        q('Does pea protein contain cadmium?', para(['Yes: two retail powders had 40.6 and 15.4 µg/kg, and manufacturer batches 1.0 to 80 µg/kg.', R, G4, G5, G7], ['All are below the EU maximum level of 0.10 mg/kg (100 µg/kg) for proteins from pulses.', EU])),
+        q('Is arsenic a concern in pea protein?', para(['It is unknown: inorganic arsenic has not been measured in any pea protein product.', R, L, G4, G5, G7], ['Total arsenic appears only in manufacturer tests, all below reporting limits of 10 to 100 µg/kg.', G4, G5, G7], 'Ask for inorganic arsenic on each lot.')),
         q('Is pea protein lower in metals than whey protein?', para(['In the one study that measured both, both pea powders were above the whey median for lead, 8.6 µg/kg across 27 whey powders, and one pea powder had more cadmium than any whey powder.', R], 'With two pea products this is a tentative comparison, not a rule.')),
-        q('Is pea protein lower in metals than rice protein?', para('They cannot be compared directly for most metals.', ['Pea protein has lead and cadmium results but no arsenic.', R], ['For lead, the two measured pea powders had 22.2 and 22.5 µg/kg, below all 22 rice protein powders in WHO GEMS/Food results from the Americas, which ran from 110 to 445 µg/kg.', R, 'who-gemsfood-heavy-metal-contaminants'], 'The two come from different surveys, countries and years, so the gap is indicative; see [[ingredients/rice-protein]] for the rice evidence.')),
-        q('Which country grows the lowest-metal peas for protein?', para(['No published pea protein result names the growing region, so China, Vietnam, the USA and Canada cannot be compared.', R, H], 'Origin-linked lot results would answer it.')),
+        q('Is pea protein lower in metals than rice protein?', para(['For lead, the one study that measured both found none detected in two pea protein brands and 175.40 ppb in one of two rice protein brands.', L], 'Inorganic arsenic cannot be compared, because it has not been measured in pea protein; see [[ingredients/rice-protein]] for the rice evidence.')),
+        q('Are manufacturer test results independent?', para(['No: the GRAS notice results are tests run or commissioned by the manufacturers and submitted to FDA with a GRAS notice, not measurements by an independent laboratory or agency.', G4, G5, G7], 'The Index shows them as manufacturer tests and does not name the companies or products.')),
+        q('Which country grows the lowest-metal peas for protein?', para(['No published pea protein result names the growing region, so China, Vietnam, the USA and Canada cannot be compared.', R, L, G4, G5, G7], 'Origin-linked lot results would answer it.')),
         q('Does organic pea protein have fewer metals?', para(['No pea-specific data exist; across a US market screen of protein powders of all types, organic products averaged three times the lead and twice the cadmium of non-organic ones.', CL], 'That screen did not separate pea protein.')),
         q('Do flavored pea protein powders carry more metals?', para(['Across all protein powders in a US market screen, chocolate-flavored products averaged four times the lead and 110 times the cadmium of vanilla-flavored products.', CL], 'No study separates flavored pea protein.')),
         q('How do I check a pea protein against California Prop 65?', para(['Multiply the lead concentration by the serving weight: 22.2 µg/kg × 0.030 kg = 0.666 µg per 30 g serving, against the 0.5 µg/day level.', R, OL], 'Warning requirements depend on more than this arithmetic.')),
-        q('What does "not detected" mean on a pea protein certificate?', para('It means the result was below the laboratory\'s limit, not that the metal is absent.', ['One survey reported pea blends as below detection without printing the limit, so the result shows nothing about how low the metal was.', H])),
-        q('What should a pea protein supplier\'s test report include?', para('The accredited laboratory\'s name and ISO/IEC 17025 status, the report number, the method, the quantification limit for each metal, inorganic arsenic as well as total arsenic, and the lot tested.', ['The published evidence lacks arsenic and, in one survey, detection limits.', R, H])),
+        q('What does "not detected" mean on a pea protein certificate?', para('It means the result was below the laboratory\'s limit, not that the metal is absent.', ['One survey reported pea blends as below detection without printing the limit, and another printed limits without a unit, so neither shows how low the metal was.', H, L])),
+        q('What should a pea protein supplier\'s test report include?', para('The accredited laboratory\'s name and ISO/IEC 17025 status, the report number, the method, the quantification limit for each metal, inorganic arsenic as well as total arsenic, and the lot tested.', ['The published evidence lacks inorganic arsenic and, in two studies, usable detection limits.', R, H, L])),
         q('Does the EU limit metals in pea protein?', para(['Yes for cadmium: 0.10 mg/kg for proteins from pulses, and 1.0 mg/kg for food supplements in general.', EU], 'The Index has not yet transcribed the EU lead rows that may apply.')),
         q('Does China set a limit for pea protein?', para(['GB 2762-2022 has no protein powder row; beans are limited to 0.2 mg/kg lead and 0.2 mg/kg cadmium.', CN], ['The 2025 edition replaced it from 2026-09-02, and its bean rows are not yet in the Index.', CN25])),
         q('Does FDA Closer to Zero cover pea protein?', para(['No: its action levels cover foods for babies and young children.', CTZ])),

@@ -8,7 +8,10 @@
       "answer_locator": "What heavy metals are found in pea protein?",
       "primary_locator": "Occurrence table",
       "source_keys": [
-        "ring2021-ireland-protein-powders-metals"
+        "fda-grn788-pea-protein-manufacturer-batches",
+        "fda-grn804-pea-protein-manufacturer-batches",
+        "fda-grn851-pea-protein-manufacturer-batches",
+        "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals"
       ]
     },
     {

@@ -5,9 +5,9 @@
   "title": "Pea protein",
   "display_title": "Pea protein",
   "version": 1,
-  "date": "2026-11-02",
-  "description": "Lead, cadmium, mercury and arsenic evidence for pea protein isolate and concentrate, with labeled-serving arithmetic, applicable limits and what a buyer should ask a supplier.",
-  "lede": "Two retail pea protein powders carry the only published single-product metal results for pea protein: both contained lead and cadmium, and neither was tested for arsenic.",
+  "date": "2026-11-03",
+  "description": "Lead, cadmium, mercury and arsenic evidence for pea protein isolate and concentrate: four independently tested products, manufacturer batch data submitted to FDA, applicable limits and what a buyer should ask a supplier.",
+  "lede": "Four independently tested pea protein products and 15 manufacturer batch results carry the published metal evidence for pea protein: cadmium was found in most results, lead at low levels, and inorganic arsenic has never been measured.",
   "article_lede": false,
   "citation_style": "compact",
   "citation_placement": "sentence",
@@ -16,21 +16,29 @@
       "id": "summary",
       "answers": [
         {
-          "text": "Lead and cadmium are the supported concerns: both were present in the two pea protein powders measured, and mercury was quantified in one of them. Arsenic is unassessed because it was not measured.",
+          "text": "Cadmium and lead are the supported concerns: both were quantified in two independently tested retail powders and in most manufacturer batches. Inorganic arsenic is unmeasured, and total arsenic appears only as manufacturer results below their reporting limits.",
           "source_keys": [
-            "ring2021-ireland-protein-powders-metals"
+            "ring2021-ireland-protein-powders-metals",
+            "fda-grn804-pea-protein-manufacturer-batches",
+            "fda-grn851-pea-protein-manufacturer-batches",
+            "fda-grn788-pea-protein-manufacturer-batches"
           ],
           "citation_spans": [
             {
-              "after": "Lead and cadmium are the supported concerns: both were present in the two pea protein powders measured, and mercury was quantified in one of them.",
+              "after": "Cadmium and lead are the supported concerns: both were quantified in two independently tested retail powders and in most manufacturer batches.",
               "source_keys": [
-                "ring2021-ireland-protein-powders-metals"
+                "ring2021-ireland-protein-powders-metals",
+                "fda-grn804-pea-protein-manufacturer-batches",
+                "fda-grn851-pea-protein-manufacturer-batches",
+                "fda-grn788-pea-protein-manufacturer-batches"
               ]
             },
             {
-              "after": "Arsenic is unassessed because it was not measured.",
+              "after": "Inorganic arsenic is unmeasured, and total arsenic appears only as manufacturer results below their reporting limits.",
               "source_keys": [
-                "ring2021-ireland-protein-powders-metals"
+                "fda-grn804-pea-protein-manufacturer-batches",
+                "fda-grn851-pea-protein-manufacturer-batches",
+                "fda-grn788-pea-protein-manufacturer-batches"
               ]
             }
           ],
@@ -41,7 +49,7 @@
           "passages": []
         },
         {
-          "text": "Lot testing for lead, cadmium and inorganic arsenic deserves priority, because the two measured powders differed by more than twofold in cadmium at nearly equal lead. Origin-based sourcing cannot be prioritized on current evidence.",
+          "text": "Lot testing for inorganic arsenic, lead and cadmium deserves priority, because two retail powders differed more than twofold in cadmium at nearly equal lead. Origin-based sourcing cannot be prioritized on current evidence.",
           "source_keys": [
             "ring2021-ireland-protein-powders-metals"
           ],
@@ -51,7 +59,7 @@
           "public_context_section": "summary",
           "citation_spans": [
             {
-              "after": "Lot testing for lead, cadmium and inorganic arsenic deserves priority, because the two measured powders differed by more than twofold in cadmium at nearly equal lead.",
+              "after": "Lot testing for inorganic arsenic, lead and cadmium deserves priority, because two retail powders differed more than twofold in cadmium at nearly equal lead.",
               "source_keys": [
                 "ring2021-ireland-protein-powders-metals"
               ]
@@ -61,9 +69,10 @@
           "passages": []
         },
         {
-          "text": "The gaps that limit decisions are the absence of arsenic data, the absence of growing-origin data and the small number of products.",
+          "text": "The gaps that limit decisions are the absence of inorganic arsenic data, the absence of growing-origin data and the small number of independently tested products.",
           "source_keys": [
             "ring2021-ireland-protein-powders-metals",
+            "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals",
             "horvath2025-hungary-protein-powders-metals"
           ],
           "kind": "evidence",
@@ -72,9 +81,10 @@
           "public_context_section": "summary",
           "citation_spans": [
             {
-              "after": "The gaps that limit decisions are the absence of arsenic data, the absence of growing-origin data and the small number of products.",
+              "after": "The gaps that limit decisions are the absence of inorganic arsenic data, the absence of growing-origin data and the small number of independently tested products.",
               "source_keys": [
                 "ring2021-ireland-protein-powders-metals",
+                "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals",
                 "horvath2025-hungary-protein-powders-metals"
               ]
             }
@@ -84,68 +94,70 @@
       ],
       "presentation": {
         "narrative": "overview_and_questions",
-        "text": "Two retail pea protein powders, bought in Ireland in 2016 and 2017, are the only pea protein products in the Index with published single-product metal results. Both carried lead, at 22.2 and 22.5 µg/kg, and cadmium, at 40.6 and 15.4 µg/kg; mercury was 4.3 µg/kg in one and below the 0.2 µg/kg quantification limit in the other. Arsenic was not measured.",
+        "text": "Four pea protein products have independent single-product metal results: two retail powders bought in Ireland in 2016 and 2017 had lead at 22.2 and 22.5 µg/kg and cadmium at 40.6 and 15.4 µg/kg. Two unnamed concentrate brands tested in Spain had neither lead nor cadmium detected, at limits printed without a unit.",
         "source_keys": [
-          "ring2021-ireland-protein-powders-metals"
+          "ring2021-ireland-protein-powders-metals",
+          "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals"
         ],
         "citation_spans": [
           {
-            "after": "Two retail pea protein powders, bought in Ireland in 2016 and 2017, are the only pea protein products in the Index with published single-product metal results.",
+            "after": "Four pea protein products have independent single-product metal results: two retail powders bought in Ireland in 2016 and 2017 had lead at 22.2 and 22.5 µg/kg and cadmium at 40.6 and 15.4 µg/kg.",
             "source_keys": [
               "ring2021-ireland-protein-powders-metals"
             ]
           },
           {
-            "after": "Both carried lead, at 22.2 and 22.5 µg/kg, and cadmium, at 40.6 and 15.4 µg/kg; mercury was 4.3 µg/kg in one and below the 0.2 µg/kg quantification limit in the other.",
+            "after": "Two unnamed concentrate brands tested in Spain had neither lead nor cadmium detected, at limits printed without a unit.",
             "source_keys": [
-              "ring2021-ireland-protein-powders-metals"
-            ]
-          },
-          {
-            "after": "Arsenic was not measured.",
-            "source_keys": [
-              "ring2021-ireland-protein-powders-metals"
+              "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals"
             ]
           }
         ],
         "passages": [
           {
-            "text": "Lead matters most for a powder eaten daily: at the first powder's labeled 30 g serving, its lead content works out to 0.666 µg, above California's 0.5 µg/day lead level, while the second powder's labeled 10 g serving works out to 0.225 µg. These are calculations on two products, not a market estimate. Both cadmium results are below the EU maximum level of 0.10 mg/kg for proteins from pulses.",
+            "text": "Manufacturer batch data submitted to FDA with three GRAS notices add 15 results for six isolate and concentrate grades from three manufacturers; these are the manufacturers' own tests, not independent measurements. Cadmium was quantified in all 15 at 1.0 to 80 µg/kg, lead in 11 at 10 to 40 µg/kg, and total arsenic and mercury in none (Index calculations).",
             "source_keys": [
-              "ring2021-ireland-protein-powders-metals",
-              "oehha-lead-prop65-listing",
-              "eu-2023-915-contaminants-maximum-levels"
+              "fda-grn804-pea-protein-manufacturer-batches",
+              "fda-grn851-pea-protein-manufacturer-batches",
+              "fda-grn788-pea-protein-manufacturer-batches"
             ],
             "citation_spans": [
               {
-                "after": "Lead matters most for a powder eaten daily: at the first powder's labeled 30 g serving, its lead content works out to 0.666 µg, above California's 0.5 µg/day lead level, while the second powder's labeled 10 g serving works out to 0.225 µg.",
+                "after": "Manufacturer batch data submitted to FDA with three GRAS notices add 15 results for six isolate and concentrate grades from three manufacturers; these are the manufacturers' own tests, not independent measurements.",
                 "source_keys": [
-                  "ring2021-ireland-protein-powders-metals",
-                  "oehha-lead-prop65-listing"
+                  "fda-grn804-pea-protein-manufacturer-batches",
+                  "fda-grn851-pea-protein-manufacturer-batches",
+                  "fda-grn788-pea-protein-manufacturer-batches"
                 ]
               },
               {
-                "after": "Both cadmium results are below the EU maximum level of 0.10 mg/kg for proteins from pulses.",
+                "after": "Cadmium was quantified in all 15 at 1.0 to 80 µg/kg, lead in 11 at 10 to 40 µg/kg, and total arsenic and mercury in none (Index calculations).",
                 "source_keys": [
-                  "ring2021-ireland-protein-powders-metals",
-                  "eu-2023-915-contaminants-maximum-levels"
+                  "fda-grn804-pea-protein-manufacturer-batches",
+                  "fda-grn851-pea-protein-manufacturer-batches",
+                  "fda-grn788-pea-protein-manufacturer-batches"
                 ]
               }
-            ],
-            "citation_omission_reason": "Uncited sentences are editorial implications, descriptive arithmetic on the cited values, proposed verification or navigation; they are not reported outcomes."
+            ]
           },
           {
-            "text": "The decisions that matter most for a buyer are which lot to accept and which tests to require, and the evidence limits both. No pea protein result reports arsenic or the country where the peas were grown, so lead, cadmium and inorganic arsenic need to be measured on the lot itself.",
+            "text": "Inorganic arsenic has not been measured in any pea protein product, independent or manufacturer, and no result names where the peas were grown. For a buyer, that makes lot testing for inorganic arsenic, lead and cadmium the decision point.",
             "source_keys": [
               "ring2021-ireland-protein-powders-metals",
-              "horvath2025-hungary-protein-powders-metals"
+              "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals",
+              "fda-grn804-pea-protein-manufacturer-batches",
+              "fda-grn851-pea-protein-manufacturer-batches",
+              "fda-grn788-pea-protein-manufacturer-batches"
             ],
             "citation_spans": [
               {
-                "after": "The decisions that matter most for a buyer are which lot to accept and which tests to require, and the evidence limits both.",
+                "after": "Inorganic arsenic has not been measured in any pea protein product, independent or manufacturer, and no result names where the peas were grown.",
                 "source_keys": [
                   "ring2021-ireland-protein-powders-metals",
-                  "horvath2025-hungary-protein-powders-metals"
+                  "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals",
+                  "fda-grn804-pea-protein-manufacturer-batches",
+                  "fda-grn851-pea-protein-manufacturer-batches",
+                  "fda-grn788-pea-protein-manufacturer-batches"
                 ]
               }
             ],
@@ -158,15 +170,17 @@
       "id": "identity",
       "answers": [
         {
-          "text": "The page covers protein isolated or concentrated from dried peas, sold as powder; the two measured products are pea protein powders bought at retail.",
+          "text": "The page covers protein isolated or concentrated from dried peas, sold as powder; the independently tested products are retail powders and commercial concentrates.",
           "source_keys": [
-            "ring2021-ireland-protein-powders-metals"
+            "ring2021-ireland-protein-powders-metals",
+            "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals"
           ],
           "citation_spans": [
             {
-              "after": "The page covers protein isolated or concentrated from dried peas, sold as powder; the two measured products are pea protein powders bought at retail.",
+              "after": "The page covers protein isolated or concentrated from dried peas, sold as powder; the independently tested products are retail powders and commercial concentrates.",
               "source_keys": [
-                "ring2021-ireland-protein-powders-metals"
+                "ring2021-ireland-protein-powders-metals",
+                "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals"
               ]
             }
           ],
@@ -177,9 +191,9 @@
           "passages": []
         },
         {
-          "text": "Isolate, concentrate, flavored powders and blends are distinct materials: an isolate holds more protein than a concentrate, and flavored or blended powders add other ingredients. No study in the Index separates isolate from concentrate.",
+          "text": "Isolate, concentrate, flavored powders and blends are distinct materials: an isolate holds more protein than a concentrate, and flavored or blended powders add other ingredients. One manufacturer's notice reports both an isolate of at least 85% protein and a concentrate of at least 65% protein.",
           "source_keys": [
-            "ring2021-ireland-protein-powders-metals"
+            "fda-grn804-pea-protein-manufacturer-batches"
           ],
           "kind": "evidence",
           "question_id": "HMI-ING-002",
@@ -187,9 +201,9 @@
           "public_context_section": "identity",
           "citation_spans": [
             {
-              "after": "No study in the Index separates isolate from concentrate.",
+              "after": "One manufacturer's notice reports both an isolate of at least 85% protein and a concentrate of at least 65% protein.",
               "source_keys": [
-                "ring2021-ireland-protein-powders-metals"
+                "fda-grn804-pea-protein-manufacturer-batches"
               ]
             }
           ],
@@ -200,6 +214,7 @@
           "text": "Results for whole peas, other pulses or mixed plant powders do not transfer to pea protein, because protein isolation changes which part of the seed remains. No study in the Index measured metals in peas before and after protein isolation.",
           "source_keys": [
             "ring2021-ireland-protein-powders-metals",
+            "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals",
             "horvath2025-hungary-protein-powders-metals"
           ],
           "kind": "evidence",
@@ -211,6 +226,7 @@
               "after": "No study in the Index measured metals in peas before and after protein isolation.",
               "source_keys": [
                 "ring2021-ireland-protein-powders-metals",
+                "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals",
                 "horvath2025-hungary-protein-powders-metals"
               ]
             }
@@ -221,15 +237,23 @@
       ],
       "presentation": {
         "narrative": "overview_and_questions",
-        "text": "This page covers pea protein isolate and pea protein concentrate, the protein fractions made from dried peas and sold as powder or used as an ingredient. The quantified evidence is two powders described by their study as pea protein, measured as sold.",
+        "text": "This page covers pea protein isolate and pea protein concentrate, the protein fractions made from dried peas and sold as powder or used as an ingredient. The independent evidence is two retail powders described as pea protein and two concentrate brands; the manufacturer evidence covers four isolate grades and two concentrate grades.",
         "source_keys": [
-          "ring2021-ireland-protein-powders-metals"
+          "ring2021-ireland-protein-powders-metals",
+          "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals",
+          "fda-grn804-pea-protein-manufacturer-batches",
+          "fda-grn851-pea-protein-manufacturer-batches",
+          "fda-grn788-pea-protein-manufacturer-batches"
         ],
         "citation_spans": [
           {
-            "after": "The quantified evidence is two powders described by their study as pea protein, measured as sold.",
+            "after": "The independent evidence is two retail powders described as pea protein and two concentrate brands; the manufacturer evidence covers four isolate grades and two concentrate grades.",
             "source_keys": [
-              "ring2021-ireland-protein-powders-metals"
+              "ring2021-ireland-protein-powders-metals",
+              "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals",
+              "fda-grn804-pea-protein-manufacturer-batches",
+              "fda-grn851-pea-protein-manufacturer-batches",
+              "fda-grn788-pea-protein-manufacturer-batches"
             ]
           }
         ],
@@ -257,15 +281,33 @@
       "id": "occurrence",
       "answers": [
         {
-          "text": "Lead, cadmium and mercury were measured, with 13 other elements; total and inorganic arsenic were not.",
+          "text": "Lead, cadmium and mercury were measured independently with other elements, and lead, cadmium, total arsenic and mercury by the manufacturers. Inorganic arsenic was not measured in any pea protein product.",
           "source_keys": [
-            "ring2021-ireland-protein-powders-metals"
+            "ring2021-ireland-protein-powders-metals",
+            "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals",
+            "fda-grn804-pea-protein-manufacturer-batches",
+            "fda-grn851-pea-protein-manufacturer-batches",
+            "fda-grn788-pea-protein-manufacturer-batches"
           ],
           "citation_spans": [
             {
-              "after": "Lead, cadmium and mercury were measured, with 13 other elements; total and inorganic arsenic were not.",
+              "after": "Lead, cadmium and mercury were measured independently with other elements, and lead, cadmium, total arsenic and mercury by the manufacturers.",
               "source_keys": [
-                "ring2021-ireland-protein-powders-metals"
+                "ring2021-ireland-protein-powders-metals",
+                "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals",
+                "fda-grn804-pea-protein-manufacturer-batches",
+                "fda-grn851-pea-protein-manufacturer-batches",
+                "fda-grn788-pea-protein-manufacturer-batches"
+              ]
+            },
+            {
+              "after": "Inorganic arsenic was not measured in any pea protein product.",
+              "source_keys": [
+                "ring2021-ireland-protein-powders-metals",
+                "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals",
+                "fda-grn804-pea-protein-manufacturer-batches",
+                "fda-grn851-pea-protein-manufacturer-batches",
+                "fda-grn788-pea-protein-manufacturer-batches"
               ]
             }
           ],
@@ -276,10 +318,13 @@
           "passages": []
         },
         {
-          "text": "Each value is one analysis of one retail product: lead 22.2 and 22.5 µg/kg, cadmium 40.6 and 15.4 µg/kg, mercury 4.3 µg/kg and below 0.2 µg/kg. Five pea blends in a Hungarian survey were below an unprinted detection limit for arsenic, cadmium, mercury and lead.",
+          "text": "Each independent value is one retail product or brand: lead 22.2 and 22.5 µg/kg, cadmium 40.6 and 15.4 µg/kg, mercury 4.3 and below 0.2 µg/kg, and two brands with lead and cadmium not detected. Manufacturer batch results ran from 10 to 40 µg/kg lead where quantified and 1.0 to 80 µg/kg cadmium.",
           "source_keys": [
             "ring2021-ireland-protein-powders-metals",
-            "horvath2025-hungary-protein-powders-metals"
+            "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals",
+            "fda-grn804-pea-protein-manufacturer-batches",
+            "fda-grn851-pea-protein-manufacturer-batches",
+            "fda-grn788-pea-protein-manufacturer-batches"
           ],
           "kind": "evidence",
           "question_id": "HMI-ING-008",
@@ -287,25 +332,30 @@
           "public_context_section": "occurrence",
           "citation_spans": [
             {
-              "after": "Each value is one analysis of one retail product: lead 22.2 and 22.5 µg/kg, cadmium 40.6 and 15.4 µg/kg, mercury 4.3 µg/kg and below 0.2 µg/kg.",
+              "after": "Each independent value is one retail product or brand: lead 22.2 and 22.5 µg/kg, cadmium 40.6 and 15.4 µg/kg, mercury 4.3 and below 0.2 µg/kg, and two brands with lead and cadmium not detected.",
               "source_keys": [
-                "ring2021-ireland-protein-powders-metals"
+                "ring2021-ireland-protein-powders-metals",
+                "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals"
               ]
             },
             {
-              "after": "Five pea blends in a Hungarian survey were below an unprinted detection limit for arsenic, cadmium, mercury and lead.",
+              "after": "Manufacturer batch results ran from 10 to 40 µg/kg lead where quantified and 1.0 to 80 µg/kg cadmium.",
               "source_keys": [
-                "horvath2025-hungary-protein-powders-metals"
+                "fda-grn804-pea-protein-manufacturer-batches",
+                "fda-grn851-pea-protein-manufacturer-batches",
+                "fda-grn788-pea-protein-manufacturer-batches"
               ]
             }
           ],
           "passages": []
         },
         {
-          "text": "Total arsenic and inorganic arsenic are unassessed for pea protein. The blend non-detects cannot be bounded because the detection limit was not printed.",
+          "text": "Inorganic arsenic is unassessed for pea protein, and total arsenic appears only as manufacturer non-detects. The Spanish non-detects cannot be bounded because the detection limits were printed without a unit.",
           "source_keys": [
-            "ring2021-ireland-protein-powders-metals",
-            "horvath2025-hungary-protein-powders-metals"
+            "fda-grn804-pea-protein-manufacturer-batches",
+            "fda-grn851-pea-protein-manufacturer-batches",
+            "fda-grn788-pea-protein-manufacturer-batches",
+            "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals"
           ],
           "kind": "evidence",
           "question_id": "HMI-ING-009",
@@ -313,15 +363,17 @@
           "public_context_section": "occurrence",
           "citation_spans": [
             {
-              "after": "Total arsenic and inorganic arsenic are unassessed for pea protein.",
+              "after": "Inorganic arsenic is unassessed for pea protein, and total arsenic appears only as manufacturer non-detects.",
               "source_keys": [
-                "ring2021-ireland-protein-powders-metals"
+                "fda-grn804-pea-protein-manufacturer-batches",
+                "fda-grn851-pea-protein-manufacturer-batches",
+                "fda-grn788-pea-protein-manufacturer-batches"
               ]
             },
             {
-              "after": "The blend non-detects cannot be bounded because the detection limit was not printed.",
+              "after": "The Spanish non-detects cannot be bounded because the detection limits were printed without a unit.",
               "source_keys": [
-                "horvath2025-hungary-protein-powders-metals"
+                "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals"
               ]
             }
           ],
@@ -330,34 +382,64 @@
       ],
       "presentation": {
         "narrative": "overview_and_questions",
-        "text": "The table lists every pea protein result in the Index: 32 rows from two products in one study, covering lead, cadmium and mercury and 13 other elements. No row is graded Low, Moderate or High, because two products are too few to form a reference distribution.",
+        "text": "The table lists every pea protein result in the Index: 100 rows from five sources. Two are independent studies; three are FDA GRAS notices whose results are the manufacturers' own batch tests, marked as manufacturer tests in the table. Manufacturer rows do not set a reference level for other rows.",
         "source_keys": [
-          "ring2021-ireland-protein-powders-metals"
+          "ring2021-ireland-protein-powders-metals",
+          "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals",
+          "fda-grn804-pea-protein-manufacturer-batches",
+          "fda-grn851-pea-protein-manufacturer-batches",
+          "fda-grn788-pea-protein-manufacturer-batches"
         ],
         "citation_spans": [
           {
-            "after": "The table lists every pea protein result in the Index: 32 rows from two products in one study, covering lead, cadmium and mercury and 13 other elements.",
+            "after": "The table lists every pea protein result in the Index: 100 rows from five sources.",
             "source_keys": [
-              "ring2021-ireland-protein-powders-metals"
+              "ring2021-ireland-protein-powders-metals",
+              "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals",
+              "fda-grn804-pea-protein-manufacturer-batches",
+              "fda-grn851-pea-protein-manufacturer-batches",
+              "fda-grn788-pea-protein-manufacturer-batches"
+            ]
+          },
+          {
+            "after": "Two are independent studies; three are FDA GRAS notices whose results are the manufacturers' own batch tests, marked as manufacturer tests in the table.",
+            "source_keys": [
+              "ring2021-ireland-protein-powders-metals",
+              "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals",
+              "fda-grn804-pea-protein-manufacturer-batches",
+              "fda-grn851-pea-protein-manufacturer-batches",
+              "fda-grn788-pea-protein-manufacturer-batches"
             ]
           }
         ],
         "citation_omission_reason": "Uncited sentences are editorial implications, descriptive arithmetic on the cited values, proposed verification or navigation; they are not reported outcomes.",
         "passages": [
           {
-            "text": "Lead was 22.2 and 22.5 µg/kg, cadmium 40.6 and 15.4 µg/kg, and mercury 4.3 µg/kg and below 0.2 µg/kg, all on the powder as sold. Two products cannot support a median or a typical range.",
+            "text": "Independent results: lead 22.2 and 22.5 µg/kg and cadmium 40.6 and 15.4 µg/kg in two Irish retail powders, and lead and cadmium not detected in two Spanish concentrate brands. Manufacturer results: cadmium 1.0 to 80 µg/kg in 15 of 15 batches, lead 10 to 40 µg/kg in 11 of 15, with total arsenic below 10 to 100 µg/kg and mercury below 2 to 10 µg/kg in all (Index calculations).",
             "source_keys": [
-              "ring2021-ireland-protein-powders-metals"
+              "ring2021-ireland-protein-powders-metals",
+              "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals",
+              "fda-grn804-pea-protein-manufacturer-batches",
+              "fda-grn851-pea-protein-manufacturer-batches",
+              "fda-grn788-pea-protein-manufacturer-batches"
             ],
             "citation_spans": [
               {
-                "after": "Lead was 22.2 and 22.5 µg/kg, cadmium 40.6 and 15.4 µg/kg, and mercury 4.3 µg/kg and below 0.2 µg/kg, all on the powder as sold.",
+                "after": "Independent results: lead 22.2 and 22.5 µg/kg and cadmium 40.6 and 15.4 µg/kg in two Irish retail powders, and lead and cadmium not detected in two Spanish concentrate brands.",
                 "source_keys": [
-                  "ring2021-ireland-protein-powders-metals"
+                  "ring2021-ireland-protein-powders-metals",
+                  "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals"
+                ]
+              },
+              {
+                "after": "Manufacturer results: cadmium 1.0 to 80 µg/kg in 15 of 15 batches, lead 10 to 40 µg/kg in 11 of 15, with total arsenic below 10 to 100 µg/kg and mercury below 2 to 10 µg/kg in all (Index calculations).",
+                "source_keys": [
+                  "fda-grn804-pea-protein-manufacturer-batches",
+                  "fda-grn851-pea-protein-manufacturer-batches",
+                  "fda-grn788-pea-protein-manufacturer-batches"
                 ]
               }
-            ],
-            "citation_omission_reason": "Uncited sentences are editorial implications, descriptive arithmetic on the cited values, proposed verification or navigation; they are not reported outcomes."
+            ]
           }
         ]
       }
@@ -368,7 +450,8 @@
         {
           "text": "No study in the Index measured root uptake or other biological pathways for pea protein.",
           "source_keys": [
-            "ring2021-ireland-protein-powders-metals"
+            "ring2021-ireland-protein-powders-metals",
+            "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals"
           ],
           "kind": "evidence",
           "question_id": "HMI-ING-010",
@@ -378,7 +461,8 @@
             {
               "after": "No study in the Index measured root uptake or other biological pathways for pea protein.",
               "source_keys": [
-                "ring2021-ireland-protein-powders-metals"
+                "ring2021-ireland-protein-powders-metals",
+                "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals"
               ]
             }
           ],
@@ -387,7 +471,8 @@
         {
           "text": "No study in the Index measured contamination from agricultural inputs, processing, equipment or packaging for pea protein.",
           "source_keys": [
-            "ring2021-ireland-protein-powders-metals"
+            "ring2021-ireland-protein-powders-metals",
+            "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals"
           ],
           "kind": "evidence",
           "question_id": "HMI-ING-011",
@@ -397,7 +482,8 @@
             {
               "after": "No study in the Index measured contamination from agricultural inputs, processing, equipment or packaging for pea protein.",
               "source_keys": [
-                "ring2021-ireland-protein-powders-metals"
+                "ring2021-ireland-protein-powders-metals",
+                "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals"
               ]
             }
           ],
@@ -428,6 +514,7 @@
         "text": "No study in the Index traces how lead or cadmium reach pea protein, whether through the soil, irrigation water, processing equipment or packaging.",
         "source_keys": [
           "ring2021-ireland-protein-powders-metals",
+          "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals",
           "horvath2025-hungary-protein-powders-metals"
         ],
         "citation_spans": [
@@ -435,6 +522,7 @@
             "after": "No study in the Index traces how lead or cadmium reach pea protein, whether through the soil, irrigation water, processing equipment or packaging.",
             "source_keys": [
               "ring2021-ireland-protein-powders-metals",
+              "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals",
               "horvath2025-hungary-protein-powders-metals"
             ]
           }
@@ -465,7 +553,10 @@
           "text": "No pea protein result is linked to growing origin, growing conditions, variety or harvest period.",
           "source_keys": [
             "ring2021-ireland-protein-powders-metals",
-            "horvath2025-hungary-protein-powders-metals"
+            "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals",
+            "fda-grn804-pea-protein-manufacturer-batches",
+            "fda-grn851-pea-protein-manufacturer-batches",
+            "fda-grn788-pea-protein-manufacturer-batches"
           ],
           "kind": "evidence",
           "question_id": "HMI-ING-013",
@@ -476,28 +567,34 @@
               "after": "No pea protein result is linked to growing origin, growing conditions, variety or harvest period.",
               "source_keys": [
                 "ring2021-ireland-protein-powders-metals",
-                "horvath2025-hungary-protein-powders-metals"
+                "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals",
+                "fda-grn804-pea-protein-manufacturer-batches",
+                "fda-grn851-pea-protein-manufacturer-batches",
+                "fda-grn788-pea-protein-manufacturer-batches"
               ]
             }
           ],
           "passages": [
             {
               "question": "Which pea protein measured lowest in each metal?",
-              "text": "For cadmium and mercury, the second Irish powder measured lowest: 15.4 µg/kg cadmium and mercury below 0.2 µg/kg, against 40.6 and 4.3 µg/kg in the first. For lead the two powders were effectively the same, 22.5 and 22.2 µg/kg. Two products from one market do not show that either source is reliably lower.",
+              "text": "Among independent results, the two Spanish concentrate brands had lead and cadmium not detected; of the Irish powders, the second was lower in cadmium and mercury, 15.4 µg/kg and below 0.2 µg/kg, against 40.6 and 4.3 µg/kg. In manufacturer data, the lowest cadmium was 1.0 µg/kg in a blend of isolate batches. Four independent products from two markets do not show that any source is reliably lower.",
               "source_keys": [
-                "ring2021-ireland-protein-powders-metals"
+                "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals",
+                "ring2021-ireland-protein-powders-metals",
+                "fda-grn804-pea-protein-manufacturer-batches"
               ],
               "citation_spans": [
                 {
-                  "after": "For cadmium and mercury, the second Irish powder measured lowest: 15.4 µg/kg cadmium and mercury below 0.2 µg/kg, against 40.6 and 4.3 µg/kg in the first.",
+                  "after": "Among independent results, the two Spanish concentrate brands had lead and cadmium not detected; of the Irish powders, the second was lower in cadmium and mercury, 15.4 µg/kg and below 0.2 µg/kg, against 40.6 and 4.3 µg/kg.",
                   "source_keys": [
+                    "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals",
                     "ring2021-ireland-protein-powders-metals"
                   ]
                 },
                 {
-                  "after": "For lead the two powders were effectively the same, 22.5 and 22.2 µg/kg.",
+                  "after": "In manufacturer data, the lowest cadmium was 1.0 µg/kg in a blend of isolate batches.",
                   "source_keys": [
-                    "ring2021-ireland-protein-powders-metals"
+                    "fda-grn804-pea-protein-manufacturer-batches"
                   ]
                 }
               ],
@@ -508,6 +605,7 @@
               "text": "Not yet: no published pea protein result names the growing region, and the blends with a stated production country were below an unprinted detection limit. Origin-linked lot results are the evidence that would answer it.",
               "source_keys": [
                 "ring2021-ireland-protein-powders-metals",
+                "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals",
                 "horvath2025-hungary-protein-powders-metals"
               ],
               "citation_spans": [
@@ -515,6 +613,7 @@
                   "after": "Not yet: no published pea protein result names the growing region, and the blends with a stated production country were below an unprinted detection limit.",
                   "source_keys": [
                     "ring2021-ireland-protein-powders-metals",
+                    "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals",
                     "horvath2025-hungary-protein-powders-metals"
                   ]
                 }
@@ -524,9 +623,12 @@
           ]
         },
         {
-          "text": "The only variation observed is between two retail products, which differed more than twofold in cadmium at nearly equal lead. Within-lot and between-lot variation are unmeasured.",
+          "text": "The variation observed is between products and grades: more than twofold in cadmium between two retail powders, and from 1.0 to 80 µg/kg cadmium across manufacturer batches. Within-lot variation is unmeasured.",
           "source_keys": [
-            "ring2021-ireland-protein-powders-metals"
+            "ring2021-ireland-protein-powders-metals",
+            "fda-grn804-pea-protein-manufacturer-batches",
+            "fda-grn851-pea-protein-manufacturer-batches",
+            "fda-grn788-pea-protein-manufacturer-batches"
           ],
           "kind": "evidence",
           "question_id": "HMI-ING-014",
@@ -534,9 +636,12 @@
           "public_context_section": "variation",
           "citation_spans": [
             {
-              "after": "The only variation observed is between two retail products, which differed more than twofold in cadmium at nearly equal lead.",
+              "after": "The variation observed is between products and grades: more than twofold in cadmium between two retail powders, and from 1.0 to 80 µg/kg cadmium across manufacturer batches.",
               "source_keys": [
-                "ring2021-ireland-protein-powders-metals"
+                "ring2021-ireland-protein-powders-metals",
+                "fda-grn804-pea-protein-manufacturer-batches",
+                "fda-grn851-pea-protein-manufacturer-batches",
+                "fda-grn788-pea-protein-manufacturer-batches"
               ]
             }
           ],
@@ -544,9 +649,10 @@
           "passages": []
         },
         {
-          "text": "No comparison supports an origin or supplier preference. Generalizing from two products bought in Ireland to a country or supplier would be unjustified.",
+          "text": "No comparison supports an origin or supplier preference. Generalizing from four independently tested products to a country or supplier would be unjustified.",
           "source_keys": [
-            "ring2021-ireland-protein-powders-metals"
+            "ring2021-ireland-protein-powders-metals",
+            "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals"
           ],
           "kind": "evidence",
           "question_id": "HMI-ING-015",
@@ -554,9 +660,10 @@
           "public_context_section": "variation",
           "citation_spans": [
             {
-              "after": "Generalizing from two products bought in Ireland to a country or supplier would be unjustified.",
+              "after": "Generalizing from four independently tested products to a country or supplier would be unjustified.",
               "source_keys": [
-                "ring2021-ireland-protein-powders-metals"
+                "ring2021-ireland-protein-powders-metals",
+                "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals"
               ]
             }
           ],
@@ -566,53 +673,63 @@
       ],
       "presentation": {
         "narrative": "overview_and_questions",
-        "text": "Within the one study that measured pea protein, the two powders had nearly equal lead, 22.2 and 22.5 µg/kg, but cadmium differed more than twofold, 40.6 against 15.4 µg/kg. The lowest observed result in that comparison is the second powder for cadmium and mercury; for lead the two are effectively tied.",
+        "text": "Among independently tested products, the two Irish powders had nearly equal lead, 22.2 and 22.5 µg/kg, but cadmium differed more than twofold, 40.6 against 15.4 µg/kg; the two Spanish concentrate brands had neither metal detected. The lowest observed independent results are the two Spanish brands, but their limits are printed without a unit, so how low they were is unknown.",
         "source_keys": [
-          "ring2021-ireland-protein-powders-metals"
+          "ring2021-ireland-protein-powders-metals",
+          "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals"
         ],
         "citation_spans": [
           {
-            "after": "Within the one study that measured pea protein, the two powders had nearly equal lead, 22.2 and 22.5 µg/kg, but cadmium differed more than twofold, 40.6 against 15.4 µg/kg.",
+            "after": "Among independently tested products, the two Irish powders had nearly equal lead, 22.2 and 22.5 µg/kg, but cadmium differed more than twofold, 40.6 against 15.4 µg/kg; the two Spanish concentrate brands had neither metal detected.",
             "source_keys": [
-              "ring2021-ireland-protein-powders-metals"
+              "ring2021-ireland-protein-powders-metals",
+              "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals"
             ]
           }
         ],
         "citation_omission_reason": "Uncited sentences are editorial implications, descriptive arithmetic on the cited values, proposed verification or navigation; they are not reported outcomes.",
         "passages": [
           {
-            "text": "Compared with the 27 whey powders in the same study, both pea powders were above the whey median lead of 8.6 µg/kg, an Index calculation from the study table, but well below the highest whey value of 88.4 µg/kg. The first pea powder's cadmium, 40.6 µg/kg, was higher than every one of the 26 whey powders with a quantified cadmium result, whose highest value was 23.2 µg/kg. This is a within-study product-type comparison of two pea powders, so it is tentative, not a supported preference for whey over pea.",
+            "text": "Within one manufacturer's notice, the concentrate grade had more cadmium than the isolate grade, 41 and 15 µg/kg against 9.6, 8.1 and 1.0 µg/kg. Across another manufacturer's three isolate grades, cadmium ran from 40 to 80 µg/kg, with the highest lot in the third grade. These are manufacturer tests within single notices, so they show how grades of one producer compared, not which grade is lower on the market.",
             "source_keys": [
-              "ring2021-ireland-protein-powders-metals"
+              "fda-grn804-pea-protein-manufacturer-batches",
+              "fda-grn851-pea-protein-manufacturer-batches"
             ],
             "citation_spans": [
               {
-                "after": "Compared with the 27 whey powders in the same study, both pea powders were above the whey median lead of 8.6 µg/kg, an Index calculation from the study table, but well below the highest whey value of 88.4 µg/kg.",
+                "after": "Within one manufacturer's notice, the concentrate grade had more cadmium than the isolate grade, 41 and 15 µg/kg against 9.6, 8.1 and 1.0 µg/kg.",
                 "source_keys": [
-                  "ring2021-ireland-protein-powders-metals"
+                  "fda-grn804-pea-protein-manufacturer-batches"
                 ]
               },
               {
-                "after": "The first pea powder's cadmium, 40.6 µg/kg, was higher than every one of the 26 whey powders with a quantified cadmium result, whose highest value was 23.2 µg/kg.",
+                "after": "Across another manufacturer's three isolate grades, cadmium ran from 40 to 80 µg/kg, with the highest lot in the third grade.",
                 "source_keys": [
-                  "ring2021-ireland-protein-powders-metals"
+                  "fda-grn851-pea-protein-manufacturer-batches"
                 ]
               }
             ],
             "citation_omission_reason": "Uncited sentences are editorial implications, descriptive arithmetic on the cited values, proposed verification or navigation; they are not reported outcomes."
           },
           {
-            "text": "No study reports pea protein by the country where the peas were grown, so China, Vietnam, the USA and Canada cannot be compared as origins for any metal. Pea blends produced in the USA, Canada, Belgium and elsewhere in the EU were all below an unprinted detection limit, which cannot rank them, and production country is not growing origin. Resolving this needs lot results for pea protein linked to the growing region, measured with a stated quantification limit.",
+            "text": "No result reports pea protein by the country where the peas were grown, so China, Vietnam, the USA and Canada cannot be compared as origins for any metal. Pea blends produced in the USA, Canada, Belgium and elsewhere in the EU were all below an unprinted detection limit, which cannot rank them, and production country is not growing origin. Resolving this needs lot results for pea protein linked to the growing region, measured with a stated quantification limit.",
             "source_keys": [
               "ring2021-ireland-protein-powders-metals",
+              "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals",
+              "fda-grn804-pea-protein-manufacturer-batches",
+              "fda-grn851-pea-protein-manufacturer-batches",
+              "fda-grn788-pea-protein-manufacturer-batches",
               "horvath2025-hungary-protein-powders-metals"
             ],
             "citation_spans": [
               {
-                "after": "No study reports pea protein by the country where the peas were grown, so China, Vietnam, the USA and Canada cannot be compared as origins for any metal.",
+                "after": "No result reports pea protein by the country where the peas were grown, so China, Vietnam, the USA and Canada cannot be compared as origins for any metal.",
                 "source_keys": [
                   "ring2021-ireland-protein-powders-metals",
-                  "horvath2025-hungary-protein-powders-metals"
+                  "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals",
+                  "fda-grn804-pea-protein-manufacturer-batches",
+                  "fda-grn851-pea-protein-manufacturer-batches",
+                  "fda-grn788-pea-protein-manufacturer-batches"
                 ]
               },
               {
@@ -631,9 +748,10 @@
       "id": "processing",
       "answers": [
         {
-          "text": "No processing step has a measured effect on metals in pea protein in the Index.",
+          "text": "No processing step has a measured before-and-after effect on metals in pea protein in the Index.",
           "source_keys": [
             "ring2021-ireland-protein-powders-metals",
+            "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals",
             "horvath2025-hungary-protein-powders-metals"
           ],
           "kind": "evidence",
@@ -642,9 +760,10 @@
           "public_context_section": "processing",
           "citation_spans": [
             {
-              "after": "No processing step has a measured effect on metals in pea protein in the Index.",
+              "after": "No processing step has a measured before-and-after effect on metals in pea protein in the Index.",
               "source_keys": [
                 "ring2021-ireland-protein-powders-metals",
+                "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals",
                 "horvath2025-hungary-protein-powders-metals"
               ]
             }
@@ -652,9 +771,9 @@
           "passages": []
         },
         {
-          "text": "Isolate and concentrate are distinct fractions of the pea seed. Their metal content has not been compared in any study in the Index.",
+          "text": "Isolate and concentrate are distinct fractions of the pea seed. In one manufacturer's data, the isolate carried less cadmium than the concentrate.",
           "source_keys": [
-            "ring2021-ireland-protein-powders-metals"
+            "fda-grn804-pea-protein-manufacturer-batches"
           ],
           "kind": "evidence",
           "question_id": "HMI-ING-017",
@@ -662,9 +781,9 @@
           "public_context_section": "processing",
           "citation_spans": [
             {
-              "after": "Their metal content has not been compared in any study in the Index.",
+              "after": "In one manufacturer's data, the isolate carried less cadmium than the concentrate.",
               "source_keys": [
-                "ring2021-ireland-protein-powders-metals"
+                "fda-grn804-pea-protein-manufacturer-batches"
               ]
             }
           ],
@@ -672,9 +791,10 @@
           "passages": []
         },
         {
-          "text": "Removal, redistribution and concentration cannot be distinguished without a before-and-after mass balance, which no study reports. The two products have no paired raw-material results.",
+          "text": "Removal, redistribution and concentration cannot be distinguished without a before-and-after mass balance, which no study reports. No product has paired raw-material results.",
           "source_keys": [
-            "ring2021-ireland-protein-powders-metals"
+            "ring2021-ireland-protein-powders-metals",
+            "fda-grn804-pea-protein-manufacturer-batches"
           ],
           "kind": "evidence",
           "question_id": "HMI-ING-018",
@@ -682,9 +802,10 @@
           "public_context_section": "processing",
           "citation_spans": [
             {
-              "after": "The two products have no paired raw-material results.",
+              "after": "No product has paired raw-material results.",
               "source_keys": [
-                "ring2021-ireland-protein-powders-metals"
+                "ring2021-ireland-protein-powders-metals",
+                "fda-grn804-pea-protein-manufacturer-batches"
               ]
             }
           ],
@@ -694,32 +815,43 @@
       ],
       "presentation": {
         "narrative": "overview_and_questions",
-        "text": "No study in the Index compares lead, cadmium, arsenic or mercury in peas before and after protein isolation, or in isolate against concentrate. Whether isolation removes these metals, leaves them in place or concentrates them as other seed components are removed is therefore unresolved.",
+        "text": "No study in the Index compares lead, cadmium, arsenic or mercury in peas before and after protein isolation. One manufacturer's isolate grade had less cadmium than its concentrate grade made from the same extraction, 1.0 to 9.6 µg/kg against 15 and 41 µg/kg. Whether isolation removes cadmium is suggested by that one notice but not measured as a mass balance.",
         "source_keys": [
           "ring2021-ireland-protein-powders-metals",
-          "horvath2025-hungary-protein-powders-metals"
+          "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals",
+          "horvath2025-hungary-protein-powders-metals",
+          "fda-grn804-pea-protein-manufacturer-batches"
         ],
         "citation_spans": [
           {
-            "after": "No study in the Index compares lead, cadmium, arsenic or mercury in peas before and after protein isolation, or in isolate against concentrate.",
+            "after": "No study in the Index compares lead, cadmium, arsenic or mercury in peas before and after protein isolation.",
             "source_keys": [
               "ring2021-ireland-protein-powders-metals",
+              "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals",
               "horvath2025-hungary-protein-powders-metals"
+            ]
+          },
+          {
+            "after": "One manufacturer's isolate grade had less cadmium than its concentrate grade made from the same extraction, 1.0 to 9.6 µg/kg against 15 and 41 µg/kg.",
+            "source_keys": [
+              "fda-grn804-pea-protein-manufacturer-batches"
             ]
           }
         ],
         "citation_omission_reason": "Uncited sentences are editorial implications, descriptive arithmetic on the cited values, proposed verification or navigation; they are not reported outcomes.",
         "passages": [
           {
-            "text": "Both quantified powders are finished retail products whose processing the study does not describe. Flavored and blended powders add ingredients that can change the result, so their evidence is kept on the protein powder product page.",
+            "text": "The independently tested powders are finished retail products whose processing the studies do not describe. Flavored and blended powders add ingredients that can change the result, so their evidence is kept on the protein powder product page.",
             "source_keys": [
-              "ring2021-ireland-protein-powders-metals"
+              "ring2021-ireland-protein-powders-metals",
+              "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals"
             ],
             "citation_spans": [
               {
-                "after": "Both quantified powders are finished retail products whose processing the study does not describe.",
+                "after": "The independently tested powders are finished retail products whose processing the studies do not describe.",
                 "source_keys": [
-                  "ring2021-ireland-protein-powders-metals"
+                  "ring2021-ireland-protein-powders-metals",
+                  "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals"
                 ]
               }
             ],
@@ -735,6 +867,7 @@
           "text": "No prevention, mitigation or remediation measure has been evaluated for pea protein in the Index.",
           "source_keys": [
             "ring2021-ireland-protein-powders-metals",
+            "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals",
             "horvath2025-hungary-protein-powders-metals"
           ],
           "kind": "evidence",
@@ -746,6 +879,7 @@
               "after": "No prevention, mitigation or remediation measure has been evaluated for pea protein in the Index.",
               "source_keys": [
                 "ring2021-ireland-protein-powders-metals",
+                "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals",
                 "horvath2025-hungary-protein-powders-metals"
               ]
             }
@@ -797,6 +931,7 @@
         "text": "No measured way to lower lead or cadmium in pea protein is in the Index, at the farm or in processing. The control that can be verified today is testing each lot of finished protein and rejecting lots above the buyer's specification.",
         "source_keys": [
           "ring2021-ireland-protein-powders-metals",
+          "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals",
           "horvath2025-hungary-protein-powders-metals"
         ],
         "citation_spans": [
@@ -804,6 +939,7 @@
             "after": "No measured way to lower lead or cadmium in pea protein is in the Index, at the farm or in processing.",
             "source_keys": [
               "ring2021-ireland-protein-powders-metals",
+              "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals",
               "horvath2025-hungary-protein-powders-metals"
             ]
           }
@@ -811,15 +947,22 @@
         "citation_omission_reason": "Uncited sentences are editorial implications, descriptive arithmetic on the cited values, proposed verification or navigation; they are not reported outcomes.",
         "passages": [
           {
-            "text": "Testing detects contamination; it does not remove it. A test is useful only when its quantification limit sits well below the level that matters, which the blend survey without a printed detection limit illustrates.",
+            "text": "Testing detects contamination; it does not remove it. A test is useful only when its quantification limit sits well below the level that matters, which the blend survey without a printed detection limit illustrates. The manufacturer notices set specifications such as below 0.2 mg/kg for each metal, well above the results they report.",
             "source_keys": [
-              "horvath2025-hungary-protein-powders-metals"
+              "horvath2025-hungary-protein-powders-metals",
+              "fda-grn851-pea-protein-manufacturer-batches"
             ],
             "citation_spans": [
               {
                 "after": "A test is useful only when its quantification limit sits well below the level that matters, which the blend survey without a printed detection limit illustrates.",
                 "source_keys": [
                   "horvath2025-hungary-protein-powders-metals"
+                ]
+              },
+              {
+                "after": "The manufacturer notices set specifications such as below 0.2 mg/kg for each metal, well above the results they report.",
+                "source_keys": [
+                  "fda-grn851-pea-protein-manufacturer-batches"
                 ]
               }
             ],
@@ -832,7 +975,7 @@
       "id": "tradeoffs",
       "answers": [
         {
-          "text": "No intervention for pea protein has been tested, so no shift of contamination to another metal or by-product is documented. The two products show that lead and cadmium can diverge between sources.",
+          "text": "No intervention for pea protein has been tested, so no shift of contamination to another metal or by-product is documented. Two retail products show that lead and cadmium can diverge between sources.",
           "source_keys": [
             "ring2021-ireland-protein-powders-metals"
           ],
@@ -842,7 +985,7 @@
           "public_context_section": "tradeoffs",
           "citation_spans": [
             {
-              "after": "The two products show that lead and cadmium can diverge between sources.",
+              "after": "Two retail products show that lead and cadmium can diverge between sources.",
               "source_keys": [
                 "ring2021-ireland-protein-powders-metals"
               ]
@@ -855,6 +998,7 @@
           "text": "No effects on nutrition, yield, sensory quality, stability or waste streams were measured.",
           "source_keys": [
             "ring2021-ireland-protein-powders-metals",
+            "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals",
             "horvath2025-hungary-protein-powders-metals"
           ],
           "kind": "evidence",
@@ -866,6 +1010,7 @@
               "after": "No effects on nutrition, yield, sensory quality, stability or waste streams were measured.",
               "source_keys": [
                 "ring2021-ireland-protein-powders-metals",
+                "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals",
                 "horvath2025-hungary-protein-powders-metals"
               ]
             }
@@ -873,9 +1018,10 @@
           "passages": []
         },
         {
-          "text": "Costs, constraints and failure modes of controls for pea protein are unknown. The only documented failure mode is a non-detect reported without its detection limit.",
+          "text": "Costs, constraints and failure modes of controls for pea protein are unknown. The documented failure modes are non-detects reported without a detection limit or without its unit.",
           "source_keys": [
-            "horvath2025-hungary-protein-powders-metals"
+            "horvath2025-hungary-protein-powders-metals",
+            "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals"
           ],
           "kind": "evidence",
           "question_id": "HMI-ING-024",
@@ -883,9 +1029,10 @@
           "public_context_section": "tradeoffs",
           "citation_spans": [
             {
-              "after": "The only documented failure mode is a non-detect reported without its detection limit.",
+              "after": "The documented failure modes are non-detects reported without a detection limit or without its unit.",
               "source_keys": [
-                "horvath2025-hungary-protein-powders-metals"
+                "horvath2025-hungary-protein-powders-metals",
+                "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals"
               ]
             }
           ],
@@ -895,13 +1042,13 @@
       ],
       "presentation": {
         "narrative": "overview_and_questions",
-        "text": "A lead-only specification would not have separated the two measured pea powders, because their lead was nearly equal while their cadmium differed more than twofold. Metals do not move together, so a lot that passes one limit says little about the others unless each is tested.",
+        "text": "A lead-only specification would not have separated the two Irish pea powders, because their lead was nearly equal while their cadmium differed more than twofold. Metals do not move together, so a lot that passes one limit says little about the others unless each is tested.",
         "source_keys": [
           "ring2021-ireland-protein-powders-metals"
         ],
         "citation_spans": [
           {
-            "after": "A lead-only specification would not have separated the two measured pea powders, because their lead was nearly equal while their cadmium differed more than twofold.",
+            "after": "A lead-only specification would not have separated the two Irish pea powders, because their lead was nearly equal while their cadmium differed more than twofold.",
             "source_keys": [
               "ring2021-ireland-protein-powders-metals"
             ]
@@ -913,6 +1060,7 @@
             "text": "No study in the Index reports effects of any control on protein content, yield, taste, stability or waste streams for pea protein.",
             "source_keys": [
               "ring2021-ireland-protein-powders-metals",
+              "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals",
               "horvath2025-hungary-protein-powders-metals"
             ],
             "citation_spans": [
@@ -920,6 +1068,7 @@
                 "after": "No study in the Index reports effects of any control on protein content, yield, taste, stability or waste streams for pea protein.",
                 "source_keys": [
                   "ring2021-ireland-protein-powders-metals",
+                  "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals",
                   "horvath2025-hungary-protein-powders-metals"
                 ]
               }
@@ -932,103 +1081,119 @@
       "id": "testing",
       "answers": [
         {
-          "text": "Sampling should be lot-based: a single product analysis, as in the published studies, describes that product and not a supplier's production. Each pea result in the Index is one analysis of one product.",
+          "text": "Sampling should be lot-based: a single product analysis describes that product and not a supplier's production. Each independent pea result in the Index is one retail product or brand.",
           "source_keys": [
-            "ring2021-ireland-protein-powders-metals"
+            "ring2021-ireland-protein-powders-metals",
+            "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals"
+          ],
+          "citation_spans": [
+            {
+              "after": "Each independent pea result in the Index is one retail product or brand.",
+              "source_keys": [
+                "ring2021-ireland-protein-powders-metals",
+                "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals"
+              ]
+            }
           ],
           "kind": "evidence",
           "question_id": "HMI-ING-025",
           "presentation": "record_only",
           "public_context_section": "testing",
-          "citation_spans": [
-            {
-              "after": "Each pea result in the Index is one analysis of one product.",
-              "source_keys": [
-                "ring2021-ireland-protein-powders-metals"
-              ]
-            }
-          ],
           "citation_omission_reason": "Uncited sentences are editorial implications, descriptive arithmetic on the cited values, proposed verification or navigation; they are not reported outcomes.",
           "passages": []
         },
         {
-          "text": "Lead, cadmium and mercury need a method with quantification limits well below the decision level; the published study used sector-field ICP-MS with limits as low as 0.2 µg/kg for mercury. Inorganic arsenic needs a speciation method.",
+          "text": "Lead, cadmium and mercury need a method with quantification limits well below the decision level; the Irish study used sector-field ICP-MS with limits as low as 0.2 µg/kg for mercury. Inorganic arsenic needs a speciation method.",
           "source_keys": [
             "ring2021-ireland-protein-powders-metals"
+          ],
+          "citation_spans": [
+            {
+              "after": "Lead, cadmium and mercury need a method with quantification limits well below the decision level; the Irish study used sector-field ICP-MS with limits as low as 0.2 µg/kg for mercury.",
+              "source_keys": [
+                "ring2021-ireland-protein-powders-metals"
+              ]
+            }
           ],
           "kind": "evidence",
           "question_id": "HMI-ING-026",
           "presentation": "record_only",
           "public_context_section": "testing",
-          "citation_spans": [
-            {
-              "after": "Lead, cadmium and mercury need a method with quantification limits well below the decision level; the published study used sector-field ICP-MS with limits as low as 0.2 µg/kg for mercury.",
-              "source_keys": [
-                "ring2021-ireland-protein-powders-metals"
-              ]
-            }
-          ],
           "citation_omission_reason": "Uncited sentences are editorial implications, descriptive arithmetic on the cited values, proposed verification or navigation; they are not reported outcomes.",
           "passages": []
         },
         {
-          "text": "A non-detect establishes only that the result was below the stated limit; without a printed limit it establishes nothing about how low the metal was. Arsenic remains untested in pea protein.",
+          "text": "A non-detect establishes only that the result was below the stated limit; without a printed limit or unit it establishes nothing about how low the metal was. Inorganic arsenic remains untested in pea protein.",
           "source_keys": [
             "horvath2025-hungary-protein-powders-metals",
-            "ring2021-ireland-protein-powders-metals"
+            "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals",
+            "ring2021-ireland-protein-powders-metals",
+            "fda-grn804-pea-protein-manufacturer-batches",
+            "fda-grn851-pea-protein-manufacturer-batches",
+            "fda-grn788-pea-protein-manufacturer-batches"
+          ],
+          "citation_spans": [
+            {
+              "after": "A non-detect establishes only that the result was below the stated limit; without a printed limit or unit it establishes nothing about how low the metal was.",
+              "source_keys": [
+                "horvath2025-hungary-protein-powders-metals",
+                "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals"
+              ]
+            },
+            {
+              "after": "Inorganic arsenic remains untested in pea protein.",
+              "source_keys": [
+                "ring2021-ireland-protein-powders-metals",
+                "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals",
+                "fda-grn804-pea-protein-manufacturer-batches",
+                "fda-grn851-pea-protein-manufacturer-batches",
+                "fda-grn788-pea-protein-manufacturer-batches"
+              ]
+            }
           ],
           "kind": "evidence",
           "question_id": "HMI-ING-027",
           "presentation": "record_only",
           "public_context_section": "testing",
-          "citation_spans": [
-            {
-              "after": "A non-detect establishes only that the result was below the stated limit; without a printed limit it establishes nothing about how low the metal was.",
-              "source_keys": [
-                "horvath2025-hungary-protein-powders-metals"
-              ]
-            },
-            {
-              "after": "Arsenic remains untested in pea protein.",
-              "source_keys": [
-                "ring2021-ireland-protein-powders-metals"
-              ]
-            }
-          ],
           "passages": []
         }
       ],
       "presentation": {
         "narrative": "overview_and_questions",
-        "text": "The study that quantified pea protein digested about 0.5 g of powder with nitric and hydrochloric acid and measured it by sector-field ICP-MS, reporting one value per product with stated quantification limits such as 0.2 µg/kg for mercury. It did not measure arsenic.",
+        "text": "The Irish study digested about 0.5 g of powder with nitric and hydrochloric acid and measured it by sector-field ICP-MS, with stated quantification limits such as 0.2 µg/kg for mercury; it did not measure arsenic. The Spanish study used ICP-MS after nitric acid digestion and did not measure arsenic or mercury.",
         "source_keys": [
-          "ring2021-ireland-protein-powders-metals"
+          "ring2021-ireland-protein-powders-metals",
+          "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals"
         ],
         "citation_spans": [
           {
-            "after": "The study that quantified pea protein digested about 0.5 g of powder with nitric and hydrochloric acid and measured it by sector-field ICP-MS, reporting one value per product with stated quantification limits such as 0.2 µg/kg for mercury.",
+            "after": "The Irish study digested about 0.5 g of powder with nitric and hydrochloric acid and measured it by sector-field ICP-MS, with stated quantification limits such as 0.2 µg/kg for mercury; it did not measure arsenic.",
             "source_keys": [
               "ring2021-ireland-protein-powders-metals"
             ]
           },
           {
-            "after": "It did not measure arsenic.",
+            "after": "The Spanish study used ICP-MS after nitric acid digestion and did not measure arsenic or mercury.",
             "source_keys": [
-              "ring2021-ireland-protein-powders-metals"
+              "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals"
             ]
           }
         ],
         "passages": [
           {
-            "text": "A survey that reported every pea blend as below detection did not print its detection limit, so those results cannot show how low the metals were. A useful certificate names the accredited laboratory, the method, the quantification limit for each metal and the lot tested, and reports inorganic arsenic separately from total arsenic.",
+            "text": "The manufacturer notices used ICP-MS or national standard methods for total arsenic, and none speciated inorganic arsenic. A useful certificate names the accredited laboratory, the method, the quantification limit for each metal and the lot tested, and reports inorganic arsenic separately from total arsenic.",
             "source_keys": [
-              "horvath2025-hungary-protein-powders-metals"
+              "fda-grn804-pea-protein-manufacturer-batches",
+              "fda-grn851-pea-protein-manufacturer-batches",
+              "fda-grn788-pea-protein-manufacturer-batches"
             ],
             "citation_spans": [
               {
-                "after": "A survey that reported every pea blend as below detection did not print its detection limit, so those results cannot show how low the metals were.",
+                "after": "The manufacturer notices used ICP-MS or national standard methods for total arsenic, and none speciated inorganic arsenic.",
                 "source_keys": [
-                  "horvath2025-hungary-protein-powders-metals"
+                  "fda-grn804-pea-protein-manufacturer-batches",
+                  "fda-grn851-pea-protein-manufacturer-batches",
+                  "fda-grn788-pea-protein-manufacturer-batches"
                 ]
               }
             ],
@@ -1041,9 +1206,13 @@
       "id": "procurement",
       "answers": [
         {
-          "text": "A buyer should request the growing origin of the peas, whether the material is isolate or concentrate, the laboratory, accreditation, report number, quantification limits and lot-level results for lead, cadmium, mercury and inorganic arsenic. No published pea protein result supplies origin or arsenic.",
+          "text": "A buyer should request the growing origin of the peas, whether the material is isolate or concentrate, the laboratory, accreditation, report number, quantification limits and lot-level results for lead, cadmium, mercury and inorganic arsenic. No published pea protein result supplies growing origin or inorganic arsenic.",
           "source_keys": [
-            "ring2021-ireland-protein-powders-metals"
+            "ring2021-ireland-protein-powders-metals",
+            "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals",
+            "fda-grn804-pea-protein-manufacturer-batches",
+            "fda-grn851-pea-protein-manufacturer-batches",
+            "fda-grn788-pea-protein-manufacturer-batches"
           ],
           "kind": "evidence",
           "question_id": "HMI-ING-028",
@@ -1051,9 +1220,13 @@
           "public_context_section": "procurement",
           "citation_spans": [
             {
-              "after": "No published pea protein result supplies origin or arsenic.",
+              "after": "No published pea protein result supplies growing origin or inorganic arsenic.",
               "source_keys": [
-                "ring2021-ireland-protein-powders-metals"
+                "ring2021-ireland-protein-powders-metals",
+                "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals",
+                "fda-grn804-pea-protein-manufacturer-batches",
+                "fda-grn851-pea-protein-manufacturer-batches",
+                "fda-grn788-pea-protein-manufacturer-batches"
               ]
             }
           ],
@@ -1087,9 +1260,11 @@
           "passages": []
         },
         {
-          "text": "A change of pea origin, processor, isolate or concentrate, laboratory or quantification limit, or a lot result well above earlier lots, should trigger requalification. The more than twofold cadmium difference between two products shows how much sources can differ.",
+          "text": "A change of pea origin, processor, isolate or concentrate, laboratory or quantification limit, or a lot result well above earlier lots, should trigger requalification. Manufacturer cadmium results ranged from 1.0 to 80 µg/kg across batches.",
           "source_keys": [
-            "ring2021-ireland-protein-powders-metals"
+            "fda-grn804-pea-protein-manufacturer-batches",
+            "fda-grn851-pea-protein-manufacturer-batches",
+            "fda-grn788-pea-protein-manufacturer-batches"
           ],
           "kind": "evidence",
           "question_id": "HMI-ING-030",
@@ -1097,9 +1272,11 @@
           "public_context_section": "procurement",
           "citation_spans": [
             {
-              "after": "The more than twofold cadmium difference between two products shows how much sources can differ.",
+              "after": "Manufacturer cadmium results ranged from 1.0 to 80 µg/kg across batches.",
               "source_keys": [
-                "ring2021-ireland-protein-powders-metals"
+                "fda-grn804-pea-protein-manufacturer-batches",
+                "fda-grn851-pea-protein-manufacturer-batches",
+                "fda-grn788-pea-protein-manufacturer-batches"
               ]
             }
           ],
@@ -1109,16 +1286,18 @@
       ],
       "presentation": {
         "narrative": "overview_and_questions",
-        "text": "A buyer should ask for the name of the testing laboratory and its ISO/IEC 17025 accreditation, the report number for each certificate, the quantification limit for each metal, inorganic arsenic rather than total arsenic alone, and results for the lot being bought. These requests answer the gaps in the published evidence: the arsenic gap, the missing detection limits and the single-product results.",
+        "text": "A buyer should ask for the name of the testing laboratory and its ISO/IEC 17025 accreditation, the report number for each certificate, the quantification limit for each metal, inorganic arsenic rather than total arsenic alone, and results for the lot being bought. These requests answer the gaps in the published evidence: the inorganic arsenic gap, the missing detection limits and the few independently tested products.",
         "source_keys": [
           "ring2021-ireland-protein-powders-metals",
+          "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals",
           "horvath2025-hungary-protein-powders-metals"
         ],
         "citation_spans": [
           {
-            "after": "These requests answer the gaps in the published evidence: the arsenic gap, the missing detection limits and the single-product results.",
+            "after": "These requests answer the gaps in the published evidence: the inorganic arsenic gap, the missing detection limits and the few independently tested products.",
             "source_keys": [
               "ring2021-ireland-protein-powders-metals",
+              "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals",
               "horvath2025-hungary-protein-powders-metals"
             ]
           }
@@ -1147,7 +1326,7 @@
       "id": "product",
       "answers": [
         {
-          "text": "A finished-product estimate scales with the share of pea protein in the formula, the serving size and the other ingredients. The study's labeled servings were 30 g and 10 g.",
+          "text": "A finished-product estimate scales with the share of pea protein in the formula, the serving size and the other ingredients. The Irish study's labeled servings were 30 g and 10 g.",
           "source_keys": [
             "ring2021-ireland-protein-powders-metals"
           ],
@@ -1157,7 +1336,7 @@
           "public_context_section": "product",
           "citation_spans": [
             {
-              "after": "The study's labeled servings were 30 g and 10 g.",
+              "after": "The Irish study's labeled servings were 30 g and 10 g.",
               "source_keys": [
                 "ring2021-ireland-protein-powders-metals"
               ]
@@ -1167,7 +1346,7 @@
           "passages": []
         },
         {
-          "text": "Consumption frequency matters: the study used one to three servings a day for a 70 kg adult. Children, pregnant consumers and heavy users need their own intake assumptions.",
+          "text": "Consumption frequency matters: the Irish study used one to three servings a day for a 70 kg adult. Children, pregnant consumers and heavy users need their own intake assumptions.",
           "source_keys": [
             "ring2021-ireland-protein-powders-metals"
           ],
@@ -1177,7 +1356,7 @@
           "public_context_section": "product",
           "citation_spans": [
             {
-              "after": "Consumption frequency matters: the study used one to three servings a day for a 70 kg adult.",
+              "after": "Consumption frequency matters: the Irish study used one to three servings a day for a 70 kg adult.",
               "source_keys": [
                 "ring2021-ireland-protein-powders-metals"
               ]
@@ -1187,9 +1366,10 @@
           "passages": []
         },
         {
-          "text": "Any claim about a finished product or a population's intake requires measurement of that product and a separate exposure assessment. Two retail products do not represent the market.",
+          "text": "Any claim about a finished product or a population's intake requires measurement of that product and a separate exposure assessment. Four independently tested products do not represent the market.",
           "source_keys": [
-            "ring2021-ireland-protein-powders-metals"
+            "ring2021-ireland-protein-powders-metals",
+            "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals"
           ],
           "kind": "evidence",
           "question_id": "HMI-ING-033",
@@ -1197,9 +1377,10 @@
           "public_context_section": "product",
           "citation_spans": [
             {
-              "after": "Two retail products do not represent the market.",
+              "after": "Four independently tested products do not represent the market.",
               "source_keys": [
-                "ring2021-ireland-protein-powders-metals"
+                "ring2021-ireland-protein-powders-metals",
+                "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals"
               ]
             }
           ],
@@ -1209,7 +1390,7 @@
       ],
       "presentation": {
         "narrative": "overview_and_questions",
-        "text": "The study reported the labeled serving of each product: 30 g for the first pea powder and 10 g for the second. At those servings the powders supply 0.666 and 0.225 µg of lead and 1.218 and 0.154 µg of cadmium, Index calculations from the study values; California's levels are 0.5 µg/day for lead and 4.1 µg/day for cadmium.",
+        "text": "The Irish study reported the labeled serving of each product: 30 g for the first pea powder and 10 g for the second. At those servings the powders supply 0.666 and 0.225 µg of lead and 1.218 and 0.154 µg of cadmium, Index calculations from the study values; California's levels are 0.5 µg/day for lead and 4.1 µg/day for cadmium.",
         "source_keys": [
           "ring2021-ireland-protein-powders-metals",
           "oehha-lead-prop65-listing",
@@ -1217,7 +1398,7 @@
         ],
         "citation_spans": [
           {
-            "after": "The study reported the labeled serving of each product: 30 g for the first pea powder and 10 g for the second.",
+            "after": "The Irish study reported the labeled serving of each product: 30 g for the first pea powder and 10 g for the second.",
             "source_keys": [
               "ring2021-ireland-protein-powders-metals"
             ]
@@ -1233,13 +1414,22 @@
         ],
         "passages": [
           {
-            "text": "Two or three scoops a day, or pea protein used as one ingredient in a blend, change these figures in proportion to the amount eaten. The study assessed intake at one to three servings a day for a 70 kg adult. Whether a product needs a California warning depends on its labeled serving, daily use and the law's other provisions, which this page does not assess.",
+            "text": "At the highest manufacturer lead result, 40 µg/kg, a 30 g serving would supply 1.2 µg of lead, an Index calculation. Two or three scoops a day, or pea protein used as one ingredient in a blend, change these figures in proportion to the amount eaten. The Irish study assessed intake at one to three servings a day for a 70 kg adult.",
             "source_keys": [
+              "fda-grn804-pea-protein-manufacturer-batches",
+              "oehha-lead-prop65-listing",
               "ring2021-ireland-protein-powders-metals"
             ],
             "citation_spans": [
               {
-                "after": "The study assessed intake at one to three servings a day for a 70 kg adult.",
+                "after": "At the highest manufacturer lead result, 40 µg/kg, a 30 g serving would supply 1.2 µg of lead, an Index calculation.",
+                "source_keys": [
+                  "fda-grn804-pea-protein-manufacturer-batches",
+                  "oehha-lead-prop65-listing"
+                ]
+              },
+              {
+                "after": "The Irish study assessed intake at one to three servings a day for a 70 kg adult.",
                 "source_keys": [
                   "ring2021-ireland-protein-powders-metals"
                 ]
@@ -1289,37 +1479,55 @@
           "passages": [
             {
               "question": "Does pea protein contain lead?",
-              "text": "Both pea protein powders with published results contained lead, at 22.2 and 22.5 µg/kg as sold. Two products cannot show how common or how high lead is across the market.",
+              "text": "Two independently tested retail powders contained 22.2 and 22.5 µg/kg lead, and two concentrate brands had none detected. Manufacturer tests quantified lead in 11 of 15 batches at 10 to 40 µg/kg.",
               "source_keys": [
-                "ring2021-ireland-protein-powders-metals"
+                "ring2021-ireland-protein-powders-metals",
+                "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals",
+                "fda-grn804-pea-protein-manufacturer-batches",
+                "fda-grn851-pea-protein-manufacturer-batches",
+                "fda-grn788-pea-protein-manufacturer-batches"
               ],
               "citation_spans": [
                 {
-                  "after": "Both pea protein powders with published results contained lead, at 22.2 and 22.5 µg/kg as sold.",
+                  "after": "Two independently tested retail powders contained 22.2 and 22.5 µg/kg lead, and two concentrate brands had none detected.",
                   "source_keys": [
-                    "ring2021-ireland-protein-powders-metals"
+                    "ring2021-ireland-protein-powders-metals",
+                    "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals"
+                  ]
+                },
+                {
+                  "after": "Manufacturer tests quantified lead in 11 of 15 batches at 10 to 40 µg/kg.",
+                  "source_keys": [
+                    "fda-grn804-pea-protein-manufacturer-batches",
+                    "fda-grn851-pea-protein-manufacturer-batches",
+                    "fda-grn788-pea-protein-manufacturer-batches"
                   ]
                 }
               ],
-              "citation_omission_reason": "Uncited sentences are editorial implications, descriptive arithmetic on the cited values, proposed verification or navigation; they are not reported outcomes.",
               "placement": "universal_faq"
             },
             {
               "question": "Does pea protein contain cadmium?",
-              "text": "Yes: the two measured powders had 40.6 and 15.4 µg/kg cadmium. Both are below the EU maximum level of 0.10 mg/kg (100 µg/kg) for proteins from pulses.",
+              "text": "Yes: two retail powders had 40.6 and 15.4 µg/kg, and manufacturer batches 1.0 to 80 µg/kg. All are below the EU maximum level of 0.10 mg/kg (100 µg/kg) for proteins from pulses.",
               "source_keys": [
                 "ring2021-ireland-protein-powders-metals",
+                "fda-grn804-pea-protein-manufacturer-batches",
+                "fda-grn851-pea-protein-manufacturer-batches",
+                "fda-grn788-pea-protein-manufacturer-batches",
                 "eu-2023-915-contaminants-maximum-levels"
               ],
               "citation_spans": [
                 {
-                  "after": "Yes: the two measured powders had 40.6 and 15.4 µg/kg cadmium.",
+                  "after": "Yes: two retail powders had 40.6 and 15.4 µg/kg, and manufacturer batches 1.0 to 80 µg/kg.",
                   "source_keys": [
-                    "ring2021-ireland-protein-powders-metals"
+                    "ring2021-ireland-protein-powders-metals",
+                    "fda-grn804-pea-protein-manufacturer-batches",
+                    "fda-grn851-pea-protein-manufacturer-batches",
+                    "fda-grn788-pea-protein-manufacturer-batches"
                   ]
                 },
                 {
-                  "after": "Both are below the EU maximum level of 0.10 mg/kg (100 µg/kg) for proteins from pulses.",
+                  "after": "All are below the EU maximum level of 0.10 mg/kg (100 µg/kg) for proteins from pulses.",
                   "source_keys": [
                     "eu-2023-915-contaminants-maximum-levels"
                   ]
@@ -1329,22 +1537,31 @@
             },
             {
               "question": "Is arsenic a concern in pea protein?",
-              "text": "It is unknown: no published pea protein result reports total or inorganic arsenic. Pea blends in one survey were below detection for arsenic, but the detection limit was not printed. Ask for inorganic arsenic on each lot.",
+              "text": "It is unknown: inorganic arsenic has not been measured in any pea protein product. Total arsenic appears only in manufacturer tests, all below reporting limits of 10 to 100 µg/kg. Ask for inorganic arsenic on each lot.",
               "source_keys": [
                 "ring2021-ireland-protein-powders-metals",
-                "horvath2025-hungary-protein-powders-metals"
+                "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals",
+                "fda-grn804-pea-protein-manufacturer-batches",
+                "fda-grn851-pea-protein-manufacturer-batches",
+                "fda-grn788-pea-protein-manufacturer-batches"
               ],
               "citation_spans": [
                 {
-                  "after": "It is unknown: no published pea protein result reports total or inorganic arsenic.",
+                  "after": "It is unknown: inorganic arsenic has not been measured in any pea protein product.",
                   "source_keys": [
-                    "ring2021-ireland-protein-powders-metals"
+                    "ring2021-ireland-protein-powders-metals",
+                    "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals",
+                    "fda-grn804-pea-protein-manufacturer-batches",
+                    "fda-grn851-pea-protein-manufacturer-batches",
+                    "fda-grn788-pea-protein-manufacturer-batches"
                   ]
                 },
                 {
-                  "after": "Pea blends in one survey were below detection for arsenic, but the detection limit was not printed.",
+                  "after": "Total arsenic appears only in manufacturer tests, all below reporting limits of 10 to 100 µg/kg.",
                   "source_keys": [
-                    "horvath2025-hungary-protein-powders-metals"
+                    "fda-grn804-pea-protein-manufacturer-batches",
+                    "fda-grn851-pea-protein-manufacturer-batches",
+                    "fda-grn788-pea-protein-manufacturer-batches"
                   ]
                 }
               ],
@@ -1370,23 +1587,36 @@
             },
             {
               "question": "Is pea protein lower in metals than rice protein?",
-              "text": "They cannot be compared directly for most metals. Pea protein has lead and cadmium results but no arsenic. For lead, the two measured pea powders had 22.2 and 22.5 µg/kg, below all 22 rice protein powders in WHO GEMS/Food results from the Americas, which ran from 110 to 445 µg/kg. The two come from different surveys, countries and years, so the gap is indicative; see [[ingredients/rice-protein]] for the rice evidence.",
+              "text": "For lead, the one study that measured both found none detected in two pea protein brands and 175.40 ppb in one of two rice protein brands. Inorganic arsenic cannot be compared, because it has not been measured in pea protein; see [[ingredients/rice-protein]] for the rice evidence.",
               "source_keys": [
-                "ring2021-ireland-protein-powders-metals",
-                "who-gemsfood-heavy-metal-contaminants"
+                "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals"
               ],
               "citation_spans": [
                 {
-                  "after": "Pea protein has lead and cadmium results but no arsenic.",
+                  "after": "For lead, the one study that measured both found none detected in two pea protein brands and 175.40 ppb in one of two rice protein brands.",
                   "source_keys": [
-                    "ring2021-ireland-protein-powders-metals"
+                    "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals"
                   ]
-                },
+                }
+              ],
+              "citation_omission_reason": "Uncited sentences are editorial implications, descriptive arithmetic on the cited values, proposed verification or navigation; they are not reported outcomes.",
+              "placement": "universal_faq"
+            },
+            {
+              "question": "Are manufacturer test results independent?",
+              "text": "No: the GRAS notice results are tests run or commissioned by the manufacturers and submitted to FDA with a GRAS notice, not measurements by an independent laboratory or agency. The Index shows them as manufacturer tests and does not name the companies or products.",
+              "source_keys": [
+                "fda-grn804-pea-protein-manufacturer-batches",
+                "fda-grn851-pea-protein-manufacturer-batches",
+                "fda-grn788-pea-protein-manufacturer-batches"
+              ],
+              "citation_spans": [
                 {
-                  "after": "For lead, the two measured pea powders had 22.2 and 22.5 µg/kg, below all 22 rice protein powders in WHO GEMS/Food results from the Americas, which ran from 110 to 445 µg/kg.",
+                  "after": "No: the GRAS notice results are tests run or commissioned by the manufacturers and submitted to FDA with a GRAS notice, not measurements by an independent laboratory or agency.",
                   "source_keys": [
-                    "ring2021-ireland-protein-powders-metals",
-                    "who-gemsfood-heavy-metal-contaminants"
+                    "fda-grn804-pea-protein-manufacturer-batches",
+                    "fda-grn851-pea-protein-manufacturer-batches",
+                    "fda-grn788-pea-protein-manufacturer-batches"
                   ]
                 }
               ],
@@ -1398,14 +1628,20 @@
               "text": "No published pea protein result names the growing region, so China, Vietnam, the USA and Canada cannot be compared. Origin-linked lot results would answer it.",
               "source_keys": [
                 "ring2021-ireland-protein-powders-metals",
-                "horvath2025-hungary-protein-powders-metals"
+                "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals",
+                "fda-grn804-pea-protein-manufacturer-batches",
+                "fda-grn851-pea-protein-manufacturer-batches",
+                "fda-grn788-pea-protein-manufacturer-batches"
               ],
               "citation_spans": [
                 {
                   "after": "No published pea protein result names the growing region, so China, Vietnam, the USA and Canada cannot be compared.",
                   "source_keys": [
                     "ring2021-ireland-protein-powders-metals",
-                    "horvath2025-hungary-protein-powders-metals"
+                    "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals",
+                    "fda-grn804-pea-protein-manufacturer-batches",
+                    "fda-grn851-pea-protein-manufacturer-batches",
+                    "fda-grn788-pea-protein-manufacturer-batches"
                   ]
                 }
               ],
@@ -1467,15 +1703,17 @@
             },
             {
               "question": "What does \"not detected\" mean on a pea protein certificate?",
-              "text": "It means the result was below the laboratory's limit, not that the metal is absent. One survey reported pea blends as below detection without printing the limit, so the result shows nothing about how low the metal was.",
+              "text": "It means the result was below the laboratory's limit, not that the metal is absent. One survey reported pea blends as below detection without printing the limit, and another printed limits without a unit, so neither shows how low the metal was.",
               "source_keys": [
-                "horvath2025-hungary-protein-powders-metals"
+                "horvath2025-hungary-protein-powders-metals",
+                "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals"
               ],
               "citation_spans": [
                 {
-                  "after": "One survey reported pea blends as below detection without printing the limit, so the result shows nothing about how low the metal was.",
+                  "after": "One survey reported pea blends as below detection without printing the limit, and another printed limits without a unit, so neither shows how low the metal was.",
                   "source_keys": [
-                    "horvath2025-hungary-protein-powders-metals"
+                    "horvath2025-hungary-protein-powders-metals",
+                    "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals"
                   ]
                 }
               ],
@@ -1484,17 +1722,19 @@
             },
             {
               "question": "What should a pea protein supplier's test report include?",
-              "text": "The accredited laboratory's name and ISO/IEC 17025 status, the report number, the method, the quantification limit for each metal, inorganic arsenic as well as total arsenic, and the lot tested. The published evidence lacks arsenic and, in one survey, detection limits.",
+              "text": "The accredited laboratory's name and ISO/IEC 17025 status, the report number, the method, the quantification limit for each metal, inorganic arsenic as well as total arsenic, and the lot tested. The published evidence lacks inorganic arsenic and, in two studies, usable detection limits.",
               "source_keys": [
                 "ring2021-ireland-protein-powders-metals",
-                "horvath2025-hungary-protein-powders-metals"
+                "horvath2025-hungary-protein-powders-metals",
+                "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals"
               ],
               "citation_spans": [
                 {
-                  "after": "The published evidence lacks arsenic and, in one survey, detection limits.",
+                  "after": "The published evidence lacks inorganic arsenic and, in two studies, usable detection limits.",
                   "source_keys": [
                     "ring2021-ireland-protein-powders-metals",
-                    "horvath2025-hungary-protein-powders-metals"
+                    "horvath2025-hungary-protein-powders-metals",
+                    "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals"
                   ]
                 }
               ],
@@ -1560,9 +1800,13 @@
           ]
         },
         {
-          "text": "Every record that names pea protein was read: two give pea-specific results and five do not report pea protein separately.",
+          "text": "Every record that names pea protein was read: two independent studies and three manufacturer notices give pea-specific results, and six other records do not report pea protein separately.",
           "source_keys": [
             "ring2021-ireland-protein-powders-metals",
+            "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals",
+            "fda-grn804-pea-protein-manufacturer-batches",
+            "fda-grn851-pea-protein-manufacturer-batches",
+            "fda-grn788-pea-protein-manufacturer-batches",
             "horvath2025-hungary-protein-powders-metals",
             "cleanlabel2025-protein-powder-heavy-metals",
             "kolhe2025-protein-powders-lead-cadmium-review",
@@ -1576,9 +1820,13 @@
           "public_context_section": "assessment",
           "citation_spans": [
             {
-              "after": "Every record that names pea protein was read: two give pea-specific results and five do not report pea protein separately.",
+              "after": "Every record that names pea protein was read: two independent studies and three manufacturer notices give pea-specific results, and six other records do not report pea protein separately.",
               "source_keys": [
                 "ring2021-ireland-protein-powders-metals",
+                "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals",
+                "fda-grn804-pea-protein-manufacturer-batches",
+                "fda-grn851-pea-protein-manufacturer-batches",
+                "fda-grn788-pea-protein-manufacturer-batches",
                 "horvath2025-hungary-protein-powders-metals",
                 "cleanlabel2025-protein-powder-heavy-metals",
                 "kolhe2025-protein-powders-lead-cadmium-review",
@@ -1591,9 +1839,12 @@
           "passages": []
         },
         {
-          "text": "Unresolved: arsenic, growing origin, isolate against concentrate, processing effects and any reduction measure. This version adds the page from the Index source records available on 2 November 2026.",
+          "text": "Unresolved: inorganic arsenic, growing origin, independent lot data, processing effects and any reduction measure. This version adds the Spanish study and the three manufacturer notices from the Index records available on 3 November 2026.",
           "source_keys": [
-            "ring2021-ireland-protein-powders-metals"
+            "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals",
+            "fda-grn804-pea-protein-manufacturer-batches",
+            "fda-grn851-pea-protein-manufacturer-batches",
+            "fda-grn788-pea-protein-manufacturer-batches"
           ],
           "kind": "evidence",
           "question_id": "HMI-ING-036",
@@ -1601,9 +1852,12 @@
           "public_context_section": "assessment",
           "citation_spans": [
             {
-              "after": "This version adds the page from the Index source records available on 2 November 2026.",
+              "after": "This version adds the Spanish study and the three manufacturer notices from the Index records available on 3 November 2026.",
               "source_keys": [
-                "ring2021-ireland-protein-powders-metals"
+                "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals",
+                "fda-grn804-pea-protein-manufacturer-batches",
+                "fda-grn851-pea-protein-manufacturer-batches",
+                "fda-grn788-pea-protein-manufacturer-batches"
               ]
             }
           ],
@@ -1657,10 +1911,14 @@
         ],
         "passages": [
           {
-            "text": "The occurrence evidence is one Irish study of two pea powders and one Hungarian survey of pea blends below an unprinted detection limit. A US market screen, a review, a risk assessment, a whey and vegan powder study and a Finnish plant protein study were read and do not report pea protein separately. The Index has not yet transcribed the EU 2023/915 lead rows for pulses and food supplements, so no EU lead value is shown here.",
+            "text": "The independent occurrence evidence is one Irish study of two pea powders and one Spanish study of two concentrate brands; a Hungarian survey reports pea blends below an unprinted detection limit. Three FDA GRAS notices add manufacturer batch data, which the Index labels as manufacturer tests and keeps out of reference levels. A US market screen, a review, a risk assessment, a whey and vegan powder study and a Finnish plant protein study were read and do not report pea protein separately.",
             "source_keys": [
               "ring2021-ireland-protein-powders-metals",
+              "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals",
               "horvath2025-hungary-protein-powders-metals",
+              "fda-grn804-pea-protein-manufacturer-batches",
+              "fda-grn851-pea-protein-manufacturer-batches",
+              "fda-grn788-pea-protein-manufacturer-batches",
               "cleanlabel2025-protein-powder-heavy-metals",
               "kolhe2025-protein-powders-lead-cadmium-review",
               "bandara2020-protein-powder-heavy-metals",
@@ -1669,10 +1927,19 @@
             ],
             "citation_spans": [
               {
-                "after": "The occurrence evidence is one Irish study of two pea powders and one Hungarian survey of pea blends below an unprinted detection limit.",
+                "after": "The independent occurrence evidence is one Irish study of two pea powders and one Spanish study of two concentrate brands; a Hungarian survey reports pea blends below an unprinted detection limit.",
                 "source_keys": [
                   "ring2021-ireland-protein-powders-metals",
+                  "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals",
                   "horvath2025-hungary-protein-powders-metals"
+                ]
+              },
+              {
+                "after": "Three FDA GRAS notices add manufacturer batch data, which the Index labels as manufacturer tests and keeps out of reference levels.",
+                "source_keys": [
+                  "fda-grn804-pea-protein-manufacturer-batches",
+                  "fda-grn851-pea-protein-manufacturer-batches",
+                  "fda-grn788-pea-protein-manufacturer-batches"
                 ]
               },
               {
@@ -1685,8 +1952,7 @@
                   "mattila2018-finland-plant-protein-products-nutrients"
                 ]
               }
-            ],
-            "citation_omission_reason": "Uncited sentences are editorial implications, descriptive arithmetic on the cited values, proposed verification or navigation; they are not reported outcomes."
+            ]
           }
         ]
       }
@@ -1711,8 +1977,8 @@
     "aliases": []
   },
   "scope": {
-    "analytes": "Pb, Cd, tHg, Cr, Sn, Co, V, Au, Ba, Be, Bi, Li, Mo, Pt, Ti and Tl",
-    "material_form": "Pea protein, powder or ground",
+    "analytes": "Pb, Cd, tAs, tHg, Ni, Cr, Sn, Co, V, Au, Ba, Be, Bi, Li, Mo, Pt, Ti and Tl",
+    "material_form": "Pea protein, as sold and Pea protein, powder or ground",
     "basis": "As reported; µg/kg; no moisture conversion",
     "geography_market": "Reporting region, purchase market or growing area as each source reports",
     "period": "Source collection years where reported; unreported dates stay unknown",
@@ -1728,7 +1994,7 @@
       "data/evidence/engine/ingredient/pea-protein/synthesis.json"
     ],
     "screening_ref": "data/evidence/engine/ingredient/pea-protein/evidence-ledger.json",
-    "searched_through": "2026-11-02",
+    "searched_through": "2026-11-03",
     "limitations": [
       "Existing HMI library only; no new external literature search"
     ],
@@ -1739,15 +2005,28 @@
   },
   "retain_history_only": true,
   "quick_read": {
-    "text": "Two retail pea protein powders are the only pea protein products with published single-product metal results, and both contained lead and cadmium. Arsenic and growing origin have no published data.",
+    "text": "Independent tests of four pea protein products found lead and cadmium in two and neither in the other two. Manufacturer tests submitted to FDA found cadmium in all 15 batches. Inorganic arsenic is unmeasured.",
     "source_keys": [
-      "ring2021-ireland-protein-powders-metals"
+      "ring2021-ireland-protein-powders-metals",
+      "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals",
+      "fda-grn804-pea-protein-manufacturer-batches",
+      "fda-grn851-pea-protein-manufacturer-batches",
+      "fda-grn788-pea-protein-manufacturer-batches"
     ],
     "citation_spans": [
       {
-        "after": "Two retail pea protein powders are the only pea protein products with published single-product metal results, and both contained lead and cadmium.",
+        "after": "Independent tests of four pea protein products found lead and cadmium in two and neither in the other two.",
         "source_keys": [
-          "ring2021-ireland-protein-powders-metals"
+          "ring2021-ireland-protein-powders-metals",
+          "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals"
+        ]
+      },
+      {
+        "after": "Manufacturer tests submitted to FDA found cadmium in all 15 batches.",
+        "source_keys": [
+          "fda-grn804-pea-protein-manufacturer-batches",
+          "fda-grn851-pea-protein-manufacturer-batches",
+          "fda-grn788-pea-protein-manufacturer-batches"
         ]
       }
     ],
@@ -1755,34 +2034,45 @@
     "facets": [
       {
         "label": "Metals of concern",
-        "text": "Lead and cadmium were measured in both pea powders and mercury was quantified in one. Arsenic was not measured.",
+        "text": "Cadmium is the most consistent finding: 1.0 to 80 µg/kg in manufacturer batches and 15.4 and 40.6 µg/kg in two retail powders. Inorganic arsenic was never measured.",
         "source_keys": [
-          "ring2021-ireland-protein-powders-metals"
+          "fda-grn804-pea-protein-manufacturer-batches",
+          "fda-grn851-pea-protein-manufacturer-batches",
+          "fda-grn788-pea-protein-manufacturer-batches",
+          "ring2021-ireland-protein-powders-metals",
+          "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals"
         ],
         "citation_spans": [
           {
-            "after": "Lead and cadmium were measured in both pea powders and mercury was quantified in one.",
+            "after": "Cadmium is the most consistent finding: 1.0 to 80 µg/kg in manufacturer batches and 15.4 and 40.6 µg/kg in two retail powders.",
             "source_keys": [
+              "fda-grn804-pea-protein-manufacturer-batches",
+              "fda-grn851-pea-protein-manufacturer-batches",
+              "fda-grn788-pea-protein-manufacturer-batches",
               "ring2021-ireland-protein-powders-metals"
             ]
           },
           {
-            "after": "Arsenic was not measured.",
+            "after": "Inorganic arsenic was never measured.",
             "source_keys": [
-              "ring2021-ireland-protein-powders-metals"
+              "ring2021-ireland-protein-powders-metals",
+              "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals",
+              "fda-grn804-pea-protein-manufacturer-batches",
+              "fda-grn851-pea-protein-manufacturer-batches",
+              "fda-grn788-pea-protein-manufacturer-batches"
             ]
           }
         ]
       },
       {
         "label": "Main drivers",
-        "text": "One powder had more than twice the cadmium of the other at nearly equal lead. Origin, cultivar and isolation process have no published comparison.",
+        "text": "Cadmium differed more than twofold between two retail powders at nearly equal lead. Growing origin has no published data.",
         "source_keys": [
           "ring2021-ireland-protein-powders-metals"
         ],
         "citation_spans": [
           {
-            "after": "One powder had more than twice the cadmium of the other at nearly equal lead.",
+            "after": "Cadmium differed more than twofold between two retail powders at nearly equal lead.",
             "source_keys": [
               "ring2021-ireland-protein-powders-metals"
             ]
@@ -1792,17 +2082,23 @@
       },
       {
         "label": "Practical framing",
-        "text": "At its labeled 30 g serving, one powder supplies more lead than the California 0.5 µg/day level. Test lots for lead, cadmium and inorganic arsenic.",
+        "text": "Every cadmium result is below the EU limit of 0.10 mg/kg for proteins from pulses. Ask for inorganic arsenic, lead and cadmium on each lot.",
         "source_keys": [
+          "eu-2023-915-contaminants-maximum-levels",
           "ring2021-ireland-protein-powders-metals",
-          "oehha-lead-prop65-listing"
+          "fda-grn804-pea-protein-manufacturer-batches",
+          "fda-grn851-pea-protein-manufacturer-batches",
+          "fda-grn788-pea-protein-manufacturer-batches"
         ],
         "citation_spans": [
           {
-            "after": "At its labeled 30 g serving, one powder supplies more lead than the California 0.5 µg/day level.",
+            "after": "Every cadmium result is below the EU limit of 0.10 mg/kg for proteins from pulses.",
             "source_keys": [
+              "eu-2023-915-contaminants-maximum-levels",
               "ring2021-ireland-protein-powders-metals",
-              "oehha-lead-prop65-listing"
+              "fda-grn804-pea-protein-manufacturer-batches",
+              "fda-grn851-pea-protein-manufacturer-batches",
+              "fda-grn788-pea-protein-manufacturer-batches"
             ]
           }
         ],

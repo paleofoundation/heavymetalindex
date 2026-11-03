@@ -1,0 +1,156 @@
+{
+ "source_id": "fda-grn788-pea-protein-manufacturer-batches",
+ "primary_artifact": "/Users/kmfp/hmi-protein-evidence-20261103/hmi-protein-2026-11-03/pdfs/pea-protein__GRN788.pdf",
+ "primary_sha256": "d62d8dda4052b1800ce763be52f94e3b82d2727f332d2530f4693bb9ba484e82",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "occurrence_extracted",
+ "disposition_reason": "One third-party laboratory report for a pea protein batch (Pb, As, Hg, Cd), submitted by the manufacturer to FDA with a GRAS notice.",
+ "disposition_locator": "Appendix II, PDF pp. 48 to 49",
+ "study": {
+  "site_context": "manufacturer",
+  "basis": "as_sold",
+  "origin": "not stated",
+  "design": "manufacturer-commissioned laboratory report submitted to FDA with a GRAS notice",
+  "market": "manufacturer production batch; not sampled from retail",
+  "period": {
+   "from": 2017,
+   "to": 2017,
+   "as_reported": "tested Oct 18 to Oct 24 2017"
+  },
+  "method": "GB 5009.12-2017 (Pb), GB 5009.11-2014 (As), GB 5009.17-2014 (Hg), GB 5009.15-2014 (Cd)",
+  "lod": [
+   "Method detection limits: Pb 0.05, As 0.01, Hg 0.01, Cd 0.005 mg/kg"
+  ],
+  "qa": "Accredited laboratory report; no QA data printed"
+ },
+ "findings": [
+  {
+   "id": "fda-grn788-pea-protein-manufacturer-batches:Pb:pea-protein-concentrate-80-protein-grade--batch-1-third-party-laboratory-report-su:not_detected",
+   "material": {
+    "label_as_printed": "Pea protein concentrate (80% protein grade), manufacturer test",
+    "page": "ingredients/pea-protein",
+    "form": "powder",
+    "state": "as_sold",
+    "route_rule": "override:HMI-PROTEIN-REBUILD-1"
+   },
+   "analyte": "Pb",
+   "group": "Batch 1, third-party laboratory report submitted by the manufacturer (GRN 788)",
+   "group_kind": "manufacturer_batch",
+   "n": 1,
+   "statistic": "not_detected",
+   "reported": "<0.05 mg/kg",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "as_sold",
+   "censoring": "lt_lod",
+   "lod_ugkg": 50,
+   "locator": "Appendix II test report, PDF p. 49",
+   "integrity_flag": null,
+   "notes": "Third-party test report dated Oct 24 2017; GB 5009.12-2017 (Pb), GB 5009.11-2014 (As), GB 5009.17-2014 (Hg), GB 5009.15-2014 (Cd); \"Not detected\" at the printed method detection limit. Cd method detection limit 0.005 mg/kg.",
+   "statistic_raw": "not_detected"
+  },
+  {
+   "id": "fda-grn788-pea-protein-manufacturer-batches:tAs:pea-protein-concentrate-80-protein-grade--batch-1-third-party-laboratory-report-su:not_detected",
+   "material": {
+    "label_as_printed": "Pea protein concentrate (80% protein grade), manufacturer test",
+    "page": "ingredients/pea-protein",
+    "form": "powder",
+    "state": "as_sold",
+    "route_rule": "override:HMI-PROTEIN-REBUILD-1"
+   },
+   "analyte": "tAs",
+   "group": "Batch 1, third-party laboratory report submitted by the manufacturer (GRN 788)",
+   "group_kind": "manufacturer_batch",
+   "n": 1,
+   "statistic": "not_detected",
+   "reported": "<0.01 mg/kg",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "as_sold",
+   "censoring": "lt_lod",
+   "lod_ugkg": 10,
+   "locator": "Appendix II test report, PDF p. 49",
+   "integrity_flag": null,
+   "notes": "Third-party test report dated Oct 24 2017; GB 5009.12-2017 (Pb), GB 5009.11-2014 (As), GB 5009.17-2014 (Hg), GB 5009.15-2014 (Cd); \"Not detected\" at the printed method detection limit. Cd method detection limit 0.005 mg/kg.",
+   "statistic_raw": "not_detected"
+  },
+  {
+   "id": "fda-grn788-pea-protein-manufacturer-batches:tHg:pea-protein-concentrate-80-protein-grade--batch-1-third-party-laboratory-report-su:not_detected",
+   "material": {
+    "label_as_printed": "Pea protein concentrate (80% protein grade), manufacturer test",
+    "page": "ingredients/pea-protein",
+    "form": "powder",
+    "state": "as_sold",
+    "route_rule": "override:HMI-PROTEIN-REBUILD-1"
+   },
+   "analyte": "tHg",
+   "group": "Batch 1, third-party laboratory report submitted by the manufacturer (GRN 788)",
+   "group_kind": "manufacturer_batch",
+   "n": 1,
+   "statistic": "not_detected",
+   "reported": "<0.01 mg/kg",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "as_sold",
+   "censoring": "lt_lod",
+   "lod_ugkg": 10,
+   "locator": "Appendix II test report, PDF p. 49",
+   "integrity_flag": null,
+   "notes": "Third-party test report dated Oct 24 2017; GB 5009.12-2017 (Pb), GB 5009.11-2014 (As), GB 5009.17-2014 (Hg), GB 5009.15-2014 (Cd); \"Not detected\" at the printed method detection limit. Cd method detection limit 0.005 mg/kg.",
+   "statistic_raw": "not_detected"
+  },
+  {
+   "id": "fda-grn788-pea-protein-manufacturer-batches:Cd:pea-protein-concentrate-80-protein-grade--batch-1-third-party-laboratory-report-su:sample_value",
+   "material": {
+    "label_as_printed": "Pea protein concentrate (80% protein grade), manufacturer test",
+    "page": "ingredients/pea-protein",
+    "form": "powder",
+    "state": "as_sold",
+    "route_rule": "override:HMI-PROTEIN-REBUILD-1"
+   },
+   "analyte": "Cd",
+   "group": "Batch 1, third-party laboratory report submitted by the manufacturer (GRN 788)",
+   "group_kind": "manufacturer_batch",
+   "n": 1,
+   "statistic": "sample_value",
+   "reported": "0.042 mg/kg",
+   "value_ugkg": 42,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Appendix II test report, PDF p. 49",
+   "integrity_flag": null,
+   "notes": "Third-party test report dated Oct 24 2017; GB 5009.12-2017 (Pb), GB 5009.11-2014 (As), GB 5009.17-2014 (Hg), GB 5009.15-2014 (Cd); \"Not detected\" at the printed method detection limit. Cd method detection limit 0.005 mg/kg.",
+   "statistic_raw": "sample_value"
+  }
+ ],
+ "unresolved": [
+  "Appendix I certificates of analysis (five batches, notice pp. 40 to 45) are scanned images and were not transcribed.",
+  "A second laboratory report (PDF pp. 50 to 51) covers aflatoxins only.",
+  "Arsenic is total arsenic; inorganic arsenic was not measured."
+ ],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/fda-grn788-pea-protein-manufacturer-batches.md",
+ "non_numeric_findings": []
+}

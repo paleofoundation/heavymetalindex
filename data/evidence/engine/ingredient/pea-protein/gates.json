@@ -6,7 +6,7 @@
     "coverage_sha256": null,
     "coverage_mtime": null,
     "by_page": "data/evidence/findings/by-page/ingredients/pea-protein.json",
-    "by_page_sha256": "e8c1b99ec03e881a10bc63be10f22694d3c4472d72f742d29cda2296d7b2fa7c"
+    "by_page_sha256": "ed56df810c0b5c0da01575fed9d1da6eff44c0ccaaee5e00676f7acc6127dabb"
   },
   "status": "fail",
   "gates": {
@@ -57,9 +57,9 @@
     "checked": true,
     "errors": []
   },
-  "rows": 32,
+  "rows": 100,
   "states": {
-    "unavailable": 32
+    "unavailable": 100
   },
   "legacy_findings": 0,
   "lost_findings": [],
@@ -70,7 +70,6 @@
   "control_error": null,
   "thin": "thin",
   "thin_reasons": [
-    "few_occurrence_families",
     "decision_analyte_without_comparison",
     "no_lower_contamination_comparison",
     "no_applicable_cited_control"
@@ -84,8 +83,8 @@
     "borrowed": 0
   },
   "dropped_fields": [],
-  "html": "data/evidence/engine/ingredient/pea-protein/preview/ingredients/pea-protein.html",
-  "html_bytes": 462650,
+  "html": "data/evidence/engine/preview/rerun-20261103T065324-batch-000/ingredients/pea-protein.html",
+  "html_bytes": 731697,
   "discoverable_outputs": [],
   "mirror": {
     "mirrored": false,

@@ -18,7 +18,6 @@ const DIR = 'raw/reports/gemsfood-contaminants';
 const EXPORT = `${DIR}/2026-06-20-export/Lead.csv`;
 const PER_YEAR = [`${DIR}/who-gemsfood-lead-paho-2014-2014-2026-05-04.csv`, `${DIR}/who-gemsfood-lead-paho-2017-2017-2026-05-04.csv`];
 const FEED = [`${DIR}/2026-06-20-export/Mercury.csv`, `${DIR}/who-gemsfood-arsenic-total-euro-2017-2017-2026-05-04.csv`, `${DIR}/who-gemsfood-arsenic-total-euro-2021-2021-2026-05-04.csv`, `${DIR}/who-gemsfood-total-mercury-euro-2017-2017-2026-05-04.csv`];
-const BRANDS = [/Oryzatein®?/g];
 const isRiceProtein = r => /rice protein/i.test(r.LocalFoodName ?? '');
 
 function read(declared) {
@@ -30,18 +29,19 @@ function read(declared) {
 const id = (declared, r) => `dataset:${declared}#row ${r.__row}`;
 const ugkg = r => r.UnitName === 'mg/kg' ? Number(r.ResultText) * 1000 : r.UnitName === 'ug/kg' ? Number(r.ResultText) : NaN;
 const limit = (v, r) => (v === '' ? undefined : r.UnitName === 'mg/kg' ? Number(v) * 1000 : Number(v));
-const scrub = s => BRANDS.reduce((t, b) => t.replace(b, '[brand]'), s).replace(/\s+/g, ' ').trim();
 
 const exp = read(EXPORT);
 const lead = exp.rows.filter(r => r.ContaminantName === 'Lead' && r.RegionName === 'PAHO' && isRiceProtein(r));
 const shard = lead.map(r => {
   const v = ugkg(r);
   if (!Number.isFinite(v) || !(v > 0)) throw Error(`Unexpected value in ${id(EXPORT, r)}: ${r.ResultText} ${r.UnitName}`);
-  const label = scrub(r.LocalFoodName);
+  // Brand firewall: GEMS local labels can carry trade names, so the label is withheld and only
+  // the generic food name is kept.
+  const brown = /brown/i.test(r.LocalFoodName);
   const row = {
     id: id(EXPORT, r), dataset_id: GEMS,
     // food_name is the page label the engine groups by; the GEMS category stays in food_category.
-    material: { label_as_printed: label, food_name: /brown/i.test(label) ? 'Brown rice protein powder' : 'Rice protein powder', page: 'ingredients/rice-protein', form: 'powder', route_rule: 'override:HMI-PROTEIN-PEA-RICE-1', route_by: 'local', ...(label !== r.LocalFoodName ? { brand_scrubbed: true } : {}) },
+    material: { label_as_printed: brown ? 'Brown rice protein powder' : 'Rice protein powder', label_withheld: 'brand firewall', food_name: brown ? 'Brown rice protein powder' : 'Rice protein powder', page: 'ingredients/rice-protein', form: 'powder', route_rule: 'override:HMI-PROTEIN-PEA-RICE-1', route_by: 'local' },
     analyte: 'Pb', group: `${r.RegionName}; ${r.RepresentativenessName}`, group_kind: 'reporting_region', n: 1, statistic: 'sample_value',
     reported: `${r.ResultText} ${r.UnitName}`, value_ugkg: v, lower_ugkg: v, upper_ugkg: v, unit_original: r.UnitName, basis: 'dry', censoring: 'none',
     lod_ugkg: limit(r.LOD, r), loq_ugkg: limit(r.LOQ, r), locator: `Lead.csv data row ${r.__row}`, region: r.RegionName, region_labels: [r.RegionName], year: Number(r.Year),

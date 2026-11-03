@@ -1,26 +1,30 @@
 {
   "schema_version": 1,
   "ingredient": "rice-protein",
-  "html_sha256": "361fd400542c6f779ce6c2edff78560ca7b4af883393b38918c453ec96d340ca",
-  "universe_sha256": "fbb7bfa60adf86d0fb36a60fcb8363c062247462f9b90b979135c9eabbc475fb",
-  "universe_size": 55,
+  "html_sha256": "95b86e7e7307701abdd1b773ad0d832ed9e1f5ba833fe1b768b874ee4a519b20",
+  "universe_sha256": "57a9c80aad1302f2d562c69e087e161cca65ca1dbb1e27a259ed28bdc29855d5",
+  "universe_size": 56,
   "universe_complete": true,
   "universe_discovery_gaps": 0,
-  "source_records": 6,
+  "source_records": 7,
   "dataset_rows": 49,
   "dispositions": {
-    "occurrence_extracted": 27,
+    "occurrence_extracted": 28,
     "out_of_scope": 29,
     "context_only": 1
   },
-  "extracted_results": 86,
+  "extracted_results": 94,
   "ledger_status": "present",
-  "rendered_rows": 86,
+  "rendered_rows": 94,
   "rendered_row_ids": [
     "hmi-occurrence-rice-protein-Al-0",
     "hmi-occurrence-rice-protein-Ba-0",
     "hmi-occurrence-rice-protein-Cd-0",
     "hmi-occurrence-rice-protein-Cd-1",
+    "hmi-occurrence-rice-protein-Cd-2",
+    "hmi-occurrence-rice-protein-Cd-3",
+    "hmi-occurrence-rice-protein-Cr-0",
+    "hmi-occurrence-rice-protein-Cr-1",
     "hmi-occurrence-rice-protein-Cu-0",
     "hmi-occurrence-rice-protein-DMA-0",
     "hmi-occurrence-rice-protein-DMA-1",
@@ -57,9 +61,13 @@
     "hmi-occurrence-rice-protein-MMA-8",
     "hmi-occurrence-rice-protein-MMA-9",
     "hmi-occurrence-rice-protein-Mn-0",
+    "hmi-occurrence-rice-protein-Ni-0",
+    "hmi-occurrence-rice-protein-Ni-1",
     "hmi-occurrence-rice-protein-Pb-0",
     "hmi-occurrence-rice-protein-Pb-1",
     "hmi-occurrence-rice-protein-Pb-2",
+    "hmi-occurrence-rice-protein-Pb-3",
+    "hmi-occurrence-rice-protein-Pb-4",
     "hmi-occurrence-rice-protein-Rb-0",
     "hmi-occurrence-rice-protein-Se-0",
     "hmi-occurrence-rice-protein-iAs-0",
@@ -106,25 +114,26 @@
   ],
   "by_analyte": {
     "Pb": {
-      "rows": 3,
+      "rows": 5,
       "rated": 2,
       "direct": 0,
       "bounded": 0,
-      "unavailable": 1,
+      "unavailable": 3,
       "missing": 0,
       "unavailable_reasons": {
-        "no_numeric_value_or_bound": 1
+        "no_numeric_value_or_bound": 2,
+        "basis_incompatible_with_all_references": 1
       }
     },
     "Cd": {
-      "rows": 2,
+      "rows": 4,
       "rated": 0,
       "direct": 0,
       "bounded": 0,
-      "unavailable": 2,
+      "unavailable": 4,
       "missing": 0,
       "unavailable_reasons": {
-        "no_numeric_value_or_bound": 1,
+        "no_numeric_value_or_bound": 3,
         "basis_incompatible_with_all_references": 1
       }
     },
@@ -180,6 +189,28 @@
       "unavailable_reasons": {
         "reference_below_display_minimum_after_full_ledger": 1,
         "no_numeric_value_or_bound": 1
+      }
+    },
+    "Ni": {
+      "rows": 2,
+      "rated": 0,
+      "direct": 0,
+      "bounded": 0,
+      "unavailable": 2,
+      "missing": 0,
+      "unavailable_reasons": {
+        "basis_incompatible_with_all_references": 2
+      }
+    },
+    "Cr": {
+      "rows": 2,
+      "rated": 0,
+      "direct": 0,
+      "bounded": 0,
+      "unavailable": 2,
+      "missing": 0,
+      "unavailable_reasons": {
+        "basis_incompatible_with_all_references": 2
       }
     },
     "Al": {
@@ -560,6 +591,17 @@
       "unit_ids": []
     },
     {
+      "id": "rice-protein-assessment:Cd:rice-protein: Rice protein, as sold:Basis not stated by the source",
+      "scope": {
+        "analyte": "Cd",
+        "material": "rice-protein: Rice protein, as sold",
+        "basis": "Basis not stated by the source",
+        "unit": "µg/kg"
+      },
+      "family_ids": [],
+      "unit_ids": []
+    },
+    {
       "id": "rice-protein-assessment:Cd:rice-protein: Rice protein, powder or ground:Basis not stated by the source",
       "scope": {
         "analyte": "Cd",
@@ -582,6 +624,17 @@
       "unit_ids": []
     },
     {
+      "id": "rice-protein-assessment:Cr:rice-protein: Rice protein, as sold:Basis not stated by the source",
+      "scope": {
+        "analyte": "Cr",
+        "material": "rice-protein: Rice protein, as sold",
+        "basis": "Basis not stated by the source",
+        "unit": "µg/kg"
+      },
+      "family_ids": [],
+      "unit_ids": []
+    },
+    {
       "id": "rice-protein-assessment:Cu:rice-protein: Rice protein, powder or ground:Dry weight",
       "scope": {
         "analyte": "Cu",
@@ -598,6 +651,28 @@
         "analyte": "Mn",
         "material": "rice-protein: Rice protein, powder or ground",
         "basis": "Dry weight",
+        "unit": "µg/kg"
+      },
+      "family_ids": [],
+      "unit_ids": []
+    },
+    {
+      "id": "rice-protein-assessment:Ni:rice-protein: Rice protein, as sold:Basis not stated by the source",
+      "scope": {
+        "analyte": "Ni",
+        "material": "rice-protein: Rice protein, as sold",
+        "basis": "Basis not stated by the source",
+        "unit": "µg/kg"
+      },
+      "family_ids": [],
+      "unit_ids": []
+    },
+    {
+      "id": "rice-protein-assessment:Pb:rice-protein: Rice protein, as sold:Basis not stated by the source",
+      "scope": {
+        "analyte": "Pb",
+        "material": "rice-protein: Rice protein, as sold",
+        "basis": "Basis not stated by the source",
         "unit": "µg/kg"
       },
       "family_ids": [],

@@ -1,20 +1,20 @@
 {
   "schema_version": 1,
   "ingredient": "pea-protein",
-  "html_sha256": "e102f573b52ab772f566a55b7dd6ddd04c92d0fbc2ed66c3d0a853133b42c5e2",
-  "universe_sha256": "25e1924d66e88b037ac9850c321570cd3a98162695ca4fdf18492a59ff163f72",
-  "universe_size": 2,
+  "html_sha256": "016b641ae786ae5616142c23bb143216b1a0256fed212586c7781a1f3c7946d8",
+  "universe_sha256": "60cd4f38ed253de88ba53917958d651708d958c6ff0ef7653eff0f3b55bbe7e8",
+  "universe_size": 6,
   "universe_complete": true,
   "universe_discovery_gaps": 0,
-  "source_records": 2,
+  "source_records": 6,
   "dataset_rows": 0,
   "dispositions": {
-    "out_of_scope": 1,
-    "occurrence_extracted": 1
+    "occurrence_extracted": 5,
+    "out_of_scope": 1
   },
-  "extracted_results": 32,
+  "extracted_results": 100,
   "ledger_status": "present",
-  "rendered_rows": 32,
+  "rendered_rows": 100,
   "rendered_row_ids": [
     "hmi-occurrence-pea-protein-Au-0",
     "hmi-occurrence-pea-protein-Au-1",
@@ -26,16 +26,54 @@
     "hmi-occurrence-pea-protein-Bi-1",
     "hmi-occurrence-pea-protein-Cd-0",
     "hmi-occurrence-pea-protein-Cd-1",
+    "hmi-occurrence-pea-protein-Cd-10",
+    "hmi-occurrence-pea-protein-Cd-11",
+    "hmi-occurrence-pea-protein-Cd-12",
+    "hmi-occurrence-pea-protein-Cd-13",
+    "hmi-occurrence-pea-protein-Cd-14",
+    "hmi-occurrence-pea-protein-Cd-15",
+    "hmi-occurrence-pea-protein-Cd-16",
+    "hmi-occurrence-pea-protein-Cd-17",
+    "hmi-occurrence-pea-protein-Cd-18",
+    "hmi-occurrence-pea-protein-Cd-2",
+    "hmi-occurrence-pea-protein-Cd-3",
+    "hmi-occurrence-pea-protein-Cd-4",
+    "hmi-occurrence-pea-protein-Cd-5",
+    "hmi-occurrence-pea-protein-Cd-6",
+    "hmi-occurrence-pea-protein-Cd-7",
+    "hmi-occurrence-pea-protein-Cd-8",
+    "hmi-occurrence-pea-protein-Cd-9",
     "hmi-occurrence-pea-protein-Co-0",
     "hmi-occurrence-pea-protein-Co-1",
     "hmi-occurrence-pea-protein-Cr-0",
     "hmi-occurrence-pea-protein-Cr-1",
+    "hmi-occurrence-pea-protein-Cr-2",
+    "hmi-occurrence-pea-protein-Cr-3",
     "hmi-occurrence-pea-protein-Li-0",
     "hmi-occurrence-pea-protein-Li-1",
     "hmi-occurrence-pea-protein-Mo-0",
     "hmi-occurrence-pea-protein-Mo-1",
+    "hmi-occurrence-pea-protein-Ni-0",
+    "hmi-occurrence-pea-protein-Ni-1",
     "hmi-occurrence-pea-protein-Pb-0",
     "hmi-occurrence-pea-protein-Pb-1",
+    "hmi-occurrence-pea-protein-Pb-10",
+    "hmi-occurrence-pea-protein-Pb-11",
+    "hmi-occurrence-pea-protein-Pb-12",
+    "hmi-occurrence-pea-protein-Pb-13",
+    "hmi-occurrence-pea-protein-Pb-14",
+    "hmi-occurrence-pea-protein-Pb-15",
+    "hmi-occurrence-pea-protein-Pb-16",
+    "hmi-occurrence-pea-protein-Pb-17",
+    "hmi-occurrence-pea-protein-Pb-18",
+    "hmi-occurrence-pea-protein-Pb-2",
+    "hmi-occurrence-pea-protein-Pb-3",
+    "hmi-occurrence-pea-protein-Pb-4",
+    "hmi-occurrence-pea-protein-Pb-5",
+    "hmi-occurrence-pea-protein-Pb-6",
+    "hmi-occurrence-pea-protein-Pb-7",
+    "hmi-occurrence-pea-protein-Pb-8",
+    "hmi-occurrence-pea-protein-Pb-9",
     "hmi-occurrence-pea-protein-Pt-0",
     "hmi-occurrence-pea-protein-Pt-1",
     "hmi-occurrence-pea-protein-Sn-0",
@@ -46,44 +84,90 @@
     "hmi-occurrence-pea-protein-Tl-1",
     "hmi-occurrence-pea-protein-V-0",
     "hmi-occurrence-pea-protein-V-1",
+    "hmi-occurrence-pea-protein-tAs-0",
+    "hmi-occurrence-pea-protein-tAs-1",
+    "hmi-occurrence-pea-protein-tAs-10",
+    "hmi-occurrence-pea-protein-tAs-11",
+    "hmi-occurrence-pea-protein-tAs-12",
+    "hmi-occurrence-pea-protein-tAs-13",
+    "hmi-occurrence-pea-protein-tAs-14",
+    "hmi-occurrence-pea-protein-tAs-2",
+    "hmi-occurrence-pea-protein-tAs-3",
+    "hmi-occurrence-pea-protein-tAs-4",
+    "hmi-occurrence-pea-protein-tAs-5",
+    "hmi-occurrence-pea-protein-tAs-6",
+    "hmi-occurrence-pea-protein-tAs-7",
+    "hmi-occurrence-pea-protein-tAs-8",
+    "hmi-occurrence-pea-protein-tAs-9",
     "hmi-occurrence-pea-protein-tHg-0",
-    "hmi-occurrence-pea-protein-tHg-1"
+    "hmi-occurrence-pea-protein-tHg-1",
+    "hmi-occurrence-pea-protein-tHg-10",
+    "hmi-occurrence-pea-protein-tHg-11",
+    "hmi-occurrence-pea-protein-tHg-12",
+    "hmi-occurrence-pea-protein-tHg-13",
+    "hmi-occurrence-pea-protein-tHg-14",
+    "hmi-occurrence-pea-protein-tHg-15",
+    "hmi-occurrence-pea-protein-tHg-16",
+    "hmi-occurrence-pea-protein-tHg-2",
+    "hmi-occurrence-pea-protein-tHg-3",
+    "hmi-occurrence-pea-protein-tHg-4",
+    "hmi-occurrence-pea-protein-tHg-5",
+    "hmi-occurrence-pea-protein-tHg-6",
+    "hmi-occurrence-pea-protein-tHg-7",
+    "hmi-occurrence-pea-protein-tHg-8",
+    "hmi-occurrence-pea-protein-tHg-9"
   ],
   "by_analyte": {
     "Pb": {
-      "rows": 2,
+      "rows": 19,
       "rated": 0,
       "direct": 0,
       "bounded": 0,
-      "unavailable": 2,
+      "unavailable": 19,
       "missing": 0,
       "unavailable_reasons": {
+        "species_or_material_without_compatible_reference_after_full_ledger": 15,
+        "no_numeric_value_or_bound": 2,
         "reference_below_display_minimum_after_full_ledger": 2
       }
     },
     "Cd": {
-      "rows": 2,
+      "rows": 19,
       "rated": 0,
       "direct": 0,
       "bounded": 0,
-      "unavailable": 2,
+      "unavailable": 19,
       "missing": 0,
       "unavailable_reasons": {
+        "species_or_material_without_compatible_reference_after_full_ledger": 15,
+        "no_numeric_value_or_bound": 2,
         "reference_below_display_minimum_after_full_ledger": 2
+      }
+    },
+    "tAs": {
+      "rows": 15,
+      "rated": 0,
+      "direct": 0,
+      "bounded": 0,
+      "unavailable": 15,
+      "missing": 0,
+      "unavailable_reasons": {
+        "species_or_material_without_compatible_reference_after_full_ledger": 15
       }
     },
     "tHg": {
-      "rows": 2,
+      "rows": 17,
       "rated": 0,
       "direct": 0,
       "bounded": 0,
-      "unavailable": 2,
+      "unavailable": 17,
       "missing": 0,
       "unavailable_reasons": {
+        "species_or_material_without_compatible_reference_after_full_ledger": 15,
         "reference_below_display_minimum_after_full_ledger": 2
       }
     },
-    "Cr": {
+    "Ni": {
       "rows": 2,
       "rated": 0,
       "direct": 0,
@@ -91,6 +175,18 @@
       "unavailable": 2,
       "missing": 0,
       "unavailable_reasons": {
+        "basis_incompatible_with_all_references": 2
+      }
+    },
+    "Cr": {
+      "rows": 4,
+      "rated": 0,
+      "direct": 0,
+      "bounded": 0,
+      "unavailable": 4,
+      "missing": 0,
+      "unavailable_reasons": {
+        "basis_incompatible_with_all_references": 2,
         "reference_below_display_minimum_after_full_ledger": 2
       }
     },
@@ -597,6 +693,94 @@
         "pea-protein-fb9ccbe22b32:med-751716d83112",
         "pea-protein-fb9ccbe22b32:med-abeeb7e2f3f6"
       ]
+    },
+    {
+      "id": "pea-protein-assessment:Cd:pea-protein: Pea protein, as sold:As sold, as eaten or fresh weight",
+      "scope": {
+        "analyte": "Cd",
+        "material": "pea-protein: Pea protein, as sold",
+        "basis": "As sold, as eaten or fresh weight",
+        "unit": "µg/kg"
+      },
+      "family_ids": [],
+      "unit_ids": []
+    },
+    {
+      "id": "pea-protein-assessment:Cd:pea-protein: Pea protein, as sold:Basis not stated by the source",
+      "scope": {
+        "analyte": "Cd",
+        "material": "pea-protein: Pea protein, as sold",
+        "basis": "Basis not stated by the source",
+        "unit": "µg/kg"
+      },
+      "family_ids": [],
+      "unit_ids": []
+    },
+    {
+      "id": "pea-protein-assessment:Cr:pea-protein: Pea protein, as sold:Basis not stated by the source",
+      "scope": {
+        "analyte": "Cr",
+        "material": "pea-protein: Pea protein, as sold",
+        "basis": "Basis not stated by the source",
+        "unit": "µg/kg"
+      },
+      "family_ids": [],
+      "unit_ids": []
+    },
+    {
+      "id": "pea-protein-assessment:Ni:pea-protein: Pea protein, as sold:Basis not stated by the source",
+      "scope": {
+        "analyte": "Ni",
+        "material": "pea-protein: Pea protein, as sold",
+        "basis": "Basis not stated by the source",
+        "unit": "µg/kg"
+      },
+      "family_ids": [],
+      "unit_ids": []
+    },
+    {
+      "id": "pea-protein-assessment:Pb:pea-protein: Pea protein, as sold:As sold, as eaten or fresh weight",
+      "scope": {
+        "analyte": "Pb",
+        "material": "pea-protein: Pea protein, as sold",
+        "basis": "As sold, as eaten or fresh weight",
+        "unit": "µg/kg"
+      },
+      "family_ids": [],
+      "unit_ids": []
+    },
+    {
+      "id": "pea-protein-assessment:Pb:pea-protein: Pea protein, as sold:Basis not stated by the source",
+      "scope": {
+        "analyte": "Pb",
+        "material": "pea-protein: Pea protein, as sold",
+        "basis": "Basis not stated by the source",
+        "unit": "µg/kg"
+      },
+      "family_ids": [],
+      "unit_ids": []
+    },
+    {
+      "id": "pea-protein-assessment:tAs:pea-protein: Pea protein, as sold:As sold, as eaten or fresh weight",
+      "scope": {
+        "analyte": "tAs",
+        "material": "pea-protein: Pea protein, as sold",
+        "basis": "As sold, as eaten or fresh weight",
+        "unit": "µg/kg"
+      },
+      "family_ids": [],
+      "unit_ids": []
+    },
+    {
+      "id": "pea-protein-assessment:tHg:pea-protein: Pea protein, as sold:As sold, as eaten or fresh weight",
+      "scope": {
+        "analyte": "tHg",
+        "material": "pea-protein: Pea protein, as sold",
+        "basis": "As sold, as eaten or fresh weight",
+        "unit": "µg/kg"
+      },
+      "family_ids": [],
+      "unit_ids": []
     }
   ]
 }

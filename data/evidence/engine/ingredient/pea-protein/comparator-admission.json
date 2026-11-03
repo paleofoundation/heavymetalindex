@@ -1,7 +1,177 @@
 {
   "method": "hmi-pooled-reference-v2",
-  "frozen": "2026-11-02",
+  "frozen": "2026-11-03",
   "admission": [
+    {
+      "finding": "fda-grn788-pea-protein-manufacturer-batches:Pb:pea-protein-concentrate-80-protein-grade--batch-1-third-party-laboratory-report-su:not_detected",
+      "source": "fda-grn788-pea-protein-manufacturer-batches",
+      "analyte": "Pb",
+      "reference_id": null,
+      "reason": "No compatible reference units for pea protein, as sold and lead on this basis.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "fda-grn804-pea-protein-manufacturer-batches:Pb:pea-protein-concentrate-grade-2-minimum---batch-1-manufacturer-test-grn-804:sample_value",
+      "source": "fda-grn804-pea-protein-manufacturer-batches",
+      "analyte": "Pb",
+      "reference_id": null,
+      "reason": "No compatible reference units for pea protein, as sold and lead on this basis.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "fda-grn804-pea-protein-manufacturer-batches:Pb:pea-protein-isolate-grade-1-minimum-85-p--batch-1-manufacturer-test-grn-804:sample_value",
+      "source": "fda-grn804-pea-protein-manufacturer-batches",
+      "analyte": "Pb",
+      "reference_id": null,
+      "reason": "No compatible reference units for pea protein, as sold and lead on this basis.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "fda-grn804-pea-protein-manufacturer-batches:Pb:pea-protein-isolate-grade-1-minimum-85-p--batch-2-manufacturer-test-grn-804:not_detected",
+      "source": "fda-grn804-pea-protein-manufacturer-batches",
+      "analyte": "Pb",
+      "reference_id": null,
+      "reason": "No compatible reference units for pea protein, as sold and lead on this basis.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "fda-grn804-pea-protein-manufacturer-batches:Pb:pea-protein-concentrate-grade-2-minimum---blend-of-batches-manufacturer-test-grn-8:sample_value",
+      "source": "fda-grn804-pea-protein-manufacturer-batches",
+      "analyte": "Pb",
+      "reference_id": null,
+      "reason": "No compatible reference units for pea protein, as sold and lead on this basis.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "fda-grn804-pea-protein-manufacturer-batches:Pb:pea-protein-isolate-grade-1-minimum-85-p--blend-of-batches-manufacturer-test-grn-8:sample_value",
+      "source": "fda-grn804-pea-protein-manufacturer-batches",
+      "analyte": "Pb",
+      "reference_id": null,
+      "reason": "No compatible reference units for pea protein, as sold and lead on this basis.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "fda-grn851-pea-protein-manufacturer-batches:Pb:pea-protein-isolate-grade-2-manufacturer--lot-1-of-3-non-consecutive-lots-manufact:sample_value",
+      "source": "fda-grn851-pea-protein-manufacturer-batches",
+      "analyte": "Pb",
+      "reference_id": null,
+      "reason": "No compatible reference units for pea protein, as sold and lead on this basis.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "fda-grn851-pea-protein-manufacturer-batches:Pb:pea-protein-isolate-grade-3-manufacturer--lot-1-of-3-non-consecutive-lots-manufact:sample_value",
+      "source": "fda-grn851-pea-protein-manufacturer-batches",
+      "analyte": "Pb",
+      "reference_id": null,
+      "reason": "No compatible reference units for pea protein, as sold and lead on this basis.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "fda-grn851-pea-protein-manufacturer-batches:Pb:pea-protein-isolate-grade-1-manufacturer--lot-1-of-3-non-consecutive-lots-manufact:not_detected",
+      "source": "fda-grn851-pea-protein-manufacturer-batches",
+      "analyte": "Pb",
+      "reference_id": null,
+      "reason": "No compatible reference units for pea protein, as sold and lead on this basis.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "fda-grn851-pea-protein-manufacturer-batches:Pb:pea-protein-isolate-grade-1-manufacturer--lot-2-of-3-non-consecutive-lots-manufact:sample_value",
+      "source": "fda-grn851-pea-protein-manufacturer-batches",
+      "analyte": "Pb",
+      "reference_id": null,
+      "reason": "No compatible reference units for pea protein, as sold and lead on this basis.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "fda-grn851-pea-protein-manufacturer-batches:Pb:pea-protein-isolate-grade-2-manufacturer--lot-2-of-3-non-consecutive-lots-manufact:sample_value",
+      "source": "fda-grn851-pea-protein-manufacturer-batches",
+      "analyte": "Pb",
+      "reference_id": null,
+      "reason": "No compatible reference units for pea protein, as sold and lead on this basis.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "fda-grn851-pea-protein-manufacturer-batches:Pb:pea-protein-isolate-grade-3-manufacturer--lot-2-of-3-non-consecutive-lots-manufact:sample_value",
+      "source": "fda-grn851-pea-protein-manufacturer-batches",
+      "analyte": "Pb",
+      "reference_id": null,
+      "reason": "No compatible reference units for pea protein, as sold and lead on this basis.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "fda-grn851-pea-protein-manufacturer-batches:Pb:pea-protein-isolate-grade-2-manufacturer--lot-3-of-3-non-consecutive-lots-manufact:sample_value",
+      "source": "fda-grn851-pea-protein-manufacturer-batches",
+      "analyte": "Pb",
+      "reference_id": null,
+      "reason": "No compatible reference units for pea protein, as sold and lead on this basis.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "fda-grn851-pea-protein-manufacturer-batches:Pb:pea-protein-isolate-grade-3-manufacturer--lot-3-of-3-non-consecutive-lots-manufact:sample_value",
+      "source": "fda-grn851-pea-protein-manufacturer-batches",
+      "analyte": "Pb",
+      "reference_id": null,
+      "reason": "No compatible reference units for pea protein, as sold and lead on this basis.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "fda-grn851-pea-protein-manufacturer-batches:Pb:pea-protein-isolate-grade-1-manufacturer--lot-3-of-3-non-consecutive-lots-manufact:not_detected",
+      "source": "fda-grn851-pea-protein-manufacturer-batches",
+      "analyte": "Pb",
+      "reference_id": null,
+      "reason": "No compatible reference units for pea protein, as sold and lead on this basis.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals:Pb:pea-protein-concentrate-brand-1--brand-1-unnamed-commercial-brand-bought-:not_detected",
+      "source": "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals",
+      "analyte": "Pb",
+      "reference_id": null,
+      "reason": "The source reports no numerical value or limit for this result; its position cannot be identified.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals:Pb:pea-protein-concentrate-brand-2--brand-2-unnamed-commercial-brand-bought-:not_detected",
+      "source": "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals",
+      "analyte": "Pb",
+      "reference_id": null,
+      "reason": "The source reports no numerical value or limit for this result; its position cannot be identified.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
     {
       "finding": "ring2021-ireland-protein-powders-metals:Pb:protein-powder-pea-retail-sample-p12-retail-produc:sample_value",
       "source": "ring2021-ireland-protein-powders-metals",
@@ -31,6 +201,176 @@
         "statistic": "sample_value"
       },
       "contributes": true
+    },
+    {
+      "finding": "fda-grn788-pea-protein-manufacturer-batches:Cd:pea-protein-concentrate-80-protein-grade--batch-1-third-party-laboratory-report-su:sample_value",
+      "source": "fda-grn788-pea-protein-manufacturer-batches",
+      "analyte": "Cd",
+      "reference_id": null,
+      "reason": "No compatible reference units for pea protein, as sold and cadmium on this basis.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "fda-grn804-pea-protein-manufacturer-batches:Cd:pea-protein-concentrate-grade-2-minimum---batch-1-manufacturer-test-grn-804:sample_value",
+      "source": "fda-grn804-pea-protein-manufacturer-batches",
+      "analyte": "Cd",
+      "reference_id": null,
+      "reason": "No compatible reference units for pea protein, as sold and cadmium on this basis.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "fda-grn804-pea-protein-manufacturer-batches:Cd:pea-protein-isolate-grade-1-minimum-85-p--batch-1-manufacturer-test-grn-804:sample_value",
+      "source": "fda-grn804-pea-protein-manufacturer-batches",
+      "analyte": "Cd",
+      "reference_id": null,
+      "reason": "No compatible reference units for pea protein, as sold and cadmium on this basis.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "fda-grn804-pea-protein-manufacturer-batches:Cd:pea-protein-isolate-grade-1-minimum-85-p--batch-2-manufacturer-test-grn-804:sample_value",
+      "source": "fda-grn804-pea-protein-manufacturer-batches",
+      "analyte": "Cd",
+      "reference_id": null,
+      "reason": "No compatible reference units for pea protein, as sold and cadmium on this basis.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "fda-grn804-pea-protein-manufacturer-batches:Cd:pea-protein-concentrate-grade-2-minimum---blend-of-batches-manufacturer-test-grn-8:sample_value",
+      "source": "fda-grn804-pea-protein-manufacturer-batches",
+      "analyte": "Cd",
+      "reference_id": null,
+      "reason": "No compatible reference units for pea protein, as sold and cadmium on this basis.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "fda-grn804-pea-protein-manufacturer-batches:Cd:pea-protein-isolate-grade-1-minimum-85-p--blend-of-batches-manufacturer-test-grn-8:sample_value",
+      "source": "fda-grn804-pea-protein-manufacturer-batches",
+      "analyte": "Cd",
+      "reference_id": null,
+      "reason": "No compatible reference units for pea protein, as sold and cadmium on this basis.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "fda-grn851-pea-protein-manufacturer-batches:Cd:pea-protein-isolate-grade-1-manufacturer--lot-1-of-3-non-consecutive-lots-manufact:sample_value",
+      "source": "fda-grn851-pea-protein-manufacturer-batches",
+      "analyte": "Cd",
+      "reference_id": null,
+      "reason": "No compatible reference units for pea protein, as sold and cadmium on this basis.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "fda-grn851-pea-protein-manufacturer-batches:Cd:pea-protein-isolate-grade-2-manufacturer--lot-1-of-3-non-consecutive-lots-manufact:sample_value",
+      "source": "fda-grn851-pea-protein-manufacturer-batches",
+      "analyte": "Cd",
+      "reference_id": null,
+      "reason": "No compatible reference units for pea protein, as sold and cadmium on this basis.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "fda-grn851-pea-protein-manufacturer-batches:Cd:pea-protein-isolate-grade-3-manufacturer--lot-1-of-3-non-consecutive-lots-manufact:sample_value",
+      "source": "fda-grn851-pea-protein-manufacturer-batches",
+      "analyte": "Cd",
+      "reference_id": null,
+      "reason": "No compatible reference units for pea protein, as sold and cadmium on this basis.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "fda-grn851-pea-protein-manufacturer-batches:Cd:pea-protein-isolate-grade-1-manufacturer--lot-2-of-3-non-consecutive-lots-manufact:sample_value",
+      "source": "fda-grn851-pea-protein-manufacturer-batches",
+      "analyte": "Cd",
+      "reference_id": null,
+      "reason": "No compatible reference units for pea protein, as sold and cadmium on this basis.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "fda-grn851-pea-protein-manufacturer-batches:Cd:pea-protein-isolate-grade-2-manufacturer--lot-2-of-3-non-consecutive-lots-manufact:sample_value",
+      "source": "fda-grn851-pea-protein-manufacturer-batches",
+      "analyte": "Cd",
+      "reference_id": null,
+      "reason": "No compatible reference units for pea protein, as sold and cadmium on this basis.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "fda-grn851-pea-protein-manufacturer-batches:Cd:pea-protein-isolate-grade-3-manufacturer--lot-2-of-3-non-consecutive-lots-manufact:sample_value",
+      "source": "fda-grn851-pea-protein-manufacturer-batches",
+      "analyte": "Cd",
+      "reference_id": null,
+      "reason": "No compatible reference units for pea protein, as sold and cadmium on this basis.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "fda-grn851-pea-protein-manufacturer-batches:Cd:pea-protein-isolate-grade-1-manufacturer--lot-3-of-3-non-consecutive-lots-manufact:sample_value",
+      "source": "fda-grn851-pea-protein-manufacturer-batches",
+      "analyte": "Cd",
+      "reference_id": null,
+      "reason": "No compatible reference units for pea protein, as sold and cadmium on this basis.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "fda-grn851-pea-protein-manufacturer-batches:Cd:pea-protein-isolate-grade-2-manufacturer--lot-3-of-3-non-consecutive-lots-manufact:sample_value",
+      "source": "fda-grn851-pea-protein-manufacturer-batches",
+      "analyte": "Cd",
+      "reference_id": null,
+      "reason": "No compatible reference units for pea protein, as sold and cadmium on this basis.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "fda-grn851-pea-protein-manufacturer-batches:Cd:pea-protein-isolate-grade-3-manufacturer--lot-3-of-3-non-consecutive-lots-manufact:sample_value",
+      "source": "fda-grn851-pea-protein-manufacturer-batches",
+      "analyte": "Cd",
+      "reference_id": null,
+      "reason": "No compatible reference units for pea protein, as sold and cadmium on this basis.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals:Cd:pea-protein-concentrate-brand-1--brand-1-unnamed-commercial-brand-bought-:not_detected",
+      "source": "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals",
+      "analyte": "Cd",
+      "reference_id": null,
+      "reason": "The source reports no numerical value or limit for this result; its position cannot be identified.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals:Cd:pea-protein-concentrate-brand-2--brand-2-unnamed-commercial-brand-bought-:not_detected",
+      "source": "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals",
+      "analyte": "Cd",
+      "reference_id": null,
+      "reason": "The source reports no numerical value or limit for this result; its position cannot be identified.",
+      "level": null,
+      "target": null,
+      "contributes": false
     },
     {
       "finding": "ring2021-ireland-protein-powders-metals:Cd:protein-powder-pea-retail-sample-p12-retail-produc:sample_value",
@@ -63,6 +403,306 @@
       "contributes": true
     },
     {
+      "finding": "fda-grn788-pea-protein-manufacturer-batches:tAs:pea-protein-concentrate-80-protein-grade--batch-1-third-party-laboratory-report-su:not_detected",
+      "source": "fda-grn788-pea-protein-manufacturer-batches",
+      "analyte": "tAs",
+      "reference_id": null,
+      "reason": "No compatible reference units for pea protein, as sold and total arsenic on this basis.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "fda-grn804-pea-protein-manufacturer-batches:tAs:pea-protein-concentrate-grade-2-minimum---batch-1-manufacturer-test-grn-804:not_detected",
+      "source": "fda-grn804-pea-protein-manufacturer-batches",
+      "analyte": "tAs",
+      "reference_id": null,
+      "reason": "No compatible reference units for pea protein, as sold and total arsenic on this basis.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "fda-grn804-pea-protein-manufacturer-batches:tAs:pea-protein-isolate-grade-1-minimum-85-p--batch-1-manufacturer-test-grn-804:not_detected",
+      "source": "fda-grn804-pea-protein-manufacturer-batches",
+      "analyte": "tAs",
+      "reference_id": null,
+      "reason": "No compatible reference units for pea protein, as sold and total arsenic on this basis.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "fda-grn804-pea-protein-manufacturer-batches:tAs:pea-protein-isolate-grade-1-minimum-85-p--batch-2-manufacturer-test-grn-804:not_detected",
+      "source": "fda-grn804-pea-protein-manufacturer-batches",
+      "analyte": "tAs",
+      "reference_id": null,
+      "reason": "No compatible reference units for pea protein, as sold and total arsenic on this basis.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "fda-grn804-pea-protein-manufacturer-batches:tAs:pea-protein-concentrate-grade-2-minimum---blend-of-batches-manufacturer-test-grn-8:not_detected",
+      "source": "fda-grn804-pea-protein-manufacturer-batches",
+      "analyte": "tAs",
+      "reference_id": null,
+      "reason": "No compatible reference units for pea protein, as sold and total arsenic on this basis.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "fda-grn804-pea-protein-manufacturer-batches:tAs:pea-protein-isolate-grade-1-minimum-85-p--blend-of-batches-manufacturer-test-grn-8:not_detected",
+      "source": "fda-grn804-pea-protein-manufacturer-batches",
+      "analyte": "tAs",
+      "reference_id": null,
+      "reason": "No compatible reference units for pea protein, as sold and total arsenic on this basis.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "fda-grn851-pea-protein-manufacturer-batches:tAs:pea-protein-isolate-grade-1-manufacturer--lot-1-of-3-non-consecutive-lots-manufact:not_detected",
+      "source": "fda-grn851-pea-protein-manufacturer-batches",
+      "analyte": "tAs",
+      "reference_id": null,
+      "reason": "No compatible reference units for pea protein, as sold and total arsenic on this basis.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "fda-grn851-pea-protein-manufacturer-batches:tAs:pea-protein-isolate-grade-2-manufacturer--lot-1-of-3-non-consecutive-lots-manufact:not_detected",
+      "source": "fda-grn851-pea-protein-manufacturer-batches",
+      "analyte": "tAs",
+      "reference_id": null,
+      "reason": "No compatible reference units for pea protein, as sold and total arsenic on this basis.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "fda-grn851-pea-protein-manufacturer-batches:tAs:pea-protein-isolate-grade-3-manufacturer--lot-1-of-3-non-consecutive-lots-manufact:not_detected",
+      "source": "fda-grn851-pea-protein-manufacturer-batches",
+      "analyte": "tAs",
+      "reference_id": null,
+      "reason": "No compatible reference units for pea protein, as sold and total arsenic on this basis.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "fda-grn851-pea-protein-manufacturer-batches:tAs:pea-protein-isolate-grade-1-manufacturer--lot-2-of-3-non-consecutive-lots-manufact:not_detected",
+      "source": "fda-grn851-pea-protein-manufacturer-batches",
+      "analyte": "tAs",
+      "reference_id": null,
+      "reason": "No compatible reference units for pea protein, as sold and total arsenic on this basis.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "fda-grn851-pea-protein-manufacturer-batches:tAs:pea-protein-isolate-grade-2-manufacturer--lot-2-of-3-non-consecutive-lots-manufact:not_detected",
+      "source": "fda-grn851-pea-protein-manufacturer-batches",
+      "analyte": "tAs",
+      "reference_id": null,
+      "reason": "No compatible reference units for pea protein, as sold and total arsenic on this basis.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "fda-grn851-pea-protein-manufacturer-batches:tAs:pea-protein-isolate-grade-3-manufacturer--lot-2-of-3-non-consecutive-lots-manufact:not_detected",
+      "source": "fda-grn851-pea-protein-manufacturer-batches",
+      "analyte": "tAs",
+      "reference_id": null,
+      "reason": "No compatible reference units for pea protein, as sold and total arsenic on this basis.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "fda-grn851-pea-protein-manufacturer-batches:tAs:pea-protein-isolate-grade-1-manufacturer--lot-3-of-3-non-consecutive-lots-manufact:not_detected",
+      "source": "fda-grn851-pea-protein-manufacturer-batches",
+      "analyte": "tAs",
+      "reference_id": null,
+      "reason": "No compatible reference units for pea protein, as sold and total arsenic on this basis.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "fda-grn851-pea-protein-manufacturer-batches:tAs:pea-protein-isolate-grade-2-manufacturer--lot-3-of-3-non-consecutive-lots-manufact:not_detected",
+      "source": "fda-grn851-pea-protein-manufacturer-batches",
+      "analyte": "tAs",
+      "reference_id": null,
+      "reason": "No compatible reference units for pea protein, as sold and total arsenic on this basis.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "fda-grn851-pea-protein-manufacturer-batches:tAs:pea-protein-isolate-grade-3-manufacturer--lot-3-of-3-non-consecutive-lots-manufact:not_detected",
+      "source": "fda-grn851-pea-protein-manufacturer-batches",
+      "analyte": "tAs",
+      "reference_id": null,
+      "reason": "No compatible reference units for pea protein, as sold and total arsenic on this basis.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "fda-grn788-pea-protein-manufacturer-batches:tHg:pea-protein-concentrate-80-protein-grade--batch-1-third-party-laboratory-report-su:not_detected",
+      "source": "fda-grn788-pea-protein-manufacturer-batches",
+      "analyte": "tHg",
+      "reference_id": null,
+      "reason": "No compatible reference units for pea protein, as sold and total mercury on this basis.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "fda-grn804-pea-protein-manufacturer-batches:tHg:pea-protein-concentrate-grade-2-minimum---batch-1-manufacturer-test-grn-804:not_detected",
+      "source": "fda-grn804-pea-protein-manufacturer-batches",
+      "analyte": "tHg",
+      "reference_id": null,
+      "reason": "No compatible reference units for pea protein, as sold and total mercury on this basis.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "fda-grn804-pea-protein-manufacturer-batches:tHg:pea-protein-isolate-grade-1-minimum-85-p--batch-1-manufacturer-test-grn-804:not_detected",
+      "source": "fda-grn804-pea-protein-manufacturer-batches",
+      "analyte": "tHg",
+      "reference_id": null,
+      "reason": "No compatible reference units for pea protein, as sold and total mercury on this basis.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "fda-grn804-pea-protein-manufacturer-batches:tHg:pea-protein-isolate-grade-1-minimum-85-p--batch-2-manufacturer-test-grn-804:not_detected",
+      "source": "fda-grn804-pea-protein-manufacturer-batches",
+      "analyte": "tHg",
+      "reference_id": null,
+      "reason": "No compatible reference units for pea protein, as sold and total mercury on this basis.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "fda-grn804-pea-protein-manufacturer-batches:tHg:pea-protein-concentrate-grade-2-minimum---blend-of-batches-manufacturer-test-grn-8:not_detected",
+      "source": "fda-grn804-pea-protein-manufacturer-batches",
+      "analyte": "tHg",
+      "reference_id": null,
+      "reason": "No compatible reference units for pea protein, as sold and total mercury on this basis.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "fda-grn804-pea-protein-manufacturer-batches:tHg:pea-protein-isolate-grade-1-minimum-85-p--blend-of-batches-manufacturer-test-grn-8:not_detected",
+      "source": "fda-grn804-pea-protein-manufacturer-batches",
+      "analyte": "tHg",
+      "reference_id": null,
+      "reason": "No compatible reference units for pea protein, as sold and total mercury on this basis.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "fda-grn851-pea-protein-manufacturer-batches:tHg:pea-protein-isolate-grade-1-manufacturer--lot-1-of-3-non-consecutive-lots-manufact:not_detected",
+      "source": "fda-grn851-pea-protein-manufacturer-batches",
+      "analyte": "tHg",
+      "reference_id": null,
+      "reason": "No compatible reference units for pea protein, as sold and total mercury on this basis.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "fda-grn851-pea-protein-manufacturer-batches:tHg:pea-protein-isolate-grade-2-manufacturer--lot-1-of-3-non-consecutive-lots-manufact:not_detected",
+      "source": "fda-grn851-pea-protein-manufacturer-batches",
+      "analyte": "tHg",
+      "reference_id": null,
+      "reason": "No compatible reference units for pea protein, as sold and total mercury on this basis.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "fda-grn851-pea-protein-manufacturer-batches:tHg:pea-protein-isolate-grade-3-manufacturer--lot-1-of-3-non-consecutive-lots-manufact:not_detected",
+      "source": "fda-grn851-pea-protein-manufacturer-batches",
+      "analyte": "tHg",
+      "reference_id": null,
+      "reason": "No compatible reference units for pea protein, as sold and total mercury on this basis.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "fda-grn851-pea-protein-manufacturer-batches:tHg:pea-protein-isolate-grade-1-manufacturer--lot-2-of-3-non-consecutive-lots-manufact:not_detected",
+      "source": "fda-grn851-pea-protein-manufacturer-batches",
+      "analyte": "tHg",
+      "reference_id": null,
+      "reason": "No compatible reference units for pea protein, as sold and total mercury on this basis.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "fda-grn851-pea-protein-manufacturer-batches:tHg:pea-protein-isolate-grade-2-manufacturer--lot-2-of-3-non-consecutive-lots-manufact:not_detected",
+      "source": "fda-grn851-pea-protein-manufacturer-batches",
+      "analyte": "tHg",
+      "reference_id": null,
+      "reason": "No compatible reference units for pea protein, as sold and total mercury on this basis.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "fda-grn851-pea-protein-manufacturer-batches:tHg:pea-protein-isolate-grade-3-manufacturer--lot-2-of-3-non-consecutive-lots-manufact:not_detected",
+      "source": "fda-grn851-pea-protein-manufacturer-batches",
+      "analyte": "tHg",
+      "reference_id": null,
+      "reason": "No compatible reference units for pea protein, as sold and total mercury on this basis.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "fda-grn851-pea-protein-manufacturer-batches:tHg:pea-protein-isolate-grade-1-manufacturer--lot-3-of-3-non-consecutive-lots-manufact:not_detected",
+      "source": "fda-grn851-pea-protein-manufacturer-batches",
+      "analyte": "tHg",
+      "reference_id": null,
+      "reason": "No compatible reference units for pea protein, as sold and total mercury on this basis.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "fda-grn851-pea-protein-manufacturer-batches:tHg:pea-protein-isolate-grade-2-manufacturer--lot-3-of-3-non-consecutive-lots-manufact:not_detected",
+      "source": "fda-grn851-pea-protein-manufacturer-batches",
+      "analyte": "tHg",
+      "reference_id": null,
+      "reason": "No compatible reference units for pea protein, as sold and total mercury on this basis.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "fda-grn851-pea-protein-manufacturer-batches:tHg:pea-protein-isolate-grade-3-manufacturer--lot-3-of-3-non-consecutive-lots-manufact:not_detected",
+      "source": "fda-grn851-pea-protein-manufacturer-batches",
+      "analyte": "tHg",
+      "reference_id": null,
+      "reason": "No compatible reference units for pea protein, as sold and total mercury on this basis.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
       "finding": "ring2021-ireland-protein-powders-metals:tHg:protein-powder-pea-retail-sample-p12-retail-produc:not_detected",
       "source": "ring2021-ireland-protein-powders-metals",
       "analyte": "tHg",
@@ -91,6 +731,46 @@
         "statistic": "sample_value"
       },
       "contributes": true
+    },
+    {
+      "finding": "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals:Ni:pea-protein-concentrate-brand-1--brand-1-unnamed-commercial-brand-bought-:mean",
+      "source": "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals",
+      "analyte": "Ni",
+      "reference_id": null,
+      "reason": "The source does not state whether results are fresh or dry weight, so no reference applies.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals:Ni:pea-protein-concentrate-brand-2--brand-2-unnamed-commercial-brand-bought-:mean",
+      "source": "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals",
+      "analyte": "Ni",
+      "reference_id": null,
+      "reason": "The source does not state whether results are fresh or dry weight, so no reference applies.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals:Cr:pea-protein-concentrate-brand-1--brand-1-unnamed-commercial-brand-bought-:mean",
+      "source": "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals",
+      "analyte": "Cr",
+      "reference_id": null,
+      "reason": "The source does not state whether results are fresh or dry weight, so no reference applies.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals:Cr:pea-protein-concentrate-brand-2--brand-2-unnamed-commercial-brand-bought-:mean",
+      "source": "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals",
+      "analyte": "Cr",
+      "reference_id": null,
+      "reason": "The source does not state whether results are fresh or dry weight, so no reference applies.",
+      "level": null,
+      "target": null,
+      "contributes": false
     },
     {
       "finding": "ring2021-ireland-protein-powders-metals:Cr:protein-powder-pea-retail-sample-p12-retail-produc:sample_value",
@@ -483,7 +1163,348 @@
       "contributes": true
     }
   ],
-  "unit_audit": [],
+  "unit_audit": [
+    {
+      "unit": "fda-grn788-pea-protein-manufacturer-batches:Pb:pea-protein-concentrate-80-protein-grade--batch-1-third-party-laboratory-report-su:not_detected",
+      "admitted": false,
+      "reason": "manufacturer test: compared but never part of an ordinary-occurrence reference"
+    },
+    {
+      "unit": "fda-grn804-pea-protein-manufacturer-batches:Pb:pea-protein-concentrate-grade-2-minimum---batch-1-manufacturer-test-grn-804:sample_value",
+      "admitted": false,
+      "reason": "manufacturer test: compared but never part of an ordinary-occurrence reference"
+    },
+    {
+      "unit": "fda-grn804-pea-protein-manufacturer-batches:Pb:pea-protein-isolate-grade-1-minimum-85-p--batch-1-manufacturer-test-grn-804:sample_value",
+      "admitted": false,
+      "reason": "manufacturer test: compared but never part of an ordinary-occurrence reference"
+    },
+    {
+      "unit": "fda-grn804-pea-protein-manufacturer-batches:Pb:pea-protein-isolate-grade-1-minimum-85-p--batch-2-manufacturer-test-grn-804:not_detected",
+      "admitted": false,
+      "reason": "manufacturer test: compared but never part of an ordinary-occurrence reference"
+    },
+    {
+      "unit": "fda-grn804-pea-protein-manufacturer-batches:Pb:pea-protein-concentrate-grade-2-minimum---blend-of-batches-manufacturer-test-grn-8:sample_value",
+      "admitted": false,
+      "reason": "manufacturer test: compared but never part of an ordinary-occurrence reference"
+    },
+    {
+      "unit": "fda-grn804-pea-protein-manufacturer-batches:Pb:pea-protein-isolate-grade-1-minimum-85-p--blend-of-batches-manufacturer-test-grn-8:sample_value",
+      "admitted": false,
+      "reason": "manufacturer test: compared but never part of an ordinary-occurrence reference"
+    },
+    {
+      "unit": "fda-grn851-pea-protein-manufacturer-batches:Pb:pea-protein-isolate-grade-2-manufacturer--lot-1-of-3-non-consecutive-lots-manufact:sample_value",
+      "admitted": false,
+      "reason": "manufacturer test: compared but never part of an ordinary-occurrence reference"
+    },
+    {
+      "unit": "fda-grn851-pea-protein-manufacturer-batches:Pb:pea-protein-isolate-grade-3-manufacturer--lot-1-of-3-non-consecutive-lots-manufact:sample_value",
+      "admitted": false,
+      "reason": "manufacturer test: compared but never part of an ordinary-occurrence reference"
+    },
+    {
+      "unit": "fda-grn851-pea-protein-manufacturer-batches:Pb:pea-protein-isolate-grade-1-manufacturer--lot-1-of-3-non-consecutive-lots-manufact:not_detected",
+      "admitted": false,
+      "reason": "manufacturer test: compared but never part of an ordinary-occurrence reference"
+    },
+    {
+      "unit": "fda-grn851-pea-protein-manufacturer-batches:Pb:pea-protein-isolate-grade-1-manufacturer--lot-2-of-3-non-consecutive-lots-manufact:sample_value",
+      "admitted": false,
+      "reason": "manufacturer test: compared but never part of an ordinary-occurrence reference"
+    },
+    {
+      "unit": "fda-grn851-pea-protein-manufacturer-batches:Pb:pea-protein-isolate-grade-2-manufacturer--lot-2-of-3-non-consecutive-lots-manufact:sample_value",
+      "admitted": false,
+      "reason": "manufacturer test: compared but never part of an ordinary-occurrence reference"
+    },
+    {
+      "unit": "fda-grn851-pea-protein-manufacturer-batches:Pb:pea-protein-isolate-grade-3-manufacturer--lot-2-of-3-non-consecutive-lots-manufact:sample_value",
+      "admitted": false,
+      "reason": "manufacturer test: compared but never part of an ordinary-occurrence reference"
+    },
+    {
+      "unit": "fda-grn851-pea-protein-manufacturer-batches:Pb:pea-protein-isolate-grade-2-manufacturer--lot-3-of-3-non-consecutive-lots-manufact:sample_value",
+      "admitted": false,
+      "reason": "manufacturer test: compared but never part of an ordinary-occurrence reference"
+    },
+    {
+      "unit": "fda-grn851-pea-protein-manufacturer-batches:Pb:pea-protein-isolate-grade-3-manufacturer--lot-3-of-3-non-consecutive-lots-manufact:sample_value",
+      "admitted": false,
+      "reason": "manufacturer test: compared but never part of an ordinary-occurrence reference"
+    },
+    {
+      "unit": "fda-grn851-pea-protein-manufacturer-batches:Pb:pea-protein-isolate-grade-1-manufacturer--lot-3-of-3-non-consecutive-lots-manufact:not_detected",
+      "admitted": false,
+      "reason": "manufacturer test: compared but never part of an ordinary-occurrence reference"
+    },
+    {
+      "unit": "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals:Pb:pea-protein-concentrate-brand-1--brand-1-unnamed-commercial-brand-bought-:not_detected",
+      "admitted": false,
+      "reason": "not detected without a numeric value or reporting limit"
+    },
+    {
+      "unit": "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals:Pb:pea-protein-concentrate-brand-2--brand-2-unnamed-commercial-brand-bought-:not_detected",
+      "admitted": false,
+      "reason": "not detected without a numeric value or reporting limit"
+    },
+    {
+      "unit": "fda-grn788-pea-protein-manufacturer-batches:Cd:pea-protein-concentrate-80-protein-grade--batch-1-third-party-laboratory-report-su:sample_value",
+      "admitted": false,
+      "reason": "manufacturer test: compared but never part of an ordinary-occurrence reference"
+    },
+    {
+      "unit": "fda-grn804-pea-protein-manufacturer-batches:Cd:pea-protein-concentrate-grade-2-minimum---batch-1-manufacturer-test-grn-804:sample_value",
+      "admitted": false,
+      "reason": "manufacturer test: compared but never part of an ordinary-occurrence reference"
+    },
+    {
+      "unit": "fda-grn804-pea-protein-manufacturer-batches:Cd:pea-protein-isolate-grade-1-minimum-85-p--batch-1-manufacturer-test-grn-804:sample_value",
+      "admitted": false,
+      "reason": "manufacturer test: compared but never part of an ordinary-occurrence reference"
+    },
+    {
+      "unit": "fda-grn804-pea-protein-manufacturer-batches:Cd:pea-protein-isolate-grade-1-minimum-85-p--batch-2-manufacturer-test-grn-804:sample_value",
+      "admitted": false,
+      "reason": "manufacturer test: compared but never part of an ordinary-occurrence reference"
+    },
+    {
+      "unit": "fda-grn804-pea-protein-manufacturer-batches:Cd:pea-protein-concentrate-grade-2-minimum---blend-of-batches-manufacturer-test-grn-8:sample_value",
+      "admitted": false,
+      "reason": "manufacturer test: compared but never part of an ordinary-occurrence reference"
+    },
+    {
+      "unit": "fda-grn804-pea-protein-manufacturer-batches:Cd:pea-protein-isolate-grade-1-minimum-85-p--blend-of-batches-manufacturer-test-grn-8:sample_value",
+      "admitted": false,
+      "reason": "manufacturer test: compared but never part of an ordinary-occurrence reference"
+    },
+    {
+      "unit": "fda-grn851-pea-protein-manufacturer-batches:Cd:pea-protein-isolate-grade-1-manufacturer--lot-1-of-3-non-consecutive-lots-manufact:sample_value",
+      "admitted": false,
+      "reason": "manufacturer test: compared but never part of an ordinary-occurrence reference"
+    },
+    {
+      "unit": "fda-grn851-pea-protein-manufacturer-batches:Cd:pea-protein-isolate-grade-2-manufacturer--lot-1-of-3-non-consecutive-lots-manufact:sample_value",
+      "admitted": false,
+      "reason": "manufacturer test: compared but never part of an ordinary-occurrence reference"
+    },
+    {
+      "unit": "fda-grn851-pea-protein-manufacturer-batches:Cd:pea-protein-isolate-grade-3-manufacturer--lot-1-of-3-non-consecutive-lots-manufact:sample_value",
+      "admitted": false,
+      "reason": "manufacturer test: compared but never part of an ordinary-occurrence reference"
+    },
+    {
+      "unit": "fda-grn851-pea-protein-manufacturer-batches:Cd:pea-protein-isolate-grade-1-manufacturer--lot-2-of-3-non-consecutive-lots-manufact:sample_value",
+      "admitted": false,
+      "reason": "manufacturer test: compared but never part of an ordinary-occurrence reference"
+    },
+    {
+      "unit": "fda-grn851-pea-protein-manufacturer-batches:Cd:pea-protein-isolate-grade-2-manufacturer--lot-2-of-3-non-consecutive-lots-manufact:sample_value",
+      "admitted": false,
+      "reason": "manufacturer test: compared but never part of an ordinary-occurrence reference"
+    },
+    {
+      "unit": "fda-grn851-pea-protein-manufacturer-batches:Cd:pea-protein-isolate-grade-3-manufacturer--lot-2-of-3-non-consecutive-lots-manufact:sample_value",
+      "admitted": false,
+      "reason": "manufacturer test: compared but never part of an ordinary-occurrence reference"
+    },
+    {
+      "unit": "fda-grn851-pea-protein-manufacturer-batches:Cd:pea-protein-isolate-grade-1-manufacturer--lot-3-of-3-non-consecutive-lots-manufact:sample_value",
+      "admitted": false,
+      "reason": "manufacturer test: compared but never part of an ordinary-occurrence reference"
+    },
+    {
+      "unit": "fda-grn851-pea-protein-manufacturer-batches:Cd:pea-protein-isolate-grade-2-manufacturer--lot-3-of-3-non-consecutive-lots-manufact:sample_value",
+      "admitted": false,
+      "reason": "manufacturer test: compared but never part of an ordinary-occurrence reference"
+    },
+    {
+      "unit": "fda-grn851-pea-protein-manufacturer-batches:Cd:pea-protein-isolate-grade-3-manufacturer--lot-3-of-3-non-consecutive-lots-manufact:sample_value",
+      "admitted": false,
+      "reason": "manufacturer test: compared but never part of an ordinary-occurrence reference"
+    },
+    {
+      "unit": "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals:Cd:pea-protein-concentrate-brand-1--brand-1-unnamed-commercial-brand-bought-:not_detected",
+      "admitted": false,
+      "reason": "not detected without a numeric value or reporting limit"
+    },
+    {
+      "unit": "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals:Cd:pea-protein-concentrate-brand-2--brand-2-unnamed-commercial-brand-bought-:not_detected",
+      "admitted": false,
+      "reason": "not detected without a numeric value or reporting limit"
+    },
+    {
+      "unit": "fda-grn788-pea-protein-manufacturer-batches:tAs:pea-protein-concentrate-80-protein-grade--batch-1-third-party-laboratory-report-su:not_detected",
+      "admitted": false,
+      "reason": "manufacturer test: compared but never part of an ordinary-occurrence reference"
+    },
+    {
+      "unit": "fda-grn804-pea-protein-manufacturer-batches:tAs:pea-protein-concentrate-grade-2-minimum---batch-1-manufacturer-test-grn-804:not_detected",
+      "admitted": false,
+      "reason": "manufacturer test: compared but never part of an ordinary-occurrence reference"
+    },
+    {
+      "unit": "fda-grn804-pea-protein-manufacturer-batches:tAs:pea-protein-isolate-grade-1-minimum-85-p--batch-1-manufacturer-test-grn-804:not_detected",
+      "admitted": false,
+      "reason": "manufacturer test: compared but never part of an ordinary-occurrence reference"
+    },
+    {
+      "unit": "fda-grn804-pea-protein-manufacturer-batches:tAs:pea-protein-isolate-grade-1-minimum-85-p--batch-2-manufacturer-test-grn-804:not_detected",
+      "admitted": false,
+      "reason": "manufacturer test: compared but never part of an ordinary-occurrence reference"
+    },
+    {
+      "unit": "fda-grn804-pea-protein-manufacturer-batches:tAs:pea-protein-concentrate-grade-2-minimum---blend-of-batches-manufacturer-test-grn-8:not_detected",
+      "admitted": false,
+      "reason": "manufacturer test: compared but never part of an ordinary-occurrence reference"
+    },
+    {
+      "unit": "fda-grn804-pea-protein-manufacturer-batches:tAs:pea-protein-isolate-grade-1-minimum-85-p--blend-of-batches-manufacturer-test-grn-8:not_detected",
+      "admitted": false,
+      "reason": "manufacturer test: compared but never part of an ordinary-occurrence reference"
+    },
+    {
+      "unit": "fda-grn851-pea-protein-manufacturer-batches:tAs:pea-protein-isolate-grade-1-manufacturer--lot-1-of-3-non-consecutive-lots-manufact:not_detected",
+      "admitted": false,
+      "reason": "manufacturer test: compared but never part of an ordinary-occurrence reference"
+    },
+    {
+      "unit": "fda-grn851-pea-protein-manufacturer-batches:tAs:pea-protein-isolate-grade-2-manufacturer--lot-1-of-3-non-consecutive-lots-manufact:not_detected",
+      "admitted": false,
+      "reason": "manufacturer test: compared but never part of an ordinary-occurrence reference"
+    },
+    {
+      "unit": "fda-grn851-pea-protein-manufacturer-batches:tAs:pea-protein-isolate-grade-3-manufacturer--lot-1-of-3-non-consecutive-lots-manufact:not_detected",
+      "admitted": false,
+      "reason": "manufacturer test: compared but never part of an ordinary-occurrence reference"
+    },
+    {
+      "unit": "fda-grn851-pea-protein-manufacturer-batches:tAs:pea-protein-isolate-grade-1-manufacturer--lot-2-of-3-non-consecutive-lots-manufact:not_detected",
+      "admitted": false,
+      "reason": "manufacturer test: compared but never part of an ordinary-occurrence reference"
+    },
+    {
+      "unit": "fda-grn851-pea-protein-manufacturer-batches:tAs:pea-protein-isolate-grade-2-manufacturer--lot-2-of-3-non-consecutive-lots-manufact:not_detected",
+      "admitted": false,
+      "reason": "manufacturer test: compared but never part of an ordinary-occurrence reference"
+    },
+    {
+      "unit": "fda-grn851-pea-protein-manufacturer-batches:tAs:pea-protein-isolate-grade-3-manufacturer--lot-2-of-3-non-consecutive-lots-manufact:not_detected",
+      "admitted": false,
+      "reason": "manufacturer test: compared but never part of an ordinary-occurrence reference"
+    },
+    {
+      "unit": "fda-grn851-pea-protein-manufacturer-batches:tAs:pea-protein-isolate-grade-1-manufacturer--lot-3-of-3-non-consecutive-lots-manufact:not_detected",
+      "admitted": false,
+      "reason": "manufacturer test: compared but never part of an ordinary-occurrence reference"
+    },
+    {
+      "unit": "fda-grn851-pea-protein-manufacturer-batches:tAs:pea-protein-isolate-grade-2-manufacturer--lot-3-of-3-non-consecutive-lots-manufact:not_detected",
+      "admitted": false,
+      "reason": "manufacturer test: compared but never part of an ordinary-occurrence reference"
+    },
+    {
+      "unit": "fda-grn851-pea-protein-manufacturer-batches:tAs:pea-protein-isolate-grade-3-manufacturer--lot-3-of-3-non-consecutive-lots-manufact:not_detected",
+      "admitted": false,
+      "reason": "manufacturer test: compared but never part of an ordinary-occurrence reference"
+    },
+    {
+      "unit": "fda-grn788-pea-protein-manufacturer-batches:tHg:pea-protein-concentrate-80-protein-grade--batch-1-third-party-laboratory-report-su:not_detected",
+      "admitted": false,
+      "reason": "manufacturer test: compared but never part of an ordinary-occurrence reference"
+    },
+    {
+      "unit": "fda-grn804-pea-protein-manufacturer-batches:tHg:pea-protein-concentrate-grade-2-minimum---batch-1-manufacturer-test-grn-804:not_detected",
+      "admitted": false,
+      "reason": "manufacturer test: compared but never part of an ordinary-occurrence reference"
+    },
+    {
+      "unit": "fda-grn804-pea-protein-manufacturer-batches:tHg:pea-protein-isolate-grade-1-minimum-85-p--batch-1-manufacturer-test-grn-804:not_detected",
+      "admitted": false,
+      "reason": "manufacturer test: compared but never part of an ordinary-occurrence reference"
+    },
+    {
+      "unit": "fda-grn804-pea-protein-manufacturer-batches:tHg:pea-protein-isolate-grade-1-minimum-85-p--batch-2-manufacturer-test-grn-804:not_detected",
+      "admitted": false,
+      "reason": "manufacturer test: compared but never part of an ordinary-occurrence reference"
+    },
+    {
+      "unit": "fda-grn804-pea-protein-manufacturer-batches:tHg:pea-protein-concentrate-grade-2-minimum---blend-of-batches-manufacturer-test-grn-8:not_detected",
+      "admitted": false,
+      "reason": "manufacturer test: compared but never part of an ordinary-occurrence reference"
+    },
+    {
+      "unit": "fda-grn804-pea-protein-manufacturer-batches:tHg:pea-protein-isolate-grade-1-minimum-85-p--blend-of-batches-manufacturer-test-grn-8:not_detected",
+      "admitted": false,
+      "reason": "manufacturer test: compared but never part of an ordinary-occurrence reference"
+    },
+    {
+      "unit": "fda-grn851-pea-protein-manufacturer-batches:tHg:pea-protein-isolate-grade-1-manufacturer--lot-1-of-3-non-consecutive-lots-manufact:not_detected",
+      "admitted": false,
+      "reason": "manufacturer test: compared but never part of an ordinary-occurrence reference"
+    },
+    {
+      "unit": "fda-grn851-pea-protein-manufacturer-batches:tHg:pea-protein-isolate-grade-2-manufacturer--lot-1-of-3-non-consecutive-lots-manufact:not_detected",
+      "admitted": false,
+      "reason": "manufacturer test: compared but never part of an ordinary-occurrence reference"
+    },
+    {
+      "unit": "fda-grn851-pea-protein-manufacturer-batches:tHg:pea-protein-isolate-grade-3-manufacturer--lot-1-of-3-non-consecutive-lots-manufact:not_detected",
+      "admitted": false,
+      "reason": "manufacturer test: compared but never part of an ordinary-occurrence reference"
+    },
+    {
+      "unit": "fda-grn851-pea-protein-manufacturer-batches:tHg:pea-protein-isolate-grade-1-manufacturer--lot-2-of-3-non-consecutive-lots-manufact:not_detected",
+      "admitted": false,
+      "reason": "manufacturer test: compared but never part of an ordinary-occurrence reference"
+    },
+    {
+      "unit": "fda-grn851-pea-protein-manufacturer-batches:tHg:pea-protein-isolate-grade-2-manufacturer--lot-2-of-3-non-consecutive-lots-manufact:not_detected",
+      "admitted": false,
+      "reason": "manufacturer test: compared but never part of an ordinary-occurrence reference"
+    },
+    {
+      "unit": "fda-grn851-pea-protein-manufacturer-batches:tHg:pea-protein-isolate-grade-3-manufacturer--lot-2-of-3-non-consecutive-lots-manufact:not_detected",
+      "admitted": false,
+      "reason": "manufacturer test: compared but never part of an ordinary-occurrence reference"
+    },
+    {
+      "unit": "fda-grn851-pea-protein-manufacturer-batches:tHg:pea-protein-isolate-grade-1-manufacturer--lot-3-of-3-non-consecutive-lots-manufact:not_detected",
+      "admitted": false,
+      "reason": "manufacturer test: compared but never part of an ordinary-occurrence reference"
+    },
+    {
+      "unit": "fda-grn851-pea-protein-manufacturer-batches:tHg:pea-protein-isolate-grade-2-manufacturer--lot-3-of-3-non-consecutive-lots-manufact:not_detected",
+      "admitted": false,
+      "reason": "manufacturer test: compared but never part of an ordinary-occurrence reference"
+    },
+    {
+      "unit": "fda-grn851-pea-protein-manufacturer-batches:tHg:pea-protein-isolate-grade-3-manufacturer--lot-3-of-3-non-consecutive-lots-manufact:not_detected",
+      "admitted": false,
+      "reason": "manufacturer test: compared but never part of an ordinary-occurrence reference"
+    },
+    {
+      "unit": "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals:Ni:pea-protein-concentrate-brand-1--brand-1-unnamed-commercial-brand-bought-:mean",
+      "admitted": false,
+      "reason": "a mean is not an observed subgroup median or sample value"
+    },
+    {
+      "unit": "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals:Ni:pea-protein-concentrate-brand-2--brand-2-unnamed-commercial-brand-bought-:mean",
+      "admitted": false,
+      "reason": "a mean is not an observed subgroup median or sample value"
+    },
+    {
+      "unit": "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals:Cr:pea-protein-concentrate-brand-1--brand-1-unnamed-commercial-brand-bought-:mean",
+      "admitted": false,
+      "reason": "a mean is not an observed subgroup median or sample value"
+    },
+    {
+      "unit": "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals:Cr:pea-protein-concentrate-brand-2--brand-2-unnamed-commercial-brand-bought-:mean",
+      "admitted": false,
+      "reason": "a mean is not an observed subgroup median or sample value"
+    }
+  ],
   "unit_counts": {
     "Pb|pea-protein: Pea protein, powder or ground|As sold, as eaten or fresh weight": {
       "units": 2,

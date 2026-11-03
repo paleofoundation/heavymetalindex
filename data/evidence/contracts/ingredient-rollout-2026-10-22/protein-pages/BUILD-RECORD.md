@@ -139,3 +139,35 @@ Rice protein was rechecked on the rendered page with drawers closed: each sectio
 
 - Rice protein: ready for review and release (Elon deploys production; never `--prod` from here). The live workspace still routes the GEMS rice protein lead rows to `ingredients/rice`. If rice protein is released from there, add the routing override, or regenerate the shards from this subset.
 - Pea protein: an evidence fetch is needed before a canonical build can publish.
+
+## Order HMI-PROTEIN-REBUILD-1 (3 November 2026)
+
+Evidence pack `~/hmi-protein-evidence-20261103.tgz`, extracted to `~/hmi-protein-evidence-20261103/`. Every SHA256SUMS entry verified OK. The one exception is the pea list's Ring 2021 line, which points to a path outside the pack; Ring 2021 was already on this branch with the same sha256 (`7f2c9910…`).
+
+**Hard exclusion.** The GRAS notice 609 PDF and its 14 June 2018 supplement letter were deleted from the extracted copy before ingest. Neither was read for values, ingested, cited or referenced. A repository-wide search finds no trace of the excluded company or its products. The GEMS/Food script no longer names a brand in code: it withholds every GEMS product label (`label_withheld: brand firewall`) and keeps only the generic food name. The 22 lead rows and their ids are unchanged.
+
+**New sources** (written by `tools/contracts/ingredients/protein-pages/sources-2026-11-03.mjs`):
+
+| Source id | Type | Rows | Pages |
+| --- | --- | --- | --- |
+| `lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals` | peer reviewed, Table 2 read from Europe PMC full text PMC11816949 (CC BY 4.0; the publisher PDF returns a challenge page) | 8 rice, 8 pea (Ni, Cr, Cd, Pb) | rice protein, pea protein |
+| `fda-grn804-pea-protein-manufacturer-batches` | manufacturer batch data, Tables 10 and 11 | 20 | pea protein |
+| `fda-grn851-pea-protein-manufacturer-batches` | manufacturer batch data, Tables 4 to 6 | 36 | pea protein |
+| `fda-grn788-pea-protein-manufacturer-batches` | manufacturer batch data, Appendix II test report | 4 | pea protein |
+
+- **Brand firewall:** no manufacturer, supplier, trade or product name and no batch code appears in any record. Grades and batches are numbered in notice order.
+- **Manufacturer rows:** every GRAS row has `site_context: manufacturer`. The engine therefore labels these rows "Manufacturer test" and never admits them to a reference level.
+- **Lopez-Calabozo non-detects:** the cadmium and lead detection-limit footnotes ("< 0.015", "< 0.026") print no unit, so no limit is recorded. The paper does not state a dry or as-sold basis for minerals.
+- **GRAS notice 788:** Appendix I's five scanned certificates were not transcribed, because they are illegible. The pack notes this too.
+
+**Already on the branch and kept:** FDA 2013 total and inorganic arsenic per product (19 samples), CFIA 2018-19 (mercury sample), Horvath 2025, Hosojima 2017, and the GEMS/Food lead rows.
+
+**Results.** Both pages were built with `HMI_BUILD_DATE=2026-11-03 node tools/engine/page/build-all.mjs --family ingredient --pages pea-protein,rice-protein`.
+
+- `/ingredients/rice-protein` passes every gate: 94 rows from six sources, 58 rated comparators, and presentation audit errors: none. It is installed in `wiki/ingredients/rice-protein.md`.
+- `/ingredients/pea-protein` compiles with 100 rows from five sources and passes gates 1 to 7. Its authored text states that inorganic arsenic has not been measured in any pea protein product.
+- **Pea blocker:** the presentation audit still fails "no usable rated or direct comparator", so the provisional page stays live. Three things cause it:
+  - A rated reference needs four compatible units. Ring 2021 gives two as-sold units per metal.
+  - The Lopez-Calabozo non-detects have no usable limit and no stated basis.
+  - Manufacturer rows are excluded from references and same-study contrasts by design.
+- **What would clear it:** an owner decision, or two more independent pea results on an as-sold basis with stated limits.

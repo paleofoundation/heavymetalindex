@@ -26,11 +26,12 @@
     "facets": [
       {
         "label": "Metals of concern",
-        "text": "Inorganic arsenic was quantified in 17 of 19 US samples at 25 to 152 µg/kg. Lead was quantified in all 22 powders from the Americas at 110 to 445 µg/kg. Cadmium and mercury have one study and one sample each.",
+        "text": "Inorganic arsenic was quantified in 17 of 19 US samples at 25 to 152 µg/kg. Lead was quantified in all 22 powders from the Americas at 110 to 445 µg/kg. Cadmium was quantified only in rice endosperm protein, and mercury in one powder.",
         "source_keys": [
           "fda2013-ias-rice-products-sampling",
           "who-gemsfood-heavy-metal-contaminants",
           "hosojima2017-rice-endosperm-protein-cadmium",
+          "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals",
           "cfia2020-toxic-metals-selected-foods-2018-19"
         ],
         "citation_spans": [
@@ -47,9 +48,10 @@
             ]
           },
           {
-            "after": "Cadmium and mercury have one study and one sample each.",
+            "after": "Cadmium was quantified only in rice endosperm protein, and mercury in one powder.",
             "source_keys": [
               "hosojima2017-rice-endosperm-protein-cadmium",
+              "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals",
               "cfia2020-toxic-metals-selected-foods-2018-19"
             ]
           }
@@ -160,9 +162,10 @@
             ]
           },
           {
-            "text": "Lead was quantified in all 22 rice protein powders that WHO GEMS/Food holds from the Americas, sampled at random and reported for 2014 and 2017: 110 to 445 µg/kg dry weight, median 241 µg/kg (an Index calculation). No result is linked to where the rice was grown, so China, Vietnam, the USA and Canada cannot be compared as origins. For a buyer, that makes lot testing for inorganic arsenic, lead and cadmium the decision point rather than origin.",
+            "text": "Lead was quantified in all 22 rice protein powders that WHO GEMS/Food holds from the Americas, sampled at random and reported for 2014 and 2017: 110 to 445 µg/kg dry weight, median 241 µg/kg (an Index calculation). A Spanish laboratory study found 175.40 ppb lead in one of two rice protein concentrate brands bought online and none detected in the other. No result is linked to where the rice was grown, so China, Vietnam, the USA and Canada cannot be compared as origins. For a buyer, that makes lot testing for inorganic arsenic, lead and cadmium the decision point rather than origin.",
             "source_keys": [
               "who-gemsfood-heavy-metal-contaminants",
+              "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals",
               "fda2013-ias-rice-products-sampling"
             ],
             "citation_spans": [
@@ -170,6 +173,12 @@
                 "after": "Lead was quantified in all 22 rice protein powders that WHO GEMS/Food holds from the Americas, sampled at random and reported for 2014 and 2017: 110 to 445 µg/kg dry weight, median 241 µg/kg (an Index calculation).",
                 "source_keys": [
                   "who-gemsfood-heavy-metal-contaminants"
+                ]
+              },
+              {
+                "after": "A Spanish laboratory study found 175.40 ppb lead in one of two rice protein concentrate brands bought online and none detected in the other.",
+                "source_keys": [
+                  "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals"
                 ]
               },
               {
@@ -186,19 +195,21 @@
       },
       "answers": [
         {
-          "text": "Inorganic arsenic is supported by 19 FDA samples and lead by 22 GEMS/Food results; cadmium by one endosperm protein study and a Canadian survey statement; mercury by one sample.",
+          "text": "Inorganic arsenic is supported by 19 FDA samples and lead by 22 GEMS/Food results and two Spanish concentrate brands; cadmium by one endosperm protein study and a Canadian survey statement; mercury by one sample.",
           "source_keys": [
             "fda2013-ias-rice-products-sampling",
             "who-gemsfood-heavy-metal-contaminants",
+            "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals",
             "hosojima2017-rice-endosperm-protein-cadmium",
             "cfia2020-toxic-metals-selected-foods-2018-19"
           ],
           "citation_spans": [
             {
-              "after": "Inorganic arsenic is supported by 19 FDA samples and lead by 22 GEMS/Food results; cadmium by one endosperm protein study and a Canadian survey statement; mercury by one sample.",
+              "after": "Inorganic arsenic is supported by 19 FDA samples and lead by 22 GEMS/Food results and two Spanish concentrate brands; cadmium by one endosperm protein study and a Canadian survey statement; mercury by one sample.",
               "source_keys": [
                 "fda2013-ias-rice-products-sampling",
                 "who-gemsfood-heavy-metal-contaminants",
+                "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals",
                 "hosojima2017-rice-endosperm-protein-cadmium",
                 "cfia2020-toxic-metals-selected-foods-2018-19"
               ]
@@ -228,19 +239,21 @@
           "passages": []
         },
         {
-          "text": "The limiting gaps are growing origin, cadmium in brown rice protein, which has no quantified result, and lead results from outside the Americas.",
+          "text": "The limiting gaps are growing origin, cadmium in brown rice protein, which has no quantified result, and lead outside the Americas, which rests on two brands in one Spanish study.",
           "source_keys": [
             "fda2013-ias-rice-products-sampling",
             "hosojima2017-rice-endosperm-protein-cadmium",
-            "who-gemsfood-heavy-metal-contaminants"
+            "who-gemsfood-heavy-metal-contaminants",
+            "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals"
           ],
           "citation_spans": [
             {
-              "after": "The limiting gaps are growing origin, cadmium in brown rice protein, which has no quantified result, and lead results from outside the Americas.",
+              "after": "The limiting gaps are growing origin, cadmium in brown rice protein, which has no quantified result, and lead outside the Americas, which rests on two brands in one Spanish study.",
               "source_keys": [
                 "fda2013-ias-rice-products-sampling",
                 "hosojima2017-rice-endosperm-protein-cadmium",
-                "who-gemsfood-heavy-metal-contaminants"
+                "who-gemsfood-heavy-metal-contaminants",
+                "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals"
               ]
             }
           ],
@@ -255,11 +268,12 @@
       "id": "identity",
       "presentation": {
         "narrative": "overview_and_questions",
-        "text": "This page covers protein isolated or concentrated from rice, including brown rice protein, sold as powder or used as an ingredient. FDA classified 12 samples as rice protein powders and included 7 more rice protein products under protein beverages, measured as powder before mixing. WHO GEMS/Food records its lead results under products for special nutritional use, with each powder named as sold. The cadmium study used rice endosperm protein made from milled rice flour, which is a different fraction from brown rice protein.",
+        "text": "This page covers protein isolated or concentrated from rice, including brown rice protein, sold as powder or used as an ingredient. FDA classified 12 samples as rice protein powders and included 7 more rice protein products under protein beverages, measured as powder before mixing. WHO GEMS/Food records its lead results under products for special nutritional use, with each powder named as sold. The cadmium study used rice endosperm protein made from milled rice flour, which is a different fraction from brown rice protein. A Spanish study measured two rice protein concentrate brands that its authors did not name.",
         "source_keys": [
           "fda2013-ias-rice-products-sampling",
           "who-gemsfood-heavy-metal-contaminants",
-          "hosojima2017-rice-endosperm-protein-cadmium"
+          "hosojima2017-rice-endosperm-protein-cadmium",
+          "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals"
         ],
         "citation_spans": [
           {
@@ -278,6 +292,12 @@
             "after": "The cadmium study used rice endosperm protein made from milled rice flour, which is a different fraction from brown rice protein.",
             "source_keys": [
               "hosojima2017-rice-endosperm-protein-cadmium"
+            ]
+          },
+          {
+            "after": "A Spanish study measured two rice protein concentrate brands that its authors did not name.",
+            "source_keys": [
+              "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals"
             ]
           }
         ],
@@ -371,23 +391,25 @@
       "id": "occurrence",
       "presentation": {
         "narrative": "overview_and_questions",
-        "text": "The table lists every rice protein result in the Index: 86 rows from five sources. WHO GEMS/Food supplies 22 individual lead results, grouped in the table as 14 powders labeled brown rice protein and 8 labeled rice protein. FDA supplies total arsenic, inorganic arsenic and the two methylated arsenic species for up to 19 samples, measured in the powder as sold. Low, Moderate and High positions compare each FDA sample with the other FDA rice protein samples; they are not market-wide grades or safety grades.",
+        "text": "The table lists every rice protein result in the Index: 94 rows from six sources. WHO GEMS/Food supplies 22 individual lead results, grouped in the table as 14 powders labeled brown rice protein and 8 labeled rice protein. FDA supplies total arsenic, inorganic arsenic and the two methylated arsenic species for up to 19 samples, measured in the powder as sold. Low, Moderate and High positions compare each FDA sample with the other FDA rice protein samples; they are not market-wide grades or safety grades.",
         "source_keys": [
           "fda2013-ias-rice-products-sampling",
           "who-gemsfood-heavy-metal-contaminants",
           "hosojima2017-rice-endosperm-protein-cadmium",
           "cfia2020-toxic-metals-selected-foods-2018-19",
-          "horvath2025-hungary-protein-powders-metals"
+          "horvath2025-hungary-protein-powders-metals",
+          "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals"
         ],
         "citation_spans": [
           {
-            "after": "The table lists every rice protein result in the Index: 86 rows from five sources.",
+            "after": "The table lists every rice protein result in the Index: 94 rows from six sources.",
             "source_keys": [
               "fda2013-ias-rice-products-sampling",
               "who-gemsfood-heavy-metal-contaminants",
               "hosojima2017-rice-endosperm-protein-cadmium",
               "cfia2020-toxic-metals-selected-foods-2018-19",
-              "horvath2025-hungary-protein-powders-metals"
+              "horvath2025-hungary-protein-powders-metals",
+              "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals"
             ]
           },
           {
@@ -406,10 +428,11 @@
         "citation_omission_reason": "Uncited sentences are editorial implications, descriptive arithmetic on the cited values, proposed verification or navigation; they are not reported outcomes.",
         "passages": [
           {
-            "text": "Total arsenic in the 17 FDA samples with a reported value, three of them trace results, ran from 60 to 260 µg/kg, median 100 µg/kg, and inorganic arsenic from 25 to 152 µg/kg, median 47 µg/kg (Index calculations). Lead ran from 110 to 445 µg/kg dry weight across the 22 GEMS/Food powders, median 241 µg/kg (an Index calculation). Cadmium appears only as the endosperm protein mean of 0.14 ± 0.17 mg/kg, and mercury as one 0.022 ppm sample.",
+            "text": "Total arsenic in the 17 FDA samples with a reported value, three of them trace results, ran from 60 to 260 µg/kg, median 100 µg/kg, and inorganic arsenic from 25 to 152 µg/kg, median 47 µg/kg (Index calculations). Lead ran from 110 to 445 µg/kg dry weight across the 22 GEMS/Food powders, median 241 µg/kg (an Index calculation). In two Spanish concentrate brands, lead was 175.40 ± 3.15 ppb in one and not detected in the other, and cadmium was not detected in either. Otherwise cadmium appears only as the endosperm protein mean of 0.14 ± 0.17 mg/kg, and mercury as one 0.022 ppm sample.",
             "source_keys": [
               "fda2013-ias-rice-products-sampling",
               "who-gemsfood-heavy-metal-contaminants",
+              "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals",
               "hosojima2017-rice-endosperm-protein-cadmium",
               "cfia2020-toxic-metals-selected-foods-2018-19"
             ],
@@ -427,7 +450,13 @@
                 ]
               },
               {
-                "after": "Cadmium appears only as the endosperm protein mean of 0.14 ± 0.17 mg/kg, and mercury as one 0.022 ppm sample.",
+                "after": "In two Spanish concentrate brands, lead was 175.40 ± 3.15 ppb in one and not detected in the other, and cadmium was not detected in either.",
+                "source_keys": [
+                  "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals"
+                ]
+              },
+              {
+                "after": "Otherwise cadmium appears only as the endosperm protein mean of 0.14 ± 0.17 mg/kg, and mercury as one 0.022 ppm sample.",
                 "source_keys": [
                   "hosojima2017-rice-endosperm-protein-cadmium",
                   "cfia2020-toxic-metals-selected-foods-2018-19"
@@ -439,22 +468,24 @@
       },
       "answers": [
         {
-          "text": "Total arsenic, inorganic arsenic, dimethylarsinic acid and monomethylarsonic acid were measured by FDA; cadmium by one study; mercury by one survey; lead by WHO GEMS/Food in 22 powders; and lead, cadmium, arsenic and mercury in one brown rice protein powder below an unprinted detection limit.",
+          "text": "Total arsenic, inorganic arsenic, dimethylarsinic acid and monomethylarsonic acid were measured by FDA; cadmium by one study; mercury by one survey; lead by WHO GEMS/Food in 22 powders; lead, cadmium, nickel and chromium in two concentrate brands; and lead, cadmium, arsenic and mercury in one brown rice protein powder below an unprinted detection limit.",
           "source_keys": [
             "fda2013-ias-rice-products-sampling",
             "hosojima2017-rice-endosperm-protein-cadmium",
             "cfia2020-toxic-metals-selected-foods-2018-19",
             "who-gemsfood-heavy-metal-contaminants",
+            "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals",
             "horvath2025-hungary-protein-powders-metals"
           ],
           "citation_spans": [
             {
-              "after": "Total arsenic, inorganic arsenic, dimethylarsinic acid and monomethylarsonic acid were measured by FDA; cadmium by one study; mercury by one survey; lead by WHO GEMS/Food in 22 powders; and lead, cadmium, arsenic and mercury in one brown rice protein powder below an unprinted detection limit.",
+              "after": "Total arsenic, inorganic arsenic, dimethylarsinic acid and monomethylarsonic acid were measured by FDA; cadmium by one study; mercury by one survey; lead by WHO GEMS/Food in 22 powders; lead, cadmium, nickel and chromium in two concentrate brands; and lead, cadmium, arsenic and mercury in one brown rice protein powder below an unprinted detection limit.",
               "source_keys": [
                 "fda2013-ias-rice-products-sampling",
                 "hosojima2017-rice-endosperm-protein-cadmium",
                 "cfia2020-toxic-metals-selected-foods-2018-19",
                 "who-gemsfood-heavy-metal-contaminants",
+                "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals",
                 "horvath2025-hungary-protein-powders-metals"
               ]
             }
@@ -490,9 +521,10 @@
           "passages": []
         },
         {
-          "text": "Brown rice protein cadmium has no quantified result. Two FDA inorganic arsenic values are substitutes for non-detects and are held from comparison.",
+          "text": "Brown rice protein cadmium has no quantified result. The Spanish study printed its cadmium and lead detection limits without restating the unit, so its non-detects cannot be bounded. Two FDA inorganic arsenic values are substitutes for non-detects and are held from comparison.",
           "source_keys": [
             "hosojima2017-rice-endosperm-protein-cadmium",
+            "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals",
             "fda2013-ias-rice-products-sampling"
           ],
           "citation_spans": [
@@ -500,6 +532,12 @@
               "after": "Brown rice protein cadmium has no quantified result.",
               "source_keys": [
                 "hosojima2017-rice-endosperm-protein-cadmium"
+              ]
+            },
+            {
+              "after": "The Spanish study printed its cadmium and lead detection limits without restating the unit, so its non-detects cannot be bounded.",
+              "source_keys": [
+                "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals"
               ]
             },
             {
@@ -659,15 +697,22 @@
             "citation_omission_reason": "Uncited sentences are editorial implications, descriptive arithmetic on the cited values, proposed verification or navigation; they are not reported outcomes."
           },
           {
-            "text": "For lead, the label split does not repeat: 14 GEMS/Food powders labeled brown rice protein had a median of 237 µg/kg (110 to 394 µg/kg) and 8 labeled rice protein a median of 255 µg/kg (147 to 445 µg/kg), Index calculations. So brown rice protein measured higher for inorganic arsenic but not for lead, and no label is lower for both.",
+            "text": "For lead, the label split does not repeat: 14 GEMS/Food powders labeled brown rice protein had a median of 237 µg/kg (110 to 394 µg/kg) and 8 labeled rice protein a median of 255 µg/kg (147 to 445 µg/kg), Index calculations. So brown rice protein measured higher for inorganic arsenic but not for lead, and no label is lower for both. Between brands, the Spanish study found 175.40 ppb lead in one rice protein concentrate and none detected in the other, which shows that brands can differ even where the study names neither.",
             "source_keys": [
-              "who-gemsfood-heavy-metal-contaminants"
+              "who-gemsfood-heavy-metal-contaminants",
+              "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals"
             ],
             "citation_spans": [
               {
                 "after": "For lead, the label split does not repeat: 14 GEMS/Food powders labeled brown rice protein had a median of 237 µg/kg (110 to 394 µg/kg) and 8 labeled rice protein a median of 255 µg/kg (147 to 445 µg/kg), Index calculations.",
                 "source_keys": [
                   "who-gemsfood-heavy-metal-contaminants"
+                ]
+              },
+              {
+                "after": "Between brands, the Spanish study found 175.40 ppb lead in one rice protein concentrate and none detected in the other, which shows that brands can differ even where the study names neither.",
+                "source_keys": [
+                  "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals"
                 ]
               }
             ],
@@ -710,19 +755,21 @@
       },
       "answers": [
         {
-          "text": "No rice protein result is linked to growing origin, conditions, variety or harvest period; FDA rows carry product labels and categories only, and GEMS/Food rows a reporting region.",
+          "text": "No rice protein result is linked to growing origin, conditions, variety or harvest period; FDA rows carry product labels and categories only, GEMS/Food rows a reporting region, and the Spanish study gives neither origin nor production country.",
           "source_keys": [
             "fda2013-ias-rice-products-sampling",
             "cfia2020-toxic-metals-selected-foods-2018-19",
-            "who-gemsfood-heavy-metal-contaminants"
+            "who-gemsfood-heavy-metal-contaminants",
+            "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals"
           ],
           "citation_spans": [
             {
-              "after": "No rice protein result is linked to growing origin, conditions, variety or harvest period; FDA rows carry product labels and categories only, and GEMS/Food rows a reporting region.",
+              "after": "No rice protein result is linked to growing origin, conditions, variety or harvest period; FDA rows carry product labels and categories only, GEMS/Food rows a reporting region, and the Spanish study gives neither origin nor production country.",
               "source_keys": [
                 "fda2013-ias-rice-products-sampling",
                 "cfia2020-toxic-metals-selected-foods-2018-19",
-                "who-gemsfood-heavy-metal-contaminants"
+                "who-gemsfood-heavy-metal-contaminants",
+                "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals"
               ]
             }
           ],
@@ -1523,13 +1570,14 @@
         ],
         "passages": [
           {
-            "text": "For orientation only, the highest FDA rice protein sample, 152 µg/kg inorganic arsenic, is above the EU milled-rice row but below the rice flour and China rice powder rows, and 16 of the 22 GEMS/Food lead results are above China's 0.2 mg/kg grain row. The occurrence evidence comes from FDA, WHO GEMS/Food monitoring, an endosperm protein study, a Canadian survey and a Hungarian survey; a rice bran review, a silicon experiment and a water management study inform pathways and controls. The EU 2023/915 lead rows for cereals and food supplements are not yet transcribed in the Index.",
+            "text": "For orientation only, the highest FDA rice protein sample, 152 µg/kg inorganic arsenic, is above the EU milled-rice row but below the rice flour and China rice powder rows, and 16 of the 22 GEMS/Food lead results are above China's 0.2 mg/kg grain row. The occurrence evidence comes from FDA, WHO GEMS/Food monitoring, an endosperm protein study, a Spanish concentrate study, a Canadian survey and a Hungarian survey; a rice bran review, a silicon experiment and a water management study inform pathways and controls. The EU 2023/915 lead rows for cereals and food supplements are not yet transcribed in the Index.",
             "source_keys": [
               "fda2013-ias-rice-products-sampling",
               "who-gemsfood-heavy-metal-contaminants",
               "eu-2023-915-contaminants-maximum-levels",
               "usda-fas2023-china-gb-2762-2022-translation",
               "hosojima2017-rice-endosperm-protein-cadmium",
+              "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals",
               "cfia2020-toxic-metals-selected-foods-2018-19",
               "horvath2025-hungary-protein-powders-metals",
               "scott2025-brown-white-rice-arsenic",
@@ -1547,11 +1595,12 @@
                 ]
               },
               {
-                "after": "The occurrence evidence comes from FDA, WHO GEMS/Food monitoring, an endosperm protein study, a Canadian survey and a Hungarian survey; a rice bran review, a silicon experiment and a water management study inform pathways and controls.",
+                "after": "The occurrence evidence comes from FDA, WHO GEMS/Food monitoring, an endosperm protein study, a Spanish concentrate study, a Canadian survey and a Hungarian survey; a rice bran review, a silicon experiment and a water management study inform pathways and controls.",
                 "source_keys": [
                   "fda2013-ias-rice-products-sampling",
                   "who-gemsfood-heavy-metal-contaminants",
                   "hosojima2017-rice-endosperm-protein-cadmium",
+                  "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals",
                   "cfia2020-toxic-metals-selected-foods-2018-19",
                   "horvath2025-hungary-protein-powders-metals",
                   "scott2025-brown-white-rice-arsenic",
@@ -1666,15 +1715,22 @@
             },
             {
               "question": "Does rice protein contain lead?",
-              "text": "Yes: all 22 rice protein powders in WHO GEMS/Food results from the Americas had quantified lead, 110 to 445 µg/kg, median 241 µg/kg (Index calculation). Ask for lead with a stated quantification limit on every lot.",
+              "text": "Yes: all 22 rice protein powders in WHO GEMS/Food results from the Americas had quantified lead, 110 to 445 µg/kg, median 241 µg/kg (Index calculation). In Spain, one of two concentrate brands had 175.40 ppb lead and the other none detected. Ask for lead with a stated quantification limit on every lot.",
               "source_keys": [
-                "who-gemsfood-heavy-metal-contaminants"
+                "who-gemsfood-heavy-metal-contaminants",
+                "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals"
               ],
               "citation_spans": [
                 {
                   "after": "Yes: all 22 rice protein powders in WHO GEMS/Food results from the Americas had quantified lead, 110 to 445 µg/kg, median 241 µg/kg (Index calculation).",
                   "source_keys": [
                     "who-gemsfood-heavy-metal-contaminants"
+                  ]
+                },
+                {
+                  "after": "In Spain, one of two concentrate brands had 175.40 ppb lead and the other none detected.",
+                  "source_keys": [
+                    "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals"
                   ]
                 }
               ],
@@ -1716,13 +1772,31 @@
             },
             {
               "question": "Is rice protein higher in arsenic than pea protein?",
-              "text": "Pea protein has no arsenic data, so they cannot be compared. Rice protein's inorganic arsenic is documented in 17 samples. For lead, the two measured pea powders had 22.2 and 22.5 µg/kg, below all 22 GEMS/Food rice protein results, though from a different survey, country and year. The pea protein page sets out that evidence.",
+              "text": "Inorganic arsenic has not been measured in pea protein, so the two cannot be compared for it. Pea protein total arsenic appears only in manufacturer tests submitted to FDA, all below their reporting limits. Rice protein's inorganic arsenic is documented in 17 samples. For lead, the one study that measured both found 175.40 ppb in one rice protein brand and none detected in either pea protein brand. The pea protein page sets out that evidence.",
               "source_keys": [
-                "fda2013-ias-rice-products-sampling",
                 "ring2021-ireland-protein-powders-metals",
-                "who-gemsfood-heavy-metal-contaminants"
+                "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals",
+                "fda-grn804-pea-protein-manufacturer-batches",
+                "fda-grn851-pea-protein-manufacturer-batches",
+                "fda-grn788-pea-protein-manufacturer-batches",
+                "fda2013-ias-rice-products-sampling"
               ],
               "citation_spans": [
+                {
+                  "after": "Inorganic arsenic has not been measured in pea protein, so the two cannot be compared for it.",
+                  "source_keys": [
+                    "ring2021-ireland-protein-powders-metals",
+                    "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals"
+                  ]
+                },
+                {
+                  "after": "Pea protein total arsenic appears only in manufacturer tests submitted to FDA, all below their reporting limits.",
+                  "source_keys": [
+                    "fda-grn804-pea-protein-manufacturer-batches",
+                    "fda-grn851-pea-protein-manufacturer-batches",
+                    "fda-grn788-pea-protein-manufacturer-batches"
+                  ]
+                },
                 {
                   "after": "Rice protein's inorganic arsenic is documented in 17 samples.",
                   "source_keys": [
@@ -1730,10 +1804,9 @@
                   ]
                 },
                 {
-                  "after": "For lead, the two measured pea powders had 22.2 and 22.5 µg/kg, below all 22 GEMS/Food rice protein results, though from a different survey, country and year.",
+                  "after": "For lead, the one study that measured both found 175.40 ppb in one rice protein brand and none detected in either pea protein brand.",
                   "source_keys": [
-                    "ring2021-ireland-protein-powders-metals",
-                    "who-gemsfood-heavy-metal-contaminants"
+                    "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals"
                   ]
                 }
               ],
@@ -1907,26 +1980,28 @@
           ]
         },
         {
-          "text": "Every record that reports rice protein separately was read and extracted: five occurrence sources, with three context sources for pathways and controls.",
+          "text": "Every record that reports rice protein separately was read and extracted: six occurrence sources, with three context sources for pathways and controls.",
           "source_keys": [
             "fda2013-ias-rice-products-sampling",
             "who-gemsfood-heavy-metal-contaminants",
             "hosojima2017-rice-endosperm-protein-cadmium",
             "cfia2020-toxic-metals-selected-foods-2018-19",
             "horvath2025-hungary-protein-powders-metals",
+            "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals",
             "scott2025-brown-white-rice-arsenic",
             "zhao2023-silicon-cd-rice",
             "seyfferth2025-rice-water-management-as-hg-cd"
           ],
           "citation_spans": [
             {
-              "after": "Every record that reports rice protein separately was read and extracted: five occurrence sources, with three context sources for pathways and controls.",
+              "after": "Every record that reports rice protein separately was read and extracted: six occurrence sources, with three context sources for pathways and controls.",
               "source_keys": [
                 "fda2013-ias-rice-products-sampling",
                 "who-gemsfood-heavy-metal-contaminants",
                 "hosojima2017-rice-endosperm-protein-cadmium",
                 "cfia2020-toxic-metals-selected-foods-2018-19",
                 "horvath2025-hungary-protein-powders-metals",
+                "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals",
                 "scott2025-brown-white-rice-arsenic",
                 "zhao2023-silicon-cd-rice",
                 "seyfferth2025-rice-water-management-as-hg-cd"
@@ -1939,15 +2014,15 @@
           "passages": []
         },
         {
-          "text": "Unresolved: lead outside the Americas, brown rice protein cadmium, growing origin and measured processing effects. This version adds the page from the Index records available on 2 November 2026.",
+          "text": "Unresolved: lead outside the Americas beyond two brands, brown rice protein cadmium, growing origin and measured processing effects. This version adds the Spanish concentrate study to the Index records available on 3 November 2026.",
           "source_keys": [
-            "fda2013-ias-rice-products-sampling"
+            "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals"
           ],
           "citation_spans": [
             {
-              "after": "This version adds the page from the Index records available on 2 November 2026.",
+              "after": "This version adds the Spanish concentrate study to the Index records available on 3 November 2026.",
               "source_keys": [
-                "fda2013-ias-rice-products-sampling"
+                "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals"
               ]
             }
           ],

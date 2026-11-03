@@ -1,6 +1,6 @@
 {
   "method": "hmi-pooled-reference-v2",
-  "frozen": "2026-11-02",
+  "frozen": "2026-11-03",
   "admission": [
     {
       "finding": "who-gemsfood-heavy-metal-contaminants:Pb:brown-rice-protein-powder:dry:paho-random:median",
@@ -43,6 +43,26 @@
       "contributes": false
     },
     {
+      "finding": "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals:Pb:rice-protein-concentrate-brand-1--brand-1-unnamed-commercial-brand-bought-:not_detected",
+      "source": "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals",
+      "analyte": "Pb",
+      "reference_id": null,
+      "reason": "The source reports no numerical value or limit for this result; its position cannot be identified.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals:Pb:rice-protein-concentrate-brand-2--brand-2-unnamed-commercial-brand-bought-:mean",
+      "source": "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals",
+      "analyte": "Pb",
+      "reference_id": null,
+      "reason": "The source does not state whether results are fresh or dry weight, so no reference applies.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
       "finding": "horvath2025-hungary-protein-powders-metals:Cd:protein-powder-plant-based-vegan-retail-product-17:not_detected",
       "source": "horvath2025-hungary-protein-powders-metals",
       "analyte": "Cd",
@@ -58,6 +78,26 @@
       "analyte": "Cd",
       "reference_id": null,
       "reason": "The source does not state whether results are fresh or dry weight, so no reference applies.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals:Cd:rice-protein-concentrate-brand-1--brand-1-unnamed-commercial-brand-bought-:not_detected",
+      "source": "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals",
+      "analyte": "Cd",
+      "reference_id": null,
+      "reason": "The source reports no numerical value or limit for this result; its position cannot be identified.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals:Cd:rice-protein-concentrate-brand-2--brand-2-unnamed-commercial-brand-bought-:not_detected",
+      "source": "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals",
+      "analyte": "Cd",
+      "reference_id": null,
+      "reason": "The source reports no numerical value or limit for this result; its position cannot be identified.",
       "level": null,
       "target": null,
       "contributes": false
@@ -1168,6 +1208,46 @@
       "contributes": false
     },
     {
+      "finding": "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals:Ni:rice-protein-concentrate-brand-1--brand-1-unnamed-commercial-brand-bought-:mean",
+      "source": "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals",
+      "analyte": "Ni",
+      "reference_id": null,
+      "reason": "The source does not state whether results are fresh or dry weight, so no reference applies.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals:Ni:rice-protein-concentrate-brand-2--brand-2-unnamed-commercial-brand-bought-:mean",
+      "source": "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals",
+      "analyte": "Ni",
+      "reference_id": null,
+      "reason": "The source does not state whether results are fresh or dry weight, so no reference applies.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals:Cr:rice-protein-concentrate-brand-1--brand-1-unnamed-commercial-brand-bought-:mean",
+      "source": "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals",
+      "analyte": "Cr",
+      "reference_id": null,
+      "reason": "The source does not state whether results are fresh or dry weight, so no reference applies.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals:Cr:rice-protein-concentrate-brand-2--brand-2-unnamed-commercial-brand-bought-:mean",
+      "source": "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals",
+      "analyte": "Cr",
+      "reference_id": null,
+      "reason": "The source does not state whether results are fresh or dry weight, so no reference applies.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
       "finding": "horvath2025-hungary-protein-powders-metals:Al:protein-powder-plant-based-vegan-retail-product-17:mean",
       "source": "horvath2025-hungary-protein-powders-metals",
       "analyte": "Al",
@@ -1235,6 +1315,16 @@
       "reason": "not detected without a numeric value or reporting limit"
     },
     {
+      "unit": "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals:Pb:rice-protein-concentrate-brand-1--brand-1-unnamed-commercial-brand-bought-:not_detected",
+      "admitted": false,
+      "reason": "not detected without a numeric value or reporting limit"
+    },
+    {
+      "unit": "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals:Pb:rice-protein-concentrate-brand-2--brand-2-unnamed-commercial-brand-bought-:mean",
+      "admitted": false,
+      "reason": "a mean is not an observed subgroup median or sample value"
+    },
+    {
       "unit": "horvath2025-hungary-protein-powders-metals:Cd:protein-powder-plant-based-vegan-retail-product-17:not_detected",
       "admitted": false,
       "reason": "not detected without a numeric value or reporting limit"
@@ -1243,6 +1333,16 @@
       "unit": "hosojima2017-rice-endosperm-protein-cadmium:Cd:rice-endosperm-protein-powder-rep-purified-acid-wa:mean",
       "admitted": false,
       "reason": "a mean is not an observed subgroup median or sample value"
+    },
+    {
+      "unit": "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals:Cd:rice-protein-concentrate-brand-1--brand-1-unnamed-commercial-brand-bought-:not_detected",
+      "admitted": false,
+      "reason": "not detected without a numeric value or reporting limit"
+    },
+    {
+      "unit": "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals:Cd:rice-protein-concentrate-brand-2--brand-2-unnamed-commercial-brand-bought-:not_detected",
+      "admitted": false,
+      "reason": "not detected without a numeric value or reporting limit"
     },
     {
       "unit": "horvath2025-hungary-protein-powders-metals:tAs:protein-powder-plant-based-vegan-retail-product-17:not_detected",
@@ -1263,6 +1363,26 @@
       "unit": "horvath2025-hungary-protein-powders-metals:tHg:protein-powder-plant-based-vegan-retail-product-17:not_detected",
       "admitted": false,
       "reason": "not detected without a numeric value or reporting limit"
+    },
+    {
+      "unit": "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals:Ni:rice-protein-concentrate-brand-1--brand-1-unnamed-commercial-brand-bought-:mean",
+      "admitted": false,
+      "reason": "a mean is not an observed subgroup median or sample value"
+    },
+    {
+      "unit": "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals:Ni:rice-protein-concentrate-brand-2--brand-2-unnamed-commercial-brand-bought-:mean",
+      "admitted": false,
+      "reason": "a mean is not an observed subgroup median or sample value"
+    },
+    {
+      "unit": "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals:Cr:rice-protein-concentrate-brand-1--brand-1-unnamed-commercial-brand-bought-:mean",
+      "admitted": false,
+      "reason": "a mean is not an observed subgroup median or sample value"
+    },
+    {
+      "unit": "lopezcalabozo2025-spain-vegetable-protein-concentrates-minerals:Cr:rice-protein-concentrate-brand-2--brand-2-unnamed-commercial-brand-bought-:mean",
+      "admitted": false,
+      "reason": "a mean is not an observed subgroup median or sample value"
     },
     {
       "unit": "horvath2025-hungary-protein-powders-metals:Al:protein-powder-plant-based-vegan-retail-product-17:mean",

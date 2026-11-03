@@ -6,7 +6,7 @@
     "coverage_sha256": null,
     "coverage_mtime": null,
     "by_page": "data/evidence/findings/by-page/ingredients/rice-protein.json",
-    "by_page_sha256": "86f07307af1316fea1484b3b56e79c944a8a2383256ff069699ff5a07f6ebd48"
+    "by_page_sha256": "f2aa56045e7d5d09c01aed19553726968110f02ca41bdf97d6620bab11d180be"
   },
   "status": "pass",
   "gates": {
@@ -55,10 +55,10 @@
     "checked": true,
     "errors": []
   },
-  "rows": 86,
+  "rows": 94,
   "states": {
     "rated": 58,
-    "unavailable": 27,
+    "unavailable": 35,
     "bounded": 1
   },
   "legacy_findings": 0,
@@ -82,8 +82,8 @@
     "borrowed": 0
   },
   "dropped_fields": [],
-  "html": "data/evidence/engine/ingredient/rice-protein/preview/ingredients/rice-protein.html",
-  "html_bytes": 616280,
+  "html": "data/evidence/engine/preview/rerun-20261103T065324-batch-000/ingredients/rice-protein.html",
+  "html_bytes": 667452,
   "discoverable_outputs": [],
   "mirror": {
     "mirrored": true,

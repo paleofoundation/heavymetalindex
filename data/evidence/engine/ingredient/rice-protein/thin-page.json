@@ -1,9 +1,9 @@
 {
   "slug": "rice-protein",
   "status": "thin",
-  "assessed_at": "2026-11-02T12:00:00Z",
-  "universe_items": 57,
-  "occurrence_families": 5,
+  "assessed_at": "2026-11-03T12:00:00Z",
+  "universe_items": 58,
+  "occurrence_families": 6,
   "analytes": [
     {
       "analyte": "Al",
@@ -28,9 +28,19 @@
     {
       "analyte": "Cd",
       "decision_relevant": true,
+      "results": 4,
+      "reference_units": 0,
+      "families": 3,
+      "rated": 0,
+      "direct": 0,
+      "note": ""
+    },
+    {
+      "analyte": "Cr",
+      "decision_relevant": false,
       "results": 2,
       "reference_units": 0,
-      "families": 2,
+      "families": 1,
       "rated": 0,
       "direct": 0,
       "note": ""
@@ -76,11 +86,21 @@
       "note": ""
     },
     {
+      "analyte": "Ni",
+      "decision_relevant": false,
+      "results": 2,
+      "reference_units": 0,
+      "families": 1,
+      "rated": 0,
+      "direct": 0,
+      "note": ""
+    },
+    {
       "analyte": "Pb",
       "decision_relevant": true,
-      "results": 3,
+      "results": 5,
       "reference_units": 4,
-      "families": 2,
+      "families": 3,
       "rated": 2,
       "direct": 0,
       "note": ""
@@ -140,7 +160,7 @@
     "decision_analyte_without_comparison",
     "no_applicable_cited_control"
   ],
-  "assessment": "5 occurrence families; Cd: 0 rated, 0 direct; Pb: 2 rated, 0 direct; iAs: 17 rated, 0 direct; tAs: 19 rated, 0 direct.",
+  "assessment": "6 occurrence families; Cd: 0 rated, 0 direct; Pb: 2 rated, 0 direct; iAs: 17 rated, 0 direct; tAs: 19 rated, 0 direct.",
   "fetch_targets": [
     {
       "what": "A measured control for metals in rice protein (siting, irrigation water, cultivar, processing, storage or lot testing)",
