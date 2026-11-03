@@ -171,3 +171,7 @@ Evidence pack `~/hmi-protein-evidence-20261103.tgz`, extracted to `~/hmi-protein
   - The Lopez-Calabozo non-detects have no usable limit and no stated basis.
   - Manufacturer rows are excluded from references and same-study contrasts by design.
 - **What would clear it:** an owner decision, or two more independent pea results on an as-sold basis with stated limits.
+
+### Owner decision: pea protein installed with the comparator gap (3 November 2026)
+
+Karen Pendergrass instructed "Ship it, accept the gap." The compiled pea protein candidate (100 rows, five sources) is installed at `wiki/ingredients/pea-protein.md`. It passes evidence gates 1 to 7 and the hero check. It still fails one presentation rule: the occurrence table has no rated or direct comparator, because Ring 2021 gives two independent as-sold results (four are needed), the López-Calabozo non-detects print a limit with no unit or basis, and manufacturer rows never enter references. `tools/engine/release/verify-live.mjs` will therefore report `presentation: fail` for this page after deploy; that is expected under this decision. The gap closes when two or more further independent as-sold pea protein results with stated limits are ingested.

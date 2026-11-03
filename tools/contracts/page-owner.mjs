@@ -8,6 +8,7 @@ const owners = new Set([
   "data/evidence/syntheses/pilot-infant-formula-powder-non-soy-v1.json",
   // Engine-built ingredient pages (HMI-PROTEIN-PEA-RICE-1): the synthesis sits beside the candidate.
   "data/evidence/engine/ingredient/rice-protein/synthesis.json",
+  "data/evidence/engine/ingredient/pea-protein/synthesis.json",
 ]);
 export function contractOwnsPage(raw) {
   const header = String(raw).match(/^---\r?\n([\s\S]*?)\r?\n---/)?.[1];
