@@ -205,3 +205,9 @@ Works cited in this page's text, in first-appearance order. See [Sources](#sourc
 - [[sources/boethius2021-mesolithic-fish-strontium-isotopes|Strontium isotopes in Mesolithic fish teeth]] (2021; peer-reviewed): off-topic for dietary exposure: archaeological fish provenance.
 - [[sources/plug2025-neolithic-syria-strontium-oxygen-mobility|Strontium and oxygen isotopes in Neolithic Syria]] (2025; peer-reviewed): off-topic for dietary exposure: human mobility from isotope ratios.
 - [[sources/mohdrazak2024-zinc-strontium-lithium-phosphate-glass|Strontium-containing phosphate glass]] (2024; peer-reviewed): off-topic for dietary exposure: materials properties of a glass.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+No substantive edit history is available in this build. The full commit record is available in [git](https://github.com/paleofoundation/heavymetalindex).
+<!-- END: hmi-page-history -->

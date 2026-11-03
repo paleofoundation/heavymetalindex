@@ -186,3 +186,9 @@ Works cited in this page's text, in first-appearance order. See [Sources](#sourc
 - [[sources/fadojutimi2023-polyaniline-zirconium-disulphide-alcohol-sensor|Zirconium disulphide alcohol vapor sensor]] (2023; peer-reviewed): off-topic for dietary exposure: gas sensor material.
 - [[sources/mason2022-organozirconium-polyolefin-hydrogenolysis|Organozirconium catalyst for plastics breakdown]] (2022; peer-reviewed): off-topic for dietary exposure: plastics recycling catalyst.
 - [[sources/said2025-zirconium-molybdate-formaldehyde-catalyst|Zirconium molybdate formaldehyde catalyst]] (2025; peer-reviewed): off-topic for dietary exposure: industrial catalyst.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+No substantive edit history is available in this build. The full commit record is available in [git](https://github.com/paleofoundation/heavymetalindex).
+<!-- END: hmi-page-history -->

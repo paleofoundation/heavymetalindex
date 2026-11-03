@@ -231,3 +231,9 @@ Works cited in this page's text, in first-appearance order. See [Sources](#sourc
 - [[sources/ariunbaatar2016-food-waste-anaerobic-digestion-selenium|Selenium and iron in food waste anaerobic digestion]] (2016; peer-reviewed): off-topic for dietary exposure: waste-treatment engineering.
 - [[sources/vahdati2020-selenium-nanoparticle-lysozyme-antibacterial|Selenium nanoparticle and lysozyme antibacterial system]] (2020; peer-reviewed): off-topic for dietary exposure: nanomaterial antibacterial assay.
 - [[sources/alam2019-mung-bean-arsenic-selenium-biochar-mycorrhiza|Selenium, biochar and mycorrhizal fungi in arsenic-stressed mung bean]] (2019; peer-reviewed): off-topic for dietary exposure: plant stress physiology without selenium measurements.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+No substantive edit history is available in this build. The full commit record is available in [git](https://github.com/paleofoundation/heavymetalindex).
+<!-- END: hmi-page-history -->

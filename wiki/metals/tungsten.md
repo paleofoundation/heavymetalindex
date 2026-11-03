@@ -156,3 +156,9 @@ Works cited in this page's text, in first-appearance order. See [Sources](#sourc
 - [[sources/shehab2025-tungsten-trioxide-nanowire-water-membranes|Tungsten trioxide nanowire water membranes]] (2025; peer-reviewed): off-topic for dietary exposure: tungsten release was not measured.
 - [[sources/cuevasola2020-vanadium-tungsten-scr-catalyst-recovery|Tungsten recovery from spent catalysts]] (2020; peer-reviewed): off-topic for dietary exposure: industrial recycling chemistry.
 - [[sources/johansson2021-scheelite-tungsten-cavitation-leaching|Cavitation leaching of scheelite]] (2021; peer-reviewed): off-topic for dietary exposure: ore processing.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+No substantive edit history is available in this build. The full commit record is available in [git](https://github.com/paleofoundation/heavymetalindex).
+<!-- END: hmi-page-history -->

@@ -231,3 +231,9 @@ Works cited in this page's text, in first-appearance order. See [Sources](#sourc
 - [[sources/meng2024-lanthanum-barium-titanate-sulfadiazine|Lanthanum-doped barium titanate catalyst]] (2024; peer-reviewed): off-topic for dietary exposure: antibiotic degradation in water.
 - [[sources/wang2026-lanthanum-biochar-ammonium-adsorption|Lanthanum-modified biochar for ammonium]] (2026; peer-reviewed): off-topic for dietary exposure: wastewater treatment material.
 - [[sources/li2024-lanthanum-tea-waste-biochar-fluoride|Lanthanum-modified tea waste biochar for fluoride]] (2024; peer-reviewed): off-topic for dietary exposure: water treatment material.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+No substantive edit history is available in this build. The full commit record is available in [git](https://github.com/paleofoundation/heavymetalindex).
+<!-- END: hmi-page-history -->

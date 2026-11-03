@@ -102,3 +102,9 @@ Works cited in this page's text, in first-appearance order. See [Sources](#sourc
 
 - [[sources/sever2025-indium-111-irdye800cw-tissue-phantoms|Indium-111 and IRDye800CW detection through tissue phantoms]] (2025; peer-reviewed): off-topic for dietary exposure: surgical imaging tracer detection study.
 - [[sources/litton2016-edwardsiella-endocarditis-indium-111-scan|Indium-111 white blood cell scan in endocarditis]] (2016; peer-reviewed): off-topic for dietary exposure: single clinical case using a diagnostic radiotracer.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+No substantive edit history is available in this build. The full commit record is available in [git](https://github.com/paleofoundation/heavymetalindex).
+<!-- END: hmi-page-history -->

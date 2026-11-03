@@ -174,3 +174,9 @@ Works cited in this page's text, in first-appearance order. See [Sources](#sourc
 - [[sources/balado2021-aquaculture-pathogens-bismuth-susceptibility|Bismuth against aquaculture pathogens]] (2021; peer-reviewed): antibacterial concentrations and proposed use of bismuth in fish farming.
 - [[sources/gajek2025-silica-silver-bismuth-nanoparticles|Silica spheres with silver or bismuth nanoparticles]] (2025; peer-reviewed): antibacterial nanomaterial; minimum inhibitory concentrations in culture.
 - [[sources/huang2020-zero-valent-bismuth-bromate-removal|Metallic bismuth for bromate removal from water]] (2020; peer-reviewed): bismuth release into laboratory-treated water and removal by filtration.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+No substantive edit history is available in this build. The full commit record is available in [git](https://github.com/paleofoundation/heavymetalindex).
+<!-- END: hmi-page-history -->

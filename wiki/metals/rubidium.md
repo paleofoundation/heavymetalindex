@@ -115,3 +115,9 @@ Works cited in this page's text, in first-appearance order. See [Sources](#sourc
 
 - [[sources/khatami2014-iran-breast-milk-rubidium-inaa|Rubidium in breast milk in Mashhad, Iran]] (2014; peer-reviewed): only food occurrence data; rubidium in transitional breast milk, dry weight.
 - [[sources/szczerbowskaboruchowska2025-obese-rat-brain-rubidium|Rubidium in brain regions of obese rats]] (2025; peer-reviewed): animal mechanism context; higher brain rubidium with diet-induced obesity.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+No substantive edit history is available in this build. The full commit record is available in [git](https://github.com/paleofoundation/heavymetalindex).
+<!-- END: hmi-page-history -->

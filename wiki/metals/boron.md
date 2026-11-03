@@ -230,3 +230,9 @@ Works cited in this page's text, in first-appearance order. See [Sources](#sourc
 - [[sources/mavioglukaya2026-boron-carbon-nitride-deoxynivalenol-sensor|Boron carbon nitride deoxynivalenol sensor]] (2026; peer-reviewed): off-topic for dietary exposure: boron is part of the sensor material.
 - [[sources/scorsone2024-bdd-electrode-tryptophan-ecl|Boron-doped diamond tryptophan sensor]] (2024; peer-reviewed): off-topic for dietary exposure: boron is an electrode dopant.
 - [[sources/argin2019-gelatin-films-boron-derivatives|Gelatin films with boron derivatives]] (2019; peer-reviewed): antimicrobial packaging films; no migration or dietary data.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+No substantive edit history is available in this build. The full commit record is available in [git](https://github.com/paleofoundation/heavymetalindex).
+<!-- END: hmi-page-history -->

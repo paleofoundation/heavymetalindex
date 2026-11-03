@@ -133,3 +133,9 @@ Works cited in this page's text, in first-appearance order. See [Sources](#sourc
 - [[sources/lee2015-yttrium-adsorbents-arsenate-removal|Yttrium adsorbents for arsenate removal]] (2015; peer-reviewed): off-topic for dietary exposure: water treatment materials.
 - [[sources/bankogluyola2025-yttrium-oxide-glyphosate-sensor|Yttrium oxide composite sensor for glyphosate]] (2025; peer-reviewed): off-topic for dietary exposure: herbicide sensor.
 - [[sources/borse2022-ndyag-laser-enamel-bleaching|Yttrium garnet laser and tooth bleaching]] (2022; peer-reviewed): off-topic for dietary exposure: dental laser study.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+No substantive edit history is available in this build. The full commit record is available in [git](https://github.com/paleofoundation/heavymetalindex).
+<!-- END: hmi-page-history -->

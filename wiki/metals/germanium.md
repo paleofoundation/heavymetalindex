@@ -145,3 +145,9 @@ Works cited in this page's text, in first-appearance order. See [Sources](#sourc
 - [[sources/amin2026-germanium-optode-food-water|Optode for germanium in foods, water and soil]] (2026; peer-reviewed): germanium values for ten purchased foods in Egypt and analytical method performance.
 - [[sources/jung2013-germanium-biotite-pigs-prrsv|Germanium biotite feed supplement in mice and pigs]] (2013; peer-reviewed): feed-additive context; germanium not measured and effects not attributable to germanium.
 - [[sources/talukdar2015-rice-germanium-tolerance-loci|Germanium tolerance loci in rice]] (2015; peer-reviewed): rice uptake of germanium through silicon transport and seedling toxicity under hydroponic dosing.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+No substantive edit history is available in this build. The full commit record is available in [git](https://github.com/paleofoundation/heavymetalindex).
+<!-- END: hmi-page-history -->
