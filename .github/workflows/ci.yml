@@ -10,6 +10,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - uses: actions/setup-node@v4
         with:
           node-version-file: .node-version
@@ -20,3 +22,8 @@ jobs:
       - run: npm run lint:page-openings
       - run: npm run lint:thin-with-evidence
       - run: npm run check
+      - name: Hero images (no placeholder or fallback on added/changed ingredient, product, metal pages)
+        if: github.event_name == 'pull_request'
+        run: |
+          git fetch --no-tags origin ${{ github.base_ref }}
+          node tools/lint/hero-image-placeholders.mjs --changed origin/${{ github.base_ref }}
