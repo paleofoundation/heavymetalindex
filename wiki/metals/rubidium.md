@@ -1,4 +1,6 @@
 ---
+hero_image: /static/heroes/rubidium-lepidolite-mineral.webp
+hero_image_alt: "Lilac lepidolite mineral specimens, a sealed glass ampoule and a tray of soil illustrating rubidium research context."
 title: Rubidium
 type: metal
 symbol: Rb

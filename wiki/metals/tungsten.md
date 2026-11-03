@@ -1,4 +1,6 @@
 ---
+hero_image: /static/heroes/tungsten-ore-rods.webp
+hero_image_alt: "A dark wolframite ore specimen, slender gray metal rods and a small metal cube illustrating tungsten research context."
 title: Tungsten
 type: metal
 symbol: W

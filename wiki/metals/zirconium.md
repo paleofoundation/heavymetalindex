@@ -1,4 +1,6 @@
 ---
+hero_image: /static/heroes/zirconium-zircon-ceramics.webp
+hero_image_alt: "Amber zircon crystals in a glass dish, pale zircon sand and a white ceramic fragment illustrating zirconium research context."
 title: Zirconium
 type: metal
 symbol: Zr

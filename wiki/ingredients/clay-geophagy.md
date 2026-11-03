@@ -1,4 +1,6 @@
 ---
+hero_image: /static/heroes/mineral-earth-powders-unmarked.webp
+hero_image_alt: "Unmarked dishes of fine mineral earth and clay powders illustrating clay geophagy ingredient context."
 title: Clay and geophagy
 type: ingredient
 commodity: clay-geophagy

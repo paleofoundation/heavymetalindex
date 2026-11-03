@@ -1,4 +1,6 @@
 ---
+hero_image: /static/heroes/rhodiola-rosea.webp
+hero_image_alt: "A whole Rhodiola rosea root with a pinkish cut face, a bowl of dried chopped root and a sprig with succulent leaves and yellow flowers."
 title: Rhodiola rosea
 type: ingredient
 commodity: rhodiola-rosea

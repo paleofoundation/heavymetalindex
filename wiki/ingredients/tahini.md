@@ -1,4 +1,6 @@
 ---
+hero_image: /static/heroes/tahini.webp
+hero_image_alt: "A dark bowl of smooth beige tahini with a spoon beside a small pile of hulled sesame seeds."
 title: Tahini
 type: ingredient
 commodity: tahini

@@ -1,4 +1,6 @@
 ---
+hero_image: /static/heroes/algae.webp
+hero_image_alt: "A bowl of dried kelp seaweed, a dish of dark green spirulina powder and a stack of dried nori sheets."
 title: Algae
 type: ingredient
 commodity: algae

@@ -1,4 +1,6 @@
 ---
+hero_image: /static/heroes/plantains-green-ripe-cut.webp
+hero_image_alt: "Green and ripe plantains beside a plate of peeled plantain slices illustrating plantain ingredient context."
 title: Plantain
 type: ingredient
 commodity: plantain

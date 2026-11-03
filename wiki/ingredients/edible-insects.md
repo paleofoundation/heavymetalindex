@@ -1,4 +1,6 @@
 ---
+hero_image: /static/heroes/edible-insects.webp
+hero_image_alt: "A bowl of roasted crickets, a dish of dried mealworms and a dish of cricket flour on a dark stone surface."
 title: Edible insects
 type: ingredient
 commodity: edible-insects

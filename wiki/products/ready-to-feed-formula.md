@@ -1,4 +1,6 @@
 ---
+hero_image: /static/heroes/liquid-formula-closed-unmarked-bottles.webp
+hero_image_alt: "Closed unmarked bottles of liquid infant formula illustrating ready-to-feed formula product-format context."
 hmtc_subcategory_name: "Infant formula (ready-to-feed, liquid)"
 hmtc_category_name: "Infant and Child Foods"
 type: product-category

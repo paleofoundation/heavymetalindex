@@ -1,4 +1,6 @@
 ---
+hero_image: /static/heroes/okra.webp
+hero_image_alt: "A pile of fresh green okra pods with a few cut pieces showing the star-shaped cross-section and white seeds."
 title: Okra
 type: ingredient
 commodity: okra

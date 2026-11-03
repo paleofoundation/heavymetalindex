@@ -1,4 +1,6 @@
 ---
+hero_image: /static/heroes/cassava-roots-flour.webp
+hero_image_alt: "Whole and cut cassava roots beside a dish of cassava flour illustrating cassava ingredient context."
 title: Cassava
 type: ingredient
 commodity: cassava

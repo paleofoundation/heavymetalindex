@@ -1,4 +1,6 @@
 ---
+hero_image: /static/heroes/rare-earth-ores-oxide-powders.webp
+hero_image_alt: "Dark ore specimens and dishes of white, pink and pale green oxide powders illustrating rare earth elements research context."
 title: Rare Earths
 type: metal
 symbol: REE

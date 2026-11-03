@@ -1,4 +1,6 @@
 ---
+hero_image: /static/heroes/strontium-celestine-water-soil.webp
+hero_image_alt: "A pale blue celestine crystal cluster, a glass of water and a tray of soil illustrating strontium research context."
 title: Strontium
 type: metal
 symbol: Sr

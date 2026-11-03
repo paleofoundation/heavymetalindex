@@ -36,6 +36,7 @@
     "reverse-route:dry-run": "node tools/autonomy/reverse-route-products.mjs",
     "reverse-route:apply": "node tools/autonomy/reverse-route-products.mjs --apply --batch 50",
     "evidence:source-legend": "node tools/evidence/build-source-legend.mjs",
+    "lint:hero-images": "node tools/lint/hero-image-placeholders.mjs",
     "build": "NODE_OPTIONS=--max-old-space-size=8192 ./quartz/bootstrap-cli.mjs build -d wiki -o public",
     "serve": "./quartz/bootstrap-cli.mjs build --serve -d wiki -o public",
     "check": "tsc --noEmit",
