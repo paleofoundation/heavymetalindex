@@ -312,17 +312,43 @@
     padding: 24px 0;
     border-top: 1px solid #e8d9df;
   }
-  .author-works h3 {
+  .author-works-sort {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+    margin: 4px 0 8px;
+    color: #815464;
+    font:
+      12px/1.6 "IBM Plex Mono",
+      monospace;
+  }
+  .author-works-sort select {
+    color: #52283a;
+    background: #fffdfb;
+    border: 1px solid #ead5dd;
+    border-radius: 4px;
+    padding: 6px 10px;
+    font: inherit;
+  }
+  .author-works-sort select:focus-visible {
+    outline: 2px solid #7b153b;
+    outline-offset: 2px;
+  }
+  .author-works h3,
+  .author-works h4 {
     margin: 9px 0 12px;
     font:
       400 21px/1.45 Lora,
       serif;
   }
-  .author-works h3 a {
+  .author-works h3 a,
+  .author-works h4 a {
     color: #70223f;
     text-decoration: none;
   }
-  .author-works h3 a:hover {
+  .author-works h3 a:hover,
+  .author-works h4 a:hover {
     text-decoration: underline;
   }
   .author-work-type {

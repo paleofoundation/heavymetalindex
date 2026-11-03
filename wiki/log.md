@@ -3,6 +3,11 @@ title: Heavy Metal Index — Change Log
 noindex: true
 ---
 
+## [2026-11-03] content | karen-pendergrass author page rebuilt from the public ORCID record
+
+Pages touched: [[authors/karen-pendergrass]], [[about]]
+Notes: Rebuilt the author page from the public ORCID record 0000-0002-2348-7259, retrieved November 3, 2026, and from the verified roles for this page. The record lists 319 works (490 version summaries), 311 of them with a DOI, 3 employment entries, 1 education entry, 1 qualification, 1 invited position, 2 service entries, 36 keywords, and 8 website links. Funding, peer review, distinctions, memberships, and external identifiers are empty on that record and are stated as empty. The Beneficial Microbes talk title and date come from the Zenodo handout 10.5281/zenodo.22637121. No literature value and no certification number was added. Direction: toward the public record.
+
 ## [2026-10-28] content | retired ingredient redirects point at live pages
 
 Pages touched: ingredient and product category pages regenerated from the category builder, including Oils and fats. Spring onion and rice koji are recorded as retired stubs. Their 301s were already in the deploy file and were not in the PR #440 page list.

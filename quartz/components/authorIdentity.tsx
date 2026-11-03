@@ -18,6 +18,51 @@ export const KAREN = {
   ],
 };
 
+export function authorProfileJsonLd(baseUrl: string) {
+  const canonical = `https://${baseUrl}/${KAREN.slug}`;
+  const orcidUrl = `https://orcid.org/${KAREN.orcid}`;
+  return {
+    "@context": "https://schema.org",
+    "@type": "ProfilePage",
+    url: canonical,
+    mainEntity: {
+      "@type": "Person",
+      "@id": `${canonical}#person`,
+      name: KAREN.name,
+      description: KAREN.summary,
+      url: canonical,
+      image: `https://${baseUrl}${KAREN.portrait}`,
+      identifier: {
+        "@type": "PropertyValue",
+        propertyID: "ORCID",
+        value: KAREN.orcid,
+        url: orcidUrl,
+      },
+      sameAs: [
+        orcidUrl,
+        "https://karenpendergrass.com",
+        "https://contaminantstandards.com/people/karen-pendergrass",
+        `https://www.wikibiome.com/researchers/${KAREN.orcid}`,
+      ],
+      jobTitle: [
+        "Founder and Scientific Editor, Heavy Metal Index",
+        "Standards Architect, Heavy Metal Tested and Certified",
+        "Architect, TECRID",
+        "Architect, VLE",
+        "Founder, Institute of Contaminant Standards",
+        "Founder, The Paleo Foundation",
+        "Founder, Microbiome Medicine",
+        "Founder and Scientific Editor, WikiBiome",
+      ],
+      affiliation: KAREN.affiliations.map((a) => ({
+        "@type": "Organization",
+        name: a.name,
+        url: a.url,
+      })),
+    },
+  };
+}
+
 export const OrcidIdIcon = () => (
   <svg
     class="orcid-id-icon"
@@ -99,7 +144,7 @@ export function AuthorProfileHero({ slug, heroImage, heroAlt }: {
         <div class="hero-subject author-profile-portrait">
           <img src={KAREN.portrait} alt={KAREN.name} width="236" height="236" />
           <span class="author-profile-caption">
-            Researcher &amp; standards architect
+            Founder and scientific editor
           </span>
         </div>
         <div class="hero-main">
@@ -118,18 +163,18 @@ export function AuthorProfileHero({ slug, heroImage, heroAlt }: {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <OrcidIdIcon /> ORCID {KAREN.orcid}
+            <OrcidIdIcon /> ORCID iD {KAREN.orcid}
           </a>
           <p class="hero-dek">
-            {KAREN.summary} Architect of the Heavy Metal Index evidence system.
+            Founder and scientific editor of the Heavy Metal Index, and standards architect for Heavy Metal Tested and Certified.
           </p>
           <div class="hero-meta">
             <div class="hero-acts">
-              <a class="hero-act" href="#public-works">
-                Public works
+              <a class="hero-act" href="#publications">
+                Publications
               </a>
-              <a class="hero-act" href="#work-history">
-                Work history
+              <a class="hero-act" href="#public-record">
+                Public record
               </a>
               <a
                 class="hero-act"

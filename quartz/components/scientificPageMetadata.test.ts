@@ -13,7 +13,7 @@ import {
   serializeJsonLd,
   visibleUpdatedDate,
 } from "./scientificPageMetadata";
-import { AuthorPortrait, KAREN } from "./authorIdentity";
+import { AuthorPortrait, KAREN, authorProfileJsonLd } from "./authorIdentity";
 import type { FullSlug } from "../util/path";
 import {
   HMI_ORGANIZATION_ID,
@@ -40,6 +40,20 @@ test("legacy references stop at the next section and missing references remain u
     ),
     undefined,
   );
+});
+
+test("the author profile JSON-LD names the ORCID iD in sameAs", () => {
+  const graph = authorProfileJsonLd("heavymetalindex.com");
+  const person = graph.mainEntity;
+  assert.equal(person["@type"], "Person");
+  assert.equal(person.name, KAREN.name);
+  assert.ok(person.sameAs.includes(`https://orcid.org/${KAREN.orcid}`));
+  assert.equal(person.identifier.propertyID, "ORCID");
+  assert.equal(person.identifier.value, KAREN.orcid);
+  assert.equal(person.identifier.url, `https://orcid.org/${KAREN.orcid}`);
+  const json = JSON.stringify(graph);
+  assert.equal(json.includes("\u2014"), false);
+  assert.equal(json.includes("\u2013"), false);
 });
 
 test("the author portrait resolves under a mounted preview path", () => {
