@@ -1,0 +1,31 @@
+{
+  "entries": [
+    {
+      "source_id": "eu-2023-915-contaminants-maximum-levels",
+      "jurisdiction": "EU",
+      "analyte": "Cd",
+      "value": 1000,
+      "unit": "µg/kg",
+      "applies_to": "food supplements",
+      "basis": "as placed on the market; this is the supplement row, not a rice-protein row"
+    },
+    {
+      "source_id": "eu-2023-915-contaminants-maximum-levels",
+      "jurisdiction": "EU",
+      "analyte": "iAs",
+      "value": 150,
+      "unit": "µg/kg",
+      "applies_to": "non-parboiled milled rice (a grain row, not rice protein)",
+      "basis": "rice as defined in the regulation"
+    },
+    {
+      "source_id": "eu-2023-915-contaminants-maximum-levels",
+      "jurisdiction": "EU",
+      "analyte": "Cd",
+      "value": 150,
+      "unit": "µg/kg",
+      "applies_to": "rice, quinoa, wheat bran and wheat gluten (a commodity row, not rice protein)",
+      "basis": "commodity row"
+    }
+  ]
+}

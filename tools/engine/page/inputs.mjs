@@ -321,8 +321,10 @@ export function loadStore(page) {
       decision_basis: 'primary_text', locators: [{ artifact, sha256: shaFile(artifact), kind: 'page', location: x.disposition_locator || 'whole document' }], result_findings: [],
       ...(retrievalFrom(x, sid) ? { retrieval_attempts: retrievalFrom(x, sid).attempts, retrieval_request: retrievalFrom(x, sid).request } : {}) };
   };
+  const regPath = `data/evidence/engine/${page.family}/${page.slug}/regulatory.json`;
+  const regulatory = exists(regPath) ? (json(regPath).entries ?? []) : [];
   return { origin: `store:${p}`, dir: null, page, sources, findings, decisions, rowDecision, sourceDecision, legacy_finding_ids: [], gems_records: monitoring.gemsRecords, gems_records_path: null,
-    controls: [...sources.values()].flatMap(s => s.controls ?? []).filter(c => c?.source_id && c?.outcomes), regulatory: [] };
+    controls: [...sources.values()].flatMap(s => s.controls ?? []).filter(c => c?.source_id && c?.outcomes), regulatory };
 }
 
 // The recorded legacy evidence stays authoritative for a page until the store covers

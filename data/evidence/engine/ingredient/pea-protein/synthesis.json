@@ -1,0 +1,799 @@
+{
+  "synthesis_id": "engine-ingredient-pea-protein-v1",
+  "family": "ingredient",
+  "slug": "pea-protein",
+  "title": "Pea protein",
+  "display_title": "Pea protein",
+  "version": 1,
+  "date": "2026-11-03",
+  "description": "Lead, cadmium and total mercury in pea protein: monitoring results, studies, references by form and basis, limits, testing and controls.",
+  "lede": "",
+  "article_lede": false,
+  "citation_style": "compact",
+  "citation_placement": "sentence",
+  "sections": [
+    {
+      "id": "summary",
+      "answers": [
+        {
+          "text": "Pea protein in the HMI library has 18 reported results for lead, cadmium, total mercury, nickel, chromium and tin from 2 sources.",
+          "source_keys": [
+            "ring2021-ireland-protein-powders-metals",
+            "lopezcalabozo2025-vegetable-protein-concentrates"
+          ],
+          "citation_spans": [
+            {
+              "after": "Pea protein in the HMI library has 18 reported results for lead, cadmium, total mercury, nickel, chromium and tin from 2 sources.",
+              "source_keys": [
+                "ring2021-ireland-protein-powders-metals",
+                "lopezcalabozo2025-vegetable-protein-concentrates"
+              ]
+            }
+          ],
+          "kind": "evidence",
+          "question_id": "HMI-ING-004",
+          "presentation": "record_only",
+          "public_context_section": "summary",
+          "passages": [
+            {
+              "text": "The library reports lead, cadmium, total mercury, nickel, chromium and tin in pea protein, most often lead, cadmium and total mercury.",
+              "source_keys": [
+                "ring2021-ireland-protein-powders-metals",
+                "lopezcalabozo2025-vegetable-protein-concentrates"
+              ],
+              "citation_spans": [
+                {
+                  "after": "The library reports lead, cadmium, total mercury, nickel, chromium and tin in pea protein, most often lead, cadmium and total mercury.",
+                  "source_keys": [
+                    "ring2021-ireland-protein-powders-metals",
+                    "lopezcalabozo2025-vegetable-protein-concentrates"
+                  ]
+                }
+              ],
+              "question": "What heavy metals are found in pea protein?",
+              "placement": "universal_faq"
+            },
+            {
+              "text": "The EU sets a maximum of 100 µg/kg cadmium for proteins from pulses (as set for that ingredient row). It sets 1,000 µg/kg cadmium for food supplements (as placed on the market, when the product is sold as a food supplement).",
+              "source_keys": [
+                "eu-2023-915-contaminants-maximum-levels"
+              ],
+              "citation_spans": [
+                {
+                  "after": "The EU sets a maximum of 100 µg/kg cadmium for proteins from pulses (as set for that ingredient row).",
+                  "source_keys": [
+                    "eu-2023-915-contaminants-maximum-levels"
+                  ]
+                },
+                {
+                  "after": "It sets 1,000 µg/kg cadmium for food supplements (as placed on the market, when the product is sold as a food supplement).",
+                  "source_keys": [
+                    "eu-2023-915-contaminants-maximum-levels"
+                  ]
+                }
+              ],
+              "question": "Are there legal limits for heavy metals in pea protein?",
+              "placement": "universal_faq"
+            }
+          ]
+        },
+        {
+          "text": "The EU sets a maximum of 100 µg/kg cadmium for proteins from pulses (as set for that ingredient row).",
+          "source_keys": [
+            "eu-2023-915-contaminants-maximum-levels"
+          ],
+          "citation_spans": [
+            {
+              "after": "The EU sets a maximum of 100 µg/kg cadmium for proteins from pulses (as set for that ingredient row).",
+              "source_keys": [
+                "eu-2023-915-contaminants-maximum-levels"
+              ]
+            }
+          ],
+          "kind": "evidence",
+          "question_id": "HMI-ING-005",
+          "presentation": "record_only",
+          "public_context_section": "summary"
+        },
+        {
+          "text": "The EU sets a maximum of 100 µg/kg cadmium for proteins from pulses (as set for that ingredient row).",
+          "source_keys": [],
+          "kind": "unresolved",
+          "question_id": "HMI-ING-006",
+          "presentation": "record_only",
+          "public_context_section": "summary"
+        }
+      ],
+      "presentation": {
+        "text": "Pea protein in the HMI library has 18 reported results for lead, cadmium, total mercury, nickel, chromium and tin from 2 sources.",
+        "source_keys": [
+          "ring2021-ireland-protein-powders-metals",
+          "lopezcalabozo2025-vegetable-protein-concentrates"
+        ],
+        "citation_spans": [
+          {
+            "after": "Pea protein in the HMI library has 18 reported results for lead, cadmium, total mercury, nickel, chromium and tin from 2 sources.",
+            "source_keys": [
+              "ring2021-ireland-protein-powders-metals",
+              "lopezcalabozo2025-vegetable-protein-concentrates"
+            ]
+          }
+        ],
+        "narrative": "overview_and_questions",
+        "passages": [
+          {
+            "text": "",
+            "source_keys": []
+          },
+          {
+            "text": "For a buyer the practical points are the form bought, the basis a result is reported on, where the pea protein came from and the laboratory’s reporting limit. The EU sets a maximum of 100 µg/kg cadmium for proteins from pulses (as set for that ingredient row). Testing finds contamination but does not remove it.",
+            "source_keys": [
+              "eu-2023-915-contaminants-maximum-levels"
+            ],
+            "citation_spans": [
+              {
+                "after": "The EU sets a maximum of 100 µg/kg cadmium for proteins from pulses (as set for that ingredient row).",
+                "source_keys": [
+                  "eu-2023-915-contaminants-maximum-levels"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "identity",
+      "answers": [
+        {
+          "text": "This page covers pea protein in 2 forms kept separate in every comparison: pea protein, powder or ground (10 results) and pea protein, as sold (8 results).",
+          "source_keys": [
+            "ring2021-ireland-protein-powders-metals",
+            "lopezcalabozo2025-vegetable-protein-concentrates"
+          ],
+          "citation_spans": [
+            {
+              "after": "This page covers pea protein in 2 forms kept separate in every comparison: pea protein, powder or ground (10 results) and pea protein, as sold (8 results).",
+              "source_keys": [
+                "ring2021-ireland-protein-powders-metals",
+                "lopezcalabozo2025-vegetable-protein-concentrates"
+              ]
+            }
+          ],
+          "kind": "evidence",
+          "question_id": "HMI-ING-001",
+          "presentation": "record_only",
+          "public_context_section": "identity"
+        },
+        {
+          "text": "Results stay on the basis each source reports: as sold or fresh weight, dry weight, or unstated.",
+          "source_keys": [],
+          "kind": "unresolved",
+          "question_id": "HMI-ING-002",
+          "presentation": "record_only",
+          "public_context_section": "identity"
+        },
+        {
+          "text": "Dry-weight, as-sold and unstated results are never pooled, and no moisture conversion is applied.",
+          "source_keys": [],
+          "kind": "unresolved",
+          "question_id": "HMI-ING-003",
+          "presentation": "record_only",
+          "public_context_section": "identity"
+        }
+      ],
+      "presentation": {
+        "text": "This page covers pea protein in 2 forms kept separate in every comparison: pea protein, powder or ground (10 results) and pea protein, as sold (8 results).",
+        "source_keys": [
+          "ring2021-ireland-protein-powders-metals",
+          "lopezcalabozo2025-vegetable-protein-concentrates"
+        ],
+        "citation_spans": [
+          {
+            "after": "This page covers pea protein in 2 forms kept separate in every comparison: pea protein, powder or ground (10 results) and pea protein, as sold (8 results).",
+            "source_keys": [
+              "ring2021-ireland-protein-powders-metals",
+              "lopezcalabozo2025-vegetable-protein-concentrates"
+            ]
+          }
+        ],
+        "narrative": "overview_and_questions",
+        "passages": [
+          {
+            "text": "Results stay on the basis each source reports: as sold or fresh weight, dry weight, or unstated. Dry-weight, as-sold and unstated results are never pooled, and no moisture conversion is applied.",
+            "source_keys": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "occurrence",
+      "answers": [
+        {
+          "text": "The table holds every extracted pea protein result: one row for each statistic a source reports for a form, group and metal, 18 rows in all, grouped by metal and form; percentiles, ranges and maxima for the same samples as a mean or median are shown on that row.",
+          "source_keys": [
+            "ring2021-ireland-protein-powders-metals",
+            "lopezcalabozo2025-vegetable-protein-concentrates"
+          ],
+          "citation_spans": [
+            {
+              "after": "The table holds every extracted pea protein result: one row for each statistic a source reports for a form, group and metal, 18 rows in all, grouped by metal and form; percentiles, ranges and maxima for the same samples as a mean or median are shown on that row.",
+              "source_keys": [
+                "ring2021-ireland-protein-powders-metals",
+                "lopezcalabozo2025-vegetable-protein-concentrates"
+              ]
+            }
+          ],
+          "kind": "evidence",
+          "question_id": "HMI-ING-007",
+          "presentation": "record_only",
+          "public_context_section": "occurrence"
+        },
+        {
+          "text": "Monitoring medians are HMI calculations from individual submissions; non-detects remain intervals between zero and the reporting limit and are never read as zero.",
+          "source_keys": [],
+          "kind": "unresolved",
+          "question_id": "HMI-ING-008",
+          "presentation": "record_only",
+          "public_context_section": "occurrence"
+        },
+        {
+          "text": "0 rows can be rated against an HMI reference for the same form and basis, 0 rows have a direct same-study comparison, and the rest stay unrated with the reason recorded.",
+          "source_keys": [],
+          "kind": "unresolved",
+          "question_id": "HMI-ING-009",
+          "presentation": "record_only",
+          "public_context_section": "occurrence"
+        }
+      ],
+      "presentation": {
+        "text": "The table holds every extracted pea protein result: one row for each statistic a source reports for a form, group and metal, 18 rows in all, grouped by metal and form; percentiles, ranges and maxima for the same samples as a mean or median are shown on that row. Monitoring medians are HMI calculations from individual submissions; non-detects remain intervals between zero and the reporting limit and are never read as zero.",
+        "source_keys": [
+          "ring2021-ireland-protein-powders-metals",
+          "lopezcalabozo2025-vegetable-protein-concentrates"
+        ],
+        "citation_spans": [
+          {
+            "after": "The table holds every extracted pea protein result: one row for each statistic a source reports for a form, group and metal, 18 rows in all, grouped by metal and form; percentiles, ranges and maxima for the same samples as a mean or median are shown on that row.",
+            "source_keys": [
+              "ring2021-ireland-protein-powders-metals",
+              "lopezcalabozo2025-vegetable-protein-concentrates"
+            ]
+          }
+        ],
+        "narrative": "overview_and_questions",
+        "passages": [
+          {
+            "text": "0 rows can be rated against an HMI reference for the same form and basis, 0 rows have a direct same-study comparison, and the rest stay unrated with the reason recorded.",
+            "source_keys": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "pathways",
+      "answers": [
+        {
+          "text": "No study in the library compared pea protein from contaminated and ordinary settings, so the routes by which metals reach it are not measured here.",
+          "source_keys": [],
+          "kind": "unresolved",
+          "question_id": "HMI-ING-010",
+          "presentation": "record_only",
+          "public_context_section": "pathways"
+        },
+        {
+          "text": "No study in the library compared pea protein from contaminated and ordinary settings, so the routes by which metals reach it are not measured here.",
+          "source_keys": [],
+          "kind": "unresolved",
+          "question_id": "HMI-ING-011",
+          "presentation": "record_only",
+          "public_context_section": "pathways"
+        },
+        {
+          "text": "No study in the library compared pea protein from contaminated and ordinary settings, so the routes by which metals reach it are not measured here.",
+          "source_keys": [],
+          "kind": "unresolved",
+          "question_id": "HMI-ING-012",
+          "presentation": "record_only",
+          "public_context_section": "pathways"
+        }
+      ],
+      "presentation": {
+        "text": "No study in the library compared pea protein from contaminated and ordinary settings, so the routes by which metals reach it are not measured here.",
+        "source_keys": [],
+        "narrative": "overview_and_questions",
+        "passages": []
+      }
+    },
+    {
+      "id": "variation",
+      "answers": [
+        {
+          "text": "The pea protein evidence does not yet support a reference-based comparison of forms or regions.",
+          "source_keys": [],
+          "kind": "unresolved",
+          "question_id": "HMI-ING-013",
+          "presentation": "record_only",
+          "public_context_section": "variation"
+        },
+        {
+          "text": "The pea protein evidence does not yet support a reference-based comparison of forms or regions.",
+          "source_keys": [],
+          "kind": "unresolved",
+          "question_id": "HMI-ING-014",
+          "presentation": "record_only",
+          "public_context_section": "variation"
+        },
+        {
+          "text": "The pea protein evidence does not yet support a reference-based comparison of forms or regions.",
+          "source_keys": [],
+          "kind": "unresolved",
+          "question_id": "HMI-ING-015",
+          "presentation": "record_only",
+          "public_context_section": "variation"
+        }
+      ],
+      "presentation": {
+        "text": "The pea protein evidence does not yet support a reference-based comparison of forms or regions.",
+        "source_keys": [],
+        "narrative": "overview_and_questions",
+        "passages": []
+      }
+    },
+    {
+      "id": "processing",
+      "answers": [
+        {
+          "text": "No study in the library measured the same pea protein before and after washing, peeling, drying or cooking for metals, so no processing effect can be stated.",
+          "source_keys": [],
+          "kind": "unresolved",
+          "question_id": "HMI-ING-016",
+          "presentation": "record_only",
+          "public_context_section": "processing"
+        },
+        {
+          "text": "Heat does not destroy metals; cooking or drying changes a concentration by moving water or metal, not by removing the element.",
+          "source_keys": [],
+          "kind": "unresolved",
+          "question_id": "HMI-ING-017",
+          "presentation": "record_only",
+          "public_context_section": "processing"
+        },
+        {
+          "text": "No study in the library measured the same pea protein before and after washing, peeling, drying or cooking for metals, so no processing effect can be stated.",
+          "source_keys": [],
+          "kind": "unresolved",
+          "question_id": "HMI-ING-018",
+          "presentation": "record_only",
+          "public_context_section": "processing"
+        }
+      ],
+      "presentation": {
+        "text": "No study in the library measured the same pea protein before and after washing, peeling, drying or cooking for metals, so no processing effect can be stated. Heat does not destroy metals; cooking or drying changes a concentration by moving water or metal, not by removing the element.",
+        "source_keys": [],
+        "narrative": "overview_and_questions",
+        "passages": []
+      }
+    },
+    {
+      "id": "controls",
+      "answers": [
+        {
+          "text": "No control for metals in pea protein was measured in the library; lot testing against the applicable limit remains the verifiable step.",
+          "source_keys": [],
+          "kind": "unresolved",
+          "question_id": "HMI-ING-019",
+          "presentation": "record_only",
+          "public_context_section": "controls"
+        },
+        {
+          "text": "No control for metals in pea protein was measured in the library; lot testing against the applicable limit remains the verifiable step.",
+          "source_keys": [],
+          "kind": "unresolved",
+          "question_id": "HMI-ING-020",
+          "presentation": "record_only",
+          "public_context_section": "controls"
+        },
+        {
+          "text": "No control for metals in pea protein was measured in the library; lot testing against the applicable limit remains the verifiable step.",
+          "source_keys": [],
+          "kind": "unresolved",
+          "question_id": "HMI-ING-021",
+          "presentation": "record_only",
+          "public_context_section": "controls"
+        }
+      ],
+      "presentation": {
+        "text": "No control for metals in pea protein was measured in the library; lot testing against the applicable limit remains the verifiable step.",
+        "source_keys": [],
+        "narrative": "overview_and_questions",
+        "passages": []
+      }
+    },
+    {
+      "id": "tradeoffs",
+      "answers": [
+        {
+          "text": "Metals do not move together, so a lot that passes a lead limit says little about cadmium, arsenic or nickel unless those are tested as well.",
+          "source_keys": [],
+          "kind": "unresolved",
+          "question_id": "HMI-ING-022",
+          "presentation": "record_only",
+          "public_context_section": "tradeoffs"
+        },
+        {
+          "text": "Metals do not move together, so a lot that passes a lead limit says little about cadmium, arsenic or nickel unless those are tested as well.",
+          "source_keys": [],
+          "kind": "unresolved",
+          "question_id": "HMI-ING-023",
+          "presentation": "record_only",
+          "public_context_section": "tradeoffs"
+        },
+        {
+          "text": "Metals do not move together, so a lot that passes a lead limit says little about cadmium, arsenic or nickel unless those are tested as well.",
+          "source_keys": [],
+          "kind": "unresolved",
+          "question_id": "HMI-ING-024",
+          "presentation": "record_only",
+          "public_context_section": "tradeoffs"
+        }
+      ],
+      "presentation": {
+        "text": "Metals do not move together, so a lot that passes a lead limit says little about cadmium, arsenic or nickel unless those are tested as well.",
+        "source_keys": [],
+        "narrative": "overview_and_questions",
+        "passages": []
+      }
+    },
+    {
+      "id": "testing",
+      "answers": [
+        {
+          "text": "Reporting limits for lead were 0.026 µg/kg where sources stated them.",
+          "source_keys": [
+            "lopezcalabozo2025-vegetable-protein-concentrates"
+          ],
+          "citation_spans": [
+            {
+              "after": "Reporting limits for lead were 0.026 µg/kg where sources stated them.",
+              "source_keys": [
+                "lopezcalabozo2025-vegetable-protein-concentrates"
+              ]
+            }
+          ],
+          "kind": "evidence",
+          "question_id": "HMI-ING-025",
+          "presentation": "record_only",
+          "public_context_section": "testing"
+        },
+        {
+          "text": "Reporting limits for cadmium were 0.015 µg/kg where sources stated them.",
+          "source_keys": [
+            "lopezcalabozo2025-vegetable-protein-concentrates"
+          ],
+          "citation_spans": [
+            {
+              "after": "Reporting limits for cadmium were 0.015 µg/kg where sources stated them.",
+              "source_keys": [
+                "lopezcalabozo2025-vegetable-protein-concentrates"
+              ]
+            }
+          ],
+          "kind": "evidence",
+          "question_id": "HMI-ING-026",
+          "presentation": "record_only",
+          "public_context_section": "testing"
+        },
+        {
+          "text": "A useful lot result names the form, the basis and a quantification limit well below the limit that applies.",
+          "source_keys": [
+            "eu-2023-915-contaminants-maximum-levels"
+          ],
+          "citation_spans": [
+            {
+              "after": "A useful lot result names the form, the basis and a quantification limit well below the limit that applies.",
+              "source_keys": [
+                "eu-2023-915-contaminants-maximum-levels"
+              ]
+            }
+          ],
+          "kind": "evidence",
+          "question_id": "HMI-ING-027",
+          "presentation": "record_only",
+          "public_context_section": "testing"
+        }
+      ],
+      "presentation": {
+        "text": "Results depend on the method and its reporting limit. Reporting limits for lead were 0.026 µg/kg where sources stated them. Reporting limits for cadmium were 0.015 µg/kg where sources stated them.",
+        "source_keys": [
+          "lopezcalabozo2025-vegetable-protein-concentrates"
+        ],
+        "citation_spans": [
+          {
+            "after": "Reporting limits for lead were 0.026 µg/kg where sources stated them.",
+            "source_keys": [
+              "lopezcalabozo2025-vegetable-protein-concentrates"
+            ]
+          },
+          {
+            "after": "Reporting limits for cadmium were 0.015 µg/kg where sources stated them.",
+            "source_keys": [
+              "lopezcalabozo2025-vegetable-protein-concentrates"
+            ]
+          }
+        ],
+        "narrative": "overview_and_questions",
+        "passages": [
+          {
+            "text": "A useful lot result names the form, the basis and a quantification limit well below the limit that applies.",
+            "source_keys": [
+              "eu-2023-915-contaminants-maximum-levels"
+            ],
+            "citation_spans": [
+              {
+                "after": "A useful lot result names the form, the basis and a quantification limit well below the limit that applies.",
+                "source_keys": [
+                  "eu-2023-915-contaminants-maximum-levels"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "procurement",
+      "answers": [
+        {
+          "text": "The EU sets a maximum of 100 µg/kg cadmium for proteins from pulses (as set for that ingredient row).",
+          "source_keys": [
+            "eu-2023-915-contaminants-maximum-levels"
+          ],
+          "citation_spans": [
+            {
+              "after": "The EU sets a maximum of 100 µg/kg cadmium for proteins from pulses (as set for that ingredient row).",
+              "source_keys": [
+                "eu-2023-915-contaminants-maximum-levels"
+              ]
+            }
+          ],
+          "kind": "evidence",
+          "question_id": "HMI-ING-028",
+          "presentation": "record_only",
+          "public_context_section": "procurement"
+        },
+        {
+          "text": "It sets 1,000 µg/kg cadmium for food supplements (as placed on the market, when the product is sold as a food supplement).",
+          "source_keys": [
+            "eu-2023-915-contaminants-maximum-levels"
+          ],
+          "citation_spans": [
+            {
+              "after": "It sets 1,000 µg/kg cadmium for food supplements (as placed on the market, when the product is sold as a food supplement).",
+              "source_keys": [
+                "eu-2023-915-contaminants-maximum-levels"
+              ]
+            }
+          ],
+          "kind": "evidence",
+          "question_id": "HMI-ING-029",
+          "presentation": "record_only",
+          "public_context_section": "procurement"
+        },
+        {
+          "text": "The EU sets a maximum of 100 µg/kg cadmium for proteins from pulses (as set for that ingredient row).",
+          "source_keys": [],
+          "kind": "unresolved",
+          "question_id": "HMI-ING-030",
+          "presentation": "record_only",
+          "public_context_section": "procurement"
+        }
+      ],
+      "presentation": {
+        "text": "The EU sets a maximum of 100 µg/kg cadmium for proteins from pulses (as set for that ingredient row). It sets 1,000 µg/kg cadmium for food supplements (as placed on the market, when the product is sold as a food supplement).",
+        "source_keys": [
+          "eu-2023-915-contaminants-maximum-levels"
+        ],
+        "citation_spans": [
+          {
+            "after": "The EU sets a maximum of 100 µg/kg cadmium for proteins from pulses (as set for that ingredient row).",
+            "source_keys": [
+              "eu-2023-915-contaminants-maximum-levels"
+            ]
+          },
+          {
+            "after": "It sets 1,000 µg/kg cadmium for food supplements (as placed on the market, when the product is sold as a food supplement).",
+            "source_keys": [
+              "eu-2023-915-contaminants-maximum-levels"
+            ]
+          }
+        ],
+        "narrative": "overview_and_questions",
+        "passages": []
+      }
+    },
+    {
+      "id": "product",
+      "answers": [
+        {
+          "text": "No source in the library converted pea protein concentrations into a verified estimate of intake for a defined population.",
+          "source_keys": [],
+          "kind": "unresolved",
+          "question_id": "HMI-ING-031",
+          "presentation": "record_only",
+          "public_context_section": "product"
+        },
+        {
+          "text": "Concentrations describe the food, not individual risk.",
+          "source_keys": [],
+          "kind": "unresolved",
+          "question_id": "HMI-ING-032",
+          "presentation": "record_only",
+          "public_context_section": "product"
+        },
+        {
+          "text": "No source in the library converted pea protein concentrations into a verified estimate of intake for a defined population.",
+          "source_keys": [],
+          "kind": "unresolved",
+          "question_id": "HMI-ING-033",
+          "presentation": "record_only",
+          "public_context_section": "product"
+        }
+      ],
+      "presentation": {
+        "text": "No source in the library converted pea protein concentrations into a verified estimate of intake for a defined population. Concentrations describe the food, not individual risk.",
+        "source_keys": [],
+        "narrative": "overview_and_questions",
+        "passages": []
+      }
+    },
+    {
+      "id": "assessment",
+      "answers": [
+        {
+          "text": "Every source record that names pea protein was decided on its content: 2 occurrence extracted, 2 records in all.",
+          "source_keys": [],
+          "kind": "unresolved",
+          "question_id": "HMI-ING-034",
+          "presentation": "record_only",
+          "public_context_section": "assessment"
+        },
+        {
+          "text": "The occurrence table renders every extracted result; held values remain visible with their reason.",
+          "source_keys": [],
+          "kind": "unresolved",
+          "question_id": "HMI-ING-035",
+          "presentation": "record_only",
+          "public_context_section": "assessment"
+        },
+        {
+          "text": "Every source record that names pea protein was decided on its content: 2 occurrence extracted, 2 records in all.",
+          "source_keys": [],
+          "kind": "unresolved",
+          "question_id": "HMI-ING-036",
+          "presentation": "record_only",
+          "public_context_section": "assessment"
+        }
+      ],
+      "presentation": {
+        "text": "Every source record that names pea protein was decided on its content: 2 occurrence extracted, 2 records in all. The occurrence table renders every extracted result; held values remain visible with their reason.",
+        "source_keys": [],
+        "narrative": "overview_and_questions",
+        "passages": []
+      }
+    }
+  ],
+  "section_headings": {
+    "summary": "Pea protein overview",
+    "identity": "What counts as pea protein",
+    "occurrence": "Heavy metal contamination profile of pea protein",
+    "pathways": "How metals reach pea protein",
+    "variation": "Which forms and regions measured lower",
+    "processing": "Processing, cooking and preparation",
+    "controls": "Mitigation for pea protein",
+    "tradeoffs": "Trade-offs and limits of controls",
+    "testing": "Testing pea protein for metals",
+    "procurement": "Buying and verifying pea protein",
+    "product": "Exposure from pea protein",
+    "assessment": "Evidence review and remaining gaps"
+  },
+  "universal_faqs": {
+    "title": "Pea protein FAQs",
+    "aliases": []
+  },
+  "scope": {
+    "analytes": "Pb, Cd, tHg, Ni, Cr and Sn",
+    "material_form": "Pea protein, powder or ground and Pea protein, as sold",
+    "basis": "As reported; µg/kg; no moisture conversion",
+    "geography_market": "Reporting region, purchase market or growing area as each source reports",
+    "period": "Source collection years where reported; unreported dates stay unknown",
+    "stage": "Growing area, processing, retail and release testing",
+    "population_route": "Dietary ingestion",
+    "comparator_outcome": "HMI references by form and basis; same-study site, sampling and form contrasts"
+  },
+  "search": {
+    "status": "in_progress",
+    "scope": "Every source record and indexed dataset row that names pea protein",
+    "protocol_ref": "data/evidence/engine/ingredient/pea-protein/evidence-ledger.json",
+    "record_refs": [
+      "data/evidence/engine/ingredient/pea-protein/synthesis.json"
+    ],
+    "screening_ref": "data/evidence/engine/ingredient/pea-protein/evidence-ledger.json",
+    "searched_through": "2026-11-03",
+    "limitations": [
+      "Existing HMI library only; no new external literature search"
+    ],
+    "unresolved_access": []
+  },
+  "source_catalogue": {
+    "topic": "ingredients/pea-protein"
+  },
+  "retain_history_only": true,
+  "quick_read": {
+    "text": "Pea protein in the HMI library has 18 reported results for lead, cadmium, total mercury, nickel, chromium and tin from 2 sources.",
+    "source_keys": [
+      "ring2021-ireland-protein-powders-metals",
+      "lopezcalabozo2025-vegetable-protein-concentrates"
+    ],
+    "citation_spans": [
+      {
+        "after": "Pea protein in the HMI library has 18 reported results for lead, cadmium, total mercury, nickel, chromium and tin from 2 sources.",
+        "source_keys": [
+          "ring2021-ireland-protein-powders-metals",
+          "lopezcalabozo2025-vegetable-protein-concentrates"
+        ]
+      }
+    ],
+    "facets": [
+      {
+        "label": "Metals measured",
+        "text": "Lead, cadmium, total mercury, nickel, chromium and tin, in 18 results from 2 sources.",
+        "source_keys": [
+          "ring2021-ireland-protein-powders-metals",
+          "lopezcalabozo2025-vegetable-protein-concentrates"
+        ],
+        "citation_spans": [
+          {
+            "after": "Lead, cadmium, total mercury, nickel, chromium and tin, in 18 results from 2 sources.",
+            "source_keys": [
+              "ring2021-ireland-protein-powders-metals",
+              "lopezcalabozo2025-vegetable-protein-concentrates"
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Main drivers",
+        "text": "Form, basis and where the pea protein was sampled; reporting limits decide how many results are non-detects.",
+        "source_keys": [
+          "ring2021-ireland-protein-powders-metals",
+          "lopezcalabozo2025-vegetable-protein-concentrates"
+        ],
+        "citation_spans": [
+          {
+            "after": "Form, basis and where the pea protein was sampled; reporting limits decide how many results are non-detects.",
+            "source_keys": [
+              "ring2021-ireland-protein-powders-metals",
+              "lopezcalabozo2025-vegetable-protein-concentrates"
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Practical framing",
+        "text": "The EU sets a maximum of 100 µg/kg cadmium for proteins from pulses (as set for that ingredient row).",
+        "source_keys": [
+          "eu-2023-915-contaminants-maximum-levels"
+        ],
+        "citation_spans": [
+          {
+            "after": "The EU sets a maximum of 100 µg/kg cadmium for proteins from pulses (as set for that ingredient row).",
+            "source_keys": [
+              "eu-2023-915-contaminants-maximum-levels"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

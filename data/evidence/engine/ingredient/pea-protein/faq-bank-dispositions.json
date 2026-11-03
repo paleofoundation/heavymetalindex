@@ -1,0 +1,101 @@
+{
+  "selected_count": 2,
+  "bank": [
+    {
+      "id": "ING-FAQ-01",
+      "status": "selected",
+      "question": "What heavy metals are found in pea protein?",
+      "answer_locator": "What heavy metals are found in pea protein?",
+      "primary_locator": "Occurrence table",
+      "source_keys": [
+        "ring2021-ireland-protein-powders-metals",
+        "lopezcalabozo2025-vegetable-protein-concentrates"
+      ]
+    },
+    {
+      "id": "ING-FAQ-02",
+      "status": "not_applicable",
+      "reason": "No study compares exposed and ordinary settings for this food."
+    },
+    {
+      "id": "ING-FAQ-03",
+      "status": "not_applicable",
+      "reason": "No study in the ledger compares organic and conventional production for metals."
+    },
+    {
+      "id": "ING-FAQ-04",
+      "status": "not_applicable",
+      "reason": "No two forms have comparable eligible references for the same metal."
+    },
+    {
+      "id": "ING-FAQ-05",
+      "status": "not_applicable",
+      "reason": "No comparable regional medians or same-study group comparisons."
+    },
+    {
+      "id": "ING-FAQ-06",
+      "status": "not_applicable",
+      "reason": "Derived products have their own pages."
+    },
+    {
+      "id": "ING-FAQ-07",
+      "status": "deferred",
+      "reason": "No exposure assessment in the ledger."
+    },
+    {
+      "id": "ING-FAQ-08",
+      "status": "selected",
+      "question": "Are there legal limits for heavy metals in pea protein?",
+      "answer_locator": "Are there legal limits for heavy metals in pea protein?",
+      "primary_locator": "Verified regulatory entries",
+      "source_keys": [
+        "eu-2023-915-contaminants-maximum-levels"
+      ]
+    },
+    {
+      "id": "ING-FAQ-09",
+      "status": "not_applicable",
+      "reason": "No processing comparison in the ledger."
+    },
+    {
+      "id": "ING-FAQ-10",
+      "status": "not_applicable",
+      "reason": "Arsenic species were not both measured."
+    },
+    {
+      "id": "ING-FAQ-11",
+      "status": "deferred",
+      "reason": "Needs a direct comparison or authoritative guidance that the ledger does not contain for this food."
+    },
+    {
+      "id": "ING-FAQ-12",
+      "status": "deferred",
+      "reason": "Needs a direct comparison or authoritative guidance that the ledger does not contain for this food."
+    },
+    {
+      "id": "ING-FAQ-13",
+      "status": "deferred",
+      "reason": "Needs a direct comparison or authoritative guidance that the ledger does not contain for this food."
+    },
+    {
+      "id": "ING-FAQ-14",
+      "status": "deferred",
+      "reason": "Needs a direct comparison or authoritative guidance that the ledger does not contain for this food."
+    },
+    {
+      "id": "ING-FAQ-15",
+      "status": "deferred",
+      "reason": "Needs a direct comparison or authoritative guidance that the ledger does not contain for this food."
+    },
+    {
+      "id": "ING-FAQ-16",
+      "status": "deferred",
+      "reason": "Needs a direct comparison or authoritative guidance that the ledger does not contain for this food."
+    },
+    {
+      "id": "ING-FAQ-17",
+      "status": "deferred",
+      "reason": "Needs a direct comparison or authoritative guidance that the ledger does not contain for this food."
+    }
+  ]
+}

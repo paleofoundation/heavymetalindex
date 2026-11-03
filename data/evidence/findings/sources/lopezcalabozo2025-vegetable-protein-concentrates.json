@@ -1,0 +1,23 @@
+{
+  "source_id": "lopezcalabozo2025-vegetable-protein-concentrates",
+  "primary_artifact": null,
+  "primary_sha256": null,
+  "extracted_at": "2026-11-03",
+  "extractor": "verified-europepmc-jats",
+  "disposition": "occurrence_extracted",
+  "extraction_scope": "rice-and-pea-rows",
+  "disposition_reason": "Mineral table read from Europe PMC PMC11816949. Soybean columns are not rice or pea protein.",
+  "disposition_locator": "Mineral composition table",
+  "study": {
+    "design": "Duplicate purchases of commercial protein concentrates",
+    "origin": "not stated",
+    "market": "Online shops; laboratory in Zamora, Spain. Growing origin not stated.",
+    "period": {
+      "as_reported": "Each product bought twice, six months apart. Calendar years not stated."
+    },
+    "method": "ICP-MS after microwave nitric acid digestion",
+    "basis": "unknown",
+    "site_context": "market",
+    "sampling_unit": "duplicate purchases"
+  }
+}
