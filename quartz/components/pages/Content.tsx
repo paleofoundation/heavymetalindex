@@ -9,10 +9,12 @@ import {
 // through Content so Quartz includes it in the shared browser bundle.
 // @ts-ignore — resolved by Quartz's inline-script loader
 import authorCardScript from "../scripts/authorCard.inline";
+// @ts-ignore - resolved by Quartz's inline-script loader
+import authorWorksScript from "../scripts/authorWorks.inline";
 // @ts-ignore — inline resource bundled by Quartz
 import analyteExplorerScript from "../scripts/analyteExplorer.inline";
 import analyteExplorerStyle from "../styles/analyteExplorer.scss";
-import { KAREN } from "../authorIdentity";
+import { KAREN, authorProfileJsonLd } from "../authorIdentity";
 
 const Content: QuartzComponent = ({
   fileData,
@@ -23,34 +25,13 @@ const Content: QuartzComponent = ({
   const classes: string[] = fileData.frontmatter?.cssclasses ?? [];
   const classString = ["popover-hint", ...classes].join(" ");
   const authorProfile = String(fileData.slug) === KAREN.slug;
-  const canonical = `https://${cfg.baseUrl}/${KAREN.slug}`;
   return (
     <article class={classString}>
-      {authorProfile && (
+      {authorProfile && cfg.baseUrl && (
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "ProfilePage",
-              url: canonical,
-              mainEntity: {
-                "@type": "Person",
-                "@id": `${canonical}#person`,
-                name: KAREN.name,
-                description: KAREN.summary,
-                image: `https://${cfg.baseUrl}${KAREN.portrait}`,
-                sameAs: [
-                  `https://orcid.org/${KAREN.orcid}`,
-                  `https://www.wikibiome.com/researchers/${KAREN.orcid}`,
-                ],
-                affiliation: KAREN.affiliations.map((a) => ({
-                  "@type": "Organization",
-                  name: a.name,
-                  url: a.url,
-                })),
-              },
-            }).replace(/</g, "\\u003c"),
+            __html: JSON.stringify(authorProfileJsonLd(cfg.baseUrl)).replace(/</g, "\\u003c"),
           }}
         />
       )}
@@ -59,7 +40,7 @@ const Content: QuartzComponent = ({
   );
 };
 
-Content.afterDOMLoaded = [authorCardScript, analyteExplorerScript].join("\n");
+Content.afterDOMLoaded = [authorCardScript, authorWorksScript, analyteExplorerScript].join("\n");
 Content.css = analyteExplorerStyle;
 
 export default (() => Content) satisfies QuartzComponentConstructor;
