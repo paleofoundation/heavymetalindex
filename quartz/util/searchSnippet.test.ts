@@ -8,6 +8,7 @@ import {
   META_DESCRIPTION_MIN,
   capHtmlTitle,
   citationDoi,
+  explicitSearchTitle,
   extractOverview,
   isMetalArticle,
   isRegulationArticle,
@@ -62,6 +63,26 @@ test("spaced dashes in titles become a colon", () => {
 test("short titles are left unchanged", () => {
   assert.equal(capHtmlTitle("Lead"), "Lead")
   assert.equal(capHtmlTitle("Methylmercury"), "Methylmercury")
+})
+
+test("an authored search title stays a complete phrase inside the document-title budget", () => {
+  const phrase = "Organic certification is not protective against heavy metals"
+  const title = explicitSearchTitle({ search_title: phrase })
+  assert.equal(title, phrase)
+  assert.ok(title.length <= HTML_TITLE_MAX)
+  assert.equal(/[—–]/.test(title), false)
+  const branded = `${phrase} | Heavy Metal Index`
+  assert.ok(branded.length > HTML_TITLE_MAX)
+  const chopped = capHtmlTitle(
+    "Organic certification is not protective against heavy-metal contamination, and in some food matrices is associated with higher loads",
+  )
+  assert.equal(chopped.endsWith("heavy-metal"), true)
+  assert.notEqual(chopped, title)
+  const page = fs.readFileSync(
+    path.join(root, "synthesis", "organic-certification-not-protective.md"),
+    "utf8",
+  )
+  assert.match(page, new RegExp(`search_title: "${phrase}"`))
 })
 
 test("every metal page gets a descriptive title and a 120 to 155 character description", () => {
