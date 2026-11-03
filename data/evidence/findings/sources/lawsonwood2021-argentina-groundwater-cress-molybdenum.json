@@ -1,0 +1,214 @@
+{
+ "source_id": "lawsonwood2021-argentina-groundwater-cress-molybdenum",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-MOLYBDENUM-1/10.1007_s11356-021-13902-w.pdf",
+ "primary_sha256": "9e68c6c0831d4cf3368b245656d4c5bd3cea02cf357e9a861fb4a8ba4af7473b",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "occurrence_extracted",
+ "disposition_reason": "Molybdenum measured by ICP-MS in two pooled La Pampa groundwaters (65.0 and 92.5 µg/L) and in hydroponically grown cress.",
+ "disposition_locator": "Table 4 (p. 48936); Results (p. 48932)",
+ "study": {
+  "design": "laboratory hydroponic uptake experiment with field groundwater",
+  "origin": "La Pampa, Argentina (groundwater)",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "not stated"
+  },
+  "method": "ICP-MS after acid digestion; NIST SRM 1640a validation",
+  "lod": [
+   "0.1 µg/L Mo in solution (p. 48931)"
+  ],
+  "basis": "dry_weight",
+  "qa": "Repeatability n = 6 and reproducibility n = 3 on SRM 1640a (Table 1)",
+  "site_context": "farm wells"
+ },
+ "findings": [
+  {
+   "id": "lawsonwood2021-argentina-groundwater-cress-molybdenum:Mo:pooled-groundwater-gw1-farm-wells-near-eduardo-castex-la-pampa:mean",
+   "material": {
+    "label_as_printed": "Pooled groundwater GW1, farm wells near Eduardo Castex, La Pampa",
+    "page": "ingredients/water",
+    "form": "liquid",
+    "state": "raw",
+    "route_rule": "override:HMI-METAL-INGEST-2"
+   },
+   "analyte": "Mo",
+   "group": "Pooled farm-well groundwater, La Pampa, Argentina",
+   "group_kind": "site",
+   "n": 3,
+   "statistic": "mean",
+   "reported": "65.0 ± 0.6 µg/L",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "µg/L",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 4, p. 48936",
+   "integrity_flag": null,
+   "notes": "Replicate analyses of one pooled sample.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "lawsonwood2021-argentina-groundwater-cress-molybdenum:Mo:pooled-groundwater-gw2-farm-wells-near-eduardo-castex-la-pampa:mean",
+   "material": {
+    "label_as_printed": "Pooled groundwater GW2, farm wells near Eduardo Castex, La Pampa",
+    "page": "ingredients/water",
+    "form": "liquid",
+    "state": "raw",
+    "route_rule": "override:HMI-METAL-INGEST-2"
+   },
+   "analyte": "Mo",
+   "group": "Pooled farm-well groundwater, La Pampa, Argentina",
+   "group_kind": "site",
+   "n": 3,
+   "statistic": "mean",
+   "reported": "92.5 ± 2.4 µg/L",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "µg/L",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 4, p. 48936",
+   "integrity_flag": null,
+   "notes": "Replicate analyses of one pooled sample.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "lawsonwood2021-argentina-groundwater-cress-molybdenum:Mo:garden-cress-grown-hydroponically-in-gw1:mean",
+   "material": {
+    "label_as_printed": "Garden cress grown hydroponically in GW1",
+    "page": "metals/molybdenum",
+    "form": "fresh",
+    "state": "raw",
+    "route_rule": "override:HMI-METAL-INGEST-2"
+   },
+   "analyte": "Mo",
+   "group": "Laboratory hydroponic experiment, 12 days",
+   "group_kind": "treatment",
+   "n": 2,
+   "statistic": "mean",
+   "reported": "1.89 ± 0.20 mg/kg d.w.",
+   "value_ugkg": 1890,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 200,
+   "unit_original": "mg/kg dry weight",
+   "basis": "dry_weight",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 4, p. 48936",
+   "integrity_flag": null,
+   "notes": "Model plant under laboratory conditions; not a food-market sample.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "lawsonwood2021-argentina-groundwater-cress-molybdenum:Mo:garden-cress-grown-hydroponically-in-gw2:mean",
+   "material": {
+    "label_as_printed": "Garden cress grown hydroponically in GW2",
+    "page": "metals/molybdenum",
+    "form": "fresh",
+    "state": "raw",
+    "route_rule": "override:HMI-METAL-INGEST-2"
+   },
+   "analyte": "Mo",
+   "group": "Laboratory hydroponic experiment, 12 days",
+   "group_kind": "treatment",
+   "n": 2,
+   "statistic": "mean",
+   "reported": "4.59 ± 0.48 mg/kg d.w.",
+   "value_ugkg": 4590,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 480,
+   "unit_original": "mg/kg dry weight",
+   "basis": "dry_weight",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 4, p. 48936",
+   "integrity_flag": null,
+   "notes": "Model plant under laboratory conditions.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "lawsonwood2021-argentina-groundwater-cress-molybdenum:Mo:garden-cress-grown-in-tap-water-spiked-with-150-g-l-mo-ph-7:mean",
+   "material": {
+    "label_as_printed": "Garden cress grown in tap water spiked with 150 µg/L Mo (pH 7)",
+    "page": "metals/molybdenum",
+    "form": "fresh",
+    "state": "raw",
+    "route_rule": "override:HMI-METAL-INGEST-2"
+   },
+   "analyte": "Mo",
+   "group": "Laboratory hydroponic experiment, 12 days",
+   "group_kind": "treatment",
+   "n": 2,
+   "statistic": "mean",
+   "reported": "33.0 ± 3.9 mg/kg d.w.",
+   "value_ugkg": 33000,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 3900,
+   "unit_original": "mg/kg dry weight",
+   "basis": "dry_weight",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 4, p. 48936",
+   "integrity_flag": null,
+   "notes": "Synthetic spiked solution.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "lawsonwood2021-argentina-groundwater-cress-molybdenum:Mo:garden-cress-across-spiked-solutions-0-1-to-7000-g-l-mo:range",
+   "material": {
+    "label_as_printed": "Garden cress across spiked solutions <0.1 to 7000 µg/L Mo",
+    "page": "metals/molybdenum",
+    "form": "fresh",
+    "state": "raw",
+    "route_rule": "override:HMI-METAL-INGEST-2"
+   },
+   "analyte": "Mo",
+   "group": "Laboratory dose series",
+   "group_kind": "treatment",
+   "n": null,
+   "statistic": "range",
+   "reported": "1.29 to 821 mg/kg d.w.",
+   "value_ugkg": null,
+   "min_ugkg": 1290,
+   "max_ugkg": 821000,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg dry weight",
+   "basis": "dry_weight",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Results, p. 48932",
+   "integrity_flag": null,
+   "notes": "Range across dose series; toxicity at 5000 and 7000 µg/L.",
+   "statistic_raw": "range"
+  }
+ ],
+ "unresolved": [
+  "Other elements in Table 4 and Table 3 not recorded (molybdenum record only)."
+ ],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [
+  "Former WHO drinking-water guideline 70 µg/L and FAO irrigation-water limit 10 µg/L molybdenum cited by the authors (pp. 48929, 48937; secondary)"
+ ],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/lawsonwood2021-argentina-groundwater-cress-molybdenum.md",
+ "non_numeric_findings": [
+  "Same groundwaters carried 969 and 23.7 µg/L arsenic and 432 and 278 µg/L vanadium (Table 4); PLS model indicates vanadium has a strong negative effect on cress molybdenum uptake (pp. 48938 to 48939)"
+ ]
+}

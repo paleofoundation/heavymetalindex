@@ -1,0 +1,155 @@
+{
+ "source_id": "badii2012-isfahan-zinc-fortified-bread-trial",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-ZINC-1/PMC3399305.pdf",
+ "primary_sha256": "db90fa6c4e939475146fba6d1711788ee255997fc240d4fed25e4eb2f01781f7",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "occurrence_extracted",
+ "disposition_reason": "Measured zinc in control and fortified Taftoon bread (mg/100 g) and serum zinc before and after a one-month trial.",
+ "disposition_locator": "Tables 1, 3 and 4, pp. S126 to S127",
+ "study": {
+  "design": "double-blind randomized trial, three arms, one month",
+  "origin": "Isfahan, Iran",
+  "market": "bread baked for the trial",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "submitted July 2011"
+  },
+  "method": "flame AAS for serum zinc; AACC methods for bread zinc and phytate",
+  "lod": [],
+  "basis": "unknown",
+  "qa": "not reported",
+  "site_context": "clinical"
+ },
+ "findings": [
+  {
+   "id": "badii2012-isfahan-zinc-fortified-bread-trial:Zn:taftoon-bread-non-fortified-control-bread:mean",
+   "material": {
+    "label_as_printed": "Taftoon bread, non-fortified",
+    "page": "ingredients/bread",
+    "form": null,
+    "state": null,
+    "route_rule": "override:HMI-METAL-INGEST-2"
+   },
+   "analyte": "Zn",
+   "group": "control bread",
+   "group_kind": "group",
+   "n": null,
+   "statistic": "mean",
+   "reported": "1.35 ± 0.02 mg/100 g",
+   "value_ugkg": 13500,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/100 g",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 1, p. S126",
+   "integrity_flag": null,
+   "notes": "Converted 1.35 mg/100 g = 13,500 µg/kg; basis not stated.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "badii2012-isfahan-zinc-fortified-bread-trial:Zn:taftoon-bread-high-zinc-fortified-bread:mean",
+   "material": {
+    "label_as_printed": "Taftoon bread, high-zinc",
+    "page": "ingredients/bread",
+    "form": null,
+    "state": null,
+    "route_rule": "override:HMI-METAL-INGEST-2"
+   },
+   "analyte": "Zn",
+   "group": "fortified bread",
+   "group_kind": "group",
+   "n": null,
+   "statistic": "mean",
+   "reported": "10.10 ± 0.08 mg/100 g",
+   "value_ugkg": 101000,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/100 g",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 1, p. S126",
+   "integrity_flag": null,
+   "notes": "Fortified with zinc sulfate.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "badii2012-isfahan-zinc-fortified-bread-trial:Zn:taftoon-bread-low-zinc-fortified-bread:mean",
+   "material": {
+    "label_as_printed": "Taftoon bread, low-zinc",
+    "page": "ingredients/bread",
+    "form": null,
+    "state": null,
+    "route_rule": "override:HMI-METAL-INGEST-2"
+   },
+   "analyte": "Zn",
+   "group": "fortified bread",
+   "group_kind": "group",
+   "n": null,
+   "statistic": "mean",
+   "reported": "5.72 ± 0.05 mg/100 g",
+   "value_ugkg": 57200,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/100 g",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 1, p. S126",
+   "integrity_flag": null,
+   "notes": "Fortified with zinc sulfate.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "badii2012-isfahan-zinc-fortified-bread-trial:Zn:serum-after-high-zinc-bread-group-2-women-after-one-month:mean",
+   "material": {
+    "label_as_printed": "Serum after high-zinc bread",
+    "page": "metals/zinc",
+    "form": null,
+    "state": null,
+    "route_rule": "override:HMI-METAL-INGEST-2"
+   },
+   "analyte": "Zn",
+   "group": "group 2 women after one month",
+   "group_kind": "group",
+   "n": 25,
+   "statistic": "mean",
+   "reported": "86.8 ± 10.78 µg/dL",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "µg/dL",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 4, p. S127",
+   "integrity_flag": null,
+   "notes": "Baseline 65.06 µg/dL.",
+   "statistic_raw": "mean"
+  }
+ ],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [
+  "Recommended dietary allowance for adult women cited as 8 mg/day (Results, p. S126).",
+  "WHO phytate:zinc molar ratio cut-offs cited: 15 or more low, 5 to 15 moderate, under 5 high bioavailability (Discussion, p. S127)."
+ ],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/badii2012-isfahan-zinc-fortified-bread-trial.md",
+ "non_numeric_findings": [
+  "Zinc sulfate described as the preferred fortificant for cost, solubility and neutral sensory effects (Introduction)."
+ ]
+}

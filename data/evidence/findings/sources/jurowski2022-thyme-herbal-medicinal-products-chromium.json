@@ -1,0 +1,152 @@
+{
+ "source_id": "jurowski2022-thyme-herbal-medicinal-products-chromium",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-CHROMIUM-1/10.1007_s12011-021-02864-2.pdf",
+ "primary_sha256": "7c92cfcc39df81a03e5522063e140ac596efb875396026e4ae5bea46f4ccff5b",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "occurrence_extracted",
+ "disposition_reason": "Total chromium in six orally taken thyme herbal liquids (two sold as dietary supplements) by ETAAS.",
+ "disposition_locator": "Results p. 2986; Tables 3 and 4; Methods p. 2985",
+ "study": {
+  "design": "market product survey",
+  "origin": "Poland",
+  "market": "pharmacies, Poland",
+  "method": "ETAAS (L’vov platform)",
+  "basis": "unknown",
+  "qa": "CRM BCR-482 recovery 97.81%; LOD 1.65 µg/L, LOQ 4.95 µg/L",
+  "site_context": "retail",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "see source"
+  },
+  "lod": []
+ },
+ "findings": [
+  {
+   "id": "jurowski2022-thyme-herbal-medicinal-products-chromium:Cr:thyme-herb-traditional-herbal-medicinal-product-sample-e-pro:mean",
+   "material": {
+    "label_as_printed": "Thyme herb traditional herbal medicinal product, sample E",
+    "page": "metals/chromium",
+    "form": "liquid",
+    "state": "as_sold",
+    "route_rule": "override:HMI-METAL-INGEST-2"
+   },
+   "analyte": "Cr",
+   "group": "product E",
+   "group_kind": "product",
+   "n": 1,
+   "statistic": "mean",
+   "reported": "2.0 ± 0.3 µg/L",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "µg/L",
+   "basis": "unknown",
+   "censoring": "below_loq",
+   "lod_ugkg": null,
+   "locator": "Results p. 2986",
+   "integrity_flag": null,
+   "notes": "Total chromium by ETAAS; LOD 1.65 µg/L, LOQ 4.95 µg/L, so values below 4.95 are between LOD and LOQ. Samples B and D values not printed in text.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "jurowski2022-thyme-herbal-medicinal-products-chromium:Cr:thyme-herb-traditional-herbal-medicinal-product-sample-a-pro:mean",
+   "material": {
+    "label_as_printed": "Thyme herb traditional herbal medicinal product, sample A",
+    "page": "metals/chromium",
+    "form": "liquid",
+    "state": "as_sold",
+    "route_rule": "override:HMI-METAL-INGEST-2"
+   },
+   "analyte": "Cr",
+   "group": "product A",
+   "group_kind": "product",
+   "n": 1,
+   "statistic": "mean",
+   "reported": "2.3 ± 0.2 µg/L",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "µg/L",
+   "basis": "unknown",
+   "censoring": "below_loq",
+   "lod_ugkg": null,
+   "locator": "Results p. 2986",
+   "integrity_flag": null,
+   "notes": "Total chromium by ETAAS; LOD 1.65 µg/L, LOQ 4.95 µg/L, so values below 4.95 are between LOD and LOQ. Samples B and D values not printed in text.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "jurowski2022-thyme-herbal-medicinal-products-chromium:Cr:thyme-herb-traditional-herbal-medicinal-product-sample-c-pro:mean",
+   "material": {
+    "label_as_printed": "Thyme herb traditional herbal medicinal product, sample C",
+    "page": "metals/chromium",
+    "form": "liquid",
+    "state": "as_sold",
+    "route_rule": "override:HMI-METAL-INGEST-2"
+   },
+   "analyte": "Cr",
+   "group": "product C",
+   "group_kind": "product",
+   "n": 1,
+   "statistic": "mean",
+   "reported": "2.4 ± 0.3 µg/L",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "µg/L",
+   "basis": "unknown",
+   "censoring": "below_loq",
+   "lod_ugkg": null,
+   "locator": "Results p. 2986",
+   "integrity_flag": null,
+   "notes": "Total chromium by ETAAS; LOD 1.65 µg/L, LOQ 4.95 µg/L, so values below 4.95 are between LOD and LOQ. Samples B and D values not printed in text.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "jurowski2022-thyme-herbal-medicinal-products-chromium:Cr:thyme-herb-traditional-herbal-medicinal-product-sample-f-pro:mean",
+   "material": {
+    "label_as_printed": "Thyme herb traditional herbal medicinal product, sample F",
+    "page": "metals/chromium",
+    "form": "liquid",
+    "state": "as_sold",
+    "route_rule": "override:HMI-METAL-INGEST-2"
+   },
+   "analyte": "Cr",
+   "group": "product F",
+   "group_kind": "product",
+   "n": 1,
+   "statistic": "mean",
+   "reported": "6.0 ± 0.4 µg/L",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "µg/L",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Results p. 2986",
+   "integrity_flag": null,
+   "notes": "Total chromium by ETAAS; LOD 1.65 µg/L, LOQ 4.95 µg/L, so values below 4.95 are between LOD and LOQ. Samples B and D values not printed in text.",
+   "statistic_raw": "mean"
+  }
+ ],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [
+  "Estimated daily chromium from labeled use 40.30 to 181.41 ng/day, compared with ICH Q3D oral PDE printed as 10,700 µg/day (p. 2986) and 10,700 mg/day (abstract)"
+ ],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/jurowski2022-thyme-herbal-medicinal-products-chromium.md",
+ "non_numeric_findings": []
+}

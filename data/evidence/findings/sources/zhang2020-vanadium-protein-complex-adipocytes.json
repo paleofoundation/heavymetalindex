@@ -1,0 +1,40 @@
+{
+ "source_id": "zhang2020-vanadium-protein-complex-adipocytes",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-VANADIUM-1/10.1371_journal.pone.0239547.pdf",
+ "primary_sha256": "c071405e6582ae477abae6ab06aeb0d2f58d4fe842b9118dd90551b1166e3f75",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "context",
+ "disposition_reason": "In vitro pharmacology of a synthetic vanadium-protein complex in human preadipocytes; viability check only, no exposure or occurrence data.",
+ "disposition_locator": "Results (pp. 5 to 6, Fig. 1); Abstract (p. 1)",
+ "study": {
+  "design": "in vitro cell study",
+  "origin": "not applicable",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "not stated"
+  },
+  "method": "EZ-cytox viability, Oil Red O, TG assay, Western blot; vanadium content by ICP-OES",
+  "lod": [],
+  "basis": "unknown",
+  "qa": "not stated",
+  "site_context": "laboratory"
+ },
+ "findings": [],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/zhang2020-vanadium-protein-complex-adipocytes.md",
+ "non_numeric_findings": [
+  "No adverse viability effect at 5 to 20 µg/mL of the complex; 40 µg/mL reduced viability by up to 17.25% at day 14 (pp. 5 to 6)",
+  "Funding statement: Haizhibao company supported travel and consulting incentives for one author (p. 2)"
+ ]
+}

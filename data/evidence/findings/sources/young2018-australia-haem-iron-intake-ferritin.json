@@ -1,0 +1,45 @@
+{
+ "source_id": "young2018-australia-haem-iron-intake-ferritin",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-IRON-1/10.3390_nu10010081.pdf",
+ "primary_sha256": "7f489b30bcafeaf5927f58541c260abca36c23eb4843b63cd20f5a546d8e953d",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "context",
+ "disposition_reason": "Dietary iron intake estimates (haem and non-haem) and serum ferritin associations in 270 young women; no food concentration measurements.",
+ "disposition_locator": "Table 2 p. 6; Table 3 p. 7; Results p. 5",
+ "study": {
+  "design": "cross-sectional secondary analysis",
+  "origin": "New South Wales, Australia",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "not stated"
+  },
+  "method": "Semi-quantitative FFQ (DQES v2); serum ferritin by Roche immunoassay with inflammation correction",
+  "lod": [],
+  "basis": "not_applicable",
+  "qa": "Accredited diagnostic laboratory for blood analytes",
+  "site_context": "population"
+ },
+ "findings": [],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [
+  "Energy-adjusted mean intake (n = 270): total iron 12.7 ± 2.6 mg/day; haem iron 2.0 ± 0.9 mg/day; non-haem iron 10.7 ± 2.7 mg/day (Table 2)",
+  "Iron deficiency 26.3% (ferritin < 20 ug/L) and iron deficiency anemia 5.9% (Hb < 120 g/L) (Results p. 5)",
+  "Serum ferritin model: haem iron beta 0.128 (p = 0.009), non-haem iron beta 0.037 (p = 0.028); adjusted R squared 0.058 (Table 3)"
+ ],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/young2018-australia-haem-iron-intake-ferritin.md",
+ "non_numeric_findings": [
+  "Haem iron was a stronger predictor of ferritin than non-haem iron.",
+  "High dietary restraint was associated with lower energy intake.",
+  "Original data collection funded by Meat and Livestock Australia."
+ ]
+}

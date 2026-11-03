@@ -1,0 +1,182 @@
+{
+ "source_id": "carvalho2012-brazil-cooked-beans-zinc-retention",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-ZINC-1/10.3402_fnr.v56i0.15618.pdf",
+ "primary_sha256": "f7e61410c0a26134d41ac6d9fbaae1b475cd9d9c6fdcff51810a0adefb517f6e",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "occurrence_extracted",
+ "disposition_reason": "Triplicate ICP-OES zinc in raw beans, cooked grains and broth (mg/kg dry matter) for six cultivars.",
+ "disposition_locator": "Tables 2 and 4, pp. 3 to 4",
+ "study": {
+  "design": "laboratory cooking experiment",
+  "origin": "Embrapa Rice and Beans, Goiás, Brazil",
+  "market": "research cultivars",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "not stated"
+  },
+  "method": "ICP-OES after nitric-perchloric acid digestion",
+  "lod": [],
+  "basis": "dry_weight",
+  "qa": "triplicate analysis; acid-washed equipment",
+  "site_context": "laboratory"
+ },
+ "findings": [
+  {
+   "id": "carvalho2012-brazil-cooked-beans-zinc-retention:Zn:raw-beans-brs-grafite-black-cultivar-brs-grafite:mean",
+   "material": {
+    "label_as_printed": "Raw beans, BRS Grafite (black)",
+    "page": "ingredients/black-beans",
+    "form": null,
+    "state": null,
+    "route_rule": "override:HMI-METAL-INGEST-2"
+   },
+   "analyte": "Zn",
+   "group": "cultivar BRS Grafite",
+   "group_kind": "group",
+   "n": 3,
+   "statistic": "mean",
+   "reported": "43.1 mg/kg dry basis",
+   "value_ugkg": 43100,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "dry_weight",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 3",
+   "integrity_flag": null,
+   "notes": "Highest raw value.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "carvalho2012-brazil-cooked-beans-zinc-retention:Zn:raw-beans-jalo-precoce-cultivar-jalo-precoce:mean",
+   "material": {
+    "label_as_printed": "Raw beans, Jalo Precoce",
+    "page": "ingredients/beans",
+    "form": null,
+    "state": null,
+    "route_rule": "override:HMI-METAL-INGEST-2"
+   },
+   "analyte": "Zn",
+   "group": "cultivar Jalo Precoce",
+   "group_kind": "group",
+   "n": 3,
+   "statistic": "mean",
+   "reported": "33.8 mg/kg dry basis",
+   "value_ugkg": 33800,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "dry_weight",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 3",
+   "integrity_flag": null,
+   "notes": "Lowest raw value.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "carvalho2012-brazil-cooked-beans-zinc-retention:Zn:cooked-beans-brs-radiante-pressure-cooked-after-soaking-spp:mean",
+   "material": {
+    "label_as_printed": "Cooked beans, BRS Radiante, pressure cooked after soaking",
+    "page": "ingredients/beans",
+    "form": null,
+    "state": null,
+    "route_rule": "override:HMI-METAL-INGEST-2"
+   },
+   "analyte": "Zn",
+   "group": "SPP",
+   "group_kind": "group",
+   "n": 3,
+   "statistic": "mean",
+   "reported": "25.3 mg/kg dry matter",
+   "value_ugkg": 25300,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "dry_weight",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 4, p. 4",
+   "integrity_flag": null,
+   "notes": "Lowest cooked grain value.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "carvalho2012-brazil-cooked-beans-zinc-retention:Zn:cooked-beans-brs-grafite-pressure-cooked-unsoaked-wspp:mean",
+   "material": {
+    "label_as_printed": "Cooked beans, BRS Grafite, pressure cooked unsoaked",
+    "page": "ingredients/black-beans",
+    "form": null,
+    "state": null,
+    "route_rule": "override:HMI-METAL-INGEST-2"
+   },
+   "analyte": "Zn",
+   "group": "WSPP",
+   "group_kind": "group",
+   "n": 3,
+   "statistic": "mean",
+   "reported": "38.8 mg/kg dry matter",
+   "value_ugkg": 38800,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "dry_weight",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 4, p. 4",
+   "integrity_flag": null,
+   "notes": "Highest cooked grain value.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "carvalho2012-brazil-cooked-beans-zinc-retention:Zn:bean-broth-brs-pontal-pressure-cooked-after-soaking-spp-broth:mean",
+   "material": {
+    "label_as_printed": "Bean broth, BRS Pontal, pressure cooked after soaking",
+    "page": "ingredients/beans",
+    "form": null,
+    "state": null,
+    "route_rule": "override:HMI-METAL-INGEST-2"
+   },
+   "analyte": "Zn",
+   "group": "SPP broth",
+   "group_kind": "group",
+   "n": 3,
+   "statistic": "mean",
+   "reported": "16.1 mg/kg dry matter",
+   "value_ugkg": 16100,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "dry_weight",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 4, p. 4",
+   "integrity_flag": null,
+   "notes": "Highest broth value.",
+   "statistic_raw": "mean"
+  }
+ ],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [
+  "Cited labeling thresholds: zinc source at 22.5 mg/kg (2.25 mg/100 g) and high at 45 mg/kg, jurisdiction not named (Discussion, p. 5)."
+ ],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/carvalho2012-brazil-cooked-beans-zinc-retention.md",
+ "non_numeric_findings": [
+  "Cooking method (pot vs pressure) did not significantly change cooked-grain zinc; soaking did for three cultivars."
+ ]
+}

@@ -1,0 +1,47 @@
+{
+ "source_id": "stafford2016-bobwhite-quail-dietary-molybdenum",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-MOLYBDENUM-1/10.1007_s10646-015-1587-5.pdf",
+ "primary_sha256": "addf0ab259d280ce97dd8539d04941673690276566452e9dc61dba6be55d80c9",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "context",
+ "disposition_reason": "30-day avian dietary toxicity study comparing soluble sodium molybdate and insoluble molybdenum disulfide; NOAEC/LOAEC and tissue accumulation in quail, not food or human data.",
+ "disposition_locator": "Table 1 (p. 295); Table 3 (p. 298); Discussion (p. 300)",
+ "study": {
+  "design": "controlled animal dietary toxicity study",
+  "origin": "not applicable",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "30-day exposure plus 5-day recovery"
+  },
+  "method": "ICP-MS for Mo and Cu in feed and tissues",
+  "lod": [
+   "Basal feed Mo not detectable at LOQ 5.40 ppm; well water Mo not detected at LOQ 0.0400 ppm (p. 293)"
+  ],
+  "basis": "dry_weight",
+  "qa": "Measured feed 100 to 112% of target",
+  "site_context": "laboratory"
+ },
+ "findings": [],
+ "unresolved": [
+  "Methods text lists the middle MoS2 dose as 3000 in one sentence and 2000 elsewhere; Table 1 reports 2000."
+ ],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [
+  "Sodium molybdate: NOAEC 1200 mg Mo/kg feed (134 mg/kg bw/day); LOAEC 2000 mg Mo/kg feed (253 mg/kg bw/day) in northern bobwhite (p. 300)",
+  "Molybdenum disulfide: NOAEC at highest dose 5000 mg Mo/kg feed (about 545 mg/kg bw/day) (p. 300)"
+ ],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/stafford2016-bobwhite-quail-dietary-molybdenum.md",
+ "non_numeric_findings": [
+  "Long-bone molybdenum day 30: control 551.9 ng/g dw; 3000 mg/kg sodium molybdate 57,750 ng/g; 5000 mg/kg molybdenum disulfide 1278 ng/g (Table 3, p. 298)",
+  "Financial support from Chevron Energy Technology Company; two authors at Chevron (p. 300; affiliations p. 291)"
+ ]
+}

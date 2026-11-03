@@ -1,0 +1,103 @@
+{
+ "source_id": "pandit2022-rajasthan-gujarat-groundwater-uranium",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-URANIUM-1/10.1038_s41598-022-05770-2.pdf",
+ "primary_sha256": "a444f2625b3a74f4890d5df8ba8444fc5b5b829bcf203f4541910a47d4cdc284",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "occurrence_extracted",
+ "disposition_reason": "Uranium measured in 265 groundwater samples from arid western Rajasthan and northern Gujarat (0.6 to 260 µg/L, mean 24.0 µg/L) with modeled ingestion dose and hazard quotient.",
+ "disposition_locator": "Abstract p. 1; Results p. 3; Table 2 p. 8",
+ "study": {
+  "design": "cross-sectional groundwater survey with geochemical modeling",
+  "origin": "India, western Rajasthan and northern Gujarat (Nagaur, Pali, Jalore, Sirohi, Banaskantha, Barmer)",
+  "market": "wells, tube-wells and taps",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "not stated"
+  },
+  "method": "LED fluorimetry of uranyl complexes (Quantalase LF-2)",
+  "lod": [
+   "detection limit 0.2 ppb; detection range 0.5 to 1000 ppb (p. 2)"
+  ],
+  "basis": "unknown",
+  "qa": "triplicate analysis; duplicate and standard checks every ten samples; SRM-1643f for trace elements",
+  "site_context": "groundwater used for drinking and irrigation"
+ },
+ "findings": [
+  {
+   "id": "pandit2022-rajasthan-gujarat-groundwater-uranium:U:groundwater-265-groundwater-samples-western-rajasthan-and-no:range",
+   "material": {
+    "label_as_printed": "Groundwater",
+    "page": "ingredients/water",
+    "form": "liquid",
+    "state": "as_consumed",
+    "route_rule": "override:HMI-METAL-INGEST-2"
+   },
+   "analyte": "U",
+   "group": "265 groundwater samples, western Rajasthan and northern Gujarat, India",
+   "group_kind": "site",
+   "n": 265,
+   "statistic": "range",
+   "reported": "0.6 to 260 µg/L",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "µg/L",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Abstract p. 1; p. 3; Table 1",
+   "integrity_flag": null,
+   "notes": "Water concentration; not converted to µg/kg.",
+   "statistic_raw": "range"
+  },
+  {
+   "id": "pandit2022-rajasthan-gujarat-groundwater-uranium:U:groundwater-265-groundwater-samples-western-rajasthan-and-no:mean",
+   "material": {
+    "label_as_printed": "Groundwater",
+    "page": "ingredients/water",
+    "form": "liquid",
+    "state": "as_consumed",
+    "route_rule": "override:HMI-METAL-INGEST-2"
+   },
+   "analyte": "U",
+   "group": "265 groundwater samples, western Rajasthan and northern Gujarat, India",
+   "group_kind": "site",
+   "n": 265,
+   "statistic": "mean",
+   "reported": "24.0 µg/L",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "µg/L",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "p. 3; Table 1",
+   "integrity_flag": null,
+   "notes": "Abstract rounds the mean to 24 µg/L.",
+   "statistic_raw": "mean"
+  }
+ ],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [
+  "WHO provisional guideline 30 µg/L and AERB radiological limit 60 µg/L cited by the authors; no BIS limit, p. 2",
+  "Lifetime average daily dose 0.011 to 5.24 µg/kg/day, mean 0.47, versus reference doses 0.6 (WHO) and 4.4 (AERB) µg/kg/day; hazard quotient mean 0.78, p. 8",
+  "Mean annual ingestion dose 49.30 µSv/y (infants 0 to 6 months) and 56.34 µSv/y (7 to 12 months), p. 8"
+ ],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/pandit2022-rajasthan-gujarat-groundwater-uranium.md",
+ "non_numeric_findings": [
+  "69.3% of samples below 30 µg/L, 27.3% 30 to 60, 3% 60 to 100, 0.38% above 100 µg/L (p. 3); abstract states 30% exceeded 30 µg/L.",
+  "Carnotite dissolution, water-rock interaction and evaporation identified as main enrichment processes; uranyl tricarbonate predominant modeled species (pp. 8, 10)."
+ ]
+}

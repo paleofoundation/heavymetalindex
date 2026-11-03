@@ -1,0 +1,39 @@
+{
+ "source_id": "thompson2017-mouse-duodenum-hexavalent-chromium-recovery",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-CHROMIUM-1/10.1177_0192623317742324.pdf",
+ "primary_sha256": "79920732b34ae91b8a75fe71100c5c9f74d0e308f95e4b3947881d65118527d3",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "context",
+ "disposition_reason": "Rodent toxicology study; dose concentration and histopathology, no occurrence data.",
+ "disposition_locator": "Abstract; Table 1; Materials and Methods p. 1092",
+ "study": {
+  "design": "controlled rodent toxicity study with recovery phase",
+  "origin": "United States",
+  "market": "not applicable",
+  "method": "histopathology; dose verification by SW-846 7196A",
+  "basis": "unknown",
+  "qa": "GLP; weekly dose verification",
+  "site_context": "laboratory",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "see source"
+  },
+  "lod": []
+ },
+ "findings": [],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/thompson2017-mouse-duodenum-hexavalent-chromium-recovery.md",
+ "non_numeric_findings": [
+  "Villous enterocyte hypertrophy and mild crypt epithelial hyperplasia in all exposed mice after 28 days; duodena generally indistinguishable from controls after 28-day recovery."
+ ]
+}

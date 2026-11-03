@@ -1,0 +1,96 @@
+{
+ "source_id": "padmavathi2010-maternal-chromium-restriction-rat-adiposity",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-CHROMIUM-1/10.2337_db09-0779.pdf",
+ "primary_sha256": "d220b326f975da7bad41d650bf5c9b306a9b9ef834d81d8aad38ecbf8156f889",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "context",
+ "disposition_reason": "Rodent diet chromium content and dam plasma chromium in a restriction model.",
+ "disposition_locator": "Methods p. 99; Table 1 p. 99",
+ "study": {
+  "design": "controlled rodent dietary study",
+  "origin": "India",
+  "market": "not applicable",
+  "method": "atomic absorption (diet); plasma chromium method as cited",
+  "basis": "unknown",
+  "qa": "diets analyzed for chromium",
+  "site_context": "laboratory",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "see source"
+  },
+  "lod": []
+ },
+ "findings": [
+  {
+   "id": "padmavathi2010-maternal-chromium-restriction-rat-adiposity:Cr:rat-diet-chromium-restricted-ain-93g-based-restricted-diet:single",
+   "material": {
+    "label_as_printed": "Rat diet, chromium-restricted (AIN-93G based)",
+    "page": "metals/chromium",
+    "form": "feed",
+    "state": "as_fed",
+    "route_rule": "override:HMI-METAL-INGEST-2"
+   },
+   "analyte": "Cr",
+   "group": "restricted diet",
+   "group_kind": "diet",
+   "n": null,
+   "statistic": "single",
+   "reported": "0.51 mg Cr/kg diet",
+   "value_ugkg": 510.0,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Methods, p. 99",
+   "integrity_flag": null,
+   "notes": "Laboratory feed; converted mg/kg x 1000.",
+   "statistic_raw": "single"
+  },
+  {
+   "id": "padmavathi2010-maternal-chromium-restriction-rat-adiposity:Cr:rat-diet-control-ain-93g-based-control-diet:single",
+   "material": {
+    "label_as_printed": "Rat diet, control (AIN-93G based)",
+    "page": "metals/chromium",
+    "form": "feed",
+    "state": "as_fed",
+    "route_rule": "override:HMI-METAL-INGEST-2"
+   },
+   "analyte": "Cr",
+   "group": "control diet",
+   "group_kind": "diet",
+   "n": null,
+   "statistic": "single",
+   "reported": "1.56 mg Cr/kg diet",
+   "value_ugkg": 1560.0,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Methods, p. 99",
+   "integrity_flag": null,
+   "notes": "Laboratory feed; converted mg/kg x 1000.",
+   "statistic_raw": "single"
+  }
+ ],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/padmavathi2010-maternal-chromium-restriction-rat-adiposity.md",
+ "non_numeric_findings": [
+  "Maternal chromium restriction increased body weight and central adiposity in male and female offspring."
+ ]
+}

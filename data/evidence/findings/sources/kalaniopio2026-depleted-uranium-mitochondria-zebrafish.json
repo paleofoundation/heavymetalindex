@@ -1,0 +1,43 @@
+{
+ "source_id": "kalaniopio2026-depleted-uranium-mitochondria-zebrafish",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-URANIUM-1/10.64898_2026.07.02.736169.pdf",
+ "primary_sha256": "07dc0d6977900b58737a8df4122fe91c4c53fbf5c222cb5ef21694be2e68fe37",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "context",
+ "disposition_reason": "Preprint mechanistic toxicology in zebrafish and human cells; no occurrence data.",
+ "disposition_locator": "Abstract p. 1; p. 11",
+ "study": {
+  "design": "laboratory exposure experiments (preprint)",
+  "origin": "United States, Northern Arizona University",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "not stated"
+  },
+  "method": "behavioral, metabolic and molecular assays",
+  "lod": [],
+  "basis": "unknown",
+  "qa": "not peer reviewed",
+  "site_context": "laboratory"
+ },
+ "findings": [],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [
+  "US EPA maximum contaminant level 30 µg/L uranium in drinking water, cited by the authors (abstract, p. 1)",
+  "Navajo Nation water survey cited: nine of 82 sources above the limit, maximum 560.2 µg/L (p. 6)"
+ ],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/kalaniopio2026-depleted-uranium-mitochondria-zebrafish.md",
+ "non_numeric_findings": [
+  "Reduced larval movement and delayed hatching at 18 ppb depleted uranium (abstract, p. 1).",
+  "Mechanism attributed to slingshot protein phosphatase 1b enrichment, independent of reactive oxygen species."
+ ]
+}

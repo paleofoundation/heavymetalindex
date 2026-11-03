@@ -1,0 +1,43 @@
+{
+ "source_id": "bae2011-korean-children-manganese-intake",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-MANGANESE-1/10.4162_nrp.2011.5.6.548.pdf",
+ "primary_sha256": "2c3e928e05a8cb6203fccbbedfa5b2a64d990b3e8de840d97e6610305ce0c7a3",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "context",
+ "disposition_reason": "Dietary manganese intake estimates from three-day records for 257 Korean children; Korean adequate intake and upper level values stated; no measured concentrations.",
+ "disposition_locator": "Tables 2 to 4; Introduction pp. 548-549",
+ "study": {
+  "design": "cross-sectional dietary intake estimate",
+  "origin": "KR",
+  "market": "not applicable",
+  "period": {
+   "from": "2008-07",
+   "to": "2008-08",
+   "as_reported": "July and August 2008"
+  },
+  "method": "three-day dietary record; CAN-Pro 3.0; Korean food manganese database",
+  "lod": [],
+  "basis": "not applicable",
+  "qa": "not applicable",
+  "site_context": "population"
+ },
+ "findings": [],
+ "unresolved": [
+  "Intake may be overestimated because energy intake exceeded national survey values (Discussion)."
+ ],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [
+  "Korean adequate intake ages 12-14: 4.0 mg/day boys, 3.5 mg/day girls; tolerable upper intake level 7.0 mg/day (pp. 548-549)",
+  "Mean intake 4295.4 ug/day overall, 117.3% of adequate intake; no child above upper level (Table 2)",
+  "Cereals 50.8%, vegetables 21.0%, seasonings 8.9%, pulses 7.7% of intake; milled rice 39.8% (Tables 3 and 4)"
+ ],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/bae2011-korean-children-manganese-intake.md",
+ "non_numeric_findings": []
+}

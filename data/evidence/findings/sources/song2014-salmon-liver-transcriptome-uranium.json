@@ -1,0 +1,40 @@
+{
+ "source_id": "song2014-salmon-liver-transcriptome-uranium",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-URANIUM-1/10.1186_1471-2164-15-694.pdf",
+ "primary_sha256": "b38a74f98af00fd5fae0c3758084abf4b57c4eba982bb5c429cd965ed9e6e071",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "context",
+ "disposition_reason": "Experimental fish toxicogenomics; liver uranium values follow controlled exposure and are not food occurrence data.",
+ "disposition_locator": "p. 3; abstract p. 1",
+ "study": {
+  "design": "controlled aquatic exposure experiment",
+  "origin": "Norway, NMBU and NIVA",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "not stated"
+  },
+  "method": "microarray, qPCR; uranium in water and liver",
+  "lod": [],
+  "basis": "wet_weight",
+  "qa": "detection limit 3 SD above background",
+  "site_context": "laboratory"
+ },
+ "findings": [],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/song2014-salmon-liver-transcriptome-uranium.md",
+ "non_numeric_findings": [
+  "Liver uranium 2.9 ± 1.5, 4.9 ± 1.9 and 7.5 ± 2.1 ng/g wet weight after 48 h at nominal 0.25, 0.5 and 1.0 mg/L (n = 3) (p. 3).",
+  "847, 891 and 766 differentially expressed liver genes; mitochondrial and oxidative stress pathways affected (abstract, p. 1)."
+ ]
+}

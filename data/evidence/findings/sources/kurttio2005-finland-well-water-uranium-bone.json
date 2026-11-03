@@ -1,0 +1,96 @@
+{
+ "source_id": "kurttio2005-finland-well-water-uranium-bone",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-URANIUM-1/10.1289_ehp.7475.pdf",
+ "primary_sha256": "b5b019807f8ef36a86af62d7a1e50a16b4ae9e9bbeabf23f98e3e69bd01f660a",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "occurrence_extracted",
+ "disposition_reason": "Uranium in drilled-well drinking water (median 27 µg/L) and daily intake (median 36 µg) for 288 Finnish adults with bone turnover markers.",
+ "disposition_locator": "Abstract p. 68",
+ "study": {
+  "design": "cross-sectional exposure and bone marker study",
+  "origin": "Finland, southern Finland",
+  "market": "private drilled bedrock wells",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "samples from the 1999 cohort of the 2002 kidney study"
+  },
+  "method": "ICP-MS (as in the 2002 study)",
+  "lod": [],
+  "basis": "unknown",
+  "qa": "see 2002 study",
+  "site_context": "household drinking water"
+ },
+ "findings": [
+  {
+   "id": "kurttio2005-finland-well-water-uranium-bone:U:drilled-well-drinking-water-288-adults-146-men-142-women-usi:median",
+   "material": {
+    "label_as_printed": "Drilled-well drinking water",
+    "page": "ingredients/water",
+    "form": "liquid",
+    "state": "as_consumed",
+    "route_rule": "override:HMI-METAL-INGEST-2"
+   },
+   "analyte": "U",
+   "group": "288 adults (146 men, 142 women) using drilled wells, southern Finland",
+   "group_kind": "site",
+   "n": 288,
+   "statistic": "median",
+   "reported": "27 µg/L (interquartile range 6 to 116)",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "µg/L",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Abstract p. 68",
+   "integrity_flag": null,
+   "notes": "Water concentration.",
+   "statistic_raw": "median"
+  },
+  {
+   "id": "kurttio2005-finland-well-water-uranium-bone:U:daily-uranium-intake-from-drinking-water-288-adults-using-dr:median",
+   "material": {
+    "label_as_printed": "Daily uranium intake from drinking water",
+    "page": "ingredients/water",
+    "form": "liquid",
+    "state": "intake",
+    "route_rule": "override:HMI-METAL-INGEST-2"
+   },
+   "analyte": "U",
+   "group": "288 adults using drilled wells, southern Finland",
+   "group_kind": "population",
+   "n": 288,
+   "statistic": "median",
+   "reported": "36 µg/day (7 to 207)",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "µg/day",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Abstract p. 68",
+   "integrity_flag": null,
+   "notes": "Cumulative intake median 0.12 g (0.02 to 0.66 g).",
+   "statistic_raw": "median"
+  }
+ ],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/kurttio2005-finland-well-water-uranium-bone.md",
+ "non_numeric_findings": [
+  "Suggestion of higher CTx (p = 0.05) and osteocalcin (p = 0.19) with uranium exposure in men; none in women (abstract, p. 68)."
+ ]
+}

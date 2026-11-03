@@ -1,0 +1,152 @@
+{
+ "source_id": "stern1998-jersey-city-household-dust-urinary-chromium",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-CHROMIUM-1/10.1289_ehp.106-1533240.pdf",
+ "primary_sha256": "9f887d7b9b82148b6b5f0b598eeefddca68c7cd4ee87509d8361d283a9a25d17",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "occurrence_extracted",
+ "disposition_reason": "Chromium in household dust and urine of 329 residents near chromate waste sites.",
+ "disposition_locator": "Tables 2 and 3 pp. 834 to 835",
+ "study": {
+  "design": "cross-sectional exposure study",
+  "origin": "United States",
+  "market": "not applicable",
+  "method": "urine AAS standard additions; dust ICP-AES or ICP-MS",
+  "basis": "unknown",
+  "qa": "LOQ 0.2 µg/L urine; dust nondetects at half LOD",
+  "site_context": "residential near industrial waste",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "see source"
+  },
+  "lod": []
+ },
+ "findings": [
+  {
+   "id": "stern1998-jersey-city-household-dust-urinary-chromium:Cr:household-dust-homes-adjacent-to-chromate-waste-sites-all-ag:median",
+   "material": {
+    "label_as_printed": "Household dust, homes adjacent to chromate waste sites",
+    "page": "metals/chromium",
+    "form": "dust",
+    "state": "as_sampled",
+    "route_rule": "override:HMI-METAL-INGEST-2"
+   },
+   "analyte": "Cr",
+   "group": "all ages",
+   "group_kind": "population",
+   "n": 329,
+   "statistic": "median",
+   "reported": "119.0 µg/g dust (mean 207.9; P90 503.7)",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "µg/g dust",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 834",
+   "integrity_flag": null,
+   "notes": "Dust is not food or soil; value_ugkg left null. Scan renders unit as pg; methods text states micrograms per gram.",
+   "statistic_raw": "median"
+  },
+  {
+   "id": "stern1998-jersey-city-household-dust-urinary-chromium:Cr:household-dust-homes-adjacent-to-chromate-waste-sites-reside:median",
+   "material": {
+    "label_as_printed": "Household dust, homes adjacent to chromate waste sites",
+    "page": "metals/chromium",
+    "form": "dust",
+    "state": "as_sampled",
+    "route_rule": "override:HMI-METAL-INGEST-2"
+   },
+   "analyte": "Cr",
+   "group": "residents under 10 years",
+   "group_kind": "population",
+   "n": 67,
+   "statistic": "median",
+   "reported": "146.5 µg/g dust (mean 252.8)",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "µg/g dust",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 834",
+   "integrity_flag": null,
+   "notes": "As above.",
+   "statistic_raw": "median"
+  },
+  {
+   "id": "stern1998-jersey-city-household-dust-urinary-chromium:Cr:urine-residents-near-chromate-waste-sites-all-ages-unadjuste:median",
+   "material": {
+    "label_as_printed": "Urine, residents near chromate waste sites",
+    "page": "metals/chromium",
+    "form": "as_analyzed",
+    "state": "as_analyzed",
+    "route_rule": "override:HMI-METAL-INGEST-2"
+   },
+   "analyte": "Cr",
+   "group": "all ages, unadjusted",
+   "group_kind": "population",
+   "n": 329,
+   "statistic": "median",
+   "reported": "0.27 µg/L (mean 0.60)",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "µg/L",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 3, p. 835",
+   "integrity_flag": null,
+   "notes": "AAS; LOQ 0.2 µg/L; values below LOQ set to LOQ. Scan renders unit as pg/1.",
+   "statistic_raw": "median"
+  },
+  {
+   "id": "stern1998-jersey-city-household-dust-urinary-chromium:Cr:urine-residents-near-chromate-waste-sites-under-10-years-una:median",
+   "material": {
+    "label_as_printed": "Urine, residents near chromate waste sites",
+    "page": "metals/chromium",
+    "form": "as_analyzed",
+    "state": "as_analyzed",
+    "route_rule": "override:HMI-METAL-INGEST-2"
+   },
+   "analyte": "Cr",
+   "group": "under 10 years, unadjusted",
+   "group_kind": "population",
+   "n": 67,
+   "statistic": "median",
+   "reported": "0.31 µg/L (mean 0.46)",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "µg/L",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 3, p. 835",
+   "integrity_flag": null,
+   "notes": "As above.",
+   "statistic_raw": "median"
+  }
+ ],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/stern1998-jersey-city-household-dust-urinary-chromium.md",
+ "non_numeric_findings": [
+  "Urinary chromium associated with dust chromium concentration in children under 10 but not in residents over 10."
+ ]
+}

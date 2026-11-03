@@ -1,0 +1,213 @@
+{
+ "source_id": "huang2024-beijing-plasma-molybdenum-preterm-birth",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-MOLYBDENUM-1/10.46234_ccdcw2024.051.pdf",
+ "primary_sha256": "65587169c011e4ce644767e486eb9b23020dc1c0739ce80f80d822c673a18154",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "occurrence_extracted",
+ "disposition_reason": "ICP-MS plasma molybdenum in 236 spontaneous preterm birth cases and 236 controls in two trimesters, with adjusted odds ratios.",
+ "disposition_locator": "Table 2 and Table 3 (p. 264); Methods (p. 262)",
+ "study": {
+  "design": "nested case-control study",
+  "origin": "Beijing, China",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "2018 to 2020"
+  },
+  "method": "ICP-MS (ELAN DRC II) on fasting venous plasma",
+  "lod": [
+   "0.04 ng/mL; all samples above LOD"
+  ],
+  "basis": "unknown",
+  "qa": "ClinChek plasma control level II, median 5.96 ng/mL (4.77 to 7.15)",
+  "site_context": "hospital cohort"
+ },
+ "findings": [
+  {
+   "id": "huang2024-beijing-plasma-molybdenum-preterm-birth:Mo:maternal-plasma-first-trimester-all-women:median",
+   "material": {
+    "label_as_printed": "Maternal plasma, first trimester, all women",
+    "page": "metals/molybdenum",
+    "form": "plasma",
+    "state": "biological",
+    "route_rule": "override:HMI-METAL-INGEST-2"
+   },
+   "analyte": "Mo",
+   "group": "Beijing birth cohort, 2018 to 2020, 1st trimester (7 to 9 weeks)",
+   "group_kind": "population",
+   "n": 472,
+   "statistic": "median",
+   "reported": "2.07 (1.53 to 2.58) ng/mL",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "ng/mL",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 264",
+   "integrity_flag": null,
+   "notes": "Median (IQR). Third-trimester control n = 235 per Table 3 note.",
+   "statistic_raw": "median"
+  },
+  {
+   "id": "huang2024-beijing-plasma-molybdenum-preterm-birth:Mo:maternal-plasma-first-trimester-spontaneous-preterm-birth-cases:median",
+   "material": {
+    "label_as_printed": "Maternal plasma, first trimester, spontaneous preterm birth cases",
+    "page": "metals/molybdenum",
+    "form": "plasma",
+    "state": "biological",
+    "route_rule": "override:HMI-METAL-INGEST-2"
+   },
+   "analyte": "Mo",
+   "group": "Beijing birth cohort, 2018 to 2020, 1st trimester (7 to 9 weeks)",
+   "group_kind": "population",
+   "n": 236,
+   "statistic": "median",
+   "reported": "2.12 (1.56 to 2.69) ng/mL",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "ng/mL",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 264",
+   "integrity_flag": null,
+   "notes": "Median (IQR). Third-trimester control n = 235 per Table 3 note.",
+   "statistic_raw": "median"
+  },
+  {
+   "id": "huang2024-beijing-plasma-molybdenum-preterm-birth:Mo:maternal-plasma-first-trimester-controls:median",
+   "material": {
+    "label_as_printed": "Maternal plasma, first trimester, controls",
+    "page": "metals/molybdenum",
+    "form": "plasma",
+    "state": "biological",
+    "route_rule": "override:HMI-METAL-INGEST-2"
+   },
+   "analyte": "Mo",
+   "group": "Beijing birth cohort, 2018 to 2020, 1st trimester (7 to 9 weeks)",
+   "group_kind": "population",
+   "n": 236,
+   "statistic": "median",
+   "reported": "2.02 (1.46 to 2.50) ng/mL",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "ng/mL",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 264",
+   "integrity_flag": null,
+   "notes": "Median (IQR). Third-trimester control n = 235 per Table 3 note.",
+   "statistic_raw": "median"
+  },
+  {
+   "id": "huang2024-beijing-plasma-molybdenum-preterm-birth:Mo:maternal-plasma-third-trimester-all-women:median",
+   "material": {
+    "label_as_printed": "Maternal plasma, third trimester, all women",
+    "page": "metals/molybdenum",
+    "form": "plasma",
+    "state": "biological",
+    "route_rule": "override:HMI-METAL-INGEST-2"
+   },
+   "analyte": "Mo",
+   "group": "Beijing birth cohort, 2018 to 2020, 3rd trimester (33 to 34 weeks)",
+   "group_kind": "population",
+   "n": 471,
+   "statistic": "median",
+   "reported": "2.59 (1.66 to 3.55) ng/mL",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "ng/mL",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 264",
+   "integrity_flag": null,
+   "notes": "Median (IQR). Third-trimester control n = 235 per Table 3 note.",
+   "statistic_raw": "median"
+  },
+  {
+   "id": "huang2024-beijing-plasma-molybdenum-preterm-birth:Mo:maternal-plasma-third-trimester-cases:median",
+   "material": {
+    "label_as_printed": "Maternal plasma, third trimester, cases",
+    "page": "metals/molybdenum",
+    "form": "plasma",
+    "state": "biological",
+    "route_rule": "override:HMI-METAL-INGEST-2"
+   },
+   "analyte": "Mo",
+   "group": "Beijing birth cohort, 2018 to 2020, 3rd trimester (33 to 34 weeks)",
+   "group_kind": "population",
+   "n": 236,
+   "statistic": "median",
+   "reported": "2.66 (1.69 to 3.69) ng/mL",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "ng/mL",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 264",
+   "integrity_flag": null,
+   "notes": "Median (IQR). Third-trimester control n = 235 per Table 3 note.",
+   "statistic_raw": "median"
+  },
+  {
+   "id": "huang2024-beijing-plasma-molybdenum-preterm-birth:Mo:maternal-plasma-third-trimester-controls:median",
+   "material": {
+    "label_as_printed": "Maternal plasma, third trimester, controls",
+    "page": "metals/molybdenum",
+    "form": "plasma",
+    "state": "biological",
+    "route_rule": "override:HMI-METAL-INGEST-2"
+   },
+   "analyte": "Mo",
+   "group": "Beijing birth cohort, 2018 to 2020, 3rd trimester (33 to 34 weeks)",
+   "group_kind": "population",
+   "n": 235,
+   "statistic": "median",
+   "reported": "2.54 (1.58 to 3.41) ng/mL",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "ng/mL",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 264",
+   "integrity_flag": null,
+   "notes": "Median (IQR). Third-trimester control n = 235 per Table 3 note.",
+   "statistic_raw": "median"
+  }
+ ],
+ "unresolved": [
+  "Subgroup and sensitivity tables are in supplementary material not reviewed."
+ ],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [
+  "First trimester plasma molybdenum 2.584 ng/mL or more vs lowest quartile: adjusted OR 2.074 (1.212 to 3.550), P = 0.008 (Table 3, p. 264)",
+  "Third trimester 3.554 ng/mL or more: adjusted OR 1.732 (1.016 to 2.953), P = 0.044 (Table 3, p. 264)"
+ ],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/huang2024-beijing-plasma-molybdenum-preterm-birth.md",
+ "non_numeric_findings": []
+}

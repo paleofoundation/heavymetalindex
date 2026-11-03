@@ -1,0 +1,98 @@
+{
+ "source_id": "claushenn2012-mexico-city-manganese-lead-neurodevelopment",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-MANGANESE-1/10.1289_ehp.1003300.pdf",
+ "primary_sha256": "ef5dc1e77e5abf485cb9f66510c747c8a0a3fbcff584223c44fee3e033179a96",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "occurrence_extracted",
+ "disposition_reason": "Whole blood manganese in Mexico City children at 12 and 24 months with manganese-lead interaction on Bayley scores.",
+ "disposition_locator": "Tables 1 to 3",
+ "study": {
+  "design": "prospective birth cohort",
+  "origin": "MX",
+  "market": "not applicable",
+  "period": {
+   "from": "1997",
+   "to": "2000",
+   "as_reported": "enrollment 1997 through 2000"
+  },
+  "method": "DRC-ICP-MS (Elan 6100)",
+  "lod": [
+   "average LOD 0.09 ug/dL manganese"
+  ],
+  "basis": "not applicable",
+  "qa": "recoveries 78 to 113%; RSD < 5%",
+  "site_context": "urban population"
+ },
+ "findings": [
+  {
+   "id": "claushenn2012-mexico-city-manganese-lead-neurodevelopment:Mn:child-whole-blood-12-months:mean",
+   "material": {
+    "label_as_printed": "Child whole blood, 12 months",
+    "page": "metals/manganese",
+    "form": null,
+    "state": null,
+    "route_rule": "override:HMI-METAL-INGEST-2"
+   },
+   "analyte": "Mn",
+   "group": "Mexico City birth cohort",
+   "group_kind": "population",
+   "n": 275,
+   "statistic": "mean",
+   "reported": "24.7 +/- 5.9 ug/L (range 15.3 to 73.9)",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "ug/L",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 1; Results p. 127",
+   "integrity_flag": null,
+   "notes": "",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "claushenn2012-mexico-city-manganese-lead-neurodevelopment:Mn:child-whole-blood-24-months:mean",
+   "material": {
+    "label_as_printed": "Child whole blood, 24 months",
+    "page": "metals/manganese",
+    "form": null,
+    "state": null,
+    "route_rule": "override:HMI-METAL-INGEST-2"
+   },
+   "analyte": "Mn",
+   "group": "Mexico City birth cohort",
+   "group_kind": "population",
+   "n": 437,
+   "statistic": "mean",
+   "reported": "21.5 +/- 7.4 ug/L (range 5.1 to 93.5)",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "ug/L",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 1; Results p. 127",
+   "integrity_flag": null,
+   "notes": "",
+   "statistic_raw": "mean"
+  }
+ ],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/claushenn2012-mexico-city-manganese-lead-neurodevelopment.md",
+ "non_numeric_findings": [
+  "Highest 12-month manganese quintile x lead: MDI beta -1.27 (95% CI -2.18, -0.37); PDI beta -0.92 (-1.76, -0.09) (Table 2)."
+ ]
+}

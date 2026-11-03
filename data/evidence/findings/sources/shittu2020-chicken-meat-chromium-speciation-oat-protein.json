@@ -1,0 +1,96 @@
+{
+ "source_id": "shittu2020-chicken-meat-chromium-speciation-oat-protein",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-CHROMIUM-1/10.1016_j.heliyon.2020.e03654.pdf",
+ "primary_sha256": "d4d1bb64784b3c41a3199c3eaa48e0753e8268a6968b7a5a9366abac1187ce82",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "occurrence_extracted",
+ "disposition_reason": "Chromium species in control chicken breast meat by HPLC-ICP-MS (range of control means).",
+ "disposition_locator": "Results p. 4; Figure 3; Methods 2.4 to 2.5",
+ "study": {
+  "design": "laboratory food-chemistry experiment",
+  "origin": "not stated",
+  "market": "grocery store, Ottawa, Canada",
+  "method": "HPLC-ICP-MS (Agilent 1200 HPLC, Agilent 7500cx) after papain extraction",
+  "basis": "wet_weight",
+  "qa": "triplicate homogenates; no CRM or recovery reported",
+  "site_context": "retail",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "see source"
+  },
+  "lod": []
+ },
+ "findings": [
+  {
+   "id": "shittu2020-chicken-meat-chromium-speciation-oat-protein:Cr:chicken-breast-meat-control-no-protein-added-control-homogen:range_of_means",
+   "material": {
+    "label_as_printed": "Chicken breast meat, control (no protein added)",
+    "page": "ingredients/chicken",
+    "form": "raw",
+    "state": "raw",
+    "route_rule": "override:HMI-METAL-INGEST-2"
+   },
+   "analyte": "Cr",
+   "group": "control homogenates, fresh and stored",
+   "group_kind": "treatment",
+   "n": 3,
+   "statistic": "range_of_means",
+   "reported": "2.76 ± 0.15 to 3.38 ± 0.11 ng/g Cr(III)",
+   "value_ugkg": null,
+   "min_ugkg": 2.76,
+   "max_ugkg": 3.38,
+   "sd_ugkg": null,
+   "unit_original": "ng/g",
+   "basis": "wet_weight",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Results p. 4; Figure 3A",
+   "integrity_flag": "unit_conflict_abstract_vs_results",
+   "notes": "Trivalent chromium. ng/g equals µg/kg. Abstract prints µg/g (unit conflict).",
+   "statistic_raw": "range_of_means"
+  },
+  {
+   "id": "shittu2020-chicken-meat-chromium-speciation-oat-protein:Cr:chicken-breast-meat-control-no-protein-added-control-homogen:range_of_means",
+   "material": {
+    "label_as_printed": "Chicken breast meat, control (no protein added)",
+    "page": "ingredients/chicken",
+    "form": "raw",
+    "state": "raw",
+    "route_rule": "override:HMI-METAL-INGEST-2"
+   },
+   "analyte": "Cr",
+   "group": "control homogenates, fresh and stored",
+   "group_kind": "treatment",
+   "n": 3,
+   "statistic": "range_of_means",
+   "reported": "11.5 ± 0.3 to 14.3 ± 0.1 ng/g Cr(VI)",
+   "value_ugkg": null,
+   "min_ugkg": 11.5,
+   "max_ugkg": 14.3,
+   "sd_ugkg": null,
+   "unit_original": "ng/g",
+   "basis": "wet_weight",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Results p. 4; Figure 3B",
+   "integrity_flag": "unit_conflict_abstract_vs_results",
+   "notes": "Hexavalent chromium. ng/g equals µg/kg. Abstract prints µg/g (unit conflict).",
+   "statistic_raw": "range_of_means"
+  }
+ ],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/shittu2020-chicken-meat-chromium-speciation-oat-protein.md",
+ "non_numeric_findings": [
+  "Addition of oat protein hydrolysates reduced hexavalent chromium and increased trivalent chromium in chicken meat, attributed partly to thiol groups."
+ ]
+}

@@ -1,0 +1,40 @@
+{
+ "source_id": "barron1948-uranium-inhibition-cell-respiration",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-URANIUM-1/10.1085_jgp.32.2.163.pdf",
+ "primary_sha256": "436ead51f9b88943fac4709855830106379227b1fd5f493e0a7cb5cfc4ecaf8c",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "context",
+ "disposition_reason": "Mechanistic study of uranyl nitrate binding to proteins and inhibition of glucose metabolism in yeast and bacteria; no occurrence data.",
+ "disposition_locator": "Summary p. 178",
+ "study": {
+  "design": "in vitro mechanistic experiments",
+  "origin": "United States, Argonne National Laboratory and University of Chicago",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "1948"
+  },
+  "method": "manometry",
+  "lod": [],
+  "basis": "unknown",
+  "qa": "not reported",
+  "site_context": "laboratory"
+ },
+ "findings": [],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/barron1948-uranium-inhibition-cell-respiration.md",
+ "non_numeric_findings": [
+  "Glucose fermentation and oxidation in yeast inhibited by 7.7 micrograms uranium per mg dry weight (p. 178).",
+  "Inhibition released by phosphate, ATP or citrate at pH 7.3; interpreted as binding to cell-membrane proteins."
+ ]
+}

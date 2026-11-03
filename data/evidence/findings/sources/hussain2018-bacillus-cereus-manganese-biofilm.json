@@ -1,0 +1,39 @@
+{
+ "source_id": "hussain2018-bacillus-cereus-manganese-biofilm",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-MANGANESE-1/10.1371_journal.pone.0200958.pdf",
+ "primary_sha256": "170dbeb546b81c488f8b2ab199549eafd607c68f5948ad2aad1e77b529e6feec",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "context",
+ "disposition_reason": "In vitro: manganese sulfate (0.005%) and heme promote biofilm in some Bacillus cereus food isolates.",
+ "disposition_locator": "Methods; Results p. 5; Fig. 1",
+ "study": {
+  "design": "in vitro microbiology",
+  "origin": "KR (isolates from soybean paste)",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "not applicable"
+  },
+  "method": "crystal violet, microscopy, RT-PCR",
+  "lod": [],
+  "basis": "not applicable",
+  "qa": "not applicable",
+  "site_context": "laboratory"
+ },
+ "findings": [],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/hussain2018-bacillus-cereus-manganese-biofilm.md",
+ "non_numeric_findings": [
+  "Manganese promoted biofilm in three strains; effect strain dependent and larger than heme."
+ ]
+}

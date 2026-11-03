@@ -2,7 +2,7 @@
   "order": "HMI-STRUCTURE-SPEC-1",
   "date": "2026-10-28",
   "note": "Warn-only baseline. CI fails only when a page newly fails a check. Counts are pages, not occurrences. Stubs are exempt only from section_presence_and_order. 2026-10-28 recount includes restored live pages and products moved out of ingredients.",
-  "pages_scanned": 916,
+  "pages_scanned": 917,
   "stubs_exempt_from_sections": 410,
   "checks": {
     "answer_block": {
@@ -693,7 +693,7 @@
       ]
     },
     "generic_headings": {
-      "pages": 774,
+      "pages": 775,
       "paths": [
         "wiki/ingredients/almond-beverage.md",
         "wiki/ingredients/almond.md",
@@ -1045,6 +1045,7 @@
         "wiki/metals/chromium.md",
         "wiki/metals/cobalt.md",
         "wiki/metals/copper.md",
+        "wiki/metals/gallium.md",
         "wiki/metals/gold.md",
         "wiki/metals/iron.md",
         "wiki/metals/lead.md",

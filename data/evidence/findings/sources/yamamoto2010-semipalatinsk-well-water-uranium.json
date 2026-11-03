@@ -1,0 +1,101 @@
+{
+ "source_id": "yamamoto2010-semipalatinsk-well-water-uranium",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-URANIUM-1/10.1007_s10967-010-0463-2.pdf",
+ "primary_sha256": "e82c91ff4eac77c96529790f6560c628d044a992afb28bd1840016efc13cc895",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "occurrence_extracted",
+ "disposition_reason": "Uranium-238 measured in 35 drinking well-water samples around the Semipalatinsk Nuclear Test Site (0.3 to 28.7 µg/L) and in Irtysh River water; adult annual effective doses derived.",
+ "disposition_locator": "Abstract p. 309; Results p. 311; Table 2; Table 3 p. 314",
+ "study": {
+  "design": "cross-sectional environmental survey of drinking well water",
+  "origin": "Kazakhstan, ten settlements around the Semipalatinsk Nuclear Test Site",
+  "market": "local drinking-water wells",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "sample codes indicate collection in 1995 to 2005"
+  },
+  "method": "alpha-particle spectrometry after anion-exchange separation with uranium-232 yield tracer",
+  "lod": [
+   "about 0.2 mBq uranium-238 per sample (p. 311)"
+  ],
+  "basis": "unknown",
+  "qa": "yield tracer; isotope activity ratios reported with counting errors",
+  "site_context": "community drinking water"
+ },
+ "findings": [
+  {
+   "id": "yamamoto2010-semipalatinsk-well-water-uranium:U:well-water-used-for-drinking-35-wells-in-ten-settlements-aro:range",
+   "material": {
+    "label_as_printed": "Well water used for drinking",
+    "page": "ingredients/water",
+    "form": "liquid",
+    "state": "as_consumed",
+    "route_rule": "override:HMI-METAL-INGEST-2"
+   },
+   "analyte": "U",
+   "group": "35 wells in ten settlements around the Semipalatinsk Nuclear Test Site, Kazakhstan",
+   "group_kind": "site",
+   "n": 35,
+   "statistic": "range",
+   "reported": "3.6 to 356 mBq/L uranium-238 (0.3 to 28.7 µg/L)",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "µg/L",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Abstract p. 309; p. 311; Table 2",
+   "integrity_flag": null,
+   "notes": "Mass concentration converted by the authors from uranium-238 activity; water concentrations are not converted to µg/kg.",
+   "statistic_raw": "range"
+  },
+  {
+   "id": "yamamoto2010-semipalatinsk-well-water-uranium:U:irtysh-river-surface-water-irtysh-river-near-semipalatinsk-k:range",
+   "material": {
+    "label_as_printed": "Irtysh River surface water",
+    "page": "ingredients/water",
+    "form": "liquid",
+    "state": "as_consumed",
+    "route_rule": "override:HMI-METAL-INGEST-2"
+   },
+   "analyte": "U",
+   "group": "Irtysh River near Semipalatinsk, Kazakhstan",
+   "group_kind": "site",
+   "n": null,
+   "statistic": "range",
+   "reported": "31 to 37 mBq/L uranium-238 (2.5 to 3.0 µg/L)",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "µg/L",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "p. 311; Table 2",
+   "integrity_flag": null,
+   "notes": "River surface water, comparison sample; sample count not restated in text.",
+   "statistic_raw": "range"
+  }
+ ],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [
+  "WHO proposed guideline of 15 µg/L uranium in drinking water as cited by the authors (3rd edition), p. 311",
+  "Annual effective dose to adults drinking 2 L/day: 1.0 to 18.7 µSv/y, below the 100 µSv/y WHO and IAEA reference value cited, Table 3 p. 314"
+ ],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/yamamoto2010-semipalatinsk-well-water-uranium.md",
+ "non_numeric_findings": [
+  "Uranium-235/uranium-238 activity ratio about 0.046 indicates natural uranium, attributed to rock weathering rather than test-site fallout (p. 311)."
+ ]
+}

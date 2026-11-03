@@ -1,0 +1,213 @@
+{
+ "source_id": "zhang2014-huaian-drinking-water-manganese-cancer",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-MANGANESE-1/10.1155_2014_645056.pdf",
+ "primary_sha256": "8d698970864e75baa6255dd366e251ca914c84954f309df405c9efb64a24bbe0",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "occurrence_extracted",
+ "disposition_reason": "ICP-MS manganese in 158 rural drinking water samples by period and source, with exceedance of the Chinese 100 ug/L standard; ecological cancer correlations.",
+ "disposition_locator": "Tables 1 to 6",
+ "study": {
+  "design": "ecological study",
+  "origin": "CN",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "high-flow and low-flow periods; cancer data 2008 to 2010"
+  },
+  "method": "ICP-MS 7500a; acidified to pH < 2",
+  "lod": [],
+  "basis": "not applicable",
+  "qa": "not reported",
+  "site_context": "rural water sources"
+ },
+ "findings": [
+  {
+   "id": "zhang2014-huaian-drinking-water-manganese-cancer:Mn:all-drinking-water-samples:mean",
+   "material": {
+    "label_as_printed": "All drinking water samples",
+    "page": "ingredients/water",
+    "form": "liquid",
+    "state": "as_consumed",
+    "route_rule": "override:HMI-METAL-INGEST-2"
+   },
+   "analyte": "Mn",
+   "group": "Huai'an rural villages",
+   "group_kind": "source_type",
+   "n": 158,
+   "statistic": "mean",
+   "reported": "452.32 +/- 507.76 ug/L (min 0.02, max 4364.00)",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "ug/L",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 1; Results 3.2",
+   "integrity_flag": null,
+   "notes": "",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "zhang2014-huaian-drinking-water-manganese-cancer:Mn:high-flow-period-all-sources:mean",
+   "material": {
+    "label_as_printed": "High flow period, all sources",
+    "page": "ingredients/water",
+    "form": "liquid",
+    "state": "as_consumed",
+    "route_rule": "override:HMI-METAL-INGEST-2"
+   },
+   "analyte": "Mn",
+   "group": "Huai'an rural villages",
+   "group_kind": "source_type",
+   "n": 84,
+   "statistic": "mean",
+   "reported": "265.47 +/- 388.83 ug/L",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "ug/L",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 1",
+   "integrity_flag": null,
+   "notes": "",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "zhang2014-huaian-drinking-water-manganese-cancer:Mn:low-flow-period-all-sources:mean",
+   "material": {
+    "label_as_printed": "Low flow period, all sources",
+    "page": "ingredients/water",
+    "form": "liquid",
+    "state": "as_consumed",
+    "route_rule": "override:HMI-METAL-INGEST-2"
+   },
+   "analyte": "Mn",
+   "group": "Huai'an rural villages",
+   "group_kind": "source_type",
+   "n": 74,
+   "statistic": "mean",
+   "reported": "664.41 +/- 544.82 ug/L",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "ug/L",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 1",
+   "integrity_flag": null,
+   "notes": "",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "zhang2014-huaian-drinking-water-manganese-cancer:Mn:surface-water:mean",
+   "material": {
+    "label_as_printed": "Surface water",
+    "page": "ingredients/water",
+    "form": "liquid",
+    "state": "as_consumed",
+    "route_rule": "override:HMI-METAL-INGEST-2"
+   },
+   "analyte": "Mn",
+   "group": "Huai'an rural villages",
+   "group_kind": "source_type",
+   "n": 47,
+   "statistic": "mean",
+   "reported": "506.33 +/- 362.88 ug/L",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "ug/L",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 1",
+   "integrity_flag": null,
+   "notes": "",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "zhang2014-huaian-drinking-water-manganese-cancer:Mn:shallow-groundwater:mean",
+   "material": {
+    "label_as_printed": "Shallow groundwater",
+    "page": "ingredients/water",
+    "form": "liquid",
+    "state": "as_consumed",
+    "route_rule": "override:HMI-METAL-INGEST-2"
+   },
+   "analyte": "Mn",
+   "group": "Huai'an rural villages",
+   "group_kind": "source_type",
+   "n": 55,
+   "statistic": "mean",
+   "reported": "573.64 +/- 672.47 ug/L",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "ug/L",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 1",
+   "integrity_flag": null,
+   "notes": "",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "zhang2014-huaian-drinking-water-manganese-cancer:Mn:deep-groundwater:mean",
+   "material": {
+    "label_as_printed": "Deep groundwater",
+    "page": "ingredients/water",
+    "form": "liquid",
+    "state": "as_consumed",
+    "route_rule": "override:HMI-METAL-INGEST-2"
+   },
+   "analyte": "Mn",
+   "group": "Huai'an rural villages",
+   "group_kind": "source_type",
+   "n": 56,
+   "statistic": "mean",
+   "reported": "287.83 +/- 370.25 ug/L",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "ug/L",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 1",
+   "integrity_flag": null,
+   "notes": "",
+   "statistic_raw": "mean"
+  }
+ ],
+ "unresolved": [
+  "Text in Results 3.3 conflicts with Table 2 on which source had 72.01 ug/L in the high-flow period."
+ ],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [
+  "Chinese national drinking water standard 100 ug/L used as exceedance criterion; 75.32% of samples exceeded (Table 3)",
+  "Low-flow regression: +0.45/100000 cases and +0.35/100000 deaths per 1 ug/L (Table 6)"
+ ],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/zhang2014-huaian-drinking-water-manganese-cancer.md",
+ "non_numeric_findings": [
+  "Authors attribute manganese to local industrial pollution (Discussion)."
+ ]
+}
