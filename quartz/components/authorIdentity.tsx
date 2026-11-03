@@ -170,11 +170,11 @@ export function AuthorProfileHero({ slug, heroImage, heroAlt }: {
           </p>
           <div class="hero-meta">
             <div class="hero-acts">
-              <a class="hero-act" href="#publications">
-                Publications
+              <a class="hero-act" href="#major-works">
+                Major works
               </a>
-              <a class="hero-act" href="#public-record">
-                Public record
+              <a class="hero-act" href="#recent-work-and-updates">
+                Recent work
               </a>
               <a
                 class="hero-act"

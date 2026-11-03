@@ -24,7 +24,7 @@ Paleo Certified, Inc. also operates, as the Institute of Contaminant Standards (
 
 ## Governance
 
-[Karen Pendergrass](/authors/karen-pendergrass) is founder and scientific editor of the Heavy Metal Index. Her author profile includes her roles, the public ORCID record, and the works that record lists.
+[Karen Pendergrass](/authors/karen-pendergrass) is founder and scientific editor of the Heavy Metal Index. Her author profile includes her roles, notes on recent work, and a short selection of major works. The full work list remains on her ORCID record.
 
 Methodology, selection criteria, extraction approach, quality-assurance audit procedures, and error-handling workflow are documented on the [methodology page](/methodology). The wiki is version-controlled in git; every substantive change is committed with provenance, and the commit log is the authoritative record of who changed what and when.
 

@@ -108,7 +108,9 @@ export default (() => {
         <h2>Research profiles</h2>
         <a href={`https://orcid.org/${KAREN.orcid}`}><OrcidIdIcon /> ORCID iD {KAREN.orcid} ↗</a>
         <a href={`https://www.wikibiome.com/researchers/${KAREN.orcid}`}>WikiBiome researcher profile ↗</a>
-        <a href="#publications">Publications</a>
+        <a href="#roles">Roles</a>
+        <a href="#recent-work-and-updates">Recent work</a>
+        <a href="#major-works">Major works</a>
         <a href="#public-record">Public record</a>
         <a href={resolveRelative(slug, "contact" as SimpleSlug)}>Contact the Index</a>
       </nav>

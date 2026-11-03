@@ -9,8 +9,6 @@ import {
 // through Content so Quartz includes it in the shared browser bundle.
 // @ts-ignore — resolved by Quartz's inline-script loader
 import authorCardScript from "../scripts/authorCard.inline";
-// @ts-ignore - resolved by Quartz's inline-script loader
-import authorWorksScript from "../scripts/authorWorks.inline";
 // @ts-ignore — inline resource bundled by Quartz
 import analyteExplorerScript from "../scripts/analyteExplorer.inline";
 import analyteExplorerStyle from "../styles/analyteExplorer.scss";
@@ -40,7 +38,7 @@ const Content: QuartzComponent = ({
   );
 };
 
-Content.afterDOMLoaded = [authorCardScript, authorWorksScript, analyteExplorerScript].join("\n");
+Content.afterDOMLoaded = [authorCardScript, analyteExplorerScript].join("\n");
 Content.css = analyteExplorerStyle;
 
 export default (() => Content) satisfies QuartzComponentConstructor;
