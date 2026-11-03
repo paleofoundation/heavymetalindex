@@ -1,5 +1,5 @@
 {
- "schema": "hmi-product-core/1",
+ "schema": "hmi-product-core/2",
  "slug": "infant-formula-powder-non-soy",
  "title": "Infant formula, powder (non-soy)",
  "scope": {
@@ -27,7 +27,10 @@
    "unit": null,
    "basis": null,
    "status": "No action level; FDA states it is working to establish action levels for infant formula",
-   "source": "fda2026press"
+   "source": "fda2026press",
+   "jurisdiction_page": "regulators/us-fda",
+   "instrument_page": "regulations/fda-closer-to-zero",
+   "instrument_source_page": null
   },
   {
    "jurisdiction": "California (Prop 65)",
@@ -37,7 +40,11 @@
    "unit": "µg/day",
    "basis": "daily intake",
    "status": "Safe-harbor warning threshold (dose, not concentration)",
-   "source": "oehhaPb"
+   "source": "oehhaPb",
+   "jurisdiction_page": "regulators/oehha",
+   "instrument_page": "regulations/oehha-lead-prop65",
+   "instrument_source_page": "sources/oehha-lead-prop65-listing",
+   "source_secondary": "oehhaSafeHarbor"
   },
   {
    "jurisdiction": "California (Prop 65)",
@@ -47,7 +54,26 @@
    "unit": "µg/day",
    "basis": "daily intake",
    "status": "Safe-harbor warning threshold (dose, not concentration)",
-   "source": "oehhaCd"
+   "source": "oehhaSafeHarbor",
+   "jurisdiction_page": "regulators/oehha",
+   "instrument_page": "regulations/oehha-cadmium-prop65",
+   "instrument_source_page": "sources/oehha-cadmium-prop65-madl-2001",
+   "source_secondary": "oehhaCd"
+  },
+  {
+   "jurisdiction": "California (Prop 65)",
+   "jurisdiction_page": "regulators/oehha",
+   "instrument": "No Significant Risk Level (cancer, all routes except inhalation)",
+   "instrument_page": "regulations/oehha-arsenic-prop65",
+   "instrument_source_page": "sources/oehha-arsenic-prop65-listing",
+   "metal": "Inorganic arsenic",
+   "value": 10,
+   "unit": "µg/day",
+   "basis": "daily intake",
+   "status": "Safe-harbor warning threshold (dose, not concentration); no MADL is listed",
+   "source": "oehhaSafeHarbor",
+   "source_secondary": "oehhaAs",
+   "verified": "OEHHA safe harbor table, read 3 November 2026: Arsenic (inorganic arsenic compounds) NSRL 0.06 µg/day inhalation, 10 µg/day except inhalation; no MADL."
   },
   {
    "jurisdiction": "California (settlement, one company)",
@@ -57,7 +83,10 @@
    "unit": "µg/kg (ppb)",
    "basis": "product as sold in California",
    "status": "Settlement term binding Perrigo only",
-   "source": "caag2022"
+   "source": "caag2022",
+   "jurisdiction_page": null,
+   "instrument_page": null,
+   "instrument_source_page": null
   },
   {
    "jurisdiction": "European Union",
@@ -67,7 +96,10 @@
    "unit": "µg/kg",
    "basis": "powder as placed on the market",
    "status": "Binding maximum level",
-   "source": "eu2023915"
+   "source": "eu2023915",
+   "jurisdiction_page": "regulators/eu-commission",
+   "instrument_page": "regulations/eu-2023-915-lead-infant-young-child-foods",
+   "instrument_source_page": "sources/eu-2023-915-contaminants-maximum-levels"
   },
   {
    "jurisdiction": "European Union",
@@ -77,7 +109,10 @@
    "unit": "µg/kg",
    "basis": "powder from cow milk proteins or hydrolysates, as placed on the market",
    "status": "Binding maximum level",
-   "source": "eu2023915"
+   "source": "eu2023915",
+   "jurisdiction_page": "regulators/eu-commission",
+   "instrument_page": "regulations/eu-2023-915-cadmium",
+   "instrument_source_page": "sources/eu-2023-915-contaminants-maximum-levels"
   },
   {
    "jurisdiction": "European Union",
@@ -87,6 +122,22 @@
    "unit": "µg/kg",
    "basis": "powder as placed on the market",
    "status": "Binding maximum level",
+   "source": "eu2023915",
+   "jurisdiction_page": "regulators/eu-commission",
+   "instrument_page": null,
+   "instrument_source_page": "sources/eu-2023-915-contaminants-maximum-levels"
+  },
+  {
+   "jurisdiction": "European Union",
+   "jurisdiction_page": "regulators/eu-commission",
+   "instrument": "Regulation (EU) 2023/915",
+   "instrument_page": null,
+   "instrument_source_page": "sources/eu-2023-915-contaminants-maximum-levels",
+   "metal": "Inorganic tin",
+   "value": null,
+   "unit": null,
+   "basis": "canned products only",
+   "status": "Not applicable: the 50 mg/kg level for canned infant formula excludes dried and powdered products",
    "source": "eu2023915"
   },
   {
@@ -97,31 +148,91 @@
    "unit": "µg/kg",
    "basis": "as consumed (prepared)",
    "status": "International maximum level (reference for national law)",
-   "source": "codex193"
+   "source": "codex193",
+   "jurisdiction_page": "regulators/codex",
+   "instrument_page": null,
+   "instrument_source_page": "sources/codex-cxs-193-1995"
   }
  ],
- "why_high_risk": [
-  {
-   "text": "Infants are the most sensitive group for lead, and formula is consumed in large daily volumes. Healthy Babies Bright Futures' 2019 exposure model ranked infant formula among the 15 foods behind 55 percent of estimated IQ loss from arsenic and lead in children under two, driven by volume, with lead the main metal for formula.",
-   "source": "houlihan2019"
-  },
-  {
-   "text": "Consumer Reports detected lead in 34 of 41 powdered formulas tested in 2025 (1.2 to 4.2 ppb); 18 had lead equal to 50 to 100 percent of the California MADL at the intake CR assumed.",
-   "source": "cr2025"
-  },
-  {
-   "text": "Consumer Reports speciated nine formulas with total arsenic of 6.7 ppb or more; seven were over its risk level and two were close. The highest inorganic arsenic was in specialty non-soy powders: 19.7 ppb in EleCare Hypoallergenic and 15.1 ppb in Similac Alimentum.",
-   "source": "cr2025"
-  },
-  {
-   "text": "FDA tested 312 U.S. formula samples from 16 brands: lead was detected in 80 percent (median 0.2 ppb as prepared, maximum 1.1 ppb), and arsenic, when speciated, was inorganic. FDA reported overall levels as low and opened follow-up on some samples.",
-   "source": "fda2026page"
-  },
-  {
-   "text": "The United States has no action level for metals in infant formula, so there is no federal ceiling to test against today; FDA says it is working to establish one.",
-   "source": "fda2026press"
-  }
- ],
+ "why_high_risk": {
+  "paragraphs": [
+   [
+    {
+     "text": "Infants are the most sensitive group for lead, and formula can be the sole food for the first months of life, so volume consumed drives dose.",
+     "source": "houlihan2019"
+    },
+    {
+     "text": "Healthy Babies Bright Futures' 2019 exposure model ranked infant formula among the 15 foods behind 55 percent of estimated IQ loss from arsenic and lead in children under two, with lead the main metal for formula.",
+     "source": "houlihan2019"
+    }
+   ],
+   [
+    {
+     "text": "Recent product tests found metals at low concentrations in most powders but at levels that matter at infant intakes in some.",
+     "source": null
+    },
+    {
+     "text": "Consumer Reports detected lead in 34 of 41 powdered formulas tested in 2025, at 1.2 to 4.2 ppb, and 18 had lead equal to 50 to 100 percent of the California MADL at the intake it assumed.",
+     "source": "cr2025"
+    },
+    {
+     "text": "FDA tested 312 U.S. formula samples from 16 brands, detected lead in 80 percent and reported overall levels as low, while opening follow-up on some samples.",
+     "source": "fda2026page"
+    }
+   ],
+   [
+    {
+     "text": "The United States has no action level for metals in infant formula, so there is no federal ceiling to test against today; FDA says it is working to establish one.",
+     "source": "fda2026press"
+    },
+    {
+     "text": "High-risk here describes exposure vulnerability and surveillance priority. It does not mean any product is unsafe.",
+     "source": null
+    }
+   ]
+  ],
+  "questions": [
+   {
+    "q": "Why does a low concentration still matter for infant formula?",
+    "a": [
+     {
+      "text": "Dose is concentration multiplied by the amount eaten, and infants on formula consume a large amount relative to body weight.",
+      "source": "houlihan2019"
+     },
+     {
+      "text": "Gardener and colleagues estimated that, at 31 ounces of prepared formula a day for a 4-month-old, 20 of 91 U.S. formulas exceeded the Prop 65 lead dose of 0.5 µg/day and 23 percent exceeded the cadmium dose of 4.1 µg/day, although none exceeded the FDA's 6 µg/day lead reference.",
+      "source": "gardener2019"
+     }
+    ]
+   },
+   {
+    "q": "Which non-soy powders had the highest inorganic arsenic?",
+    "a": [
+     {
+      "text": "Consumer Reports speciated nine formulas with total arsenic of 6.7 ppb or more; seven were over its risk level and two were close.",
+      "source": "cr2025"
+     },
+     {
+      "text": "The highest inorganic arsenic was in specialty non-soy powders: 19.7 ppb in EleCare Hypoallergenic and 15.1 ppb in Similac Alimentum.",
+      "source": "cr2025"
+     }
+    ]
+   },
+   {
+    "q": "Is arsenic in formula always inorganic?",
+    "a": [
+     {
+      "text": "In the FDA survey, arsenic was inorganic when samples were speciated.",
+      "source": "fda2026page"
+     },
+     {
+      "text": "Consumer Reports speciated only samples with total arsenic of 6.7 ppb or more, so its inorganic arsenic results describe the higher-arsenic products, not the whole market.",
+      "source": "cr2025"
+     }
+    ]
+   }
+  ]
+ },
  "benchmark": [
   {
    "metal": "Lead",
@@ -861,13 +972,16 @@
  },
  "compare": {
   "default_intake_g_powder_per_day": 120,
-  "intake_note": "Illustrative: about 900 mL prepared formula per day for a 4 to 6 month old at roughly 13 g powder per 100 mL. Use the label scoop rate for your product."
+  "intake_note": "Illustrative: about 900 mL prepared formula per day for a 4 to 6 month old at roughly 13 g powder per 100 mL. Use the label scoop rate for your product.",
+  "public": false,
+  "placement": "Index Pro only; values kept in this record for machine use."
  },
  "gaps": [
-  "Brand-level FDA survey values (the FDA data file lists lots by product) are not yet extracted into a non-soy powder benchmark.",
+  "Brand-level FDA survey values (the FDA data file lists lots by product) are not yet extracted into a non-soy powder summary.",
   "No U.S. federal action level exists to compare against.",
-  "Prop 65 value for inorganic arsenic not verified from primary text in this build.",
-  "No source isolates the metal contribution of the premix, oils or dairy base separately."
+  "No source isolates the metal contribution of the premix, oils or dairy base separately.",
+  "Missing internal pages: no HMI regulation page yet for the EU 2023/915 inorganic arsenic entry, the Codex CXS 193 lead entry for infant formula, or the California Perrigo settlement; those rows link to the library source record or the official source instead.",
+  "EUR-Lex blocked automated retrieval on 3 November 2026; EU values were rechecked against the library's Annex I records rather than the consolidated text."
  ],
  "sources": {
   "cr2025": {
@@ -955,14 +1069,14 @@
    "title": "Lead and cadmium contamination in a large sample of United States infant formulas and baby foods",
    "publisher": "Science of the Total Environment",
    "date": "2019",
-   "url": "https://doi.org/10.1016/j.scitotenv.2018.10.428",
+   "url": "https://doi.org/10.1016/j.scitotenv.2018.09.026",
    "library": "sources/gardener2019-pb-cd-us-infant-formula-baby-foods"
   },
   "houlihan2019": {
    "title": "What's in My Baby's Food?",
    "publisher": "Healthy Babies Bright Futures",
    "date": "2019-10",
-   "url": "https://hbbf.org/report/whats-my-babys-food",
+   "url": "https://www.hbbf.org/research/whats-my-babys-food",
    "library": "sources/houlihan2019-hbbf-whats-in-baby-food"
   },
   "fda2019recall": {
@@ -970,6 +1084,117 @@
    "publisher": "U.S. Food and Drug Administration",
    "date": "2019-06-20",
    "url": "https://api.fda.gov/food/enforcement.json?search=recall_number:F-1558-2019"
+  },
+  "oehhaAs": {
+   "title": "Arsenic (inorganic arsenic compounds), Proposition 65 chemical listing and safe harbor level",
+   "publisher": "California OEHHA",
+   "date": "current",
+   "url": "https://oehha.ca.gov/proposition-65/chemicals/arsenic-inorganic-arsenic-compounds",
+   "url2": "https://oehha.ca.gov/proposition-65/general-info/current-proposition-65-no-significant-risk-levels-nsrls-maximum",
+   "library": "sources/oehha-arsenic-prop65-listing"
+  },
+  "oehhaSafeHarbor": {
+   "title": "Proposition 65 No Significant Risk Levels (NSRLs) and Maximum Allowable Dose Levels (MADLs)",
+   "publisher": "California OEHHA",
+   "date": "2026-11-03 (accessed)",
+   "url": "https://oehha.ca.gov/proposition-65/general-info/current-proposition-65-no-significant-risk-levels-nsrls-maximum"
   }
- }
+ },
+ "limits_verification": {
+  "eu2023915": "Values rechecked 3 November 2026 against the HMI library records of Regulation (EU) 2023/915 Annex I (sections 3.1 lead, 3.2 cadmium, 3.4 inorganic arsenic): lead 0.020 mg/kg powder; cadmium 0.010 mg/kg powder from cow milk proteins or hydrolysates; inorganic arsenic 0.020 mg/kg powder; all on the product as placed on the market. EUR-Lex blocked automated retrieval on 3 November 2026, so the consolidated text was not re-read directly in this build.",
+  "prop65_inorganic_arsenic": "Verified 3 November 2026 from the OEHHA safe harbor table: NSRL 10 µg/day (except inhalation); no MADL."
+ },
+ "mitigation": {
+  "intro": [
+   {
+    "text": "Formula is a manufactured product, so its metal content follows its ingredient inputs, process water and controls rather than field conditions alone.",
+    "source": "redgrove2019"
+   },
+   {
+    "text": "The table lists the controls with published evidence for this category; controls without quantified evidence are named below it as gaps.",
+    "source": null
+   }
+  ],
+  "rows": [
+   {
+    "stage": "Sourcing",
+    "control": "Specify and batch-test the mineral premix and protein inputs",
+    "evidence": "A roughly 40-fold aluminum range across 24 UK prescription formulas as prepared (41.4 to over 1,900 µg/L); two amino acid powders at 41.4 and 44.4 µg/L show low-aluminum formulations are achievable. The study does not isolate the premix from other inputs.",
+    "source": "redgrove2019"
+   },
+   {
+    "stage": "Formulation",
+    "control": "Keep a dairy protein base rather than soy protein where clinically appropriate",
+    "evidence": "Prepared non-soy powders measured about 106 to 411 µg/L aluminum versus 656 and 756 µg/L for two soy powders; estimated daily aluminum intake reached up to about 350 µg/day from non-soy versus up to 725 µg/day from soy formula.",
+    "source": "chuchu2013"
+   },
+   {
+    "stage": "Preparation",
+    "control": "Test and specify the water used to prepare formula",
+    "evidence": "In a New Hampshire private-well cohort (n = 72), formula-fed infants had a median inorganic arsenic intake of 0.22 µg/kg bw/day versus 0.04 for breastfed infants; preparation water, not the powder, was the dominant route. Sampled wells reached 189 µg/L against the EPA limit of 10 µg/L.",
+    "source": "carignan2015"
+   },
+   {
+    "stage": "Lot release",
+    "control": "Screen each lot as a daily dose at a stated intake, not only as a concentration",
+    "evidence": "At 31 ounces of prepared formula a day, 20 of 91 U.S. formulas exceeded the Prop 65 lead dose of 0.5 µg/day and 23 percent exceeded the cadmium dose of 4.1 µg/day, although none exceeded FDA's 6 µg/day lead reference.",
+    "source": "gardener2019"
+   },
+   {
+    "stage": "Lot release",
+    "control": "Set a lead target and maximum with ingredient sourcing controls, an independent auditor and compliance testing",
+    "evidence": "The 2022 California settlement with Perrigo set a 4 ppb lead target and a 5 to 7 ppb maximum; lots above the maximum may not be sold in California. The settlement does not report the resulting change in lead levels.",
+    "source": "caag2022"
+   }
+  ],
+  "gaps": [
+   "No quantified evidence in the library for supplier selection of dairy protein on cadmium, aluminum or lead results.",
+   "No quantified evidence in the library for processing equipment contact surfaces as an aluminum source in formula."
+  ],
+  "questions": [
+   {
+    "q": "Which mitigation steps have no evidence yet?",
+    "a": [
+     {
+      "text": "Two controls listed on the earlier version of this page have no quantified evidence in the library: specifying dairy protein from low-metal suppliers, and auditing processing equipment contact surfaces. They remain reasonable good manufacturing practice but are shown as gaps rather than table rows.",
+      "source": null
+     }
+    ]
+   },
+   {
+    "q": "Can a parent lower metals from formula at home?",
+    "a": [
+     {
+      "text": "The one home step with measured evidence is the preparation water: in households on private wells with high arsenic, the water used to mix formula was the main source of infant arsenic.",
+      "source": "carignan2015"
+     }
+    ]
+   }
+  ]
+ },
+ "exposure": {
+  "paragraphs": [
+   [
+    {
+     "text": "Gardener and colleagues are the one source in the library that converts measured formula concentrations into infant daily doses.",
+     "source": "gardener2019"
+    },
+    {
+     "text": "For 91 U.S. formulas at 31 ounces a day for a 4-month-old, the highest estimated lead dose was 2.68 µg/day (95th percentile 1.06) and the highest cadmium dose 23.33 µg/day (95th percentile 8.04); the median for both was below detection.",
+     "source": "gardener2019"
+    },
+    {
+     "text": "The study covers all formula types, so these doses are context for non-soy powder, not a non-soy distribution.",
+     "source": "gardener2019"
+    }
+   ]
+  ],
+  "questions": []
+ },
+ "ingredient_drivers_intro": [
+  {
+   "text": "Most non-soy formula is a dairy protein base with oils, a vitamin and mineral premix and, once prepared, water. The evidence ties aluminum and inorganic arsenic most clearly to specialty protein powders and preparation water, and no source isolates the oil blend or premix on its own.",
+   "source": null
+  }
+ ]
 }

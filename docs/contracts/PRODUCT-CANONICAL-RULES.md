@@ -1,104 +1,96 @@
-# Canonical product-category page rules (v1, pilot 3 November 2026)
+# Canonical product-category page rules (v2, pilot 4, 3 November 2026)
 
-Status: proposed ruleset for owner review. Pilot: `products/infant-formula-powder-non-soy` (v3). Nothing here changes production or `main` until the owner accepts it.
+Status: proposed ruleset, revised after owner review of pilot 3. Pilot: `products/infant-formula-powder-non-soy` (v4). Nothing here changes production or `main` until the owner accepts it. Owner review items are binding and are marked **(owner)**.
 
 ## 1. What a product page is
 
-A product page is the canonical ingredient page (Rice style, `docs/contracts/ingredient-canonical-style.md`) plus a fixed **universal core** of product-only sections. Everything the ingredient contract requires still applies: shared components, the grouped contamination-profile table, sentence-level superscript citations, the stage-led mitigation table, up to 20 FAQs, hero preservation, single-grid tables and the public content boundary.
+A product page is the canonical ingredient page (Rice style, `docs/contracts/ingredient-canonical-style.md`, live reference https://heavymetalindex.com/ingredients/rice) plus a fixed universal core of product-only sections. Everything the ingredient contract requires still applies: shared components, the grouped contamination-profile table, sentence-level superscript citations, up to 20 FAQs, hero preservation, single-grid tables and the public content boundary.
 
-The ingredient style alone is not enough for a product. The 25 October pilot proved it: it rendered the shared profile table well, but it dropped the three sections readers of a finished-product page come for (what the limits are, why the category is risky, what has been recalled or enforced) and replaced them with "nothing verified" placeholders even though the old live page and the library held sourced answers.
+## 2. Canonical style (owner)
 
-## 2. Why a universal core (the reasoning)
-
-Brands, retailers, labs and buyers will look up their own products against these pages, and TECRID and VLE will read them by machine. That only works if every product page answers the same questions in the same place with the same fields. So:
-
-- **Same section IDs and anchors on every page.** A retailer can deep-link `#limits` on any category; a script can read `#benchmark` without knowing the category.
-- **Same fields in every table.** Limits always carry jurisdiction, instrument, metal, value, unit, basis, status and source. Benchmarks always carry n, detected, median, p90, max, basis and source.
-- **Structured data on every page.** The same facts the reader sees are emitted as one JSON object (`hmi-product-core/1`) embedded in the page and written beside the build, so nothing has to be scraped.
-- **Think Simple.** The reader sees short tables and plain sentences in a fixed order. Basis conversion, percentile math, source locators and match rules live in the data and the builder, not in the prose.
-
-Category-specific material (soy versus non-soy relationship, French total diet rows, exposure models) is still welcome, but it goes in optional sections after the core so it never displaces or reorders it.
+1. **Prose plus accordion questions.** Every section is written as paragraphs followed, where useful, by accordion questions in the canonical markup (`<details class="qa" data-hmi-faq="1">` with `summary` and `.ans`), exactly as on ingredient pages. Bulleted or numbered lists are not used for section content.
+2. **Tables only where the ingredient canon uses them**, which is where structured evidence exists: the contamination profile (shared `renderAnalyteTable` plus folded product-test tables), government limits, the recalls and enforcement record, and the evidence-based mitigation table. Everything else (why high-risk, ingredient drivers, testing, exposure, review) is prose plus questions. A long supporting table (for example every product in a published test) sits inside an accordion question.
+3. **Citations and references use the canonical components unchanged.** Inline citations are `<sup class="cite">` numbered page-wide in first-use order, and every cited work appears once in the canonical References list (`hmi-ref-meta`, `hmi-ref-tag`) followed by the canonical Sources section. No section-specific source list, no custom citation styling and no change to the References or Sources styling.
 
 ## 3. Section order
 
-Universal core sections are REQUIRED on every product page, in this order, with these anchors. Optional sections sit where shown. Headings may name the product naturally; anchors may not change.
+Required on every product page, in this order, with these anchors. Headings may name the product naturally; anchors may not change.
 
-| # | Anchor | Section (reader heading pattern) | Required | Source of content |
-| --- | --- | --- | --- | --- |
-| 1 | (hero) | Hero, title, byline | Required | Preserved hero (unchanged rule) |
-| 2 | `#scope` | What counts as <product> | Required | Category definition, inclusions, exclusions, related pages |
-| 3 | `#overview` | <Product> overview (Quick Read) | Required | Main findings first; citations only, no internal links |
-| 4 | `#limits` | Limits applicable to this category | Required, critical | One table, every jurisdiction |
-| 5 | `#why-high-risk` | Why this category is high-risk | Required, critical | Exposed population, intake, matrix, measured findings |
-| 6 | `#benchmark` | Measured levels: the benchmark | Required | Per-metal n, detected, median, p90, max |
-| 7 | `#profile` | Heavy metal contamination profile | Required | Shared `renderAnalyteTable`, unchanged |
-| 8 | `#ingredient-drivers` | Which ingredients drive metals | Required | Ingredient rows linking to ingredient pages |
-| 9 | `#recalls` | Historical recalls and enforcement | Required, critical | Dated, named, sourced events |
-| 10 | `#testing` | Testing guidance | Required | Metals, method, LOQ, speciation, basis |
-| 11 | `#compare` | Compare your product | Required | How a COA or TECRID result maps to benchmark and limits |
-| 12 | `#mitigation` | Mitigation | Required (ingredient rule) | Shared stage-led table |
-| 13 | optional | Exposure, variation, category relationships, total diet rows, manufacturing and packaging | Optional | Only when sourced content exists |
-| 14 | `#review` | Evidence review and remaining gaps | Required | Gaps stated plainly |
-| 15 | `#faqs` | FAQs (up to 20) | Required | Question bank |
-| 16 | `#references`, `#sources`, `#update-history` | References, Sources, Update history | Required | Shared formatter |
+| # | Anchor | Section | Form |
+| --- | --- | --- | --- |
+| 1 | (hero) | Hero, title, byline | Preserved hero; image path must resolve in previews and production |
+| 2 | `#overview` | Product overview (Quick Read) | Prose; **comes before Scope (owner)** |
+| 3 | `#scope` | What counts as the product | Prose |
+| 4 | `#limits` | Government limits applicable to this category | Prose, one linked table, questions |
+| 5 | `#why-high-risk` | Why this category is high-risk | Prose plus questions (owner) |
+| 6 | `#profile` | Heavy metal contamination profile | Shared table plus folded product-test tables |
+| 7 | `#ingredient-drivers` | Which ingredients drive metals | Prose plus one question per ingredient, linked to ingredient pages |
+| 8 | `#recalls` | Historical recalls and enforcement | Prose, table, formal search note |
+| 9 | `#testing` | Testing guidance | Prose plus questions |
+| 10 | `#exposure` | Exposure | Prose plus questions, or a one-sentence gap |
+| 11 | `#mitigation` | Mitigation | Prose plus evidence table, or prose plus questions flagged as a gap (owner) |
+| 12 | optional | Category relationships, total diet rows, manufacturing and packaging | Only when sourced content exists |
+| 13 | `#review` | Evidence review and remaining gaps | Prose |
+| 14 | `#faqs` | FAQs (up to 20) | Accordion |
+| 15 | `#references`, `#sources`, `#update-history` | References, Sources, Update history | Canonical components |
+
+**FAQs come before References and Sources on every page, universally (owner).** The left table of contents is regenerated from the final heading order on every build; a stale engine TOC is a build failure.
 
 ## 4. Section rules
 
-### 4.1 Limits applicable to this category (`#limits`)
-- One table. Columns: Jurisdiction, Instrument, Metal (species where it matters, for example inorganic arsenic), Value, Unit, Basis (as sold powder, as prepared, per day), Status (binding maximum level, action level, guidance, safe-harbor dose, settlement term), Source.
-- Include every jurisdiction with a verified value: U.S. FDA (Closer to Zero action levels or an explicit "no action level for this category" row), California Proposition 65 MADL/NSRL (per-day doses, never shown as ppb without a stated intake), EU 2023/915, Codex CXS 193, and any other national limit verified from primary text. Settlement terms (for example a state attorney general consent judgment) may appear with status "settlement term, one company".
-- A jurisdiction with no limit for the category gets a row saying so, with the source that shows it. Never leave the section empty or say "none verified" when the library holds a regulatory record; that is a build failure, not a gap.
-- Never convert a per-day dose into a concentration limit in the table. Conversions live in `#compare`, with the intake assumption shown.
+### 4.1 Government limits (`#limits`)
+- One table: Jurisdiction, Instrument, Metal (species where it matters), Value, Unit, Basis, Status with citation.
+- **Every jurisdiction and every instrument is an internal link (owner):** the jurisdiction links to its regulator page (`regulators/...`); the instrument links to its regulation page (`regulations/...`). If no regulation page exists, link the instrument's library source record (`sources/...`); if none exists, link the official source. Each missing internal target is listed in `gaps` and in `#review`.
+- Include every jurisdiction with a verified value: U.S. FDA (action level or an explicit no-action-level row), California Proposition 65 (MADL and NSRL as per-day doses, never as ppb without a stated intake), EU 2023/915, Codex CXS 193 and any other national limit verified from primary text. Settlement terms are labeled as binding one company. An instrument that exists but does not apply (for example a canned-only level) gets a "not applicable" row.
+- Values are rechecked against the primary instrument each build; the record stores what was checked and when (`limits_verification`).
+- Per-day doses are converted to concentrations only inside a question, with the intake stated.
 
-### 4.2 Why this category is high-risk (`#why-high-risk`)
-- Three to five short paragraphs or bullets covering, as supported: who is exposed (age, body weight, sole-source diet), how much is consumed, which ingredients or processes bring metals in, and what measured surveys found. Each factual sentence carries a citation.
-- "High-risk" describes exposure vulnerability and surveillance priority. It never says a product or brand is unsafe.
+### 4.2 Why this category is high-risk (`#why-high-risk`) (owner)
+- Two to four short paragraphs (who is exposed, how much is consumed, what surveys found, regulatory status) and two to four accordion questions. Each factual sentence carries a citation. "High-risk" describes exposure vulnerability and surveillance priority, never that a product is unsafe.
 
-### 4.3 Benchmark (`#benchmark`)
-- One row per metal and data set: Metal, Data set, Basis, n, Detected, Median, p90, Max, Source. Non-detects are counted, never set to zero; a median or p90 below the detection limit reads "below detection".
-- Prefer product-level data sets that match the category exactly (match levels exact or subcategory from `product-match.mjs`). Keep different bases in different rows (for example as sold powder versus as prepared for feeding); never pool them.
-- Derived statistics (computed by HMI from a published table) are labeled "computed by HMI from <source>" and are reproducible from the JSON.
+### 4.3 Contamination profile (`#profile`) and folded product tests (owner)
+- There is no separate benchmark section. Published product-test summaries (n, detected, median, p90 or the statistic the source publishes, max) are folded into the profile section as compact tables after the shared table; the per-product list sits in an accordion question.
+- Different bases stay in different tables (powder as sold versus prepared for feeding). Non-detects are counted, never set to zero. Statistics computed by HMI say so.
 
-### 4.4 Ingredient drivers (`#ingredient-drivers`)
-- Table: Ingredient (linked to its ingredient page), Metals it drives, What the evidence shows, Source. Only claims a cited source supports. If no source isolates an ingredient's contribution, say that in the row.
+### 4.4 Ingredient drivers, recalls, testing, exposure
+- Ingredient drivers: one question per ingredient, the ingredient linked to its page, stating only what a cited source supports.
+- Recalls: Date, Company, Brand or product, Action, Metal, What happened, with source. Brands are named only from FDA recalls, enforcement reports and warning letters, government surveys, state attorney general or district attorney filings and settlements, and named, dated published test programs. Factual, in the source's terms; no attack language. Non-heavy-metal events (for example metal fragments) are noted as such. The formal search run and its date are stated.
+- Testing: metals, method, speciation, a target LOQ at least five times below the lowest applicable limit, reporting basis.
 
-### 4.5 Historical recalls and enforcement (`#recalls`)
-- Table: Date, Company or brand, Action type (FDA recall, FDA warning letter, import alert, state AG action or settlement, published test results), Metal, What happened (values where published), Source link.
-- **Naming brands is allowed and expected**, but only from: FDA recalls, enforcement reports and warning letters; FDA or other government survey publications; state attorney general or district attorney filings and settlements; published test programs (Consumer Reports, Healthy Babies Bright Futures and similar named, dated publications). Private lawsuits are excluded until a court or regulator makes a finding.
-- State it factually, in the source's own terms, with the date and the measured value. No attack language, no adjectives such as "toxic brand" or "dangerous", no inference beyond the source. A published test ranking is reported as "rated by <publisher>", not as a regulatory finding.
-- Events that mention metal but are not heavy-metal contamination (for example a recall for metal fragments) are listed in a one-line "not a heavy-metal event" note so readers do not mistake them.
-- When a formal search finds no event (for example no FDA Enforcement Report entry), say which search was run and when.
+### 4.5 Mitigation (`#mitigation`) (owner)
+- A stage-led table (Stage, Control, What the evidence shows, with citation) of controls with published evidence, including steps restored from earlier live versions when they were sourced. Controls without quantified evidence are named in prose as gaps, never as table rows.
+- If no control has evidence, the section is prose plus accordion questions and is flagged as a gap in `#review`. A mitigation section with neither an evidence table nor a flagged gap is a build failure.
 
-### 4.6 Testing guidance (`#testing`)
-- Which metals to test, method (ICP-MS, with speciation by HPLC-ICP-MS where the limit is species-specific), a target limit of quantification that is at least five times below the lowest applicable limit, the basis to report, and sample count guidance where a source supports it.
+### 4.6 Compare your product: Index Pro only (owner)
+- The compare tool and step list are not shown on public pages. They belong in Index Pro. The compare inputs stay in the embedded JSON (`compare`, with `public: false`) so Index Pro, TECRID and VLE can use them.
 
-### 4.7 Compare your product (`#compare`)
-- Plain-language steps: put the result on the same basis as the benchmark row, read the percentile against the benchmark set, compare with each limit row, and treat per-day limits through a stated intake.
-- A small calculator may run in the page; it uses only values from the page JSON and shows the basis and intake it assumed. Output labels: "below", "at or above", "percentile among N products tested by <source>". It never outputs "safe" or "unsafe".
+### 4.7 No redundancy (owner, applies to every section)
+- **No repeated constant fields in tables.** A column whose value is identical on every row (food form on a single-product page, a single data set, a single basis) is removed and stated once in the sentence before the table. The shared profile table drops Food form on product pages; the match chip moves to Collection scope.
+- **No section restates another.** One fact, one home: limits live in `#limits`, measured levels in `#profile`, sources in References. Other sections cite or link instead of repeating.
+- **No repeated template sentences.** A sentence repeated per metal is merged into one sentence.
 
 ### 4.8 What to show when data is missing
-- Say exactly what is missing and which search or source would resolve it, in one sentence, inside the same section and component. Do not drop the section, and do not pad it.
-- A missing value is never shown as zero, and a missing rating never reads as low contamination.
+- Say exactly what is missing and what would resolve it, in one sentence, inside the same section. A missing value is never zero and a missing rating never reads as low contamination.
 
 ## 5. Evidence rules (all sections)
 1. Every number carries a citation to a named source with a working link or a library source page.
-2. No unsourced brand claim. Brands are named only from the sources listed in 4.5.
-3. Keep basis, species and statistic attached to every value.
-4. **Hard rule: no Axiom or supplier private data anywhere** (GRAS notices GRN 609, 788, 804 and 851, Oryzatein certificates of analysis, or any other supplier confidential test data), in prose, tables, JSON, FAQs or drawers.
-5. American English. No em dashes or en dashes in public text.
-6. Internal programme vocabulary (row scaffolds, P95 bands, autonomy notes) never reaches the page (public content boundary).
+2. No unsourced brand claim; brands only from the sources in 4.4.
+3. Basis, species and statistic stay attached to every value.
+4. **Hard rule: no supplier private data anywhere** (GRAS notices GRN 609, 788, 804 and 851, supplier certificates of analysis or other supplier confidential test data), in prose, tables, JSON, FAQs or drawers.
+5. American English spelling (aluminum, analyzed, program). No em dashes or en dashes in public text. Source titles are quoted as published.
+6. Internal program vocabulary never reaches the page.
 
-## 6. Structured data (`hmi-product-core/1`)
-Each page embeds `<script type="application/json" id="hmi-product-core">` and the builder writes the same object to `data/evidence/products/<slug>/product-core.json`. Top-level keys, identical on every page:
+## 6. Structured data (`hmi-product-core/2`)
+Each page embeds `<script type="application/json" id="hmi-product-core">`; the same object lives at `data/evidence/products/<slug>/product-core.json`. Keys: `schema, slug, title, scope, limits[], limits_verification, why_high_risk{paragraphs, questions}, benchmark[], benchmark_products[], ingredient_drivers[], ingredient_drivers_intro, recalls[], recall_search, testing, exposure{paragraphs, questions}, mitigation{intro, rows, gaps, questions}, compare, gaps[], sources{}`. Limit rows carry `jurisdiction_page`, `instrument_page` and `instrument_source_page`. Every cited item carries `source` (a key in `sources`); every source carries `title`, `publisher`, `date`, `url` and, when it exists, `library`.
 
-`schema, slug, title, scope, limits[], why_high_risk[], benchmark[], benchmark_products[], ingredient_drivers[], recalls[], testing, compare, gaps[], sources{}`
-
-Every array item carries `source` (a key in `sources`) and every source carries `title`, `publisher`, `date` and `url`. TECRID and VLE read this object; the HTML is a rendering of it.
-
-## 7. Acceptance checks for a product page
-- All required anchors present, in order, each with real content or a one-sentence sourced gap.
-- `#limits` has at least one row per jurisdiction listed in 4.1 (value or explicit "no limit" row).
-- `#recalls` names each brand only with a source from 4.5, and records the formal search run.
-- JSON validates against the key list in section 6 and matches the rendered tables.
-- No forbidden private source identifiers, no em or en dashes in public text.
-- All ingredient-contract gates still pass.
+## 7. Acceptance checks
+- Anchors present in the section 3 order; Overview before Scope; FAQs before References and Sources; TOC matches headings.
+- No bullet or numbered lists in section content; tables only in the sections listed in 2.2.
+- Every limits row has linked jurisdiction and instrument; missing internal targets listed as gaps.
+- No `#benchmark` or `#compare` section and no compare form on the public page; compare data present in JSON.
+- No constant column in any table; no repeated template sentence.
+- Mitigation has an evidence table or a flagged gap.
+- One References list in canonical styling; citation numbers in first-use order; no section-specific source list.
+- Hero image loads from the preview folder.
+- No forbidden private identifiers; no em or en dashes; American spelling outside source titles.
+- Builder: `node tools/engine/page/build-product-v4.mjs <engine-built.html> <out.html> [slug]`.
