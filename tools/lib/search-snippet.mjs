@@ -230,6 +230,19 @@ export function capHtmlTitle(title, max = HTML_TITLE_MAX) {
   return trimTrail(text, 45)
 }
 
+// An authored search_title is a complete document title, distinct from a long
+// on-page heading. Synthesis pages do not append a brand suffix. The brand is
+// added only when the finished string still fits the shared budget, which is
+// how food and metal titles already behave.
+export function explicitSearchTitle(frontmatter = {}) {
+  const custom = frontmatter?.search_title
+  if (typeof custom !== "string" || !custom.trim()) return undefined
+  const title = capHtmlTitle(plainMetalText(normalizeTitle(custom)))
+  if (!title) return undefined
+  const branded = `${title}${BRAND_SUFFIX}`
+  return branded.length <= HTML_TITLE_MAX ? branded : title
+}
+
 // Source search titles describe the topic, while citation_title retains the
 // complete bibliographic title. Keep the first author's supplied spelling.
 function sourceTitleCandidate(frontmatter = {}, preserveTopic = false) {

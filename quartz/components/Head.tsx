@@ -5,7 +5,7 @@ import { googleFontHref, googleFontSubsetHref } from "../util/theme"
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
 import { CustomOgImagesEmitterName } from "../plugins/emitters/ogImage"
 import { hasScholarlyPdf } from "./scholarlyPdf"
-import { auditSearchTitle, sourceSearchTitle, capHtmlTitle, citationDoi, isMetalArticle, isRegulationArticle, metalSearchFields, normalizeTitle } from "../../tools/lib/search-snippet.mjs"
+import { auditSearchTitle, sourceSearchTitle, capHtmlTitle, citationDoi, explicitSearchTitle, isMetalArticle, isRegulationArticle, metalSearchFields, normalizeTitle } from "../../tools/lib/search-snippet.mjs"
 import { foodHeading, foodSearchTitle } from "../util/foodSearchTitle"
 import { isAdoptedScientificPage, scientificPageJsonLd, serializeJsonLd } from "./scientificPageMetadata"
 import { plainMetalText } from "../../tools/lib/metal-names.mjs"
@@ -222,12 +222,18 @@ export default (() => {
           searchDescription: fileData.frontmatter?.search_description,
         })
       : null
-    // Sources keep whole topics and author/year attribution. Other pages use
-    // their established title templates and word-boundary cap.
+    // Sources keep whole topics and author/year attribution. Food and metal
+    // pages use their own title templates. An authored search_title supplies a
+    // complete short document title when the on-page heading is longer than
+    // the HTML title budget. Every other page uses the word-boundary cap.
+    const authoredTitle = metalFields
+      ? undefined
+      : explicitSearchTitle(fileData.frontmatter ?? {})
     const title =
       sourceSearchTitle(fileData.frontmatter ?? {}, allFiles) ||
       auditSearchTitle(fileData.slug, fileData.frontmatter?.title) ||
       foodSearchTitle(fileData.frontmatter ?? {}) ||
+      authoredTitle ||
       capHtmlTitle(plainMetalText(metalFields?.title || pageTitle))
     const description =
       metalFields?.description ||

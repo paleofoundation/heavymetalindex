@@ -4,6 +4,7 @@ export const META_DESCRIPTION_MAX: number
 
 export function normalizeTitle(title: string): string
 export function capHtmlTitle(title: string, max?: number): string
+export function explicitSearchTitle(frontmatter?: Record<string, unknown>): string | undefined
 export function extractOverview(markdown: string): string
 export function isMetalArticle(slug?: string, type?: unknown): boolean
 export function isRegulationArticle(slug?: string, type?: unknown): boolean

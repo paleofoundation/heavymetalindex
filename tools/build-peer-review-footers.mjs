@@ -185,7 +185,7 @@ This is a working paper on systems architecture, not a corpus synthesis finding.
 | --- | --- | --- | --- |
 | _no reviews yet_ | | | |
 
-The Heavy Metal Index publishes working papers as preprints — before external review completes — with the review state visibly tracked. Until at least one external verdict is recorded below, this paper is a preprint proposing an architecture, not a peer-reviewed or independently validated result, and DOI registration does not change that.
+The Heavy Metal Index publishes working papers as preprints (before external review completes), with the review state visibly tracked. Until at least one external verdict is recorded below, this paper is a preprint proposing an architecture, not a peer-reviewed or independently validated result, and DOI registration does not change that.
 ${endMarker}`
   }
   return `${beginMarker}
@@ -197,7 +197,7 @@ This synthesis claim has not yet been evaluated by external reviewers. Verdicts 
 | --- | --- | --- | --- |
 | _no reviews yet_ | | | |
 
-The Heavy Metal Index publishes synthesis claims as preprints — before external review completes — with the review state visibly tracked. Until at least one external verdict is recorded below, a synthesis page is a preprint, not a peer-reviewed work. External review accumulates over time, and the credibility of the claim is partly the cumulative result of that visible review.
+The Heavy Metal Index publishes synthesis claims as preprints (before external review completes), with the review state visibly tracked. Until at least one external verdict is recorded below, a synthesis page is a preprint, not a peer-reviewed work. External review accumulates over time, and the credibility of the claim is partly the cumulative result of that visible review.
 ${endMarker}`
 }
 
