@@ -1,0 +1,975 @@
+{
+ "schema": "hmi-product-core/1",
+ "slug": "infant-formula-powder-non-soy",
+ "title": "Infant formula, powder (non-soy)",
+ "scope": {
+  "includes": [
+   "Powdered infant formula for 0 to 12 months based on cow milk, goat milk, hydrolyzed milk protein or amino acids",
+   "Follow-on (6 to 12 months) powders, as a subcategory"
+  ],
+  "excludes": [
+   "Soy-based powders (separate page)",
+   "Ready-to-feed and concentrated liquids (separate pages)",
+   "Toddler and growing-up milks"
+  ],
+  "related": [
+   "products/infant-formula-powder-soy-based",
+   "products/infant-formula-rtf-liquid-non-soy",
+   "ingredients/milk-based-infant-formula"
+  ]
+ },
+ "limits": [
+  {
+   "jurisdiction": "United States (FDA)",
+   "instrument": "Closer to Zero; no action level for infant formula",
+   "metal": "Lead, arsenic, cadmium, mercury",
+   "value": null,
+   "unit": null,
+   "basis": null,
+   "status": "No action level; FDA states it is working to establish action levels for infant formula",
+   "source": "fda2026press"
+  },
+  {
+   "jurisdiction": "California (Prop 65)",
+   "instrument": "Maximum Allowable Dose Level (reproductive toxicity)",
+   "metal": "Lead",
+   "value": 0.5,
+   "unit": "µg/day",
+   "basis": "daily intake",
+   "status": "Safe-harbor warning threshold (dose, not concentration)",
+   "source": "oehhaPb"
+  },
+  {
+   "jurisdiction": "California (Prop 65)",
+   "instrument": "Maximum Allowable Dose Level (reproductive toxicity, oral)",
+   "metal": "Cadmium",
+   "value": 4.1,
+   "unit": "µg/day",
+   "basis": "daily intake",
+   "status": "Safe-harbor warning threshold (dose, not concentration)",
+   "source": "oehhaCd"
+  },
+  {
+   "jurisdiction": "California (settlement, one company)",
+   "instrument": "People v. Perrigo consent terms (2022)",
+   "metal": "Lead",
+   "value": "4 target; 5 to 7 maximum",
+   "unit": "µg/kg (ppb)",
+   "basis": "product as sold in California",
+   "status": "Settlement term binding Perrigo only",
+   "source": "caag2022"
+  },
+  {
+   "jurisdiction": "European Union",
+   "instrument": "Regulation (EU) 2023/915",
+   "metal": "Lead",
+   "value": 20,
+   "unit": "µg/kg",
+   "basis": "powder as placed on the market",
+   "status": "Binding maximum level",
+   "source": "eu2023915"
+  },
+  {
+   "jurisdiction": "European Union",
+   "instrument": "Regulation (EU) 2023/915",
+   "metal": "Cadmium",
+   "value": 10,
+   "unit": "µg/kg",
+   "basis": "powder from cow milk proteins or hydrolysates, as placed on the market",
+   "status": "Binding maximum level",
+   "source": "eu2023915"
+  },
+  {
+   "jurisdiction": "European Union",
+   "instrument": "Regulation (EU) 2023/915",
+   "metal": "Inorganic arsenic",
+   "value": 20,
+   "unit": "µg/kg",
+   "basis": "powder as placed on the market",
+   "status": "Binding maximum level",
+   "source": "eu2023915"
+  },
+  {
+   "jurisdiction": "Codex Alimentarius",
+   "instrument": "CXS 193-1995",
+   "metal": "Lead",
+   "value": 10,
+   "unit": "µg/kg",
+   "basis": "as consumed (prepared)",
+   "status": "International maximum level (reference for national law)",
+   "source": "codex193"
+  }
+ ],
+ "why_high_risk": [
+  {
+   "text": "Infants are the most sensitive group for lead, and formula is consumed in large daily volumes. Healthy Babies Bright Futures' 2019 exposure model ranked infant formula among the 15 foods behind 55 percent of estimated IQ loss from arsenic and lead in children under two, driven by volume, with lead the main metal for formula.",
+   "source": "houlihan2019"
+  },
+  {
+   "text": "Consumer Reports detected lead in 34 of 41 powdered formulas tested in 2025 (1.2 to 4.2 ppb); 18 had lead equal to 50 to 100 percent of the California MADL at the intake CR assumed.",
+   "source": "cr2025"
+  },
+  {
+   "text": "Consumer Reports speciated nine formulas with total arsenic of 6.7 ppb or more; seven were over its risk level and two were close. The highest inorganic arsenic was in specialty non-soy powders: 19.7 ppb in EleCare Hypoallergenic and 15.1 ppb in Similac Alimentum.",
+   "source": "cr2025"
+  },
+  {
+   "text": "FDA tested 312 U.S. formula samples from 16 brands: lead was detected in 80 percent (median 0.2 ppb as prepared, maximum 1.1 ppb), and arsenic, when speciated, was inorganic. FDA reported overall levels as low and opened follow-up on some samples.",
+   "source": "fda2026page"
+  },
+  {
+   "text": "The United States has no action level for metals in infant formula, so there is no federal ceiling to test against today; FDA says it is working to establish one.",
+   "source": "fda2026press"
+  }
+ ],
+ "benchmark": [
+  {
+   "metal": "Lead",
+   "metal_key": "lead",
+   "dataset": "Consumer Reports 2025, non-soy powders (computed by HMI from the published table)",
+   "basis": "powder as sold (µg/kg)",
+   "unit": "µg/kg (ppb)",
+   "source": "cr2025",
+   "n": 38,
+   "detected": 31,
+   "median": 1.9,
+   "p90": 3.5,
+   "max": 4.2
+  },
+  {
+   "metal": "Cadmium",
+   "metal_key": "cadmium",
+   "dataset": "Consumer Reports 2025, non-soy powders (computed by HMI from the published table)",
+   "basis": "powder as sold (µg/kg)",
+   "unit": "µg/kg (ppb)",
+   "source": "cr2025",
+   "n": 38,
+   "detected": 19,
+   "median": "below detection",
+   "p90": 3.6,
+   "max": 6.9
+  },
+  {
+   "metal": "Total arsenic",
+   "metal_key": "total_arsenic",
+   "dataset": "Consumer Reports 2025, non-soy powders (computed by HMI from the published table)",
+   "basis": "powder as sold (µg/kg)",
+   "unit": "µg/kg (ppb)",
+   "source": "cr2025",
+   "n": 38,
+   "detected": 18,
+   "median": "below detection",
+   "p90": 9.3,
+   "max": 23.9
+  },
+  {
+   "metal": "Mercury",
+   "metal_key": "mercury",
+   "dataset": "Consumer Reports 2025, non-soy powders (computed by HMI from the published table)",
+   "basis": "powder as sold (µg/kg)",
+   "unit": "µg/kg (ppb)",
+   "source": "cr2025",
+   "n": 38,
+   "detected": 0,
+   "median": "below detection",
+   "p90": "below detection",
+   "max": "below detection"
+  },
+  {
+   "metal": "Aluminum",
+   "metal_key": "aluminum",
+   "dataset": "Consumer Reports 2025, non-soy powders (computed by HMI from the published table)",
+   "basis": "powder as sold (µg/kg)",
+   "unit": "µg/kg (ppb)",
+   "source": "cr2025",
+   "n": 38,
+   "detected": 37,
+   "median": 414.0,
+   "p90": 1480.0,
+   "max": 1985.0
+  },
+  {
+   "metal": "Inorganic arsenic",
+   "metal_key": "inorganic_arsenic",
+   "dataset": "Consumer Reports 2025, non-soy powders with total arsenic of 6.7 ppb or more (only these were speciated)",
+   "basis": "powder as sold",
+   "unit": "µg/kg (ppb)",
+   "source": "cr2025",
+   "n": 7,
+   "detected": 7,
+   "median": null,
+   "p90": null,
+   "max": 19.7,
+   "note": "Subset selected by CR because total arsenic was elevated; not a random distribution, so no median or p90 is shown."
+  },
+  {
+   "metal": "Lead",
+   "metal_key": "lead",
+   "dataset": "FDA FY2023 to FY2025 survey, all formula types (16 brands)",
+   "basis": "as prepared for feeding",
+   "unit": "µg/kg (ppb)",
+   "source": "fda2026page",
+   "n": 312,
+   "detected": 251,
+   "median": 0.2,
+   "p90": null,
+   "p95": 0.5,
+   "max": 1.1
+  },
+  {
+   "metal": "Cadmium",
+   "metal_key": "cadmium",
+   "dataset": "FDA FY2023 to FY2025 survey, all formula types (16 brands)",
+   "basis": "as prepared for feeding",
+   "unit": "µg/kg (ppb)",
+   "source": "fda2026page",
+   "n": 312,
+   "detected": 206,
+   "median": 0.2,
+   "p90": null,
+   "p95": 1.1,
+   "max": 1.5
+  },
+  {
+   "metal": "Total arsenic",
+   "metal_key": "total_arsenic",
+   "dataset": "FDA FY2023 to FY2025 survey, all formula types (16 brands)",
+   "basis": "as prepared for feeding",
+   "unit": "µg/kg (ppb)",
+   "source": "fda2026page",
+   "n": 312,
+   "detected": 294,
+   "median": 0.5,
+   "p90": null,
+   "p95": 2.0,
+   "max": 4.7
+  },
+  {
+   "metal": "Mercury",
+   "metal_key": "mercury",
+   "dataset": "FDA FY2023 to FY2025 survey, all formula types (16 brands)",
+   "basis": "as prepared for feeding",
+   "unit": "µg/kg (ppb)",
+   "source": "fda2026page",
+   "n": 312,
+   "detected": 16,
+   "median": "not calculated",
+   "p90": null,
+   "p95": "not calculated",
+   "max": 0.3
+  }
+ ],
+ "benchmark_products": [
+  {
+   "brand": "Enfamil",
+   "product": "NeuroPro",
+   "total_arsenic": "ND",
+   "inorganic_arsenic": null,
+   "lead": "ND",
+   "cadmium": 1.4,
+   "mercury": "ND",
+   "aluminum": 89.0,
+   "source": "cr2025",
+   "basis": "powder as sold"
+  },
+  {
+   "brand": "Enfamil",
+   "product": "Gentlease",
+   "total_arsenic": 3.7,
+   "inorganic_arsenic": null,
+   "lead": 1.5,
+   "cadmium": 3.6,
+   "mercury": "ND",
+   "aluminum": 1480.0,
+   "source": "cr2025",
+   "basis": "powder as sold"
+  },
+  {
+   "brand": "Enfamil",
+   "product": "NeuroPro Gentlease",
+   "total_arsenic": 5.4,
+   "inorganic_arsenic": null,
+   "lead": 1.6,
+   "cadmium": 2.7,
+   "mercury": "ND",
+   "aluminum": 141.0,
+   "source": "cr2025",
+   "basis": "powder as sold"
+  },
+  {
+   "brand": "Similac",
+   "product": "Advance",
+   "total_arsenic": "ND",
+   "inorganic_arsenic": null,
+   "lead": 2.0,
+   "cadmium": "ND",
+   "mercury": "ND",
+   "aluminum": 414.0,
+   "source": "cr2025",
+   "basis": "powder as sold"
+  },
+  {
+   "brand": "Similac",
+   "product": "360 Total Care Sensitive",
+   "total_arsenic": 4.7,
+   "inorganic_arsenic": null,
+   "lead": 2.8,
+   "cadmium": 2.2,
+   "mercury": "ND",
+   "aluminum": 1163.0,
+   "source": "cr2025",
+   "basis": "powder as sold"
+  },
+  {
+   "brand": "Similac",
+   "product": "360 Total Care",
+   "total_arsenic": 3.2,
+   "inorganic_arsenic": null,
+   "lead": 2.8,
+   "cadmium": 1.4,
+   "mercury": "ND",
+   "aluminum": 653.0,
+   "source": "cr2025",
+   "basis": "powder as sold"
+  },
+  {
+   "brand": "Earth's Best",
+   "product": "Organic Dairy",
+   "total_arsenic": "ND",
+   "inorganic_arsenic": null,
+   "lead": 1.8,
+   "cadmium": "ND",
+   "mercury": "ND",
+   "aluminum": 477.0,
+   "source": "cr2025",
+   "basis": "powder as sold"
+  },
+  {
+   "brand": "Similac",
+   "product": "NeoSure",
+   "total_arsenic": 9.0,
+   "inorganic_arsenic": 8.7,
+   "lead": 3.5,
+   "cadmium": "ND",
+   "mercury": "ND",
+   "aluminum": 799.0,
+   "source": "cr2025",
+   "basis": "powder as sold"
+  },
+  {
+   "brand": "ByHeart",
+   "product": "Whole Nutrition",
+   "total_arsenic": "ND",
+   "inorganic_arsenic": null,
+   "lead": 3.5,
+   "cadmium": 3.9,
+   "mercury": "ND",
+   "aluminum": 1280.0,
+   "source": "cr2025",
+   "basis": "powder as sold"
+  },
+  {
+   "brand": "Similac",
+   "product": "Alimentum",
+   "total_arsenic": 18.0,
+   "inorganic_arsenic": 15.1,
+   "lead": 3.2,
+   "cadmium": 6.9,
+   "mercury": "ND",
+   "aluminum": 1250.0,
+   "source": "cr2025",
+   "basis": "powder as sold"
+  },
+  {
+   "brand": "Similac",
+   "product": "Sensitive",
+   "total_arsenic": "ND",
+   "inorganic_arsenic": null,
+   "lead": 3.2,
+   "cadmium": 2.1,
+   "mercury": "ND",
+   "aluminum": 1053.0,
+   "source": "cr2025",
+   "basis": "powder as sold"
+  },
+  {
+   "brand": "Bobbie",
+   "product": "Organic Gentle",
+   "total_arsenic": "ND",
+   "inorganic_arsenic": null,
+   "lead": 1.5,
+   "cadmium": "ND",
+   "mercury": "ND",
+   "aluminum": 1325.0,
+   "source": "cr2025",
+   "basis": "powder as sold"
+  },
+  {
+   "brand": "Kirkland Signature (Costco)",
+   "product": "ProCare",
+   "total_arsenic": "ND",
+   "inorganic_arsenic": null,
+   "lead": 1.7,
+   "cadmium": 3.0,
+   "mercury": "ND",
+   "aluminum": 314.0,
+   "source": "cr2025",
+   "basis": "powder as sold"
+  },
+  {
+   "brand": "Member's Mark (Sam's Club)",
+   "product": "Advantage Premium",
+   "total_arsenic": "ND",
+   "inorganic_arsenic": null,
+   "lead": 1.4,
+   "cadmium": 2.9,
+   "mercury": "ND",
+   "aluminum": 251.0,
+   "source": "cr2025",
+   "basis": "powder as sold"
+  },
+  {
+   "brand": "Enfamil",
+   "product": "Nutramigen",
+   "total_arsenic": 5.9,
+   "inorganic_arsenic": null,
+   "lead": 4.2,
+   "cadmium": 2.0,
+   "mercury": "ND",
+   "aluminum": 1645.0,
+   "source": "cr2025",
+   "basis": "powder as sold"
+  },
+  {
+   "brand": "Enfamil",
+   "product": "A.R.",
+   "total_arsenic": 2.3,
+   "inorganic_arsenic": null,
+   "lead": 1.5,
+   "cadmium": 2.3,
+   "mercury": "ND",
+   "aluminum": 215.0,
+   "source": "cr2025",
+   "basis": "powder as sold"
+  },
+  {
+   "brand": "Up&Up (Target)",
+   "product": "Premium",
+   "total_arsenic": "ND",
+   "inorganic_arsenic": null,
+   "lead": "ND",
+   "cadmium": "ND",
+   "mercury": "ND",
+   "aluminum": 191.0,
+   "source": "cr2025",
+   "basis": "powder as sold"
+  },
+  {
+   "brand": "Kendamil",
+   "product": "Whole Milk",
+   "total_arsenic": "ND",
+   "inorganic_arsenic": null,
+   "lead": 1.6,
+   "cadmium": "ND",
+   "mercury": "ND",
+   "aluminum": 200.0,
+   "source": "cr2025",
+   "basis": "powder as sold"
+  },
+  {
+   "brand": "Kendamil",
+   "product": "Organic",
+   "total_arsenic": 2.8,
+   "inorganic_arsenic": null,
+   "lead": 3.1,
+   "cadmium": "ND",
+   "mercury": "ND",
+   "aluminum": 126.0,
+   "source": "cr2025",
+   "basis": "powder as sold"
+  },
+  {
+   "brand": "Similac",
+   "product": "Total Comfort",
+   "total_arsenic": 8.0,
+   "inorganic_arsenic": 6.0,
+   "lead": 2.7,
+   "cadmium": "ND",
+   "mercury": "ND",
+   "aluminum": 740.0,
+   "source": "cr2025",
+   "basis": "powder as sold"
+  },
+  {
+   "brand": "Bubs",
+   "product": "Stage 1 Easy-digest Goat Milk",
+   "total_arsenic": 2.8,
+   "inorganic_arsenic": null,
+   "lead": "ND",
+   "cadmium": "ND",
+   "mercury": "ND",
+   "aluminum": 318.0,
+   "source": "cr2025",
+   "basis": "powder as sold"
+  },
+  {
+   "brand": "Happy Baby Organics",
+   "product": "Sensitive",
+   "total_arsenic": "ND",
+   "inorganic_arsenic": null,
+   "lead": 2.4,
+   "cadmium": "ND",
+   "mercury": "ND",
+   "aluminum": 516.0,
+   "source": "cr2025",
+   "basis": "powder as sold"
+  },
+  {
+   "brand": "Parent's Choice",
+   "product": "Advantage Premium",
+   "total_arsenic": "ND",
+   "inorganic_arsenic": null,
+   "lead": "ND",
+   "cadmium": "ND",
+   "mercury": "ND",
+   "aluminum": 231.0,
+   "source": "cr2025",
+   "basis": "powder as sold"
+  },
+  {
+   "brand": "Enfamil",
+   "product": "Enspire Optimum",
+   "total_arsenic": "ND",
+   "inorganic_arsenic": null,
+   "lead": "ND",
+   "cadmium": 2.3,
+   "mercury": "ND",
+   "aluminum": "ND",
+   "source": "cr2025",
+   "basis": "powder as sold"
+  },
+  {
+   "brand": "Parent's Choice",
+   "product": "Infant",
+   "total_arsenic": "ND",
+   "inorganic_arsenic": null,
+   "lead": 2.4,
+   "cadmium": 3.8,
+   "mercury": "ND",
+   "aluminum": 171.0,
+   "source": "cr2025",
+   "basis": "powder as sold"
+  },
+  {
+   "brand": "Bubs",
+   "product": "Stage 1 Organic Grass Fed",
+   "total_arsenic": 2.9,
+   "inorganic_arsenic": null,
+   "lead": 1.9,
+   "cadmium": 1.9,
+   "mercury": "ND",
+   "aluminum": 1985.0,
+   "source": "cr2025",
+   "basis": "powder as sold"
+  },
+  {
+   "brand": "Neocate",
+   "product": "Hypoallergenic",
+   "total_arsenic": 4.5,
+   "inorganic_arsenic": null,
+   "lead": 4.1,
+   "cadmium": 2.0,
+   "mercury": "ND",
+   "aluminum": 347.0,
+   "source": "cr2025",
+   "basis": "powder as sold"
+  },
+  {
+   "brand": "Baby's Only Organic",
+   "product": "Complete Nutrition",
+   "total_arsenic": "ND",
+   "inorganic_arsenic": null,
+   "lead": 1.4,
+   "cadmium": "ND",
+   "mercury": "ND",
+   "aluminum": 307.0,
+   "source": "cr2025",
+   "basis": "powder as sold"
+  },
+  {
+   "brand": "PurAmino",
+   "product": "Hypoallergenic",
+   "total_arsenic": 11.5,
+   "inorganic_arsenic": 9.1,
+   "lead": 2.3,
+   "cadmium": "ND",
+   "mercury": "ND",
+   "aluminum": 439.0,
+   "source": "cr2025",
+   "basis": "powder as sold"
+  },
+  {
+   "brand": "Bobbie",
+   "product": "Organic",
+   "total_arsenic": "ND",
+   "inorganic_arsenic": null,
+   "lead": 1.2,
+   "cadmium": "ND",
+   "mercury": "ND",
+   "aluminum": 1030.0,
+   "source": "cr2025",
+   "basis": "powder as sold"
+  },
+  {
+   "brand": "HiPP",
+   "product": "Dutch Organic Stage 1",
+   "total_arsenic": "ND",
+   "inorganic_arsenic": null,
+   "lead": 2.1,
+   "cadmium": 3.4,
+   "mercury": "ND",
+   "aluminum": 160.0,
+   "source": "cr2025",
+   "basis": "powder as sold"
+  },
+  {
+   "brand": "EleCare",
+   "product": "Hypoallergenic",
+   "total_arsenic": 23.9,
+   "inorganic_arsenic": 19.7,
+   "lead": 3.0,
+   "cadmium": "ND",
+   "mercury": "ND",
+   "aluminum": 1218.0,
+   "source": "cr2025",
+   "basis": "powder as sold"
+  },
+  {
+   "brand": "Kabrita",
+   "product": "Goat Milk-Based",
+   "total_arsenic": 7.8,
+   "inorganic_arsenic": 8.3,
+   "lead": 3.7,
+   "cadmium": 1.7,
+   "mercury": "ND",
+   "aluminum": 450.0,
+   "source": "cr2025",
+   "basis": "powder as sold"
+  },
+  {
+   "brand": "A2",
+   "product": "Platinum",
+   "total_arsenic": "ND",
+   "inorganic_arsenic": null,
+   "lead": 2.9,
+   "cadmium": "ND",
+   "mercury": "ND",
+   "aluminum": 1770.0,
+   "source": "cr2025",
+   "basis": "powder as sold"
+  },
+  {
+   "brand": "Holle",
+   "product": "Bio Organic Stage 1",
+   "total_arsenic": "ND",
+   "inorganic_arsenic": null,
+   "lead": 2.2,
+   "cadmium": 3.3,
+   "mercury": "ND",
+   "aluminum": 422.0,
+   "source": "cr2025",
+   "basis": "powder as sold"
+  },
+  {
+   "brand": "Dr. Brown's",
+   "product": "GentlePro",
+   "total_arsenic": 4.4,
+   "inorganic_arsenic": null,
+   "lead": "ND",
+   "cadmium": "ND",
+   "mercury": "ND",
+   "aluminum": 148.0,
+   "source": "cr2025",
+   "basis": "powder as sold"
+  },
+  {
+   "brand": "Dr. Brown's",
+   "product": "SoothePro",
+   "total_arsenic": 9.3,
+   "inorganic_arsenic": 8.1,
+   "lead": "ND",
+   "cadmium": "ND",
+   "mercury": "ND",
+   "aluminum": 280.0,
+   "source": "cr2025",
+   "basis": "powder as sold"
+  },
+  {
+   "brand": "Aptamil",
+   "product": "First Infant Milk",
+   "total_arsenic": "ND",
+   "inorganic_arsenic": null,
+   "lead": 1.5,
+   "cadmium": "ND",
+   "mercury": "ND",
+   "aluminum": 215.0,
+   "source": "cr2025",
+   "basis": "powder as sold"
+  }
+ ],
+ "ingredient_drivers": [
+  {
+   "ingredient": "Milk and dairy proteins",
+   "page": "ingredients/milk-and-dairy",
+   "metals": "Cadmium, lead (dose driven by volume)",
+   "evidence": "Dairy protein is the base of most non-soy formula. No cited source isolates the dairy base from other inputs; volume consumed, not concentration, makes it the leading contributor in exposure models.",
+   "source": "houlihan2019"
+  },
+  {
+   "ingredient": "Whey and casein",
+   "page": "ingredients/whey",
+   "page2": "ingredients/casein",
+   "metals": "Aluminum, cadmium",
+   "evidence": "Hydrolyzed protein and amino acid specialty powders show the highest aluminum and inorganic arsenic in recent tests (for example Similac Alimentum 1,250 µg/kg Al and 15.1 ppb inorganic arsenic).",
+   "source": "cr2025"
+  },
+  {
+   "ingredient": "Vitamin and mineral premix",
+   "page": null,
+   "metals": "Aluminum and other trace metals",
+   "evidence": "A 40-fold aluminum range across 24 UK prescription formulas (41.4 to over 1,900 µg/L as prepared) points to ingredient inputs; the source does not isolate the premix.",
+   "source": "redgrove2019"
+  },
+  {
+   "ingredient": "Soy protein (contrast)",
+   "page": "products/infant-formula-powder-soy-based",
+   "metals": "Aluminum, cadmium",
+   "evidence": "Non-soy powders measured 106 to 411 µg/L aluminum as prepared versus 656 and 756 µg/L for two soy powders.",
+   "source": "chuchu2013"
+  },
+  {
+   "ingredient": "Preparation water",
+   "page": "ingredients/water",
+   "metals": "Inorganic arsenic, lead",
+   "evidence": "In a New Hampshire well-water cohort, formula-fed infants had a median inorganic arsenic intake of 0.22 µg/kg bw/day versus 0.04 for breastfed infants, driven by preparation water rather than the powder.",
+   "source": "carignan2015"
+  },
+  {
+   "ingredient": "Vegetable oils",
+   "page": "ingredients/vegetable-oils",
+   "metals": "Not established",
+   "evidence": "No cited source measured metals contributed by the oil blend in formula. Gap.",
+   "source": null
+  }
+ ],
+ "recalls": [
+  {
+   "date": "2018-07-12",
+   "company": "Perrigo Company (store-brand formula maker)",
+   "brands": "Perrigo infant and toddler formula products",
+   "type": "State AG lawsuit (Prop 65)",
+   "metal": "Lead",
+   "what": "California Attorney General and 10 district attorneys sued, alleging lead above the Prop 65 warning threshold based on testing.",
+   "source": "caag2022"
+  },
+  {
+   "date": "2022-02-02",
+   "company": "Perrigo Company",
+   "brands": "Perrigo infant and toddler formula sold in California",
+   "type": "State AG settlement",
+   "metal": "Lead",
+   "what": "Settlement set a 4 ppb lead target and a 5 to 7 ppb maximum, ingredient sourcing controls, an independent auditor and compliance testing; lots above the maximum may not be sold in California.",
+   "source": "caag2022"
+  },
+  {
+   "date": "2025-03",
+   "company": "Abbott Nutrition",
+   "brands": "EleCare Hypoallergenic; Similac Alimentum; Similac NeoSure; Similac Total Comfort",
+   "type": "Published test results (Consumer Reports)",
+   "metal": "Inorganic arsenic",
+   "what": "Inorganic arsenic 19.7 ppb (EleCare), 15.1 ppb (Alimentum), 8.7 ppb (NeoSure), 6.0 ppb (Total Comfort); listed by CR among its lower-rated choices.",
+   "source": "cr2025"
+  },
+  {
+   "date": "2025-03",
+   "company": "Mead Johnson",
+   "brands": "Enfamil Nutramigen; PurAmino Hypoallergenic",
+   "type": "Published test results (Consumer Reports)",
+   "metal": "Lead; inorganic arsenic",
+   "what": "Lead 4.2 ppb in Enfamil Nutramigen, the highest lead in the test; inorganic arsenic 9.1 ppb in PurAmino.",
+   "source": "cr2025"
+  },
+  {
+   "date": "2025-03",
+   "company": "Perrigo",
+   "brands": "Dr. Brown's SoothePro",
+   "type": "Published test results (Consumer Reports)",
+   "metal": "Inorganic arsenic",
+   "what": "Inorganic arsenic 8.1 ppb.",
+   "source": "cr2025"
+  },
+  {
+   "date": "2025-03",
+   "company": "Ausnutria",
+   "brands": "Kabrita Goat Milk-Based",
+   "type": "Published test results (Consumer Reports)",
+   "metal": "Inorganic arsenic",
+   "what": "Inorganic arsenic 8.3 ppb.",
+   "source": "cr2025"
+  },
+  {
+   "date": "2025-03",
+   "company": "Danone",
+   "brands": "Neocate Hypoallergenic",
+   "type": "Published test results (Consumer Reports)",
+   "metal": "Lead",
+   "what": "Lead 4.1 ppb, second highest in the test; rated a good choice by CR.",
+   "source": "cr2025"
+  },
+  {
+   "date": "2026-04-29",
+   "company": "16 U.S. brands (per lot in FDA data file)",
+   "brands": "Not named in the FDA summary",
+   "type": "FDA survey and follow-up",
+   "metal": "Lead, cadmium, arsenic, mercury",
+   "what": "312 samples tested; FDA reported low levels overall and opened follow-up testing and manufacturer engagement for some samples.",
+   "source": "fda2026press"
+  }
+ ],
+ "recall_search": {
+  "text": "openFDA Food Enforcement Reports searched 3 November 2026 for infant formula recalls citing lead, arsenic, cadmium or metal: no heavy-metal recall found. One result is not a heavy-metal event: Perrigo, Parent's Choice Advantage Infant Formula Milk-Based Powder with Iron, 20 June 2019 (F-1558-2019), recalled for possible metal fragments.",
+  "source": "openfda",
+  "source2": "fda2019recall"
+ },
+ "testing": {
+  "metals": [
+   "Lead",
+   "Cadmium",
+   "Inorganic arsenic (speciated)",
+   "Total arsenic (screen)",
+   "Mercury",
+   "Aluminum"
+  ],
+  "method": "ICP-MS for total elements; HPLC-ICP-MS for inorganic arsenic because the EU limit is species-specific and Consumer Reports speciated only samples with total arsenic of 6.7 ppb or more.",
+  "loq": "Target LOQ of 1 to 2 µg/kg on powder for lead, cadmium and inorganic arsenic, at least five times below the 10 to 20 µg/kg EU limits and able to place a result within the Consumer Reports range (lead 1.2 to 4.2 ppb).",
+  "basis": "Report on powder as sold and state the reconstitution used for any as-prepared value; never pool the two.",
+  "sources": [
+   "cr2025",
+   "eu2023915",
+   "fda2026page"
+  ]
+ },
+ "compare": {
+  "default_intake_g_powder_per_day": 120,
+  "intake_note": "Illustrative: about 900 mL prepared formula per day for a 4 to 6 month old at roughly 13 g powder per 100 mL. Use the label scoop rate for your product."
+ },
+ "gaps": [
+  "Brand-level FDA survey values (the FDA data file lists lots by product) are not yet extracted into a non-soy powder benchmark.",
+  "No U.S. federal action level exists to compare against.",
+  "Prop 65 value for inorganic arsenic not verified from primary text in this build.",
+  "No source isolates the metal contribution of the premix, oils or dairy base separately."
+ ],
+ "sources": {
+  "cr2025": {
+   "title": "Baby Formula Results (test results table), with press release \"Consumer Reports Tests Find Some Infant Formulas Contain Potentially Harmful Levels of Arsenic and Lead\"",
+   "publisher": "Consumer Reports",
+   "date": "2025-03",
+   "url": "https://article.images.consumerreports.org/image/upload/v1742584960/prod/content/dam/CRO-Images-2025/Misc/Consumer-Reports-Test-Results-Infant-Formula-v2.pdf",
+   "url2": "https://www.consumerreports.org/media-room/press-releases/2025/03/consumer-reports-tests-find-some-infant-formulas-contain-potentially-harmful-levels-of-arsenic-and-lead-most-samples-did-not-raise-concerns/"
+  },
+  "fda2026page": {
+   "title": "FDA's Infant Formula Product Testing Results",
+   "publisher": "U.S. Food and Drug Administration",
+   "date": "2026-04-29",
+   "url": "https://www.fda.gov/food/infant-formula-homepage/fdas-infant-formula-product-testing-results",
+   "library": "sources/fda2026-infant-formula-toxic-elements-special-survey"
+  },
+  "fda2026press": {
+   "title": "FDA Releases Results from Largest-Ever Testing of Infant Formula in the U.S.",
+   "publisher": "U.S. Food and Drug Administration",
+   "date": "2026-04-29",
+   "url": "https://www.fda.gov/news-events/press-announcements/fda-releases-results-largest-ever-testing-infant-formula-us"
+  },
+  "caag2022": {
+   "title": "Attorney General Bonta Announces Settlement with Perrigo to Improve Safety of Infant and Toddler Formula Products",
+   "publisher": "California Department of Justice, Office of the Attorney General",
+   "date": "2022-02-02",
+   "url": "https://oag.ca.gov/news/press-releases/attorney-general-bonta-announces-settlement-perrigo-improve-safety-infant-and"
+  },
+  "openfda": {
+   "title": "openFDA Food Enforcement Reports API (search: infant formula, reason for recall lead, arsenic, cadmium, metal)",
+   "publisher": "U.S. Food and Drug Administration",
+   "date": "2026-11-03",
+   "url": "https://api.fda.gov/food/enforcement.json?search=product_description:%22infant+formula%22+AND+reason_for_recall:metal"
+  },
+  "eu2023915": {
+   "title": "Commission Regulation (EU) 2023/915 on maximum levels for certain contaminants in food",
+   "publisher": "European Commission",
+   "date": "2023-04-25",
+   "url": "https://eur-lex.europa.eu/eli/reg/2023/915/oj",
+   "library": "sources/eu-2023-915-contaminants-maximum-levels"
+  },
+  "codex193": {
+   "title": "General Standard for Contaminants and Toxins in Food and Feed (CXS 193-1995)",
+   "publisher": "Codex Alimentarius Commission",
+   "date": "1995 (amended)",
+   "url": "https://www.fao.org/fao-who-codexalimentarius/codex-texts/list-standards/en/",
+   "library": "sources/codex-cxs-193-1995"
+  },
+  "oehhaPb": {
+   "title": "Lead and Lead Compounds, Proposition 65 chemical listing",
+   "publisher": "California OEHHA",
+   "date": "current",
+   "url": "https://oehha.ca.gov/proposition-65/chemicals/lead-and-lead-compounds",
+   "library": "sources/oehha-lead-prop65-listing"
+  },
+  "oehhaCd": {
+   "title": "Proposition 65 Maximum Allowable Daily Level for Reproductive Toxicity for Cadmium (Oral Route)",
+   "publisher": "California OEHHA",
+   "date": "2001-05",
+   "url": "https://oehha.ca.gov/proposition-65/chemicals/cadmium",
+   "library": "sources/oehha-cadmium-prop65-madl-2001"
+  },
+  "chuchu2013": {
+   "title": "The aluminium content of infant formulas remains too high",
+   "publisher": "BMC Pediatrics",
+   "date": "2013",
+   "url": "https://doi.org/10.1186/1471-2431-13-162",
+   "library": "sources/chuchu2013-aluminium-in-infant-formulas"
+  },
+  "redgrove2019": {
+   "title": "Prescription Infant Formulas Are Contaminated with Aluminium",
+   "publisher": "Int J Environ Res Public Health",
+   "date": "2019",
+   "url": "https://doi.org/10.3390/ijerph16050899",
+   "library": "sources/redgrove2019-prescription-infant-formulas-aluminium"
+  },
+  "carignan2015": {
+   "title": "Estimated Exposure to Arsenic in Breastfed and Formula-Fed Infants in a United States Cohort",
+   "publisher": "Environmental Health Perspectives",
+   "date": "2015",
+   "url": "https://doi.org/10.1289/ehp.1408789",
+   "library": "sources/carignan2015-arsenic-exposure-breastfed-formula-fed-infants"
+  },
+  "gardener2019": {
+   "title": "Lead and cadmium contamination in a large sample of United States infant formulas and baby foods",
+   "publisher": "Science of the Total Environment",
+   "date": "2019",
+   "url": "https://doi.org/10.1016/j.scitotenv.2018.10.428",
+   "library": "sources/gardener2019-pb-cd-us-infant-formula-baby-foods"
+  },
+  "houlihan2019": {
+   "title": "What's in My Baby's Food?",
+   "publisher": "Healthy Babies Bright Futures",
+   "date": "2019-10",
+   "url": "https://hbbf.org/report/whats-my-babys-food",
+   "library": "sources/houlihan2019-hbbf-whats-in-baby-food"
+  },
+  "fda2019recall": {
+   "title": "Enforcement Report F-1558-2019: Perrigo, Parent's Choice Advantage Infant Formula Milk-Based Powder with Iron (metal fragments)",
+   "publisher": "U.S. Food and Drug Administration",
+   "date": "2019-06-20",
+   "url": "https://api.fda.gov/food/enforcement.json?search=recall_number:F-1558-2019"
+  }
+ }
+}
