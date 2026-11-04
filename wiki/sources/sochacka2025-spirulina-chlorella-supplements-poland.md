@@ -15,7 +15,7 @@ raw_path: "raw/manual-fetch/Kimi_Agent_Download Corruption Issue/seafood_papers/
 raw_sha256: "627ccb34c9ce5fee775aab6325c63314e5a519310229aca653251a399e794efe"
 metals: [Al, Ba, Cd, Co, Cr, Cs, Cu, Ga, Mn, Mo, Ni, Pb, Rb, Sr, Tl, V, Zn]
 ingredients: []
-products: ["[[products/supplements-algae-seaweed-based]]", "[[products/dietary-supplements]]", "[[products/supplements-oral-solids-tablets]]", "[[products/supplements-oral-solids-powders]]"]
+products: ["[[products/supplements-greens-superfood]]", "[[products/supplements-algae-seaweed-based]]", "[[products/dietary-supplements]]", "[[products/supplements-oral-solids-tablets]]", "[[products/supplements-oral-solids-powders]]"]
 matrices: [dietary-supplements]
 jurisdictions: [PL, EU]
 near_duplicates: []
