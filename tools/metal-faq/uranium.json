@@ -2,10 +2,6 @@
   "metal": "uranium",
   "questions": [
     {
-      "question": "Does the Heavy Metal Index have a detailed page on uranium in food yet?",
-      "answer": "Not yet. This page is a source-map stub created during the re-ingest of [[sources/ufelle2021-metals-chapter|Ufelle & Barchowsky 2021]], which lists uranium among minor toxic metals for which toxicity has been described but does not provide a detailed uranium subsection. Substantive uranium-specific synthesis awaits a dedicated ingest, so the page currently serves mainly as a map of the sources that mention uranium."
-    },
-    {
       "question": "In which foods and beverages has uranium actually been measured?",
       "answer": "The sources mapped on this page report uranium occurrence across a wide range of foods and beverages, including commercial milk and infant formulas ([[sources/largueza2026-milk-formulas-toxic-elements-review|Largueza et al. 2026]], [[sources/almeida2022-brazil-infant-formula-toxic-metals|Almeida et al. 2022]]), ready-to-eat baby purees ([[sources/henriquez-hernandez2023-baby-purees-spain-elements|Henríquez-Hernández et al. 2023]]), rice ([[sources/gama2025-bvl-rice-trace-elements|Gama et al. 2025]]), coffee beans ([[sources/albals2021-coffee-jordan-icpms|Albals et al. 2021]]), and edible seaweeds ([[sources/mosusu2023-edible-seaweeds-japan-metals|Mosusu 2023]]). The page catalogs these as occurrence sources; it does not yet synthesize concentration values."
     },

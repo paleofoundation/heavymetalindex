@@ -1,0 +1,43 @@
+{
+ "source_id": "kubista2017-kp46-gallium-osteosarcoma-cells",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-GALLIUM-1/10.1186_s13046-017-0527-z.pdf",
+ "primary_sha256": "810a1aab7b3390f41dab9e9dda009216ceb9ace93c161842697de145dfed0b50",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "context",
+ "disposition_reason": "In vitro pharmacology of the organic gallium complex KP46 in human osteosarcoma lines and non-malignant fibroblasts; cytotoxicity IC50 values only, no gallium measured in any food, water, environmental or human matrix.",
+ "disposition_locator": "Table 1 (p. 6); Results (p. 5); Background (p. 2)",
+ "study": {
+  "design": "in vitro cell-line cytotoxicity and mechanism study",
+  "origin": "not applicable",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "not stated"
+  },
+  "method": "MTT viability (72 h), clonogenic assay (7 d), flow cytometry, migration assays",
+  "lod": [],
+  "basis": "unknown",
+  "qa": "three independent experiments in triplicate",
+  "site_context": "laboratory"
+ },
+ "findings": [],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [
+  "KP46 IC50 (72 h MTT) 1.204 to 3.830 µM in four human osteosarcoma lines; 9.01 µM in non-malignant human lung fibroblasts (Table 1, p. 6)"
+ ],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/kubista2017-kp46-gallium-osteosarcoma-cells.md",
+ "non_numeric_findings": [
+  "Gallium compounds are described as acting mainly by competing with iron uptake and inhibiting the iron-dependent enzyme ribonucleotide reductase (Background, p. 2; secondary)",
+  "Simple gallium salts (nitrate, chloride) were evaluated clinically but unfavorable pharmacokinetic and toxicological properties prevented routine use (Background, p. 2; secondary)",
+  "KP46 reached a phase-I clinical trial in renal cell cancer (Background, p. 2; secondary)"
+ ]
+}

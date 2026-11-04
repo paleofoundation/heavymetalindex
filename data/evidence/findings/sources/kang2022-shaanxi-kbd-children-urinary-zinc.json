@@ -1,0 +1,124 @@
+{
+ "source_id": "kang2022-shaanxi-kbd-children-urinary-zinc",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-ZINC-1/10.3389_fnut.2022.862639.pdf",
+ "primary_sha256": "6d85df2c36df9879b14ccbac8165af454e50f4fd37d3561e368b8829bc63e9cf",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "occurrence_extracted",
+ "disposition_reason": "Annual mean ± SD urinary zinc in children with and without Kashin-Beck disease (AAS).",
+ "disposition_locator": "Table 2, p. 4; Table 3, p. 5",
+ "study": {
+  "design": "three-year repeated cross-sectional follow-up",
+  "origin": "six counties, Shaanxi, China",
+  "market": "not applicable",
+  "period": {
+   "from": "2017",
+   "to": "2019",
+   "as_reported": "2017 to 2019"
+  },
+  "method": "AAS (Agilent DUO240), triplicate",
+  "lod": [],
+  "basis": "unknown",
+  "qa": "Chinese national reference materials",
+  "site_context": "population"
+ },
+ "findings": [
+  {
+   "id": "kang2022-shaanxi-kbd-children-urinary-zinc:Zn:urine-all-children-2017-all-subjects-2017:mean",
+   "material": {
+    "label_as_printed": "Urine, all children 2017",
+    "page": "metals/zinc",
+    "form": null,
+    "state": null,
+    "route_rule": "override:HMI-METAL-INGEST-2"
+   },
+   "analyte": "Zn",
+   "group": "all subjects 2017",
+   "group_kind": "group",
+   "n": null,
+   "statistic": "mean",
+   "reported": "0.36 ± 0.24 mg/L",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/L",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 4",
+   "integrity_flag": null,
+   "notes": "",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "kang2022-shaanxi-kbd-children-urinary-zinc:Zn:urine-control-children-2019-normal-controls-2019:mean",
+   "material": {
+    "label_as_printed": "Urine, control children 2019",
+    "page": "metals/zinc",
+    "form": null,
+    "state": null,
+    "route_rule": "override:HMI-METAL-INGEST-2"
+   },
+   "analyte": "Zn",
+   "group": "normal controls 2019",
+   "group_kind": "group",
+   "n": null,
+   "statistic": "mean",
+   "reported": "0.28 ± 0.20 mg/L",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/L",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 4",
+   "integrity_flag": null,
+   "notes": "",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "kang2022-shaanxi-kbd-children-urinary-zinc:Zn:urine-kbd-children-2019-kbd-x-ray-positive-2019:mean",
+   "material": {
+    "label_as_printed": "Urine, KBD children 2019",
+    "page": "metals/zinc",
+    "form": null,
+    "state": null,
+    "route_rule": "override:HMI-METAL-INGEST-2"
+   },
+   "analyte": "Zn",
+   "group": "KBD X-ray positive 2019",
+   "group_kind": "group",
+   "n": null,
+   "statistic": "mean",
+   "reported": "0.43 ± 0.39 mg/L",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/L",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 4",
+   "integrity_flag": null,
+   "notes": "",
+   "statistic_raw": "mean"
+  }
+ ],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/kang2022-shaanxi-kbd-children-urinary-zinc.md",
+ "non_numeric_findings": [
+  "Urinary zinc differed between some counties (Figure 4C)."
+ ]
+}

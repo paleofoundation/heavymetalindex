@@ -1,0 +1,66 @@
+{
+ "source_id": "dirajlalfargo2019-uganda-children-hiv-plasma-chromium",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-CHROMIUM-1/10.1093_ofid_ofz360.2206.pdf",
+ "primary_sha256": "6717de2eb664ee78e26b6b623cb30abedbc17a92fba4b8eb2c162ec94c9baffe",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "occurrence_extracted",
+ "disposition_reason": "Mean plasma chromium in Ugandan children (conference abstract).",
+ "disposition_locator": "Abstract 2528, Results, p. S879",
+ "study": {
+  "design": "cross-sectional cohort (conference abstract)",
+  "origin": "Uganda",
+  "market": "not applicable",
+  "method": "not stated",
+  "basis": "unknown",
+  "qa": "not reported",
+  "site_context": "clinical",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "see source"
+  },
+  "lod": []
+ },
+ "findings": [
+  {
+   "id": "dirajlalfargo2019-uganda-children-hiv-plasma-chromium:Cr:plasma-ugandan-children-aged-2-to-10-all-groups:mean",
+   "material": {
+    "label_as_printed": "Plasma, Ugandan children aged 2 to 10",
+    "page": "metals/chromium",
+    "form": "as_analyzed",
+    "state": "as_analyzed",
+    "route_rule": "override:HMI-METAL-INGEST-2"
+   },
+   "analyte": "Cr",
+   "group": "all groups",
+   "group_kind": "population",
+   "n": null,
+   "statistic": "mean",
+   "reported": "1 µg/L",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "µg/L",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Abstract 2528, p. S879",
+   "integrity_flag": null,
+   "notes": "Conference abstract; group sizes beyond HIV-positive n = 57 not printed.",
+   "statistic_raw": "mean"
+  }
+ ],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/dirajlalfargo2019-uganda-children-hiv-plasma-chromium.md",
+ "non_numeric_findings": []
+}

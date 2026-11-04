@@ -1,0 +1,43 @@
+{
+ "source_id": "ricketts2015-rainbow-trout-waterborne-molybdenum-stress",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-MOLYBDENUM-1/10.1371_journal.pone.0115334.pdf",
+ "primary_sha256": "8b150382ac95942fd9fe021f29fd9a3cde236e82930f84e04be3cd61bd8b33b0",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "context",
+ "disposition_reason": "Acute 96 h waterborne molybdate exposure of rainbow trout up to 1000 mg/L; no stress response; tissue uptake data from a laboratory exposure, not food occurrence.",
+ "disposition_locator": "Methods (p. 3); Results (p. 6)",
+ "study": {
+  "design": "controlled laboratory aquatic toxicity study",
+  "origin": "hatchery fish, British Columbia, Canada",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "96 h exposures"
+  },
+  "method": "ICP-MS for tissue Mo; ELISA, Western blot for stress markers",
+  "lod": [],
+  "basis": "dry_weight",
+  "qa": "not stated",
+  "site_context": "laboratory"
+ },
+ "findings": [],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [
+  "British Columbia aquatic-life guideline 2 mg/L molybdenum used as lowest test concentration (Methods, p. 3)",
+  "Reported 96 h LC50 in freshwater fish more than 50 to more than 10,000 mg/L as sodium molybdate (p. 2; secondary)"
+ ],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/ricketts2015-rainbow-trout-waterborne-molybdenum-stress.md",
+ "non_numeric_findings": [
+  "Control juvenile tissue molybdenum: gill 6.0, plasma 10.5, white muscle 46.5, liver 227 ng/g dry weight (Results, p. 6)",
+  "No change in cortisol, glucose, hematocrit, hsp70, hsp90 or metallothionein up to 1000 mg/L (Abstract, p. 1)"
+ ]
+}

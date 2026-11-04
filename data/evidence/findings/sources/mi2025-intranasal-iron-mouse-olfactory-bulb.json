@@ -1,0 +1,44 @@
+{
+ "source_id": "mi2025-intranasal-iron-mouse-olfactory-bulb",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-IRON-1/10.24272_j.issn.2095-8137.2024.240.pdf",
+ "primary_sha256": "d68a73eae113d96bf34c904328f2fe838d35b3f2443579706f56c0c3389018a3",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "context",
+ "disposition_reason": "Intranasal ferric ammonium citrate in mice; relative olfactory bulb iron increases by ICP-MS; no food or environmental occurrence data.",
+ "disposition_locator": "Methods; Results; Fig. 2",
+ "study": {
+  "design": "controlled animal experiment",
+  "origin": "China (laboratory)",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "not stated"
+  },
+  "method": "ICP-MS of digested olfactory bulb; Perls-DAB; RNA-seq; western blot",
+  "lod": [],
+  "basis": "not_applicable",
+  "qa": "n = 5 to 12 per endpoint",
+  "site_context": "laboratory"
+ },
+ "findings": [],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [
+  "Intranasal ferric ammonium citrate 200 mg/kg (250 mg/mL) twice every other day (Methods)",
+  "Olfactory bulb iron-56 +59.66%, iron-57 +56.52% vs saline (Results; Fig. 2E)",
+  "Serum iron unchanged; CSF iron undetectable (Results; Fig. 2H)"
+ ],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/mi2025-intranasal-iron-mouse-olfactory-bulb.md",
+ "non_numeric_findings": [
+  "Olfactory function impaired; dopaminergic and glutamatergic neurons and oligodendrocytes affected, GABAergic neurons spared.",
+  "Microglia and astrocytes activated; no ferroptosis signature."
+ ]
+}

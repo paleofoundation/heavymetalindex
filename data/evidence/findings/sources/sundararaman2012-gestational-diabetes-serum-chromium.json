@@ -1,0 +1,94 @@
+{
+ "source_id": "sundararaman2012-gestational-diabetes-serum-chromium",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-CHROMIUM-1/10.4103_2230-8210.94266.pdf",
+ "primary_sha256": "ad2784a868cc50eb189b47ef8c22156bbe4cf9594c52614624ccdf913e55c0eb",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "occurrence_extracted",
+ "disposition_reason": "Serum chromium in 30 women with gestational diabetes and 60 pregnant controls.",
+ "disposition_locator": "Table 1 p. S71",
+ "study": {
+  "design": "case-control study",
+  "origin": "India",
+  "market": "not applicable",
+  "method": "ICP emission spectrometry",
+  "basis": "unknown",
+  "qa": "precision RSD below 2% stated; no CRM",
+  "site_context": "clinical",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "see source"
+  },
+  "lod": []
+ },
+ "findings": [
+  {
+   "id": "sundararaman2012-gestational-diabetes-serum-chromium:Cr:serum-pregnant-women-with-gestational-diabetes-gdm-cases-che:mean",
+   "material": {
+    "label_as_printed": "Serum, pregnant women with gestational diabetes",
+    "page": "metals/chromium",
+    "form": "as_analyzed",
+    "state": "as_analyzed",
+    "route_rule": "override:HMI-METAL-INGEST-2"
+   },
+   "analyte": "Cr",
+   "group": "GDM cases, Chennai",
+   "group_kind": "population",
+   "n": 30,
+   "statistic": "mean",
+   "reported": "1.59 ± 0.02 ng/mL (range 0.16 to 4.0)",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "ng/mL",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 1, p. S71",
+   "integrity_flag": null,
+   "notes": "ICP emission spectrometry; dispersion statistic not specified.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "sundararaman2012-gestational-diabetes-serum-chromium:Cr:serum-pregnant-controls-controls-chennai:mean",
+   "material": {
+    "label_as_printed": "Serum, pregnant controls",
+    "page": "metals/chromium",
+    "form": "as_analyzed",
+    "state": "as_analyzed",
+    "route_rule": "override:HMI-METAL-INGEST-2"
+   },
+   "analyte": "Cr",
+   "group": "controls, Chennai",
+   "group_kind": "population",
+   "n": 60,
+   "statistic": "mean",
+   "reported": "4.58 ± 0.62 ng/mL (range 0.82 to 5.33)",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "ng/mL",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 1, p. S71",
+   "integrity_flag": null,
+   "notes": "As above.",
+   "statistic_raw": "mean"
+  }
+ ],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/sundararaman2012-gestational-diabetes-serum-chromium.md",
+ "non_numeric_findings": []
+}

@@ -1,0 +1,96 @@
+{
+ "source_id": "khaghani2010-tehran-breast-milk-formula-zinc",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-ZINC-1/PMC3446000.pdf",
+ "primary_sha256": "0181c76decdb5587af74ee24ad80f26a13f49f07be1640be3bcc4307a4d5712a",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "occurrence_extracted",
+ "disposition_reason": "Mean ± SD zinc in breast milk (n = 30) and two infant formulas (FAAS).",
+ "disposition_locator": "Table 1, p. 55",
+ "study": {
+  "design": "cross-sectional measurement",
+  "origin": "Tehran, Iran",
+  "market": "local market (formulas)",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "not stated; received 2008"
+  },
+  "method": "flame AAS (Perkin Elmer 3110) after lyophilization and nitric acid digestion",
+  "lod": [],
+  "basis": "unknown",
+  "qa": "not reported",
+  "site_context": "clinical"
+ },
+ "findings": [
+  {
+   "id": "khaghani2010-tehran-breast-milk-formula-zinc:Zn:human-milk-2-months-postpartum-30-mothers-tehran:mean",
+   "material": {
+    "label_as_printed": "Human milk, 2 months postpartum",
+    "page": "ingredients/breastmilk",
+    "form": null,
+    "state": null,
+    "route_rule": "override:HMI-METAL-INGEST-2"
+   },
+   "analyte": "Zn",
+   "group": "30 mothers, Tehran",
+   "group_kind": "group",
+   "n": 30,
+   "statistic": "mean",
+   "reported": "2.95 ± 0.77 mg/L",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/L",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 1, p. 55",
+   "integrity_flag": null,
+   "notes": "Liquid concentration; not converted to µg/kg.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "khaghani2010-tehran-breast-milk-formula-zinc:Zn:infant-formula-two-brands-two-market-brands:mean",
+   "material": {
+    "label_as_printed": "Infant formula, two brands",
+    "page": "ingredients/infant-formula",
+    "form": null,
+    "state": null,
+    "route_rule": "override:HMI-METAL-INGEST-2"
+   },
+   "analyte": "Zn",
+   "group": "two market brands",
+   "group_kind": "group",
+   "n": 2,
+   "statistic": "mean",
+   "reported": "3.98 ± 0.25 mg/L",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/L",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 1, p. 55",
+   "integrity_flag": null,
+   "notes": "Reconstitution basis not stated.",
+   "statistic_raw": "mean"
+  }
+ ],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/khaghani2010-tehran-breast-milk-formula-zinc.md",
+ "non_numeric_findings": [
+  "No association between milk zinc and maternal age, weight, height, education or occupation."
+ ]
+}

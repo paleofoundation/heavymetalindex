@@ -1,0 +1,42 @@
+{
+ "source_id": "efsa2026-cobalt-molybdenum-feed-additives-environment",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-MOLYBDENUM-1/10.2903_j.efsa.2026.10347.pdf",
+ "primary_sha256": "c9c955a79d24022e8fc551e2b84c444d25431338059dc36458544ebc417e0743",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "context",
+ "disposition_reason": "EFSA FEEDAP opinion on environmental safety of molybdenum (and cobalt) feed additives at maximum authorised levels; background P90 values and modeled soil concentrations, no food occurrence.",
+ "disposition_locator": "Section 3.2 and Table 3 (p. 7); Section 3.2.2 and Table 4 (p. 8)",
+ "study": {
+  "design": "regulatory environmental risk assessment",
+  "origin": "EU",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "background datasets 1997 to 2026"
+  },
+  "method": "FERA model PECsoil vs P90 natural background",
+  "lod": [],
+  "basis": "dry_weight",
+  "qa": "not applicable",
+  "site_context": "agricultural soil"
+ },
+ "findings": [],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [
+  "EU authorised use: sodium molybdate dihydrate for sheep, maximum 2.5 mg Mo/kg complete feed (Commission Implementing Regulation (EU) 2019/1965) (p. 7)",
+  "Natural background P90: soil 1.81 mg/kg dw (FOREGS, n = 840); groundwater 2.14 µg/L (EGG, n = 8841); freshwater 1.07 µg/L (n = 807); freshwater sediment 1.89 mg/kg dw (n = 848) (Table 3, p. 7)",
+  "PECsoil after 1 year at maximum level 30.3 to 34.4 µg Mo/kg soil dw; below 10% of background; years to double background 53 to 60 (p. 8, Table 4)",
+  "Conclusion: use at the maximum authorised level in complete feed is safe for the environment (p. 8)"
+ ],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/efsa2026-cobalt-molybdenum-feed-additives-environment.md",
+ "non_numeric_findings": []
+}

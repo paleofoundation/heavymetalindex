@@ -1,0 +1,100 @@
+{
+ "source_id": "bai2017-bayanwula-uranium-area-soil-radionuclides",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-URANIUM-1/10.3390_ijerph14030300.pdf",
+ "primary_sha256": "94f29bac12ad046483e4a05486fac04239f6c2b17f15cec1edb02ebb2ed17995",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "occurrence_extracted",
+ "disposition_reason": "Uranium-238 activity measured in 48 pre-mining surface-soil samples (mean 25.81 Bq/kg dry weight; range 7 to 58 Bq/kg).",
+ "disposition_locator": "Abstract p. 1; Table 2 pp. 7 to 8",
+ "study": {
+  "design": "baseline environmental soil survey",
+  "origin": "China, Bayanwula prospective uranium mining area, Sonid Left, Inner Mongolia",
+  "market": "uncultivated grassland",
+  "period": {
+   "from": "2015-06",
+   "to": "2015-06",
+   "as_reported": "June 2015, before mining"
+  },
+  "method": "HPGe gamma spectrometry (uranium-238 from thorium-234 at 63.3 keV)",
+  "lod": [
+   "minimum detectable activity 3.7 Bq/kg uranium-238 (p. 3)"
+  ],
+  "basis": "dry_weight",
+  "qa": "background subtraction; calibration with gamma sources",
+  "site_context": "pre-mining baseline"
+ },
+ "findings": [
+  {
+   "id": "bai2017-bayanwula-uranium-area-soil-radionuclides:U:surface-soil-48-surface-soil-samples-bayanwula-prospective-u:mean",
+   "material": {
+    "label_as_printed": "Surface soil",
+    "page": "metals/uranium",
+    "form": "solid",
+    "state": "environmental",
+    "route_rule": "override:HMI-METAL-INGEST-2"
+   },
+   "analyte": "U",
+   "group": "48 surface-soil samples, Bayanwula prospective uranium mining area",
+   "group_kind": "site",
+   "n": 48,
+   "statistic": "mean",
+   "reported": "25.81 ± 9.58 Bq/kg",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "Bq/kg",
+   "basis": "dry_weight",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Abstract p. 1",
+   "integrity_flag": null,
+   "notes": "Activity concentration; not convertible to µg/kg without the authors' factor, so value_ugkg is null. Table 2 summary row prints 26 ± 6 Bq/kg.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "bai2017-bayanwula-uranium-area-soil-radionuclides:U:surface-soil-48-surface-soil-samples-bayanwula-prospective-u:range",
+   "material": {
+    "label_as_printed": "Surface soil",
+    "page": "metals/uranium",
+    "form": "solid",
+    "state": "environmental",
+    "route_rule": "override:HMI-METAL-INGEST-2"
+   },
+   "analyte": "U",
+   "group": "48 surface-soil samples, Bayanwula prospective uranium mining area",
+   "group_kind": "site",
+   "n": 48,
+   "statistic": "range",
+   "reported": "7 to 58 Bq/kg",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "Bq/kg",
+   "basis": "dry_weight",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, pp. 7 to 8",
+   "integrity_flag": null,
+   "notes": "Individual sample minimum (sample 29) and maximum (sample 18).",
+   "statistic_raw": "range"
+  }
+ ],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [
+  "Comparison values in Table 2: mean in China 40 Bq/kg and world average 35 Bq/kg uranium-238 (p. 8)"
+ ],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/bai2017-bayanwula-uranium-area-soil-radionuclides.md",
+ "non_numeric_findings": [
+  "Area is uncultivated grassland with no industry; data are a baseline before uranium mining (p. 3)."
+ ]
+}

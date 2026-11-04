@@ -1,0 +1,73 @@
+{
+ "source_id": "efsa2016-manganese-hydroxychloride-feed-additive",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-MANGANESE-1/10.2903_j.efsa.2016.4474.pdf",
+ "primary_sha256": "14583a2fd164446e44aba658af2b68fe7dadee06b94ab2c8bdcca3e2ac00011d",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "context",
+ "disposition_reason": "EFSA opinion: EU maximum total manganese in complete feed and consumer safety conclusion; experimental chicken tissue values.",
+ "disposition_locator": "Abstract; Sections 3.1.2, 3.1.4, 3.2.2",
+ "study": {
+  "design": "regulatory scientific opinion",
+  "origin": "EU",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "adopted 20 April 2016"
+  },
+  "method": "dossier review",
+  "lod": [],
+  "basis": "dry matter for tissues",
+  "qa": "not applicable",
+  "site_context": "not applicable"
+ },
+ "findings": [
+  {
+   "id": "efsa2016-manganese-hydroxychloride-feed-additive:Mn:chicken-breast-muscle-feeding-groups-60-to-1920-mg-mn-kg-fee:range",
+   "material": {
+    "label_as_printed": "Chicken breast muscle (feeding groups 60 to 1920 mg Mn/kg feed)",
+    "page": "ingredients/chicken",
+    "form": null,
+    "state": null,
+    "route_rule": "override:HMI-METAL-INGEST-2"
+   },
+   "analyte": "Mn",
+   "group": "Chickens for fattening, tolerance study",
+   "group_kind": "treatment",
+   "n": 8,
+   "statistic": "range",
+   "reported": "0.9 to 2.3 mg/kg DM",
+   "value_ugkg": null,
+   "min_ugkg": 900,
+   "max_ugkg": 2300,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "dry_weight",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Section 3.2.2.1",
+   "integrity_flag": null,
+   "notes": "Range across eight experimental groups; no significant differences. Experimental feeding, not market food.",
+   "statistic_raw": "range"
+  }
+ ],
+ "unresolved": [
+  "Applicant-supplied data."
+ ],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [
+  "EU maximum total manganese in complete feed: fish 100 mg/kg; other species 150 mg/kg (Section 3.1.4)",
+  "Additive impurities: Cd 0.69-0.82, Pb 26-29, As 28-30 mg/kg; within Directive 2002/32/EC (Section 3.1.2)"
+ ],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/efsa2016-manganese-hydroxychloride-feed-additive.md",
+ "non_numeric_findings": [
+  "Safe for consumers provided maximum authorised feed content respected; cannot conclude on user inhalation safety."
+ ]
+}

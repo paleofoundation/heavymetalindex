@@ -1,0 +1,97 @@
+{
+ "source_id": "cho2007-zinc-deficiency-rat-alp-minerals",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-ZINC-1/10.4162_nrp.2007.1.2.113.pdf",
+ "primary_sha256": "ef20fcb8d1bc47f11cf90b7d130e703aca91e31ec756787de9771e617e706529",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "context",
+ "disposition_reason": "Animal deficiency study; diet zinc and tissue mineral numbers are experimental, not occurrence data.",
+ "disposition_locator": "Methods p. 114; Tables 1 and 2, pp. 115 to 116",
+ "study": {
+  "design": "controlled rat feeding study, three diet groups",
+  "origin": "Andong, Korea",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "42 days per Table 1; abstract says 10 weeks"
+  },
+  "method": "ICP spectrometry after nitric acid digestion; spectrophotometric ALP assay",
+  "lod": [],
+  "basis": "dry_weight",
+  "qa": "NIST SRM 1577b, zinc recovery 97.3 ± 8.0%",
+  "site_context": "laboratory"
+ },
+ "findings": [
+  {
+   "id": "cho2007-zinc-deficiency-rat-alp-minerals:Zn:zinc-deficient-rat-diet-analyzed-zinc-deficient-diet:mean",
+   "material": {
+    "label_as_printed": "Zinc-deficient rat diet (analyzed)",
+    "page": "metals/zinc",
+    "form": null,
+    "state": null,
+    "route_rule": "override:HMI-METAL-INGEST-2"
+   },
+   "analyte": "Zn",
+   "group": "zinc-deficient diet",
+   "group_kind": "group",
+   "n": null,
+   "statistic": "mean",
+   "reported": "0.3 ± 0.1 mg/kg feed",
+   "value_ugkg": 300,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Methods, p. 114",
+   "integrity_flag": null,
+   "notes": "Experimental feed, not food.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "cho2007-zinc-deficiency-rat-alp-minerals:Zn:zinc-adequate-rat-diet-analyzed-zinc-adequate-diet:mean",
+   "material": {
+    "label_as_printed": "Zinc-adequate rat diet (analyzed)",
+    "page": "metals/zinc",
+    "form": null,
+    "state": null,
+    "route_rule": "override:HMI-METAL-INGEST-2"
+   },
+   "analyte": "Zn",
+   "group": "zinc-adequate diet",
+   "group_kind": "group",
+   "n": null,
+   "statistic": "mean",
+   "reported": "35.1 ± 12.9 mg/kg feed",
+   "value_ugkg": 35100,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Methods, p. 114",
+   "integrity_flag": null,
+   "notes": "Experimental feed.",
+   "statistic_raw": "mean"
+  }
+ ],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/cho2007-zinc-deficiency-rat-alp-minerals.md",
+ "non_numeric_findings": [
+  "Zinc deficiency reduced ALP activity in plasma, liver, kidney and small intestine compared with zinc-adequate rats (Figs 1 and 2).",
+  "Small intestine zinc was lower in deficient rats; liver, muscle and kidney zinc did not differ (Fig. 3)."
+ ]
+}

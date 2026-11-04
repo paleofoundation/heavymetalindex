@@ -12,10 +12,6 @@
     {
       "question": "Are there genetic conditions that affect how the body handles copper?",
       "answer": "Yes. Inherited copper-metabolism disorders include Menkes disease and Wilson disease [[sources/ufelle2021-metals-chapter|Ufelle & Barchowsky 2021]]. These are disorders of copper metabolism rather than dietary-exposure effects."
-    },
-    {
-      "question": "How complete is this copper page right now?",
-      "answer": "It is currently a source-map stub created during the re-ingest of [[sources/ufelle2021-metals-chapter|Ufelle & Barchowsky 2021]]. Substantive copper-specific content is noted as awaiting a dedicated copper ingest, so detailed food-source, exposure, and regulatory information is not yet covered here."
     }
   ]
 }

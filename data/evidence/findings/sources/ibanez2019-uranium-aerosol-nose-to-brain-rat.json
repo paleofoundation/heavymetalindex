@@ -1,0 +1,42 @@
+{
+ "source_id": "ibanez2019-uranium-aerosol-nose-to-brain-rat",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-URANIUM-1/10.1289_EHP4927.pdf",
+ "primary_sha256": "15452fb955db6dfd2cff6886da291d9e28472c54a6c59c809814cf6eeb195fd6",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "context",
+ "disposition_reason": "Experimental inhalation toxicokinetics in rats; brain tissue uranium values are experimental, not occurrence data.",
+ "disposition_locator": "Table 1 p. 5; p. 3",
+ "study": {
+  "design": "controlled animal inhalation experiment",
+  "origin": "France, IRSN laboratory",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "not stated"
+  },
+  "method": "ICP-MS; SIMS; TEM-EDX",
+  "lod": [],
+  "basis": "unknown",
+  "qa": "isotope ratio check of exposed tissue",
+  "site_context": "laboratory"
+ },
+ "findings": [],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [
+  "Aerosol concentrations 218 and 545 mg/m3 uranium tetraoxide for 30 min, p. 3"
+ ],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/ibanez2019-uranium-aerosol-nose-to-brain-rat.md",
+ "non_numeric_findings": [
+  "Olfactory bulb uranium 1.51 ± 0.19 ng/g (control), 17.95 ± 13.34 (series 1), 15.31 ± 4.60 (series 2); n = 8 per group (Table 1, p. 5).",
+  "Anteroposterior gradient of brain uranium consistent with olfactory transfer."
+ ]
+}

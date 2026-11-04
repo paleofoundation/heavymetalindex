@@ -1,0 +1,39 @@
+{
+ "source_id": "foster2017-neonatal-mice-manganese-iron-interactions",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-MANGANESE-1/10.1016_j.dib.2017.10.050.pdf",
+ "primary_sha256": "31e63437900e5be34e7f58c4f96339b3567756ec475de87eb5870b84bff8751d",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "context",
+ "disposition_reason": "Mouse toxicology data: liver iron and iron-regulatory gene expression after neonatal oral manganese 11 or 25 mg/kg-day.",
+ "disposition_locator": "Tables 1 and 2",
+ "study": {
+  "design": "animal experiment",
+  "origin": "US (laboratory)",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "PND 1 to 28"
+  },
+  "method": "tissue metals by spectroscopy; qPCR",
+  "lod": [],
+  "basis": "not stated",
+  "qa": "not applicable",
+  "site_context": "laboratory"
+ },
+ "findings": [],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/foster2017-neonatal-mice-manganese-iron-interactions.md",
+ "non_numeric_findings": [
+  "Wild-type liver iron 116.0, 91.6, 56.1 ug/g at 0, 11, 25 mg/kg-day; Hamp 25.7% of control at 25 mg/kg-day."
+ ]
+}

@@ -1,0 +1,132 @@
+{
+ "source_id": "garcia2015-mexico-banana-iron-absorption-isotopes",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-IRON-1/10.3402_fnr.v59.25976.pdf",
+ "primary_sha256": "69cb844b26b5447f784d16ac6949f0a297329ca74e83277a443e1a5bfd9fbd17",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "occurrence_extracted",
+ "disposition_reason": "Duplicate AAS iron content of raw and cooked market bananas (dry basis) plus stable-isotope absorption results in 29 women.",
+ "disposition_locator": "Table 1 p. 4; Results p. 4; Abstract",
+ "study": {
+  "design": "randomized stable-isotope absorption field study",
+  "origin": "Mexico (market Cavendish bananas)",
+  "market": "general market, Queretaro",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "not stated"
+  },
+  "method": "AAS (PerkinElmer AAnalyst 800) for banana iron; high-resolution ICP-MS for red-cell isotope enrichment",
+  "lod": [],
+  "basis": "dry_weight",
+  "qa": "Duplicate analyses; no reference material reported",
+  "site_context": "market"
+ },
+ "findings": [
+  {
+   "id": "garcia2015-mexico-banana-iron-absorption-isotopes:Fe:raw-banana:mean",
+   "material": {
+    "label_as_printed": "Raw banana (ripe)",
+    "page": "ingredients/banana",
+    "form": "whole fruit",
+    "state": "raw",
+    "route_rule": "override:HMI-METAL-INGEST-2"
+   },
+   "analyte": "Fe",
+   "group": "Cavendish bananas from the general market, Queretaro, Mexico, used in absorption study",
+   "group_kind": "preparation",
+   "n": null,
+   "statistic": "mean",
+   "reported": "0.33 ± 0.04 mg/100 g",
+   "value_ugkg": 3300,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 400,
+   "unit_original": "mg/100 g",
+   "basis": "dry_weight",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 1 p. 4",
+   "integrity_flag": null,
+   "notes": "Converted 0.33 mg/100 g = 3.3 mg/kg = 3300 ug/kg; SD 0.04 mg/100 g = 400 ug/kg. Footnote says values are on a dry basis.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "garcia2015-mexico-banana-iron-absorption-isotopes:Fe:cooked-banana:mean",
+   "material": {
+    "label_as_printed": "Cooked banana (steamed green banana, matooke style)",
+    "page": "ingredients/banana",
+    "form": "mash",
+    "state": "cooked",
+    "route_rule": "override:HMI-METAL-INGEST-2"
+   },
+   "analyte": "Fe",
+   "group": "Cavendish bananas from the general market, Queretaro, Mexico, used in absorption study",
+   "group_kind": "preparation",
+   "n": null,
+   "statistic": "mean",
+   "reported": "0.57 ± 0.02 mg/100 g",
+   "value_ugkg": 5700,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 200,
+   "unit_original": "mg/100 g",
+   "basis": "dry_weight",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 1 p. 4",
+   "integrity_flag": null,
+   "notes": "Converted 0.57 mg/100 g = 5700 ug/kg; abstract prints 0.53 mg/100 g. SD 0.02 mg/100 g = 200 ug/kg.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "garcia2015-mexico-banana-iron-absorption-isotopes:Fe:green-banana:mean",
+   "material": {
+    "label_as_printed": "Green bananas used in the study",
+    "page": "ingredients/banana",
+    "form": "whole fruit",
+    "state": "raw",
+    "route_rule": "override:HMI-METAL-INGEST-2"
+   },
+   "analyte": "Fe",
+   "group": "Cavendish bananas from the general market, Queretaro, Mexico, used in absorption study",
+   "group_kind": "preparation",
+   "n": null,
+   "statistic": "mean",
+   "reported": "0.468 ± 0.035 mg per 100 g (dry basis)",
+   "value_ugkg": 4680,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 350,
+   "unit_original": "mg/100 g",
+   "basis": "dry_weight",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Results p. 4",
+   "integrity_flag": null,
+   "notes": "Converted 0.468 mg/100 g = 4680 ug/kg; SD 350 ug/kg.",
+   "statistic_raw": "mean"
+  }
+ ],
+ "unresolved": [
+  "Cooked banana iron printed as 0.53 (abstract) and 0.57 (Table 1) mg/100 g.",
+  "Number of banana samples analyzed beyond duplicate not stated."
+ ],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [
+  "Fractional iron absorption 49.3 ± 21.3% raw (n = 15) versus 33.9 ± 16.2% cooked (n = 14), p = 0.035 (Abstract)",
+  "Total iron absorbed 0.77 ± 0.33 mg raw versus 0.86 ± 0.41 mg cooked, p = 0.525 (Abstract; Results p. 4)",
+  "Iron intake 1.6 mg from 480 g raw and 2.6 mg from 500 g cooked banana per day (Results p. 4)"
+ ],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/garcia2015-mexico-banana-iron-absorption-isotopes.md",
+ "non_numeric_findings": [
+  "Banana matrix judged not to impair iron absorption; proposed as a biofortification target.",
+  "Phytate to iron molar ratios (0.05 and 0.03) were far below the ratio known to impair absorption, per the authors."
+ ]
+}

@@ -1,0 +1,97 @@
+{
+ "source_id": "turan2021-nodular-goiter-serum-copper",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-COPPER-1/10.4103_ijpvm.IJPVM_337_19.pdf",
+ "primary_sha256": "8ab14bc7c1f8ecda00c0fa7a27aabffb76af2ed71a26f009b3f3156e5e3e9a49",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "occurrence_extracted",
+ "disposition_reason": "Serum copper by ICP-MS in 98 adults with nodular goiter and 83 controls; no difference (p = 0.833).",
+ "disposition_locator": "Table 1",
+ "study": {
+  "design": "cross-sectional",
+  "origin": "Turkey",
+  "market": "university endocrine outpatient clinic, Yozgat",
+  "period": {
+   "from": "2018-02",
+   "to": "2018-09",
+   "as_reported": "February to September 2018"
+  },
+  "method": "Microwave HNO3 digestion; ICP-MS (Thermo iCAP Qc), calibration 0.5 to 1000 µg/L",
+  "lod": [],
+  "basis": "unknown",
+  "qa": "Seronorm Trace Elements Whole Blood L-2 CRM, RSD not above 5%",
+  "site_context": "clinical"
+ },
+ "findings": [
+  {
+   "id": "turan2021-nodular-goiter-serum-copper:Cu:serum--euthyroid-nodular-goiter-yozgat:mean",
+   "material": {
+    "label_as_printed": "Serum",
+    "page": "metals/copper",
+    "form": "serum",
+    "state": "as_sampled",
+    "route_rule": "override:HMI-METAL-INGEST-2"
+   },
+   "analyte": "Cu",
+   "group": "euthyroid nodular goiter, Yozgat",
+   "group_kind": "case_group",
+   "n": 98,
+   "statistic": "mean",
+   "reported": "1293.75 ± 249.33 µg/L",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "µg/L",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 1, p. 3",
+   "integrity_flag": null,
+   "notes": "Mean ± SD; ICP-MS.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "turan2021-nodular-goiter-serum-copper:Cu:serum--healthy-controls-yozgat:mean",
+   "material": {
+    "label_as_printed": "Serum",
+    "page": "metals/copper",
+    "form": "serum",
+    "state": "as_sampled",
+    "route_rule": "override:HMI-METAL-INGEST-2"
+   },
+   "analyte": "Cu",
+   "group": "healthy controls, Yozgat",
+   "group_kind": "control_group",
+   "n": 83,
+   "statistic": "mean",
+   "reported": "1306.56 ± 258.53 µg/L",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "µg/L",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 1, p. 3",
+   "integrity_flag": null,
+   "notes": "Mean ± SD; p = 0.833 versus goiter group.",
+   "statistic_raw": "mean"
+  }
+ ],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/turan2021-nodular-goiter-serum-copper.md",
+ "non_numeric_findings": [
+  "Serum copper correlated with BMI (r = 0.29), selenium (r = 0.396) and zinc (r = 0.155) (Results).",
+  "No correlation of trace elements with thyroid hormones or thyroid volume (Results)."
+ ]
+}

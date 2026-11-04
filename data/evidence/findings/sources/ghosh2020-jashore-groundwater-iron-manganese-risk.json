@@ -1,0 +1,222 @@
+{
+ "source_id": "ghosh2020-jashore-groundwater-iron-manganese-risk",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-IRON-1/10.1038_s41598-020-62187-5.pdf",
+ "primary_sha256": "cc97cfd2e3c8d4762779d4054d0c95e894b26d3d92b0932274be98ddac10cd08",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "occurrence_extracted",
+ "disposition_reason": "Total filtered iron in 85 tubewell drinking-water samples: range, median, IQR, mean and concentration-class summaries.",
+ "disposition_locator": "Results p. 4; Table 1 p. 3; Fig. 2",
+ "study": {
+  "design": "cross-sectional drinking-water survey with hazard-quotient screening",
+  "origin": "Jashore district, Bangladesh",
+  "market": "public hand-pumped tubewells",
+  "period": {
+   "from": "2017-01",
+   "to": "2017-03",
+   "as_reported": "January through March 2017 (dry season)"
+  },
+  "method": "HACH FerroVer method 8008 on DR/3900 spectrophotometer after 1.0 um glass microfiber filtration; acidified samples",
+  "lod": [
+   "Method range 0.02 to 3.0 mg/L for iron (Methods p. 2)"
+  ],
+  "basis": "not_applicable",
+  "qa": "Reagent blanks and replicate samples; no reference material reported",
+  "site_context": "groundwater"
+ },
+ "findings": [
+  {
+   "id": "ghosh2020-jashore-groundwater-iron-manganese-risk:Fe:tubewell-water-all:median",
+   "material": {
+    "label_as_printed": "Tubewell water (n = 85)",
+    "page": "ingredients/water",
+    "form": "liquid",
+    "state": "as_sampled",
+    "route_rule": "override:HMI-METAL-INGEST-2"
+   },
+   "analyte": "Fe",
+   "group": "85 arsenic-safe public tubewells, one per union, Jashore district, Bangladesh, Jan to Mar 2017",
+   "group_kind": "site",
+   "n": 85,
+   "statistic": "median",
+   "reported": "0.69 mg/L",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/L",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Results p. 4; Fig. 2",
+   "integrity_flag": null,
+   "notes": "Median of filtered total iron; IQR 0.27 to 2.47 mg/L; range 0.02 to 6.2 mg/L.",
+   "statistic_raw": "median"
+  },
+  {
+   "id": "ghosh2020-jashore-groundwater-iron-manganese-risk:Fe:tubewell-water-all:mean",
+   "material": {
+    "label_as_printed": "Tubewell water (n = 85)",
+    "page": "ingredients/water",
+    "form": "liquid",
+    "state": "as_sampled",
+    "route_rule": "override:HMI-METAL-INGEST-2"
+   },
+   "analyte": "Fe",
+   "group": "85 arsenic-safe public tubewells, one per union, Jashore district, Bangladesh, Jan to Mar 2017",
+   "group_kind": "site",
+   "n": 85,
+   "statistic": "mean",
+   "reported": "1.4 mg/L",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/L",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Results p. 4",
+   "integrity_flag": null,
+   "notes": "Arithmetic mean as printed.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "ghosh2020-jashore-groundwater-iron-manganese-risk:Fe:tubewell-water-all:max",
+   "material": {
+    "label_as_printed": "Tubewell water (n = 85)",
+    "page": "ingredients/water",
+    "form": "liquid",
+    "state": "as_sampled",
+    "route_rule": "override:HMI-METAL-INGEST-2"
+   },
+   "analyte": "Fe",
+   "group": "85 arsenic-safe public tubewells, one per union, Jashore district, Bangladesh, Jan to Mar 2017",
+   "group_kind": "site",
+   "n": 85,
+   "statistic": "max",
+   "reported": "6.2 mg/L",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/L",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Results p. 4; Table 1",
+   "integrity_flag": null,
+   "notes": "Maximum; exceeds the stated upper method range of 3.0 mg/L, dilution not described.",
+   "statistic_raw": "max"
+  },
+  {
+   "id": "ghosh2020-jashore-groundwater-iron-manganese-risk:Fe:tubewell-water-minimal-class:mean",
+   "material": {
+    "label_as_printed": "Minimal class (<0.3 mg/L)",
+    "page": "ingredients/water",
+    "form": "liquid",
+    "state": "as_sampled",
+    "route_rule": "override:HMI-METAL-INGEST-2"
+   },
+   "analyte": "Fe",
+   "group": "85 arsenic-safe public tubewells, one per union, Jashore district, Bangladesh, Jan to Mar 2017; minimal class",
+   "group_kind": "concentration_class",
+   "n": 23,
+   "statistic": "mean",
+   "reported": "0.14 mg/L (min 0.02, max 0.29)",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/L",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 1 p. 3",
+   "integrity_flag": null,
+   "notes": "27% of wells.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "ghosh2020-jashore-groundwater-iron-manganese-risk:Fe:tubewell-water-elevated-class:mean",
+   "material": {
+    "label_as_printed": "Elevated class (0.3 to 2.0 mg/L)",
+    "page": "ingredients/water",
+    "form": "liquid",
+    "state": "as_sampled",
+    "route_rule": "override:HMI-METAL-INGEST-2"
+   },
+   "analyte": "Fe",
+   "group": "85 arsenic-safe public tubewells, one per union, Jashore district, Bangladesh, Jan to Mar 2017; elevated class",
+   "group_kind": "concentration_class",
+   "n": 38,
+   "statistic": "mean",
+   "reported": "0.75 mg/L (min 0.31, max 1.94)",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/L",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 1 p. 3",
+   "integrity_flag": null,
+   "notes": "45% of wells.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "ghosh2020-jashore-groundwater-iron-manganese-risk:Fe:tubewell-water-high-class:mean",
+   "material": {
+    "label_as_printed": "High class (>2.0 mg/L)",
+    "page": "ingredients/water",
+    "form": "liquid",
+    "state": "as_sampled",
+    "route_rule": "override:HMI-METAL-INGEST-2"
+   },
+   "analyte": "Fe",
+   "group": "85 arsenic-safe public tubewells, one per union, Jashore district, Bangladesh, Jan to Mar 2017; high class",
+   "group_kind": "concentration_class",
+   "n": 24,
+   "statistic": "mean",
+   "reported": "3.72 mg/L (min 2.10, max 6.20)",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/L",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 1 p. 3",
+   "integrity_flag": null,
+   "notes": "28% of wells.",
+   "statistic_raw": "mean"
+  }
+ ],
+ "unresolved": [
+  "Manganese results not recorded as findings (outside this element)."
+ ],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [
+  "WHO aesthetic value for iron in drinking water 0.3 mg/L, as cited by the paper (p. 1 to 2)",
+  "Bangladesh drinking-water standard for iron 0.3 to 1.0 mg/L, as cited (p. 2)",
+  "2.0 mg/L iron cut-off described as 10% of a JECFA provisional maximum tolerable daily intake of 0.8 mg/kg bw (60 kg, 2 L/day), as cited (p. 3)",
+  "Oral reference dose 0.7 mg/kg/day attributed to US EPA 2006 provisional value, used for HQ (p. 3)",
+  "Adult iron HQ 0.004 to 1.446 (median 0.161), above 1 at 7 wells; child HQ 0.002 to 0.590 (median 0.066) (p. 6; Fig. 6)",
+  "Iron plus manganese HI above 1 at 33 wells for adults and 3 wells for children (p. 7; Fig. 7)"
+ ],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/ghosh2020-jashore-groundwater-iron-manganese-risk.md",
+ "non_numeric_findings": [
+  "About 73% of wells exceeded the Bangladesh iron limit.",
+  "Only about 5% of the groundwater surface area was in the minimal class for both iron and manganese.",
+  "Arsenic was not re-measured; the 'safe' cut-off is printed as 0.05 mg/L in Methods and 0.005 mg/L in Limitations.",
+  "No correlation between iron and manganese across wells."
+ ]
+}

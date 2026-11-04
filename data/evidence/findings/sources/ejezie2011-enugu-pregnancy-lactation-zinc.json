@@ -1,0 +1,155 @@
+{
+ "source_id": "ejezie2011-enugu-pregnancy-lactation-zinc",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-ZINC-1/PMC3507091.pdf",
+ "primary_sha256": "8bcefefa4754a400853f619383cd3450ee5287060608cf914b1df9909331c572",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "occurrence_extracted",
+ "disposition_reason": "Group mean serum zinc by pregnancy stage and breast milk zinc by lactation day (AAS).",
+ "disposition_locator": "Results p. 72; Tables 1 and 2, p. 73",
+ "study": {
+  "design": "cohort survey with non-pregnant controls",
+  "origin": "Enugu, Nigeria",
+  "market": "not applicable",
+  "period": {
+   "from": "2009-03",
+   "to": "2009-12",
+   "as_reported": "March to December 2009"
+  },
+  "method": "AAS (Buck Scientific 205)",
+  "lod": [],
+  "basis": "unknown",
+  "qa": "not reported",
+  "site_context": "clinical"
+ },
+ "findings": [
+  {
+   "id": "ejezie2011-enugu-pregnancy-lactation-zinc:Zn:breast-milk-day-0-to-3-lactating-mothers-day-0-to-3:mean",
+   "material": {
+    "label_as_printed": "Breast milk, day 0 to 3",
+    "page": "ingredients/breastmilk",
+    "form": null,
+    "state": null,
+    "route_rule": "override:HMI-METAL-INGEST-2"
+   },
+   "analyte": "Zn",
+   "group": "lactating mothers, day 0 to 3",
+   "group_kind": "group",
+   "n": 10,
+   "statistic": "mean",
+   "reported": "71.52 ± 4.06 µg/dL",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "µg/dL",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 73",
+   "integrity_flag": null,
+   "notes": "Liquid concentration; not converted.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "ejezie2011-enugu-pregnancy-lactation-zinc:Zn:breast-milk-day-13-to-15-lactating-mothers-day-13-to-15:mean",
+   "material": {
+    "label_as_printed": "Breast milk, day 13 to 15",
+    "page": "ingredients/breastmilk",
+    "form": null,
+    "state": null,
+    "route_rule": "override:HMI-METAL-INGEST-2"
+   },
+   "analyte": "Zn",
+   "group": "lactating mothers, day 13 to 15",
+   "group_kind": "group",
+   "n": 15,
+   "statistic": "mean",
+   "reported": "54.18 ± 3.44 µg/dL",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "µg/dL",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 73",
+   "integrity_flag": null,
+   "notes": "Liquid concentration.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "ejezie2011-enugu-pregnancy-lactation-zinc:Zn:serum-third-trimester-pregnant-women-third-trimester:mean",
+   "material": {
+    "label_as_printed": "Serum, third trimester",
+    "page": "metals/zinc",
+    "form": null,
+    "state": null,
+    "route_rule": "override:HMI-METAL-INGEST-2"
+   },
+   "analyte": "Zn",
+   "group": "pregnant women, third trimester",
+   "group_kind": "group",
+   "n": 27,
+   "statistic": "mean",
+   "reported": "85.57 ± 15.50 µg/dL",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "µg/dL",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Results, p. 72",
+   "integrity_flag": null,
+   "notes": "Controls 109.75 ± 17.69 µg/dL.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "ejezie2011-enugu-pregnancy-lactation-zinc:Zn:serum-non-pregnant-controls-non-pregnant-controls:mean",
+   "material": {
+    "label_as_printed": "Serum, non-pregnant controls",
+    "page": "metals/zinc",
+    "form": null,
+    "state": null,
+    "route_rule": "override:HMI-METAL-INGEST-2"
+   },
+   "analyte": "Zn",
+   "group": "non-pregnant controls",
+   "group_kind": "group",
+   "n": 35,
+   "statistic": "mean",
+   "reported": "109.75 ± 17.69 µg/dL",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "µg/dL",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Results, p. 72",
+   "integrity_flag": null,
+   "notes": "",
+   "statistic_raw": "mean"
+  }
+ ],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [
+  "Estimated daily zinc intake 23.43 to 26.65 mg/day in pregnancy and 21.72 mg/day in controls by 24-hour recall (Table 1, p. 73)."
+ ],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/ejezie2011-enugu-pregnancy-lactation-zinc.md",
+ "non_numeric_findings": [
+  "Breast milk zinc declined significantly from colostrum to mature milk (P < 0.0001).",
+  "Serum zinc rose non-significantly after delivery (P = 0.12)."
+ ]
+}

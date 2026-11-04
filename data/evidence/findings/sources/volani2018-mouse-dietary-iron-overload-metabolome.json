@@ -1,0 +1,43 @@
+{
+ "source_id": "volani2018-mouse-dietary-iron-overload-metabolome",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-IRON-1/10.3390_cells7120264.pdf",
+ "primary_sha256": "b77ef0f5a0bef2be92067c710b30b679030a402bd44d5cf01db8b567b1b2b7e0",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "context",
+ "disposition_reason": "Mouse carbonyl-iron diet (25 g/kg) versus chow (180 mg/kg) metabolomics; no food occurrence data.",
+ "disposition_locator": "Section 2.2 p. 3",
+ "study": {
+  "design": "controlled animal experiment",
+  "origin": "Austria (laboratory)",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "14 days"
+  },
+  "method": "Untargeted LC-high-resolution MS of blood (VAMS), plasma and liver",
+  "lod": [],
+  "basis": "not_applicable",
+  "qa": "Duplicate injections for liver; n = 3 control, 5 iron",
+  "site_context": "laboratory"
+ },
+ "findings": [],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [
+  "Control chow 180 mg iron/kg; iron diet supplemented with 25 g carbonyl iron/kg for 14 days (Section 2.2, p. 3)"
+ ],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/volani2018-mouse-dietary-iron-overload-metabolome.md",
+ "non_numeric_findings": [
+  "Iron loading increased glucose, aspartic acid and 2-/3-hydroxybutyric acid and lowered lactate and malate in blood and plasma.",
+  "Liver urea cycle stimulated; oxidative stress and liver glutathione increased.",
+  "Authors note supra-physiological dietary iron as a limitation."
+ ]
+}

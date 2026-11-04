@@ -1,0 +1,44 @@
+{
+ "source_id": "kim2008-korea-adult-manganese-daily-intake",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-MANGANESE-1/10.4162_nrp.2008.2.1.22.pdf",
+ "primary_sha256": "d849b7a5cd06288db3ccb145bafdb9cbecabb5d5de84c762f137cde7ae5fbcbb",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "context",
+ "disposition_reason": "Dietary manganese intake estimates (24-hour recall plus Korean food manganese table) for 354 adults; no measured concentrations.",
+ "disposition_locator": "Table 3; Abstract",
+ "study": {
+  "design": "cross-sectional dietary intake estimate",
+  "origin": "KR",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "not stated"
+  },
+  "method": "24-hour recall; CAN-Pro 3.0; manganese content database of 366 Korean foods",
+  "lod": [],
+  "basis": "not applicable",
+  "qa": "not applicable",
+  "site_context": "population"
+ },
+ "findings": [],
+ "unresolved": [
+  "Numeric adequate intake and upper level values are not printed in this paper."
+ ],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [
+  "Mean manganese intake 5206.6 ug/day men, 4056.5 ug/day women, 4540.6 ug/day overall (Table 3)",
+  "148.8% (men) and 135.2% (women) of Korean adequate intake; 8 men and 3 women above tolerable upper intake level (Table 3; Abstract)"
+ ],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/kim2008-korea-adult-manganese-daily-intake.md",
+ "non_numeric_findings": [
+  "Cereals, vegetables and beans named as the main manganese suppliers (Discussion p. 24)."
+ ]
+}

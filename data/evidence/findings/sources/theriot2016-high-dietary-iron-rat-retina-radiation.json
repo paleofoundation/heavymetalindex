@@ -1,0 +1,44 @@
+{
+ "source_id": "theriot2016-high-dietary-iron-rat-retina-radiation",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-IRON-1/10.1038_npjmgrav.2016.14.pdf",
+ "primary_sha256": "9a1570f955b17588d01c12c94c03f7baf1977e7df717eba58a00cdaef4ac145e",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "context",
+ "disposition_reason": "Rat dietary iron loading (650 vs 45 mg/kg) with fractionated gamma radiation; oxidative-stress endpoints; no food occurrence data.",
+ "disposition_locator": "Methods p. 5; Results p. 2",
+ "study": {
+  "design": "controlled animal experiment, 2 x 2 factorial",
+  "origin": "United States (laboratory)",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "not stated"
+  },
+  "method": "Serum analytes, 8-OHdG immunohistochemistry, qRT-PCR gene panels",
+  "lod": [],
+  "basis": "not_applicable",
+  "qa": "n = 8 per group",
+  "site_context": "laboratory"
+ },
+ "findings": [],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [
+  "Experimental diets 45 mg iron/kg (adequate) and 650 mg iron/kg (high) (Methods p. 5; Results p. 2)",
+  "High-iron diet raised plasma iron 33% and liver iron 26% (Results p. 2, from companion report)",
+  "Astronaut intake stated as 20 ± 6 mg/day, up to 47 mg/day (Introduction p. 2, background)"
+ ],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/theriot2016-high-dietary-iron-rat-retina-radiation.md",
+ "non_numeric_findings": [
+  "High dietary iron altered the radiation response of catalase, glutathione peroxidase and total antioxidant capacity.",
+  "Retina and aorta gene expression suggested an interaction between iron loading and radiation."
+ ]
+}

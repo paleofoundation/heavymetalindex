@@ -1,0 +1,152 @@
+{
+ "source_id": "staniek2017-chromium-propionate-rat-mineral-status",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-CHROMIUM-1/10.1007_s12011-017-0985-3.pdf",
+ "primary_sha256": "3ca9b7f7b325c4ff7c8daab4d211e8055a956c245fd9d5dc46745cc1d5ebb413",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "context",
+ "disposition_reason": "Rodent tissue chromium under high-dose trivalent chromium feeding.",
+ "disposition_locator": "Table 3 p. 94",
+ "study": {
+  "design": "controlled rodent feeding study",
+  "origin": "Poland",
+  "market": "not applicable",
+  "method": "GF-AAS for chromium; F-AAS for other minerals",
+  "basis": "dry_weight",
+  "qa": "CRM CTA-VTL-2 for chromium, recovery 102%",
+  "site_context": "laboratory",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "see source"
+  },
+  "lod": []
+ },
+ "findings": [
+  {
+   "id": "staniek2017-chromium-propionate-rat-mineral-status:Cr:rat-liver-control-1-mg-kg-diet:mean",
+   "material": {
+    "label_as_printed": "Rat liver",
+    "page": "metals/chromium",
+    "form": "as_analyzed",
+    "state": "as_analyzed",
+    "route_rule": "override:HMI-METAL-INGEST-2"
+   },
+   "analyte": "Cr",
+   "group": "control (1 mg/kg diet)",
+   "group_kind": "treatment",
+   "n": 6,
+   "statistic": "mean",
+   "reported": "2.96 ± 0.18 µg/g d.m.",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "µg/g dry mass",
+   "basis": "dry_weight",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 3, p. 94",
+   "integrity_flag": null,
+   "notes": "Animal tissue, not food; value_ugkg left null. Mean ± SEM.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "staniek2017-chromium-propionate-rat-mineral-status:Cr:rat-kidney-control-1-mg-kg-diet:mean",
+   "material": {
+    "label_as_printed": "Rat kidney",
+    "page": "metals/chromium",
+    "form": "as_analyzed",
+    "state": "as_analyzed",
+    "route_rule": "override:HMI-METAL-INGEST-2"
+   },
+   "analyte": "Cr",
+   "group": "control (1 mg/kg diet)",
+   "group_kind": "treatment",
+   "n": 6,
+   "statistic": "mean",
+   "reported": "1.69 ± 0.12 µg/g d.m.",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "µg/g dry mass",
+   "basis": "dry_weight",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 3, p. 94",
+   "integrity_flag": null,
+   "notes": "Animal tissue, not food; value_ugkg left null. Mean ± SEM.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "staniek2017-chromium-propionate-rat-mineral-status:Cr:rat-liver-1000-mg-kg-diet:mean",
+   "material": {
+    "label_as_printed": "Rat liver",
+    "page": "metals/chromium",
+    "form": "as_analyzed",
+    "state": "as_analyzed",
+    "route_rule": "override:HMI-METAL-INGEST-2"
+   },
+   "analyte": "Cr",
+   "group": "1000 mg/kg diet",
+   "group_kind": "treatment",
+   "n": 6,
+   "statistic": "mean",
+   "reported": "17.88 ± 0.93 µg/g d.m.",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "µg/g dry mass",
+   "basis": "dry_weight",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 3, p. 94",
+   "integrity_flag": null,
+   "notes": "Animal tissue, not food; value_ugkg left null. Mean ± SEM.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "staniek2017-chromium-propionate-rat-mineral-status:Cr:rat-kidney-1000-mg-kg-diet:mean",
+   "material": {
+    "label_as_printed": "Rat kidney",
+    "page": "metals/chromium",
+    "form": "as_analyzed",
+    "state": "as_analyzed",
+    "route_rule": "override:HMI-METAL-INGEST-2"
+   },
+   "analyte": "Cr",
+   "group": "1000 mg/kg diet",
+   "group_kind": "treatment",
+   "n": 6,
+   "statistic": "mean",
+   "reported": "27.74 ± 1.09 µg/g d.m.",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "µg/g dry mass",
+   "basis": "dry_weight",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 3, p. 94",
+   "integrity_flag": null,
+   "notes": "Animal tissue, not food; value_ugkg left null. Mean ± SEM.",
+   "statistic_raw": "mean"
+  }
+ ],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/staniek2017-chromium-propionate-rat-mineral-status.md",
+ "non_numeric_findings": [
+  "Doses of 50 to 100 mg chromium/kg body mass decreased serum iron and liver and kidney iron."
+ ]
+}

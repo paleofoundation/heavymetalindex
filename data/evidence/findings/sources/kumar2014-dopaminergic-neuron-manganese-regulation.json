@@ -1,0 +1,41 @@
+{
+ "source_id": "kumar2014-dopaminergic-neuron-manganese-regulation",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-MANGANESE-1/10.1038_srep06801.pdf",
+ "primary_sha256": "c26cd501062ac1798676228c57c82f429fcb42b6305cd604d33d5216f1209737",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "no_numeric_results",
+ "disposition_reason": "In vitro neuronal manganese regulation; no exposure-relevant numeric values.",
+ "disposition_locator": "Results p. 3; Fig. 5",
+ "study": {
+  "design": "in vitro",
+  "origin": "US (laboratory)",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "not applicable"
+  },
+  "method": "fura-2 based fluorescence extraction assay",
+  "lod": [],
+  "basis": "not applicable",
+  "qa": "not applicable",
+  "site_context": "laboratory"
+ },
+ "findings": [],
+ "unresolved": [
+  "Exposure concentration units ambiguous in extracted text."
+ ],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/kumar2014-dopaminergic-neuron-manganese-regulation.md",
+ "non_numeric_findings": [
+  "Day 26 dopaminergic neurons accumulated more manganese than day 12 progenitors (p < 0.05)."
+ ]
+}
