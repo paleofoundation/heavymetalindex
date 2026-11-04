@@ -18,8 +18,7 @@ name: Claude evidence fill
 
 on:
   schedule:
-    - cron: "0 5 * * *"
-    - cron: "0 15 * * *"
+    - cron: "0 */2 * * *"
   workflow_dispatch:
   pull_request:
 
@@ -103,11 +102,13 @@ jobs:
         id: pick
         env:
           DEPOSITS_ROOT: ${{ runner.temp }}/hmi-evidence-deposits
+          GH_TOKEN: ${{ github.token }}
         run: |
           set -euo pipefail
           skips="$(gh pr list --state open --limit 200 --json headRefName --jq '[.[] | select(.headRefName | startswith("evidence-fill/")) | .headRefName | sub("^evidence-fill/"; "")] | join(",")')"
           json="$(node tools/evidence-fill/select-next-unit.mjs --root "$DEPOSITS_ROOT" --skip "$skips")"
           echo "$json"
+          printf '%s' "$json" | python3 -c 'import json,sys,os; d=json.load(sys.stdin); f=open(os.environ["GITHUB_OUTPUT"],"a"); [f.write(f"{k}={d.get(k) or \"\"}\n") for k in ("unit","slug","dir")]'
           if [ "$(printf '%s' "$json" | python3 -c 'import json,sys; print(json.load(sys.stdin).get("unit") or "")')" = "" ]; then
             echo "No ingredient unit is marked DEPOSITED. Nothing to do."
           fi

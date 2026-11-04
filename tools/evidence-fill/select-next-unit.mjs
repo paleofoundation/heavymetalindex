@@ -1,30 +1,64 @@
 // Pick the next ingredient deposit that is marked DEPOSITED.
-// LIVE and BUILT units are not eligible. One unit per run: the lowest id
-// that still needs a page, skipping units named in --skip (open evidence-fill branches).
+// LIVE, BUILT, and later ledger states are not eligible. One unit per run:
+// the lowest id that still needs a page, skipping units named in --skip
+// (open evidence-fill branches).
 //
 // The deposits repo is private and its ledger shape has varied, so this reader
-// accepts a root ledger (json, jsonl, csv, or a markdown table) and a
-// deposits/<UNIT>/ directory whose own status file or frontmatter wins.
+// accepts a root ledger (json, jsonl, csv, or a markdown table) and the same
+// files inside deposits/, ledger/, units/, or queue/. A deposits/<UNIT>/
+// status file wins on status. It keeps a slug or kind already recorded on the
+// ledger row, because a bare DEPOSITED mark would otherwise erase them and
+// the picker would return nothing.
 //
 //   node tools/evidence-fill/select-next-unit.mjs --root <deposits-checkout> [--skip ID,ID]
 import fs from "node:fs"
 import path from "node:path"
 import { pathToFileURL } from "node:url"
 
-const STATUS = new Set(["DEPOSITED", "LIVE", "BUILT"])
+const STATUS = new Set([
+  "DEPOSITED",
+  "LIVE",
+  "BUILT",
+  "INGESTING",
+  "PR_OPEN",
+  "FIX",
+  "MERGED",
+  "SHIPPED",
+  "PARKED",
+  "QUEUED",
+  "RETRIEVING",
+  "TOPIC",
+  "WISHLIST",
+  "AUTHOR_ASKED",
+])
+const NEST_KEYS = new Set(["units", "deposits", "rows", "items", "ledger", "queue", "fills", "records", "entries"])
 const UNIT_ID = /^HMI-[A-Z0-9]+(?:-[A-Z0-9]+)*$/
+const SLUG = /^[a-z0-9]+(?:-[a-z0-9]+)*$/
 const SKIP_EXT = new Set([".pdf", ".png", ".jpg", ".jpeg", ".webp", ".gif", ".tif", ".tiff", ".zip", ".gz"])
+const HINT_NAMES = new Set([
+  "slug",
+  "slug.txt",
+  "ingredient",
+  "ingredient.txt",
+  "page",
+  "page.txt",
+  "target",
+  "target.txt",
+  "wiki",
+  "wiki.txt",
+])
+const LEDGER_DIRS = ["deposits", "ledger", "units", "queue"]
 
 export function slugFromIngredientId(id) {
   const match = /^HMI-ING-(.+)-(\d+)$/.exec(id)
   if (!match) return null
   const slug = match[1].toLowerCase()
-  return /^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(slug) ? slug : null
+  return SLUG.test(slug) ? slug : null
 }
 
 export function normalizeStatus(value) {
   if (typeof value !== "string") return null
-  const status = value.trim().toUpperCase()
+  const status = value.trim().toUpperCase().replace(/[\s-]+/g, "_")
   return STATUS.has(status) ? status : null
 }
 
@@ -32,12 +66,38 @@ function asText(value) {
   return typeof value === "string" ? value.trim() : ""
 }
 
+function stripBom(text) {
+  return text.charCodeAt(0) === 0xfeff ? text.slice(1) : text
+}
+
+function normalizeKeys(record) {
+  const out = {}
+  for (const [key, value] of Object.entries(record)) {
+    const norm = key.trim().toLowerCase().replace(/[\s/-]+/g, "_")
+    if (out[norm] === undefined) out[norm] = value
+  }
+  return out
+}
+
+function pageOf(record) {
+  return asText(
+    record.wiki_path ||
+      record.page ||
+      record.page_url ||
+      record.target ||
+      record.path ||
+      record.entity ||
+      record.url ||
+      record.wiki,
+  )
+}
+
 function kindOf(record, id) {
   const explicit = asText(record.kind || record.type || record.family || record.page_type || record.entity_type).toLowerCase()
   if (explicit.includes("ingredient")) return "ingredient"
   if (explicit.includes("metal")) return "metal"
   if (explicit.includes("product")) return "product"
-  const page = asText(record.wiki_path || record.page || record.target || record.path || record.entity)
+  const page = pageOf(record)
   if (page.includes("ingredients/")) return "ingredient"
   if (page.includes("metals/")) return "metal"
   if (page.includes("products/")) return "product"
@@ -49,27 +109,40 @@ function kindOf(record, id) {
 
 function slugOf(record, id) {
   const direct = asText(record.slug || record.ingredient_slug || record.ingredient || record.commodity).toLowerCase()
-  if (/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(direct) && !direct.startsWith("hmi-")) return direct
-  const page = asText(record.wiki_path || record.page || record.target || record.path || record.entity)
-  const fromPath = page.match(/(?:^|\/)ingredients\/([a-z0-9-]+)(?:\.md)?$/)
-  if (fromPath) return fromPath[1]
+  if (SLUG.test(direct) && !direct.startsWith("hmi-")) return direct
+  const fromPath = pageOf(record).match(/(?:^|\/)ingredients\/([a-z0-9-]+)(?:\.md)?\/?$/i)
+  if (fromPath) return fromPath[1].toLowerCase()
   return slugFromIngredientId(id)
 }
 
 function unitFromRecord(record, rank, dir) {
   if (!record || typeof record !== "object" || Array.isArray(record)) return null
-  const id = asText(record.id || record.unit || record.unit_id || record.code).toUpperCase()
-  const status = normalizeStatus(record.status || record.state || record.mark)
+  const fields = normalizeKeys(record)
+  const id = asText(fields.id || fields.unit || fields.unit_id || fields.code).toUpperCase()
+  const status = normalizeStatus(fields.status || fields.state || fields.mark)
   if (!UNIT_ID.test(id) || !status) return null
-  const kind = kindOf(record, id)
-  const slug = slugOf(record, id)
-  return { id, status, kind, slug, dir: dir || record.dir || "", rank }
+  const kind = kindOf(fields, id)
+  const slug = slugOf(fields, id)
+  const recordDir = asText(fields.dir || fields.deposit_dir || fields.folder)
+  return { id, status, kind, slug, dir: dir || recordDir, rank }
 }
 
 function addUnit(map, unit) {
   if (!unit) return
   const prev = map.get(unit.id)
-  if (!prev || unit.rank >= prev.rank) map.set(unit.id, unit)
+  if (!prev) {
+    map.set(unit.id, unit)
+    return
+  }
+  const [higher, lower] = unit.rank >= prev.rank ? [unit, prev] : [prev, unit]
+  map.set(unit.id, {
+    id: higher.id,
+    status: higher.status,
+    kind: higher.kind || lower.kind,
+    slug: higher.slug || lower.slug,
+    dir: higher.dir || lower.dir,
+    rank: higher.rank,
+  })
 }
 
 function walkRecords(value, visit) {
@@ -79,8 +152,8 @@ function walkRecords(value, visit) {
   }
   if (!value || typeof value !== "object") return
   visit(value)
-  for (const key of ["units", "deposits", "rows", "items", "ledger"]) {
-    if (value[key]) walkRecords(value[key], visit)
+  for (const [key, child] of Object.entries(value)) {
+    if (NEST_KEYS.has(key.toLowerCase()) && child) walkRecords(child, visit)
   }
 }
 
@@ -152,10 +225,10 @@ function readMarkdownTable(text, visit) {
   const lines = text.split(/\r?\n/)
   for (let i = 0; i < lines.length - 1; i++) {
     if (!lines[i].includes("|")) continue
-    const header = tableCells(lines[i]).map((cell) => cell.toLowerCase())
+    const header = tableCells(lines[i]).map((cell) => cell.toLowerCase().replace(/[\s/-]+/g, "_"))
     const separator = tableCells(lines[i + 1])
     if (!separator.length || !separator.every((cell) => /^:?-+:?$/.test(cell))) continue
-    if (!header.includes("status") || !(header.includes("id") || header.includes("unit"))) continue
+    if (!header.includes("status") || !(header.includes("id") || header.includes("unit") || header.includes("unit_id"))) continue
     for (let row = i + 2; row < lines.length; row++) {
       if (!lines[row].includes("|")) break
       const raw = tableCells(lines[row])
@@ -169,73 +242,134 @@ function readMarkdownTable(text, visit) {
   }
 }
 
-function ingestText(map, text, rank, dir, file) {
+function rememberHint(hints, id, text, dir) {
+  if (!UNIT_ID.test(id)) return
+  const line = text.trim().split(/\r?\n/, 1)[0].trim().replace(/^['"]|['"]$/g, "")
+  const ingredient = line.match(/ingredients\/([a-z0-9-]+)(?:\.md)?\/?$/i)
+  const product = line.match(/products\/([a-z0-9-]+)(?:\.md)?\/?$/i)
+  const prev = hints.get(id) || { slug: "", kind: null, dir: "" }
+  if (ingredient) {
+    hints.set(id, { slug: ingredient[1].toLowerCase(), kind: "ingredient", dir: dir || prev.dir })
+    return
+  }
+  if (product) {
+    hints.set(id, { slug: product[1].toLowerCase(), kind: "product", dir: dir || prev.dir })
+    return
+  }
+  if (!prev.slug && SLUG.test(line) && !line.startsWith("hmi-")) {
+    hints.set(id, { ...prev, slug: line, dir: prev.dir || dir })
+  }
+}
+
+function ingestText(map, hints, text, rank, dir, file) {
   const visit = (record) => addUnit(map, unitFromRecord(record, rank, dir))
   const lower = file.toLowerCase()
   const directoryId = dir ? path.basename(dir).toUpperCase() : ""
+  const body = stripBom(text)
   try {
-    if (lower.endsWith(".json") || lower.endsWith(".jsonl")) readJsonRecords(text, visit)
-    else if (lower.endsWith(".csv")) readCsvRecords(text, visit)
+    if (lower.endsWith(".json") || lower.endsWith(".jsonl")) readJsonRecords(body, visit)
+    else if (lower.endsWith(".csv")) readCsvRecords(body, visit)
     else if (lower.endsWith(".md")) {
-      const frontmatter = readFrontmatter(text)
+      const frontmatter = readFrontmatter(body)
       if (frontmatter) {
         if (!asText(frontmatter.id || frontmatter.unit || frontmatter.unit_id || frontmatter.code) && directoryId) {
           frontmatter.id = directoryId
         }
         visit(frontmatter)
       }
-      readMarkdownTable(text, visit)
-    } else if (normalizeStatus(text) && directoryId) {
-      visit({ id: directoryId, status: text, dir })
+      readMarkdownTable(body, visit)
+    } else if (normalizeStatus(body) && directoryId) {
+      visit({ id: directoryId, status: body, dir })
     }
   } catch {
     // A notes file that is not a ledger is not a unit. Keep scanning.
   }
+  if (directoryId && HINT_NAMES.has(lower)) rememberHint(hints, directoryId, body, dir)
 }
 
-function considerFile(map, root, file, rank, dir) {
+function maxBytes(file) {
+  const base = path.basename(file).toLowerCase()
+  if (/(ledger|units|queue|manifest|deposits)/.test(base)) return 8_000_000
+  return 1_000_000
+}
+
+function considerFile(map, hints, root, file, rank, dir) {
   const ext = path.extname(file).toLowerCase()
   if (SKIP_EXT.has(ext)) return
   const stat = fs.statSync(file)
-  if (!stat.isFile() || stat.size > 1_000_000) return
-  ingestText(map, fs.readFileSync(file, "utf8"), rank, dir ? path.relative(root, dir) : "", path.basename(file))
+  if (!stat.isFile() || stat.size > maxBytes(file)) return
+  ingestText(map, hints, fs.readFileSync(file, "utf8"), rank, dir ? path.relative(root, dir) : "", path.basename(file))
+}
+
+function scanLedgerDir(map, hints, root, dir) {
+  if (!fs.existsSync(dir)) return
+  for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
+    if (!entry.isFile()) continue
+    const lower = entry.name.toLowerCase()
+    if (!(/\.(json|jsonl|csv|md)$/.test(lower) || lower === "status")) continue
+    considerFile(map, hints, root, path.join(dir, entry.name), 1, "")
+  }
+}
+
+function scanUnitDirs(map, hints, root, parent) {
+  if (!fs.existsSync(parent)) return
+  for (const entry of fs.readdirSync(parent, { withFileTypes: true })) {
+    if (!entry.isDirectory() || !UNIT_ID.test(entry.name.toUpperCase())) continue
+    const dir = path.join(parent, entry.name)
+    for (const file of fs.readdirSync(dir, { withFileTypes: true })) {
+      if (!file.isFile()) continue
+      const lower = file.name.toLowerCase()
+      if (!(/\.(json|jsonl|csv|md|txt)$/.test(lower) || lower === "status" || HINT_NAMES.has(lower))) continue
+      considerFile(map, hints, root, path.join(dir, file.name), 2, dir)
+    }
+  }
+}
+
+function applyHints(map, hints) {
+  for (const [id, hint] of hints) {
+    const unit = map.get(id)
+    if (!unit) continue
+    if (!unit.slug && hint.slug) unit.slug = hint.slug
+    if (!unit.kind && hint.kind) unit.kind = hint.kind
+    if (!unit.dir && hint.dir) unit.dir = hint.dir
+  }
 }
 
 export function collectUnits(root) {
   const map = new Map()
+  const hints = new Map()
   if (!fs.existsSync(root)) return []
-  for (const entry of fs.readdirSync(root, { withFileTypes: true })) {
-    if (!entry.isFile()) continue
-    const lower = entry.name.toLowerCase()
-    if (!(/\.(json|jsonl|csv|md)$/.test(lower) || lower === "status")) continue
-    considerFile(map, root, path.join(root, entry.name), 1, "")
-  }
+  scanLedgerDir(map, hints, root, root)
+  for (const name of LEDGER_DIRS) scanLedgerDir(map, hints, root, path.join(root, name))
   const deposits = path.join(root, "deposits")
   const parents = fs.existsSync(deposits) ? [deposits] : [root]
-  for (const parent of parents) {
-    for (const entry of fs.readdirSync(parent, { withFileTypes: true })) {
-      if (!entry.isDirectory() || !UNIT_ID.test(entry.name.toUpperCase())) continue
-      const dir = path.join(parent, entry.name)
-      for (const file of fs.readdirSync(dir, { withFileTypes: true })) {
-        if (!file.isFile()) continue
-        const lower = file.name.toLowerCase()
-        if (!(/\.(json|jsonl|csv|md|txt)$/.test(lower) || lower === "status")) continue
-        considerFile(map, root, path.join(dir, file.name), 2, dir)
-      }
-    }
-  }
+  for (const parent of parents) scanUnitDirs(map, hints, root, parent)
+  applyHints(map, hints)
   return [...map.values()]
 }
 
-export function selectNextUnit(root, { skip = [] } = {}) {
+function pickUnit(units, { skip = [] } = {}) {
   const skipIds = new Set(skip.map((id) => String(id).trim().toUpperCase()).filter(Boolean))
-  const eligible = collectUnits(root)
+  const eligible = units
     .filter((unit) => unit.status === "DEPOSITED" && unit.kind === "ingredient" && unit.slug && !skipIds.has(unit.id))
     .sort((a, b) => a.id.localeCompare(b.id, "en", { numeric: true }))
   const chosen = eligible[0]
   if (!chosen) return null
   if (!chosen.dir) chosen.dir = path.join("deposits", chosen.id)
   return chosen
+}
+
+export function selectNextUnit(root, options) {
+  return pickUnit(collectUnits(root), options)
+}
+
+function seenCounts(units) {
+  const counts = {}
+  for (const unit of units) {
+    const key = `${unit.status}/${unit.kind || "unknown"}/${unit.slug ? "with-slug" : "no-slug"}`
+    counts[key] = (counts[key] || 0) + 1
+  }
+  return counts
 }
 
 function main() {
@@ -248,10 +382,12 @@ function main() {
     console.error("usage: select-next-unit.mjs --root <deposits-checkout> [--skip ID,ID]")
     process.exit(2)
   }
-  const unit = selectNextUnit(root, { skip })
+  const units = collectUnits(root)
+  const unit = pickUnit(units, { skip })
   const payload = unit
     ? { unit: unit.id, slug: unit.slug, dir: unit.dir, status: unit.status }
     : { unit: null, slug: "", dir: "", status: "" }
+  if (!unit) console.error(`No deposited ingredient to fill. Units seen: ${JSON.stringify(seenCounts(units))}`)
   console.log(JSON.stringify(payload))
   const output = process.env.GITHUB_OUTPUT
   if (output) {
