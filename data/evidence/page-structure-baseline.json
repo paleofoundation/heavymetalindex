@@ -3,7 +3,7 @@
   "date": "2026-10-28",
   "note": "Warn-only baseline. CI fails only when a page newly fails a check. Counts are pages, not occurrences. Stubs are exempt only from section_presence_and_order. 2026-10-28 recount includes restored live pages and products moved out of ingredients.",
   "pages_scanned": 930,
-  "stubs_exempt_from_sections": 544,
+  "stubs_exempt_from_sections": 543,
   "checks": {
     "answer_block": {
       "pages": 61,
@@ -2809,7 +2809,7 @@
       ]
     },
     "uncertainty_note": {
-      "pages": 914,
+      "pages": 913,
       "paths": [
         "wiki/ingredients/algae.md",
         "wiki/ingredients/almond-beverage.md",
@@ -3239,7 +3239,6 @@
         "wiki/products/all-purpose-cleaners.md",
         "wiki/products/anti-static-products.md",
         "wiki/products/anti-wrinkle-wrinkle-release-products.md",
-        "wiki/products/antiperspirant.md",
         "wiki/products/apple-pie.md",
         "wiki/products/appliance-cleaners.md",
         "wiki/products/art-craft-materials.md",
