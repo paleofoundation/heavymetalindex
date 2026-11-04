@@ -1,0 +1,270 @@
+# Scheduled mitigation fill. Twice a day, pick the ingredient and product pages
+# with the fewest mitigation citations (zero first, olive oil first among those),
+# search Europe PMC and OpenAlex for open-access full texts, and have Claude
+# write quoted reductions into the Mitigation section.
+#
+# .claude/settings.json is not applied by claude-code-action, so the tool list
+# is passed with --allowedTools below.
+#
+# Secrets, both required or the fill job skips with a warning:
+#   CLAUDE_CODE_OAUTH_TOKEN  Claude Code OAuth token (claude setup-token)
+#   DEPOSITS_READ_TOKEN      read access to paleofoundation/hmi-evidence-deposits
+#
+# The Claude GitHub App should be installed on this repository so the push that
+# opens the pull request is not made with the default GITHUB_TOKEN (that token
+# does not start the CI workflows auto-merge waits for).
+
+name: Claude mitigation fill
+
+on:
+  schedule:
+    - cron: "0 3 * * *"
+    - cron: "0 13 * * *"
+  workflow_dispatch:
+    inputs:
+      count:
+        description: "Pages to fill this run (1 to 10)"
+        required: false
+        default: "3"
+  pull_request:
+
+concurrency:
+  group: ${{ github.event_name == 'pull_request' && format('mitigation-fill-gate-{0}', github.event.pull_request.number) || 'claude-mitigation-fill' }}
+  cancel-in-progress: false
+
+jobs:
+  preflight:
+    if: github.event_name != 'pull_request'
+    runs-on: ubuntu-latest
+    outputs:
+      ready: ${{ steps.secrets.outputs.ready }}
+    steps:
+      - id: secrets
+        env:
+          CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          DEPOSITS_READ_TOKEN: ${{ secrets.DEPOSITS_READ_TOKEN }}
+        run: |
+          set -euo pipefail
+          ready=true
+          if [ -z "${CLAUDE_CODE_OAUTH_TOKEN}" ]; then
+            echo "::warning::CLAUDE_CODE_OAUTH_TOKEN is unset. The mitigation fill is skipped."
+            ready=false
+          fi
+          if [ -z "${DEPOSITS_READ_TOKEN}" ]; then
+            echo "::warning::DEPOSITS_READ_TOKEN is unset. The mitigation fill is skipped."
+            ready=false
+          fi
+          echo "ready=${ready}" >> "$GITHUB_OUTPUT"
+
+  # Fails the pull request when the diff adds supplier or manufacturer data,
+  # an em dash or en dash in wiki prose, or a placeholder hero image.
+  content-gate:
+    if: github.event_name == 'pull_request'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .node-version
+      - name: Supplier data, dashes, and placeholder images
+        run: |
+          set -euo pipefail
+          git fetch --no-tags origin "${{ github.base_ref }}"
+          node tools/evidence-fill/diff-gate.mjs --base "origin/${{ github.base_ref }}"
+          node tools/lint/hero-image-placeholders.mjs --changed "origin/${{ github.base_ref }}"
+
+  fill:
+    needs: preflight
+    if: github.event_name != 'pull_request' && needs.preflight.outputs.ready == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    permissions:
+      contents: write
+      pull-requests: write
+      id-token: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .node-version
+          cache: npm
+      - run: npm ci
+      - name: Install PDF text tools
+        run: sudo apt-get update -qq && sudo apt-get install -y --no-install-recommends poppler-utils
+      - name: Pick the next pages
+        id: pick
+        env:
+          GH_TOKEN: ${{ github.token }}
+          COUNT: ${{ github.event.inputs.count || '3' }}
+        run: |
+          set -euo pipefail
+          skips="$(gh pr list --state open --limit 200 --json headRefName,body --jq '.[] | select(.headRefName | startswith("evidence-fill/mitigation")) | .body' | grep -oE '(ingredients|products)/[a-z0-9-]+' | sort -u | paste -sd, - || true)"
+          node tools/mitigation-fill/pages.mjs --limit "$COUNT" --skip "$skips"
+      - name: Search open-access literature
+        id: search
+        if: steps.pick.outputs.pages != ''
+        env:
+          PAGES: ${{ steps.pick.outputs.pages }}
+        run: |
+          set -euo pipefail
+          node tools/mitigation-fill/search.mjs --pages "$PAGES" --out "${{ runner.temp }}/mitigation-fulltext" --per-page 5
+      - name: Snapshot the DOI map
+        if: steps.pick.outputs.pages != ''
+        run: |
+          set -euo pipefail
+          mkdir -p "${{ runner.temp }}/mitigation"
+          if [ -f data/mitigation-map.json ]; then
+            cp data/mitigation-map.json "${{ runner.temp }}/mitigation/before.json"
+          else
+            printf '%s\n' '{"version":1,"papers":{}}' > "${{ runner.temp }}/mitigation/before.json"
+          fi
+      - name: Build the fill prompt
+        id: prompt
+        if: steps.pick.outputs.pages != ''
+        env:
+          PAGES: ${{ steps.pick.outputs.pages }}
+          COUNT: ${{ steps.pick.outputs.count }}
+          MANIFEST: ${{ runner.temp }}/mitigation-fulltext/manifest.json
+          FULLTEXT: ${{ runner.temp }}/mitigation-fulltext
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import datetime
+          import os
+          import pathlib
+          text = pathlib.Path("tools/mitigation-fill/prompt.md").read_text()
+          values = {
+              "PAGES": os.environ["PAGES"],
+              "COUNT": os.environ["COUNT"],
+              "MANIFEST": os.environ["MANIFEST"],
+              "FULLTEXT": os.environ["FULLTEXT"],
+              "DATE": datetime.date.today().isoformat(),
+          }
+          for key, value in values.items():
+              text = text.replace(f"__{key}__", value)
+          delim = "MITIGATION_FILL_PROMPT"
+          with open(os.environ["GITHUB_OUTPUT"], "a") as handle:
+              handle.write(f"prompt<<{delim}\n{text}\n{delim}\n")
+          PY
+      - name: Write the mitigation sections
+        id: claude
+        if: steps.pick.outputs.pages != ''
+        uses: anthropics/claude-code-action@v1
+        env:
+          DEPOSITS_READ_TOKEN: ${{ secrets.DEPOSITS_READ_TOKEN }}
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          show_full_output: "true"
+          allowed_bots: "github-actions[bot],claude[bot]"
+          base_branch: main
+          branch_prefix: evidence-fill/mitigation-
+          prompt: ${{ steps.prompt.outputs.prompt }}
+          # Settings in .claude/settings.json are ignored here. List tools in claude_args.
+          claude_args: |
+            --allowedTools "Bash,Read,Edit,Write,Grep,Glob"
+            --max-turns 100
+      - name: Regenerate coverage, verify quotations, and run CI checks
+        id: verify
+        if: steps.pick.outputs.pages != ''
+        env:
+          PAGES: ${{ steps.pick.outputs.pages }}
+          NODE_OPTIONS: --max-old-space-size=6144
+        run: |
+          set -euo pipefail
+          if [ ! -d node_modules ]; then npm ci; fi
+          node tools/mitigation-fill/record.mjs coverage --write --manifest "${{ runner.temp }}/mitigation-fulltext/manifest.json"
+          git fetch --no-tags origin main
+          node tools/mitigation-fill/verify.mjs \
+            --base origin/main \
+            --fulltext "${{ runner.temp }}/mitigation-fulltext" \
+            --pages "$PAGES"
+          git add -- \
+            wiki/ingredients \
+            wiki/products \
+            wiki/sources \
+            wiki/log.md \
+            data/mitigation-map.json \
+            data/mitigation-coverage.json \
+            docs/mitigation-coverage.md
+          if ! git diff --cached --quiet; then
+            git config user.name "claude[bot]"
+            git config user.email "41898282+claude[bot]@users.noreply.github.com"
+            git commit -m "Mitigation evidence for ${PAGES}"
+          fi
+          node tools/evidence-fill/diff-gate.mjs --base origin/main
+          node tools/lint/hero-image-placeholders.mjs --changed origin/main
+          npm test
+          npm run lint:page-structure
+          npm run lint:page-openings
+          npm run lint:thin-with-evidence
+          npm run check
+      - name: Open the pull request and enable auto-merge
+        id: publish
+        if: steps.pick.outputs.pages != '' && steps.verify.outcome == 'success'
+        env:
+          PAGES: ${{ steps.pick.outputs.pages }}
+          CLAUDE_APP_TOKEN: ${{ steps.claude.outputs.github_token }}
+          EXTRA_BRANCH: ${{ steps.claude.outputs.branch_name }}
+        run: |
+          set -euo pipefail
+          target="evidence-fill/mitigation-${GITHUB_RUN_ID}"
+          token="${CLAUDE_APP_TOKEN:-$GITHUB_TOKEN}"
+          askpass="${RUNNER_TEMP}/git-askpass.sh"
+          printf '%s\n' '#!/bin/sh' 'echo "$GIT_TOKEN"' > "$askpass"
+          chmod 700 "$askpass"
+          git_push() {
+            GIT_ASKPASS="$askpass" GIT_TOKEN="$token" git -c credential.helper= "$@"
+          }
+          git fetch --no-tags origin main
+          if git diff --quiet origin/main...HEAD; then
+            echo "No changes against main. Not opening a pull request."
+            if [ -n "${EXTRA_BRANCH}" ] && [ "${EXTRA_BRANCH}" != "$target" ]; then
+              case "$EXTRA_BRANCH" in
+                evidence-fill/*|claude/*) git_push push "https://github.com/${GITHUB_REPOSITORY}.git" --delete "$EXTRA_BRANCH" || true ;;
+              esac
+            fi
+            exit 0
+          fi
+          git_push push "https://github.com/${GITHUB_REPOSITORY}.git" "HEAD:refs/heads/${target}"
+          export GH_TOKEN="$token"
+          node tools/mitigation-fill/record.mjs pr-body \
+            --pages "$PAGES" \
+            --before-map "${{ runner.temp }}/mitigation/before.json" \
+            > "${RUNNER_TEMP}/pr-body.md"
+          existing="$(gh pr list --head "$target" --state open --json number --jq '.[0].number // empty')"
+          if [ -z "$existing" ]; then
+            gh pr create --base main --head "$target" --title "Mitigation evidence: ${PAGES}" --body-file "${RUNNER_TEMP}/pr-body.md"
+          fi
+          gh api -X PATCH "repos/${GITHUB_REPOSITORY}" -F allow_auto_merge=true \
+            || echo "::warning::Could not set allow_auto_merge on the repository. The pull request auto-merge call is next."
+          gh pr merge --auto --squash "$target"
+          if [ -n "$EXTRA_BRANCH" ] && [ "$EXTRA_BRANCH" != "$target" ]; then
+            case "$EXTRA_BRANCH" in
+              evidence-fill/*|claude/*) git_push push "https://github.com/${GITHUB_REPOSITORY}.git" --delete "$EXTRA_BRANCH" || true ;;
+            esac
+          fi
+          gh pr view "$target" --json url --jq .url
+      - name: Drop the branch when the checks fail
+        if: failure() && steps.verify.outcome == 'failure' && steps.claude.outputs.branch_name != ''
+        env:
+          EXTRA_BRANCH: ${{ steps.claude.outputs.branch_name }}
+          CLAUDE_APP_TOKEN: ${{ steps.claude.outputs.github_token }}
+        run: |
+          set -euo pipefail
+          case "$EXTRA_BRANCH" in
+            evidence-fill/*|claude/*) ;;
+            *) echo "Refusing to delete ${EXTRA_BRANCH}"; exit 0 ;;
+          esac
+          token="${CLAUDE_APP_TOKEN:-$GITHUB_TOKEN}"
+          askpass="${RUNNER_TEMP}/git-askpass.sh"
+          printf '%s\n' '#!/bin/sh' 'echo "$GIT_TOKEN"' > "$askpass"
+          chmod 700 "$askpass"
+          GIT_ASKPASS="$askpass" GIT_TOKEN="$token" git -c credential.helper= \
+            push "https://github.com/${GITHUB_REPOSITORY}.git" --delete "$EXTRA_BRANCH" || true
+          echo "Checks failed. No pull request was opened."

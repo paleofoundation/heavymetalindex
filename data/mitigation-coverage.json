@@ -1,0 +1,6272 @@
+{
+  "version": 1,
+  "generated": "2026-11-04T15:28:53.135Z",
+  "pages_at_zero": 734,
+  "last_search": null,
+  "pages": [
+    {
+      "page": "ingredients/olive-oil",
+      "family": "ingredients",
+      "slug": "olive-oil",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/algae",
+      "family": "ingredients",
+      "slug": "algae",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/almond",
+      "family": "ingredients",
+      "slug": "almond",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/apple-cider-vinegar",
+      "family": "ingredients",
+      "slug": "apple-cider-vinegar",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/apple-juice",
+      "family": "ingredients",
+      "slug": "apple-juice",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/apple-pie",
+      "family": "ingredients",
+      "slug": "apple-pie",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/asparagus",
+      "family": "ingredients",
+      "slug": "asparagus",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/avocado",
+      "family": "ingredients",
+      "slug": "avocado",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/baby-cereals-dry",
+      "family": "ingredients",
+      "slug": "baby-cereals-dry",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/bagel",
+      "family": "ingredients",
+      "slug": "bagel",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/baked-beans",
+      "family": "ingredients",
+      "slug": "baked-beans",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/baked-potato-with-peel",
+      "family": "ingredients",
+      "slug": "baked-potato-with-peel",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/baking-powder",
+      "family": "ingredients",
+      "slug": "baking-powder",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/banana",
+      "family": "ingredients",
+      "slug": "banana",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/barbecue-sauce",
+      "family": "ingredients",
+      "slug": "barbecue-sauce",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/bee-pollen",
+      "family": "ingredients",
+      "slug": "bee-pollen",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/beef",
+      "family": "ingredients",
+      "slug": "beef",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/beer",
+      "family": "ingredients",
+      "slug": "beer",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/beet",
+      "family": "ingredients",
+      "slug": "beet",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/blueberries",
+      "family": "ingredients",
+      "slug": "blueberries",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/blueberry-muffin",
+      "family": "ingredients",
+      "slug": "blueberry-muffin",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/bologna-luncheon-meat",
+      "family": "ingredients",
+      "slug": "bologna-luncheon-meat",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/bran-cereal-with-raisins",
+      "family": "ingredients",
+      "slug": "bran-cereal-with-raisins",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/brassica",
+      "family": "ingredients",
+      "slug": "brassica",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/bread",
+      "family": "ingredients",
+      "slug": "bread",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/breadcrumbs",
+      "family": "ingredients",
+      "slug": "breadcrumbs",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/breastmilk",
+      "family": "ingredients",
+      "slug": "breastmilk",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/broccoli",
+      "family": "ingredients",
+      "slug": "broccoli",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/brownie",
+      "family": "ingredients",
+      "slug": "brownie",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/brussels-sprouts",
+      "family": "ingredients",
+      "slug": "brussels-sprouts",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/butter-crackers",
+      "family": "ingredients",
+      "slug": "butter-crackers",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/butternut-squash",
+      "family": "ingredients",
+      "slug": "butternut-squash",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/cabbage",
+      "family": "ingredients",
+      "slug": "cabbage",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/camel-milk",
+      "family": "ingredients",
+      "slug": "camel-milk",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/camellia-sinensis",
+      "family": "ingredients",
+      "slug": "camellia-sinensis",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/canned-corn",
+      "family": "ingredients",
+      "slug": "canned-corn",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/canned-fruit-cocktail",
+      "family": "ingredients",
+      "slug": "canned-fruit-cocktail",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/canned-green-beans",
+      "family": "ingredients",
+      "slug": "canned-green-beans",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/canned-mushrooms",
+      "family": "ingredients",
+      "slug": "canned-mushrooms",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/canned-tomatoes",
+      "family": "ingredients",
+      "slug": "canned-tomatoes",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/canned-tuna",
+      "family": "ingredients",
+      "slug": "canned-tuna",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/cantaloupe",
+      "family": "ingredients",
+      "slug": "cantaloupe",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/carrot",
+      "family": "ingredients",
+      "slug": "carrot",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/casein",
+      "family": "ingredients",
+      "slug": "casein",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/cashews",
+      "family": "ingredients",
+      "slug": "cashews",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/catfish",
+      "family": "ingredients",
+      "slug": "catfish",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/cauliflower",
+      "family": "ingredients",
+      "slug": "cauliflower",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/celery",
+      "family": "ingredients",
+      "slug": "celery",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/cereal-bars",
+      "family": "ingredients",
+      "slug": "cereal-bars",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/cereal-based-infant-formula",
+      "family": "ingredients",
+      "slug": "cereal-based-infant-formula",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/cereals",
+      "family": "ingredients",
+      "slug": "cereals",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/cheese-crackers",
+      "family": "ingredients",
+      "slug": "cheese-crackers",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/cheese-pizza",
+      "family": "ingredients",
+      "slug": "cheese-pizza",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/chicken",
+      "family": "ingredients",
+      "slug": "chicken",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/chicken-nuggets",
+      "family": "ingredients",
+      "slug": "chicken-nuggets",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/chicken-potpie",
+      "family": "ingredients",
+      "slug": "chicken-potpie",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/chickpeas",
+      "family": "ingredients",
+      "slug": "chickpeas",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/chili-con-carne-with-beans",
+      "family": "ingredients",
+      "slug": "chili-con-carne-with-beans",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/chocolate",
+      "family": "ingredients",
+      "slug": "chocolate",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/chocolate-cake",
+      "family": "ingredients",
+      "slug": "chocolate-cake",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/chocolate-chip-cookies",
+      "family": "ingredients",
+      "slug": "chocolate-chip-cookies",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/chocolate-nut-candy",
+      "family": "ingredients",
+      "slug": "chocolate-nut-candy",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/chocolate-reduced-fat-milk",
+      "family": "ingredients",
+      "slug": "chocolate-reduced-fat-milk",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/chocolate-syrup",
+      "family": "ingredients",
+      "slug": "chocolate-syrup",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/cinnamon-roll",
+      "family": "ingredients",
+      "slug": "cinnamon-roll",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/clay-geophagy",
+      "family": "ingredients",
+      "slug": "clay-geophagy",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/clementines-tangerines",
+      "family": "ingredients",
+      "slug": "clementines-tangerines",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/coconut",
+      "family": "ingredients",
+      "slug": "coconut",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/coconut-water",
+      "family": "ingredients",
+      "slug": "coconut-water",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/cod",
+      "family": "ingredients",
+      "slug": "cod",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/coffee",
+      "family": "ingredients",
+      "slug": "coffee",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/collard-greens",
+      "family": "ingredients",
+      "slug": "collard-greens",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/coriander",
+      "family": "ingredients",
+      "slug": "coriander",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/corn-flakes",
+      "family": "ingredients",
+      "slug": "corn-flakes",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/corn-oil",
+      "family": "ingredients",
+      "slug": "corn-oil",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/corn-tortilla",
+      "family": "ingredients",
+      "slug": "corn-tortilla",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/cornbread",
+      "family": "ingredients",
+      "slug": "cornbread",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/cosmetic-clay",
+      "family": "ingredients",
+      "slug": "cosmetic-clay",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/cottage-cheese",
+      "family": "ingredients",
+      "slug": "cottage-cheese",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/cranberry-juice-cocktail",
+      "family": "ingredients",
+      "slug": "cranberry-juice-cocktail",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/cream-of-wheat",
+      "family": "ingredients",
+      "slug": "cream-of-wheat",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/crisped-rice-cereal",
+      "family": "ingredients",
+      "slug": "crisped-rice-cereal",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/cucumber",
+      "family": "ingredients",
+      "slug": "cucumber",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/cumin",
+      "family": "ingredients",
+      "slug": "cumin",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/custard",
+      "family": "ingredients",
+      "slug": "custard",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/dill-pickles",
+      "family": "ingredients",
+      "slug": "dill-pickles",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/doughnut",
+      "family": "ingredients",
+      "slug": "doughnut",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/dried-herbs",
+      "family": "ingredients",
+      "slug": "dried-herbs",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/edible-insects",
+      "family": "ingredients",
+      "slug": "edible-insects",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/egg-noodles",
+      "family": "ingredients",
+      "slug": "egg-noodles",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/eggplant",
+      "family": "ingredients",
+      "slug": "eggplant",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/eggs",
+      "family": "ingredients",
+      "slug": "eggs",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/english-muffin",
+      "family": "ingredients",
+      "slug": "english-muffin",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/fish-fingers",
+      "family": "ingredients",
+      "slug": "fish-fingers",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/flavored-carbonated-bottled-waters",
+      "family": "ingredients",
+      "slug": "flavored-carbonated-bottled-waters",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/flavoring",
+      "family": "ingredients",
+      "slug": "flavoring",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/flaxseeds",
+      "family": "ingredients",
+      "slug": "flaxseeds",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/flour-tortilla",
+      "family": "ingredients",
+      "slug": "flour-tortilla",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/food-additives",
+      "family": "ingredients",
+      "slug": "food-additives",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/frankfurter",
+      "family": "ingredients",
+      "slug": "frankfurter",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/french-fries",
+      "family": "ingredients",
+      "slug": "french-fries",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/fresh-herbs",
+      "family": "ingredients",
+      "slug": "fresh-herbs",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/freshwater-fish",
+      "family": "ingredients",
+      "slug": "freshwater-fish",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/fromage-frais",
+      "family": "ingredients",
+      "slug": "fromage-frais",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/frozen-peas",
+      "family": "ingredients",
+      "slug": "frozen-peas",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/fruit",
+      "family": "ingredients",
+      "slug": "fruit",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/fruit-juice",
+      "family": "ingredients",
+      "slug": "fruit-juice",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/fruit-mixed",
+      "family": "ingredients",
+      "slug": "fruit-mixed",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/fruit-purees",
+      "family": "ingredients",
+      "slug": "fruit-purees",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/garlic",
+      "family": "ingredients",
+      "slug": "garlic",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/graham-crackers",
+      "family": "ingredients",
+      "slug": "graham-crackers",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/grape-juice",
+      "family": "ingredients",
+      "slug": "grape-juice",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/grapefruit",
+      "family": "ingredients",
+      "slug": "grapefruit",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/grapefruit-juice",
+      "family": "ingredients",
+      "slug": "grapefruit-juice",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/grapes",
+      "family": "ingredients",
+      "slug": "grapes",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/green-beans",
+      "family": "ingredients",
+      "slug": "green-beans",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/green-bell-pepper",
+      "family": "ingredients",
+      "slug": "green-bell-pepper",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/ground-beef",
+      "family": "ingredients",
+      "slug": "ground-beef",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/guava",
+      "family": "ingredients",
+      "slug": "guava",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/ham",
+      "family": "ingredients",
+      "slug": "ham",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/hard-candy",
+      "family": "ingredients",
+      "slug": "hard-candy",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/hazelnuts",
+      "family": "ingredients",
+      "slug": "hazelnuts",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/hemp",
+      "family": "ingredients",
+      "slug": "hemp",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/herbal-botanicals",
+      "family": "ingredients",
+      "slug": "herbal-botanicals",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/herbs-and-spices",
+      "family": "ingredients",
+      "slug": "herbs-and-spices",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/high-fructose-corn-syrup",
+      "family": "ingredients",
+      "slug": "high-fructose-corn-syrup",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/ice-cream",
+      "family": "ingredients",
+      "slug": "ice-cream",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/iceberg-lettuce",
+      "family": "ingredients",
+      "slug": "iceberg-lettuce",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/infant-cereal-ingredients",
+      "family": "ingredients",
+      "slug": "infant-cereal-ingredients",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/infant-formula-powder",
+      "family": "ingredients",
+      "slug": "infant-formula-powder",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/infant-mixed-grain-cereal",
+      "family": "ingredients",
+      "slug": "infant-mixed-grain-cereal",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/infant-oat-cereal",
+      "family": "ingredients",
+      "slug": "infant-oat-cereal",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/infant-rice-cereal",
+      "family": "ingredients",
+      "slug": "infant-rice-cereal",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/iodized-salt",
+      "family": "ingredients",
+      "slug": "iodized-salt",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/jujube-fruit",
+      "family": "ingredients",
+      "slug": "jujube-fruit",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/kale",
+      "family": "ingredients",
+      "slug": "kale",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/ketchup",
+      "family": "ingredients",
+      "slug": "ketchup",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/kidney-beans",
+      "family": "ingredients",
+      "slug": "kidney-beans",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/lamb-chop",
+      "family": "ingredients",
+      "slug": "lamb-chop",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/leafy-greens",
+      "family": "ingredients",
+      "slug": "leafy-greens",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/leeks",
+      "family": "ingredients",
+      "slug": "leeks",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/legumes",
+      "family": "ingredients",
+      "slug": "legumes",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/lemon-juice",
+      "family": "ingredients",
+      "slug": "lemon-juice",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/mango",
+      "family": "ingredients",
+      "slug": "mango",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/mango-juice",
+      "family": "ingredients",
+      "slug": "mango-juice",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/marlin",
+      "family": "ingredients",
+      "slug": "marlin",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/matcha-powder",
+      "family": "ingredients",
+      "slug": "matcha-powder",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/mayonnaise",
+      "family": "ingredients",
+      "slug": "mayonnaise",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/meat",
+      "family": "ingredients",
+      "slug": "meat",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/meat-and-poultry",
+      "family": "ingredients",
+      "slug": "meat-and-poultry",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/meat-and-poultry-purees",
+      "family": "ingredients",
+      "slug": "meat-and-poultry-purees",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/melon",
+      "family": "ingredients",
+      "slug": "melon",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/milk-and-dairy",
+      "family": "ingredients",
+      "slug": "milk-and-dairy",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/milkshake",
+      "family": "ingredients",
+      "slug": "milkshake",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/mixed-meals",
+      "family": "ingredients",
+      "slug": "mixed-meals",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/molluscs",
+      "family": "ingredients",
+      "slug": "molluscs",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/monterey-jack-cheese",
+      "family": "ingredients",
+      "slug": "monterey-jack-cheese",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/mozzarella",
+      "family": "ingredients",
+      "slug": "mozzarella",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/mushrooms",
+      "family": "ingredients",
+      "slug": "mushrooms",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/mustard",
+      "family": "ingredients",
+      "slug": "mustard",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/nectarine",
+      "family": "ingredients",
+      "slug": "nectarine",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/non-apple-fruit",
+      "family": "ingredients",
+      "slug": "non-apple-fruit",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/non-rice-grains",
+      "family": "ingredients",
+      "slug": "non-rice-grains",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/non-root-vegetable-purees",
+      "family": "ingredients",
+      "slug": "non-root-vegetable-purees",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/noodles",
+      "family": "ingredients",
+      "slug": "noodles",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/oat",
+      "family": "ingredients",
+      "slug": "oat",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/oat-ring-cereal",
+      "family": "ingredients",
+      "slug": "oat-ring-cereal",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/oatmeal",
+      "family": "ingredients",
+      "slug": "oatmeal",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/oilseeds",
+      "family": "ingredients",
+      "slug": "oilseeds",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/okra",
+      "family": "ingredients",
+      "slug": "okra",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/olives",
+      "family": "ingredients",
+      "slug": "olives",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/onions",
+      "family": "ingredients",
+      "slug": "onions",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/orange-juice",
+      "family": "ingredients",
+      "slug": "orange-juice",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/oranges",
+      "family": "ingredients",
+      "slug": "oranges",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/organ-meats",
+      "family": "ingredients",
+      "slug": "organ-meats",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/oyster",
+      "family": "ingredients",
+      "slug": "oyster",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/palm-oil",
+      "family": "ingredients",
+      "slug": "palm-oil",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/pancakes",
+      "family": "ingredients",
+      "slug": "pancakes",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/parsley",
+      "family": "ingredients",
+      "slug": "parsley",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/parsnips",
+      "family": "ingredients",
+      "slug": "parsnips",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/pasta",
+      "family": "ingredients",
+      "slug": "pasta",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/peach",
+      "family": "ingredients",
+      "slug": "peach",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/peanut-butter",
+      "family": "ingredients",
+      "slug": "peanut-butter",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/peanut-oil",
+      "family": "ingredients",
+      "slug": "peanut-oil",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/peanuts",
+      "family": "ingredients",
+      "slug": "peanuts",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/pear",
+      "family": "ingredients",
+      "slug": "pear",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/pear-juice",
+      "family": "ingredients",
+      "slug": "pear-juice",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/peppers",
+      "family": "ingredients",
+      "slug": "peppers",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/pineapple",
+      "family": "ingredients",
+      "slug": "pineapple",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/pineapple-juice",
+      "family": "ingredients",
+      "slug": "pineapple-juice",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/pinto-beans",
+      "family": "ingredients",
+      "slug": "pinto-beans",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/plant-milk",
+      "family": "ingredients",
+      "slug": "plant-milk",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/plums",
+      "family": "ingredients",
+      "slug": "plums",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/popcorn",
+      "family": "ingredients",
+      "slug": "popcorn",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/pork-bacon",
+      "family": "ingredients",
+      "slug": "pork-bacon",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/potato-chips",
+      "family": "ingredients",
+      "slug": "potato-chips",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/potatoes",
+      "family": "ingredients",
+      "slug": "potatoes",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/poultry",
+      "family": "ingredients",
+      "slug": "poultry",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/pretzels",
+      "family": "ingredients",
+      "slug": "pretzels",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/processed-american-cheese",
+      "family": "ingredients",
+      "slug": "processed-american-cheese",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/protein-powder",
+      "family": "ingredients",
+      "slug": "protein-powder",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/pumpkin-pie",
+      "family": "ingredients",
+      "slug": "pumpkin-pie",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/quinoa",
+      "family": "ingredients",
+      "slug": "quinoa",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/raisins",
+      "family": "ingredients",
+      "slug": "raisins",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/ramen-soup",
+      "family": "ingredients",
+      "slug": "ramen-soup",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/ranch-dressing",
+      "family": "ingredients",
+      "slug": "ranch-dressing",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/rapeseed-oil",
+      "family": "ingredients",
+      "slug": "rapeseed-oil",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/raspberries",
+      "family": "ingredients",
+      "slug": "raspberries",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/red-wine",
+      "family": "ingredients",
+      "slug": "red-wine",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/refried-beans",
+      "family": "ingredients",
+      "slug": "refried-beans",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/rhodiola-rosea",
+      "family": "ingredients",
+      "slug": "rhodiola-rosea",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/rice",
+      "family": "ingredients",
+      "slug": "rice",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/rice-cakes",
+      "family": "ingredients",
+      "slug": "rice-cakes",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/rice-cereal",
+      "family": "ingredients",
+      "slug": "rice-cereal",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/rice-flour",
+      "family": "ingredients",
+      "slug": "rice-flour",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/rice-milk",
+      "family": "ingredients",
+      "slug": "rice-milk",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/rice-noodles",
+      "family": "ingredients",
+      "slug": "rice-noodles",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/rice-protein",
+      "family": "ingredients",
+      "slug": "rice-protein",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/root-vegetable-purees",
+      "family": "ingredients",
+      "slug": "root-vegetable-purees",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/root-vegetables",
+      "family": "ingredients",
+      "slug": "root-vegetables",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/sage",
+      "family": "ingredients",
+      "slug": "sage",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/salami",
+      "family": "ingredients",
+      "slug": "salami",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/salmon",
+      "family": "ingredients",
+      "slug": "salmon",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/salsa",
+      "family": "ingredients",
+      "slug": "salsa",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/salt",
+      "family": "ingredients",
+      "slug": "salt",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/saltine-crackers",
+      "family": "ingredients",
+      "slug": "saltine-crackers",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/sandwich-cookies",
+      "family": "ingredients",
+      "slug": "sandwich-cookies",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/sea-salt",
+      "family": "ingredients",
+      "slug": "sea-salt",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/seafood",
+      "family": "ingredients",
+      "slug": "seafood",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/seaweed",
+      "family": "ingredients",
+      "slug": "seaweed",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/semi-skimmed-milk",
+      "family": "ingredients",
+      "slug": "semi-skimmed-milk",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/sesame",
+      "family": "ingredients",
+      "slug": "sesame",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/sesame-oil",
+      "family": "ingredients",
+      "slug": "sesame-oil",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/shark",
+      "family": "ingredients",
+      "slug": "shark",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/sheep-casings",
+      "family": "ingredients",
+      "slug": "sheep-casings",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/shellfish",
+      "family": "ingredients",
+      "slug": "shellfish",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/shrimp",
+      "family": "ingredients",
+      "slug": "shrimp",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/soft-drink-bases",
+      "family": "ingredients",
+      "slug": "soft-drink-bases",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/soy",
+      "family": "ingredients",
+      "slug": "soy",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/soy-based-infant-formula",
+      "family": "ingredients",
+      "slug": "soy-based-infant-formula",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/soy-milk",
+      "family": "ingredients",
+      "slug": "soy-milk",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/soy-protein-isolate",
+      "family": "ingredients",
+      "slug": "soy-protein-isolate",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/soy-sauce",
+      "family": "ingredients",
+      "slug": "soy-sauce",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/soybean-oil",
+      "family": "ingredients",
+      "slug": "soybean-oil",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/spices",
+      "family": "ingredients",
+      "slug": "spices",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/spinach",
+      "family": "ingredients",
+      "slug": "spinach",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/squash",
+      "family": "ingredients",
+      "slug": "squash",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/strawberries",
+      "family": "ingredients",
+      "slug": "strawberries",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/sunflower-oil",
+      "family": "ingredients",
+      "slug": "sunflower-oil",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/sunflower-seeds",
+      "family": "ingredients",
+      "slug": "sunflower-seeds",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/sweet-potato",
+      "family": "ingredients",
+      "slug": "sweet-potato",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/swordfish",
+      "family": "ingredients",
+      "slug": "swordfish",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/tahini",
+      "family": "ingredients",
+      "slug": "tahini",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/tea",
+      "family": "ingredients",
+      "slug": "tea",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/teething-and-snacks",
+      "family": "ingredients",
+      "slug": "teething-and-snacks",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/tilapia",
+      "family": "ingredients",
+      "slug": "tilapia",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/tinned-fish",
+      "family": "ingredients",
+      "slug": "tinned-fish",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/toaster-pastry",
+      "family": "ingredients",
+      "slug": "toaster-pastry",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/tofu",
+      "family": "ingredients",
+      "slug": "tofu",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/tomato-paste",
+      "family": "ingredients",
+      "slug": "tomato-paste",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/tomato-sauce",
+      "family": "ingredients",
+      "slug": "tomato-sauce",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/tortilla-chips",
+      "family": "ingredients",
+      "slug": "tortilla-chips",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/turkey",
+      "family": "ingredients",
+      "slug": "turkey",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/turmeric",
+      "family": "ingredients",
+      "slug": "turmeric",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/vegetable-juice",
+      "family": "ingredients",
+      "slug": "vegetable-juice",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/vegetable-oils",
+      "family": "ingredients",
+      "slug": "vegetable-oils",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/vegetable-purees",
+      "family": "ingredients",
+      "slug": "vegetable-purees",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/vegetable-soup",
+      "family": "ingredients",
+      "slug": "vegetable-soup",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/vegetables-mixed",
+      "family": "ingredients",
+      "slug": "vegetables-mixed",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/veggie-burger",
+      "family": "ingredients",
+      "slug": "veggie-burger",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/vinegar",
+      "family": "ingredients",
+      "slug": "vinegar",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/vodka",
+      "family": "ingredients",
+      "slug": "vodka",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/walnuts",
+      "family": "ingredients",
+      "slug": "walnuts",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/water",
+      "family": "ingredients",
+      "slug": "water",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/water-lentils",
+      "family": "ingredients",
+      "slug": "water-lentils",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/watermelon",
+      "family": "ingredients",
+      "slug": "watermelon",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/wheat-flour",
+      "family": "ingredients",
+      "slug": "wheat-flour",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/whey",
+      "family": "ingredients",
+      "slug": "whey",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/white-bread",
+      "family": "ingredients",
+      "slug": "white-bread",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/white-cake",
+      "family": "ingredients",
+      "slug": "white-cake",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/white-sugar",
+      "family": "ingredients",
+      "slug": "white-sugar",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/white-wine",
+      "family": "ingredients",
+      "slug": "white-wine",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/whole-milk",
+      "family": "ingredients",
+      "slug": "whole-milk",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/whole-wheat-bread",
+      "family": "ingredients",
+      "slug": "whole-wheat-bread",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/wholemeal-bread",
+      "family": "ingredients",
+      "slug": "wholemeal-bread",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/wine",
+      "family": "ingredients",
+      "slug": "wine",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/wine-vinegar",
+      "family": "ingredients",
+      "slug": "wine-vinegar",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/winter-squash",
+      "family": "ingredients",
+      "slug": "winter-squash",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/yam",
+      "family": "ingredients",
+      "slug": "yam",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/yogurt",
+      "family": "ingredients",
+      "slug": "yogurt",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/zucchini",
+      "family": "ingredients",
+      "slug": "zucchini",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/aas-injectable",
+      "family": "products",
+      "slug": "aas-injectable",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/air-product-refill-materials",
+      "family": "products",
+      "slug": "air-product-refill-materials",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/all-purpose-cleaners",
+      "family": "products",
+      "slug": "all-purpose-cleaners",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/anti-static-products",
+      "family": "products",
+      "slug": "anti-static-products",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/anti-wrinkle-wrinkle-release-products",
+      "family": "products",
+      "slug": "anti-wrinkle-wrinkle-release-products",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/antiperspirant",
+      "family": "products",
+      "slug": "antiperspirant",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/apple-pie",
+      "family": "products",
+      "slug": "apple-pie",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/appliance-cleaners",
+      "family": "products",
+      "slug": "appliance-cleaners",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/art-craft-materials",
+      "family": "products",
+      "slug": "art-craft-materials",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/automatic-dishwasher-detergents",
+      "family": "products",
+      "slug": "automatic-dishwasher-detergents",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/automatic-puff-releasers",
+      "family": "products",
+      "slug": "automatic-puff-releasers",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/baby-cereals-dry-non-rice",
+      "family": "products",
+      "slug": "baby-cereals-dry-non-rice",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/baby-food",
+      "family": "products",
+      "slug": "baby-food",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/baby-lotion-cream",
+      "family": "products",
+      "slug": "baby-lotion-cream",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/baby-oil",
+      "family": "products",
+      "slug": "baby-oil",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/baby-powder-cornstarch",
+      "family": "products",
+      "slug": "baby-powder-cornstarch",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/baby-shampoo-body-wash",
+      "family": "products",
+      "slug": "baby-shampoo-body-wash",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/baby-sunscreen-chemical",
+      "family": "products",
+      "slug": "baby-sunscreen-chemical",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/baby-sunscreen-mineral",
+      "family": "products",
+      "slug": "baby-sunscreen-mineral",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/baby-talcum-powder",
+      "family": "products",
+      "slug": "baby-talcum-powder",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/baby-wipes",
+      "family": "products",
+      "slug": "baby-wipes",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/bakeware",
+      "family": "products",
+      "slug": "bakeware",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/bar-bath-soap",
+      "family": "products",
+      "slug": "bar-bath-soap",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/barbecue-sauce",
+      "family": "products",
+      "slug": "barbecue-sauce",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/bathroom-tub-tile-cleaners",
+      "family": "products",
+      "slug": "bathroom-tub-tile-cleaners",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/beef-product",
+      "family": "products",
+      "slug": "beef-product",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/beer",
+      "family": "products",
+      "slug": "beer",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/bibs",
+      "family": "products",
+      "slug": "bibs",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/blankets-and-sleep-sacks",
+      "family": "products",
+      "slug": "blankets-and-sleep-sacks",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/bleaching-whitening-additives",
+      "family": "products",
+      "slug": "bleaching-whitening-additives",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/body-hand-leave-on-skin-care",
+      "family": "products",
+      "slug": "body-hand-leave-on-skin-care",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/body-wash-shower-gel",
+      "family": "products",
+      "slug": "body-wash-shower-gel",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/bottled-drinking-water",
+      "family": "products",
+      "slug": "bottled-drinking-water",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/bouillon-seasoning-blends",
+      "family": "products",
+      "slug": "bouillon-seasoning-blends",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/bran-cereal-with-raisins",
+      "family": "products",
+      "slug": "bran-cereal-with-raisins",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/bread-and-baked-goods",
+      "family": "products",
+      "slug": "bread-and-baked-goods",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/breakfast-cereal-non-rice",
+      "family": "products",
+      "slug": "breakfast-cereal-non-rice",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/breakfast-cereal-rice-based",
+      "family": "products",
+      "slug": "breakfast-cereal-rice-based",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/breakfast-cereals",
+      "family": "products",
+      "slug": "breakfast-cereals",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/breath-fresheners",
+      "family": "products",
+      "slug": "breath-fresheners",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/broccoli-cheese-soup",
+      "family": "products",
+      "slug": "broccoli-cheese-soup",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/brownie",
+      "family": "products",
+      "slug": "brownie",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/butter-and-ghee",
+      "family": "products",
+      "slug": "butter-and-ghee",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/butter-crackers",
+      "family": "products",
+      "slug": "butter-crackers",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/cannabis-concentrates",
+      "family": "products",
+      "slug": "cannabis-concentrates",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/cannabis-edibles",
+      "family": "products",
+      "slug": "cannabis-edibles",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/cannabis-flower",
+      "family": "products",
+      "slug": "cannabis-flower",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/cannabis-products",
+      "family": "products",
+      "slug": "cannabis-products",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/cannabis-tinctures-oils",
+      "family": "products",
+      "slug": "cannabis-tinctures-oils",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/cannabis-topicals",
+      "family": "products",
+      "slug": "cannabis-topicals",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/cannabis-vape-hardware",
+      "family": "products",
+      "slug": "cannabis-vape-hardware",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/canned-foods-general",
+      "family": "products",
+      "slug": "canned-foods-general",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/canned-meats",
+      "family": "products",
+      "slug": "canned-meats",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/canned-seafood",
+      "family": "products",
+      "slug": "canned-seafood",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/capillary-reed-wood-diffusers",
+      "family": "products",
+      "slug": "capillary-reed-wood-diffusers",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/car-seats",
+      "family": "products",
+      "slug": "car-seats",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/carpet-cleaners",
+      "family": "products",
+      "slug": "carpet-cleaners",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/carpet-spot-removers",
+      "family": "products",
+      "slug": "carpet-spot-removers",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/cashews",
+      "family": "products",
+      "slug": "cashews",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/category-5-beverages",
+      "family": "products",
+      "slug": "category-5-beverages",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/cereal-bars",
+      "family": "products",
+      "slug": "cereal-bars",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/cereal-based-infant-formula",
+      "family": "products",
+      "slug": "cereal-based-infant-formula",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/cereal-meals",
+      "family": "products",
+      "slug": "cereal-meals",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/cereal-products",
+      "family": "products",
+      "slug": "cereal-products",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/cheese-crackers",
+      "family": "products",
+      "slug": "cheese-crackers",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/cheese-pizza",
+      "family": "products",
+      "slug": "cheese-pizza",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/chicken-broth",
+      "family": "products",
+      "slug": "chicken-broth",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/chicken-nuggets",
+      "family": "products",
+      "slug": "chicken-nuggets",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/children-personal-care",
+      "family": "products",
+      "slug": "children-personal-care",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/childrens-jewelry",
+      "family": "products",
+      "slug": "childrens-jewelry",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/childrens-lip-balm-mineral-bearing",
+      "family": "products",
+      "slug": "childrens-lip-balm-mineral-bearing",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/childrens-lip-balm-plain",
+      "family": "products",
+      "slug": "childrens-lip-balm-plain",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/childrens-makeup",
+      "family": "products",
+      "slug": "childrens-makeup",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/childrens-nail-polish",
+      "family": "products",
+      "slug": "childrens-nail-polish",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/chili-con-carne-with-beans",
+      "family": "products",
+      "slug": "chili-con-carne-with-beans",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/chocolate",
+      "family": "products",
+      "slug": "chocolate",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/chocolate-cake",
+      "family": "products",
+      "slug": "chocolate-cake",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/chocolate-chip-cookies",
+      "family": "products",
+      "slug": "chocolate-chip-cookies",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/chocolate-nut-candy",
+      "family": "products",
+      "slug": "chocolate-nut-candy",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/chocolate-syrup",
+      "family": "products",
+      "slug": "chocolate-syrup",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/cinnamon-roll",
+      "family": "products",
+      "slug": "cinnamon-roll",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/clam-chowder",
+      "family": "products",
+      "slug": "clam-chowder",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/clasps-fasteners-infant-products",
+      "family": "products",
+      "slug": "clasps-fasteners-infant-products",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/cleaning-wipes-household",
+      "family": "products",
+      "slug": "cleaning-wipes-household",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/cocoa-beverage-mixes",
+      "family": "products",
+      "slug": "cocoa-beverage-mixes",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/condiments-general",
+      "family": "products",
+      "slug": "condiments-general",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/conditioner-adult-rinse-out",
+      "family": "products",
+      "slug": "conditioner-adult-rinse-out",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/confectionery-candy",
+      "family": "products",
+      "slug": "confectionery-candy",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/cooking-oils-other",
+      "family": "products",
+      "slug": "cooking-oils-other",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/cookware-ceramic-coated",
+      "family": "products",
+      "slug": "cookware-ceramic-coated",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/cookware-metal-alloy",
+      "family": "products",
+      "slug": "cookware-metal-alloy",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/cookware-nonstick-coated",
+      "family": "products",
+      "slug": "cookware-nonstick-coated",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/cookware-specialty-alloy",
+      "family": "products",
+      "slug": "cookware-specialty-alloy",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/cosmetic-clay",
+      "family": "products",
+      "slug": "cosmetic-clay",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/cranberry-juice-cocktail",
+      "family": "products",
+      "slug": "cranberry-juice-cocktail",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/cream-of-mushroom-soup",
+      "family": "products",
+      "slug": "cream-of-mushroom-soup",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/cream-of-potato-soup",
+      "family": "products",
+      "slug": "cream-of-potato-soup",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/cribs-and-bassinets",
+      "family": "products",
+      "slug": "cribs-and-bassinets",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/cultivated-mushrooms",
+      "family": "products",
+      "slug": "cultivated-mushrooms",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/custard",
+      "family": "products",
+      "slug": "custard",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/cutting-boards",
+      "family": "products",
+      "slug": "cutting-boards",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/dairy-cheese",
+      "family": "products",
+      "slug": "dairy-cheese",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/dairy-condensed-evaporated",
+      "family": "products",
+      "slug": "dairy-condensed-evaporated",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/dairy-cream",
+      "family": "products",
+      "slug": "dairy-cream",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/dairy-milk-camel",
+      "family": "products",
+      "slug": "dairy-milk-camel",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/dairy-milk-cow",
+      "family": "products",
+      "slug": "dairy-milk-cow",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/dairy-milk-goat-sheep",
+      "family": "products",
+      "slug": "dairy-milk-goat-sheep",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/dairy-milk-powders",
+      "family": "products",
+      "slug": "dairy-milk-powders",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/dairy-yogurt-cultured",
+      "family": "products",
+      "slug": "dairy-yogurt-cultured",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/deep-conditioning-treatments-rinse-off",
+      "family": "products",
+      "slug": "deep-conditioning-treatments-rinse-off",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/degreasers",
+      "family": "products",
+      "slug": "degreasers",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/dentifrices",
+      "family": "products",
+      "slug": "dentifrices",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/denture-orthodontic-care",
+      "family": "products",
+      "slug": "denture-orthodontic-care",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/deodorants",
+      "family": "products",
+      "slug": "deodorants",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/descalers",
+      "family": "products",
+      "slug": "descalers",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/diaper-cream-non-zno",
+      "family": "products",
+      "slug": "diaper-cream-non-zno",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/diaper-cream-zno",
+      "family": "products",
+      "slug": "diaper-cream-zno",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/diapers-and-components",
+      "family": "products",
+      "slug": "diapers-and-components",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/dietary-supplements",
+      "family": "products",
+      "slug": "dietary-supplements",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/dish-soaps-manual",
+      "family": "products",
+      "slug": "dish-soaps-manual",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/disinfectants-sanitizers",
+      "family": "products",
+      "slug": "disinfectants-sanitizers",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/distilled-spirits",
+      "family": "products",
+      "slug": "distilled-spirits",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/douches-vaginal-irrigation",
+      "family": "products",
+      "slug": "douches-vaginal-irrigation",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/doughnut",
+      "family": "products",
+      "slug": "doughnut",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/drain-maintainers-cleaners",
+      "family": "products",
+      "slug": "drain-maintainers-cleaners",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/dried-fruit",
+      "family": "products",
+      "slug": "dried-fruit",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/dusting-powder-cornstarch-adult",
+      "family": "products",
+      "slug": "dusting-powder-cornstarch-adult",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/dusting-talc-powders-adult",
+      "family": "products",
+      "slug": "dusting-talc-powders-adult",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/eggs-product",
+      "family": "products",
+      "slug": "eggs-product",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/electric-plug-in-evaporators",
+      "family": "products",
+      "slug": "electric-plug-in-evaporators",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/exfoliants-scrubs",
+      "family": "products",
+      "slug": "exfoliants-scrubs",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/eye-makeup",
+      "family": "products",
+      "slug": "eye-makeup",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/fabric-contact-combination-products",
+      "family": "products",
+      "slug": "fabric-contact-combination-products",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/fabric-contact-products-other",
+      "family": "products",
+      "slug": "fabric-contact-products-other",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/fabric-protectants",
+      "family": "products",
+      "slug": "fabric-protectants",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/fabric-refresher-products",
+      "family": "products",
+      "slug": "fabric-refresher-products",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/fabric-softeners",
+      "family": "products",
+      "slug": "fabric-softeners",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/face-neck-leave-on-skin-care",
+      "family": "products",
+      "slug": "face-neck-leave-on-skin-care",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/face-paint",
+      "family": "products",
+      "slug": "face-paint",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/facial-cleansers",
+      "family": "products",
+      "slug": "facial-cleansers",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/feeding-accessories-child-sized",
+      "family": "products",
+      "slug": "feeding-accessories-child-sized",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/feminine-deodorants",
+      "family": "products",
+      "slug": "feminine-deodorants",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/feminine-wipes",
+      "family": "products",
+      "slug": "feminine-wipes",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/filter-media-and-housings",
+      "family": "products",
+      "slug": "filter-media-and-housings",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/fish-containing-baby-foods",
+      "family": "products",
+      "slug": "fish-containing-baby-foods",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/fish-freshwater",
+      "family": "products",
+      "slug": "fish-freshwater",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/fish-marine-non-predatory",
+      "family": "products",
+      "slug": "fish-marine-non-predatory",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/fish-marine-predatory",
+      "family": "products",
+      "slug": "fish-marine-predatory",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/fish-sauce",
+      "family": "products",
+      "slug": "fish-sauce",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/flavored-waters",
+      "family": "products",
+      "slug": "flavored-waters",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/floor-cleaners-hard-surface",
+      "family": "products",
+      "slug": "floor-cleaners-hard-surface",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/floor-finishes-strippers",
+      "family": "products",
+      "slug": "floor-finishes-strippers",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/floss-interdental-cleaners",
+      "family": "products",
+      "slug": "floss-interdental-cleaners",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/flour-non-rice",
+      "family": "products",
+      "slug": "flour-non-rice",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/food-packaging-cans-lids",
+      "family": "products",
+      "slug": "food-packaging-cans-lids",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/food-packaging-caps-closures",
+      "family": "products",
+      "slug": "food-packaging-caps-closures",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/food-packaging-flexible-pouches-films",
+      "family": "products",
+      "slug": "food-packaging-flexible-pouches-films",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/food-packaging-foils-wraps",
+      "family": "products",
+      "slug": "food-packaging-foils-wraps",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/food-packaging-glass-jars",
+      "family": "products",
+      "slug": "food-packaging-glass-jars",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/food-packaging-paperboard-cartons",
+      "family": "products",
+      "slug": "food-packaging-paperboard-cartons",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/food-packaging-plastic-tubs",
+      "family": "products",
+      "slug": "food-packaging-plastic-tubs",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/food-prep-blender-jars",
+      "family": "products",
+      "slug": "food-prep-blender-jars",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/food-prep-kettle-interiors",
+      "family": "products",
+      "slug": "food-prep-kettle-interiors",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/food-prep-processor-bowls",
+      "family": "products",
+      "slug": "food-prep-processor-bowls",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/food-storage-glass-containers",
+      "family": "products",
+      "slug": "food-storage-glass-containers",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/food-storage-lids-gaskets",
+      "family": "products",
+      "slug": "food-storage-lids-gaskets",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/food-storage-plastic-containers",
+      "family": "products",
+      "slug": "food-storage-plastic-containers",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/food-storage-silicone",
+      "family": "products",
+      "slug": "food-storage-silicone",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/fragrance-preparations",
+      "family": "products",
+      "slug": "fragrance-preparations",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/french-fries",
+      "family": "products",
+      "slug": "french-fries",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/fresh-fish",
+      "family": "products",
+      "slug": "fresh-fish",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/frozen-desserts",
+      "family": "products",
+      "slug": "frozen-desserts",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/fruit-juice-not-canned",
+      "family": "products",
+      "slug": "fruit-juice-not-canned",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/fruit-juices-apple-containing",
+      "family": "products",
+      "slug": "fruit-juices-apple-containing",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/fruit-juices-non-apple",
+      "family": "products",
+      "slug": "fruit-juices-non-apple",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/fruit-snacks",
+      "family": "products",
+      "slug": "fruit-snacks",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/game-meats",
+      "family": "products",
+      "slug": "game-meats",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/gel-diffusers",
+      "family": "products",
+      "slug": "gel-diffusers",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/graham-crackers",
+      "family": "products",
+      "slug": "graham-crackers",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/grain-based-snacks",
+      "family": "products",
+      "slug": "grain-based-snacks",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/gravies",
+      "family": "products",
+      "slug": "gravies",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/gummies-jellies",
+      "family": "products",
+      "slug": "gummies-jellies",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/hair-dye-rinse-off",
+      "family": "products",
+      "slug": "hair-dye-rinse-off",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/hair-removal-products",
+      "family": "products",
+      "slug": "hair-removal-products",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/hand-soap",
+      "family": "products",
+      "slug": "hand-soap",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/hard-candy",
+      "family": "products",
+      "slug": "hard-candy",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/heated-oil-diffusers",
+      "family": "products",
+      "slug": "heated-oil-diffusers",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/high-chairs-and-booster-seats",
+      "family": "products",
+      "slug": "high-chairs-and-booster-seats",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/home-air-emission-products-other",
+      "family": "products",
+      "slug": "home-air-emission-products-other",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/honey",
+      "family": "products",
+      "slug": "honey",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/hot-chili-sauces",
+      "family": "products",
+      "slug": "hot-chili-sauces",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/household-specialty-cleaners-other",
+      "family": "products",
+      "slug": "household-specialty-cleaners-other",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/ice-cream",
+      "family": "products",
+      "slug": "ice-cream",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/incense-sticks-cones",
+      "family": "products",
+      "slug": "incense-sticks-cones",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/infant-and-child-foods-master",
+      "family": "products",
+      "slug": "infant-and-child-foods-master",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/infant-bottle-nipples",
+      "family": "products",
+      "slug": "infant-bottle-nipples",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/infant-bottles",
+      "family": "products",
+      "slug": "infant-bottles",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/infant-cereal",
+      "family": "products",
+      "slug": "infant-cereal",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/infant-clothing",
+      "family": "products",
+      "slug": "infant-clothing",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/infant-food-fruits",
+      "family": "products",
+      "slug": "infant-food-fruits",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/infant-food-general",
+      "family": "products",
+      "slug": "infant-food-general",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/infant-food-powder",
+      "family": "products",
+      "slug": "infant-food-powder",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/infant-food-puree",
+      "family": "products",
+      "slug": "infant-food-puree",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/infant-food-puree-fish",
+      "family": "products",
+      "slug": "infant-food-puree-fish",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/infant-food-puree-fruit",
+      "family": "products",
+      "slug": "infant-food-puree-fruit",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/infant-food-puree-mixed-meat",
+      "family": "products",
+      "slug": "infant-food-puree-mixed-meat",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/infant-food-puree-poultry",
+      "family": "products",
+      "slug": "infant-food-puree-poultry",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/infant-food-puree-vegetable",
+      "family": "products",
+      "slug": "infant-food-puree-vegetable",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/infant-food-ready-to-eat",
+      "family": "products",
+      "slug": "infant-food-ready-to-eat",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/infant-food-storage-items",
+      "family": "products",
+      "slug": "infant-food-storage-items",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/infant-food-vegetables",
+      "family": "products",
+      "slug": "infant-food-vegetables",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/infant-formula",
+      "family": "products",
+      "slug": "infant-formula",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/infant-formula-dairy",
+      "family": "products",
+      "slug": "infant-formula-dairy",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/infant-formula-dairy-free",
+      "family": "products",
+      "slug": "infant-formula-dairy-free",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/infant-formula-powder-dairy",
+      "family": "products",
+      "slug": "infant-formula-powder-dairy",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/infant-formula-powder-soy",
+      "family": "products",
+      "slug": "infant-formula-powder-soy",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/infant-formula-rtf-dairy",
+      "family": "products",
+      "slug": "infant-formula-rtf-dairy",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/infant-formula-rtf-soy",
+      "family": "products",
+      "slug": "infant-formula-rtf-soy",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/infant-formula-stage1",
+      "family": "products",
+      "slug": "infant-formula-stage1",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/infant-juice",
+      "family": "products",
+      "slug": "infant-juice",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/infant-porridges-dairy",
+      "family": "products",
+      "slug": "infant-porridges-dairy",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/infant-porridges-dairy-free",
+      "family": "products",
+      "slug": "infant-porridges-dairy-free",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/infant-rice-cereal",
+      "family": "products",
+      "slug": "infant-rice-cereal",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/infant-solid-foods-mixed",
+      "family": "products",
+      "slug": "infant-solid-foods-mixed",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/instant-air-refreshment-sprays",
+      "family": "products",
+      "slug": "instant-air-refreshment-sprays",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/intimate-washes-cleansers",
+      "family": "products",
+      "slug": "intimate-washes-cleansers",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/jams-and-jellies",
+      "family": "products",
+      "slug": "jams-and-jellies",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/kitchen-countertop-cleaners",
+      "family": "products",
+      "slug": "kitchen-countertop-cleaners",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/kombucha-and-fermented-beverages",
+      "family": "products",
+      "slug": "kombucha-and-fermented-beverages",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/lamb-mutton",
+      "family": "products",
+      "slug": "lamb-mutton",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/laundry-detergent-boosters-additives",
+      "family": "products",
+      "slug": "laundry-detergent-boosters-additives",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/laundry-detergents",
+      "family": "products",
+      "slug": "laundry-detergents",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/laundry-prewash-products",
+      "family": "products",
+      "slug": "laundry-prewash-products",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/laundry-starch-sizing-fabric-finish",
+      "family": "products",
+      "slug": "laundry-starch-sizing-fabric-finish",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/leafy-vegetables-other",
+      "family": "products",
+      "slug": "leafy-vegetables-other",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/leave-on-hair-preparations",
+      "family": "products",
+      "slug": "leave-on-hair-preparations",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/leave-on-preparations-other",
+      "family": "products",
+      "slug": "leave-on-preparations-other",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/legumes-pulses-other",
+      "family": "products",
+      "slug": "legumes-pulses-other",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/lipstick",
+      "family": "products",
+      "slug": "lipstick",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/makeup-body-paints-bases-fixatives",
+      "family": "products",
+      "slug": "makeup-body-paints-bases-fixatives",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/makeup-foundation-powders-blush",
+      "family": "products",
+      "slug": "makeup-foundation-powders-blush",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/manicuring-preparations-leave-on",
+      "family": "products",
+      "slug": "manicuring-preparations-leave-on",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/margarine-and-spreads",
+      "family": "products",
+      "slug": "margarine-and-spreads",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/matcha",
+      "family": "products",
+      "slug": "matcha",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/mayonnaise",
+      "family": "products",
+      "slug": "mayonnaise",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/meal-replacement-drinks",
+      "family": "products",
+      "slug": "meal-replacement-drinks",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/meat-and-poultry-purees",
+      "family": "products",
+      "slug": "meat-and-poultry-purees",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/menstrual-cups",
+      "family": "products",
+      "slug": "menstrual-cups",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/menstrual-discs",
+      "family": "products",
+      "slug": "menstrual-discs",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/menstrual-intimate-products-other",
+      "family": "products",
+      "slug": "menstrual-intimate-products-other",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/menstrual-pads",
+      "family": "products",
+      "slug": "menstrual-pads",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/menstrual-tampons",
+      "family": "products",
+      "slug": "menstrual-tampons",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/milk-and-dairy",
+      "family": "products",
+      "slug": "milk-and-dairy",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/milkshake",
+      "family": "products",
+      "slug": "milkshake",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/mineral-water",
+      "family": "products",
+      "slug": "mineral-water",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/miso",
+      "family": "products",
+      "slug": "miso",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/mixed-meals-non-rice",
+      "family": "products",
+      "slug": "mixed-meals-non-rice",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/mixed-meals-prepared-foods",
+      "family": "products",
+      "slug": "mixed-meals-prepared-foods",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/mixed-meals-rice-containing",
+      "family": "products",
+      "slug": "mixed-meals-rice-containing",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/mouthwash-oral-rinse",
+      "family": "products",
+      "slug": "mouthwash-oral-rinse",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/mustard-mayo-dressings",
+      "family": "products",
+      "slug": "mustard-mayo-dressings",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/nebula-diffusers",
+      "family": "products",
+      "slug": "nebula-diffusers",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/non-dairy-creamer",
+      "family": "products",
+      "slug": "non-dairy-creamer",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/non-root-vegetable-purees",
+      "family": "products",
+      "slug": "non-root-vegetable-purees",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/non-root-vegetables",
+      "family": "products",
+      "slug": "non-root-vegetables",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/nut-seed-butters-other",
+      "family": "products",
+      "slug": "nut-seed-butters-other",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/nutritional-beverage-child",
+      "family": "products",
+      "slug": "nutritional-beverage-child",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/nuts-seeds-other",
+      "family": "products",
+      "slug": "nuts-seeds-other",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/oat-ring-cereal",
+      "family": "products",
+      "slug": "oat-ring-cereal",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/odor-removers-hard-surfaces",
+      "family": "products",
+      "slug": "odor-removers-hard-surfaces",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/olive-oil",
+      "family": "products",
+      "slug": "olive-oil",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/oral-irrigators-water-flossers",
+      "family": "products",
+      "slug": "oral-irrigators-water-flossers",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/oral-products-other",
+      "family": "products",
+      "slug": "oral-products-other",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/other-grain-products",
+      "family": "products",
+      "slug": "other-grain-products",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/oven-grill-bbq-cleaners",
+      "family": "products",
+      "slug": "oven-grill-bbq-cleaners",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/pacifiers-and-sucking-teething-aids",
+      "family": "products",
+      "slug": "pacifiers-and-sucking-teething-aids",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/pancakes",
+      "family": "products",
+      "slug": "pancakes",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/pasta-rice-based",
+      "family": "products",
+      "slug": "pasta-rice-based",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/pasta-wheat-based",
+      "family": "products",
+      "slug": "pasta-wheat-based",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/peanut-butter",
+      "family": "products",
+      "slug": "peanut-butter",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/peanuts",
+      "family": "products",
+      "slug": "peanuts",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/peptides-injectable-hormones",
+      "family": "products",
+      "slug": "peptides-injectable-hormones",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/peptides-nasal-sublingual",
+      "family": "products",
+      "slug": "peptides-nasal-sublingual",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/period-underwear-reusable-garments",
+      "family": "products",
+      "slug": "period-underwear-reusable-garments",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/permanent-hair-dyes-tints",
+      "family": "products",
+      "slug": "permanent-hair-dyes-tints",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/pet-chews-dental",
+      "family": "products",
+      "slug": "pet-chews-dental",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/pet-food-canned-wet",
+      "family": "products",
+      "slug": "pet-food-canned-wet",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/pet-food-dry-kibble",
+      "family": "products",
+      "slug": "pet-food-dry-kibble",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/pet-food-fish-marine-protein",
+      "family": "products",
+      "slug": "pet-food-fish-marine-protein",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/pet-food-freeze-dried",
+      "family": "products",
+      "slug": "pet-food-freeze-dried",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/pet-food-raw",
+      "family": "products",
+      "slug": "pet-food-raw",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/pet-food-semi-moist",
+      "family": "products",
+      "slug": "pet-food-semi-moist",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/pet-milk-replacers-specialty-liquids",
+      "family": "products",
+      "slug": "pet-milk-replacers-specialty-liquids",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/pet-supplements-botanical-herbal",
+      "family": "products",
+      "slug": "pet-supplements-botanical-herbal",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/pet-supplements-calming-behavioral",
+      "family": "products",
+      "slug": "pet-supplements-calming-behavioral",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/pet-supplements-functional-blends",
+      "family": "products",
+      "slug": "pet-supplements-functional-blends",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/pet-supplements-oils",
+      "family": "products",
+      "slug": "pet-supplements-oils",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/pet-supplements-other",
+      "family": "products",
+      "slug": "pet-supplements-other",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/pet-supplements-probiotics-digestive",
+      "family": "products",
+      "slug": "pet-supplements-probiotics-digestive",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/pet-supplements-vitamin-mineral",
+      "family": "products",
+      "slug": "pet-supplements-vitamin-mineral",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/pet-toppers-mixers-broths",
+      "family": "products",
+      "slug": "pet-toppers-mixers-broths",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/pet-treats-snacks",
+      "family": "products",
+      "slug": "pet-treats-snacks",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/pickled-fermented-vegetables",
+      "family": "products",
+      "slug": "pickled-fermented-vegetables",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/plant-based-beverages",
+      "family": "products",
+      "slug": "plant-based-beverages",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/plant-based-meat-alternatives",
+      "family": "products",
+      "slug": "plant-based-meat-alternatives",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/play-yards-and-gates",
+      "family": "products",
+      "slug": "play-yards-and-gates",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/popcorn",
+      "family": "products",
+      "slug": "popcorn",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/pork-product",
+      "family": "products",
+      "slug": "pork-product",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/potato-chips",
+      "family": "products",
+      "slug": "potato-chips",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/potpourri-sachets",
+      "family": "products",
+      "slug": "potpourri-sachets",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/poultry-product",
+      "family": "products",
+      "slug": "poultry-product",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/pre-treaters-stain-removers",
+      "family": "products",
+      "slug": "pre-treaters-stain-removers",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/pretzels",
+      "family": "products",
+      "slug": "pretzels",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/processed-meats",
+      "family": "products",
+      "slug": "processed-meats",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/protein-powder",
+      "family": "products",
+      "slug": "protein-powder",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/puddings-and-gelatin-desserts",
+      "family": "products",
+      "slug": "puddings-and-gelatin-desserts",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/pumpkin-pie",
+      "family": "products",
+      "slug": "pumpkin-pie",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/ramen-soup",
+      "family": "products",
+      "slug": "ramen-soup",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/ranch-dressing",
+      "family": "products",
+      "slug": "ranch-dressing",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/ready-to-feed-formula",
+      "family": "products",
+      "slug": "ready-to-feed-formula",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/red-wine",
+      "family": "products",
+      "slug": "red-wine",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/refined-sugar",
+      "family": "products",
+      "slug": "refined-sugar",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/research-chem-raw-powders",
+      "family": "products",
+      "slug": "research-chem-raw-powders",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/research-chemicals-peptides-sarms",
+      "family": "products",
+      "slug": "research-chemicals-peptides-sarms",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/rice-beverages-rice-milk",
+      "family": "products",
+      "slug": "rice-beverages-rice-milk",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/rice-bulk-grain",
+      "family": "products",
+      "slug": "rice-bulk-grain",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/rice-grain-syrup",
+      "family": "products",
+      "slug": "rice-grain-syrup",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/rice-noodles",
+      "family": "products",
+      "slug": "rice-noodles",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/rice-puffs",
+      "family": "products",
+      "slug": "rice-puffs",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/rice-snacks-crackers",
+      "family": "products",
+      "slug": "rice-snacks-crackers",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/rinse-aids",
+      "family": "products",
+      "slug": "rinse-aids",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/rinse-off-preparations-other",
+      "family": "products",
+      "slug": "rinse-off-preparations-other",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/root-tuber-vegetables",
+      "family": "products",
+      "slug": "root-tuber-vegetables",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/root-vegetable-purees",
+      "family": "products",
+      "slug": "root-vegetable-purees",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/salami",
+      "family": "products",
+      "slug": "salami",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/salsa",
+      "family": "products",
+      "slug": "salsa",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/salt",
+      "family": "products",
+      "slug": "salt",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/sandwich-cookies",
+      "family": "products",
+      "slug": "sandwich-cookies",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/sarms-oral",
+      "family": "products",
+      "slug": "sarms-oral",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/scented-candles",
+      "family": "products",
+      "slug": "scented-candles",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/scented-wax-blocks-melts",
+      "family": "products",
+      "slug": "scented-wax-blocks-melts",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/seafood",
+      "family": "products",
+      "slug": "seafood",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/seaweed-kelp-foods",
+      "family": "products",
+      "slug": "seaweed-kelp-foods",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/sensor-puff-releasers",
+      "family": "products",
+      "slug": "sensor-puff-releasers",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/shampoo-adult",
+      "family": "products",
+      "slug": "shampoo-adult",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/shaving-cream-gel-foam",
+      "family": "products",
+      "slug": "shaving-cream-gel-foam",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/shellfish",
+      "family": "products",
+      "slug": "shellfish",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/sippy-cups-toddler-drinkware",
+      "family": "products",
+      "slug": "sippy-cups-toddler-drinkware",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/snacks-general",
+      "family": "products",
+      "slug": "snacks-general",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/soft-drinks-carbonated-beverages",
+      "family": "products",
+      "slug": "soft-drinks-carbonated-beverages",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/soups-broths-stocks",
+      "family": "products",
+      "slug": "soups-broths-stocks",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/soy-products",
+      "family": "products",
+      "slug": "soy-products",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/soy-sauce-fermented",
+      "family": "products",
+      "slug": "soy-sauce-fermented",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/sparkling-carbonated-water",
+      "family": "products",
+      "slug": "sparkling-carbonated-water",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/spices",
+      "family": "products",
+      "slug": "spices",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/spinach",
+      "family": "products",
+      "slug": "spinach",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/sports-energy-drinks",
+      "family": "products",
+      "slug": "sports-energy-drinks",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/strollers",
+      "family": "products",
+      "slug": "strollers",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/sun-suntan-mineral",
+      "family": "products",
+      "slug": "sun-suntan-mineral",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/sun-suntan-products",
+      "family": "products",
+      "slug": "sun-suntan-products",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/sunflower-seed-butter",
+      "family": "products",
+      "slug": "sunflower-seed-butter",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/sunflower-seeds",
+      "family": "products",
+      "slug": "sunflower-seeds",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/supplements-algae-seaweed-based",
+      "family": "products",
+      "slug": "supplements-algae-seaweed-based",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/supplements-amino-acids-isolates",
+      "family": "products",
+      "slug": "supplements-amino-acids-isolates",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/supplements-bars-labeled",
+      "family": "products",
+      "slug": "supplements-bars-labeled",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/supplements-botanicals-herbs",
+      "family": "products",
+      "slug": "supplements-botanicals-herbs",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/supplements-clay-mineral-earth",
+      "family": "products",
+      "slug": "supplements-clay-mineral-earth",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/supplements-enzymes",
+      "family": "products",
+      "slug": "supplements-enzymes",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/supplements-greens-superfood",
+      "family": "products",
+      "slug": "supplements-greens-superfood",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/supplements-mushroom-fungal",
+      "family": "products",
+      "slug": "supplements-mushroom-fungal",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/supplements-oil-based",
+      "family": "products",
+      "slug": "supplements-oil-based",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/supplements-oral-liquids-droppers",
+      "family": "products",
+      "slug": "supplements-oral-liquids-droppers",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/supplements-oral-liquids-shots",
+      "family": "products",
+      "slug": "supplements-oral-liquids-shots",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/supplements-oral-liquids-syrups",
+      "family": "products",
+      "slug": "supplements-oral-liquids-syrups",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/supplements-oral-liquids-tinctures",
+      "family": "products",
+      "slug": "supplements-oral-liquids-tinctures",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/supplements-oral-solids-capsules",
+      "family": "products",
+      "slug": "supplements-oral-solids-capsules",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/supplements-oral-solids-effervescent",
+      "family": "products",
+      "slug": "supplements-oral-solids-effervescent",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/supplements-oral-solids-gummies",
+      "family": "products",
+      "slug": "supplements-oral-solids-gummies",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/supplements-oral-solids-lozenges",
+      "family": "products",
+      "slug": "supplements-oral-solids-lozenges",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/supplements-oral-solids-powders",
+      "family": "products",
+      "slug": "supplements-oral-solids-powders",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/supplements-oral-solids-softgels",
+      "family": "products",
+      "slug": "supplements-oral-solids-softgels",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/supplements-oral-solids-tablets",
+      "family": "products",
+      "slug": "supplements-oral-solids-tablets",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/supplements-probiotics",
+      "family": "products",
+      "slug": "supplements-probiotics",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/supplements-protein-collagen-powders",
+      "family": "products",
+      "slug": "supplements-protein-collagen-powders",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/supplements-teas-labeled",
+      "family": "products",
+      "slug": "supplements-teas-labeled",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/supplements-vitamin-mineral",
+      "family": "products",
+      "slug": "supplements-vitamin-mineral",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/swings-and-bouncers",
+      "family": "products",
+      "slug": "swings-and-bouncers",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/syrups-maple-agave-molasses",
+      "family": "products",
+      "slug": "syrups-maple-agave-molasses",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/tableware-ceramicware",
+      "family": "products",
+      "slug": "tableware-ceramicware",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/tableware-decorative-decals-coatings",
+      "family": "products",
+      "slug": "tableware-decorative-decals-coatings",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/tableware-glassware",
+      "family": "products",
+      "slug": "tableware-glassware",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/tableware-metal-bottles-tumblers",
+      "family": "products",
+      "slug": "tableware-metal-bottles-tumblers",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/tableware-plastic-drinkware",
+      "family": "products",
+      "slug": "tableware-plastic-drinkware",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/tattoo-inks",
+      "family": "products",
+      "slug": "tattoo-inks",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/tea",
+      "family": "products",
+      "slug": "tea",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/teething-toys-teethers",
+      "family": "products",
+      "slug": "teething-toys-teethers",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/toaster-pastry",
+      "family": "products",
+      "slug": "toaster-pastry",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/toilet-bowl-cleaners",
+      "family": "products",
+      "slug": "toilet-bowl-cleaners",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/tomato-condiments",
+      "family": "products",
+      "slug": "tomato-condiments",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/tomato-soup",
+      "family": "products",
+      "slug": "tomato-soup",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/tongue-cleaners-scrapers",
+      "family": "products",
+      "slug": "tongue-cleaners-scrapers",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/toothbrushes",
+      "family": "products",
+      "slug": "toothbrushes",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/toothpaste",
+      "family": "products",
+      "slug": "toothpaste",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/tortilla-chips",
+      "family": "products",
+      "slug": "tortilla-chips",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/toy-chests",
+      "family": "products",
+      "slug": "toy-chests",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/toy-pacifiers",
+      "family": "products",
+      "slug": "toy-pacifiers",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/toys-attached-cribs-playpens",
+      "family": "products",
+      "slug": "toys-attached-cribs-playpens",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/toys-balloons",
+      "family": "products",
+      "slug": "toys-balloons",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/toys-balls",
+      "family": "products",
+      "slug": "toys-balls",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/toys-battery-electronic",
+      "family": "products",
+      "slug": "toys-battery-electronic",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/toys-crafts-other",
+      "family": "products",
+      "slug": "toys-crafts-other",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/toys-marbles",
+      "family": "products",
+      "slug": "toys-marbles",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/toys-painted",
+      "family": "products",
+      "slug": "toys-painted",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/toys-pompoms-fibrous-craft",
+      "family": "products",
+      "slug": "toys-pompoms-fibrous-craft",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/toys-projectile-guns",
+      "family": "products",
+      "slug": "toys-projectile-guns",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/toys-rattles",
+      "family": "products",
+      "slug": "toys-rattles",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/toys-sound-producing",
+      "family": "products",
+      "slug": "toys-sound-producing",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/toys-squeeze",
+      "family": "products",
+      "slug": "toys-squeeze",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/toys-stroller-carriage",
+      "family": "products",
+      "slug": "toys-stroller-carriage",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/toys-stuffed-bean-bag",
+      "family": "products",
+      "slug": "toys-stuffed-bean-bag",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/toys-stuffing-materials",
+      "family": "products",
+      "slug": "toys-stuffing-materials",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/toys-substrate-materials",
+      "family": "products",
+      "slug": "toys-substrate-materials",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/toys-with-magnets",
+      "family": "products",
+      "slug": "toys-with-magnets",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/toys-yo-yo-elastic-tether",
+      "family": "products",
+      "slug": "toys-yo-yo-elastic-tether",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/traditional-eye-cosmetics",
+      "family": "products",
+      "slug": "traditional-eye-cosmetics",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/utensils-metal",
+      "family": "products",
+      "slug": "utensils-metal",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/utensils-plastic-silicone-tools",
+      "family": "products",
+      "slug": "utensils-plastic-silicone-tools",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/vacuum-cleaner-fragrance-additives",
+      "family": "products",
+      "slug": "vacuum-cleaner-fragrance-additives",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/vegetable-beef-soup",
+      "family": "products",
+      "slug": "vegetable-beef-soup",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/vegetable-juices",
+      "family": "products",
+      "slug": "vegetable-juices",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/vegetable-juices-root-vegetable-containing",
+      "family": "products",
+      "slug": "vegetable-juices-root-vegetable-containing",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/vegetable-soup",
+      "family": "products",
+      "slug": "vegetable-soup",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/veggie-burger",
+      "family": "products",
+      "slug": "veggie-burger",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/vinegar",
+      "family": "products",
+      "slug": "vinegar",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/vitamin-mineral-premix",
+      "family": "products",
+      "slug": "vitamin-mineral-premix",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/vodka",
+      "family": "products",
+      "slug": "vodka",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/walkers",
+      "family": "products",
+      "slug": "walkers",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/water-filters",
+      "family": "products",
+      "slug": "water-filters",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/white-cake",
+      "family": "products",
+      "slug": "white-cake",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/white-wine",
+      "family": "products",
+      "slug": "white-wine",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/whitening-products",
+      "family": "products",
+      "slug": "whitening-products",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/wild-mushrooms",
+      "family": "products",
+      "slug": "wild-mushrooms",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/window-glass-mirror-cleaners",
+      "family": "products",
+      "slug": "window-glass-mirror-cleaners",
+      "mitigation_papers": 0,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/applesauce",
+      "family": "ingredients",
+      "slug": "applesauce",
+      "mitigation_papers": 1,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/balsamic-vinegar",
+      "family": "ingredients",
+      "slug": "balsamic-vinegar",
+      "mitigation_papers": 1,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/lentils",
+      "family": "ingredients",
+      "slug": "lentils",
+      "mitigation_papers": 1,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/lettuce",
+      "family": "ingredients",
+      "slug": "lettuce",
+      "mitigation_papers": 1,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/salted-fish",
+      "family": "ingredients",
+      "slug": "salted-fish",
+      "mitigation_papers": 1,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/chicken-noodle-soup",
+      "family": "products",
+      "slug": "chicken-noodle-soup",
+      "mitigation_papers": 1,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/chicken-potpie",
+      "family": "products",
+      "slug": "chicken-potpie",
+      "mitigation_papers": 1,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/coffee",
+      "family": "products",
+      "slug": "coffee",
+      "mitigation_papers": 1,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/crisped-rice-cereal",
+      "family": "products",
+      "slug": "crisped-rice-cereal",
+      "mitigation_papers": 1,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/fermented-beverages-non-tea-based",
+      "family": "products",
+      "slug": "fermented-beverages-non-tea-based",
+      "mitigation_papers": 1,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/fresh-fruit",
+      "family": "products",
+      "slug": "fresh-fruit",
+      "mitigation_papers": 1,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/glucose-solutions",
+      "family": "products",
+      "slug": "glucose-solutions",
+      "mitigation_papers": 1,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/infant-formula-concentrated-liquid-non-soy",
+      "family": "products",
+      "slug": "infant-formula-concentrated-liquid-non-soy",
+      "mitigation_papers": 1,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/infant-formula-powder",
+      "family": "products",
+      "slug": "infant-formula-powder",
+      "mitigation_papers": 1,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/ketchup",
+      "family": "products",
+      "slug": "ketchup",
+      "mitigation_papers": 1,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/kombucha-tea-based",
+      "family": "products",
+      "slug": "kombucha-tea-based",
+      "mitigation_papers": 1,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/lead-benchmark-context",
+      "family": "products",
+      "slug": "lead-benchmark-context",
+      "mitigation_papers": 1,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/non-soy-protein-source",
+      "family": "products",
+      "slug": "non-soy-protein-source",
+      "mitigation_papers": 1,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/oral-electrolyte-solutions",
+      "family": "products",
+      "slug": "oral-electrolyte-solutions",
+      "mitigation_papers": 1,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/piercing-post-assemblies",
+      "family": "products",
+      "slug": "piercing-post-assemblies",
+      "mitigation_papers": 1,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/plant-milks-non-soy-non-rice",
+      "family": "products",
+      "slug": "plant-milks-non-soy-non-rice",
+      "mitigation_papers": 1,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/plant-milks-soy-based",
+      "family": "products",
+      "slug": "plant-milks-soy-based",
+      "mitigation_papers": 1,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/regulatory-crosswalk-field-findings",
+      "family": "products",
+      "slug": "regulatory-crosswalk-field-findings",
+      "mitigation_papers": 1,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/pea-protein",
+      "family": "ingredients",
+      "slug": "pea-protein",
+      "mitigation_papers": 2,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/corn-flakes",
+      "family": "products",
+      "slug": "corn-flakes",
+      "mitigation_papers": 2,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/herbal-botanical-infusions",
+      "family": "products",
+      "slug": "herbal-botanical-infusions",
+      "mitigation_papers": 2,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/infant-formula-concentrated-liquid-soy-based",
+      "family": "products",
+      "slug": "infant-formula-concentrated-liquid-soy-based",
+      "mitigation_papers": 2,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/teething-and-snacks-rice-based",
+      "family": "products",
+      "slug": "teething-and-snacks-rice-based",
+      "mitigation_papers": 2,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/true-tea-camellia-sinensis",
+      "family": "products",
+      "slug": "true-tea-camellia-sinensis",
+      "mitigation_papers": 2,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/vegetable-juices-non-root",
+      "family": "products",
+      "slug": "vegetable-juices-non-root",
+      "mitigation_papers": 2,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/fruit-purees",
+      "family": "products",
+      "slug": "fruit-purees",
+      "mitigation_papers": 3,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/infant-formula-powder-soy-based",
+      "family": "products",
+      "slug": "infant-formula-powder-soy-based",
+      "mitigation_papers": 3,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/infant-formula-rtf-liquid-non-soy",
+      "family": "products",
+      "slug": "infant-formula-rtf-liquid-non-soy",
+      "mitigation_papers": 3,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/infant-formula-rtf-liquid-soy-based",
+      "family": "products",
+      "slug": "infant-formula-rtf-liquid-soy-based",
+      "mitigation_papers": 3,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/teething-and-snacks-non-rice",
+      "family": "products",
+      "slug": "teething-and-snacks-non-rice",
+      "mitigation_papers": 3,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/honey",
+      "family": "ingredients",
+      "slug": "honey",
+      "mitigation_papers": 4,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/vegetables",
+      "family": "ingredients",
+      "slug": "vegetables",
+      "mitigation_papers": 4,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/infant-formula-powder-non-soy",
+      "family": "products",
+      "slug": "infant-formula-powder-non-soy",
+      "mitigation_papers": 4,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/apple",
+      "family": "ingredients",
+      "slug": "apple",
+      "mitigation_papers": 5,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/black-pepper",
+      "family": "ingredients",
+      "slug": "black-pepper",
+      "mitigation_papers": 5,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/cinnamon",
+      "family": "ingredients",
+      "slug": "cinnamon",
+      "mitigation_papers": 5,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "products/baby-cereals-dry-rice-based",
+      "family": "products",
+      "slug": "baby-cereals-dry-rice-based",
+      "mitigation_papers": 5,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/cassava",
+      "family": "ingredients",
+      "slug": "cassava",
+      "mitigation_papers": 6,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/plantain",
+      "family": "ingredients",
+      "slug": "plantain",
+      "mitigation_papers": 6,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/cocoa",
+      "family": "ingredients",
+      "slug": "cocoa",
+      "mitigation_papers": 7,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/wheat",
+      "family": "ingredients",
+      "slug": "wheat",
+      "mitigation_papers": 7,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/corn",
+      "family": "ingredients",
+      "slug": "corn",
+      "mitigation_papers": 8,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/tomato",
+      "family": "ingredients",
+      "slug": "tomato",
+      "mitigation_papers": 8,
+      "metals_covered": [],
+      "mapped_papers": 0
+    },
+    {
+      "page": "ingredients/fish",
+      "family": "ingredients",
+      "slug": "fish",
+      "mitigation_papers": 11,
+      "metals_covered": [],
+      "mapped_papers": 0
+    }
+  ]
+}
