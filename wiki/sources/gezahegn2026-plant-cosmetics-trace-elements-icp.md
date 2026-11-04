@@ -16,7 +16,7 @@ raw_path: "raw/HMI-FILL-0025/10.1039_d6ra02940j.pdf"
 raw_sha256: "576698a1f70a82dfc78c03415ecd79fcb7a829027290467d09bc3897b33ab42c"
 metals: [Al, V, Cr, Mn, Fe, Co, Ni, Zn, As, Se, Mo, Cd, Hg, Pb]
 ingredients: []
-products: ["[[products/antiperspirant]]", "[[products/deodorants]]", "[[products/sunscreens]]"]
+products: ["[[products/antiperspirant]]", "[[products/deodorants]]", "[[products/sun-suntan-products]]"]
 matrices: [deodorants, antiperspirants, sunscreens, face-creams, body-lotions, lip-moisturizers, insect-repellents]
 jurisdictions: [CA]
 near_duplicates: []
