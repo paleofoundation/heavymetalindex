@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 import { contractOwnsPage } from "./contracts/page-owner.mjs"
+import { referencesStub } from "./lib/canonical-page-rails.mjs"
 // Emit a marker-bounded "## References" block on every reader-facing wiki page:
 // the works this page's prose actually cites, numbered in the order their
 // superscripts appear, in full citation form.
@@ -263,7 +264,25 @@ for (const targetDir of TARGETS) {
     if (entries.length === 0) noCitations += 1
     totalRefs += entries.length
 
-    const next = upsert(raw, entries.length ? renderBlock(entries, raw) : null)
+    // A page with no prose citations still needs the References rail. Keep an
+    // existing block (authored or generated) and add the honest stub only when
+    // the section is missing. Never wipe a list that is already there.
+    if (entries.length === 0) {
+      if (raw.includes(BEGIN_MARKER)) {
+        unchanged += 1
+        continue
+      }
+      const next = upsert(raw, referencesStub(raw))
+      if (next === raw) {
+        unchanged += 1
+        continue
+      }
+      if (!dryRun) fs.writeFileSync(absPath, next, "utf8")
+      updated += 1
+      continue
+    }
+
+    const next = upsert(raw, renderBlock(entries, raw))
     if (next === raw) {
       unchanged += 1
       continue

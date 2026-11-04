@@ -104,6 +104,14 @@ This page reports what the peer-reviewed and government literature says about he
 
 Cat 4 (produce, nuts, seeds) regulatory enforcement intersects two domains: heavy-metal contamination (the focus of this row) and microbial contamination (FDA recall notices for E. coli/Salmonella/Listeria in fresh produce, a separate concern). FDA Total Diet Study and Pesticide Data Program surveillance reports establish the heavy-metal occurrence baseline ([[sources/fda-tds-elements-2018-2020|FDA 2022]]). State-level Cd-in-leafy-greens enforcement has been active in California under Prop 65; the related Mateel Environmental settlement framework has shaped compliance practice. Individual brand recall actions are not enumerated here.
 
+## Review
+
+No evidence review yet in our corpus.
+
+## FAQs
+
+No frequently asked questions have been compiled for this page yet.
+
 <!-- BEGIN: hmi-page-references -->
 ## References
 

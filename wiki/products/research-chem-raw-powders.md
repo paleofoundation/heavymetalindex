@@ -38,6 +38,32 @@ For the question of whether research peptide powders get heavy-metal tested, thi
 
 No source is listed on this row. Lyophilized research-chemical vials are filed on the category page. This row remains the destination for pre-formulation powders.
 
+## Contamination
+
+No measured data yet in our corpus.
+
+## Mitigation
+
+No mitigation evidence yet in our corpus.
+
+## Details
+
+No further detail has been compiled from the corpus yet.
+
+## Review
+
+No evidence review yet in our corpus.
+
+## FAQs
+
+No frequently asked questions have been compiled for this page yet.
+
+<!-- BEGIN: hmi-page-references -->
+## References
+
+Works cited in this page's text do not yet have a numbered reference list in this section.
+<!-- END: hmi-page-references -->
+
 ## Sources
 
 <!-- BEGIN: source-legend -->

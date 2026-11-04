@@ -35,6 +35,26 @@ updated: 2026-06-09
 
 The literature corpus for this product class is currently thin. Sources route here as ingest proceeds; once enough sources accumulate, the synthesis pass will populate the Literature Evidence Summary, Source Evidence Inventory, and downstream sections.
 
+## Contamination
+
+No measured data yet in our corpus.
+
+## Mitigation
+
+No mitigation evidence yet in our corpus.
+
+## Details
+
+No further detail has been compiled from the corpus yet.
+
+## Review
+
+No evidence review yet in our corpus.
+
+## FAQs
+
+No frequently asked questions have been compiled for this page yet.
+
 <!-- BEGIN: hmi-page-references -->
 ## References
 

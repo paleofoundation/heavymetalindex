@@ -194,6 +194,14 @@ _No quantified data on this lever in the current corpus; section will be expande
 
 European Union Regulation (EU) 2023/915 [[regulations/eu2023-contaminants-maximum-levels]] sets a maximum level of 0.10 mg/kg for Pb and 0.050 mg/kg for Cd in fresh fruit on a wet weight basis, applicable across the non-apple fruit category. Dried fruit carries different EU limits reflecting the concentration effect of water removal. The Codex General Standard for Contaminants and Toxins in Food and Feed (CXS 193-1995) sets Pb limits for fresh fruit. No specific iAs or tHg limit applies to fresh or dried fruit under major regulatory frameworks at the category level. See [[regulations/eu2023-contaminants-maximum-levels]] and [[regulations/codex-cadmium-mls]] for applicable regulatory reference pages.
 
+## Details
+
+No further detail has been compiled from the corpus yet.
+
+## FAQs
+
+No frequently asked questions have been compiled for this page yet.
+
 ## Sources
 
 - [[sources/fsa2016-infant-food-formula-metals-survey]]

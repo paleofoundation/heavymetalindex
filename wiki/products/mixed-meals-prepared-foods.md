@@ -62,6 +62,10 @@ The note's average of six heavy metals across the samples is 8.87 ug/kg. The pha
 
 <!-- END: hmi-cited-measurements -->
 
+## Mitigation
+
+No mitigation evidence yet in our corpus.
+
 ## Mixed meals and gut studies that did not use a prepared plate
 
 A mixed meal combines foods. The studies below do not isolate that plate. They use biomarkers, rat and mouse cadmium, larval zebrafish, a mercury review, methylmercury demethylation in a human cohort and gnotobiotic mice, and hexavalent chromium gavage.
@@ -115,6 +119,14 @@ Methodology rules for speciation, basis preservation, non-detect handling, and s
 | [[metals/arsenic-inorganic\|iAs]] | Mixed Meals / Prepared Foods (no contributing evidence loaded) | No concentration data loaded for this analyte | Sample-level detection rate not reported | No applicable cap loaded | 0 | data gap | Basis not reported |
 | [[metals/arsenic-total\|tAs]] | Mixed Meals / Prepared Foods (no contributing evidence loaded) | No concentration data loaded for this analyte | Sample-level detection rate not reported | No applicable cap loaded | 0 | data gap | Basis not reported |
 <!-- END: hmi-hmtc-evidence-summary -->
+
+## Review
+
+No evidence review yet in our corpus.
+
+## FAQs
+
+No frequently asked questions have been compiled for this page yet.
 
 <!-- BEGIN: hmi-page-references -->
 ## References

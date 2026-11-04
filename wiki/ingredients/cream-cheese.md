@@ -138,6 +138,10 @@ The 2012 note reports total mercury in cream cheese from south-east Poland, in Â
 
 <!-- END: hmi-cited-measurements -->
 
+## Mitigation
+
+No mitigation evidence yet in our corpus.
+
 ## Cream cheese and methylmercury demethylation
 
 Mercury is the metal this section addresses. The study that supports a microbiome direction for mercury is about methylmercury demethylation and fecal elimination of inorganic mercury. A dairy specification for total mercury is not that endpoint. Vat cultures used to make cream cheese are product microbes, not the gut community in this paper.
@@ -153,6 +157,14 @@ Mercury is the metal this section addresses. The study that supports a microbiom
 ### What remains uncertain
 
 The source page does not print a single demethylated fraction and does not measure cream cheese, milk fat, or total mercury in dairy. No study cited here used this matrix. The section is limited to the direction the methylmercury paper supports.
+
+## Review
+
+No evidence review yet in our corpus.
+
+## FAQs
+
+No frequently asked questions have been compiled for this page yet.
 
 <!-- BEGIN: hmi-page-references -->
 ## References

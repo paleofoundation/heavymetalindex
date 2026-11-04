@@ -146,6 +146,10 @@ Tesfaye and Abebaw, Table 5, mg/L in two imported palm oils, with retail names o
 
 <!-- END: hmi-cited-measurements -->
 
+## Mitigation
+
+No mitigation evidence yet in our corpus.
+
 ## Microbiome implications
 
 Palm oil on this page is an edible fat with reported metals that differ by market and by which oil the note actually measured. The gut studies below are lead biomarkers, mouse drinking-water cadmium, arsenic biomarkers and drinking-water arsenic, methylmercury demethylation, maternal hair, a hexavalent chromium gavage, and occupational nickel. Frying and the oil matrix are not factors in those designs.
@@ -188,6 +192,14 @@ Yang et al. 2023 [[sources/yang2023-nickel-gut-microbiome-uric-acid]] compared 1
 ### What remains uncertain
 
 No study cited here fed palm oil. The Lu abstract record does not name arsenic species. Coryell and colleagues used inorganic arsenate. Coe and colleagues do not print one demethylated fraction, and several palm oil notes report mercury without methylmercury. Hexavalent chromium at 75 mg/kg by gavage is not total chromium in oil. The aluminum finding is combined with manganese. Occupational serum nickel is not nickel in palm oil.
+
+## Review
+
+No evidence review yet in our corpus.
+
+## FAQs
+
+No frequently asked questions have been compiled for this page yet.
 
 <!-- BEGIN: hmi-page-references -->
 ## References

@@ -158,6 +158,20 @@ This page reports what the peer-reviewed and government literature says about he
 
 The 2023 Ibiza family outbreak (munilla-garcia2023) is the primary documented regulatory event for this product category: Balearic Islands food safety authorities (Servicio de Seguridad Alimentaria) identified and investigated the source, confirmed ceramic container leaching, and reported the case in the national public health journal. The event was a public health investigation rather than a formal product recall; the artisanal producer was identified and the contaminated product removed. No EU or Spanish maximum level for Pb in kombucha existed at the time, which the authors flag as a regulatory gap requiring harmonized limits for novel fermented beverages. Events are framed as regulatory events, not brand rankings.
 
+## Review
+
+No evidence review yet in our corpus.
+
+## FAQs
+
+No frequently asked questions have been compiled for this page yet.
+
+<!-- BEGIN: hmi-page-references -->
+## References
+
+Works cited in this page's text do not yet have a numbered reference list in this section.
+<!-- END: hmi-page-references -->
+
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 

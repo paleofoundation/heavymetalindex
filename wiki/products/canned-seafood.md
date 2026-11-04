@@ -77,6 +77,10 @@ Shim and colleagues, total mercury, ppb wet weight. Light tuna in water, 48 to 6
 
 <!-- END: hmi-cited-measurements -->
 
+## Mitigation
+
+No mitigation evidence yet in our corpus.
+
 ## Canned seafood, arsenic species, and methylmercury demethylation
 
 Canned seafood can carry arsenic that is often organic, plus mercury that may or may not be speciated as methylmercury, and tin from the can is a packaging question rather than a gut question. The studies below did not open a can and sequence stool. Inorganic arsenate experiments and hexavalent chromium gavage are different species from what a seafood panel usually reports as total arsenic and total chromium.
@@ -144,6 +148,14 @@ Methodology rules for speciation, basis preservation, non-detect handling, and s
 | [[metals/mercury-methyl\|MeHg]] | Canned seafood (with tin flag) (direct row-fit) | mean 160 ppb (1 source); highest reported 460 ppb | Sample-level detection rate not reported | No applicable cap loaded | 1 cited | low (1-2 sources) | canned tuna drained product, wet weight/as sold |
 | [[metals/cadmium\|Cd]] | Canned seafood (with tin flag) (direct row-fit) | highest reported 213 ppb | Sample-level detection rate not reported | No applicable cap loaded | 1 cited | low (1-2 sources) | canned tuna drained product, wet weight/as sold |
 <!-- END: hmi-hmtc-evidence-summary -->
+
+## Review
+
+No evidence review yet in our corpus.
+
+## FAQs
+
+No frequently asked questions have been compiled for this page yet.
 
 <!-- BEGIN: hmi-page-references -->
 ## References

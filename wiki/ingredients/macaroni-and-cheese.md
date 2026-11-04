@@ -242,6 +242,10 @@ Boxed macaroni and cheese is packaged in cardboard with an inner polyethylene-li
 
 No specific EU maximum level for Cd in pasta or macaroni and cheese as a product category exists in the current regulatory framework; the applicable EU limit would be for unprocessed cereals used in production. EU Regulation 2023/915 sets Cd limits for cereals at 0.10 mg/kg for durum wheat and pasta products, reflecting the pasta supply chain specifically [[regulations/eu-2023-915-cadmium]]. The Pb limit for cereals and cereal products under the EU framework is 0.20 mg/kg [[regulations/eu2023-contaminants-maximum-levels]]. The US does not set statutory maximum levels for Pb or Cd in pasta or macaroni and cheese products. Codex Alimentarius addresses Cd in cereals and products but does not have a distinct ML for pasta [[regulations/codex-cadmium-mls]].
 
+## Details
+
+No further detail has been compiled from the corpus yet.
+
 <!-- BEGIN: hmi-profile-evidence-correction -->
 ## Interpretation of source evidence
 
@@ -257,6 +261,10 @@ Source observations and population estimates are different. A non-detect supplie
 
 **Cr.** FDA source observations are non-detects at the reporting limits below. They do not estimate a zero population concentration; other literature remains separate context.
 <!-- END: hmi-profile-evidence-correction -->
+
+## FAQs
+
+No frequently asked questions have been compiled for this page yet.
 
 <!-- BEGIN: hmi-page-references -->
 ## References

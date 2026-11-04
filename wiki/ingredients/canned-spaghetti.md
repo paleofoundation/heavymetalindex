@@ -204,6 +204,14 @@ Lacquered ("enamel-lined") tinplate cans are essential for this product given th
 
 For the pasta/wheat Cd component, the EU [[regulations/eu2023-contaminants-maximum-levels]] sets a maximum level for Cd in cereal-based foods of 0.060 mg/kg (60 ppb) wet weight; for pasta specifically (dry), the limit is 0.20 mg/kg (200 ppb) dry weight. For Sn in canned solid foods, the EU limit is 200 mg/kg (200,000 ppb) wet weight. The Codex Alimentarius [[regulations/codex-cadmium-mls]] sets Cd limits for cereal grain and processed cereal products at analogous levels. The FDA does not currently specify Sn action levels for canned pasta products; FDA Closer to Zero [[regulations/fda-closer-to-zero]] focuses on Pb in foods for young children.
 
+## Details
+
+No further detail has been compiled from the corpus yet.
+
+## FAQs
+
+No frequently asked questions have been compiled for this page yet.
+
 ## Sources
 
 - [[sources/fsa2016-infant-food-formula-metals-survey]]

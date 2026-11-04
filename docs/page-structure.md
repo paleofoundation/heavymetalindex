@@ -20,12 +20,20 @@ Prose uses the full name: lead, cadmium, inorganic arsenic, total arsenic, methy
 
 Symbols stay in frontmatter keys, in the units and analyte vocabulary in `docs/conventions.md` (that vocabulary stays as it is), and in the analyte column of the generated Heavy metal contamination profile table. They do not appear in prose.
 
+## Sidebar rails
+
+Ingredient and product pages share one left sidebar. Rice is the reference. The numbered entries are always these nine, in this order: Overview, Contamination, Mitigation, Details, Review, FAQs, References, Sources, Updates. Updates is the `Update history` heading. A page may keep a more specific H2 inside a rail, such as `Olive oil overview` or `Levers to reduce contamination`. Those headings are mapped onto the rails. They do not add or remove a numbered entry.
+
+When a rail has no heading yet, the page uses the rail name as the H2 and one honest sentence. The contamination sentence is `No measured data yet in our corpus.` The other empty rails say that the overview, mitigation evidence, detail, review, questions, references, source list, or version history is not in the corpus yet. Do not invent a measurement, a citation, or a supplier record to fill a rail.
+
 ## Evidence sections
 
 An evidence section on an ingredient, product, or metal page reports measured results. Its heading names the topic. These headings are not used on those pages:
 
-- Exact headings: Overview, Direct answer, Key facts, Quick read, At a glance, Introduction, Background, Discussion, Conclusion, Miscellaneous, General, Notes, Summary
+- Exact headings: Direct answer, Key facts, Quick read, At a glance, Introduction, Background, Discussion, Conclusion, Miscellaneous, General, Notes, Summary
 - Headings that begin with Additional, Other, Direct answer, Overview, or Key facts
+
+`Overview`, `Contamination`, `Mitigation`, `Details`, `Review`, and `FAQs` are the sidebar rails above. An exact rail heading is allowed. `Overview of rice` is still a banned filler heading.
 
 `Key facts` in that list is the handwritten heading. The rendered answer block is the one Key facts block above, and it is not a second section in the markdown. Regulator pages keep the ordered list in `docs/page-templates.md`, including Quick read. That list is outside this ban.
 

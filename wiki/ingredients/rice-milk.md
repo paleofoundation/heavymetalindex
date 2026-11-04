@@ -142,6 +142,10 @@ Marques and colleagues included conventional and organic rice drink among 32 Spa
 
 <!-- END: hmi-cited-measurements -->
 
+## Mitigation
+
+No mitigation evidence yet in our corpus.
+
 ## Microbiome implications
 
 Rice milk is a cereal beverage. Arsenic in rice is a real exposure question, but the studies below measured urinary total arsenic, mouse drinking water, inorganic arsenate in experimental water, and methylmercury demethylation. Chromium evidence is a hexavalent gavage. None of these papers used rice milk as the dose.
@@ -178,6 +182,14 @@ Mu et al. 2023 [[sources/mu2023-seaweed-polysaccharide-chromium-gut-microbiome]]
 ### What remains uncertain
 
 Hoen and colleagues stratified infants by breast milk and formula, not by rice milk. The Lu abstract record does not name arsenic species. Coryell and colleagues used inorganic arsenate, which is not a rice-milk speciation result. Coe and colleagues do not print one demethylated fraction and did not feed this beverage. The dichromate dose is 75 mg/kg by gavage, not total chromium in rice milk.
+
+## Review
+
+No evidence review yet in our corpus.
+
+## FAQs
+
+No frequently asked questions have been compiled for this page yet.
 
 <!-- BEGIN: hmi-page-references -->
 ## References

@@ -103,6 +103,14 @@ Baby food is an early diet. The gut papers cited below did not feed a baby-food 
 
 Hoen and colleagues stratified infants by breast milk and formula, not by baby food. Dahan and colleagues did not name the arsenic species. The mercury sentence is a review and does not speciate methylmercury in a puree. Hexavalent chromium gavage is not total chromium in baby food. Hair aluminum is not separated from manganese. Liu and colleagues do not print the cadmium dose.
 
+## Review
+
+No evidence review yet in our corpus.
+
+## FAQs
+
+No frequently asked questions have been compiled for this page yet.
+
 <!-- BEGIN: hmi-page-references -->
 ## References
 

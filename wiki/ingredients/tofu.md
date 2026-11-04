@@ -122,6 +122,22 @@ This provisional ingredient page records source-specific measurements for tofu. 
 
 The profile fields remain pending until an evidence synthesis supports a population estimate. Source observations are listed separately below.
 
+## Mitigation
+
+No mitigation evidence yet in our corpus.
+
+## Details
+
+No further detail has been compiled from the corpus yet.
+
+## Review
+
+No evidence review yet in our corpus.
+
+## FAQs
+
+No frequently asked questions have been compiled for this page yet.
+
 <!-- BEGIN: hmi-page-references -->
 ## References
 

@@ -144,6 +144,10 @@ The Centre for Food Safety follow-up study is an agency report. Table 2 pancake 
 
 <!-- END: hmi-cited-measurements -->
 
+## Mitigation
+
+No mitigation evidence yet in our corpus.
+
 ## Pancake aluminum as purchased, and the infant hair study
 
 The agency pancake row on this page reports aluminum as purchased, with a mean that uses half the detection limit for non-detects. That is a product result. The gut record that names aluminum is a mother-infant hair study: Bifidobacterium was higher under high aluminum and high manganese together. A mix manufacturer or griddle brand should keep aluminum-containing additive use, the aluminum number, and microbiome language in separate fields.
@@ -159,6 +163,14 @@ The agency pancake row on this page reports aluminum as purchased, with a mean t
 ### What remains uncertain
 
 Hair concentrations are not printed, and aluminum is not separated from manganese. The cohort's samples were maternal hair and infant stool, not pancakes, pancake mix, or baking powder. No other gut study cited here isolates aluminum. That is the limit of the aluminum evidence cited here.
+
+## Review
+
+No evidence review yet in our corpus.
+
+## FAQs
+
+No frequently asked questions have been compiled for this page yet.
 
 <!-- BEGIN: hmi-page-references -->
 ## References

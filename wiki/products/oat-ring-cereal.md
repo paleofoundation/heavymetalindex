@@ -329,6 +329,10 @@ _No quantified data on this lever in the current corpus; section will be expande
 
 European Union Regulation (EU) 2023/915 [[regulations/eu2023-contaminants-maximum-levels]] sets a maximum level of 0.10 mg/kg Cd for processed cereal-based foods (including ready-to-eat breakfast cereals) and 0.20 mg/kg Pb. The EU cadmium limit for cereal-based products including oat-based breakfast cereals is established under [[regulations/eu-2023-915-cadmium]]. No specific EU maximum level for Ni applies to oat ring cereal or oat-based foods generally; Ni exposure is managed through dietary assessment rather than per-food limits in European regulatory practice. The Codex General Standard for Contaminants and Toxins in Food and Feed (CXS 193-1995) provides Pb reference levels for cereal products. See [[regulations/eu2023-contaminants-maximum-levels]], [[regulations/eu-2023-915-cadmium]], and [[regulations/codex-cadmium-mls]] for applicable regulatory reference pages.
 
+## Details
+
+No further detail has been compiled from the corpus yet.
+
 <!-- BEGIN: hmi-profile-evidence-correction -->
 ## Interpretation of source evidence
 
@@ -336,6 +340,10 @@ Source observations and population estimates are different. A non-detect supplie
 
 **tHg.** FDA source observations are non-detects at the reporting limits below. They do not estimate a zero population concentration; other literature remains separate context.
 <!-- END: hmi-profile-evidence-correction -->
+
+## FAQs
+
+No frequently asked questions have been compiled for this page yet.
 
 <!-- BEGIN: hmi-page-references -->
 ## References

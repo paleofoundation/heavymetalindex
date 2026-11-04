@@ -18,6 +18,37 @@ sources: 13
 
 > This page is an alias of [[products/canned-foods-general|Canned foods, general]] and does not have its own standards row.
 
+## Contamination
+
+No measured data yet in our corpus.
+
+## Mitigation
+
+No mitigation evidence yet in our corpus.
+
+## Details
+
+No further detail has been compiled from the corpus yet.
+
+## Review
+
+No evidence review yet in our corpus.
+
+## FAQs
+
+No frequently asked questions have been compiled for this page yet.
+
+<!-- BEGIN: hmi-page-references -->
+## References
+
+No works are cited in this page's text yet.
+<!-- END: hmi-page-references -->
+
+<!-- BEGIN: hmi-source-legend -->
+## Sources
+
+No source list has been compiled into this section yet.
+<!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

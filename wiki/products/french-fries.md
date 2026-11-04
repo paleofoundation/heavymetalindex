@@ -138,6 +138,10 @@ The 2020 review cites FDA Total Diet Study 2014 to 2016 figures, as reported by 
 
 <!-- END: hmi-cited-measurements -->
 
+## Mitigation
+
+No mitigation evidence yet in our corpus.
+
 ## French fries, cadmium, and high-fat diet effects on metal excretion
 
 Fries are a high-fat potato matrix. Cadmium is the metal this section addresses. One summary is on point for the diet form: mice on a high-fat diet excreted less cadmium, arsenic, and lead in feces and held more in liver and kidney. The other cadmium papers are drinking water and a rat cadmium chloride experiment. A fry processor should not treat any of them as a fry microbiome assay.
@@ -159,6 +163,14 @@ Per WikiBiome source summary, DOI 10.3389/fmicb.2020.01604, Liu et al. 2020 fed 
 ### What remains uncertain
 
 The high-fat diets were not potatoes or frying oil, and the metal was 100 ppm in drinking water. The rat cadmium chloride note omits dose and sample size. No study cited here sequenced gut microbiota after french fries.
+
+## Review
+
+No evidence review yet in our corpus.
+
+## FAQs
+
+No frequently asked questions have been compiled for this page yet.
 
 <!-- BEGIN: hmi-page-references -->
 ## References

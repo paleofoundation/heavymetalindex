@@ -102,6 +102,14 @@ Infant formula feeds the colonization window. The directly relevant papers are i
 
 Soto-Ocana and colleagues do not print a metal concentration in formula. Hoen and colleagues do not name a formula lot or split cow-milk formula from other formula. Chromium gut studies that use hexavalent salts are omitted here. Occupational nickel and the adult yogurt trial are not infant colonization studies. Liu and colleagues do not print the cadmium dose.
 
+## Review
+
+No evidence review yet in our corpus.
+
+## FAQs
+
+No frequently asked questions have been compiled for this page yet.
+
 <!-- BEGIN: hmi-page-references -->
 ## References
 

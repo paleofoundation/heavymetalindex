@@ -53,6 +53,10 @@ Alharbi and colleagues report baby biscuits, n=17, as middle-bound concentration
 
 <!-- END: hmi-cited-measurements -->
 
+## Mitigation
+
+No mitigation evidence yet in our corpus.
+
 ## Biscuits and gut studies that did not use this baked good
 
 Biscuits are a baked cereal food. The studies below are lead biomarkers, rat and mouse cadmium, and arsenic in infant urine or larval zebrafish water. Baking and the flour are not factors in those designs.
@@ -83,6 +87,14 @@ Biscuits are a baked cereal food. The studies below are lead biomarkers, rat and
 ### What remains uncertain
 
 No study cited here fed biscuits. Dahan and colleagues did not name the arsenic species and did not use a human gut. Liu and colleagues do not print the cadmium dose. Urinary arsenic and tooth lead are biomarkers.
+
+## Review
+
+No evidence review yet in our corpus.
+
+## FAQs
+
+No frequently asked questions have been compiled for this page yet.
 
 <!-- BEGIN: hmi-page-references -->
 ## References

@@ -198,6 +198,18 @@ Packaging is not the primary metal-load pathway for fresh leafy vegetables; stor
 
 The Codex Alimentarius General Standard (CXS 193-1995) applies the general leafy-vegetable Pb maximum of 0.30 mg/kg fresh weight and the general Cd maximum of 0.20 mg/kg fresh weight to most leafy species, with spinach-specific Cd at 0.20 mg/kg under the broader leafy umbrella in some interpretations. The EU Regulation 2023/915 applies tighter limits than Codex: 0.30 mg/kg Pb for leafy vegetables and fresh herbs, 0.20 mg/kg Cd for leafy vegetables and stems excluding celery and salsify. The FDA Closer to Zero program addresses leafy-vegetable contamination indirectly through the infant and toddler food coverage but does not set fresh-vegetable action levels. The probabilistic risk modeling in the Behbahan study found cumulative-dietary-intake exposure metrics above thresholds of concern under reasonable-worst-case consumption assumptions ([[sources/armand2026-lettuce-cabbage-behbahan]]), supporting the case for tighter retail-level enforcement of the existing Codex and EU caps.
 
+## Details
+
+No further detail has been compiled from the corpus yet.
+
+## Review
+
+No evidence review yet in our corpus.
+
+## FAQs
+
+No frequently asked questions have been compiled for this page yet.
+
 <!-- BEGIN: hmi-page-references -->
 ## References
 

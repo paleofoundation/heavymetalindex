@@ -174,6 +174,10 @@ Tin is printed for some white wines. No reused tin-specific gut sentence is on t
 
 <!-- END: hmi-cited-measurements -->
 
+## Mitigation
+
+No mitigation evidence yet in our corpus.
+
 ## White wine fermentation and gut studies of the metals named on this page
 
 White wine fermentation changes the product's own yeasts and bacteria. That is a different question from biomarker lead, drinking-water cadmium, urinary arsenic, methylmercury demethylation in a review, hair metals, or a hexavalent chromium gavage. A winery file should not treat a gut paper as a fermentation result, or a plate count as a gut result.
@@ -219,6 +223,14 @@ White wine fermentation changes the product's own yeasts and bacteria. That is a
 ### What remains uncertain
 
 No study cited here served white wine and then sequenced the gut. Dahan and colleagues did not name the arsenic species. The mercury sentence is a review and does not speciate wine mercury. Chromium in the gavage studies was a hexavalent salt, which is not total chromium in wine. The aluminum finding is combined with manganese. Occupational serum nickel is not nickel in wine. Liu and colleagues do not print the cadmium dose.
+
+## Review
+
+No evidence review yet in our corpus.
+
+## FAQs
+
+No frequently asked questions have been compiled for this page yet.
 
 <!-- BEGIN: hmi-page-references -->
 ## References

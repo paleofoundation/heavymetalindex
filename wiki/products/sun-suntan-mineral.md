@@ -43,6 +43,10 @@ A comparison chart reports zinc oxide sunscreens, chart rows 9 to 35, in ppb (µ
 
 <!-- END: hmi-cited-measurements -->
 
+## Mitigation
+
+No mitigation evidence yet in our corpus.
+
 ## Mineral sunscreen is a leave-on skin film
 
 Mineral ultraviolet filters sit on skin. Lead cohorts, urinary arsenic, and larval zebrafish did not test a sunscreen. Zinc oxide on skin is not the experimental zinc diets in the mouse papers that were sometimes pasted onto other pages, and this section does not borrow those diets.
@@ -67,6 +71,14 @@ Computed from reviewed rows in the structured evidence register for this page: t
 
 Sources: [[sources/rubin2026-sunscreen-metals-comparison-chart]].
 <!-- END: hmi-promoted-value-ranges -->
+
+## Review
+
+No evidence review yet in our corpus.
+
+## FAQs
+
+No frequently asked questions have been compiled for this page yet.
 
 <!-- BEGIN: hmi-page-references -->
 ## References

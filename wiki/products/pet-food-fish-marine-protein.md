@@ -46,6 +46,32 @@ For the question of whether cat and dog food contains heavy metals, this row is 
 
 No source is listed on this row. Fish-formulation dry dog food medians from Kim et al. 2018 are in the direct answer and on [[products/pet-food-dry-kibble]]. This row has no separate mg/kg measurement.
 
+## Contamination
+
+No measured data yet in our corpus.
+
+## Mitigation
+
+No mitigation evidence yet in our corpus.
+
+## Details
+
+No further detail has been compiled from the corpus yet.
+
+## Review
+
+No evidence review yet in our corpus.
+
+## FAQs
+
+No frequently asked questions have been compiled for this page yet.
+
+<!-- BEGIN: hmi-page-references -->
+## References
+
+Works cited in this page's text do not yet have a numbered reference list in this section.
+<!-- END: hmi-page-references -->
+
 ## Sources
 
 <!-- BEGIN: source-legend -->

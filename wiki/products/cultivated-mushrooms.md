@@ -55,6 +55,10 @@ Asensio reports cultivated mushrooms on a fresh-as-purchased basis, in mg/kg. Cu
 
 <!-- END: hmi-cited-measurements -->
 
+## Mitigation
+
+No mitigation evidence yet in our corpus.
+
 ## Cultivated mushrooms and gut studies of metals that were not a mushroom dose
 
 Cultivated mushrooms are an arsenic-speciation food as well as a cadmium and lead food. The studies below did not identify arsenobetaine versus inorganic arsenic in a button, cremini, portobello, or oyster lot. They used biomarkers, drinking water, larval zebrafish, a review, experimental zinc diets, and an occupational yogurt trial.
@@ -97,6 +101,14 @@ Cultivated mushrooms are an arsenic-speciation food as well as a cadmium and lea
 ### What remains uncertain
 
 No study cited here sequenced stool after cultivated mushrooms. Dahan and colleagues did not name the arsenic species. The mercury sentence, where the review is cited, is not a carpophore methylmercury fraction. Hexavalent chromium experiments are not applied as total chromium in mushrooms when a gavage is in the table. Zinc diets are experimental. The yogurt trial is occupational.
+
+## Review
+
+No evidence review yet in our corpus.
+
+## FAQs
+
+No frequently asked questions have been compiled for this page yet.
 
 <!-- BEGIN: hmi-page-references -->
 ## References

@@ -417,6 +417,10 @@ The choice of packaging material is the most consequential lever for the Sn path
 
 The EU sets a maximum level for Sn in canned solid food products of 200 mg/kg [[regulations/eu2023-contaminants-maximum-levels]]; this limit applies to ketchup when packaged in tin-lined cans. No specific EU maximum for Cd or Pb in ketchup as a distinct product category exists; the tomato-product framework and general condiment provisions would apply by analogy. No US statutory maximum for Pb, Cd, or Sn in ketchup is set in current FDA regulations. Codex Alimentarius sets Sn limits for canned products that broadly align with the EU framework [[regulations/codex-cadmium-mls]].
 
+## Details
+
+No further detail has been compiled from the corpus yet.
+
 <!-- BEGIN: hmi-profile-evidence-correction -->
 ## Interpretation of source evidence
 
@@ -432,6 +436,10 @@ Source observations and population estimates are different. A non-detect supplie
 
 **U.** FDA source observations are non-detects at the reporting limits below. They do not estimate a zero population concentration; other literature remains separate context.
 <!-- END: hmi-profile-evidence-correction -->
+
+## FAQs
+
+No frequently asked questions have been compiled for this page yet.
 
 <!-- BEGIN: hmi-page-references -->
 ## References

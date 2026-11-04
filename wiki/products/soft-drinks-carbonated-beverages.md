@@ -131,6 +131,20 @@ HMT&C certification thresholds for products in this row are developed under the 
 
 _Public regulatory events for soft drinks and carbonated beverages will be listed here when they are catalogued._
 
+## Review
+
+No evidence review yet in our corpus.
+
+## FAQs
+
+No frequently asked questions have been compiled for this page yet.
+
+<!-- BEGIN: hmi-page-references -->
+## References
+
+Works cited in this page's text do not yet have a numbered reference list in this section.
+<!-- END: hmi-page-references -->
+
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 

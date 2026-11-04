@@ -205,6 +205,18 @@ FDA measured the prepared foods named below. Each row describes that food and pr
 | 357: Lettuce, leaf, raw | U | 27 | 9 | 1.1–3.4 | 1 |
 <!-- END: hmi-fda-tds-occurrence -->
 
+## Details
+
+No further detail has been compiled from the corpus yet.
+
+## Review
+
+No evidence review yet in our corpus.
+
+## FAQs
+
+No frequently asked questions have been compiled for this page yet.
+
 <!-- BEGIN: hmi-page-references -->
 ## References
 

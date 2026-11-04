@@ -196,6 +196,14 @@ Citing this page at a single source's maximum value as if it were a threshold ju
 
 _No row-specific regulatory recall or enforcement action has been added to this page. Future entries will be framed as regulatory events, not as brand rankings, per the wiki's brand-firewall rule. Historical regulatory events relevant to this category should be sourced from FDA enforcement databases and framed at the category level._
 
+## Review
+
+No evidence review yet in our corpus.
+
+## FAQs
+
+No frequently asked questions have been compiled for this page yet.
+
 <!-- BEGIN: hmi-page-references -->
 ## References
 

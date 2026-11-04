@@ -55,6 +55,10 @@ Abdullah, an undergraduate thesis with no DOI assigned in this corpus, measured 
 
 <!-- END: hmi-cited-measurements -->
 
+## Mitigation
+
+No mitigation evidence yet in our corpus.
+
 ## Fish sauce fermentation and gut studies of other exposures
 
 Fish sauce is a fermented condiment. Its microbes are a product question. The gut studies below are biomarkers, larval zebrafish, rat cadmium, a mercury review, maternal hair, and experimental zinc diets. They did not dose fish sauce, and they do not describe the moromi.
@@ -91,6 +95,14 @@ Fish sauce is a fermented condiment. Its microbes are a product question. The gu
 ### What remains uncertain
 
 No study cited here fed fish sauce. The mercury review does not speciate sauce mercury. Dahan and colleagues did not name the arsenic species. Hair aluminum is not separated from manganese. Zinc diets are experimental. Liu and colleagues do not print the cadmium dose.
+
+## Review
+
+No evidence review yet in our corpus.
+
+## FAQs
+
+No frequently asked questions have been compiled for this page yet.
 
 <!-- BEGIN: hmi-page-references -->
 ## References

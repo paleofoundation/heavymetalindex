@@ -84,6 +84,14 @@ Snack and energy bars are composite foods. The studies below are lead biomarkers
 
 No study cited here fed a snack bar. Dahan and colleagues did not name the arsenic species. Liu and colleagues do not print the cadmium dose. Urinary arsenic and tooth lead are biomarkers.
 
+## Review
+
+No evidence review yet in our corpus.
+
+## FAQs
+
+No frequently asked questions have been compiled for this page yet.
+
 <!-- BEGIN: hmi-page-references -->
 ## References
 

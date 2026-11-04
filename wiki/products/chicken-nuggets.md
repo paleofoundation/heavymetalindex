@@ -145,6 +145,10 @@ Spiked recoveries were 93% to 106%. The full six-row grid is on the source note.
 
 <!-- END: hmi-cited-measurements -->
 
+## Mitigation
+
+No mitigation evidence yet in our corpus.
+
 ## Chicken nuggets, metal excretion, and the gut studies behind lead, cadmium, arsenic, and mercury
 
 Nuggets combine a fried matrix with the metals reported on this page: lead, cadmium, total arsenic, and mercury. One mouse summary is directly about diet form: a high-fat diet changed how much arsenic, cadmium, and lead left in feces. The other papers are biomarker or drinking-water studies. A processor should treat fat content, metal panel, and microbiome claims as three different records.
@@ -172,6 +176,14 @@ Per WikiBiome source summary, DOI 10.3389/fmicb.2020.01604, Liu et al. 2020 fed 
 ### What remains uncertain
 
 The high-fat mouse diets were not nuggets, and the metal doses were 100 ppm in drinking water. Mercury evidence is methylmercury demethylation, not total mercury in breading or muscle. No study cited here sequenced stool after a nugget feeding.
+
+## Review
+
+No evidence review yet in our corpus.
+
+## FAQs
+
+No frequently asked questions have been compiled for this page yet.
 
 <!-- BEGIN: hmi-page-references -->
 ## References

@@ -252,6 +252,14 @@ The following questions remain open with the evidence in this unit:
 <!-- BEGIN: source-legend -->
 <!-- END: source-legend -->
 
+## Details
+
+No further detail has been compiled from the corpus yet.
+
+## FAQs
+
+No frequently asked questions have been compiled for this page yet.
+
 ## References
 
 1. EFSA NDA Panel, Turck D, Bohn T, et al. Safety of Lemna minor and Lemna gibba whole plant material as a novel food pursuant to Regulation (EU) 2015/2283. *EFSA Journal*. 2022. DOI: 10.2903/j.efsa.2022.7598

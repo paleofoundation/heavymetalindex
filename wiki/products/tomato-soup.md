@@ -419,6 +419,10 @@ Packaging material selection is the dominant lever for Sn. Lacquer-lined cans, r
 
 The European Union sets a maximum level for tin (Sn) in canned tomato soup of 100 mg/kg (100,000 ppb) on a wet-weight basis for canned liquid food under [[regulations/eu2023-contaminants-maximum-levels]]; canned solid food carries a higher limit of 200 mg/kg. For the tomato base ingredients, EU maximum levels for Pb (0.10 mg/kg for fresh tomato) and Cd (0.050 mg/kg for fresh tomato) apply at the raw-material level; processed tomato products are subject to matrix-specific provisions. No FDA action level specifically addressing Sn in canned food is currently enforced in the United States, though FDA has issued guidance acknowledging Sn as a recognized contaminant in tinned acidic foods.
 
+## Details
+
+No further detail has been compiled from the corpus yet.
+
 <!-- BEGIN: hmi-profile-evidence-correction -->
 ## Interpretation of source evidence
 
@@ -434,6 +438,10 @@ Source observations and population estimates are different. A non-detect supplie
 
 **U.** FDA source observations are non-detects at the reporting limits below. They do not estimate a zero population concentration; other literature remains separate context.
 <!-- END: hmi-profile-evidence-correction -->
+
+## FAQs
+
+No frequently asked questions have been compiled for this page yet.
 
 <!-- BEGIN: hmi-page-references -->
 ## References

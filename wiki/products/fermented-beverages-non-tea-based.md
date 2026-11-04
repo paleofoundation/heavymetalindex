@@ -156,6 +156,20 @@ This page reports what the peer-reviewed and government literature says about he
 
 No formal product recalls for non-tea fermented beverages on heavy-metal grounds are documented in the current evidence base. The 2023 Ibiza family outbreak (munilla-garcia2023) involved tea-based kombucha from ceramic containers and is documented on the [[products/kombucha-tea-based]] page; the FCM mechanism it describes applies to this category equally. No EU or Spanish maximum level for Pb in fermented beverages existed at the time of that outbreak; the regulatory gap identified by the authors covers this category as well as kombucha. Events are framed as regulatory events, not brand rankings.
 
+## Review
+
+No evidence review yet in our corpus.
+
+## FAQs
+
+No frequently asked questions have been compiled for this page yet.
+
+<!-- BEGIN: hmi-page-references -->
+## References
+
+Works cited in this page's text do not yet have a numbered reference list in this section.
+<!-- END: hmi-page-references -->
+
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 

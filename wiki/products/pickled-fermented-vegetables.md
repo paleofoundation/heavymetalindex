@@ -50,6 +50,10 @@ Shavali-Gilani and colleagues report canned pickled cucumbers, in mg/kg wet weig
 
 <!-- END: hmi-cited-measurements -->
 
+## Mitigation
+
+No mitigation evidence yet in our corpus.
+
 ## Fermented vegetables and the lead cohorts
 
 Pickles, kimchi, sauerkraut, and table olives have their own fermentation microbiota. That is a different question from infant tooth lead or maternal blood lead. The gut studies cited below are those two human lead cohorts. They are not a brine microbiology result.
@@ -68,6 +72,14 @@ Pickles, kimchi, sauerkraut, and table olives have their own fermentation microb
 ### What remains uncertain
 
 Both cohorts are human and observational. Neither fed a fermented vegetable, and neither reports a brine lead concentration.
+
+## Review
+
+No evidence review yet in our corpus.
+
+## FAQs
+
+No frequently asked questions have been compiled for this page yet.
 
 ## Sources
 

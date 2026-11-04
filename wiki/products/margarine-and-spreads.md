@@ -476,6 +476,10 @@ Margarine is typically packaged in plastic tubs or foil-wrapped blocks; the Sn m
 
 EU Regulation 2023/915 sets a maximum level for Pb in fats and oils of 0.10 mg/kg [[regulations/eu2023-contaminants-maximum-levels]]; margarine falls under this limit as an oil-based spread. No EU maximum for Cd in fats and oils as a distinct category is set in the current framework, as Cd is not a meaningful contaminant in refined fats. The Ni hydrogenation pathway is addressed through food additive and processing aid regulations specifying catalyst purity and maximum residue standards, rather than through contaminant maximum levels. The United States does not set statutory maxima for Pb or Cd in margarine. Codex Alimentarius provisions for contaminants in edible fats and oils apply [[regulations/codex-cadmium-mls]].
 
+## Details
+
+No further detail has been compiled from the corpus yet.
+
 <!-- BEGIN: hmi-profile-evidence-correction -->
 ## Interpretation of source evidence
 
@@ -495,6 +499,10 @@ Source observations and population estimates are different. A non-detect supplie
 
 **U.** FDA source observations are non-detects at the reporting limits below. They do not estimate a zero population concentration; other literature remains separate context.
 <!-- END: hmi-profile-evidence-correction -->
+
+## FAQs
+
+No frequently asked questions have been compiled for this page yet.
 
 <!-- BEGIN: hmi-page-references -->
 ## References

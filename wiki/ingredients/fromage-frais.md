@@ -194,6 +194,18 @@ _No quantified data on this lever in the current corpus; section will be expande
 
 Under EU Regulation as updated in [[regulations/eu2023-contaminants-maximum-levels]], the maximum level for Pb in milk (liquid) is 0.020 mg/kg. Fromage frais, as a fresh dairy product derived from milk, is assessed against the limit for liquid dairy products on a milk-equivalent basis in most enforcement contexts, though the precise regulatory categorization may vary by national implementation. There is no specific EU maximum level for Cd in milk and liquid dairy products; cadmium limits are established for meat, fish, cereals, and vegetables but not currently for milk as a general category. Mercury is not subject to a specific EU maximum level in dairy products. In the United States, FDA has not established action levels for metals specifically in fromage frais or equivalent soft dairy products. The FSA/Fera survey [[sources/fsa2016-infant-food-formula-metals-survey]] benchmarked fromage frais against the UK total diet study dietary exposure framework rather than against a single product regulatory limit.
 
+## Details
+
+No further detail has been compiled from the corpus yet.
+
+## Review
+
+No evidence review yet in our corpus.
+
+## FAQs
+
+No frequently asked questions have been compiled for this page yet.
+
 ## Sources
 
 - [[sources/fsa2016-infant-food-formula-metals-survey]]

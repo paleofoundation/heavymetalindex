@@ -205,6 +205,10 @@ Ogimoto and colleagues measured aluminium only. Table 2 prints Content (mg/g). D
 
 <!-- END: hmi-cited-measurements -->
 
+## Mitigation
+
+No mitigation evidence yet in our corpus.
+
 ## Doughnut aluminum from additives, and the infant hair study
 
 The doughnut rows on this page measured aluminum in products made with aluminum-containing additives, in milligrams per gram as printed, not a gut endpoint. The gut record that names aluminum is prenatal hair in a mother-infant cohort, with Bifidobacterium higher when aluminum and manganese were both high. A bakery should keep additive identity, aluminum result, and any microbiome language in separate fields.
@@ -220,6 +224,14 @@ The doughnut rows on this page measured aluminum in products made with aluminum-
 ### What remains uncertain
 
 The hair study does not separate aluminum from manganese, does not print hair concentrations, and does not test doughnuts, baking powder, or fried dough. No other gut experiment cited here isolates aluminum.
+
+## Review
+
+No evidence review yet in our corpus.
+
+## FAQs
+
+No frequently asked questions have been compiled for this page yet.
 
 <!-- BEGIN: hmi-page-references -->
 ## References

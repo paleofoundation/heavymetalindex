@@ -79,6 +79,22 @@ FDA measured the prepared foods named below. Each row describes that food and pr
 | 515: Cereal, whole wheat, cooked | U | 3 | 2 | 1.4–3.6 | 1 |
 <!-- END: hmi-fda-tds-occurrence -->
 
+## Mitigation
+
+No mitigation evidence yet in our corpus.
+
+## Details
+
+No further detail has been compiled from the corpus yet.
+
+## Review
+
+No evidence review yet in our corpus.
+
+## FAQs
+
+No frequently asked questions have been compiled for this page yet.
+
 <!-- BEGIN: hmi-page-references -->
 ## References
 

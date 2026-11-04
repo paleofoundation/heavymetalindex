@@ -145,6 +145,10 @@ Arsenic, mercury, nickel, aluminum, and tin are not in this chicken-stock span. 
 
 <!-- END: hmi-cited-measurements -->
 
+## Mitigation
+
+No mitigation evidence yet in our corpus.
+
 ## Chicken broth, lead, cadmium, and why total chromium is a different question
 
 Broth panels that report total chromium cannot be read as hexavalent chromium. The gut chromium experiment below used potassium dichromate by gavage. Lead and cadmium evidence is a human tooth-lead cohort and a mouse drinking-water study. A broth or bouillon supplier should report the chromium species the method actually measured, and should not attach a hexavalent-chromium microbiome result to a total-chromium cell.
@@ -166,6 +170,14 @@ Broth panels that report total chromium cannot be read as hexavalent chromium. T
 ### What remains uncertain
 
 The dichromate dose is 75 mg/kg by gavage for 29 days, which is not a broth concentration and not total chromium. No study cited here fed chicken broth or sequenced broth microbiota. Collagen and fat in broth are not factors in these three papers.
+
+## Review
+
+No evidence review yet in our corpus.
+
+## FAQs
+
+No frequently asked questions have been compiled for this page yet.
 
 <!-- BEGIN: hmi-page-references -->
 ## References

@@ -49,12 +49,29 @@ const FOLD = /app-?\s?layer|planned sections|^status$|metal pages|further detail
 const APPARATUS: { anchor: string; label: string; need: RegExp; badge?: boolean }[] = [
   { anchor: "references", label: "References", need: /^references$/i },
   { anchor: "sources", label: "Sources", need: /^sources$/i, badge: true },
-  { anchor: "update-history", label: "Updates", need: /^update history$/i },
+  { anchor: "update-history", label: "Updates", need: /^(?:update history|page history)$/i },
 ]
 
-function Apparatus({ toc, count }: { toc: { text?: string }[]; count?: string }) {
-  const has = (re: RegExp) => toc.some((e) => re.test((e.text ?? "").trim()))
-  const items = APPARATUS.filter((u) => has(u.need))
+function apparatusHit(
+  toc: { text?: string; slug?: string }[],
+  spec: (typeof APPARATUS)[number],
+) {
+  const text = (entry: { text?: string }) => (entry.text ?? "").trim()
+  if (spec.label === "Updates") {
+    return (
+      toc.find((entry) => /^update history$/i.test(text(entry))) ??
+      toc.find((entry) => /^page history$/i.test(text(entry)))
+    )
+  }
+  return toc.find((entry) => spec.need.test(text(entry)))
+}
+
+function Apparatus({ toc, count }: { toc: { text?: string; slug?: string }[]; count?: string }) {
+  const items = APPARATUS.flatMap((spec) => {
+    const hit = apparatusHit(toc, spec)
+    if (!hit) return []
+    return [{ ...spec, anchor: hit.slug || spec.anchor }]
+  })
   if (items.length === 0) return null
   return (
     <>
@@ -121,11 +138,10 @@ export default (() => {
     }
 
     // ---- Registry-driven IA (quartz/content-model.ts), keyed by frontmatter type ----
-    // Groups the page's H2s under the parent taxonomy for its type (metal /
-    // ingredient / product-category / regulator), matched by role. Unknown types
-    // fall through to the generic branch below.
-    // Product evidence now follows the article's reading order directly.
-    const model = fileData.frontmatter?.type === "product-category" ? undefined : modelForType(fileData.frontmatter?.type as string | undefined, slug, fmAny.page_contract_version)
+    // Groups the page's H2s under the parent taxonomy for its type. Ingredient
+    // and product pages share Rice's nine rails. Unknown types fall through to
+    // the generic branch below.
+    const model = modelForType(fileData.frontmatter?.type as string | undefined, slug, fmAny.page_contract_version)
     if (model) {
       const title = ((fileData.frontmatter?.title as string) ?? slug.split("/").pop() ?? "").trim()
       const ctx = { pageTitle: title.charAt(0).toLowerCase() + title.slice(1) }
@@ -147,11 +163,23 @@ export default (() => {
           return { parent, matched }
         })
         .filter((g) => g.matched.length > 0)
-      const ungrouped = visible.filter((s) => !claimed.has(s))
+      let ungrouped = visible.filter((s) => !claimed.has(s))
+      let ordered = groups
+      if (model.absorbUngroupedInto && ungrouped.length > 0) {
+        const parent = model.parents.find((item) => item.id === model.absorbUngroupedInto)
+        const existing = ordered.find((group) => group.parent.id === model.absorbUngroupedInto)
+        if (existing) existing.matched.push(...ungrouped)
+        else if (parent) ordered = [...ordered, { parent, matched: ungrouped }]
+        ordered = model.parents.flatMap((item) => {
+          const group = ordered.find((candidate) => candidate.parent.id === item.id)
+          return group && group.matched.length > 0 ? [group] : []
+        })
+        ungrouped = []
+      }
 
       return (
         <>
-          {groups.map(({ parent, matched }) =>
+          {ordered.map(({ parent, matched }) =>
             parent.direct ? (
               <div class="grp">
                 <a class="sec" href={`#${matched[0].slug}`} data-for={matched[0].slug}>

@@ -130,6 +130,14 @@ No public recalls or enforcement actions specifically targeting heavy metals in 
 
 _Frame: if FDA, Health Canada, EU, or national-agency enforcement actions involving heavy metals in this product category are identified in future ingest, they will appear here as regulatory events. This section does not rank brands._
 
+## Review
+
+No evidence review yet in our corpus.
+
+## FAQs
+
+No frequently asked questions have been compiled for this page yet.
+
 <!-- BEGIN: hmi-page-references -->
 ## References
 

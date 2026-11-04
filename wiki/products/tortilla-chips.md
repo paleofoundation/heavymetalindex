@@ -327,6 +327,10 @@ _No quantified data on this lever in the current corpus; section will be expande
 
 No FDA action level specific to tortilla chips or corn snack products is currently in force. The EU sets maximum levels for Cd in cereals (0.10 mg/kg, or 100 ppb) and for Pb in cereals (0.20 mg/kg, or 200 ppb) under [[regulations/eu2023-contaminants-maximum-levels]], and these limits are applicable to corn-based food products sold in the EU. [[regulations/codex-cadmium-mls]] provides the international Codex ML for cereal grains, which forms the basis for many national limits outside the EU. [[regulations/fda-closer-to-zero]] Pb guidance covers processed baby foods but does not currently address tortilla chips or snack corn products.
 
+## Details
+
+No further detail has been compiled from the corpus yet.
+
 <!-- BEGIN: hmi-profile-evidence-correction -->
 ## Interpretation of source evidence
 
@@ -336,6 +340,10 @@ Source observations and population estimates are different. A non-detect supplie
 
 **tHg.** FDA source observations are non-detects at the reporting limits below. They do not estimate a zero population concentration; other literature remains separate context.
 <!-- END: hmi-profile-evidence-correction -->
+
+## FAQs
+
+No frequently asked questions have been compiled for this page yet.
 
 <!-- BEGIN: hmi-page-references -->
 ## References

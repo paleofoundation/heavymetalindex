@@ -194,6 +194,18 @@ _No quantified data on this lever in the current corpus; section will be expande
 
 Flavored carbonated bottled waters fall under drinking water or natural mineral water regulations in most jurisdictions rather than under food contaminant limits. The EU Drinking Water Directive (2020/2184/EU) sets a limit for arsenic in drinking water of 10 µg/L (equivalent to 10 ppb), which applies to bottled waters intended for human consumption. For lead, the EU Drinking Water Directive sets 5 µg/L at the consumer tap, reflecting plumbing contributions; for bottled waters the limit is applied at the point of packaging. Cadmium is limited to 5 µg/L in EU drinking water. The EU does not apply the general food Pb maximum levels from [[regulations/eu2023-contaminants-maximum-levels]] to beverages sold as waters; instead, drinking water directive limits govern. In the United States, FDA regulates bottled water under its food safety authority using standards of quality that mirror EPA maximum contaminant levels (MCLs), including As at 10 µg/L and Pb at 5 µg/L for bottled water. Flavoring additions that transform a product into a flavored beverage rather than a water may alter which regulatory framework applies, and manufacturers should verify classification with their relevant competent authority.
 
+## Details
+
+No further detail has been compiled from the corpus yet.
+
+## Review
+
+No evidence review yet in our corpus.
+
+## FAQs
+
+No frequently asked questions have been compiled for this page yet.
+
 ## Sources
 
 - [[sources/fsa2016-infant-food-formula-metals-survey]]

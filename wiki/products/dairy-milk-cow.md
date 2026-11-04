@@ -55,6 +55,10 @@ Arellano and colleagues report total arsenic with a detection limit of 10 ng/g. 
 
 <!-- END: hmi-cited-measurements -->
 
+## Mitigation
+
+No mitigation evidence yet in our corpus.
+
 ## Cow milk and gut studies that did not use a milk lot
 
 Liquid cow milk is a drink, not infant formula and not the yogurt in the occupational trial below. The studies are infant urinary arsenic, a five-day rat gavage, rat cadmium chloride, lead biomarkers, a mercury review, and that yogurt trial. A dairy specification should keep the milk metal panel separate from those models.
@@ -88,6 +92,14 @@ Liquid cow milk is a drink, not infant formula and not the yogurt in the occupat
 ### What remains uncertain
 
 Hoen and colleagues did not split cow milk from formula. The rat gavage used arsenite, cadmium chloride, and a hexavalent chromium salt, and it did not print milligram doses. The chromium arm is not total chromium in milk. The yogurt trial enrolled occupationally exposed adults. Liu and colleagues do not print the cadmium dose. The mercury review does not speciate milk mercury.
+
+## Review
+
+No evidence review yet in our corpus.
+
+## FAQs
+
+No frequently asked questions have been compiled for this page yet.
 
 <!-- BEGIN: hmi-page-references -->
 ## References

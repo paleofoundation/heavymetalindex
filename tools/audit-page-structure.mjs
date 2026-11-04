@@ -18,6 +18,7 @@
 import fs from "node:fs"
 import path from "node:path"
 import { pathToFileURL } from "node:url"
+import { pageHasCanonicalRails } from "./lib/canonical-page-rails.mjs"
 
 export const BASELINE_PATH = "data/evidence/page-structure-baseline.json"
 
@@ -277,10 +278,15 @@ function citationDefect(content) {
   return DOI.test(text) || AUTHOR_YEAR.test(text)
 }
 
+// The nine sidebar rails use these exact H2s when a page has no role heading
+// yet. They are the canonical structure, not the banned filler headings.
+const CANONICAL_RAIL_H2 = /^(?:Overview|Contamination|Mitigation|Details|Review|FAQs)$/i
+
 function genericDefect(content) {
-  return headingsOf(content).some(
-    (heading) => GENERIC_EXACT.test(heading.title) || GENERIC_PREFIX.test(heading.title),
-  )
+  return headingsOf(content).some((heading) => {
+    if (CANONICAL_RAIL_H2.test(heading.title)) return false
+    return GENERIC_EXACT.test(heading.title) || GENERIC_PREFIX.test(heading.title)
+  })
 }
 
 function symbolDefect(content) {
@@ -296,7 +302,8 @@ function consumerDefect(content) {
   return headingsOf(content).some((heading) => CONSUMER_HEADING.test(heading.title))
 }
 
-function sectionDefect(content, roles) {
+function sectionDefect(content, roles, type) {
+  if ((type === "ingredient" || type === "product") && pageHasCanonicalRails(content)) return false
   const headings = headingsOf(content)
   const positions = []
   let missing = false
@@ -322,7 +329,7 @@ export function auditPage(type, content, { stub }) {
   if (genericDefect(content)) failures.push("generic_headings")
   if (symbolDefect(content)) failures.push("metal_symbols")
   if (consumerDefect(content)) failures.push("consumer_audience")
-  if (!stub && sectionDefect(content, rolesFor(type))) {
+  if (!stub && sectionDefect(content, rolesFor(type), type)) {
     failures.push("section_presence_and_order")
   }
   if (uncertaintyDefect(content)) failures.push("uncertainty_note")

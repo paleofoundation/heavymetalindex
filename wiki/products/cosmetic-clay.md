@@ -132,6 +132,10 @@ hmtc_taxonomy_version: "2.3"
 >
 > **Triggering source:** [[sources/nkosi2024-durban-cosmetic-clays]]
 
+## Mitigation
+
+No mitigation evidence yet in our corpus.
+
 ## Verified source scope
 
 [[sources/nkosi2024-durban-cosmetic-clays]] measures two red/white market clays sold for topical use in Durban, South Africa. Results describe prepared dry material; analytical sensitivity, dermal availability and wider market prevalence are unresolved. The ingredient contamination profile remains pending synthesis.
@@ -155,6 +159,14 @@ The clays on this page were sold for direct skin use. Gut, stool, drinking-water
 ### What remains uncertain
 
 The human, animal, and in vitro gut papers in the source set do not dose cosmetic clay, do not report a dermal metal dose, and do not sample the skin microbiota. Product culture of the clay, if a brand runs it, is a hygiene test and is not in the sources used here. That source set does not support a longer account.
+
+## Review
+
+No evidence review yet in our corpus.
+
+## FAQs
+
+No frequently asked questions have been compiled for this page yet.
 
 <!-- BEGIN: hmi-page-references -->
 ## References

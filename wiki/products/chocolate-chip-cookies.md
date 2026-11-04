@@ -268,6 +268,18 @@ _No quantified data on this lever in the current corpus; section will be expande
 
 EU Regulation 2023/915 ([[regulations/eu-2023-915-cadmium]]) sets cadmium maximum levels for cocoa and chocolate ingredients; the applicable limit for chocolate chip cookies as a finished product would be assessed by reference to the limits for the constituent cereal and chocolate fractions. The general EU contaminants regulation ([[regulations/eu2023-contaminants-maximum-levels]]) applies lead limits to cereal-based fine bakery products. Codex CXS 193-1995 ([[regulations/codex-cadmium-mls]]) provides cadmium limits for cocoa and cereal products. No specific US FDA action level applies to chocolate chip cookies as a finished product; the FDA Closer to Zero program ([[regulations/fda-closer-to-zero]]) covers infant and toddler food categories. The chromium detected at 300 ppb in the single TDS sample represents total chromium, not Cr-VI; EU limits and HMT&C analyte tracking for Cr apply to Cr-VI specifically, which is not documented in the TDS data.
 
+## Details
+
+No further detail has been compiled from the corpus yet.
+
+## Review
+
+No evidence review yet in our corpus.
+
+## FAQs
+
+No frequently asked questions have been compiled for this page yet.
+
 <!-- BEGIN: hmi-page-references -->
 ## References
 

@@ -23,6 +23,18 @@ evidence_scope: navigation-only
 
 # Ready-to-feed infant formula
 
+## Overview
+
+No overview has been written from the corpus yet.
+
+## Contamination
+
+No measured data yet in our corpus.
+
+## Mitigation
+
+No mitigation evidence yet in our corpus.
+
 ## Coverage
 
 This directory preserves the ready-to-feed format without assuming soy or non-soy formulation.
@@ -45,6 +57,14 @@ This is a provisional evidence destination. A dedicated synthesis has not been c
 <!-- BEGIN: source-legend -->
 <!-- END: source-legend -->
 
+## Review
+
+No evidence review yet in our corpus.
+
+## FAQs
+
+No frequently asked questions have been compiled for this page yet.
+
 <!-- BEGIN: hmi-page-references -->
 ## References
 
@@ -52,6 +72,12 @@ Works cited in this page's text, in first-appearance order. Each title links to 
 
 1. [[sources/kirkpatrick1980-trace-elements-canadian-baby-foods|The Trace Element Content of Canadian Baby Foods and Estimation of Trace Element Intake by Infants]]<span class="hmi-ref-meta">Kirkpatrick DC, Conacher HBS, Méranger JC, Dabeka R, Collins B, McKenzie AD, et al. · Canadian Institute of Food Science and Technology Journal 13(4):154-161 · 1980 · [doi.org/10.1016/S0315-5463(80)73396-5](https://doi.org/10.1016/S0315-5463(80)73396-5)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 <!-- END: hmi-page-references -->
+
+<!-- BEGIN: hmi-source-legend -->
+## Sources
+
+No source list has been compiled into this section yet.
+<!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

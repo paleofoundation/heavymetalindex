@@ -90,6 +90,14 @@ Soy infant formula powder is an early diet with its own protein source. The stud
 
 Hoen and colleagues did not split soy formula from other formula. Soto-Ocana and colleagues do not print a metal concentration. Dahan and colleagues used larval zebrafish. Liu and colleagues do not print the cadmium dose. The mercury review does not speciate formula mercury.
 
+## Review
+
+No evidence review yet in our corpus.
+
+## FAQs
+
+No frequently asked questions have been compiled for this page yet.
+
 <!-- BEGIN: hmi-page-references -->
 ## References
 

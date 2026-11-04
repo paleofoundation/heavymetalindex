@@ -329,6 +329,10 @@ Enamel-lined cans substantially reduce tin migration. For retorted canned produc
 
 EU Regulation 2023/915 ([[regulations/eu-2023-915-cadmium]]) and the general contaminants regulation ([[regulations/eu2023-contaminants-maximum-levels]]) do not set a single composite limit for canned chili as a finished product; applicable limits apply to constituent ingredients (beef muscle, legumes, tomato products, cereal-derived ingredients if applicable). For nickel, the EU does set maximum levels: Commission Regulation (EU) 2024/1987 inserted nickel as Annex I point 3.6 of Regulation (EU) 2023/915 ([[regulations/eu-2024-1987-nickel-maximum-levels]]), applying from 1 July 2025, including limits on the bean fraction (pulses 4.0 mg/kg, point 3.6.9.1; dry beans and dry lupins 12 mg/kg, point 3.6.9.2; legume vegetables 1.0 mg/kg, point 3.6.6.1). Canned chili as a finished composite is not itself a listed category, so no single finished-product nickel level applies; the ingredient-level limits govern the legume fraction and the composite is handled under Article 3 (ingredient proportions, processing factors). Commission Recommendation (EU) 2024/907 ([[regulations/eu-2024-907-nickel-monitoring]]) additionally directs Member States to monitor nickel in pulses through 2025–2027. The United States sets no nickel limit in food. No specific US FDA action level applies to canned chili; the FDA Closer to Zero program ([[regulations/fda-closer-to-zero]]) covers infant and toddler foods. Codex CXS 193-1995 ([[regulations/codex-cadmium-mls]]) provides cadmium limits for legumes (pulses): the applicable Codex limit for dried legumes is 0.10 mg/kg, and for canned legumes it is generally addressed under the fresh/dried category limit. For tin in canned foods, the Codex ML is 200 mg/kg and the EU limit is 200 mg/kg for non-beverages.
 
+## Details
+
+No further detail has been compiled from the corpus yet.
+
 <!-- BEGIN: hmi-profile-evidence-correction -->
 ## Interpretation of source evidence
 
@@ -338,6 +342,10 @@ Source observations and population estimates are different. A non-detect supplie
 
 **Cr.** FDA source observations are non-detects at the reporting limits below. They do not estimate a zero population concentration; other literature remains separate context.
 <!-- END: hmi-profile-evidence-correction -->
+
+## FAQs
+
+No frequently asked questions have been compiled for this page yet.
 
 <!-- BEGIN: hmi-page-references -->
 ## References

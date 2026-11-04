@@ -66,6 +66,10 @@ Tjandraatmadja and colleagues report soap bars, in mg/kg of finished product. Se
 
 <!-- END: hmi-cited-measurements -->
 
+## Mitigation
+
+No mitigation evidence yet in our corpus.
+
 ## Bathing soap is a rinse-off skin product
 
 Soap is applied to skin and rinsed. Gut studies of swallowed biomarkers, gavages, and occupational serum did not wash with this soap, and they do not describe the skin microbiota after a bath.
@@ -73,6 +77,14 @@ Soap is applied to skin and rinsed. Gut studies of swallowed biomarkers, gavages
 ### What remains uncertain
 
 Hexavalent chromium gavage and occupational nickel are not soap concentrations. No stool or skin-microbiome study of this soap is cited.
+
+## Review
+
+No evidence review yet in our corpus.
+
+## FAQs
+
+No frequently asked questions have been compiled for this page yet.
 
 <!-- BEGIN: hmi-page-references -->
 ## References

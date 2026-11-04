@@ -415,6 +415,10 @@ _No quantified data on this lever in the current corpus; section will be expande
 
 EU Regulation 2023/915 ([[regulations/eu-2023-915-cadmium]]) and the general contaminants framework ([[regulations/eu2023-contaminants-maximum-levels]]) do not set a single composite limit for chicken potpie as a finished product; the applicable limits are those for each constituent ingredient category (cereal, poultry, vegetables). No specific US FDA action level applies to frozen potpie; the FDA Closer to Zero program ([[regulations/fda-closer-to-zero]]) covers infant and toddler food categories. Codex CXS 193-1995 ([[regulations/codex-cadmium-mls]]) similarly addresses ingredient categories. The TDS data showing Cd at a median of 6.3 ppb and all Pb and As measurements below reporting limits in the finished product is consistent with a product well within any applicable limits at the ingredient level.
 
+## Details
+
+No further detail has been compiled from the corpus yet.
+
 <!-- BEGIN: hmi-profile-evidence-correction -->
 ## Interpretation of source evidence
 
@@ -430,6 +434,10 @@ Source observations and population estimates are different. A non-detect supplie
 
 **U.** FDA source observations are non-detects at the reporting limits below. They do not estimate a zero population concentration; other literature remains separate context.
 <!-- END: hmi-profile-evidence-correction -->
+
+## FAQs
+
+No frequently asked questions have been compiled for this page yet.
 
 <!-- BEGIN: hmi-page-references -->
 ## References

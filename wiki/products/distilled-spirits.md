@@ -150,6 +150,10 @@ Data gap: cadmium, aluminum, nickel, and tin means are not copied from the incon
 
 <!-- END: hmi-cited-measurements -->
 
+## Mitigation
+
+No mitigation evidence yet in our corpus.
+
 ## Whisky distillation and gut studies of lead, mercury, and hexavalent chromium
 
 Whisky is a distilled spirit. Fermentation and distillation change the product. They are not a model of the infant gut or of a mouse gavage. The chromium reported for whisky on this page is total chromium, not hexavalent chromium. Mercury in the notes is total mercury, with values below a stated quantification limit in one survey. The studies below did not dose whisky.
@@ -177,6 +181,14 @@ Whisky is a distilled spirit. Fermentation and distillation change the product. 
 ### What remains uncertain
 
 Both chromium gut studies used hexavalent salts. They do not describe total chromium in a spirit. The mercury sentence is a review of methylmercury metabolism and does not speciate the whisky mercury rows. Lead cohorts use biomarkers, not a bottle concentration. No study cited here sampled stool after whisky.
+
+## Review
+
+No evidence review yet in our corpus.
+
+## FAQs
+
+No frequently asked questions have been compiled for this page yet.
 
 <!-- BEGIN: hmi-page-references -->
 ## References

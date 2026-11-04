@@ -214,6 +214,18 @@ Commission Regulation (EU) 2023/915 prints total mercury maximum levels of 1.0 m
 
 Under EU Regulation (EC) No 1881/2006 as amended (see [[regulations/eu2023-contaminants-maximum-levels]]), the applicable Pb maximum level for fish (muscle meat) is 0.30 mg/kg (300 ppb) wet weight. The Cd maximum level for fish muscle is 0.050 mg/kg (50 ppb) wet weight for most species, rising to 0.10 mg/kg (100 ppb) for species such as tuna, anchovies, and bonito that are known Cd accumulators. The total Hg (tHg) maximum level for fish is 0.50 mg/kg (500 ppb) wet weight for most commercial species, with a higher limit of 1.0 mg/kg (1,000 ppb) for predatory species such as marlin, swordfish, and shark. For canned fish products, a specific Sn maximum of 200 mg/kg applies under EU rules, reflecting the can-migration pathway. In the United States, FDA and EPA have established consumption frequency guidance for fish based on Hg content, including specific guidance for pregnant women, nursing mothers, and young children. FDA does not publish a numerical Hg action level for canned fish equivalent to the EU limits, but the consumption guidance is functionally equivalent for high-exposure populations. The broader FDA Closer to Zero program (see [[regulations/fda-closer-to-zero]]) does not specifically address canned fish as a primary category for Pb reduction efforts, given that Hg rather than Pb is the dominant concern for this food type.
 
+## Details
+
+No further detail has been compiled from the corpus yet.
+
+## Review
+
+No evidence review yet in our corpus.
+
+## FAQs
+
+No frequently asked questions have been compiled for this page yet.
+
 <!-- BEGIN: hmi-page-references -->
 ## References
 

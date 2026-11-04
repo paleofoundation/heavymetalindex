@@ -203,6 +203,18 @@ _No quantified data on this lever in the current corpus; section will be expande
 
 The EU general food law maximum level for Pb in fruit juices under [[regulations/eu2023-contaminants-maximum-levels]] is 0.050 mg/kg (50 ppb), which is stricter than the general food Pb limit and reflects the elevated Pb levels historically observed in concentrated and processed juice products. For fruit juices specifically intended for infants and young children (labeled as such), the EU applies an even stricter maximum Pb limit. No EU maximum level exists for total arsenic in fruit juice; the regulatory focus for arsenic in food is on inorganic arsenic in specific high-risk commodities (cereals, rice). In the United States, FDA has established a guidance level for Pb in juice (all types) of 50 ppb, issued in the context of the juice HACCP regulation and available at [[regulations/fda-juice-haccp-lead-50ppb]], which applies to juice as a food safety reference point. For arsenic in apple juice specifically, FDA has issued draft guidance recommending a limit of 10 ppb for inorganic arsenic, consistent with the drinking water MCL, though this guidance had not been finalized as of the current date.
 
+## Details
+
+No further detail has been compiled from the corpus yet.
+
+## Review
+
+No evidence review yet in our corpus.
+
+## FAQs
+
+No frequently asked questions have been compiled for this page yet.
+
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 

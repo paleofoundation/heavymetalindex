@@ -363,6 +363,10 @@ _No quantified data on packaging or storage effects on heavy metal content in co
 
 The European Union under [[regulations/eu2023-contaminants-maximum-levels]] sets a maximum level for cadmium in processed cereal-based foods of 0.040 mg/kg (40 ppb) for products specifically marketed for infants and young children, and a general cereal maximum of 0.10 mg/kg (100 ppb) for other cereal products. For lead, the EU general cereal maximum is 0.20 mg/kg (200 ppb). For nickel, the EU has set a maximum level for cereals: Commission Regulation (EU) 2024/1987 inserted nickel as Annex I point 3.6 of Regulation (EU) 2023/915 ([[regulations/eu-2024-1987-nickel-maximum-levels]]), with a general cereal limit of 0.80 mg/kg (800 ppb, point 3.6.11.1) applying from 1 July 2026 (a corn-flakes product falls under this general cereal row). No EU food-matrix maximum level applies to total chromium; chromium as Cr-VI is subject to separate drinking-water and occupational standards rather than food maximum levels. Codex Alimentarius sets a general cereal maximum of 0.10 mg/kg for Cd and 0.20 mg/kg for Pb.
 
+## Details
+
+No further detail has been compiled from the corpus yet.
+
 <!-- BEGIN: hmi-profile-evidence-correction -->
 ## Interpretation of source evidence
 
@@ -374,6 +378,10 @@ Source observations and population estimates are different. A non-detect supplie
 
 **U.** FDA source observations are non-detects at the reporting limits below. They do not estimate a zero population concentration; other literature remains separate context.
 <!-- END: hmi-profile-evidence-correction -->
+
+## FAQs
+
+No frequently asked questions have been compiled for this page yet.
 
 <!-- BEGIN: hmi-page-references -->
 ## References

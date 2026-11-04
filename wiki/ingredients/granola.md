@@ -138,6 +138,10 @@ The 2021 bread and breakfast-cereal note reports two granola rows in Table 7, in
 
 <!-- END: hmi-cited-measurements -->
 
+## Mitigation
+
+No mitigation evidence yet in our corpus.
+
 ## Granola chromium species and the hexavalent chromium gut experiments
 
 The granola note on this page reports chromium mostly as chromium(III), with hexavalent chromium below the stated limit of quantification. The mouse gut experiments that report large diversity changes used hexavalent chromium salts by gavage. A cereal brand should not attach those findings to a chromium(III) result, and should keep the species the laboratory reported.
@@ -156,6 +160,14 @@ The granola note on this page reports chromium mostly as chromium(III), with hex
 ### What remains uncertain
 
 Both gut studies are hexavalent chromium, at a gavage dose in one case and at an unprinted dose in the other. They do not describe chromium(III) in oats or granola. No study cited here sequenced stool after granola intake. The species mismatch is the limit on what these papers can support.
+
+## Review
+
+No evidence review yet in our corpus.
+
+## FAQs
+
+No frequently asked questions have been compiled for this page yet.
 
 <!-- BEGIN: hmi-page-references -->
 ## References

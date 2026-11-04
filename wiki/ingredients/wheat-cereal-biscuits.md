@@ -215,6 +215,18 @@ FDA measured the prepared foods named below. Each row describes that food and pr
 | 514: Cereal, shredded wheat, frosted | U | 3 | 0 | ND in all composites | 1 |
 <!-- END: hmi-fda-tds-occurrence -->
 
+## Details
+
+No further detail has been compiled from the corpus yet.
+
+## Review
+
+No evidence review yet in our corpus.
+
+## FAQs
+
+No frequently asked questions have been compiled for this page yet.
+
 <!-- BEGIN: hmi-page-references -->
 ## References
 

@@ -142,6 +142,10 @@ The 2015 note reports 72 commercial gluten-free cereal bars, in ug/kg. Apple (n 
 
 <!-- END: hmi-cited-measurements -->
 
+## Mitigation
+
+No mitigation evidence yet in our corpus.
+
 ## Cereal bars and gut studies of lead, cadmium, and arsenic
 
 Cereal bars on this page are reported with lead, cadmium, and total arsenic. Those are ingredient or product chemistry results. The gut papers below are a childhood lead cohort, a mouse drinking-water cadmium study, and a mouse drinking-water arsenic study. A bar brand can cite the model and the direction. It cannot cite a microbiome endpoint for the bar.
@@ -179,6 +183,14 @@ FDA measured the prepared foods named below. Each row describes that food and pr
 | 523: Granola bar | Ni | 3 | 3 | 930–1300 | 40 |
 | 523: Granola bar | U | 3 | 0 | ND in all composites | 1 |
 <!-- END: hmi-fda-tds-occurrence -->
+
+## Review
+
+No evidence review yet in our corpus.
+
+## FAQs
+
+No frequently asked questions have been compiled for this page yet.
 
 <!-- BEGIN: hmi-page-references -->
 ## References

@@ -172,6 +172,14 @@ HMT&C certification thresholds for Cat 2 children's personal-care products are d
 - New York TCCP Chemical Lists (disclosure requirements for heavy metals in cosmetics); Rows 4, 11-16.
 - CPSIA Lead in children's products 100 ppm total Pb (toys + ancillary children's products; cosmetics generally exempt but used as default benchmark by retailer compliance teams).
 
+## Review
+
+No evidence review yet in our corpus.
+
+## FAQs
+
+No frequently asked questions have been compiled for this page yet.
+
 ## Sources
 
 <!-- BEGIN: hmi-page-references -->

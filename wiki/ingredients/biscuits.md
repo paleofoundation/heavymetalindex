@@ -138,6 +138,10 @@ The 2022 note reports 36 imported biscuits sold in Basrah, Iraq, sampled July to
 
 <!-- END: hmi-cited-measurements -->
 
+## Mitigation
+
+No mitigation evidence yet in our corpus.
+
 ## Biscuits and gut studies of lead, zinc, and copper
 
 Biscuit specifications on this page include lead, zinc, and copper. Those are lot-chemistry results. The gut literature below is about tooth lead in infants, experimental zinc diets in mice, and an occupational probiotic trial that moved blood copper. A baker or ingredient supplier can cite them only for those models.
@@ -159,6 +163,14 @@ Biscuit specifications on this page include lead, zinc, and copper. Those are lo
 ### What remains uncertain
 
 No study cited here sequenced gut or product microbiota in biscuits. Zinc doses are milligrams per kilogram of experimental mouse diet, not a biscuit concentration. The copper result is from occupationally exposed adults eating a study yogurt.
+
+## Review
+
+No evidence review yet in our corpus.
+
+## FAQs
+
+No frequently asked questions have been compiled for this page yet.
 
 <!-- BEGIN: hmi-page-references -->
 ## References

@@ -217,6 +217,20 @@ No opened study measures dermal absorption of any of these metals from a baby wi
 
 [[sources/choi2016-wet-wipes-nonwoven-heavy-metals|Choi, Song, and Kim 2016]] is a source record. The solution concentrations, and the labeled reconstruction, are in `data/evidence/choi2016-wet-wipes-solution-ug-per-l.csv`. The reconstruction is not the printed result.
 
+## Review
+
+No evidence review yet in our corpus.
+
+## FAQs
+
+No frequently asked questions have been compiled for this page yet.
+
+<!-- BEGIN: hmi-page-references -->
+## References
+
+Works cited in this page's text do not yet have a numbered reference list in this section.
+<!-- END: hmi-page-references -->
+
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 

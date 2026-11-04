@@ -85,6 +85,20 @@ This page reports what the peer-reviewed and government literature says about he
 
 _Public-record regulatory events for this product category will be summarized here as the synthesis pass identifies them. Recalls are framed as regulatory events, not brand rankings._
 
+## Review
+
+No evidence review yet in our corpus.
+
+## FAQs
+
+No frequently asked questions have been compiled for this page yet.
+
+<!-- BEGIN: hmi-page-references -->
+## References
+
+Works cited in this page's text do not yet have a numbered reference list in this section.
+<!-- END: hmi-page-references -->
+
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 

@@ -138,6 +138,10 @@ The 2022 Galati County note reports white beans in µg/kg fresh weight, as marke
 
 <!-- END: hmi-cited-measurements -->
 
+## Mitigation
+
+No mitigation evidence yet in our corpus.
+
 ## White beans and gut studies of lead, cadmium, arsenic, and zinc
 
 White beans are a pulse. The studies below are tooth and maternal blood lead, rat and mouse cadmium, infant urinary arsenic, larval zebrafish water, and experimental zinc diets. A bean cadmium or zinc result on a specification is not any of those doses. Cooking and soaking are not factors in these papers.
@@ -171,6 +175,14 @@ White beans are a pulse. The studies below are tooth and maternal blood lead, ra
 ### What remains uncertain
 
 No study cited here fed white beans. Liu and colleagues do not print the cadmium dose. Dahan and colleagues used larval zebrafish and did not name the arsenic species. Urinary arsenic is a biomarker. Zinc diets at 0 to 600 mg/kg are experimental, not a cooked bean.
+
+## Review
+
+No evidence review yet in our corpus.
+
+## FAQs
+
+No frequently asked questions have been compiled for this page yet.
 
 <!-- BEGIN: hmi-page-references -->
 ## References

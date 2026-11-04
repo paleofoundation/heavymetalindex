@@ -98,6 +98,18 @@ Infant formula ingredient variance is documented in the corpus at the finished-f
 
 See [[ingredients/infant-formula-powder]] and [[ingredients/infant-formula-rtf-liquid]] for the format-specific synthesis combining these ingredient inputs.
 
+## Details
+
+No further detail has been compiled from the corpus yet.
+
+## Review
+
+No evidence review yet in our corpus.
+
+## FAQs
+
+No frequently asked questions have been compiled for this page yet.
+
 <!-- BEGIN: hmi-page-references -->
 ## References
 

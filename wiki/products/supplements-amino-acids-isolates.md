@@ -144,6 +144,20 @@ HMT&C certification thresholds for this row are developed under the certificatio
 
 *Public regulatory events for this row, such as recalls and import alerts, will be listed here as they are catalogued.*
 
+## Review
+
+No evidence review yet in our corpus.
+
+## FAQs
+
+No frequently asked questions have been compiled for this page yet.
+
+<!-- BEGIN: hmi-page-references -->
+## References
+
+Works cited in this page's text do not yet have a numbered reference list in this section.
+<!-- END: hmi-page-references -->
+
 ## Sources
 
 *Sources for this row will be listed here once they are catalogued.*

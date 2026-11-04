@@ -61,6 +61,14 @@ The measurements on this page are tin in canned foods, including dissolved tin f
 
 A tin concentration in syrup or solids is a chemistry result. This page does not cite a human, animal, or in vitro gut study of canned food.
 
+## Review
+
+No evidence review yet in our corpus.
+
+## FAQs
+
+No frequently asked questions have been compiled for this page yet.
+
 <!-- BEGIN: hmi-page-references -->
 ## References
 

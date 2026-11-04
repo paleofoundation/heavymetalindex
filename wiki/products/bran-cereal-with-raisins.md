@@ -299,6 +299,10 @@ No significant Sn migration pathway applies to this product, which is not packag
 
 For the cereal/bran fraction, the EU [[regulations/eu2023-contaminants-maximum-levels]] sets a maximum level for Cd in bran and germ products for direct human consumption of 0.20 mg/kg (200 ppb wet weight). For cereal grain intended for processing into foods for human consumption, the Cd limit is 0.10 mg/kg. No specific EU or Codex maximum level applies to the raisin component for Pb or Cd in the context of dried grape inclusions in mixed cereal products; fresh grapes are subject to an EU Pb limit of 0.10 mg/kg and Cd limit of 0.050 mg/kg, but the raisin concentration factor means the dried-fruit fraction may carry proportionally higher values. The FDA does not currently have a specific action level for Cd or Pb in ready-to-eat cereals; FDA Closer to Zero [[regulations/fda-closer-to-zero]] applies to foods intended for young children and infants, not to general adult cereals.
 
+## Details
+
+No further detail has been compiled from the corpus yet.
+
 <!-- BEGIN: hmi-profile-evidence-correction -->
 ## Interpretation of source evidence
 
@@ -306,6 +310,10 @@ Source observations and population estimates are different. A non-detect supplie
 
 **tHg.** FDA source observations are non-detects at the reporting limits below. They do not estimate a zero population concentration; other literature remains separate context.
 <!-- END: hmi-profile-evidence-correction -->
+
+## FAQs
+
+No frequently asked questions have been compiled for this page yet.
 
 <!-- BEGIN: hmi-page-references -->
 ## References

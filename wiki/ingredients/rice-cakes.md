@@ -198,6 +198,18 @@ The EU has established a specific maximum level for iAs in rice-based foods for 
 
 Commission Regulation (EU) 2023/915 sets the inorganic arsenic maximum for rice waffles, wafers, crackers, cakes, flakes, and popped breakfast rice at 0.30 mg/kg (300 µg/kg) as placed on the market ([[sources/eu-2023-915-contaminants-maximum-levels|3]]).
 
+## Details
+
+No further detail has been compiled from the corpus yet.
+
+## Review
+
+No evidence review yet in our corpus.
+
+## FAQs
+
+No frequently asked questions have been compiled for this page yet.
+
 <!-- BEGIN: hmi-page-references -->
 ## References
 

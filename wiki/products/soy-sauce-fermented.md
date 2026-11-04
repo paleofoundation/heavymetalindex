@@ -34,6 +34,28 @@ hero_image_alt: "Separate dishes of soybeans, tofu cubes, pale powder and dark s
 
 No sources are catalogued for this row yet.
 
+## Mitigation
+
+No mitigation evidence yet in our corpus.
+
+## Details
+
+No further detail has been compiled from the corpus yet.
+
+## Review
+
+No evidence review yet in our corpus.
+
+## FAQs
+
+No frequently asked questions have been compiled for this page yet.
+
+<!-- BEGIN: hmi-page-references -->
+## References
+
+Works cited in this page's text do not yet have a numbered reference list in this section.
+<!-- END: hmi-page-references -->
+
 ## Sources
 
 <!-- BEGIN: source-legend -->

@@ -242,6 +242,18 @@ _No quantified data on packaging or storage effects on heavy metal content in cu
 
 Under the European Union [[regulations/eu2023-contaminants-maximum-levels]], the maximum level for lead in liquid milk is 0.020 mg/kg (20 ppb) wet weight, one of the strictest food-category lead limits in the EU framework, reflecting the use of dairy as a major dietary staple particularly for infants and children. Custard, as a prepared dairy-based product, would fall under EU limits for processed dairy products, where the applicable lead ML depends on the product's dairy fraction and the specific regulatory product category. For cadmium, dairy products are subject to a maximum of 0.050 mg/kg (50 ppb) under EU general food contaminant rules. Codex Alimentarius (CXS 193-1995 and revisions) sets a lead limit of 0.020 mg/kg for liquid milk. No US federal maximum level for lead or cadmium in custard or prepared dairy desserts has been finalized as of 2026.
 
+## Details
+
+No further detail has been compiled from the corpus yet.
+
+## Review
+
+No evidence review yet in our corpus.
+
+## FAQs
+
+No frequently asked questions have been compiled for this page yet.
+
 ## Sources
 
 - [[sources/fsa2016-infant-food-formula-metals-survey]]

@@ -98,6 +98,14 @@ This page is a broad infant-food class, not one recipe. The studies below are le
 
 Hoen and colleagues used urinary total arsenic and formula-feeding strata, not a named infant food. Dahan and colleagues did not name the arsenic species. The rat chromium salt is hexavalent, so it is not total chromium in infant food. The mercury review does not speciate methylmercury. Liu and colleagues do not print the cadmium dose.
 
+## Review
+
+No evidence review yet in our corpus.
+
+## FAQs
+
+No frequently asked questions have been compiled for this page yet.
+
 <!-- BEGIN: hmi-page-references -->
 ## References
 

@@ -58,6 +58,14 @@ This is a non-food, adult nickel-contact node — body-piercing posts and studs 
 - [[regulations/eu-nickel-directive-94-27-ec]]
 - [[testing/en-1811-nickel-release]]
 
+## Review
+
+No evidence review yet in our corpus.
+
+## FAQs
+
+No frequently asked questions have been compiled for this page yet.
+
 <!-- BEGIN: hmi-page-references -->
 ## References
 

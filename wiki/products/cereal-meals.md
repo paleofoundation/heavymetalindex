@@ -51,6 +51,10 @@ Alharbi and colleagues report cereal-based meals, n=33, as middle-bound concentr
 
 <!-- END: hmi-cited-measurements -->
 
+## Mitigation
+
+No mitigation evidence yet in our corpus.
+
 ## Cereal meals and gut studies that did not use this dish
 
 Cereal meals are prepared grain foods. The studies below are lead biomarkers, rat and mouse cadmium, infant urinary arsenic, and larval zebrafish water. The bowl is not the dose in any of them.
@@ -81,6 +85,14 @@ Cereal meals are prepared grain foods. The studies below are lead biomarkers, ra
 ### What remains uncertain
 
 No study cited here fed a cereal meal. Dahan and colleagues did not name the arsenic species. Liu and colleagues do not print the cadmium dose. Tooth lead and urinary arsenic are biomarkers.
+
+## Review
+
+No evidence review yet in our corpus.
+
+## FAQs
+
+No frequently asked questions have been compiled for this page yet.
 
 <!-- BEGIN: hmi-page-references -->
 ## References

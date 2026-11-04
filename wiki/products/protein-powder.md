@@ -210,6 +210,10 @@ A reanalysis of two earlier third-party sets without brand names used a Consumer
 
 FDA Total Diet Study food 510, three protein-powder composites, measured lead at 5.7 to 7.9 µg/kg and cadmium at 8.1 to 22 µg/kg. Total mercury was not detected in any composite (reporting limit 1 µg/kg) ([[sources/fda2022-tds-elements-fy2018-fy2020|3]]). The Canadian Food Inspection Agency 2018-19 survey of 195 protein powders, with means calculated from quantifiable results only, reported mean lead of 0.035 ppm (mg/kg) and mean cadmium of 0.060 ppm (mg/kg). Lead was detected in 71 percent of protein powders, and one brown rice protein powder had 0.022 ppm total mercury, the survey maximum ([[sources/cfia2020-toxic-metals-selected-foods-2018-19|4]]).
 
+## Mitigation
+
+No mitigation evidence yet in our corpus.
+
 ## Protein powder metals and gut studies that did not use a powder serving
 
 Protein powders on this page are reported as arsenic, cadmium, lead, and mercury in a serving or in a survey lot. The gut records below are urinary arsenic, larval zebrafish water, rat cadmium chloride, tooth and maternal blood lead, and a review of methylmercury metabolism. A powder brand should not convert a biomarker or a review into a per-serving microbiome claim.
@@ -240,6 +244,14 @@ Protein powders on this page are reported as arsenic, cadmium, lead, and mercury
 ### What remains uncertain
 
 No study cited here fed protein powder or separated whey, plant, and collagen lots. Dahan and colleagues used larval zebrafish and did not name the arsenic species. Liu and colleagues do not print the cadmium dose. Giambo and colleagues review other papers. They do not print a mercury fraction, and the powder notes that report mercury do not all speciate methylmercury.
+
+## Review
+
+No evidence review yet in our corpus.
+
+## FAQs
+
+No frequently asked questions have been compiled for this page yet.
 
 <!-- BEGIN: hmi-page-references -->
 ## References

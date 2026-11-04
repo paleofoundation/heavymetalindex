@@ -51,6 +51,10 @@ Arellano and colleagues report total arsenic in raw goat milk and raw sheep milk
 
 <!-- END: hmi-cited-measurements -->
 
+## Mitigation
+
+No mitigation evidence yet in our corpus.
+
 ## Goat and sheep milk and arsenic studies that did not use this milk
 
 Goat and sheep milk are ruminant milks. The gut records below are infant urinary total arsenic and arsenic in larval zebrafish water. Neither study fed goat or sheep milk.
@@ -69,6 +73,14 @@ Goat and sheep milk are ruminant milks. The gut records below are infant urinary
 ### What remains uncertain
 
 Hoen and colleagues stratified infants by breast milk and formula, not by goat or sheep milk. Dahan and colleagues did not name the arsenic species and did not use a human gut. No study cited here sequenced stool after this milk.
+
+## Review
+
+No evidence review yet in our corpus.
+
+## FAQs
+
+No frequently asked questions have been compiled for this page yet.
 
 <!-- BEGIN: hmi-page-references -->
 ## References
