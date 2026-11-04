@@ -141,7 +141,7 @@ function buildTable(cp, existingSources, commodity) {
   const lines = [HEADER, SEP]
   for (const metal of METALS) {
     const c = cp[metal] || {}
-    const coverage = renderCoverage(c)
+    let coverage = renderCoverage(c)
     let typical = c.value_kind === "source_non_detect" ? renderNonDetect(c)
       : c.value_kind === "unquantified" ? "Not quantified"
       : c.value_kind === "source_summary" ? `${renderTypical(c.typical_ppb)} (source LB)` : renderTypical(c.typical_ppb)
@@ -158,6 +158,14 @@ function buildTable(cp, existingSources, commodity) {
       if (typical === "—") typical = "Data gap"
       if (confidence === "—") confidence = "Not reported"
       if (sources === "—") sources = "Not reported"
+    }
+    // Salted fish empty cells are the word "n/a". Prebuild regenerates this
+    // table, and an em dash placeholder would put the banned mark back.
+    if (commodity === "salted-fish") {
+      if (coverage === "—") coverage = "n/a"
+      if (typical === "—") typical = "n/a"
+      if (confidence === "—") confidence = "n/a"
+      if (sources === "—") sources = "n/a"
     }
     lines.push(`| ${metalLabel(metal)} | ${coverage} | ${typical} | ${confidence} | ${sources} |`)
   }

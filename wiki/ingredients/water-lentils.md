@@ -242,7 +242,7 @@ The food-grade heavy metal evidence base for water lentils is thin. The only dir
 
 The following questions remain open with the evidence in this unit:
 
-- Inorganic arsenic fraction and methylmercury have not been measured in any food-grade water lentil source. Total arsenic values cannot be parsed without speciation data, and the EFSA-proposed iAs limit of 0.10 mg/kg FW cannot be evaluated from the available data.
+- Inorganic arsenic fraction and methylmercury have not been measured in any food-grade water lentil source. Total arsenic values cannot be parsed without speciation data, and the EFSA-proposed inorganic arsenic limit of 0.10 mg/kg FW cannot be evaluated from the available data.
 - Mercury speciation (methylmercury vs. inorganic) is unknown. Wild-lake data show total mercury up to 1,340 ppb DW [[sources/islam2026-macrophytes-mineral-kashmir|5]]; the food-grade fraction is below LOQ [[sources/efsa2022-lemna-novel-food|1]], but no speciation exists in either dataset.
 - Nickel, aluminum, hexavalent chromium, and tin have not been reported for food-grade water lentils in any source in this unit.
 - The arsenic range of 0.3-2.52 mg/kg compiled in Hernani-Rodrigo et al. [[sources/hernani-rodrigo2026-duckweed-therapeutic-food-lmics|4]] from mixed controlled-cultivation sources points to substantial variability across cultivation systems; the basis and species breakdowns of that compiled range are not resolved in this unit.

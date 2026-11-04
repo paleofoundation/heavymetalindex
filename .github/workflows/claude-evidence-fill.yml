@@ -1,0 +1,287 @@
+# Scheduled ingredient fill. One DEPOSITED unit from paleofoundation/hmi-evidence-deposits
+# per run. Claude writes the page. This workflow regenerates alias redirects and the
+# thin-with-evidence baseline, runs the same checks as CI, and opens
+# evidence-fill/<unit> only when those checks pass.
+#
+# .claude/settings.json is not applied by claude-code-action, so the tool list is
+# passed with --allowedTools below.
+#
+# Secrets, both required or the fill job skips with a warning:
+#   CLAUDE_CODE_OAUTH_TOKEN  Claude Code OAuth token (claude setup-token)
+#   DEPOSITS_READ_TOKEN      read access to paleofoundation/hmi-evidence-deposits
+#
+# The Claude GitHub App should be installed on this repository so the push that
+# opens the pull request is not made with the default GITHUB_TOKEN (that token
+# does not start the CI workflows auto-merge waits for).
+
+name: Claude evidence fill
+
+on:
+  schedule:
+    - cron: "0 5 * * *"
+    - cron: "0 15 * * *"
+  workflow_dispatch:
+  pull_request:
+
+concurrency:
+  group: ${{ github.event_name == 'pull_request' && format('evidence-fill-gate-{0}', github.event.pull_request.number) || 'claude-evidence-fill' }}
+  cancel-in-progress: false
+
+jobs:
+  preflight:
+    if: github.event_name != 'pull_request'
+    runs-on: ubuntu-latest
+    outputs:
+      ready: ${{ steps.secrets.outputs.ready }}
+    steps:
+      - id: secrets
+        env:
+          CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          DEPOSITS_READ_TOKEN: ${{ secrets.DEPOSITS_READ_TOKEN }}
+        run: |
+          set -euo pipefail
+          ready=true
+          if [ -z "${CLAUDE_CODE_OAUTH_TOKEN}" ]; then
+            echo "::warning::CLAUDE_CODE_OAUTH_TOKEN is unset. The evidence fill is skipped."
+            ready=false
+          fi
+          if [ -z "${DEPOSITS_READ_TOKEN}" ]; then
+            echo "::warning::DEPOSITS_READ_TOKEN is unset. The evidence fill is skipped."
+            ready=false
+          fi
+          echo "ready=${ready}" >> "$GITHUB_OUTPUT"
+
+  # Fails the pull request when the diff adds supplier or manufacturer data,
+  # an em dash or en dash in wiki prose, or a placeholder hero image.
+  content-gate:
+    if: github.event_name == 'pull_request'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .node-version
+      - name: Supplier data, dashes, and placeholder images
+        run: |
+          set -euo pipefail
+          git fetch --no-tags origin "${{ github.base_ref }}"
+          node tools/evidence-fill/diff-gate.mjs --base "origin/${{ github.base_ref }}"
+          node tools/lint/hero-image-placeholders.mjs --changed "origin/${{ github.base_ref }}"
+
+  fill:
+    needs: preflight
+    if: github.event_name != 'pull_request' && needs.preflight.outputs.ready == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    permissions:
+      contents: write
+      pull-requests: write
+      id-token: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .node-version
+          cache: npm
+      - run: npm ci
+      - name: Install PDF text tools
+        run: sudo apt-get update -qq && sudo apt-get install -y --no-install-recommends poppler-utils
+      - name: Clone evidence deposits
+        env:
+          DEPOSITS_READ_TOKEN: ${{ secrets.DEPOSITS_READ_TOKEN }}
+        run: |
+          set -euo pipefail
+          rm -rf "${RUNNER_TEMP}/hmi-evidence-deposits"
+          git clone --depth 1 "https://x-access-token:${DEPOSITS_READ_TOKEN}@github.com/paleofoundation/hmi-evidence-deposits.git" "${RUNNER_TEMP}/hmi-evidence-deposits"
+      - name: Pick the next DEPOSITED ingredient unit
+        id: pick
+        env:
+          DEPOSITS_ROOT: ${{ runner.temp }}/hmi-evidence-deposits
+        run: |
+          set -euo pipefail
+          skips="$(gh pr list --state open --limit 200 --json headRefName --jq '[.[] | select(.headRefName | startswith("evidence-fill/")) | .headRefName | sub("^evidence-fill/"; "")] | join(",")')"
+          json="$(node tools/evidence-fill/select-next-unit.mjs --root "$DEPOSITS_ROOT" --skip "$skips")"
+          echo "$json"
+          if [ "$(printf '%s' "$json" | python3 -c 'import json,sys; print(json.load(sys.stdin).get("unit") or "")')" = "" ]; then
+            echo "No ingredient unit is marked DEPOSITED. Nothing to do."
+          fi
+      - name: Build the fill prompt
+        id: prompt
+        if: steps.pick.outputs.unit != ''
+        env:
+          UNIT: ${{ steps.pick.outputs.unit }}
+          SLUG: ${{ steps.pick.outputs.slug }}
+          DIR: ${{ steps.pick.outputs.dir }}
+          DEPOSITS_ROOT: ${{ runner.temp }}/hmi-evidence-deposits
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import os
+          import pathlib
+          text = pathlib.Path("tools/evidence-fill/prompt.md").read_text()
+          for key in ("UNIT", "SLUG", "DIR", "DEPOSITS_ROOT"):
+              text = text.replace(f"__{key}__", os.environ[key])
+          delim = "EVIDENCE_FILL_PROMPT"
+          with open(os.environ["GITHUB_OUTPUT"], "a") as handle:
+              handle.write(f"prompt<<{delim}\n{text}\n{delim}\n")
+          PY
+      - name: Fill the ingredient page
+        id: claude
+        if: steps.pick.outputs.unit != ''
+        uses: anthropics/claude-code-action@v1
+        env:
+          DEPOSITS_READ_TOKEN: ${{ secrets.DEPOSITS_READ_TOKEN }}
+          DEPOSITS_ROOT: ${{ runner.temp }}/hmi-evidence-deposits
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          show_full_output: "true"
+          allowed_bots: "github-actions[bot],claude[bot]"
+          base_branch: main
+          branch_prefix: evidence-fill/
+          prompt: ${{ steps.prompt.outputs.prompt }}
+          # Settings in .claude/settings.json are ignored here. List tools in claude_args.
+          claude_args: |
+            --allowedTools "Bash,Read,Edit,Write,Grep,Glob"
+            --max-turns 80
+      - name: Regenerate redirects and baseline, then run CI checks
+        id: verify
+        if: steps.pick.outputs.unit != ''
+        env:
+          UNIT: ${{ steps.pick.outputs.unit }}
+          SLUG: ${{ steps.pick.outputs.slug }}
+          NODE_OPTIONS: --max-old-space-size=6144
+        run: |
+          set -euo pipefail
+          if [ ! -d node_modules ]; then npm ci; fi
+          before="${RUNNER_TEMP}/thin-before.txt"
+          cp data/fanout/thin-with-evidence-baseline.txt "$before"
+          node --import tsx tools/build-alias-redirects.ts
+          if [ -f "wiki/ingredients/${SLUG}.md" ]; then
+            node tools/build-page-openings.mjs --apply "wiki/ingredients/${SLUG}.md"
+          fi
+          node tools/fanout/audit-thin-with-evidence.mjs --write-baseline
+          node tools/evidence-fill/diff-gate.mjs \
+            --baseline-before "$before" \
+            --baseline-after data/fanout/thin-with-evidence-baseline.txt \
+            --entity "ingredients/${SLUG}"
+          python3 - <<'PY'
+          import subprocess, sys
+          status = subprocess.check_output(["git", "status", "--porcelain"], text=True)
+          allowed = (
+              "wiki/ingredients/",
+              "wiki/sources/",
+              "wiki/log.md",
+              "data/redirects/aliases-301.json",
+              "data/fanout/thin-with-evidence-baseline.txt",
+              "data/evidence/page-openings-baseline.json",
+              "quartz/static/heroes/",
+              "data/design/page-hero-images.json",
+          )
+          bad = []
+          for line in status.splitlines():
+              path = line[3:]
+              if " -> " in path:
+                  path = path.split(" -> ", 1)[1]
+              if not any(path == item or path.startswith(item) for item in allowed):
+                  bad.append(path)
+          if bad:
+              print("The fill edited paths outside the ingredient page, its sources, and the regenerated files:")
+              print("\n".join(bad))
+              sys.exit(1)
+          PY
+          git add -- \
+            wiki/ingredients \
+            wiki/sources \
+            wiki/log.md \
+            data/redirects/aliases-301.json \
+            data/fanout/thin-with-evidence-baseline.txt \
+            data/evidence/page-openings-baseline.json \
+            quartz/static/heroes \
+            data/design/page-hero-images.json
+          if ! git diff --cached --quiet; then
+            git config user.name "claude[bot]"
+            git config user.email "41898282+claude[bot]@users.noreply.github.com"
+            git commit -m "Evidence fill ${UNIT}: ${SLUG}"
+          fi
+          git fetch --no-tags origin main
+          node tools/evidence-fill/diff-gate.mjs --base origin/main
+          node tools/lint/hero-image-placeholders.mjs --changed origin/main
+          npm test
+          npm run lint:page-structure
+          npm run lint:page-openings
+          npm run lint:thin-with-evidence
+          npm run check
+      - name: Open the pull request and enable auto-merge
+        id: publish
+        if: steps.pick.outputs.unit != '' && steps.verify.outcome == 'success'
+        env:
+          UNIT: ${{ steps.pick.outputs.unit }}
+          SLUG: ${{ steps.pick.outputs.slug }}
+          CLAUDE_APP_TOKEN: ${{ steps.claude.outputs.github_token }}
+          EXTRA_BRANCH: ${{ steps.claude.outputs.branch_name }}
+        run: |
+          set -euo pipefail
+          target="evidence-fill/${UNIT}"
+          token="${CLAUDE_APP_TOKEN:-$GITHUB_TOKEN}"
+          askpass="${RUNNER_TEMP}/git-askpass.sh"
+          printf '%s\n' '#!/bin/sh' 'echo "$GIT_TOKEN"' > "$askpass"
+          chmod 700 "$askpass"
+          git_push() {
+            GIT_ASKPASS="$askpass" GIT_TOKEN="$token" git -c credential.helper= "$@"
+          }
+          git fetch --no-tags origin main
+          if git diff --quiet origin/main...HEAD; then
+            echo "No changes against main. Not opening a pull request."
+            if [ -n "${EXTRA_BRANCH}" ] && [ "${EXTRA_BRANCH}" != "$target" ]; then
+              case "$EXTRA_BRANCH" in
+                evidence-fill/*|claude/*) git_push push "https://github.com/${GITHUB_REPOSITORY}.git" --delete "$EXTRA_BRANCH" || true ;;
+              esac
+            fi
+            exit 0
+          fi
+          git_push push "https://github.com/${GITHUB_REPOSITORY}.git" "HEAD:refs/heads/${target}"
+          export GH_TOKEN="$token"
+          cat > "${RUNNER_TEMP}/pr-body.md" <<EOF
+          Automated evidence fill for ${UNIT} (\`ingredients/${SLUG}\`).
+
+          The page was built from that deposit unit. Alias redirects and the thin-with-evidence baseline were regenerated with the repo tools. \`npm test\`, \`npm run lint:page-structure\`, \`npm run lint:page-openings\`, \`npm run lint:thin-with-evidence\`, and \`npm run check\` passed before this pull request was opened.
+
+          Direction: toward the literature.
+          EOF
+          existing="$(gh pr list --head "$target" --state open --json number --jq '.[0].number // empty')"
+          if [ -z "$existing" ]; then
+            gh pr create --base main --head "$target" --title "Evidence fill ${UNIT}: ${SLUG}" --body-file "${RUNNER_TEMP}/pr-body.md"
+          fi
+          gh api -X PATCH "repos/${GITHUB_REPOSITORY}" -F allow_auto_merge=true \
+            || echo "::warning::Could not set allow_auto_merge on the repository. The pull request auto-merge call is next."
+          gh pr merge --auto --squash "$target"
+          if [ -n "$EXTRA_BRANCH" ] && [ "$EXTRA_BRANCH" != "$target" ]; then
+            case "$EXTRA_BRANCH" in
+              evidence-fill/*|claude/*) git_push push "https://github.com/${GITHUB_REPOSITORY}.git" --delete "$EXTRA_BRANCH" || true ;;
+            esac
+          fi
+          gh pr view "$target" --json url --jq .url
+      - name: Drop the branch when the checks fail
+        if: failure() && steps.verify.outcome == 'failure' && steps.claude.outputs.branch_name != ''
+        env:
+          EXTRA_BRANCH: ${{ steps.claude.outputs.branch_name }}
+          CLAUDE_APP_TOKEN: ${{ steps.claude.outputs.github_token }}
+        run: |
+          set -euo pipefail
+          case "$EXTRA_BRANCH" in
+            evidence-fill/*|claude/*) ;;
+            *) echo "Refusing to delete ${EXTRA_BRANCH}"; exit 0 ;;
+          esac
+          token="${CLAUDE_APP_TOKEN:-$GITHUB_TOKEN}"
+          askpass="${RUNNER_TEMP}/git-askpass.sh"
+          printf '%s\n' '#!/bin/sh' 'echo "$GIT_TOKEN"' > "$askpass"
+          chmod 700 "$askpass"
+          GIT_ASKPASS="$askpass" GIT_TOKEN="$token" git -c credential.helper= \
+            push "https://github.com/${GITHUB_REPOSITORY}.git" --delete "$EXTRA_BRANCH" || true
+          echo "Checks failed. No pull request was opened."
