@@ -1,0 +1,40 @@
+{
+ "source_id": "shtangeeva2023-gallium-temporal-variability-plants",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-GALLIUM-1/10.3390_toxics11080675.pdf",
+ "primary_sha256": "5b5df021fd858c1dc47d2102880586972cdb84aadc90d55f38b47634181644ba",
+ "extracted_at": "2026-11-04",
+ "extractor": "engine-v1",
+ "disposition": "occurrence",
+ "disposition_reason": "Measured gallium in wild plants and rhizosphere soil at two uncontaminated St. Petersburg sites, including leaf, root, and soil means and within-day change.",
+ "disposition_locator": "Table 1; Results, daily fluctuations",
+ "study": {
+  "design": "see source record",
+  "origin": "not applicable",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "not stated"
+  },
+  "method": "ICP-MS after nitric acid microwave digestion; plants washed and air dried to constant weight",
+  "lod": [],
+  "basis": "as reported on the source page",
+  "qa": "see source record",
+  "site_context": "wild grasses and rhizosphere soil"
+ },
+ "findings": [],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "main-text",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [
+  "Site 1 leaves 0.058 ± 0.010 mg/kg couch grass and 0.14 ± 0.05 mg/kg plantain, air dried; roots 1.52 ± 0.45 and 0.46 ± 0.14 mg/kg; soil 6.55 ± 0.33 and 7.32 ± 0.73 mg/kg (Table 1)",
+  "Within a day, rhizosphere soil gallium changed by about 20 percent and root gallium by more than two times"
+ ],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/shtangeeva2023-gallium-temporal-variability-plants.md",
+ "non_numeric_findings": []
+}

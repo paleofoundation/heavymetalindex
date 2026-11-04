@@ -1,0 +1,39 @@
+{
+ "source_id": "wu2024-serum-metals-chronic-kidney-disease",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-GALLIUM-1/10.3389_fendo.2024.1362085.pdf",
+ "primary_sha256": "1dac7a8e88e520014ef431eed23c79c883d719edaa5dc26579207cfb0c080f19",
+ "extracted_at": "2026-11-04",
+ "extractor": "engine-v1",
+ "disposition": "exposure",
+ "disposition_reason": "Serum gallium medians at the detection floor in chronic kidney disease patients and a health-exam comparison group.",
+ "disposition_locator": "Table 1, Ga row, case and control columns; Methods, LOD/2",
+ "study": {
+  "design": "see source record",
+  "origin": "not applicable",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "not stated"
+  },
+  "method": "ICP-MS; values below the detection limit replaced with half the limit",
+  "lod": [],
+  "basis": "as reported on the source page",
+  "qa": "see source record",
+  "site_context": "human serum"
+ },
+ "findings": [],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "main-text",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [
+  "Serum gallium median (IQR) µg/L: CKD 0 (0, 0) n=443; comparison group 0 (0, 0.02) n=100; P<0.001"
+ ],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/wu2024-serum-metals-chronic-kidney-disease.md",
+ "non_numeric_findings": []
+}

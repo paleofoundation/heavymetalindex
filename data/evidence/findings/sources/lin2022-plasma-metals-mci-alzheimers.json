@@ -1,0 +1,40 @@
+{
+ "source_id": "lin2022-plasma-metals-mci-alzheimers",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-GALLIUM-1/10.3390_jcm11133655.pdf",
+ "primary_sha256": "c4b58a9e4157935ed65a335fc4afc611122caf0b147c35b0a83b6396036b87ad",
+ "extracted_at": "2026-11-04",
+ "extractor": "engine-v1",
+ "disposition": "exposure",
+ "disposition_reason": "Plasma gallium medians by cognitive status in 40 adults, with no significant group difference.",
+ "disposition_locator": "Table 2",
+ "study": {
+  "design": "see source record",
+  "origin": "not applicable",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "not stated"
+  },
+  "method": "ICP-MS after 1:50 dilution",
+  "lod": [],
+  "basis": "as reported on the source page",
+  "qa": "see source record",
+  "site_context": "human plasma"
+ },
+ "findings": [],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "main-text",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [
+  "Plasma gallium median (quartiles) µg/L: control 0.071 (0.047, 0.095) n=9; aMCI 0.059 (0.024, 0.071) n=23; AD 0.036 (0.035, 0.036) n=8",
+  "Age-adjusted P: trend 0.102, aMCI vs control 0.173, AD vs control 0.248"
+ ],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/lin2022-plasma-metals-mci-alzheimers.md",
+ "non_numeric_findings": []
+}
