@@ -14,7 +14,7 @@ raw_path: "deposits/HMI-FILL-0023/10.1289_ehp9220.pdf"
 raw_sha256: c62d1a9e299895f73a3958d08d9ffd3cb7650897f58093eb66d1b278841821bc
 metals: [Pb]
 ingredients: []
-products: ["[[products/traditional-eye-cosmetics]]", "[[products/lipstick]]", "[[products/henna]]"]
+products: ["[[products/traditional-eye-cosmetics]]", "[[products/lipstick]]"]
 matrices: [kohl, surma, kajal, henna, cosmetic-personal-care]
 jurisdictions: [global, US, NG, GH, TR, IN, PK, BD]
 near_duplicates: []

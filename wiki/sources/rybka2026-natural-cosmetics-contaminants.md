@@ -14,7 +14,7 @@ raw_path: "deposits/HMI-FILL-0023/10.13075_ijomeh.1896.02617.pdf"
 raw_sha256: 84199329fd7b7d6251db9b3c4ad8e435a94eb57f65a39e211d0fee6f25bc904b
 metals: [tHg]
 ingredients: []
-products: ["[[products/face-neck-leave-on-skin-care]]", "[[products/hair-care]]"]
+products: ["[[products/face-neck-leave-on-skin-care]]"]
 matrices: [face-cream, body-lotion, hair-care, cosmetic-personal-care]
 jurisdictions: [PL]
 near_duplicates: []

@@ -14,7 +14,7 @@ raw_path: "deposits/HMI-FILL-0023/10.1039_d6ra02940j.pdf"
 raw_sha256: 576698a1f70a82dfc78c03415ecd79fcb7a829027290467d09bc3897b33ab42c
 metals: [Al, V, Cr, Mn, Fe, Co, Ni, Zn, As, Se, Mo, Cd, tHg, Pb]
 ingredients: []
-products: ["[[products/face-neck-leave-on-skin-care]]", "[[products/sunscreen]]", "[[products/deodorant]]"]
+products: ["[[products/face-neck-leave-on-skin-care]]", "[[products/sun-suntan-products]]", "[[products/deodorants]]"]
 matrices: [face-cream, body-lotion, sunscreen, deodorant, lip-moisturizer, insect-repellent, cosmetic-personal-care]
 jurisdictions: [CA]
 near_duplicates: []
