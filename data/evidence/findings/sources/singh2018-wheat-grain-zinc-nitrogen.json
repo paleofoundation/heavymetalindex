@@ -1,0 +1,71 @@
+{
+ "source_id": "singh2018-wheat-grain-zinc-nitrogen",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-ZINC-1/10.3389_fpls.2018.00307.pdf",
+ "primary_sha256": "608553424487ba355bf99fc665b34ec43f59acf427f1739b73e81993b15a421f",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "occurrence_extracted",
+ "disposition_reason": "Verified grain zinc range for selected experimental grains and percentage increase from foliar zinc; treatment means only in figures.",
+ "disposition_locator": "Abstract p. 1; Methods pp. 3 to 4",
+ "study": {
+  "design": "factorial pot experiment in a growth chamber",
+  "origin": "Ås, Norway",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "not stated"
+  },
+  "method": "ICP-OES after microwave HNO3 digestion; MA-XRF and LA-ICP-MS imaging",
+  "lod": [
+   "all samples above LOD (blank mean + 3 SD) and LOQ (blank + 10 SD); values not printed"
+  ],
+  "basis": "dry_weight",
+  "qa": "SRM 1567a wheat flour, RSD < 5%",
+  "site_context": "laboratory"
+ },
+ "findings": [
+  {
+   "id": "singh2018-wheat-grain-zinc-nitrogen:Zn:wheat-grain-selected-for-imaging-six-high-zinc-grains-from-foliar-experiment:range",
+   "material": {
+    "label_as_printed": "Wheat grain selected for imaging",
+    "page": "ingredients/wheat",
+    "form": null,
+    "state": null,
+    "route_rule": "override:HMI-METAL-INGEST-2"
+   },
+   "analyte": "Zn",
+   "group": "six high-zinc grains from foliar experiment",
+   "group_kind": "group",
+   "n": 6,
+   "statistic": "range",
+   "reported": "42 to 99 mg/kg",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "dry_weight",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Methods, p. 4",
+   "integrity_flag": null,
+   "notes": "Range only; selected grains; grain oven-dried at 75 °C.",
+   "statistic_raw": "range"
+  }
+ ],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/singh2018-wheat-grain-zinc-nitrogen.md",
+ "non_numeric_findings": [
+  "Zinc and iron co-localized in germ, crease and aleurone (Figure 6).",
+  "Split nitrogen at 160 kg/ha with soil and foliar zinc and iron recommended by the authors as good practice."
+ ]
+}

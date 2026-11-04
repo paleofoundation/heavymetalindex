@@ -1,0 +1,96 @@
+{
+ "source_id": "diazbenito2018-rice-embryo-endosperm-zinc",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-ZINC-1/10.3389_fpls.2018.01190.pdf",
+ "primary_sha256": "0152bee2ae12218789ce4dd310cac853af9440e1e24312758662d9d97051e132",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "occurrence_extracted",
+ "disposition_reason": "Wild-type rice embryo and endosperm zinc (µg/g dry weight) with fold changes in transgenic lines.",
+ "disposition_locator": "Results p. 8; Figure 3",
+ "study": {
+  "design": "comparison of wild-type and transgenic rice seed fractions",
+  "origin": "Lleida and Zaragoza, Spain",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "not stated"
+  },
+  "method": "ICP-MS of dissected embryo and endosperm; LA-ICP-MS imaging",
+  "lod": [],
+  "basis": "dry_weight",
+  "qa": "certified reference material pellets used for LA-ICP-MS calibration",
+  "site_context": "laboratory"
+ },
+ "findings": [
+  {
+   "id": "diazbenito2018-rice-embryo-endosperm-zinc:Zn:rice-embryo-wild-type-wild-type:mean",
+   "material": {
+    "label_as_printed": "Rice embryo, wild type",
+    "page": "ingredients/rice",
+    "form": null,
+    "state": null,
+    "route_rule": "override:HMI-METAL-INGEST-2"
+   },
+   "analyte": "Zn",
+   "group": "wild type",
+   "group_kind": "group",
+   "n": null,
+   "statistic": "mean",
+   "reported": "102 ± 2 µg/g DW",
+   "value_ugkg": 102000,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "µg/g",
+   "basis": "dry_weight",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Results p. 8; Figure 3",
+   "integrity_flag": null,
+   "notes": "",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "diazbenito2018-rice-embryo-endosperm-zinc:Zn:rice-endosperm-wild-type-wild-type:mean",
+   "material": {
+    "label_as_printed": "Rice endosperm, wild type",
+    "page": "ingredients/rice",
+    "form": null,
+    "state": null,
+    "route_rule": "override:HMI-METAL-INGEST-2"
+   },
+   "analyte": "Zn",
+   "group": "wild type",
+   "group_kind": "group",
+   "n": null,
+   "statistic": "mean",
+   "reported": "21 ± 1 µg/g DW",
+   "value_ugkg": 21000,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "µg/g",
+   "basis": "dry_weight",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Results p. 8; Figure 3",
+   "integrity_flag": null,
+   "notes": "Endosperm is the polished-rice fraction.",
+   "statistic_raw": "mean"
+  }
+ ],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/diazbenito2018-rice-embryo-endosperm-zinc.md",
+ "non_numeric_findings": [
+  "Polishing removes the zinc-rich embryo and bran (Introduction)."
+ ]
+}

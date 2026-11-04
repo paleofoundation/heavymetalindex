@@ -1,0 +1,122 @@
+{
+ "source_id": "lanochaarendarczyk2016-poland-hip-bone-chromium",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-CHROMIUM-1/10.1155_2016_8340425.pdf",
+ "primary_sha256": "f306cfdc4030c8c9084673df7d998a15b1ceee912d23a0a231e44a1f790ffd6c",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "occurrence_extracted",
+ "disposition_reason": "Chromium in cartilage, cortical and spongy bone of 37 patients by ICP-AES.",
+ "disposition_locator": "Tables 3 and 4 pp. 5 to 6; Results p. 4",
+ "study": {
+  "design": "cross-sectional tissue study",
+  "origin": "Poland",
+  "market": "not applicable",
+  "method": "ICP-AES (Optima 2000 DV)",
+  "basis": "dry_weight",
+  "qa": "NIST SRM 1486 and IAEA-407 recoveries reported",
+  "site_context": "clinical",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "see source"
+  },
+  "lod": []
+ },
+ "findings": [
+  {
+   "id": "lanochaarendarczyk2016-poland-hip-bone-chromium:Cr:human-cartilage-all-patients:mean",
+   "material": {
+    "label_as_printed": "Human cartilage",
+    "page": "metals/chromium",
+    "form": "as_analyzed",
+    "state": "as_analyzed",
+    "route_rule": "override:HMI-METAL-INGEST-2"
+   },
+   "analyte": "Cr",
+   "group": "all patients",
+   "group_kind": "population",
+   "n": 37,
+   "statistic": "mean",
+   "reported": "0.45 ± 0.33 mg/kg dm",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg dry mass",
+   "basis": "dry_weight",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 3, p. 5",
+   "integrity_flag": null,
+   "notes": "ICP-AES; human tissue, value_ugkg left null.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "lanochaarendarczyk2016-poland-hip-bone-chromium:Cr:human-cortical-bone-all-patients:mean",
+   "material": {
+    "label_as_printed": "Human cortical bone",
+    "page": "metals/chromium",
+    "form": "as_analyzed",
+    "state": "as_analyzed",
+    "route_rule": "override:HMI-METAL-INGEST-2"
+   },
+   "analyte": "Cr",
+   "group": "all patients",
+   "group_kind": "population",
+   "n": 37,
+   "statistic": "mean",
+   "reported": "0.66 ± 0.42 mg/kg dm",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg dry mass",
+   "basis": "dry_weight",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 3, p. 5",
+   "integrity_flag": null,
+   "notes": "ICP-AES; human tissue, value_ugkg left null.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "lanochaarendarczyk2016-poland-hip-bone-chromium:Cr:human-spongy-bone-all-patients:mean",
+   "material": {
+    "label_as_printed": "Human spongy bone",
+    "page": "metals/chromium",
+    "form": "as_analyzed",
+    "state": "as_analyzed",
+    "route_rule": "override:HMI-METAL-INGEST-2"
+   },
+   "analyte": "Cr",
+   "group": "all patients",
+   "group_kind": "population",
+   "n": 37,
+   "statistic": "mean",
+   "reported": "0.66 ± 0.60 mg/kg dm (range 0.18 to 2.36)",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg dry mass",
+   "basis": "dry_weight",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 3, p. 5",
+   "integrity_flag": null,
+   "notes": "ICP-AES; human tissue, value_ugkg left null.",
+   "statistic_raw": "mean"
+  }
+ ],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/lanochaarendarczyk2016-poland-hip-bone-chromium.md",
+ "non_numeric_findings": []
+}

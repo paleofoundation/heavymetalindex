@@ -1,0 +1,44 @@
+{
+ "source_id": "fscj2019-hexavalent-chromium-drinking-water-tdi",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-CHROMIUM-1/10.14252_foodsafetyfscj.D-1900002.pdf",
+ "primary_sha256": "c730f2fc7a57a2fb788a6f631949c7d71476ba88fc9864585d335f0e89e9a297",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "context",
+ "disposition_reason": "Regulatory risk assessment: tolerable daily intake for hexavalent chromium and water-intake estimates; no food or water concentration data.",
+ "disposition_locator": "Summary p. 56; Conclusion p. 57",
+ "study": {
+  "design": "government risk assessment summary",
+  "origin": "Japan",
+  "market": "Japan",
+  "method": "literature and evaluation-report review; benchmark dose modeling",
+  "basis": "unknown",
+  "qa": "not applicable",
+  "site_context": "regulatory",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "see source"
+  },
+  "lod": []
+ },
+ "findings": [],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [
+  "TDI for hexavalent chromium 1.1 µg/kg bw/day (BMDL10 0.11 mg/kg bw/day, uncertainty factor 100) (p. 56, p. 57)",
+  "Estimated hexavalent chromium intake from mineral and tap water: mean ca. 0.04 µg/kg bw/day; high 0.290 µg/kg bw/day (p. 56, p. 57)"
+ ],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/fscj2019-hexavalent-chromium-drinking-water-tdi.md",
+ "non_numeric_findings": [
+  "Hexavalent chromium judged carcinogenic in rodents by drinking water (small intestine tumors in mice; oral mucosa and tongue tumors in rats).",
+  "Oral genotoxicity of hexavalent chromium unclear; carcinogenic mechanism by drinking water judged hardly attributable to genotoxicity.",
+  "Ingested hexavalent chromium is reduced to trivalent chromium slightly by saliva and mainly by gastric juice."
+ ]
+}

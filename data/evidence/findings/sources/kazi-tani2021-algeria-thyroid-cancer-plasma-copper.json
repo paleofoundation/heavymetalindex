@@ -1,0 +1,100 @@
+{
+ "source_id": "kazi-tani2021-algeria-thyroid-cancer-plasma-copper",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-COPPER-1/10.3389_fmed.2021.698167.pdf",
+ "primary_sha256": "8fbcb83727bd0a382933f3a9699d554f02e1288fcd8d5cefb8b230c71b4d1a13",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "occurrence_extracted",
+ "disposition_reason": "Plasma copper by TXRF in 46 thyroid cancer patients and 50 controls; patients higher (p < 0.0001).",
+ "disposition_locator": "Abstract; Results; Table 2",
+ "study": {
+  "design": "case-control",
+  "origin": "Algeria",
+  "market": "University Hospital Centers of Tlemcen and Oran",
+  "period": {
+   "from": "2018-06",
+   "to": "2019-05",
+   "as_reported": "June 2018 to May 2019"
+  },
+  "method": "Total reflection X-ray fluorescence (Bruker S2 Picofox) with gallium internal standard; MC-ICP-MS for isotope ratios",
+  "lod": [],
+  "basis": "unknown",
+  "qa": "Seronorm serum control in all runs; inter-assay CV below 15%",
+  "site_context": "clinical"
+ },
+ "findings": [
+  {
+   "id": "kazi-tani2021-algeria-thyroid-cancer-plasma-copper:Cu:plasma--papillary-thyroid-carcinoma-patients-western-algeria:mean",
+   "material": {
+    "label_as_printed": "Plasma",
+    "page": "metals/copper",
+    "form": "plasma",
+    "state": "as_sampled",
+    "route_rule": "override:HMI-METAL-INGEST-2"
+   },
+   "analyte": "Cu",
+   "group": "papillary thyroid carcinoma patients, western Algeria",
+   "group_kind": "case_group",
+   "n": 46,
+   "statistic": "mean",
+   "reported": "1346.1 ± 328.3 µg/L",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "µg/L",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Abstract; Results, p. 3",
+   "integrity_flag": null,
+   "notes": "Mean ± SD; total reflection XRF.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "kazi-tani2021-algeria-thyroid-cancer-plasma-copper:Cu:plasma--healthy-controls-western-algeria:mean",
+   "material": {
+    "label_as_printed": "Plasma",
+    "page": "metals/copper",
+    "form": "plasma",
+    "state": "as_sampled",
+    "route_rule": "override:HMI-METAL-INGEST-2"
+   },
+   "analyte": "Cu",
+   "group": "healthy controls, western Algeria",
+   "group_kind": "control_group",
+   "n": 50,
+   "statistic": "mean",
+   "reported": "1060.5 ± 216.1 µg/L",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "µg/L",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Abstract; Results, p. 3",
+   "integrity_flag": null,
+   "notes": "Mean ± SD; control median 1,060 µg/L.",
+   "statistic_raw": "mean"
+  }
+ ],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [
+  "Reference range 804 to 1,620 µg/L plasma copper cited from a German study: 16% of patients and 0% of controls at or above 1,620 µg/L; 14% of controls and 0% of patients at or below 804 µg/L (Table 2, p. 4)."
+ ],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/kazi-tani2021-algeria-thyroid-cancer-plasma-copper.md",
+ "non_numeric_findings": [
+  "Plasma zinc lower in patients (942.1 ± 205.2 vs 1027.9 ± 151.4 µg/L, p < 0.05).",
+  "Copper-to-zinc ratio 1.5 ± 0.4 vs 1.0 ± 0.3 (p < 0.0001); ROC AUC 0.81.",
+  "Plasma delta-65 copper lower in patients; tumor tissue high (p < 0.0001); ROC AUC 0.78."
+ ]
+}

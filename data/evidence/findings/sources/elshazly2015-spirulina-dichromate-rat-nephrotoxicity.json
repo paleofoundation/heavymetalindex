@@ -1,0 +1,39 @@
+{
+ "source_id": "elshazly2015-spirulina-dichromate-rat-nephrotoxicity",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-CHROMIUM-1/10.1371_journal.pone.0126780.pdf",
+ "primary_sha256": "2232a5ad1900e54210702fc3c754d3908121c80f37b88ff79e55f20f6ece20bb",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "no_numeric_results",
+ "disposition_reason": "Chromium tissue results shown only graphically; numeric content limited to dosing.",
+ "disposition_locator": "Methods p. 2; Figure 6",
+ "study": {
+  "design": "controlled rodent toxicity study",
+  "origin": "Egypt",
+  "market": "not applicable",
+  "method": "atomic absorption spectrophotometry (Unicam 969)",
+  "basis": "unknown",
+  "qa": "not reported",
+  "site_context": "laboratory",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "see source"
+  },
+  "lod": []
+ },
+ "findings": [],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/elshazly2015-spirulina-dichromate-rat-nephrotoxicity.md",
+ "non_numeric_findings": [
+  "Dichromate exposure increased serum urea and creatinine and kidney chromium; spirulina co-treatment reduced these."
+ ]
+}

@@ -1,0 +1,45 @@
+{
+ "source_id": "miyagawa2022-japanese-diet-manganese-intake",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-MANGANESE-1/10.5551_jat.ED196.pdf",
+ "primary_sha256": "0ef8e4cb20fc0c7efd16968b27ebffc70b3b10823070119564d7e8b865340f83",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "context",
+ "disposition_reason": "Editorial summarizing Japanese and North American manganese reference values and published Japanese intake estimates.",
+ "disposition_locator": "pp. 1421-1422",
+ "study": {
+  "design": "editorial",
+  "origin": "JP",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "not applicable"
+  },
+  "method": "narrative",
+  "lod": [],
+  "basis": "not applicable",
+  "qa": "not applicable",
+  "site_context": "not applicable"
+ },
+ "findings": [],
+ "unresolved": [
+  "All values secondary."
+ ],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [
+  "Adequate intake men/women: 2.3/1.8 mg/day North America; 4.0/3.5 mg/day Japan (2020); UL 11 mg/day both (p. 1421)",
+  "Japanese adult intake summarized 2.7 to 7.5 mg/day (duplicate portion, 1960s-1980s); 5.1 and 4.9 mg/day (2002-2003 diet records) (p. 1421)",
+  "Cohort FFQ intake 5.3 mg/day; green tea 84%, rice 7%, oolong tea 4% (p. 1422)"
+ ],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/miyagawa2022-japanese-diet-manganese-intake.md",
+ "non_numeric_findings": [
+  "Manganese not assessed in NHANES Japan."
+ ]
+}

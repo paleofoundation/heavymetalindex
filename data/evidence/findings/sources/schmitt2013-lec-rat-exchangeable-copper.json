@@ -1,0 +1,128 @@
+{
+ "source_id": "schmitt2013-lec-rat-exchangeable-copper",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-COPPER-1/10.1371_journal.pone.0082323.pdf",
+ "primary_sha256": "4b337c8ecf62d1a9d9ce7f8282db50e5453b1fd441792be0ddfc0da12b0b4fd4",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "context",
+ "disposition_reason": "Animal model of Wilson's disease: normal-diet LEC rats all developed acute liver failure (40% mortality) while copper-deficient-diet LEC rats did not; relative exchangeable copper discriminated LEC from control rats.",
+ "disposition_locator": "Results 3.1 and 3.2",
+ "study": {
+  "design": "longitudinal animal study",
+  "origin": "France (laboratory)",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "rats followed from 6 to 28 weeks of age"
+  },
+  "method": "Serum EDTA exchange and 30 kDa ultrafiltration; electrothermal atomic absorption spectrometry for exchangeable and total serum copper",
+  "lod": [],
+  "basis": "unknown",
+  "qa": "Hospital toxicology laboratory; no reference material reported in the article",
+  "site_context": "laboratory"
+ },
+ "findings": [
+  {
+   "id": "schmitt2013-lec-rat-exchangeable-copper:Cu:rat-serum--lec-rats-normal-diet:mean",
+   "material": {
+    "label_as_printed": "Rat serum",
+    "page": "metals/copper",
+    "form": "serum",
+    "state": "as_sampled",
+    "route_rule": "override:HMI-METAL-INGEST-2"
+   },
+   "analyte": "Cu",
+   "group": "LEC rats, normal diet",
+   "group_kind": "treatment_group",
+   "n": 15,
+   "statistic": "mean",
+   "reported": "REC 49.5% ± 16.6%",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "% of total serum copper",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Results 3.2, p. 4",
+   "integrity_flag": null,
+   "notes": "Relative exchangeable copper; not a concentration.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "schmitt2013-lec-rat-exchangeable-copper:Cu:rat-serum--lec-rats-copper-deficient-diet:mean",
+   "material": {
+    "label_as_printed": "Rat serum",
+    "page": "metals/copper",
+    "form": "serum",
+    "state": "as_sampled",
+    "route_rule": "override:HMI-METAL-INGEST-2"
+   },
+   "analyte": "Cu",
+   "group": "LEC rats, copper-deficient diet",
+   "group_kind": "treatment_group",
+   "n": 9,
+   "statistic": "mean",
+   "reported": "REC 36.5% ± 3.8%",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "% of total serum copper",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Results 3.2, p. 4",
+   "integrity_flag": null,
+   "notes": "Relative exchangeable copper.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "schmitt2013-lec-rat-exchangeable-copper:Cu:rat-serum--long-evans-control-rats:mean",
+   "material": {
+    "label_as_printed": "Rat serum",
+    "page": "metals/copper",
+    "form": "serum",
+    "state": "as_sampled",
+    "route_rule": "override:HMI-METAL-INGEST-2"
+   },
+   "analyte": "Cu",
+   "group": "Long-Evans control rats",
+   "group_kind": "treatment_group",
+   "n": 6,
+   "statistic": "mean",
+   "reported": "REC 8.9% ± 1.2%",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "% of total serum copper",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Results 3.2, p. 4",
+   "integrity_flag": null,
+   "notes": "Relative exchangeable copper.",
+   "statistic_raw": "mean"
+  }
+ ],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [
+  "Diet copper: normal diet 13 ppm; copper-deficient diet less than 1 ppm (0.367 mg/kg) (Methods 2.1, p. 2)."
+ ],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/schmitt2013-lec-rat-exchangeable-copper.md",
+ "non_numeric_findings": [
+  "All 15 normally fed LEC rats developed acute liver failure at median 13 weeks (9 to 18); 40% mortality (Results 3.1).",
+  "No LEC rat on the copper-deficient diet developed acute liver failure or died during 28 weeks (Results 3.1).",
+  "A 19.0% REC cutoff gave 97.3% sensitivity and 100% specificity (Results 3.2)."
+ ]
+}

@@ -1,0 +1,39 @@
+{
+ "source_id": "neth2015-rat-brain-manganese-metallome",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-MANGANESE-1/10.1371_journal.pone.0138270.pdf",
+ "primary_sha256": "9ca566193dbdd7e9c391b98074e50b52b2902537b164269b7514e7e6d721440f",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "context",
+ "disposition_reason": "Rat mechanism: brain manganese and speciation after single i.v. MnCl2 1.5 mg/kg.",
+ "disposition_locator": "Table 1; Results p. 4",
+ "study": {
+  "design": "animal experiment",
+  "origin": "DE (laboratory)",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "four days post injection"
+  },
+  "method": "SEC-ICP-MS; ESI-ICR/FT-MS",
+  "lod": [],
+  "basis": "not stated",
+  "qa": "not applicable",
+  "site_context": "laboratory"
+ },
+ "findings": [],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/neth2015-rat-brain-manganese-metallome.md",
+ "non_numeric_findings": [
+  "Total brain manganese 429.1 vs 360.1 ng/g (+19%, p < 0.001); citrate-sized and amino-acid-sized fractions 1.8-fold."
+ ]
+}

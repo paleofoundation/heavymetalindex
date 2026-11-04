@@ -1,0 +1,43 @@
+{
+ "source_id": "kim2012-manganese-immature-female-rat-reproduction",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-MANGANESE-1/10.12717_DR.2012.16.4.295.pdf",
+ "primary_sha256": "c050c7718041b9b8e3b9238a85c4501962f6d436d907c3238163018679939751",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "context",
+ "disposition_reason": "Rat toxicology: reproductive organ weights and gonadotropins after oral MnCl2 at 1.0, 3.3 and 10 mg/kg/day.",
+ "disposition_locator": "Results pp. 296-297; Figs. 1 and 3",
+ "study": {
+  "design": "animal experiment",
+  "origin": "KR (laboratory)",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "PND 22 to 35"
+  },
+  "method": "organ weights, histology, ELISA",
+  "lod": [
+   "FSH 0.55 ng/mL; LH 122.5 pg/mL assay sensitivity"
+  ],
+  "basis": "not applicable",
+  "qa": "not applicable",
+  "site_context": "laboratory"
+ },
+ "findings": [],
+ "unresolved": [
+  "Abstract and methods differ on route and on which doses changed FSH."
+ ],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/kim2012-manganese-immature-female-rat-reproduction.md",
+ "non_numeric_findings": [
+  "Ovary weight 22.39 (control) vs 19.06 (1 mg) and 17.47 mg (3.3 mg); FSH 3.54 vs 3.07 (1 mg) and 2.75 ng/mL (10 mg); LH 39.85 vs 76.71 ng/mL (1 mg)."
+ ]
+}

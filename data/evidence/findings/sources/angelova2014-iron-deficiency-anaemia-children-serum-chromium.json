@@ -1,0 +1,66 @@
+{
+ "source_id": "angelova2014-iron-deficiency-anaemia-children-serum-chromium",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-CHROMIUM-1/10.1155_2014_718089.pdf",
+ "primary_sha256": "1f6350a9a802033c97ba146a6f9aa32ddcaada7c8d55c91185bba7aad06d76c9",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "occurrence_extracted",
+ "disposition_reason": "Serum chromium in 30 children with iron-deficiency anaemia (Bulgaria).",
+ "disposition_locator": "Table 1 p. 3; Results p. 3",
+ "study": {
+  "design": "cross-sectional clinical study",
+  "origin": "Bulgaria; Ukraine",
+  "market": "not applicable",
+  "method": "spectrophotometric serum chromium method (modified)",
+  "basis": "unknown",
+  "qa": "not reported for chromium",
+  "site_context": "clinical",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "see source"
+  },
+  "lod": []
+ },
+ "findings": [
+  {
+   "id": "angelova2014-iron-deficiency-anaemia-children-serum-chromium:Cr:serum-children-0-to-3-years-with-iron-deficiency-anaemia-gro:mean",
+   "material": {
+    "label_as_printed": "Serum, children 0 to 3 years with iron-deficiency anaemia",
+    "page": "metals/chromium",
+    "form": "as_analyzed",
+    "state": "as_analyzed",
+    "route_rule": "override:HMI-METAL-INGEST-2"
+   },
+   "analyte": "Cr",
+   "group": "Group I, Pleven, Bulgaria",
+   "group_kind": "population",
+   "n": 30,
+   "statistic": "mean",
+   "reported": "0.83 ± 0.69 µmol/L",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "µmol/L",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 1, p. 3",
+   "integrity_flag": null,
+   "notes": "Spectrophotometric method; mass-per-volume, so value_ugkg is null.",
+   "statistic_raw": "mean"
+  }
+ ],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/angelova2014-iron-deficiency-anaemia-children-serum-chromium.md",
+ "non_numeric_findings": []
+}

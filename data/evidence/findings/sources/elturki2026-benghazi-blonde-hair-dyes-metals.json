@@ -1,0 +1,170 @@
+{
+  "source_id": "elturki2026-benghazi-blonde-hair-dyes-metals",
+  "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-FILL-0205/10.54361_ajmas.261038.pdf",
+  "primary_sha256": "a7e08d3b62280dbc01f3b292096f6a4fd446835c1c5f21d02ff2d539568fe9ba",
+  "extracted_at": "2026-11-04",
+  "extractor": "engine-v1",
+  "disposition": "occurrence_extracted",
+  "disposition_reason": "Flame AAS Pb, Cd, Cr, Ni, Fe, Mn, Zn in ten retail blonde hair dyes from Benghazi; Pb 0.058 to 0.095 mg/kg; no detection limits reported.",
+  "disposition_locator": "Table 2 p. 3421",
+  "study": {
+    "design": "retail product survey",
+    "origin": "Italy, France, China, other European (as labelled)",
+    "market": "pharmacies, Benghazi, Libya",
+    "period": {
+      "from": "2026",
+      "to": "2026",
+      "as_reported": "products produced in 2026; analysed within one month of purchase"
+    },
+    "method": "HNO3/HCl hot-plate digestion of 0.5 g to 50 mL; flame AAS (Thermo iCE 3000)",
+    "lod": [
+      "not stated"
+    ],
+    "basis": "as_sold",
+    "qa": "not reported",
+    "site_context": "market"
+  },
+  "findings": [
+    {
+      "id": "elturki2026-benghazi-blonde-hair-dyes-metals:Pb:blonde-hair-dye-10-retail-products-all-p:mean",
+      "material": {
+        "label_as_printed": "Blonde hair dye (10 retail products)",
+        "page": "products/hair-dye-rinse-off",
+        "form": null,
+        "state": "as_sold",
+        "route_rule": "override:HMI-INGEST-2026-11-04b"
+      },
+      "analyte": "Pb",
+      "group": "all products, pharmacies, Benghazi, Libya",
+      "group_kind": "all_samples",
+      "n": 10,
+      "statistic": "mean",
+      "reported": "0.076±0.013 mg\\Kg",
+      "value_ugkg": 76.0,
+      "min_ugkg": 58.0,
+      "max_ugkg": 95.0,
+      "sd_ugkg": 13.0,
+      "unit_original": "mg/kg",
+      "basis": "as_sold",
+      "censoring": "none",
+      "lod_ugkg": null,
+      "locator": "Table 2, p. 3421",
+      "integrity_flag": "possible below-quantification values: flame AAS after 100-fold dilution, no LOD/LOQ, blanks or CRM reported",
+      "notes": null,
+      "statistic_raw": "mean"
+    },
+    {
+      "id": "elturki2026-benghazi-blonde-hair-dyes-metals:Cd:blonde-hair-dye-10-retail-products-all-p:mean",
+      "material": {
+        "label_as_printed": "Blonde hair dye (10 retail products)",
+        "page": "products/hair-dye-rinse-off",
+        "form": null,
+        "state": "as_sold",
+        "route_rule": "override:HMI-INGEST-2026-11-04b"
+      },
+      "analyte": "Cd",
+      "group": "all products, pharmacies, Benghazi, Libya",
+      "group_kind": "all_samples",
+      "n": 10,
+      "statistic": "mean",
+      "reported": "0.026±0.03 mg\\Kg",
+      "value_ugkg": 26.0,
+      "min_ugkg": null,
+      "max_ugkg": 93.0,
+      "sd_ugkg": null,
+      "unit_original": "mg/kg",
+      "basis": "as_sold",
+      "censoring": "nd_as_zero",
+      "lod_ugkg": null,
+      "locator": "Table 2, p. 3421",
+      "integrity_flag": "possible below-quantification values: flame AAS after 100-fold dilution, no LOD/LOQ, blanks or CRM reported",
+      "notes": "not detected in 2 of 10 (counted as zero in the mean); detected range 0.011 to 0.093 mg/kg",
+      "statistic_raw": "mean"
+    },
+    {
+      "id": "elturki2026-benghazi-blonde-hair-dyes-metals:Cr:blonde-hair-dye-10-retail-products-all-p:mean",
+      "material": {
+        "label_as_printed": "Blonde hair dye (10 retail products)",
+        "page": "products/hair-dye-rinse-off",
+        "form": null,
+        "state": "as_sold",
+        "route_rule": "override:HMI-INGEST-2026-11-04b"
+      },
+      "analyte": "Cr",
+      "group": "all products, pharmacies, Benghazi, Libya",
+      "group_kind": "all_samples",
+      "n": 10,
+      "statistic": "mean",
+      "reported": "1.335±0.988 mg/kg",
+      "value_ugkg": 1335.0,
+      "min_ugkg": null,
+      "max_ugkg": 2233.0,
+      "sd_ugkg": null,
+      "unit_original": "mg/kg",
+      "basis": "as_sold",
+      "censoring": "nd_as_zero",
+      "lod_ugkg": null,
+      "locator": "Table 2, p. 3421",
+      "integrity_flag": "possible below-quantification values: flame AAS after 100-fold dilution, no LOD/LOQ, blanks or CRM reported",
+      "notes": "not detected in 3 of 10; detected range 1.226 to 2.233 mg/kg",
+      "statistic_raw": "mean"
+    },
+    {
+      "id": "elturki2026-benghazi-blonde-hair-dyes-metals:Ni:blonde-hair-dye-10-retail-products-all-p:mean",
+      "material": {
+        "label_as_printed": "Blonde hair dye (10 retail products)",
+        "page": "products/hair-dye-rinse-off",
+        "form": null,
+        "state": "as_sold",
+        "route_rule": "override:HMI-INGEST-2026-11-04b"
+      },
+      "analyte": "Ni",
+      "group": "all products, pharmacies, Benghazi, Libya",
+      "group_kind": "all_samples",
+      "n": 10,
+      "statistic": "mean",
+      "reported": "0.921±0.530 mg/kg",
+      "value_ugkg": 921.0,
+      "min_ugkg": 276.0,
+      "max_ugkg": 1782.0,
+      "sd_ugkg": null,
+      "unit_original": "mg/kg",
+      "basis": "as_sold",
+      "censoring": "none",
+      "lod_ugkg": null,
+      "locator": "Table 2, p. 3421",
+      "integrity_flag": "possible below-quantification values: flame AAS after 100-fold dilution, no LOD/LOQ, blanks or CRM reported",
+      "notes": null,
+      "statistic_raw": "mean"
+    }
+  ],
+  "sample_values": [],
+  "controls": [],
+  "unresolved": [
+    "No LOD/LOQ, blank, recovery or CRM reported.",
+    "Hydride generation for As and Hg described but no results reported.",
+    "Per-product values identify brands; brand identity is not carried onto HMI pages."
+  ],
+  "extraction_scope": "complete",
+  "extraction_owners": [
+    "engine-v1"
+  ],
+  "regulatory_or_exposure": [
+    {
+      "what": "US FDA recommended maximum lead in externally applied cosmetics cited by authors",
+      "value": "10 mg/kg",
+      "locator": "p. 3421"
+    },
+    {
+      "what": "dermal HQ and HI",
+      "value": "all below 1",
+      "locator": "Abstract"
+    }
+  ],
+  "source_record_corrections": [],
+  "source_record": "wiki/sources/elturki2026-benghazi-blonde-hair-dyes-metals.md",
+  "non_numeric_findings": [],
+  "merged_unmatched": [],
+  "merged_snapshot": null,
+  "raw_output": null
+}

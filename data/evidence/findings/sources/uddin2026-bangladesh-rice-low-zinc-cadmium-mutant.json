@@ -1,0 +1,40 @@
+{
+ "source_id": "uddin2026-bangladesh-rice-low-zinc-cadmium-mutant",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-ZINC-1/10.1111_ppl.70980.pdf",
+ "primary_sha256": "628b3632ada452e4436b2b50c846a38f02021075b9d632b56789f816a754913d",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "context",
+ "disposition_reason": "Rice genetics study; zinc results only in figures, used for the qualitative zinc and cadmium co-reduction finding.",
+ "disposition_locator": "Section 3.4 and Figure 5; Discussion",
+ "study": {
+  "design": "forward genetic ionomic screen with field evaluation",
+  "origin": "Bangladesh (BAU field) and Tokyo, Japan",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "field evaluation 2024"
+  },
+  "method": "ICP-MS of brown rice",
+  "lod": [],
+  "basis": "unknown",
+  "qa": "not summarized in text",
+  "site_context": "laboratory"
+ },
+ "findings": [],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/uddin2026-bangladesh-rice-low-zinc-cadmium-mutant.md",
+ "non_numeric_findings": [
+  "The oshma2-4 mutant had lower grain zinc and cadmium than wild type (Figure 5A).",
+  "The mutant showed growth sensitivity under zinc-deficient hydroponic conditions (Figure 7); BAU soil was classified as low-zinc."
+ ]
+}

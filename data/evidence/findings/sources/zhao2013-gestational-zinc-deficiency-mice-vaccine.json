@@ -1,0 +1,40 @@
+{
+ "source_id": "zhao2013-gestational-zinc-deficiency-mice-vaccine",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-ZINC-1/10.1371_journal.pone.0073461.pdf",
+ "primary_sha256": "ccbd21a7711b09167d5eaace908117ded8d6d7d216b34f7a345eed82afacd89e",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "context",
+ "disposition_reason": "Animal toxicology of gestational deficiency; serum values are experimental, not occurrence.",
+ "disposition_locator": "Methods p. 2; Results p. 3; Figure 1",
+ "study": {
+  "design": "controlled mouse feeding and vaccination study",
+  "origin": "Shenyang, China",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "not stated"
+  },
+  "method": "ICP-MS (Agilent 7700x) for serum zinc",
+  "lod": [],
+  "basis": "unknown",
+  "qa": "not reported",
+  "site_context": "laboratory"
+ },
+ "findings": [],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/zhao2013-gestational-zinc-deficiency-mice-vaccine.md",
+ "non_numeric_findings": [
+  "Gestational zinc deficiency reduced HBsAg-specific IgG, IgG1 and IgG2a and T-cell proliferation in offspring.",
+  "Late-pregnancy zinc supplementation restored maternal serum zinc."
+ ]
+}

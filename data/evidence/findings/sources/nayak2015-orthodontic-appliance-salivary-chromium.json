@@ -1,0 +1,122 @@
+{
+ "source_id": "nayak2015-orthodontic-appliance-salivary-chromium",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-CHROMIUM-1/PMC4588781.pdf",
+ "primary_sha256": "4efa2ae72f9dd5bce2489f3a6109f5d24d0f2ba9972bbe4f79c71fbeb8fdd3dc",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "occurrence_extracted",
+ "disposition_reason": "Salivary chromium at three time points in 30 orthodontic patients by ICP-MS.",
+ "disposition_locator": "Table 2 p. 16",
+ "study": {
+  "design": "prospective before-after clinical study",
+  "origin": "India",
+  "market": "not applicable",
+  "method": "ICP-MS",
+  "basis": "unknown",
+  "qa": "not reported",
+  "site_context": "clinical",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "see source"
+  },
+  "lod": []
+ },
+ "findings": [
+  {
+   "id": "nayak2015-orthodontic-appliance-salivary-chromium:Cr:saliva-orthodontic-patients-pretreatment:mean",
+   "material": {
+    "label_as_printed": "Saliva, orthodontic patients",
+    "page": "metals/chromium",
+    "form": "as_analyzed",
+    "state": "as_analyzed",
+    "route_rule": "override:HMI-METAL-INGEST-2"
+   },
+   "analyte": "Cr",
+   "group": "pretreatment",
+   "group_kind": "timepoint",
+   "n": 30,
+   "statistic": "mean",
+   "reported": "69.15 ± 60.48 ppb",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "ppb",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 16",
+   "integrity_flag": null,
+   "notes": "ICP-MS; ppb in saliva (mass per mass or volume not specified).",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "nayak2015-orthodontic-appliance-salivary-chromium:Cr:saliva-orthodontic-patients-after-aligning-archwires:mean",
+   "material": {
+    "label_as_printed": "Saliva, orthodontic patients",
+    "page": "metals/chromium",
+    "form": "as_analyzed",
+    "state": "as_analyzed",
+    "route_rule": "override:HMI-METAL-INGEST-2"
+   },
+   "analyte": "Cr",
+   "group": "after aligning archwires",
+   "group_kind": "timepoint",
+   "n": 30,
+   "statistic": "mean",
+   "reported": "102.68 ± 68.12 ppb",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "ppb",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 16",
+   "integrity_flag": null,
+   "notes": "ICP-MS; ppb in saliva (mass per mass or volume not specified).",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "nayak2015-orthodontic-appliance-salivary-chromium:Cr:saliva-orthodontic-patients-after-10-to-12-months:mean",
+   "material": {
+    "label_as_printed": "Saliva, orthodontic patients",
+    "page": "metals/chromium",
+    "form": "as_analyzed",
+    "state": "as_analyzed",
+    "route_rule": "override:HMI-METAL-INGEST-2"
+   },
+   "analyte": "Cr",
+   "group": "after 10 to 12 months",
+   "group_kind": "timepoint",
+   "n": 30,
+   "statistic": "mean",
+   "reported": "87.67 ± 63.47 ppb",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "ppb",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 16",
+   "integrity_flag": null,
+   "notes": "ICP-MS; ppb in saliva (mass per mass or volume not specified).",
+   "statistic_raw": "mean"
+  }
+ ],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/nayak2015-orthodontic-appliance-salivary-chromium.md",
+ "non_numeric_findings": []
+}

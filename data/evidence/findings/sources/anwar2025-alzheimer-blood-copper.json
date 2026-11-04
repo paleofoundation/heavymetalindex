@@ -1,0 +1,96 @@
+{
+ "source_id": "anwar2025-alzheimer-blood-copper",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-COPPER-1/10.1002_alz70860_107018.pdf",
+ "primary_sha256": "b5c13896b8630f6121f18af6c4fecad2c7ba3ae83d087ae9ff86faa70b506e69",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "occurrence_extracted",
+ "disposition_reason": "Conference abstract: blood copper by ICP-MS in 25 Alzheimer's patients and 20 controls; difference not significant.",
+ "disposition_locator": "Result",
+ "study": {
+  "design": "case-control (conference abstract)",
+  "origin": "India",
+  "market": "All India Institute of Medical Sciences, New Delhi",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "not dated"
+  },
+  "method": "ICP-MS (Agilent)",
+  "lod": [],
+  "basis": "unknown",
+  "qa": "None reported",
+  "site_context": "clinical"
+ },
+ "findings": [
+  {
+   "id": "anwar2025-alzheimer-blood-copper:Cu:blood--alzheimer-s-disease-patients-new-delhi:mean",
+   "material": {
+    "label_as_printed": "Blood",
+    "page": "metals/copper",
+    "form": "blood",
+    "state": "as_sampled",
+    "route_rule": "override:HMI-METAL-INGEST-2"
+   },
+   "analyte": "Cu",
+   "group": "Alzheimer's disease patients, New Delhi",
+   "group_kind": "case_group",
+   "n": 25,
+   "statistic": "mean",
+   "reported": "1401 ± 128.4 µg/L",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "µg/L",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Result, p. 1",
+   "integrity_flag": null,
+   "notes": "Dispersion statistic not named; blood fraction not stated.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "anwar2025-alzheimer-blood-copper:Cu:blood--healthy-controls-new-delhi:mean",
+   "material": {
+    "label_as_printed": "Blood",
+    "page": "metals/copper",
+    "form": "blood",
+    "state": "as_sampled",
+    "route_rule": "override:HMI-METAL-INGEST-2"
+   },
+   "analyte": "Cu",
+   "group": "healthy controls, New Delhi",
+   "group_kind": "control_group",
+   "n": 20,
+   "statistic": "mean",
+   "reported": "1206 ± 67.25 µg/L",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "µg/L",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Result, p. 1",
+   "integrity_flag": null,
+   "notes": "p = 0.2251 versus patients.",
+   "statistic_raw": "mean"
+  }
+ ],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/anwar2025-alzheimer-blood-copper.md",
+ "non_numeric_findings": [
+  "Abstract states zinc was higher in patients but reports 5980 µg/L in patients versus 8468 µg/L in controls; internal inconsistency."
+ ]
+}

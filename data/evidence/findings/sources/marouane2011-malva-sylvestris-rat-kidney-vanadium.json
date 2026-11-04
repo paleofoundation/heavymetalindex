@@ -1,0 +1,44 @@
+{
+ "source_id": "marouane2011-malva-sylvestris-rat-kidney-vanadium",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-VANADIUM-1/10.1186_1476-511X-10-65.pdf",
+ "primary_sha256": "21709b40916f7d4ca41f3a2ccbe4c4c8f474d6e8a4eb9330c35cd434dc90d229",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "context",
+ "disposition_reason": "Rat nephrotoxicity study of ammonium metavanadate in drinking water with a mallow decoction; oxidative-stress and histology endpoints, no vanadium measured in any matrix.",
+ "disposition_locator": "Results (pp. 2 to 3); Materials and methods (p. 6)",
+ "study": {
+  "design": "controlled animal toxicity study",
+  "origin": "Tunisia (laboratory)",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "15 to 90 days"
+  },
+  "method": "TBARS, SOD, CAT, GPX spectrophotometry; serum creatinine kit; H&E histology",
+  "lod": [],
+  "basis": "unknown",
+  "qa": "Student t-test, n = 5",
+  "site_context": "laboratory"
+ },
+ "findings": [],
+ "unresolved": [
+  "Dose statements in abstract and methods are inconsistent and not reconciled by the paper."
+ ],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [
+  "Dose: ammonium metavanadate 1.185 mmol/L as sole beverage, stated as 60 mg ammonium metavanadate/kg bw (p. 6); abstract states 0.24 mmol/kg bw (p. 1)"
+ ],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/marouane2011-malva-sylvestris-rat-kidney-vanadium.md",
+ "non_numeric_findings": [
+  "Day 30: kidney TBARS about 117.5% above controls; SOD, CAT, GPX up 74.5%, 31.5%, 82% (pp. 2 to 3)",
+  "Structural deterioration of renal cortical capsules and reduced Bowman's space; serum creatinine unchanged (pp. 2 to 3)"
+ ]
+}

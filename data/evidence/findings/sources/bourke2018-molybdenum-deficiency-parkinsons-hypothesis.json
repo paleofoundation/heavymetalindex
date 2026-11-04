@@ -1,0 +1,42 @@
+{
+ "source_id": "bourke2018-molybdenum-deficiency-parkinsons-hypothesis",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-MOLYBDENUM-1/10.1038_s41531-018-0045-5.pdf",
+ "primary_sha256": "8f8bb021922aa10e39147f67708adc3324a7ee37b5626f50c0a52474f2ed1b47",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "context",
+ "disposition_reason": "Single-author perspective proposing that molybdenum deficiency plus dietary purines could initiate Parkinson's disease; no new data, figures are secondary.",
+ "disposition_locator": "Abstract (p. 1); Molybdenum deficiency section (p. 3); Guam section (p. 4)",
+ "study": {
+  "design": "narrative perspective",
+  "origin": "not applicable",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "not applicable"
+  },
+  "method": "none (narrative)",
+  "lod": [],
+  "basis": "unknown",
+  "qa": "not applicable",
+  "site_context": "not applicable"
+ },
+ "findings": [],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [
+  "Average daily diet molybdenum content calculated from earlier surveys: 0.07 ppm (US), 0.04 ppm (UK); CNS disease in molybdenum-deficient sheep below 0.04 ppm dietary molybdenum (pp. 1, 3; secondary)"
+ ],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/bourke2018-molybdenum-deficiency-parkinsons-hypothesis.md",
+ "non_numeric_findings": [
+  "Southern Guam garden soils mean 0.85 ppm molybdenum (range 0.1 to 1.6, n = 24) vs 4.3 ppm in one limestone soil (p. 4; secondary)",
+  "Hypothesis: low xanthine oxidase-dehydrogenase activity in molybdenum deficiency allows dietary purines to be salvaged into the CNS (pp. 1 to 2)"
+ ]
+}

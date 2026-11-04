@@ -1,0 +1,47 @@
+{
+ "source_id": "ghosh2019-india-women-iron-requirement-fortification",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-IRON-1/10.1093_jn_nxy283.pdf",
+ "primary_sha256": "7466b63db5cd2720454d7b43d35a3051968409e7302e33a5a4d28e89d4d1bd52",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "context",
+ "disposition_reason": "Derived iron requirement and modeled risks of inadequate and excess intake for Indian women; no concentration measurements.",
+ "disposition_locator": "p. 368; Table 1; Table 2",
+ "study": {
+  "design": "factorial requirement modeling with probability-approach risk estimation",
+  "origin": "India",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "national household survey data (NSS 68th round, 2011 to 2012, as cited)"
+  },
+  "method": "Monte Carlo convolution of basal and menstrual losses; EAR cut-point/probability method",
+  "lod": [],
+  "basis": "not_applicable",
+  "qa": "Validation against a biomarker survey in Uttar Pradesh",
+  "site_context": "population"
+ },
+ "findings": [],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [
+  "EAR 14.4 mg/day (rounded 15 mg/day); RDA 30 or 35 mg/day (p. 368)",
+  "Comparison recommendation (ICMR 2010) 21 mg/day (Table 2 footnote)",
+  "Tolerable upper level used 45 mg/day (p. 367; Table 2)",
+  "Risk of exceeding 45 mg/day with 10 mg/day fortification plus 14 mg/day supplementation: 0% to 54% by state (Rajasthan 54%) (Table 2)",
+  "Median state risk of inadequate intake 65% (IQR 48% to 78%) at the new EAR; 20% with fortification; 3% with fortification plus supplementation (Abstract; p. 369)",
+  "Weighted mean absorption from cereal-based Indian meals 8.7% (p. 368)"
+ ],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/ghosh2019-india-women-iron-requirement-fortification.md",
+ "non_numeric_findings": [
+  "Most dietary iron in India comes from cereals (about 70%) and about 1% from heme sources, per cited national survey data.",
+  "Fortification plus supplementation raises the risk of exceeding the upper level in some states."
+ ]
+}

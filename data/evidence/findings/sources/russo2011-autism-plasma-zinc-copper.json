@@ -1,0 +1,96 @@
+{
+ "source_id": "russo2011-autism-plasma-zinc-copper",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-ZINC-1/10.4137_NMI.S6827.pdf",
+ "primary_sha256": "f07f9dc5b902843369ec0704db016ba6bd1d87d4a297cc0a596f09a2d931c46e",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "context",
+ "disposition_reason": "Clinic plasma zinc and copper values with an implausible printed unit and inconsistent counts; used only as context.",
+ "disposition_locator": "Tables 1 to 3, pp. 51 to 52",
+ "study": {
+  "design": "case-control comparison with uncontrolled before-after supplementation",
+  "origin": "Warrenville, Illinois, United States",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "not stated"
+  },
+  "method": "ICP-MS",
+  "lod": [],
+  "basis": "unknown",
+  "qa": "not reported",
+  "site_context": "clinical"
+ },
+ "findings": [
+  {
+   "id": "russo2011-autism-plasma-zinc-copper:Zn:plasma-autism-group-before-therapy-autism-pre-therapy:mean",
+   "material": {
+    "label_as_printed": "Plasma, autism group before therapy",
+    "page": "metals/zinc",
+    "form": null,
+    "state": null,
+    "route_rule": "override:HMI-METAL-INGEST-2"
+   },
+   "analyte": "Zn",
+   "group": "autism, pre-therapy",
+   "group_kind": "group",
+   "n": 79,
+   "statistic": "mean",
+   "reported": "78.36 ± 20.32 (printed mg/dL)",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/dL",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 1, p. 51",
+   "integrity_flag": null,
+   "notes": "Unit implausible; likely µg/dL.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "russo2011-autism-plasma-zinc-copper:Zn:plasma-neurotypical-controls-controls:mean",
+   "material": {
+    "label_as_printed": "Plasma, neurotypical controls",
+    "page": "metals/zinc",
+    "form": null,
+    "state": null,
+    "route_rule": "override:HMI-METAL-INGEST-2"
+   },
+   "analyte": "Zn",
+   "group": "controls",
+   "group_kind": "group",
+   "n": 18,
+   "statistic": "mean",
+   "reported": "84.42 ± 24.18 (printed mg/dL)",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/dL",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 1, p. 51",
+   "integrity_flag": null,
+   "notes": "Unit implausible; likely µg/dL.",
+   "statistic_raw": "mean"
+  }
+ ],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/russo2011-autism-plasma-zinc-copper.md",
+ "non_numeric_findings": [
+  "Hyperactivity and stimming scores improved after therapy only in the GI disease subgroup (Table 4)."
+ ]
+}

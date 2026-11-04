@@ -1,0 +1,130 @@
+{
+ "source_id": "kurttio2002-finland-well-water-uranium-kidney",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-URANIUM-1/10.1289_ehp.02110337.pdf",
+ "primary_sha256": "c06696c65d5dc70882b13867d37e9e63fd13a2aee8a21fd9aa2978f20b49b441",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "occurrence_extracted",
+ "disposition_reason": "Uranium in drilled-well drinking water (median 28 µg/L) and urine (median 13 ng/mmol creatinine) for 325 Finnish residents, with kidney function associations.",
+ "disposition_locator": "Abstract p. 337; Table 2 p. 338; Table 3; Table 4; p. 340",
+ "study": {
+  "design": "cross-sectional exposure and kidney function study",
+  "origin": "Finland, 24 municipalities in southern Finland",
+  "market": "private drilled bedrock wells",
+  "period": {
+   "from": "1999-09-14",
+   "to": "1999-12-01",
+   "as_reported": "14 September to 1 December 1999"
+  },
+  "method": "ICP-MS (Elan 6000) for water and urine uranium",
+  "lod": [
+   "water 0.0004 µg/L; urine 0.002 µg/L (Table 2, p. 338)"
+  ],
+  "basis": "unknown",
+  "qa": "blind analysis; split samples (CV 3.0% water, 16% urine); inter-laboratory comparison",
+  "site_context": "household drinking water"
+ },
+ "findings": [
+  {
+   "id": "kurttio2002-finland-well-water-uranium-kidney:U:drilled-well-drinking-water-325-users-of-194-drilled-wells-s:median",
+   "material": {
+    "label_as_printed": "Drilled-well drinking water",
+    "page": "ingredients/water",
+    "form": "liquid",
+    "state": "as_consumed",
+    "route_rule": "override:HMI-METAL-INGEST-2"
+   },
+   "analyte": "U",
+   "group": "325 users of 194 drilled wells, southern Finland",
+   "group_kind": "site",
+   "n": 325,
+   "statistic": "median",
+   "reported": "28 µg/L (interquartile range 6 to 135; max 1,920)",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "µg/L",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Abstract p. 337; Table 3",
+   "integrity_flag": null,
+   "notes": "Water concentration; full range 0.001 to 1,920 µg/L with 30% above 100 µg/L (p. 340).",
+   "statistic_raw": "median"
+  },
+  {
+   "id": "kurttio2002-finland-well-water-uranium-kidney:U:urine-325-users-of-drilled-wells-southern-finland:median",
+   "material": {
+    "label_as_printed": "Urine",
+    "page": "metals/uranium",
+    "form": "liquid",
+    "state": "biological",
+    "route_rule": "override:HMI-METAL-INGEST-2"
+   },
+   "analyte": "U",
+   "group": "325 users of drilled wells, southern Finland",
+   "group_kind": "population",
+   "n": 325,
+   "statistic": "median",
+   "reported": "13 ng/mmol creatinine (interquartile range 2 to 75)",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "ng/mmol creatinine",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Abstract p. 337; Table 3",
+   "integrity_flag": null,
+   "notes": "Human biomonitoring matrix.",
+   "statistic_raw": "median"
+  },
+  {
+   "id": "kurttio2002-finland-well-water-uranium-kidney:U:daily-uranium-intake-from-drinking-water-325-users-of-drille:median",
+   "material": {
+    "label_as_printed": "Daily uranium intake from drinking water",
+    "page": "ingredients/water",
+    "form": "liquid",
+    "state": "intake",
+    "route_rule": "override:HMI-METAL-INGEST-2"
+   },
+   "analyte": "U",
+   "group": "325 users of drilled wells, southern Finland",
+   "group_kind": "population",
+   "n": 325,
+   "statistic": "median",
+   "reported": "39 µg/day (interquartile range 7 to 224)",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "µg/day",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Abstract p. 337; Table 3",
+   "integrity_flag": null,
+   "notes": "Derived by the authors from water volume and concentration.",
+   "statistic_raw": "median"
+  }
+ ],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [
+  "WHO proposed guideline of 2 µg/L at the time, cited by the authors, p. 337",
+  "Authors suggest the safe concentration may lie within proposed guideline values of 2 to 30 µg/L (abstract, p. 337)"
+ ],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/kurttio2002-finland-well-water-uranium-kidney.md",
+ "non_numeric_findings": [
+  "Per 1 µg/mmol creatinine urinary uranium: calcium fractional excretion +1.5% (95% CI 0.6 to 2.3), phosphate +13% (1.4 to 25), glucose +0.7 µmol/min (-0.4 to 1.8) (abstract; Table 4).",
+  "No association with creatinine clearance or urinary albumin (glomerular markers)."
+ ]
+}

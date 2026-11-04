@@ -1,0 +1,152 @@
+{
+ "source_id": "sughis2012-sialkot-child-workers-urinary-chromium",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-CHROMIUM-1/10.1289_ehp.1104678.pdf",
+ "primary_sha256": "fc9b320cddaf102c4655cdc78d7cb1765eea10cc9c821d8c75402c16e3442760",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "occurrence_extracted",
+ "disposition_reason": "Urinary chromium in 102 child workers and 75 schoolchildren by ICP-MS.",
+ "disposition_locator": "Tables 2 and 3 p. 1471",
+ "study": {
+  "design": "cross-sectional biomonitoring study",
+  "origin": "Pakistan",
+  "market": "not applicable",
+  "method": "ICP-MS (Agilent 7500ce)",
+  "basis": "unknown",
+  "qa": "values below LOD set to half LOD; creatinine below 0.3 g/L excluded",
+  "site_context": "occupational",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "see source"
+  },
+  "lod": []
+ },
+ "findings": [
+  {
+   "id": "sughis2012-sialkot-child-workers-urinary-chromium:Cr:urine-boys-working-in-surgical-instrument-units-working-chil:geometric_mean",
+   "material": {
+    "label_as_printed": "Urine, boys working in surgical instrument units",
+    "page": "metals/chromium",
+    "form": "as_analyzed",
+    "state": "as_analyzed",
+    "route_rule": "override:HMI-METAL-INGEST-2"
+   },
+   "analyte": "Cr",
+   "group": "working children, Sialkot",
+   "group_kind": "population",
+   "n": 102,
+   "statistic": "geometric_mean",
+   "reported": "23.0 µg/L (P25 to P75 8.38 to 58.6)",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "µg/L",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 1471",
+   "integrity_flag": null,
+   "notes": "ICP-MS, spot urine.",
+   "statistic_raw": "geometric_mean"
+  },
+  {
+   "id": "sughis2012-sialkot-child-workers-urinary-chromium:Cr:urine-schoolboys-schoolchildren-sialkot:geometric_mean",
+   "material": {
+    "label_as_printed": "Urine, schoolboys",
+    "page": "metals/chromium",
+    "form": "as_analyzed",
+    "state": "as_analyzed",
+    "route_rule": "override:HMI-METAL-INGEST-2"
+   },
+   "analyte": "Cr",
+   "group": "schoolchildren, Sialkot",
+   "group_kind": "population",
+   "n": 75,
+   "statistic": "geometric_mean",
+   "reported": "0.66 µg/L (P25 to P75 0.38 to 1.09)",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "µg/L",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 1471",
+   "integrity_flag": null,
+   "notes": "ICP-MS, spot urine.",
+   "statistic_raw": "geometric_mean"
+  },
+  {
+   "id": "sughis2012-sialkot-child-workers-urinary-chromium:Cr:urine-boys-working-in-surgical-instrument-units-working-chil:geometric_mean",
+   "material": {
+    "label_as_printed": "Urine, boys working in surgical instrument units",
+    "page": "metals/chromium",
+    "form": "as_analyzed",
+    "state": "as_analyzed",
+    "route_rule": "override:HMI-METAL-INGEST-2"
+   },
+   "analyte": "Cr",
+   "group": "working children, creatinine-adjusted",
+   "group_kind": "population",
+   "n": 94,
+   "statistic": "geometric_mean",
+   "reported": "30.1 µg/g creatinine (12.3 to 78.2)",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "µg/g creatinine",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 3, p. 1471",
+   "integrity_flag": null,
+   "notes": "Creatinine below 0.3 g/L excluded.",
+   "statistic_raw": "geometric_mean"
+  },
+  {
+   "id": "sughis2012-sialkot-child-workers-urinary-chromium:Cr:urine-schoolboys-schoolchildren-creatinine-adjusted:geometric_mean",
+   "material": {
+    "label_as_printed": "Urine, schoolboys",
+    "page": "metals/chromium",
+    "form": "as_analyzed",
+    "state": "as_analyzed",
+    "route_rule": "override:HMI-METAL-INGEST-2"
+   },
+   "analyte": "Cr",
+   "group": "schoolchildren, creatinine-adjusted",
+   "group_kind": "population",
+   "n": 74,
+   "statistic": "geometric_mean",
+   "reported": "0.66 µg/g creatinine (0.40 to 0.82)",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "µg/g creatinine",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 3, p. 1471",
+   "integrity_flag": null,
+   "notes": "Creatinine below 0.3 g/L excluded.",
+   "statistic_raw": "geometric_mean"
+  }
+ ],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [
+  "Occupational biological exposure index for adult workers 25 µg/L urinary chromium, as cited (abstract)"
+ ],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/sughis2012-sialkot-child-workers-urinary-chromium.md",
+ "non_numeric_findings": []
+}

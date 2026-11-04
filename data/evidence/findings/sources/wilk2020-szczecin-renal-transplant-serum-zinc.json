@@ -1,0 +1,126 @@
+{
+ "source_id": "wilk2020-szczecin-renal-transplant-serum-zinc",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-ZINC-1/10.1007_s12011-020-02074-2.pdf",
+ "primary_sha256": "107fc51c4641a1f4235674d56d1198af334226bbdad31f9ae84e62e2425b4f5f",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "occurrence_extracted",
+ "disposition_reason": "Median and range serum zinc in renal transplant recipients by drug regimen (ICP-MS).",
+ "disposition_locator": "Table 2, p. 374; Table 3, p. 377",
+ "study": {
+  "design": "cross-sectional clinical comparison",
+  "origin": "Szczecin, Poland",
+  "market": "not applicable",
+  "period": {
+   "from": "2017",
+   "to": "2019",
+   "as_reported": "2017 to 2019"
+  },
+  "method": "ICP-MS (PerkinElmer NexION 350D), 100-fold dilution",
+  "lod": [],
+  "basis": "unknown",
+  "qa": "duplicate measurement in separate runs; no reference material reported",
+  "site_context": "clinical"
+ },
+ "findings": [
+  {
+   "id": "wilk2020-szczecin-renal-transplant-serum-zinc:Zn:serum-all-renal-transplant-recipients-all-patients:median",
+   "material": {
+    "label_as_printed": "Serum, all renal transplant recipients",
+    "page": "metals/zinc",
+    "form": null,
+    "state": null,
+    "route_rule": "override:HMI-METAL-INGEST-2"
+   },
+   "analyte": "Zn",
+   "group": "all patients",
+   "group_kind": "group",
+   "n": 115,
+   "statistic": "median",
+   "reported": "692.30 µg/L (range 398.38 to 3615.26)",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "µg/L",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 374",
+   "integrity_flag": null,
+   "notes": "",
+   "statistic_raw": "median"
+  },
+  {
+   "id": "wilk2020-szczecin-renal-transplant-serum-zinc:Zn:serum-mycophenolate-treated-mmf:median",
+   "material": {
+    "label_as_printed": "Serum, mycophenolate-treated",
+    "page": "metals/zinc",
+    "form": null,
+    "state": null,
+    "route_rule": "override:HMI-METAL-INGEST-2"
+   },
+   "analyte": "Zn",
+   "group": "MMF+",
+   "group_kind": "group",
+   "n": 90,
+   "statistic": "median",
+   "reported": "690.63 µg/L",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "µg/L",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 374",
+   "integrity_flag": null,
+   "notes": "",
+   "statistic_raw": "median"
+  },
+  {
+   "id": "wilk2020-szczecin-renal-transplant-serum-zinc:Zn:serum-not-mycophenolate-treated-mmf:median",
+   "material": {
+    "label_as_printed": "Serum, not mycophenolate-treated",
+    "page": "metals/zinc",
+    "form": null,
+    "state": null,
+    "route_rule": "override:HMI-METAL-INGEST-2"
+   },
+   "analyte": "Zn",
+   "group": "MMF-",
+   "group_kind": "group",
+   "n": 25,
+   "statistic": "median",
+   "reported": "695.49 µg/L",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "µg/L",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 374",
+   "integrity_flag": null,
+   "notes": "",
+   "statistic_raw": "median"
+  }
+ ],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [
+  "Normal serum zinc cited as 0.75 to 1.0 mg/L (Discussion, p. 377)."
+ ],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/wilk2020-szczecin-renal-transplant-serum-zinc.md",
+ "non_numeric_findings": [
+  "Mycophenolate use was associated with higher copper but not zinc."
+ ]
+}
