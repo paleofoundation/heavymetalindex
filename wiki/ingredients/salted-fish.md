@@ -11,7 +11,7 @@ audience:
   - educator
   - consumer
   - app
-sources: 4
+sources: 7
 updated: '2026-11-04'
 evidence_coverage: partial
 literature_scope: regional
@@ -211,18 +211,18 @@ Dried shark and dried predatory fish are referenced briefly for mercury context 
 
 ## Heavy metal contamination profile
 
-| Analyte | Coverage | Typical range (µg/kg ww) | Confidence | Key sources |
-|---------|----------|--------------------------|------------|-------------|
-| Pb | n=2 studies | 190-720 (Egyptian types); <LOQ (tilapia) | low | [[sources/morshdy2023-heavy-metals-salted-fish-egypt\|1]], [[sources/hasselberg2020-processed-small-fish-ghana-metals\|2]] |
-| Cd | n=2 studies | 30-90 (Egyptian types); <LOQ (tilapia) | low | [[sources/morshdy2023-heavy-metals-salted-fish-egypt\|1]], [[sources/hasselberg2020-processed-small-fish-ghana-metals\|2]] |
-| tAs | n=1 study | 160-1530 (Egyptian types); 100 (tilapia) | low | [[sources/morshdy2023-heavy-metals-salted-fish-egypt\|1]] |
-| tHg | n=1 study | 2-6 (Egyptian types); <LOQ (tilapia); ND (herrings) | low | [[sources/morshdy2023-heavy-metals-salted-fish-egypt\|1]] |
-| iAs | not measured | -- | none | -- |
-| MeHg | not measured | -- | none | -- |
-| Ni | not measured | -- | none | -- |
-| Al | not measured | -- | none | -- |
-| Cr-VI | not measured | -- | none | -- |
-| Sn | not measured | -- | none | -- |
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Lead (Pb) | n=2 | 190–720 | low | [[sources/morshdy2023-heavy-metals-salted-fish-egypt\|1]], [[sources/hasselberg2020-processed-small-fish-ghana-metals\|2]] |
+| Cadmium (Cd) | n=2 | 30–90 | low | [[sources/morshdy2023-heavy-metals-salted-fish-egypt\|1]], [[sources/hasselberg2020-processed-small-fish-ghana-metals\|2]] |
+| Inorganic arsenic (iAs) | pending | — | — | — |
+| Total arsenic (tAs) | n=1 | 160–1530 | low | [[sources/morshdy2023-heavy-metals-salted-fish-egypt\|1]] |
+| Total mercury (tHg) | n=1 | 2–6 | low | [[sources/morshdy2023-heavy-metals-salted-fish-egypt\|1]] |
+| Nickel (Ni) | pending | — | — | — |
+| Aluminum (Al) | pending | — | — | — |
+| Chromium (Cr) | — | — | — | — |
+| Tin (Sn) | pending | — | — | — |
+| Uranium (U) | — | — | — | — |
 
 Typical-range values are means or mean ranges across product types from the Egypt retail survey (Morshdy 2023, n=80, wet weight). Tilapia data from Ghana (Hasselberg 2020) are whole dried product wet weight with 28% moisture; below-LOQ values indicate the contamination is at or below the detection threshold. p95 values are not calculable from the published mean and standard error data alone.
 
@@ -424,15 +424,29 @@ Works cited in this page's text, in first-appearance order.
 3. [[sources/alkharusi2026-mercury-dried-shark-oman-case-report|Chronic Mercury Toxicity Associated With Habitual Dried Shark Consumption in Oman: A Case Report]]<span class="hmi-ref-meta">Al Kharusi F et al. · Cureus · 2026 · DOI: 10.7759/cureus.116693</span><span class="hmi-ref-tag">Peer-reviewed (case report)</span>
 4. [[sources/robinson2025-dried-fish-nutrients-africa|Dried fish provide widespread access to critical nutrients across Africa]]<span class="hmi-ref-meta">Robinson JPW et al. · PNAS · 2025 · DOI: 10.1073/pnas.2426844122</span><span class="hmi-ref-tag">Peer-reviewed</span>
 
+<!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-<p class="hmi-table-note">Sources catalogued for this page.</p>
+<p class="hmi-table-note">Source records associated with this topic. Inclusion does not establish that every finding applies to this product or ingredient. References above identify works cited in the text.</p>
 
-- [[sources/morshdy2023-heavy-metals-salted-fish-egypt|Morshdy et al. 2023 — Lead, cadmium, arsenic, mercury in Egyptian salted fish]] (occurrence data)
-- [[sources/hasselberg2020-processed-small-fish-ghana-metals|Hasselberg et al. 2020 — Nutrients and heavy metals in processed small fish from Ghana]] (occurrence data, salted tilapia)
-- [[sources/alkharusi2026-mercury-dried-shark-oman-case-report|Al Kharusi et al. 2026 — Mercury toxicity from dried shark, Oman]] (clinical context)
-- [[sources/robinson2025-dried-fish-nutrients-africa|Robinson et al. 2025 — Dried fish nutrients across Africa]] (exposure context, contaminant framing)
-<!-- END: source-legend -->
+| # | Citation | Year | Type | Used on this page for |
+| --- | --- | ---: | --- | --- |
+| 1 | [[sources/alkharusi2026-mercury-dried-shark-oman-case-report\|Al et al. 2026]]. *Chronic Mercury Toxicity Associated With Habitual Dried Shark Consumption in Oman: A Case Report* | 2026 | Peer-reviewed | Contribution to this topic remains under review; see the source record for its reported scope. |
+| 2 | [[sources/nava2026-messina-cod-products-elements\|Nava et al. 2026]]. *Safety of Commercial Cod Products and Potential Impact on Consumers*, Foods 2026, 15, 1202 | 2026 | Peer-reviewed | Contribution to this topic remains under review; see the source record for its reported scope. |
+| 3 | [[sources/robinson2025-dried-fish-nutrients-africa\|Robinson et al. 2025]]. *Dried fish provide widespread access to critical nutrients across Africa* | 2025 | Peer-reviewed | Contribution to this topic remains under review; see the source record for its reported scope. |
+| 4 | [[sources/hasselberg2020-processed-small-fish-ghana-metals\|Hasselberg et al. 2020]]. *Composition of nutrients, heavy metals, polycyclic aromatic hydrocarbons and microbiological quality in processed small indigenous fish species from Ghana: Implications for food security* | 2020 | Peer-reviewed | Contribution to this topic remains under review; see the source record for its reported scope. |
+| 5 | [[sources/alghabshi2018-oman-salted-dry-fish-metals\|Aliya et al. 2018]]. *Microbiological, chemical and nutritional quality and safety of salted cured fishery products from traditional dry fish processing plants in the Sultanate of Oman*, Food Research 2(3): 279-286 (June 2018) | 2018 | Peer-reviewed | Contribution to this topic remains under review; see the source record for its reported scope. |
+| 6 | [[sources/marin2018-valencia-foodstuffs-metals\|Marín et al. 2018]]. *Assessment of metal levels in foodstuffs from the Region of Valencia (Spain)*, Toxicology Reports 5 (2018) 654-670 | 2018 | Peer-reviewed | Contribution to this topic remains under review; see the source record for its reported scope. |
+<!-- END: hmi-source-legend -->
+
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| (pending) | 2026-11-04 | major | Evidence fill HMI-FILL-0001: provisional scaffold replaced with synthesized evidence from 4 peer-reviewed papers; contamination_profile populated for Pb, Cd, tAs, tHg; 3 new source pages created |
+<!-- END: hmi-page-history -->
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
@@ -441,5 +455,7 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| (pending) | 2026-11-04 | major | Evidence fill HMI-FILL-0001: provisional scaffold replaced with synthesized evidence from 4 peer-reviewed papers; contamination_profile populated for Pb, Cd, tAs, tHg; 3 new source pages created |
+| [060d99962](https://github.com/paleofoundation/heavymetalindex/commit/060d99962) | 2026-11-04 | major | 5 sources added; contamination-profile values revised; 21 sections added and 3 removed |
+| [55ced3a62](https://github.com/paleofoundation/heavymetalindex/commit/55ced3a62) | 2026-10-28 | major | Contamination-profile values revised; narrative text revised |
+| [5356169c5](https://github.com/paleofoundation/heavymetalindex/commit/5356169c5) | 2026-10-28 | major | Contamination-profile values revised; 3 sections added; narrative text revised |
 <!-- END: hmi-page-history -->
