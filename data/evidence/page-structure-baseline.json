@@ -3,7 +3,7 @@
   "date": "2026-10-28",
   "note": "Warn-only baseline. CI fails only when a page newly fails a check. Counts are pages, not occurrences. Stubs are exempt only from section_presence_and_order. 2026-10-28 recount includes restored live pages and products moved out of ingredients.",
   "pages_scanned": 930,
-  "stubs_exempt_from_sections": 544,
+  "stubs_exempt_from_sections": 542,
   "checks": {
     "answer_block": {
       "pages": 61,
@@ -1485,7 +1485,7 @@
       ]
     },
     "metal_symbols": {
-      "pages": 593,
+      "pages": 594,
       "paths": [
         "wiki/ingredients/almond.md",
         "wiki/ingredients/apple-cider-vinegar.md",
@@ -1526,6 +1526,7 @@
         "wiki/ingredients/canned-tuna.md",
         "wiki/ingredients/cantaloupe.md",
         "wiki/ingredients/carrot.md",
+        "wiki/ingredients/casein.md",
         "wiki/ingredients/cashews.md",
         "wiki/ingredients/cassava.md",
         "wiki/ingredients/cauliflower.md",
@@ -2596,7 +2597,7 @@
       ]
     },
     "section_presence_and_order": {
-      "pages": 208,
+      "pages": 209,
       "paths": [
         "wiki/ingredients/almond.md",
         "wiki/ingredients/baby-cereals-dry.md",
@@ -2608,6 +2609,7 @@
         "wiki/ingredients/bread.md",
         "wiki/ingredients/breastmilk.md",
         "wiki/ingredients/camellia-sinensis.md",
+        "wiki/ingredients/casein.md",
         "wiki/ingredients/cashews.md",
         "wiki/ingredients/cereals.md",
         "wiki/ingredients/chocolate.md",
