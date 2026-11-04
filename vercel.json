@@ -5,7 +5,10 @@
   "installCommand": "npm install",
   "framework": null,
   "git": {
-    "deploymentEnabled": false
+    "deploymentEnabled": {
+      "main": true,
+      "**": false
+    }
   },
   "cleanUrls": true,
   "trailingSlash": false,
