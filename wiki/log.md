@@ -3,6 +3,11 @@ title: Heavy Metal Index — Change Log
 noindex: true
 ---
 
+## [2026-11-03] content | karen-pendergrass author page selects major works
+
+Pages touched: [[authors/karen-pendergrass]], [[about]]
+Notes: Replaced the full reprint of 319 ORCID works with ten major works (title, venue, year, and DOI) and a Recent work and updates section. Roles, education, websites, and keywords from the November 3, 2026 ORCID record stay on the page. The full work list stays on ORCID 0000-0002-2348-7259. No literature value and no certification number was added. Direction: toward the public record.
+
 ## [2026-11-03] content | restore canonical ingredient pages overwritten by the November production cutover
 
 Pages touched: compiled ingredient articles restored from the 27 Oct 2026 live checkout (`snapshot/live-wiki-20261027`, commit 7c4807dfe), including cocoa. Rice is unchanged from that checkout. Rice protein and pea protein stay on the 3 Nov evidence fill. Ingredient directory indexes stay on main. Organic-certification copy and the author page are untouched.
