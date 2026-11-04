@@ -42,7 +42,7 @@ function compactCitationLinks(
     )
       continue
 
-    const block = first.closest("p, li, dd, dt, blockquote")
+    const block = first.closest("p, li, dd, dt, blockquote, td, th")
     if (!block) continue
     const range = document.createRange()
     range.selectNodeContents(block)
