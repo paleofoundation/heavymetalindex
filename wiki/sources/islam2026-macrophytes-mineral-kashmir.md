@@ -26,7 +26,7 @@ updated: 2026-11-04
 ingest: HMI-FILL-0003
 ---
 
-# Islam et al. 2026 — Macrophyte mineral composition and digestibility, Kashmir lakes
+# Islam et al. 2026: Macrophyte mineral composition and digestibility, Kashmir lakes
 
 ## Overview
 

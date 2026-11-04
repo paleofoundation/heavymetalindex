@@ -20,7 +20,7 @@ contamination_profile:
     notes: >-
       Single Thai controlled-cultivation batch (Tongyai 2026): <0.040 mg/kg DW
       (below MDL). Wild-harvested Lemna minor from Kashmir lakes (Islam 2026,
-      animal feed context only): 880–3,200 ppb DW.
+      animal feed context only): 880-3,200 ppb DW.
   tAs:
     status: populated
     typical_ppb:
@@ -33,9 +33,9 @@ contamination_profile:
     basis: dry weight
     notes: >-
       Total arsenic only; speciation not measured in food-grade samples. Tongyai
-      2026: <0.050 mg/kg DW (below MDL). Wild Lemna minor Kashmir: 23,950–51,470
+      2026: <0.050 mg/kg DW (below MDL). Wild Lemna minor Kashmir: 23,950-51,470
       ppb DW (Islam 2026, animal feed context). Hernani-Rodrigo 2026 compiles
-      0.3–2.52 mg/kg from mixed controlled-cultivation sources (basis mixed).
+      0.3-2.52 mg/kg from mixed controlled-cultivation sources (basis mixed).
   Cd:
     status: populated
     typical_ppb:
@@ -74,7 +74,7 @@ contamination_profile:
     basis: null
     notes: >-
       No food-grade total mercury data in this unit. Wild Lemna minor Kashmir
-      lakes: 790–1,340 ppb DW (Islam 2026, animal feed context only). EFSA
+      lakes: 790-1,340 ppb DW (Islam 2026, animal feed context only). EFSA
       proposes Hg <0.10 mg/kg FW for fresh Wolffia (Ziąć 2025).
   iAs:
     status: populated
@@ -123,7 +123,7 @@ contamination_profile:
     basis: null
     notes: >-
       Hexavalent chromium not speciated in any source. Total chromium in wild
-      Lemna minor Kashmir: 2,440–3,170 ppb DW (Islam 2026, animal feed context).
+      Lemna minor Kashmir: 2,440-3,170 ppb DW (Islam 2026, animal feed context).
       EFSA proposes total Cr <1 mg/kg FW for fresh Wolffia (Ziąć 2025).
   Sn:
     status: populated
@@ -141,33 +141,14 @@ updated: 2026-11-04
 evidence_scope: populated
 quick_read:
   summary: >-
-    Water lentils (Wolffia globosa, Wolffia arrhiza, Lemna minor) grown under
-    controlled food-grade conditions show lead, arsenic, and cadmium below
-    detection limits in the one available batch measurement. Contamination is
-    highly cultivation-dependent: wild-harvested plants from polluted lakes
-    accumulate arsenic up to 51,000 ppb dry weight. Manganese, not a monitored
-    HMT&C analyte, is EFSA's primary safety concern for Wolffia protein
-    concentrates. Inorganic arsenic, methylmercury, nickel, aluminum, hexavalent
-    chromium, and tin have not been measured in food-grade samples.
+    Controlled water lentils in the available batch stay below detection for lead, arsenic, and cadmium, while wild plants from polluted lakes reached 51,000 ppb arsenic.
   points:
-    - label: Food-grade lead, arsenic, cadmium
-      text: >-
-        Below detection limits in one controlled-cultivation Thai batch
-        (Tongyai 2026); single origin, low confidence.
-    - label: Cultivation-condition dependence
-      text: >-
-        Wild-harvested Lemna minor from polluted Kashmir lakes reached 51,000
-        ppb arsenic dry weight — roughly 1,000-fold above the food-grade
-        threshold. Origin and water quality are the dominant variables.
-    - label: Manganese proximity to EFSA limit
-      text: >-
-        W. globosa Mn 203–302 mg/kg freeze-dried weight converts to roughly
-        6–9 mg/kg fresh weight at 3% dry matter, straddling EFSA's 6 mg/kg
-        fresh weight specification.
-    - label: Unmeasured analytes
-      text: >-
-        Inorganic arsenic, methylmercury, nickel, aluminum, hexavalent
-        chromium, and tin have not been reported for food-grade water lentils.
+    - label: Metals of concern
+      text: Lead, arsenic, and cadmium in controlled plants; arsenic is far higher in wild plants from polluted lakes.
+    - label: Main drivers
+      text: Cultivation water quality, and whether the plants are grown for food or gathered from lakes.
+    - label: Practical framing
+      text: The food-grade result is one batch, and several metals are still unmeasured.
 ---
 
 # Water lentils
@@ -175,16 +156,15 @@ quick_read:
 <!-- BEGIN: hmi-opening -->
 <div class="hmi-quick-read">
   <div class="hmi-quick-read-label">Quick read</div>
-  <p>Water lentils (Wolffia globosa, Wolffia arrhiza, Lemna minor) grown under controlled food-grade conditions show lead, arsenic, and cadmium below detection limits in the one available batch measurement. Contamination is highly cultivation-dependent: wild-harvested plants from polluted lakes accumulate arsenic up to 51,000 ppb dry weight. Manganese, not a monitored HMT&C analyte, is EFSA's primary safety concern for Wolffia protein concentrates. Inorganic arsenic, methylmercury, nickel, aluminum, hexavalent chromium, and tin have not been measured in food-grade samples.</p>
+  <p>Controlled water lentils in the available batch stay below detection for lead, arsenic, and cadmium, while wild plants from polluted lakes reached 51,000 ppb arsenic.</p>
   <ul>
-    <li><strong>Food-grade lead, arsenic, cadmium:</strong> Below detection limits in one controlled-cultivation Thai batch (Tongyai 2026); single origin, low confidence.</li>
-    <li><strong>Cultivation-condition dependence:</strong> Wild-harvested Lemna minor from polluted Kashmir lakes reached 51,000 ppb arsenic dry weight — roughly 1,000-fold above the food-grade threshold. Origin and water quality are the dominant variables.</li>
-    <li><strong>Manganese proximity to EFSA limit:</strong> W. globosa Mn 203–302 mg/kg freeze-dried weight converts to roughly 6–9 mg/kg fresh weight at 3% dry matter, straddling EFSA's 6 mg/kg fresh weight specification.</li>
-    <li><strong>Unmeasured analytes:</strong> Inorganic arsenic, methylmercury, nickel, aluminum, hexavalent chromium, and tin have not been reported for food-grade water lentils.</li>
+    <li><strong>Metals of concern:</strong> Lead, arsenic, and cadmium in controlled plants; arsenic is far higher in wild plants from polluted lakes.</li>
+    <li><strong>Main drivers:</strong> Cultivation water quality, and whether the plants are grown for food or gathered from lakes.</li>
+    <li><strong>Practical framing:</strong> The food-grade result is one batch, and several metals are still unmeasured.</li>
   </ul>
 </div>
 
-This page draws on evidence from [[sources/efsa2022-lemna-novel-food|1]], [[sources/tongyai2026-wolffia-globosa-food-ingredient|2]], [[sources/ziec2025-lemnoideae-nutritional-safety-review|3]], [[sources/hernani-rodrigo2026-duckweed-therapeutic-food-lmics|4]], and [[sources/islam2026-macrophytes-mineral-kashmir|5]]. The complete citation list is at the bottom of the page.
+This page draws on evidence from [[sources/efsa2022-lemna-novel-food|EFSA]], together with 4 other cited sources. The complete citation list is at the bottom of the page.
 <!-- END: hmi-opening -->
 
 ## Why water lentils accumulate heavy metals
@@ -193,33 +173,33 @@ Water lentils are rootless floating aquatic plants that absorb mineral nutrients
 
 The cultivation medium dominates contamination outcomes in a way that is unusual among food ingredients. For most leafy vegetables, soil composition matters but root-barrier and foliar dilution effects moderate uptake. For water lentils, there is no root barrier: dissolved metals in the growth medium translocate directly into plant tissue. This makes water quality and fertilizer composition the primary control points for heavy metal management, more critical than harvest processing or washing [[sources/efsa2022-lemna-novel-food|1]].
 
-Manganese accumulation illustrates a secondary driver. Wolffia globosa accumulates manganese at 203–302 mg/kg on a freeze-dried weight basis under controlled cultivation conditions [[sources/hernani-rodrigo2026-duckweed-therapeutic-food-lmics|4]], reflecting the high manganese uptake capacity of Lemnoideae even in clean water. At approximately 3% dry matter (97% moisture as measured in Thai W. globosa [[sources/tongyai2026-wolffia-globosa-food-ingredient|2]]), this converts to roughly 6–9 mg/kg fresh weight, which is at or above EFSA's 6 mg/kg fresh weight specification for manganese in Wolffia intended for human consumption [[sources/ziec2025-lemnoideae-nutritional-safety-review|3]]. Manganese is not among the HMT&C monitored analytes; this finding is documented here as a nutritional safety consideration specific to Lemnoideae.
+Manganese accumulation illustrates a secondary driver. Wolffia globosa accumulates manganese at 203-302 mg/kg on a freeze-dried weight basis under controlled cultivation conditions [[sources/hernani-rodrigo2026-duckweed-therapeutic-food-lmics|4]], reflecting the high manganese uptake capacity of Lemnoideae even in clean water. At approximately 3% dry matter (97% moisture as measured in Thai W. globosa [[sources/tongyai2026-wolffia-globosa-food-ingredient|2]]), this converts to roughly 6-9 mg/kg fresh weight, which is at or above EFSA's 6 mg/kg fresh weight specification for manganese in Wolffia intended for human consumption [[sources/ziec2025-lemnoideae-nutritional-safety-review|3]]. Manganese is not among the HMT&C monitored analytes; this finding is documented here as a nutritional safety consideration specific to Lemnoideae.
 
 ## Heavy metal contamination profile
 
-The contamination profile table is generated from frontmatter. The n = 1 food-grade batch value (Tongyai 2026 [[sources/tongyai2026-wolffia-globosa-food-ingredient|2]]) reflects a single Thai controlled-cultivation batch analyzed in triplicate. The EFSA 2022 opinion [[sources/efsa2022-lemna-novel-food|1]] reports 10 Lemna minor and Lemna gibba batches with arsenic, cadmium, and mercury below LOQ and lead detected in 3 of 10 batches at 10–30 ppb fresh weight; those values are expressed on a fresh weight basis and are not pooled with the Tongyai dry weight values in the typical_ppb fields above.
+The contamination profile table is generated from frontmatter. The n = 1 food-grade batch value (Tongyai 2026 [[sources/tongyai2026-wolffia-globosa-food-ingredient|2]]) reflects a single Thai controlled-cultivation batch analyzed in triplicate. The EFSA 2022 opinion [[sources/efsa2022-lemna-novel-food|1]] reports 10 Lemna minor and Lemna gibba batches with arsenic, cadmium, and mercury below LOQ and lead detected in 3 of 10 batches at 10-30 ppb fresh weight; those values are expressed on a fresh weight basis and are not pooled with the Tongyai dry weight values in the typical_ppb fields above.
 
 | Study / location | Material / design | Metal species | Value (units and basis) | n | Interpretation / limitation |
 | --- | --- | --- | --- | --- | --- |
-| [[sources/tongyai2026-wolffia-globosa-food-ingredient|2]], Thailand | Freeze-dried W. globosa powder, controlled cultivation, ICP-MS, 76–109% recovery | Lead | <0.040 mg/kg DW (below MDL) | 1 batch | Single origin; MDL-censored; not population-representative |
+| [[sources/tongyai2026-wolffia-globosa-food-ingredient|2]], Thailand | Freeze-dried W. globosa powder, controlled cultivation, ICP-MS, 76-109% recovery | Lead | <0.040 mg/kg DW (below MDL) | 1 batch | Single origin; MDL-censored; not population-representative |
 | [[sources/tongyai2026-wolffia-globosa-food-ingredient|2]], Thailand | Freeze-dried W. globosa powder, ICP-MS | Total arsenic | <0.050 mg/kg DW (below MDL) | 1 batch | Unspeciated; single origin; MDL-censored |
 | [[sources/tongyai2026-wolffia-globosa-food-ingredient|2]], Thailand | Freeze-dried W. globosa powder, ICP-MS | Cadmium | <0.010 mg/kg DW (below MDL) | 1 batch | Single origin; MDL-censored |
-| [[sources/efsa2022-lemna-novel-food|1]], commercial (not disclosed) | Heat-treated L. minor and L. gibba, 10 production batches, ICP-MS | Lead | <0.010 mg/kg FW in 7 batches; 0.012–0.030 mg/kg FW in 3 batches | 10 batches | FW basis; Lemna spp., not Wolffia; controlled commercial cultivation |
+| [[sources/efsa2022-lemna-novel-food|1]], commercial (not disclosed) | Heat-treated L. minor and L. gibba, 10 production batches, ICP-MS | Lead | <0.010 mg/kg FW in 7 batches; 0.012-0.030 mg/kg FW in 3 batches | 10 batches | FW basis; Lemna spp., not Wolffia; controlled commercial cultivation |
 | [[sources/efsa2022-lemna-novel-food|1]], commercial | Heat-treated L. minor and L. gibba, ICP-MS | Total arsenic | <0.020 mg/kg FW in all 10 batches (below LOQ) | 10 batches | FW basis; unspeciated; controlled cultivation |
 | [[sources/efsa2022-lemna-novel-food|1]], commercial | Heat-treated L. minor and L. gibba, ICP-MS | Cadmium | <0.010 mg/kg FW in all 10 batches (below LOQ) | 10 batches | FW basis; controlled cultivation |
 | [[sources/efsa2022-lemna-novel-food|1]], commercial | Heat-treated L. minor and L. gibba, ICP-MS | Total mercury | <0.010 mg/kg FW in all 10 batches (below LOQ) | 10 batches | FW basis; controlled cultivation |
-| [[sources/islam2026-macrophytes-mineral-kashmir|5]], Kashmir, India | Wild-harvested L. minor, 4 polluted lakes, ICP, animal feed study | Lead | 880–3,200 ppb DW (0.88–3.20 mg/kg DW) | 4 lake sites | Wild harvest, polluted urban lakes; not food-grade; no CRM data |
-| [[sources/islam2026-macrophytes-mineral-kashmir|5]], Kashmir, India | Wild-harvested L. minor, animal feed study | Total arsenic | 23,950–51,470 ppb DW | 4 lake sites | Wild harvest, polluted lakes; large SD at Dal Lake; not food-grade |
-| [[sources/islam2026-macrophytes-mineral-kashmir|5]], Kashmir, India | Wild-harvested L. minor, animal feed study | Total mercury | 790–1,340 ppb DW | 4 lake sites | Wild harvest, polluted lakes; not food-grade; no CRM data |
-| [[sources/islam2026-macrophytes-mineral-kashmir|5]], Kashmir, India | Wild-harvested L. minor, animal feed study | Total chromium | 2,440–3,170 ppb DW | 4 lake sites | Total chromium; not speciated; wild harvest, polluted lakes |
+| [[sources/islam2026-macrophytes-mineral-kashmir|5]], Kashmir, India | Wild-harvested L. minor, 4 polluted lakes, ICP, animal feed study | Lead | 880-3,200 ppb DW (0.88-3.20 mg/kg DW) | 4 lake sites | Wild harvest, polluted urban lakes; not food-grade; no CRM data |
+| [[sources/islam2026-macrophytes-mineral-kashmir|5]], Kashmir, India | Wild-harvested L. minor, animal feed study | Total arsenic | 23,950-51,470 ppb DW | 4 lake sites | Wild harvest, polluted lakes; large SD at Dal Lake; not food-grade |
+| [[sources/islam2026-macrophytes-mineral-kashmir|5]], Kashmir, India | Wild-harvested L. minor, animal feed study | Total mercury | 790-1,340 ppb DW | 4 lake sites | Wild harvest, polluted lakes; not food-grade; no CRM data |
+| [[sources/islam2026-macrophytes-mineral-kashmir|5]], Kashmir, India | Wild-harvested L. minor, animal feed study | Total chromium | 2,440-3,170 ppb DW | 4 lake sites | Total chromium; not speciated; wild harvest, polluted lakes |
 
 ## Ranges by source, region, and variety
 
-Under controlled food-grade cultivation, arsenic, cadmium, and lead consistently fall below detection limits across the measurement studies in this unit: a Thai Wolffia globosa batch [[sources/tongyai2026-wolffia-globosa-food-ingredient|2]] and ten commercial Lemna minor and Lemna gibba batches evaluated by EFSA [[sources/efsa2022-lemna-novel-food|1]]. The EFSA Lemna data detected lead in 3 of 10 batches at 10–30 ppb fresh weight, with the other 7 batches below the LOQ of 10 ppb FW; this trace lead signal was not flagged as a safety concern by the EFSA Panel.
+Under controlled food-grade cultivation, arsenic, cadmium, and lead consistently fall below detection limits across the measurement studies in this unit: a Thai Wolffia globosa batch [[sources/tongyai2026-wolffia-globosa-food-ingredient|2]] and ten commercial Lemna minor and Lemna gibba batches evaluated by EFSA [[sources/efsa2022-lemna-novel-food|1]]. The EFSA Lemna data detected lead in 3 of 10 batches at 10-30 ppb fresh weight, with the other 7 batches below the LOQ of 10 ppb FW; this trace lead signal was not flagged as a safety concern by the EFSA Panel.
 
-The critical geographic driver is water quality. Wild-harvested Lemna minor from four Kashmir lakes showed arsenic 23,950–51,470 ppb dry weight and mercury 790–1,340 ppb dry weight [[sources/islam2026-macrophytes-mineral-kashmir|5]]. These lakes receive agricultural runoff, urban wastewater, and industrial discharge. The 1,000-fold gap between food-grade (below 50 ppb DW) and wild-harvest (up to 51,000 ppb DW) arsenic concentrations is the clearest illustration that water lentil contamination is overwhelmingly determined by cultivation-water quality rather than intrinsic plant biology.
+The critical geographic driver is water quality. Wild-harvested Lemna minor from four Kashmir lakes showed arsenic 23,950-51,470 ppb dry weight and mercury 790-1,340 ppb dry weight [[sources/islam2026-macrophytes-mineral-kashmir|5]]. These lakes receive agricultural runoff, urban wastewater, and industrial discharge. The 1,000-fold gap between food-grade (below 50 ppb DW) and wild-harvest (up to 51,000 ppb DW) arsenic concentrations is the clearest illustration that water lentil contamination is overwhelmingly determined by cultivation-water quality rather than intrinsic plant biology.
 
-The review by Hernani-Rodrigo et al. [[sources/hernani-rodrigo2026-duckweed-therapeutic-food-lmics|4]] compiles an arsenic range of 0.3–2.52 mg/kg from multiple controlled-cultivation primary studies. The upper end of this range (2,520 ppb) is substantially above the below-MDL values in Tongyai [[sources/tongyai2026-wolffia-globosa-food-ingredient|2]] and the below-LOQ values in the EFSA batches [[sources/efsa2022-lemna-novel-food|1]], consistent with the dependence of accumulation on the specific cultivation system, fertilizer source, and water treatment applied. No data in this unit allow geographic or variety-level stratification within the food-grade range.
+The review by Hernani-Rodrigo et al. [[sources/hernani-rodrigo2026-duckweed-therapeutic-food-lmics|4]] compiles an arsenic range of 0.3-2.52 mg/kg from multiple controlled-cultivation primary studies. The upper end of this range (2,520 ppb) is substantially above the below-MDL values in Tongyai [[sources/tongyai2026-wolffia-globosa-food-ingredient|2]] and the below-LOQ values in the EFSA batches [[sources/efsa2022-lemna-novel-food|1]], consistent with the dependence of accumulation on the specific cultivation system, fertilizer source, and water treatment applied. No data in this unit allow geographic or variety-level stratification within the food-grade range.
 
 Wolffia species (W. globosa, W. arrhiza) and Lemna minor are related but distinct. The EFSA 2022 data are for Lemna spp.; the Tongyai food-grade batch is W. globosa. Where mineral profiles differ between species, the available data do not permit quantitative cross-species inference with the sources in this unit.
 
@@ -231,7 +211,7 @@ Protein concentrate production from Lemnoideae, mentioned in the safety review [
 
 ## Ingredient-derivative risk
 
-Water lentil protein powder and protein concentrate are the most commercially relevant derivatives. The EFSA NDA Panel expressed its primary safety concern about manganese — not lead, arsenic, or cadmium — when assessing Wolffia-based protein concentrates [[sources/ziec2025-lemnoideae-nutritional-safety-review|3]]. Concentration processing that retains manganese while removing moisture and fiber could elevate the effective manganese exposure relative to whole fresh plant consumption. No heavy metal data for water lentil protein concentrates or isolates appear in the sources in this unit.
+Water lentil protein powder and protein concentrate are the most commercially relevant derivatives. The EFSA NDA Panel expressed its primary safety concern about manganese, not lead, arsenic, or cadmium, when assessing Wolffia-based protein concentrates [[sources/ziec2025-lemnoideae-nutritional-safety-review|3]]. Concentration processing that retains manganese while removing moisture and fiber could elevate the effective manganese exposure relative to whole fresh plant consumption. No heavy metal data for water lentil protein concentrates or isolates appear in the sources in this unit.
 
 ## Mitigation options
 
@@ -252,7 +232,7 @@ EFSA proposed the following maximum levels for fresh Wolffia intended for human 
 - Mercury: <0.10 mg/kg FW (100 ppb FW)
 - Manganese: <6 mg/kg FW (6,000 ppb FW)
 
-These specifications were proposed in the context of EFSA's novel food safety assessment. EFSA's overall conclusion — that typical consumption (100–300 g FW/day) raises no safety concerns — was qualified by the need for lot-level monitoring [[sources/efsa2022-lemna-novel-food|1]].
+These specifications were proposed in the context of EFSA's novel food safety assessment. EFSA's overall conclusion, that typical consumption (100-300 g FW/day) raises no safety concerns, was qualified by the need for lot-level monitoring [[sources/efsa2022-lemna-novel-food|1]].
 
 No EU, Codex, or FDA maximum levels specific to water lentils or Lemnoideae for the HMT&C monitored analytes (lead, total arsenic, cadmium, total mercury) have been identified in the sources in this unit beyond the EFSA specifications above.
 
@@ -265,7 +245,7 @@ The following questions remain open with the evidence in this unit:
 - Inorganic arsenic fraction and methylmercury have not been measured in any food-grade water lentil source. Total arsenic values cannot be parsed without speciation data, and the EFSA-proposed iAs limit of 0.10 mg/kg FW cannot be evaluated from the available data.
 - Mercury speciation (methylmercury vs. inorganic) is unknown. Wild-lake data show total mercury up to 1,340 ppb DW [[sources/islam2026-macrophytes-mineral-kashmir|5]]; the food-grade fraction is below LOQ [[sources/efsa2022-lemna-novel-food|1]], but no speciation exists in either dataset.
 - Nickel, aluminum, hexavalent chromium, and tin have not been reported for food-grade water lentils in any source in this unit.
-- The arsenic range of 0.3–2.52 mg/kg compiled in Hernani-Rodrigo et al. [[sources/hernani-rodrigo2026-duckweed-therapeutic-food-lmics|4]] from mixed controlled-cultivation sources points to substantial variability across cultivation systems; the basis and species breakdowns of that compiled range are not resolved in this unit.
+- The arsenic range of 0.3-2.52 mg/kg compiled in Hernani-Rodrigo et al. [[sources/hernani-rodrigo2026-duckweed-therapeutic-food-lmics|4]] from mixed controlled-cultivation sources points to substantial variability across cultivation systems; the basis and species breakdowns of that compiled range are not resolved in this unit.
 - The manganese finding (W. globosa up to 302 mg/kg FDW in controlled cultivation [[sources/hernani-rodrigo2026-duckweed-therapeutic-food-lmics|4]], converting to approximately 9 mg/kg FW at 3% dry matter) exceeds EFSA's 6 mg/kg FW specification [[sources/ziec2025-lemnoideae-nutritional-safety-review|3]]. Whether this reflects the range of cultivation conditions broadly or just specific high-manganese water sources is not resolved.
 - Cross-species extrapolation between Wolffia spp. and Lemna minor has not been validated for heavy metal profiles. The commercial food-grade market involves both genera; the available data do not support species-level differentiation.
 

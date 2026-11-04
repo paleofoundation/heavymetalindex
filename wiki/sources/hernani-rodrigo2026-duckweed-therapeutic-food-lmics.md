@@ -26,7 +26,7 @@ updated: 2026-11-04
 ingest: HMI-FILL-0003
 ---
 
-# Hernani-Rodrigo et al. 2026 — Duckweed as therapeutic food in LMICs and humanitarian settings
+# Hernani-Rodrigo et al. 2026: Duckweed as therapeutic food in LMICs and humanitarian settings
 
 ## Overview
 
@@ -37,16 +37,16 @@ This 11-page review from Johns Hopkins assesses the potential of Wolffia globosa
 Mineral composition ranges from controlled cultivation, Table 4 (freeze-dried weight basis, compiled from primary studies):
 
 **Wolffia globosa:**
-- Iron: 100–290 mg/kg FDW
-- Manganese: 203–302 mg/kg FDW
-- Copper: 2.32–4.43 mg/kg FDW
-- Zinc: 38–84.20 mg/kg FDW
+- Iron: 100-290 mg/kg FDW
+- Manganese: 203-302 mg/kg FDW
+- Copper: 2.32-4.43 mg/kg FDW
+- Zinc: 38-84.20 mg/kg FDW
 
 **Wolffia arrhiza:**
-- Iron: 160–290 mg/kg FDW
-- Manganese: 78.40–264 mg/kg FDW
+- Iron: 160-290 mg/kg FDW
+- Manganese: 78.40-264 mg/kg FDW
 
-Arsenic accumulation from cultivation medium cited as a risk factor; range 0.3–2.52 mg/kg from various primary studies (basis mixed).
+Arsenic accumulation from cultivation medium cited as a risk factor; range 0.3-2.52 mg/kg from various primary studies (basis mixed).
 
 Protein quality:
 - W. globosa: PDCAAS 89%
@@ -58,7 +58,7 @@ Systematic literature review. Table 4 values are compiled ranges from multiple p
 
 ## Evidence Fitness
 
-Mineral composition (beneficial and potentially toxic) under controlled cultivation conditions. The manganese values (203–302 mg/kg FDW for W. globosa) are relevant to the cultivation-condition accumulation discussion. At 3% dry matter, 302 mg/kg FDW converts to approximately 9 mg/kg FW, which exceeds EFSA's 6 mg/kg FW manganese limit for fresh Wolffia. This source provides context for the manganese proximity concern but not original heavy metals food-safety measurements. It does not report Pb, Cd, or Hg concentrations. Arsenic range is from mixed sources; use as contextual range, not a food-grade measurement row.
+Mineral composition (beneficial and potentially toxic) under controlled cultivation conditions. The manganese values (203-302 mg/kg FDW for W. globosa) are relevant to the cultivation-condition accumulation discussion. At 3% dry matter, 302 mg/kg FDW converts to approximately 9 mg/kg FW, which exceeds EFSA's 6 mg/kg FW manganese limit for fresh Wolffia. This source provides context for the manganese proximity concern but not original heavy metals food-safety measurements. It does not report Pb, Cd, or Hg concentrations. Arsenic range is from mixed sources; use as contextual range, not a food-grade measurement row.
 
 ## Related evidence
 - [[metals/arsenic]]

@@ -26,11 +26,11 @@ updated: 2026-11-04
 ingest: HMI-FILL-0003
 ---
 
-# Ziąć et al. 2025 — Lemnoideae nutritional value, health properties, safety, and consumer acceptance
+# Ziąć et al. 2025: Lemnoideae nutritional value, health properties, safety, and consumer acceptance
 
 ## Overview
 
-This 29-page systematic review covers the nutritional composition, bioactive compounds, safety considerations, and consumer acceptance of Lemnoideae (duckweeds and water lentils) as human food. The safety section summarizes EFSA-proposed maximum limits for Wolffia intended for human consumption (Table 3) and notes manganese as the primary safety concern for protein concentrates. The review concludes that typical whole-plant consumption (100–300 g FW/day) raises no overall safety concerns under EFSA's assessment framework, provided cultivation conditions are controlled.
+This 29-page systematic review covers the nutritional composition, bioactive compounds, safety considerations, and consumer acceptance of Lemnoideae (duckweeds and water lentils) as human food. The safety section summarizes EFSA-proposed maximum limits for Wolffia intended for human consumption (Table 3) and notes manganese as the primary safety concern for protein concentrates. The review concludes that typical whole-plant consumption (100-300 g FW/day) raises no overall safety concerns under EFSA's assessment framework, provided cultivation conditions are controlled.
 
 ## Key numbers
 
@@ -44,7 +44,7 @@ EFSA safety specifications for fresh Wolffia for human consumption (Table 3, mg/
 - Manganese: <6 mg/kg FW
 
 Additional notes from review:
-- Arsenic accumulation range cited across controlled cultivations: 0.3–2.52 mg/kg (basis and species mixed across cited sources)
+- Arsenic accumulation range cited across controlled cultivations: 0.3-2.52 mg/kg (basis and species mixed across cited sources)
 - Manganese identified as the primary safety concern for protein concentrates derived from Lemnoideae
 - EFSA concluded typical consumption raises no safety concerns when cultivation conditions are controlled
 

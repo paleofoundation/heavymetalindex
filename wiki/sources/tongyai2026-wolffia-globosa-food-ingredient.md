@@ -26,7 +26,7 @@ updated: 2026-11-04
 ingest: HMI-FILL-0003
 ---
 
-# Tongyai et al. 2026 — Wolffia globosa as a potential food ingredient
+# Tongyai et al. 2026: Wolffia globosa as a potential food ingredient
 
 ## Overview
 
@@ -53,7 +53,7 @@ Moisture (Table 2): 96.78% FW (3.22% dry matter)
 
 ## Methods (brief)
 
-Freeze-dried W. globosa powder from a single Thai production batch. Element analysis by ICP-MS following microwave acid digestion. Recoveries 76–109% across metals. MDL and LOQ reported. Triplicate technical replicates.
+Freeze-dried W. globosa powder from a single Thai production batch. Element analysis by ICP-MS following microwave acid digestion. Recoveries 76-109% across metals. MDL and LOQ reported. Triplicate technical replicates.
 
 ## Implications
 
