@@ -1,0 +1,79 @@
+{
+  "surface": "index-pro",
+  "page": "ingredients/rice",
+  "note": "Lab result comparison guide moved off the public page to Index Pro (Karen, 2026-11-04).",
+  "removed": [
+    {
+      "container_key": "answers",
+      "item": {
+        "text": "Use published concentrations as context for your laboratory result. Match the measurement and reference below. A reference made from study summaries does not establish a percentile for an individual lot.",
+        "source_keys": [
+          "fda2022-tds-elements-fy2018-fy2020"
+        ],
+        "kind": "interpretation",
+        "table": {
+          "id": "rice-result-comparison-guide",
+          "title": "Compare a rice laboratory result",
+          "headers": [
+            "Check",
+            "Use the page to answer"
+          ],
+          "rows": [
+            {
+              "cells": [
+                "1 · Match the measurement",
+                "Choose the same species and rice form in the [contamination table](#heavy-metal-contamination-profile). Match the dry-weight, native-moisture or cooked basis shown with the finding."
+              ],
+              "source_keys": [
+                "fda2022-tds-elements-fy2018-fy2020"
+              ]
+            },
+            {
+              "cells": [
+                "2 · Inspect the reference",
+                "Open the comparison information icon for the reference median, quartiles, sampling unit, markets and collection period. Compare compatible values as context. The badge classifies the published finding; a lot result does not inherit that rating."
+              ],
+              "source_keys": [
+                "carey2020-global-low-ias-rice-sourcing",
+                "shi2020-rice-grain-cadmium-global-supply-chain"
+              ]
+            },
+            {
+              "cells": [
+                "3 · Decide what to investigate",
+                "Use [origin and harvest evidence](#rice-sourcing-differences) to investigate supplier or control options. Check [applicable requirements](#rice-requirements) separately. If the reference or reporting bounds do not support a position, retain the result without a rating."
+              ],
+              "source_keys": [
+                "fda2020-ias-infant-rice-cereal-guidance",
+                "fda2022-tds-elements-fy2018-fy2020"
+              ]
+            }
+          ]
+        },
+        "passages": [],
+        "heading": "How does my laboratory result compare?",
+        "heading_anchor": "compare-a-rice-result",
+        "prose_heading": true,
+        "citation_spans": [
+          {
+            "after": "A reference made from study summaries does not establish a percentile for an individual lot.",
+            "source_keys": [
+              "fda2022-tds-elements-fy2018-fy2020"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "container_key": "reader_links",
+      "item": {
+        "heading": "Compare a laboratory result",
+        "heading_anchor": "compare-a-rice-result"
+      }
+    },
+    {
+      "label_map": "toc_labels",
+      "value": "Compare results"
+    }
+  ]
+}
