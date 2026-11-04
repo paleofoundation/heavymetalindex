@@ -35,14 +35,14 @@ Peer-reviewed ICP-MS measurement of arsenic, lead, and cadmium in 80 commercial 
 
 | Spice type | Total As range (mg/kg) | Pb range (mg/kg) | Cd range (mg/kg) | n |
 |-----------|------------------------|------------------|------------------|---|
-| Paprika | 0.04–0.13 | 0.5–1.4 | below LOD | 20 |
-| Hot chili | 0.09–0.23 | 0.5–9.71 | below LOD | 20 |
-| Curry | 0.08–0.19 | 0.6–1.23 | 0.15–3.55 | 20 |
-| Cumin | 0.14–0.28 | 1.09–4.29 | 1.15–8.59 | 20 |
+| Paprika | 0.04 to 0.13 | 0.5 to 1.4 | below LOD | 20 |
+| Hot chili | 0.09 to 0.23 | 0.5 to 9.71 | below LOD | 20 |
+| Curry | 0.08 to 0.19 | 0.6 to 1.23 | 0.15 to 3.55 | 20 |
+| Cumin | 0.14 to 0.28 | 1.09 to 4.29 | 1.15 to 8.59 | 20 |
 
 Overall: 3.75% of 80 samples exceeded the Codex MPL for lead (1.0 mg/kg). All target hazard quotients (THQ) for individual metals were below 1 for adults; combined hazard indices for children exceeded 1 in some cumin and curry scenarios. Mercury was not measured in this study.
 
-Codex maximum levels referenced: lead 1.0 mg/kg (spices), arsenic 0.5 mg/kg (spices). EU limits for cadmium in spices: 0.1–0.2 mg/kg depending on spice type.
+Codex maximum levels referenced: lead 1.0 mg/kg (spices), arsenic 0.5 mg/kg (spices). EU limits for cadmium in spices: 0.1 to 0.2 mg/kg depending on spice type.
 
 ## Methods (brief)
 

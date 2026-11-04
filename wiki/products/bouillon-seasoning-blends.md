@@ -84,10 +84,10 @@ Methodology rules for speciation, basis preservation, non-detect handling, and s
 
 | Analyte | Subcategory | Reported concentration range | Detection rate | Applicable regulatory cap | Sources | Confidence | Basis |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| [[metals/lead\|Pb]] | Dried spices (proxy for blends) | 7–31,900 ppb across 116 US samples; 52–486 ppb in 96 Lebanese composites; up to 9,710 ppb in hot chili (Egypt); up to 2,016 ppb in ginger (Ghana) | 98.3% detected (US); 20% exceeded Codex MPL 300 ppb (Lebanon) | Codex 1,000 ppb (spices); EU 1,500–2,000 ppb (varies by spice type); NYSDOH guidance 210 ppb | 4 | medium | Finished-product dry weight |
-| [[metals/cadmium\|Cd]] | Dried spices (proxy for blends) | 56 ppb median (US); 2–345 ppb (Lebanon); 51–156 ppb (Ghana); 150–8,590 ppb in cumin and curry (Egypt) | 4% exceeded Codex MPL 200 ppb (Lebanon); cumin and curry frequently exceed 100 ppb | EU 100–200 ppb (varies by spice); no Codex ML for Cd in most spices | 4 | medium | Finished-product dry weight |
-| [[metals/arsenic-total\|tAs]] | Dried spices (proxy for blends) | 48 ppb median (US); 17–242 ppb (Lebanon); 40–280 ppb (Egypt); 45 ppb mean in stock cubes or granulate (Portugal TDS) | All Lebanese samples below Codex 500 ppb; garlic 9,831 ppb and turmeric 4,973 ppb in Ghana exceeded Codex 4,000 ppb for dried fruits and vegetables | Codex 500 ppb (spices); no inorganic arsenic speciation available from these sources | 3 | low-medium | Finished-product dry weight; TDS value as-prepared |
-| [[metals/mercury-total\|tHg]] | Dried spices (proxy for blends) | 3–33 ppb (Lebanon composites) | All 96 Lebanese samples below Codex MPL 100 ppb | Codex 100 ppb (spices) | 1 | low | Finished-product dry weight |
+| [[metals/lead\|Pb]] | Dried spices (proxy for blends) | 7 to 31,900 ppb across 116 US samples; 52 to 486 ppb in 96 Lebanese composites; up to 9,710 ppb in hot chili (Egypt); up to 2,016 ppb in ginger (Ghana) | 98.3% detected (US); 20% exceeded Codex MPL 300 ppb (Lebanon) | Codex 1,000 ppb (spices); EU 1,500 to 2,000 ppb (varies by spice type); NYSDOH guidance 210 ppb | 4 | medium | Finished-product dry weight |
+| [[metals/cadmium\|Cd]] | Dried spices (proxy for blends) | 56 ppb median (US); 2 to 345 ppb (Lebanon); 51 to 156 ppb (Ghana); 150 to 8,590 ppb in cumin and curry (Egypt) | 4% exceeded Codex MPL 200 ppb (Lebanon); cumin and curry frequently exceed 100 ppb | EU 100 to 200 ppb (varies by spice); no Codex ML for Cd in most spices | 4 | medium | Finished-product dry weight |
+| [[metals/arsenic-total\|tAs]] | Dried spices (proxy for blends) | 48 ppb median (US); 17 to 242 ppb (Lebanon); 40 to 280 ppb (Egypt); 45 ppb mean in stock cubes or granulate (Portugal TDS) | All Lebanese samples below Codex 500 ppb; garlic 9,831 ppb and turmeric 4,973 ppb in Ghana exceeded Codex 4,000 ppb for dried fruits and vegetables | Codex 500 ppb (spices); no inorganic arsenic speciation available from these sources | 3 | low-medium | Finished-product dry weight; TDS value as-prepared |
+| [[metals/mercury-total\|tHg]] | Dried spices (proxy for blends) | 3 to 33 ppb (Lebanon composites) | All 96 Lebanese samples below Codex MPL 100 ppb | Codex 100 ppb (spices) | 1 | low | Finished-product dry weight |
 | [[metals/nickel\|Ni]] | Dried spices (proxy for blends) | Not reported in this evidence set | Not reported | EU varies by matrix | 0 | data gap | Not reported |
 | [[metals/aluminum\|Al]] | Dried spices (proxy for blends) | Not reported in this evidence set | Not reported | EU varies by matrix | 0 | data gap | Not reported |
 | [[metals/chromium\|Cr]] | Dried spices (proxy for blends) | Not reported in this evidence set | Not reported | No applicable general cap | 0 | data gap | Not reported |
@@ -130,7 +130,7 @@ Regulatory limits for spices and dried herbs are established by Codex Alimentari
 | Codex CXS 193-1995 | Pb | 300 ppb | Dried herbs | [[sources/moussa2024-spices-herbs-lebanon\|2]] (20% of 96 composites) |
 | Codex CXS 193-1995 | tAs | 500 ppb | Spices | No exceedances in US, Lebanese, or Egyptian data |
 | Codex CXS 193-1995 | tHg | 100 ppb | Spices | No exceedances in Lebanese data |
-| EU 1881/2006 | Cd | 100–200 ppb | Spices (varies by type) | [[sources/ibrahim2025-egyptian-spices-sudan-dyes-metals\|5]] (cumin 1,150–8,590 ppb; curry 150–3,550 ppb) |
+| EU 1881/2006 | Cd | 100 to 200 ppb | Spices (varies by type) | [[sources/ibrahim2025-egyptian-spices-sudan-dyes-metals\|5]] (cumin 1,150 to 8,590 ppb; curry 150 to 3,550 ppb) |
 | NYSDOH (health guidance) | Pb | 210 ppb | Spices | [[sources/huff2025-spices-lancaster-pa\|1]] (40.5% of 116 US samples) |
 
 <!-- END: hmi-product-crosswalk -->
