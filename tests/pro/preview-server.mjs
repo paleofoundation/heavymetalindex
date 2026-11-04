@@ -1,5 +1,6 @@
 // Isolated localhost fixture. This module is never imported by production code.
 import http from "node:http";
+import { Readable } from "node:stream";
 import { fileURLToPath } from "node:url";
 import { postgresFixture } from "./postgres-fixture.mjs";
 import { requirePro } from "../../lib/pro/auth.mjs";
@@ -38,6 +39,22 @@ export async function startPreview(port = 0) {
       res.end(JSON.stringify(data));
     };
     try {
+      // Model the Node runtime's buffered-body replay before invoking handlers.
+      if (req.method === "POST") {
+        const chunks = [];
+        await new Promise((resolve, reject) => {
+          req.on("data", (chunk) => chunks.push(chunk));
+          req.on("end", resolve);
+          req.on("error", reject);
+        });
+        const replay = Readable.from([Buffer.concat(chunks)]),
+          originalOn = req.on.bind(req);
+        req.read = replay.read.bind(replay);
+        req.on = req.addListener = (event, listener) =>
+          ["data", "end"].includes(event)
+            ? replay.on(event, listener)
+            : originalOn(event, listener);
+      }
       if (url.pathname === "/__test/session") {
         if (!["user_a", "user_b", "user_unpaid"].includes(req.query.user))
           return res.status(400).end();
