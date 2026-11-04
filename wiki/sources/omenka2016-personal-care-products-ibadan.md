@@ -16,7 +16,7 @@ raw_path: "raw/studies/baby-lotions-oils-powders/Omenka_2016_heavy_metals_person
 raw_sha256: d5c1b53b1746fe97a04e3f1ccf1675330912543885154a22f8141ec54ee377e8
 metals: [Zn, Cd, Pb, Ni]
 ingredients: []
-products: ["[[products/baby-talcum-powder]]", "[[products/baby-lotion-cream]]", "[[products/dusting-talc-powders-adult]]", "[[products/makeup-foundation-powders-blush]]", "[[products/eye-makeup]]", "[[products/skin-lightening-cream]]", "[[products/body-hand-leave-on-skin-care]]", "[[products/leave-on-hair-preparations]]"]
+products: ["[[products/baby-talcum-powder]]", "[[products/baby-lotion-cream]]", "[[products/dusting-talc-powders-adult]]", "[[products/dusting-powder-cornstarch-adult]]", "[[products/makeup-foundation-powders-blush]]", "[[products/eye-makeup]]", "[[products/skin-lightening-cream]]", "[[products/body-hand-leave-on-skin-care]]", "[[products/leave-on-hair-preparations]]"]
 matrices: [cosmetic-personal-care]
 jurisdictions: [NG]
 near_duplicates: []

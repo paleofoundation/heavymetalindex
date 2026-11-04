@@ -12,7 +12,7 @@ evidence_tier: A
 license: "CC BY 4.0"
 raw_path: raw/manual-fetch/seasonal-geographic-variance/auto-fetched/gap-soy-products-al_2025_10-3390-nu16244290.pdf
 metals: [Al, Cd, Pb, Ni, Cr, Co, Ba, Li, Sr, V]
-ingredients: ["[[ingredients/soy]]", "[[ingredients/legumes]]"]
+ingredients: ["[[ingredients/soy]]", "[[ingredients/legumes]]", "[[ingredients/tofu]]"]
 products: ["[[products/soy-products]]", "[[products/legumes-pulses-other]]"]
 matrices: [soybeans, legumes, wet-weight]
 jurisdictions: [ES, IT]
