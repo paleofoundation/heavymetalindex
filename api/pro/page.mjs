@@ -40,7 +40,7 @@ export function proPageHandler({
       res.setHeader("Content-Type", "text/html; charset=utf-8");
       res.setHeader(
         "Content-Security-Policy",
-        `default-src 'none'; script-src 'nonce-${page.nonce}' ${clerkOrigin}; style-src 'nonce-${page.nonce}'; style-src-attr 'unsafe-inline'; connect-src 'self' ${clerkOrigin}; base-uri 'none'; form-action 'self'; frame-ancestors 'none'`,
+        `default-src 'none'; script-src 'nonce-${page.nonce}' ${clerkOrigin} https://challenges.cloudflare.com https://*.protect.clerk.com; style-src 'self' 'unsafe-inline'; connect-src 'self' ${clerkOrigin} https://*.protect.clerk.com:* https://clerk-telemetry.com https://*.clerk-telemetry.com; frame-src ${clerkOrigin} https://challenges.cloudflare.com https://*.protect.clerk.com; worker-src 'self' blob:; img-src 'self' data: https://img.clerk.com; base-uri 'none'; form-action 'self'; frame-ancestors 'none'`,
       );
       res.status(200).end(page.html);
     } catch (error) {
