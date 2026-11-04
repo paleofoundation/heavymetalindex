@@ -1,0 +1,112 @@
+{
+  "source_id": "pu2026-grape-solanum-nigrum-intercropping-cadmium",
+  "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-FILL-0363/10.3390_agronomy16212158.pdf",
+  "primary_sha256": "f6eb0f8d9113769167efcaf8a6de92d2a38d7cb6560b15aef18a802ccf7d1d86",
+  "extracted_at": "2026-11-04",
+  "extractor": "engine-v1",
+  "disposition": "mitigation_tested",
+  "disposition_reason": "Single-season field trial: intercropping with S. nigrum lowered ripe grape Cd from 0.046 to 0.039 mg/kg fresh weight on Cd-spiked soil.",
+  "disposition_locator": "p. 13; Figure 7",
+  "study": {
+    "design": "field intercropping trial, three replicate plots",
+    "origin": "China, Sichuan",
+    "market": "experimental vineyard",
+    "period": {
+      "from": "2025",
+      "to": "2025",
+      "as_reported": "2025 season"
+    },
+    "method": "HNO3-HClO4 digestion; graphite furnace AAS (PinAAcle 900H)",
+    "lod": [
+      "Cd LOD 0.001 mg/kg, LOQ 0.003 mg/kg"
+    ],
+    "basis": "fresh",
+    "qa": "RSD <5%; spike recovery 92%",
+    "site_context": "deliberately Cd-contaminated plot"
+  },
+  "findings": [
+    {
+      "id": "pu2026-grape-solanum-nigrum-intercropping-cadmium:Cd:grape-berries-summer-black-ripe-82-daf-m:mean",
+      "material": {
+        "label_as_printed": "Grape berries, 'Summer Black', ripe (82 DAF)",
+        "page": "products/fresh-fruit",
+        "form": "whole",
+        "state": "raw",
+        "route_rule": "override:HMI-INGEST-2026-11-04b"
+      },
+      "analyte": "Cd",
+      "group": "monoculture, Cd-spiked vineyard plot, Sichuan, China",
+      "group_kind": "treatment",
+      "n": 3,
+      "statistic": "mean",
+      "reported": "0.046 mg/kg",
+      "value_ugkg": 46.0,
+      "min_ugkg": null,
+      "max_ugkg": null,
+      "sd_ugkg": null,
+      "unit_original": "mg/kg",
+      "basis": "fresh",
+      "censoring": "none",
+      "lod_ugkg": 1.0,
+      "locator": "p. 13; Figure 7, p. 11",
+      "integrity_flag": null,
+      "notes": "three replicate plots; soil total Cd 1.49 mg/kg after 2024 Cd nitrate treatment",
+      "statistic_raw": "mean"
+    },
+    {
+      "id": "pu2026-grape-solanum-nigrum-intercropping-cadmium:Cd:grape-berries-summer-black-ripe-82-daf-i:mean",
+      "material": {
+        "label_as_printed": "Grape berries, 'Summer Black', ripe (82 DAF)",
+        "page": "products/fresh-fruit",
+        "form": "whole",
+        "state": "raw",
+        "route_rule": "override:HMI-INGEST-2026-11-04b"
+      },
+      "analyte": "Cd",
+      "group": "intercropped with Solanum nigrum, Cd-spiked vineyard plot, Sichuan, China",
+      "group_kind": "treatment",
+      "n": 3,
+      "statistic": "mean",
+      "reported": "0.039 mg/kg",
+      "value_ugkg": 39.0,
+      "min_ugkg": null,
+      "max_ugkg": null,
+      "sd_ugkg": null,
+      "unit_original": "mg/kg",
+      "basis": "fresh",
+      "censoring": "none",
+      "lod_ugkg": 1.0,
+      "locator": "p. 13; Figure 7, p. 11",
+      "integrity_flag": null,
+      "notes": "15.22% lower than monoculture",
+      "statistic_raw": "mean"
+    }
+  ],
+  "sample_values": [],
+  "controls": [],
+  "unresolved": [
+    "Intermediate-stage values are figure-only (Figure 7)."
+  ],
+  "extraction_scope": "complete",
+  "extraction_owners": [
+    "engine-v1"
+  ],
+  "regulatory_or_exposure": [
+    {
+      "what": "GB 2762-2025 Cd limit, fresh fruit, cited by authors",
+      "value": "0.05 mg/kg",
+      "locator": "p. 13"
+    },
+    {
+      "what": "China agricultural soil Cd risk screening value",
+      "value": "0.3 mg/kg",
+      "locator": "p. 13"
+    }
+  ],
+  "source_record_corrections": [],
+  "source_record": "wiki/sources/pu2026-grape-solanum-nigrum-intercropping-cadmium.md",
+  "non_numeric_findings": [],
+  "merged_unmatched": [],
+  "merged_snapshot": null,
+  "raw_output": null
+}
