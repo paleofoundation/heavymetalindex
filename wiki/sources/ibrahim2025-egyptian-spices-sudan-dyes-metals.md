@@ -27,7 +27,7 @@ sampling_year_range: null
 updated: 2026-11-04
 ---
 
-# Ibrahim et al. 2025 — Heavy metals in Egyptian spices: health risk assessment
+# Ibrahim et al. 2025: Heavy metals in Egyptian spices: health risk assessment
 
 Peer-reviewed ICP-MS measurement of arsenic, lead, and cadmium in 80 commercial spice samples (paprika, hot chili, curry, cumin) purchased from Egyptian markets in Al Sharqia governorate. The study also assessed Sudan dyes and pesticide residues in the same sample set.
 
