@@ -149,13 +149,7 @@ evidence_scope: populated
 audience: [regulator, brand-qa, food-safety, procurement]
 quick_read:
   summary: >-
-    Food additives contain measurable lead, total arsenic, and cadmium at
-    concentrations that vary substantially by additive type. Lead and total
-    arsenic are the metals of greatest concern. Iron oxides and mineral calcium
-    salts carry the highest lead; carrageenan is the only common additive with
-    detectable inorganic arsenic. Mercury is below detection in all tested
-    additives. At typical use levels, food additives contribute less than
-    5 percent of total dietary arsenic and less than 1 percent of dietary lead.
+    Lead and total arsenic in food additives vary by additive type, with the highest lead in iron oxides and mineral calcium salts and inorganic arsenic found in carrageenan.
   points:
     - label: Metals of concern
       text: "lead and total arsenic are detected across most additive classes; inorganic arsenic is specific to algal-derived hydrocolloids; cadmium is low in most additives; mercury is not detected"
@@ -170,7 +164,7 @@ quick_read:
 <!-- BEGIN: hmi-opening -->
 <div class="hmi-quick-read">
   <div class="hmi-quick-read-label">Quick read</div>
-  <p>Food additives contain measurable lead, total arsenic, and cadmium at concentrations that vary substantially by additive type. Lead and total arsenic are the metals of greatest concern. Iron oxides and mineral calcium salts carry the highest lead; carrageenan is the only common additive with detectable inorganic arsenic. Mercury is below detection in all tested additives. At typical use levels, food additives contribute less than 5 percent of total dietary arsenic and less than 1 percent of dietary lead.</p>
+  <p>Lead and total arsenic in food additives vary by additive type, with the highest lead in iron oxides and mineral calcium salts and inorganic arsenic found in carrageenan.</p>
   <ul>
     <li><strong>Metals of concern:</strong> lead and total arsenic are detected across most additive classes; inorganic arsenic is specific to algal-derived hydrocolloids; cadmium is low in most additives; mercury is not detected</li>
     <li><strong>Main drivers:</strong> additive raw material source governs contamination: geological deposits drive lead in mineral additives; marine algae drive arsenic accumulation in carrageenan</li>
@@ -178,7 +172,7 @@ quick_read:
   </ul>
 </div>
 
-This page draws on 1 peer-reviewed study and 3 regulatory opinions. The complete citation list is at the bottom of the page.
+This page draws on evidence from [[sources/efsa2026-vegetable-carbon-e153-amendment|EFSA]], together with 1 peer-reviewed study. The complete citation list is at the bottom of the page.
 <!-- END: hmi-opening -->
 
 ## Why food additives accumulate heavy metals
