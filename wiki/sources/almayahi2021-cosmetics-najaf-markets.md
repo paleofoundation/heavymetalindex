@@ -40,7 +40,7 @@ audience: [regulator, brand-qa, researcher]
 sources: 0
 ---
 
-# Almayahi 2021 — Heavy metals in cosmetics from Najaf, Iraq markets by AAS
+# Almayahi 2021: Heavy metals in cosmetics from Najaf, Iraq markets by AAS
 
 This open-access Heliyon study measured five heavy metals (cadmium, lead, zinc, chromium, cobalt) and alpha particle emission rates in 20 cosmetic products purchased from markets in Najaf, Iraq. Products comprised six kohl eye cosmetics, seven compact face powders, and seven lipsticks, analyzed by flame atomic absorption spectrometry (Shimadzu AA-6300). Results were compared against WHO and Iraqi cosmetic standards. The study also measured gross alpha activity.
 

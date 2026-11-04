@@ -42,7 +42,7 @@ audience: [regulator, brand-qa, researcher]
 sources: 0
 ---
 
-# Iwegbue et al. 2016 — Metals in facial cosmetics from Delta State, Nigeria by AAS
+# Iwegbue et al. 2016: Metals in facial cosmetics from Delta State, Nigeria by AAS
 
 This open-access Toxicology Reports study measured nine metals (cadmium, lead, nickel, chromium, cobalt, copper, iron, manganese, zinc) in 160 facial cosmetic products across eight categories purchased from markets in Delta State, Nigeria, using flame atomic absorption spectrometry (PerkinElmer Analyst 200). With n=20 per category, this is the largest product-category sample size in the HMI-FILL-0024 deposit for face powder measurements. The study reported mean, median, and full range for each metal in each product category, alongside LOD, LOQ, and per-element spike recovery. Cadmium and lead in face powders exceeded EU and WHO cosmetic limits in some samples.
 

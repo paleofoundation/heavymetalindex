@@ -40,7 +40,7 @@ audience: [regulator, brand-qa, researcher]
 sources: 0
 ---
 
-# Sani et al. 2016 — Heavy metals in cosmetics sold in Kano, Nigeria by AAS
+# Sani et al. 2016: Heavy metals in cosmetics sold in Kano, Nigeria by AAS
 
 This open-access Toxicology Reports study measured manganese, nickel, copper, cadmium, chromium, and lead in 30 cosmetic products purchased from markets in Kano metropolis, Nigeria, by flame atomic absorption spectrometry (Buck Scientific 210 VGP). The panel comprised 10 face powders, 10 skin lightening creams, and 10 lipsticks in varying price ranges. Results were compared with WHO and EU cosmetic standards. The study found no significant difference between expensive and cheap products for the metals measured.
 

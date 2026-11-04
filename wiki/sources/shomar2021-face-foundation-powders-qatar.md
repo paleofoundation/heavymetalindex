@@ -41,7 +41,7 @@ audience: [regulator, brand-qa, researcher]
 sources: 0
 ---
 
-# Shomar and Rashkeev 2021 — Toxic elements in 14 international face foundation powders by ICP-MS
+# Shomar and Rashkeev 2021: Toxic elements in 14 international face foundation powders by ICP-MS
 
 This Environmental Research study measured 26 elements in 14 international brand face foundation powder products purchased from Qatar markets, using ICP-MS (Bruker aurora M90) with NIST SRM 2709 certified reference material verification. The study assessed dermal exposure and computed hazard indices and cancer risk indices for adult female use. All 14 products showed hazard indices well below 1, and the authors concluded dermal exposure from these products was negligible under their modeled use scenario. However, several samples showed substantial variation in toxic element concentrations, with lead reaching 912 ppb and arsenic reaching 215 ppb in individual samples.
 
