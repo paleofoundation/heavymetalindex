@@ -1,0 +1,39 @@
+{
+ "source_id": "wang2025-enshi-selenium-mining-soil-microbes",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-GALLIUM-1/10.3389_fmicb.2025.1561678.pdf",
+ "primary_sha256": "6f9496c38faf8cc0f7ec601b5d96a96f38d9c164e1a630b8f675bfbf77399a6a",
+ "extracted_at": "2026-11-04",
+ "extractor": "engine-v1",
+ "disposition": "context",
+ "disposition_reason": "Supports a statistical association between soil gallium and soil microbial communities. Does not support any effect on the human gut microbiome, and correlation does not show cause.",
+ "disposition_locator": "Table, p. 5; Results",
+ "study": {
+  "design": "see source record",
+  "origin": "not applicable",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "not stated"
+  },
+  "method": "Soil chemistry was measured alongside amplicon sequencing of bacterial and fungal communities; associations were tested with Mantel tests and random forest models.",
+  "lod": [],
+  "basis": "unknown",
+  "qa": "see source record",
+  "site_context": "mining-area soil"
+ },
+ "findings": [],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [
+  "Soil gallium 10.24 to 27.76 mg/kg across contamination levels"
+ ],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/wang2025-enshi-selenium-mining-soil-microbes.md",
+ "non_numeric_findings": []
+}

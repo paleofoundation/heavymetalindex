@@ -1,0 +1,39 @@
+{
+ "source_id": "wu2024-serum-metals-chronic-kidney-disease",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-GALLIUM-1/10.3389_fendo.2024.1362085.pdf",
+ "primary_sha256": "1dac7a8e88e520014ef431eed23c79c883d719edaa5dc26579207cfb0c080f19",
+ "extracted_at": "2026-11-04",
+ "extractor": "engine-v1",
+ "disposition": "context",
+ "disposition_reason": "Supports that serum gallium is usually below detection in this population. Does not support a kidney effect of gallium.",
+ "disposition_locator": "Table 1). Values below the limit of detection were handled as described in Methods",
+ "study": {
+  "design": "see source record",
+  "origin": "not applicable",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "not stated"
+  },
+  "method": "Serum metals were measured by ICP-MS (Agilent 7700x); associations were modeled with regression, machine learning and Bayesian kernel machine regression.",
+  "lod": [],
+  "basis": "unknown",
+  "qa": "see source record",
+  "site_context": "human serum"
+ },
+ "findings": [],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [
+  "Serum gallium median 0 in both groups; upper quartile 0.02 in CKD patients (Table 1)"
+ ],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/wu2024-serum-metals-chronic-kidney-disease.md",
+ "non_numeric_findings": []
+}

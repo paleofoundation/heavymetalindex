@@ -1,0 +1,39 @@
+{
+ "source_id": "shtangeeva2023-gallium-temporal-variability-plants",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-GALLIUM-1/10.3390_toxics11080675.pdf",
+ "primary_sha256": "5b5df021fd858c1dc47d2102880586972cdb84aadc90d55f38b47634181644ba",
+ "extracted_at": "2026-11-04",
+ "extractor": "engine-v1",
+ "disposition": "context",
+ "disposition_reason": "Supports measured gallium levels in wild plants and soil and the low soil-to-plant transfer. Wild grasses are not food crops, so it does not support dietary intake estimates.",
+ "disposition_locator": "Table 1; Table 1; Results, p. 3; Results, p. 3; secondary",
+ "study": {
+  "design": "see source record",
+  "origin": "not applicable",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "not stated"
+  },
+  "method": "Plants and soil were sampled every 5 h from 9:00 to 19:00, digested in nitric acid and analyzed by ICP-MS. Accuracy was checked with two certified plant reference materials, with differences under 10%.",
+  "lod": [],
+  "basis": "unknown",
+  "qa": "see source record",
+  "site_context": "rhizosphere soil; couch grass; plantain; dandelion"
+ },
+ "findings": [],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [
+  "Site 1 soil 6.55 to 7.32 mg/kg; roots 0.46 to 1.52 mg/kg; leaves 0.058 to 0.14 mg/kg (Table 1)"
+ ],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/shtangeeva2023-gallium-temporal-variability-plants.md",
+ "non_numeric_findings": []
+}

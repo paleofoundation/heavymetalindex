@@ -1,0 +1,39 @@
+{
+ "source_id": "bora2024-romanian-honey-elemental-profiling",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-GALLIUM-1/10.3390_foods13081253.pdf",
+ "primary_sha256": "4dca5eb1baf16924c1c68fd14325d23c5aa413c2594e62b971253ab5dac23c1f",
+ "extracted_at": "2026-11-04",
+ "extractor": "engine-v1",
+ "disposition": "context",
+ "disposition_reason": "Supports a non-detect result for gallium in one food, honey, at a stated quantification limit. Does not support any dietary intake estimate.",
+ "disposition_locator": "Table notes, pp. 10 to 11; Table notes, p. 11",
+ "study": {
+  "design": "see source record",
+  "origin": "not applicable",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "not stated"
+  },
+  "method": "Honey samples were digested and analyzed by ICP-MS for 30 elements, with results compared across region, honey type and year.",
+  "lod": [],
+  "basis": "unknown",
+  "qa": "see source record",
+  "site_context": "honey"
+ },
+ "findings": [],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [
+  "Gallium not detected in any of 61 honey samples; LoQ 0.04 µg/L in solution"
+ ],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/bora2024-romanian-honey-elemental-profiling.md",
+ "non_numeric_findings": []
+}

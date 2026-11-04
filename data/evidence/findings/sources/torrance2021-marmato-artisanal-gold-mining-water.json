@@ -1,0 +1,39 @@
+{
+ "source_id": "torrance2021-marmato-artisanal-gold-mining-water",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-GALLIUM-1/10.1007_s10653-021-00898-y.pdf",
+ "primary_sha256": "d97b0e652be209de1b8699f4efd6fa0450d01da5f8a6154d22d30f330381d436",
+ "extracted_at": "2026-11-04",
+ "extractor": "engine-v1",
+ "disposition": "context",
+ "disposition_reason": "Supports a qualitative statement that zinc sulfide ore processing can release gallium to water. The main text gives no gallium value used on this page.",
+ "disposition_locator": "Discussion, p. 11",
+ "study": {
+  "design": "see source record",
+  "origin": "not applicable",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "not stated"
+  },
+  "method": "Water samples were analyzed for dissolved metals by ICP-MS.",
+  "lod": [],
+  "basis": "unknown",
+  "qa": "see source record",
+  "site_context": "surface water; mine drainage"
+ },
+ "findings": [],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [
+  "Gallium detectable and elevated in mining-affected waters (qualitative)"
+ ],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/torrance2021-marmato-artisanal-gold-mining-water.md",
+ "non_numeric_findings": []
+}

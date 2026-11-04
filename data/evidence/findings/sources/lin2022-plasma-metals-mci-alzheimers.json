@@ -1,0 +1,39 @@
+{
+ "source_id": "lin2022-plasma-metals-mci-alzheimers",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-GALLIUM-1/10.3390_jcm11133655.pdf",
+ "primary_sha256": "c4b58a9e4157935ed65a335fc4afc611122caf0b147c35b0a83b6396036b87ad",
+ "extracted_at": "2026-11-04",
+ "extractor": "engine-v1",
+ "disposition": "context",
+ "disposition_reason": "Supports a reference range for gallium in human plasma from a small sample. Does not support any link between gallium and cognition.",
+ "disposition_locator": "Table 2; Table 3",
+ "study": {
+  "design": "see source record",
+  "origin": "not applicable",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "not stated"
+  },
+  "method": "Plasma metals were measured by ICP-MS; participants were followed for cognitive change.",
+  "lod": [],
+  "basis": "unknown",
+  "qa": "see source record",
+  "site_context": "human plasma"
+ },
+ "findings": [],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [
+  "Plasma gallium medians 0.036 to 0.071 µg/L across groups (Table 2)"
+ ],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/lin2022-plasma-metals-mci-alzheimers.md",
+ "non_numeric_findings": []
+}

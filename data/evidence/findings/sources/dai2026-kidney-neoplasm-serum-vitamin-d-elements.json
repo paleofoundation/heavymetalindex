@@ -1,0 +1,39 @@
+{
+ "source_id": "dai2026-kidney-neoplasm-serum-vitamin-d-elements",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-GALLIUM-1/10.3389_fonc.2026.1884903.pdf",
+ "primary_sha256": "c00a4413472c8bf331f1ebbf5c72ade5d412943733aeedd79dc4e33261a013f3",
+ "extracted_at": "2026-11-04",
+ "extractor": "engine-v1",
+ "disposition": "context",
+ "disposition_reason": "Supports the presence of measurable gallium in human serum and a small group difference. Does not support a causal role for gallium in kidney cancer.",
+ "disposition_locator": "Table 2). The table footnote unit renders as mg/L in the extracted text and needs checking against the PDF; Results",
+ "study": {
+  "design": "see source record",
+  "origin": "not applicable",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "not stated"
+  },
+  "method": "Serum elements were measured by ICP-MS with internal standards; vitamin D metabolites by UPLC-MS/MS.",
+  "lod": [],
+  "basis": "unknown",
+  "qa": "see source record",
+  "site_context": "human serum"
+ },
+ "findings": [],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [
+  "Serum gallium 1.13 ± 0.16 (RCC) vs 1.04 ± 0.18 (BKN, controls), Table 2"
+ ],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/dai2026-kidney-neoplasm-serum-vitamin-d-elements.md",
+ "non_numeric_findings": []
+}
