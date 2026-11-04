@@ -16,7 +16,7 @@ raw_path: "raw/Manual Fetch Kimi /condiment_papers/05_PB_Vanilla_Spices/Heavy me
 raw_sha256: f0156649fc69916a0981eb6d76b74d7dad408b1c7c85ee0c99f1f1ccf38ac024
 metals: [Pb, Cd, tAs]
 ingredients: ["[[ingredients/herbs-and-spices]]", "[[ingredients/turmeric]]", "[[ingredients/cinnamon]]"]
-products: ["[[products/spices]]"]
+products: ["[[products/spices]]", "[[products/bouillon-seasoning-blends]]"]
 matrices: [spices, dried-herbs, curry-powder, masala]
 jurisdictions: [US]
 near_duplicates: []

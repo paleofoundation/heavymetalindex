@@ -14,7 +14,7 @@ license: "CC BY"
 raw_path: raw/markdown/FM_11343411/FM_11343411.md
 metals: [Pb, Cd, tAs, tHg]
 ingredients: ["[[ingredients/cinnamon]]", "[[ingredients/black-pepper]]", "[[ingredients/herbs-and-spices]]", "[[ingredients/herbal-botanicals]]"]
-products: ["[[products/spices]]"]
+products: ["[[products/spices]]", "[[products/bouillon-seasoning-blends]]"]
 matrices: [spices, dried-herbs]
 jurisdictions: [LB]
 near_duplicates: []
