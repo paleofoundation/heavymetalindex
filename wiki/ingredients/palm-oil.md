@@ -201,6 +201,10 @@ Chinese commercial refined palm oil: not detected (ICP-OES, LOD not reported).<s
 
 Indonesian refined palm oil: mean 159 mg/kg (159,000 µg/kg), standard error 8.5 mg/kg (ICP-MS).<sup>2</sup> The authors note this exceeds prior literature values of 1.9 to 31 mg/kg from Malaysian kernels and similar products. They attribute the elevated aluminium to soil or dust contamination and to the use of aluminium-containing clay flocculants during refining. At a consumption of 37.1 g/day palm oil, the resulting intake remains below the tolerable weekly intake of 1 mg per kilogram body weight per week.
 
+<!-- END: hmi-cited-measurements -->
+
+## Ranges by source
+
 ### Measurement summary
 
 | Metal | Bangladesh retail composites (mean, µg/kg) | Indonesia refined palm oil (mean, µg/kg) | China commercial (n=3) |
@@ -215,9 +219,6 @@ Indonesian refined palm oil: mean 159 mg/kg (159,000 µg/kg), standard error 8.5
 
 Sources for this table: Shaheen et al. 2024 (Bangladesh);<sup>1</sup> Thompson-Morrison et al. 2024 (Indonesia);<sup>2</sup> Chang et al. 2026 (China).<sup>3</sup>
 
-<!-- END: hmi-cited-measurements -->
-
-## Ranges by source
 
 The largest source of variation in this dataset is geographic. Bangladesh retail composites measured mercury at three to four orders of magnitude above the Indonesian and implied Chinese levels. Lead ranged from 24 µg/kg (Bangladesh) to 75 µg/kg (Indonesia) to not detected (China). These differences likely reflect differences in source origin of the crude oil, refinery practices, and local agricultural or environmental contamination rather than inherent properties of palm oil as a commodity.
 
