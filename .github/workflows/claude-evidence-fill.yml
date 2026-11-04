@@ -16,6 +16,9 @@
 # The Claude GitHub App should be installed on this repository so the push that
 # opens the pull request is not made with the default GITHUB_TOKEN (that token
 # does not start the CI workflows auto-merge waits for).
+#
+# After the pull request is open, sibling fills keep landing on main.
+# evidence-fill-refresh.yml merges that main back in and re-records this page.
 
 name: Claude evidence fill
 
