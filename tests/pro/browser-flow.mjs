@@ -11,6 +11,7 @@ await fs.mkdir(dir, { recursive: true });
 const app = await startPreview();
 const browser = await puppeteer.launch({
   headless: true,
+  downloadBehavior: { policy: "allow", downloadPath: dir },
   ...(process.env.HMI_CHROME_PATH
     ? { executablePath: process.env.HMI_CHROME_PATH }
     : {}),
@@ -182,6 +183,14 @@ try {
   );
   console.log(`Browser verification passed. Artifacts: ${dir}`);
 } finally {
-  await browser.close();
-  await app.close();
+  const cleanupTimer = setTimeout(
+    () => browser.process()?.kill("SIGKILL"),
+    5000,
+  );
+  try {
+    await browser.close();
+  } finally {
+    clearTimeout(cleanupTimer);
+    await app.close();
+  }
 }

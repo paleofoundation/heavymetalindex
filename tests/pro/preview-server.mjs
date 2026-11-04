@@ -101,7 +101,10 @@ export async function startPreview(port = 0) {
     origin,
     fixture,
     close: async () => {
-      await new Promise((resolve) => server.close(resolve));
+      await new Promise((resolve) => {
+        server.close(resolve);
+        server.closeAllConnections();
+      });
       await fixture.close();
     },
   };
