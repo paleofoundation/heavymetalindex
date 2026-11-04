@@ -420,6 +420,10 @@ Enamel-lined cans substantially reduce tin migration. For products stored in dam
 
 EU Regulation 2023/915 ([[regulations/eu-2023-915-cadmium]]) and the general contaminants framework ([[regulations/eu2023-contaminants-maximum-levels]]) do not set a single composite limit for chicken noodle soup as a finished product; rather, the limits for each constituent ingredient (cereal products, chicken meat, vegetables) apply to those components as assessed in the final product. Codex CXS 193-1995 ([[regulations/codex-cadmium-mls]]) similarly addresses ingredient categories rather than composite dishes. No specific US FDA action level applies to canned chicken noodle soup; the FDA Closer to Zero program ([[regulations/fda-closer-to-zero]]) covers infant and toddler food categories. For tin in canned products, the Codex ML for tin in canned foods is 200 mg/kg; EU limits are 200 mg/kg for non-beverages. The TDS data showing Sn at or below reporting limits is consistent with modern canned products meeting these limits comfortably [[sources/fda2022-tds-elements-fy2018-fy2020]].
 
+## Details
+
+No further detail has been compiled from the corpus yet.
+
 <!-- BEGIN: hmi-profile-evidence-correction -->
 ## Interpretation of source evidence
 
@@ -435,6 +439,10 @@ Source observations and population estimates are different. A non-detect supplie
 
 **U.** FDA source observations are non-detects at the reporting limits below. They do not estimate a zero population concentration; other literature remains separate context.
 <!-- END: hmi-profile-evidence-correction -->
+
+## FAQs
+
+No frequently asked questions have been compiled for this page yet.
 
 <!-- BEGIN: hmi-page-references -->
 ## References

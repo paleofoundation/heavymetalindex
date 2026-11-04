@@ -256,6 +256,10 @@ _No quantified data on packaging or storage effects on heavy metal content in co
 
 The European Union under [[regulations/eu2023-contaminants-maximum-levels]] sets a maximum level for cadmium in cereals of 0.10 mg/kg (100 ppb) wet weight and for lead in cereals of 0.20 mg/kg (200 ppb) wet weight. For foods specifically marketed to infants and young children, the EU cadmium limit is 0.040 mg/kg (40 ppb). Codex Alimentarius (CXS 193-1995 and revisions) sets a cereal cadmium maximum of 0.10 mg/kg and a lead maximum of 0.20 mg/kg. All measured analytes in the FDA TDS FY2018-FY2020 corn grits data are at zero, well within these limits [[sources/fda2022-tds-elements-fy2018-fy2020]].
 
+## Details
+
+No further detail has been compiled from the corpus yet.
+
 <!-- BEGIN: hmi-profile-evidence-correction -->
 ## Interpretation of source evidence
 
@@ -275,6 +279,10 @@ Source observations and population estimates are different. A non-detect supplie
 
 **U.** FDA source observations are non-detects at the reporting limits below. They do not estimate a zero population concentration; other literature remains separate context.
 <!-- END: hmi-profile-evidence-correction -->
+
+## FAQs
+
+No frequently asked questions have been compiled for this page yet.
 
 <!-- BEGIN: hmi-page-references -->
 ## References

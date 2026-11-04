@@ -53,6 +53,26 @@ For the question of whether research peptides get heavy-metal tested, this categ
 
 Janvier et al. 2018 is listed on this page. The direct answer also uses the European Medicines Agency 2025 guideline and the University of Calgary 2026 bulletin, which are filed source pages. Some sections below are still empty because they have not been filled.
 
+## Contamination
+
+No measured data yet in our corpus.
+
+## Mitigation
+
+No mitigation evidence yet in our corpus.
+
+## Details
+
+No further detail has been compiled from the corpus yet.
+
+## Review
+
+No evidence review yet in our corpus.
+
+## FAQs
+
+No frequently asked questions have been compiled for this page yet.
+
 <!-- BEGIN: hmi-page-references -->
 ## References
 

@@ -288,6 +288,16 @@ Arsenic speciation (inorganic versus organic) has not been performed on any geop
 
 The prevalence data (48.4% in Ho municipality; 30-80% cited by Medical University of Vienna) are not drawn from representative national samples; they may not generalize beyond the specific communities and clinical settings studied.
 
+## FAQs
+
+No frequently asked questions have been compiled for this page yet.
+
+<!-- BEGIN: hmi-page-references -->
+## References
+
+Works cited in this page's text do not yet have a numbered reference list in this section.
+<!-- END: hmi-page-references -->
+
 ## Sources
 
 1. Bonglaisin JN, Kunsoan NB, Bonny P, Matchawe C, Tata BN, Nkeunen G, Mbofung CM. Geophagia: Benefits and potential toxicity to human -- A review. Front Public Health. 2022;10:893831. doi:10.3389/fpubh.2022.893831. [[sources/bonglaisin2022-geophagia-benefits-toxicity-review|[1]]]
@@ -306,3 +316,9 @@ The prevalence data (48.4% in Ho municipality; 30-80% cited by Medical Universit
 
 <!-- BEGIN: source-legend -->
 <!-- END: source-legend -->
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+Version history for this page lives in git.
+<!-- END: hmi-page-history -->

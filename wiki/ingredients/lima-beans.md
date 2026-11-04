@@ -242,6 +242,10 @@ Frozen lima beans in plastic pouches are not subject to Sn migration. Canned lim
 
 EU Regulation 2023/915 sets a maximum level for Cd in dried legumes (pulses) of 0.10 mg/kg wet weight [[regulations/eu-2023-915-cadmium]]; this limit is applicable to dried lima beans as placed on the market. For fresh or frozen lima beans, the applicable Cd limit would follow the vegetable framework rather than the pulse framework; the EU typically applies 0.10 mg/kg for fresh pulses with pods consumed. The Pb limit for dried legumes is 0.10 mg/kg wet weight [[regulations/eu2023-contaminants-maximum-levels]]. For nickel, Commission Regulation (EU) 2024/1987 set the first binding EU maximum levels, applying from 1 July 2025 ([[regulations/eu-2024-1987-nickel-maximum-levels]]): dried lima beans fall under dry beans at 12 mg/kg (Annex I point 3.6.9.2), and the immature/fresh form falls under legume vegetables at 1.0 mg/kg (point 3.6.6.1). The FDA TDS immature-frozen lima-bean values (910–930 ppb, i.e. 0.91–0.93 mg/kg) approach the 1.0 mg/kg legume-vegetable level, although the bases differ (a boiled TDS composite versus the regulation's wet-weight, edible-part basis). EFSA's underlying risk assessment established a tolerable daily intake for Ni of 13 µg/kg body weight per day based on sensitized individuals as the most sensitive population [[sources/efsa-nickel-contam-2020|1]]. Codex Alimentarius sets a maximum of 0.10 mg/kg for Cd in pulses but has not set an international nickel maximum level [[regulations/codex-cadmium-mls]].
 
+## Details
+
+No further detail has been compiled from the corpus yet.
+
 <!-- BEGIN: hmi-profile-evidence-correction -->
 ## Interpretation of source evidence
 
@@ -257,6 +261,10 @@ Source observations and population estimates are different. A non-detect supplie
 
 **Cr.** FDA source observations are non-detects at the reporting limits below. They do not estimate a zero population concentration; other literature remains separate context.
 <!-- END: hmi-profile-evidence-correction -->
+
+## FAQs
+
+No frequently asked questions have been compiled for this page yet.
 
 <!-- BEGIN: hmi-page-references -->
 ## References

@@ -78,6 +78,14 @@ The numerator is 500 ng/day, equal to OEHHA's 0.5 ug/day lead MADL. Since 1 ppb 
 
 Formula rows use labelled illustrative intake assumptions because infant formula exposure depends on preparation, age, body weight, and daily volume. Those assumptions are not HMTc standards and should be replaced by an approved formula-specific exposure model before threshold decisions.
 
+## Review
+
+No evidence review yet in our corpus.
+
+## FAQs
+
+No frequently asked questions have been compiled for this page yet.
+
 ## Sources
 
 - [[sources/fda-ctz-Pb-babyfood-2025]]

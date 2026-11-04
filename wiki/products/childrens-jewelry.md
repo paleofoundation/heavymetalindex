@@ -58,6 +58,10 @@ Sekerak, 2015 Washington children's jewelry. Laboratory samples were chosen when
 
 <!-- END: hmi-cited-measurements -->
 
+## Mitigation
+
+No mitigation evidence yet in our corpus.
+
 ## Children's jewelry is not a food
 
 Jewelry can be mouthed. Mouthing is not the model in an infant arsenic biomarker study or a rat gavage of arsenite and dichromate. Those papers do not test a jewelry alloy or a coating.
@@ -65,6 +69,14 @@ Jewelry can be mouthed. Mouthing is not the model in an infant arsenic biomarker
 ### What remains uncertain
 
 No cited gut study dosed children's jewelry. A migration or content test of an article is a chemistry result.
+
+## Review
+
+No evidence review yet in our corpus.
+
+## FAQs
+
+No frequently asked questions have been compiled for this page yet.
 
 <!-- BEGIN: hmi-page-references -->
 ## References

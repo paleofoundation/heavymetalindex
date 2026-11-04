@@ -138,6 +138,10 @@ The 2020 Nigeria note reports cereal-based infant formula (C1 to C7, n = 7). The
 
 <!-- END: hmi-cited-measurements -->
 
+## Mitigation
+
+No mitigation evidence yet in our corpus.
+
 ## Cereal-based infant formula, early-life arsenic, and methylmercury demethylation
 
 Cereal-containing formula is an early-life exposure matrix. Suppliers and contract laboratories should keep formula metal specifications separate from infant stool microbiome data. The human arsenic evidence below is urinary total arsenic at 6 weeks, including a formula-fed stratum. It is not an assay of a named cereal-formula powder. Aluminum and mercury are covered only by the hair biomarker study and by the methylmercury demethylation work.
@@ -162,6 +166,14 @@ Cereal-containing formula is an early-life exposure matrix. Suppliers and contra
 ### What remains uncertain
 
 Hoen and colleagues stratified feeding as breast milk, mixed feeding, or formula. They did not identify cereal-based formula as its own row. Coryell and colleagues used inorganic arsenate in mice. Coe and colleagues studied methylmercury demethylation, which does not answer total mercury in a formula powder. Hair aluminum in Xiong and colleagues is not separated from manganese.
+
+## Review
+
+No evidence review yet in our corpus.
+
+## FAQs
+
+No frequently asked questions have been compiled for this page yet.
 
 <!-- BEGIN: hmi-page-references -->
 ## References

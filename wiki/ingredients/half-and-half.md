@@ -248,6 +248,10 @@ Half and half is packaged in plastic or paper-based cartons; Sn migration from t
 
 The EU sets a maximum level of 0.020 mg/kg (20 ppb) for Pb in raw milk, heat-treated milk, and milk for the manufacture of dairy-based products, applied on the wet-weight basis [[regulations/eu2023-contaminants-maximum-levels]]. Cream and half and half are governed under the same general dairy framework. No specific EU maximum level for Cd in milk or cream as a distinct matrix is set; dairy products generally fall below the Cd limits that apply to other food categories. The United States does not set statutory maximum levels for Pb or Cd in milk or dairy cream products in Federal regulation, though FDA's Total Diet Study provides ongoing surveillance. Codex Alimentarius general standards address Pb in milk at 0.020 mg/kg, consistent with the EU position [[regulations/codex-cadmium-mls]].
 
+## Details
+
+No further detail has been compiled from the corpus yet.
+
 <!-- BEGIN: hmi-profile-evidence-correction -->
 ## Interpretation of source evidence
 
@@ -267,6 +271,10 @@ Source observations and population estimates are different. A non-detect supplie
 
 **U.** FDA source observations are non-detects at the reporting limits below. They do not estimate a zero population concentration; other literature remains separate context.
 <!-- END: hmi-profile-evidence-correction -->
+
+## FAQs
+
+No frequently asked questions have been compiled for this page yet.
 
 <!-- BEGIN: hmi-page-references -->
 ## References

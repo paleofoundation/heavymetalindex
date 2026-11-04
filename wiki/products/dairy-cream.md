@@ -51,6 +51,10 @@ Pankiewicz measured total mercury in dairy products from Poland on a wet-product
 
 <!-- END: hmi-cited-measurements -->
 
+## Mitigation
+
+No mitigation evidence yet in our corpus.
+
 ## Cream and a review that did not test cream
 
 Cream is a milk fat. The gut record cited below is a review of toxic metals and gut microbiota. That review screened other papers. It did not feed cream, and it does not print a cream metal concentration.
@@ -66,6 +70,14 @@ Cream is a milk fat. The gut record cited below is a review of toxic metals and 
 ### What remains uncertain
 
 The review does not assign a new sample size to its metal summaries and does not name cream. No stool study of cream is cited here.
+
+## Review
+
+No evidence review yet in our corpus.
+
+## FAQs
+
+No frequently asked questions have been compiled for this page yet.
 
 ## Sources
 

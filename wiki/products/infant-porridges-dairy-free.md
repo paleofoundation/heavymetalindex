@@ -51,6 +51,10 @@ Noh and colleagues report porridge for baby, n=14, in µg/kg wet weight on the a
 
 <!-- END: hmi-cited-measurements -->
 
+## Mitigation
+
+No mitigation evidence yet in our corpus.
+
 ## Dairy-free infant porridge and arsenic studies
 
 Dairy-free infant porridge is a cereal feed. The arsenic studies below are urinary total arsenic, larval zebrafish water, inorganic arsenate in mice, and mouse drinking water. None of them is a porridge feeding trial, and none of them reports inorganic arsenic in a porridge lot.
@@ -72,6 +76,14 @@ Dairy-free infant porridge is a cereal feed. The arsenic studies below are urina
 ### What remains uncertain
 
 Hoen and colleagues stratified infants by breast milk and formula, not by porridge. The Lu abstract record does not name arsenic species. Coryell and colleagues dosed inorganic arsenate. Dahan and colleagues did not use a human gut. No study cited here sequenced stool after this porridge.
+
+## Review
+
+No evidence review yet in our corpus.
+
+## FAQs
+
+No frequently asked questions have been compiled for this page yet.
 
 <!-- BEGIN: hmi-page-references -->
 ## References

@@ -138,6 +138,10 @@ The 2014 Iasi note reports salami (n = 12) in mg/kg wet weight. The note states 
 
 <!-- END: hmi-cited-measurements -->
 
+## Mitigation
+
+No mitigation evidence yet in our corpus.
+
 ## Salami fermentation and gut studies of lead, cadmium, zinc, and copper
 
 Salami is a fermented cured meat. The starter cultures and the ripening microbiota belong to the product. They are not the infant gut, the mouse cecum, or an occupational yogurt trial. The studies below match lead, cadmium, zinc, and copper in those other models.
@@ -168,6 +172,14 @@ Salami is a fermented cured meat. The starter cultures and the ripening microbio
 ### What remains uncertain
 
 No study cited here fed salami or sequenced stool after cured meat. A plate count on a salami lot is not a gut result, and these gut papers are not fermentation results. Liu and colleagues do not print the cadmium dose. Zinc diets are experimental. The copper trial is occupational.
+
+## Review
+
+No evidence review yet in our corpus.
+
+## FAQs
+
+No frequently asked questions have been compiled for this page yet.
 
 <!-- BEGIN: hmi-page-references -->
 ## References

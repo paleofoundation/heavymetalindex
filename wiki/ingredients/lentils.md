@@ -217,6 +217,10 @@ FDA measured the prepared foods named below. Each row describes that food and pr
 | 546: Lentils, dry, cooked | U | 1 | 0 | ND in all composites | 1 |
 <!-- END: hmi-fda-tds-occurrence -->
 
+## Details
+
+No further detail has been compiled from the corpus yet.
+
 <!-- BEGIN: hmi-profile-evidence-correction -->
 ## Interpretation of source evidence
 
@@ -226,6 +230,10 @@ Source observations and population estimates are different. A non-detect supplie
 
 Other previously cited literature is retained as context; it does not establish the withdrawn numerical profile: [[sources/uthayarajan2025-cdku-food-water-sri-lanka-review]], [[sources/codex-cxs-193-1995]].
 <!-- END: hmi-profile-evidence-correction -->
+
+## FAQs
+
+No frequently asked questions have been compiled for this page yet.
 
 <!-- BEGIN: hmi-page-references -->
 ## References

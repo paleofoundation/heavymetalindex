@@ -138,6 +138,10 @@ The 2024 soybean-species note reports black beans as Vigna mungo, sold among soy
 
 <!-- END: hmi-cited-measurements -->
 
+## Mitigation
+
+No mitigation evidence yet in our corpus.
+
 ## Black beans and human lead-microbiota cohorts
 
 Lead is the metal the current microbiome sentences on this page were tying to black beans. The human evidence is two birth or childhood cohorts that used tooth lead or maternal blood lead, not cooked beans. A pulse supplier should keep a lead result and a microbiome result as separate lines on a specification.
@@ -156,6 +160,14 @@ Lead is the metal the current microbiome sentences on this page were tying to bl
 ### What remains uncertain
 
 Both cohorts are human and observational. Neither fed black beans, and neither reports a bean lead concentration. Cadmium, which often travels with lead in pulses, is not given a gut finding here. The studies below are lead cohorts.
+
+## Review
+
+No evidence review yet in our corpus.
+
+## FAQs
+
+No frequently asked questions have been compiled for this page yet.
 
 <!-- BEGIN: hmi-page-references -->
 ## References

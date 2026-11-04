@@ -155,6 +155,18 @@ quick_read:
 This page draws on evidence from [[sources/efsa2022-lemna-novel-food|EFSA]]. The complete citation list is at the bottom of the page.
 <!-- END: hmi-opening -->
 
+## Overview
+
+No overview has been written from the corpus yet.
+
+## Contamination
+
+No measured data yet in our corpus.
+
+## Mitigation
+
+No mitigation evidence yet in our corpus.
+
 ## Coverage
 
 The indexed novel-food opinion concerns Lemna minor and Lemna gibba whole plant material.
@@ -171,3 +183,29 @@ This is a provisional evidence destination. A dedicated synthesis has not been c
 
 <!-- BEGIN: source-legend -->
 <!-- END: source-legend -->
+
+## Review
+
+No evidence review yet in our corpus.
+
+## FAQs
+
+No frequently asked questions have been compiled for this page yet.
+
+<!-- BEGIN: hmi-page-references -->
+## References
+
+Works cited in this page's text do not yet have a numbered reference list in this section.
+<!-- END: hmi-page-references -->
+
+<!-- BEGIN: hmi-source-legend -->
+## Sources
+
+No source list has been compiled into this section yet.
+<!-- END: hmi-source-legend -->
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+Version history for this page lives in git.
+<!-- END: hmi-page-history -->

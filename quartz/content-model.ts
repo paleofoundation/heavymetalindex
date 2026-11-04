@@ -1,3 +1,7 @@
+// Plain JavaScript on purpose: the node lint imports this module without a TS loader.
+// @ts-expect-error no declaration file for the rail module; tools/lib/canonical-page-rails.d.ts documents it.
+import { HIDDEN_HEADINGS, universalParents } from "../tools/lib/canonical-page-rails.mjs"
+
 // Single source of truth for the left-sidebar (Snav) information architecture —
 // the "rules about where things belong" borrowed from microbiomemedicine.
 //
@@ -32,6 +36,8 @@ export type TypeModel = {
   parents: ParentRule[]
   hide: RegExp[]
   labelOverrides?: LabelOverride[]
+  // Headings that match no parent are filed here instead of a second "Details" fold.
+  absorbUngroupedInto?: string
 }
 
 // Apparatus reached via the icon utility footer — hidden from every rail.
@@ -70,84 +76,24 @@ export const CONTENT_MODEL: { types: TypeModel[] } = {
         { id: "faq", label: "FAQs", direct: true, children: [{ id: "faq", patterns: [/^(frequently asked questions|faqs?)$/i] }] },
       ],
     },
-    // ----------------------------------------------------------- INGREDIENT
+    // --------------------------------------- INGREDIENT + PRODUCT (nine rails)
+    // Rice is the reference. Every ingredient and product page uses the same
+    // nine labels, in this order: Overview, Contamination, Mitigation, Details,
+    // Review, FAQs, References, Sources, Updates. Role headings stay specific;
+    // tools/lib/canonical-page-rails.mjs maps them onto these parents.
     {
       type: "ingredient",
       slugPrefix: "ingredients/",
-      hide: [...HIDE_BASE, /^completeness scorecard$/i, /^routing$/i, /fda tds/i, /contamination profile state/i, /^page completeness$/i],
-      parents: [
-        {
-          id: "overview",
-          label: "Overview",
-          defaultOpen: true,
-          children: [
-            { id: "why", patterns: [/why .*accumulat/i] },
-            { id: "profile", patterns: [/contamination profile/i, /heavy metal contamination/i] },
-          ],
-        },
-        {
-          id: "contamination",
-          label: "Contamination",
-          children: [
-            { id: "ranges", patterns: [/^ranges by/i] },
-            { id: "processing", patterns: [/processing effects/i] },
-            { id: "derivative", patterns: [/derivative risk/i] },
-          ],
-        },
-        {
-          id: "mitigation",
-          label: "Mitigation",
-          children: [
-            { id: "options", patterns: [/^mitigation/i] },
-            { id: "reglimits", patterns: [/regulatory limits/i] },
-          ],
-        },
-      ],
+      hide: [...HIDE_BASE, ...HIDDEN_HEADINGS],
+      absorbUngroupedInto: "details",
+      parents: universalParents(),
     },
-    // ------------------------------------------------------ PRODUCT-CATEGORY
     {
       type: "product-category",
       slugPrefix: "products/",
-      hide: [...HIDE_BASE, /scaffold status/i, /evidence governance/i],
-      parents: [
-        {
-          id: "overview",
-          label: "Overview",
-          defaultOpen: true,
-          children: [
-            { id: "audience", patterns: [/who this page is for/i] },
-            { id: "scope", patterns: [/literature scope/i] },
-            { id: "method", patterns: [/^methodology$/i] },
-          ],
-        },
-        {
-          id: "evidence",
-          label: "Evidence",
-          children: [
-            // v3 subcategory screen leads Evidence with the ingredient-driver
-            // cards (artifact 1462); the source-backed detail nests under it.
-            { id: "drivers", patterns: [/^ingredient drivers$/i] },
-            { id: "litsummary", patterns: [/literature evidence summary/i] },
-            { id: "inventory", patterns: [/source evidence inventory/i] },
-            { id: "broad", patterns: [/broad product context/i] },
-          ],
-        },
-        {
-          id: "limits",
-          label: "Limits",
-          children: [
-            // v3 "Limits applicable to this category" (artifact 1478) + its
-            // "Testing and verification posture" sub (artifact 1501), then the
-            // legacy field-findings crosswalk and standards-math detail.
-            { id: "applicable", patterns: [/^limits applicable to this category$/i] },
-            { id: "testing", patterns: [/testing and verification posture/i] },
-            { id: "crosswalk", patterns: [/limits vs field findings/i] },
-            { id: "levers", patterns: [/levers to reduce/i] },
-            { id: "math", patterns: [/how standards math/i] },
-          ],
-        },
-        { id: "enforcement", label: "Enforcement", children: [{ id: "recalls", patterns: [/recall/i, /enforcement/i] }] },
-      ],
+      hide: [...HIDE_BASE, ...HIDDEN_HEADINGS],
+      absorbUngroupedInto: "details",
+      parents: universalParents(),
     },
     // ----------------------------------------------- REGULATOR (flat, no nesting)
     {
@@ -210,38 +156,12 @@ export const CONTENT_MODEL: { types: TypeModel[] } = {
 // Resolve the model for a page. Returns undefined when the type is unknown or the
 // slug guard fails — Snav then falls back to its generic heading-derived rail.
 export function modelForType(type: string | undefined, slug: string, contract?: string): TypeModel | undefined {
+  // Ingredient and product rails no longer branch on the contract version.
+  // The argument stays so existing callers do not change shape.
+  void contract
   if (!type) return undefined
   const m = CONTENT_MODEL.types.find((t) => t.type === type)
   if (!m) return undefined
   if (m.slugPrefix && !slug.startsWith(m.slugPrefix)) return undefined
-  if (type === "ingredient" && contract) {
-    return { ...m, parents: [
-      { id: "overview", label: "Overview", defaultOpen: true, children: [
-        { id: "scope", patterns: [/^(?:ingredient|rice) identity and scope$/i] },
-        { id: "summary", patterns: [/^(?:decision summary|rice overview)$/i] },
-      ] },
-      { id: "contamination", label: "Contamination", children: [
-        { id: "profile", patterns: [/^heavy metal contamination profile(?: of rice)?$/i] },
-        { id: "pathways", patterns: [/^sources and contamination pathways$/i] },
-        { id: "variation", patterns: [/^ranges by source/i, /^variation by origin/i] },
-        { id: "processing", patterns: [/^processing effects/i] },
-      ] },
-      { id: "mitigation", label: "Mitigation", children: [
-        { id: "controls", patterns: [/^(?:mitigation options|heavy metal mitigation and remediation for rice)$/i] },
-        { id: "tradeoffs", patterns: [/^trade-offs/i] },
-      ] },
-      { id: "decisions", label: "Details", children: [
-        { id: "testing", patterns: [/^sampling and testing(?: rice for heavy metals)?$/i] },
-        { id: "procurement", patterns: [/^procurement/i] },
-        { id: "product", patterns: [/^finished-product/i] },
-      ] },
-      { id: "assessment", label: "Review", direct: true, children: [
-        { id: "assessment", patterns: [/^(?:requirements, evidence assessment|evidence review, methods and research gaps)/i] },
-      ] },
-      { id: "universal-faqs", label: "FAQs", direct: true, children: [
-        { id: "universal-faqs", patterns: [/^(?:universal|rice(?: and heavy metals?)?) faqs$/i, /^faqs$/i] },
-      ] },
-    ] }
-  }
   return m
 }

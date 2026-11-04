@@ -23,6 +23,18 @@ evidence_scope: navigation-only
 
 # Miso
 
+## Overview
+
+No overview has been written from the corpus yet.
+
+## Contamination
+
+No measured data yet in our corpus.
+
+## Mitigation
+
+No mitigation evidence yet in our corpus.
+
 ## Coverage
 
 The indexed study follows cadmium through soybean processing into miso and soy sauce; intermediate ingredients remain separate.
@@ -40,6 +52,14 @@ This is a provisional evidence destination. A dedicated synthesis has not been c
 <!-- BEGIN: source-legend -->
 <!-- END: source-legend -->
 
+## Review
+
+No evidence review yet in our corpus.
+
+## FAQs
+
+No frequently asked questions have been compiled for this page yet.
+
 <!-- BEGIN: hmi-page-references -->
 ## References
 
@@ -47,6 +67,12 @@ Works cited in this page's text, in first-appearance order. Each title links to 
 
 1. [[sources/shindoh2010-cadmium-soy-sauce-miso-processing|Changes in Cadmium Content when Processing Soybean to Miso and Soy Sauce]]<span class="hmi-ref-meta">Shindoh, Kumiko, Abe, Takashi, and Yasui, Akemi · Report of the National Food Research Institute (Rep. Nat'l Food Res. Inst), No. 74 · 2010 · [scholar.google.com](https://scholar.google.com/scholar?q=Shindoh+Abe+Yasui+2010+Cadmium+Content+Processing+Soybean+Miso+Soy+Sauce)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 <!-- END: hmi-page-references -->
+
+<!-- BEGIN: hmi-source-legend -->
+## Sources
+
+No source list has been compiled into this section yet.
+<!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

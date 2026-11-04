@@ -53,6 +53,10 @@ Solidum reports 36 junk-food samples, in ppm. Lead ranged from 0.0093 ppm to 8.5
 
 <!-- END: hmi-cited-measurements -->
 
+## Mitigation
+
+No mitigation evidence yet in our corpus.
+
 ## Snacks as a class, and gut studies that did not use one snack
 
 This page groups snacks. A class cannot inherit a stool result from a lead cohort or a hexavalent chromium gavage. The studies below are those models plus rat and mouse cadmium. They did not test a snack lot.
@@ -100,6 +104,14 @@ Methodology rules for speciation, basis preservation, non-detect handling, and s
 | [[metals/arsenic-inorganic\|iAs]] | Snacks, General (no contributing evidence loaded) | No concentration data loaded for this analyte | Sample-level detection rate not reported | No applicable cap loaded | 0 | data gap | Basis not reported |
 | [[metals/arsenic-total\|tAs]] | Snacks, General (no contributing evidence loaded) | No concentration data loaded for this analyte | Sample-level detection rate not reported | No applicable cap loaded | 0 | data gap | Basis not reported |
 <!-- END: hmi-hmtc-evidence-summary -->
+
+## Review
+
+No evidence review yet in our corpus.
+
+## FAQs
+
+No frequently asked questions have been compiled for this page yet.
 
 <!-- BEGIN: hmi-page-references -->
 ## References

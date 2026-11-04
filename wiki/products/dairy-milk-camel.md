@@ -59,6 +59,10 @@ Parsaei and colleagues measured 150 camel milk samples among 1100 raw milks from
 
 <!-- END: hmi-cited-measurements -->
 
+## Mitigation
+
+No mitigation evidence yet in our corpus.
+
 ## Microbiome implications
 
 Camel milk is a ruminant milk, not cow milk and not infant formula. The studies below are lead biomarkers, mouse cadmium, infant urinary arsenic, mouse and zebrafish arsenic models, methylmercury demethylation, maternal hair, hexavalent chromium gavage, and occupational nickel. None of them dosed camel milk.
@@ -101,6 +105,14 @@ Yang et al. 2023 [[sources/yang2023-nickel-gut-microbiome-uric-acid]] compared 1
 ### What remains uncertain
 
 No study cited here fed camel milk. Hoen and colleagues stratified human infants by breast milk and formula. Coe and colleagues do not print one demethylated fraction. Hexavalent chromium gavage is not total chromium in milk. Hair aluminum is not separated from manganese. The Lu abstract record does not name arsenic species.
+
+## Review
+
+No evidence review yet in our corpus.
+
+## FAQs
+
+No frequently asked questions have been compiled for this page yet.
 
 <!-- BEGIN: hmi-page-references -->
 ## References

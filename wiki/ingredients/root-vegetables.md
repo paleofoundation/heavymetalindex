@@ -194,6 +194,18 @@ _No quantified data on packaging or storage effects on root vegetable metal cont
 
 In the United States, FDA's Closer to Zero program has established action levels for Pb in processed foods intended for babies and young children under the age of two. For root vegetable purees in baby food, the applicable Pb action level is 0.020 mg/kg (20 ppb) as served, as finalized in the FDA Closer to Zero guidance (see [[regulations/fda-ctz-Pb-rootveg-20ppb]] and [[regulations/fda-closer-to-zero]]). The EU framework under [[regulations/eu2023-contaminants-maximum-levels]] sets Pb at 0.10 mg/kg (100 ppb) and Cd at 0.10 mg/kg (100 ppb) for root vegetables as placed on market (fresh or processed). Codex Alimentarius maximum levels under [[regulations/codex-cxs-193-1995]] establish additional international reference points for Cd and Pb in vegetable matrices. The [[regulations/eu-2023-915-cadmium]] regulation is the current operative EU Cd standard. No specific iAs limit applies to root vegetables in the EU or US at present, consistent with the literature finding that root vegetables are not significant contributors to dietary iAs exposure.
 
+## Details
+
+No further detail has been compiled from the corpus yet.
+
+## Review
+
+No evidence review yet in our corpus.
+
+## FAQs
+
+No frequently asked questions have been compiled for this page yet.
+
 <!-- BEGIN: hmi-page-references -->
 ## References
 

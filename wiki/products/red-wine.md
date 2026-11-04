@@ -138,6 +138,10 @@ The 2021 note reports lead in 59 Serbian red wines, in µg/L. Vojvodina (n = 12)
 
 <!-- END: hmi-cited-measurements -->
 
+## Mitigation
+
+No mitigation evidence yet in our corpus.
+
 ## Red wine fermentation and the lead cohorts
 
 Wine fermentation changes the product's own yeasts and bacteria. That is a different question from how lead reaches an infant tooth or a maternal blood sample. The gut studies cited below are two human lead cohorts. A winery quality file should not treat those cohorts as a fermentation result.
@@ -156,6 +160,14 @@ Wine fermentation changes the product's own yeasts and bacteria. That is a diffe
 ### What remains uncertain
 
 Both cohorts are human and observational. Neither served red wine, and neither reports a wine lead concentration. Cadmium and other metals that can appear on a wine panel are not given gut findings here.
+
+## Review
+
+No evidence review yet in our corpus.
+
+## FAQs
+
+No frequently asked questions have been compiled for this page yet.
 
 <!-- BEGIN: hmi-page-references -->
 ## References

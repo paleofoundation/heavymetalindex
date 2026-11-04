@@ -3,6 +3,11 @@ title: Heavy Metal Index — Change Log
 noindex: true
 ---
 
+## [2026-11-04] content | ingredient and product pages share nine sidebar sections
+
+Pages touched: ingredient and product pages that were missing a sidebar section. Rice and olive oil already had all nine and were not rewritten.
+Notes: The left sidebar now uses one order on every ingredient and product page: Overview, Contamination, Mitigation, Details, Review, FAQs, References, Sources, Updates. Existing headings stay in place and map onto those sections. A missing section is a short statement that the corpus does not have that material yet. No measurement, citation, or supplier record was added. Direction: toward the literature.
+
 ## [2026-11-04] ingest | HMI-METAL-GALLIUM-1 | gallium page rebuilt from the full deposit
 
 Pages touched: [[metals/gallium]], [[sources/shtangeeva2023-gallium-temporal-variability-plants]], [[sources/li2020-china-rural-groundwater-omps-metals]], [[sources/bora2024-romanian-honey-elemental-profiling]], [[sources/trimmel2024-vienna-urban-garden-compost-vegetables]], [[sources/lin2022-plasma-metals-mci-alzheimers]], [[sources/dai2026-kidney-neoplasm-serum-vitamin-d-elements]], [[sources/wu2024-serum-metals-chronic-kidney-disease]], [[sources/torrance2021-marmato-artisanal-gold-mining-water]], [[sources/wang2025-enshi-selenium-mining-soil-microbes]], [[sources/jablonskaczapla2024-biala-przemsza-sediment-tces]]

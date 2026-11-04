@@ -199,6 +199,18 @@ _No quantified data on this lever in the current corpus; section will be expande
 
 The European Union sets maximum levels for metals in fish muscle under [[regulations/eu2023-contaminants-maximum-levels]]: Pb at 0.30 mg/kg (300 ppb) for fish muscle, Cd at 0.050 mg/kg (50 ppb) for most fish and 0.10 mg/kg for certain species, and tHg at 0.50 mg/kg (500 ppb) for most fish species. The tHg limit is a total mercury limit and does not distinguish MeHg; in practice, essentially all Hg in fish muscle is present as MeHg, so total mercury in fish is effectively a methylmercury limit for practical purposes. [[regulations/codex-cadmium-mls]] provides international Codex MLs for Cd in fish. In the US, FDA and EPA joint fish advice for pregnant women and children identifies white fish categories (cod, tilapia, pollock, catfish) as "Best Choices" under their fish advisory, permitting two to three servings per week for pregnant women; this advisory reflects MeHg considerations rather than formal regulatory maxima.
 
+## Details
+
+No further detail has been compiled from the corpus yet.
+
+## Review
+
+No evidence review yet in our corpus.
+
+## FAQs
+
+No frequently asked questions have been compiled for this page yet.
+
 <!-- BEGIN: hmi-page-references -->
 ## References
 

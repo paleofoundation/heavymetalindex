@@ -245,6 +245,10 @@ _No quantified data on this lever in the current corpus; section will be expande
 
 No specific maximum level for Pb, Cd, or other metals applies exclusively to pancake syrup under EU Regulation (EU) 2023/915 [[regulations/eu2023-contaminants-maximum-levels]] or under Codex CXS 193-1995. The product would fall within the broader sugar and sweetener category for regulatory classification. No US federal maximum level specifically addresses pancake syrup for metal contaminants. General food safety provisions and HACCP frameworks apply.
 
+## Details
+
+No further detail has been compiled from the corpus yet.
+
 <!-- BEGIN: hmi-profile-evidence-correction -->
 ## Interpretation of source evidence
 
@@ -262,6 +266,10 @@ Source observations and population estimates are different. A non-detect supplie
 
 **Cr.** FDA source observations are non-detects at the reporting limits below. They do not estimate a zero population concentration; other literature remains separate context.
 <!-- END: hmi-profile-evidence-correction -->
+
+## FAQs
+
+No frequently asked questions have been compiled for this page yet.
 
 <!-- BEGIN: hmi-page-references -->
 ## References

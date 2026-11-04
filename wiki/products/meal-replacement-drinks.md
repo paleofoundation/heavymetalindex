@@ -138,6 +138,10 @@ The 2018 to 2019 Canadian Food Inspection Agency note reports a Table 2 row labe
 
 <!-- END: hmi-cited-measurements -->
 
+## Mitigation
+
+No mitigation evidence yet in our corpus.
+
 ## Meal-replacement drinks and gut studies of lead, cadmium, arsenic, and mercury
 
 Meal-replacement drinks are complete-diet products, so a metal panel on the drink is closer to an intake than a spice-level ingredient result. The gut papers are still not drink studies. They cover tooth lead, drinking-water cadmium, drinking-water arsenic, and methylmercury demethylation. A brand should keep the drink's metal panel, the metal species, and any microbiome claim in separate records.
@@ -162,6 +166,14 @@ Meal-replacement drinks are complete-diet products, so a metal panel on the drin
 ### What remains uncertain
 
 None of the studies administered a meal-replacement drink. Arsenic species is unnamed in the Lu abstract record. Mercury evidence is methylmercury, not total mercury in a shake powder. Protein source, fiber, and sweetener systems are not factors in these papers.
+
+## Review
+
+No evidence review yet in our corpus.
+
+## FAQs
+
+No frequently asked questions have been compiled for this page yet.
 
 <!-- BEGIN: hmi-page-references -->
 ## References

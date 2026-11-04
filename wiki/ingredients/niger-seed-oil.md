@@ -137,6 +137,10 @@ The 2016 Ethiopia note reports two industrially processed Ethiopian niger seed o
 
 <!-- END: hmi-cited-measurements -->
 
+## Mitigation
+
+No mitigation evidence yet in our corpus.
+
 ## Niger seed oil and gut studies of iron, zinc, and copper
 
 The metals this section can speak to for niger seed oil are iron, zinc, and copper. The records are a review of iron status, experimental zinc diets, and an occupational trial that lowered blood copper after a probiotic yogurt. An oil mill should treat residual metal chemistry and gut claims as separate. Oil microbiota, if monitored, would be a spoilage or refining question and is not what these papers measured.
@@ -158,6 +162,14 @@ The metals this section can speak to for niger seed oil are iron, zinc, and copp
 ### What remains uncertain
 
 None of the studies used niger seed, Guizotia, or a vegetable oil. The iron review omits sample sizes. Zinc doses are mouse diets. Copper changes were measured in occupationally exposed adults. The section is thin relative to a toxic-metal page because that is what these sources support.
+
+## Review
+
+No evidence review yet in our corpus.
+
+## FAQs
+
+No frequently asked questions have been compiled for this page yet.
 
 <!-- BEGIN: hmi-page-references -->
 ## References

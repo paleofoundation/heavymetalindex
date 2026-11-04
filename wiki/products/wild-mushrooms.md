@@ -62,6 +62,10 @@ Leskova and colleagues report iron 3.7 to 127.4 mg/kg dry weight. The note's max
 
 <!-- END: hmi-cited-measurements -->
 
+## Mitigation
+
+No mitigation evidence yet in our corpus.
+
 ## Microbiome implications
 
 Wild mushrooms can accumulate mercury and other metals. The direction that matches methylmercury is demethylation by gut microbes, with inorganic mercury leaving preferentially in feces. Lead cohorts, mouse cadmium, and occupational nickel did not use a mushroom meal. A forager's metal result and a stool study stay separate.
@@ -89,6 +93,14 @@ Yang et al. 2023 [[sources/yang2023-nickel-gut-microbiome-uric-acid]] compared 1
 ### What remains uncertain
 
 Coe and colleagues do not print one demethylated fraction and did not feed wild mushrooms. Several mushroom notes report total mercury without methylmercury, so those rows are not a methylmercury dose. Liu is not in this set unless cited. Occupational serum nickel is not nickel in a carpophore. No study cited here sequenced stool after wild mushrooms.
+
+## Review
+
+No evidence review yet in our corpus.
+
+## FAQs
+
+No frequently asked questions have been compiled for this page yet.
 
 <!-- BEGIN: hmi-page-references -->
 ## References

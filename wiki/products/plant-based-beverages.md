@@ -23,6 +23,18 @@ evidence_scope: navigation-only
 
 # Plant-based beverages
 
+## Overview
+
+No overview has been written from the corpus yet.
+
+## Contamination
+
+No measured data yet in our corpus.
+
+## Mitigation
+
+No mitigation evidence yet in our corpus.
+
 ## Coverage
 
 Soy, rice, and other plant drinks retain separate formulation records; an umbrella link does not transfer values between them.
@@ -45,6 +57,14 @@ This is a provisional evidence destination. A dedicated synthesis has not been c
 
 <!-- BEGIN: source-legend -->
 <!-- END: source-legend -->
+
+## Review
+
+No evidence review yet in our corpus.
+
+## FAQs
+
+No frequently asked questions have been compiled for this page yet.
 
 <!-- BEGIN: hmi-page-references -->
 ## References

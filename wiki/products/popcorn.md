@@ -138,6 +138,10 @@ The 2017 note reports popcorn from five shops in an Addis Ababa open market, poo
 
 <!-- END: hmi-cited-measurements -->
 
+## Mitigation
+
+No mitigation evidence yet in our corpus.
+
 ## Popcorn and gut studies of lead, hexavalent chromium, iron, zinc, and copper
 
 Popcorn is a popped grain snack. The studies below are infant tooth lead, childhood blood lead, hexavalent chromium gavage, an iron review, experimental zinc diets, and an occupational yogurt trial. Popping oil and seasoning are not factors in these papers. A snack specification should not treat a gavage dose as a popcorn concentration.
@@ -171,6 +175,14 @@ Popcorn is a popped grain snack. The studies below are infant tooth lead, childh
 ### What remains uncertain
 
 No study cited here fed popcorn. Chromium in both gavage studies was a hexavalent salt, which is not total chromium in a popped grain. Iron evidence is a review. Zinc diets are experimental. The yogurt trial enrolled occupationally exposed workers.
+
+## Review
+
+No evidence review yet in our corpus.
+
+## FAQs
+
+No frequently asked questions have been compiled for this page yet.
 
 <!-- BEGIN: hmi-page-references -->
 ## References

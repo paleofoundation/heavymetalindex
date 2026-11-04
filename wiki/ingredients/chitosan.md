@@ -141,6 +141,10 @@ The 2023 note reports residual metals in laboratory chitosan made from crayfish 
 
 <!-- END: hmi-cited-measurements -->
 
+## Mitigation
+
+No mitigation evidence yet in our corpus.
+
 ## Chitosan iron and the iron-microbiota review
 
 The measurement behind this section is residual iron in laboratory chitosan from crayfish shell, not a gut endpoint. The iron and gut microbiota review cited below reports other human studies and does not add a food concentration. A chitosan manufacturer can cite it for the direction of iron status in other human studies. It does not characterize chitosan, shell waste, or oligochitosan.
@@ -156,6 +160,14 @@ The measurement behind this section is residual iron in laboratory chitosan from
 ### What remains uncertain
 
 The review note does not print sample sizes or doses. It does not mention chitosan, chitin, or shellfish processing. Chromium and nickel that appear as comparator limits on the chitosan page were not measured as chitosan concentrations in the source note, and they are not given gut findings here.
+
+## Review
+
+No evidence review yet in our corpus.
+
+## FAQs
+
+No frequently asked questions have been compiled for this page yet.
 
 <!-- BEGIN: hmi-page-references -->
 ## References

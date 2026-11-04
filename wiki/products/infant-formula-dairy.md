@@ -94,6 +94,14 @@ Dairy infant formula is an early diet. The relevant microbiome evidence is infan
 
 Soto-Ocana and colleagues do not print formula concentrations. Hoen and colleagues measured urinary total arsenic and did not split dairy formula from other formula. Dahan and colleagues used larval zebrafish and did not name the arsenic species. Chromium gut studies that use hexavalent salts are omitted.
 
+## Review
+
+No evidence review yet in our corpus.
+
+## FAQs
+
+No frequently asked questions have been compiled for this page yet.
+
 <!-- BEGIN: hmi-page-references -->
 ## References
 

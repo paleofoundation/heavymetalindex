@@ -244,6 +244,10 @@ Packaging does not contribute heavy metals to fluid milk under standard HDPE or 
 
 Under EU Regulation (EC) No 1881/2006 as amended (see [[regulations/eu2023-contaminants-maximum-levels]]), the maximum Pb level for raw milk, heat-treated milk, and milk-based products is 0.020 mg/kg (20 ppb) wet weight. A Cd maximum of 0.020 mg/kg (20 ppb) applies to milk and milk products. The FDA does not publish a specific action level for Pb or Cd in fluid milk; the general tolerance and surveillance framework under 21 CFR applies, and reduced-fat milk is not specifically addressed in the Closer to Zero guidance documents (see [[regulations/fda-closer-to-zero]]) because dairy is not among the high-priority categories for infant and young child Pb exposure identified in the CTZ program.
 
+## Details
+
+No further detail has been compiled from the corpus yet.
+
 <!-- BEGIN: hmi-profile-evidence-correction -->
 ## Interpretation of source evidence
 
@@ -263,6 +267,10 @@ Source observations and population estimates are different. A non-detect supplie
 
 **U.** FDA source observations are non-detects at the reporting limits below. They do not estimate a zero population concentration; other literature remains separate context.
 <!-- END: hmi-profile-evidence-correction -->
+
+## FAQs
+
+No frequently asked questions have been compiled for this page yet.
 
 <!-- BEGIN: hmi-page-references -->
 ## References

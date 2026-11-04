@@ -138,6 +138,10 @@ The 2026 plant-milk note reports one commercial almond beverage from Russian ret
 
 <!-- END: hmi-cited-measurements -->
 
+## Mitigation
+
+No mitigation evidence yet in our corpus.
+
 ## Almond beverage and gut studies of lead, cadmium, zinc, and copper
 
 Retail almond beverage on this page carries measured lead, cadmium, zinc, and copper. A brand or co-packer should keep that lot panel in a different record from any microbiome claim. The studies below change gut microbiota, or use a probiotic to change copper body burden. None of them fed almond beverage.
@@ -162,6 +166,14 @@ Retail almond beverage on this page carries measured lead, cadmium, zinc, and co
 ### What remains uncertain
 
 No study cited here measured stool or product microbiota in almond beverage, or dosed animals with this drink. Tooth lead, drinking-water cadmium, experimental zinc diets, and an occupational yogurt trial do not set a microbiome specification for a plant-milk lot. Arsenic and nickel appear in some almond-beverage panels elsewhere on this page and are not covered by the four studies above.
+
+## Review
+
+No evidence review yet in our corpus.
+
+## FAQs
+
+No frequently asked questions have been compiled for this page yet.
 
 <!-- BEGIN: hmi-page-references -->
 ## References

@@ -242,6 +242,10 @@ Source observations and population estimates are different. A non-detect supplie
 Other previously cited literature is retained as context; it does not establish the withdrawn numerical profile: [[sources/marques2021-trace-elements-milks-plant-based-drinks]].
 <!-- END: hmi-profile-evidence-correction -->
 
+## FAQs
+
+No frequently asked questions have been compiled for this page yet.
+
 <!-- BEGIN: hmi-page-references -->
 ## References
 

@@ -151,6 +151,10 @@ Ibarra 2010 is a thesis. Its hard-candy lead means depend on a non-detect substi
 
 <!-- END: hmi-cited-measurements -->
 
+## Mitigation
+
+No mitigation evidence yet in our corpus.
+
 ## Hard candy and gut studies of lead, nickel, and hexavalent chromium
 
 Hard candy is an oral-contact food. The studies below are an infant tooth-lead cohort, an occupational nickel cohort, and a rat gavage that included nickel chloride and sodium dichromate. A confectioner should keep lead, nickel, and chromium species as chemistry fields. Oral dissolving of candy is not the exposure model in these papers.
@@ -172,6 +176,14 @@ Hard candy is an oral-contact food. The studies below are an infant tooth-lead c
 ### What remains uncertain
 
 The chromium arm is a hexavalent salt, and the gavage doses are not printed. Occupational serum nickel is not nickel in a candy matrix. No study cited here sampled saliva or stool after hard candy.
+
+## Review
+
+No evidence review yet in our corpus.
+
+## FAQs
+
+No frequently asked questions have been compiled for this page yet.
 
 <!-- BEGIN: hmi-page-references -->
 ## References

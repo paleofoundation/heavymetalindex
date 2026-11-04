@@ -166,6 +166,14 @@ Public-record regulatory events material to the seafood category, framed as even
 
 For HMTc-facing material citing the regulatory backdrop, reference the regulation page directly rather than naming a specific brand recall event; brand-by-brand recall enumeration belongs in the private brand-intelligence build, not on this public page.
 
+## Review
+
+No evidence review yet in our corpus.
+
+## FAQs
+
+No frequently asked questions have been compiled for this page yet.
+
 <!-- BEGIN: hmi-page-references -->
 ## References
 

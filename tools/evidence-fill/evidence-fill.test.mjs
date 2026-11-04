@@ -92,6 +92,15 @@ test("baseline rewrite may drop only the filled page", () => {
   assert.ok(baselineScopeErrors(before, "# note\n", "ingredients/cocoa").some((line) => line.includes("unrelated")))
 })
 
+test("the fill prompt requires the nine sidebar rails", () => {
+  const prompt = fs.readFileSync(new URL("./prompt.md", import.meta.url), "utf8")
+  for (const label of ["Overview", "Contamination", "Mitigation", "Details", "Review", "FAQs", "References", "Sources", "Update history"]) {
+    assert.match(prompt, new RegExp(label))
+  }
+  assert.match(prompt, /No measured data yet in our corpus\./)
+  assert.match(prompt, /audit-canonical-rails/)
+})
+
 test("the scheduled workflow carries the Claude fill contract", () => {
   const yml = fs.readFileSync(new URL("../../.github/workflows/claude-evidence-fill.yml", import.meta.url), "utf8")
   assert.match(yml, /cron: "0 5 \* \* \*"/)

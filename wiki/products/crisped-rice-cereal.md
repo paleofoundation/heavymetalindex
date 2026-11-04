@@ -308,6 +308,10 @@ FDA's action level for inorganic arsenic in infant rice cereal is 100 ppb (iAs, 
 
 Under European Union regulations, the maximum level for inorganic arsenic in rice-based products for infants and young children is 0.10 mg/kg (100 ppb) per EU Regulation 2015/1006, and for rice-based beverages intended for infants the limit is also 0.10 mg/kg. For rice-based breakfast cereals for adults and general consumers, the EU ML for iAs is 0.20 mg/kg (200 ppb). The TDS values of 85.8 to 103 ppb are within the general consumer EU limit but approach or exceed the infant-specific EU limit. For cadmium, the EU processed cereal limit is 0.10 mg/kg (100 ppb) for general products and 0.040 mg/kg (40 ppb) for products marketed to infants; the TDS Cd maximum of 39 ppb is within both thresholds.
 
+## Details
+
+No further detail has been compiled from the corpus yet.
+
 <!-- BEGIN: hmi-profile-evidence-correction -->
 ## Interpretation of source evidence
 
@@ -315,6 +319,10 @@ Source observations and population estimates are different. A non-detect supplie
 
 **U.** FDA source observations are non-detects at the reporting limits below. They do not estimate a zero population concentration; other literature remains separate context.
 <!-- END: hmi-profile-evidence-correction -->
+
+## FAQs
+
+No frequently asked questions have been compiled for this page yet.
 
 <!-- BEGIN: hmi-page-references -->
 ## References

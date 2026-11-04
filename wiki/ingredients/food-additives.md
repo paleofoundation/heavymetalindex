@@ -156,6 +156,18 @@ quick_read:
 This page draws on evidence from [[sources/efsa2022-glycerol-e422-heavy-metals|EFSA]]. The complete citation list is at the bottom of the page.
 <!-- END: hmi-opening -->
 
+## Overview
+
+No overview has been written from the corpus yet.
+
+## Contamination
+
+No measured data yet in our corpus.
+
+## Mitigation
+
+No mitigation evidence yet in our corpus.
+
 ## Coverage
 
 The indexed opinions concern particular additives. Impurity specifications are not finished-food concentrations.
@@ -174,6 +186,14 @@ This is a provisional evidence destination. A dedicated synthesis has not been c
 <!-- BEGIN: source-legend -->
 <!-- END: source-legend -->
 
+## Review
+
+No evidence review yet in our corpus.
+
+## FAQs
+
+No frequently asked questions have been compiled for this page yet.
+
 <!-- BEGIN: hmi-page-references -->
 ## References
 
@@ -182,6 +202,12 @@ Works cited in this page's text, in first-appearance order. Each title links to 
 1. [[sources/efsa2022-glycerol-e422-heavy-metals|Follow-up of the re-evaluation of glycerol (E 422) as a food additive]]<span class="hmi-ref-meta">EFSA Panel on Food Additives and Flavourings (FAF), Younes M, Aquilina G, Castle L, Engel K, Fowler P, et al. · EFSA Journal · 2022 · [doi.org/10.2903/j.efsa.2022.7353](https://doi.org/10.2903/j.efsa.2022.7353)</span><span class="hmi-ref-tag">Government</span>
 2. [[sources/efsa2022-polyglycerol-esters-e475-heavy-metals|Follow-up of the re-evaluation of polyglycerol esters of fatty acids (E 475) as a food additive]]<span class="hmi-ref-meta">EFSA Panel on Food Additives and Flavourings (FAF), Younes M, Aquilina G, Castle L, Engel K, Fowler P, et al. · EFSA Journal · 2022 · [doi.org/10.2903/j.efsa.2022.7308](https://doi.org/10.2903/j.efsa.2022.7308)</span><span class="hmi-ref-tag">Government</span>
 <!-- END: hmi-page-references -->
+
+<!-- BEGIN: hmi-source-legend -->
+## Sources
+
+No source list has been compiled into this section yet.
+<!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

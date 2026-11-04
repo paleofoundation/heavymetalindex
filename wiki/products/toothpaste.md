@@ -129,6 +129,20 @@ Cat 2 (children's personal care) regulatory enforcement is fragmented: cosmetics
 - FDA cosmetic talc investigations 2019-2020 (separate from toothpaste but methodologically related)
 - No federal-level toothpaste-specific heavy-metal recalls as of this writing
 
+## Review
+
+No evidence review yet in our corpus.
+
+## FAQs
+
+No frequently asked questions have been compiled for this page yet.
+
+<!-- BEGIN: hmi-page-references -->
+## References
+
+Works cited in this page's text do not yet have a numbered reference list in this section.
+<!-- END: hmi-page-references -->
+
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 

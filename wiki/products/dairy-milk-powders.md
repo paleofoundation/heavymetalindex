@@ -51,6 +51,10 @@ Arellano and colleagues report total arsenic in powdered milk. The detection lim
 
 <!-- END: hmi-cited-measurements -->
 
+## Mitigation
+
+No mitigation evidence yet in our corpus.
+
 ## Milk powder and arsenic studies that did not use a powder lot
 
 Milk powder is a dried dairy ingredient. The gut records below are infant urinary total arsenic and arsenic in larval zebrafish water. Drying and reconstitution are not factors in those papers, and neither paper reports a powder concentration.
@@ -69,6 +73,14 @@ Milk powder is a dried dairy ingredient. The gut records below are infant urinar
 ### What remains uncertain
 
 Urinary arsenic is a biomarker. The zebrafish exposures were 10, 50, and 100 ppb in water, and the note does not state the arsenic species. No study cited here fed milk powder.
+
+## Review
+
+No evidence review yet in our corpus.
+
+## FAQs
+
+No frequently asked questions have been compiled for this page yet.
 
 <!-- BEGIN: hmi-page-references -->
 ## References

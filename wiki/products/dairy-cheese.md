@@ -55,6 +55,10 @@ Arellano and colleagues, total arsenic. Cheese, n=14: mean 20.6 ± 12.3 ng/g, ra
 
 <!-- END: hmi-cited-measurements -->
 
+## Mitigation
+
+No mitigation evidence yet in our corpus.
+
 ## Cheese and gut studies that did not use a cheese lot
 
 Cheese is a fermented dairy food. The ripening microbiota belongs to the product. It is not the infant gut, a mouse cecum, or an occupational yogurt trial. The studies below match metals reported for cheese in those other models, including a hexavalent chromium gavage that is not total chromium in cheese.
@@ -100,6 +104,14 @@ Cheese is a fermented dairy food. The ripening microbiota belongs to the product
 ### What remains uncertain
 
 No study cited here fed cheese and then sequenced the gut. A plate count on a cheese is not a gut result. Dahan and colleagues did not name the arsenic species. Hexavalent chromium gavage is not total chromium in cheese. The mercury review does not speciate cheese mercury. Liu and colleagues do not print the cadmium dose.
+
+## Review
+
+No evidence review yet in our corpus.
+
+## FAQs
+
+No frequently asked questions have been compiled for this page yet.
 
 <!-- BEGIN: hmi-page-references -->
 ## References

@@ -196,6 +196,18 @@ _No quantified data on this lever in the current corpus; section will be expande
 
 The EU Regulation 2023/915 ([[regulations/eu-2023-915-cadmium]]) sets a cadmium maximum level of 0.10 mg/kg for bread, fine bakery wares, biscuits, crackers, and cereal snacks; this limit applies to chapattis as a bread product. The lead maximum for bread and cereal products under EU contaminants regulations ([[regulations/eu2023-contaminants-maximum-levels]]) is 0.20 mg/kg. The Codex general standard CXS 193-1995 ([[regulations/codex-cadmium-mls]]) provides international cadmium maximum levels for cereals; the applicable Codex limit for wheat flour is 0.20 mg/kg. No specific US FDA action level applies to chapattis; the FDA Closer to Zero program ([[regulations/fda-closer-to-zero]]) covers infant and toddler foods. UK Food Standards Agency national legislation, under which the FS102048 survey was conducted, adopts EU-derived limits.
 
+## Details
+
+No further detail has been compiled from the corpus yet.
+
+## Review
+
+No evidence review yet in our corpus.
+
+## FAQs
+
+No frequently asked questions have been compiled for this page yet.
+
 ## Sources
 
 - [[sources/fsa2016-infant-food-formula-metals-survey]]

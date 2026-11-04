@@ -148,6 +148,18 @@ FDA measured the prepared foods named below. Each row describes that food and pr
 | 767: BF, infant formula, milk-based, powdered | U | 2 | 2 | 3.1–4.8 | 1 |
 <!-- END: hmi-fda-tds-occurrence -->
 
+## Details
+
+No further detail has been compiled from the corpus yet.
+
+## Review
+
+No evidence review yet in our corpus.
+
+## FAQs
+
+No frequently asked questions have been compiled for this page yet.
+
 <!-- BEGIN: hmi-page-references -->
 ## References
 

@@ -34,6 +34,14 @@ hero_image_alt: "Dried cannabis flower buds beside a closed unmarked amber jar i
 
 Cannabis is a documented hyperaccumulator: it is used in soil phytoremediation precisely because it concentrates lead, cadmium, and nickel, and any product derived from the flower can carry that load forward, with concentrates and vape oils concentrating it further. Vape hardware adds a second, mechanically distinct route: the heating coil leaches lead, nickel, and chromium into inhaled aerosol. The market is large and has no incumbent third-party heavy-metal trust mark.
 
+## Contamination
+
+No measured data yet in our corpus.
+
+## Mitigation
+
+No mitigation evidence yet in our corpus.
+
 ## Pathway note
 
 This category spans three exposure routes. Flower and vape products are inhaled; edibles and tinctures are ingested; topicals are dermal. Whether vape hardware is treated per-category or under one shared inhalable-hardware treatment alongside any future nicotine-vape category is a reserved decision recorded in [[docs/governance/taxonomy-reorganization-2026-06]] §4.
@@ -45,6 +53,20 @@ CBD and hemp-derived ingestibles route here even when carrying a Supplement Fact
 ## Literature scope
 
 No sources are catalogued for this category yet.
+
+## Review
+
+No evidence review yet in our corpus.
+
+## FAQs
+
+No frequently asked questions have been compiled for this page yet.
+
+<!-- BEGIN: hmi-page-references -->
+## References
+
+No works are cited in this page's text yet.
+<!-- END: hmi-page-references -->
 
 ## Sources
 

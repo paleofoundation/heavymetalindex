@@ -136,6 +136,10 @@ The 2011 note reports one ice cream sample at 0.147 mg/kg lead, wet weight. The 
 
 <!-- END: hmi-cited-measurements -->
 
+## Mitigation
+
+No mitigation evidence yet in our corpus.
+
 ## Ice cream and gut studies of lead, arsenic, aluminum, and antimony
 
 Ice cream measurements relevant here are lead, total arsenic, aluminum, and antimony. The matching records are a tooth-lead cohort, a mouse drinking-water arsenic study, a prenatal hair study, and a mouse antimony gavage at a dose the source page calls far above dietary. A dairy should not file any of them as an ice-cream microbiome result. Freezer culture and overrun are product attributes, not gut endpoints.
@@ -160,6 +164,14 @@ Ice cream measurements relevant here are lead, total arsenic, aluminum, and anti
 ### What remains uncertain
 
 Antimony at 10 mg/kg by gavage is not an ice-cream concentration, and the paper's alpha-diversity statements conflict internally. Aluminum in hair is not separated from manganese. Arsenic species is not named in the Lu abstract record. No study cited here fed ice cream.
+
+## Review
+
+No evidence review yet in our corpus.
+
+## FAQs
+
+No frequently asked questions have been compiled for this page yet.
 
 <!-- BEGIN: hmi-page-references -->
 ## References

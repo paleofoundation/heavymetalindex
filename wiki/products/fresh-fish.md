@@ -163,6 +163,14 @@ Public-record regulatory events material to fresh fish, framed as events not bra
 
 For HMTc-facing material citing regulatory backdrops, reference the regulation page directly rather than naming specific brand recall events. Brand-by-brand recall enumeration belongs in the private brand-intelligence build per Part 26, not on this public page.
 
+## Review
+
+No evidence review yet in our corpus.
+
+## FAQs
+
+No frequently asked questions have been compiled for this page yet.
+
 <!-- BEGIN: hmi-page-references -->
 ## References
 

@@ -66,6 +66,20 @@ This page reports what the peer-reviewed and government literature says about he
 
 No row-specific public recall or enforcement synthesis has been promoted for Tea in this pass. Regulatory references on this page should be read as context unless a source ties an event to this exact product scope and analyte. Future enforcement prose should remain event-framed and should not convert source mentions into brand rankings.
 
+## Review
+
+No evidence review yet in our corpus.
+
+## FAQs
+
+No frequently asked questions have been compiled for this page yet.
+
+<!-- BEGIN: hmi-page-references -->
+## References
+
+Works cited in this page's text do not yet have a numbered reference list in this section.
+<!-- END: hmi-page-references -->
+
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 

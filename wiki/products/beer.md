@@ -150,6 +150,10 @@ The summary copper range is 0.092 to 0.121 mg/L beside Pati Rabha copper 0.190 m
 
 <!-- END: hmi-cited-measurements -->
 
+## Mitigation
+
+No mitigation evidence yet in our corpus.
+
 ## Beer lots and gut studies of the metals measured here
 
 Brewing and fermentation change a product's own microbiota. That is a different question from how lead, cadmium, nickel, chromium, copper, iron, or zinc change the gut. A brewery quality file should not treat a gut paper as a fermentation result, or a plate count as a gut result. The studies below match metals reported for beer on this page, in the models those papers actually used.
@@ -180,6 +184,14 @@ Brewing and fermentation change a product's own microbiota. That is a different 
 ### What remains uncertain
 
 No study cited here gave beer to people or animals and then sequenced the gut. Chromium in the rat gavage was a hexavalent salt, which is not the same species as total chromium on a beer panel. Iron evidence is a review, and the occupational yogurt trial is not a brewing trial.
+
+## Review
+
+No evidence review yet in our corpus.
+
+## FAQs
+
+No frequently asked questions have been compiled for this page yet.
 
 <!-- BEGIN: hmi-page-references -->
 ## References

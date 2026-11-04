@@ -157,6 +157,10 @@ Paul and colleagues excluded the seasoning sachet and dried the noodle cake. Thi
 
 <!-- END: hmi-cited-measurements -->
 
+## Mitigation
+
+No mitigation evidence yet in our corpus.
+
 ## Ramen soup and gut studies of the metals named on this page
 
 Ramen soup is a prepared broth with noodles. The studies below match lead, cadmium, arsenic, mercury, aluminum, chromium, and nickel using biomarkers, drinking water, larval zebrafish, a review, hair, and hexavalent chromium salts. Broth, noodle, and seasoning are not separated in any of those models. A soup specification should keep the laboratory species.
@@ -202,6 +206,14 @@ Ramen soup is a prepared broth with noodles. The studies below match lead, cadmi
 ### What remains uncertain
 
 No study cited here fed ramen soup. Dahan and colleagues did not name the arsenic species. The mercury sentence is a review, not a broth measurement, and it does not speciate the mercury in soup. Hexavalent chromium gavage is not total chromium in broth. The aluminum finding is combined with manganese. Occupational serum nickel is not nickel leached into soup.
+
+## Review
+
+No evidence review yet in our corpus.
+
+## FAQs
+
+No frequently asked questions have been compiled for this page yet.
 
 <!-- BEGIN: hmi-page-references -->
 ## References

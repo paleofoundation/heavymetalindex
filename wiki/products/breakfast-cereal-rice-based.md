@@ -54,6 +54,10 @@ Food Standards Australia New Zealand, in the 25th Australian Total Diet Study, r
 
 <!-- END: hmi-cited-measurements -->
 
+## Mitigation
+
+No mitigation evidence yet in our corpus.
+
 ## Rice breakfast cereal and arsenic studies that did not test the box
 
 Rice breakfast cereal can carry arsenic from the grain. The gut records below are infant urinary total arsenic and arsenic in larval zebrafish water. Neither record is a stool result after this cereal, and neither names inorganic arsenic versus other species in a puffed or flaked rice lot.
@@ -94,6 +98,14 @@ Methodology rules for speciation, basis preservation, non-detect handling, and s
 | [[metals/arsenic-total\|tAs]] | rice-based (no contributing evidence loaded) | No concentration data loaded for this analyte | Sample-level detection rate not reported | No applicable cap loaded | 0 | data gap | Basis not reported |
 | [[metals/cadmium\|Cd]] | rice-based (no contributing evidence loaded) | No concentration data loaded for this analyte | Sample-level detection rate not reported | No applicable cap loaded | 0 | data gap | Basis not reported |
 <!-- END: hmi-hmtc-evidence-summary -->
+
+## Review
+
+No evidence review yet in our corpus.
+
+## FAQs
+
+No frequently asked questions have been compiled for this page yet.
 
 <!-- BEGIN: hmi-page-references -->
 ## References

@@ -19,6 +19,14 @@ hero_image_alt: "An unmarked bottle, a glass of amber beer, a tea cup, orange ju
 
 This page is the wiki hub for the locked Category 5 Step 0 beverage row architecture. It preserves the sixteen locked rows and links each row to its product page, ingredient nodes, and affected metal pages. Downstream ingest may append future amendment rows, but these row numbers and names should not be renumbered or silently collapsed.
 
+## Contamination
+
+No measured data yet in our corpus.
+
+## Mitigation
+
+No mitigation evidence yet in our corpus.
+
 ## Locked Rows
 
 | # | Subcategory | Split From | Variant Type |
@@ -47,6 +55,26 @@ Apple-containing fruit juice routes through [[ingredients/apple]] and [[metals/l
 ## Boundary Rules
 
 Drinking water and mineral water route to the water category, not this beverage category. Tea or coffee with a Supplement Facts panel routes to dietary supplements. Plant-based infant formula routes to Category 1. Sparkling water without flavoring routes to water; sparkling water with flavoring routes to [[products/flavored-waters]].
+
+## Review
+
+No evidence review yet in our corpus.
+
+## FAQs
+
+No frequently asked questions have been compiled for this page yet.
+
+<!-- BEGIN: hmi-page-references -->
+## References
+
+No works are cited in this page's text yet.
+<!-- END: hmi-page-references -->
+
+<!-- BEGIN: hmi-source-legend -->
+## Sources
+
+No source list has been compiled into this section yet.
+<!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

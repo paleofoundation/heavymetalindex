@@ -42,6 +42,32 @@ For the question of whether toothpaste contains lead, this oral-care row covers 
 
 No sources are listed for this oral-care row. Toothpaste concentrations filed on the children's toothpaste page are not measurements of this row.
 
+## Contamination
+
+No measured data yet in our corpus.
+
+## Mitigation
+
+No mitigation evidence yet in our corpus.
+
+## Details
+
+No further detail has been compiled from the corpus yet.
+
+## Review
+
+No evidence review yet in our corpus.
+
+## FAQs
+
+No frequently asked questions have been compiled for this page yet.
+
+<!-- BEGIN: hmi-page-references -->
+## References
+
+Works cited in this page's text do not yet have a numbered reference list in this section.
+<!-- END: hmi-page-references -->
+
 ## Sources
 
 <!-- BEGIN: source-legend -->

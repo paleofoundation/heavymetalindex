@@ -156,6 +156,10 @@ Cadmium is ND on all five lemon-lime rows. Mercury is ND on plastic 7up. Data ga
 
 <!-- END: hmi-cited-measurements -->
 
+## Mitigation
+
+No mitigation evidence yet in our corpus.
+
 ## Lemon-lime soft drinks, bottler hygiene, and gut studies of lead and mercury
 
 A soft-drink specification mixes two laboratories: chemistry for metals, and culture for product spoilage or pathogens. Those culture results are not gut microbiome results. One bottler survey in Khartoum did both jobs on carbonated and fruit drinks and found no aerobic bacteria, yeast, mould, Escherichia coli, or Salmonella in the lots it tested, while lead was the metal that exceeded the comparator the authors cite. Gut evidence for lead and for methylmercury is separate and does not use a lemon-lime matrix.
@@ -177,6 +181,14 @@ A soft-drink specification mixes two laboratories: chemistry for metals, and cul
 ### What remains uncertain
 
 Babeker and colleagues did not name a lemon-lime drink, and their cultures are product hygiene. Coe and colleagues studied methylmercury demethylation, not total mercury in a beverage. Sitarik and colleagues used tooth lead. No study cited here sequenced gut microbiota after a lemon-lime drink.
+
+## Review
+
+No evidence review yet in our corpus.
+
+## FAQs
+
+No frequently asked questions have been compiled for this page yet.
 
 <!-- BEGIN: hmi-page-references -->
 ## References

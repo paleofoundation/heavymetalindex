@@ -192,6 +192,18 @@ Glass packaging is the baseline-clean option. Avoid ceramic decanters with unver
 
 The Codex Alimentarius General Standard CXS 193-1995 does not set a balsamic-vinegar-specific maximum. The EU Regulation 2023/915 applies general food-category limits to balsamic vinegar; the Italian DOP/IGP geographic-indication protocols do not set heavy-metals limits as part of the GI framework. The US FDA has not set a balsamic-specific action level but received the 2021 ESCP petition for action ([[sources/escp2021-pb-as-balsamic-vinegar-fda-letter]]); the petition remains pending and is a current policy-monitoring item. The CFIA 2025 Canadian survey did not identify balsamic-specific exceedances of Canadian limits in the surveyed product set.
 
+## Details
+
+No further detail has been compiled from the corpus yet.
+
+## Review
+
+No evidence review yet in our corpus.
+
+## FAQs
+
+No frequently asked questions have been compiled for this page yet.
+
 <!-- BEGIN: hmi-page-references -->
 ## References
 

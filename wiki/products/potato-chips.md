@@ -356,6 +356,10 @@ Packaging does not contribute to metal contamination in potato chips under stand
 
 No specific maximum level for heavy metals in potato chips as a product category exists under current US or EU frameworks. The applicable EU limits are those for processed cereal-based and starchy snack foods under [[regulations/eu2023-contaminants-maximum-levels]], but potato chips are typically classified under vegetable-derived processed foods. Under current EU Regulation (EC) No 1881/2006 as amended, the applicable Pb limit for processed vegetable products is 0.10 mg/kg (100 ppb) wet weight; a specific Cd limit for processed potato products is 0.050 mg/kg (50 ppb) wet weight under the framework applicable to this matrix. The FDA does not currently publish a specific action level or guidance value for Pb or Cd in potato chips; the general FDA tolerance framework under 21 CFR applies. For broader regulatory context on Closer to Zero Pb reduction goals, see [[regulations/fda-closer-to-zero]].
 
+## Details
+
+No further detail has been compiled from the corpus yet.
+
 <!-- BEGIN: hmi-profile-evidence-correction -->
 ## Interpretation of source evidence
 
@@ -367,6 +371,10 @@ Source observations and population estimates are different. A non-detect supplie
 
 **U.** FDA source observations are non-detects at the reporting limits below. They do not estimate a zero population concentration; other literature remains separate context.
 <!-- END: hmi-profile-evidence-correction -->
+
+## FAQs
+
+No frequently asked questions have been compiled for this page yet.
 
 <!-- BEGIN: hmi-page-references -->
 ## References

@@ -267,6 +267,18 @@ _No quantified data on this lever in the current corpus; section will be expande
 
 EU Regulation 2023/915 ([[regulations/eu-2023-915-cadmium]]) sets cadmium maximum levels for cocoa and chocolate products; these limits apply to the cocoa or chocolate ingredient used in the cake rather than to the finished composite product directly. The general EU contaminants regulation ([[regulations/eu2023-contaminants-maximum-levels]]) applies lead limits to cereal-based products and cocoa products; the applicable limit for the finished cake would be interpreted by applying ingredient-level limits to each contributing fraction. Codex CXS 193-1995 ([[regulations/codex-cadmium-mls]]) provides cadmium limits for cocoa and chocolate. No specific US FDA action level applies to chocolate cake as a finished product; the FDA Closer to Zero program ([[regulations/fda-closer-to-zero]]) covers infant and toddler food categories. The TDS median cadmium of 15 ppb in the finished cake represents a substantially diluted version of the cocoa ingredient's cadmium load, and the finished-product cadmium sits within expected regulatory ranges when assessed against cereal-bakery limits rather than pure-cocoa limits.
 
+## Details
+
+No further detail has been compiled from the corpus yet.
+
+## Review
+
+No evidence review yet in our corpus.
+
+## FAQs
+
+No frequently asked questions have been compiled for this page yet.
+
 <!-- BEGIN: hmi-page-references -->
 ## References
 
