@@ -213,6 +213,21 @@ test("a mapping stores the printed effect and rejects an invented one", () => {
   assert.deepEqual(stored.mapping.ingredients, ["olive-oil", "sunflower-oil"])
   assert.deepEqual(stored.mapping.metals, ["cadmium", "aluminum"])
   assert.equal(stored.mapping.unit_ambiguous, false)
+  const parent = addMapping(map, {
+    doi: "10.1000/wash",
+    title: "Washing olives",
+    year: 2019,
+    ingredients: "sunflower-oil",
+    metals: "lead",
+    intervention: "refining",
+    effect: "cadmium from 8.0 µg/kg dry weight to 3.0 µg/kg dry weight",
+    source: "sources/ada2019-washing-olives",
+    fullText,
+    evidence_scope: "parent-matrix",
+    parent_matrix: "edible oil",
+  })
+  assert.equal(parent.mapping.evidence_scope, "parent-matrix")
+  assert.equal(parent.mapping.display_note, "Evidence from edible oil, not measured in this product.")
   assert.throws(() => addMapping(map, {
     ...stored.mapping,
     doi: "10.1000/invented",

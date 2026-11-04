@@ -133,6 +133,10 @@ export function verifyTree({ root, pages, fulltextDir, status, diff, readBase })
         errors.push(`${pageId}: ambiguous unit does not say the paper does not state the basis`)
       }
       if (section && /data-mitigation-gap/.test(section.body)) errors.push(`${pageId}: gap notice remains after a mapped effect`)
+      if (item.evidence_scope === "parent-matrix") {
+        const note = item.display_note || `Evidence from ${item.parent_matrix}, not measured in this product.`
+        if (!after.includes(note)) errors.push(`${pageId}: parent-matrix row is missing its scope line`)
+      }
     }
   }
   if (changed.includes("wiki/log.md")) {

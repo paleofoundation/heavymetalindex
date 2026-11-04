@@ -99,6 +99,13 @@ export function addMapping(map, input) {
   if (!intervention || intervention.length > 80) throw new Error("intervention is required")
   const source = String(input.source || "").trim()
   if (!/^sources\/[a-z0-9]+(?:-[a-z0-9]+)*$/.test(source)) throw new Error("source must look like sources/<cite-key>")
+  const scope = String(input.evidence_scope || "").trim()
+  if (scope && scope !== "product" && scope !== "parent-matrix") {
+    throw new Error("evidence_scope must be product or parent-matrix")
+  }
+  const parent = String(input.parent_matrix || "").trim()
+  if (scope === "parent-matrix" && !parent) throw new Error("a parent-matrix row needs parent_matrix")
+  if (supplierHit(parent)) throw new Error("supplier or manufacturer term")
   const mapping = {
     ingredients,
     products,
@@ -106,6 +113,11 @@ export function addMapping(map, input) {
     intervention,
     effect_as_printed: effect,
     unit_ambiguous: unitAmbiguous(effect),
+  }
+  if (scope) mapping.evidence_scope = scope
+  if (parent) mapping.parent_matrix = parent
+  if (scope === "parent-matrix") {
+    mapping.display_note = `Evidence from ${parent}, not measured in this product.`
   }
   const paper = map.papers[doi] || {
     doi,
@@ -298,6 +310,8 @@ function main() {
       intervention: one(args, "--intervention"),
       effect: one(args, "--effect"),
       source: one(args, "--source"),
+      evidence_scope: one(args, "--evidence-scope"),
+      parent_matrix: one(args, "--parent-matrix"),
       fullText: effectFile ? fs.readFileSync(effectFile, "utf8") : "",
     })
     writeMap(mapPath, map)

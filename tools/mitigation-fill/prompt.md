@@ -78,7 +78,7 @@ node tools/mitigation-fill/record.mjs add \
   --source sources/surname2020-short-topic
 ```
 
-Repeat `--ingredient` or `--product` for every food the quotation covers. Repeat `--metal` for each metal. The fulltext file name matches the DOI with punctuation turned into underscores.
+Repeat `--ingredient` or `--product` for every food the quotation covers. Repeat `--metal` for each metal. The fulltext file name matches the DOI with punctuation turned into underscores. When the result was measured in a broader food and you are mapping a narrower page, pass `--evidence-scope parent-matrix` and `--parent-matrix` with the broader food name. The tool stores the scope line. Put that same line on the page. A result measured in the page's own food uses `--evidence-scope product` and does not get that line.
 
 5. Cite it on the page:
 
