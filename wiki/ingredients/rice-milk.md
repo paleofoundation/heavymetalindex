@@ -96,7 +96,7 @@ contamination_profile:
     last_reviewed: 2026-11-04
     basis: null
     notes: "Not measured in any deposit paper for rice drink specifically."
-  Cr-VI:
+  Cr:
     status: populated
     typical_ppb: [0.26, 0.26]
     p95_ppb: null
@@ -104,7 +104,16 @@ contamination_profile:
     n_studies: 1
     last_reviewed: 2026-11-04
     basis: wet-weight as-consumed
-    notes: "Total chromium only. US retail: 0.26 +/- 0.05 µg/L (Good et al. 2026, Table 1). Speciation to Cr(VI) not reported for rice drink in any deposit paper."
+    notes: "Total chromium. US retail: 0.26 +/- 0.05 µg/L (Good et al. 2026, Table 1). This is not a hexavalent chromium measurement."
+  Cr-VI:
+    status: not-measured
+    typical_ppb: [null, null]
+    p95_ppb: null
+    confidence: null
+    n_studies: 0
+    last_reviewed: 2026-11-04
+    basis: null
+    notes: "Speciation to hexavalent chromium was not reported for rice drink in any deposit paper. The 0.26 µg/L figure is total chromium."
   Sn:
     status: not-measured
     typical_ppb: [null, null]
