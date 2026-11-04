@@ -198,6 +198,31 @@ test("a food page without a profile is kept by a cited References section", () =
   assert.equal(isLowValuePage(food, "ingredients/an-ingredient", { body, redirectTargets: none }), false)
   assert.equal(isLowValuePage(food, "ingredients/an-ingredient", { body: "## Overview\nText.\n", redirectTargets: none }), true)
 })
+test("an empty References stub does not count a later Sources list as cited evidence", () => {
+  const body = [
+    "## Overview",
+    "",
+    "Text.",
+    "",
+    "<!-- BEGIN: hmi-page-references -->",
+    "## References",
+    "",
+    "No works are cited in this page's text yet.",
+    "<!-- END: hmi-page-references -->",
+    "",
+    "## Sources",
+    "",
+    "[[sources/a-study]]",
+    "",
+  ].join("\n")
+  assert.equal(
+    isLowValuePage({ title: "Master", type: "product-category" }, "products/infant-and-child-foods-master", {
+      body,
+      redirectTargets: none,
+    }),
+    true,
+  )
+})
 test("a food page is kept by engine occurrence rows or grouped form rows", () => {
   assert.equal(isLowValuePage(food, "ingredients/an-ingredient", { body: '<tr data-occurrence-row data-source="x"></tr>', redirectTargets: none }), false)
   assert.equal(isLowValuePage(food, "ingredients/an-ingredient", { body: '<tr class="hmi-form-group"></tr>', redirectTargets: none }), false)

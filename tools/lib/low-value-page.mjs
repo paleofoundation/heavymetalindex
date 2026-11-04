@@ -99,8 +99,15 @@ function hasPromotedSources(frontmatter, body) {
 
 function hasCitedEvidence(body) {
   if (/data-occurrence-row|class="hmi-form-group"/.test(body)) return true
-  const refs = body.search(/^##\s+References\s*$/m)
-  return refs >= 0 && /\[\[sources\/[^\]\s|]+/.test(body.slice(refs))
+  const match = /^##\s+References\s*$/m.exec(body)
+  if (!match) return false
+  // Only the References section counts. A following Sources inventory is not a citation list.
+  const rest = body.slice(match.index + match[0].length)
+  const endMarker = rest.search(/<!--\s*END:\s*hmi-page-references\s*-->/)
+  const nextHeading = rest.search(/\n##\s+/)
+  const cuts = [endMarker, nextHeading].filter((index) => index >= 0)
+  const section = cuts.length ? rest.slice(0, Math.min(...cuts)) : rest
+  return /\[\[sources\/[^\]\s|]+/.test(section)
 }
 
 export function isLowValuePage(frontmatter = {}, slug = "", fileData = {}) {
