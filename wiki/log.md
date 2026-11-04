@@ -8,6 +8,10 @@ noindex: true
 Pages touched: [[products/soups-broths-stocks]], [[sources/nieblacanelo2022-tenerife-instant-soups-al-cd-pb]] (updated)
 Notes: Filled the Step Zero scaffold for soups, broths, and stocks with measurement data from one peer-reviewed study in deposit HMI-FILL-0022. Niebla-Canelo et al. 2022 (Foods, DOI 10.3390/foods11233810) measured aluminum, cadmium, and lead by ICP-OES in 130 dehydrated instant soups (61 poultry, 17 meat, 52 vegetable) purchased in Tenerife, Spain. All concentrations are on a dry-weight basis of the dehydrated powder as sold. Vegetable soups had the highest concentrations for all three metals: aluminum mean 32,280 µg/kg (max 64,690), cadmium mean 27 µg/kg (max 69), lead mean 120 µg/kg (max 850). Dietary intake assessment against EFSA TWI and BMDL values indicates potential relevance of lead nephrotoxic endpoint for children 3 to 10 consuming vegetable soups daily. Inorganic arsenic, mercury, chromium, nickel, and tin remain data gaps. Source page updated to add full Table 3 data, Limitations section, raw_path corrected to deposit location. Direction: toward the literature.
 
+## [2026-11-04] ingest | HMI-FILL-0007: soybean raw material context added to tofu page
+
+Pages touched: [[ingredients/tofu]], [[sources/jaudenes-marrero2024-soybeans-toxic-elements]]
+Notes: Thin unit (one paper). Jaudenes-Marrero et al. 2024 (Nutrients, DOI 10.3390/nu16244290) measures 11 toxic elements in four soybean species (n=90 retail samples, Spain and Italy). The paper does not measure tofu. Yellow soybeans (Glycine max), the primary tofu feedstock, carried lead 60 µg/kg, cadmium 30 µg/kg, aluminum 6310 µg/kg, and nickel 1880 µg/kg wet weight (Table 4). These values are cited as upstream raw material context on the tofu page; contamination profile stays pending pending tofu-specific occurrence studies. Source frontmatter updated to include tofu as a related ingredient. Direction: toward the literature.
 ## [2026-11-04] ingest | HMI-FILL-0006: evidence fill for cod
 
 Pages touched: [[ingredients/cod]], [[sources/witczak2025-imported-fish-elements-poland]] (created)
