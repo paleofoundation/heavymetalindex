@@ -1395,17 +1395,6 @@
       "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
     },
     {
-      "page": "wiki/sources/alkharusi2026-mercury-dried-shark-oman-case-report.md",
-      "cite_key": "alkharusi2026-mercury-dried-shark-oman-case-report",
-      "metadata_complete": false,
-      "ingest_complete": false,
-      "gaps": [
-        "evidence_fitness",
-        "raw_sha256"
-      ],
-      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
-    },
-    {
       "page": "wiki/sources/allsopp2001-greenpeace-hazardous-chemicals-carpets.md",
       "cite_key": "allsopp2001-greenpeace-hazardous-chemicals-carpets",
       "metadata_complete": false,
@@ -11804,16 +11793,6 @@
       "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
     },
     {
-      "page": "wiki/sources/bonglaisin2022-geophagia-benefits-toxicity-review.md",
-      "cite_key": "bonglaisin2022-geophagia-benefits-toxicity-review",
-      "metadata_complete": false,
-      "ingest_complete": false,
-      "gaps": [
-        "evidence_fitness"
-      ],
-      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
-    },
-    {
       "page": "wiki/sources/boostani2025-biochar-bentonite-cadmium-immobilization.md",
       "cite_key": "boostani2025-biochar-bentonite-cadmium-immobilization",
       "metadata_complete": false,
@@ -14677,16 +14656,6 @@
     {
       "page": "wiki/sources/davidsuzuki2014-toxic-household-cleaners.md",
       "cite_key": "davidsuzuki2014-toxic-household-cleaners",
-      "metadata_complete": false,
-      "ingest_complete": false,
-      "gaps": [
-        "evidence_fitness"
-      ],
-      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
-    },
-    {
-      "page": "wiki/sources/davies2023-geophagy-africa-research-gaps.md",
-      "cite_key": "davies2023-geophagy-africa-research-gaps",
       "metadata_complete": false,
       "ingest_complete": false,
       "gaps": [
@@ -33317,7 +33286,8 @@
       "metadata_complete": false,
       "ingest_complete": false,
       "gaps": [
-        "evidence_fitness"
+        "evidence_fitness",
+        "raw_sha256"
       ],
       "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
     },
