@@ -513,7 +513,15 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 > log with `node tools/outstanding/log.mjs` (or the `<!-- OUTSTANDING: {json} -->` sentinel the Stop-hook harvests),
 > and rule on human-gated items with `node tools/outstanding/decide.mjs <id> "APPROVE|DECLINE|DEFER: ..."`.
 
-419 open item(s): 94 auto, 325 awaiting a decision.
+420 open item(s): 94 auto, 326 awaiting a decision.
+
+### OI-20261104-gallium-deposit-remainder — Gallium deposit members beyond the four cited papers are not on the metal page
+
+- scope: **human-gated** · type: finding · status: open · repo: index
+- paths: `wiki/metals/gallium.md`
+- repro: paleofoundation/hmi-evidence-deposits deposit HMI-METAL-GALLIUM-1 is described as 11 papers. This checkout got HTTP 404 for that repo. The page cites KP46 (10.1186/s13046-017-0527-z) plus 10.1289/ehp6483, 10.3390/foods13081253, and 10.3390/toxics11080675 from Europe PMC full text.
+- done when: Every relevant PDF in deposits/HMI-METAL-GALLIUM-1 has a source page and is cited on wiki/metals/gallium.md, or is recorded as out of scope with a locator. Supplier-linked records are not added.
+- decision: _pending_
 
 ### OI-20261016-thin-chunk16-no-honest-fill — Sixteenth cited chunk found no honest non-FDA fill among the remaining baseline ingredients
 

@@ -3,6 +3,11 @@ title: Heavy Metal Index — Change Log
 noindex: true
 ---
 
+## [2026-11-04] ingest | gallium metal page rebuilt from measured water, honey, and plant evidence
+
+Pages touched: [[metals/gallium]], [[sources/li2020-china-rural-groundwater-metals]], [[sources/bora2024-romanian-honey-elemental-profile]], [[sources/shtangeeva2023-gallium-temporal-plants]]
+Notes: The gallium page had cited only the KP46 cell study. It now also cites measured gallium in 166 rural Chinese drinking-water wells (median to maximum 8.5 to 89 µg/L), a non-detect in 61 Romanian honeys, and dry-weight means in wild plants and rhizosphere soil. The private deposit repository was not readable from this checkout, so these three papers were read from Europe PMC full text. No other deposit member could be identified. No certification limit was added. The honey non-detect is not treated as zero. Direction: toward the literature.
+
 ## [2026-11-04] chore | keep the Vercel site build inside the 45-minute cap
 
 Pages touched: none

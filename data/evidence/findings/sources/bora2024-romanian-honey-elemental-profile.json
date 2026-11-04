@@ -1,0 +1,72 @@
+{
+  "source_id": "bora2024-romanian-honey-elemental-profile",
+  "primary_artifact": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11048993/fullTextXML",
+  "primary_sha256": "9ee1b3ead2075b79c84e1bb55658b1bc1d78a375170b6fdd7e4e5da6da2af9f2",
+  "extracted_at": "2026-11-04",
+  "extractor": "europepmc-jats-2026-11-04",
+  "disposition": "occurrence_extracted",
+  "disposition_reason": "Gallium was not detected in any of 61 Romanian honey samples. The printed limit of quantification is 0.04 µ/L in solution while the results column is labeled µg/kg, so no honey concentration in µg/kg is stated. Other elements in the same paper are not extracted in this gallium record.",
+  "disposition_locator": "Results; Table 2 note (LoQ for 70 Ga 0.04 µ/L; gallium unit µg/kg); Methods 2.1",
+  "study": {
+    "design": "multielement survey of honey",
+    "origin": "Romania",
+    "market": "honey from local beekeepers, unpasteurized",
+    "period": {
+      "from": "2018",
+      "to": "2021",
+      "as_reported": "2018 and 2021"
+    },
+    "method": "ICP-MS (Thermo iCAP Q) after microwave digestion of about 0.5 g honey in aqua regia (9 mL HCl and 3 mL HNO3), Milestone START D",
+    "lod": [
+      "LoQ for gallium printed as 0.04 µ/L (Table 2 note). The same note says the gallium unit of measure is µg/kg. No dilution factor is given."
+    ],
+    "basis": "as_sold",
+    "qa": "Digestion in triplicate is described for honey. A gallium certified reference material is not reported in the gallium note.",
+    "site_context": "market"
+  },
+  "findings": [
+    {
+      "id": "bora2024-romanian-honey-elemental-profile:Ga:honey:below-loq",
+      "material": {
+        "label_as_printed": "Honey",
+        "page": "ingredients/honey",
+        "form": "as collected from the production lot",
+        "state": "as_sold",
+        "route_rule": "override:HMI-METAL-GALLIUM-1"
+      },
+      "analyte": "Ga",
+      "group": "61 honey samples from Romania, 2018 and 2021, all floral types pooled by the authors' non-detect statement",
+      "group_kind": "sample",
+      "n": 61,
+      "statistic": "left_censored",
+      "reported": "not detected; LoQ printed as 0.04 µ/L; table unit for gallium stated as µg/kg",
+      "value_ugkg": null,
+      "min_ugkg": null,
+      "max_ugkg": null,
+      "sd_ugkg": null,
+      "unit_original": "µg/kg",
+      "basis": "as_sold",
+      "censoring": "left",
+      "lod_ugkg": null,
+      "locator": "Results; Table 2 note",
+      "integrity_flag": "loq_unit_not_reconciled_to_honey_basis",
+      "notes": "Do not treat the non-detect as zero and do not treat 0.04 µ/L as 0.04 µg/kg. The paper's sample accounting is internally inconsistent (61 samples versus labels H1 to H33; multifloral n of 11 versus 15). The non-detect statement is what the gallium column supports.",
+      "statistic_raw": "not detected"
+    }
+  ],
+  "unresolved": [
+    "Solution LoQ in µ/L is not converted by the paper to a honey concentration in µg/kg."
+  ],
+  "sample_values": [],
+  "controls": [],
+  "extraction_scope": "gallium_results_only",
+  "extraction_owners": [
+    "europepmc-jats-2026-11-04"
+  ],
+  "regulatory_or_exposure": [],
+  "source_record_corrections": [],
+  "source_record": "wiki/sources/bora2024-romanian-honey-elemental-profile.md",
+  "non_numeric_findings": [
+    "Gallium is grouped with elements the authors say were undetectable in all honey samples (Results)."
+  ]
+}

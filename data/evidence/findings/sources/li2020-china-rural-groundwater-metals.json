@@ -1,0 +1,73 @@
+{
+  "source_id": "li2020-china-rural-groundwater-metals",
+  "primary_artifact": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7598030/fullTextXML",
+  "primary_sha256": "a1a5906aa4a1d1cdc744d89d667a6034f462de4991e076eb0380bd5346c204bc",
+  "extracted_at": "2026-11-04",
+  "extractor": "europepmc-jats-2026-11-04",
+  "disposition": "occurrence_extracted",
+  "disposition_reason": "Gallium in 166 rural Chinese drinking-water wells is reported in a median-to-maximum series as 8.5 to 89 µg/L, with detection at more than 90 percent of sites. No reference dose was available, so gallium was omitted from the risk calculation. Other metals and organic micropollutants are not extracted in this gallium record.",
+  "disposition_locator": "Results, metal occurrence paragraph; Methods, Sample Collection and analysis of metals",
+  "study": {
+    "design": "national cross-sectional survey of rural drinking-water wells",
+    "origin": "China",
+    "market": "groundwater used directly as drinking water",
+    "period": {
+      "from": "2016-07",
+      "to": "2017-07",
+      "as_reported": "July 2016, February 2017, and July 2017"
+    },
+    "method": "U.S. EPA Method 200.8, ICP-MS (PerkinElmer NexION 300), nitric acid preserved samples",
+    "lod": [],
+    "basis": "as_consumed",
+    "qa": "A gallium limit of detection and a certified reference material for gallium are not stated in the main text.",
+    "site_context": "field"
+  },
+  "findings": [
+    {
+      "id": "li2020-china-rural-groundwater-metals:Ga:groundwater:median-maximum",
+      "material": {
+        "label_as_printed": "Groundwater",
+        "page": "ingredients/water",
+        "form": "well water used directly as drinking water",
+        "state": "as_consumed",
+        "route_rule": "override:HMI-METAL-GALLIUM-1"
+      },
+      "analyte": "Ga",
+      "group": "166 wells in 166 villages across 28 provinces, municipalities, and autonomous regions of China",
+      "group_kind": "site",
+      "n": 166,
+      "statistic": "range",
+      "reported": "8.5 to 89 µg/L in the paper's median-to-maximum series; detection frequency above 90 percent of sites",
+      "value_ugkg": null,
+      "min_ugkg": null,
+      "max_ugkg": null,
+      "sd_ugkg": null,
+      "unit_original": "µg/L",
+      "basis": "as_consumed",
+      "censoring": "none",
+      "lod_ugkg": null,
+      "locator": "Results, metals detected at more than 90 percent of sites",
+      "integrity_flag": null,
+      "notes": "Read as median 8.5 µg/L and maximum 89 µg/L because the sentence defines the series as median-to-maximum. Water concentrations are not converted to µg/kg. A mean is not printed in the main text.",
+      "statistic_raw": "median-maximum"
+    }
+  ],
+  "unresolved": [
+    "Main text does not print a gallium mean, a per-site table, or a limit of detection."
+  ],
+  "sample_values": [],
+  "controls": [],
+  "extraction_scope": "gallium_results_only",
+  "extraction_owners": [
+    "europepmc-jats-2026-11-04"
+  ],
+  "regulatory_or_exposure": [
+    "No reference dose for gallium could be obtained, so gallium was excluded from the noncarcinogenic risk assessment (Results).",
+    "Gallium is not in the list of metals the authors say exceeded a drinking-water standard of China, WHO, or the United States (Results)."
+  ],
+  "source_record_corrections": [],
+  "source_record": "wiki/sources/li2020-china-rural-groundwater-metals.md",
+  "non_numeric_findings": [
+    "Wells were confirmed to be used directly as drinking water (Methods, Sample Collection)."
+  ]
+}
