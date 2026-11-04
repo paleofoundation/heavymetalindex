@@ -18,7 +18,7 @@ import matter from "gray-matter"
 // the build lifetime (mirrors linkTitles.ts); a source edited mid-`serve` is
 // picked up on restart — acceptable for dev, never affects a prod build.
 
-type Meta = { authors: string; title: string; journal: string; reviewLink: string }
+export type Meta = { authors: string; title: string; journal: string; reviewLink: string }
 let cache: Map<FullSlug, Meta> | null = null
 
 function str(v: unknown): string {
@@ -107,6 +107,11 @@ function buildMap(directory: string, allFiles: FilePath[]): Map<FullSlug, Meta> 
     }
   }
   return map
+}
+
+// Lets late HTML passes (lifted explorer markup) stamp the same card metadata.
+export function sourceCiteMetaFor(slug: string): Meta | undefined {
+  return cache?.get(slug as FullSlug) ?? undefined
 }
 
 export const SourceCiteMeta: QuartzTransformerPlugin = () => {

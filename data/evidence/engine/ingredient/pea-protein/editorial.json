@@ -10,64 +10,36 @@
     "layout": "prose",
     "intro": [
       [
-        "Pea protein here is the powdered protein fraction, not the whole pea and not a blend that only lists pea among other ingredients.",
-        []
+        "Pea protein metal levels depend on the powder form, the measurement basis and the soil where the peas grew.",
+        [
+          "ring2021-ireland-protein-powders-metals",
+          "lopezcalabozo2025-vegetable-protein-concentrates",
+          "galal2021-heavy-metals-pisum-sativum"
+        ]
       ],
       [
-        "Two retail pea powders bought in Ireland in 2016 and 2017 contained 15.4 and 40.6 µg/kg cadmium and 22.2 and 22.5 µg/kg lead, on the powder as sold.",
+        "Two Irish retail pea powders held 15.4 and 40.6 µg/kg cadmium and about 22 µg/kg lead, as sold.",
         [
           "ring2021-ireland-protein-powders-metals"
-        ]
-      ],
-      [
-        "Total mercury in those powders was 4.3 µg/kg and below 0.2 µg/kg, and arsenic was not measured.",
-        [
-          "ring2021-ireland-protein-powders-metals"
-        ]
-      ],
-      [
-        "Two anonymized pea concentrates had nickel at 268.27 and 585.49 µg/kg and total chromium at 78.97 and 114.11 µg/kg, with cadmium and lead not detected under a ppb heading whose footnotes do not restate the unit.",
-        [
-          "lopezcalabozo2025-vegetable-protein-concentrates"
-        ]
-      ],
-      [
-        "The European Union sets 100 µg/kg cadmium for proteins from pulses and 40 µg/kg for other pulses, so the protein row is the one that matches this ingredient.",
-        [
-          "eu-2021-1323-cadmium-foodstuffs-amendment"
         ]
       ]
     ],
     "facets": [
       {
-        "label": "Metals measured",
+        "label": "Metals of concern",
         "sentences": [
           [
-            "Metals measured in the powders are lead, cadmium, total mercury, nickel, total chromium and tin, and the fruit series adds total arsenic.",
-            []
-          ],
-          [
-            "The Irish powders are single retail packages, so each metal is one value per package rather than a mean of many lots.",
+            "Cadmium and lead are the central concerns, and pea concentrates also carry measurable nickel and chromium.",
             [
-              "ring2021-ireland-protein-powders-metals"
-            ]
-          ],
-          [
-            "The concentrates report means and standard deviations from duplicate purchases, not a market distribution.",
-            [
+              "ring2021-ireland-protein-powders-metals",
               "lopezcalabozo2025-vegetable-protein-concentrates"
             ]
           ],
           [
-            "Arsenic and mercury were not part of the concentrate mineral table, so a blank there is an unmeasured cell.",
+            "Arsenic was not measured in the pea powders, so it remains unknown.",
             [
+              "ring2021-ireland-protein-powders-metals",
               "lopezcalabozo2025-vegetable-protein-concentrates"
-            ]
-          ],
-          [
-            "Garden pea fruit from Egypt is a different form in the table, reported on a dry-weight basis after oven drying, and it is not a protein powder.",
-            [
-              "galal2021-heavy-metals-pisum-sativum"
             ]
           ]
         ]
@@ -76,29 +48,13 @@
         "label": "Main drivers",
         "sentences": [
           [
-            "Main drivers are the form, the basis, and whether the sample is a retail powder, a concentrate, or pea fruit from an industrial district.",
-            []
-          ],
-          [
-            "Within one Irish survey, the two pea powders sat above most whey powders for cadmium and below the two mixed plant powders.",
-            [
-              "ring2021-ireland-protein-powders-metals"
-            ]
-          ],
-          [
-            "Lead in those pea powders was about 22 µg/kg, while whey lead in the same study ran from 0.8 to 88.4 µg/kg, so pea was not the high-lead tail.",
-            [
-              "ring2021-ireland-protein-powders-metals"
-            ]
-          ],
-          [
-            "Polluted-site pea fruit in Egypt carried far more cadmium and lead than unpolluted-site fruit from the same study, which shows soil and site can dominate the plant.",
+            "Pea fruit from polluted sites in Egypt carried far more cadmium and lead than fruit from unpolluted sites.",
             [
               "galal2021-heavy-metals-pisum-sativum"
             ]
           ],
           [
-            "Purchase country is not growing origin: the Irish and Spanish samples do not name where the peas were grown.",
+            "The powder studies name where the product was bought, not where the peas were grown.",
             [
               "ring2021-ireland-protein-powders-metals",
               "lopezcalabozo2025-vegetable-protein-concentrates"
@@ -110,29 +66,13 @@
         "label": "Practical framing",
         "sentences": [
           [
-            "Practical framing starts with the limit that matches the legal category of the lot, not with a single number borrowed from whole peas.",
-            []
-          ],
-          [
-            "Proteins from pulses are at 100 µg/kg cadmium in the European table, and pulses other than that protein row are at 40 µg/kg.",
+            "Compare cadmium with the EU maximum of 100 µg/kg for proteins from pulses, not the 40 µg/kg row for pulses.",
             [
               "eu-2021-1323-cadmium-foodstuffs-amendment"
             ]
           ],
           [
-            "A food supplement has a separate cadmium maximum of 1,000 µg/kg as placed on the market, which applies when the product is sold as a supplement.",
-            [
-              "eu-2023-915-contaminants-maximum-levels"
-            ]
-          ],
-          [
-            "Nickel in pulses other than dry beans and lupins is 4,000 µg/kg from 1 July 2025, and that row is the pulse, not a protein-from-pulses row.",
-            [
-              "eu-2024-1987-nickel-maximum-levels"
-            ]
-          ],
-          [
-            "A useful lot report names the form, the basis, the method, and a quantification limit well below the maximum that applies.",
+            "Ask for lot results that name the form, the basis and a quantification limit well below that maximum.",
             []
           ]
         ]
