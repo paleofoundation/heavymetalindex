@@ -3,6 +3,11 @@ title: Heavy Metal Index — Change Log
 noindex: true
 ---
 
+## [2026-11-04] ingest | HMI-METAL-GALLIUM-1 | gallium page rebuilt from the full deposit
+
+Pages touched: [[metals/gallium]], [[sources/shtangeeva2023-gallium-temporal-variability-plants]], [[sources/li2020-china-rural-groundwater-omps-metals]], [[sources/bora2024-romanian-honey-elemental-profiling]], [[sources/trimmel2024-vienna-urban-garden-compost-vegetables]], [[sources/lin2022-plasma-metals-mci-alzheimers]], [[sources/dai2026-kidney-neoplasm-serum-vitamin-d-elements]], [[sources/wu2024-serum-metals-chronic-kidney-disease]], [[sources/torrance2021-marmato-artisanal-gold-mining-water]], [[sources/wang2025-enshi-selenium-mining-soil-microbes]], [[sources/jablonskaczapla2024-biala-przemsza-sediment-tces]]
+Notes: The live gallium page cited only the KP46 cell study. It now cites all 11 papers in deposit HMI-METAL-GALLIUM-1, including measured gallium in rural Chinese groundwater (median 8.5 µg/L, maximum 89 µg/L, n = 166), Romanian honey (not detected, n = 61), Vienna tomato fruit (below quantification), and wild-plant leaves. Serum units in the kidney tumor study are µg/L. No reference dose or food limit is cited. The private deposit was not readable here; numbers were checked against Europe PMC full text on 2026-11-04. Deposit PDF hashes are those recorded from the deposit files. Direction: toward the literature.
+
 ## [2026-11-04] chore | keep the Vercel site build inside the 45-minute cap
 
 Pages touched: none
