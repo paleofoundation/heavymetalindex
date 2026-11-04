@@ -44,6 +44,28 @@ function loadFunctionPaths(vercel) {
   return paths
 }
 
+function loadFunctionRewrites(vercel, repoRoot) {
+  const routes = []
+  for (const entry of vercel.rewrites ?? []) {
+    // Conditional routes and static-file rewrites are not proof that a path is served.
+    if (entry.has || entry.missing || typeof entry.destination !== "string") continue
+    const destination = entry.destination.split(/[?#]/u)[0]
+    if (!/^\/api\/[a-zA-Z0-9/_-]+$/u.test(destination)) continue
+    if (!["mjs", "js", "ts"].some((ext) => fileInside(repoRoot, `${destination.slice(1)}.${ext}`))) continue
+    const segments = String(entry.source).split("/").slice(1)
+    let pattern = "^"
+    let supported = String(entry.source).startsWith("/")
+    for (const [index, segment] of segments.entries()) {
+      if (/^:[a-zA-Z][a-zA-Z0-9_]*$/u.test(segment)) pattern += "/[^/]+"
+      else if (/^:[a-zA-Z][a-zA-Z0-9_]*\*$/u.test(segment) && index === segments.length - 1) pattern += "(?:/.*)?"
+      else if (/^[a-zA-Z0-9._~-]+$/u.test(segment)) pattern += "/" + segment.replace(/[.]/gu, "\\.")
+      else supported = false
+    }
+    if (supported) routes.push(new RegExp(pattern + "$", "u"))
+  }
+  return routes
+}
+
 function loadGonePaths(repoRoot) {
   const gone = JSON.parse(
     fs.readFileSync(path.join(repoRoot, "data/redirects/gone-410.json"), "utf8"),
@@ -111,9 +133,10 @@ function fileInside(publicDir, rel) {
   return fs.existsSync(abs) && fs.statSync(abs).isFile()
 }
 
-export function pathIsServed(publicDir, publicPath, redirectSources, functionPaths = new Set()) {
+export function pathIsServed(publicDir, publicPath, redirectSources, functionPaths = new Set(), functionRewrites = []) {
   const normalized = normalizePublicPath(publicPath)
   if (redirectSources.has(normalized) || functionPaths.has(normalized)) return true
+  if (functionRewrites.some((route) => route.test(normalized))) return true
   const rel = normalized === "/" ? "" : normalized.slice(1)
   const candidates = rel === "" ? ["index.html"] : [`${rel}.html`, `${rel}/index.html`, rel]
   return candidates.some((candidate) => fileInside(publicDir, candidate))
@@ -156,6 +179,7 @@ export function auditDeadInternalHrefs({
   const vercel = loadVercel(repoRoot)
   const redirectSources = loadRedirectSources(vercel)
   const functionPaths = loadFunctionPaths(vercel)
+  const functionRewrites = loadFunctionRewrites(vercel, repoRoot)
   const gonePaths = loadGonePaths(repoRoot)
   const registry = JSON.parse(fs.readFileSync(path.join(repoRoot, "data/redirects/aliases-301.json"), "utf8"))
   const aliasPaths = new Set(Object.keys(registry.linkTargets))
@@ -170,7 +194,7 @@ export function auditDeadInternalHrefs({
       if (!target) continue
       const resolution = canonicalLink(href, pagePath, registry, gonePaths)
       if (resolution) (resolution.kind === "gone" ? gone : alias).push({ page: pagePath, href, target })
-      if (!pathIsServed(publicDir, target, redirectSources, functionPaths)) {
+      if (!pathIsServed(publicDir, target, redirectSources, functionPaths, functionRewrites)) {
         dead.push({ page: pagePath, href, target })
       }
     }

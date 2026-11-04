@@ -66,3 +66,34 @@ test("aliases and gone paths fail even when corresponding HTML exists", () => {
   assert.deepEqual(result.gone.map((item) => item.target), ["/ingredients/human-milk", "/dossiers/unlisted"])
   assert.deepEqual(result.sitemap, ["/ingredients/maize"])
 })
+
+test("explicit function rewrites serve Pro links without hiding missing static pages", () => {
+  const publicDir = fixture({
+    "index.html": '<a href="/account">account</a><a href="/pro">pro</a><a href="/pro/compare/rice-protein">rice</a><a href="/pro/compare/pea-protein">pea</a><a href="/problems">missing</a><a href="/ingredients/does-not-exist">missing</a>',
+    "sitemap.xml": "<urlset></urlset>",
+  })
+  const result = auditDeadInternalHrefs({ publicDir, repoRoot })
+  assert.deepEqual(result.dead.map((item) => item.target), ["/problems", "/ingredients/does-not-exist"])
+})
+
+test("function rewrite matching requires a real handler and respects route boundaries", () => {
+  const root = fixture({
+    "vercel.json": JSON.stringify({ redirects: [], rewrites: [
+      { source: "/single/:item", destination: "/api/page?item=:item" },
+      { source: "/many/:path*", destination: "/api/page" },
+      { source: "/missing-handler", destination: "/api/missing" },
+      { source: "/conditional", destination: "/api/page", has: [{ type: "header", key: "x-test" }] },
+      { source: "/static", destination: "/missing.html" },
+    ] }),
+    "api/page.mjs": "export default function handler() {}",
+    "data/redirects/gone-410.json": JSON.stringify({ paths: [] }),
+    "data/redirects/aliases-301.json": JSON.stringify({ linkTargets: {} }),
+  })
+  const targets = ["/single/rice", "/many", "/many/a/b", "/single", "/single/a/b", "/many-other", "/missing-handler", "/conditional", "/static"]
+  const publicDir = fixture({
+    "index.html": targets.map((target) => `<a href="${target}">link</a>`).join(""),
+    "sitemap.xml": "<urlset></urlset>",
+  })
+  const result = auditDeadInternalHrefs({ publicDir, repoRoot: root })
+  assert.deepEqual(result.dead.map((item) => item.target), targets.slice(3))
+})

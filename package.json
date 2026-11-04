@@ -148,7 +148,9 @@
     "build:rice-release": "node tools/release/build-rice.mjs",
     "pro:reference": "node tools/pro/build-reference.mjs",
     "pro:reference:check": "node tools/pro/build-reference.mjs --check",
-    "test:pro": "node --test tests/pro/*.test.mjs"
+    "test:pro": "node --test tests/pro/*.test.mjs",
+    "test:pro:browser": "node tests/pro/browser-flow.mjs",
+    "pro:preview": "node tests/pro/preview-server.mjs"
   },
   "engines": {
     "npm": ">=10.9.2",

@@ -35,7 +35,7 @@ import askScript from "./scripts/askindex.inline"
 // Set to null to remove it in one edit: the apex is not serving yet (404 as of
 // 2026-07-31, see docs/findings.md F-13), so this must not reach production
 // until the Pro app lands or this is nulled.
-const INDEX_PRO_URL: string | null = "https://pro.contaminantstandards.com"
+const INDEX_PRO_URL: string | null = "/pro"
 
 export interface TopNavOptions {}
 
@@ -97,7 +97,7 @@ export default ((_userOpts?: Partial<TopNavOptions>) => {
               {utilityLinks.map((link) => (
                 <a href={resolveRelative(slug, link.slug as SimpleSlug)}>{link.label}</a>
               ))}
-              <a href={resolveRelative(slug, "login" as SimpleSlug)}>Log in</a>
+              <a href={resolveRelative(slug, "account" as SimpleSlug)}>Log in</a>
               {INDEX_PRO_URL && <a href={INDEX_PRO_URL} rel="noopener">Index Pro</a>}
             </div>
           </nav>
@@ -134,7 +134,7 @@ export default ((_userOpts?: Partial<TopNavOptions>) => {
                 accounts live in the separate application, not the static wiki).
                 v3 line 61: "Log in" is a text link at the same weight as Ask,
                 not an avatar icon. */}
-            <a class="hmi-topnav-login" href={resolveRelative(slug, "login" as SimpleSlug)}>
+            <a class="hmi-topnav-login" href={resolveRelative(slug, "account" as SimpleSlug)}>
               Log in
             </a>
             {/*
