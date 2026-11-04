@@ -30,6 +30,11 @@ jobs:
         run: |
           git fetch --no-tags origin ${{ github.base_ref }}
           node tools/lint/hero-image-placeholders.mjs --changed origin/${{ github.base_ref }}
+      - name: Evidence fill diff gate (supplier data, em or en dashes, placeholder images)
+        if: github.event_name == 'pull_request'
+        run: |
+          git fetch --no-tags origin ${{ github.base_ref }}
+          node tools/evidence-fill/diff-gate.mjs --base origin/${{ github.base_ref }}
 
   # Read-only audits are skipped when VERCEL=1 so the site build stays inside
   # the 45-minute builder cap. This job is the place they still run. The HTML
