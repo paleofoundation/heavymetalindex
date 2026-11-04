@@ -28,7 +28,6 @@ ingredients:
   - "[[ingredients/rice-milk]]"
   - "[[ingredients/fish]]"
   - "[[ingredients/vegetables]]"
-  - "[[ingredients/dates]]"
   - "[[ingredients/honey]]"
   - "[[ingredients/tea]]"
 products: []
