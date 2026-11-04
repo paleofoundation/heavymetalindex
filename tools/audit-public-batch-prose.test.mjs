@@ -8,6 +8,7 @@ import {
   scrubPublicBatchSentences,
 } from "./lib/public-batch-prose.mjs"
 import { isAllowed, isPublishedWikiPage, loadAllowlist } from "./audit-public-batch-prose.mjs"
+import { buildDashboard } from "./build-audit-dashboard.mjs"
 
 const history = `
 <!-- BEGIN: hmi-page-history -->
@@ -69,6 +70,37 @@ test("allowlist matches a file and its children", () => {
 test("published pages pass the batch-prose audit", () => {
   const result = spawnSync("node", ["tools/audit-public-batch-prose.mjs"], { encoding: "utf8" })
   assert.equal(result.status, 0, result.stderr || result.stdout)
+})
+
+test("work-log routing phrases still fail on an ordinary page", () => {
+  const audit = publicBatchProseViolations("Routing audit refreshed after the ingest.\n", "wiki/metals/lead.md")
+  assert.ok(audit.some((hit) => hit.rule === "routing-audit"))
+  const layer = publicBatchProseViolations(
+    "The routing layer fans source-page declarations onto this page.\n",
+    "wiki/products/example.md",
+  )
+  assert.ok(layer.some((hit) => hit.rule === "routing-layer"))
+})
+
+test("generated audit dashboard uses reader labels", () => {
+  const md = buildDashboard({
+    taxonomy: { total: 10, exact: 8, by_alias: 1, by_slug: 1, missing: 1, per_cat: {} },
+    routing: { rows: 12, unresolved: 2, malformed: 1 },
+  })
+  assert.match(md, /## Source catalog/)
+  assert.match(md, /Source pages that name a product are listed on that product page\. 12 source-to-page links are on record\./)
+  assert.match(md, /\| Source routing \(unresolved source routings\) \|/)
+  assert.deepEqual(publicBatchProseViolations(md, "wiki/audits/index.md"), [])
+  const baseline = md.replace("title: Audit dashboard\n", "title: \"Audit dashboard: 2026-11-04\"\n")
+  assert.deepEqual(publicBatchProseViolations(baseline, "wiki/audits/2026-11-04-baseline.md"), [])
+})
+
+test("zinc faq names the analyte set without a batch-log phrase", () => {
+  const zinc = JSON.parse(fs.readFileSync("tools/metal-faq/zinc.json", "utf8"))
+  const answer = zinc.questions.find((q) => q.question.startsWith("Why does a heavy-metals")).answer
+  assert.match(answer, /standard analyte set/)
+  assert.match(answer, /the source routing attaches it to this page/)
+  assert.deepEqual(publicBatchProseViolations(answer, "wiki/metals/zinc.md"), [])
 })
 
 test("quartz does not publish batch reports", () => {
