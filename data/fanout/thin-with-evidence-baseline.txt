@@ -142,7 +142,6 @@ products/toys-battery-electronic
 products/toys-crafts-other
 products/toys-marbles
 products/toys-yo-yo-elastic-tether
-products/traditional-eye-cosmetics
 products/utensils-plastic-silicone-tools
 products/vegetable-beef-soup
 products/vegetable-juices
