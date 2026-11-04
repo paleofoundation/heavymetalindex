@@ -246,6 +246,43 @@ Khan et al. 2022 (Nutrients, arsenic review for the Middle East): rice grain ars
 <!-- END: hmi-cited-measurements -->
 
 <!-- BEGIN: hmi-page-references -->
+## Microbiome implications
+
+Rice milk is a cereal beverage. Arsenic in rice is a real exposure question, but the studies below measured urinary total arsenic, mouse drinking water, inorganic arsenate in experimental water, and methylmercury demethylation. Chromium evidence is a hexavalent gavage. None of these papers used rice milk as the dose.
+
+Eggers et al. 2023 [[sources/eggers2023-prenatal-lead-exposure-gut-microbiome-childhood]], per WikiBiome source summary, DOI 10.3389/fmicb.2023.1193919, followed 123 children in the Mexico City PROGRESS cohort. Maternal blood lead means were 33.6 µg/L in the second trimester and 34.9 µg/L in the third. Stool metagenomes at ages 9 to 11 showed lower Bacteroides caccae with lead exposure. Weighted quantile sum regression gave a negative overall mixture effect (beta = -0.17) in both trimesters. The direction is prenatal lead toward the childhood gut microbiota. The summary does not support a lead concentration in food.
+
+Sitarik et al. 2020 [[sources/sitarik2020-fetal-postnatal-lead-gut-microbiota]] measured tooth lead and stool microbiota at 1 month and 6 months in 146 maternal-child pairs in the Detroit-area WHEALS cohort. In utero tooth lead was associated with fungal community composition at 1 month. Lead was not associated with overall bacterial community structure. Taxon-level bacterial shifts were higher Collinsella at 1 month, higher Bilophila at 6 months, and lower Bacteroides. The direction is lead exposure toward microbiota composition. Tooth lead is a biomarker, not a concentration in this ingredient.
+
+Zhang et al. 2015 [[sources/zhang-2015-cadmium-hepatic-energy-gut-microbiome]], per WikiBiome source summary, DOI 10.1021/acs.chemrestox.5b00237, gave mice 10 mg/L cadmium in drinking water for 10 weeks. Firmicutes and gamma-proteobacteria decreased in feces after 4 weeks, and Firmicutes decreased in cecum contents after 10 weeks. The direction is cadmium toward gut microbiota, alongside hepatic energy-metabolism changes in the same animals. The summary does not name a food.
+
+Hoen et al. 2018 [[sources/hoen2018-infant-arsenic-gut-microbiome]] related urinary total arsenic at 6 weeks to stool microbiota in 204 infants in the New Hampshire Birth Cohort Study. Urinary total arsenic had median 0.4 µg/L and mean 0.63 µg/L. Feeding-stratified means were 0.5 µg/L in exclusively breastfed infants, 0.9 µg/L in mixed-fed infants, and 1.2 µg/L in formula-only infants. Overall composition was marginally associated with natural-log urinary arsenic after adjustment for feeding and urine specific gravity (pseudo-F 1.85, p = 0.05). The clearest association was in formula-fed males (n = 33, pseudo-F 2.30, p = 0.008). Formula-fed females (n = 23) did not show that association. The direction is an early-life arsenic biomarker toward infant gut microbiota. Urinary arsenic is not a concentration in this ingredient.
+
+Lu et al. 2014 [[sources/lu-2014-arsenic-gut-microbiome-metabolomics]], per WikiBiome source summary, DOI 10.1289/ehp.1307429, reported that 10 ppm arsenic in drinking water for 4 weeks perturbed gut microbiome composition in C57BL/6 mice and perturbed gut-microflora-related metabolites. The recorded abstract does not name the arsenic species. The direction is arsenic toward microbiota and metabolites. The summary does not support an arsenic concentration in this ingredient.
+
+Coryell et al. 2018 [[sources/coryell2018-gut-microbiome-arsenic-toxicity-protection]], per WikiBiome source summary, DOI 10.1038/s41467-018-07803-9, found that antibiotic-treated and germ-free mice excreted less inorganic arsenate in stool and accumulated more arsenic in organs than controls. The note states p < 0.0001 at 25 ppm inorganic arsenate and p = 0.025 at 100 ppm for that pattern after cefoperazone. Human stool from five donors protected germ-free mice that lack As3mt, and protection differed by donor. The direction is gut microbiota toward arsenic excretion and acute toxicity. Group sizes are not in the note. The doses are drinking-water experiment doses, not a food concentration.
+
+Coe et al. 2023 [[sources/coe2023-gut-microbiome-methylmercury-demethylation]] paired a human cohort with gnotobiotic mice colonized with human microbiota. Gut microbes demethylated a fraction of ingested methylmercury, and the resulting inorganic mercury was preferentially excreted in feces rather than absorbed. Demethylation efficiency varied between people and was associated with taxa that carry mer operon machinery. The direction is gut microbiota toward methylmercury demethylation and elimination. The source page does not print one numeric fraction and does not give a methylmercury concentration in this ingredient.
+
+Mu et al. 2023 [[sources/mu2023-seaweed-polysaccharide-chromium-gut-microbiome]] gavaged mice with potassium dichromate at 75 mg/kg for 29 days (n = 60 across three groups). Hexavalent chromium lowered Chao1 diversity from 170.75 ± 15.79 to 87.00 ± 9.55 (p = 0.00029) and Shannon diversity from 4.64 ± 0.68 to 2.64 ± 0.64 (p = 0.0055). Escherichia_Shigella rose from 10.71 percent to 57.75 percent. Seaweed polysaccharide at 200 mg/kg partly reversed the shift. The direction is hexavalent chromium toward gut microbiota. The dose is a gavage dose. It is not a total-chromium concentration in food.
+
+### Study table
+
+| Study | Model | Metal and dose | Main finding | Limitation |
+| --- | --- | --- | --- | --- |
+| Eggers et al. 2023 | Human children, ages 9 to 11; n = 123 | Maternal blood lead; means 33.6 and 34.9 µg/L | Lower Bacteroides caccae; mixture beta = -0.17 | Per WikiBiome source summary; not this ingredient |
+| Sitarik et al. 2020 | Human infants; tooth lead and stool; n = 146 | Lead; tooth biomarker, not a food dose | Fungal composition at 1 month shifted; overall bacterial structure did not | Not this ingredient |
+| Zhang et al. 2015 | Mice; drinking water; 10 weeks | Cadmium; 10 mg/L | Lower fecal Firmicutes and gamma-proteobacteria by 4 weeks | Per WikiBiome source summary; not this ingredient |
+| Hoen et al. 2018 | Human infants at 6 weeks; n = 204 | Urinary total arsenic; mean 0.63 µg/L | Composition associated with urinary arsenic; strongest in formula-fed males (n = 33) | Biomarker study; not a lot concentration |
+| Lu et al. 2014 | Mice; drinking water; 4 weeks | Arsenic; 10 ppm; species not named in the recorded abstract | Microbiome composition and related metabolites perturbed | Per WikiBiome source summary; not this ingredient |
+| Coryell et al. 2018 | Mice; germ-free and antibiotic models | Inorganic arsenate; 25 ppm and 100 ppm | Microbiota required for fecal excretion and protection from acute toxicity | Per WikiBiome source summary; not this ingredient |
+| Coe et al. 2023 | Human cohort and gnotobiotic mice | Ingested methylmercury; fraction not printed as one number | Microbiota demethylated methylmercury; inorganic mercury was preferentially fecal | Not a concentration in this ingredient |
+| Mu et al. 2023 | Mice; 29-day gavage; n = 60 | Hexavalent chromium as potassium dichromate; 75 mg/kg | Chao1 and Shannon fell; Escherichia_Shigella rose from 10.71 percent to 57.75 percent | Gavage dose; not total chromium in food |
+
+### What remains uncertain
+
+Hoen and colleagues stratified infants by breast milk and formula, not by rice milk. The Lu abstract record does not name arsenic species. Coryell and colleagues used inorganic arsenate, which is not a rice-milk speciation result. Coe and colleagues do not print one demethylated fraction and did not feed this beverage. The dichromate dose is 75 mg/kg by gavage, not total chromium in rice milk.
+
 ## References
 
 Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to a source record with bibliographic details, reported findings, and document provenance.
