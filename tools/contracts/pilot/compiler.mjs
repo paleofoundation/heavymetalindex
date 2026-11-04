@@ -300,7 +300,10 @@ export function renderContractArticle(s, base, { page, before, entry, fm, record
   if(s.quick_read) {
     const q=s.quick_read;
     if(!q.text || q.facets?.length!==3 || [q,...q.facets].some(p=>!p.source_keys?.length))throw Error('Quick read requires a cited introduction and three cited facets');
-    body += `<section class="hmi-quick-read" id="${escapeHTML(s.slug)}-quick-read" data-hmi-quick-read aria-labelledby="${escapeHTML(s.slug)}-quick-read-label"><div class="hmi-quick-read-label" id="${escapeHTML(s.slug)}-quick-read-label">Quick read</div>\n\n${cited(q)}\n\n<ul>\n${q.facets.map(f=>`<li>\n<strong>${escapeHTML(f.label)}:</strong>\n\n${cited(f)}\n\n</li>`).join('\n')}\n</ul>\n</section>\n\n`;
+    const facetBody = q.layout === 'prose'
+      ? q.facets.map(f => `<p>${cited(f)}</p>`).join('\n\n')
+      : `<ul>\n${q.facets.map(f=>`<li>\n<strong>${escapeHTML(f.label)}:</strong>\n\n${cited(f)}\n\n</li>`).join('\n')}\n</ul>`;
+    body += `<section class="hmi-quick-read" id="${escapeHTML(s.slug)}-quick-read" data-hmi-quick-read aria-labelledby="${escapeHTML(s.slug)}-quick-read-label"><div class="hmi-quick-read-label" id="${escapeHTML(s.slug)}-quick-read-label">Quick read</div>\n\n${cited(q)}\n\n${facetBody}\n</section>\n\n`;
   }
   const currentAnchors = new Set(
     register.families[s.family].sections.map((x) => anchor(x.heading)),
@@ -427,6 +430,7 @@ export function renderContractArticle(s, base, { page, before, entry, fm, record
     body += (s.universal_faqs.aliases || []).map(id=>`<a id="${escapeHTML(id)}"></a>\n`).join('');
     body += `## ${title}\n\n${universalFaqs.join('')}`;
   }
+  if (s.uncertainty?.text) body += `## What remains uncertain\n\n${cited(s.uncertainty)}\n\n`;
   const compact = citationNumbers ? finalizeCompactCitations(body) : null;
   if (compact) body = compact.body;
   body += references(s, base, compact?.orderedIds || null) + "\n\n";

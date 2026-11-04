@@ -1,13 +1,31 @@
 {
   "entries": [
     {
-      "source_id": "eu-2023-915-contaminants-maximum-levels",
+      "source_id": "eu-2021-1323-cadmium-foodstuffs-amendment",
+      "jurisdiction": "EU",
+      "analyte": "Cd",
+      "value": 40,
+      "unit": "µg/kg",
+      "applies_to": "pulses, except proteins from pulses",
+      "basis": "as set for that commodity row"
+    },
+    {
+      "source_id": "eu-2021-1323-cadmium-foodstuffs-amendment",
       "jurisdiction": "EU",
       "analyte": "Cd",
       "value": 100,
       "unit": "µg/kg",
       "applies_to": "proteins from pulses",
       "basis": "as set for that ingredient row"
+    },
+    {
+      "source_id": "eu-2024-1987-nickel-maximum-levels",
+      "jurisdiction": "EU",
+      "analyte": "Ni",
+      "value": 4000,
+      "unit": "µg/kg",
+      "applies_to": "pulses, except dry beans and dry lupins",
+      "basis": "product as placed on the market, from 1 July 2025; not a separate protein row"
     },
     {
       "source_id": "eu-2023-915-contaminants-maximum-levels",

@@ -4,7 +4,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import matter from 'gray-matter';
-import { root, GEMS, FDA, fmt, exists, sourceMeta, analyteWord, capital, listJoin, plural, ANALYTE_ORDER, DECISION_ANALYTES } from './common.mjs';
+import { root, GEMS, FDA, fmt, exists, json, sourceMeta, analyteWord, capital, listJoin, plural, ANALYTE_ORDER, DECISION_ANALYTES } from './common.mjs';
 import { isExternal, rowTarget, scopeOf } from './model.mjs';
 import { SITE_LABELS } from './classify.mjs';
 import { metalStatus, MATCH_LABEL } from './product-match.mjs';
@@ -384,7 +384,50 @@ export function buildSynthesis(evidence, occ, register) {
       facet('Main drivers', site.length ? P(contrastSentence(site[0])) : P([`Form, basis and where the ${F.t} was sampled; reporting limits decide how many results are non-detects.`, anyKeys])),
       facet('Practical framing', F.regulatory.length ? P(limitSentence(F.regulatory[0])) : P([`Ask for lot results with a quantification limit well below the limit that applies in the destination market.`, anyKeys])),
     ] };
-  return { synthesis: s, facts: F, faqBank: { selected_count: fq.list.length, bank: fq.bank } };
+  let faqBank = { selected_count: fq.list.length, bank: fq.bank };
+  const editorial = loadEditorial(family, slug);
+  if (editorial) faqBank = applyEditorial(s, editorial, faqBank);
+  return { synthesis: s, facts: F, faqBank };
+}
+
+// A page may supply authored prose in editorial.json. The file is data, not a
+// food-specific module: sentences are [text, source keys], and P() places citations.
+function loadEditorial(family, slug) {
+  const file = `data/evidence/engine/${family}/${slug}/editorial.json`;
+  return exists(file) ? json(file) : null;
+}
+function sentencesOf(block) {
+  return P(...block.map(([text, keys]) => [text, keys ?? []]));
+}
+function applyEditorial(s, editorial, faqBank) {
+  if (editorial.description) s.description = editorial.description;
+  if (editorial.search_limitations) s.search.limitations = editorial.search_limitations;
+  for (const sec of s.sections) {
+    const blocks = editorial.sections?.[sec.id];
+    if (!blocks?.length) continue;
+    const paragraphs = blocks.map(sentencesOf);
+    sec.presentation = { ...paragraphs[0], narrative: 'overview_and_questions', passages: paragraphs.slice(1) };
+    const cited = paragraphs.flatMap(p => (p.citation_spans ?? []).map(span => [span.after, span.source_keys]));
+    sec.answers = sec.answers.map((answer, i) => {
+      const sentence = cited[i];
+      if (!sentence) return answer;
+      return { ...answer, ...P(sentence), kind: 'evidence', question_id: answer.question_id, presentation: answer.presentation, public_context_section: answer.public_context_section };
+    });
+  }
+  if (editorial.quick_read) {
+    const intro = sentencesOf(editorial.quick_read.intro);
+    s.quick_read = { ...intro, layout: editorial.quick_read.layout || 'prose', facets: editorial.quick_read.facets.map(f => ({ label: f.label, ...sentencesOf(f.sentences) })) };
+  }
+  if (editorial.uncertainty) s.uncertainty = sentencesOf(editorial.uncertainty);
+  if (editorial.faqs?.length) {
+    const summary = s.sections.find(sec => sec.id === 'summary') ?? s.sections[0];
+    const answer = summary.answers[0];
+    answer.passages = (answer.passages ?? []).filter(p => p.placement !== 'universal_faq');
+    for (const faq of editorial.faqs) answer.passages.push({ ...sentencesOf(faq.sentences), question: faq.question, placement: 'universal_faq' });
+    const selected = editorial.faqs.map((faq, i) => ({ id: `ING-FAQ-ED-${i + 1}`, status: 'selected', question: faq.question, answer_locator: faq.question, primary_locator: 'Authored section prose', source_keys: [...new Set(faq.sentences.flatMap(([, keys]) => keys ?? []))] }));
+    faqBank = { selected_count: selected.length, bank: [...selected, ...faqBank.bank.filter(row => row.status !== 'selected')] };
+  }
+  return faqBank;
 }
 
 // Hero key evidence: three short statements pointing at their sections.

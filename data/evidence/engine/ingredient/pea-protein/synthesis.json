@@ -6,7 +6,7 @@
   "display_title": "Pea protein",
   "version": 1,
   "date": "2026-11-03",
-  "description": "Lead, cadmium and total mercury in pea protein: monitoring results, studies, references by form and basis, limits, testing and controls.",
+  "description": "Lead, cadmium, mercury, nickel and chromium in pea protein powders and concentrates, with the separate record for garden pea fruit, applicable European maxima, and what a lot test needs to show.",
   "lede": "",
   "article_lede": false,
   "citation_style": "compact",
@@ -16,17 +16,15 @@
       "id": "summary",
       "answers": [
         {
-          "text": "Pea protein in the HMI library has 18 reported results for lead, cadmium, total mercury, nickel, chromium and tin from 2 sources.",
+          "text": "Two retail pea powders bought online and in Cork, Ireland, in 2016 and 2017 contained 40.6 and 15.4 µg/kg cadmium and 22.2 and 22.5 µg/kg lead, as sold.",
           "source_keys": [
-            "ring2021-ireland-protein-powders-metals",
-            "lopezcalabozo2025-vegetable-protein-concentrates"
+            "ring2021-ireland-protein-powders-metals"
           ],
           "citation_spans": [
             {
-              "after": "Pea protein in the HMI library has 18 reported results for lead, cadmium, total mercury, nickel, chromium and tin from 2 sources.",
+              "after": "Two retail pea powders bought online and in Cork, Ireland, in 2016 and 2017 contained 40.6 and 15.4 µg/kg cadmium and 22.2 and 22.5 µg/kg lead, as sold.",
               "source_keys": [
-                "ring2021-ireland-protein-powders-metals",
-                "lopezcalabozo2025-vegetable-protein-concentrates"
+                "ring2021-ireland-protein-powders-metals"
               ]
             }
           ],
@@ -36,57 +34,389 @@
           "public_context_section": "summary",
           "passages": [
             {
-              "text": "The library reports lead, cadmium, total mercury, nickel, chromium and tin in pea protein, most often lead, cadmium and total mercury.",
+              "text": "Retail pea powders from Ireland were measured for lead, cadmium, total mercury, total chromium, and tin, and not for arsenic. Cadmium in the two pea packages was 40.6 and 15.4 µg/kg, and lead was 22.2 and 22.5 µg/kg, as sold. Pea concentrates from an online market were measured for nickel, total chromium, cadmium, and lead, and not for arsenic or mercury. Nickel means were 585.49 and 268.27 µg/kg and total chromium means were 78.97 and 114.11 µg/kg, with cadmium and lead not detected. A non-detect is not a measured zero when the detection limit's unit is not restated, which is the case for those concentrate footnotes.",
               "source_keys": [
                 "ring2021-ireland-protein-powders-metals",
                 "lopezcalabozo2025-vegetable-protein-concentrates"
               ],
               "citation_spans": [
                 {
-                  "after": "The library reports lead, cadmium, total mercury, nickel, chromium and tin in pea protein, most often lead, cadmium and total mercury.",
+                  "after": "Retail pea powders from Ireland were measured for lead, cadmium, total mercury, total chromium, and tin, and not for arsenic.",
                   "source_keys": [
-                    "ring2021-ireland-protein-powders-metals",
+                    "ring2021-ireland-protein-powders-metals"
+                  ]
+                },
+                {
+                  "after": "Cadmium in the two pea packages was 40.6 and 15.4 µg/kg, and lead was 22.2 and 22.5 µg/kg, as sold.",
+                  "source_keys": [
+                    "ring2021-ireland-protein-powders-metals"
+                  ]
+                },
+                {
+                  "after": "Pea concentrates from an online market were measured for nickel, total chromium, cadmium, and lead, and not for arsenic or mercury.",
+                  "source_keys": [
+                    "lopezcalabozo2025-vegetable-protein-concentrates"
+                  ]
+                },
+                {
+                  "after": "Nickel means were 585.49 and 268.27 µg/kg and total chromium means were 78.97 and 114.11 µg/kg, with cadmium and lead not detected.",
+                  "source_keys": [
+                    "lopezcalabozo2025-vegetable-protein-concentrates"
+                  ]
+                },
+                {
+                  "after": "A non-detect is not a measured zero when the detection limit's unit is not restated, which is the case for those concentrate footnotes.",
+                  "source_keys": [
                     "lopezcalabozo2025-vegetable-protein-concentrates"
                   ]
                 }
               ],
-              "question": "What heavy metals are found in pea protein?",
+              "question": "What heavy metals have been measured in pea protein?",
               "placement": "universal_faq"
             },
             {
-              "text": "The EU sets a maximum of 100 µg/kg cadmium for proteins from pulses (as set for that ingredient row). It sets 1,000 µg/kg cadmium for food supplements (as placed on the market, when the product is sold as a food supplement).",
+              "text": "The plant takes cadmium and lead up from soil, and contaminated dust or waste can add more, which is why site matters. Soil pH, the variety, and the fertilizer program change uptake, according to a review of dietary cadmium by FDA scientists. In South Cairo and Giza, pea fruit beside cement, iron, brick, and fertilizer works held 1,025 mg/kg cadmium and 121 mg/kg lead, dry weight. Fruit from the study's other farms held 2.6 mg/kg cadmium and 8.9 mg/kg lead, dry weight, which is lower than the polluted fruit and still high next to retail powders. Those fruit results explain the crop pathway, and they are not the concentration of a protein isolate.",
               "source_keys": [
-                "eu-2023-915-contaminants-maximum-levels"
+                "schaefer2020-cadmium-mitigation-strategies",
+                "galal2021-heavy-metals-pisum-sativum"
               ],
               "citation_spans": [
                 {
-                  "after": "The EU sets a maximum of 100 µg/kg cadmium for proteins from pulses (as set for that ingredient row).",
+                  "after": "The plant takes cadmium and lead up from soil, and contaminated dust or waste can add more, which is why site matters.",
+                  "source_keys": [
+                    "schaefer2020-cadmium-mitigation-strategies"
+                  ]
+                },
+                {
+                  "after": "Soil pH, the variety, and the fertilizer program change uptake, according to a review of dietary cadmium by FDA scientists.",
+                  "source_keys": [
+                    "schaefer2020-cadmium-mitigation-strategies"
+                  ]
+                },
+                {
+                  "after": "In South Cairo and Giza, pea fruit beside cement, iron, brick, and fertilizer works held 1,025 mg/kg cadmium and 121 mg/kg lead, dry weight.",
+                  "source_keys": [
+                    "galal2021-heavy-metals-pisum-sativum"
+                  ]
+                },
+                {
+                  "after": "Fruit from the study's other farms held 2.6 mg/kg cadmium and 8.9 mg/kg lead, dry weight, which is lower than the polluted fruit and still high next to retail powders.",
+                  "source_keys": [
+                    "galal2021-heavy-metals-pisum-sativum"
+                  ]
+                }
+              ],
+              "question": "How do cadmium and lead get into peas?",
+              "placement": "universal_faq"
+            },
+            {
+              "text": "Protein separation discards starch and fiber and dries the protein fraction, so a metal that follows the protein can be higher per kilogram in the powder than in the seed. No paper in this set measured the same lot as seed and as isolate, so that concentration is not a measured factor here. European law sets cadmium at 40 µg/kg for pulses and at 100 µg/kg for proteins from pulses, which leaves room for a more concentrated ingredient. The Irish pea powders at 15.4 and 40.6 µg/kg cadmium are under the protein row, and two packages do not show how often that happens. Heat does not destroy the elements, so a roasting step is not, by itself, a removal step.",
+              "source_keys": [
+                "eu-2021-1323-cadmium-foodstuffs-amendment",
+                "ring2021-ireland-protein-powders-metals",
+                "schaefer2020-cadmium-mitigation-strategies"
+              ],
+              "citation_spans": [
+                {
+                  "after": "European law sets cadmium at 40 µg/kg for pulses and at 100 µg/kg for proteins from pulses, which leaves room for a more concentrated ingredient.",
+                  "source_keys": [
+                    "eu-2021-1323-cadmium-foodstuffs-amendment"
+                  ]
+                },
+                {
+                  "after": "The Irish pea powders at 15.4 and 40.6 µg/kg cadmium are under the protein row, and two packages do not show how often that happens.",
+                  "source_keys": [
+                    "ring2021-ireland-protein-powders-metals"
+                  ]
+                },
+                {
+                  "after": "Heat does not destroy the elements, so a roasting step is not, by itself, a removal step.",
+                  "source_keys": [
+                    "schaefer2020-cadmium-mitigation-strategies"
+                  ]
+                }
+              ],
+              "question": "Does making an isolate concentrate the metals?",
+              "placement": "universal_faq"
+            },
+            {
+              "text": "None of the powder studies records the country where the peas were grown, so Canada, China, and the European Union cannot be ranked as isolate origins. The Irish powders were bought in Ireland, and the concentrates were bought online for a laboratory in Spain. A Canadian Grain Commission paper on field pea seed reports a mean cadmium of 0.023 mg/kg in its abstract, with arsenic and lead below 0.050 mg/kg. The full article is closed, the sample table was not read, and the material is whole seed rather than isolate. A sourcing preference needs origin on the lot, the same form, and the same basis, and those three are not together in this library.",
+              "source_keys": [
+                "ring2021-ireland-protein-powders-metals",
+                "lopezcalabozo2025-vegetable-protein-concentrates",
+                "gawalko2009-canadian-field-peas-trace-elements"
+              ],
+              "citation_spans": [
+                {
+                  "after": "The Irish powders were bought in Ireland, and the concentrates were bought online for a laboratory in Spain.",
+                  "source_keys": [
+                    "ring2021-ireland-protein-powders-metals",
+                    "lopezcalabozo2025-vegetable-protein-concentrates"
+                  ]
+                },
+                {
+                  "after": "A Canadian Grain Commission paper on field pea seed reports a mean cadmium of 0.023 mg/kg in its abstract, with arsenic and lead below 0.050 mg/kg.",
+                  "source_keys": [
+                    "gawalko2009-canadian-field-peas-trace-elements"
+                  ]
+                },
+                {
+                  "after": "The full article is closed, the sample table was not read, and the material is whole seed rather than isolate.",
+                  "source_keys": [
+                    "gawalko2009-canadian-field-peas-trace-elements"
+                  ]
+                }
+              ],
+              "question": "Are Canadian, Chinese, or European peas lower?",
+              "placement": "universal_faq"
+            },
+            {
+              "text": "In the Irish survey the two pea powders were higher in cadmium than most of the 27 whey powders and lower than the two mixed plant powders. Whey cadmium ran from below 0.61 to 23.2 µg/kg, pea was 15.4 and 40.6, and mixed plant was 45.1 and 58.1. Lead did not follow cadmium: pea was about 22 µg/kg and the highest lead result was 88.4 µg/kg in a whey powder. Among two pea and two rice concentrates, detected lead was in one rice product, and total chromium was higher in both rice products than in either pea product. Two or four products are a comparison inside one study, not a ranking of the world's pea protein against the world's whey.",
+              "source_keys": [
+                "ring2021-ireland-protein-powders-metals",
+                "lopezcalabozo2025-vegetable-protein-concentrates"
+              ],
+              "citation_spans": [
+                {
+                  "after": "In the Irish survey the two pea powders were higher in cadmium than most of the 27 whey powders and lower than the two mixed plant powders.",
+                  "source_keys": [
+                    "ring2021-ireland-protein-powders-metals"
+                  ]
+                },
+                {
+                  "after": "Whey cadmium ran from below 0.61 to 23.2 µg/kg, pea was 15.4 and 40.6, and mixed plant was 45.1 and 58.1.",
+                  "source_keys": [
+                    "ring2021-ireland-protein-powders-metals"
+                  ]
+                },
+                {
+                  "after": "Lead did not follow cadmium: pea was about 22 µg/kg and the highest lead result was 88.4 µg/kg in a whey powder.",
+                  "source_keys": [
+                    "ring2021-ireland-protein-powders-metals"
+                  ]
+                },
+                {
+                  "after": "Among two pea and two rice concentrates, detected lead was in one rice product, and total chromium was higher in both rice products than in either pea product.",
+                  "source_keys": [
+                    "lopezcalabozo2025-vegetable-protein-concentrates"
+                  ]
+                }
+              ],
+              "question": "How do pea powders compare with whey and other plant powders?",
+              "placement": "universal_faq"
+            },
+            {
+              "text": "Proteins from pulses have a European cadmium maximum of 0.10 mg/kg, and other pulses have 0.040 mg/kg. Those rows were set in the 2021 cadmium amendment and are carried in the contaminants regulation now in force. Food supplements have a cadmium maximum of 1.0 mg/kg as placed on the market, except the higher seaweed and bivalve supplement row. Nickel in pulses except dry beans and lupins is 4.0 mg/kg from 1 July 2025, and that row is not written as proteins from pulses. A processed food that is not a listed category uses the regulation's concentration rules rather than a blank cell or an invented number.",
+              "source_keys": [
+                "eu-2021-1323-cadmium-foodstuffs-amendment",
+                "eu-2023-915-contaminants-maximum-levels",
+                "eu-2024-1987-nickel-maximum-levels"
+              ],
+              "citation_spans": [
+                {
+                  "after": "Proteins from pulses have a European cadmium maximum of 0.10 mg/kg, and other pulses have 0.040 mg/kg.",
+                  "source_keys": [
+                    "eu-2021-1323-cadmium-foodstuffs-amendment"
+                  ]
+                },
+                {
+                  "after": "Those rows were set in the 2021 cadmium amendment and are carried in the contaminants regulation now in force.",
+                  "source_keys": [
+                    "eu-2021-1323-cadmium-foodstuffs-amendment",
+                    "eu-2023-915-contaminants-maximum-levels"
+                  ]
+                },
+                {
+                  "after": "Food supplements have a cadmium maximum of 1.0 mg/kg as placed on the market, except the higher seaweed and bivalve supplement row.",
                   "source_keys": [
                     "eu-2023-915-contaminants-maximum-levels"
                   ]
                 },
                 {
-                  "after": "It sets 1,000 µg/kg cadmium for food supplements (as placed on the market, when the product is sold as a food supplement).",
+                  "after": "Nickel in pulses except dry beans and lupins is 4.0 mg/kg from 1 July 2025, and that row is not written as proteins from pulses.",
                   "source_keys": [
-                    "eu-2023-915-contaminants-maximum-levels"
+                    "eu-2024-1987-nickel-maximum-levels"
+                  ]
+                },
+                {
+                  "after": "A processed food that is not a listed category uses the regulation's concentration rules rather than a blank cell or an invented number.",
+                  "source_keys": [
+                    "eu-2024-1987-nickel-maximum-levels"
                   ]
                 }
               ],
-              "question": "Are there legal limits for heavy metals in pea protein?",
+              "question": "What legal limits apply?",
+              "placement": "universal_faq"
+            },
+            {
+              "text": "The report should name the form, such as isolate, concentrate, or blend, and the basis, such as as sold or dry weight. It should list lead, cadmium, total arsenic, inorganic arsenic if rice is in the product, total mercury, and nickel, each with its own result. The quantification limit should sit well below the maximum that applies, for example well below 100 µg/kg where the protein cadmium row applies. The method should be an acid digestion and a mass-spectrometric or equivalent determination, with the lot identity on the same page. A non-detect should show the limit, and a limit whose unit is not stated cannot be used as a food concentration.",
+              "source_keys": [
+                "eu-2021-1323-cadmium-foodstuffs-amendment",
+                "ring2021-ireland-protein-powders-metals"
+              ],
+              "citation_spans": [
+                {
+                  "after": "The quantification limit should sit well below the maximum that applies, for example well below 100 µg/kg where the protein cadmium row applies.",
+                  "source_keys": [
+                    "eu-2021-1323-cadmium-foodstuffs-amendment"
+                  ]
+                },
+                {
+                  "after": "The method should be an acid digestion and a mass-spectrometric or equivalent determination, with the lot identity on the same page.",
+                  "source_keys": [
+                    "ring2021-ireland-protein-powders-metals"
+                  ]
+                }
+              ],
+              "question": "What should a laboratory report include?",
+              "placement": "universal_faq"
+            },
+            {
+              "text": "The paper marks cadmium and lead as not detected in both pea concentrates. The footnotes give limits below 0.015 and below 0.026 and do not restate whether that unit is the digest or the food. A food limit of quantification near 0.02 µg/kg would be unusually low next to the Irish method, which reported cadmium down to below 0.61 µg/kg in a whey powder. Until the unit is clear, the honest statement is that the concentrates did not report a detected cadmium or lead value. It is not a finding that those products sit at a fraction of a microgram per kilogram.",
+              "source_keys": [
+                "lopezcalabozo2025-vegetable-protein-concentrates",
+                "ring2021-ireland-protein-powders-metals"
+              ],
+              "citation_spans": [
+                {
+                  "after": "The paper marks cadmium and lead as not detected in both pea concentrates.",
+                  "source_keys": [
+                    "lopezcalabozo2025-vegetable-protein-concentrates"
+                  ]
+                },
+                {
+                  "after": "The footnotes give limits below 0.015 and below 0.026 and do not restate whether that unit is the digest or the food.",
+                  "source_keys": [
+                    "lopezcalabozo2025-vegetable-protein-concentrates"
+                  ]
+                },
+                {
+                  "after": "A food limit of quantification near 0.02 µg/kg would be unusually low next to the Irish method, which reported cadmium down to below 0.61 µg/kg in a whey powder.",
+                  "source_keys": [
+                    "ring2021-ireland-protein-powders-metals"
+                  ]
+                }
+              ],
+              "question": "Do the concentrate non-detects mean the cadmium is very low?",
+              "placement": "universal_faq"
+            },
+            {
+              "text": "Arsenic was not among the elements in the Irish protein-powder method. The concentrate mineral table that includes nickel, chromium, cadmium, and lead does not include arsenic or mercury. Garden pea fruit in Egypt was measured for total arsenic, at 0.03 mg/kg on unpolluted-site fruit and 0.1 mg/kg on polluted-site fruit, dry weight, without speciation. Boiled frozen peas in the US Total Diet Study were not detected for total arsenic at a reporting limit of 3 µg/kg, which is the vegetable and not the powder. If a product also contains rice, inorganic arsenic has to be asked for separately, because these pea-only tables do not supply it.",
+              "source_keys": [
+                "ring2021-ireland-protein-powders-metals",
+                "lopezcalabozo2025-vegetable-protein-concentrates",
+                "galal2021-heavy-metals-pisum-sativum",
+                "fda2022-tds-elements-fy2018-fy2020"
+              ],
+              "citation_spans": [
+                {
+                  "after": "Arsenic was not among the elements in the Irish protein-powder method.",
+                  "source_keys": [
+                    "ring2021-ireland-protein-powders-metals"
+                  ]
+                },
+                {
+                  "after": "The concentrate mineral table that includes nickel, chromium, cadmium, and lead does not include arsenic or mercury.",
+                  "source_keys": [
+                    "lopezcalabozo2025-vegetable-protein-concentrates"
+                  ]
+                },
+                {
+                  "after": "Garden pea fruit in Egypt was measured for total arsenic, at 0.03 mg/kg on unpolluted-site fruit and 0.1 mg/kg on polluted-site fruit, dry weight, without speciation.",
+                  "source_keys": [
+                    "galal2021-heavy-metals-pisum-sativum"
+                  ]
+                },
+                {
+                  "after": "Boiled frozen peas in the US Total Diet Study were not detected for total arsenic at a reporting limit of 3 µg/kg, which is the vegetable and not the powder.",
+                  "source_keys": [
+                    "fda2022-tds-elements-fy2018-fy2020"
+                  ]
+                }
+              ],
+              "question": "Was arsenic measured?",
+              "placement": "universal_faq"
+            },
+            {
+              "text": "They should change how the crop is understood, and they should not be pasted onto a protein specification. The polluted fruit is evidence that industrial waste near the field can push pea cadmium and lead into the hundreds or thousands of milligrams per kilogram, dry weight. The unpolluted fruit in the same provinces was already 2.6 mg/kg cadmium, dry weight, which is not what the Irish retail powders showed. The table keeps that fruit as its own form so the powder rows stay readable beside it. A buyer of isolate should ask where the crop was grown and for a lot result, and should not treat either Egyptian mean as the expected powder concentration.",
+              "source_keys": [
+                "galal2021-heavy-metals-pisum-sativum",
+                "ring2021-ireland-protein-powders-metals"
+              ],
+              "citation_spans": [
+                {
+                  "after": "The polluted fruit is evidence that industrial waste near the field can push pea cadmium and lead into the hundreds or thousands of milligrams per kilogram, dry weight.",
+                  "source_keys": [
+                    "galal2021-heavy-metals-pisum-sativum"
+                  ]
+                },
+                {
+                  "after": "The unpolluted fruit in the same provinces was already 2.6 mg/kg cadmium, dry weight, which is not what the Irish retail powders showed.",
+                  "source_keys": [
+                    "galal2021-heavy-metals-pisum-sativum",
+                    "ring2021-ireland-protein-powders-metals"
+                  ]
+                }
+              ],
+              "question": "Should the Egyptian pea results change how powders are read?",
+              "placement": "universal_faq"
+            },
+            {
+              "text": "The US Total Diet Study measured frozen green peas after boiling, as the food is eaten. Three composites showed cadmium in two, up to 3.2 µg/kg, with a reporting limit of 1 µg/kg. Lead, total mercury, and total arsenic were not detected, at reporting limits of 4, 1, and 3 µg/kg. Those figures are as consumed and water-rich, so they sit far below a dry protein on a per-kilogram basis for reasons of water as well as process. They belong on the frozen pea record as the vegetable, and they are cited here only to keep the powder from being confused with the vegetable.",
+              "source_keys": [
+                "fda2022-tds-elements-fy2018-fy2020"
+              ],
+              "citation_spans": [
+                {
+                  "after": "The US Total Diet Study measured frozen green peas after boiling, as the food is eaten.",
+                  "source_keys": [
+                    "fda2022-tds-elements-fy2018-fy2020"
+                  ]
+                },
+                {
+                  "after": "Three composites showed cadmium in two, up to 3.2 µg/kg, with a reporting limit of 1 µg/kg.",
+                  "source_keys": [
+                    "fda2022-tds-elements-fy2018-fy2020"
+                  ]
+                },
+                {
+                  "after": "Lead, total mercury, and total arsenic were not detected, at reporting limits of 4, 1, and 3 µg/kg.",
+                  "source_keys": [
+                    "fda2022-tds-elements-fy2018-fy2020"
+                  ]
+                }
+              ],
+              "question": "How do frozen peas compare?",
+              "placement": "universal_faq"
+            },
+            {
+              "text": "Two retail packages and two concentrates do not make a distribution, a percentile, or a pass rate for the ingredient. Growing origin is missing on the powders, and the Canadian seed baseline is an abstract without its table. Inorganic arsenic and, for the concentrates, mercury were not measured. No before-and-after process trial shows how much metal the isolate step keeps. Those gaps are why the page states what was measured and does not offer a regional winner or a removal percentage.",
+              "source_keys": [
+                "gawalko2009-canadian-field-peas-trace-elements"
+              ],
+              "citation_spans": [
+                {
+                  "after": "Growing origin is missing on the powders, and the Canadian seed baseline is an abstract without its table.",
+                  "source_keys": [
+                    "gawalko2009-canadian-field-peas-trace-elements"
+                  ]
+                }
+              ],
+              "question": "What is still too thin to settle?",
               "placement": "universal_faq"
             }
           ]
         },
         {
-          "text": "The EU sets a maximum of 100 µg/kg cadmium for proteins from pulses (as set for that ingredient row).",
+          "text": "Total mercury in those two powders was 4.3 µg/kg and below 0.2 µg/kg, total chromium was 289.2 and 210.7 µg/kg, and total tin was 26.7 and 329.7 µg/kg.",
           "source_keys": [
-            "eu-2023-915-contaminants-maximum-levels"
+            "ring2021-ireland-protein-powders-metals"
           ],
           "citation_spans": [
             {
-              "after": "The EU sets a maximum of 100 µg/kg cadmium for proteins from pulses (as set for that ingredient row).",
+              "after": "Total mercury in those two powders was 4.3 µg/kg and below 0.2 µg/kg, total chromium was 289.2 and 210.7 µg/kg, and total tin was 26.7 and 329.7 µg/kg.",
               "source_keys": [
-                "eu-2023-915-contaminants-maximum-levels"
+                "ring2021-ireland-protein-powders-metals"
               ]
             }
           ],
@@ -96,45 +426,71 @@
           "public_context_section": "summary"
         },
         {
-          "text": "The EU sets a maximum of 100 µg/kg cadmium for proteins from pulses (as set for that ingredient row).",
-          "source_keys": [],
-          "kind": "unresolved",
+          "text": "Two anonymized commercial pea concentrates, each bought twice, showed nickel means of 585.49 and 268.27 µg/kg and total chromium means of 78.97 and 114.11 µg/kg, with cadmium and lead not detected.",
+          "source_keys": [
+            "lopezcalabozo2025-vegetable-protein-concentrates"
+          ],
+          "citation_spans": [
+            {
+              "after": "Two anonymized commercial pea concentrates, each bought twice, showed nickel means of 585.49 and 268.27 µg/kg and total chromium means of 78.97 and 114.11 µg/kg, with cadmium and lead not detected.",
+              "source_keys": [
+                "lopezcalabozo2025-vegetable-protein-concentrates"
+              ]
+            }
+          ],
+          "kind": "evidence",
           "question_id": "HMI-ING-006",
           "presentation": "record_only",
           "public_context_section": "summary"
         }
       ],
       "presentation": {
-        "text": "Pea protein in the HMI library has 18 reported results for lead, cadmium, total mercury, nickel, chromium and tin from 2 sources.",
+        "text": "Pea protein on this page is the powdered protein fraction of field pea, sold as an isolate, a concentrate, or a retail powder. Whole peas and multi-ingredient blends are discussed only where a study measured them, and they are not pooled with the isolate. Two retail pea powders bought online and in Cork, Ireland, in 2016 and 2017 contained 40.6 and 15.4 µg/kg cadmium and 22.2 and 22.5 µg/kg lead, as sold. Total mercury in those two powders was 4.3 µg/kg and below 0.2 µg/kg, total chromium was 289.2 and 210.7 µg/kg, and total tin was 26.7 and 329.7 µg/kg. Two anonymized commercial pea concentrates, each bought twice, showed nickel means of 585.49 and 268.27 µg/kg and total chromium means of 78.97 and 114.11 µg/kg, with cadmium and lead not detected. The European cadmium maximum that names proteins from pulses is 100 µg/kg, set beside 40 µg/kg for pulses other than that protein row.",
         "source_keys": [
           "ring2021-ireland-protein-powders-metals",
-          "lopezcalabozo2025-vegetable-protein-concentrates"
+          "lopezcalabozo2025-vegetable-protein-concentrates",
+          "eu-2021-1323-cadmium-foodstuffs-amendment"
         ],
         "citation_spans": [
           {
-            "after": "Pea protein in the HMI library has 18 reported results for lead, cadmium, total mercury, nickel, chromium and tin from 2 sources.",
+            "after": "Two retail pea powders bought online and in Cork, Ireland, in 2016 and 2017 contained 40.6 and 15.4 µg/kg cadmium and 22.2 and 22.5 µg/kg lead, as sold.",
             "source_keys": [
-              "ring2021-ireland-protein-powders-metals",
+              "ring2021-ireland-protein-powders-metals"
+            ]
+          },
+          {
+            "after": "Total mercury in those two powders was 4.3 µg/kg and below 0.2 µg/kg, total chromium was 289.2 and 210.7 µg/kg, and total tin was 26.7 and 329.7 µg/kg.",
+            "source_keys": [
+              "ring2021-ireland-protein-powders-metals"
+            ]
+          },
+          {
+            "after": "Two anonymized commercial pea concentrates, each bought twice, showed nickel means of 585.49 and 268.27 µg/kg and total chromium means of 78.97 and 114.11 µg/kg, with cadmium and lead not detected.",
+            "source_keys": [
               "lopezcalabozo2025-vegetable-protein-concentrates"
+            ]
+          },
+          {
+            "after": "The European cadmium maximum that names proteins from pulses is 100 µg/kg, set beside 40 µg/kg for pulses other than that protein row.",
+            "source_keys": [
+              "eu-2021-1323-cadmium-foodstuffs-amendment"
             ]
           }
         ],
         "narrative": "overview_and_questions",
         "passages": [
           {
-            "text": "",
-            "source_keys": []
-          },
-          {
-            "text": "For a buyer the practical points are the form bought, the basis a result is reported on, where the pea protein came from and the laboratory’s reporting limit. The EU sets a maximum of 100 µg/kg cadmium for proteins from pulses (as set for that ingredient row). Testing finds contamination but does not remove it.",
+            "text": "For a buyer the first distinction is the material: isolate or concentrate versus whole seed, frozen peas, or a blend. The second is the basis, because a dry-weight fruit result and an as-sold powder result are not the same measurement. The third is the reporting limit, because a non-detect is an interval up to that limit and not a measured zero. The Irish powders and the Spanish concentrates do not record the country where the peas were grown, so they cannot rank Canada, China, or the European Union as growing origins. Lot testing describes the lot in hand, and it does not remove cadmium, lead, or any other element from the powder.",
             "source_keys": [
-              "eu-2023-915-contaminants-maximum-levels"
+              "ring2021-ireland-protein-powders-metals",
+              "lopezcalabozo2025-vegetable-protein-concentrates"
             ],
             "citation_spans": [
               {
-                "after": "The EU sets a maximum of 100 µg/kg cadmium for proteins from pulses (as set for that ingredient row).",
+                "after": "The Irish powders and the Spanish concentrates do not record the country where the peas were grown, so they cannot rank Canada, China, or the European Union as growing origins.",
                 "source_keys": [
-                  "eu-2023-915-contaminants-maximum-levels"
+                  "ring2021-ireland-protein-powders-metals",
+                  "lopezcalabozo2025-vegetable-protein-concentrates"
                 ]
               }
             ]
@@ -146,17 +502,15 @@
       "id": "identity",
       "answers": [
         {
-          "text": "This page covers pea protein in 2 forms kept separate in every comparison: pea protein, powder or ground (10 results) and pea protein, as sold (8 results).",
+          "text": "The Irish evidence is two retail products the authors classified as pea, among 36 protein powders that also included whey, soy, casein, and mixed plant powders.",
           "source_keys": [
-            "ring2021-ireland-protein-powders-metals",
-            "lopezcalabozo2025-vegetable-protein-concentrates"
+            "ring2021-ireland-protein-powders-metals"
           ],
           "citation_spans": [
             {
-              "after": "This page covers pea protein in 2 forms kept separate in every comparison: pea protein, powder or ground (10 results) and pea protein, as sold (8 results).",
+              "after": "The Irish evidence is two retail products the authors classified as pea, among 36 protein powders that also included whey, soy, casein, and mixed plant powders.",
               "source_keys": [
-                "ring2021-ireland-protein-powders-metals",
-                "lopezcalabozo2025-vegetable-protein-concentrates"
+                "ring2021-ireland-protein-powders-metals"
               ]
             }
           ],
@@ -166,42 +520,93 @@
           "public_context_section": "identity"
         },
         {
-          "text": "Results stay on the basis each source reports: as sold or fresh weight, dry weight, or unstated.",
-          "source_keys": [],
-          "kind": "unresolved",
+          "text": "The concentrate evidence is two anonymized commercial pea protein concentrates, bought from online shops and analyzed beside rice and soybean concentrates in the same paper.",
+          "source_keys": [
+            "lopezcalabozo2025-vegetable-protein-concentrates"
+          ],
+          "kind": "evidence",
           "question_id": "HMI-ING-002",
           "presentation": "record_only",
-          "public_context_section": "identity"
+          "public_context_section": "identity",
+          "citation_spans": [
+            {
+              "after": "The concentrate evidence is two anonymized commercial pea protein concentrates, bought from online shops and analyzed beside rice and soybean concentrates in the same paper.",
+              "source_keys": [
+                "lopezcalabozo2025-vegetable-protein-concentrates"
+              ]
+            }
+          ]
         },
         {
-          "text": "Dry-weight, as-sold and unstated results are never pooled, and no moisture conversion is applied.",
-          "source_keys": [],
-          "kind": "unresolved",
+          "text": "A third form in the table is garden pea fruit, oven-dried, from farms in South Cairo and Giza, which is the pea pod's seed tissue as a vegetable and not a separated protein.",
+          "source_keys": [
+            "galal2021-heavy-metals-pisum-sativum"
+          ],
+          "kind": "evidence",
           "question_id": "HMI-ING-003",
           "presentation": "record_only",
-          "public_context_section": "identity"
+          "public_context_section": "identity",
+          "citation_spans": [
+            {
+              "after": "A third form in the table is garden pea fruit, oven-dried, from farms in South Cairo and Giza, which is the pea pod's seed tissue as a vegetable and not a separated protein.",
+              "source_keys": [
+                "galal2021-heavy-metals-pisum-sativum"
+              ]
+            }
+          ]
         }
       ],
       "presentation": {
-        "text": "This page covers pea protein in 2 forms kept separate in every comparison: pea protein, powder or ground (10 results) and pea protein, as sold (8 results).",
+        "text": "This page covers pea protein as a food ingredient: the protein-rich powder made from field pea, including isolates and concentrates sold as such. The Irish evidence is two retail products the authors classified as pea, among 36 protein powders that also included whey, soy, casein, and mixed plant powders. The concentrate evidence is two anonymized commercial pea protein concentrates, bought from online shops and analyzed beside rice and soybean concentrates in the same paper. A third form in the table is garden pea fruit, oven-dried, from farms in South Cairo and Giza, which is the pea pod's seed tissue as a vegetable and not a separated protein. Frozen boiled green peas in the US Total Diet Study, and Canadian field pea seed in a 2009 grain baseline, are cited as other materials and are not rows of this powder.",
         "source_keys": [
           "ring2021-ireland-protein-powders-metals",
-          "lopezcalabozo2025-vegetable-protein-concentrates"
+          "lopezcalabozo2025-vegetable-protein-concentrates",
+          "galal2021-heavy-metals-pisum-sativum",
+          "fda2022-tds-elements-fy2018-fy2020",
+          "gawalko2009-canadian-field-peas-trace-elements"
         ],
         "citation_spans": [
           {
-            "after": "This page covers pea protein in 2 forms kept separate in every comparison: pea protein, powder or ground (10 results) and pea protein, as sold (8 results).",
+            "after": "The Irish evidence is two retail products the authors classified as pea, among 36 protein powders that also included whey, soy, casein, and mixed plant powders.",
             "source_keys": [
-              "ring2021-ireland-protein-powders-metals",
+              "ring2021-ireland-protein-powders-metals"
+            ]
+          },
+          {
+            "after": "The concentrate evidence is two anonymized commercial pea protein concentrates, bought from online shops and analyzed beside rice and soybean concentrates in the same paper.",
+            "source_keys": [
               "lopezcalabozo2025-vegetable-protein-concentrates"
+            ]
+          },
+          {
+            "after": "A third form in the table is garden pea fruit, oven-dried, from farms in South Cairo and Giza, which is the pea pod's seed tissue as a vegetable and not a separated protein.",
+            "source_keys": [
+              "galal2021-heavy-metals-pisum-sativum"
+            ]
+          },
+          {
+            "after": "Frozen boiled green peas in the US Total Diet Study, and Canadian field pea seed in a 2009 grain baseline, are cited as other materials and are not rows of this powder.",
+            "source_keys": [
+              "fda2022-tds-elements-fy2018-fy2020",
+              "gawalko2009-canadian-field-peas-trace-elements"
             ]
           }
         ],
         "narrative": "overview_and_questions",
         "passages": [
           {
-            "text": "Results stay on the basis each source reports: as sold or fresh weight, dry weight, or unstated. Dry-weight, as-sold and unstated results are never pooled, and no moisture conversion is applied.",
-            "source_keys": []
+            "text": "An isolate is a higher-protein powder than a concentrate, but these studies do not print a protein percentage for the packages they tested, so the page keeps the authors' own names. A retail powder can also contain flavor, sweetener, or another protein, and the Irish paper identifies the two pea products as pea rather than as a named blend. Plant powders that list pea together with rice or seeds are blends, and a metal in the blend cannot be assigned to the pea fraction. Dry-weight, as-sold, and unstated results stay in separate comparisons, and this page does not apply a moisture conversion. Transferring a whole-pea concentration onto an isolate, or an isolate concentration onto frozen peas, would treat different foods as one food.",
+            "source_keys": [
+              "ring2021-ireland-protein-powders-metals"
+            ],
+            "citation_spans": [
+              {
+                "after": "A retail powder can also contain flavor, sweetener, or another protein, and the Irish paper identifies the two pea products as pea rather than as a named blend.",
+                "source_keys": [
+                  "ring2021-ireland-protein-powders-metals"
+                ]
+              }
+            ]
           }
         ]
       }
@@ -210,17 +615,15 @@
       "id": "occurrence",
       "answers": [
         {
-          "text": "The table holds every extracted pea protein result: one row for each statistic a source reports for a form, group and metal, 18 rows in all, grouped by metal and form; percentiles, ranges and maxima for the same samples as a mean or median are shown on that row.",
+          "text": "On the Irish powders as sold, cadmium was 40.6 µg/kg in one package and 15.4 µg/kg in the other, and lead was 22.2 and 22.5 µg/kg.",
           "source_keys": [
-            "ring2021-ireland-protein-powders-metals",
-            "lopezcalabozo2025-vegetable-protein-concentrates"
+            "ring2021-ireland-protein-powders-metals"
           ],
           "citation_spans": [
             {
-              "after": "The table holds every extracted pea protein result: one row for each statistic a source reports for a form, group and metal, 18 rows in all, grouped by metal and form; percentiles, ranges and maxima for the same samples as a mean or median are shown on that row.",
+              "after": "On the Irish powders as sold, cadmium was 40.6 µg/kg in one package and 15.4 µg/kg in the other, and lead was 22.2 and 22.5 µg/kg.",
               "source_keys": [
-                "ring2021-ireland-protein-powders-metals",
-                "lopezcalabozo2025-vegetable-protein-concentrates"
+                "ring2021-ireland-protein-powders-metals"
               ]
             }
           ],
@@ -230,33 +633,70 @@
           "public_context_section": "occurrence"
         },
         {
-          "text": "Monitoring medians are HMI calculations from individual submissions; non-detects remain intervals between zero and the reporting limit and are never read as zero.",
-          "source_keys": [],
-          "kind": "unresolved",
+          "text": "Total mercury was 4.3 µg/kg and below 0.2 µg/kg, total chromium was 289.2 and 210.7 µg/kg, and total tin was 26.7 and 329.7 µg/kg, the last of those being the highest tin the study reported in any powder.",
+          "source_keys": [
+            "ring2021-ireland-protein-powders-metals"
+          ],
+          "kind": "evidence",
           "question_id": "HMI-ING-008",
           "presentation": "record_only",
-          "public_context_section": "occurrence"
+          "public_context_section": "occurrence",
+          "citation_spans": [
+            {
+              "after": "Total mercury was 4.3 µg/kg and below 0.2 µg/kg, total chromium was 289.2 and 210.7 µg/kg, and total tin was 26.7 and 329.7 µg/kg, the last of those being the highest tin the study reported in any powder.",
+              "source_keys": [
+                "ring2021-ireland-protein-powders-metals"
+              ]
+            }
+          ]
         },
         {
-          "text": "0 rows can be rated against an HMI reference for the same form and basis, 0 rows have a direct same-study comparison, and the rest stay unrated with the reason recorded.",
-          "source_keys": [],
-          "kind": "unresolved",
+          "text": "The concentrate table, printed in a ppb block, gives nickel 585.49 ± 47.94 and 268.27 ± 35.21 and total chromium 78.97 ± 11.24 and 114.11 ± 31.83, with cadmium and lead marked not detected.",
+          "source_keys": [
+            "lopezcalabozo2025-vegetable-protein-concentrates"
+          ],
+          "kind": "evidence",
           "question_id": "HMI-ING-009",
           "presentation": "record_only",
-          "public_context_section": "occurrence"
+          "public_context_section": "occurrence",
+          "citation_spans": [
+            {
+              "after": "The concentrate table, printed in a ppb block, gives nickel 585.49 ± 47.94 and 268.27 ± 35.21 and total chromium 78.97 ± 11.24 and 114.11 ± 31.83, with cadmium and lead marked not detected.",
+              "source_keys": [
+                "lopezcalabozo2025-vegetable-protein-concentrates"
+              ]
+            }
+          ]
         }
       ],
       "presentation": {
-        "text": "The table holds every extracted pea protein result: one row for each statistic a source reports for a form, group and metal, 18 rows in all, grouped by metal and form; percentiles, ranges and maxima for the same samples as a mean or median are shown on that row. Monitoring medians are HMI calculations from individual submissions; non-detects remain intervals between zero and the reporting limit and are never read as zero.",
+        "text": "The table lists every extracted result for this page: the Irish pea powders, the two pea concentrates, and the Egyptian garden pea fruit means. On the Irish powders as sold, cadmium was 40.6 µg/kg in one package and 15.4 µg/kg in the other, and lead was 22.2 and 22.5 µg/kg. Total mercury was 4.3 µg/kg and below 0.2 µg/kg, total chromium was 289.2 and 210.7 µg/kg, and total tin was 26.7 and 329.7 µg/kg, the last of those being the highest tin the study reported in any powder. The concentrate table, printed in a ppb block, gives nickel 585.49 ± 47.94 and 268.27 ± 35.21 and total chromium 78.97 ± 11.24 and 114.11 ± 31.83, with cadmium and lead marked not detected. The footnotes give detection limits below 0.015 and below 0.026 without restating the unit, so those non-detects are not converted here into a food concentration of zero.",
         "source_keys": [
           "ring2021-ireland-protein-powders-metals",
           "lopezcalabozo2025-vegetable-protein-concentrates"
         ],
         "citation_spans": [
           {
-            "after": "The table holds every extracted pea protein result: one row for each statistic a source reports for a form, group and metal, 18 rows in all, grouped by metal and form; percentiles, ranges and maxima for the same samples as a mean or median are shown on that row.",
+            "after": "On the Irish powders as sold, cadmium was 40.6 µg/kg in one package and 15.4 µg/kg in the other, and lead was 22.2 and 22.5 µg/kg.",
             "source_keys": [
-              "ring2021-ireland-protein-powders-metals",
+              "ring2021-ireland-protein-powders-metals"
+            ]
+          },
+          {
+            "after": "Total mercury was 4.3 µg/kg and below 0.2 µg/kg, total chromium was 289.2 and 210.7 µg/kg, and total tin was 26.7 and 329.7 µg/kg, the last of those being the highest tin the study reported in any powder.",
+            "source_keys": [
+              "ring2021-ireland-protein-powders-metals"
+            ]
+          },
+          {
+            "after": "The concentrate table, printed in a ppb block, gives nickel 585.49 ± 47.94 and 268.27 ± 35.21 and total chromium 78.97 ± 11.24 and 114.11 ± 31.83, with cadmium and lead marked not detected.",
+            "source_keys": [
+              "lopezcalabozo2025-vegetable-protein-concentrates"
+            ]
+          },
+          {
+            "after": "The footnotes give detection limits below 0.015 and below 0.026 without restating the unit, so those non-detects are not converted here into a food concentration of zero.",
+            "source_keys": [
               "lopezcalabozo2025-vegetable-protein-concentrates"
             ]
           }
@@ -264,8 +704,30 @@
         "narrative": "overview_and_questions",
         "passages": [
           {
-            "text": "0 rows can be rated against an HMI reference for the same form and basis, 0 rows have a direct same-study comparison, and the rest stay unrated with the reason recorded.",
-            "source_keys": []
+            "text": "Garden pea fruit, dry weight, is the other block in the table, and it is labeled as fruit so it is not read as a powder. Unpolluted-site fruit means were 8.9 mg/kg lead, 2.6 mg/kg cadmium, 0.03 mg/kg arsenic, 0.9 mg/kg chromium, and 0.9 mg/kg nickel. Polluted-site fruit means were 121.0 mg/kg lead, 1,025.0 mg/kg cadmium, 0.1 mg/kg arsenic, 19.8 mg/kg chromium, and 24.7 mg/kg nickel. Those fruit values are total metals on a dry-weight basis after oven drying, arsenic is not speciated, and the polluted farms received industrial and municipal waste. Few of these powder rows can be rated against an HMI reference, because a reference needs at least four compatible medians or sample values for the same form and basis, and the method sentence is not repeated under every metal.",
+            "source_keys": [
+              "galal2021-heavy-metals-pisum-sativum"
+            ],
+            "citation_spans": [
+              {
+                "after": "Garden pea fruit, dry weight, is the other block in the table, and it is labeled as fruit so it is not read as a powder.",
+                "source_keys": [
+                  "galal2021-heavy-metals-pisum-sativum"
+                ]
+              },
+              {
+                "after": "Unpolluted-site fruit means were 8.9 mg/kg lead, 2.6 mg/kg cadmium, 0.03 mg/kg arsenic, 0.9 mg/kg chromium, and 0.9 mg/kg nickel.",
+                "source_keys": [
+                  "galal2021-heavy-metals-pisum-sativum"
+                ]
+              },
+              {
+                "after": "Polluted-site fruit means were 121.0 mg/kg lead, 1,025.0 mg/kg cadmium, 0.1 mg/kg arsenic, 19.8 mg/kg chromium, and 24.7 mg/kg nickel.",
+                "source_keys": [
+                  "galal2021-heavy-metals-pisum-sativum"
+                ]
+              }
+            ]
           }
         ]
       }
@@ -274,173 +736,568 @@
       "id": "pathways",
       "answers": [
         {
-          "text": "No study in the library compared pea protein from contaminated and ordinary settings, so the routes by which metals reach it are not measured here.",
-          "source_keys": [],
-          "kind": "unresolved",
+          "text": "Cadmium and lead reach peas from the soil and from dust or waste deposited on the crop, and the element remains in the tissue because cooking and drying do not destroy it.",
+          "source_keys": [
+            "schaefer2020-cadmium-mitigation-strategies"
+          ],
+          "citation_spans": [
+            {
+              "after": "Cadmium and lead reach peas from the soil and from dust or waste deposited on the crop, and the element remains in the tissue because cooking and drying do not destroy it.",
+              "source_keys": [
+                "schaefer2020-cadmium-mitigation-strategies"
+              ]
+            }
+          ],
+          "kind": "evidence",
           "question_id": "HMI-ING-010",
           "presentation": "record_only",
           "public_context_section": "pathways"
         },
         {
-          "text": "No study in the library compared pea protein from contaminated and ordinary settings, so the routes by which metals reach it are not measured here.",
-          "source_keys": [],
-          "kind": "unresolved",
+          "text": "A review by FDA scientists describes diet as the main cadmium exposure for people who are not exposed at work and do not smoke, and it identifies soil pH, cultivar, and fertilizer choice as levers on how much the plant takes up.",
+          "source_keys": [
+            "schaefer2020-cadmium-mitigation-strategies"
+          ],
+          "kind": "evidence",
           "question_id": "HMI-ING-011",
           "presentation": "record_only",
-          "public_context_section": "pathways"
+          "public_context_section": "pathways",
+          "citation_spans": [
+            {
+              "after": "A review by FDA scientists describes diet as the main cadmium exposure for people who are not exposed at work and do not smoke, and it identifies soil pH, cultivar, and fertilizer choice as levers on how much the plant takes up.",
+              "source_keys": [
+                "schaefer2020-cadmium-mitigation-strategies"
+              ]
+            }
+          ]
         },
         {
-          "text": "No study in the library compared pea protein from contaminated and ordinary settings, so the routes by which metals reach it are not measured here.",
-          "source_keys": [],
-          "kind": "unresolved",
+          "text": "That review's highest mean foods in the US Total Diet Study were not peas, which is a reminder that a concentrated protein ingredient and a boiled vegetable are different exposure questions.",
+          "source_keys": [
+            "schaefer2020-cadmium-mitigation-strategies"
+          ],
+          "kind": "evidence",
           "question_id": "HMI-ING-012",
           "presentation": "record_only",
-          "public_context_section": "pathways"
+          "public_context_section": "pathways",
+          "citation_spans": [
+            {
+              "after": "That review's highest mean foods in the US Total Diet Study were not peas, which is a reminder that a concentrated protein ingredient and a boiled vegetable are different exposure questions.",
+              "source_keys": [
+                "schaefer2020-cadmium-mitigation-strategies"
+              ]
+            }
+          ]
         }
       ],
       "presentation": {
-        "text": "No study in the library compared pea protein from contaminated and ordinary settings, so the routes by which metals reach it are not measured here.",
-        "source_keys": [],
+        "text": "Cadmium and lead reach peas from the soil and from dust or waste deposited on the crop, and the element remains in the tissue because cooking and drying do not destroy it. A review by FDA scientists describes diet as the main cadmium exposure for people who are not exposed at work and do not smoke, and it identifies soil pH, cultivar, and fertilizer choice as levers on how much the plant takes up. That review's highest mean foods in the US Total Diet Study were not peas, which is a reminder that a concentrated protein ingredient and a boiled vegetable are different exposure questions. Field pea is a pulse, and pulses are known to take cadmium up from soil, but the size of that uptake is a property of the soil, the variety, and the season, not a single concentration for every origin. No powder study in this library paired the metal in the seed with the metal in the isolate made from that seed, so the pathway into the powder is inferred from the crop and from the process, not measured end to end.",
+        "source_keys": [
+          "schaefer2020-cadmium-mitigation-strategies"
+        ],
+        "citation_spans": [
+          {
+            "after": "Cadmium and lead reach peas from the soil and from dust or waste deposited on the crop, and the element remains in the tissue because cooking and drying do not destroy it.",
+            "source_keys": [
+              "schaefer2020-cadmium-mitigation-strategies"
+            ]
+          },
+          {
+            "after": "A review by FDA scientists describes diet as the main cadmium exposure for people who are not exposed at work and do not smoke, and it identifies soil pH, cultivar, and fertilizer choice as levers on how much the plant takes up.",
+            "source_keys": [
+              "schaefer2020-cadmium-mitigation-strategies"
+            ]
+          },
+          {
+            "after": "That review's highest mean foods in the US Total Diet Study were not peas, which is a reminder that a concentrated protein ingredient and a boiled vegetable are different exposure questions.",
+            "source_keys": [
+              "schaefer2020-cadmium-mitigation-strategies"
+            ]
+          }
+        ],
         "narrative": "overview_and_questions",
-        "passages": []
+        "passages": [
+          {
+            "text": "The direct crop comparison on this page is garden pea grown in South Cairo and Giza in the winter of 2017. Fruit from farms that received waste from cement, iron and steel, brick, and fertilizer works contained much more lead, cadmium, chromium, and nickel than fruit from the study's unpolluted farms. The unpolluted fruit was not a clean commercial baseline either: 2.6 mg/kg cadmium and 8.9 mg/kg lead, dry weight, are far above the Irish retail powders. The authors report bioaccumulation factors above 1 for several metals at the polluted sites, which means the plant tissues held more metal than the soil measurement they used, but that factor is for those sites and not a universal pea constant. Industrial fruit and a retail isolate answer different questions, and the fruit series is here to show how strongly site can move the crop, not to describe protein sold for food manufacture.",
+            "source_keys": [
+              "galal2021-heavy-metals-pisum-sativum",
+              "ring2021-ireland-protein-powders-metals"
+            ],
+            "citation_spans": [
+              {
+                "after": "The direct crop comparison on this page is garden pea grown in South Cairo and Giza in the winter of 2017.",
+                "source_keys": [
+                  "galal2021-heavy-metals-pisum-sativum"
+                ]
+              },
+              {
+                "after": "Fruit from farms that received waste from cement, iron and steel, brick, and fertilizer works contained much more lead, cadmium, chromium, and nickel than fruit from the study's unpolluted farms.",
+                "source_keys": [
+                  "galal2021-heavy-metals-pisum-sativum"
+                ]
+              },
+              {
+                "after": "The unpolluted fruit was not a clean commercial baseline either: 2.6 mg/kg cadmium and 8.9 mg/kg lead, dry weight, are far above the Irish retail powders.",
+                "source_keys": [
+                  "galal2021-heavy-metals-pisum-sativum",
+                  "ring2021-ireland-protein-powders-metals"
+                ]
+              },
+              {
+                "after": "The authors report bioaccumulation factors above 1 for several metals at the polluted sites, which means the plant tissues held more metal than the soil measurement they used, but that factor is for those sites and not a universal pea constant.",
+                "source_keys": [
+                  "galal2021-heavy-metals-pisum-sativum"
+                ]
+              }
+            ]
+          }
+        ]
       }
     },
     {
       "id": "variation",
       "answers": [
         {
-          "text": "The pea protein evidence does not yet support a reference-based comparison of forms or regions.",
-          "source_keys": [],
-          "kind": "unresolved",
+          "text": "Inside the Irish survey, using one method and one purchase market, the two pea powders are not the high end for every metal.",
+          "source_keys": [
+            "ring2021-ireland-protein-powders-metals"
+          ],
+          "kind": "evidence",
           "question_id": "HMI-ING-013",
           "presentation": "record_only",
-          "public_context_section": "variation"
+          "public_context_section": "variation",
+          "citation_spans": [
+            {
+              "after": "Inside the Irish survey, using one method and one purchase market, the two pea powders are not the high end for every metal.",
+              "source_keys": [
+                "ring2021-ireland-protein-powders-metals"
+              ]
+            }
+          ]
         },
         {
-          "text": "The pea protein evidence does not yet support a reference-based comparison of forms or regions.",
-          "source_keys": [],
-          "kind": "unresolved",
+          "text": "Pea cadmium was 15.4 and 40.6 µg/kg, soy was 20.7 and 23.4 µg/kg, mixed plant was 45.1 and 58.1 µg/kg, and the 27 whey powders ran from below 0.61 to 23.2 µg/kg.",
+          "source_keys": [
+            "ring2021-ireland-protein-powders-metals"
+          ],
+          "kind": "evidence",
           "question_id": "HMI-ING-014",
           "presentation": "record_only",
-          "public_context_section": "variation"
+          "public_context_section": "variation",
+          "citation_spans": [
+            {
+              "after": "Pea cadmium was 15.4 and 40.6 µg/kg, soy was 20.7 and 23.4 µg/kg, mixed plant was 45.1 and 58.1 µg/kg, and the 27 whey powders ran from below 0.61 to 23.2 µg/kg.",
+              "source_keys": [
+                "ring2021-ireland-protein-powders-metals"
+              ]
+            }
+          ]
         },
         {
-          "text": "The pea protein evidence does not yet support a reference-based comparison of forms or regions.",
-          "source_keys": [],
-          "kind": "unresolved",
+          "text": "Pea lead was 22.2 and 22.5 µg/kg, while whey lead ran from 0.8 to 88.4 µg/kg and one mixed plant powder was 49.5 µg/kg, so the highest lead package in that study was whey.",
+          "source_keys": [
+            "ring2021-ireland-protein-powders-metals"
+          ],
+          "kind": "evidence",
           "question_id": "HMI-ING-015",
           "presentation": "record_only",
-          "public_context_section": "variation"
+          "public_context_section": "variation",
+          "citation_spans": [
+            {
+              "after": "Pea lead was 22.2 and 22.5 µg/kg, while whey lead ran from 0.8 to 88.4 µg/kg and one mixed plant powder was 49.5 µg/kg, so the highest lead package in that study was whey.",
+              "source_keys": [
+                "ring2021-ireland-protein-powders-metals"
+              ]
+            }
+          ]
         }
       ],
       "presentation": {
-        "text": "The pea protein evidence does not yet support a reference-based comparison of forms or regions.",
-        "source_keys": [],
+        "text": "Inside the Irish survey, using one method and one purchase market, the two pea powders are not the high end for every metal. Pea cadmium was 15.4 and 40.6 µg/kg, soy was 20.7 and 23.4 µg/kg, mixed plant was 45.1 and 58.1 µg/kg, and the 27 whey powders ran from below 0.61 to 23.2 µg/kg. Pea lead was 22.2 and 22.5 µg/kg, while whey lead ran from 0.8 to 88.4 µg/kg and one mixed plant powder was 49.5 µg/kg, so the highest lead package in that study was whey. The highest total mercury was 18.4 µg/kg in a mixed plant powder, against 4.3 µg/kg and below 0.2 µg/kg in the pea powders. Two pea packages cannot rank a category, and they do not identify a growing region, because the paper records where the powders were bought and not where the crop was grown.",
+        "source_keys": [
+          "ring2021-ireland-protein-powders-metals"
+        ],
+        "citation_spans": [
+          {
+            "after": "Inside the Irish survey, using one method and one purchase market, the two pea powders are not the high end for every metal.",
+            "source_keys": [
+              "ring2021-ireland-protein-powders-metals"
+            ]
+          },
+          {
+            "after": "Pea cadmium was 15.4 and 40.6 µg/kg, soy was 20.7 and 23.4 µg/kg, mixed plant was 45.1 and 58.1 µg/kg, and the 27 whey powders ran from below 0.61 to 23.2 µg/kg.",
+            "source_keys": [
+              "ring2021-ireland-protein-powders-metals"
+            ]
+          },
+          {
+            "after": "Pea lead was 22.2 and 22.5 µg/kg, while whey lead ran from 0.8 to 88.4 µg/kg and one mixed plant powder was 49.5 µg/kg, so the highest lead package in that study was whey.",
+            "source_keys": [
+              "ring2021-ireland-protein-powders-metals"
+            ]
+          },
+          {
+            "after": "The highest total mercury was 18.4 µg/kg in a mixed plant powder, against 4.3 µg/kg and below 0.2 µg/kg in the pea powders.",
+            "source_keys": [
+              "ring2021-ireland-protein-powders-metals"
+            ]
+          },
+          {
+            "after": "Two pea packages cannot rank a category, and they do not identify a growing region, because the paper records where the powders were bought and not where the crop was grown.",
+            "source_keys": [
+              "ring2021-ireland-protein-powders-metals"
+            ]
+          }
+        ],
         "narrative": "overview_and_questions",
-        "passages": []
+        "passages": [
+          {
+            "text": "The concentrate paper allows a within-study look at pea versus rice protein, still with only two products of each and with the mineral basis unstated. Both pea concentrates were not detected for lead, while one rice concentrate contained 175.40 ppb lead and the other was not detected. Nickel overlapped: pea 268.27 and 585.49 ppb, rice 240.22 and 604.54 ppb, so neither protein was uniformly higher. Total chromium was lower in the pea concentrates (78.97 and 114.11 ppb) than in the rice concentrates (208.98 and 627.11 ppb) in that small set. Hungary adds a different comparison: plant powders that included pea with rice or seeds were not detected for arsenic, cadmium, mercury, and lead, but the detection limits were not printed, and aluminum was higher in the plant powders than in most whey powders.",
+            "source_keys": [
+              "lopezcalabozo2025-vegetable-protein-concentrates",
+              "horvath2025-hungary-protein-powders-metals"
+            ],
+            "citation_spans": [
+              {
+                "after": "The concentrate paper allows a within-study look at pea versus rice protein, still with only two products of each and with the mineral basis unstated.",
+                "source_keys": [
+                  "lopezcalabozo2025-vegetable-protein-concentrates"
+                ]
+              },
+              {
+                "after": "Both pea concentrates were not detected for lead, while one rice concentrate contained 175.40 ppb lead and the other was not detected.",
+                "source_keys": [
+                  "lopezcalabozo2025-vegetable-protein-concentrates"
+                ]
+              },
+              {
+                "after": "Nickel overlapped: pea 268.27 and 585.49 ppb, rice 240.22 and 604.54 ppb, so neither protein was uniformly higher.",
+                "source_keys": [
+                  "lopezcalabozo2025-vegetable-protein-concentrates"
+                ]
+              },
+              {
+                "after": "Total chromium was lower in the pea concentrates (78.97 and 114.11 ppb) than in the rice concentrates (208.98 and 627.11 ppb) in that small set.",
+                "source_keys": [
+                  "lopezcalabozo2025-vegetable-protein-concentrates"
+                ]
+              },
+              {
+                "after": "Hungary adds a different comparison: plant powders that included pea with rice or seeds were not detected for arsenic, cadmium, mercury, and lead, but the detection limits were not printed, and aluminum was higher in the plant powders than in most whey powders.",
+                "source_keys": [
+                  "horvath2025-hungary-protein-powders-metals"
+                ]
+              }
+            ]
+          },
+          {
+            "text": "A Canada, China, and European Union ranking of pea protein isolate is not supported by the measurements in hand. The Canadian Grain Commission baseline of field pea seed reports, in its abstract, a mean cadmium of 0.023 mg/kg, with arsenic and lead below 0.050 mg/kg and mercury below 0.002 mg/kg, and the full sample table was not available. That abstract describes whole seed, not an isolate, and it does not give the number of samples or the years, so it is not an occurrence row and not a sourcing preference. No eligible study here measured pea protein isolate grown in China, or separated European-grown isolate from European retail of unknown origin. Until origin is printed with the lot, the lowest observed package in one shop is only the lowest package in that shop.",
+            "source_keys": [
+              "gawalko2009-canadian-field-peas-trace-elements"
+            ],
+            "citation_spans": [
+              {
+                "after": "The Canadian Grain Commission baseline of field pea seed reports, in its abstract, a mean cadmium of 0.023 mg/kg, with arsenic and lead below 0.050 mg/kg and mercury below 0.002 mg/kg, and the full sample table was not available.",
+                "source_keys": [
+                  "gawalko2009-canadian-field-peas-trace-elements"
+                ]
+              },
+              {
+                "after": "That abstract describes whole seed, not an isolate, and it does not give the number of samples or the years, so it is not an occurrence row and not a sourcing preference.",
+                "source_keys": [
+                  "gawalko2009-canadian-field-peas-trace-elements"
+                ]
+              }
+            ]
+          }
+        ]
       }
     },
     {
       "id": "processing",
       "answers": [
         {
-          "text": "No study in the library measured the same pea protein before and after washing, peeling, drying or cooking for metals, so no processing effect can be stated.",
-          "source_keys": [],
-          "kind": "unresolved",
+          "text": "The European cadmium table is the regulatory trace of that expectation: pulses other than proteins from pulses are 0.040 mg/kg, and proteins from pulses are 0.10 mg/kg.",
+          "source_keys": [
+            "eu-2021-1323-cadmium-foodstuffs-amendment"
+          ],
+          "kind": "evidence",
           "question_id": "HMI-ING-016",
           "presentation": "record_only",
-          "public_context_section": "processing"
+          "public_context_section": "processing",
+          "citation_spans": [
+            {
+              "after": "The European cadmium table is the regulatory trace of that expectation: pulses other than proteins from pulses are 0.040 mg/kg, and proteins from pulses are 0.10 mg/kg.",
+              "source_keys": [
+                "eu-2021-1323-cadmium-foodstuffs-amendment"
+              ]
+            }
+          ]
         },
         {
-          "text": "Heat does not destroy metals; cooking or drying changes a concentration by moving water or metal, not by removing the element.",
-          "source_keys": [],
-          "kind": "unresolved",
+          "text": "The Irish pea powders at 15.4 and 40.6 µg/kg cadmium sit under the 100 µg/kg protein row, and that comparison is two packages, not a compliance rate.",
+          "source_keys": [
+            "ring2021-ireland-protein-powders-metals",
+            "eu-2021-1323-cadmium-foodstuffs-amendment"
+          ],
+          "kind": "evidence",
           "question_id": "HMI-ING-017",
           "presentation": "record_only",
-          "public_context_section": "processing"
+          "public_context_section": "processing",
+          "citation_spans": [
+            {
+              "after": "The Irish pea powders at 15.4 and 40.6 µg/kg cadmium sit under the 100 µg/kg protein row, and that comparison is two packages, not a compliance rate.",
+              "source_keys": [
+                "ring2021-ireland-protein-powders-metals",
+                "eu-2021-1323-cadmium-foodstuffs-amendment"
+              ]
+            }
+          ]
         },
         {
-          "text": "No study in the library measured the same pea protein before and after washing, peeling, drying or cooking for metals, so no processing effect can be stated.",
-          "source_keys": [],
-          "kind": "unresolved",
+          "text": "Heat does not destroy lead, cadmium, arsenic, or mercury, so roasting or cooking changes a concentration only by moving water or by parting a fraction that carries the metal.",
+          "source_keys": [
+            "schaefer2020-cadmium-mitigation-strategies"
+          ],
+          "kind": "evidence",
           "question_id": "HMI-ING-018",
           "presentation": "record_only",
-          "public_context_section": "processing"
+          "public_context_section": "processing",
+          "citation_spans": [
+            {
+              "after": "Heat does not destroy lead, cadmium, arsenic, or mercury, so roasting or cooking changes a concentration only by moving water or by parting a fraction that carries the metal.",
+              "source_keys": [
+                "schaefer2020-cadmium-mitigation-strategies"
+              ]
+            }
+          ]
         }
       ],
       "presentation": {
-        "text": "No study in the library measured the same pea protein before and after washing, peeling, drying or cooking for metals, so no processing effect can be stated. Heat does not destroy metals; cooking or drying changes a concentration by moving water or metal, not by removing the element.",
-        "source_keys": [],
+        "text": "Separating protein from pea removes starch and fiber and dries what remains, which can raise the metal concentration per kilogram if the metal stays with the protein and the discarded fraction held less. That is a mass-balance expectation, not a result from these papers, because none of them analyzed the seed, the isolate, and the side streams from the same lot. The European cadmium table is the regulatory trace of that expectation: pulses other than proteins from pulses are 0.040 mg/kg, and proteins from pulses are 0.10 mg/kg. The protein maximum is 2.5 times the pulse maximum, which is legal room for a more concentrated ingredient, not a measured yield from a factory trial. The Irish pea powders at 15.4 and 40.6 µg/kg cadmium sit under the 100 µg/kg protein row, and that comparison is two packages, not a compliance rate.",
+        "source_keys": [
+          "eu-2021-1323-cadmium-foodstuffs-amendment",
+          "ring2021-ireland-protein-powders-metals"
+        ],
+        "citation_spans": [
+          {
+            "after": "The European cadmium table is the regulatory trace of that expectation: pulses other than proteins from pulses are 0.040 mg/kg, and proteins from pulses are 0.10 mg/kg.",
+            "source_keys": [
+              "eu-2021-1323-cadmium-foodstuffs-amendment"
+            ]
+          },
+          {
+            "after": "The Irish pea powders at 15.4 and 40.6 µg/kg cadmium sit under the 100 µg/kg protein row, and that comparison is two packages, not a compliance rate.",
+            "source_keys": [
+              "ring2021-ireland-protein-powders-metals",
+              "eu-2021-1323-cadmium-foodstuffs-amendment"
+            ]
+          }
+        ],
         "narrative": "overview_and_questions",
-        "passages": []
+        "passages": [
+          {
+            "text": "Wet fractionation, which solubilizes protein and then precipitates it, and dry fractionation, which separates by air classification, can move minerals differently, and this library does not contain a head-to-head metal balance for pea. Heat does not destroy lead, cadmium, arsenic, or mercury, so roasting or cooking changes a concentration only by moving water or by parting a fraction that carries the metal. Drying a wet vegetable raises the concentration per kilogram without adding metal, which is one reason a dry powder and a boiled pea are not compared by the raw number. The Egyptian fruit was oven-dried before analysis, so its milligrams per kilogram are dry weight and would look lower on a fresh pea that is mostly water. A process claim that an isolate step removes cadmium needs the before and after on the same lot, with the basis and the yield stated, and that pair is not in these studies.",
+            "source_keys": [
+              "schaefer2020-cadmium-mitigation-strategies",
+              "galal2021-heavy-metals-pisum-sativum"
+            ],
+            "citation_spans": [
+              {
+                "after": "Heat does not destroy lead, cadmium, arsenic, or mercury, so roasting or cooking changes a concentration only by moving water or by parting a fraction that carries the metal.",
+                "source_keys": [
+                  "schaefer2020-cadmium-mitigation-strategies"
+                ]
+              },
+              {
+                "after": "The Egyptian fruit was oven-dried before analysis, so its milligrams per kilogram are dry weight and would look lower on a fresh pea that is mostly water.",
+                "source_keys": [
+                  "galal2021-heavy-metals-pisum-sativum"
+                ]
+              }
+            ]
+          }
+        ]
       }
     },
     {
       "id": "controls",
       "answers": [
         {
-          "text": "No control for metals in pea protein was measured in the library; lot testing against the applicable limit remains the verifiable step.",
-          "source_keys": [],
-          "kind": "unresolved",
+          "text": "The crop literature points upstream: soil pH, cultivar, and fertilizer choice change how much cadmium a plant takes up, which is the step that keeps the metal out of the seed.",
+          "source_keys": [
+            "schaefer2020-cadmium-mitigation-strategies"
+          ],
+          "kind": "evidence",
           "question_id": "HMI-ING-019",
           "presentation": "record_only",
-          "public_context_section": "controls"
+          "public_context_section": "controls",
+          "citation_spans": [
+            {
+              "after": "The crop literature points upstream: soil pH, cultivar, and fertilizer choice change how much cadmium a plant takes up, which is the step that keeps the metal out of the seed.",
+              "source_keys": [
+                "schaefer2020-cadmium-mitigation-strategies"
+              ]
+            }
+          ]
         },
         {
-          "text": "No control for metals in pea protein was measured in the library; lot testing against the applicable limit remains the verifiable step.",
-          "source_keys": [],
-          "kind": "unresolved",
+          "text": "Those levers were not tested on the retail powders or the concentrates reviewed here, so they are a research direction and not a quantified benefit for this ingredient.",
+          "source_keys": [
+            "schaefer2020-cadmium-mitigation-strategies"
+          ],
+          "kind": "evidence",
           "question_id": "HMI-ING-020",
           "presentation": "record_only",
-          "public_context_section": "controls"
+          "public_context_section": "controls",
+          "citation_spans": [
+            {
+              "after": "Those levers were not tested on the retail powders or the concentrates reviewed here, so they are a research direction and not a quantified benefit for this ingredient.",
+              "source_keys": [
+                "schaefer2020-cadmium-mitigation-strategies"
+              ]
+            }
+          ]
         },
         {
-          "text": "No control for metals in pea protein was measured in the library; lot testing against the applicable limit remains the verifiable step.",
-          "source_keys": [],
-          "kind": "unresolved",
+          "text": "The Egyptian contrast shows the other side of siting, because fruit beside cement, iron, and fertilizer works held far more metal than the study's other farms.",
+          "source_keys": [
+            "galal2021-heavy-metals-pisum-sativum"
+          ],
+          "kind": "evidence",
           "question_id": "HMI-ING-021",
           "presentation": "record_only",
-          "public_context_section": "controls"
+          "public_context_section": "controls",
+          "citation_spans": [
+            {
+              "after": "The Egyptian contrast shows the other side of siting, because fruit beside cement, iron, and fertilizer works held far more metal than the study's other farms.",
+              "source_keys": [
+                "galal2021-heavy-metals-pisum-sativum"
+              ]
+            }
+          ]
         }
       ],
       "presentation": {
-        "text": "No control for metals in pea protein was measured in the library; lot testing against the applicable limit remains the verifiable step.",
-        "source_keys": [],
+        "text": "No study in this library measured a treatment that lowered lead, cadmium, arsenic, or mercury in pea protein and reported the size of that change. The crop literature points upstream: soil pH, cultivar, and fertilizer choice change how much cadmium a plant takes up, which is the step that keeps the metal out of the seed. Those levers were not tested on the retail powders or the concentrates reviewed here, so they are a research direction and not a quantified benefit for this ingredient. The Egyptian contrast shows the other side of siting, because fruit beside cement, iron, and fertilizer works held far more metal than the study's other farms. Choosing a growing area away from that kind of waste is supported as a difference in that study, and it is not a universal map of clean regions for protein isolate.",
+        "source_keys": [
+          "schaefer2020-cadmium-mitigation-strategies",
+          "galal2021-heavy-metals-pisum-sativum"
+        ],
+        "citation_spans": [
+          {
+            "after": "The crop literature points upstream: soil pH, cultivar, and fertilizer choice change how much cadmium a plant takes up, which is the step that keeps the metal out of the seed.",
+            "source_keys": [
+              "schaefer2020-cadmium-mitigation-strategies"
+            ]
+          },
+          {
+            "after": "Those levers were not tested on the retail powders or the concentrates reviewed here, so they are a research direction and not a quantified benefit for this ingredient.",
+            "source_keys": [
+              "schaefer2020-cadmium-mitigation-strategies"
+            ]
+          },
+          {
+            "after": "The Egyptian contrast shows the other side of siting, because fruit beside cement, iron, and fertilizer works held far more metal than the study's other farms.",
+            "source_keys": [
+              "galal2021-heavy-metals-pisum-sativum"
+            ]
+          }
+        ],
         "narrative": "overview_and_questions",
-        "passages": []
+        "passages": [
+          {
+            "text": "Once the powder is made, the verifiable control in this evidence is lot testing against the maximum that applies to the legal category of the product. A specification sheet that repeats a target, without a method and a result for the lot, does not show what the lot contains. Washing or cooking advice drawn from vegetables does not transfer to a dry protein powder that has already been milled and dried. Blending pea with a lower-metal protein would change the blend, and it would not change the pea fraction, and this page does not have a measured dilution trial. The absence of a measured removal step is recorded as a gap, not as evidence that no control exists in the factory.",
+            "source_keys": []
+          }
+        ]
       }
     },
     {
       "id": "tradeoffs",
       "answers": [
         {
-          "text": "Metals do not move together, so a lot that passes a lead limit says little about cadmium, arsenic or nickel unless those are tested as well.",
-          "source_keys": [],
-          "kind": "unresolved",
+          "text": "In the Irish set the highest lead powder was whey, while the highest cadmium powders were mixed plant, and the pea powders were mid-pack for lead and higher than most whey for cadmium.",
+          "source_keys": [
+            "ring2021-ireland-protein-powders-metals"
+          ],
+          "citation_spans": [
+            {
+              "after": "In the Irish set the highest lead powder was whey, while the highest cadmium powders were mixed plant, and the pea powders were mid-pack for lead and higher than most whey for cadmium.",
+              "source_keys": [
+                "ring2021-ireland-protein-powders-metals"
+              ]
+            }
+          ],
+          "kind": "evidence",
           "question_id": "HMI-ING-022",
           "presentation": "record_only",
           "public_context_section": "tradeoffs"
         },
         {
-          "text": "Metals do not move together, so a lot that passes a lead limit says little about cadmium, arsenic or nickel unless those are tested as well.",
-          "source_keys": [],
-          "kind": "unresolved",
+          "text": "In the concentrate set, pea was the lower total chromium pair and not a lower nickel pair, and one rice concentrate carried detected lead while the pea concentrates did not.",
+          "source_keys": [
+            "lopezcalabozo2025-vegetable-protein-concentrates"
+          ],
+          "kind": "evidence",
           "question_id": "HMI-ING-023",
           "presentation": "record_only",
-          "public_context_section": "tradeoffs"
+          "public_context_section": "tradeoffs",
+          "citation_spans": [
+            {
+              "after": "In the concentrate set, pea was the lower total chromium pair and not a lower nickel pair, and one rice concentrate carried detected lead while the pea concentrates did not.",
+              "source_keys": [
+                "lopezcalabozo2025-vegetable-protein-concentrates"
+              ]
+            }
+          ]
         },
         {
-          "text": "Metals do not move together, so a lot that passes a lead limit says little about cadmium, arsenic or nickel unless those are tested as well.",
-          "source_keys": [],
-          "kind": "unresolved",
+          "text": "Avoiding an industrial waste site lowered fruit metals in one Egyptian study, and that choice is not a measured cost, yield, or protein-quality result.",
+          "source_keys": [
+            "galal2021-heavy-metals-pisum-sativum"
+          ],
+          "kind": "evidence",
           "question_id": "HMI-ING-024",
           "presentation": "record_only",
-          "public_context_section": "tradeoffs"
+          "public_context_section": "tradeoffs",
+          "citation_spans": [
+            {
+              "after": "Avoiding an industrial waste site lowered fruit metals in one Egyptian study, and that choice is not a measured cost, yield, or protein-quality result.",
+              "source_keys": [
+                "galal2021-heavy-metals-pisum-sativum"
+              ]
+            }
+          ]
         }
       ],
       "presentation": {
-        "text": "Metals do not move together, so a lot that passes a lead limit says little about cadmium, arsenic or nickel unless those are tested as well.",
-        "source_keys": [],
+        "text": "Metals do not move together, so a lot that is lower in lead can be higher in cadmium, nickel, or chromium. In the Irish set the highest lead powder was whey, while the highest cadmium powders were mixed plant, and the pea powders were mid-pack for lead and higher than most whey for cadmium. In the concentrate set, pea was the lower total chromium pair and not a lower nickel pair, and one rice concentrate carried detected lead while the pea concentrates did not. A blend that looks low in one metal can still carry another metal from rice, cocoa, or a flavor ingredient, and the pea share of that blend is not identified. Avoiding an industrial waste site lowered fruit metals in one Egyptian study, and that choice is not a measured cost, yield, or protein-quality result.",
+        "source_keys": [
+          "ring2021-ireland-protein-powders-metals",
+          "lopezcalabozo2025-vegetable-protein-concentrates",
+          "galal2021-heavy-metals-pisum-sativum"
+        ],
+        "citation_spans": [
+          {
+            "after": "In the Irish set the highest lead powder was whey, while the highest cadmium powders were mixed plant, and the pea powders were mid-pack for lead and higher than most whey for cadmium.",
+            "source_keys": [
+              "ring2021-ireland-protein-powders-metals"
+            ]
+          },
+          {
+            "after": "In the concentrate set, pea was the lower total chromium pair and not a lower nickel pair, and one rice concentrate carried detected lead while the pea concentrates did not.",
+            "source_keys": [
+              "lopezcalabozo2025-vegetable-protein-concentrates"
+            ]
+          },
+          {
+            "after": "Avoiding an industrial waste site lowered fruit metals in one Egyptian study, and that choice is not a measured cost, yield, or protein-quality result.",
+            "source_keys": [
+              "galal2021-heavy-metals-pisum-sativum"
+            ]
+          }
+        ],
         "narrative": "overview_and_questions",
         "passages": []
       }
@@ -449,15 +1306,15 @@
       "id": "testing",
       "answers": [
         {
-          "text": "Reporting limits for lead were 0.026 µg/kg where sources stated them.",
+          "text": "The powders in the Irish study were microwave-digested and measured by sector-field inductively coupled plasma mass spectrometry, with results reported per kilogram of powder as sold.",
           "source_keys": [
-            "lopezcalabozo2025-vegetable-protein-concentrates"
+            "ring2021-ireland-protein-powders-metals"
           ],
           "citation_spans": [
             {
-              "after": "Reporting limits for lead were 0.026 µg/kg where sources stated them.",
+              "after": "The powders in the Irish study were microwave-digested and measured by sector-field inductively coupled plasma mass spectrometry, with results reported per kilogram of powder as sold.",
               "source_keys": [
-                "lopezcalabozo2025-vegetable-protein-concentrates"
+                "ring2021-ireland-protein-powders-metals"
               ]
             }
           ],
@@ -467,13 +1324,13 @@
           "public_context_section": "testing"
         },
         {
-          "text": "Reporting limits for cadmium were 0.015 µg/kg where sources stated them.",
+          "text": "The concentrates were microwave-digested in nitric acid and measured by inductively coupled plasma mass spectrometry, and the paper does not state a dry-weight or as-sold basis for the mineral block.",
           "source_keys": [
             "lopezcalabozo2025-vegetable-protein-concentrates"
           ],
           "citation_spans": [
             {
-              "after": "Reporting limits for cadmium were 0.015 µg/kg where sources stated them.",
+              "after": "The concentrates were microwave-digested in nitric acid and measured by inductively coupled plasma mass spectrometry, and the paper does not state a dry-weight or as-sold basis for the mineral block.",
               "source_keys": [
                 "lopezcalabozo2025-vegetable-protein-concentrates"
               ]
@@ -485,15 +1342,15 @@
           "public_context_section": "testing"
         },
         {
-          "text": "A useful lot result names the form, the basis and a quantification limit well below the limit that applies.",
+          "text": "For a 100 µg/kg cadmium maximum, a quantification limit of a few micrograms per kilogram can show the distance to the maximum, and a limit of 200 µg/kg cannot.",
           "source_keys": [
-            "eu-2023-915-contaminants-maximum-levels"
+            "eu-2021-1323-cadmium-foodstuffs-amendment"
           ],
           "citation_spans": [
             {
-              "after": "A useful lot result names the form, the basis and a quantification limit well below the limit that applies.",
+              "after": "For a 100 µg/kg cadmium maximum, a quantification limit of a few micrograms per kilogram can show the distance to the maximum, and a limit of 200 µg/kg cannot.",
               "source_keys": [
-                "eu-2023-915-contaminants-maximum-levels"
+                "eu-2021-1323-cadmium-foodstuffs-amendment"
               ]
             }
           ],
@@ -504,36 +1361,58 @@
         }
       ],
       "presentation": {
-        "text": "Results depend on the method and its reporting limit. Reporting limits for lead were 0.026 µg/kg where sources stated them. Reporting limits for cadmium were 0.015 µg/kg where sources stated them.",
+        "text": "The powders in the Irish study were microwave-digested and measured by sector-field inductively coupled plasma mass spectrometry, with results reported per kilogram of powder as sold. The concentrates were microwave-digested in nitric acid and measured by inductively coupled plasma mass spectrometry, and the paper does not state a dry-weight or as-sold basis for the mineral block. A lot report that a buyer can use names the form, the basis, the analyte, the method, the result, and the quantification limit. For a 100 µg/kg cadmium maximum, a quantification limit of a few micrograms per kilogram can show the distance to the maximum, and a limit of 200 µg/kg cannot. Total chromium is not hexavalent chromium, and total arsenic is not inorganic arsenic, unless the method speciates them.",
         "source_keys": [
-          "lopezcalabozo2025-vegetable-protein-concentrates"
+          "ring2021-ireland-protein-powders-metals",
+          "lopezcalabozo2025-vegetable-protein-concentrates",
+          "eu-2021-1323-cadmium-foodstuffs-amendment"
         ],
         "citation_spans": [
           {
-            "after": "Reporting limits for lead were 0.026 µg/kg where sources stated them.",
+            "after": "The powders in the Irish study were microwave-digested and measured by sector-field inductively coupled plasma mass spectrometry, with results reported per kilogram of powder as sold.",
+            "source_keys": [
+              "ring2021-ireland-protein-powders-metals"
+            ]
+          },
+          {
+            "after": "The concentrates were microwave-digested in nitric acid and measured by inductively coupled plasma mass spectrometry, and the paper does not state a dry-weight or as-sold basis for the mineral block.",
             "source_keys": [
               "lopezcalabozo2025-vegetable-protein-concentrates"
             ]
           },
           {
-            "after": "Reporting limits for cadmium were 0.015 µg/kg where sources stated them.",
+            "after": "For a 100 µg/kg cadmium maximum, a quantification limit of a few micrograms per kilogram can show the distance to the maximum, and a limit of 200 µg/kg cannot.",
             "source_keys": [
-              "lopezcalabozo2025-vegetable-protein-concentrates"
+              "eu-2021-1323-cadmium-foodstuffs-amendment"
             ]
           }
         ],
         "narrative": "overview_and_questions",
         "passages": [
           {
-            "text": "A useful lot result names the form, the basis and a quantification limit well below the limit that applies.",
+            "text": "The concentrate footnotes print detection limits below 0.015 and below 0.026 under the ppb heading and do not repeat the unit, so this page does not treat 0.015 µg/kg as a demonstrated food limit of quantification. The Hungarian plant powders were below detection for arsenic, cadmium, mercury, and lead, and the paper does not print those detection limits, so the non-detect cannot be placed on a number line. Arsenic was not in the Irish method at all, which matters if the product is a pea and rice blend, because rice is the ingredient that usually drives inorganic arsenic. A single composite or a single package is not a year's production, and the Irish design is one analysis per product. Ask for the lot identity on the certificate, the digestion, the basis, and the limit of quantification, and do not accept a target copied from a sales specification as if it were a result.",
             "source_keys": [
-              "eu-2023-915-contaminants-maximum-levels"
+              "lopezcalabozo2025-vegetable-protein-concentrates",
+              "horvath2025-hungary-protein-powders-metals",
+              "ring2021-ireland-protein-powders-metals"
             ],
             "citation_spans": [
               {
-                "after": "A useful lot result names the form, the basis and a quantification limit well below the limit that applies.",
+                "after": "The concentrate footnotes print detection limits below 0.015 and below 0.026 under the ppb heading and do not repeat the unit, so this page does not treat 0.015 µg/kg as a demonstrated food limit of quantification.",
                 "source_keys": [
-                  "eu-2023-915-contaminants-maximum-levels"
+                  "lopezcalabozo2025-vegetable-protein-concentrates"
+                ]
+              },
+              {
+                "after": "The Hungarian plant powders were below detection for arsenic, cadmium, mercury, and lead, and the paper does not print those detection limits, so the non-detect cannot be placed on a number line.",
+                "source_keys": [
+                  "horvath2025-hungary-protein-powders-metals"
+                ]
+              },
+              {
+                "after": "A single composite or a single package is not a year's production, and the Irish design is one analysis per product.",
+                "source_keys": [
+                  "ring2021-ireland-protein-powders-metals"
                 ]
               }
             ]
@@ -545,15 +1424,15 @@
       "id": "procurement",
       "answers": [
         {
-          "text": "The EU sets a maximum of 100 µg/kg cadmium for proteins from pulses (as set for that ingredient row).",
+          "text": "The cadmium row that names proteins from pulses is 0.10 mg/kg, which is 100 µg/kg, in the European amendment that created that split.",
           "source_keys": [
-            "eu-2023-915-contaminants-maximum-levels"
+            "eu-2021-1323-cadmium-foodstuffs-amendment"
           ],
           "citation_spans": [
             {
-              "after": "The EU sets a maximum of 100 µg/kg cadmium for proteins from pulses (as set for that ingredient row).",
+              "after": "The cadmium row that names proteins from pulses is 0.10 mg/kg, which is 100 µg/kg, in the European amendment that created that split.",
               "source_keys": [
-                "eu-2023-915-contaminants-maximum-levels"
+                "eu-2021-1323-cadmium-foodstuffs-amendment"
               ]
             }
           ],
@@ -563,15 +1442,15 @@
           "public_context_section": "procurement"
         },
         {
-          "text": "It sets 1,000 µg/kg cadmium for food supplements (as placed on the market, when the product is sold as a food supplement).",
+          "text": "Pulses other than proteins from pulses are 0.040 mg/kg, which is 40 µg/kg, and that lower row is the seed and not the protein ingredient.",
           "source_keys": [
-            "eu-2023-915-contaminants-maximum-levels"
+            "eu-2021-1323-cadmium-foodstuffs-amendment"
           ],
           "citation_spans": [
             {
-              "after": "It sets 1,000 µg/kg cadmium for food supplements (as placed on the market, when the product is sold as a food supplement).",
+              "after": "Pulses other than proteins from pulses are 0.040 mg/kg, which is 40 µg/kg, and that lower row is the seed and not the protein ingredient.",
               "source_keys": [
-                "eu-2023-915-contaminants-maximum-levels"
+                "eu-2021-1323-cadmium-foodstuffs-amendment"
               ]
             }
           ],
@@ -581,93 +1460,295 @@
           "public_context_section": "procurement"
         },
         {
-          "text": "The EU sets a maximum of 100 µg/kg cadmium for proteins from pulses (as set for that ingredient row).",
-          "source_keys": [],
-          "kind": "unresolved",
+          "text": "Commission Regulation (EU) 2023/915 is the instrument now in force for contaminant maxima, and its food-supplement row sets 1.0 mg/kg cadmium, 1,000 µg/kg, for supplements other than the seaweed and bivalve row.",
+          "source_keys": [
+            "eu-2023-915-contaminants-maximum-levels"
+          ],
+          "citation_spans": [
+            {
+              "after": "Commission Regulation (EU) 2023/915 is the instrument now in force for contaminant maxima, and its food-supplement row sets 1.0 mg/kg cadmium, 1,000 µg/kg, for supplements other than the seaweed and bivalve row.",
+              "source_keys": [
+                "eu-2023-915-contaminants-maximum-levels"
+              ]
+            }
+          ],
+          "kind": "evidence",
           "question_id": "HMI-ING-030",
           "presentation": "record_only",
           "public_context_section": "procurement"
         }
       ],
       "presentation": {
-        "text": "The EU sets a maximum of 100 µg/kg cadmium for proteins from pulses (as set for that ingredient row). It sets 1,000 µg/kg cadmium for food supplements (as placed on the market, when the product is sold as a food supplement).",
+        "text": "The cadmium row that names proteins from pulses is 0.10 mg/kg, which is 100 µg/kg, in the European amendment that created that split. Pulses other than proteins from pulses are 0.040 mg/kg, which is 40 µg/kg, and that lower row is the seed and not the protein ingredient. Commission Regulation (EU) 2023/915 is the instrument now in force for contaminant maxima, and its food-supplement row sets 1.0 mg/kg cadmium, 1,000 µg/kg, for supplements other than the seaweed and bivalve row. A pea protein ingredient in a food is not automatically a food supplement, so the buyer has to know which legal category the lot is placed on the market under. Nickel maxima added in 2024 set 4.0 mg/kg for pulses except dry beans and dry lupins, applying from 1 July 2025, and there is no separate nickel row for proteins from pulses.",
         "source_keys": [
-          "eu-2023-915-contaminants-maximum-levels"
+          "eu-2021-1323-cadmium-foodstuffs-amendment",
+          "eu-2023-915-contaminants-maximum-levels",
+          "eu-2024-1987-nickel-maximum-levels"
         ],
         "citation_spans": [
           {
-            "after": "The EU sets a maximum of 100 µg/kg cadmium for proteins from pulses (as set for that ingredient row).",
+            "after": "The cadmium row that names proteins from pulses is 0.10 mg/kg, which is 100 µg/kg, in the European amendment that created that split.",
+            "source_keys": [
+              "eu-2021-1323-cadmium-foodstuffs-amendment"
+            ]
+          },
+          {
+            "after": "Pulses other than proteins from pulses are 0.040 mg/kg, which is 40 µg/kg, and that lower row is the seed and not the protein ingredient.",
+            "source_keys": [
+              "eu-2021-1323-cadmium-foodstuffs-amendment"
+            ]
+          },
+          {
+            "after": "Commission Regulation (EU) 2023/915 is the instrument now in force for contaminant maxima, and its food-supplement row sets 1.0 mg/kg cadmium, 1,000 µg/kg, for supplements other than the seaweed and bivalve row.",
             "source_keys": [
               "eu-2023-915-contaminants-maximum-levels"
             ]
           },
           {
-            "after": "It sets 1,000 µg/kg cadmium for food supplements (as placed on the market, when the product is sold as a food supplement).",
+            "after": "Nickel maxima added in 2024 set 4.0 mg/kg for pulses except dry beans and dry lupins, applying from 1 July 2025, and there is no separate nickel row for proteins from pulses.",
             "source_keys": [
-              "eu-2023-915-contaminants-maximum-levels"
+              "eu-2024-1987-nickel-maximum-levels"
             ]
           }
         ],
         "narrative": "overview_and_questions",
-        "passages": []
+        "passages": [
+          {
+            "text": "Processed foods that are not themselves a listed category are handled by the concentration and dilution rules of the contaminants regulation, not by inventing a new number. The nickel measured in the two pea concentrates, about 268 to 585 µg/kg, is numerically below 4,000 µg/kg, and that is not a compliance test, because the basis is unstated and the legal row is the pulse. This page did not verify a United States maximum written for pea protein or for proteins from pulses, and the Total Diet Study figures for boiled peas are monitoring results, not limits. A purchasing specification should name lead, cadmium, total arsenic, inorganic arsenic when rice is in the formula, total mercury, and nickel, each with a quantification limit below the maximum that applies. Origin language on a contract is only as good as the lot record that ties the powder to a harvest region, which these retail studies do not provide.",
+            "source_keys": [
+              "eu-2024-1987-nickel-maximum-levels",
+              "lopezcalabozo2025-vegetable-protein-concentrates",
+              "fda2022-tds-elements-fy2018-fy2020"
+            ],
+            "citation_spans": [
+              {
+                "after": "Processed foods that are not themselves a listed category are handled by the concentration and dilution rules of the contaminants regulation, not by inventing a new number.",
+                "source_keys": [
+                  "eu-2024-1987-nickel-maximum-levels"
+                ]
+              },
+              {
+                "after": "The nickel measured in the two pea concentrates, about 268 to 585 µg/kg, is numerically below 4,000 µg/kg, and that is not a compliance test, because the basis is unstated and the legal row is the pulse.",
+                "source_keys": [
+                  "lopezcalabozo2025-vegetable-protein-concentrates",
+                  "eu-2024-1987-nickel-maximum-levels"
+                ]
+              },
+              {
+                "after": "This page did not verify a United States maximum written for pea protein or for proteins from pulses, and the Total Diet Study figures for boiled peas are monitoring results, not limits.",
+                "source_keys": [
+                  "fda2022-tds-elements-fy2018-fy2020"
+                ]
+              }
+            ]
+          }
+        ]
       }
     },
     {
       "id": "product",
       "answers": [
         {
-          "text": "No source in the library converted pea protein concentrations into a verified estimate of intake for a defined population.",
-          "source_keys": [],
-          "kind": "unresolved",
+          "text": "The Irish study estimated hazard indexes for a 70 kg adult at one serving and at three servings a day, using the authors' reference doses.",
+          "source_keys": [
+            "ring2021-ireland-protein-powders-metals"
+          ],
+          "kind": "evidence",
           "question_id": "HMI-ING-031",
           "presentation": "record_only",
-          "public_context_section": "product"
+          "public_context_section": "product",
+          "citation_spans": [
+            {
+              "after": "The Irish study estimated hazard indexes for a 70 kg adult at one serving and at three servings a day, using the authors' reference doses.",
+              "source_keys": [
+                "ring2021-ireland-protein-powders-metals"
+              ]
+            }
+          ]
         },
         {
-          "text": "Concentrations describe the food, not individual risk.",
-          "source_keys": [],
-          "kind": "unresolved",
+          "text": "At one serving a day, no powder in the study had a hazard index above 1.",
+          "source_keys": [
+            "ring2021-ireland-protein-powders-metals"
+          ],
+          "kind": "evidence",
           "question_id": "HMI-ING-032",
           "presentation": "record_only",
-          "public_context_section": "product"
+          "public_context_section": "product",
+          "citation_spans": [
+            {
+              "after": "At one serving a day, no powder in the study had a hazard index above 1.",
+              "source_keys": [
+                "ring2021-ireland-protein-powders-metals"
+              ]
+            }
+          ]
         },
         {
-          "text": "No source in the library converted pea protein concentrations into a verified estimate of intake for a defined population.",
-          "source_keys": [],
-          "kind": "unresolved",
+          "text": "At three servings a day, ten powders did, including one of the two pea powders, a mixed plant powder, a casein powder, and several whey powders.",
+          "source_keys": [
+            "ring2021-ireland-protein-powders-metals"
+          ],
+          "kind": "evidence",
           "question_id": "HMI-ING-033",
           "presentation": "record_only",
-          "public_context_section": "product"
+          "public_context_section": "product",
+          "citation_spans": [
+            {
+              "after": "At three servings a day, ten powders did, including one of the two pea powders, a mixed plant powder, a casein powder, and several whey powders.",
+              "source_keys": [
+                "ring2021-ireland-protein-powders-metals"
+              ]
+            }
+          ]
         }
       ],
       "presentation": {
-        "text": "No source in the library converted pea protein concentrations into a verified estimate of intake for a defined population. Concentrations describe the food, not individual risk.",
-        "source_keys": [],
+        "text": "The Irish study estimated hazard indexes for a 70 kg adult at one serving and at three servings a day, using the authors' reference doses. At one serving a day, no powder in the study had a hazard index above 1. At three servings a day, ten powders did, including one of the two pea powders, a mixed plant powder, a casein powder, and several whey powders. The same paper's cadmium cancer-risk screen at three servings a day included that pea powder among four products the authors still described as within a range they called acceptable, while warning that high intake over a lifetime could raise risk. Those calculations are the authors' model for the packages they bought, and they are not an intake for a child, a different serving size, or a different product.",
+        "source_keys": [
+          "ring2021-ireland-protein-powders-metals"
+        ],
+        "citation_spans": [
+          {
+            "after": "The Irish study estimated hazard indexes for a 70 kg adult at one serving and at three servings a day, using the authors' reference doses.",
+            "source_keys": [
+              "ring2021-ireland-protein-powders-metals"
+            ]
+          },
+          {
+            "after": "At one serving a day, no powder in the study had a hazard index above 1.",
+            "source_keys": [
+              "ring2021-ireland-protein-powders-metals"
+            ]
+          },
+          {
+            "after": "At three servings a day, ten powders did, including one of the two pea powders, a mixed plant powder, a casein powder, and several whey powders.",
+            "source_keys": [
+              "ring2021-ireland-protein-powders-metals"
+            ]
+          },
+          {
+            "after": "The same paper's cadmium cancer-risk screen at three servings a day included that pea powder among four products the authors still described as within a range they called acceptable, while warning that high intake over a lifetime could raise risk.",
+            "source_keys": [
+              "ring2021-ireland-protein-powders-metals"
+            ]
+          }
+        ],
         "narrative": "overview_and_questions",
-        "passages": []
+        "passages": [
+          {
+            "text": "Boiled frozen green peas in the US Total Diet Study are a useful contrast because they are the vegetable, mostly water, eaten as a side dish. Across three composites, cadmium was detected in two, with a reported maximum of 3.2 µg/kg and a reporting limit of 1 µg/kg. Lead was not detected at a reporting limit of 4 µg/kg, total mercury was not detected at 1 µg/kg, and total arsenic was not detected at 3 µg/kg. A 30 gram scoop of dry protein is not a serving of boiled peas, so those non-detects do not describe the powder. Concentration in the food and intake by a person remain separate: this page does not multiply a powder result by a consumption survey to produce a population dose.",
+            "source_keys": [
+              "fda2022-tds-elements-fy2018-fy2020"
+            ],
+            "citation_spans": [
+              {
+                "after": "Boiled frozen green peas in the US Total Diet Study are a useful contrast because they are the vegetable, mostly water, eaten as a side dish.",
+                "source_keys": [
+                  "fda2022-tds-elements-fy2018-fy2020"
+                ]
+              },
+              {
+                "after": "Across three composites, cadmium was detected in two, with a reported maximum of 3.2 µg/kg and a reporting limit of 1 µg/kg.",
+                "source_keys": [
+                  "fda2022-tds-elements-fy2018-fy2020"
+                ]
+              },
+              {
+                "after": "Lead was not detected at a reporting limit of 4 µg/kg, total mercury was not detected at 1 µg/kg, and total arsenic was not detected at 3 µg/kg.",
+                "source_keys": [
+                  "fda2022-tds-elements-fy2018-fy2020"
+                ]
+              }
+            ]
+          },
+          {
+            "text": "The labeled scoop masses in the Irish table are 30 g for pea sample 2 and 10 g for pea sample 12. At those scoops, sample 2 carries 0.666 µg lead and 1.218 µg cadmium, and sample 12 carries 0.225 µg lead and 0.154 µg cadmium. California's oral maximum allowable dose level for lead, for reproductive toxicity, is 0.5 µg/day, so one 30 g scoop of either pea powder is above that daily level and the labeled 10 g scoop of sample 12 is not. The oral cadmium level is 4.1 µg/day, and both labeled scoops are below it (1.218 µg and 0.154 µg). Dividing those daily levels by 0.030 kg gives about 16.7 µg/kg lead and about 137 µg/kg cadmium as the powder concentrations at which one 30 g scoop equals the daily level, which is a scoop check and not a food maximum or a full-day diet.",
+            "source_keys": [
+              "ring2021-ireland-protein-powders-metals",
+              "oehha-lead-prop65-listing",
+              "oehha-cadmium-prop65-madl-2001"
+            ],
+            "citation_spans": [
+              {
+                "after": "The labeled scoop masses in the Irish table are 30 g for pea sample 2 and 10 g for pea sample 12.",
+                "source_keys": [
+                  "ring2021-ireland-protein-powders-metals"
+                ]
+              },
+              {
+                "after": "At those scoops, sample 2 carries 0.666 µg lead and 1.218 µg cadmium, and sample 12 carries 0.225 µg lead and 0.154 µg cadmium.",
+                "source_keys": [
+                  "ring2021-ireland-protein-powders-metals"
+                ]
+              },
+              {
+                "after": "California's oral maximum allowable dose level for lead, for reproductive toxicity, is 0.5 µg/day, so one 30 g scoop of either pea powder is above that daily level and the labeled 10 g scoop of sample 12 is not.",
+                "source_keys": [
+                  "oehha-lead-prop65-listing",
+                  "ring2021-ireland-protein-powders-metals"
+                ]
+              },
+              {
+                "after": "The oral cadmium level is 4.1 µg/day, and both labeled scoops are below it (1.218 µg and 0.154 µg).",
+                "source_keys": [
+                  "oehha-cadmium-prop65-madl-2001",
+                  "ring2021-ireland-protein-powders-metals"
+                ]
+              },
+              {
+                "after": "Dividing those daily levels by 0.030 kg gives about 16.7 µg/kg lead and about 137 µg/kg cadmium as the powder concentrations at which one 30 g scoop equals the daily level, which is a scoop check and not a food maximum or a full-day diet.",
+                "source_keys": [
+                  "oehha-lead-prop65-listing",
+                  "oehha-cadmium-prop65-madl-2001"
+                ]
+              }
+            ]
+          }
+        ]
       }
     },
     {
       "id": "assessment",
       "answers": [
         {
-          "text": "Every source record that names pea protein was decided on its content: 2 occurrence extracted, 2 records in all.",
-          "source_keys": [],
-          "kind": "unresolved",
+          "text": "The 2009 Canadian field-pea article remains closed: the abstract means are cited with that limit, and they are not rows.",
+          "source_keys": [
+            "gawalko2009-canadian-field-peas-trace-elements"
+          ],
+          "kind": "evidence",
           "question_id": "HMI-ING-034",
           "presentation": "record_only",
-          "public_context_section": "assessment"
+          "public_context_section": "assessment",
+          "citation_spans": [
+            {
+              "after": "The 2009 Canadian field-pea article remains closed: the abstract means are cited with that limit, and they are not rows.",
+              "source_keys": [
+                "gawalko2009-canadian-field-peas-trace-elements"
+              ]
+            }
+          ]
         },
         {
-          "text": "The occurrence table renders every extracted result; held values remain visible with their reason.",
-          "source_keys": [],
-          "kind": "unresolved",
+          "text": "A paired seed and isolate from the same lots would show whether protein separation concentrates cadmium, which the legal 40 versus 100 µg/kg split only allows for and does not measure.",
+          "source_keys": [
+            "eu-2021-1323-cadmium-foodstuffs-amendment"
+          ],
+          "kind": "evidence",
           "question_id": "HMI-ING-035",
           "presentation": "record_only",
-          "public_context_section": "assessment"
+          "public_context_section": "assessment",
+          "citation_spans": [
+            {
+              "after": "A paired seed and isolate from the same lots would show whether protein separation concentrates cadmium, which the legal 40 versus 100 µg/kg split only allows for and does not measure.",
+              "source_keys": [
+                "eu-2021-1323-cadmium-foodstuffs-amendment"
+              ]
+            }
+          ]
         },
         {
-          "text": "Every source record that names pea protein was decided on its content: 2 occurrence extracted, 2 records in all.",
+          "text": "Every source record that names pea protein was decided on its content: 3 occurrence extracted, 3 records in all.",
           "source_keys": [],
           "kind": "unresolved",
           "question_id": "HMI-ING-036",
@@ -676,10 +1757,35 @@
         }
       ],
       "presentation": {
-        "text": "Every source record that names pea protein was decided on its content: 2 occurrence extracted, 2 records in all. The occurrence table renders every extracted result; held values remain visible with their reason.",
-        "source_keys": [],
+        "text": "The occurrence rows come from the Irish retail survey, the concentrate mineral table, and the Egyptian fruit table, each read for the pea material the paper actually measured. Plant-protein blends, a unit-unresolved survey of vegan powders, and an Indian labeling study that pooled pea with soy were not entered as pea protein concentrations, because the pea fraction or the unit could not be defended. Industry market reports that are not peer-reviewed and do not publish a concentration table were not used as numbers. Supplier notices and company certificates of analysis were excluded, including any notice written for a single manufacturer's pea protein. The 2009 Canadian field-pea article remains closed: the abstract means are cited with that limit, and they are not rows.",
+        "source_keys": [
+          "gawalko2009-canadian-field-peas-trace-elements"
+        ],
+        "citation_spans": [
+          {
+            "after": "The 2009 Canadian field-pea article remains closed: the abstract means are cited with that limit, and they are not rows.",
+            "source_keys": [
+              "gawalko2009-canadian-field-peas-trace-elements"
+            ]
+          }
+        ],
         "narrative": "overview_and_questions",
-        "passages": []
+        "passages": [
+          {
+            "text": "What is still missing is a multi-lot survey of pea protein isolate with growing origin, basis, and quantification limits for lead, cadmium, inorganic arsenic, and total mercury. A paired seed and isolate from the same lots would show whether protein separation concentrates cadmium, which the legal 40 versus 100 µg/kg split only allows for and does not measure. Two Irish packages and two concentrates are enough to show the ingredient is not free of these elements, and they are not enough for a rated reference or a regional ranking. The Egyptian fruit series is strong evidence about a polluted agricultural district and weak evidence about commercial protein. Corrections to a misread table, a retrieved Canadian full text, or a new origin-linked survey should reopen the affected paragraphs.",
+            "source_keys": [
+              "eu-2021-1323-cadmium-foodstuffs-amendment"
+            ],
+            "citation_spans": [
+              {
+                "after": "A paired seed and isolate from the same lots would show whether protein separation concentrates cadmium, which the legal 40 versus 100 µg/kg split only allows for and does not measure.",
+                "source_keys": [
+                  "eu-2021-1323-cadmium-foodstuffs-amendment"
+                ]
+              }
+            ]
+          }
+        ]
       }
     }
   ],
@@ -702,8 +1808,8 @@
     "aliases": []
   },
   "scope": {
-    "analytes": "Pb, Cd, tHg, Ni, Cr and Sn",
-    "material_form": "Pea protein, powder or ground and Pea protein, as sold",
+    "analytes": "Pb, Cd, tAs, tHg, Ni, Cr and Sn",
+    "material_form": "Garden pea fruit, dry weight, Pea protein, powder or ground and Pea protein, as sold",
     "basis": "As reported; µg/kg; no moisture conversion",
     "geography_market": "Reporting region, purchase market or growing area as each source reports",
     "period": "Source collection years where reported; unreported dates stay unknown",
@@ -721,7 +1827,10 @@
     "screening_ref": "data/evidence/engine/ingredient/pea-protein/evidence-ledger.json",
     "searched_through": "2026-11-03",
     "limitations": [
-      "Existing HMI library only; no new external literature search"
+      "Open literature and the HMI library were searched for pea protein, pea protein isolate, Pisum sativum and pulse-protein metal studies.",
+      "Supplier notices and company certificates were excluded.",
+      "The 2009 Canadian field-pea article is closed and was not table-extracted.",
+      "Clean Label Project market reports are not peer-reviewed and were not used as concentrations."
     ],
     "unresolved_access": []
   },
@@ -730,48 +1839,104 @@
   },
   "retain_history_only": true,
   "quick_read": {
-    "text": "Pea protein in the HMI library has 18 reported results for lead, cadmium, total mercury, nickel, chromium and tin from 2 sources.",
+    "text": "Pea protein here is the powdered protein fraction, not the whole pea and not a blend that only lists pea among other ingredients. Two retail pea powders bought in Ireland in 2016 and 2017 contained 15.4 and 40.6 µg/kg cadmium and 22.2 and 22.5 µg/kg lead, on the powder as sold. Total mercury in those powders was 4.3 µg/kg and below 0.2 µg/kg, and arsenic was not measured. Two anonymized pea concentrates had nickel at 268.27 and 585.49 µg/kg and total chromium at 78.97 and 114.11 µg/kg, with cadmium and lead not detected under a ppb heading whose footnotes do not restate the unit. The European Union sets 100 µg/kg cadmium for proteins from pulses and 40 µg/kg for other pulses, so the protein row is the one that matches this ingredient.",
     "source_keys": [
       "ring2021-ireland-protein-powders-metals",
-      "lopezcalabozo2025-vegetable-protein-concentrates"
+      "lopezcalabozo2025-vegetable-protein-concentrates",
+      "eu-2021-1323-cadmium-foodstuffs-amendment"
     ],
     "citation_spans": [
       {
-        "after": "Pea protein in the HMI library has 18 reported results for lead, cadmium, total mercury, nickel, chromium and tin from 2 sources.",
+        "after": "Two retail pea powders bought in Ireland in 2016 and 2017 contained 15.4 and 40.6 µg/kg cadmium and 22.2 and 22.5 µg/kg lead, on the powder as sold.",
         "source_keys": [
-          "ring2021-ireland-protein-powders-metals",
+          "ring2021-ireland-protein-powders-metals"
+        ]
+      },
+      {
+        "after": "Total mercury in those powders was 4.3 µg/kg and below 0.2 µg/kg, and arsenic was not measured.",
+        "source_keys": [
+          "ring2021-ireland-protein-powders-metals"
+        ]
+      },
+      {
+        "after": "Two anonymized pea concentrates had nickel at 268.27 and 585.49 µg/kg and total chromium at 78.97 and 114.11 µg/kg, with cadmium and lead not detected under a ppb heading whose footnotes do not restate the unit.",
+        "source_keys": [
           "lopezcalabozo2025-vegetable-protein-concentrates"
+        ]
+      },
+      {
+        "after": "The European Union sets 100 µg/kg cadmium for proteins from pulses and 40 µg/kg for other pulses, so the protein row is the one that matches this ingredient.",
+        "source_keys": [
+          "eu-2021-1323-cadmium-foodstuffs-amendment"
         ]
       }
     ],
+    "layout": "prose",
     "facets": [
       {
         "label": "Metals measured",
-        "text": "Lead, cadmium, total mercury, nickel, chromium and tin, in 18 results from 2 sources.",
+        "text": "Metals measured in the powders are lead, cadmium, total mercury, nickel, total chromium and tin, and the fruit series adds total arsenic. The Irish powders are single retail packages, so each metal is one value per package rather than a mean of many lots. The concentrates report means and standard deviations from duplicate purchases, not a market distribution. Arsenic and mercury were not part of the concentrate mineral table, so a blank there is an unmeasured cell. Garden pea fruit from Egypt is a different form in the table, reported on a dry-weight basis after oven drying, and it is not a protein powder.",
         "source_keys": [
           "ring2021-ireland-protein-powders-metals",
-          "lopezcalabozo2025-vegetable-protein-concentrates"
+          "lopezcalabozo2025-vegetable-protein-concentrates",
+          "galal2021-heavy-metals-pisum-sativum"
         ],
         "citation_spans": [
           {
-            "after": "Lead, cadmium, total mercury, nickel, chromium and tin, in 18 results from 2 sources.",
+            "after": "The Irish powders are single retail packages, so each metal is one value per package rather than a mean of many lots.",
             "source_keys": [
-              "ring2021-ireland-protein-powders-metals",
+              "ring2021-ireland-protein-powders-metals"
+            ]
+          },
+          {
+            "after": "The concentrates report means and standard deviations from duplicate purchases, not a market distribution.",
+            "source_keys": [
               "lopezcalabozo2025-vegetable-protein-concentrates"
+            ]
+          },
+          {
+            "after": "Arsenic and mercury were not part of the concentrate mineral table, so a blank there is an unmeasured cell.",
+            "source_keys": [
+              "lopezcalabozo2025-vegetable-protein-concentrates"
+            ]
+          },
+          {
+            "after": "Garden pea fruit from Egypt is a different form in the table, reported on a dry-weight basis after oven drying, and it is not a protein powder.",
+            "source_keys": [
+              "galal2021-heavy-metals-pisum-sativum"
             ]
           }
         ]
       },
       {
         "label": "Main drivers",
-        "text": "Form, basis and where the pea protein was sampled; reporting limits decide how many results are non-detects.",
+        "text": "Main drivers are the form, the basis, and whether the sample is a retail powder, a concentrate, or pea fruit from an industrial district. Within one Irish survey, the two pea powders sat above most whey powders for cadmium and below the two mixed plant powders. Lead in those pea powders was about 22 µg/kg, while whey lead in the same study ran from 0.8 to 88.4 µg/kg, so pea was not the high-lead tail. Polluted-site pea fruit in Egypt carried far more cadmium and lead than unpolluted-site fruit from the same study, which shows soil and site can dominate the plant. Purchase country is not growing origin: the Irish and Spanish samples do not name where the peas were grown.",
         "source_keys": [
           "ring2021-ireland-protein-powders-metals",
+          "galal2021-heavy-metals-pisum-sativum",
           "lopezcalabozo2025-vegetable-protein-concentrates"
         ],
         "citation_spans": [
           {
-            "after": "Form, basis and where the pea protein was sampled; reporting limits decide how many results are non-detects.",
+            "after": "Within one Irish survey, the two pea powders sat above most whey powders for cadmium and below the two mixed plant powders.",
+            "source_keys": [
+              "ring2021-ireland-protein-powders-metals"
+            ]
+          },
+          {
+            "after": "Lead in those pea powders was about 22 µg/kg, while whey lead in the same study ran from 0.8 to 88.4 µg/kg, so pea was not the high-lead tail.",
+            "source_keys": [
+              "ring2021-ireland-protein-powders-metals"
+            ]
+          },
+          {
+            "after": "Polluted-site pea fruit in Egypt carried far more cadmium and lead than unpolluted-site fruit from the same study, which shows soil and site can dominate the plant.",
+            "source_keys": [
+              "galal2021-heavy-metals-pisum-sativum"
+            ]
+          },
+          {
+            "after": "Purchase country is not growing origin: the Irish and Spanish samples do not name where the peas were grown.",
             "source_keys": [
               "ring2021-ireland-protein-powders-metals",
               "lopezcalabozo2025-vegetable-protein-concentrates"
@@ -781,17 +1946,70 @@
       },
       {
         "label": "Practical framing",
-        "text": "The EU sets a maximum of 100 µg/kg cadmium for proteins from pulses (as set for that ingredient row).",
+        "text": "Practical framing starts with the limit that matches the legal category of the lot, not with a single number borrowed from whole peas. Proteins from pulses are at 100 µg/kg cadmium in the European table, and pulses other than that protein row are at 40 µg/kg. A food supplement has a separate cadmium maximum of 1,000 µg/kg as placed on the market, which applies when the product is sold as a supplement. Nickel in pulses other than dry beans and lupins is 4,000 µg/kg from 1 July 2025, and that row is the pulse, not a protein-from-pulses row. A useful lot report names the form, the basis, the method, and a quantification limit well below the maximum that applies.",
         "source_keys": [
-          "eu-2023-915-contaminants-maximum-levels"
+          "eu-2021-1323-cadmium-foodstuffs-amendment",
+          "eu-2023-915-contaminants-maximum-levels",
+          "eu-2024-1987-nickel-maximum-levels"
         ],
         "citation_spans": [
           {
-            "after": "The EU sets a maximum of 100 µg/kg cadmium for proteins from pulses (as set for that ingredient row).",
+            "after": "Proteins from pulses are at 100 µg/kg cadmium in the European table, and pulses other than that protein row are at 40 µg/kg.",
+            "source_keys": [
+              "eu-2021-1323-cadmium-foodstuffs-amendment"
+            ]
+          },
+          {
+            "after": "A food supplement has a separate cadmium maximum of 1,000 µg/kg as placed on the market, which applies when the product is sold as a supplement.",
             "source_keys": [
               "eu-2023-915-contaminants-maximum-levels"
             ]
+          },
+          {
+            "after": "Nickel in pulses other than dry beans and lupins is 4,000 µg/kg from 1 July 2025, and that row is the pulse, not a protein-from-pulses row.",
+            "source_keys": [
+              "eu-2024-1987-nickel-maximum-levels"
+            ]
           }
+        ]
+      }
+    ]
+  },
+  "uncertainty": {
+    "text": "Arsenic was not measured in the retail powders or the concentrates, and the fruit arsenic result is total arsenic on dry garden pea, not inorganic arsenic in a powder. The concentrate non-detects for cadmium and lead cannot be read as a food concentration until the footnote unit is restated. Growing origin is not on the Irish or Spanish packages, and the Canadian seed baseline is an abstract without its sample table. No paired seed and isolate measurement shows whether protein separation concentrates cadmium, so the European 40 versus 100 µg/kg split is a legal allowance and not a process factor. Two retail packages, two concentrates, and one industrial fruit comparison are not a rated reference and not a ranking of Canada, China, or the European Union.",
+    "source_keys": [
+      "galal2021-heavy-metals-pisum-sativum",
+      "ring2021-ireland-protein-powders-metals",
+      "lopezcalabozo2025-vegetable-protein-concentrates",
+      "gawalko2009-canadian-field-peas-trace-elements",
+      "eu-2021-1323-cadmium-foodstuffs-amendment"
+    ],
+    "citation_spans": [
+      {
+        "after": "Arsenic was not measured in the retail powders or the concentrates, and the fruit arsenic result is total arsenic on dry garden pea, not inorganic arsenic in a powder.",
+        "source_keys": [
+          "galal2021-heavy-metals-pisum-sativum",
+          "ring2021-ireland-protein-powders-metals",
+          "lopezcalabozo2025-vegetable-protein-concentrates"
+        ]
+      },
+      {
+        "after": "The concentrate non-detects for cadmium and lead cannot be read as a food concentration until the footnote unit is restated.",
+        "source_keys": [
+          "lopezcalabozo2025-vegetable-protein-concentrates"
+        ]
+      },
+      {
+        "after": "Growing origin is not on the Irish or Spanish packages, and the Canadian seed baseline is an abstract without its sample table.",
+        "source_keys": [
+          "gawalko2009-canadian-field-peas-trace-elements",
+          "ring2021-ireland-protein-powders-metals"
+        ]
+      },
+      {
+        "after": "No paired seed and isolate measurement shows whether protein separation concentrates cadmium, so the European 40 versus 100 µg/kg split is a legal allowance and not a process factor.",
+        "source_keys": [
+          "eu-2021-1323-cadmium-foodstuffs-amendment"
         ]
       }
     ]
