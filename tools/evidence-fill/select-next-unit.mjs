@@ -1,7 +1,10 @@
-// Pick the next ingredient deposit that is marked DEPOSITED.
-// LIVE, BUILT, and later ledger states are not eligible. One unit per run:
-// the lowest id that still needs a page, skipping units named in --skip
-// (open evidence-fill branches).
+// Pick the next ingredient or product deposit for one evidence fill.
+//
+// When <deposits root>/graph/next_work.json exists, the first item with
+// builder hmi-evidence-fill, an empty blocked_by list, and an id outside
+// --skip wins. Otherwise the lowest DEPOSITED ingredient or product id that
+// still needs a page is used. LIVE, BUILT, and later ledger states are not
+// eligible. --skip names open evidence-fill branches.
 //
 // The deposits repo is private and its ledger shape has varied, so this reader
 // accepts a root ledger (json, jsonl, csv, or a markdown table) and the same
@@ -108,9 +111,11 @@ function kindOf(record, id) {
 }
 
 function slugOf(record, id) {
-  const direct = asText(record.slug || record.ingredient_slug || record.ingredient || record.commodity).toLowerCase()
+  const direct = asText(
+    record.slug || record.ingredient_slug || record.ingredient || record.product_slug || record.product || record.commodity,
+  ).toLowerCase()
   if (SLUG.test(direct) && !direct.startsWith("hmi-")) return direct
-  const fromPath = pageOf(record).match(/(?:^|\/)ingredients\/([a-z0-9-]+)(?:\.md)?\/?$/i)
+  const fromPath = pageOf(record).match(/(?:^|\/)(?:ingredients|products)\/([a-z0-9-]+)(?:\.md)?\/?$/i)
   if (fromPath) return fromPath[1].toLowerCase()
   return slugFromIngredientId(id)
 }
@@ -348,10 +353,73 @@ export function collectUnits(root) {
   return [...map.values()]
 }
 
+const PAGE_KINDS = new Set(["ingredient", "product"])
+
+function skipIdsOf(skip) {
+  return new Set((skip || []).map((id) => String(id).trim().toUpperCase()).filter(Boolean))
+}
+
+function blockedByEmpty(value) {
+  if (value == null) return true
+  if (Array.isArray(value)) {
+    return !value.some((item) => {
+      if (item == null) return false
+      if (typeof item === "string") return asText(item) !== ""
+      if (typeof item === "object") return asText(item.id || item.unit || item.unit_id || "") !== ""
+      return true
+    })
+  }
+  if (typeof value === "string") return asText(value) === ""
+  if (typeof value === "object") return Object.keys(value).length === 0
+  return false
+}
+
+function workItems(parsed) {
+  if (Array.isArray(parsed)) return parsed
+  if (!parsed || typeof parsed !== "object") return []
+  for (const key of ["items", "work", "next_work", "queue", "units", "nodes", "jobs"]) {
+    if (Array.isArray(parsed[key])) return parsed[key]
+  }
+  return []
+}
+
+function pickGraphUnit(root, units, { skip = [] } = {}) {
+  const file = path.join(root, "graph", "next_work.json")
+  if (!fs.existsSync(file)) return null
+  let parsed
+  try {
+    parsed = JSON.parse(stripBom(fs.readFileSync(file, "utf8")))
+  } catch {
+    return null
+  }
+  const items = workItems(parsed)
+  if (!items.length) return null
+  const byId = new Map(units.map((unit) => [unit.id, unit]))
+  const skipIds = skipIdsOf(skip)
+  for (const item of items) {
+    if (!item || typeof item !== "object" || Array.isArray(item)) continue
+    const fields = normalizeKeys(item)
+    if (asText(fields.builder) !== "hmi-evidence-fill") continue
+    const blocked = fields.blocked_by !== undefined ? fields.blocked_by : fields.blockedby
+    if (!blockedByEmpty(blocked)) continue
+    const id = asText(fields.id || fields.unit || fields.unit_id || fields.code).toUpperCase()
+    if (!UNIT_ID.test(id) || skipIds.has(id)) continue
+    const ledger = byId.get(id)
+    const kind = kindOf(fields, id) || ledger?.kind || null
+    const slug = slugOf(fields, id) || ledger?.slug || null
+    if (!slug) continue
+    const recordDir = asText(fields.dir || fields.deposit_dir || fields.folder)
+    const dir = recordDir || ledger?.dir || path.join("deposits", id)
+    const status = normalizeStatus(fields.status || fields.state || fields.mark) || ledger?.status || "DEPOSITED"
+    return { id, status, kind, slug, dir, rank: ledger?.rank ?? 0 }
+  }
+  return null
+}
+
 function pickUnit(units, { skip = [] } = {}) {
-  const skipIds = new Set(skip.map((id) => String(id).trim().toUpperCase()).filter(Boolean))
+  const skipIds = skipIdsOf(skip)
   const eligible = units
-    .filter((unit) => unit.status === "DEPOSITED" && unit.kind === "ingredient" && unit.slug && !skipIds.has(unit.id))
+    .filter((unit) => unit.status === "DEPOSITED" && PAGE_KINDS.has(unit.kind) && unit.slug && !skipIds.has(unit.id))
     .sort((a, b) => a.id.localeCompare(b.id, "en", { numeric: true }))
   const chosen = eligible[0]
   if (!chosen) return null
@@ -360,7 +428,8 @@ function pickUnit(units, { skip = [] } = {}) {
 }
 
 export function selectNextUnit(root, options) {
-  return pickUnit(collectUnits(root), options)
+  const units = collectUnits(root)
+  return pickGraphUnit(root, units, options) || pickUnit(units, options)
 }
 
 function seenCounts(units) {
@@ -383,15 +452,15 @@ function main() {
     process.exit(2)
   }
   const units = collectUnits(root)
-  const unit = pickUnit(units, { skip })
+  const unit = selectNextUnit(root, { skip })
   const payload = unit
-    ? { unit: unit.id, slug: unit.slug, dir: unit.dir, status: unit.status }
-    : { unit: null, slug: "", dir: "", status: "" }
-  if (!unit) console.error(`No deposited ingredient to fill. Units seen: ${JSON.stringify(seenCounts(units))}`)
+    ? { unit: unit.id, slug: unit.slug, dir: unit.dir, status: unit.status, kind: unit.kind || "" }
+    : { unit: null, slug: "", dir: "", status: "", kind: "" }
+  if (!unit) console.error(`No deposited ingredient or product to fill. Units seen: ${JSON.stringify(seenCounts(units))}`)
   console.log(JSON.stringify(payload))
   const output = process.env.GITHUB_OUTPUT
   if (output) {
-    fs.appendFileSync(output, `unit=${payload.unit ?? ""}\nslug=${payload.slug}\ndir=${payload.dir}\n`)
+    fs.appendFileSync(output, `unit=${payload.unit ?? ""}\nslug=${payload.slug}\ndir=${payload.dir}\nkind=${payload.kind}\n`)
   }
 }
 

@@ -372,6 +372,24 @@ export function loadBaseline(repoRoot = process.cwd()) {
   return JSON.parse(fs.readFileSync(file, "utf8"))
 }
 
+export function pageStructureFailures(repoRoot, pageRel) {
+  const match = /^wiki\/(ingredients|products|metals)\/([^/]+)\.md$/.exec(pageRel)
+  if (!match || match[2] === "index") return null
+  const abs = path.join(repoRoot, pageRel)
+  if (!fs.existsSync(abs)) return null
+  const content = fs.readFileSync(abs, "utf8")
+  if (/^page_contract_version:\s*['"]?1\.0\.0['"]?\s*$/m.test(frontmatter(content))) return null
+  const type = match[1] === "ingredients" ? "ingredient" : match[1] === "products" ? "product" : "metal"
+  const slug = match[2]
+  const stub =
+    type === "ingredient"
+      ? isIngredientStub(content)
+      : type === "product"
+        ? isProductStub(slug, content, productSourceCounts(repoRoot))
+        : false
+  return auditPage(type, content, { stub })
+}
+
 export function newViolations(scan, baseline) {
   const added = {}
   for (const check of CHECKS) {
