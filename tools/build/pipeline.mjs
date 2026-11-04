@@ -153,6 +153,11 @@ async function main() {
   const heap = process.env.VERCEL === "1" ? "4096" : process.env.HMI_PREBUILD_HEAP || "8192"
     env.NODE_OPTIONS = `--max-old-space-size=${heap}`
   }
+  if (onlyAudits && !env.NODE_OPTIONS) {
+    // --only-audits used to run with node's default ~2 GB heap; audit-link-integrity
+    // runs out of it on the full wiki, so give the audit children the same room.
+    env.NODE_OPTIONS = `--max-old-space-size=${process.env.HMI_AUDIT_HEAP || "4096"}`
+  }
   for (const step of selected) {
     if (step.needsPublic && !fs.existsSync("public")) {
       console.error(`[build] ${step.run.join(" ")} needs the built public/ directory`)
