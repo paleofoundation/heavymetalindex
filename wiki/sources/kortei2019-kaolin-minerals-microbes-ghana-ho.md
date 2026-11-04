@@ -33,7 +33,7 @@ updated: 2026-11-04
 ingest: HMI-FILL-0002
 ---
 
-# Kortei et al. 2019 — Elemental minerals and microbes in kaolin clay, Ho municipality, Ghana
+# Kortei et al. 2019: Elemental minerals and microbes in kaolin clay, Ho municipality, Ghana
 
 ## Overview
 
@@ -116,7 +116,7 @@ Microbiome: Aspergillus spp. isolated from Ho market baked clay; Mucor spp. from
 
 Open access, CC BY license. Full text retrieved from PubMed Central (PMC6961938). SHA-256 verified against MANIFEST.csv for HMI-FILL-0002. No retraction flag. The Pan African Medical Journal is published in partnership with the African Field Epidemiology Network (AFENET). Ethical clearance from Research and Ethics Committee, University of Health and Allied Sciences, Ho, Ghana.
 
-## Wiki pages updated on ingest
+## Related evidence
 
 - [[ingredients/clay-geophagy]]
 - [[metals/lead]]

@@ -33,7 +33,7 @@ updated: 2026-11-04
 ingest: HMI-FILL-0002
 ---
 
-# Davies 2023 — Current status of research and gaps in geophagic practices in Africa
+# Davies 2023: Current status of research and gaps in geophagic practices in Africa
 
 ## Overview
 
@@ -89,13 +89,13 @@ Courses: The table of aetiology theories (Table 1 of source) is well-structured 
 
 App: No primary concentration data applicable to the contamination profile.
 
-Microbiome: The review (Figure 6 of source) illustrates how soil microbiota in pre-industrial cycles can directly influence human intestinal microbiome through contact. This soil-to-gut microbial pathway is distinct from, and additional to, the metal exposure pathway. Relevant to [[microbiome/metal-gut-axis]].
+Microbiome: The review (Figure 6 of source) illustrates how soil microbiota in pre-industrial cycles can directly influence human intestinal microbiome through contact. This soil-to-gut microbial pathway is distinct from, and additional to, the metal exposure pathway. It is relevant to the metal-gut relationship.
 
 ## Provenance notes
 
 Open access, CC BY license. Full text retrieved from PubMed Central (PMC9987423). SHA-256 verified against MANIFEST.csv for HMI-FILL-0002. No retraction flag. DOI resolves. Single author; no conflicts of interest declared.
 
-## Wiki pages updated on ingest
+## Related evidence
 
 - [[ingredients/clay-geophagy]]
 - [[metals/lead]]

@@ -1,7 +1,7 @@
 ---
 type: source
 cite_key: bonglaisin2022-geophagia-benefits-toxicity-review
-title: "Geophagia: Benefits and potential toxicity to human—A review"
+title: "Geophagia: Benefits and potential toxicity to human (a review)"
 authors: [Bonglaisin JN, Kunsoan NB, Bonny P, Matchawe C, Tata BN, Nkeunen G, Mbofung CM]
 year: 2022
 publication: "Frontiers in Public Health"
@@ -33,7 +33,7 @@ updated: 2026-11-04
 ingest: HMI-FILL-0002
 ---
 
-# Bonglaisin et al. 2022 — Geophagia: Benefits and potential toxicity to human (review)
+# Bonglaisin et al. 2022: Geophagia: Benefits and potential toxicity to human (a review)
 
 ## Overview
 
@@ -89,13 +89,13 @@ Courses: Useful for the geophagy exposure module. Illustrates the mechanistic pa
 
 App: No primary concentration data applicable to the contamination profile.
 
-Microbiome: The review notes that kaolin coats the gastrointestinal tract, potentially protecting against harmful bacteria. However, geophagic soils can harbor Clostridium tetani, helminths, and pathogenic species including E. coli and Salmonella (source p. 4). These dual effects on intestinal microbial environment are relevant to [[microbiome/metal-gut-axis]] if developed.
+Microbiome: The review notes that kaolin coats the gastrointestinal tract, potentially protecting against harmful bacteria. However, geophagic soils can harbor Clostridium tetani, helminths, and pathogenic species including E. coli and Salmonella (source p. 4). These dual effects on the intestinal microbial environment are relevant to the metal-gut relationship.
 
 ## Provenance notes
 
 Open access, CC BY license. Full text retrieved from PubMed Central (PMC9360771). SHA-256 verified against MANIFEST.csv for HMI-FILL-0002. No retraction flag in Europe PMC or Crossref.
 
-## Wiki pages updated on ingest
+## Related evidence
 
 - [[ingredients/clay-geophagy]]
 - [[metals/lead]]

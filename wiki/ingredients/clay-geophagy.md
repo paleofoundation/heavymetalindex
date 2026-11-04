@@ -10,7 +10,6 @@ provisional_scaffold: false
 literature_scope: thin
 sources: 5
 updated: 2026-11-04
-page_contract_version: 1.0.0
 evidence_coverage: partial
 description: >-
   Lead, arsenic, nickel and other metals in geophagic clay (kaolin) consumed during pregnancy: measurement data, routes of exposure, bioavailability considerations, and microbial co-exposure from West African studies.
@@ -40,7 +39,7 @@ contamination_profile:
     last_reviewed: 2026-11-04
     basis: dry-weight
     notes: >-
-      Kortei et al. 2019 (Ho, Ghana): mean arsenic 1.63 +/- 0.03 microg/kg (1.63 ppb) by AAS. This value is notably low relative to other Ghanaian clay studies cited in the same paper: Nkansah et al. reported 218-271 mg/kg (218,000-271,000 ppb) from Kumasi metropolis; Doe et al. reported 2.7-22.74 microg/g (2,700,000-22,740,000 ppb) from Greater Accra and Kumasi. The inter-study range spans many orders of magnitude, precluding a pooled estimate. Speciation (inorganic vs organic arsenic) is not reported by any source in this unit.
+      Kortei et al. 2019 (Ho, Ghana): mean arsenic 1.63 +/- 0.03 microg/kg (1.63 ppb) by AAS. This value is notably low relative to other Ghanaian clay studies cited in the same paper: Nkansah et al. reported 218-271 mg/kg (218,000-271,000 ppb) from Kumasi metropolis; Doe et al. reported 2.7-22.74 microg/g (2,700-22,740 ppb; 1 microg/g = 1 mg/kg) from Greater Accra and Kumasi. The inter-study range spans many orders of magnitude, precluding a pooled estimate. Speciation (inorganic vs organic arsenic) is not reported by any source in this unit.
   Cd:
     status: pending
     typical_ppb:
@@ -130,8 +129,18 @@ contamination_profile:
     last_reviewed: null
     basis: null
     notes: Not measured in any source in this unit.
-updated: 2026-11-04
 evidence_scope: populated-thin
+quick_read:
+  summary: >-
+    Geophagic clay consumed during pregnancy carries lead, arsenic, and nickel at concentrations that vary by mining site and by how the clay is processed.
+  points:
+    - label: Metals of concern
+      text: Lead, arsenic, nickel, cadmium, and manganese, with very high variation between sites.
+    - label: Main drivers
+      text: Mining geology, proximity to cities or farms, and whether the clay is baked before sale.
+    - label: Practical framing
+      text: Measurements exist, but sample counts and method limits are too thin for a pooled estimate.
+  sources_line: This page draws on 5 peer-reviewed sources. The complete citation list is at the bottom of the page.
 ---
 
 # Clay and geophagy
@@ -139,16 +148,17 @@ evidence_scope: populated-thin
 <!-- BEGIN: hmi-opening -->
 <div class="hmi-quick-read">
   <div class="hmi-quick-read-label">Quick read</div>
-  <p>Geophagic clay (commonly kaolin) consumed during pregnancy contains lead, arsenic, nickel, manganese, and other metals whose concentrations vary enormously by mining site and processing method. Available studies are geographically concentrated in West Africa and the range of measured values spans several orders of magnitude, so no reliable pooled central estimate exists for lead or arsenic in geophagic clay as a category. Microbial co-exposure (Bacillus, Pseudomonas, Mucor, Aspergillus) is documented across both unbaked and baked clay from the same sources.</p>
+  <p>Geophagic clay consumed during pregnancy carries lead, arsenic, and nickel at concentrations that vary by mining site and by how the clay is processed.</p>
   <ul>
-    <li><strong>Metals of concern:</strong> lead, arsenic, nickel, cadmium, and manganese, with extremely high inter-site variability.</li>
-    <li><strong>Main drivers:</strong> mining site geology, urban versus agricultural proximity, and baking or processing of clay before sale.</li>
-    <li><strong>Practical framing:</strong> this page draws on 3 peer-reviewed sources from this deposit plus 2 previously indexed sources; the contamination profile is populated but confidence is low pending studies with adequate sample counts, LOD/LOQ, and CRM data.</li>
+    <li><strong>Metals of concern:</strong> Lead, arsenic, nickel, cadmium, and manganese, with very high variation between sites.</li>
+    <li><strong>Main drivers:</strong> Mining geology, proximity to cities or farms, and whether the clay is baked before sale.</li>
+    <li><strong>Practical framing:</strong> Measurements exist, but sample counts and method limits are too thin for a pooled estimate.</li>
   </ul>
 </div>
 
 This page draws on 5 peer-reviewed sources. The complete citation list is at the bottom of the page.
 <!-- END: hmi-opening -->
+
 
 ## What counts as geophagic clay
 
@@ -158,7 +168,15 @@ Consumed materials are diverse. In Ghana, processed kaolin sold ready for consum
 
 Mineralogically, kaolin is composed predominantly of kaolinite and associated minerals formed from feldspar alteration. Pure kaolin (Table 1 of Bonglaisin et al. 2022) is composed of aluminum oxide (37-39%), silica (45-47%), ferric oxide (0.4-0.5%), titanium oxide (1.9-2.1%), calcium oxide (0.4-0.7%), and sodium oxide (0.6-0.7%), with 12-14% loss on ignition.[^1] Actual consumed clay varies from this composition depending on geological source and admixture with other soil minerals.
 
-This page does not cover cosmetic clay or bentonite clay used as processing aids. Those are addressed at [[ingredients/cosmetic-clay]].
+## Why geophagic clay accumulates metals
+
+Geophagic clay acquires heavy metal contamination through the geological source of the clay deposit and through subsequent handling and distribution pathways.
+
+The primary geological pathway is proximity of the clay deposit to natural or anthropogenic metal sources. Kaolin forms from feldspar alteration in weathering zones, and the residual clay retains whatever metal load was present in the parent rock or in soil solution during formation. Agricultural soils typically contain 1-135 mg/kg lead; urban soils near traffic, industrial sources, and lead-based paint in major African cities (Lagos, Douala) have been documented at more than 1,000 mg/kg.[^1] Kaolin mined from deposits whose drainage crosses cultivated farm fields on a slope above the mine absorbs leached lead from those fields.[^1] Similarly, kaolin near arsenic-rich parent rock or near mining waste from gold and tin extraction can carry elevated arsenic.
+
+The secondary pathway is handling and market distribution. Clay is typically sold in unbaked and baked forms; the baking process reduces but does not eliminate microbial contamination and does not alter the metal content of the clay. Market sampling in Ho municipality, Ghana found comparable metal levels across ore, retail unbaked, retail baked, and market baked categories.[^3]
+
+A third pathway relevant to uptake is gastric chemistry. At stomach pH (1-2), lead and other metals held in kaolin by electrostatic forces are released into ionic form, which is the form available for intestinal absorption.[^1] Bioaccessibility studies using in vitro gastric extraction (PBET protocols) are referenced in Davies 2023 but have not been performed on the specific Ghanaian clay sources measured in Kortei et al. 2019.[^2]
 
 ## Heavy metal contamination profile
 
@@ -180,7 +198,7 @@ The bioavailability of lead from kaolin depends on the ionic form in which lead 
 
 Arsenic measurements in geophagic clay from Ghana show extreme inter-study variability.
 
-Kortei et al. 2019 measured mean arsenic of 1.63 +/- 0.03 microg/kg (1.63 ppb) in kaolin samples from Anfoega, Ho municipality, Ghana.[^3] This value is two to seven orders of magnitude lower than values cited from other Ghanaian clay studies in the same paper: Nkansah et al. reported 218-271 mg/kg (218,000,000-271,000,000 ppb when converted) from Kumasi metropolis clay samples; Doe et al. reported arsenic of 2.7-22.74 microg/g (equivalent to 2.7-22.74 mg/g or 2,700-22,740 mg/kg) in nine clay samples from Greater Accra and Kumasi.[^3]
+Kortei et al. 2019 measured mean arsenic of 1.63 +/- 0.03 microg/kg (1.63 ppb) in kaolin samples from Anfoega, Ho municipality, Ghana.[^3] This value is about three to five orders of magnitude lower than values cited from other Ghanaian clay studies in the same paper: Nkansah et al. reported 218-271 mg/kg (218,000-271,000 ppb) from Kumasi metropolis clay samples; Doe et al. reported arsenic of 2.7-22.74 microg/g (2.7-22.74 mg/kg, or 2,700-22,740 ppb) in nine clay samples from Greater Accra and Kumasi.[^3]
 
 The source notes that the arsenic values obtained in Kortei et al. 2019 were slightly higher than the finding of 0.0 (nil) mg/kg arsenic reported in an Accra clay study, and that the Doe et al. range of 2.7-22.74 microg/g was substantially above Kortei et al.'s own result.[^3] The disparity likely reflects geological heterogeneity between the Anfoega Volta Region source (a relatively clean kaolin deposit) and the more contaminated urban or peri-urban soils in the Kumasi and Accra catchment areas.
 
@@ -204,21 +222,13 @@ Kortei et al. 2019 measured the following macro and micro nutrients in Ho munici
 
 Neither cadmium nor mercury was measured as a primary outcome in Kortei et al. 2019 or in the Davies 2023 review. The Bonglaisin 2022 review cites a companion study (Bonglaisin et al. 2015 from Cameroon) that found high values of cadmium and mercury in market clay in Cameroon, with cadmium and mercury bio-accumulation in the liver documented.[^1] Specific values from that study are not reproduced in Bonglaisin 2022 and require the primary citation for use as evidence.
 
-## How metals reach geophagic clay
-
-Geophagic clay acquires heavy metal contamination through the geological source of the clay deposit and through subsequent handling and distribution pathways.
-
-The primary geological pathway is proximity of the clay deposit to natural or anthropogenic metal sources. Kaolin forms from feldspar alteration in weathering zones, and the residual clay retains whatever metal load was present in the parent rock or in soil solution during formation. Agricultural soils typically contain 1-135 mg/kg lead; urban soils near traffic, industrial sources, and lead-based paint in major African cities (Lagos, Douala) have been documented at more than 1,000 mg/kg.[^1] Kaolin mined from deposits whose drainage crosses cultivated farm fields on a slope above the mine absorbs leached lead from those fields.[^1] Similarly, kaolin near arsenic-rich parent rock or near mining waste from gold and tin extraction can carry elevated arsenic.
-
-The secondary pathway is handling and market distribution. Clay is typically sold in unbaked and baked forms; the baking process reduces but does not eliminate microbial contamination and does not alter the metal content of the clay. Market sampling in Ho municipality, Ghana found comparable metal levels across ore, retail unbaked, retail baked, and market baked categories.[^3]
-
-A third pathway relevant to uptake is gastric chemistry. At stomach pH (1-2), lead and other metals held in kaolin by electrostatic forces are released into ionic form, which is the form available for intestinal absorption.[^1] Bioaccessibility studies using in vitro gastric extraction (PBET protocols) are referenced in Davies 2023 but have not been performed on the specific Ghanaian clay sources measured in Kortei et al. 2019.[^2]
-
-## Which sources and processing steps are associated with higher or lower contamination
-
-The only source in this deposit that compared multiple distribution channels (Kortei et al. 2019) found that microbial load was higher in unbaked samples from both the Anfoega mining site ore and the Ho Asigame market, while baking reduced but did not eliminate microbial colonies.[^3] Metal concentrations were reported as a combined mean across all sample types rather than stratified by sample category, so no comparison of metal levels by processing step is possible from this study.
+## Ranges by source
 
 The Bonglaisin 2022 review notes that clay from deposits near industrial and urban zones carries substantially higher lead than clay from agricultural zones, and that this urban-proximity effect is a primary driver of inter-site variability.[^1] The review also notes that in Cameroon, kaolin is processed (molded into lumps, oven-baked) and distributed through established commercial channels, while in some settings clay is taken directly from the earth or from riverbank exposures without any processing, with potentially different microbial but similar metal profiles.[^1]
+
+## Processing effects
+
+The only source in this deposit that compared multiple distribution channels (Kortei et al. 2019) found that microbial load was higher in unbaked samples from both the Anfoega mining site ore and the Ho Asigame market, while baking reduced but did not eliminate microbial colonies.[^3] Metal concentrations were reported as a combined mean across all sample types rather than stratified by sample category, so no comparison of metal levels by processing step is possible from this study.
 
 ## Microbial co-exposure
 
@@ -250,13 +260,27 @@ The impairment argument holds that clay chelates non-haem iron in the gut by for
 
 The Davies 2023 review notes that this long-standing debate between the micronutrient supplementation theory and the detoxification theory is unresolved; the intensity of causal discussion is diminishing as researchers redirect effort toward in vitro bioavailability studies and the specific knowledge gaps listed in the research priorities section of that paper.[^2]
 
+## Ingredient-derivative risk
+
+This page does not cover cosmetic clay or bentonite clay used as processing aids. Those are addressed at [[ingredients/cosmetic-clay]].
+
+These sources describe clay as it is mined, baked, and sold for eating. They do not describe a concentrate or extract of geophagic clay.
+
+## Mitigation options
+
+Baking reduced microbial colonies in the Ho samples and did not provide a separate metal result for baked clay, so it is not evidence that baking lowers lead, arsenic, or nickel.[^3] The lead contrast in the Bonglaisin 2022 review is between urban or industrial deposits and agricultural deposits, which is a difference in where the clay is taken, not a treatment applied after mining.[^1]
+
+## Regulatory limits
+
+No paper in this set cites a government maximum level written for geophagic clay as a food. Kortei et al. 2019 compared the Ho means for lead, arsenic, and nickel with WHO/FAO provisional tolerable daily intakes for a 60 kg adult and described those means as within the comparators at the intakes they used.[^3] Inorganic arsenic was not measured, so the arsenic result cannot be set against an inorganic-arsenic food limit.[^3]
+
 ## What remains uncertain
 
 The contamination profile for geophagic clay cannot be summarized as a reliable central estimate from available evidence. Specific unresolved gaps include the following.
 
 No study in the indexed literature has measured bioaccessible (IVBA) lead or arsenic fractions in Ghanaian kaolin under standardized gastric extraction conditions with certified reference materials. Total-metal values from this deposit are therefore maximum-bound estimates of what is potentially available for absorption, not absorbed doses.
 
-The inter-study range for arsenic in Ghanaian clay spans from 1.63 ppb (Kortei et al. 2019) to roughly 2.7-22.74 microg/g (Doe et al., cited in Kortei) -- a range of more than six orders of magnitude. This range is not consistent with analytical error and must reflect genuine geological heterogeneity between source deposits, but no study has mapped which deposits produce which metal profiles.
+The inter-study range for arsenic in Ghanaian clay spans from 1.63 ppb (Kortei et al. 2019) to roughly 2.7-22.74 microg/g (Doe et al., cited in Kortei), about three to four orders of magnitude, and to 218-271 mg/kg in the Nkansah values cited beside it. This range is not consistent with analytical error and must reflect genuine geological heterogeneity between source deposits, but no study has mapped which deposits produce which metal profiles.
 
 Cadmium and total mercury concentrations are not reported in any primary measurement study in this deposit. The Bonglaisin 2022 review cites their presence in Cameroon market clay in qualitative terms without reproducing specific values.
 
@@ -264,7 +288,7 @@ Arsenic speciation (inorganic versus organic) has not been performed on any geop
 
 The prevalence data (48.4% in Ho municipality; 30-80% cited by Medical University of Vienna) are not drawn from representative national samples; they may not generalize beyond the specific communities and clinical settings studied.
 
-## References
+## Sources
 
 1. Bonglaisin JN, Kunsoan NB, Bonny P, Matchawe C, Tata BN, Nkeunen G, Mbofung CM. Geophagia: Benefits and potential toxicity to human -- A review. Front Public Health. 2022;10:893831. doi:10.3389/fpubh.2022.893831. [[sources/bonglaisin2022-geophagia-benefits-toxicity-review|[1]]]
 
