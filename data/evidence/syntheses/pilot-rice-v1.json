@@ -196,12 +196,10 @@
                   "fda2022-tds-elements-fy2018-fy2020"
                 ]
               }
-            ]
+            ],
+            "presentation": "record_only"
           },
           "passages": [],
-          "heading": "How does my laboratory result compare?",
-          "heading_anchor": "compare-a-rice-result",
-          "prose_heading": true,
           "citation_spans": [
             {
               "after": "A reference made from study summaries does not establish a percentile for an individual lot.",
@@ -209,7 +207,9 @@
                 "fda2022-tds-elements-fy2018-fy2020"
               ]
             }
-          ]
+          ],
+          "presentation": "record_only",
+          "public_context_section": "identity"
         }
       ]
     },
@@ -3715,7 +3715,6 @@
     "Arsenic species and occurrence evidence": "Arsenic",
     "Sampling, censoring and shared observations": "Sampling",
     "Mercury species and comparison boundaries": "Mercury",
-    "How does my laboratory result compare?": "Compare results",
     "What can origin tell a buyer?": "Origin",
     "Cultivar and growing conditions": "Cultivar",
     "Does collection year matter?": "Collection year",
@@ -3900,10 +3899,6 @@
     "variation": "Variation by origin, variety and growing conditions"
   },
   "reader_links": [
-    {
-      "heading": "Compare a laboratory result",
-      "heading_anchor": "compare-a-rice-result"
-    },
     {
       "heading": "Evaluate origin and harvest",
       "heading_anchor": "rice-sourcing-differences"

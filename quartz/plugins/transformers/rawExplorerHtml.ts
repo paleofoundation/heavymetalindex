@@ -11,6 +11,7 @@ import fs from "node:fs"
 import os from "node:os"
 import path from "node:path"
 import type { FullSlug } from "../../util/path"
+import { sourceCiteMetaFor } from "./sourceCiteMeta"
 import { extractExplorerSidecars, type ExplorerSidecar } from "./explorerSidecars"
 
 // Compiled ingredient pages inline multi-megabyte explorer markup. rehype-raw
@@ -94,6 +95,35 @@ function spillSidecars(sidecars: ExplorerSidecar[], id: string): ExplorerSidecar
   }))
 }
 
+// Lifted explorer markup skips Markdown parsing, so wiki citations such as
+// [[sources/x]] and in-page links such as [label](#anchor) inside its cells
+// would reach readers as literal text. Render them as the same anchors the
+// Markdown pipeline emits, so the citation script numbers them in place.
+const escAttr = (v: string) =>
+  v.replace(/&/g, "&amp;").replace(/"/g, "&quot;").replace(/</g, "&lt;").replace(/>/g, "&gt;")
+const WIKI_SOURCE = /\[\[(sources\/[^\]|#]+)(?:\|([^\]]+))?\]\]/g
+const HASH_LINK = /\[([^\[\]\n]+)\]\((#[^)\s"]+)\)/g
+
+export function renderExplorerTokens(html: string, slug: string) {
+  if (!html.includes("[")) return html
+  const up = "../".repeat(Math.max(0, slug.split("/").length - 1)) || "./"
+  return html
+    .replace(WIKI_SOURCE, (_m, target: string, label?: string) => {
+      const s = target.trim().replace(/\.md$/, "")
+      const m = sourceCiteMetaFor(s)
+      const text = (label ?? m?.authors ?? s.split("/").pop() ?? s).trim()
+      const meta = m
+        ? [["data-authors", m.authors], ["data-title", m.title], ["data-journal", m.journal], ["data-review-link", m.reviewLink]]
+            .filter(([, v]) => v)
+            .map(([k, v]) => ` ${k}="${escAttr(String(v))}"`)
+            .join("")
+        : ""
+      return `<a href="${escAttr(up + s)}" class="internal" data-slug="${escAttr(s)}"${meta}>${escAttr(text)}</a>`
+    })
+    .replace(HASH_LINK, (_m, text: string, href: string) =>
+      `<a href="${escAttr(href)}" data-no-popover="true">${text}</a>`)
+}
+
 export function restoreExplorerHtml(tree: Root, file?: VFile) {
   visit(tree, "element", (node, index, parent) => {
     const id = String(node.properties?.dataHmiRaw ?? "")
@@ -104,10 +134,10 @@ export function restoreExplorerHtml(tree: Root, file?: VFile) {
     // Rice findings are split by the postbuild asset step, which needs the
     // inline explorer. Every other page moves payload and drawers to sidecars
     // so the published HTML stays within the page-weight gate.
-    let html = original
+    let html = renderExplorerTokens(original, slug)
     let sidecars: ExplorerSidecar[] = []
     if (slug !== "ingredients/rice") {
-      const externalized = externalizeExplorerHtml(original, slug)
+      const externalized = externalizeExplorerHtml(html, slug)
       html = externalized.html
       sidecars = spillSidecars(externalized.sidecars, id)
     }

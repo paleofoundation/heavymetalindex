@@ -200,7 +200,6 @@ toc_labels:
   Arsenic species and occurrence evidence: Arsenic
   'Sampling, censoring and shared observations': Sampling
   Mercury species and comparison boundaries: Mercury
-  How does my laboratory result compare?: Compare results
   What can origin tell a buyer?: Origin
   Cultivar and growing conditions: Cultivar
   Does collection year matter?: Collection year
@@ -276,7 +275,7 @@ The most consequential control decision is often the joint response of arsenic a
 <a id="hmi-ing-006"></a>
 <a id="which-evidence-gaps-most-limit-those-decisions"></a>
 
-<nav class="hmi-reader-questions" aria-label="Key reader questions"><p>Find an answer</p><ul><li><a data-no-popover="true" href="#compare-a-rice-result">Compare a laboratory result</a></li><li><a data-no-popover="true" href="#rice-sourcing-differences">Evaluate origin and harvest</a></li><li><a data-no-popover="true" href="#heavy-metal-mitigation-and-remediation-for-rice">Choose a control</a></li><li><a data-no-popover="true" href="#from-historical-surveys-to-current-lots">Request supplier evidence</a></li><li><a data-no-popover="true" href="#rice-requirements">Check rice requirements</a></li></ul></nav>
+<nav class="hmi-reader-questions" aria-label="Key reader questions"><p>Find an answer</p><ul><li><a data-no-popover="true" href="#rice-sourcing-differences">Evaluate origin and harvest</a></li><li><a data-no-popover="true" href="#heavy-metal-mitigation-and-remediation-for-rice">Choose a control</a></li><li><a data-no-popover="true" href="#from-historical-surveys-to-current-lots">Request supplier evidence</a></li><li><a data-no-popover="true" href="#rice-requirements">Check rice requirements</a></li></ul></nav>
 
 
 
@@ -294,45 +293,6 @@ This page covers edible brown, white and cooked rice. Brown rice retains the bra
 
 <a id="hmi-ing-003"></a>
 <a id="what-evidence-can-be-transferred-between-those-materials-and-what-requires-a-separate-answer"></a>
-
-<h3 data-hmi-prose-question="true" id="compare-a-rice-result">How does my laboratory result compare?</h3>
-
-Use published concentrations as context for your laboratory result. Match the measurement and reference below. A reference made from study summaries does not establish a percentile for an individual lot ([[sources/fda2022-tds-elements-fy2018-fy2020]]).
-
-<div class="hmi-analyte-explorer hmi-reference-table" id="rice-result-comparison-guide">
-
-<table class="hmi-analyte-table"><caption class="hmi-sr-only">Compare a rice laboratory result</caption><thead><tr><th scope="col">Check</th><th scope="col">Use the page to answer</th></tr></thead><tbody>
-<tr><td data-label="Check">
-
-1 · Match the measurement
-
-</td><td data-label="Use the page to answer">
-
-Choose the same species and rice form in the [contamination table](#heavy-metal-contamination-profile). Match the dry-weight, native-moisture or cooked basis shown with the finding ([[sources/fda2022-tds-elements-fy2018-fy2020]]).
-
-</td></tr>
-<tr><td data-label="Check">
-
-2 · Inspect the reference
-
-</td><td data-label="Use the page to answer">
-
-Open the comparison information icon for the reference median, quartiles, sampling unit, markets and collection period. Compare compatible values as context. The badge classifies the published finding; a lot result does not inherit that rating ([[sources/carey2020-global-low-ias-rice-sourcing]] [[sources/shi2020-rice-grain-cadmium-global-supply-chain]]).
-
-</td></tr>
-<tr><td data-label="Check">
-
-3 · Decide what to investigate
-
-</td><td data-label="Use the page to answer">
-
-Use [origin and harvest evidence](#rice-sourcing-differences) to investigate supplier or control options. Check [applicable requirements](#rice-requirements) separately. If the reference or reporting bounds do not support a position, retain the result without a rating ([[sources/fda2022-tds-elements-fy2018-fy2020]] [[sources/fda2020-ias-infant-rice-cereal-guidance]]).
-
-</td></tr>
-</tbody></table>
-
-</div>
-
 
 <!-- BEGIN: hmi-fda-tds-occurrence -->
 <a id="fda-tds-fy2018-fy2020-evidence"></a>

@@ -29,7 +29,7 @@ This page is a scaffolded entry for HMTc Taxonomy v2.0 Category 14 (Cosmetics an
 
 ## Literature scope
 
-The Heavy Metal Index source corpus is currently focused on food and food-contact materials. This page documents an HMTc Taxonomy v2.0 row in the category **Cosmetics and Personal Care — Rinse-off** for which no peer-reviewed primary or government sources have yet been ingested. The page exists as the routing destination for future ingest. Until sources land, the literature-evidence sections below are deliberately empty rather than guessed; HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
+The Heavy Metal Index source corpus is currently focused on food and food-contact materials. This page documents an HMTc Taxonomy v2.0 row in the category **Cosmetics and Personal Care — Rinse-off** for which only a small number of peer-reviewed and government sources are catalogued so far. Sections without contributing sources are left empty rather than guessed; HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
 
 ## Who this page is for
 
@@ -66,7 +66,7 @@ The applicable regulatory jurisdictions for this row are: **FDA cosmetics, EU Co
 
 ## Source Evidence Inventory
 
-*Sources for this row will be listed here once they are catalogued.*
+Ten blonde permanent hair dyes bought from pharmacies in Benghazi, Libya, all had lead, at 0.058 to 0.095 mg/kg (mean 0.076 mg/kg). Cadmium was found in eight of the ten at 0.011 to 0.093 mg/kg; the reported mean of 0.026 mg/kg counts the two non-detects as zero. Chromium was found in seven products at 1.2 to 2.2 mg/kg and nickel in all ten at 0.28 to 1.78 mg/kg. Every lead value is more than 100 times below the US FDA's 10 mg/kg recommended maximum for externally applied cosmetics, and the authors' dermal model gave hazard quotients below 1. The study used flame atomic absorption and reports no detection limits, blanks or reference material, so the lead and cadmium results are best read as an upper-bound indication rather than as quantified levels. Arsenic and mercury were not reported. Product brands named in the paper are not used for comparison here [[sources/elturki2026-benghazi-blonde-hair-dyes-metals|1]].
 
 ## Broad Product Context: Author-Scope Index
 
@@ -103,6 +103,14 @@ HMT&C certification thresholds for this row are developed under the certificatio
 
 *Sources for this row will be listed here once they are catalogued.*
 
+<!-- BEGIN: hmi-page-references -->
+## References
+
+Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to a source record with bibliographic details, reported findings, and document provenance.
+
+1. [[sources/elturki2026-benghazi-blonde-hair-dyes-metals|Assessment of Heavy Metals and pH Levels in Commercial Blonde Hair Dyes Marketed in Benghazi, Libya: Human Dermal Exposure and Health Risk Assessment]]<span class="hmi-ref-meta">El-Turki K, Yaghi M, and Etluba N · AlQalam Journal of Medical and Applied Sciences 9(10): 3416-3431 · 2026 · [doi.org/10.54361/ajmas.261038](https://doi.org/10.54361/ajmas.261038)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+<!-- END: hmi-page-references -->
+
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
@@ -115,6 +123,7 @@ HMT&C certification thresholds for this row are developed under the certificatio
 | 3 | [[sources/yashim2020-hair-dyes-metals-nigeria\|Yashim et al. 2020]]. *Evaluation of Heavy Metals Level in Hair Dyes and their Potential Health Risk*, Nigerian Research Journal of Chemical Sciences 8(2):241-251 | 2020 | Peer-reviewed | NG Pb, Cr, Cd, Ni, Cu occurrence in Twenty-five samples of each of four hair-dye product forms purchased from different locations in Samaru market, Zaria, Nigeria;... (n=100) |
 | 4 | [[sources/us-epa-2011-efh-chapter17-consumer-products\|U.S. Environmental Protection Agency, 2011]]. *Exposure Factors Handbook: 2011 Edition — Chapter 17, Consumer Products*, U.S. Environmental Protection Agency, EPA/600/R-09/052F | 2011 | Government report | Chapter 17 of the U.S. EPA's 2011 Exposure Factors Handbook (EFH) compiles consumer-product use and exposure data — frequency of... |
 | 5 | [[sources/tjandraatmadja2010-csiro-household-products-nutrients-elements\|Tjandraatmadja et al. 2010]]. *Sources of contaminants in domestic wastewater: nutrients and additional elements from household products*, CSIRO Water for a Healthy Country National Research Flagship Report (Smart Water Fund Round 3 — Project 5), February 2010 (ISSN 1835-095X) | 2010 | Industry | AU Sb, Cr, Co, Mo, Se occurrence in One hundred and fifty-six household and personal-care products purchased from major supermarkets in Melbourne, Australia between February and... (n=156) |
+| 6 | [[sources/elturki2026-benghazi-blonde-hair-dyes-metals\|El-Turki et al. 2026]]. *Assessment of Heavy Metals and pH Levels in Commercial Blonde Hair Dyes Marketed in Benghazi, Libya: Human Dermal Exposure and Health Risk Assessment*, AlQalam Journal of Medical and Applied Sciences 9(10): 3416-3431 | 2026 | Peer-reviewed | Contribution to this topic remains under review; see the source record for its reported scope. |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
