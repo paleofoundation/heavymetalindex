@@ -3,7 +3,9 @@ import fs from "node:fs"
 import os from "node:os"
 import path from "node:path"
 import test from "node:test"
+import { CHECKS } from "../audit-page-structure.mjs"
 import { baselineScopeErrors, violationsInDiff } from "./diff-gate.mjs"
+import { recordFilledPage } from "./record-filled-page.mjs"
 import { selectNextUnit } from "./select-next-unit.mjs"
 
 const EM = "\u2014"
@@ -52,10 +54,14 @@ test("a bare directory mark keeps the ledger slug, and a later status wins", () 
       ].join("\n"),
     )
     const next = selectNextUnit(root)
-    assert.equal(next.id, "HMI-FILL-0004")
-    assert.equal(next.slug, "high-fructose-corn-syrup")
-    assert.equal(next.dir, "deposits/HMI-FILL-0004")
-    assert.equal(selectNextUnit(root, { skip: ["HMI-FILL-0004"] }), null)
+    assert.equal(next.id, "HMI-FILL-0001")
+    assert.equal(next.kind, "product")
+    assert.equal(next.slug, "ready-to-feed-formula")
+    const ingredient = selectNextUnit(root, { skip: ["HMI-FILL-0001"] })
+    assert.equal(ingredient.id, "HMI-FILL-0004")
+    assert.equal(ingredient.slug, "high-fructose-corn-syrup")
+    assert.equal(ingredient.dir, "deposits/HMI-FILL-0004")
+    assert.equal(selectNextUnit(root, { skip: ["HMI-FILL-0001", "HMI-FILL-0004"] }), null)
   } finally {
     fs.rmSync(root, { recursive: true, force: true })
   }
@@ -93,6 +99,53 @@ test("a queue object and a Notion markdown table are ledgers", () => {
     assert.equal(fromHint.id, "HMI-FILL-0030")
     assert.equal(fromHint.slug, "fromage-frais")
     fs.rmSync(hinted, { recursive: true, force: true })
+  } finally {
+    fs.rmSync(root, { recursive: true, force: true })
+  }
+})
+
+test("graph/next_work.json wins, then the deposited ledger is the fallback", () => {
+  const root = fs.mkdtempSync(path.join(os.tmpdir(), "deposits-graph-"))
+  try {
+    fs.mkdirSync(path.join(root, "graph"), { recursive: true })
+    fs.writeFileSync(
+      path.join(root, "ledger.json"),
+      JSON.stringify([{ id: "HMI-FILL-0001", status: "DEPOSITED", kind: "ingredient", slug: "rice" }]),
+    )
+    fs.writeFileSync(
+      path.join(root, "graph", "next_work.json"),
+      JSON.stringify({
+        items: [
+          { id: "HMI-FILL-0008", builder: "hmi-evidence-fill", blocked_by: ["HMI-FILL-0001"], kind: "ingredient", slug: "cod" },
+          { id: "HMI-FILL-0003", builder: "catalog", blocked_by: [], kind: "ingredient", slug: "salt" },
+          { id: "HMI-FILL-0009", builder: "hmi-evidence-fill", blocked_by: [], kind: "product", slug: "vegetable-juices", dir: "deposits/HMI-FILL-0009" },
+          { id: "HMI-FILL-0004", builder: "hmi-evidence-fill", blocked_by: [], kind: "ingredient", slug: "tofu" },
+        ],
+      }),
+    )
+    const next = selectNextUnit(root)
+    assert.equal(next.id, "HMI-FILL-0009")
+    assert.equal(next.kind, "product")
+    assert.equal(next.slug, "vegetable-juices")
+    assert.equal(next.dir, "deposits/HMI-FILL-0009")
+    const skipped = selectNextUnit(root, { skip: ["hmi-fill-0009"] })
+    assert.equal(skipped.id, "HMI-FILL-0004")
+    assert.equal(skipped.slug, "tofu")
+    fs.writeFileSync(
+      path.join(root, "graph", "next_work.json"),
+      JSON.stringify([{ id: "HMI-FILL-0008", builder: "hmi-evidence-fill", blocked_by: ["HMI-FILL-0002"] }]),
+    )
+    const fallback = selectNextUnit(root)
+    assert.equal(fallback.id, "HMI-FILL-0001")
+    assert.equal(fallback.slug, "rice")
+    fs.writeFileSync(
+      path.join(root, "graph", "next_work.json"),
+      JSON.stringify([{ id: "HMI-FILL-0001", builder: "hmi-evidence-fill", blocked_by: [] }]),
+    )
+    const fromLedger = selectNextUnit(root)
+    assert.equal(fromLedger.id, "HMI-FILL-0001")
+    assert.equal(fromLedger.slug, "rice")
+    assert.equal(fromLedger.kind, "ingredient")
   } finally {
     fs.rmSync(root, { recursive: true, force: true })
   }
@@ -162,6 +215,9 @@ test("the scheduled workflow carries the Claude fill contract", () => {
   assert.doesNotMatch(yml, /cron: "0 5 \* \* \*"/)
   assert.match(yml, /GH_TOKEN: \$\{\{ github\.token \}\}/)
   assert.match(yml, /GITHUB_OUTPUT/)
+  assert.match(yml, /--filter=blob:none/)
+  assert.match(yml, /sparse-checkout set --no-cone/)
+  assert.match(yml, /sparse-checkout add/)
   assert.match(yml, /workflow_dispatch:/)
   assert.match(yml, /anthropics\/claude-code-action@v1/)
   assert.match(yml, /claude_code_oauth_token: \$\{\{ secrets\.CLAUDE_CODE_OAUTH_TOKEN \}\}/)
@@ -176,5 +232,76 @@ test("the scheduled workflow carries the Claude fill contract", () => {
   assert.match(yml, /lint:thin-with-evidence/)
   assert.match(yml, /npm run check/)
   assert.match(yml, /build-alias-redirects\.ts/)
-  assert.match(yml, /--write-baseline/)
+  assert.doesNotMatch(yml, /^\s*(?:node|npm)\b.*--write-baseline/m)
+  assert.match(yml, /does not run --write-baseline/)
+  assert.match(yml, /git merge --no-edit origin\/main/)
+  assert.match(yml, /record-filled-page\.mjs/)
+  assert.match(yml, /kind == "product"/)
+  const prompt = fs.readFileSync(new URL("./prompt.md", import.meta.url), "utf8")
+  assert.match(prompt, /audit-page-structure\.mjs --write-baseline/)
+  assert.match(prompt, /Do not pass `--write-baseline`/)
+  assert.match(prompt, /page-structure-baseline\.json/)
+  assert.match(prompt, /page-openings-baseline\.json/)
+  assert.match(prompt, /thin-with-evidence-baseline\.txt/)
+  assert.match(prompt, /latest main/)
+  assert.match(prompt, /__PAGE__/)
+})
+
+test("baseline files change only the filled page path", () => {
+  const root = fs.mkdtempSync(path.join(os.tmpdir(), "fill-baseline-"))
+  try {
+    const page = "wiki/ingredients/cocoa.md"
+    const product = "wiki/products/tea.md"
+    fs.mkdirSync(path.join(root, "wiki/ingredients"), { recursive: true })
+    fs.mkdirSync(path.join(root, "wiki/products"), { recursive: true })
+    fs.mkdirSync(path.join(root, "data/evidence"), { recursive: true })
+    fs.mkdirSync(path.join(root, "data/fanout"), { recursive: true })
+    fs.writeFileSync(
+      path.join(root, page),
+      "---\ntitle: Cocoa\nstatus: populated\n---\n\n# Cocoa\n\n## Direct answer\n\nLead was 2 µg/kg.\n",
+    )
+    fs.writeFileSync(path.join(root, product), "---\ntitle: Tea\n---\n\n# Tea\n\nTea is a brewed drink.\n")
+    const structure = {
+      order: "HMI-STRUCTURE-SPEC-1",
+      checks: Object.fromEntries(CHECKS.map((check) => [check, { pages: 1, paths: ["wiki/ingredients/rice.md"] }])),
+    }
+    const structurePath = path.join(root, "data/evidence/page-structure-baseline.json")
+    fs.writeFileSync(structurePath, `${JSON.stringify(structure, null, 2)}\n`)
+    const openingsPath = path.join(root, "data/evidence/page-openings-baseline.json")
+    const openingsBefore = '{\n "note": "keep",\n "pages": [\n  "wiki/ingredients/rice.md",\n  "wiki/products/tea.md"\n ]\n}\n'
+    fs.writeFileSync(openingsPath, openingsBefore)
+    const thinPath = path.join(root, "data/fanout/thin-with-evidence-baseline.txt")
+    fs.writeFileSync(thinPath, "# note\ningredients/rice\ningredients/cocoa\nproducts/tea\n")
+    recordFilledPage(root, page)
+    assert.equal(fs.readFileSync(openingsPath, "utf8"), openingsBefore)
+    const after = JSON.parse(fs.readFileSync(structurePath, "utf8"))
+    for (const check of CHECKS) {
+      assert.deepEqual(
+        after.checks[check].paths.filter((rel) => rel !== page),
+        ["wiki/ingredients/rice.md"],
+      )
+    }
+    assert.ok(after.checks.uncertainty_note.paths.includes(page))
+    assert.equal(fs.readFileSync(openingsPath, "utf8").includes("wiki/ingredients/rice.md"), true)
+    assert.equal(fs.readFileSync(openingsPath, "utf8").includes("wiki/products/tea.md"), true)
+    const thin = fs.readFileSync(thinPath, "utf8")
+    assert.match(thin, /ingredients\/rice/)
+    assert.match(thin, /products\/tea/)
+    assert.doesNotMatch(thin, /ingredients\/cocoa/)
+    recordFilledPage(root, product)
+    const openings = JSON.parse(fs.readFileSync(openingsPath, "utf8"))
+    assert.deepEqual(openings.pages, ["wiki/ingredients/rice.md"])
+    const thinAfter = fs.readFileSync(thinPath, "utf8")
+    assert.match(thinAfter, /ingredients\/rice/)
+    assert.doesNotMatch(thinAfter, /products\/tea/)
+    const structureAfter = JSON.parse(fs.readFileSync(structurePath, "utf8"))
+    for (const check of CHECKS) {
+      assert.deepEqual(
+        structureAfter.checks[check].paths.filter((rel) => rel !== page && rel !== product),
+        ["wiki/ingredients/rice.md"],
+      )
+    }
+  } finally {
+    fs.rmSync(root, { recursive: true, force: true })
+  }
 })

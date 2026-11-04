@@ -8,13 +8,17 @@ publication: "Environmental Geochemistry and Health (2025) 47:347"
 doi: 10.1007/s10653-025-02656-w
 access_url: https://doi.org/10.1007/s10653-025-02656-w
 source_type: peer-reviewed
-evidence_tier: C
+evidence_tier: B
 license: "CC BY 4.0 (Creative Commons Attribution)"
-raw_path: /Users/kmfp/papers-for-claude/hmi-thin/batch-01/pdfs/clay-geophagy__Mafe2025__10.1007_s10653-025-02656-w.pdf
-metals: [Pb, Cd, As, Hg]
-ingredients: []
-products: []
-matrices: [calabash chalk, edible clay]
+raw_path: raw/deposits/HMI-FILL-0017/10.1007_s10653-025-02656-w.pdf
+sha256: 025a4aa2f56896fa428318dbfc0a8c8d9da8c59cce3a36115cc2dba6f42db348
+access_date: 2026-11-04
+pmcid: PMC12310767
+pmid: 40736606
+metals: [Pb, Cd, tAs, tHg]
+ingredients: ["[[ingredients/clay-geophagy]]"]
+products: ["[[products/supplements-clay-mineral-earth]]"]
+matrices: [calabash-chalk, geophagic-clay, kaolin, edible-clay]
 jurisdictions: [NG, GH, UG, TZ, ZA, KE, CM, IN]
 near_duplicates: []
 sample_n: null
