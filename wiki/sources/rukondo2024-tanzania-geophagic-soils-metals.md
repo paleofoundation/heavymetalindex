@@ -9,21 +9,28 @@ doi: 10.1016/j.toxrep.2024.04.008
 access_url: https://doi.org/10.1016/j.toxrep.2024.04.008
 source_type: peer-reviewed
 evidence_tier: A
+evidence_fitness: EF-3
+public_evidence_label: Modeled or limited evidence
+review_state: machine_extracted
 license: "CC BY-NC-ND 4.0"
-raw_path: /Users/kmfp/papers-for-claude/hmi-thin/batch-01/pdfs/clay-geophagy__Rukondo2024__10.1016_j.toxrep.2024.04.008.pdf
+raw_path: raw/deposits/HMI-FILL-0017/10.1016_j.toxrep.2024.04.008.pdf
+sha256: 349cdec92218dad8827dd7064b9af0d1a266d2c9f5e33644e409cf24671310be
+access_date: 2026-11-04
+pmcid: PMC11108962
+pmid: 38778800
 metals: [Pb, Cd, Cr, Ni, Cu, Mn, Zn, Fe]
 ingredients: ["[[ingredients/clay-geophagy]]"]
-products: []
-matrices: [geophagic soil sticks]
+products: ["[[products/supplements-clay-mineral-earth]]"]
+matrices: [geophagic-clay, geophagic-soil-sticks]
 jurisdictions: [TZ]
 near_duplicates: []
 sample_n: null
 sample_population: "Dry geophagic soil sticks bought at six markets (Mkuyuni and Kirumba, Mwanza; Njombe and Mlangali, Njombe; Mawenzi and Manzese, Morogoro), Tanzania, in 2019; number of samples per market not stated"
 wiki_doi: null
-sampling_locations: []
-sampling_year_range: "2019"
-updated: 2026-10-24
-ingest: HMI-THIN-INGEST-1 batch-01
+sampling_locations: [Mwanza, Njombe, Morogoro, Tanzania]
+sampling_year_range: [2019, 2019]
+updated: 2026-11-04
+ingest: HMI-FILL-0017
 ---
 
 # Rukondo et al. 2024: Lead, cadmium, chromium and nickel in geophagic soil sticks, Tanzania
