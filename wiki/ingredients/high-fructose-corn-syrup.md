@@ -1,5 +1,7 @@
 ---
 title: High-fructose corn syrup
+hero_image: /static/heroes/corn-syrup-kernels-glass-jar.webp
+hero_image_alt: "A clear glass jar of thick corn syrup beside a corn cob and loose kernels illustrating high-fructose corn syrup ingredient context."
 type: ingredient
 commodity: high-fructose-corn-syrup
 aliases: []
