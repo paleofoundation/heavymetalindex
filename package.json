@@ -145,7 +145,10 @@
     "sources:index": "node tools/sources/build-source-index.mjs",
     "sources:index:check": "node tools/sources/build-source-index.mjs --check",
     "sources:index:test": "node --test tools/sources/source-index.test.mjs tools/sources/source-index-controls.test.mjs",
-    "build:rice-release": "node tools/release/build-rice.mjs"
+    "build:rice-release": "node tools/release/build-rice.mjs",
+    "pro:reference": "node tools/pro/build-reference.mjs",
+    "pro:reference:check": "node tools/pro/build-reference.mjs --check",
+    "test:pro": "node --test tests/pro/*.test.mjs"
   },
   "engines": {
     "npm": ">=10.9.2",
@@ -164,10 +167,12 @@
   },
   "dependencies": {
     "@clack/prompts": "^0.11.0",
+    "@clerk/backend": "^3.26.6",
     "@floating-ui/dom": "^1.7.4",
     "@myriaddreamin/rehype-typst": "^0.6.0",
     "@napi-rs/simple-git": "0.1.22",
     "@react-pdf/renderer": "^4.5.1",
+    "@supabase/supabase-js": "^2.118.0",
     "@tweenjs/tween.js": "^25.0.0",
     "@vercel/blob": "^2.4.0",
     "@vercel/functions": "^3.4.6",
@@ -221,6 +226,7 @@
     "sharp": "^0.34.5",
     "shiki": "^1.26.2",
     "source-map-support": "^0.5.21",
+    "stripe": "^23.1.0",
     "to-vfile": "^8.0.0",
     "toml": "^3.0.0",
     "unified": "^11.0.5",
@@ -232,6 +238,7 @@
     "zod": "^4.4.3"
   },
   "devDependencies": {
+    "@electric-sql/pglite": "^0.5.15",
     "@types/d3": "^7.4.3",
     "@types/hast": "^3.0.4",
     "@types/js-yaml": "^4.0.9",

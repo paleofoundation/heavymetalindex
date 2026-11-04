@@ -1378,6 +1378,18 @@
   ],
   "rewrites": [
     {
+      "source": "/account",
+      "destination": "/api/account"
+    },
+    {
+      "source": "/pro",
+      "destination": "/api/pro/page"
+    },
+    {
+      "source": "/pro/:path*",
+      "destination": "/api/pro/page"
+    },
+    {
       "source": "/google:file",
       "destination": "/google:file.html"
     }
@@ -1431,6 +1443,13 @@
     "api/cron/enqueue-discovery.mjs": {
       "maxDuration": 60,
       "excludeFiles": "data/evidence/**"
+    },
+    "api/pro/**/*.mjs": {
+      "maxDuration": 30,
+      "includeFiles": "data/pro/reference/**"
+    },
+    "api/billing/*.mjs": {
+      "maxDuration": 30
     }
   },
   "crons": [
@@ -1562,6 +1581,19 @@
         {
           "key": "Permissions-Policy",
           "value": "geolocation=(), microphone=(), camera=()"
+        }
+      ]
+    },
+    {
+      "source": "/pro/:path*",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "private, no-store"
+        },
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, nofollow"
         }
       ]
     }
