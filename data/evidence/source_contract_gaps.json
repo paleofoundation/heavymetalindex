@@ -19822,17 +19822,6 @@
       "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
     },
     {
-      "page": "wiki/sources/hasselberg2020-processed-small-fish-ghana-metals.md",
-      "cite_key": "hasselberg2020-processed-small-fish-ghana-metals",
-      "metadata_complete": false,
-      "ingest_complete": false,
-      "gaps": [
-        "evidence_fitness",
-        "raw_sha256"
-      ],
-      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
-    },
-    {
       "page": "wiki/sources/hassona2023-beeswax-metals-egypt.md",
       "cite_key": "hassona2023-beeswax-metals-egypt",
       "metadata_complete": false,
@@ -23290,16 +23279,6 @@
       "gaps": [
         "evidence_fitness",
         "raw_sha256"
-      ],
-      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
-    },
-    {
-      "page": "wiki/sources/kortei2019-kaolin-minerals-microbes-ghana-ho.md",
-      "cite_key": "kortei2019-kaolin-minerals-microbes-ghana-ho",
-      "metadata_complete": false,
-      "ingest_complete": false,
-      "gaps": [
-        "evidence_fitness"
       ],
       "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
     },
@@ -31382,17 +31361,6 @@
     {
       "page": "wiki/sources/roberge2009-tucson-beverages-broths-arsenic.md",
       "cite_key": "roberge2009-tucson-beverages-broths-arsenic",
-      "metadata_complete": false,
-      "ingest_complete": false,
-      "gaps": [
-        "evidence_fitness",
-        "raw_sha256"
-      ],
-      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
-    },
-    {
-      "page": "wiki/sources/robinson2025-dried-fish-nutrients-africa.md",
-      "cite_key": "robinson2025-dried-fish-nutrients-africa",
       "metadata_complete": false,
       "ingest_complete": false,
       "gaps": [
