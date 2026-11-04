@@ -3,6 +3,11 @@ title: Heavy Metal Index — Change Log
 noindex: true
 ---
 
+## [2026-11-04] chore | keep the Vercel site build inside the 45-minute cap
+
+Pages touched: none
+Notes: The Vercel build skips read-only audits and spills compiled explorer markup to temporary files so the site compile fits in a 6 GB heap. Generators and the postbuild writers still run, so the published HTML is unchanged. CI runs the skipped audits after a site build. No literature value and no certification number was added. Direction: toward the literature.
+
 ## [2026-11-03] content | karen-pendergrass author page selects major works
 
 Pages touched: [[authors/karen-pendergrass]], [[about]]

@@ -8,7 +8,7 @@ import { viewSidecar, chunkSidecar } from "../../../tools/contracts/pilot/explor
 // that every other transformer (links, citation metadata, public presentation)
 // processes them as page content. Registered last, this moves them into JSON
 // files beside the page; the browser fetches each one when it is first needed.
-export type ExplorerSidecar = { slug: FullSlug; content: string }
+export type ExplorerSidecar = { slug: FullSlug; content: string; spill?: string }
 
 const property = (node: Element, name: string) =>
   node.properties?.[name.replace(/-([a-z])/g, (_, c: string) => c.toUpperCase())] ?? node.properties?.[name]
