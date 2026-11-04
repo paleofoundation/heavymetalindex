@@ -146,7 +146,6 @@ products/toys-yo-yo-elastic-tether
 products/traditional-eye-cosmetics
 products/utensils-plastic-silicone-tools
 products/vegetable-beef-soup
-products/vegetable-juices
 products/vegetable-soup
 products/veggie-burger
 products/vodka
