@@ -21,7 +21,7 @@ audience: [regulator, educator, consumer, app]
 
 # Plant-based beverages
 
-## Direct answer
+## Measured concentrations
 
 Rice-based beverages carry the highest inorganic arsenic burden of any plant-based milk alternative studied to date, with Italian market data showing inorganic arsenic ranging from 7 to 24 µg/kg and all samples below the EU maximum level of 30 µg/kg. Soy-based beverages carry the highest cadmium and nickel of any plant-based type, and hemp milk carries the highest chromium; lead concentrations are broadly comparable across all subcategories and cow milk. No harmonized EU or US maximum levels currently apply to heavy metals in plant-based beverages other than inorganic arsenic in rice-based drinks.
 
