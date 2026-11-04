@@ -111,3 +111,10 @@ Notes: Open-access full texts added measured reductions for <metals and interven
 Do not commit, do not push, and do not open a pull request. The workflow checks quotations, runs the tests, and opens the pull request only if those checks pass.
 
 Stop after the seed pages and every extra page those papers measure. One run, one pull request.
+
+## Evidence scope (parent-matrix rows)
+
+Each mapping may carry `evidence_scope` ("product" or "parent-matrix") and `parent_matrix`.
+When `evidence_scope` is "parent-matrix", render the row with the line:
+"Evidence from <parent_matrix>, not measured in this product."
+Never present a parent-matrix row as product-specific. Quote `effect_as_printed` unchanged.
