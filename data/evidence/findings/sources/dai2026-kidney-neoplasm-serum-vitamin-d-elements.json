@@ -1,0 +1,40 @@
+{
+ "source_id": "dai2026-kidney-neoplasm-serum-vitamin-d-elements",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-GALLIUM-1/10.3389_fonc.2026.1884903.pdf",
+ "primary_sha256": "c00a4413472c8bf331f1ebbf5c72ade5d412943733aeedd79dc4e33261a013f3",
+ "extracted_at": "2026-11-04",
+ "extractor": "engine-v1",
+ "disposition": "exposure",
+ "disposition_reason": "Serum gallium means in µg/L for renal cell carcinoma, benign kidney tumors, and healthy controls, plus a correlation with estimated glomerular filtration rate.",
+ "disposition_locator": "Table 2 footnote (µg/L); Results correlation",
+ "study": {
+  "design": "see source record",
+  "origin": "not applicable",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "not stated"
+  },
+  "method": "ICP-MS, germanium internal standard for gallium",
+  "lod": [],
+  "basis": "as reported on the source page",
+  "qa": "see source record",
+  "site_context": "human serum"
+ },
+ "findings": [],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "main-text",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [
+  "Serum gallium mean ± SD µg/L: RCC 1.13 ± 0.16 (n=57), benign tumors 1.04 ± 0.18 (n=43), healthy controls 1.04 ± 0.18 (n=50); F=4.453, P=0.013",
+  "Correlation with eGFR r=0.212, P=0.034"
+ ],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/dai2026-kidney-neoplasm-serum-vitamin-d-elements.md",
+ "non_numeric_findings": []
+}
