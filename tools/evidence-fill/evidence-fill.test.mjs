@@ -34,6 +34,70 @@ test("selects the lowest DEPOSITED ingredient and skips LIVE, BUILT, and metals"
   fs.rmSync(root, { recursive: true, force: true })
 })
 
+test("a bare directory mark keeps the ledger slug, and a later status wins", () => {
+  const root = fs.mkdtempSync(path.join(os.tmpdir(), "deposits-"))
+  try {
+    fs.mkdirSync(path.join(root, "deposits", "HMI-FILL-0004"), { recursive: true })
+    fs.mkdirSync(path.join(root, "deposits", "HMI-FILL-0006"), { recursive: true })
+    fs.writeFileSync(path.join(root, "deposits", "HMI-FILL-0004", "STATUS"), "DEPOSITED\n")
+    fs.writeFileSync(path.join(root, "deposits", "HMI-FILL-0006", "STATUS"), "PR_OPEN\n")
+    fs.writeFileSync(
+      path.join(root, "deposits", "ledger.csv"),
+      [
+        "Unit ID,Status,Page type,Page URL",
+        "HMI-FILL-0001,DEPOSITED,product,https://heavymetalindex.com/products/ready-to-feed-formula",
+        "HMI-FILL-0004,DEPOSITED,ingredient,https://heavymetalindex.com/ingredients/high-fructose-corn-syrup",
+        "HMI-FILL-0006,DEPOSITED,ingredient,https://heavymetalindex.com/ingredients/cod",
+        "",
+      ].join("\n"),
+    )
+    const next = selectNextUnit(root)
+    assert.equal(next.id, "HMI-FILL-0004")
+    assert.equal(next.slug, "high-fructose-corn-syrup")
+    assert.equal(next.dir, "deposits/HMI-FILL-0004")
+    assert.equal(selectNextUnit(root, { skip: ["HMI-FILL-0004"] }), null)
+  } finally {
+    fs.rmSync(root, { recursive: true, force: true })
+  }
+})
+
+test("a queue object and a Notion markdown table are ledgers", () => {
+  const root = fs.mkdtempSync(path.join(os.tmpdir(), "deposits-"))
+  try {
+    fs.writeFileSync(
+      path.join(root, "queue.json"),
+      JSON.stringify({
+        queue: [
+          {
+            "Unit ID": "HMI-FILL-0020",
+            Status: "DEPOSITED",
+            "Page type": "ingredient",
+            "Page URL": "https://heavymetalindex.com/ingredients/cashews",
+          },
+        ],
+      }),
+    )
+    fs.mkdirSync(path.join(root, "ledger"), { recursive: true })
+    fs.writeFileSync(
+      path.join(root, "ledger", "units.md"),
+      ["| Unit ID | Status | Page URL |", "| --- | --- | --- |", "| HMI-FILL-0012 | DEPOSITED | /ingredients/soft-drink-bases |", ""].join("\n"),
+    )
+    const next = selectNextUnit(root)
+    assert.equal(next.id, "HMI-FILL-0012")
+    assert.equal(next.slug, "soft-drink-bases")
+    const hinted = fs.mkdtempSync(path.join(os.tmpdir(), "deposits-hint-"))
+    fs.mkdirSync(path.join(hinted, "deposits", "HMI-FILL-0030"), { recursive: true })
+    fs.writeFileSync(path.join(hinted, "deposits", "HMI-FILL-0030", "STATUS"), "DEPOSITED\n")
+    fs.writeFileSync(path.join(hinted, "deposits", "HMI-FILL-0030", "page"), "wiki/ingredients/fromage-frais.md\n")
+    const fromHint = selectNextUnit(hinted)
+    assert.equal(fromHint.id, "HMI-FILL-0030")
+    assert.equal(fromHint.slug, "fromage-frais")
+    fs.rmSync(hinted, { recursive: true, force: true })
+  } finally {
+    fs.rmSync(root, { recursive: true, force: true })
+  }
+})
+
 test("a directory status overrides the ledger, and a markdown table is a ledger", () => {
   const root = fs.mkdtempSync(path.join(os.tmpdir(), "deposits-"))
   fs.mkdirSync(path.join(root, "deposits", "HMI-ING-PEA-PROTEIN-1"), { recursive: true })
@@ -94,8 +158,10 @@ test("baseline rewrite may drop only the filled page", () => {
 
 test("the scheduled workflow carries the Claude fill contract", () => {
   const yml = fs.readFileSync(new URL("../../.github/workflows/claude-evidence-fill.yml", import.meta.url), "utf8")
-  assert.match(yml, /cron: "0 5 \* \* \*"/)
-  assert.match(yml, /cron: "0 15 \* \* \*"/)
+  assert.match(yml, /cron: "0 \*\/2 \* \* \*"/)
+  assert.doesNotMatch(yml, /cron: "0 5 \* \* \*"/)
+  assert.match(yml, /GH_TOKEN: \$\{\{ github\.token \}\}/)
+  assert.match(yml, /GITHUB_OUTPUT/)
   assert.match(yml, /workflow_dispatch:/)
   assert.match(yml, /anthropics\/claude-code-action@v1/)
   assert.match(yml, /claude_code_oauth_token: \$\{\{ secrets\.CLAUDE_CODE_OAUTH_TOKEN \}\}/)
