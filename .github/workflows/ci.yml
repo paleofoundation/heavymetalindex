@@ -17,7 +17,10 @@ jobs:
           node-version-file: .node-version
           cache: npm
       - run: npm ci
+      # The corpus outgrew Node's default ~2 GB heap in build-alias-redirects.test.ts (OOM on main after #469).
       - run: npm test
+        env:
+          NODE_OPTIONS: --max-old-space-size=6144
       - run: npm run lint:page-structure
       - run: npm run lint:page-openings
       - run: npm run lint:thin-with-evidence
