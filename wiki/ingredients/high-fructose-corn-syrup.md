@@ -349,6 +349,6 @@ Browse [High-fructose corn syrup Sources](../sources/index?topic=ingredients%2Fh
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-4 November 2026: HMI-FILL-0004 fill. Added source dufault2009-mercury-learning-bbf (BBF 2009 review). Chlor-alkali pathway and daily intake estimate added from that review. Provisional scaffold removed.
+4 November 2026: Added the Dufault 2009 review in Behavioral and Brain Functions. The chlor-alkali pathway and a daily intake estimate for total mercury are now on this page.
 22 October 2026: Rebuilt from every high-fructose corn syrup record in the library: 1 occurrence sources, references by form and basis, same-study contrasts and stage-led controls.
 <!-- END: hmi-page-history -->
