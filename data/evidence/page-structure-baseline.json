@@ -72,7 +72,7 @@
       ]
     },
     "dois_or_author_year": {
-      "pages": 617,
+      "pages": 618,
       "paths": [
         "wiki/ingredients/algae.md",
         "wiki/ingredients/almond-beverage.md",
@@ -146,6 +146,7 @@
         "wiki/ingredients/clementines-tangerines.md",
         "wiki/ingredients/cocoa.md",
         "wiki/ingredients/coconut-water.md",
+        "wiki/ingredients/cod.md",
         "wiki/ingredients/collard-greens.md",
         "wiki/ingredients/coriander.md",
         "wiki/ingredients/corn-flakes.md",
@@ -694,7 +695,7 @@
       ]
     },
     "generic_headings": {
-      "pages": 786,
+      "pages": 785,
       "paths": [
         "wiki/ingredients/almond-beverage.md",
         "wiki/ingredients/almond.md",
@@ -780,7 +781,6 @@
         "wiki/ingredients/cocoa.md",
         "wiki/ingredients/coconut-water.md",
         "wiki/ingredients/coconut.md",
-        "wiki/ingredients/cod.md",
         "wiki/ingredients/coffee.md",
         "wiki/ingredients/cola.md",
         "wiki/ingredients/collard-greens.md",
@@ -2083,7 +2083,7 @@
       ]
     },
     "consumer_audience": {
-      "pages": 509,
+      "pages": 508,
       "paths": [
         "wiki/ingredients/almond-beverage.md",
         "wiki/ingredients/almond.md",
@@ -2170,7 +2170,6 @@
         "wiki/ingredients/cocoa.md",
         "wiki/ingredients/coconut-water.md",
         "wiki/ingredients/coconut.md",
-        "wiki/ingredients/cod.md",
         "wiki/ingredients/coffee.md",
         "wiki/ingredients/cola.md",
         "wiki/ingredients/collard-greens.md",
@@ -2810,7 +2809,7 @@
       ]
     },
     "uncertainty_note": {
-      "pages": 916,
+      "pages": 915,
       "paths": [
         "wiki/ingredients/algae.md",
         "wiki/ingredients/almond-beverage.md",
@@ -2906,7 +2905,6 @@
         "wiki/ingredients/cocoa.md",
         "wiki/ingredients/coconut-water.md",
         "wiki/ingredients/coconut.md",
-        "wiki/ingredients/cod.md",
         "wiki/ingredients/coffee.md",
         "wiki/ingredients/cola.md",
         "wiki/ingredients/collard-greens.md",
