@@ -1,0 +1,37 @@
+{
+ "source_id": "lu2020-partial-zirconium-crowns-food-impaction",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-ZIRCONIUM-1/10.21037_atm-20-5582.pdf",
+ "primary_sha256": "deb235a2d842d824b66cfbfb2e46a417c12aa3c2c34a0993d749fbbee60ae9cf",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "out_of_scope",
+ "disposition_reason": "Dental clinical study of zirconium crowns; 'food impact' refers to food trapped between teeth; no zirconium exposure data.",
+ "disposition_locator": "Abstract",
+ "study": {
+  "design": "prospective clinical study of dental crowns",
+  "origin": "not stated",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "not stated"
+  },
+  "method": "clinical follow-up",
+  "lod": [],
+  "basis": "unknown",
+  "qa": "not applicable",
+  "site_context": "laboratory"
+ },
+ "findings": [],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/lu2020-partial-zirconium-crowns-food-impaction.md",
+ "non_numeric_findings": []
+}

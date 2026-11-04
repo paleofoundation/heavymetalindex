@@ -1,0 +1,37 @@
+{
+ "source_id": "villamizarcaballero2026-bismuth-selenide-thin-films",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-BISMUTH-1/10.1021_acsomega.6c01937.pdf",
+ "primary_sha256": "99648ae6084f5404704408870720e687de0d37aa58162eec7294b9e63fd0c810",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "out_of_scope",
+ "disposition_reason": "Thermoelectric thin-film materials study; no relevance to bismuth exposure.",
+ "disposition_locator": "Abstract, p. 40079",
+ "study": {
+  "design": "materials chemistry",
+  "origin": "not stated",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "not stated"
+  },
+  "method": "Thin-film fabrication and thermoelectric measurements",
+  "lod": [],
+  "basis": "not_applicable",
+  "qa": "not applicable",
+  "site_context": "laboratory"
+ },
+ "findings": [],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/villamizarcaballero2026-bismuth-selenide-thin-films.md",
+ "non_numeric_findings": []
+}

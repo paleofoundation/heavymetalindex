@@ -1,0 +1,39 @@
+{
+ "source_id": "li2025-konjac-lanthanum-glucomannan",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-RARE-EARTHS-1/lanthanum/10.3390_biology14070849.pdf",
+ "primary_sha256": "89e24c30eb21b47a5ea65ed2fda62d3e99887ef5df0b7bcb5d815a9517b97bea",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "no_numeric_results",
+ "disposition_reason": "Transcriptome study; no lanthanum concentrations in corms.",
+ "disposition_locator": "Abstract",
+ "study": {
+  "design": "plant treatment with transcriptome analysis",
+  "origin": "Zhejiang, China",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "not stated"
+  },
+  "method": "RNA-seq and qRT-PCR",
+  "lod": [],
+  "basis": "unknown",
+  "qa": "not reported",
+  "site_context": "experimental"
+ },
+ "findings": [],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/li2025-konjac-lanthanum-glucomannan.md",
+ "non_numeric_findings": [
+  "Lanthanum increased konjac glucomannan content."
+ ]
+}

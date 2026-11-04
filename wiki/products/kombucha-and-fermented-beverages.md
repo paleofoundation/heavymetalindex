@@ -1,4 +1,6 @@
 ---
+hero_image: /static/heroes/kombucha-fermented-tea-jars.webp
+hero_image_alt: "An unlabeled jar of amber fermented tea with a culture, a glass of the drink and loose tea leaves illustrating kombucha and fermented beverages product-format context."
 hmtc_subcategory_name: "Fermented beverages, non-tea"
 hmtc_category_name: "Beverages"
 type: product-category

@@ -1,0 +1,39 @@
+{
+ "source_id": "javid2015-field-pea-boron-tolerance-markers",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-BORON-1/10.3389_fpls.2015.00917.pdf",
+ "primary_sha256": "5c27d71d89a77323db1aa403bef18c1f91e47b1d59816edcbfa4076c69354e82",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "out_of_scope",
+ "disposition_reason": "Plant breeding marker validation; boron is a screening stress, no concentrations in food reported.",
+ "disposition_locator": "Methods; Results",
+ "study": {
+  "design": "germplasm screening and marker validation",
+  "origin": "Victoria, Australia",
+  "market": null,
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "not stated"
+  },
+  "method": "none for boron",
+  "lod": [],
+  "basis": "unknown",
+  "qa": "not applicable",
+  "site_context": "laboratory"
+ },
+ "findings": [],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/javid2015-field-pea-boron-tolerance-markers.md",
+ "non_numeric_findings": [
+  "The PsMlo1 marker predicted boron tolerance with over 80% accuracy across genotypes."
+ ]
+}

@@ -1,0 +1,39 @@
+{
+ "source_id": "imran2024-fragrant-rice-boron-toxicity-melatonin",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-BORON-1/10.3390_metabo14100520.pdf",
+ "primary_sha256": "d4009d9dbe2182d3186320fa01ba7ef42bbc5baf5ed474794b0a55ef260e1839",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "no_numeric_results",
+ "disposition_reason": "Plant stress physiology at a fixed 800 µM boron dose; no boron concentrations in edible tissue reported.",
+ "disposition_locator": "Abstract; Methods",
+ "study": {
+  "design": "controlled seedling experiment",
+  "origin": "Guangzhou, China",
+  "market": null,
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "not stated"
+  },
+  "method": "none for boron",
+  "lod": [],
+  "basis": "unknown",
+  "qa": "not applicable",
+  "site_context": "laboratory"
+ },
+ "findings": [],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/imran2024-fragrant-rice-boron-toxicity-melatonin.md",
+ "non_numeric_findings": [
+  "Excess boron (800 µM) impaired rice seedling growth and aroma precursor pathways; salicylic acid plus melatonin improved tolerance."
+ ]
+}

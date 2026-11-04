@@ -1,0 +1,37 @@
+{
+ "source_id": "mohdrazak2024-zinc-strontium-lithium-phosphate-glass",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-STRONTIUM-1/10.37934_sijmr.1.1.2640a.pdf",
+ "primary_sha256": "a441d57768fc0c7effe3e30d5c6d6c4a35a1db83f4b99379fe49b463fd930e9d",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "out_of_scope",
+ "disposition_reason": "Materials-science characterization of a strontium-containing glass; no exposure data.",
+ "disposition_locator": "Abstract, p. 26",
+ "study": {
+  "design": "materials synthesis and characterization",
+  "origin": "Universiti Teknologi Malaysia",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "not stated"
+  },
+  "method": "FTIR, Raman, ultrasonic testing, Vickers hardness",
+  "lod": [],
+  "basis": "unknown",
+  "qa": "not applicable",
+  "site_context": "laboratory"
+ },
+ "findings": [],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/mohdrazak2024-zinc-strontium-lithium-phosphate-glass.md",
+ "non_numeric_findings": []
+}

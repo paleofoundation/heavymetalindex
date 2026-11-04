@@ -1,9 +1,11 @@
 ---
+hero_image: /static/heroes/sheep-casings.webp
+hero_image_alt: "Translucent natural sheep casings coiled in a bowl of salted water, one length draped out, beside thin sausages."
 title: Sheep casings
 type: ingredient
 commodity: sheep-casings
 aliases: []
-category: meat
+category: unclassified
 provisional_scaffold: true
 provisional_created: 2026-10-15T00:00:00.000Z
 provisional_reason: >-
@@ -13,6 +15,7 @@ provisional_source: '[[sources/wysok2025-heavy-metals-sheep-casings]]'
 literature_scope: thin
 updated: '2026-10-22'
 evidence_scope: navigation-only
+page_contract_version: 1.0.0
 question_record: data/evidence/engine/ingredient/sheep-casings/question-record.json
 synthesis_record: data/evidence/engine/ingredient/sheep-casings/synthesis.json
 evidence_coverage: partial
@@ -87,34 +90,8 @@ ingredient_chrome:
         and a middle half…
       href: '#which-forms-and-regions-measured-lower'
       link_label: Variation
-quick_read:
-  summary: >-
-    Lead, cadmium, total arsenic and total mercury in sheep casings are reported
-    as monitoring results, studies, references by form and basis, limits,
-    testing and controls.
-  points:
-    - label: Metals of concern
-      text: the metals named by the studies cited on this page.
-    - label: Main drivers
-      text: 'form, origin and preparation stay separate.'
-    - label: Practical framing
-      text: this page does not pool those studies into one typical value.
 ---
 # Sheep casings
-
-<!-- BEGIN: hmi-opening -->
-<div class="hmi-quick-read">
-  <div class="hmi-quick-read-label">Quick read</div>
-  <p>Lead, cadmium, total arsenic and total mercury in sheep casings are reported as monitoring results, studies, references by form and basis, limits, testing and controls.</p>
-  <ul>
-    <li><strong>Metals of concern:</strong> the metals named by the studies cited on this page.</li>
-    <li><strong>Main drivers:</strong> form, origin and preparation stay separate.</li>
-    <li><strong>Practical framing:</strong> this page does not pool those studies into one typical value.</li>
-  </ul>
-</div>
-
-This page draws on 1 peer-reviewed study. The complete citation list is at the bottom of the page.
-<!-- END: hmi-opening -->
 
 <section class="hmi-quick-read" id="sheep-casings-quick-read" data-hmi-quick-read aria-labelledby="sheep-casings-quick-read-label"><div class="hmi-quick-read-label" id="sheep-casings-quick-read-label">Quick read</div>
 
@@ -142,6 +119,7 @@ Ask for lot results with a quantification limit well below the limit that applie
 </ul>
 </section>
 
+
 <a id="decision-summary"></a>
 ## Sheep casings overview
 
@@ -158,6 +136,8 @@ Wysok et al. 2025 reported lead at 77 µg/kg (mean ± 45 SD), cadmium at 9 µg/k
 
 For a buyer the practical points are the form bought, the basis a result is reported on, where the sheep casings came from and the laboratory’s reporting limit. Testing finds contamination but does not remove it.
 
+
+
 <a id="ingredient-identity-and-scope"></a>
 ## What counts as sheep casings
 
@@ -171,6 +151,7 @@ For a buyer the practical points are the form bought, the basis a result is repo
 This page covers sheep casings, as sold (63 results).<sup class="cite">[[sources/wysok2025-heavy-metals-sheep-casings|1]]<span class="cite-card"><span class="cite-card-head"><span class="cite-card-authors">Wysok B, Wojtacka J, Szczotka-Bochniarz A · 2025</span><a class="cite-card-title" href="../sources/wysok2025-heavy-metals-sheep-casings">Heavy Metal Contamination in Natural Sheep Casings</a></span><span class="cite-card-body"><span class="cite-card-journal">Foods</span><a class="cite-card-review" href="../sources/wysok2025-heavy-metals-sheep-casings">Read source →</a></span></span></sup>
 
 Results stay on the basis each source reports: as sold or fresh weight, dry weight, or unstated. Dry-weight, as-sold and unstated results are never pooled, and no moisture conversion is applied.
+
 
 <!-- BEGIN: hmi-fda-tds-occurrence -->
 
@@ -196,6 +177,7 @@ The table holds every extracted sheep casings result: one row for each statistic
 
 <!-- END: hmi-fda-tds-occurrence -->
 
+
 <a id="sources-and-contamination-pathways"></a>
 ## How metals reach sheep casings
 
@@ -207,6 +189,8 @@ The table holds every extracted sheep casings result: one row for each statistic
 <a id="which-source-attribution-claims-are-measured-modelled-inferred-or-unresolved"></a>
 
 No study in the library compared sheep casings from contaminated and ordinary settings, so the routes by which metals reach it are not measured here.
+
+
 
 <a id="ranges-by-source-region-and-variety"></a>
 ## Which forms and regions measured lower
@@ -222,6 +206,8 @@ The HMI reference for total mercury in sheep casings, as sold pools 9 subgroup u
 
 In one study, lead across 8 groups of sheep casings ranged from 64 µg/kg (casings of New Zealand origin) to 97 µg/kg (casings of Pakistan origin); the lowest is the lowest observed in that study, not an established sourcing preference.<sup class="cite">[[sources/wysok2025-heavy-metals-sheep-casings|1]]<span class="cite-card"><span class="cite-card-head"><span class="cite-card-authors">Wysok B, Wojtacka J, Szczotka-Bochniarz A · 2025</span><a class="cite-card-title" href="../sources/wysok2025-heavy-metals-sheep-casings">Heavy Metal Contamination in Natural Sheep Casings</a></span><span class="cite-card-body"><span class="cite-card-journal">Foods</span><a class="cite-card-review" href="../sources/wysok2025-heavy-metals-sheep-casings">Read source →</a></span></span></sup>
 
+
+
 <a id="processing-effects-and-derivatives"></a>
 ## Processing, cooking and preparation
 
@@ -233,6 +219,8 @@ In one study, lead across 8 groups of sheep casings ranged from 64 µg/kg (casin
 <a id="do-changes-reflect-removal-redistribution-moisture-or-yield-change-dilution-or-altered-species-or-availability"></a>
 
 No processing study for metals in this food is in the library yet.
+
+
 
 <a id="mitigation-options"></a>
 ## Mitigation for sheep casings
@@ -248,6 +236,8 @@ Lot testing against the applicable limit is the check that can be verified.
 
 <p class="hmi-mitigation-gap" data-mitigation-gap>No measured way to lower metals in this food is in the library yet.</p>
 
+
+
 <a id="trade-offs-and-failure-modes"></a>
 ## Trade-offs and limits of controls
 
@@ -259,6 +249,8 @@ Lot testing against the applicable limit is the check that can be verified.
 <a id="what-costs-constraints-adverse-effects-or-failure-modes-are-documented-and-which-are-unknown"></a>
 
 Metals do not move together, so a lot that passes a lead limit says little about cadmium, arsenic or nickel unless those are tested as well.
+
+
 
 <a id="sampling-and-testing"></a>
 ## Testing sheep casings for metals
@@ -274,6 +266,8 @@ Results depend on the method and its reporting limit. Reporting limits for lead 
 
 A useful lot result names the form, the basis and a quantification limit well below the limit that applies.
 
+
+
 <a id="procurement-and-process-control"></a>
 ## Buying and verifying sheep casings
 
@@ -286,6 +280,8 @@ A useful lot result names the form, the basis and a quantification limit well be
 
 No maximum level for metals in sheep casings was verified from primary text for this page; buyers should confirm the limit that applies in the destination market.
 
+
+
 <a id="finished-product-and-exposure-implications"></a>
 ## Exposure from sheep casings
 
@@ -297,6 +293,7 @@ No maximum level for metals in sheep casings was verified from primary text for 
 <a id="what-conclusions-require-finished-product-measurements-or-a-separate-exposure-assessment"></a>
 
 No source in the library converted sheep casings concentrations into a verified estimate of intake for a defined population. Concentrations describe the food, not individual risk.
+
 
 <a id="coverage"></a>
 <a id="indexed-source-records"></a>
@@ -314,6 +311,7 @@ No source in the library converted sheep casings concentrations into a verified 
 Every source record that names sheep casings was decided on its content: 1 occurrence extracted, 1 record in all. The occurrence table renders every extracted result; held values remain visible with their reason.
 
 References identify the sources used in these answers. The Sources index preserves additional discovery links; inclusion there does not mean a source has been reviewed for this assessment. Corrections, completed searches, new direct evidence and changes in requirements should reopen the relevant answer.
+
 
 <a id="universal-faqs"></a>
 ## Sheep casings FAQs
@@ -339,7 +337,7 @@ In one study, lead across 8 groups of sheep casings ranged from 64 µg/kg (casin
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to a source record with bibliographic details, reported findings, and document provenance.
+Works cited on this page, in citation-number order. See [Sources](#sources) for this page's source inventory. Each title links to a source record with bibliographic details, reported findings, and document provenance.
 
 1. [[sources/wysok2025-heavy-metals-sheep-casings|Heavy Metal Contamination in Natural Sheep Casings]]<span class="hmi-ref-meta">Wysok B, Wojtacka J, and Szczotka-Bochniarz A · Foods · 2025 · [doi.org/10.3390/foods14091520](https://doi.org/10.3390/foods14091520)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 <!-- END: hmi-page-references -->
@@ -353,5 +351,5 @@ Browse [Sheep casings Sources](../sources/index?topic=ingredients%2Fsheep-casing
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-No substantive edit history is available in this build. The full commit record is available in [git](https://github.com/paleofoundation/heavymetalindex).
+22 October 2026: Rebuilt from every sheep casings record in the library: 1 occurrence sources, references by form and basis, same-study contrasts.
 <!-- END: hmi-page-history -->

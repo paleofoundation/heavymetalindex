@@ -1,0 +1,460 @@
+{
+  "method": "hmi-pooled-reference-v2",
+  "frozen": "2026-11-03",
+  "admission": [
+    {
+      "finding": "galal2021-heavy-metals-pisum-sativum:Pb:garden-pea-fruit-polluted:mean",
+      "source": "galal2021-heavy-metals-pisum-sativum",
+      "analyte": "Pb",
+      "reference_id": null,
+      "reason": "Dry-weight results have no compatible dry-weight reference for this form in the ledger.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "galal2021-heavy-metals-pisum-sativum:Pb:garden-pea-fruit-unpolluted:mean",
+      "source": "galal2021-heavy-metals-pisum-sativum",
+      "analyte": "Pb",
+      "reference_id": null,
+      "reason": "Dry-weight results have no compatible dry-weight reference for this form in the ledger.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "ring2021-ireland-protein-powders-metals:Pb:protein-powder-pea-retail-sample-p2-retail-product:sample_value",
+      "source": "ring2021-ireland-protein-powders-metals",
+      "analyte": "Pb",
+      "reference_id": "hmi-pooled-reference-v2:pea-protein-9abd3cdd6591:fd8bde5fc313",
+      "reason": "Only 2 reference unit is available; at least four are required by this descriptive display rule.",
+      "level": null,
+      "target": {
+        "lower": 22.2,
+        "upper": 22.2,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "ring2021-ireland-protein-powders-metals:Pb:protein-powder-pea-retail-sample-p12-retail-produc:sample_value",
+      "source": "ring2021-ireland-protein-powders-metals",
+      "analyte": "Pb",
+      "reference_id": "hmi-pooled-reference-v2:pea-protein-9abd3cdd6591:fd8bde5fc313",
+      "reason": "Only 2 reference unit is available; at least four are required by this descriptive display rule.",
+      "level": null,
+      "target": {
+        "lower": 22.5,
+        "upper": 22.5,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "lopezcalabozo2025-vegetable-protein-concentrates:Pb:pea-protein-concentrate-anonymized-product-1:not_detected",
+      "source": "lopezcalabozo2025-vegetable-protein-concentrates",
+      "analyte": "Pb",
+      "reference_id": null,
+      "reason": "The source does not state whether results are fresh or dry weight, so no reference applies.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "lopezcalabozo2025-vegetable-protein-concentrates:Pb:pea-protein-concentrate-anonymized-product-2:not_detected",
+      "source": "lopezcalabozo2025-vegetable-protein-concentrates",
+      "analyte": "Pb",
+      "reference_id": null,
+      "reason": "The source does not state whether results are fresh or dry weight, so no reference applies.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "galal2021-heavy-metals-pisum-sativum:Cd:garden-pea-fruit-polluted:mean",
+      "source": "galal2021-heavy-metals-pisum-sativum",
+      "analyte": "Cd",
+      "reference_id": null,
+      "reason": "Dry-weight results have no compatible dry-weight reference for this form in the ledger.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "galal2021-heavy-metals-pisum-sativum:Cd:garden-pea-fruit-unpolluted:mean",
+      "source": "galal2021-heavy-metals-pisum-sativum",
+      "analyte": "Cd",
+      "reference_id": null,
+      "reason": "Dry-weight results have no compatible dry-weight reference for this form in the ledger.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "ring2021-ireland-protein-powders-metals:Cd:protein-powder-pea-retail-sample-p2-retail-product:sample_value",
+      "source": "ring2021-ireland-protein-powders-metals",
+      "analyte": "Cd",
+      "reference_id": "hmi-pooled-reference-v2:pea-protein-f78a9cb8a2a4:4e957c08e0ec",
+      "reason": "Only 2 reference unit is available; at least four are required by this descriptive display rule.",
+      "level": null,
+      "target": {
+        "lower": 40.6,
+        "upper": 40.6,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "ring2021-ireland-protein-powders-metals:Cd:protein-powder-pea-retail-sample-p12-retail-produc:sample_value",
+      "source": "ring2021-ireland-protein-powders-metals",
+      "analyte": "Cd",
+      "reference_id": "hmi-pooled-reference-v2:pea-protein-f78a9cb8a2a4:4e957c08e0ec",
+      "reason": "Only 2 reference unit is available; at least four are required by this descriptive display rule.",
+      "level": null,
+      "target": {
+        "lower": 15.4,
+        "upper": 15.4,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "lopezcalabozo2025-vegetable-protein-concentrates:Cd:pea-protein-concentrate-anonymized-product-1:not_detected",
+      "source": "lopezcalabozo2025-vegetable-protein-concentrates",
+      "analyte": "Cd",
+      "reference_id": null,
+      "reason": "The source does not state whether results are fresh or dry weight, so no reference applies.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "lopezcalabozo2025-vegetable-protein-concentrates:Cd:pea-protein-concentrate-anonymized-product-2:not_detected",
+      "source": "lopezcalabozo2025-vegetable-protein-concentrates",
+      "analyte": "Cd",
+      "reference_id": null,
+      "reason": "The source does not state whether results are fresh or dry weight, so no reference applies.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "galal2021-heavy-metals-pisum-sativum:tAs:garden-pea-fruit-polluted:mean",
+      "source": "galal2021-heavy-metals-pisum-sativum",
+      "analyte": "tAs",
+      "reference_id": null,
+      "reason": "Dry-weight results have no compatible dry-weight reference for this form in the ledger.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "galal2021-heavy-metals-pisum-sativum:tAs:garden-pea-fruit-unpolluted:mean",
+      "source": "galal2021-heavy-metals-pisum-sativum",
+      "analyte": "tAs",
+      "reference_id": null,
+      "reason": "Dry-weight results have no compatible dry-weight reference for this form in the ledger.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "ring2021-ireland-protein-powders-metals:tHg:protein-powder-pea-retail-sample-p2-retail-product:sample_value",
+      "source": "ring2021-ireland-protein-powders-metals",
+      "analyte": "tHg",
+      "reference_id": "hmi-pooled-reference-v2:pea-protein-56dce793f4ac:0f0d5493c000",
+      "reason": "Only 2 reference unit is available; at least four are required by this descriptive display rule.",
+      "level": null,
+      "target": {
+        "lower": 4.3,
+        "upper": 4.3,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "ring2021-ireland-protein-powders-metals:tHg:protein-powder-pea-retail-sample-p12-retail-produc:not_detected",
+      "source": "ring2021-ireland-protein-powders-metals",
+      "analyte": "tHg",
+      "reference_id": "hmi-pooled-reference-v2:pea-protein-56dce793f4ac:0f0d5493c000",
+      "reason": "Only 2 reference unit is available; at least four are required by this descriptive display rule.",
+      "level": null,
+      "target": {
+        "lower": 0,
+        "upper": 0.2,
+        "exact": false,
+        "statistic": "non-detect bounds"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "galal2021-heavy-metals-pisum-sativum:Ni:garden-pea-fruit-polluted:mean",
+      "source": "galal2021-heavy-metals-pisum-sativum",
+      "analyte": "Ni",
+      "reference_id": null,
+      "reason": "Dry-weight results have no compatible dry-weight reference for this form in the ledger.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "galal2021-heavy-metals-pisum-sativum:Ni:garden-pea-fruit-unpolluted:mean",
+      "source": "galal2021-heavy-metals-pisum-sativum",
+      "analyte": "Ni",
+      "reference_id": null,
+      "reason": "Dry-weight results have no compatible dry-weight reference for this form in the ledger.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "lopezcalabozo2025-vegetable-protein-concentrates:Ni:pea-protein-concentrate-anonymized-product-1:mean",
+      "source": "lopezcalabozo2025-vegetable-protein-concentrates",
+      "analyte": "Ni",
+      "reference_id": null,
+      "reason": "The source does not state whether results are fresh or dry weight, so no reference applies.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "lopezcalabozo2025-vegetable-protein-concentrates:Ni:pea-protein-concentrate-anonymized-product-2:mean",
+      "source": "lopezcalabozo2025-vegetable-protein-concentrates",
+      "analyte": "Ni",
+      "reference_id": null,
+      "reason": "The source does not state whether results are fresh or dry weight, so no reference applies.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "galal2021-heavy-metals-pisum-sativum:Cr:garden-pea-fruit-polluted:mean",
+      "source": "galal2021-heavy-metals-pisum-sativum",
+      "analyte": "Cr",
+      "reference_id": null,
+      "reason": "Dry-weight results have no compatible dry-weight reference for this form in the ledger.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "galal2021-heavy-metals-pisum-sativum:Cr:garden-pea-fruit-unpolluted:mean",
+      "source": "galal2021-heavy-metals-pisum-sativum",
+      "analyte": "Cr",
+      "reference_id": null,
+      "reason": "Dry-weight results have no compatible dry-weight reference for this form in the ledger.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "ring2021-ireland-protein-powders-metals:Cr:protein-powder-pea-retail-sample-p2-retail-product:sample_value",
+      "source": "ring2021-ireland-protein-powders-metals",
+      "analyte": "Cr",
+      "reference_id": "hmi-pooled-reference-v2:pea-protein-1b5722f9b52a:7f1585b6d1a3",
+      "reason": "Only 2 reference unit is available; at least four are required by this descriptive display rule.",
+      "level": null,
+      "target": {
+        "lower": 289.2,
+        "upper": 289.2,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "ring2021-ireland-protein-powders-metals:Cr:protein-powder-pea-retail-sample-p12-retail-produc:sample_value",
+      "source": "ring2021-ireland-protein-powders-metals",
+      "analyte": "Cr",
+      "reference_id": "hmi-pooled-reference-v2:pea-protein-1b5722f9b52a:7f1585b6d1a3",
+      "reason": "Only 2 reference unit is available; at least four are required by this descriptive display rule.",
+      "level": null,
+      "target": {
+        "lower": 210.7,
+        "upper": 210.7,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "lopezcalabozo2025-vegetable-protein-concentrates:Cr:pea-protein-concentrate-anonymized-product-1:mean",
+      "source": "lopezcalabozo2025-vegetable-protein-concentrates",
+      "analyte": "Cr",
+      "reference_id": null,
+      "reason": "The source does not state whether results are fresh or dry weight, so no reference applies.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "lopezcalabozo2025-vegetable-protein-concentrates:Cr:pea-protein-concentrate-anonymized-product-2:mean",
+      "source": "lopezcalabozo2025-vegetable-protein-concentrates",
+      "analyte": "Cr",
+      "reference_id": null,
+      "reason": "The source does not state whether results are fresh or dry weight, so no reference applies.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "ring2021-ireland-protein-powders-metals:Sn:protein-powder-pea-retail-sample-p2-retail-product:sample_value",
+      "source": "ring2021-ireland-protein-powders-metals",
+      "analyte": "Sn",
+      "reference_id": "hmi-pooled-reference-v2:pea-protein-fb9ccbe22b32:db8c3b758701",
+      "reason": "Only 2 reference unit is available; at least four are required by this descriptive display rule.",
+      "level": null,
+      "target": {
+        "lower": 26.7,
+        "upper": 26.7,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "ring2021-ireland-protein-powders-metals:Sn:protein-powder-pea-retail-sample-p12-retail-produc:sample_value",
+      "source": "ring2021-ireland-protein-powders-metals",
+      "analyte": "Sn",
+      "reference_id": "hmi-pooled-reference-v2:pea-protein-fb9ccbe22b32:db8c3b758701",
+      "reason": "Only 2 reference unit is available; at least four are required by this descriptive display rule.",
+      "level": null,
+      "target": {
+        "lower": 329.7,
+        "upper": 329.7,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    }
+  ],
+  "unit_audit": [
+    {
+      "unit": "galal2021-heavy-metals-pisum-sativum:Pb:garden-pea-fruit-polluted:mean",
+      "admitted": false,
+      "reason": "a mean is not an observed subgroup median or sample value"
+    },
+    {
+      "unit": "galal2021-heavy-metals-pisum-sativum:Pb:garden-pea-fruit-unpolluted:mean",
+      "admitted": false,
+      "reason": "a mean is not an observed subgroup median or sample value"
+    },
+    {
+      "unit": "lopezcalabozo2025-vegetable-protein-concentrates:Pb:pea-protein-concentrate-anonymized-product-1:not_detected",
+      "admitted": false,
+      "reason": "basis not stated: cannot join an as-sold, fresh-weight or dry-weight reference"
+    },
+    {
+      "unit": "lopezcalabozo2025-vegetable-protein-concentrates:Pb:pea-protein-concentrate-anonymized-product-2:not_detected",
+      "admitted": false,
+      "reason": "basis not stated: cannot join an as-sold, fresh-weight or dry-weight reference"
+    },
+    {
+      "unit": "galal2021-heavy-metals-pisum-sativum:Cd:garden-pea-fruit-polluted:mean",
+      "admitted": false,
+      "reason": "a mean is not an observed subgroup median or sample value"
+    },
+    {
+      "unit": "galal2021-heavy-metals-pisum-sativum:Cd:garden-pea-fruit-unpolluted:mean",
+      "admitted": false,
+      "reason": "a mean is not an observed subgroup median or sample value"
+    },
+    {
+      "unit": "lopezcalabozo2025-vegetable-protein-concentrates:Cd:pea-protein-concentrate-anonymized-product-1:not_detected",
+      "admitted": false,
+      "reason": "basis not stated: cannot join an as-sold, fresh-weight or dry-weight reference"
+    },
+    {
+      "unit": "lopezcalabozo2025-vegetable-protein-concentrates:Cd:pea-protein-concentrate-anonymized-product-2:not_detected",
+      "admitted": false,
+      "reason": "basis not stated: cannot join an as-sold, fresh-weight or dry-weight reference"
+    },
+    {
+      "unit": "galal2021-heavy-metals-pisum-sativum:tAs:garden-pea-fruit-polluted:mean",
+      "admitted": false,
+      "reason": "a mean is not an observed subgroup median or sample value"
+    },
+    {
+      "unit": "galal2021-heavy-metals-pisum-sativum:tAs:garden-pea-fruit-unpolluted:mean",
+      "admitted": false,
+      "reason": "a mean is not an observed subgroup median or sample value"
+    },
+    {
+      "unit": "galal2021-heavy-metals-pisum-sativum:Ni:garden-pea-fruit-polluted:mean",
+      "admitted": false,
+      "reason": "a mean is not an observed subgroup median or sample value"
+    },
+    {
+      "unit": "galal2021-heavy-metals-pisum-sativum:Ni:garden-pea-fruit-unpolluted:mean",
+      "admitted": false,
+      "reason": "a mean is not an observed subgroup median or sample value"
+    },
+    {
+      "unit": "lopezcalabozo2025-vegetable-protein-concentrates:Ni:pea-protein-concentrate-anonymized-product-1:mean",
+      "admitted": false,
+      "reason": "a mean is not an observed subgroup median or sample value"
+    },
+    {
+      "unit": "lopezcalabozo2025-vegetable-protein-concentrates:Ni:pea-protein-concentrate-anonymized-product-2:mean",
+      "admitted": false,
+      "reason": "a mean is not an observed subgroup median or sample value"
+    },
+    {
+      "unit": "galal2021-heavy-metals-pisum-sativum:Cr:garden-pea-fruit-polluted:mean",
+      "admitted": false,
+      "reason": "a mean is not an observed subgroup median or sample value"
+    },
+    {
+      "unit": "galal2021-heavy-metals-pisum-sativum:Cr:garden-pea-fruit-unpolluted:mean",
+      "admitted": false,
+      "reason": "a mean is not an observed subgroup median or sample value"
+    },
+    {
+      "unit": "lopezcalabozo2025-vegetable-protein-concentrates:Cr:pea-protein-concentrate-anonymized-product-1:mean",
+      "admitted": false,
+      "reason": "a mean is not an observed subgroup median or sample value"
+    },
+    {
+      "unit": "lopezcalabozo2025-vegetable-protein-concentrates:Cr:pea-protein-concentrate-anonymized-product-2:mean",
+      "admitted": false,
+      "reason": "a mean is not an observed subgroup median or sample value"
+    }
+  ],
+  "unit_counts": {
+    "Pb|pea-protein: Pea protein, powder or ground|As sold, as eaten or fresh weight": {
+      "units": 2,
+      "families": [
+        "ring2021-ireland-protein-powders-metals"
+      ]
+    },
+    "Cd|pea-protein: Pea protein, powder or ground|As sold, as eaten or fresh weight": {
+      "units": 2,
+      "families": [
+        "ring2021-ireland-protein-powders-metals"
+      ]
+    },
+    "tHg|pea-protein: Pea protein, powder or ground|As sold, as eaten or fresh weight": {
+      "units": 2,
+      "families": [
+        "ring2021-ireland-protein-powders-metals"
+      ]
+    },
+    "Cr|pea-protein: Pea protein, powder or ground|As sold, as eaten or fresh weight": {
+      "units": 2,
+      "families": [
+        "ring2021-ireland-protein-powders-metals"
+      ]
+    },
+    "Sn|pea-protein: Pea protein, powder or ground|As sold, as eaten or fresh weight": {
+      "units": 2,
+      "families": [
+        "ring2021-ireland-protein-powders-metals"
+      ]
+    }
+  }
+}

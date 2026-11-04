@@ -3,7 +3,7 @@ title: About
 dek: "A public reference on heavy metals in food, supply chains, remediation and regulatory findings. This page describes its operator, editorial independence, governance and relationship to related resources."
 description: About the Heavy Metal Index and the Institute of Contaminant Standards.
 audience: [regulator, educator, researcher, consumer]
-updated: 2026-04-24
+updated: 2026-11-03
 hero_image: /static/heroes/research-glassware-notebook-sampling-spoon.webp
 hero_image_alt: "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating about research context."
 ---
@@ -24,7 +24,7 @@ Paleo Certified, Inc. also operates, as the Institute of Contaminant Standards (
 
 ## Governance
 
-[Karen Pendergrass](/authors/karen-pendergrass) is the architect of the Heavy Metal Index evidence system. Her author profile includes affiliations, work history, ORCID, and selected public works.
+[Karen Pendergrass](/authors/karen-pendergrass) is founder and scientific editor of the Heavy Metal Index. Her author profile includes her roles, notes on recent work, and a short selection of major works. The full work list remains on her ORCID record.
 
 Methodology, selection criteria, extraction approach, quality-assurance audit procedures, and error-handling workflow are documented on the [methodology page](/methodology). The wiki is version-controlled in git; every substantive change is committed with provenance, and the commit log is the authoritative record of who changed what and when.
 

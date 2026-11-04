@@ -1,0 +1,39 @@
+{
+ "source_id": "yousaf2026-cerium-oxide-nanoparticles-antidiabetic",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-RARE-EARTHS-1/cerium/10.1186_s11671-026-04521-w.pdf",
+ "primary_sha256": "429652ed79700b2165c49600a12830151fd063324330e4fa93733bfa5dfc0276",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "out_of_scope",
+ "disposition_reason": "Nanomaterial synthesis and in vitro or in silico analysis; no exposure-relevant data.",
+ "disposition_locator": "Abstract",
+ "study": {
+  "design": "nanomaterial synthesis, in vitro and in silico study",
+  "origin": "Rawalpindi, Pakistan",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "not stated"
+  },
+  "method": "in vitro assays and docking",
+  "lod": [],
+  "basis": "unknown",
+  "qa": "not applicable",
+  "site_context": "laboratory"
+ },
+ "findings": [],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/yousaf2026-cerium-oxide-nanoparticles-antidiabetic.md",
+ "non_numeric_findings": [
+  "In vitro antidiabetic enzyme inhibition by cerium oxide nanoparticles."
+ ]
+}

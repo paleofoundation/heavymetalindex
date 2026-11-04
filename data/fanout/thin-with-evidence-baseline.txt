@@ -1,31 +1,19 @@
 # Pages that are still thin while measurement evidence exists.
 # Rewrite with: node tools/fanout/audit-thin-with-evidence.mjs --write-baseline
 # A page leaves this list when it has a valid hmi-cited-measurements block.
-ingredients/algae
-ingredients/bagel
-ingredients/baking-powder
-ingredients/bee-pollen
 ingredients/casein
-ingredients/catfish
 ingredients/cod
 ingredients/cola
 ingredients/diet-cola
 ingredients/energy-drink
-ingredients/english-muffin
 ingredients/fruit-ice-pop
 ingredients/fruit-snack-candy
 ingredients/gelatin-dessert
 ingredients/infant-formula
-ingredients/iodized-salt
 ingredients/italian-dressing
-ingredients/kale
-ingredients/lemon-juice
-ingredients/monterey-jack-cheese
-ingredients/oyster
 ingredients/pasta-sauce
 ingredients/pie-crust
 ingredients/ranch-dressing-low-calorie
-ingredients/refried-beans
 ingredients/salted-fish
 ingredients/sorbet
 ingredients/sour-cream
@@ -33,7 +21,6 @@ ingredients/sugar-cookies
 ingredients/swiss-cheese
 ingredients/tofu
 ingredients/turkey-luncheon-meat
-ingredients/vegetables-mixed
 ingredients/whole-wheat-pasta
 products/all-purpose-cleaners
 products/apple-pie

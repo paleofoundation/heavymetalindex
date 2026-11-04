@@ -1,0 +1,42 @@
+{
+ "source_id": "szczerbowskaboruchowska2025-obese-rat-brain-rubidium",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-RUBIDIUM-1/10.1007_s00429-025-02930-8.pdf",
+ "primary_sha256": "63d1fe8b981c8b2e3380edcbf2ec718f551cdbeeda092d054ff44efb996d0b2f",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "context",
+ "disposition_reason": "Animal brain synchrotron XRF study; relative differences and LOD only; absolute values only in a figure; no food or human data.",
+ "disposition_locator": "Results (p. 5); Figures 3 and 4",
+ "study": {
+  "design": "animal study, diet-induced obesity versus lean controls",
+  "origin": "Poland (Krakow)",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "not stated"
+  },
+  "method": "synchrotron radiation X-ray fluorescence (SOLARIS POLYX beamline)",
+  "lod": [
+   "Rb LOD 0.000623 ± 0.000049 ug/cm2 (Results, p. 5)"
+  ],
+  "basis": "unknown",
+  "qa": "Thin-film calibration standards (Micromatter)",
+  "site_context": "laboratory"
+ },
+ "findings": [],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/szczerbowskaboruchowska2025-obese-rat-brain-rubidium.md",
+ "non_numeric_findings": [
+  "Brain rubidium about 35 to 72% higher in obese rats across nine regions (Results, p. 5).",
+  "Authors state the obese rats had lower dietary rubidium intake, citing their earlier study (Introduction, p. 2)."
+ ]
+}

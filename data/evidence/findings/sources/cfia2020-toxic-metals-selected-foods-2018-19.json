@@ -1,0 +1,25 @@
+{
+  "source_id": "cfia2020-toxic-metals-selected-foods-2018-19",
+  "primary_artifact": null,
+  "primary_sha256": "1d3c79066c0735d647434725fd1ece7ac6220e5b90914ef013ef30f96f145ef8",
+  "extracted_at": "2026-11-03",
+  "extractor": "verified-deposit-pdf",
+  "disposition": "occurrence_extracted",
+  "extraction_scope": "rice-protein-mercury-only",
+  "disposition_reason": "One brown rice protein powder is the only rice-protein result in the report. Category means mix protein sources.",
+  "disposition_locator": "Mercury section, p. 8",
+  "study": {
+    "design": "Targeted retail survey",
+    "origin": "not stated for the brown rice protein powder",
+    "market": "Retail in Halifax, Montreal, Toronto, Ottawa, Vancouver and Calgary",
+    "period": {
+      "from": 2018,
+      "to": 2019,
+      "as_reported": "1 April 2018 to 21 March 2019 in the sampling section; the report title says 31 March 2019"
+    },
+    "method": "Metals of concern, including total mercury",
+    "basis": "as_sold",
+    "site_context": "monitoring",
+    "sampling_unit": "samples"
+  }
+}

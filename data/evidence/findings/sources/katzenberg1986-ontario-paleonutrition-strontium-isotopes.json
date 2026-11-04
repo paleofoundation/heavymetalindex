@@ -1,0 +1,39 @@
+{
+ "source_id": "katzenberg1986-ontario-paleonutrition-strontium-isotopes",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-STRONTIUM-1/W7132951409.pdf",
+ "primary_sha256": "3b475ba5d39514b7aff8cebf0be8caffee4f579ab6f48ba1ff88ae02959181f6",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "no_numeric_results",
+ "disposition_reason": "Synthesis paper; bone strontium shown only graphically; no verifiable numbers extracted.",
+ "disposition_locator": "Corrected strontium values figure",
+ "study": {
+  "design": "paleodiet synthesis",
+  "origin": "southern Ontario, Canada",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "about 2300 BC to AD 1645"
+  },
+  "method": "bone mineral strontium and collagen stable isotopes (from earlier studies)",
+  "lod": [],
+  "basis": "unknown",
+  "qa": "not described",
+  "site_context": "archaeological"
+ },
+ "findings": [],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/katzenberg1986-ontario-paleonutrition-strontium-isotopes.md",
+ "non_numeric_findings": [
+  "Adoption of maize, a low-strontium grass, is proposed to explain lower bone strontium in later populations (Abstract)."
+ ]
+}

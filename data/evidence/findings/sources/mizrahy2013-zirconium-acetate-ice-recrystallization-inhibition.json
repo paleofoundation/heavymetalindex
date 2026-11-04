@@ -1,0 +1,37 @@
+{
+ "source_id": "mizrahy2013-zirconium-acetate-ice-recrystallization-inhibition",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-ZIRCONIUM-1/10.1371_journal.pone.0059540.pdf",
+ "primary_sha256": "9d8cdd38c576c8333f6d7a70de2e2029cca221504d1c652ef414bfd9f57dd1bc",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "out_of_scope",
+ "disposition_reason": "Materials paper using zirconium acetate compounds as candidate ice-growth inhibitors; no zirconium occurrence, exposure or toxicity data.",
+ "disposition_locator": "Abstract",
+ "study": {
+  "design": "laboratory physical chemistry study",
+  "origin": "not stated",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "not stated"
+  },
+  "method": "cryomicroscopy; thermal hysteresis and recrystallization assays",
+  "lod": [],
+  "basis": "unknown",
+  "qa": "not applicable",
+  "site_context": "laboratory"
+ },
+ "findings": [],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/mizrahy2013-zirconium-acetate-ice-recrystallization-inhibition.md",
+ "non_numeric_findings": []
+}

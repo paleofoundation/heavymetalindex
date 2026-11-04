@@ -1,0 +1,41 @@
+{
+ "source_id": "uehara2016-kelp-laminaran-strontium-absorption-mice",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-STRONTIUM-1/10.15761_icst.1000216.pdf",
+ "primary_sha256": "0636ac42b3163e16e1c6462c22ec0b80e0534c0d6737369aa78f323441078b8f",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "context",
+ "disposition_reason": "Mouse screening of food materials for strontium absorption; relative femur values, no food occurrence.",
+ "disposition_locator": "Results, pp. 2 to 3; Fig. 1",
+ "study": {
+  "design": "mouse single-dose screening experiment",
+  "origin": "University of Shizuoka, Japan",
+  "market": "kelp from a Shizuoka supermarket; other materials from chemical suppliers",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "not stated"
+  },
+  "method": "microwave nitric acid digestion and ICP-MS",
+  "lod": [
+   "LOQ strontium 0.05 ppb and cesium 0.05 ppb (Methods, p. 2)"
+  ],
+  "basis": "unknown",
+  "qa": "Triplicate analysis; yttrium internal standard",
+  "site_context": "laboratory"
+ },
+ "findings": [],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/uehara2016-kelp-laminaran-strontium-absorption-mice.md",
+ "non_numeric_findings": [
+  "Kelp, laminaran and calcium alginate lowered femur strontium relative to control (Results, p. 2)."
+ ]
+}

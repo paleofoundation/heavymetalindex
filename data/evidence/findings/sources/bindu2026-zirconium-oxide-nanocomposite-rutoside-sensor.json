@@ -1,0 +1,37 @@
+{
+ "source_id": "bindu2026-zirconium-oxide-nanocomposite-rutoside-sensor",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-ZIRCONIUM-1/10.1039_d6ra06278d.pdf",
+ "primary_sha256": "68420eb3e67386c8d1b66d936071403816a67bd7ef5986ac4ef741a8995d8e50",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "out_of_scope",
+ "disposition_reason": "Materials paper using zirconium in a mixed oxide electrode for sensing another compound; no zirconium occurrence, exposure or toxicity data.",
+ "disposition_locator": "Abstract",
+ "study": {
+  "design": "laboratory materials or sensor study",
+  "origin": "not stated",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "not stated"
+  },
+  "method": "material synthesis and characterization",
+  "lod": [],
+  "basis": "unknown",
+  "qa": "not applicable",
+  "site_context": "laboratory"
+ },
+ "findings": [],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/bindu2026-zirconium-oxide-nanocomposite-rutoside-sensor.md",
+ "non_numeric_findings": []
+}

@@ -307,7 +307,7 @@ function formReferenceText(analyteName, form, refs) {
   const f = lowerFirst(form), m = lowerFirst(analyteName);
   // A form rated against several references (species or bases) names the most used ones.
   if (refs.length > 3) return `Findings for ${f} and ${m} are rated against ${refs.length} separate HMI references, one per species, material or basis. The most used: ${refs.slice(0, 3).map(b => b.distribution?.eligible ? `${b.label.replace(/ ·.*$/, '')}, middle 50% ${boundText(b.distribution.q1)}–${boundText(b.distribution.q3)} ${b.scope?.unit || 'µg/kg'}` : b.label.replace(/ ·.*$/, '')).join('; ')}. Each row's information icon names its own reference.`;
-  if (!refs.length) return `No HMI reference for ${f} and ${m}: the evidence has no medians or sample values for this form, so findings here cannot be rated Low, Moderate or High.`;
+  if (!refs.length) return `No HMI reference for ${f} and ${m}. These findings are not rated.`;
   return refs.map(b => {
     const d = b.distribution, unit = b.scope?.unit || 'µg/kg', basis = refs.length > 1 ? ` (${basisTag(b)})` : '';
     if (!d) return `HMI reference for ${f} and ${m}${basis} has no admitted units.`;

@@ -1,0 +1,39 @@
+{
+ "source_id": "manceau2025-deep-sea-sediment-cerium-phosphate",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-RARE-EARTHS-1/cerium/10.1038_s43247-025-02439-2.pdf",
+ "primary_sha256": "d25be929af4ce435e6513d3fb0364405ceb462090743a778008d5e8ef449fa4b",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "context",
+ "disposition_reason": "Geochemical speciation study; sediment cerium values outside food, water, feed, soil or human matrices.",
+ "disposition_locator": "p. 2",
+ "study": {
+  "design": "geochemical speciation study",
+  "origin": "Clarion-Clipperton Zone, Pacific Ocean",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "not stated"
+  },
+  "method": "HERFD-XANES, EXAFS, TEM, DFT",
+  "lod": [],
+  "basis": "unknown",
+  "qa": "reference compounds",
+  "site_context": "marine sediment"
+ },
+ "findings": [],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/manceau2025-deep-sea-sediment-cerium-phosphate.md",
+ "non_numeric_findings": [
+  "Cerium occurs as cerium-phosphate clusters around bioapatite nanocrystals, not by lattice substitution."
+ ]
+}

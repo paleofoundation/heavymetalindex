@@ -1,0 +1,39 @@
+{
+ "source_id": "pecoraro2023-zebrafish-titanium-cerium-nanocomposite",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-RARE-EARTHS-1/cerium/10.3390_toxics11120994.pdf",
+ "primary_sha256": "b5acc4be60acea57d9c364f1656ba2bd9b4ab6f651a66033b16fea44b18271ea",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "context",
+ "disposition_reason": "Nanocomposite exposure concentrations and embryo endpoints; no cerium concentrations measured.",
+ "disposition_locator": "Abstract",
+ "study": {
+  "design": "fish embryo acute toxicity test",
+  "origin": "Catania, Italy",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "up to 96 hours post-fertilization"
+  },
+  "method": "morphology, heartbeat, immunofluorescence",
+  "lod": [],
+  "basis": "unknown",
+  "qa": "not applicable",
+  "site_context": "laboratory"
+ },
+ "findings": [],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/pecoraro2023-zebrafish-titanium-cerium-nanocomposite.md",
+ "non_numeric_findings": [
+  "No developmental toxicity from the titanium dioxide-cerium oxide nanocomposite at up to 20 mg/L."
+ ]
+}

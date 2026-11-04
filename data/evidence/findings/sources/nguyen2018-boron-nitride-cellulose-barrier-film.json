@@ -1,0 +1,37 @@
+{
+ "source_id": "nguyen2018-boron-nitride-cellulose-barrier-film",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-BORON-1/10.3390_polym10050501.pdf",
+ "primary_sha256": "640b85651e242efd2c997ebb62f8df793e3421448157b12f61c7a73281ded12c",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "out_of_scope",
+ "disposition_reason": "Materials or sensor study in which boron is part of the material; no boron occurrence or toxicity data.",
+ "disposition_locator": "Abstract; Methods",
+ "study": {
+  "design": "laboratory materials or method development",
+  "origin": null,
+  "market": null,
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "not applicable"
+  },
+  "method": "not applicable for boron",
+  "lod": [],
+  "basis": "unknown",
+  "qa": "not applicable",
+  "site_context": "laboratory"
+ },
+ "findings": [],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/nguyen2018-boron-nitride-cellulose-barrier-film.md",
+ "non_numeric_findings": []
+}

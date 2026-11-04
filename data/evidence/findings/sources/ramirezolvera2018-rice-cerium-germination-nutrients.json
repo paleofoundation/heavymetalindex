@@ -1,0 +1,39 @@
+{
+ "source_id": "ramirezolvera2018-rice-cerium-germination-nutrients",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-RARE-EARTHS-1/cerium/10.1371_journal.pone.0194691.pdf",
+ "primary_sha256": "c167390fde240f50acb30a02cef2ab0315e3c13dca1137c2895ec6a842bce845",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "no_numeric_results",
+ "disposition_reason": "Dose-response plant physiology; shoot and root cerium correlations reported without grain data.",
+ "disposition_locator": "Abstract; Table 3",
+ "study": {
+  "design": "germination and hydroponic growth experiment",
+  "origin": "Veracruz and Texcoco, Mexico",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "not stated"
+  },
+  "method": "tissue mineral analysis",
+  "lod": [],
+  "basis": "unknown",
+  "qa": "not reported",
+  "site_context": "experimental"
+ },
+ "findings": [],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/ramirezolvera2018-rice-cerium-germination-nutrients.md",
+ "non_numeric_findings": [
+  "Cerium increased germination, plant height, tillers and shoot biomass in rice seedlings."
+ ]
+}

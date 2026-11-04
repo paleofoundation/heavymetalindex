@@ -1,0 +1,43 @@
+{
+ "source_id": "padillasuarez2025-daphnia-lanthanum-gadolinium-toxicity",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-RARE-EARTHS-1/lanthanum/10.1007_s11356-024-35854-7.pdf",
+ "primary_sha256": "626ec78633838ba9d5891531bd55257ad3f85654f2ec20f27c0d0a14e7523041",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "context",
+ "disposition_reason": "Ecotoxicity effect concentrations for lanthanum in Daphnia magna; no food or human data.",
+ "disposition_locator": "Abstract; Table 2, p. 4",
+ "study": {
+  "design": "laboratory ecotoxicity test",
+  "origin": "laboratory",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "7-day exposure"
+  },
+  "method": "measured exposure concentrations; survival, feeding, growth and maturity",
+  "lod": [],
+  "basis": "unknown",
+  "qa": "measured concentrations and recovery reported",
+  "site_context": "laboratory"
+ },
+ "findings": [],
+ "unresolved": [
+  "Gadolinium values not recorded as findings (outside cerium/lanthanum scope)."
+ ],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [
+  "Daphnia magna 7-day LC50 for lanthanum 403.67 µg/L; maturity EC10 0.26 µg/L (abstract)"
+ ],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/padillasuarez2025-daphnia-lanthanum-gadolinium-toxicity.md",
+ "non_numeric_findings": [
+  "Gadolinium was more toxic than lanthanum on all endpoints."
+ ]
+}

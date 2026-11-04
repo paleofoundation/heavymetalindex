@@ -1,0 +1,68 @@
+{
+ "source_id": "kusaka2022-jomon-shell-mound-strontium-isotopes",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-STRONTIUM-1/10.1537_ase.2202191.pdf",
+ "primary_sha256": "8f8d47923780fbcc5c93fa9921d142bc1b0529d690d44d95cb5f7958502cf9f5",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "context",
+ "disposition_reason": "Archaeological isotope and Ca/Sr ratio study; ratios, not concentrations relevant to exposure.",
+ "disposition_locator": "Results, pp. 5 to 6",
+ "study": {
+  "design": "archaeological isotope study",
+  "origin": "Atsumi peninsula, Aichi Prefecture, Japan",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "Late to Final Jomon period"
+  },
+  "method": "ICP-OES Ca/Sr; MC-ICP-MS and TIMS isotope ratios",
+  "lod": [],
+  "basis": "unknown",
+  "qa": "NIST SRM 987",
+  "site_context": "archaeological"
+ },
+ "findings": [
+  {
+   "id": "kusaka2022-jomon-shell-mound-strontium-isotopes:Sr:hobi-enamel-ca-sr:mean",
+   "material": {
+    "label_as_printed": "Tooth enamel, Hobi",
+    "page": "metals/strontium",
+    "form": "enamel",
+    "state": "archaeological",
+    "route_rule": "override:HMI-METAL-INGEST-1"
+   },
+   "analyte": "Sr",
+   "group": "Hobi enamel",
+   "group_kind": "site",
+   "n": 14,
+   "statistic": "mean",
+   "reported": "Ca/Sr x 10^3 = 0.99 ± 0.24",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "ratio",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Results, p. 5",
+   "integrity_flag": null,
+   "notes": "Element ratio, not a concentration.",
+   "statistic_raw": "mean"
+  }
+ ],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/kusaka2022-jomon-shell-mound-strontium-isotopes.md",
+ "non_numeric_findings": [
+  "Some banjo-shuseki burial individuals had isotope ratios above the local range (Abstract)."
+ ]
+}

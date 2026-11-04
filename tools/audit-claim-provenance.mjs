@@ -30,6 +30,7 @@
 
 import fs from "node:fs"
 import path from "node:path"
+import { fileURLToPath } from "node:url"
 
 const repoRoot = process.cwd()
 const today = new Date().toISOString().slice(0, 10)
@@ -55,69 +56,49 @@ function stripCodeBlocks(text) {
   return text.replace(/```[\s\S]*?```/g, "")
 }
 
-function findSection(text, offset) {
-  // Find the most recent H2 heading before offset
-  const lines = text.slice(0, offset).split("\n")
-  for (let i = lines.length - 1; i >= 0; i--) {
-    const m = lines[i].match(/^##\s+(.+)$/)
-    if (m) return m[1].trim()
-  }
-  return "(opening)"
-}
+const PROVENANCE_REGEX = /\[\[(sources|regulations|testing)\/[^\]]+\]\]/
+const SOURCE_HEADING = /source|reference|citation|legend|regulat/i
 
-function hasSourceWithinSection(text, claimOffset, sectionStart, sectionEnd, pageSourcesSection) {
-  // Accept any provenance-bearing wikilink: sources/, regulations/ (for
-  // regulatory limit claims), or testing/ (for analytical-method floors).
-  // Cochrane equivalent: every numerical claim must trace to either the
-  // primary source (sources/) or the regulatory/methodological page where
-  // the claim is anchored. The citation may appear before OR after the
-  // claim within the same H2 section, OR in the page's Sources block.
-  const window = text.slice(sectionStart, sectionEnd)
-  const provRegex = /\[\[(sources|regulations|testing)\/[^\]]+\]\]/
-  if (provRegex.test(window)) return true
-  if (pageSourcesSection && provRegex.test(pageSourcesSection)) return true
-  return false
-}
-
-function findPageSourcesSection(text) {
-  // Aggregate any section whose heading suggests references/citations.
-  // Catches: "## Sources", "## Source legend", "## References",
-  // "## Source And Regulation Nodes", "## Source Evidence Inventory", etc.
-  const headingRe = /^##\s+(.+)$/gm
-  let acc = ""
+// One pass over H2 headings. A claim sitting on the first character of a
+// heading stays in the previous section, matching the old per-claim scan.
+export function indexSections(text) {
+  const headings = []
+  const re = /^##\s+(.+)$/gm
   let m
-  while ((m = headingRe.exec(text)) !== null) {
-    const heading = m[1].toLowerCase()
-    if (/source|reference|citation|legend|regulat/i.test(heading)) {
-      const start = m.index
-      const next = headingRe.exec(text)
-      const end = next ? next.index : text.length
-      acc += "\n" + text.slice(start, end)
-      // Reset so we don't skip the next section
-      headingRe.lastIndex = next ? next.index : text.length
-    }
+  while ((m = re.exec(text)) !== null) headings.push({ index: m.index, title: m[1].trim(), raw: m[1] })
+  let sources = ""
+  for (let i = 0; i < headings.length; i++) {
+    if (!SOURCE_HEADING.test(headings[i].raw.toLowerCase())) continue
+    const end = i + 1 < headings.length ? headings[i + 1].index : text.length
+    sources += "\n" + text.slice(headings[i].index, end)
   }
-  return acc
+  const pageSourcesSupported = sources.length > 0 && PROVENANCE_REGEX.test(sources)
+  const supported = new Array(headings.length + 1)
+  const first = headings.length ? headings[0].index : text.length
+  supported[0] = pageSourcesSupported || PROVENANCE_REGEX.test(text.slice(0, first))
+  for (let i = 0; i < headings.length; i++) {
+    const end = i + 1 < headings.length ? headings[i + 1].index : text.length
+    supported[i + 1] = pageSourcesSupported || PROVENANCE_REGEX.test(text.slice(headings[i].index, end))
+  }
+  return { headings, supported }
 }
 
-function findSectionEnd(text, offset) {
-  // Find offset of next H2 heading after offset, or end of text
-  const re = /^##\s+.+$/gm
-  re.lastIndex = offset
-  const m = re.exec(text)
-  return m ? m.index : text.length
-}
-
-function findSectionStart(text, offset) {
-  // Find offset of most recent H2 heading before offset
-  let lastStart = 0
-  const re = /^##\s+.+$/gm
-  let m
-  while ((m = re.exec(text)) !== null) {
-    if (m.index >= offset) break
-    lastStart = m.index
+export function sectionAt(indexed, offset) {
+  const { headings } = indexed
+  if (headings.length === 0 || offset <= headings[0].index) {
+    return { title: "(opening)", supported: indexed.supported[0] }
   }
-  return lastStart
+  let lo = 0
+  let hi = headings.length - 1
+  let ans = 0
+  while (lo <= hi) {
+    const mid = (lo + hi) >> 1
+    if (headings[mid].index < offset) {
+      ans = mid
+      lo = mid + 1
+    } else hi = mid - 1
+  }
+  return { title: headings[ans].title, supported: indexed.supported[ans + 1] }
 }
 
 function auditPage(filePath) {
@@ -126,7 +107,7 @@ function auditPage(filePath) {
   // Skip if the file is mostly a scaffolded placeholder
   if (body.length < 500) return { claims: [], skipped: "too-short" }
   const text = body
-  const pageSourcesSection = findPageSourcesSection(text)
+  const indexed = indexSections(text)
   const claims = []
   let m
   CLAIM_REGEX.lastIndex = 0
@@ -135,70 +116,66 @@ function auditPage(filePath) {
     const ctxBefore = text.slice(Math.max(0, offset - 60), offset)
     if (/\{[^}]*$/.test(ctxBefore)) continue
     if (/="\s*[^"]*$/.test(ctxBefore)) continue
-    const sectionStart = findSectionStart(text, offset)
-    const sectionEnd = findSectionEnd(text, offset)
-    const section = findSection(text, offset)
-    const supported = hasSourceWithinSection(text, offset, sectionStart, sectionEnd, pageSourcesSection)
+    const section = sectionAt(indexed, offset)
     claims.push({
       claim: `${m[1]} ${m[2]}`,
       offset,
-      section,
-      supported,
+      section: section.title,
+      supported: section.supported,
       context: text.slice(Math.max(0, offset - 80), Math.min(text.length, offset + 40)).replace(/\n/g, " "),
     })
   }
   return { claims, skipped: null }
 }
 
-function auditDir(dir, pageType) {
+function csvField(value) {
+  const v = String(value ?? "")
+  return /[,"\n]/.test(v) ? `"${v.replace(/"/g, '""')}"` : v
+}
+
+function auditDir(dir, pageType, onClaim) {
   const fullDir = path.join(repoRoot, dir)
-  if (!fs.existsSync(fullDir)) return []
+  if (!fs.existsSync(fullDir)) return
   let files = fs.readdirSync(fullDir)
     .filter(f => f.endsWith(".md") && f !== "index.md" && !f.startsWith("_"))
   if (sampleN) {
     files.sort(() => Math.random() - 0.5)
     files = files.slice(0, sampleN)
   }
-  const results = []
   for (const f of files) {
     const a = auditPage(path.join(fullDir, f))
     if (a.skipped) continue
     const slug = f.replace(/\.md$/, "")
-    for (const c of a.claims) {
-      results.push({ type: pageType, slug, ...c })
-    }
+    for (const c of a.claims) onClaim({ type: pageType, slug, ...c })
   }
-  return results
 }
 
 function main() {
-  const ingredientClaims = auditDir("wiki/ingredients", "ingredient")
-  const productClaims = auditDir("wiki/products", "product")
-  const all = [...ingredientClaims, ...productClaims]
-
-  // Aggregate
-  const total = all.length
-  const supported = all.filter(c => c.supported).length
-  const pct = total ? Math.round(supported / total * 1000) / 10 : 100
-
-  const byType = {}
-  for (const c of all) {
-    byType[c.type] = byType[c.type] || { total: 0, supported: 0 }
-    byType[c.type].total++
-    if (c.supported) byType[c.type].supported++
-  }
-
-  // Write CSV
   const headers = ["type", "slug", "section", "claim", "supported", "context"]
-  const csv = [headers.join(",")]
-  for (const r of all) {
-    csv.push(headers.map(h => {
-      const v = String(r[h] ?? "")
-      return /[,"\n]/.test(v) ? `"${v.replace(/"/g, '""')}"` : v
-    }).join(","))
-  }
   const csvPath = path.join(repoRoot, "data/evidence/claim-provenance-audit.csv")
-  fs.writeFileSync(csvPath, csv.join("\n") + "\n")
+  const fd = fs.openSync(csvPath, "w")
+  let buf = headers.join(",") + "\n"
+  const byType = {}
+  let total = 0
+  let supported = 0
+  const take = (row) => {
+    total++
+    if (row.supported) supported++
+    const bucket = byType[row.type] || (byType[row.type] = { total: 0, supported: 0 })
+    bucket.total++
+    if (row.supported) bucket.supported++
+    buf += headers.map((h) => csvField(row[h])).join(",") + "\n"
+    if (buf.length > 1_000_000) {
+      fs.writeSync(fd, buf)
+      buf = ""
+    }
+  }
+  auditDir("wiki/ingredients", "ingredient", take)
+  auditDir("wiki/products", "product", take)
+  if (buf) fs.writeSync(fd, buf)
+  fs.closeSync(fd)
+
+  const pct = total ? Math.round(supported / total * 1000) / 10 : 100
 
   // Write JSON summary
   const summary = {
@@ -225,4 +202,4 @@ function main() {
   console.log(`Wrote ${jsonPath}`)
 }
 
-main()
+if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url)) main()

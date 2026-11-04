@@ -1,4 +1,6 @@
 ---
+hero_image: /static/heroes/miso.webp
+hero_image_alt: "A wooden tub of light brown miso and a ceramic dish of dark red miso with a wooden spatula and a few soybeans."
 hmtc_subcategory_name: "Soy sauce and fermented sauces"
 hmtc_category_name: "Condiments, Sauces and Dressings"
 type: product-category

@@ -1,0 +1,41 @@
+{
+ "source_id": "liu2020-cerium-oxide-lignin-phosphate-removal",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-RARE-EARTHS-1/cerium/10.1039_c9ra09986g.pdf",
+ "primary_sha256": "06f40430a83d2c110e997931520885b6efa84f9c06f5c343a6decdd3aa4e375b",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "out_of_scope",
+ "disposition_reason": "Water-treatment material study; cerium leaching into test water recorded as context.",
+ "disposition_locator": "Section 3.8, p. 10",
+ "study": {
+  "design": "adsorbent synthesis and leaching test",
+  "origin": "Zhejiang, China",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "not stated"
+  },
+  "method": "adsorption tests; cerium in solution",
+  "lod": [],
+  "basis": "unknown",
+  "qa": "not applicable",
+  "site_context": "laboratory"
+ },
+ "findings": [],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [
+  "Cerium leaching from sorbent into test water: 0.015 to 0.062 mg/L across pH 4 to 9 (Section 3.8, p. 10)"
+ ],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/liu2020-cerium-oxide-lignin-phosphate-removal.md",
+ "non_numeric_findings": [
+  "Cerium leaching from the lignin sorbent was small across pH 4 to 9."
+ ]
+}

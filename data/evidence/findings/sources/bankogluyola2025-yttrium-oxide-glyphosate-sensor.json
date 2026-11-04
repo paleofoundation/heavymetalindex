@@ -1,0 +1,37 @@
+{
+ "source_id": "bankogluyola2025-yttrium-oxide-glyphosate-sensor",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-YTTRIUM-1/10.3390_foods15010007.pdf",
+ "primary_sha256": "6f7d280a1fa2d0d61ad382b87ec2aeeba2a6971cd77caa0325751bf47db56a0f",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "out_of_scope",
+ "disposition_reason": "Sensor development for glyphosate; yttrium oxide is an electrode component.",
+ "disposition_locator": "whole paper",
+ "study": {
+  "design": "sensor development",
+  "origin": "not applicable",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "not stated"
+  },
+  "method": "voltammetry",
+  "lod": [],
+  "basis": "unknown",
+  "qa": "spike recovery",
+  "site_context": "laboratory"
+ },
+ "findings": [],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/bankogluyola2025-yttrium-oxide-glyphosate-sensor.md",
+ "non_numeric_findings": []
+}

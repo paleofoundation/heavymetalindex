@@ -106,10 +106,12 @@ export default (() => {
     if (slug && String(slug) === KAREN.slug) {
       return <nav class="author-profile-links" aria-label="Research profiles">
         <h2>Research profiles</h2>
-        <a href={`https://orcid.org/${KAREN.orcid}`}><OrcidIdIcon /> ORCID record ↗</a>
+        <a href={`https://orcid.org/${KAREN.orcid}`}><OrcidIdIcon /> ORCID iD {KAREN.orcid} ↗</a>
         <a href={`https://www.wikibiome.com/researchers/${KAREN.orcid}`}>WikiBiome researcher profile ↗</a>
-        <a href="#public-works">Selected public works</a>
-        <a href="#heavy-metal-index-syntheses">Heavy Metal Index syntheses</a>
+        <a href="#roles">Roles</a>
+        <a href="#recent-work-and-updates">Recent work</a>
+        <a href="#major-works">Major works</a>
+        <a href="#public-record">Public record</a>
         <a href={resolveRelative(slug, "contact" as SimpleSlug)}>Contact the Index</a>
       </nav>
     }

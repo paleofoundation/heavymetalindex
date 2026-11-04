@@ -1,0 +1,37 @@
+{
+ "source_id": "golan2021-plla-hydroxyapatite-ws2-nanotubes",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-TUNGSTEN-1/10.3390_polym13213851.pdf",
+ "primary_sha256": "1ed98c5c1f2b3ca18d45a73b4bd0667cdd45227ee0c4c4477d1a3435c9ed23a4",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "out_of_scope",
+ "disposition_reason": "Materials science (polymer nanocomposite mechanics); no tungsten measurements in food, water, biota or people.",
+ "disposition_locator": "whole paper",
+ "study": {
+  "design": "materials characterization",
+  "origin": "not applicable",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "not stated"
+  },
+  "method": "microscopy, diffraction, spectroscopy, mechanical testing",
+  "lod": [],
+  "basis": "unknown",
+  "qa": "not applicable",
+  "site_context": "laboratory"
+ },
+ "findings": [],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/golan2021-plla-hydroxyapatite-ws2-nanotubes.md",
+ "non_numeric_findings": []
+}

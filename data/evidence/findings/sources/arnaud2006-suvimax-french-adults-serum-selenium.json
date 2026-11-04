@@ -1,0 +1,103 @@
+{
+ "source_id": "arnaud2006-suvimax-french-adults-serum-selenium",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-SELENIUM-1/10.1079_bjn20051528.pdf",
+ "primary_sha256": "02c10424e1714cf7d18fe02a04366de231faaabade9fb93796be0fa9b9745265",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "occurrence_extracted",
+ "disposition_reason": "Baseline serum selenium in 12 338 French adults with lifestyle and dietary determinants.",
+ "disposition_locator": "Abstract; Results pp. 315 to 317; Tables 1 to 3",
+ "study": {
+  "design": "cross-sectional baseline analysis of a national randomized supplementation trial cohort",
+  "origin": "France",
+  "market": "volunteers recruited nationally after a media campaign",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "October 1994 to May 1995"
+  },
+  "method": "electrothermal atomic absorption spectrometry with Zeeman background correction and platinum modifier; standard addition calibration",
+  "lod": [
+   "not stated"
+  ],
+  "basis": "unknown",
+  "qa": "Seronorm serum internal quality control; interlaboratory comparison schemes",
+  "site_context": "population cohort"
+ },
+ "findings": [
+  {
+   "id": "arnaud2006-suvimax-french-adults-serum-selenium:Se:serum-selenium-women:mean",
+   "material": {
+    "label_as_printed": "Serum selenium, women",
+    "page": "metals/selenium",
+    "form": null,
+    "state": null,
+    "route_rule": "override:HMI-METAL-INGEST-1"
+   },
+   "analyte": "Se",
+   "group": "SU.VI.M.AX baseline, French women aged 35 to 60, 1994 to 1995",
+   "group_kind": "study_group",
+   "n": 7423,
+   "statistic": "mean",
+   "reported": "1.09 umol/L (SD 0.19)",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "umol/L",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Abstract; Results p. 315",
+   "integrity_flag": null,
+   "notes": "Serum; extracted text renders micro sign as m.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "arnaud2006-suvimax-french-adults-serum-selenium:Se:serum-selenium-men:mean",
+   "material": {
+    "label_as_printed": "Serum selenium, men",
+    "page": "metals/selenium",
+    "form": null,
+    "state": null,
+    "route_rule": "override:HMI-METAL-INGEST-1"
+   },
+   "analyte": "Se",
+   "group": "SU.VI.M.AX baseline, French men aged 45 to 60, 1994 to 1995",
+   "group_kind": "study_group",
+   "n": 4915,
+   "statistic": "mean",
+   "reported": "1.14 umol/L (SD 0.20)",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "umol/L",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Abstract; Results p. 315",
+   "integrity_flag": null,
+   "notes": "Serum; extracted text renders micro sign as m. Abstract gives men aged 45 to 60; Methods say 40 to 60.",
+   "statistic_raw": "mean"
+  }
+ ],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [
+  "Results: 1.3% of men and 1.7% of women below 0.75 umol/L (sub-deficiency cut-off cited from a European group)",
+  "Results: 25.3% of men and 17.4% of women above 1.25 umol/L, the value cited for optimal glutathione peroxidase activity"
+ ],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/arnaud2006-suvimax-french-adults-serum-selenium.md",
+ "non_numeric_findings": [
+  "Serum selenium rose with alcohol, meat and fish consumption and fell with smoking in both sexes (Abstract).",
+  "Obese women had lower serum selenium; in men, higher fruit and vegetable intake associated with lower serum selenium (Abstract).",
+  "Significant differences between French regions (Abstract; Fig. 1)."
+ ]
+}

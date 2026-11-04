@@ -1,0 +1,37 @@
+{
+ "source_id": "alkallas2025-bismuth-molybdate-hydrogen-photocathode",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-BISMUTH-1/10.1038_s41598-025-16333-6.pdf",
+ "primary_sha256": "f3f2d94fa78989f9d329a6f351b731f0893cc5e707ad1dbfd9bbe7b956930669",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "out_of_scope",
+ "disposition_reason": "Photocatalytic hydrogen-generation materials study; no relevance to bismuth exposure.",
+ "disposition_locator": "Abstract, p. 1",
+ "study": {
+  "design": "materials chemistry",
+  "origin": "not stated",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "not stated"
+  },
+  "method": "Photoelectrochemical testing of Bi2MoO6-Bi2O3/P1HP photocathode",
+  "lod": [],
+  "basis": "not_applicable",
+  "qa": "not applicable",
+  "site_context": "laboratory"
+ },
+ "findings": [],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/alkallas2025-bismuth-molybdate-hydrogen-photocathode.md",
+ "non_numeric_findings": []
+}

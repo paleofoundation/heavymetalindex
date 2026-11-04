@@ -1,9 +1,11 @@
 ---
+hero_image: /static/heroes/flaxseeds.webp
+hero_image_alt: "A stone bowl of brown flaxseeds, a small dish of golden flaxseeds, scattered seeds and a dried flax stem with round seed capsules."
 title: Flaxseeds
 type: ingredient
 commodity: flaxseeds
 aliases: []
-category: seed
+category: unclassified
 provisional_scaffold: true
 provisional_created: 2026-10-15T00:00:00.000Z
 provisional_reason: >-
@@ -13,11 +15,12 @@ provisional_source: '[[sources/brum2025-flaxseeds-ptes-organic-conventional]]'
 literature_scope: thin
 updated: '2026-10-22'
 evidence_scope: navigation-only
+page_contract_version: 1.0.0
 question_record: data/evidence/engine/ingredient/flaxseeds/question-record.json
 synthesis_record: data/evidence/engine/ingredient/flaxseeds/synthesis.json
 evidence_coverage: partial
 ingredient_presentation: rice-shared-v1
-sources: 3
+sources: 9
 description: >-
   Lead, cadmium, total arsenic, inorganic arsenic and total mercury in
   flaxseeds: monitoring results, studies, references by form and basis, limits,
@@ -89,34 +92,8 @@ ingredient_chrome:
         half spanning below…
       href: '#which-forms-and-regions-measured-lower'
       link_label: Variation
-quick_read:
-  summary: >-
-    Lead, cadmium, total arsenic, inorganic arsenic and total mercury in
-    flaxseeds are reported as monitoring results, studies, references by form
-    and basis, limits, testing and controls.
-  points:
-    - label: Metals of concern
-      text: the metals named by the studies cited on this page.
-    - label: Main drivers
-      text: 'form, origin and preparation stay separate.'
-    - label: Practical framing
-      text: this page does not pool those studies into one typical value.
 ---
 # Flaxseeds
-
-<!-- BEGIN: hmi-opening -->
-<div class="hmi-quick-read">
-  <div class="hmi-quick-read-label">Quick read</div>
-  <p>Lead, cadmium, total arsenic, inorganic arsenic and total mercury in flaxseeds are reported as monitoring results, studies, references by form and basis, limits, testing and controls.</p>
-  <ul>
-    <li><strong>Metals of concern:</strong> the metals named by the studies cited on this page.</li>
-    <li><strong>Main drivers:</strong> form, origin and preparation stay separate.</li>
-    <li><strong>Practical framing:</strong> this page does not pool those studies into one typical value.</li>
-  </ul>
-</div>
-
-This page draws on evidence from [[sources/who-gemsfood-heavy-metal-contaminants|WHO]], together with 5 peer-reviewed studies. The complete citation list is at the bottom of the page.
-<!-- END: hmi-opening -->
 
 <section class="hmi-quick-read" id="flaxseeds-quick-read" data-hmi-quick-read aria-labelledby="flaxseeds-quick-read-label"><div class="hmi-quick-read-label" id="flaxseeds-quick-read-label">Quick read</div>
 
@@ -144,6 +121,7 @@ Ask for lot results with a quantification limit well below the limit that applie
 </ul>
 </section>
 
+
 <a id="decision-summary"></a>
 ## Flaxseeds overview
 
@@ -160,6 +138,8 @@ Across 2 other studies of ordinary farms and markets, reported lead means and me
 
 For a buyer the practical points are the form bought, the basis a result is reported on, where the flaxseeds came from and the laboratory’s reporting limit. Testing finds contamination but does not remove it.
 
+
+
 <a id="ingredient-identity-and-scope"></a>
 ## What counts as flaxseeds
 
@@ -173,6 +153,7 @@ For a buyer the practical points are the form bought, the basis a result is repo
 This page covers flaxseeds in 2 forms kept separate in every comparison: flaxseeds, as sold (172 results) and flaxseeds, oil (54 results).<sup class="cite">[[sources/who-gemsfood-heavy-metal-contaminants|1]]<span class="cite-card"><span class="cite-card-head"><span class="cite-card-authors">World Health Organization · 2026</span><a class="cite-card-title" href="../sources/who-gemsfood-heavy-metal-contaminants">GEMS/Food Contaminants database heavy-metal exports</a></span><span class="cite-card-body"><span class="cite-card-journal">GEMS/Food Contamination Monitoring and Assessment Programme</span><a class="cite-card-review" href="../sources/who-gemsfood-heavy-metal-contaminants">Read source →</a></span></span></sup><sup class="cite">[[sources/authors2016-a-comparative-study-of-the-content-of-heavy|2]]<span class="cite-card"><span class="cite-card-head"><span class="cite-card-authors">Unknown authors · 2016</span><a class="cite-card-title" href="../sources/authors2016-a-comparative-study-of-the-content-of-heavy">A comparative study of the content of heavy metals in oils:</a></span><span class="cite-card-body"><span class="cite-card-journal">Peer-reviewed article</span><a class="cite-card-review" href="../sources/authors2016-a-comparative-study-of-the-content-of-heavy">Read source →</a></span></span></sup><sup class="cite">[[sources/lee2019-food-processing-heavy-metals-migration|3]]<span class="cite-card"><span class="cite-card-head"><span class="cite-card-authors">Lee JG, Hwang JY, Lee HE, Kim TH, Choi JD, Gang GJ · 2019</span><a class="cite-card-title" href="../sources/lee2019-food-processing-heavy-metals-migration">Effects of food processing methods on migration of heavy metals to food</a></span><span class="cite-card-body"><span class="cite-card-journal">Applied Biological Chemistry</span><a class="cite-card-review" href="../sources/lee2019-food-processing-heavy-metals-migration">Read source →</a></span></span></sup><sup class="cite">[[sources/brum2025-flaxseeds-ptes-organic-conventional|4]]<span class="cite-card"><span class="cite-card-head"><span class="cite-card-authors">Brum RdL, Siedzik K, Alejandro-Vega S, Paz-Montelongo S, Gutiérrez-Fernández AJ, González-Weller D, Hardisson A, Misniakiewicz M, Pyrzyńska E, da Silva Júnior FMR, Rubio C · 2025</span><a class="cite-card-title" href="../sources/brum2025-flaxseeds-ptes-organic-conventional">Assessment of Essential Elements and Potentially Toxic Elements (PTEs) in Organic and Conventional Flaxseeds: Implications for Dietary Exposure and Food Safety</a></span><span class="cite-card-body"><span class="cite-card-journal">Applied Sciences</span><a class="cite-card-review" href="../sources/brum2025-flaxseeds-ptes-organic-conventional">Read source →</a></span></span></sup><sup class="cite">[[sources/lin2024-edible-oils-taiwan-12-metals|5]]<span class="cite-card"><span class="cite-card-head"><span class="cite-card-authors">Lin S-T, Liao K-W, Xuan T-C, Chiou T-Y, Lin Z-E, Lee W-J · 2024</span><a class="cite-card-title" href="../sources/lin2024-edible-oils-taiwan-12-metals">Determination, distribution, and health risk assessment of 12 heavy metals in various edible oils in Taiwan</a></span><span class="cite-card-body"><span class="cite-card-journal">JSFA Reports</span><a class="cite-card-review" href="../sources/lin2024-edible-oils-taiwan-12-metals">Read source →</a></span></span></sup><sup class="cite">[[sources/fechner2022-bfr-meal-hg-cd-pb-ni-germany|6]]<span class="cite-card"><span class="cite-card-head"><span class="cite-card-authors">Fechner C, Hackethal C, Höpfner T, Dietrich J, Bloch D, Lindtner O, Sarvan I · 2022</span><a class="cite-card-title" href="../sources/fechner2022-bfr-meal-hg-cd-pb-ni-germany">Results of the BfR MEAL Study: In Germany, mercury is mostly contained in fish and seafood while cadmium, lead, and nickel are present in a broad spectrum of foods</a></span><span class="cite-card-body"><span class="cite-card-journal">Food Chemistry: X</span><a class="cite-card-review" href="../sources/fechner2022-bfr-meal-hg-cd-pb-ni-germany">Read source →</a></span></span></sup>
 
 Results stay on the basis each source reports: as sold or fresh weight, dry weight, or unstated. Dry-weight, as-sold and unstated results are never pooled, and no moisture conversion is applied.
+
 
 <!-- BEGIN: hmi-fda-tds-occurrence -->
 
@@ -198,6 +179,7 @@ The table holds every extracted flaxseeds result: one row for each statistic a s
 
 <!-- END: hmi-fda-tds-occurrence -->
 
+
 <a id="sources-and-contamination-pathways"></a>
 ## How metals reach flaxseeds
 
@@ -211,6 +193,8 @@ The table holds every extracted flaxseeds result: one row for each statistic a s
 The evidence on how metals reach flaxseeds comes from studies that compared exposed and ordinary settings. Flaxseeds, oil from pressed raw oil, fraction 1, one production lot had Fe higher at 2,460 µg/kg, against 270 µg/kg for extraction in the same study.<sup class="cite">[[sources/authors2016-a-comparative-study-of-the-content-of-heavy|2]]<span class="cite-card"><span class="cite-card-head"><span class="cite-card-authors">Unknown authors · 2016</span><a class="cite-card-title" href="../sources/authors2016-a-comparative-study-of-the-content-of-heavy">A comparative study of the content of heavy metals in oils:</a></span><span class="cite-card-body"><span class="cite-card-journal">Peer-reviewed article</span><a class="cite-card-review" href="../sources/authors2016-a-comparative-study-of-the-content-of-heavy">Read source →</a></span></span></sup> In another study, flaxseeds, as sold from conventional flaxseeds (production system) had chromium higher at 249 µg/kg, against 113 µg/kg for organic flaxseeds (production system) in the same study.<sup class="cite">[[sources/brum2025-flaxseeds-ptes-organic-conventional|4]]<span class="cite-card"><span class="cite-card-head"><span class="cite-card-authors">Brum RdL, Siedzik K, Alejandro-Vega S, Paz-Montelongo S, Gutiérrez-Fernández AJ, González-Weller D, Hardisson A, Misniakiewicz M, Pyrzyńska E, da Silva Júnior FMR, Rubio C · 2025</span><a class="cite-card-title" href="../sources/brum2025-flaxseeds-ptes-organic-conventional">Assessment of Essential Elements and Potentially Toxic Elements (PTEs) in Organic and Conventional Flaxseeds: Implications for Dietary Exposure and Food Safety</a></span><span class="cite-card-body"><span class="cite-card-journal">Applied Sciences</span><a class="cite-card-review" href="../sources/brum2025-flaxseeds-ptes-organic-conventional">Read source →</a></span></span></sup>
 
 These are observational comparisons from single studies; the size of the difference depends on the site, metal and distance.
+
+
 
 <a id="ranges-by-source-region-and-variety"></a>
 ## Which forms and regions measured lower
@@ -226,6 +210,8 @@ The HMI reference for lead in flaxseeds, as sold pools 53 subgroup units from 1 
 
 Among GEMS/Food reporting regions, flaxseeds, as sold had the lowest cadmium subgroup median in EURO (120 µg/kg) and the highest in EURO (418 µg/kg); reporting regions are markets, not growing areas.<sup class="cite">[[sources/who-gemsfood-heavy-metal-contaminants|1]]<span class="cite-card"><span class="cite-card-head"><span class="cite-card-authors">World Health Organization · 2026</span><a class="cite-card-title" href="../sources/who-gemsfood-heavy-metal-contaminants">GEMS/Food Contaminants database heavy-metal exports</a></span><span class="cite-card-body"><span class="cite-card-journal">GEMS/Food Contamination Monitoring and Assessment Programme</span><a class="cite-card-review" href="../sources/who-gemsfood-heavy-metal-contaminants">Read source →</a></span></span></sup>
 
+
+
 <a id="processing-effects-and-derivatives"></a>
 ## Processing, cooking and preparation
 
@@ -237,6 +223,8 @@ Among GEMS/Food reporting regions, flaxseeds, as sold had the lowest cadmium sub
 <a id="do-changes-reflect-removal-redistribution-moisture-or-yield-change-dilution-or-altered-species-or-availability"></a>
 
 No processing study for metals in this food is in the library yet.
+
+
 
 <a id="mitigation-options"></a>
 ## Mitigation for flaxseeds
@@ -252,6 +240,8 @@ Lot testing against the applicable limit is the check that can be verified.
 
 <p class="hmi-mitigation-gap" data-mitigation-gap>No measured way to lower metals in this food is in the library yet.</p>
 
+
+
 <a id="trade-offs-and-failure-modes"></a>
 ## Trade-offs and limits of controls
 
@@ -263,6 +253,8 @@ Lot testing against the applicable limit is the check that can be verified.
 <a id="what-costs-constraints-adverse-effects-or-failure-modes-are-documented-and-which-are-unknown"></a>
 
 Avoiding exposed growing areas lowered the metal measured in the studies available, but no study measured the cost or supply effect of doing so.<sup class="cite">[[sources/authors2016-a-comparative-study-of-the-content-of-heavy|2]]<span class="cite-card"><span class="cite-card-head"><span class="cite-card-authors">Unknown authors · 2016</span><a class="cite-card-title" href="../sources/authors2016-a-comparative-study-of-the-content-of-heavy">A comparative study of the content of heavy metals in oils:</a></span><span class="cite-card-body"><span class="cite-card-journal">Peer-reviewed article</span><a class="cite-card-review" href="../sources/authors2016-a-comparative-study-of-the-content-of-heavy">Read source →</a></span></span></sup> Metals do not move together, so a lot that passes a lead limit says little about cadmium, arsenic or nickel unless those are tested as well.
+
+
 
 <a id="sampling-and-testing"></a>
 ## Testing flaxseeds for metals
@@ -278,6 +270,8 @@ Results depend on the method and its reporting limit. Reporting limits for lead 
 
 A useful lot result names the form, the basis and a quantification limit well below the limit that applies.
 
+
+
 <a id="procurement-and-process-control"></a>
 ## Buying and verifying flaxseeds
 
@@ -290,6 +284,8 @@ A useful lot result names the form, the basis and a quantification limit well be
 
 No maximum level for metals in flaxseeds was verified from primary text for this page; buyers should confirm the limit that applies in the destination market.
 
+
+
 <a id="finished-product-and-exposure-implications"></a>
 ## Exposure from flaxseeds
 
@@ -301,6 +297,7 @@ No maximum level for metals in flaxseeds was verified from primary text for this
 <a id="what-conclusions-require-finished-product-measurements-or-a-separate-exposure-assessment"></a>
 
 No source in the library converted flaxseeds concentrations into a verified estimate of intake for a defined population. Concentrations describe the food, not individual risk.
+
 
 <a id="coverage"></a>
 <a id="indexed-source-records"></a>
@@ -318,6 +315,7 @@ No source in the library converted flaxseeds concentrations into a verified esti
 Every source record that names flaxseeds was decided on its content: 9 occurrence extracted, 9 records in all. The occurrence table renders every extracted result; held values remain visible with their reason.
 
 References identify the sources used in these answers. The Sources index preserves additional discovery links; inclusion there does not mean a source has been reviewed for this assessment. Corrections, completed searches, new direct evidence and changes in requirements should reopen the relevant answer.
+
 
 <a id="universal-faqs"></a>
 ## Flaxseeds FAQs
@@ -361,29 +359,25 @@ Inorganic arsenic, the more toxic form, was measured in 3 results from 2 sources
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to a source record with bibliographic details, reported findings, and document provenance.
+Works cited on this page, in citation-number order. See [Sources](#sources) for this page's source inventory. Each title links to a source record with bibliographic details, reported findings, and document provenance.
 
 1. [[sources/who-gemsfood-heavy-metal-contaminants|GEMS/Food Contaminants database heavy-metal exports]]<span class="hmi-ref-meta">World Health Organization · GEMS/Food Contamination Monitoring and Assessment Programme · 2026 · [extranet.who.int](https://extranet.who.int/gemsfood/?DisplayFormat=1)</span><span class="hmi-ref-tag">Dataset</span>
-2. [[sources/lee2019-food-processing-heavy-metals-migration|Effects of food processing methods on migration of heavy metals to food]]<span class="hmi-ref-meta">Lee JG, Hwang JY, Lee HE, Kim TH, Choi JD, and Gang GJ · Applied Biological Chemistry · 2019 · [doi.org/10.1186/s13765-019-0470-0](https://doi.org/10.1186/s13765-019-0470-0)</span><span class="hmi-ref-tag">Peer-reviewed</span>
-3. [[sources/brum2025-flaxseeds-ptes-organic-conventional|Assessment of Essential Elements and Potentially Toxic Elements (PTEs) in Organic and Conventional Flaxseeds: Implications for Dietary Exposure and Food Safety]]<span class="hmi-ref-meta">Brum RdL, Siedzik K, Alejandro-Vega S, Paz-Montelongo S, Gutiérrez-Fernández AJ, González-Weller D, et al. · Applied Sciences · 2025 · [doi.org/10.3390/app15137004](https://doi.org/10.3390/app15137004)</span><span class="hmi-ref-tag">Peer-reviewed</span>
-4. [[sources/lin2024-edible-oils-taiwan-12-metals|Determination, distribution, and health risk assessment of 12 heavy metals in various edible oils in Taiwan]]<span class="hmi-ref-meta">Lin S-T, Liao K-W, Xuan T-C, Chiou T-Y, Lin Z-E, and Lee W-J · JSFA Reports · 2024 · [doi.org/10.1002/jsf2.186](https://doi.org/10.1002/jsf2.186)</span><span class="hmi-ref-tag">Peer-reviewed</span>
-5. [[sources/fechner2022-bfr-meal-hg-cd-pb-ni-germany|Results of the BfR MEAL Study: In Germany, mercury is mostly contained in fish and seafood while cadmium, lead, and nickel are present in a broad spectrum of foods]]<span class="hmi-ref-meta">Fechner C, Hackethal C, Höpfner T, Dietrich J, Bloch D, Lindtner O, et al. · Food Chemistry: X · 2022 · [doi.org/10.1016/j.fochx.2022.100326](https://doi.org/10.1016/j.fochx.2022.100326)</span><span class="hmi-ref-tag">Peer-reviewed</span>
-6. [[sources/efsa2014-dietary-exposure-iAs|Dietary exposure to inorganic arsenic in the European population]]<span class="hmi-ref-meta">European Food Safety Authority (EFSA) · EFSA Journal 2014;12(3):3597 · 2014 · [doi.org/10.2903/j.efsa.2014.3597](https://doi.org/10.2903/j.efsa.2014.3597)</span><span class="hmi-ref-tag">Government</span>
+2. [[sources/authors2016-a-comparative-study-of-the-content-of-heavy|A comparative study of the content of heavy metals in oils:]]<span class="hmi-ref-meta">Unknown authors · Peer-reviewed article · 2016 · [doi.org/10.1515/aep-2016-0029](https://doi.org/10.1515/aep-2016-0029)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+3. [[sources/lee2019-food-processing-heavy-metals-migration|Effects of food processing methods on migration of heavy metals to food]]<span class="hmi-ref-meta">Lee JG, Hwang JY, Lee HE, Kim TH, Choi JD, and Gang GJ · Applied Biological Chemistry · 2019 · [doi.org/10.1186/s13765-019-0470-0](https://doi.org/10.1186/s13765-019-0470-0)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+4. [[sources/brum2025-flaxseeds-ptes-organic-conventional|Assessment of Essential Elements and Potentially Toxic Elements (PTEs) in Organic and Conventional Flaxseeds: Implications for Dietary Exposure and Food Safety]]<span class="hmi-ref-meta">Brum RdL, Siedzik K, Alejandro-Vega S, Paz-Montelongo S, Gutiérrez-Fernández AJ, González-Weller D, et al. · Applied Sciences · 2025 · [doi.org/10.3390/app15137004](https://doi.org/10.3390/app15137004)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+5. [[sources/lin2024-edible-oils-taiwan-12-metals|Determination, distribution, and health risk assessment of 12 heavy metals in various edible oils in Taiwan]]<span class="hmi-ref-meta">Lin S-T, Liao K-W, Xuan T-C, Chiou T-Y, Lin Z-E, and Lee W-J · JSFA Reports · 2024 · [doi.org/10.1002/jsf2.186](https://doi.org/10.1002/jsf2.186)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+6. [[sources/fechner2022-bfr-meal-hg-cd-pb-ni-germany|Results of the BfR MEAL Study: In Germany, mercury is mostly contained in fish and seafood while cadmium, lead, and nickel are present in a broad spectrum of foods]]<span class="hmi-ref-meta">Fechner C, Hackethal C, Höpfner T, Dietrich J, Bloch D, Lindtner O, et al. · Food Chemistry: X · 2022 · [doi.org/10.1016/j.fochx.2022.100326](https://doi.org/10.1016/j.fochx.2022.100326)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+7. [[sources/efsa2014-dietary-exposure-iAs|Dietary exposure to inorganic arsenic in the European population]]<span class="hmi-ref-meta">European Food Safety Authority (EFSA) · EFSA Journal 2014;12(3):3597 · 2014 · [doi.org/10.2903/j.efsa.2014.3597](https://doi.org/10.2903/j.efsa.2014.3597)</span><span class="hmi-ref-tag">Government</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-<p class="hmi-table-note">Source records associated with this topic. Inclusion does not establish that every finding applies to this product or ingredient. References above identify works cited in the text.</p>
-
-| # | Citation | Year | Type | Used on this page for |
-| --- | --- | ---: | --- | --- |
-| 1 | [[sources/brum2025-flaxseeds-ptes-organic-conventional\|RdL et al. 2025]]. *Assessment of Essential Elements and Potentially Toxic Elements (PTEs) in Organic and Conventional Flaxseeds: Implications for Dietary Exposure and Food Safety*, Applied Sciences | 2025 | Peer-reviewed | Contribution to this topic remains under review; see the source record for its reported scope. |
-| 2 | [[sources/mattila2018-finland-plant-protein-products-nutrients\|Mattila et al. 2018]]. *Nutritional Value of Commercial Protein-Rich Plant Products*, Plant Foods for Human Nutrition (2018) 73:108-115 | 2018 | Peer-reviewed | Contribution to this topic remains under review; see the source record for its reported scope. |
+Browse [Flaxseeds Sources](../sources/index?topic=ingredients%2Fflaxseeds) for sources cited on this page and additional discovery candidates. The searchable index distinguishes verified citation use from discovery relationships whose relevance has not been established.
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-No substantive edit history is available in this build. The full commit record is available in [git](https://github.com/paleofoundation/heavymetalindex).
+22 October 2026: Rebuilt from every flaxseeds record in the library: 9 occurrence sources, references by form and basis, same-study contrasts.
 <!-- END: hmi-page-history -->

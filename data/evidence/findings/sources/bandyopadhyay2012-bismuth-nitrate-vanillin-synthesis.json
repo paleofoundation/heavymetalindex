@@ -1,0 +1,37 @@
+{
+ "source_id": "bandyopadhyay2012-bismuth-nitrate-vanillin-synthesis",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-BISMUTH-1/10.1186_2191-2858-2-15.pdf",
+ "primary_sha256": "4727f5e28f56898460039236d069fa40b5d9ba382cd5951df613f8c10f9b219d",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "out_of_scope",
+ "disposition_reason": "Synthetic chemistry using bismuth nitrate as a reagent to make vanillin; no bismuth residue measured.",
+ "disposition_locator": "Abstract, p. 1",
+ "study": {
+  "design": "synthetic chemistry",
+  "origin": "not stated",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "not stated"
+  },
+  "method": "Microwave-assisted reaction with bismuth nitrate-impregnated clay",
+  "lod": [],
+  "basis": "not_applicable",
+  "qa": "not applicable",
+  "site_context": "laboratory"
+ },
+ "findings": [],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/bandyopadhyay2012-bismuth-nitrate-vanillin-synthesis.md",
+ "non_numeric_findings": []
+}

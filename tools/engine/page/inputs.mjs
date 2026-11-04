@@ -252,7 +252,7 @@ export function loadStore(page) {
       id: fd.id, source_id: sid, analyte: fd.analyte, statistic: normalizeStatistic(fd.statistic),
       value: num(fd.value_ugkg), min: num(fd.min_ugkg), max: num(fd.max_ugkg), sd: num(fd.sd_ugkg), lod: num(fd.lod_ugkg), median_bounds: null,
       n: fd.n ?? null, years: [src.study?.period?.from, src.study?.period?.to].filter(Number.isFinite),
-      material_text: fd.material?.label_as_printed ?? '', form_key: form.key, scope_material: null, basis: null, basis_key: STORE_BASIS[fd.basis] ?? 'unstated',
+      material_text: fd.material?.label_as_printed ?? '', form_key: form.key, scope_material: fd.scope_material ?? null, basis: null, basis_key: STORE_BASIS[fd.basis] ?? 'unstated',
       period: periodText([src.study?.period?.from, src.study?.period?.to], src.study?.period?.as_reported),
       group: fd.group || 'All samples', group_kind: fd.group_kind || 'all_samples', origin: null,
       site_context: siteContext(fd.site_context ?? src.study?.site_context, src.study?.design, fd.group),
@@ -321,8 +321,10 @@ export function loadStore(page) {
       decision_basis: 'primary_text', locators: [{ artifact, sha256: shaFile(artifact), kind: 'page', location: x.disposition_locator || 'whole document' }], result_findings: [],
       ...(retrievalFrom(x, sid) ? { retrieval_attempts: retrievalFrom(x, sid).attempts, retrieval_request: retrievalFrom(x, sid).request } : {}) };
   };
+  const regPath = `data/evidence/engine/${page.family}/${page.slug}/regulatory.json`;
+  const regulatory = exists(regPath) ? (json(regPath).entries ?? []) : [];
   return { origin: `store:${p}`, dir: null, page, sources, findings, decisions, rowDecision, sourceDecision, legacy_finding_ids: [], gems_records: monitoring.gemsRecords, gems_records_path: null,
-    controls: [...sources.values()].flatMap(s => s.controls ?? []).filter(c => c?.source_id && c?.outcomes), regulatory: [] };
+    controls: [...sources.values()].flatMap(s => s.controls ?? []).filter(c => c?.source_id && c?.outcomes), regulatory };
 }
 
 // The recorded legacy evidence stays authoritative for a page until the store covers

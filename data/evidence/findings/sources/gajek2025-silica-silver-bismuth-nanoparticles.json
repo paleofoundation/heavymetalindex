@@ -1,0 +1,40 @@
+{
+ "source_id": "gajek2025-silica-silver-bismuth-nanoparticles",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-BISMUTH-1/10.3390_ijms262010203.pdf",
+ "primary_sha256": "63d2ff3d3652b8489a0a0b99b89fc9222bc1b7935649efdd30ad948a3bbf05e4",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "out_of_scope",
+ "disposition_reason": "Antibacterial nanomaterial study; bismuth-coated silica MIC values from 74 to 595 µg/mL in culture, not a dietary or toxicity measure.",
+ "disposition_locator": "Abstract, p. 1",
+ "study": {
+  "design": "materials microbiology",
+  "origin": "not stated",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "not stated"
+  },
+  "method": "Microdilution MIC and MBC testing of SiO2-BiNP and SiO2-AgNP composites",
+  "lod": [],
+  "basis": "not_applicable",
+  "qa": "not applicable",
+  "site_context": "laboratory"
+ },
+ "findings": [],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/gajek2025-silica-silver-bismuth-nanoparticles.md",
+ "non_numeric_findings": [
+  "Bismuth-coated silica without APTES treatment had MIC values from 74 to 595 µg/mL across tested bacteria (abstract).",
+  "Both silver and bismuth composites completely inhibited Helicobacter pylori (abstract)."
+ ]
+}

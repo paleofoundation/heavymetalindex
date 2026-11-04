@@ -1,0 +1,70 @@
+{
+ "source_id": "steinhauser2013-fukushima-hot-spots-strontium-90",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-STRONTIUM-1/10.1371_journal.pone.0057760.pdf",
+ "primary_sha256": "11db9c0a268afa342cd60e77b0de8555c9bae878f4fbe103999d7a39c1c6b086",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "occurrence_extracted",
+ "disposition_reason": "Strontium-90 activity concentrations in soil and vegetation from Fukushima-affected hot spots; per-sample values only in supplement, summary values in text.",
+ "disposition_locator": "Results and Discussion, pp. 2 to 4",
+ "study": {
+  "design": "environmental radiochemical survey",
+  "origin": "eastern Japanese coast including sites near Fukushima Daiichi",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "December 2011 to July 2012"
+  },
+  "method": "strontium-resin separation and liquid scintillation counting; HPGe gamma spectrometry for cesium",
+  "lod": [],
+  "basis": "unknown",
+  "qa": "IAEA-373 grass reference material; strontium-85 yield tracer (92.4 to 98.2 percent recovery)",
+  "site_context": "field"
+ },
+ "findings": [
+  {
+   "id": "steinhauser2013-fukushima-hot-spots-strontium-90:Sr:soil-and-vegetation-sr90-maximum:max",
+   "material": {
+    "label_as_printed": "Soil and vegetation samples, Japanese hot spots",
+    "page": "metals/strontium",
+    "form": "soil and vegetation",
+    "state": "field",
+    "route_rule": "override:HMI-METAL-INGEST-1"
+   },
+   "analyte": "Sr",
+   "group": "all hot-spot samples",
+   "group_kind": "site_set",
+   "n": null,
+   "statistic": "max",
+   "reported": "up to approximately 1 Bq/g strontium-90",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "Bq/g",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Results, p. 2",
+   "integrity_flag": null,
+   "notes": "Activity concentration of strontium-90, decay corrected to 11 March 2011; not a mass concentration.",
+   "statistic_raw": "max"
+  }
+ ],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [
+  "Japanese authorities assumed strontium-90 activity of no more than 10 percent of cesium-137 activity for food regulatory limits; no sample in this study exceeded that ratio (Results, p. 4)."
+ ],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/steinhauser2013-fukushima-hot-spots-strontium-90.md",
+ "non_numeric_findings": [
+  "Strontium-90 is described as accumulating in bone with potential to cause leukemia or skeletal cancer (Introduction, p. 1)."
+ ]
+}

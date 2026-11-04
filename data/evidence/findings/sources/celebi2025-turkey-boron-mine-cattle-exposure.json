@@ -1,0 +1,162 @@
+{
+ "source_id": "celebi2025-turkey-boron-mine-cattle-exposure",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-BORON-1/10.1007_s10653-025-02484-y.pdf",
+ "primary_sha256": "46528af3a3ed7ebe58fec6a1a4f3b2f500aa51501270836aca2b5aac74f4a31c",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "occurrence_extracted",
+ "disposition_reason": "ICP-OES boron in livestock drinking water, cattle serum, urine and feed digests by distance from a boron mine.",
+ "disposition_locator": "Tables 3 and 4, p. 6",
+ "study": {
+  "design": "cross-sectional field survey along a distance gradient",
+  "origin": "Balıkesir province, Turkey",
+  "market": null,
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "not stated (ethics approval 2022)"
+  },
+  "method": "acid digestion; ICP-OES (PerkinElmer 7300 DV)",
+  "lod": [
+   "water 12.5669 µg/L",
+   "serum 5.3050 µg/L",
+   "urine 20.6567 µg/L",
+   "feed 57.8052 µg/L"
+  ],
+  "basis": "unknown",
+  "qa": "calibration R2 >= 0.99; recovery table",
+  "site_context": "mining"
+ },
+ "findings": [
+  {
+   "id": "celebi2025-turkey-boron-mine-cattle-exposure:B:livestock-drinking-water-wells-drinkers--0-to-5-km-from-mine:median",
+   "material": {
+    "label_as_printed": "Livestock drinking water (wells, drinkers)",
+    "page": "metals/boron",
+    "form": null,
+    "state": null,
+    "route_rule": "override:HMI-METAL-INGEST-1"
+   },
+   "analyte": "B",
+   "group": "0 to 5 km from mine",
+   "group_kind": "distance_zone",
+   "n": 20,
+   "statistic": "median",
+   "reported": "1285 (47.2-6049) µg/L",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "µg/L",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 4, p. 6",
+   "integrity_flag": null,
+   "notes": "Livestock water, not a human supply; kept on the metal page route.",
+   "statistic_raw": "median"
+  },
+  {
+   "id": "celebi2025-turkey-boron-mine-cattle-exposure:B:livestock-drinking-water-wells-drinkers--5-to-15-km-from-mine:median",
+   "material": {
+    "label_as_printed": "Livestock drinking water (wells, drinkers)",
+    "page": "metals/boron",
+    "form": null,
+    "state": null,
+    "route_rule": "override:HMI-METAL-INGEST-1"
+   },
+   "analyte": "B",
+   "group": "5 to 15 km from mine",
+   "group_kind": "distance_zone",
+   "n": 20,
+   "statistic": "median",
+   "reported": "93.20 (66.1-1466) µg/L",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "µg/L",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 4, p. 6",
+   "integrity_flag": null,
+   "notes": "",
+   "statistic_raw": "median"
+  },
+  {
+   "id": "celebi2025-turkey-boron-mine-cattle-exposure:B:livestock-drinking-water-wells-drinkers--15-to-30-km-from-mine:median",
+   "material": {
+    "label_as_printed": "Livestock drinking water (wells, drinkers)",
+    "page": "metals/boron",
+    "form": null,
+    "state": null,
+    "route_rule": "override:HMI-METAL-INGEST-1"
+   },
+   "analyte": "B",
+   "group": "15 to 30 km from mine",
+   "group_kind": "distance_zone",
+   "n": 20,
+   "statistic": "median",
+   "reported": "73.75 (53.4-1299) µg/L",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "µg/L",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 4, p. 6",
+   "integrity_flag": null,
+   "notes": "",
+   "statistic_raw": "median"
+  },
+  {
+   "id": "celebi2025-turkey-boron-mine-cattle-exposure:B:cattle-urine--0-to-5-km-from-mine:median",
+   "material": {
+    "label_as_printed": "Cattle urine",
+    "page": "metals/boron",
+    "form": null,
+    "state": null,
+    "route_rule": "override:HMI-METAL-INGEST-1"
+   },
+   "analyte": "B",
+   "group": "0 to 5 km from mine",
+   "group_kind": "distance_zone",
+   "n": 20,
+   "statistic": "median",
+   "reported": "10452.5 (1440.00-55600) µg/L",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "µg/L",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 4, p. 6",
+   "integrity_flag": null,
+   "notes": "Animal matrix.",
+   "statistic_raw": "median"
+  }
+ ],
+ "unresolved": [
+  "Serum and feed medians not routed because of LOD and unit problems."
+ ],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [
+  "Cites WHO 2.4 mg/L and EU 1 mg/L drinking-water values for boron (p. 9)."
+ ],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/celebi2025-turkey-boron-mine-cattle-exposure.md",
+ "non_numeric_findings": [
+  "Feed values in µg/L of digest with negative minima; not converted.",
+  "All serum values (0.07 to 1.27 µg/L) fall below the stated serum LOD of 5.3050 µg/L."
+ ]
+}

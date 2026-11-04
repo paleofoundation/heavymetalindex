@@ -1,0 +1,98 @@
+{
+ "source_id": "dhaliwal2021-india-sesame-foliar-boron",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-BORON-1/10.3390_molecules26216699.pdf",
+ "primary_sha256": "f885ae8363840dc1964a14bd134e878baf3b47af4b67d45f3d2d2b2d6b7d5b92",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "occurrence_extracted",
+ "disposition_reason": "Seed and stover boron (mg/kg, oven-dry) under nine foliar boron treatments over two seasons.",
+ "disposition_locator": "Table A1, p. 11",
+ "study": {
+  "design": "field experiment, randomized block",
+  "origin": "Ludhiana, Punjab, India",
+  "market": null,
+  "period": {
+   "from": "2019",
+   "to": "2020",
+   "as_reported": "kharif seasons 2019 and 2020"
+  },
+  "method": "dry ashing, azomethine-H spectrophotometry",
+  "lod": [],
+  "basis": "dry_weight",
+  "qa": "not described",
+  "site_context": "agricultural"
+ },
+ "findings": [
+  {
+   "id": "dhaliwal2021-india-sesame-foliar-boron:B:sesame-seed-untreated-control-t1--control-two-year-mean:mean",
+   "material": {
+    "label_as_printed": "Sesame seed, untreated control (T1)",
+    "page": "ingredients/sesame",
+    "form": null,
+    "state": "raw",
+    "route_rule": "override:HMI-METAL-INGEST-1"
+   },
+   "analyte": "B",
+   "group": "control, two-year mean",
+   "group_kind": "treatment",
+   "n": 3,
+   "statistic": "mean",
+   "reported": "22.48 mg kg-1",
+   "value_ugkg": 22480,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "dry_weight",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table A1, p. 11",
+   "integrity_flag": null,
+   "notes": "n = 3 replications per year.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "dhaliwal2021-india-sesame-foliar-boron:B:sesame-seed-40-mg-l-boron-at-flowering-and-capsule-formation--t9-two-year-mean:mean",
+   "material": {
+    "label_as_printed": "Sesame seed, 40 mg/L boron at flowering and capsule formation (T9)",
+    "page": "ingredients/sesame",
+    "form": null,
+    "state": "raw",
+    "route_rule": "override:HMI-METAL-INGEST-1"
+   },
+   "analyte": "B",
+   "group": "T9, two-year mean",
+   "group_kind": "treatment",
+   "n": 3,
+   "statistic": "mean",
+   "reported": "31.00 mg kg-1",
+   "value_ugkg": 31000,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "dry_weight",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table A1, p. 11",
+   "integrity_flag": null,
+   "notes": "",
+   "statistic_raw": "mean"
+  }
+ ],
+ "unresolved": [
+  "Intermediate treatments T2 to T8 and stover rows not routed individually."
+ ],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/dhaliwal2021-india-sesame-foliar-boron.md",
+ "non_numeric_findings": [
+  "Water spray alone did not change the measured parameters."
+ ]
+}

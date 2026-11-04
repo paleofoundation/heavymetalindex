@@ -1,4 +1,6 @@
 ---
+hero_image: /static/heroes/vegetable-juices.webp
+hero_image_alt: "Three glasses of beetroot, carrot and green vegetable juice beside a whole beetroot, a carrot and celery stalks."
 hmtc_subcategory_name: "Vegetable juices, non-root"
 hmtc_category_name: "Beverages"
 type: product-category

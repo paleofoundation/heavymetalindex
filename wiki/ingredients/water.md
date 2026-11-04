@@ -108,7 +108,7 @@ quick_read:
       text: "aquifer geology drives inorganic arsenic and uranium, while service lines, solder, and fittings can release [[metals/lead|lead]]."
     - label: Practical framing
       text: "distinguish first-draw from running-water samples and match [[products/water-filters|treatment]] to the metal and where it enters the supply."
-hero_image_alt: ""
+hero_image_alt: "A plain transparent water bottle, a clear drinking glass and folded white fabric illustrating drinking water ingredient context."
 ---
 
 # Water

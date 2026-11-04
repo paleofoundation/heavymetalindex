@@ -1,0 +1,39 @@
+{
+ "source_id": "si2018-rice-lanthanum-acid-rain-phytoliths",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-RARE-EARTHS-1/lanthanum/10.1371_journal.pone.0197365.pdf",
+ "primary_sha256": "f4714b27f84d96e5a674dc06ad483bd0ebd376241740265abbab07f4f70ba12a",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "no_numeric_results",
+ "disposition_reason": "Mechanistic germination study without tabulated lanthanum concentrations.",
+ "disposition_locator": "Abstract; Methods",
+ "study": {
+  "design": "germination experiment with simulated acid rain",
+  "origin": "Jiangsu Province, China",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "not stated"
+  },
+  "method": "phytolith extraction and analysis",
+  "lod": [],
+  "basis": "unknown",
+  "qa": "not reported",
+  "site_context": "experimental"
+ },
+ "findings": [],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/si2018-rice-lanthanum-acid-rain-phytoliths.md",
+ "non_numeric_findings": [
+  "Acid rain at pH 3.5 reduced phytolith lanthanum sequestration."
+ ]
+}

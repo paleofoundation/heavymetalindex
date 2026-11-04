@@ -1,0 +1,40 @@
+{
+ "source_id": "geleta2021-zirconium-coated-pumice-defluoridation",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-ZIRCONIUM-1/10.3390_ma14206145.pdf",
+ "primary_sha256": "33b2c801b7fcaf34ec85b029fd04463b4279451e8dcf1ede564bb52731aa07af",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "out_of_scope",
+ "disposition_reason": "Materials paper using zirconium as a coating on pumice for fluoride removal; no zirconium occurrence, exposure or toxicity data.",
+ "disposition_locator": "Abstract",
+ "study": {
+  "design": "laboratory fixed-bed column study",
+  "origin": "not stated",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "not stated"
+  },
+  "method": "column adsorption; XRD, ICP-OES, XRF, SEM, BET, FTIR",
+  "lod": [],
+  "basis": "unknown",
+  "qa": "not applicable",
+  "site_context": "laboratory"
+ },
+ "findings": [],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/geleta2021-zirconium-coated-pumice-defluoridation.md",
+ "non_numeric_findings": [
+  "Fluoride capacity 225 mg/kg coated versus 110 mg/kg virgin pumice (Results, p. 12).",
+  "No external funding."
+ ]
+}

@@ -1,9 +1,11 @@
 ---
+hero_image: /static/heroes/algae.webp
+hero_image_alt: "A bowl of dried kelp seaweed, a dish of dark green spirulina powder and a stack of dried nori sheets."
 title: Algae
 type: ingredient
 commodity: algae
 aliases: []
-category: seafood
+category: unclassified
 provisional_scaffold: true
 provisional_created: 2026-10-15T00:00:00.000Z
 provisional_reason: >-
@@ -13,11 +15,12 @@ provisional_source: '[[sources/raab2024-arsenolipids-chlamydomonas]]'
 literature_scope: thin
 updated: '2026-10-22'
 evidence_scope: navigation-only
+page_contract_version: 1.0.0
 question_record: data/evidence/engine/ingredient/algae/question-record.json
 synthesis_record: data/evidence/engine/ingredient/algae/synthesis.json
 evidence_coverage: partial
 ingredient_presentation: rice-shared-v1
-sources: 1
+sources: 14
 description: >-
   Lead, cadmium, total arsenic, inorganic arsenic and total mercury in algae:
   monitoring results, studies, references by form and basis, limits, testing and
@@ -89,34 +92,8 @@ ingredient_chrome:
         differ in water content,…
       href: '#which-forms-and-regions-measured-lower'
       link_label: Variation
-quick_read:
-  summary: >-
-    Lead, cadmium, total arsenic, inorganic arsenic and total mercury in algae
-    are reported as monitoring results, studies, references by form and basis,
-    limits, testing and controls.
-  points:
-    - label: Metals of concern
-      text: the metals named by the studies cited on this page.
-    - label: Main drivers
-      text: 'form, origin and preparation stay separate.'
-    - label: Practical framing
-      text: this page does not pool those studies into one typical value.
 ---
 # Algae
-
-<!-- BEGIN: hmi-opening -->
-<div class="hmi-quick-read">
-  <div class="hmi-quick-read-label">Quick read</div>
-  <p>Lead, cadmium, total arsenic, inorganic arsenic and total mercury in algae are reported as monitoring results, studies, references by form and basis, limits, testing and controls.</p>
-  <ul>
-    <li><strong>Metals of concern:</strong> the metals named by the studies cited on this page.</li>
-    <li><strong>Main drivers:</strong> form, origin and preparation stay separate.</li>
-    <li><strong>Practical framing:</strong> this page does not pool those studies into one typical value.</li>
-  </ul>
-</div>
-
-This page draws on evidence from [[sources/who-gemsfood-heavy-metal-contaminants|WHO]] and [[sources/efsa2023-heavy-metals-seaweed|EFSA]], together with 6 peer-reviewed studies. The complete citation list is at the bottom of the page.
-<!-- END: hmi-opening -->
 
 <section class="hmi-quick-read" id="algae-quick-read" data-hmi-quick-read aria-labelledby="algae-quick-read-label"><div class="hmi-quick-read-label" id="algae-quick-read-label">Quick read</div>
 
@@ -144,6 +121,7 @@ Ask for lot results with a quantification limit well below the limit that applie
 </ul>
 </section>
 
+
 <a id="decision-summary"></a>
 ## Algae overview
 
@@ -160,6 +138,8 @@ Across 2 other studies of ordinary farms and markets, reported lead means and me
 
 For a buyer the practical points are the form bought, the basis a result is reported on, where the algae came from and the laboratory’s reporting limit. Testing finds contamination but does not remove it.
 
+
+
 <a id="ingredient-identity-and-scope"></a>
 ## What counts as algae
 
@@ -173,6 +153,7 @@ For a buyer the practical points are the form bought, the basis a result is repo
 This page covers algae in 4 forms kept separate in every comparison: algae, as sold (113 results), algae, dried (80 results), algae, powder or ground (27 results) and algae, flour or meal (1 result).<sup class="cite">[[sources/who-gemsfood-heavy-metal-contaminants|1]]<span class="cite-card"><span class="cite-card-head"><span class="cite-card-authors">World Health Organization · 2026</span><a class="cite-card-title" href="../sources/who-gemsfood-heavy-metal-contaminants">GEMS/Food Contaminants database heavy-metal exports</a></span><span class="cite-card-body"><span class="cite-card-journal">GEMS/Food Contamination Monitoring and Assessment Programme</span><a class="cite-card-review" href="../sources/who-gemsfood-heavy-metal-contaminants">Read source →</a></span></span></sup><sup class="cite">[[sources/efsa2023-heavy-metals-seaweed|2]]<span class="cite-card"><span class="cite-card-head"><span class="cite-card-authors">European Food Safety Authority (EFSA), Dujardin B, Ferreira de Sousa R, Gomez Ruiz JA · 2023</span><a class="cite-card-title" href="../sources/efsa2023-heavy-metals-seaweed">Dietary exposure to heavy metals and iodine intake via consumption of seaweeds and halophytes in the European population</a></span><span class="cite-card-body"><span class="cite-card-journal">EFSA Journal</span><a class="cite-card-review" href="../sources/efsa2023-heavy-metals-seaweed">Read source →</a></span></span></sup><sup class="cite">[[sources/fechner2022-bfr-meal-hg-cd-pb-ni-germany|3]]<span class="cite-card"><span class="cite-card-head"><span class="cite-card-authors">Fechner C, Hackethal C, Höpfner T, Dietrich J, Bloch D, Lindtner O, Sarvan I · 2022</span><a class="cite-card-title" href="../sources/fechner2022-bfr-meal-hg-cd-pb-ni-germany">Results of the BfR MEAL Study: In Germany, mercury is mostly contained in fish and seafood while cadmium, lead, and nickel are present in a broad spectrum of foods</a></span><span class="cite-card-body"><span class="cite-card-journal">Food Chemistry: X</span><a class="cite-card-review" href="../sources/fechner2022-bfr-meal-hg-cd-pb-ni-germany">Read source →</a></span></span></sup><sup class="cite">[[sources/efsa-lead-contam-2010|4]]<span class="cite-card"><span class="cite-card-head"><span class="cite-card-authors">EFSA Panel on Contaminants in the Food Chain (CONTAM) · 2010</span><a class="cite-card-title" href="../sources/efsa-lead-contam-2010">Scientific Opinion on Lead in Food</a></span><span class="cite-card-body"><span class="cite-card-journal">EFSA Journal 2010;8(4):1570</span><a class="cite-card-review" href="../sources/efsa-lead-contam-2010">Read source →</a></span></span></sup><sup class="cite">[[sources/kim2023-korea-fishery-products-metals|5]]<span class="cite-card"><span class="cite-card-head"><span class="cite-card-authors">Kim DY, Jeon H, Shin HS · 2023</span><a class="cite-card-title" href="../sources/kim2023-korea-fishery-products-metals">Risk Assessment and Determination of Arsenic and Heavy Metals in Fishery Products in Korea</a></span><span class="cite-card-body"><span class="cite-card-journal">Foods</span><a class="cite-card-review" href="../sources/kim2023-korea-fishery-products-metals">Read source →</a></span></span></sup><sup class="cite">[[sources/wang2019-dietary-lead-guangzhou|6]]<span class="cite-card"><span class="cite-card-head"><span class="cite-card-authors">Wang M, Liang B, Zhang W, Chen K, Zhang Y, Zhou H, Cheng Y, Liu H, Zhong X, Li Y, Liu Y · 2019</span><a class="cite-card-title" href="../sources/wang2019-dietary-lead-guangzhou">Dietary Lead Exposure and Associated Health Risks in Guangzhou, China</a></span><span class="cite-card-body"><span class="cite-card-journal">International Journal of Environmental Research and Public Health</span><a class="cite-card-review" href="../sources/wang2019-dietary-lead-guangzhou">Read source →</a></span></span></sup>
 
 Results stay on the basis each source reports: as sold or fresh weight, dry weight, or unstated. Dry-weight, as-sold and unstated results are never pooled, and no moisture conversion is applied.
+
 
 <!-- BEGIN: hmi-fda-tds-occurrence -->
 
@@ -198,6 +179,7 @@ The table holds every extracted algae result: one row for each statistic a sourc
 
 <!-- END: hmi-fda-tds-occurrence -->
 
+
 <a id="sources-and-contamination-pathways"></a>
 ## How metals reach algae
 
@@ -209,6 +191,8 @@ The table holds every extracted algae result: one row for each statistic a sourc
 <a id="which-source-attribution-claims-are-measured-modelled-inferred-or-unresolved"></a>
 
 No study in the library compared algae from contaminated and ordinary settings, so the routes by which metals reach it are not measured here.
+
+
 
 <a id="ranges-by-source-region-and-variety"></a>
 ## Which forms and regions measured lower
@@ -226,6 +210,8 @@ Among GEMS/Food reporting regions, algae, as sold had the lowest total arsenic s
 
 In one study, lead across 10 groups of algae ranged from 150 µg/kg (retail product 7) to 1,330 µg/kg (retail product 1); the lowest is the lowest observed in that study, not an established sourcing preference.<sup class="cite">[[sources/almela2002-algae-food-arsenic-metals|9]]<span class="cite-card"><span class="cite-card-head"><span class="cite-card-authors">Almela C, Algora S, Benito V, Clemente MJ, Devesa V, Súñer MA, Vélez D, Montoro R · 2002</span><a class="cite-card-title" href="../sources/almela2002-algae-food-arsenic-metals">Heavy Metal, Total Arsenic, and Inorganic Arsenic Contents of Algae Food Products</a></span><span class="cite-card-body"><span class="cite-card-journal">Journal of Agricultural and Food Chemistry</span><a class="cite-card-review" href="../sources/almela2002-algae-food-arsenic-metals">Read source →</a></span></span></sup>
 
+
+
 <a id="processing-effects-and-derivatives"></a>
 ## Processing, cooking and preparation
 
@@ -237,6 +223,8 @@ In one study, lead across 10 groups of algae ranged from 150 µg/kg (retail prod
 <a id="do-changes-reflect-removal-redistribution-moisture-or-yield-change-dilution-or-altered-species-or-availability"></a>
 
 No processing study for metals in this food is in the library yet.
+
+
 
 <a id="mitigation-options"></a>
 ## Mitigation for algae
@@ -252,6 +240,8 @@ Lot testing against the applicable limit is the check that can be verified.
 
 <p class="hmi-mitigation-gap" data-mitigation-gap>No measured way to lower metals in this food is in the library yet.</p>
 
+
+
 <a id="trade-offs-and-failure-modes"></a>
 ## Trade-offs and limits of controls
 
@@ -263,6 +253,8 @@ Lot testing against the applicable limit is the check that can be verified.
 <a id="what-costs-constraints-adverse-effects-or-failure-modes-are-documented-and-which-are-unknown"></a>
 
 Metals do not move together, so a lot that passes a lead limit says little about cadmium, arsenic or nickel unless those are tested as well.
+
+
 
 <a id="sampling-and-testing"></a>
 ## Testing algae for metals
@@ -278,6 +270,8 @@ Results depend on the method and its reporting limit. Reporting limits for lead 
 
 A useful lot result names the form, the basis and a quantification limit well below the limit that applies.
 
+
+
 <a id="procurement-and-process-control"></a>
 ## Buying and verifying algae
 
@@ -290,6 +284,8 @@ A useful lot result names the form, the basis and a quantification limit well be
 
 No maximum level for metals in algae was verified from primary text for this page; buyers should confirm the limit that applies in the destination market.
 
+
+
 <a id="finished-product-and-exposure-implications"></a>
 ## Exposure from algae
 
@@ -301,6 +297,7 @@ No maximum level for metals in algae was verified from primary text for this pag
 <a id="what-conclusions-require-finished-product-measurements-or-a-separate-exposure-assessment"></a>
 
 No source in the library converted algae concentrations into a verified estimate of intake for a defined population. Concentrations describe the food, not individual risk.
+
 
 <a id="coverage"></a>
 <a id="indexed-source-records"></a>
@@ -318,6 +315,7 @@ No source in the library converted algae concentrations into a verified estimate
 Every source record that names algae was decided on its content: 14 occurrence extracted, 14 records in all. The occurrence table renders every extracted result; held values remain visible with their reason.
 
 References identify the sources used in these answers. The Sources index preserves additional discovery links; inclusion there does not mean a source has been reviewed for this assessment. Corrections, completed searches, new direct evidence and changes in requirements should reopen the relevant answer.
+
 
 <a id="universal-faqs"></a>
 ## Algae FAQs
@@ -361,7 +359,7 @@ Inorganic arsenic, the more toxic form, was measured in 32 results from 6 source
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to a source record with bibliographic details, reported findings, and document provenance.
+Works cited on this page, in citation-number order. See [Sources](#sources) for this page's source inventory. Each title links to a source record with bibliographic details, reported findings, and document provenance.
 
 1. [[sources/who-gemsfood-heavy-metal-contaminants|GEMS/Food Contaminants database heavy-metal exports]]<span class="hmi-ref-meta">World Health Organization · GEMS/Food Contamination Monitoring and Assessment Programme · 2026 · [extranet.who.int](https://extranet.who.int/gemsfood/?DisplayFormat=1)</span><span class="hmi-ref-tag">Dataset</span>
 2. [[sources/efsa2023-heavy-metals-seaweed|Dietary exposure to heavy metals and iodine intake via consumption of seaweeds and halophytes in the European population]]<span class="hmi-ref-meta">European Food Safety Authority (EFSA), Dujardin B, Ferreira de Sousa R, and Gomez Ruiz JA · EFSA Journal · 2023 · [doi.org/10.2903/j.efsa.2023.7798](https://doi.org/10.2903/j.efsa.2023.7798)</span><span class="hmi-ref-tag">Peer-reviewed</span>
@@ -386,5 +384,5 @@ Browse [Algae Sources](../sources/index?topic=ingredients%2Falgae) for sources c
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-No substantive edit history is available in this build. The full commit record is available in [git](https://github.com/paleofoundation/heavymetalindex).
+22 October 2026: Rebuilt from every algae record in the library: 14 occurrence sources, references by form and basis, same-study contrasts.
 <!-- END: hmi-page-history -->

@@ -1,0 +1,39 @@
+{
+ "source_id": "shu2019-manganese-cerium-rice-husk-catalyst",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-RARE-EARTHS-1/cerium/10.1039_c9ra03937f.pdf",
+ "primary_sha256": "63b74082ed365b1004ac236132bea00b10c6120a9bfdb7ec7f6215904b257d7a",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "out_of_scope",
+ "disposition_reason": "Catalysis study; no exposure-relevant data.",
+ "disposition_locator": "Abstract",
+ "study": {
+  "design": "catalyst development",
+  "origin": "Beijing, China",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "not stated"
+  },
+  "method": "catalytic activity tests",
+  "lod": [],
+  "basis": "unknown",
+  "qa": "not applicable",
+  "site_context": "laboratory"
+ },
+ "findings": [],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/shu2019-manganese-cerium-rice-husk-catalyst.md",
+ "non_numeric_findings": [
+  "Rice husk carbon support improved sulfur tolerance of a manganese-cerium catalyst."
+ ]
+}

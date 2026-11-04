@@ -1,0 +1,39 @@
+{
+ "source_id": "plug2025-neolithic-syria-strontium-oxygen-mobility",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-STRONTIUM-1/10.1038_s41598-025-18134-3.pdf",
+ "primary_sha256": "cf80aaab5d2fb0b80eb88fe60c1c98c7615a38fd899c017d110216d9893e7cf1",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "context",
+ "disposition_reason": "Archaeological isotope-ratio mobility study; no concentrations.",
+ "disposition_locator": "Results, p. 3",
+ "study": {
+  "design": "archaeological isotope study",
+  "origin": "northern Syria",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "Neolithic, about 11,600 to 7,500 years ago"
+  },
+  "method": "strontium and oxygen isotope ratio mass spectrometry",
+  "lod": [],
+  "basis": "unknown",
+  "qa": "NBS 987",
+  "site_context": "archaeological"
+ },
+ "findings": [],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/plug2025-neolithic-syria-strontium-oxygen-mobility.md",
+ "non_numeric_findings": [
+  "Mobility declined after village establishment and increased in the later Neolithic (Abstract)."
+ ]
+}

@@ -1,0 +1,68 @@
+{
+ "source_id": "walther2006-otolith-strontium-water-versus-food",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-STRONTIUM-1/10.3354_meps311125.pdf",
+ "primary_sha256": "c3255fe74b98fe5d09b870aeba461d5c061afa4bddb8023721c6e3804532a508",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "context",
+ "disposition_reason": "Isotope-spike rearing experiment quantifying water versus food contributions to otolith strontium; no food or human concentration data.",
+ "disposition_locator": "Results, pp. 127 to 128",
+ "study": {
+  "design": "controlled laboratory rearing experiment with enriched stable isotope spikes",
+  "origin": "laboratory, Woods Hole Oceanographic Institution",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "70-day rearing; dates not given"
+  },
+  "method": "solution ICP-MS (water) and laser ablation ICP-MS (otoliths)",
+  "lod": [],
+  "basis": "unknown",
+  "qa": "Element standards with indium internal standard; precision reported for Sr:Ca and Ba:Ca",
+  "site_context": "laboratory"
+ },
+ "findings": [
+  {
+   "id": "walther2006-otolith-strontium-water-versus-food:Sr:rearing-seawater-sr-ca:range",
+   "material": {
+    "label_as_printed": "Rearing seawater, treatment tanks",
+    "page": "metals/strontium",
+    "form": "seawater",
+    "state": "laboratory",
+    "route_rule": "override:HMI-METAL-INGEST-1"
+   },
+   "analyte": "Sr",
+   "group": "3 spiked treatment tanks",
+   "group_kind": "treatment",
+   "n": 3,
+   "statistic": "range",
+   "reported": "8.5 to 9.3 mmol/mol Sr:Ca",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mmol/mol (Sr:Ca molar ratio)",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Results, p. 127",
+   "integrity_flag": null,
+   "notes": "Molar ratio to calcium, not a mass concentration.",
+   "statistic_raw": "range"
+  }
+ ],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/walther2006-otolith-strontium-water-versus-food.md",
+ "non_numeric_findings": [
+  "Water supplied about 83 percent of otolith strontium; food about 17 percent (Results, p. 128)."
+ ]
+}

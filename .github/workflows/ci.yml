@@ -10,6 +10,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - uses: actions/setup-node@v4
         with:
           node-version-file: .node-version
@@ -20,3 +22,32 @@ jobs:
       - run: npm run lint:page-openings
       - run: npm run lint:thin-with-evidence
       - run: npm run check
+      - name: Hero images (no placeholder or fallback on added/changed ingredient, product, metal pages)
+        if: github.event_name == 'pull_request'
+        run: |
+          git fetch --no-tags origin ${{ github.base_ref }}
+          node tools/lint/hero-image-placeholders.mjs --changed origin/${{ github.base_ref }}
+
+  # Read-only audits are skipped when VERCEL=1 so the site build stays inside
+  # the 45-minute builder cap. This job is the place they still run. The HTML
+  # audits need public/, so the job builds first with the audits themselves
+  # turned off, then runs every skipped audit against that output.
+  build-audits:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .node-version
+          cache: npm
+      - run: npm ci
+      - name: Build the site without the read-only audits
+        run: npm run build
+        env:
+          HMI_SKIP_BUILD_AUDITS: "1"
+          HMI_PREBUILD_HEAP: "4096"
+          HMI_QUARTZ_CONCURRENCY: "1"
+          HMI_QUARTZ_HEAP: "6144"
+      - name: Audits the Vercel build skips
+        run: npm run audit:build

@@ -1,0 +1,39 @@
+{
+ "source_id": "liu2016-lanthanum-rice-root-ros",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-RARE-EARTHS-1/lanthanum/10.1038_srep31860.pdf",
+ "primary_sha256": "02923153cdce5b5081d67bd2fa1cbc251469e30166100236bdada85d272519f7",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "no_numeric_results",
+ "disposition_reason": "Plant biochemistry without lanthanum concentration data.",
+ "disposition_locator": "Abstract",
+ "study": {
+  "design": "hydroponic seedling experiment",
+  "origin": "Shandong, China",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "not stated"
+  },
+  "method": "biochemical assays",
+  "lod": [],
+  "basis": "unknown",
+  "qa": "not reported",
+  "site_context": "experimental"
+ },
+ "findings": [],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/liu2016-lanthanum-rice-root-ros.md",
+ "non_numeric_findings": [
+  "High lanthanum concentrations induced oxidative stress in rice roots."
+ ]
+}

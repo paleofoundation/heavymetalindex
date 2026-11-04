@@ -1,9 +1,11 @@
 ---
+hero_image: /static/heroes/hemp.webp
+hero_image_alt: "Bowls of hulled hemp hearts and whole hemp seeds beside a small glass bottle of green hemp seed oil and hemp leaves."
 title: Hemp
 type: ingredient
 commodity: hemp
 aliases: []
-category: seed
+category: unclassified
 provisional_scaffold: true
 provisional_created: 2026-10-15T00:00:00.000Z
 provisional_reason: >-
@@ -13,6 +15,7 @@ provisional_source: '[[sources/zafeiraki2021-hemp-cannabis-metals-greece]]'
 literature_scope: thin
 updated: '2026-10-22'
 evidence_scope: navigation-only
+page_contract_version: 1.0.0
 question_record: data/evidence/engine/ingredient/hemp/question-record.json
 synthesis_record: data/evidence/engine/ingredient/hemp/synthesis.json
 evidence_coverage: partial
@@ -89,34 +92,8 @@ ingredient_chrome:
         middle half spanning below…
       href: '#which-forms-and-regions-measured-lower'
       link_label: Variation
-quick_read:
-  summary: >-
-    Lead, cadmium, total arsenic, inorganic arsenic and total mercury in hemp
-    are reported as monitoring results, studies, references by form and basis,
-    limits, testing and controls.
-  points:
-    - label: Metals of concern
-      text: the metals named by the studies cited on this page.
-    - label: Main drivers
-      text: 'form, origin and preparation stay separate.'
-    - label: Practical framing
-      text: this page does not pool those studies into one typical value.
 ---
 # Hemp
-
-<!-- BEGIN: hmi-opening -->
-<div class="hmi-quick-read">
-  <div class="hmi-quick-read-label">Quick read</div>
-  <p>Lead, cadmium, total arsenic, inorganic arsenic and total mercury in hemp are reported as monitoring results, studies, references by form and basis, limits, testing and controls.</p>
-  <ul>
-    <li><strong>Metals of concern:</strong> the metals named by the studies cited on this page.</li>
-    <li><strong>Main drivers:</strong> form, origin and preparation stay separate.</li>
-    <li><strong>Practical framing:</strong> this page does not pool those studies into one typical value.</li>
-  </ul>
-</div>
-
-This page draws on evidence from [[sources/who-gemsfood-heavy-metal-contaminants|WHO]], together with 5 peer-reviewed studies and 1 other cited source. The complete citation list is at the bottom of the page.
-<!-- END: hmi-opening -->
 
 <section class="hmi-quick-read" id="hemp-quick-read" data-hmi-quick-read aria-labelledby="hemp-quick-read-label"><div class="hmi-quick-read-label" id="hemp-quick-read-label">Quick read</div>
 

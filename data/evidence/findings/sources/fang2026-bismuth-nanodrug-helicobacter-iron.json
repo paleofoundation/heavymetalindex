@@ -1,0 +1,45 @@
+{
+ "source_id": "fang2026-bismuth-nanodrug-helicobacter-iron",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-BISMUTH-1/10.1002_advs.76621.pdf",
+ "primary_sha256": "3afaf01a71803d3bbc5a5ec7708a471b6f55f3eaf6e57cdd3cb7e067bf41d2db",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "context",
+ "disposition_reason": "Mouse and in vitro study of a bismuth nanodrug against H. pylori with 16S microbiota and SCFA comparisons versus bismuth-containing quadruple therapy; no bismuth concentrations in food or tissue reported in the main text.",
+ "disposition_locator": "p. 13 (Figure 9); p. 19 (dosing); p. 15",
+ "study": {
+  "design": "in vitro antibacterial and mouse infection-treatment experiments",
+  "origin": "China",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "not stated"
+  },
+  "method": "16S rRNA sequencing of feces; targeted SCFA metabolomics; ICP-MS for intracellular metals and Bi release",
+  "lod": [],
+  "basis": "not_applicable",
+  "qa": "not applicable",
+  "site_context": "animal experiment"
+ },
+ "findings": [],
+ "unresolved": [
+  "Bismuth release and tissue values are in supplementary figures not reviewed."
+ ],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [
+  "Mouse quadruple therapy dose included bismuth potassium citrate 182 mg/kg by gavage for five days (p. 19)."
+ ],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/fang2026-bismuth-nanodrug-helicobacter-iron.md",
+ "non_numeric_findings": [
+  "Nanodrug group gut microbiota composition was close to normal mice; quadruple therapy group was clearly disrupted (p. 13).",
+  "Authors attribute probiotic survival to lower iron dependence and higher bismuth tolerance than H. pylori (p. 13).",
+  "Authors state future work must address potential tissue accumulation, pharmacokinetics and long-term safety (p. 15)."
+ ]
+}

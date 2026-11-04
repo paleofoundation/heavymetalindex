@@ -1,0 +1,37 @@
+{
+ "source_id": "shehab2025-tungsten-trioxide-nanowire-water-membranes",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-TUNGSTEN-1/10.1039_d5ra04826e.pdf",
+ "primary_sha256": "0e625f5bf3d67d386008f5fad98fdedd1d2d53be49017591cf424315079efd73",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "out_of_scope",
+ "disposition_reason": "Membrane materials for microbial removal; no tungsten measured in water.",
+ "disposition_locator": "whole paper",
+ "study": {
+  "design": "materials development and filtration testing",
+  "origin": "not applicable",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "not stated"
+  },
+  "method": "ICP-OES for Cu and Fe; microbiological filtration assays",
+  "lod": [],
+  "basis": "unknown",
+  "qa": "not applicable",
+  "site_context": "laboratory"
+ },
+ "findings": [],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/shehab2025-tungsten-trioxide-nanowire-water-membranes.md",
+ "non_numeric_findings": []
+}

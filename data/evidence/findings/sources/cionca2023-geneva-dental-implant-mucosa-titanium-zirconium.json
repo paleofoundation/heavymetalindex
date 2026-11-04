@@ -1,0 +1,158 @@
+{
+ "source_id": "cionca2023-geneva-dental-implant-mucosa-titanium-zirconium",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-ZIRCONIUM-1/10.1007_s00784-023-05099-8.pdf",
+ "primary_sha256": "547f12520a78898a3497f2f0a9820421c260985eae1271ae0f5bcf6c1309dc5e",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "occurrence_extracted",
+ "disposition_reason": "ICP-MS zirconium detections (near LOD, all below LOQ) in brush cytology samples of oral mucosa around zirconia implants; human biological matrix.",
+ "disposition_locator": "Abstract; Results (p. 4718 to 4719); Table 1 (p. 4719); Table 2 (p. 4720)",
+ "study": {
+  "design": "case-control pilot study, three phases",
+  "origin": "Switzerland (Geneva)",
+  "market": "clinical",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "October 2017 to November 2019 (phases in October 2017, February 2018, November 2019)"
+  },
+  "method": "micro-brush cytology, acid digestion at 80 °C, Agilent 7700x ICP-MS with He collision cell",
+  "lod": [
+   "LOD 0.07 µg/L for Zr-90 [He] (Table 1)",
+   "LOQ stated as 0.5 to 1 µg/L (Methods) and 2 ppb (Phase II results)"
+  ],
+  "basis": "unknown",
+  "qa": "Spiked micro-brush QC recoveries 86 to 87% for Zr; triplicate instrumental readings",
+  "site_context": "clinic"
+ },
+ "findings": [
+  {
+   "id": "cionca2023-geneva-dental-implant-mucosa-titanium-zirconium:Zr:peri-implant-mucosa-cytology-sample--zirconia-implant-subjec:single",
+   "material": {
+    "label_as_printed": "Peri-implant mucosa cytology sample, zirconia implant subject Z1",
+    "page": "metals/zirconium",
+    "form": "cytologic brush sample in acid matrix solution",
+    "state": "digested",
+    "route_rule": "override:HMI-METAL-INGEST-1"
+   },
+   "analyte": "Zr",
+   "group": "Phase I zirconia implant group (5 subjects), Geneva",
+   "group_kind": "individual",
+   "n": 1,
+   "statistic": "single",
+   "reported": "0.08 µg/L",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "µg/L",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 1, p. 4719",
+   "integrity_flag": null,
+   "notes": "Semi-quantitative ICP-MS; LOD 0.07 µg/L for Zr-90 [He]; concentration is in the prepared sample solution, not per tissue mass.",
+   "statistic_raw": "single"
+  },
+  {
+   "id": "cionca2023-geneva-dental-implant-mucosa-titanium-zirconium:Zr:peri-implant-mucosa-cytology-sample--zirconia-implant-subjec:single",
+   "material": {
+    "label_as_printed": "Peri-implant mucosa cytology sample, zirconia implant subject Z4",
+    "page": "metals/zirconium",
+    "form": "cytologic brush sample in acid matrix solution",
+    "state": "digested",
+    "route_rule": "override:HMI-METAL-INGEST-1"
+   },
+   "analyte": "Zr",
+   "group": "Phase I zirconia implant group (5 subjects), Geneva",
+   "group_kind": "individual",
+   "n": 1,
+   "statistic": "single",
+   "reported": "0.24 µg/L",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "µg/L",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 1, p. 4719",
+   "integrity_flag": null,
+   "notes": "Semi-quantitative ICP-MS; LOD 0.07 µg/L for Zr-90 [He]; concentration is in the prepared sample solution, not per tissue mass.",
+   "statistic_raw": "single"
+  },
+  {
+   "id": "cionca2023-geneva-dental-implant-mucosa-titanium-zirconium:Zr:peri-implant-mucosa-cytology-sample--zirconia-implant-subjec:single",
+   "material": {
+    "label_as_printed": "Peri-implant mucosa cytology sample, zirconia implant subject Z5",
+    "page": "metals/zirconium",
+    "form": "cytologic brush sample in acid matrix solution",
+    "state": "digested",
+    "route_rule": "override:HMI-METAL-INGEST-1"
+   },
+   "analyte": "Zr",
+   "group": "Phase I zirconia implant group (5 subjects), Geneva",
+   "group_kind": "individual",
+   "n": 1,
+   "statistic": "single",
+   "reported": "0.07 µg/L",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "µg/L",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 1, p. 4719",
+   "integrity_flag": null,
+   "notes": "Semi-quantitative ICP-MS; LOD 0.07 µg/L for Zr-90 [He]; concentration is in the prepared sample solution, not per tissue mass.",
+   "statistic_raw": "single"
+  },
+  {
+   "id": "cionca2023-geneva-dental-implant-mucosa-titanium-zirconium:Zr:peri-implant-mucosa-cytology-samples--zirconia-implants--pha:range_of_detects",
+   "material": {
+    "label_as_printed": "Peri-implant mucosa cytology samples, zirconia implants, Phase II",
+    "page": "metals/zirconium",
+    "form": "cytologic brush sample in acid matrix solution",
+    "state": "digested",
+    "route_rule": "override:HMI-METAL-INGEST-1"
+   },
+   "analyte": "Zr",
+   "group": "Phase II zirconia implant group (7 subjects) after controlled titanium dioxide intake",
+   "group_kind": "group",
+   "n": 7,
+   "statistic": "range_of_detects",
+   "reported": "0.07 and 0.15 ppb at two implant sites; 0.12 ppb at one contralateral tooth; all others below LOD; all below the stated LOQ of 2 ppb",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "ppb (µg/L)",
+   "basis": "unknown",
+   "censoring": "below_loq",
+   "lod_ugkg": null,
+   "locator": "Results Phase II and Table 2c, p. 4720",
+   "integrity_flag": null,
+   "notes": "Quantitative mode. The methods state LOQ 0.5 or 1 µg/L for zirconium isotopes while the Phase II text states 2 ppb.",
+   "statistic_raw": "range_of_detects"
+  }
+ ],
+ "unresolved": [
+  "Table 2a shows zirconium values for no-implant subjects D5 and D6 that the text reports as below LOD; not recorded.",
+  "Titanium rows not recorded (outside this element)."
+ ],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/cionca2023-geneva-dental-implant-mucosa-titanium-zirconium.md",
+ "non_numeric_findings": [
+  "Zirconium was not quantifiable in any subject once food and toothpaste intake were controlled (Conclusions)."
+ ]
+}

@@ -1,0 +1,66 @@
+{
+ "source_id": "keeling1989-yttrium-90-edtmp-bone-targeting",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-YTTRIUM-1/10.1038_bjc.1989.223.pdf",
+ "primary_sha256": "4c8e7824b2fe30924bf1eb7ca2cab0dc62c3a8014fcf6ba7b1a7c6d1a2c16721",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "context",
+ "disposition_reason": "Biodistribution of injected radio-yttrium complexes in mice; percent injected dose values, not occurrence.",
+ "disposition_locator": "whole paper",
+ "study": {
+  "design": "mouse biodistribution study",
+  "origin": "laboratory, UK",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "not stated"
+  },
+  "method": "radioactivity counting",
+  "lod": [],
+  "basis": "unknown",
+  "qa": "Replicate animals",
+  "site_context": "experimental"
+ },
+ "findings": [
+  {
+   "id": "keeling1989-yttrium-90-edtmp-bone-targeting:Y:mouse-bone-24-h-after-yttrium-90-edtmp:mean:1",
+   "material": {
+    "label_as_printed": "Mouse bone, 24 h after yttrium-90-EDTMP",
+    "page": "metals/yttrium",
+    "form": "tissue",
+    "state": "unknown",
+    "route_rule": "override:HMI-METAL-INGEST-1"
+   },
+   "analyte": "Y",
+   "group": "3.54e-8 mol EDTMP",
+   "group_kind": "treatment",
+   "n": 3,
+   "statistic": "mean",
+   "reported": "18.54 +/- 2.41 %ID/g",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "% injected dose per g",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table I",
+   "integrity_flag": null,
+   "notes": "",
+   "statistic_raw": "mean"
+  }
+ ],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/keeling1989-yttrium-90-edtmp-bone-targeting.md",
+ "non_numeric_findings": []
+}

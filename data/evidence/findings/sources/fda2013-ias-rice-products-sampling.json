@@ -1,0 +1,25 @@
+{
+  "source_id": "fda2013-ias-rice-products-sampling",
+  "primary_artifact": "raw/manual-fetch/rice-varieties-20261019/fda2013-rice.pdf",
+  "primary_sha256": "a505b8708ba5177d8fd21b0703120c829f9f4a60758c378ff1114f30c8c9cafd",
+  "extracted_at": "2026-11-03",
+  "extractor": "verified-deposit-pdf",
+  "disposition": "occurrence_extracted",
+  "extraction_scope": "rice-protein-rows-only",
+  "disposition_reason": "Rice protein powder and rice-labeled protein beverage rows were read from the full analytical results. Other foods in the report were not extracted for this page.",
+  "disposition_locator": "Full analytical results, rice products",
+  "study": {
+    "design": "US retail sampling of rice and rice products",
+    "origin": "not stated for these products",
+    "market": "United States retail",
+    "period": {
+      "from": 2012,
+      "to": 2013,
+      "as_reported": "September 2012 sampling included in the September 2013 release"
+    },
+    "method": "Total arsenic and arsenic species. Inorganic arsenic is the sum of arsenite and arsenate.",
+    "basis": "as_sold",
+    "site_context": "monitoring",
+    "sampling_unit": "samples"
+  }
+}

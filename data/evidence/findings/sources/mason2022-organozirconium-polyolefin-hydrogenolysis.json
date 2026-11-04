@@ -1,0 +1,37 @@
+{
+ "source_id": "mason2022-organozirconium-polyolefin-hydrogenolysis",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-ZIRCONIUM-1/10.1038_s41467-022-34707-6.pdf",
+ "primary_sha256": "ac1aa29636a84511403a0b9c4ff9a1d430d9d70be8b35964a7a5ef0f5d8b7af3",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "out_of_scope",
+ "disposition_reason": "Materials paper using zirconium in a plastics recycling catalyst; no zirconium occurrence, exposure or toxicity data.",
+ "disposition_locator": "Abstract",
+ "study": {
+  "design": "laboratory materials or sensor study",
+  "origin": "not stated",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "not stated"
+  },
+  "method": "material synthesis and characterization",
+  "lod": [],
+  "basis": "unknown",
+  "qa": "not applicable",
+  "site_context": "laboratory"
+ },
+ "findings": [],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/mason2022-organozirconium-polyolefin-hydrogenolysis.md",
+ "non_numeric_findings": []
+}

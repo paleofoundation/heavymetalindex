@@ -1,0 +1,68 @@
+{
+ "source_id": "chen2016-yttria-nanoparticles-cabbage-imaging",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-YTTRIUM-1/10.1186_s12951-016-0175-z.pdf",
+ "primary_sha256": "2e16fd8891702556f27f95ebb8f88e53d5a3cf7540bf6d30afd04935aac27ced",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "context",
+ "disposition_reason": "Imaging study of yttrium oxide nanoparticle distribution in cabbage under high-dose hydroponic exposure; image-derived concentrations only.",
+ "disposition_locator": "whole paper",
+ "study": {
+  "design": "hydroponic nanoparticle exposure with synchrotron imaging",
+  "origin": "laboratory",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "not stated"
+  },
+  "method": "dual-energy X-ray micro-tomography with K-edge subtraction",
+  "lod": [],
+  "basis": "unknown",
+  "qa": "Water-only control jar",
+  "site_context": "experimental"
+ },
+ "findings": [
+  {
+   "id": "chen2016-yttria-nanoparticles-cabbage-imaging:Y:cabbage-root-voxel-level-yttria-concentration:range:1",
+   "material": {
+    "label_as_printed": "Cabbage root, voxel-level yttria concentration",
+    "page": "ingredients/cabbage",
+    "form": "root",
+    "state": "unknown",
+    "route_rule": "override:HMI-METAL-INGEST-1"
+   },
+   "analyte": "Y",
+   "group": "exposed jar",
+   "group_kind": "treatment",
+   "n": null,
+   "statistic": "range",
+   "reported": "44.12 to 551.47 mg/cc",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/cc",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Results, Fig. 5b",
+   "integrity_flag": "unit_inconsistency",
+   "notes": "Image-derived; text elsewhere gives 0.82 to 10.18 ug/L for the same root.",
+   "statistic_raw": "range"
+  }
+ ],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/chen2016-yttria-nanoparticles-cabbage-imaging.md",
+ "non_numeric_findings": [
+  "No yttria nanoparticles entered the vascular tissue of the primary root."
+ ]
+}

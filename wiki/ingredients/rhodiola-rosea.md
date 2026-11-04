@@ -1,9 +1,11 @@
 ---
+hero_image: /static/heroes/rhodiola-rosea.webp
+hero_image_alt: "A whole Rhodiola rosea root with a pinkish cut face, a bowl of dried chopped root and a sprig with succulent leaves and yellow flowers."
 title: Rhodiola rosea
 type: ingredient
 commodity: rhodiola-rosea
 aliases: []
-category: botanical
+category: unclassified
 provisional_scaffold: true
 provisional_created: 2026-10-15T00:00:00.000Z
 provisional_reason: >-
@@ -13,6 +15,7 @@ provisional_source: '[[sources/porwollik2026-rhodiola-supplements-us-market]]'
 literature_scope: thin
 updated: '2026-10-22'
 evidence_scope: navigation-only
+page_contract_version: 1.0.0
 question_record: data/evidence/engine/ingredient/rhodiola-rosea/question-record.json
 synthesis_record: data/evidence/engine/ingredient/rhodiola-rosea/synthesis.json
 evidence_coverage: partial
@@ -87,34 +90,8 @@ ingredient_chrome:
         half spanning below 5…
       href: '#which-forms-and-regions-measured-lower'
       link_label: Variation
-quick_read:
-  summary: >-
-    Lead, cadmium, total arsenic and total mercury in rhodiola rosea are
-    reported as monitoring results, studies, references by form and basis,
-    limits, testing and controls.
-  points:
-    - label: Metals of concern
-      text: the metals named by the studies cited on this page.
-    - label: Main drivers
-      text: 'form, origin and preparation stay separate.'
-    - label: Practical framing
-      text: this page does not pool those studies into one typical value.
 ---
 # Rhodiola rosea
-
-<!-- BEGIN: hmi-opening -->
-<div class="hmi-quick-read">
-  <div class="hmi-quick-read-label">Quick read</div>
-  <p>Lead, cadmium, total arsenic and total mercury in rhodiola rosea are reported as monitoring results, studies, references by form and basis, limits, testing and controls.</p>
-  <ul>
-    <li><strong>Metals of concern:</strong> the metals named by the studies cited on this page.</li>
-    <li><strong>Main drivers:</strong> form, origin and preparation stay separate.</li>
-    <li><strong>Practical framing:</strong> this page does not pool those studies into one typical value.</li>
-  </ul>
-</div>
-
-This page draws on 1 peer-reviewed study. The complete citation list is at the bottom of the page.
-<!-- END: hmi-opening -->
 
 <section class="hmi-quick-read" id="rhodiola-rosea-quick-read" data-hmi-quick-read aria-labelledby="rhodiola-rosea-quick-read-label"><div class="hmi-quick-read-label" id="rhodiola-rosea-quick-read-label">Quick read</div>
 
@@ -142,6 +119,7 @@ Ask for lot results with a quantification limit well below the limit that applie
 </ul>
 </section>
 
+
 <a id="decision-summary"></a>
 ## Rhodiola rosea overview
 
@@ -154,7 +132,11 @@ Ask for lot results with a quantification limit well below the limit that applie
 
 Rhodiola rosea in the HMI library has 50 reported results for lead, cadmium, total arsenic, total mercury and Co from 1 source.<sup class="cite">[[sources/porwollik2026-rhodiola-supplements-us-market|1]]<span class="cite-card"><span class="cite-card-head"><span class="cite-card-authors">Porwollik S, Jafari M · 2026</span><a class="cite-card-title" href="../sources/porwollik2026-rhodiola-supplements-us-market">The quality and safety of Rhodiola rosea supplements on the U.S. market: An analysis of biomarkers, heavy metals, and pesticide residues</a></span><span class="cite-card-body"><span class="cite-card-journal">PLoS One</span><a class="cite-card-review" href="../sources/porwollik2026-rhodiola-supplements-us-market">Read source →</a></span></span></sup>
 
+
+
 For a buyer the practical points are the form bought, the basis a result is reported on, where the rhodiola rosea came from and the laboratory’s reporting limit. Testing finds contamination but does not remove it.
+
+
 
 <a id="ingredient-identity-and-scope"></a>
 ## What counts as rhodiola rosea
@@ -169,6 +151,7 @@ For a buyer the practical points are the form bought, the basis a result is repo
 This page covers rhodiola rosea, as sold (50 results).<sup class="cite">[[sources/porwollik2026-rhodiola-supplements-us-market|1]]<span class="cite-card"><span class="cite-card-head"><span class="cite-card-authors">Porwollik S, Jafari M · 2026</span><a class="cite-card-title" href="../sources/porwollik2026-rhodiola-supplements-us-market">The quality and safety of Rhodiola rosea supplements on the U.S. market: An analysis of biomarkers, heavy metals, and pesticide residues</a></span><span class="cite-card-body"><span class="cite-card-journal">PLoS One</span><a class="cite-card-review" href="../sources/porwollik2026-rhodiola-supplements-us-market">Read source →</a></span></span></sup>
 
 Results stay on the basis each source reports: as sold or fresh weight, dry weight, or unstated. Dry-weight, as-sold and unstated results are never pooled, and no moisture conversion is applied.
+
 
 <!-- BEGIN: hmi-fda-tds-occurrence -->
 
@@ -194,6 +177,7 @@ The table holds every extracted rhodiola rosea result: one row for each statisti
 
 <!-- END: hmi-fda-tds-occurrence -->
 
+
 <a id="sources-and-contamination-pathways"></a>
 ## How metals reach rhodiola rosea
 
@@ -205,6 +189,8 @@ The table holds every extracted rhodiola rosea result: one row for each statisti
 <a id="which-source-attribution-claims-are-measured-modelled-inferred-or-unresolved"></a>
 
 No study in the library compared rhodiola rosea from contaminated and ordinary settings, so the routes by which metals reach it are not measured here.
+
+
 
 <a id="ranges-by-source-region-and-variety"></a>
 ## Which forms and regions measured lower
@@ -220,6 +206,8 @@ The HMI reference for lead in rhodiola rosea, as sold pools 10 subgroup units fr
 
 In one study, lead across 7 groups of rhodiola rosea ranged from 9 µg/kg (capsule product 3) to 88 µg/kg (capsule product 4); the lowest is the lowest observed in that study, not an established sourcing preference.<sup class="cite">[[sources/porwollik2026-rhodiola-supplements-us-market|1]]<span class="cite-card"><span class="cite-card-head"><span class="cite-card-authors">Porwollik S, Jafari M · 2026</span><a class="cite-card-title" href="../sources/porwollik2026-rhodiola-supplements-us-market">The quality and safety of Rhodiola rosea supplements on the U.S. market: An analysis of biomarkers, heavy metals, and pesticide residues</a></span><span class="cite-card-body"><span class="cite-card-journal">PLoS One</span><a class="cite-card-review" href="../sources/porwollik2026-rhodiola-supplements-us-market">Read source →</a></span></span></sup>
 
+
+
 <a id="processing-effects-and-derivatives"></a>
 ## Processing, cooking and preparation
 
@@ -231,6 +219,8 @@ In one study, lead across 7 groups of rhodiola rosea ranged from 9 µg/kg (capsu
 <a id="do-changes-reflect-removal-redistribution-moisture-or-yield-change-dilution-or-altered-species-or-availability"></a>
 
 No processing study for metals in this food is in the library yet.
+
+
 
 <a id="mitigation-options"></a>
 ## Mitigation for rhodiola rosea
@@ -246,6 +236,8 @@ Lot testing against the applicable limit is the check that can be verified.
 
 <p class="hmi-mitigation-gap" data-mitigation-gap>No measured way to lower metals in this food is in the library yet.</p>
 
+
+
 <a id="trade-offs-and-failure-modes"></a>
 ## Trade-offs and limits of controls
 
@@ -257,6 +249,8 @@ Lot testing against the applicable limit is the check that can be verified.
 <a id="what-costs-constraints-adverse-effects-or-failure-modes-are-documented-and-which-are-unknown"></a>
 
 Metals do not move together, so a lot that passes a lead limit says little about cadmium, arsenic or nickel unless those are tested as well.
+
+
 
 <a id="sampling-and-testing"></a>
 ## Testing rhodiola rosea for metals
@@ -272,6 +266,8 @@ Results depend on the method and its reporting limit. Reporting limits for lead 
 
 A useful lot result names the form, the basis and a quantification limit well below the limit that applies.
 
+
+
 <a id="procurement-and-process-control"></a>
 ## Buying and verifying rhodiola rosea
 
@@ -284,6 +280,8 @@ A useful lot result names the form, the basis and a quantification limit well be
 
 No maximum level for metals in rhodiola rosea was verified from primary text for this page; buyers should confirm the limit that applies in the destination market.
 
+
+
 <a id="finished-product-and-exposure-implications"></a>
 ## Exposure from rhodiola rosea
 
@@ -295,6 +293,7 @@ No maximum level for metals in rhodiola rosea was verified from primary text for
 <a id="what-conclusions-require-finished-product-measurements-or-a-separate-exposure-assessment"></a>
 
 No source in the library converted rhodiola rosea concentrations into a verified estimate of intake for a defined population. Concentrations describe the food, not individual risk.
+
 
 <a id="coverage"></a>
 <a id="indexed-source-records"></a>
@@ -312,6 +311,7 @@ No source in the library converted rhodiola rosea concentrations into a verified
 Every source record that names rhodiola rosea was decided on its content: 1 occurrence extracted, 1 record in all. The occurrence table renders every extracted result; held values remain visible with their reason.
 
 References identify the sources used in these answers. The Sources index preserves additional discovery links; inclusion there does not mean a source has been reviewed for this assessment. Corrections, completed searches, new direct evidence and changes in requirements should reopen the relevant answer.
+
 
 <a id="universal-faqs"></a>
 ## Rhodiola rosea FAQs
@@ -337,7 +337,7 @@ In one study, lead across 7 groups of rhodiola rosea ranged from 9 µg/kg (capsu
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to a source record with bibliographic details, reported findings, and document provenance.
+Works cited on this page, in citation-number order. See [Sources](#sources) for this page's source inventory. Each title links to a source record with bibliographic details, reported findings, and document provenance.
 
 1. [[sources/porwollik2026-rhodiola-supplements-us-market|The quality and safety of Rhodiola rosea supplements on the U.S. market: An analysis of biomarkers, heavy metals, and pesticide residues]]<span class="hmi-ref-meta">Porwollik S and Jafari M · PLoS One · 2026 · [doi.org/10.1371/journal.pone.0341070](https://doi.org/10.1371/journal.pone.0341070)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 <!-- END: hmi-page-references -->
@@ -351,5 +351,5 @@ Browse [Rhodiola rosea Sources](../sources/index?topic=ingredients%2Frhodiola-ro
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-No substantive edit history is available in this build. The full commit record is available in [git](https://github.com/paleofoundation/heavymetalindex).
+22 October 2026: Rebuilt from every rhodiola rosea record in the library: 1 occurrence sources, references by form and basis, same-study contrasts.
 <!-- END: hmi-page-history -->

@@ -1,9 +1,11 @@
 ---
+hero_image: /static/heroes/tahini.webp
+hero_image_alt: "A dark bowl of smooth beige tahini with a spoon beside a small pile of hulled sesame seeds."
 title: Tahini
 type: ingredient
 commodity: tahini
 aliases: []
-category: condiment
+category: unclassified
 provisional_scaffold: true
 provisional_created: 2026-10-15T00:00:00.000Z
 provisional_reason: >-
@@ -13,11 +15,12 @@ provisional_source: '[[sources/potorti2026-tahini-quality-safety-inorganic-eleme
 literature_scope: thin
 updated: '2026-10-22'
 evidence_scope: navigation-only
+page_contract_version: 1.0.0
 question_record: data/evidence/engine/ingredient/tahini/question-record.json
 synthesis_record: data/evidence/engine/ingredient/tahini/synthesis.json
 evidence_coverage: partial
 ingredient_presentation: rice-shared-v1
-sources: 2
+sources: 3
 description: >-
   Lead, cadmium, total arsenic and total mercury in tahini: monitoring results,
   studies, references by form and basis, limits, testing and controls.
@@ -87,34 +90,8 @@ ingredient_chrome:
         product 4 (Tehran…
       href: '#which-forms-and-regions-measured-lower'
       link_label: Variation
-quick_read:
-  summary: >-
-    Lead, cadmium, total arsenic and total mercury in tahini are reported as
-    monitoring results, studies, references by form and basis, limits, testing
-    and controls.
-  points:
-    - label: Metals of concern
-      text: the metals named by the studies cited on this page.
-    - label: Main drivers
-      text: 'form, origin and preparation stay separate.'
-    - label: Practical framing
-      text: this page does not pool those studies into one typical value.
 ---
 # Tahini
-
-<!-- BEGIN: hmi-opening -->
-<div class="hmi-quick-read">
-  <div class="hmi-quick-read-label">Quick read</div>
-  <p>Lead, cadmium, total arsenic and total mercury in tahini are reported as monitoring results, studies, references by form and basis, limits, testing and controls.</p>
-  <ul>
-    <li><strong>Metals of concern:</strong> the metals named by the studies cited on this page.</li>
-    <li><strong>Main drivers:</strong> form, origin and preparation stay separate.</li>
-    <li><strong>Practical framing:</strong> this page does not pool those studies into one typical value.</li>
-  </ul>
-</div>
-
-This page draws on evidence from [[sources/who-gemsfood-heavy-metal-contaminants|WHO]], together with 2 peer-reviewed studies. The complete citation list is at the bottom of the page.
-<!-- END: hmi-opening -->
 
 <section class="hmi-quick-read" id="tahini-quick-read" data-hmi-quick-read aria-labelledby="tahini-quick-read-label"><div class="hmi-quick-read-label" id="tahini-quick-read-label">Quick read</div>
 
@@ -142,6 +119,7 @@ Ask for lot results with a quantification limit well below the limit that applie
 </ul>
 </section>
 
+
 <a id="decision-summary"></a>
 ## Tahini overview
 
@@ -158,6 +136,8 @@ Across 2 other studies of ordinary farms and markets, reported lead means and me
 
 For a buyer the practical points are the form bought, the basis a result is reported on, where the tahini came from and the laboratory’s reporting limit. Testing finds contamination but does not remove it.
 
+
+
 <a id="ingredient-identity-and-scope"></a>
 ## What counts as tahini
 
@@ -171,6 +151,7 @@ For a buyer the practical points are the form bought, the basis a result is repo
 This page covers tahini, as sold (188 results).<sup class="cite">[[sources/who-gemsfood-heavy-metal-contaminants|1]]<span class="cite-card"><span class="cite-card-head"><span class="cite-card-authors">World Health Organization · 2026</span><a class="cite-card-title" href="../sources/who-gemsfood-heavy-metal-contaminants">GEMS/Food Contaminants database heavy-metal exports</a></span><span class="cite-card-body"><span class="cite-card-journal">GEMS/Food Contamination Monitoring and Assessment Programme</span><a class="cite-card-review" href="../sources/who-gemsfood-heavy-metal-contaminants">Read source →</a></span></span></sup><sup class="cite">[[sources/potorti2026-tahini-quality-safety-inorganic-elements|2]]<span class="cite-card"><span class="cite-card-head"><span class="cite-card-authors">Potortì AG, Albergamo A, Nava V, Lo Turco V, Litrenta F, Spanò IM, Di Bella G · 2026</span><a class="cite-card-title" href="../sources/potorti2026-tahini-quality-safety-inorganic-elements">Chemical Composition and Nutritional Quality of Commercial Tahini</a></span><span class="cite-card-body"><span class="cite-card-journal">Applied Sciences</span><a class="cite-card-review" href="../sources/potorti2026-tahini-quality-safety-inorganic-elements">Read source →</a></span></span></sup><sup class="cite">[[sources/sadeghi2021-tahini-heavy-metals-voltammetry|3]]<span class="cite-card"><span class="cite-card-head"><span class="cite-card-authors">Sadeghi, Naficeh, Behzadi, Hassan Rezaei, Behzad, Masoomeh, Jannat, Behrooz, Hajimahmoodi, Mannan · 2021</span><a class="cite-card-title" href="../sources/sadeghi2021-tahini-heavy-metals-voltammetry">Simultaneous determination of heavy metals in Tahini by anodic stripping voltammetry</a></span><span class="cite-card-body"><span class="cite-card-journal">Journal of Human, Health and Halal Metrics</span><a class="cite-card-review" href="../sources/sadeghi2021-tahini-heavy-metals-voltammetry">Read source →</a></span></span></sup>
 
 Results stay on the basis each source reports: as sold or fresh weight, dry weight, or unstated. Dry-weight, as-sold and unstated results are never pooled, and no moisture conversion is applied.
+
 
 <!-- BEGIN: hmi-fda-tds-occurrence -->
 
@@ -196,6 +177,7 @@ The table holds every extracted tahini result: one row for each statistic a sour
 
 <!-- END: hmi-fda-tds-occurrence -->
 
+
 <a id="sources-and-contamination-pathways"></a>
 ## How metals reach tahini
 
@@ -207,6 +189,8 @@ The table holds every extracted tahini result: one row for each statistic a sour
 <a id="which-source-attribution-claims-are-measured-modelled-inferred-or-unresolved"></a>
 
 No study in the library compared tahini from contaminated and ordinary settings, so the routes by which metals reach it are not measured here.
+
+
 
 <a id="ranges-by-source-region-and-variety"></a>
 ## Which forms and regions measured lower
@@ -220,6 +204,8 @@ No study in the library compared tahini from contaminated and ordinary settings,
 
 In one study, lead across 31 groups of tahini ranged from 0.01 µg/kg (plain tahini product 15 (Tehran market)) to 0.48 µg/kg (plain tahini product 4 (Tehran market)); the lowest is the lowest observed in that study, not an established sourcing preference.<sup class="cite">[[sources/sadeghi2021-tahini-heavy-metals-voltammetry|3]]<span class="cite-card"><span class="cite-card-head"><span class="cite-card-authors">Sadeghi, Naficeh, Behzadi, Hassan Rezaei, Behzad, Masoomeh, Jannat, Behrooz, Hajimahmoodi, Mannan · 2021</span><a class="cite-card-title" href="../sources/sadeghi2021-tahini-heavy-metals-voltammetry">Simultaneous determination of heavy metals in Tahini by anodic stripping voltammetry</a></span><span class="cite-card-body"><span class="cite-card-journal">Journal of Human, Health and Halal Metrics</span><a class="cite-card-review" href="../sources/sadeghi2021-tahini-heavy-metals-voltammetry">Read source →</a></span></span></sup> In another study, cadmium across 4 groups of tahini ranged from 10 µg/kg (T-2, Israel, toasted hulled) to 350 µg/kg (T-1, Turkey, organic hulled); the lowest is the lowest observed in that study, not an established sourcing preference.<sup class="cite">[[sources/potorti2026-tahini-quality-safety-inorganic-elements|2]]<span class="cite-card"><span class="cite-card-head"><span class="cite-card-authors">Potortì AG, Albergamo A, Nava V, Lo Turco V, Litrenta F, Spanò IM, Di Bella G · 2026</span><a class="cite-card-title" href="../sources/potorti2026-tahini-quality-safety-inorganic-elements">Chemical Composition and Nutritional Quality of Commercial Tahini</a></span><span class="cite-card-body"><span class="cite-card-journal">Applied Sciences</span><a class="cite-card-review" href="../sources/potorti2026-tahini-quality-safety-inorganic-elements">Read source →</a></span></span></sup>
 
+
+
 <a id="processing-effects-and-derivatives"></a>
 ## Processing, cooking and preparation
 
@@ -231,6 +217,8 @@ In one study, lead across 31 groups of tahini ranged from 0.01 µg/kg (plain tah
 <a id="do-changes-reflect-removal-redistribution-moisture-or-yield-change-dilution-or-altered-species-or-availability"></a>
 
 No processing study for metals in this food is in the library yet.
+
+
 
 <a id="mitigation-options"></a>
 ## Mitigation for tahini
@@ -246,6 +234,8 @@ Lot testing against the applicable limit is the check that can be verified.
 
 <p class="hmi-mitigation-gap" data-mitigation-gap>No measured way to lower metals in this food is in the library yet.</p>
 
+
+
 <a id="trade-offs-and-failure-modes"></a>
 ## Trade-offs and limits of controls
 
@@ -257,6 +247,8 @@ Lot testing against the applicable limit is the check that can be verified.
 <a id="what-costs-constraints-adverse-effects-or-failure-modes-are-documented-and-which-are-unknown"></a>
 
 Metals do not move together, so a lot that passes a lead limit says little about cadmium, arsenic or nickel unless those are tested as well.
+
+
 
 <a id="sampling-and-testing"></a>
 ## Testing tahini for metals
@@ -272,6 +264,8 @@ Results depend on the method and its reporting limit. Reporting limits for lead 
 
 A useful lot result names the form, the basis and a quantification limit well below the limit that applies.
 
+
+
 <a id="procurement-and-process-control"></a>
 ## Buying and verifying tahini
 
@@ -284,6 +278,8 @@ A useful lot result names the form, the basis and a quantification limit well be
 
 No maximum level for metals in tahini was verified from primary text for this page; buyers should confirm the limit that applies in the destination market.
 
+
+
 <a id="finished-product-and-exposure-implications"></a>
 ## Exposure from tahini
 
@@ -295,6 +291,7 @@ No maximum level for metals in tahini was verified from primary text for this pa
 <a id="what-conclusions-require-finished-product-measurements-or-a-separate-exposure-assessment"></a>
 
 No source in the library converted tahini concentrations into a verified estimate of intake for a defined population. Concentrations describe the food, not individual risk.
+
 
 <a id="coverage"></a>
 <a id="indexed-source-records"></a>
@@ -312,6 +309,7 @@ No source in the library converted tahini concentrations into a verified estimat
 Every source record that names tahini was decided on its content: 3 occurrence extracted, 3 records in all. The occurrence table renders every extracted result; held values remain visible with their reason.
 
 References identify the sources used in these answers. The Sources index preserves additional discovery links; inclusion there does not mean a source has been reviewed for this assessment. Corrections, completed searches, new direct evidence and changes in requirements should reopen the relevant answer.
+
 
 <a id="universal-faqs"></a>
 ## Tahini FAQs
@@ -337,7 +335,7 @@ In one study, lead across 31 groups of tahini ranged from 0.01 µg/kg (plain tah
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to a source record with bibliographic details, reported findings, and document provenance.
+Works cited on this page, in citation-number order. See [Sources](#sources) for this page's source inventory. Each title links to a source record with bibliographic details, reported findings, and document provenance.
 
 1. [[sources/who-gemsfood-heavy-metal-contaminants|GEMS/Food Contaminants database heavy-metal exports]]<span class="hmi-ref-meta">World Health Organization · GEMS/Food Contamination Monitoring and Assessment Programme · 2026 · [extranet.who.int](https://extranet.who.int/gemsfood/?DisplayFormat=1)</span><span class="hmi-ref-tag">Dataset</span>
 2. [[sources/potorti2026-tahini-quality-safety-inorganic-elements|Chemical Composition and Nutritional Quality of Commercial Tahini]]<span class="hmi-ref-meta">Potortì AG, Albergamo A, Nava V, Lo Turco V, Litrenta F, Spanò IM, et al. · Applied Sciences · 2026 · [doi.org/10.3390/app16031400](https://doi.org/10.3390/app16031400)</span><span class="hmi-ref-tag">Peer-reviewed</span>
@@ -347,16 +345,11 @@ Works cited in this page's text, in first-appearance order. See [Sources](#sourc
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-<p class="hmi-table-note">Source records associated with this topic. Inclusion does not establish that every finding applies to this product or ingredient. References above identify works cited in the text.</p>
-
-| # | Citation | Year | Type | Used on this page for |
-| --- | --- | ---: | --- | --- |
-| 1 | [[sources/potorti2026-tahini-quality-safety-inorganic-elements\|Potortì et al. 2026]]. *Chemical Composition and Nutritional Quality of Commercial Tahini*, Applied Sciences | 2026 | Peer-reviewed | Contribution to this topic remains under review; see the source record for its reported scope. |
-| 2 | [[sources/sadeghi2021-tahini-heavy-metals-voltammetry\|Sadeghi et al. 2021]]. *Simultaneous determination of heavy metals in Tahini by anodic stripping voltammetry*, Journal of Human, Health and Halal Metrics | 2021 | Peer-reviewed | Contribution to this topic remains under review; see the source record for its reported scope. |
+Browse [Tahini Sources](../sources/index?topic=ingredients%2Ftahini) for sources cited on this page and additional discovery candidates. The searchable index distinguishes verified citation use from discovery relationships whose relevance has not been established.
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-No substantive edit history is available in this build. The full commit record is available in [git](https://github.com/paleofoundation/heavymetalindex).
+22 October 2026: Rebuilt from every tahini record in the library: 3 occurrence sources, references by form and basis, same-study contrasts.
 <!-- END: hmi-page-history -->

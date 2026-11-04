@@ -1,0 +1,70 @@
+{
+ "source_id": "kremer2022-kidney-transplant-urinary-boron-mortality",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-BORON-1/10.1007_s00394-021-02702-0.pdf",
+ "primary_sha256": "3f8765397ceee6cb526138b26351dbec38af8c18eead5dae0f3b70f4d75f8390",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "occurrence_extracted",
+ "disposition_reason": "24-hour urinary boron excretion (median, IQR) by ICP-MS in 693 kidney transplant recipients.",
+ "disposition_locator": "Results, p. 3; Abstract",
+ "study": {
+  "design": "prospective cohort",
+  "origin": "Groningen, the Netherlands",
+  "market": null,
+  "period": {
+   "from": "2008",
+   "to": "2011",
+   "as_reported": "enrolled November 2008 to June 2011"
+  },
+  "method": "ICP-MS on 24-hour urine (details in supplementary table)",
+  "lod": [],
+  "basis": "unknown",
+  "qa": "not described in main text",
+  "site_context": "clinical"
+ },
+ "findings": [
+  {
+   "id": "kremer2022-kidney-transplant-urinary-boron-mortality:B:24-hour-urine--stable-kidney-transplant-recipients:median",
+   "material": {
+    "label_as_printed": "24-hour urine",
+    "page": "metals/boron",
+    "form": null,
+    "state": null,
+    "route_rule": "override:HMI-METAL-INGEST-1"
+   },
+   "analyte": "B",
+   "group": "stable kidney transplant recipients",
+   "group_kind": "population",
+   "n": 693,
+   "statistic": "median",
+   "reported": "1275 [925 to 1729] µg/24 h",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "µg/24 h",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Results, p. 3",
+   "integrity_flag": null,
+   "notes": "Excretion per day, not a concentration.",
+   "statistic_raw": "median"
+  }
+ ],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [
+  "HR 0.51 (95% CI 0.40 to 0.66) for mortality per doubling of urinary boron (Abstract); observational."
+ ],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/kremer2022-kidney-transplant-urinary-boron-mortality.md",
+ "non_numeric_findings": [
+  "Boron excretion was negatively correlated with homocysteine and inflammatory markers."
+ ]
+}

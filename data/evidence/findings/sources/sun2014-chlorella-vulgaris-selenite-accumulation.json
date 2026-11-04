@@ -1,0 +1,43 @@
+{
+ "source_id": "sun2014-chlorella-vulgaris-selenite-accumulation",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-SELENIUM-1/10.1371_journal.pone.0112270.pdf",
+ "primary_sha256": "f6510162e1cce4efe5450c24fee7f9820c731b2b54242ae8f9904364f35abbcd",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "context",
+ "disposition_reason": "Selenium uptake and speciation in laboratory-cultured microalga; not a food survey.",
+ "disposition_locator": "Results p. 4; Fig. 1",
+ "study": {
+  "design": "laboratory culture experiment exposing Chlorella vulgaris to sodium selenite 0 to 200 mg/L for 144 h",
+  "origin": "China",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "not stated"
+  },
+  "method": "ICP-MS for total and inorganic selenium in dried algae; organic selenium by difference; enzyme and pigment assays",
+  "lod": [
+   "not stated"
+  ],
+  "basis": "dry_weight",
+  "qa": "spiked controls compared with cultured groups",
+  "site_context": "laboratory"
+ },
+ "findings": [],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/sun2014-chlorella-vulgaris-selenite-accumulation.md",
+ "non_numeric_findings": [
+  "Highest total selenium in algae 857 ug/g dry weight; maximum organic selenium 316 ug/g at 75 mg/L selenite after 6 days (Results, p. 4).",
+  "Accumulated selenium was more than 68% organic and less than 32% inorganic (Results, p. 4).",
+  "Growth promoted at 75 mg/L or less and inhibited above 100 mg/L (Abstract)."
+ ]
+}

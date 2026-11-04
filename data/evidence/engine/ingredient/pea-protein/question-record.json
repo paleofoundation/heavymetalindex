@@ -1,0 +1,1959 @@
+{
+  "contract_version": "1.0.0",
+  "family": "ingredient",
+  "page_slug": "ingredients/pea-protein",
+  "coverage_state": "partial",
+  "answers": [
+    {
+      "question_id": "HMI-ING-001",
+      "scope": {
+        "analytes": "Pb, Cd, tAs, tHg, Ni, Cr and Sn",
+        "material_form": "Garden pea fruit, dry weight, Pea protein, powder or ground and Pea protein, as sold",
+        "basis": "As reported; µg/kg; no moisture conversion",
+        "geography_market": "Reporting region, purchase market or growing area as each source reports",
+        "period": "Source collection years where reported; unreported dates stay unknown",
+        "stage": "Growing area, processing, retail and release testing",
+        "population_route": "Dietary ingestion",
+        "comparator_outcome": "HMI references by form and basis; same-study site, sampling and form contrasts"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "available",
+      "answer": "The Irish evidence is two retail products the authors classified as pea, among 36 protein powders that also included whey, soy, casein, and mixed plant powders.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Every source record and indexed dataset row that names pea protein",
+        "protocol_ref": "data/evidence/engine/ingredient/pea-protein/evidence-ledger.json",
+        "record_refs": [
+          "data/evidence/engine/ingredient/pea-protein/synthesis.json"
+        ],
+        "screening_ref": "data/evidence/engine/ingredient/pea-protein/evidence-ledger.json",
+        "searched_through": "2026-11-03",
+        "limitations": [
+          "Open literature and the HMI library were searched for pea protein, pea protein isolate, Pisum sativum and pulse-protein metal studies.",
+          "Supplier notices and company certificates were excluded.",
+          "The 2009 Canadian field-pea article is closed and was not table-extracted.",
+          "Clean Label Project market reports are not peer-reviewed and were not used as concentrations."
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [
+        "wiki/sources/ring2021-ireland-protein-powders-metals.md"
+      ],
+      "synthesis_refs": [
+        "data/evidence/syntheses/engine-ingredient-pea-protein-v1.json#identity/1"
+      ],
+      "applicability": "Applies only to the source-specific material, period, preparation and endpoint stated in the answer and attached evidence records",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/ingredients/pea-protein.md"
+      ]
+    },
+    {
+      "question_id": "HMI-ING-002",
+      "scope": {
+        "analytes": "Pb, Cd, tAs, tHg, Ni, Cr and Sn",
+        "material_form": "Garden pea fruit, dry weight, Pea protein, powder or ground and Pea protein, as sold",
+        "basis": "As reported; µg/kg; no moisture conversion",
+        "geography_market": "Reporting region, purchase market or growing area as each source reports",
+        "period": "Source collection years where reported; unreported dates stay unknown",
+        "stage": "Growing area, processing, retail and release testing",
+        "population_route": "Dietary ingestion",
+        "comparator_outcome": "HMI references by form and basis; same-study site, sampling and form contrasts"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "available",
+      "answer": "The concentrate evidence is two anonymized commercial pea protein concentrates, bought from online shops and analyzed beside rice and soybean concentrates in the same paper.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Every source record and indexed dataset row that names pea protein",
+        "protocol_ref": "data/evidence/engine/ingredient/pea-protein/evidence-ledger.json",
+        "record_refs": [
+          "data/evidence/engine/ingredient/pea-protein/synthesis.json"
+        ],
+        "screening_ref": "data/evidence/engine/ingredient/pea-protein/evidence-ledger.json",
+        "searched_through": "2026-11-03",
+        "limitations": [
+          "Open literature and the HMI library were searched for pea protein, pea protein isolate, Pisum sativum and pulse-protein metal studies.",
+          "Supplier notices and company certificates were excluded.",
+          "The 2009 Canadian field-pea article is closed and was not table-extracted.",
+          "Clean Label Project market reports are not peer-reviewed and were not used as concentrations."
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [
+        "wiki/sources/lopezcalabozo2025-vegetable-protein-concentrates.md"
+      ],
+      "synthesis_refs": [
+        "data/evidence/syntheses/engine-ingredient-pea-protein-v1.json#identity/2"
+      ],
+      "applicability": "Applies only to the source-specific material, period, preparation and endpoint stated in the answer and attached evidence records",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/ingredients/pea-protein.md"
+      ]
+    },
+    {
+      "question_id": "HMI-ING-003",
+      "scope": {
+        "analytes": "Pb, Cd, tAs, tHg, Ni, Cr and Sn",
+        "material_form": "Garden pea fruit, dry weight, Pea protein, powder or ground and Pea protein, as sold",
+        "basis": "As reported; µg/kg; no moisture conversion",
+        "geography_market": "Reporting region, purchase market or growing area as each source reports",
+        "period": "Source collection years where reported; unreported dates stay unknown",
+        "stage": "Growing area, processing, retail and release testing",
+        "population_route": "Dietary ingestion",
+        "comparator_outcome": "HMI references by form and basis; same-study site, sampling and form contrasts"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "available",
+      "answer": "A third form in the table is garden pea fruit, oven-dried, from farms in South Cairo and Giza, which is the pea pod's seed tissue as a vegetable and not a separated protein.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Every source record and indexed dataset row that names pea protein",
+        "protocol_ref": "data/evidence/engine/ingredient/pea-protein/evidence-ledger.json",
+        "record_refs": [
+          "data/evidence/engine/ingredient/pea-protein/synthesis.json"
+        ],
+        "screening_ref": "data/evidence/engine/ingredient/pea-protein/evidence-ledger.json",
+        "searched_through": "2026-11-03",
+        "limitations": [
+          "Open literature and the HMI library were searched for pea protein, pea protein isolate, Pisum sativum and pulse-protein metal studies.",
+          "Supplier notices and company certificates were excluded.",
+          "The 2009 Canadian field-pea article is closed and was not table-extracted.",
+          "Clean Label Project market reports are not peer-reviewed and were not used as concentrations."
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [
+        "wiki/sources/galal2021-heavy-metals-pisum-sativum.md"
+      ],
+      "synthesis_refs": [
+        "data/evidence/syntheses/engine-ingredient-pea-protein-v1.json#identity/3"
+      ],
+      "applicability": "Applies only to the source-specific material, period, preparation and endpoint stated in the answer and attached evidence records",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/ingredients/pea-protein.md"
+      ]
+    },
+    {
+      "question_id": "HMI-ING-004",
+      "scope": {
+        "analytes": "Pb, Cd, tAs, tHg, Ni, Cr and Sn",
+        "material_form": "Garden pea fruit, dry weight, Pea protein, powder or ground and Pea protein, as sold",
+        "basis": "As reported; µg/kg; no moisture conversion",
+        "geography_market": "Reporting region, purchase market or growing area as each source reports",
+        "period": "Source collection years where reported; unreported dates stay unknown",
+        "stage": "Growing area, processing, retail and release testing",
+        "population_route": "Dietary ingestion",
+        "comparator_outcome": "HMI references by form and basis; same-study site, sampling and form contrasts"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "available",
+      "answer": "Two retail pea powders bought online and in Cork, Ireland, in 2016 and 2017 contained 40.6 and 15.4 µg/kg cadmium and 22.2 and 22.5 µg/kg lead, as sold.\n\nWhat heavy metals have been measured in pea protein? Retail pea powders from Ireland were measured for lead, cadmium, total mercury, total chromium, and tin, and not for arsenic. Cadmium in the two pea packages was 40.6 and 15.4 µg/kg, and lead was 22.2 and 22.5 µg/kg, as sold. Pea concentrates from an online market were measured for nickel, total chromium, cadmium, and lead, and not for arsenic or mercury. Nickel means were 585.49 and 268.27 µg/kg and total chromium means were 78.97 and 114.11 µg/kg, with cadmium and lead not detected. A non-detect is not a measured zero when the detection limit's unit is not restated, which is the case for those concentrate footnotes.\n\nHow do cadmium and lead get into peas? The plant takes cadmium and lead up from soil, and contaminated dust or waste can add more, which is why site matters. Soil pH, the variety, and the fertilizer program change uptake, according to a review of dietary cadmium by FDA scientists. In South Cairo and Giza, pea fruit beside cement, iron, brick, and fertilizer works held 1,025 mg/kg cadmium and 121 mg/kg lead, dry weight. Fruit from the study's other farms held 2.6 mg/kg cadmium and 8.9 mg/kg lead, dry weight, which is lower than the polluted fruit and still high next to retail powders. Those fruit results explain the crop pathway, and they are not the concentration of a protein isolate.\n\nDoes making an isolate concentrate the metals? Protein separation discards starch and fiber and dries the protein fraction, so a metal that follows the protein can be higher per kilogram in the powder than in the seed. No paper in this set measured the same lot as seed and as isolate, so that concentration is not a measured factor here. European law sets cadmium at 40 µg/kg for pulses and at 100 µg/kg for proteins from pulses, which leaves room for a more concentrated ingredient. The Irish pea powders at 15.4 and 40.6 µg/kg cadmium are under the protein row, and two packages do not show how often that happens. Heat does not destroy the elements, so a roasting step is not, by itself, a removal step.\n\nAre Canadian, Chinese, or European peas lower? None of the powder studies records the country where the peas were grown, so Canada, China, and the European Union cannot be ranked as isolate origins. The Irish powders were bought in Ireland, and the concentrates were bought online for a laboratory in Spain. A Canadian Grain Commission paper on field pea seed reports a mean cadmium of 0.023 mg/kg in its abstract, with arsenic and lead below 0.050 mg/kg. The full article is closed, the sample table was not read, and the material is whole seed rather than isolate. A sourcing preference needs origin on the lot, the same form, and the same basis, and those three are not together in this library.\n\nHow do pea powders compare with whey and other plant powders? In the Irish survey the two pea powders were higher in cadmium than most of the 27 whey powders and lower than the two mixed plant powders. Whey cadmium ran from below 0.61 to 23.2 µg/kg, pea was 15.4 and 40.6, and mixed plant was 45.1 and 58.1. Lead did not follow cadmium: pea was about 22 µg/kg and the highest lead result was 88.4 µg/kg in a whey powder. Among two pea and two rice concentrates, detected lead was in one rice product, and total chromium was higher in both rice products than in either pea product. Two or four products are a comparison inside one study, not a ranking of the world's pea protein against the world's whey.\n\nWhat legal limits apply? Proteins from pulses have a European cadmium maximum of 0.10 mg/kg, and other pulses have 0.040 mg/kg. Those rows were set in the 2021 cadmium amendment and are carried in the contaminants regulation now in force. Food supplements have a cadmium maximum of 1.0 mg/kg as placed on the market, except the higher seaweed and bivalve supplement row. Nickel in pulses except dry beans and lupins is 4.0 mg/kg from 1 July 2025, and that row is not written as proteins from pulses. A processed food that is not a listed category uses the regulation's concentration rules rather than a blank cell or an invented number.\n\nWhat should a laboratory report include? The report should name the form, such as isolate, concentrate, or blend, and the basis, such as as sold or dry weight. It should list lead, cadmium, total arsenic, inorganic arsenic if rice is in the product, total mercury, and nickel, each with its own result. The quantification limit should sit well below the maximum that applies, for example well below 100 µg/kg where the protein cadmium row applies. The method should be an acid digestion and a mass-spectrometric or equivalent determination, with the lot identity on the same page. A non-detect should show the limit, and a limit whose unit is not stated cannot be used as a food concentration.\n\nDo the concentrate non-detects mean the cadmium is very low? The paper marks cadmium and lead as not detected in both pea concentrates. The footnotes give limits below 0.015 and below 0.026 and do not restate whether that unit is the digest or the food. A food limit of quantification near 0.02 µg/kg would be unusually low next to the Irish method, which reported cadmium down to below 0.61 µg/kg in a whey powder. Until the unit is clear, the honest statement is that the concentrates did not report a detected cadmium or lead value. It is not a finding that those products sit at a fraction of a microgram per kilogram.\n\nWas arsenic measured? Arsenic was not among the elements in the Irish protein-powder method. The concentrate mineral table that includes nickel, chromium, cadmium, and lead does not include arsenic or mercury. Garden pea fruit in Egypt was measured for total arsenic, at 0.03 mg/kg on unpolluted-site fruit and 0.1 mg/kg on polluted-site fruit, dry weight, without speciation. Boiled frozen peas in the US Total Diet Study were not detected for total arsenic at a reporting limit of 3 µg/kg, which is the vegetable and not the powder. If a product also contains rice, inorganic arsenic has to be asked for separately, because these pea-only tables do not supply it.\n\nShould the Egyptian pea results change how powders are read? They should change how the crop is understood, and they should not be pasted onto a protein specification. The polluted fruit is evidence that industrial waste near the field can push pea cadmium and lead into the hundreds or thousands of milligrams per kilogram, dry weight. The unpolluted fruit in the same provinces was already 2.6 mg/kg cadmium, dry weight, which is not what the Irish retail powders showed. The table keeps that fruit as its own form so the powder rows stay readable beside it. A buyer of isolate should ask where the crop was grown and for a lot result, and should not treat either Egyptian mean as the expected powder concentration.\n\nHow do frozen peas compare? The US Total Diet Study measured frozen green peas after boiling, as the food is eaten. Three composites showed cadmium in two, up to 3.2 µg/kg, with a reporting limit of 1 µg/kg. Lead, total mercury, and total arsenic were not detected, at reporting limits of 4, 1, and 3 µg/kg. Those figures are as consumed and water-rich, so they sit far below a dry protein on a per-kilogram basis for reasons of water as well as process. They belong on the frozen pea record as the vegetable, and they are cited here only to keep the powder from being confused with the vegetable.\n\nWhat is still too thin to settle? Two retail packages and two concentrates do not make a distribution, a percentile, or a pass rate for the ingredient. Growing origin is missing on the powders, and the Canadian seed baseline is an abstract without its table. Inorganic arsenic and, for the concentrates, mercury were not measured. No before-and-after process trial shows how much metal the isolate step keeps. Those gaps are why the page states what was measured and does not offer a regional winner or a removal percentage.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Every source record and indexed dataset row that names pea protein",
+        "protocol_ref": "data/evidence/engine/ingredient/pea-protein/evidence-ledger.json",
+        "record_refs": [
+          "data/evidence/engine/ingredient/pea-protein/synthesis.json"
+        ],
+        "screening_ref": "data/evidence/engine/ingredient/pea-protein/evidence-ledger.json",
+        "searched_through": "2026-11-03",
+        "limitations": [
+          "Open literature and the HMI library were searched for pea protein, pea protein isolate, Pisum sativum and pulse-protein metal studies.",
+          "Supplier notices and company certificates were excluded.",
+          "The 2009 Canadian field-pea article is closed and was not table-extracted.",
+          "Clean Label Project market reports are not peer-reviewed and were not used as concentrations."
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [
+        "wiki/sources/ring2021-ireland-protein-powders-metals.md",
+        "wiki/sources/lopezcalabozo2025-vegetable-protein-concentrates.md",
+        "wiki/sources/schaefer2020-cadmium-mitigation-strategies.md",
+        "wiki/sources/galal2021-heavy-metals-pisum-sativum.md",
+        "wiki/sources/eu-2021-1323-cadmium-foodstuffs-amendment.md",
+        "wiki/sources/gawalko2009-canadian-field-peas-trace-elements.md",
+        "wiki/sources/eu-2023-915-contaminants-maximum-levels.md",
+        "wiki/sources/eu-2024-1987-nickel-maximum-levels.md",
+        "wiki/sources/fda2022-tds-elements-fy2018-fy2020.md"
+      ],
+      "synthesis_refs": [
+        "data/evidence/syntheses/engine-ingredient-pea-protein-v1.json#summary/1"
+      ],
+      "applicability": "Applies only to the source-specific material, period, preparation and endpoint stated in the answer and attached evidence records",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/ingredients/pea-protein.md"
+      ]
+    },
+    {
+      "question_id": "HMI-ING-005",
+      "scope": {
+        "analytes": "Pb, Cd, tAs, tHg, Ni, Cr and Sn",
+        "material_form": "Garden pea fruit, dry weight, Pea protein, powder or ground and Pea protein, as sold",
+        "basis": "As reported; µg/kg; no moisture conversion",
+        "geography_market": "Reporting region, purchase market or growing area as each source reports",
+        "period": "Source collection years where reported; unreported dates stay unknown",
+        "stage": "Growing area, processing, retail and release testing",
+        "population_route": "Dietary ingestion",
+        "comparator_outcome": "HMI references by form and basis; same-study site, sampling and form contrasts"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "available",
+      "answer": "Total mercury in those two powders was 4.3 µg/kg and below 0.2 µg/kg, total chromium was 289.2 and 210.7 µg/kg, and total tin was 26.7 and 329.7 µg/kg.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Every source record and indexed dataset row that names pea protein",
+        "protocol_ref": "data/evidence/engine/ingredient/pea-protein/evidence-ledger.json",
+        "record_refs": [
+          "data/evidence/engine/ingredient/pea-protein/synthesis.json"
+        ],
+        "screening_ref": "data/evidence/engine/ingredient/pea-protein/evidence-ledger.json",
+        "searched_through": "2026-11-03",
+        "limitations": [
+          "Open literature and the HMI library were searched for pea protein, pea protein isolate, Pisum sativum and pulse-protein metal studies.",
+          "Supplier notices and company certificates were excluded.",
+          "The 2009 Canadian field-pea article is closed and was not table-extracted.",
+          "Clean Label Project market reports are not peer-reviewed and were not used as concentrations."
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [
+        "wiki/sources/ring2021-ireland-protein-powders-metals.md"
+      ],
+      "synthesis_refs": [
+        "data/evidence/syntheses/engine-ingredient-pea-protein-v1.json#summary/2"
+      ],
+      "applicability": "Applies only to the source-specific material, period, preparation and endpoint stated in the answer and attached evidence records",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/ingredients/pea-protein.md"
+      ]
+    },
+    {
+      "question_id": "HMI-ING-006",
+      "scope": {
+        "analytes": "Pb, Cd, tAs, tHg, Ni, Cr and Sn",
+        "material_form": "Garden pea fruit, dry weight, Pea protein, powder or ground and Pea protein, as sold",
+        "basis": "As reported; µg/kg; no moisture conversion",
+        "geography_market": "Reporting region, purchase market or growing area as each source reports",
+        "period": "Source collection years where reported; unreported dates stay unknown",
+        "stage": "Growing area, processing, retail and release testing",
+        "population_route": "Dietary ingestion",
+        "comparator_outcome": "HMI references by form and basis; same-study site, sampling and form contrasts"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "available",
+      "answer": "Two anonymized commercial pea concentrates, each bought twice, showed nickel means of 585.49 and 268.27 µg/kg and total chromium means of 78.97 and 114.11 µg/kg, with cadmium and lead not detected.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Every source record and indexed dataset row that names pea protein",
+        "protocol_ref": "data/evidence/engine/ingredient/pea-protein/evidence-ledger.json",
+        "record_refs": [
+          "data/evidence/engine/ingredient/pea-protein/synthesis.json"
+        ],
+        "screening_ref": "data/evidence/engine/ingredient/pea-protein/evidence-ledger.json",
+        "searched_through": "2026-11-03",
+        "limitations": [
+          "Open literature and the HMI library were searched for pea protein, pea protein isolate, Pisum sativum and pulse-protein metal studies.",
+          "Supplier notices and company certificates were excluded.",
+          "The 2009 Canadian field-pea article is closed and was not table-extracted.",
+          "Clean Label Project market reports are not peer-reviewed and were not used as concentrations."
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [
+        "wiki/sources/lopezcalabozo2025-vegetable-protein-concentrates.md"
+      ],
+      "synthesis_refs": [
+        "data/evidence/syntheses/engine-ingredient-pea-protein-v1.json#summary/3"
+      ],
+      "applicability": "Applies only to the source-specific material, period, preparation and endpoint stated in the answer and attached evidence records",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/ingredients/pea-protein.md"
+      ]
+    },
+    {
+      "question_id": "HMI-ING-007",
+      "scope": {
+        "analytes": "Pb, Cd, tAs, tHg, Ni, Cr and Sn",
+        "material_form": "Garden pea fruit, dry weight, Pea protein, powder or ground and Pea protein, as sold",
+        "basis": "As reported; µg/kg; no moisture conversion",
+        "geography_market": "Reporting region, purchase market or growing area as each source reports",
+        "period": "Source collection years where reported; unreported dates stay unknown",
+        "stage": "Growing area, processing, retail and release testing",
+        "population_route": "Dietary ingestion",
+        "comparator_outcome": "HMI references by form and basis; same-study site, sampling and form contrasts"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "available",
+      "answer": "On the Irish powders as sold, cadmium was 40.6 µg/kg in one package and 15.4 µg/kg in the other, and lead was 22.2 and 22.5 µg/kg.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Every source record and indexed dataset row that names pea protein",
+        "protocol_ref": "data/evidence/engine/ingredient/pea-protein/evidence-ledger.json",
+        "record_refs": [
+          "data/evidence/engine/ingredient/pea-protein/synthesis.json"
+        ],
+        "screening_ref": "data/evidence/engine/ingredient/pea-protein/evidence-ledger.json",
+        "searched_through": "2026-11-03",
+        "limitations": [
+          "Open literature and the HMI library were searched for pea protein, pea protein isolate, Pisum sativum and pulse-protein metal studies.",
+          "Supplier notices and company certificates were excluded.",
+          "The 2009 Canadian field-pea article is closed and was not table-extracted.",
+          "Clean Label Project market reports are not peer-reviewed and were not used as concentrations."
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [
+        "wiki/sources/ring2021-ireland-protein-powders-metals.md"
+      ],
+      "synthesis_refs": [
+        "data/evidence/syntheses/engine-ingredient-pea-protein-v1.json#occurrence/1"
+      ],
+      "applicability": "Applies only to the source-specific material, period, preparation and endpoint stated in the answer and attached evidence records",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/ingredients/pea-protein.md"
+      ]
+    },
+    {
+      "question_id": "HMI-ING-008",
+      "scope": {
+        "analytes": "Pb, Cd, tAs, tHg, Ni, Cr and Sn",
+        "material_form": "Garden pea fruit, dry weight, Pea protein, powder or ground and Pea protein, as sold",
+        "basis": "As reported; µg/kg; no moisture conversion",
+        "geography_market": "Reporting region, purchase market or growing area as each source reports",
+        "period": "Source collection years where reported; unreported dates stay unknown",
+        "stage": "Growing area, processing, retail and release testing",
+        "population_route": "Dietary ingestion",
+        "comparator_outcome": "HMI references by form and basis; same-study site, sampling and form contrasts"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "available",
+      "answer": "Total mercury was 4.3 µg/kg and below 0.2 µg/kg, total chromium was 289.2 and 210.7 µg/kg, and total tin was 26.7 and 329.7 µg/kg, the last of those being the highest tin the study reported in any powder.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Every source record and indexed dataset row that names pea protein",
+        "protocol_ref": "data/evidence/engine/ingredient/pea-protein/evidence-ledger.json",
+        "record_refs": [
+          "data/evidence/engine/ingredient/pea-protein/synthesis.json"
+        ],
+        "screening_ref": "data/evidence/engine/ingredient/pea-protein/evidence-ledger.json",
+        "searched_through": "2026-11-03",
+        "limitations": [
+          "Open literature and the HMI library were searched for pea protein, pea protein isolate, Pisum sativum and pulse-protein metal studies.",
+          "Supplier notices and company certificates were excluded.",
+          "The 2009 Canadian field-pea article is closed and was not table-extracted.",
+          "Clean Label Project market reports are not peer-reviewed and were not used as concentrations."
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [
+        "wiki/sources/ring2021-ireland-protein-powders-metals.md"
+      ],
+      "synthesis_refs": [
+        "data/evidence/syntheses/engine-ingredient-pea-protein-v1.json#occurrence/2"
+      ],
+      "applicability": "Applies only to the source-specific material, period, preparation and endpoint stated in the answer and attached evidence records",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/ingredients/pea-protein.md"
+      ]
+    },
+    {
+      "question_id": "HMI-ING-009",
+      "scope": {
+        "analytes": "Pb, Cd, tAs, tHg, Ni, Cr and Sn",
+        "material_form": "Garden pea fruit, dry weight, Pea protein, powder or ground and Pea protein, as sold",
+        "basis": "As reported; µg/kg; no moisture conversion",
+        "geography_market": "Reporting region, purchase market or growing area as each source reports",
+        "period": "Source collection years where reported; unreported dates stay unknown",
+        "stage": "Growing area, processing, retail and release testing",
+        "population_route": "Dietary ingestion",
+        "comparator_outcome": "HMI references by form and basis; same-study site, sampling and form contrasts"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "available",
+      "answer": "The concentrate table, printed in a ppb block, gives nickel 585.49 ± 47.94 and 268.27 ± 35.21 and total chromium 78.97 ± 11.24 and 114.11 ± 31.83, with cadmium and lead marked not detected.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Every source record and indexed dataset row that names pea protein",
+        "protocol_ref": "data/evidence/engine/ingredient/pea-protein/evidence-ledger.json",
+        "record_refs": [
+          "data/evidence/engine/ingredient/pea-protein/synthesis.json"
+        ],
+        "screening_ref": "data/evidence/engine/ingredient/pea-protein/evidence-ledger.json",
+        "searched_through": "2026-11-03",
+        "limitations": [
+          "Open literature and the HMI library were searched for pea protein, pea protein isolate, Pisum sativum and pulse-protein metal studies.",
+          "Supplier notices and company certificates were excluded.",
+          "The 2009 Canadian field-pea article is closed and was not table-extracted.",
+          "Clean Label Project market reports are not peer-reviewed and were not used as concentrations."
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [
+        "wiki/sources/lopezcalabozo2025-vegetable-protein-concentrates.md"
+      ],
+      "synthesis_refs": [
+        "data/evidence/syntheses/engine-ingredient-pea-protein-v1.json#occurrence/3"
+      ],
+      "applicability": "Applies only to the source-specific material, period, preparation and endpoint stated in the answer and attached evidence records",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/ingredients/pea-protein.md"
+      ]
+    },
+    {
+      "question_id": "HMI-ING-010",
+      "scope": {
+        "analytes": "Pb, Cd, tAs, tHg, Ni, Cr and Sn",
+        "material_form": "Garden pea fruit, dry weight, Pea protein, powder or ground and Pea protein, as sold",
+        "basis": "As reported; µg/kg; no moisture conversion",
+        "geography_market": "Reporting region, purchase market or growing area as each source reports",
+        "period": "Source collection years where reported; unreported dates stay unknown",
+        "stage": "Growing area, processing, retail and release testing",
+        "population_route": "Dietary ingestion",
+        "comparator_outcome": "HMI references by form and basis; same-study site, sampling and form contrasts"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "available",
+      "answer": "Cadmium and lead reach peas from the soil and from dust or waste deposited on the crop, and the element remains in the tissue because cooking and drying do not destroy it.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Every source record and indexed dataset row that names pea protein",
+        "protocol_ref": "data/evidence/engine/ingredient/pea-protein/evidence-ledger.json",
+        "record_refs": [
+          "data/evidence/engine/ingredient/pea-protein/synthesis.json"
+        ],
+        "screening_ref": "data/evidence/engine/ingredient/pea-protein/evidence-ledger.json",
+        "searched_through": "2026-11-03",
+        "limitations": [
+          "Open literature and the HMI library were searched for pea protein, pea protein isolate, Pisum sativum and pulse-protein metal studies.",
+          "Supplier notices and company certificates were excluded.",
+          "The 2009 Canadian field-pea article is closed and was not table-extracted.",
+          "Clean Label Project market reports are not peer-reviewed and were not used as concentrations."
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [
+        "wiki/sources/schaefer2020-cadmium-mitigation-strategies.md"
+      ],
+      "synthesis_refs": [
+        "data/evidence/syntheses/engine-ingredient-pea-protein-v1.json#pathways/1"
+      ],
+      "applicability": "Applies only to the source-specific material, period, preparation and endpoint stated in the answer and attached evidence records",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/ingredients/pea-protein.md"
+      ]
+    },
+    {
+      "question_id": "HMI-ING-011",
+      "scope": {
+        "analytes": "Pb, Cd, tAs, tHg, Ni, Cr and Sn",
+        "material_form": "Garden pea fruit, dry weight, Pea protein, powder or ground and Pea protein, as sold",
+        "basis": "As reported; µg/kg; no moisture conversion",
+        "geography_market": "Reporting region, purchase market or growing area as each source reports",
+        "period": "Source collection years where reported; unreported dates stay unknown",
+        "stage": "Growing area, processing, retail and release testing",
+        "population_route": "Dietary ingestion",
+        "comparator_outcome": "HMI references by form and basis; same-study site, sampling and form contrasts"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "available",
+      "answer": "A review by FDA scientists describes diet as the main cadmium exposure for people who are not exposed at work and do not smoke, and it identifies soil pH, cultivar, and fertilizer choice as levers on how much the plant takes up.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Every source record and indexed dataset row that names pea protein",
+        "protocol_ref": "data/evidence/engine/ingredient/pea-protein/evidence-ledger.json",
+        "record_refs": [
+          "data/evidence/engine/ingredient/pea-protein/synthesis.json"
+        ],
+        "screening_ref": "data/evidence/engine/ingredient/pea-protein/evidence-ledger.json",
+        "searched_through": "2026-11-03",
+        "limitations": [
+          "Open literature and the HMI library were searched for pea protein, pea protein isolate, Pisum sativum and pulse-protein metal studies.",
+          "Supplier notices and company certificates were excluded.",
+          "The 2009 Canadian field-pea article is closed and was not table-extracted.",
+          "Clean Label Project market reports are not peer-reviewed and were not used as concentrations."
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [
+        "wiki/sources/schaefer2020-cadmium-mitigation-strategies.md"
+      ],
+      "synthesis_refs": [
+        "data/evidence/syntheses/engine-ingredient-pea-protein-v1.json#pathways/2"
+      ],
+      "applicability": "Applies only to the source-specific material, period, preparation and endpoint stated in the answer and attached evidence records",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/ingredients/pea-protein.md"
+      ]
+    },
+    {
+      "question_id": "HMI-ING-012",
+      "scope": {
+        "analytes": "Pb, Cd, tAs, tHg, Ni, Cr and Sn",
+        "material_form": "Garden pea fruit, dry weight, Pea protein, powder or ground and Pea protein, as sold",
+        "basis": "As reported; µg/kg; no moisture conversion",
+        "geography_market": "Reporting region, purchase market or growing area as each source reports",
+        "period": "Source collection years where reported; unreported dates stay unknown",
+        "stage": "Growing area, processing, retail and release testing",
+        "population_route": "Dietary ingestion",
+        "comparator_outcome": "HMI references by form and basis; same-study site, sampling and form contrasts"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "available",
+      "answer": "That review's highest mean foods in the US Total Diet Study were not peas, which is a reminder that a concentrated protein ingredient and a boiled vegetable are different exposure questions.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Every source record and indexed dataset row that names pea protein",
+        "protocol_ref": "data/evidence/engine/ingredient/pea-protein/evidence-ledger.json",
+        "record_refs": [
+          "data/evidence/engine/ingredient/pea-protein/synthesis.json"
+        ],
+        "screening_ref": "data/evidence/engine/ingredient/pea-protein/evidence-ledger.json",
+        "searched_through": "2026-11-03",
+        "limitations": [
+          "Open literature and the HMI library were searched for pea protein, pea protein isolate, Pisum sativum and pulse-protein metal studies.",
+          "Supplier notices and company certificates were excluded.",
+          "The 2009 Canadian field-pea article is closed and was not table-extracted.",
+          "Clean Label Project market reports are not peer-reviewed and were not used as concentrations."
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [
+        "wiki/sources/schaefer2020-cadmium-mitigation-strategies.md"
+      ],
+      "synthesis_refs": [
+        "data/evidence/syntheses/engine-ingredient-pea-protein-v1.json#pathways/3"
+      ],
+      "applicability": "Applies only to the source-specific material, period, preparation and endpoint stated in the answer and attached evidence records",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/ingredients/pea-protein.md"
+      ]
+    },
+    {
+      "question_id": "HMI-ING-013",
+      "scope": {
+        "analytes": "Pb, Cd, tAs, tHg, Ni, Cr and Sn",
+        "material_form": "Garden pea fruit, dry weight, Pea protein, powder or ground and Pea protein, as sold",
+        "basis": "As reported; µg/kg; no moisture conversion",
+        "geography_market": "Reporting region, purchase market or growing area as each source reports",
+        "period": "Source collection years where reported; unreported dates stay unknown",
+        "stage": "Growing area, processing, retail and release testing",
+        "population_route": "Dietary ingestion",
+        "comparator_outcome": "HMI references by form and basis; same-study site, sampling and form contrasts"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "available",
+      "answer": "Inside the Irish survey, using one method and one purchase market, the two pea powders are not the high end for every metal.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Every source record and indexed dataset row that names pea protein",
+        "protocol_ref": "data/evidence/engine/ingredient/pea-protein/evidence-ledger.json",
+        "record_refs": [
+          "data/evidence/engine/ingredient/pea-protein/synthesis.json"
+        ],
+        "screening_ref": "data/evidence/engine/ingredient/pea-protein/evidence-ledger.json",
+        "searched_through": "2026-11-03",
+        "limitations": [
+          "Open literature and the HMI library were searched for pea protein, pea protein isolate, Pisum sativum and pulse-protein metal studies.",
+          "Supplier notices and company certificates were excluded.",
+          "The 2009 Canadian field-pea article is closed and was not table-extracted.",
+          "Clean Label Project market reports are not peer-reviewed and were not used as concentrations."
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [
+        "wiki/sources/ring2021-ireland-protein-powders-metals.md"
+      ],
+      "synthesis_refs": [
+        "data/evidence/syntheses/engine-ingredient-pea-protein-v1.json#variation/1"
+      ],
+      "applicability": "Applies only to the source-specific material, period, preparation and endpoint stated in the answer and attached evidence records",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/ingredients/pea-protein.md"
+      ]
+    },
+    {
+      "question_id": "HMI-ING-014",
+      "scope": {
+        "analytes": "Pb, Cd, tAs, tHg, Ni, Cr and Sn",
+        "material_form": "Garden pea fruit, dry weight, Pea protein, powder or ground and Pea protein, as sold",
+        "basis": "As reported; µg/kg; no moisture conversion",
+        "geography_market": "Reporting region, purchase market or growing area as each source reports",
+        "period": "Source collection years where reported; unreported dates stay unknown",
+        "stage": "Growing area, processing, retail and release testing",
+        "population_route": "Dietary ingestion",
+        "comparator_outcome": "HMI references by form and basis; same-study site, sampling and form contrasts"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "available",
+      "answer": "Pea cadmium was 15.4 and 40.6 µg/kg, soy was 20.7 and 23.4 µg/kg, mixed plant was 45.1 and 58.1 µg/kg, and the 27 whey powders ran from below 0.61 to 23.2 µg/kg.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Every source record and indexed dataset row that names pea protein",
+        "protocol_ref": "data/evidence/engine/ingredient/pea-protein/evidence-ledger.json",
+        "record_refs": [
+          "data/evidence/engine/ingredient/pea-protein/synthesis.json"
+        ],
+        "screening_ref": "data/evidence/engine/ingredient/pea-protein/evidence-ledger.json",
+        "searched_through": "2026-11-03",
+        "limitations": [
+          "Open literature and the HMI library were searched for pea protein, pea protein isolate, Pisum sativum and pulse-protein metal studies.",
+          "Supplier notices and company certificates were excluded.",
+          "The 2009 Canadian field-pea article is closed and was not table-extracted.",
+          "Clean Label Project market reports are not peer-reviewed and were not used as concentrations."
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [
+        "wiki/sources/ring2021-ireland-protein-powders-metals.md"
+      ],
+      "synthesis_refs": [
+        "data/evidence/syntheses/engine-ingredient-pea-protein-v1.json#variation/2"
+      ],
+      "applicability": "Applies only to the source-specific material, period, preparation and endpoint stated in the answer and attached evidence records",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/ingredients/pea-protein.md"
+      ]
+    },
+    {
+      "question_id": "HMI-ING-015",
+      "scope": {
+        "analytes": "Pb, Cd, tAs, tHg, Ni, Cr and Sn",
+        "material_form": "Garden pea fruit, dry weight, Pea protein, powder or ground and Pea protein, as sold",
+        "basis": "As reported; µg/kg; no moisture conversion",
+        "geography_market": "Reporting region, purchase market or growing area as each source reports",
+        "period": "Source collection years where reported; unreported dates stay unknown",
+        "stage": "Growing area, processing, retail and release testing",
+        "population_route": "Dietary ingestion",
+        "comparator_outcome": "HMI references by form and basis; same-study site, sampling and form contrasts"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "available",
+      "answer": "Pea lead was 22.2 and 22.5 µg/kg, while whey lead ran from 0.8 to 88.4 µg/kg and one mixed plant powder was 49.5 µg/kg, so the highest lead package in that study was whey.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Every source record and indexed dataset row that names pea protein",
+        "protocol_ref": "data/evidence/engine/ingredient/pea-protein/evidence-ledger.json",
+        "record_refs": [
+          "data/evidence/engine/ingredient/pea-protein/synthesis.json"
+        ],
+        "screening_ref": "data/evidence/engine/ingredient/pea-protein/evidence-ledger.json",
+        "searched_through": "2026-11-03",
+        "limitations": [
+          "Open literature and the HMI library were searched for pea protein, pea protein isolate, Pisum sativum and pulse-protein metal studies.",
+          "Supplier notices and company certificates were excluded.",
+          "The 2009 Canadian field-pea article is closed and was not table-extracted.",
+          "Clean Label Project market reports are not peer-reviewed and were not used as concentrations."
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [
+        "wiki/sources/ring2021-ireland-protein-powders-metals.md"
+      ],
+      "synthesis_refs": [
+        "data/evidence/syntheses/engine-ingredient-pea-protein-v1.json#variation/3"
+      ],
+      "applicability": "Applies only to the source-specific material, period, preparation and endpoint stated in the answer and attached evidence records",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/ingredients/pea-protein.md"
+      ]
+    },
+    {
+      "question_id": "HMI-ING-016",
+      "scope": {
+        "analytes": "Pb, Cd, tAs, tHg, Ni, Cr and Sn",
+        "material_form": "Garden pea fruit, dry weight, Pea protein, powder or ground and Pea protein, as sold",
+        "basis": "As reported; µg/kg; no moisture conversion",
+        "geography_market": "Reporting region, purchase market or growing area as each source reports",
+        "period": "Source collection years where reported; unreported dates stay unknown",
+        "stage": "Growing area, processing, retail and release testing",
+        "population_route": "Dietary ingestion",
+        "comparator_outcome": "HMI references by form and basis; same-study site, sampling and form contrasts"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "available",
+      "answer": "The European cadmium table is the regulatory trace of that expectation: pulses other than proteins from pulses are 0.040 mg/kg, and proteins from pulses are 0.10 mg/kg.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Every source record and indexed dataset row that names pea protein",
+        "protocol_ref": "data/evidence/engine/ingredient/pea-protein/evidence-ledger.json",
+        "record_refs": [
+          "data/evidence/engine/ingredient/pea-protein/synthesis.json"
+        ],
+        "screening_ref": "data/evidence/engine/ingredient/pea-protein/evidence-ledger.json",
+        "searched_through": "2026-11-03",
+        "limitations": [
+          "Open literature and the HMI library were searched for pea protein, pea protein isolate, Pisum sativum and pulse-protein metal studies.",
+          "Supplier notices and company certificates were excluded.",
+          "The 2009 Canadian field-pea article is closed and was not table-extracted.",
+          "Clean Label Project market reports are not peer-reviewed and were not used as concentrations."
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [
+        "wiki/sources/eu-2021-1323-cadmium-foodstuffs-amendment.md"
+      ],
+      "synthesis_refs": [
+        "data/evidence/syntheses/engine-ingredient-pea-protein-v1.json#processing/1"
+      ],
+      "applicability": "Applies only to the source-specific material, period, preparation and endpoint stated in the answer and attached evidence records",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/ingredients/pea-protein.md"
+      ]
+    },
+    {
+      "question_id": "HMI-ING-017",
+      "scope": {
+        "analytes": "Pb, Cd, tAs, tHg, Ni, Cr and Sn",
+        "material_form": "Garden pea fruit, dry weight, Pea protein, powder or ground and Pea protein, as sold",
+        "basis": "As reported; µg/kg; no moisture conversion",
+        "geography_market": "Reporting region, purchase market or growing area as each source reports",
+        "period": "Source collection years where reported; unreported dates stay unknown",
+        "stage": "Growing area, processing, retail and release testing",
+        "population_route": "Dietary ingestion",
+        "comparator_outcome": "HMI references by form and basis; same-study site, sampling and form contrasts"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "available",
+      "answer": "The Irish pea powders at 15.4 and 40.6 µg/kg cadmium sit under the 100 µg/kg protein row, and that comparison is two packages, not a compliance rate.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Every source record and indexed dataset row that names pea protein",
+        "protocol_ref": "data/evidence/engine/ingredient/pea-protein/evidence-ledger.json",
+        "record_refs": [
+          "data/evidence/engine/ingredient/pea-protein/synthesis.json"
+        ],
+        "screening_ref": "data/evidence/engine/ingredient/pea-protein/evidence-ledger.json",
+        "searched_through": "2026-11-03",
+        "limitations": [
+          "Open literature and the HMI library were searched for pea protein, pea protein isolate, Pisum sativum and pulse-protein metal studies.",
+          "Supplier notices and company certificates were excluded.",
+          "The 2009 Canadian field-pea article is closed and was not table-extracted.",
+          "Clean Label Project market reports are not peer-reviewed and were not used as concentrations."
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [
+        "wiki/sources/ring2021-ireland-protein-powders-metals.md",
+        "wiki/sources/eu-2021-1323-cadmium-foodstuffs-amendment.md"
+      ],
+      "synthesis_refs": [
+        "data/evidence/syntheses/engine-ingredient-pea-protein-v1.json#processing/2"
+      ],
+      "applicability": "Applies only to the source-specific material, period, preparation and endpoint stated in the answer and attached evidence records",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/ingredients/pea-protein.md"
+      ]
+    },
+    {
+      "question_id": "HMI-ING-018",
+      "scope": {
+        "analytes": "Pb, Cd, tAs, tHg, Ni, Cr and Sn",
+        "material_form": "Garden pea fruit, dry weight, Pea protein, powder or ground and Pea protein, as sold",
+        "basis": "As reported; µg/kg; no moisture conversion",
+        "geography_market": "Reporting region, purchase market or growing area as each source reports",
+        "period": "Source collection years where reported; unreported dates stay unknown",
+        "stage": "Growing area, processing, retail and release testing",
+        "population_route": "Dietary ingestion",
+        "comparator_outcome": "HMI references by form and basis; same-study site, sampling and form contrasts"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "available",
+      "answer": "Heat does not destroy lead, cadmium, arsenic, or mercury, so roasting or cooking changes a concentration only by moving water or by parting a fraction that carries the metal.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Every source record and indexed dataset row that names pea protein",
+        "protocol_ref": "data/evidence/engine/ingredient/pea-protein/evidence-ledger.json",
+        "record_refs": [
+          "data/evidence/engine/ingredient/pea-protein/synthesis.json"
+        ],
+        "screening_ref": "data/evidence/engine/ingredient/pea-protein/evidence-ledger.json",
+        "searched_through": "2026-11-03",
+        "limitations": [
+          "Open literature and the HMI library were searched for pea protein, pea protein isolate, Pisum sativum and pulse-protein metal studies.",
+          "Supplier notices and company certificates were excluded.",
+          "The 2009 Canadian field-pea article is closed and was not table-extracted.",
+          "Clean Label Project market reports are not peer-reviewed and were not used as concentrations."
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [
+        "wiki/sources/schaefer2020-cadmium-mitigation-strategies.md"
+      ],
+      "synthesis_refs": [
+        "data/evidence/syntheses/engine-ingredient-pea-protein-v1.json#processing/3"
+      ],
+      "applicability": "Applies only to the source-specific material, period, preparation and endpoint stated in the answer and attached evidence records",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/ingredients/pea-protein.md"
+      ]
+    },
+    {
+      "question_id": "HMI-ING-019",
+      "scope": {
+        "analytes": "Pb, Cd, tAs, tHg, Ni, Cr and Sn",
+        "material_form": "Garden pea fruit, dry weight, Pea protein, powder or ground and Pea protein, as sold",
+        "basis": "As reported; µg/kg; no moisture conversion",
+        "geography_market": "Reporting region, purchase market or growing area as each source reports",
+        "period": "Source collection years where reported; unreported dates stay unknown",
+        "stage": "Growing area, processing, retail and release testing",
+        "population_route": "Dietary ingestion",
+        "comparator_outcome": "HMI references by form and basis; same-study site, sampling and form contrasts"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "available",
+      "answer": "The crop literature points upstream: soil pH, cultivar, and fertilizer choice change how much cadmium a plant takes up, which is the step that keeps the metal out of the seed.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Every source record and indexed dataset row that names pea protein",
+        "protocol_ref": "data/evidence/engine/ingredient/pea-protein/evidence-ledger.json",
+        "record_refs": [
+          "data/evidence/engine/ingredient/pea-protein/synthesis.json"
+        ],
+        "screening_ref": "data/evidence/engine/ingredient/pea-protein/evidence-ledger.json",
+        "searched_through": "2026-11-03",
+        "limitations": [
+          "Open literature and the HMI library were searched for pea protein, pea protein isolate, Pisum sativum and pulse-protein metal studies.",
+          "Supplier notices and company certificates were excluded.",
+          "The 2009 Canadian field-pea article is closed and was not table-extracted.",
+          "Clean Label Project market reports are not peer-reviewed and were not used as concentrations."
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [
+        "wiki/sources/schaefer2020-cadmium-mitigation-strategies.md"
+      ],
+      "synthesis_refs": [
+        "data/evidence/syntheses/engine-ingredient-pea-protein-v1.json#controls/1"
+      ],
+      "applicability": "Applies only to the source-specific material, period, preparation and endpoint stated in the answer and attached evidence records",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/ingredients/pea-protein.md"
+      ]
+    },
+    {
+      "question_id": "HMI-ING-020",
+      "scope": {
+        "analytes": "Pb, Cd, tAs, tHg, Ni, Cr and Sn",
+        "material_form": "Garden pea fruit, dry weight, Pea protein, powder or ground and Pea protein, as sold",
+        "basis": "As reported; µg/kg; no moisture conversion",
+        "geography_market": "Reporting region, purchase market or growing area as each source reports",
+        "period": "Source collection years where reported; unreported dates stay unknown",
+        "stage": "Growing area, processing, retail and release testing",
+        "population_route": "Dietary ingestion",
+        "comparator_outcome": "HMI references by form and basis; same-study site, sampling and form contrasts"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "available",
+      "answer": "Those levers were not tested on the retail powders or the concentrates reviewed here, so they are a research direction and not a quantified benefit for this ingredient.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Every source record and indexed dataset row that names pea protein",
+        "protocol_ref": "data/evidence/engine/ingredient/pea-protein/evidence-ledger.json",
+        "record_refs": [
+          "data/evidence/engine/ingredient/pea-protein/synthesis.json"
+        ],
+        "screening_ref": "data/evidence/engine/ingredient/pea-protein/evidence-ledger.json",
+        "searched_through": "2026-11-03",
+        "limitations": [
+          "Open literature and the HMI library were searched for pea protein, pea protein isolate, Pisum sativum and pulse-protein metal studies.",
+          "Supplier notices and company certificates were excluded.",
+          "The 2009 Canadian field-pea article is closed and was not table-extracted.",
+          "Clean Label Project market reports are not peer-reviewed and were not used as concentrations."
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [
+        "wiki/sources/schaefer2020-cadmium-mitigation-strategies.md"
+      ],
+      "synthesis_refs": [
+        "data/evidence/syntheses/engine-ingredient-pea-protein-v1.json#controls/2"
+      ],
+      "applicability": "Applies only to the source-specific material, period, preparation and endpoint stated in the answer and attached evidence records",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/ingredients/pea-protein.md"
+      ]
+    },
+    {
+      "question_id": "HMI-ING-021",
+      "scope": {
+        "analytes": "Pb, Cd, tAs, tHg, Ni, Cr and Sn",
+        "material_form": "Garden pea fruit, dry weight, Pea protein, powder or ground and Pea protein, as sold",
+        "basis": "As reported; µg/kg; no moisture conversion",
+        "geography_market": "Reporting region, purchase market or growing area as each source reports",
+        "period": "Source collection years where reported; unreported dates stay unknown",
+        "stage": "Growing area, processing, retail and release testing",
+        "population_route": "Dietary ingestion",
+        "comparator_outcome": "HMI references by form and basis; same-study site, sampling and form contrasts"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "available",
+      "answer": "The Egyptian contrast shows the other side of siting, because fruit beside cement, iron, and fertilizer works held far more metal than the study's other farms.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Every source record and indexed dataset row that names pea protein",
+        "protocol_ref": "data/evidence/engine/ingredient/pea-protein/evidence-ledger.json",
+        "record_refs": [
+          "data/evidence/engine/ingredient/pea-protein/synthesis.json"
+        ],
+        "screening_ref": "data/evidence/engine/ingredient/pea-protein/evidence-ledger.json",
+        "searched_through": "2026-11-03",
+        "limitations": [
+          "Open literature and the HMI library were searched for pea protein, pea protein isolate, Pisum sativum and pulse-protein metal studies.",
+          "Supplier notices and company certificates were excluded.",
+          "The 2009 Canadian field-pea article is closed and was not table-extracted.",
+          "Clean Label Project market reports are not peer-reviewed and were not used as concentrations."
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [
+        "wiki/sources/galal2021-heavy-metals-pisum-sativum.md"
+      ],
+      "synthesis_refs": [
+        "data/evidence/syntheses/engine-ingredient-pea-protein-v1.json#controls/3"
+      ],
+      "applicability": "Applies only to the source-specific material, period, preparation and endpoint stated in the answer and attached evidence records",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/ingredients/pea-protein.md"
+      ]
+    },
+    {
+      "question_id": "HMI-ING-022",
+      "scope": {
+        "analytes": "Pb, Cd, tAs, tHg, Ni, Cr and Sn",
+        "material_form": "Garden pea fruit, dry weight, Pea protein, powder or ground and Pea protein, as sold",
+        "basis": "As reported; µg/kg; no moisture conversion",
+        "geography_market": "Reporting region, purchase market or growing area as each source reports",
+        "period": "Source collection years where reported; unreported dates stay unknown",
+        "stage": "Growing area, processing, retail and release testing",
+        "population_route": "Dietary ingestion",
+        "comparator_outcome": "HMI references by form and basis; same-study site, sampling and form contrasts"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "available",
+      "answer": "In the Irish set the highest lead powder was whey, while the highest cadmium powders were mixed plant, and the pea powders were mid-pack for lead and higher than most whey for cadmium.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Every source record and indexed dataset row that names pea protein",
+        "protocol_ref": "data/evidence/engine/ingredient/pea-protein/evidence-ledger.json",
+        "record_refs": [
+          "data/evidence/engine/ingredient/pea-protein/synthesis.json"
+        ],
+        "screening_ref": "data/evidence/engine/ingredient/pea-protein/evidence-ledger.json",
+        "searched_through": "2026-11-03",
+        "limitations": [
+          "Open literature and the HMI library were searched for pea protein, pea protein isolate, Pisum sativum and pulse-protein metal studies.",
+          "Supplier notices and company certificates were excluded.",
+          "The 2009 Canadian field-pea article is closed and was not table-extracted.",
+          "Clean Label Project market reports are not peer-reviewed and were not used as concentrations."
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [
+        "wiki/sources/ring2021-ireland-protein-powders-metals.md"
+      ],
+      "synthesis_refs": [
+        "data/evidence/syntheses/engine-ingredient-pea-protein-v1.json#tradeoffs/1"
+      ],
+      "applicability": "Applies only to the source-specific material, period, preparation and endpoint stated in the answer and attached evidence records",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/ingredients/pea-protein.md"
+      ]
+    },
+    {
+      "question_id": "HMI-ING-023",
+      "scope": {
+        "analytes": "Pb, Cd, tAs, tHg, Ni, Cr and Sn",
+        "material_form": "Garden pea fruit, dry weight, Pea protein, powder or ground and Pea protein, as sold",
+        "basis": "As reported; µg/kg; no moisture conversion",
+        "geography_market": "Reporting region, purchase market or growing area as each source reports",
+        "period": "Source collection years where reported; unreported dates stay unknown",
+        "stage": "Growing area, processing, retail and release testing",
+        "population_route": "Dietary ingestion",
+        "comparator_outcome": "HMI references by form and basis; same-study site, sampling and form contrasts"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "available",
+      "answer": "In the concentrate set, pea was the lower total chromium pair and not a lower nickel pair, and one rice concentrate carried detected lead while the pea concentrates did not.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Every source record and indexed dataset row that names pea protein",
+        "protocol_ref": "data/evidence/engine/ingredient/pea-protein/evidence-ledger.json",
+        "record_refs": [
+          "data/evidence/engine/ingredient/pea-protein/synthesis.json"
+        ],
+        "screening_ref": "data/evidence/engine/ingredient/pea-protein/evidence-ledger.json",
+        "searched_through": "2026-11-03",
+        "limitations": [
+          "Open literature and the HMI library were searched for pea protein, pea protein isolate, Pisum sativum and pulse-protein metal studies.",
+          "Supplier notices and company certificates were excluded.",
+          "The 2009 Canadian field-pea article is closed and was not table-extracted.",
+          "Clean Label Project market reports are not peer-reviewed and were not used as concentrations."
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [
+        "wiki/sources/lopezcalabozo2025-vegetable-protein-concentrates.md"
+      ],
+      "synthesis_refs": [
+        "data/evidence/syntheses/engine-ingredient-pea-protein-v1.json#tradeoffs/2"
+      ],
+      "applicability": "Applies only to the source-specific material, period, preparation and endpoint stated in the answer and attached evidence records",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/ingredients/pea-protein.md"
+      ]
+    },
+    {
+      "question_id": "HMI-ING-024",
+      "scope": {
+        "analytes": "Pb, Cd, tAs, tHg, Ni, Cr and Sn",
+        "material_form": "Garden pea fruit, dry weight, Pea protein, powder or ground and Pea protein, as sold",
+        "basis": "As reported; µg/kg; no moisture conversion",
+        "geography_market": "Reporting region, purchase market or growing area as each source reports",
+        "period": "Source collection years where reported; unreported dates stay unknown",
+        "stage": "Growing area, processing, retail and release testing",
+        "population_route": "Dietary ingestion",
+        "comparator_outcome": "HMI references by form and basis; same-study site, sampling and form contrasts"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "available",
+      "answer": "Avoiding an industrial waste site lowered fruit metals in one Egyptian study, and that choice is not a measured cost, yield, or protein-quality result.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Every source record and indexed dataset row that names pea protein",
+        "protocol_ref": "data/evidence/engine/ingredient/pea-protein/evidence-ledger.json",
+        "record_refs": [
+          "data/evidence/engine/ingredient/pea-protein/synthesis.json"
+        ],
+        "screening_ref": "data/evidence/engine/ingredient/pea-protein/evidence-ledger.json",
+        "searched_through": "2026-11-03",
+        "limitations": [
+          "Open literature and the HMI library were searched for pea protein, pea protein isolate, Pisum sativum and pulse-protein metal studies.",
+          "Supplier notices and company certificates were excluded.",
+          "The 2009 Canadian field-pea article is closed and was not table-extracted.",
+          "Clean Label Project market reports are not peer-reviewed and were not used as concentrations."
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [
+        "wiki/sources/galal2021-heavy-metals-pisum-sativum.md"
+      ],
+      "synthesis_refs": [
+        "data/evidence/syntheses/engine-ingredient-pea-protein-v1.json#tradeoffs/3"
+      ],
+      "applicability": "Applies only to the source-specific material, period, preparation and endpoint stated in the answer and attached evidence records",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/ingredients/pea-protein.md"
+      ]
+    },
+    {
+      "question_id": "HMI-ING-025",
+      "scope": {
+        "analytes": "Pb, Cd, tAs, tHg, Ni, Cr and Sn",
+        "material_form": "Garden pea fruit, dry weight, Pea protein, powder or ground and Pea protein, as sold",
+        "basis": "As reported; µg/kg; no moisture conversion",
+        "geography_market": "Reporting region, purchase market or growing area as each source reports",
+        "period": "Source collection years where reported; unreported dates stay unknown",
+        "stage": "Growing area, processing, retail and release testing",
+        "population_route": "Dietary ingestion",
+        "comparator_outcome": "HMI references by form and basis; same-study site, sampling and form contrasts"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "available",
+      "answer": "The powders in the Irish study were microwave-digested and measured by sector-field inductively coupled plasma mass spectrometry, with results reported per kilogram of powder as sold.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Every source record and indexed dataset row that names pea protein",
+        "protocol_ref": "data/evidence/engine/ingredient/pea-protein/evidence-ledger.json",
+        "record_refs": [
+          "data/evidence/engine/ingredient/pea-protein/synthesis.json"
+        ],
+        "screening_ref": "data/evidence/engine/ingredient/pea-protein/evidence-ledger.json",
+        "searched_through": "2026-11-03",
+        "limitations": [
+          "Open literature and the HMI library were searched for pea protein, pea protein isolate, Pisum sativum and pulse-protein metal studies.",
+          "Supplier notices and company certificates were excluded.",
+          "The 2009 Canadian field-pea article is closed and was not table-extracted.",
+          "Clean Label Project market reports are not peer-reviewed and were not used as concentrations."
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [
+        "wiki/sources/ring2021-ireland-protein-powders-metals.md"
+      ],
+      "synthesis_refs": [
+        "data/evidence/syntheses/engine-ingredient-pea-protein-v1.json#testing/1"
+      ],
+      "applicability": "Applies only to the source-specific material, period, preparation and endpoint stated in the answer and attached evidence records",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/ingredients/pea-protein.md"
+      ]
+    },
+    {
+      "question_id": "HMI-ING-026",
+      "scope": {
+        "analytes": "Pb, Cd, tAs, tHg, Ni, Cr and Sn",
+        "material_form": "Garden pea fruit, dry weight, Pea protein, powder or ground and Pea protein, as sold",
+        "basis": "As reported; µg/kg; no moisture conversion",
+        "geography_market": "Reporting region, purchase market or growing area as each source reports",
+        "period": "Source collection years where reported; unreported dates stay unknown",
+        "stage": "Growing area, processing, retail and release testing",
+        "population_route": "Dietary ingestion",
+        "comparator_outcome": "HMI references by form and basis; same-study site, sampling and form contrasts"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "available",
+      "answer": "The concentrates were microwave-digested in nitric acid and measured by inductively coupled plasma mass spectrometry, and the paper does not state a dry-weight or as-sold basis for the mineral block.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Every source record and indexed dataset row that names pea protein",
+        "protocol_ref": "data/evidence/engine/ingredient/pea-protein/evidence-ledger.json",
+        "record_refs": [
+          "data/evidence/engine/ingredient/pea-protein/synthesis.json"
+        ],
+        "screening_ref": "data/evidence/engine/ingredient/pea-protein/evidence-ledger.json",
+        "searched_through": "2026-11-03",
+        "limitations": [
+          "Open literature and the HMI library were searched for pea protein, pea protein isolate, Pisum sativum and pulse-protein metal studies.",
+          "Supplier notices and company certificates were excluded.",
+          "The 2009 Canadian field-pea article is closed and was not table-extracted.",
+          "Clean Label Project market reports are not peer-reviewed and were not used as concentrations."
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [
+        "wiki/sources/lopezcalabozo2025-vegetable-protein-concentrates.md"
+      ],
+      "synthesis_refs": [
+        "data/evidence/syntheses/engine-ingredient-pea-protein-v1.json#testing/2"
+      ],
+      "applicability": "Applies only to the source-specific material, period, preparation and endpoint stated in the answer and attached evidence records",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/ingredients/pea-protein.md"
+      ]
+    },
+    {
+      "question_id": "HMI-ING-027",
+      "scope": {
+        "analytes": "Pb, Cd, tAs, tHg, Ni, Cr and Sn",
+        "material_form": "Garden pea fruit, dry weight, Pea protein, powder or ground and Pea protein, as sold",
+        "basis": "As reported; µg/kg; no moisture conversion",
+        "geography_market": "Reporting region, purchase market or growing area as each source reports",
+        "period": "Source collection years where reported; unreported dates stay unknown",
+        "stage": "Growing area, processing, retail and release testing",
+        "population_route": "Dietary ingestion",
+        "comparator_outcome": "HMI references by form and basis; same-study site, sampling and form contrasts"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "available",
+      "answer": "For a 100 µg/kg cadmium maximum, a quantification limit of a few micrograms per kilogram can show the distance to the maximum, and a limit of 200 µg/kg cannot.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Every source record and indexed dataset row that names pea protein",
+        "protocol_ref": "data/evidence/engine/ingredient/pea-protein/evidence-ledger.json",
+        "record_refs": [
+          "data/evidence/engine/ingredient/pea-protein/synthesis.json"
+        ],
+        "screening_ref": "data/evidence/engine/ingredient/pea-protein/evidence-ledger.json",
+        "searched_through": "2026-11-03",
+        "limitations": [
+          "Open literature and the HMI library were searched for pea protein, pea protein isolate, Pisum sativum and pulse-protein metal studies.",
+          "Supplier notices and company certificates were excluded.",
+          "The 2009 Canadian field-pea article is closed and was not table-extracted.",
+          "Clean Label Project market reports are not peer-reviewed and were not used as concentrations."
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [
+        "wiki/sources/eu-2021-1323-cadmium-foodstuffs-amendment.md"
+      ],
+      "synthesis_refs": [
+        "data/evidence/syntheses/engine-ingredient-pea-protein-v1.json#testing/3"
+      ],
+      "applicability": "Applies only to the source-specific material, period, preparation and endpoint stated in the answer and attached evidence records",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/ingredients/pea-protein.md"
+      ]
+    },
+    {
+      "question_id": "HMI-ING-028",
+      "scope": {
+        "analytes": "Pb, Cd, tAs, tHg, Ni, Cr and Sn",
+        "material_form": "Garden pea fruit, dry weight, Pea protein, powder or ground and Pea protein, as sold",
+        "basis": "As reported; µg/kg; no moisture conversion",
+        "geography_market": "Reporting region, purchase market or growing area as each source reports",
+        "period": "Source collection years where reported; unreported dates stay unknown",
+        "stage": "Growing area, processing, retail and release testing",
+        "population_route": "Dietary ingestion",
+        "comparator_outcome": "HMI references by form and basis; same-study site, sampling and form contrasts"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "available",
+      "answer": "The cadmium row that names proteins from pulses is 0.10 mg/kg, which is 100 µg/kg, in the European amendment that created that split.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Every source record and indexed dataset row that names pea protein",
+        "protocol_ref": "data/evidence/engine/ingredient/pea-protein/evidence-ledger.json",
+        "record_refs": [
+          "data/evidence/engine/ingredient/pea-protein/synthesis.json"
+        ],
+        "screening_ref": "data/evidence/engine/ingredient/pea-protein/evidence-ledger.json",
+        "searched_through": "2026-11-03",
+        "limitations": [
+          "Open literature and the HMI library were searched for pea protein, pea protein isolate, Pisum sativum and pulse-protein metal studies.",
+          "Supplier notices and company certificates were excluded.",
+          "The 2009 Canadian field-pea article is closed and was not table-extracted.",
+          "Clean Label Project market reports are not peer-reviewed and were not used as concentrations."
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [
+        "wiki/sources/eu-2021-1323-cadmium-foodstuffs-amendment.md"
+      ],
+      "synthesis_refs": [
+        "data/evidence/syntheses/engine-ingredient-pea-protein-v1.json#procurement/1"
+      ],
+      "applicability": "Applies only to the source-specific material, period, preparation and endpoint stated in the answer and attached evidence records",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/ingredients/pea-protein.md"
+      ]
+    },
+    {
+      "question_id": "HMI-ING-029",
+      "scope": {
+        "analytes": "Pb, Cd, tAs, tHg, Ni, Cr and Sn",
+        "material_form": "Garden pea fruit, dry weight, Pea protein, powder or ground and Pea protein, as sold",
+        "basis": "As reported; µg/kg; no moisture conversion",
+        "geography_market": "Reporting region, purchase market or growing area as each source reports",
+        "period": "Source collection years where reported; unreported dates stay unknown",
+        "stage": "Growing area, processing, retail and release testing",
+        "population_route": "Dietary ingestion",
+        "comparator_outcome": "HMI references by form and basis; same-study site, sampling and form contrasts"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "available",
+      "answer": "Pulses other than proteins from pulses are 0.040 mg/kg, which is 40 µg/kg, and that lower row is the seed and not the protein ingredient.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Every source record and indexed dataset row that names pea protein",
+        "protocol_ref": "data/evidence/engine/ingredient/pea-protein/evidence-ledger.json",
+        "record_refs": [
+          "data/evidence/engine/ingredient/pea-protein/synthesis.json"
+        ],
+        "screening_ref": "data/evidence/engine/ingredient/pea-protein/evidence-ledger.json",
+        "searched_through": "2026-11-03",
+        "limitations": [
+          "Open literature and the HMI library were searched for pea protein, pea protein isolate, Pisum sativum and pulse-protein metal studies.",
+          "Supplier notices and company certificates were excluded.",
+          "The 2009 Canadian field-pea article is closed and was not table-extracted.",
+          "Clean Label Project market reports are not peer-reviewed and were not used as concentrations."
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [
+        "wiki/sources/eu-2021-1323-cadmium-foodstuffs-amendment.md"
+      ],
+      "synthesis_refs": [
+        "data/evidence/syntheses/engine-ingredient-pea-protein-v1.json#procurement/2"
+      ],
+      "applicability": "Applies only to the source-specific material, period, preparation and endpoint stated in the answer and attached evidence records",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/ingredients/pea-protein.md"
+      ]
+    },
+    {
+      "question_id": "HMI-ING-030",
+      "scope": {
+        "analytes": "Pb, Cd, tAs, tHg, Ni, Cr and Sn",
+        "material_form": "Garden pea fruit, dry weight, Pea protein, powder or ground and Pea protein, as sold",
+        "basis": "As reported; µg/kg; no moisture conversion",
+        "geography_market": "Reporting region, purchase market or growing area as each source reports",
+        "period": "Source collection years where reported; unreported dates stay unknown",
+        "stage": "Growing area, processing, retail and release testing",
+        "population_route": "Dietary ingestion",
+        "comparator_outcome": "HMI references by form and basis; same-study site, sampling and form contrasts"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "available",
+      "answer": "Commission Regulation (EU) 2023/915 is the instrument now in force for contaminant maxima, and its food-supplement row sets 1.0 mg/kg cadmium, 1,000 µg/kg, for supplements other than the seaweed and bivalve row.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Every source record and indexed dataset row that names pea protein",
+        "protocol_ref": "data/evidence/engine/ingredient/pea-protein/evidence-ledger.json",
+        "record_refs": [
+          "data/evidence/engine/ingredient/pea-protein/synthesis.json"
+        ],
+        "screening_ref": "data/evidence/engine/ingredient/pea-protein/evidence-ledger.json",
+        "searched_through": "2026-11-03",
+        "limitations": [
+          "Open literature and the HMI library were searched for pea protein, pea protein isolate, Pisum sativum and pulse-protein metal studies.",
+          "Supplier notices and company certificates were excluded.",
+          "The 2009 Canadian field-pea article is closed and was not table-extracted.",
+          "Clean Label Project market reports are not peer-reviewed and were not used as concentrations."
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [
+        "wiki/sources/eu-2023-915-contaminants-maximum-levels.md"
+      ],
+      "synthesis_refs": [
+        "data/evidence/syntheses/engine-ingredient-pea-protein-v1.json#procurement/3"
+      ],
+      "applicability": "Applies only to the source-specific material, period, preparation and endpoint stated in the answer and attached evidence records",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/ingredients/pea-protein.md"
+      ]
+    },
+    {
+      "question_id": "HMI-ING-031",
+      "scope": {
+        "analytes": "Pb, Cd, tAs, tHg, Ni, Cr and Sn",
+        "material_form": "Garden pea fruit, dry weight, Pea protein, powder or ground and Pea protein, as sold",
+        "basis": "As reported; µg/kg; no moisture conversion",
+        "geography_market": "Reporting region, purchase market or growing area as each source reports",
+        "period": "Source collection years where reported; unreported dates stay unknown",
+        "stage": "Growing area, processing, retail and release testing",
+        "population_route": "Dietary ingestion",
+        "comparator_outcome": "HMI references by form and basis; same-study site, sampling and form contrasts"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "available",
+      "answer": "The Irish study estimated hazard indexes for a 70 kg adult at one serving and at three servings a day, using the authors' reference doses.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Every source record and indexed dataset row that names pea protein",
+        "protocol_ref": "data/evidence/engine/ingredient/pea-protein/evidence-ledger.json",
+        "record_refs": [
+          "data/evidence/engine/ingredient/pea-protein/synthesis.json"
+        ],
+        "screening_ref": "data/evidence/engine/ingredient/pea-protein/evidence-ledger.json",
+        "searched_through": "2026-11-03",
+        "limitations": [
+          "Open literature and the HMI library were searched for pea protein, pea protein isolate, Pisum sativum and pulse-protein metal studies.",
+          "Supplier notices and company certificates were excluded.",
+          "The 2009 Canadian field-pea article is closed and was not table-extracted.",
+          "Clean Label Project market reports are not peer-reviewed and were not used as concentrations."
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [
+        "wiki/sources/ring2021-ireland-protein-powders-metals.md"
+      ],
+      "synthesis_refs": [
+        "data/evidence/syntheses/engine-ingredient-pea-protein-v1.json#product/1"
+      ],
+      "applicability": "Applies only to the source-specific material, period, preparation and endpoint stated in the answer and attached evidence records",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/ingredients/pea-protein.md"
+      ]
+    },
+    {
+      "question_id": "HMI-ING-032",
+      "scope": {
+        "analytes": "Pb, Cd, tAs, tHg, Ni, Cr and Sn",
+        "material_form": "Garden pea fruit, dry weight, Pea protein, powder or ground and Pea protein, as sold",
+        "basis": "As reported; µg/kg; no moisture conversion",
+        "geography_market": "Reporting region, purchase market or growing area as each source reports",
+        "period": "Source collection years where reported; unreported dates stay unknown",
+        "stage": "Growing area, processing, retail and release testing",
+        "population_route": "Dietary ingestion",
+        "comparator_outcome": "HMI references by form and basis; same-study site, sampling and form contrasts"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "available",
+      "answer": "At one serving a day, no powder in the study had a hazard index above 1.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Every source record and indexed dataset row that names pea protein",
+        "protocol_ref": "data/evidence/engine/ingredient/pea-protein/evidence-ledger.json",
+        "record_refs": [
+          "data/evidence/engine/ingredient/pea-protein/synthesis.json"
+        ],
+        "screening_ref": "data/evidence/engine/ingredient/pea-protein/evidence-ledger.json",
+        "searched_through": "2026-11-03",
+        "limitations": [
+          "Open literature and the HMI library were searched for pea protein, pea protein isolate, Pisum sativum and pulse-protein metal studies.",
+          "Supplier notices and company certificates were excluded.",
+          "The 2009 Canadian field-pea article is closed and was not table-extracted.",
+          "Clean Label Project market reports are not peer-reviewed and were not used as concentrations."
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [
+        "wiki/sources/ring2021-ireland-protein-powders-metals.md"
+      ],
+      "synthesis_refs": [
+        "data/evidence/syntheses/engine-ingredient-pea-protein-v1.json#product/2"
+      ],
+      "applicability": "Applies only to the source-specific material, period, preparation and endpoint stated in the answer and attached evidence records",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/ingredients/pea-protein.md"
+      ]
+    },
+    {
+      "question_id": "HMI-ING-033",
+      "scope": {
+        "analytes": "Pb, Cd, tAs, tHg, Ni, Cr and Sn",
+        "material_form": "Garden pea fruit, dry weight, Pea protein, powder or ground and Pea protein, as sold",
+        "basis": "As reported; µg/kg; no moisture conversion",
+        "geography_market": "Reporting region, purchase market or growing area as each source reports",
+        "period": "Source collection years where reported; unreported dates stay unknown",
+        "stage": "Growing area, processing, retail and release testing",
+        "population_route": "Dietary ingestion",
+        "comparator_outcome": "HMI references by form and basis; same-study site, sampling and form contrasts"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "available",
+      "answer": "At three servings a day, ten powders did, including one of the two pea powders, a mixed plant powder, a casein powder, and several whey powders.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Every source record and indexed dataset row that names pea protein",
+        "protocol_ref": "data/evidence/engine/ingredient/pea-protein/evidence-ledger.json",
+        "record_refs": [
+          "data/evidence/engine/ingredient/pea-protein/synthesis.json"
+        ],
+        "screening_ref": "data/evidence/engine/ingredient/pea-protein/evidence-ledger.json",
+        "searched_through": "2026-11-03",
+        "limitations": [
+          "Open literature and the HMI library were searched for pea protein, pea protein isolate, Pisum sativum and pulse-protein metal studies.",
+          "Supplier notices and company certificates were excluded.",
+          "The 2009 Canadian field-pea article is closed and was not table-extracted.",
+          "Clean Label Project market reports are not peer-reviewed and were not used as concentrations."
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [
+        "wiki/sources/ring2021-ireland-protein-powders-metals.md"
+      ],
+      "synthesis_refs": [
+        "data/evidence/syntheses/engine-ingredient-pea-protein-v1.json#product/3"
+      ],
+      "applicability": "Applies only to the source-specific material, period, preparation and endpoint stated in the answer and attached evidence records",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/ingredients/pea-protein.md"
+      ]
+    },
+    {
+      "question_id": "HMI-ING-034",
+      "scope": {
+        "analytes": "Pb, Cd, tAs, tHg, Ni, Cr and Sn",
+        "material_form": "Garden pea fruit, dry weight, Pea protein, powder or ground and Pea protein, as sold",
+        "basis": "As reported; µg/kg; no moisture conversion",
+        "geography_market": "Reporting region, purchase market or growing area as each source reports",
+        "period": "Source collection years where reported; unreported dates stay unknown",
+        "stage": "Growing area, processing, retail and release testing",
+        "population_route": "Dietary ingestion",
+        "comparator_outcome": "HMI references by form and basis; same-study site, sampling and form contrasts"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "available",
+      "answer": "The 2009 Canadian field-pea article remains closed: the abstract means are cited with that limit, and they are not rows.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Every source record and indexed dataset row that names pea protein",
+        "protocol_ref": "data/evidence/engine/ingredient/pea-protein/evidence-ledger.json",
+        "record_refs": [
+          "data/evidence/engine/ingredient/pea-protein/synthesis.json"
+        ],
+        "screening_ref": "data/evidence/engine/ingredient/pea-protein/evidence-ledger.json",
+        "searched_through": "2026-11-03",
+        "limitations": [
+          "Open literature and the HMI library were searched for pea protein, pea protein isolate, Pisum sativum and pulse-protein metal studies.",
+          "Supplier notices and company certificates were excluded.",
+          "The 2009 Canadian field-pea article is closed and was not table-extracted.",
+          "Clean Label Project market reports are not peer-reviewed and were not used as concentrations."
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [
+        "wiki/sources/gawalko2009-canadian-field-peas-trace-elements.md"
+      ],
+      "synthesis_refs": [
+        "data/evidence/syntheses/engine-ingredient-pea-protein-v1.json#assessment/1"
+      ],
+      "applicability": "Applies only to the source-specific material, period, preparation and endpoint stated in the answer and attached evidence records",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/ingredients/pea-protein.md"
+      ]
+    },
+    {
+      "question_id": "HMI-ING-035",
+      "scope": {
+        "analytes": "Pb, Cd, tAs, tHg, Ni, Cr and Sn",
+        "material_form": "Garden pea fruit, dry weight, Pea protein, powder or ground and Pea protein, as sold",
+        "basis": "As reported; µg/kg; no moisture conversion",
+        "geography_market": "Reporting region, purchase market or growing area as each source reports",
+        "period": "Source collection years where reported; unreported dates stay unknown",
+        "stage": "Growing area, processing, retail and release testing",
+        "population_route": "Dietary ingestion",
+        "comparator_outcome": "HMI references by form and basis; same-study site, sampling and form contrasts"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "available",
+      "answer": "A paired seed and isolate from the same lots would show whether protein separation concentrates cadmium, which the legal 40 versus 100 µg/kg split only allows for and does not measure.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Every source record and indexed dataset row that names pea protein",
+        "protocol_ref": "data/evidence/engine/ingredient/pea-protein/evidence-ledger.json",
+        "record_refs": [
+          "data/evidence/engine/ingredient/pea-protein/synthesis.json"
+        ],
+        "screening_ref": "data/evidence/engine/ingredient/pea-protein/evidence-ledger.json",
+        "searched_through": "2026-11-03",
+        "limitations": [
+          "Open literature and the HMI library were searched for pea protein, pea protein isolate, Pisum sativum and pulse-protein metal studies.",
+          "Supplier notices and company certificates were excluded.",
+          "The 2009 Canadian field-pea article is closed and was not table-extracted.",
+          "Clean Label Project market reports are not peer-reviewed and were not used as concentrations."
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [
+        "wiki/sources/eu-2021-1323-cadmium-foodstuffs-amendment.md"
+      ],
+      "synthesis_refs": [
+        "data/evidence/syntheses/engine-ingredient-pea-protein-v1.json#assessment/2"
+      ],
+      "applicability": "Applies only to the source-specific material, period, preparation and endpoint stated in the answer and attached evidence records",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/ingredients/pea-protein.md"
+      ]
+    },
+    {
+      "question_id": "HMI-ING-036",
+      "scope": {
+        "analytes": "Pb, Cd, tAs, tHg, Ni, Cr and Sn",
+        "material_form": "Garden pea fruit, dry weight, Pea protein, powder or ground and Pea protein, as sold",
+        "basis": "As reported; µg/kg; no moisture conversion",
+        "geography_market": "Reporting region, purchase market or growing area as each source reports",
+        "period": "Source collection years where reported; unreported dates stay unknown",
+        "stage": "Growing area, processing, retail and release testing",
+        "population_route": "Dietary ingestion",
+        "comparator_outcome": "HMI references by form and basis; same-study site, sampling and form contrasts"
+      },
+      "workflow_state": "unassessed",
+      "evidence_state": "not_assessed",
+      "answer": "Every source record that names pea protein was decided on its content: 3 occurrence extracted, 3 records in all.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Every source record and indexed dataset row that names pea protein",
+        "protocol_ref": "data/evidence/engine/ingredient/pea-protein/evidence-ledger.json",
+        "record_refs": [
+          "data/evidence/engine/ingredient/pea-protein/synthesis.json"
+        ],
+        "screening_ref": "data/evidence/engine/ingredient/pea-protein/evidence-ledger.json",
+        "searched_through": "2026-11-03",
+        "limitations": [
+          "Open literature and the HMI library were searched for pea protein, pea protein isolate, Pisum sativum and pulse-protein metal studies.",
+          "Supplier notices and company certificates were excluded.",
+          "The 2009 Canadian field-pea article is closed and was not table-extracted.",
+          "Clean Label Project market reports are not peer-reviewed and were not used as concentrations."
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [],
+      "synthesis_refs": [
+        "data/evidence/syntheses/engine-ingredient-pea-protein-v1.json#assessment/3"
+      ],
+      "applicability": "Scope remains unassessed; statement describes the limit of this pilot",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/ingredients/pea-protein.md"
+      ]
+    }
+  ]
+}

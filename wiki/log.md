@@ -3,6 +3,26 @@ title: Heavy Metal Index — Change Log
 noindex: true
 ---
 
+## [2026-11-04] chore | keep the Vercel site build inside the 45-minute cap
+
+Pages touched: none
+Notes: The Vercel build skips read-only audits and spills compiled explorer markup to temporary files so the site compile fits in a 6 GB heap. Generators and the postbuild writers still run, so the published HTML is unchanged. CI runs the skipped audits after a site build. No literature value and no certification number was added. Direction: toward the literature.
+
+## [2026-11-03] content | karen-pendergrass author page selects major works
+
+Pages touched: [[authors/karen-pendergrass]], [[about]]
+Notes: Replaced the full reprint of 319 ORCID works with ten major works (title, venue, year, and DOI) and a Recent work and updates section. Roles, education, websites, and keywords from the November 3, 2026 ORCID record stay on the page. The full work list stays on ORCID 0000-0002-2348-7259. No literature value and no certification number was added. Direction: toward the public record.
+
+## [2026-11-03] content | restore canonical ingredient pages overwritten by the November production cutover
+
+Pages touched: compiled ingredient articles restored from the 27 Oct 2026 live checkout (`snapshot/live-wiki-20261027`, commit 7c4807dfe), including cocoa. Rice is unchanged from that checkout. Rice protein and pea protein stay on the 3 Nov evidence fill. Ingredient directory indexes stay on main. Organic-certification copy and the author page are untouched.
+Notes: Main has never contained the canonical cocoa article. Production through 26 Oct 2026 was the live checkout, which renders the findings explorer and Quick read accordions. The 1 Nov git deploy of main replaced that checkout with the pre-canonical articles. Hero images already published on main, or named in the hero registry when the asset exists, are kept on the restored pages. No supplier or manufacturer notice was added. No concentration was recalculated and no certification limit was edited. Direction: toward the literature.
+
+## [2026-11-03] content | karen-pendergrass author page rebuilt from the public ORCID record
+
+Pages touched: [[authors/karen-pendergrass]], [[about]]
+Notes: Rebuilt the author page from the public ORCID record 0000-0002-2348-7259, retrieved November 3, 2026, and from the verified roles for this page. The record lists 319 works (490 version summaries), 311 of them with a DOI, 3 employment entries, 1 education entry, 1 qualification, 1 invited position, 2 service entries, 36 keywords, and 8 website links. Funding, peer review, distinctions, memberships, and external identifiers are empty on that record and are stated as empty. The Beneficial Microbes talk title and date come from the Zenodo handout 10.5281/zenodo.22637121. No literature value and no certification number was added. Direction: toward the public record.
+
 ## [2026-10-28] content | retired ingredient redirects point at live pages
 
 Pages touched: ingredient and product category pages regenerated from the category builder, including Oils and fats. Spring onion and rice koji are recorded as retired stubs. Their 301s were already in the deploy file and were not in the PR #440 page list.

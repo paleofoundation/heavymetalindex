@@ -1,0 +1,29 @@
+{
+  "order": "HMI-ING-RICE-PROTEIN-1 and HMI-ING-PEA-PROTEIN-1 heroes",
+  "batch": 94,
+  "generationDate": "2026-11-03",
+  "generator": "Cursor image generation, then a 3:1 crop and WebP quality 85",
+  "styleDocument": "docs/IMAGE-STYLE.md",
+  "creditText": "Heavy Metal Index",
+  "digitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+  "note": "Masters were 1280 by 720. Each was cropped to 3:1, keeping the dark left half and the subjects on the right, then resized to 2164 by 721. These are conceptual still lifes, not photographs of tested samples.",
+  "commonPrompt": "Use case: photorealistic-natural. Decorative Heavy Metal Index website hero, editorial photographic still life. Panoramic 3:1, objects in center-right, dark soft-focus left half for white title copy. Charcoal work surface, restrained natural side light, muted earth colors with burgundy undertones, premium scientific publication style. No people, text, labels, brands, diagrams, warning signs or watermark. Conceptual context only, no visible contamination or analytical results. Scene:",
+  "assets": [
+    {
+      "url": "/static/heroes/rice-protein-grains-powder.webp",
+      "sha256": "bb856c2dbadb28e88b03e09a5b0f96242383e948873ef96fa2e9d0d063df7b6c",
+      "width": 2164,
+      "height": 721,
+      "scene": "A shallow ceramic bowl of uncooked brown rice grains, a smaller bowl of fine off-white rice protein powder, and a few loose grains on a charcoal work surface, burgundy cloth in the background.",
+      "pages": ["ingredients/rice-protein"]
+    },
+    {
+      "url": "/static/heroes/pea-protein-split-peas-powder.webp",
+      "sha256": "31ae988483ca6d23a593777867c0dcc8f9dcba435bc21c1c4874ec3758f7f3d2",
+      "width": 2164,
+      "height": 721,
+      "scene": "Dry yellow split peas in a ceramic bowl, an open pea pod with a few peas, and a smaller bowl of fine pale pea protein powder on a charcoal work surface, burgundy cloth behind.",
+      "pages": ["ingredients/pea-protein"]
+    }
+  ]
+}

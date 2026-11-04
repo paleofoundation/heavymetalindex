@@ -1,0 +1,39 @@
+{
+ "source_id": "wang2026-lanthanum-biochar-ammonium-adsorption",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-RARE-EARTHS-1/lanthanum/10.1039_d6ra07475h.pdf",
+ "primary_sha256": "74aea51302e5f9c522b9a7bdc1ee855853ad67108ea8355084a6bef10de4fc60",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "out_of_scope",
+ "disposition_reason": "Wastewater treatment material study; no exposure-relevant data.",
+ "disposition_locator": "Abstract",
+ "study": {
+  "design": "adsorbent development",
+  "origin": "Inner Mongolia, China",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "not stated"
+  },
+  "method": "adsorption tests",
+  "lod": [],
+  "basis": "unknown",
+  "qa": "not applicable",
+  "site_context": "laboratory"
+ },
+ "findings": [],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/wang2026-lanthanum-biochar-ammonium-adsorption.md",
+ "non_numeric_findings": [
+  "Lanthanum-modified biochars selectively adsorbed ammonium."
+ ]
+}

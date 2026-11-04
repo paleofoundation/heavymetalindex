@@ -1,0 +1,745 @@
+{
+  "method": "hmi-pooled-reference-v2",
+  "frozen": "2026-11-03",
+  "admission": [
+    {
+      "finding": "lopezcalabozo2025-vegetable-protein-concentrates:Pb:rice-protein-concentrate-anonymized-product-1:not_detected",
+      "source": "lopezcalabozo2025-vegetable-protein-concentrates",
+      "analyte": "Pb",
+      "reference_id": null,
+      "reason": "The source does not state whether results are fresh or dry weight, so no reference applies.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "lopezcalabozo2025-vegetable-protein-concentrates:Pb:rice-protein-concentrate-anonymized-product-2:mean",
+      "source": "lopezcalabozo2025-vegetable-protein-concentrates",
+      "analyte": "Pb",
+      "reference_id": null,
+      "reason": "The source does not state whether results are fresh or dry weight, so no reference applies.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "lopezcalabozo2025-vegetable-protein-concentrates:Cd:rice-protein-concentrate-anonymized-product-1:not_detected",
+      "source": "lopezcalabozo2025-vegetable-protein-concentrates",
+      "analyte": "Cd",
+      "reference_id": null,
+      "reason": "The source does not state whether results are fresh or dry weight, so no reference applies.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "lopezcalabozo2025-vegetable-protein-concentrates:Cd:rice-protein-concentrate-anonymized-product-2:not_detected",
+      "source": "lopezcalabozo2025-vegetable-protein-concentrates",
+      "analyte": "Cd",
+      "reference_id": null,
+      "reason": "The source does not state whether results are fresh or dry weight, so no reference applies.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "fda2013-ias-rice-products-sampling:tAs:333511880:sample_value",
+      "source": "fda2013-ias-rice-products-sampling",
+      "analyte": "tAs",
+      "reference_id": "hmi-pooled-reference-v2:rice-protein-203badecdc99:9107b251b36e",
+      "reason": null,
+      "level": "moderate",
+      "target": {
+        "lower": 108,
+        "upper": 108,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2013-ias-rice-products-sampling:tAs:333511892:sample_value",
+      "source": "fda2013-ias-rice-products-sampling",
+      "analyte": "tAs",
+      "reference_id": "hmi-pooled-reference-v2:rice-protein-203badecdc99:9107b251b36e",
+      "reason": null,
+      "level": "moderate",
+      "target": {
+        "lower": 86,
+        "upper": 86,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2013-ias-rice-products-sampling:tAs:333511937:sample_value",
+      "source": "fda2013-ias-rice-products-sampling",
+      "analyte": "tAs",
+      "reference_id": "hmi-pooled-reference-v2:rice-protein-203badecdc99:9107b251b36e",
+      "reason": null,
+      "level": "moderate",
+      "target": {
+        "lower": 94,
+        "upper": 94,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2013-ias-rice-products-sampling:tAs:333687931:sample_value",
+      "source": "fda2013-ias-rice-products-sampling",
+      "analyte": "tAs",
+      "reference_id": "hmi-pooled-reference-v2:rice-protein-203badecdc99:9107b251b36e",
+      "reason": null,
+      "level": "moderate",
+      "target": {
+        "lower": 110,
+        "upper": 110,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2013-ias-rice-products-sampling:tAs:333687971:trace",
+      "source": "fda2013-ias-rice-products-sampling",
+      "analyte": "tAs",
+      "reference_id": null,
+      "reason": "Held: Trace result between the detection limit and the quantification limit. The parenthetical figure is not a fully quantified result.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "fda2013-ias-rice-products-sampling:tAs:333688312:sample_value",
+      "source": "fda2013-ias-rice-products-sampling",
+      "analyte": "tAs",
+      "reference_id": "hmi-pooled-reference-v2:rice-protein-203badecdc99:9107b251b36e",
+      "reason": null,
+      "level": "moderate",
+      "target": {
+        "lower": 120,
+        "upper": 120,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2013-ias-rice-products-sampling:tAs:333863609:lt_lod",
+      "source": "fda2013-ias-rice-products-sampling",
+      "analyte": "tAs",
+      "reference_id": "hmi-pooled-reference-v2:rice-protein-203badecdc99:9107b251b36e",
+      "reason": null,
+      "level": "low",
+      "target": {
+        "lower": 0,
+        "upper": 10,
+        "exact": false,
+        "statistic": "non-detect bounds"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2013-ias-rice-products-sampling:tAs:334093871:sample_value",
+      "source": "fda2013-ias-rice-products-sampling",
+      "analyte": "tAs",
+      "reference_id": "hmi-pooled-reference-v2:rice-protein-203badecdc99:9107b251b36e",
+      "reason": null,
+      "level": "high",
+      "target": {
+        "lower": 130,
+        "upper": 130,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2013-ias-rice-products-sampling:tAs:334093956:sample_value",
+      "source": "fda2013-ias-rice-products-sampling",
+      "analyte": "tAs",
+      "reference_id": "hmi-pooled-reference-v2:rice-protein-203badecdc99:9107b251b36e",
+      "reason": null,
+      "level": "high",
+      "target": {
+        "lower": 230,
+        "upper": 230,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2013-ias-rice-products-sampling:tAs:334094067:sample_value",
+      "source": "fda2013-ias-rice-products-sampling",
+      "analyte": "tAs",
+      "reference_id": "hmi-pooled-reference-v2:rice-protein-203badecdc99:9107b251b36e",
+      "reason": null,
+      "level": "moderate",
+      "target": {
+        "lower": 100,
+        "upper": 100,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2013-ias-rice-products-sampling:tAs:334094485:trace",
+      "source": "fda2013-ias-rice-products-sampling",
+      "analyte": "tAs",
+      "reference_id": null,
+      "reason": "Held: Trace result between the detection limit and the quantification limit. The parenthetical figure is not a fully quantified result.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "fda2013-ias-rice-products-sampling:tAs:334620956:sample_value",
+      "source": "fda2013-ias-rice-products-sampling",
+      "analyte": "tAs",
+      "reference_id": "hmi-pooled-reference-v2:rice-protein-203badecdc99:9107b251b36e",
+      "reason": null,
+      "level": "moderate",
+      "target": {
+        "lower": 90,
+        "upper": 90,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2013-ias-rice-products-sampling:tAs:333512027:sample_value",
+      "source": "fda2013-ias-rice-products-sampling",
+      "analyte": "tAs",
+      "reference_id": "hmi-pooled-reference-v2:rice-protein-203badecdc99:9107b251b36e",
+      "reason": null,
+      "level": "low",
+      "target": {
+        "lower": 82,
+        "upper": 82,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2013-ias-rice-products-sampling:tAs:333512299:sample_value",
+      "source": "fda2013-ias-rice-products-sampling",
+      "analyte": "tAs",
+      "reference_id": "hmi-pooled-reference-v2:rice-protein-203badecdc99:9107b251b36e",
+      "reason": null,
+      "level": "moderate",
+      "target": {
+        "lower": 94,
+        "upper": 94,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2013-ias-rice-products-sampling:tAs:333512301:trace",
+      "source": "fda2013-ias-rice-products-sampling",
+      "analyte": "tAs",
+      "reference_id": null,
+      "reason": "Held: Trace result between the detection limit and the quantification limit. The parenthetical figure is not a fully quantified result.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "fda2013-ias-rice-products-sampling:tAs:333688277:sample_value",
+      "source": "fda2013-ias-rice-products-sampling",
+      "analyte": "tAs",
+      "reference_id": "hmi-pooled-reference-v2:rice-protein-203badecdc99:9107b251b36e",
+      "reason": null,
+      "level": "moderate",
+      "target": {
+        "lower": 110,
+        "upper": 110,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2013-ias-rice-products-sampling:tAs:334095704:sample_value",
+      "source": "fda2013-ias-rice-products-sampling",
+      "analyte": "tAs",
+      "reference_id": "hmi-pooled-reference-v2:rice-protein-203badecdc99:9107b251b36e",
+      "reason": null,
+      "level": "high",
+      "target": {
+        "lower": 130,
+        "upper": 130,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2013-ias-rice-products-sampling:tAs:334095916:lt_lod",
+      "source": "fda2013-ias-rice-products-sampling",
+      "analyte": "tAs",
+      "reference_id": "hmi-pooled-reference-v2:rice-protein-203badecdc99:9107b251b36e",
+      "reason": null,
+      "level": "low",
+      "target": {
+        "lower": 0,
+        "upper": 10,
+        "exact": false,
+        "statistic": "non-detect bounds"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2013-ias-rice-products-sampling:tAs:333512053:sample_value",
+      "source": "fda2013-ias-rice-products-sampling",
+      "analyte": "tAs",
+      "reference_id": "hmi-pooled-reference-v2:rice-protein-8db3b75ddfe7:9cba856802fb",
+      "reason": "Only 1 reference unit is available; at least four are required by this descriptive display rule.",
+      "level": null,
+      "target": {
+        "lower": 260,
+        "upper": 260,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2013-ias-rice-products-sampling:iAs:333511880:sample_value",
+      "source": "fda2013-ias-rice-products-sampling",
+      "analyte": "iAs",
+      "reference_id": "hmi-pooled-reference-v2:rice-protein-e572877ed71a:69ec811f795b",
+      "reason": null,
+      "level": "moderate",
+      "target": {
+        "lower": 50,
+        "upper": 50,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2013-ias-rice-products-sampling:iAs:333511892:sample_value",
+      "source": "fda2013-ias-rice-products-sampling",
+      "analyte": "iAs",
+      "reference_id": "hmi-pooled-reference-v2:rice-protein-e572877ed71a:69ec811f795b",
+      "reason": null,
+      "level": "low",
+      "target": {
+        "lower": 37,
+        "upper": 37,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2013-ias-rice-products-sampling:iAs:333511937:sample_value",
+      "source": "fda2013-ias-rice-products-sampling",
+      "analyte": "iAs",
+      "reference_id": "hmi-pooled-reference-v2:rice-protein-e572877ed71a:69ec811f795b",
+      "reason": null,
+      "level": "moderate",
+      "target": {
+        "lower": 43,
+        "upper": 43,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2013-ias-rice-products-sampling:iAs:333687931:sample_value",
+      "source": "fda2013-ias-rice-products-sampling",
+      "analyte": "iAs",
+      "reference_id": "hmi-pooled-reference-v2:rice-protein-e572877ed71a:69ec811f795b",
+      "reason": null,
+      "level": "high",
+      "target": {
+        "lower": 71,
+        "upper": 71,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2013-ias-rice-products-sampling:iAs:333687971:sample_value",
+      "source": "fda2013-ias-rice-products-sampling",
+      "analyte": "iAs",
+      "reference_id": "hmi-pooled-reference-v2:rice-protein-e572877ed71a:69ec811f795b",
+      "reason": null,
+      "level": "moderate",
+      "target": {
+        "lower": 42,
+        "upper": 42,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2013-ias-rice-products-sampling:iAs:333688312:sample_value",
+      "source": "fda2013-ias-rice-products-sampling",
+      "analyte": "iAs",
+      "reference_id": "hmi-pooled-reference-v2:rice-protein-e572877ed71a:69ec811f795b",
+      "reason": null,
+      "level": "moderate",
+      "target": {
+        "lower": 67,
+        "upper": 67,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2013-ias-rice-products-sampling:iAs:333863609:assumed",
+      "source": "fda2013-ias-rice-products-sampling",
+      "analyte": "iAs",
+      "reference_id": null,
+      "reason": "Held: Inorganic arsenic cell is not an independent speciation result. Dimethylarsinic acid and monomethylarsonic acid are marked not speciated.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "fda2013-ias-rice-products-sampling:iAs:334093871:sample_value",
+      "source": "fda2013-ias-rice-products-sampling",
+      "analyte": "iAs",
+      "reference_id": "hmi-pooled-reference-v2:rice-protein-e572877ed71a:69ec811f795b",
+      "reason": null,
+      "level": "high",
+      "target": {
+        "lower": 71,
+        "upper": 71,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2013-ias-rice-products-sampling:iAs:334093956:sample_value",
+      "source": "fda2013-ias-rice-products-sampling",
+      "analyte": "iAs",
+      "reference_id": "hmi-pooled-reference-v2:rice-protein-e572877ed71a:69ec811f795b",
+      "reason": null,
+      "level": "high",
+      "target": {
+        "lower": 152,
+        "upper": 152,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2013-ias-rice-products-sampling:iAs:334094067:sample_value",
+      "source": "fda2013-ias-rice-products-sampling",
+      "analyte": "iAs",
+      "reference_id": "hmi-pooled-reference-v2:rice-protein-e572877ed71a:69ec811f795b",
+      "reason": null,
+      "level": "high",
+      "target": {
+        "lower": 72,
+        "upper": 72,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2013-ias-rice-products-sampling:iAs:334094485:sample_value",
+      "source": "fda2013-ias-rice-products-sampling",
+      "analyte": "iAs",
+      "reference_id": "hmi-pooled-reference-v2:rice-protein-e572877ed71a:69ec811f795b",
+      "reason": null,
+      "level": "moderate",
+      "target": {
+        "lower": 39,
+        "upper": 39,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2013-ias-rice-products-sampling:iAs:334620956:sample_value",
+      "source": "fda2013-ias-rice-products-sampling",
+      "analyte": "iAs",
+      "reference_id": "hmi-pooled-reference-v2:rice-protein-e572877ed71a:69ec811f795b",
+      "reason": null,
+      "level": "moderate",
+      "target": {
+        "lower": 44,
+        "upper": 44,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2013-ias-rice-products-sampling:iAs:333512027:sample_value",
+      "source": "fda2013-ias-rice-products-sampling",
+      "analyte": "iAs",
+      "reference_id": "hmi-pooled-reference-v2:rice-protein-e572877ed71a:69ec811f795b",
+      "reason": null,
+      "level": "low",
+      "target": {
+        "lower": 37,
+        "upper": 37,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2013-ias-rice-products-sampling:iAs:333512299:sample_value",
+      "source": "fda2013-ias-rice-products-sampling",
+      "analyte": "iAs",
+      "reference_id": "hmi-pooled-reference-v2:rice-protein-e572877ed71a:69ec811f795b",
+      "reason": null,
+      "level": "low",
+      "target": {
+        "lower": 30,
+        "upper": 30,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2013-ias-rice-products-sampling:iAs:333512301:sample_value",
+      "source": "fda2013-ias-rice-products-sampling",
+      "analyte": "iAs",
+      "reference_id": "hmi-pooled-reference-v2:rice-protein-e572877ed71a:69ec811f795b",
+      "reason": null,
+      "level": "low",
+      "target": {
+        "lower": 25,
+        "upper": 25,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2013-ias-rice-products-sampling:iAs:333688277:sample_value",
+      "source": "fda2013-ias-rice-products-sampling",
+      "analyte": "iAs",
+      "reference_id": "hmi-pooled-reference-v2:rice-protein-e572877ed71a:69ec811f795b",
+      "reason": null,
+      "level": "moderate",
+      "target": {
+        "lower": 47,
+        "upper": 47,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2013-ias-rice-products-sampling:iAs:334095704:sample_value",
+      "source": "fda2013-ias-rice-products-sampling",
+      "analyte": "iAs",
+      "reference_id": "hmi-pooled-reference-v2:rice-protein-e572877ed71a:69ec811f795b",
+      "reason": null,
+      "level": "moderate",
+      "target": {
+        "lower": 53,
+        "upper": 53,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2013-ias-rice-products-sampling:iAs:334095916:assumed",
+      "source": "fda2013-ias-rice-products-sampling",
+      "analyte": "iAs",
+      "reference_id": null,
+      "reason": "Held: Inorganic arsenic cell is not an independent speciation result. Dimethylarsinic acid and monomethylarsonic acid are marked not speciated.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "fda2013-ias-rice-products-sampling:iAs:333512053:sample_value",
+      "source": "fda2013-ias-rice-products-sampling",
+      "analyte": "iAs",
+      "reference_id": "hmi-pooled-reference-v2:rice-protein-f841e7876af9:1edec0e47c24",
+      "reason": "Only 1 reference unit is available; at least four are required by this descriptive display rule.",
+      "level": null,
+      "target": {
+        "lower": 99,
+        "upper": 99,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "cfia2020-toxic-metals-selected-foods-2018-19:tHg:brown-rice-protein-powder:sample_value",
+      "source": "cfia2020-toxic-metals-selected-foods-2018-19",
+      "analyte": "tHg",
+      "reference_id": "hmi-pooled-reference-v2:rice-protein-e0c00e626210:14175b3d1421",
+      "reason": "Only 1 reference unit is available; at least four are required by this descriptive display rule.",
+      "level": null,
+      "target": {
+        "lower": 22,
+        "upper": 22,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "lopezcalabozo2025-vegetable-protein-concentrates:Ni:rice-protein-concentrate-anonymized-product-1:mean",
+      "source": "lopezcalabozo2025-vegetable-protein-concentrates",
+      "analyte": "Ni",
+      "reference_id": null,
+      "reason": "The source does not state whether results are fresh or dry weight, so no reference applies.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "lopezcalabozo2025-vegetable-protein-concentrates:Ni:rice-protein-concentrate-anonymized-product-2:mean",
+      "source": "lopezcalabozo2025-vegetable-protein-concentrates",
+      "analyte": "Ni",
+      "reference_id": null,
+      "reason": "The source does not state whether results are fresh or dry weight, so no reference applies.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "lopezcalabozo2025-vegetable-protein-concentrates:Cr:rice-protein-concentrate-anonymized-product-1:mean",
+      "source": "lopezcalabozo2025-vegetable-protein-concentrates",
+      "analyte": "Cr",
+      "reference_id": null,
+      "reason": "The source does not state whether results are fresh or dry weight, so no reference applies.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "lopezcalabozo2025-vegetable-protein-concentrates:Cr:rice-protein-concentrate-anonymized-product-2:mean",
+      "source": "lopezcalabozo2025-vegetable-protein-concentrates",
+      "analyte": "Cr",
+      "reference_id": null,
+      "reason": "The source does not state whether results are fresh or dry weight, so no reference applies.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    }
+  ],
+  "unit_audit": [
+    {
+      "unit": "lopezcalabozo2025-vegetable-protein-concentrates:Pb:rice-protein-concentrate-anonymized-product-1:not_detected",
+      "admitted": false,
+      "reason": "basis not stated: cannot join an as-sold, fresh-weight or dry-weight reference"
+    },
+    {
+      "unit": "lopezcalabozo2025-vegetable-protein-concentrates:Pb:rice-protein-concentrate-anonymized-product-2:mean",
+      "admitted": false,
+      "reason": "a mean is not an observed subgroup median or sample value"
+    },
+    {
+      "unit": "lopezcalabozo2025-vegetable-protein-concentrates:Cd:rice-protein-concentrate-anonymized-product-1:not_detected",
+      "admitted": false,
+      "reason": "basis not stated: cannot join an as-sold, fresh-weight or dry-weight reference"
+    },
+    {
+      "unit": "lopezcalabozo2025-vegetable-protein-concentrates:Cd:rice-protein-concentrate-anonymized-product-2:not_detected",
+      "admitted": false,
+      "reason": "basis not stated: cannot join an as-sold, fresh-weight or dry-weight reference"
+    },
+    {
+      "unit": "fda2013-ias-rice-products-sampling:tAs:333687971:trace",
+      "admitted": false,
+      "reason": "held: fails a source integrity check"
+    },
+    {
+      "unit": "fda2013-ias-rice-products-sampling:tAs:334094485:trace",
+      "admitted": false,
+      "reason": "held: fails a source integrity check"
+    },
+    {
+      "unit": "fda2013-ias-rice-products-sampling:tAs:333512301:trace",
+      "admitted": false,
+      "reason": "held: fails a source integrity check"
+    },
+    {
+      "unit": "fda2013-ias-rice-products-sampling:iAs:333863609:assumed",
+      "admitted": false,
+      "reason": "held: fails a source integrity check"
+    },
+    {
+      "unit": "fda2013-ias-rice-products-sampling:iAs:334095916:assumed",
+      "admitted": false,
+      "reason": "held: fails a source integrity check"
+    },
+    {
+      "unit": "lopezcalabozo2025-vegetable-protein-concentrates:Ni:rice-protein-concentrate-anonymized-product-1:mean",
+      "admitted": false,
+      "reason": "a mean is not an observed subgroup median or sample value"
+    },
+    {
+      "unit": "lopezcalabozo2025-vegetable-protein-concentrates:Ni:rice-protein-concentrate-anonymized-product-2:mean",
+      "admitted": false,
+      "reason": "a mean is not an observed subgroup median or sample value"
+    },
+    {
+      "unit": "lopezcalabozo2025-vegetable-protein-concentrates:Cr:rice-protein-concentrate-anonymized-product-1:mean",
+      "admitted": false,
+      "reason": "a mean is not an observed subgroup median or sample value"
+    },
+    {
+      "unit": "lopezcalabozo2025-vegetable-protein-concentrates:Cr:rice-protein-concentrate-anonymized-product-2:mean",
+      "admitted": false,
+      "reason": "a mean is not an observed subgroup median or sample value"
+    }
+  ],
+  "unit_counts": {
+    "tAs|rice-protein: Rice protein, as sold|As sold, as eaten or fresh weight": {
+      "units": 15,
+      "families": [
+        "fda2013-ias-rice-products-sampling"
+      ]
+    },
+    "tAs|rice-protein: Rice protein, powder or ground|As sold, as eaten or fresh weight": {
+      "units": 1,
+      "families": [
+        "fda2013-ias-rice-products-sampling"
+      ]
+    },
+    "iAs|rice-protein: Rice protein, as sold|As sold, as eaten or fresh weight": {
+      "units": 16,
+      "families": [
+        "fda2013-ias-rice-products-sampling"
+      ]
+    },
+    "iAs|rice-protein: Rice protein, powder or ground|As sold, as eaten or fresh weight": {
+      "units": 1,
+      "families": [
+        "fda2013-ias-rice-products-sampling"
+      ]
+    },
+    "tHg|rice-protein: Rice protein, powder or ground|As sold, as eaten or fresh weight": {
+      "units": 1,
+      "families": [
+        "cfia2020-toxic-metals-selected-foods-2018-19"
+      ]
+    }
+  }
+}

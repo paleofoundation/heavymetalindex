@@ -1,0 +1,39 @@
+{
+ "source_id": "zhu2018-rubidium-icp-ms-strontium-interference",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-STRONTIUM-1/10.2116_analsci.17sbp01.pdf",
+ "primary_sha256": "623b5abb4ef9ec23662e192a0949c06ec1b76c96b1c57aabe0a09ed0c6845545",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "out_of_scope",
+ "disposition_reason": "Analytical method for rubidium; strontium appears only as an isobaric interferent.",
+ "disposition_locator": "Abstract, p. 681",
+ "study": {
+  "design": "analytical method development",
+  "origin": "National Metrology Institute of Japan",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "not stated"
+  },
+  "method": "ID-ICP-QMS/QMS with fluoromethane reaction gas",
+  "lod": [],
+  "basis": "unknown",
+  "qa": "certified reference materials",
+  "site_context": "laboratory"
+ },
+ "findings": [],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/zhu2018-rubidium-icp-ms-strontium-interference.md",
+ "non_numeric_findings": [
+  "Strontium-87 overlaps rubidium-87 in ICP-MS; fluoromethane reaction gas separates them (Abstract)."
+ ]
+}

@@ -1,0 +1,158 @@
+{
+ "source_id": "ziolafrankowska2014-polish-black-fruit-teas-boron",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-BORON-1/10.1155_2014_898425.pdf",
+ "primary_sha256": "aafeb4a509aa6524154ba9ab88df45858ad592af081254a061beb985280b3d18",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "occurrence_extracted",
+ "disposition_reason": "Total boron (mg/kg) in black teas, fruit-flavored black teas and fruit brews from the Polish market, by ICP-AES with SRM 1515 recovery check; group ranges and averages printed in text.",
+ "disposition_locator": "Results 3.1 and 3.2, p. 5; Figure 1; Table 1",
+ "study": {
+  "design": "market survey of tea-bag products",
+  "origin": "mixed (Kenya, India, Sri Lanka, China, Indonesia, Himalayas; many not stated)",
+  "market": "Polish market",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "not stated"
+  },
+  "method": "microwave digestion (modified EPA 3051) and water extraction; ICP-AES (iCAP 6500 duo)",
+  "lod": [],
+  "basis": "unknown",
+  "qa": "NIST SRM 1515 apple leaves, 102.5% recovery for acid digestion; triplicate measurements, RSD below 5%",
+  "site_context": "market"
+ },
+ "findings": [
+  {
+   "id": "ziolafrankowska2014-polish-black-fruit-teas-boron:B:black-tea-tea-bags--24-black-tea-products-polish-market:mean",
+   "material": {
+    "label_as_printed": "Black tea (tea bags)",
+    "page": "ingredients/camellia-sinensis",
+    "form": "dry leaf",
+    "state": "as_sold",
+    "route_rule": "override:HMI-METAL-INGEST-1"
+   },
+   "analyte": "B",
+   "group": "24 black tea products, Polish market",
+   "group_kind": "product_category",
+   "n": 24,
+   "statistic": "mean",
+   "reported": "13.5 mg/kg",
+   "value_ugkg": 13500,
+   "min_ugkg": 8310,
+   "max_ugkg": 18400,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Results 3.1, p. 5",
+   "integrity_flag": null,
+   "notes": "Average and range of total boron after acid digestion; min is sample 13, max is sample 20.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "ziolafrankowska2014-polish-black-fruit-teas-boron:B:black-tea-with-fruit-flavor-tea-bags--3-fruit-flavored-black-tea-products-samples-25-26-30:mean",
+   "material": {
+    "label_as_printed": "Black tea with fruit flavor (tea bags)",
+    "page": "ingredients/camellia-sinensis",
+    "form": "dry leaf",
+    "state": "as_sold",
+    "route_rule": "override:HMI-METAL-INGEST-1"
+   },
+   "analyte": "B",
+   "group": "3 fruit-flavored black tea products (samples 25, 26, 30)",
+   "group_kind": "product_category",
+   "n": 3,
+   "statistic": "mean",
+   "reported": "13.9 mg/kg",
+   "value_ugkg": 13900,
+   "min_ugkg": 12900,
+   "max_ugkg": 15100,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Results 3.1, p. 5",
+   "integrity_flag": null,
+   "notes": "Average and range of total boron.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "ziolafrankowska2014-polish-black-fruit-teas-boron:B:fruit-brew-dried-fruit-and-hibiscus-tea-bags--9-fruit-brew-products-samples-27-to-29-31-to-36:mean",
+   "material": {
+    "label_as_printed": "Fruit brew (dried fruit and hibiscus, tea bags)",
+    "page": "metals/boron",
+    "form": "dried fruit blend",
+    "state": "as_sold",
+    "route_rule": "override:HMI-METAL-INGEST-1"
+   },
+   "analyte": "B",
+   "group": "9 fruit brew products (samples 27 to 29, 31 to 36)",
+   "group_kind": "product_category",
+   "n": 9,
+   "statistic": "mean",
+   "reported": "17.4 mg/kg",
+   "value_ugkg": 17400,
+   "min_ugkg": 12100,
+   "max_ugkg": 22800,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Results 3.1, p. 5",
+   "integrity_flag": null,
+   "notes": "No tea leaves; mostly dried fruit with hibiscus. No ingredient page assigned.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "ziolafrankowska2014-polish-black-fruit-teas-boron:B:black-tea-tea-bags-water-soluble-fraction--24-black-tea-products-water-extract:range",
+   "material": {
+    "label_as_printed": "Black tea (tea bags), water-soluble fraction",
+    "page": "ingredients/camellia-sinensis",
+    "form": "dry leaf",
+    "state": "as_sold",
+    "route_rule": "override:HMI-METAL-INGEST-1"
+   },
+   "analyte": "B",
+   "group": "24 black tea products, water extract",
+   "group_kind": "product_category",
+   "n": 24,
+   "statistic": "range",
+   "reported": "0.72 to 4.49 mg/kg",
+   "value_ugkg": null,
+   "min_ugkg": 720,
+   "max_ugkg": 4490,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Results 3.2, p. 5",
+   "integrity_flag": null,
+   "notes": "Water-extractable boron per kg of dry tea (10 g in 100 mL, 1 h, 80 C); range only.",
+   "statistic_raw": "range"
+  }
+ ],
+ "unresolved": [
+  "Per-sample total boron values are only shown graphically (Figure 1).",
+  "Per-cup values are internally inconsistent with bag masses."
+ ],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [
+  "Per-cup boron (200 mL): 0.29 to 1.45 mg black tea; 2.52 to 7.24 mg fruit brew, as reported (Section 3.3, p. 6); not reconcilable with bag masses, not used.",
+  "Table 2 (p. 7) restates intake guidance from other bodies, e.g. EFSA 10 mg/day for adults and WHO 1 to 13 mg/day; secondary values."
+ ],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/ziolafrankowska2014-polish-black-fruit-teas-boron.md",
+ "non_numeric_findings": [
+  "Fruit brews released a larger share of boron into water than black teas, which the authors link to lower infusion pH and fruit constituents."
+ ]
+}

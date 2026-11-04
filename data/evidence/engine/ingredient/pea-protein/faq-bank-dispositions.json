@@ -1,0 +1,210 @@
+{
+  "selected_count": 12,
+  "bank": [
+    {
+      "id": "ING-FAQ-ED-1",
+      "status": "selected",
+      "question": "What heavy metals have been measured in pea protein?",
+      "answer_locator": "What heavy metals have been measured in pea protein?",
+      "primary_locator": "Authored section prose",
+      "source_keys": [
+        "ring2021-ireland-protein-powders-metals",
+        "lopezcalabozo2025-vegetable-protein-concentrates"
+      ]
+    },
+    {
+      "id": "ING-FAQ-ED-2",
+      "status": "selected",
+      "question": "How do cadmium and lead get into peas?",
+      "answer_locator": "How do cadmium and lead get into peas?",
+      "primary_locator": "Authored section prose",
+      "source_keys": [
+        "schaefer2020-cadmium-mitigation-strategies",
+        "galal2021-heavy-metals-pisum-sativum"
+      ]
+    },
+    {
+      "id": "ING-FAQ-ED-3",
+      "status": "selected",
+      "question": "Does making an isolate concentrate the metals?",
+      "answer_locator": "Does making an isolate concentrate the metals?",
+      "primary_locator": "Authored section prose",
+      "source_keys": [
+        "eu-2021-1323-cadmium-foodstuffs-amendment",
+        "ring2021-ireland-protein-powders-metals",
+        "schaefer2020-cadmium-mitigation-strategies"
+      ]
+    },
+    {
+      "id": "ING-FAQ-ED-4",
+      "status": "selected",
+      "question": "Are Canadian, Chinese, or European peas lower?",
+      "answer_locator": "Are Canadian, Chinese, or European peas lower?",
+      "primary_locator": "Authored section prose",
+      "source_keys": [
+        "ring2021-ireland-protein-powders-metals",
+        "lopezcalabozo2025-vegetable-protein-concentrates",
+        "gawalko2009-canadian-field-peas-trace-elements"
+      ]
+    },
+    {
+      "id": "ING-FAQ-ED-5",
+      "status": "selected",
+      "question": "How do pea powders compare with whey and other plant powders?",
+      "answer_locator": "How do pea powders compare with whey and other plant powders?",
+      "primary_locator": "Authored section prose",
+      "source_keys": [
+        "ring2021-ireland-protein-powders-metals",
+        "lopezcalabozo2025-vegetable-protein-concentrates"
+      ]
+    },
+    {
+      "id": "ING-FAQ-ED-6",
+      "status": "selected",
+      "question": "What legal limits apply?",
+      "answer_locator": "What legal limits apply?",
+      "primary_locator": "Authored section prose",
+      "source_keys": [
+        "eu-2021-1323-cadmium-foodstuffs-amendment",
+        "eu-2023-915-contaminants-maximum-levels",
+        "eu-2024-1987-nickel-maximum-levels"
+      ]
+    },
+    {
+      "id": "ING-FAQ-ED-7",
+      "status": "selected",
+      "question": "What should a laboratory report include?",
+      "answer_locator": "What should a laboratory report include?",
+      "primary_locator": "Authored section prose",
+      "source_keys": [
+        "eu-2021-1323-cadmium-foodstuffs-amendment",
+        "ring2021-ireland-protein-powders-metals"
+      ]
+    },
+    {
+      "id": "ING-FAQ-ED-8",
+      "status": "selected",
+      "question": "Do the concentrate non-detects mean the cadmium is very low?",
+      "answer_locator": "Do the concentrate non-detects mean the cadmium is very low?",
+      "primary_locator": "Authored section prose",
+      "source_keys": [
+        "lopezcalabozo2025-vegetable-protein-concentrates",
+        "ring2021-ireland-protein-powders-metals"
+      ]
+    },
+    {
+      "id": "ING-FAQ-ED-9",
+      "status": "selected",
+      "question": "Was arsenic measured?",
+      "answer_locator": "Was arsenic measured?",
+      "primary_locator": "Authored section prose",
+      "source_keys": [
+        "ring2021-ireland-protein-powders-metals",
+        "lopezcalabozo2025-vegetable-protein-concentrates",
+        "galal2021-heavy-metals-pisum-sativum",
+        "fda2022-tds-elements-fy2018-fy2020"
+      ]
+    },
+    {
+      "id": "ING-FAQ-ED-10",
+      "status": "selected",
+      "question": "Should the Egyptian pea results change how powders are read?",
+      "answer_locator": "Should the Egyptian pea results change how powders are read?",
+      "primary_locator": "Authored section prose",
+      "source_keys": [
+        "galal2021-heavy-metals-pisum-sativum",
+        "ring2021-ireland-protein-powders-metals"
+      ]
+    },
+    {
+      "id": "ING-FAQ-ED-11",
+      "status": "selected",
+      "question": "How do frozen peas compare?",
+      "answer_locator": "How do frozen peas compare?",
+      "primary_locator": "Authored section prose",
+      "source_keys": [
+        "fda2022-tds-elements-fy2018-fy2020"
+      ]
+    },
+    {
+      "id": "ING-FAQ-ED-12",
+      "status": "selected",
+      "question": "What is still too thin to settle?",
+      "answer_locator": "What is still too thin to settle?",
+      "primary_locator": "Authored section prose",
+      "source_keys": [
+        "gawalko2009-canadian-field-peas-trace-elements"
+      ]
+    },
+    {
+      "id": "ING-FAQ-03",
+      "status": "not_applicable",
+      "reason": "No study in the ledger compares organic and conventional production for metals."
+    },
+    {
+      "id": "ING-FAQ-04",
+      "status": "not_applicable",
+      "reason": "No two forms have comparable eligible references for the same metal."
+    },
+    {
+      "id": "ING-FAQ-05",
+      "status": "not_applicable",
+      "reason": "No comparable regional medians or same-study group comparisons."
+    },
+    {
+      "id": "ING-FAQ-06",
+      "status": "not_applicable",
+      "reason": "Derived products have their own pages."
+    },
+    {
+      "id": "ING-FAQ-07",
+      "status": "deferred",
+      "reason": "No exposure assessment in the ledger."
+    },
+    {
+      "id": "ING-FAQ-09",
+      "status": "not_applicable",
+      "reason": "No processing comparison in the ledger."
+    },
+    {
+      "id": "ING-FAQ-10",
+      "status": "not_applicable",
+      "reason": "Arsenic species were not both measured."
+    },
+    {
+      "id": "ING-FAQ-11",
+      "status": "deferred",
+      "reason": "Needs a direct comparison or authoritative guidance that the ledger does not contain for this food."
+    },
+    {
+      "id": "ING-FAQ-12",
+      "status": "deferred",
+      "reason": "Needs a direct comparison or authoritative guidance that the ledger does not contain for this food."
+    },
+    {
+      "id": "ING-FAQ-13",
+      "status": "deferred",
+      "reason": "Needs a direct comparison or authoritative guidance that the ledger does not contain for this food."
+    },
+    {
+      "id": "ING-FAQ-14",
+      "status": "deferred",
+      "reason": "Needs a direct comparison or authoritative guidance that the ledger does not contain for this food."
+    },
+    {
+      "id": "ING-FAQ-15",
+      "status": "deferred",
+      "reason": "Needs a direct comparison or authoritative guidance that the ledger does not contain for this food."
+    },
+    {
+      "id": "ING-FAQ-16",
+      "status": "deferred",
+      "reason": "Needs a direct comparison or authoritative guidance that the ledger does not contain for this food."
+    },
+    {
+      "id": "ING-FAQ-17",
+      "status": "deferred",
+      "reason": "Needs a direct comparison or authoritative guidance that the ledger does not contain for this food."
+    }
+  ]
+}

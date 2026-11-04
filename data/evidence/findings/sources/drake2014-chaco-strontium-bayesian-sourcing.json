@@ -1,0 +1,39 @@
+{
+ "source_id": "drake2014-chaco-strontium-bayesian-sourcing",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-STRONTIUM-1/10.1371_journal.pone.0095580.pdf",
+ "primary_sha256": "5f6035cbddd21e5380ac58e00ed8a26a73a68cde73c37f3a6a12cbee5f28e61b",
+ "extracted_at": "2026-11-03",
+ "extractor": "engine-v1",
+ "disposition": "context",
+ "disposition_reason": "Statistical reanalysis of isotope-ratio provenance data; no concentrations.",
+ "disposition_locator": "Abstract; Results",
+ "study": {
+  "design": "statistical reanalysis",
+  "origin": "Chaco Canyon region, New Mexico, USA",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "Bonito Phase, about AD 860 to 1140"
+  },
+  "method": "frequentist tests and Bayesian mixing models",
+  "lod": [],
+  "basis": "unknown",
+  "qa": "not applicable",
+  "site_context": "archaeological"
+ },
+ "findings": [],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/drake2014-chaco-strontium-bayesian-sourcing.md",
+ "non_numeric_findings": [
+  "Overlapping isotope signatures of candidate source areas prevent confident attribution of maize origin (Abstract)."
+ ]
+}
