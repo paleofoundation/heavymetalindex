@@ -115,6 +115,60 @@ out=$( { cd "$MAIN" && source "$LOCKSH"
   if acquire_lock "main-after" 5; then echo MAIN_OK; release_lock; else echo MAIN_FAIL; fi ; } 2>&1 )
 echo "$out" | grep -q MAIN_OK && ok "main acquired after worktree released" || no "post-release: $out"
 
+# ── 6. POSIX sh: a held lock returns 1, and exit removes this shell's dir ──
+echo "=== 6. POSIX sh does not exit 2 when the lock is held ==="
+# Match the bash [[ keyword, not a POSIX character class such as [[:space:]].
+if grep -E '\[\[[^:=.]' "$LOCKSH" >/dev/null; then
+  no "commit-lock.sh still contains [["
+else
+  ok "commit-lock.sh has no [["
+fi
+PRECOMMIT="$(cd "$SCRIPT_DIR/../.." && pwd)/.husky/pre-commit"
+if grep -E '\[\[[^:=.]' "$PRECOMMIT" >/dev/null; then
+  no "pre-commit still contains [["
+else
+  ok "pre-commit has no [["
+fi
+if command -v dash >/dev/null 2>&1; then SH_BIN=dash; else SH_BIN=sh; fi
+out=$(
+  cd "$MAIN" && . "$LOCKSH"
+  acquire_lock "holder" 2 || { echo ACQUIRE_FAILED; exit 0; }
+  set +e
+  "$SH_BIN" -c '
+    cd "$1" || exit 2
+    . "$2"
+    if acquire_lock "waiter" 1; then
+      echo WAIT_ACQUIRED
+      release_lock
+    else
+      echo WAIT_BLOCKED
+    fi
+  ' _ "$MAIN" "$LOCKSH" >"$TESTROOT/waiter.out" 2>"$TESTROOT/waiter.err"
+  echo "SH_STATUS:$?"
+  release_lock
+  if [ ! -d "$HMI_LOCK_DIR" ]; then echo HOLDER_RELEASED; else echo HOLDER_LEFT; fi
+)
+echo "$out"
+waiter_out=$(cat "$TESTROOT/waiter.out" 2>/dev/null || true)
+waiter_err=$(cat "$TESTROOT/waiter.err" 2>/dev/null || true)
+echo "$waiter_out" | grep -q WAIT_BLOCKED && ok "held lock blocks the waiter" || no "waiter: $waiter_out / $waiter_err"
+echo "$out" | grep -q "SH_STATUS:0" && ok "waiter shell exited 0, not 2" || no "waiter status: $out"
+echo "$waiter_err" | grep -q "Illegal number" && no "waiter hit Illegal number" || ok "no Illegal number under $SH_BIN"
+echo "$waiter_err" | grep -q "not found" && no "waiter shell rejected the lock script: $waiter_err" || ok "lock script ran under $SH_BIN"
+echo "$out" | grep -q HOLDER_RELEASED && ok "holder removed the lock dir" || no "holder left the lock dir"
+out=$(
+  cd "$MAIN" && "$SH_BIN" -c '
+    . "$1"
+    trap "release_lock" EXIT INT TERM
+    acquire_lock "dash-holder" 2 || exit 3
+  ' _ "$LOCKSH" >"$TESTROOT/dash-hold.out" 2>"$TESTROOT/dash-hold.err"
+  echo "EXIT:$?"
+  if [ ! -d "$EXPECTED" ]; then echo DIR_GONE; else echo DIR_LEFT; fi
+)
+echo "$out"
+echo "$out" | grep -q "EXIT:0" && ok "exit from $SH_BIN acquire returned 0" || no "dash acquire: $out $(cat "$TESTROOT/dash-hold.err" 2>/dev/null)"
+echo "$out" | grep -q DIR_GONE && ok "exit trap removed the lock dir" || no "lock dir left after exit: $out"
+
 echo
 echo "commit-lock.test.sh: $pass passed, $fail failed"
 [ "$fail" = 0 ]

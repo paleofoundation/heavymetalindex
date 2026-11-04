@@ -7,6 +7,10 @@ noindex: true
 
 Pages touched: [[ingredients/tofu]], [[sources/jaudenes-marrero2024-soybeans-toxic-elements]]
 Notes: Thin unit (one paper). Jaudenes-Marrero et al. 2024 (Nutrients, DOI 10.3390/nu16244290) measures 11 toxic elements in four soybean species (n=90 retail samples, Spain and Italy). The paper does not measure tofu. Yellow soybeans (Glycine max), the primary tofu feedstock, carried lead 60 µg/kg, cadmium 30 µg/kg, aluminum 6310 µg/kg, and nickel 1880 µg/kg wet weight (Table 4). These values are cited as upstream raw material context on the tofu page; contamination profile stays pending pending tofu-specific occurrence studies. Source frontmatter updated to include tofu as a related ingredient. Direction: toward the literature.
+## [2026-11-04] ingest | HMI-FILL-0006: evidence fill for cod
+
+Pages touched: [[ingredients/cod]], [[sources/witczak2025-imported-fish-elements-poland]] (created)
+Notes: Filled the provisional scaffold for cod with measurement data from two peer-reviewed studies in deposit HMI-FILL-0006. Nava et al. 2026 (Foods, DOI 10.3390/foods15071202) measured lead, cadmium, mercury, and total arsenic in fresh cod, stockfish, and salted cod (baccala) from Messina, Italy. Witczak et al. 2025 (Molecules, DOI 10.3390/molecules30183836) measured cadmium, mercury, lead, nickel, and other elements in 130 samples of Pacific cod (Gadus macrocephalus) frozen muscle from 13 retail batches imported from China into Poland. Contamination profile populated for lead, cadmium, total arsenic, total mercury, and nickel; inorganic arsenic, aluminum, chromium, tin, and uranium remain pending. FDA TDS section retained from prior version. cod removed from page-openings baseline. Direction: toward the literature.
 
 ## [2026-11-04] ingest | HMI-METAL-GALLIUM-1 | gallium page rebuilt from the full deposit
 

@@ -98,3 +98,60 @@ The five most recent substantive edits to this page, classified major (evidence 
 | [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added |
 | [bff8abb72](https://github.com/paleofoundation/heavymetalindex/commit/bff8abb72) | 2026-07-27 | correction | 1 section added; narrative text revised |
 <!-- END: hmi-page-history -->
+
+<!-- BEGIN: hmi-auto-linked-stubs -->
+
+## Additional indexed pages
+
+_Auto-managed by `tools/autonomy/link-orphans.mjs`. These pages exist in this directory and are reachable from here, but have not yet been placed in a curated section above. A future structural pass relocates them into the appropriate section._
+
+- [[metals/aluminum|Aluminum]]
+- [[metals/antimony|Antimony]]
+- [[metals/arsenic|Arsenic]]
+- [[metals/arsenic-inorganic|Arsenic, Inorganic]]
+- [[metals/arsenic-total|Arsenic, Total]]
+- [[metals/barium|Barium]]
+- [[metals/beryllium|Beryllium]]
+- [[metals/bismuth|Bismuth]]
+- [[metals/boron|Boron]]
+- [[metals/cadmium|Cadmium]]
+- [[metals/cesium|Cesium]]
+- [[metals/chromium|Chromium]]
+- [[metals/chromium-hexavalent|Chromium, Hexavalent]]
+- [[metals/cobalt|Cobalt]]
+- [[metals/copper|Copper]]
+- [[metals/gallium|Gallium]]
+- [[metals/germanium|Germanium]]
+- [[metals/gold|Gold]]
+- [[metals/indium|Indium]]
+- [[metals/iron|Iron]]
+- [[metals/lead|Lead]]
+- [[metals/lithium|Lithium]]
+- [[metals/magnesium|Magnesium]]
+- [[metals/manganese|Manganese]]
+- [[metals/mercury|Mercury]]
+- [[metals/mercury-methyl|Methylmercury]]
+- [[metals/mercury-total|Mercury, Total]]
+- [[metals/molybdenum|Molybdenum]]
+- [[metals/nickel|Nickel]]
+- [[metals/organotins|Organotins]]
+- [[metals/palladium|Palladium]]
+- [[metals/platinum|Platinum]]
+- [[metals/rare-earths|Rare Earths]]
+- [[metals/rubidium|Rubidium]]
+- [[metals/selenium|Selenium]]
+- [[metals/selenium 2|Selenium]]
+- [[metals/silver|Silver]]
+- [[metals/strontium|Strontium]]
+- [[metals/tellurium|Tellurium]]
+- [[metals/thallium|Thallium]]
+- [[metals/tin|Tin]]
+- [[metals/tin-inorganic|Tin, Inorganic]]
+- [[metals/titanium|Titanium]]
+- [[metals/tungsten|Tungsten]]
+- [[metals/uranium|Uranium]]
+- [[metals/vanadium|Vanadium]]
+- [[metals/yttrium|Yttrium]]
+- [[metals/zinc|Zinc]]
+- [[metals/zirconium|Zirconium]]
+<!-- END: hmi-auto-linked-stubs -->
