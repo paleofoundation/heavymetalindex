@@ -3,7 +3,8 @@ import matter from "gray-matter";
 // Legacy generators retain their behavior elsewhere. Unknown adoption fails
 // closed, so a page cannot silently bypass legacy generation without an owner.
 // Ingredient records below are the compiled pages from the 27 Oct 2026 live
-// checkout, plus the rice protein and pea protein pages added on 3 Nov 2026.
+// checkout, plus the rice protein and pea protein pages added on 3 Nov 2026,
+// and high-fructose-corn-syrup added on 4 Nov 2026 (HMI-FILL-0004).
 const owners = new Set([
   "data/evidence/engine/ingredient/algae/synthesis.json",
   "data/evidence/engine/ingredient/almond/synthesis.json",
@@ -115,6 +116,7 @@ const owners = new Set([
   "data/evidence/engine/ingredient/hemp/synthesis.json",
   "data/evidence/engine/ingredient/herbal-botanicals/synthesis.json",
   "data/evidence/engine/ingredient/herbs-and-spices/synthesis.json",
+  "data/evidence/engine/ingredient/high-fructose-corn-syrup/synthesis.json",
   "data/evidence/engine/ingredient/ice-cream/synthesis.json",
   "data/evidence/engine/ingredient/iceberg-lettuce/synthesis.json",
   "data/evidence/engine/ingredient/infant-cereal-ingredients/synthesis.json",
