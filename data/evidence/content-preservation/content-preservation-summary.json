@@ -1,14 +1,14 @@
 {
   "schema": "hmi-content-preservation/1",
-  "generated_at": "2026-07-27T10:00:50.625Z",
+  "generated_at": "2026-11-04T10:28:51.329Z",
   "baseline_generated_at": "2026-06-23T05:11:45.994Z",
   "scope": "metals",
   "pages_checked": 36,
-  "failure_count": 22,
+  "failure_count": 274,
   "by_check": {
-    "C2-claims-superset": 9,
-    "C3-cite-edges-superset": 10,
-    "C6-sections-superset": 3
+    "C3-cite-edges-superset": 240,
+    "C6-sections-superset": 15,
+    "C2-claims-superset": 19
   },
   "advisories": [],
   "pass": false
