@@ -7,7 +7,7 @@
     },
     {
       "question": "Why does a heavy-metals index even have a zinc page if zinc isn't a contaminant?",
-      "answer": "Zinc shows up alongside the toxic-metal analytes in elemental-survey data, since many ICP-MS multi-element methods report zinc as part of the standard analyte set. Some toxicology sources on cadmium and lead also discuss zinc as a competing-uptake or co-toxicity context."
+      "answer": "Zinc shows up alongside the toxic-metal analytes in elemental-survey data, since many ICP-MS multi-element methods report zinc as part of the standard analyte set. Some toxicology sources on cadmium and lead also discuss zinc as a competing-uptake or co-toxicity context. When a source's metals list includes zinc next to toxic metals, the source routing attaches it to this page and the values are recorded for completeness."
     },
     {
       "question": "Can you have too much zinc, or is more always better?",
