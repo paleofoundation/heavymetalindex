@@ -236,9 +236,40 @@ function walk() {
   return out.filter(inScope).sort()
 }
 
+let generatedCache = null
 function generated() {
-  try { return new Set(Object.keys(JSON.parse(fs.readFileSync(path.join(ROOT, "data/design/generated-page-heroes.json"), "utf8")))) }
-  catch { return new Set() }
+  if (generatedCache) return generatedCache
+  try { generatedCache = new Set(Object.keys(JSON.parse(fs.readFileSync(path.join(ROOT, "data/design/generated-page-heroes.json"), "utf8")))) }
+  catch { generatedCache = new Set() }
+  return generatedCache
+}
+
+// Findings that keep a page out of the openings ratchet. null means the
+// openings check does not score this page (draft, retired, compiled, or
+// generated). An empty array means the page is compliant, so a baseline
+// entry for it has to come out.
+export function openingFindings(rel, raw) {
+  const section = inScope(rel)
+  if (!section || generated().has(rel)) return null
+  const parsed = matter(raw)
+  if (parsed.data.draft === true || isRetiredRecord(parsed.data)) return null
+  if (contractOwnsPage(raw)) return null
+  const findings = []
+  const hasQr = parsed.data.quick_read !== undefined
+  if (hasDirectAnswer(parsed.content)) findings.push(`${rel}: still has a "## Direct answer" section; move its numbers into the body as numbered citations and use the opening`)
+  if (hasQr) {
+    if (validate(rel, section, parsed.data, parsed.content, findings)) {
+      const want = render(rel, parsed.data, parsed.content, findings)
+      const i = parsed.content.indexOf(BEGIN), j = parsed.content.indexOf(END)
+      const have = i >= 0 && j > i ? parsed.content.slice(i, j + END.length) : null
+      if (have !== want) findings.push(`${rel}: opening block missing or out of sync; run node tools/build-page-openings.mjs --apply ${rel}`)
+      else {
+        const firstSection = parsed.content.search(/^## /m)
+        if (firstSection >= 0 && firstSection < i) findings.push(`${rel}: opening must come before the first section`)
+      }
+    }
+  } else if (REQUIRED.includes(section)) findings.push(`${rel}: missing Lead-style opening (quick_read)`)
+  return findings
 }
 
 function main() {
@@ -276,21 +307,8 @@ function main() {
       continue
     }
     if (!checkMode) continue
-    const required = REQUIRED.includes(section)
-    const findings = []
-    if (hasDirectAnswer(parsed.content)) findings.push(`${rel}: still has a "## Direct answer" section; move its numbers into the body as numbered citations and use the opening`)
-    if (hasQr) {
-      if (validate(rel, section, parsed.data, parsed.content, findings)) {
-        const want = render(rel, parsed.data, parsed.content, findings)
-        const i = parsed.content.indexOf(BEGIN), j = parsed.content.indexOf(END)
-        const have = i >= 0 && j > i ? parsed.content.slice(i, j + END.length) : null
-        if (have !== want) findings.push(`${rel}: opening block missing or out of sync; run node tools/build-page-openings.mjs --apply ${rel}`)
-        else {
-          const firstSection = parsed.content.search(/^## /m)
-          if (firstSection >= 0 && firstSection < i) findings.push(`${rel}: opening must come before the first section`)
-        }
-      }
-    } else if (required) findings.push(`${rel}: missing Lead-style opening (quick_read)`)
+    const findings = openingFindings(rel, raw)
+    if (!findings) continue
     if (baseline.has(rel)) {
       if (!findings.length) problems.push(`${rel}: compliant but still listed in page-openings-baseline.json; remove it`)
     } else if (findings.length) problems.push(...findings)

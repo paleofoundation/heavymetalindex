@@ -3,6 +3,16 @@ title: Heavy Metal Index — Change Log
 noindex: true
 ---
 
+## [2026-11-04] ingest | HMI-FILL-0006: evidence fill for cod
+
+Pages touched: [[ingredients/cod]], [[sources/witczak2025-imported-fish-elements-poland]] (created)
+Notes: Filled the provisional scaffold for cod with measurement data from two peer-reviewed studies in deposit HMI-FILL-0006. Nava et al. 2026 (Foods, DOI 10.3390/foods15071202) measured lead, cadmium, mercury, and total arsenic in fresh cod, stockfish, and salted cod (baccala) from Messina, Italy. Witczak et al. 2025 (Molecules, DOI 10.3390/molecules30183836) measured cadmium, mercury, lead, nickel, and other elements in 130 samples of Pacific cod (Gadus macrocephalus) frozen muscle from 13 retail batches imported from China into Poland. Contamination profile populated for lead, cadmium, total arsenic, total mercury, and nickel; inorganic arsenic, aluminum, chromium, tin, and uranium remain pending. FDA TDS section retained from prior version. cod removed from page-openings baseline. Direction: toward the literature.
+
+## [2026-11-04] ingest | HMI-METAL-GALLIUM-1 | gallium page rebuilt from the full deposit
+
+Pages touched: [[metals/gallium]], [[sources/shtangeeva2023-gallium-temporal-variability-plants]], [[sources/li2020-china-rural-groundwater-omps-metals]], [[sources/bora2024-romanian-honey-elemental-profiling]], [[sources/trimmel2024-vienna-urban-garden-compost-vegetables]], [[sources/lin2022-plasma-metals-mci-alzheimers]], [[sources/dai2026-kidney-neoplasm-serum-vitamin-d-elements]], [[sources/wu2024-serum-metals-chronic-kidney-disease]], [[sources/torrance2021-marmato-artisanal-gold-mining-water]], [[sources/wang2025-enshi-selenium-mining-soil-microbes]], [[sources/jablonskaczapla2024-biala-przemsza-sediment-tces]]
+Notes: The live gallium page cited only the KP46 cell study. It now cites all 11 papers in deposit HMI-METAL-GALLIUM-1, including measured gallium in rural Chinese groundwater (median 8.5 µg/L, maximum 89 µg/L, n = 166), Romanian honey (not detected, n = 61), Vienna tomato fruit (below quantification), and wild-plant leaves. Serum units in the kidney tumor study are µg/L. No reference dose or food limit is cited. The private deposit was not readable here; numbers were checked against Europe PMC full text on 2026-11-04. Deposit PDF hashes are those recorded from the deposit files. Direction: toward the literature.
+
 ## [2026-11-04] chore | keep the Vercel site build inside the 45-minute cap
 
 Pages touched: none
@@ -2612,3 +2622,8 @@ Notes: Added consultation events for G/TBT/N/VNM/451 and G/TBT/N/VNM/452 from th
 ## [2026-10-06] ingest | rw-intake-2026-10-06-kr-motir-wto — Korea draft toy safety criteria
 Pages touched: none. Hub-only ledger. No regulation page and no regulatory_limit row.
 Notes: Added one consultation event for G/TBT/N/KOR/1384 from the WTO notification, MOTIR Public Notice No. 2026-597, and the draft Annex 6 texts. Printed figures stay in the verification note in the printed unit. Chromium(VI) stays speciated. Direction is toward the primary text.
+
+## [2026-11-04] ingest | HMI-FILL-0002: clay-geophagy ingredient fill
+
+Pages touched: [[ingredients/clay-geophagy]], [[sources/bonglaisin2022-geophagia-benefits-toxicity-review]], [[sources/davies2023-geophagy-africa-research-gaps]], [[sources/kortei2019-kaolin-minerals-microbes-ghana-ho]]
+Notes: Deposit HMI-FILL-0002 (3 papers). Created source pages for Bonglaisin et al. 2022 (Frontiers in Public Health, narrative review, EF-4), Davies 2023 (Frontiers in Nutrition, critical review, EF-4), and Kortei et al. 2019 (Pan African Medical Journal, primary AAS measurements, EF-3). Promoted clay-geophagy ingredient page from provisional scaffold to populated-thin; filled lead (530 ppb typical, n=2, confidence low), arsenic (1.63 ppb from Kortei, wide cross-study range, confidence low), and nickel (1850 ppb, n=1) contamination profile sub-blocks. Cadmium, mercury, iAs speciation remain pending. Direction: toward the literature (all numeric values sourced directly from primary tables; inter-study arsenic range explicitly reported as evidence of high uncertainty rather than hidden). No HMT&C alignment edits.
