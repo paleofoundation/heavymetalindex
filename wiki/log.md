@@ -2617,3 +2617,8 @@ Notes: Added consultation events for G/TBT/N/VNM/451 and G/TBT/N/VNM/452 from th
 ## [2026-10-06] ingest | rw-intake-2026-10-06-kr-motir-wto — Korea draft toy safety criteria
 Pages touched: none. Hub-only ledger. No regulation page and no regulatory_limit row.
 Notes: Added one consultation event for G/TBT/N/KOR/1384 from the WTO notification, MOTIR Public Notice No. 2026-597, and the draft Annex 6 texts. Printed figures stay in the verification note in the printed unit. Chromium(VI) stays speciated. Direction is toward the primary text.
+
+## [2026-11-04] ingest | HMI-FILL-0002: clay-geophagy ingredient fill
+
+Pages touched: [[ingredients/clay-geophagy]], [[sources/bonglaisin2022-geophagia-benefits-toxicity-review]], [[sources/davies2023-geophagy-africa-research-gaps]], [[sources/kortei2019-kaolin-minerals-microbes-ghana-ho]]
+Notes: Deposit HMI-FILL-0002 (3 papers). Created source pages for Bonglaisin et al. 2022 (Frontiers in Public Health, narrative review, EF-4), Davies 2023 (Frontiers in Nutrition, critical review, EF-4), and Kortei et al. 2019 (Pan African Medical Journal, primary AAS measurements, EF-3). Promoted clay-geophagy ingredient page from provisional scaffold to populated-thin; filled lead (530 ppb typical, n=2, confidence low), arsenic (1.63 ppb from Kortei, wide cross-study range, confidence low), and nickel (1850 ppb, n=1) contamination profile sub-blocks. Cadmium, mercury, iAs speciation remain pending. Direction: toward the literature (all numeric values sourced directly from primary tables; inter-study arsenic range explicitly reported as evidence of high uncertainty rather than hidden). No HMT&C alignment edits.
