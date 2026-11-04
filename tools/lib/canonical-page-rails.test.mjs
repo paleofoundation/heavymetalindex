@@ -47,6 +47,7 @@ const OLIVE = [
   ["Evidence review and remaining gaps", "review"],
   ["Olive Oil FAQs", "faqs"],
   ["Interpretation of source evidence", "review"],
+  ["Why water lentils accumulate heavy metals", "overview"],
 ]
 
 test("rice and olive oil headings cover the nine rails", () => {

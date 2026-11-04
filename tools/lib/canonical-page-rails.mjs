@@ -95,6 +95,7 @@ const MATCHERS = [
       /^decision snapshot$/i,
       /^decision summary$/i,
       /^why this /i,
+      /^why .+ accumulat/i,
       /^accumulation mechanism$/i,
       /identity and scope$/i,
       /^at a glance$/i,
