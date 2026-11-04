@@ -13,7 +13,7 @@ license: "CC BY 4.0"
 raw_path: raw/Manual Fetch Kimi /June 8 Kimi_Agent_Feminine Care Heavy Metal Papers/pdfs/paper_07_Mikolajczyk_2025_EU_deodorants_metals.pdf
 metals: [Ag, Al, Ba, Ca, Cd, Co, Cr, Cu, Fe, K, Mg, Mn, Ni, P, Pb, S, Sb, Sn, Sr, Ti, Zn, Zr]
 ingredients: []
-products: ["[[products/deodorants]]"]
+products: ["[[products/deodorants]]", "[[products/antiperspirant]]"]
 matrices: [deodorants, antiperspirants]
 jurisdictions: [PL, EU]
 near_duplicates: []
