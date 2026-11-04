@@ -89,6 +89,9 @@ for (const dir of TARGETS) {
         for (const term of block.terms) {
           const m = text.match(term)
           if (!m) continue
+          // Codex Alimentarius is the food-standards body. A following
+          // "Alimentarius" or "limits" is that body, not the toolchain name.
+          if (/^codex$/i.test(m[0]) && /^\s+(?:alimentarius|limits)\b/i.test(text.slice(m.index + m[0].length))) continue
           findings += 1
           console.error(
             `  ${relPath} (${block.name}, line ${i + 1}): internal term "${m[0]}" — ${line.trim().slice(0, 120)}`,

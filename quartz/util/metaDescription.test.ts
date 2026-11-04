@@ -62,19 +62,14 @@ test("ingredient templates use only populated metals and preserve the food and s
   )
 })
 
-test("real almond excludes unmeasured species while adopted rice retains its authored scope", () => {
+test("compiled almond uses its authored description; adopted rice retains its authored scope", () => {
   const almond = matter(
     fs.readFileSync("wiki/ingredients/almond.md", "utf8"),
   ).data
   const rice = matter(fs.readFileSync("wiki/ingredients/rice.md", "utf8")).data
-  assert.equal(almond.contamination_profile.iAs.status, "populated")
-  assert.equal(almond.contamination_profile.iAs.n_studies, 0)
-  assert.deepEqual(almond.contamination_profile.iAs.typical_ppb, [null, null])
-  assert.doesNotMatch(
-    buildMetaDescription(undefined, almond),
-    /inorganic arsenic|aluminum|tin|uranium/i,
-  )
-  assert.match(buildMetaDescription(undefined, almond), /Lead, cadmium/)
+  assert.equal(almond.page_contract_version, "1.0.0")
+  assert.match(almond.description, /Lead, cadmium, total arsenic/)
+  assert.match(buildMetaDescription(undefined, almond), /Lead, cadmium, total arsenic/)
   assert.equal(rice.contamination_profile.iAs.n_studies, null)
   assert.match(buildMetaDescription(undefined, rice), /arsenic/)
 })

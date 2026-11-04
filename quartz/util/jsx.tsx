@@ -10,6 +10,8 @@ const customComponents: Components = {
       <table {...props} />
     </div>
   ),
+  // Explorer markup is kept as one string so rehype-raw does not expand it.
+  "hmi-raw": (props) => <div dangerouslySetInnerHTML={{ __html: String((props as { html?: string }).html ?? "") }} />,
 }
 
 export function htmlToJsx(fp: FilePath, tree: Node) {

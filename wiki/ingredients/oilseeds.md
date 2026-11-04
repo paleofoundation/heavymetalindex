@@ -5,7 +5,7 @@ title: Oilseeds
 type: ingredient
 commodity: oilseeds
 aliases: []
-category: seed
+category: unclassified
 provisional_scaffold: true
 provisional_created: 2026-10-15T00:00:00.000Z
 provisional_reason: >-
@@ -15,11 +15,12 @@ provisional_source: '[[sources/nazari2023-heavy-metals-seed-crops-oil-products-r
 literature_scope: thin
 updated: '2026-10-22'
 evidence_scope: navigation-only
+page_contract_version: 1.0.0
 question_record: data/evidence/engine/ingredient/oilseeds/question-record.json
 synthesis_record: data/evidence/engine/ingredient/oilseeds/synthesis.json
 evidence_coverage: partial
 ingredient_presentation: rice-shared-v1
-sources: 1
+sources: 12
 description: >-
   Lead, cadmium, total arsenic, inorganic arsenic and total mercury in oilseeds:
   monitoring results, studies, references by form and basis, limits, testing and
@@ -91,34 +92,8 @@ ingredient_chrome:
         half spanning below…
       href: '#which-forms-and-regions-measured-lower'
       link_label: Variation
-quick_read:
-  summary: >-
-    Lead, cadmium, total arsenic, inorganic arsenic and total mercury in
-    oilseeds are reported as monitoring results, studies, references by form and
-    basis, limits, testing and controls.
-  points:
-    - label: Metals of concern
-      text: the metals named by the studies cited on this page.
-    - label: Main drivers
-      text: 'form, origin and preparation stay separate.'
-    - label: Practical framing
-      text: this page does not pool those studies into one typical value.
 ---
 # Oilseeds
-
-<!-- BEGIN: hmi-opening -->
-<div class="hmi-quick-read">
-  <div class="hmi-quick-read-label">Quick read</div>
-  <p>Lead, cadmium, total arsenic, inorganic arsenic and total mercury in oilseeds are reported as monitoring results, studies, references by form and basis, limits, testing and controls.</p>
-  <ul>
-    <li><strong>Metals of concern:</strong> the metals named by the studies cited on this page.</li>
-    <li><strong>Main drivers:</strong> form, origin and preparation stay separate.</li>
-    <li><strong>Practical framing:</strong> this page does not pool those studies into one typical value.</li>
-  </ul>
-</div>
-
-This page draws on evidence from [[sources/who-gemsfood-heavy-metal-contaminants|WHO]], [[sources/efsa-lead-contam-2010|EFSA]], and [[sources/jecfa-91st-cadmium-2022|JECFA]], together with 3 peer-reviewed studies. The complete citation list is at the bottom of the page.
-<!-- END: hmi-opening -->
 
 <section class="hmi-quick-read" id="oilseeds-quick-read" data-hmi-quick-read aria-labelledby="oilseeds-quick-read-label"><div class="hmi-quick-read-label" id="oilseeds-quick-read-label">Quick read</div>
 
@@ -146,6 +121,7 @@ Ask for lot results with a quantification limit well below the limit that applie
 </ul>
 </section>
 
+
 <a id="decision-summary"></a>
 ## Oilseeds overview
 
@@ -162,6 +138,8 @@ Across 2 other studies of ordinary farms and markets, reported lead means and me
 
 For a buyer the practical points are the form bought, the basis a result is reported on, where the oilseeds came from and the laboratory’s reporting limit. Testing finds contamination but does not remove it.
 
+
+
 <a id="ingredient-identity-and-scope"></a>
 ## What counts as oilseeds
 
@@ -175,6 +153,7 @@ For a buyer the practical points are the form bought, the basis a result is repo
 This page covers oilseeds, as sold (241 results).<sup class="cite">[[sources/who-gemsfood-heavy-metal-contaminants|1]]<span class="cite-card"><span class="cite-card-head"><span class="cite-card-authors">World Health Organization · 2026</span><a class="cite-card-title" href="../sources/who-gemsfood-heavy-metal-contaminants">GEMS/Food Contaminants database heavy-metal exports</a></span><span class="cite-card-body"><span class="cite-card-journal">GEMS/Food Contamination Monitoring and Assessment Programme</span><a class="cite-card-review" href="../sources/who-gemsfood-heavy-metal-contaminants">Read source →</a></span></span></sup><sup class="cite">[[sources/zverina2025-plant-dairy-toxic-elements|2]]<span class="cite-card"><span class="cite-card-head"><span class="cite-card-authors">Ondřej Zvěřina, Pavlína Kosečková, Pavel Coufalík, Dominika Michaličková, Eva Duborská · 2025</span><a class="cite-card-title" href="../sources/zverina2025-plant-dairy-toxic-elements">Essential and toxic elements in plant-based dairy alternatives: implications for vegan diets</a></span><span class="cite-card-body"><span class="cite-card-journal">European Food Research and Technology</span><a class="cite-card-review" href="../sources/zverina2025-plant-dairy-toxic-elements">Read source →</a></span></span></sup><sup class="cite">[[sources/mozdzer2023-sludge-ash-granulates-crop-metals|3]]<span class="cite-card"><span class="cite-card-head"><span class="cite-card-authors">Ewa Mozdzer, Renata Gamrat · 2023</span><a class="cite-card-title" href="../sources/mozdzer2023-sludge-ash-granulates-crop-metals">The Effect of Sludge-Ash Granulates on the Content and Uptake of Heavy Metals by Winter Rape Seeds and Triticale</a></span><span class="cite-card-body"><span class="cite-card-journal">Applied Sciences</span><a class="cite-card-review" href="../sources/mozdzer2023-sludge-ash-granulates-crop-metals">Read source →</a></span></span></sup><sup class="cite">[[sources/authors2016-a-comparative-study-of-the-content-of-heavy|4]]<span class="cite-card"><span class="cite-card-head"><span class="cite-card-authors">Unknown authors · 2016</span><a class="cite-card-title" href="../sources/authors2016-a-comparative-study-of-the-content-of-heavy">A comparative study of the content of heavy metals in oils:</a></span><span class="cite-card-body"><span class="cite-card-journal">Peer-reviewed article</span><a class="cite-card-review" href="../sources/authors2016-a-comparative-study-of-the-content-of-heavy">Read source →</a></span></span></sup><sup class="cite">[[sources/efsa-lead-contam-2010|5]]<span class="cite-card"><span class="cite-card-head"><span class="cite-card-authors">EFSA Panel on Contaminants in the Food Chain (CONTAM) · 2010</span><a class="cite-card-title" href="../sources/efsa-lead-contam-2010">Scientific Opinion on Lead in Food</a></span><span class="cite-card-body"><span class="cite-card-journal">EFSA Journal 2010;8(4):1570</span><a class="cite-card-review" href="../sources/efsa-lead-contam-2010">Read source →</a></span></span></sup><sup class="cite">[[sources/efsa2012-cadmium-dietary-exposure-europe|6]]<span class="cite-card"><span class="cite-card-head"><span class="cite-card-authors">European Food Safety Authority · 2012</span><a class="cite-card-title" href="../sources/efsa2012-cadmium-dietary-exposure-europe">Cadmium dietary exposure in the European population</a></span><span class="cite-card-body"><span class="cite-card-journal">EFSA Journal 2012;10(1):2551</span><a class="cite-card-review" href="../sources/efsa2012-cadmium-dietary-exposure-europe">Read source →</a></span></span></sup>
 
 Results stay on the basis each source reports: as sold or fresh weight, dry weight, or unstated. Dry-weight, as-sold and unstated results are never pooled, and no moisture conversion is applied.
+
 
 <!-- BEGIN: hmi-fda-tds-occurrence -->
 
@@ -200,6 +179,7 @@ The table holds every extracted oilseeds result: one row for each statistic a so
 
 <!-- END: hmi-fda-tds-occurrence -->
 
+
 <a id="sources-and-contamination-pathways"></a>
 ## How metals reach oilseeds
 
@@ -213,6 +193,8 @@ The table holds every extracted oilseeds result: one row for each statistic a so
 The evidence on how metals reach oilseeds comes from studies that compared exposed and ordinary settings. Oilseeds, as sold from granulate IV (50% sludge, 20% ash), dose 3 (60 g/pot) (experiment) had nickel higher at 690 µg/kg, against 210 µg/kg for control (unamended soil, no granulate) in the same study.<sup class="cite">[[sources/mozdzer2023-sludge-ash-granulates-crop-metals|3]]<span class="cite-card"><span class="cite-card-head"><span class="cite-card-authors">Ewa Mozdzer, Renata Gamrat · 2023</span><a class="cite-card-title" href="../sources/mozdzer2023-sludge-ash-granulates-crop-metals">The Effect of Sludge-Ash Granulates on the Content and Uptake of Heavy Metals by Winter Rape Seeds and Triticale</a></span><span class="cite-card-body"><span class="cite-card-journal">Applied Sciences</span><a class="cite-card-review" href="../sources/mozdzer2023-sludge-ash-granulates-crop-metals">Read source →</a></span></span></sup>
 
 These are observational comparisons from single studies; the size of the difference depends on the site, metal and distance.
+
+
 
 <a id="ranges-by-source-region-and-variety"></a>
 ## Which forms and regions measured lower
@@ -230,6 +212,8 @@ Among GEMS/Food reporting regions, oilseeds, as sold had the lowest lead subgrou
 
 Targeted oilseeds, as sold samples in EURO had cadmium lower at 22 µg/kg, against 31.7 µg/kg for EURO in the same study.<sup class="cite">[[sources/who-gemsfood-heavy-metal-contaminants|1]]<span class="cite-card"><span class="cite-card-head"><span class="cite-card-authors">World Health Organization · 2026</span><a class="cite-card-title" href="../sources/who-gemsfood-heavy-metal-contaminants">GEMS/Food Contaminants database heavy-metal exports</a></span><span class="cite-card-body"><span class="cite-card-journal">GEMS/Food Contamination Monitoring and Assessment Programme</span><a class="cite-card-review" href="../sources/who-gemsfood-heavy-metal-contaminants">Read source →</a></span></span></sup> In another study, targeted oilseeds, as sold samples in EURO had cadmium higher at 85 µg/kg, against 31.7 µg/kg for EURO in the same study.<sup class="cite">[[sources/who-gemsfood-heavy-metal-contaminants|1]]<span class="cite-card"><span class="cite-card-head"><span class="cite-card-authors">World Health Organization · 2026</span><a class="cite-card-title" href="../sources/who-gemsfood-heavy-metal-contaminants">GEMS/Food Contaminants database heavy-metal exports</a></span><span class="cite-card-body"><span class="cite-card-journal">GEMS/Food Contamination Monitoring and Assessment Programme</span><a class="cite-card-review" href="../sources/who-gemsfood-heavy-metal-contaminants">Read source →</a></span></span></sup>
 
+
+
 <a id="processing-effects-and-derivatives"></a>
 ## Processing, cooking and preparation
 
@@ -241,6 +225,8 @@ Targeted oilseeds, as sold samples in EURO had cadmium lower at 22 µg/kg, again
 <a id="do-changes-reflect-removal-redistribution-moisture-or-yield-change-dilution-or-altered-species-or-availability"></a>
 
 No processing study for metals in this food is in the library yet.
+
+
 
 <a id="mitigation-options"></a>
 ## Mitigation for oilseeds
@@ -256,6 +242,8 @@ Lot testing against the applicable limit is the check that can be verified.
 
 <p class="hmi-mitigation-gap" data-mitigation-gap>No measured way to lower metals in this food is in the library yet.</p>
 
+
+
 <a id="trade-offs-and-failure-modes"></a>
 ## Trade-offs and limits of controls
 
@@ -267,6 +255,8 @@ Lot testing against the applicable limit is the check that can be verified.
 <a id="what-costs-constraints-adverse-effects-or-failure-modes-are-documented-and-which-are-unknown"></a>
 
 Avoiding exposed growing areas lowered the metal measured in the studies available, but no study measured the cost or supply effect of doing so.<sup class="cite">[[sources/mozdzer2023-sludge-ash-granulates-crop-metals|3]]<span class="cite-card"><span class="cite-card-head"><span class="cite-card-authors">Ewa Mozdzer, Renata Gamrat · 2023</span><a class="cite-card-title" href="../sources/mozdzer2023-sludge-ash-granulates-crop-metals">The Effect of Sludge-Ash Granulates on the Content and Uptake of Heavy Metals by Winter Rape Seeds and Triticale</a></span><span class="cite-card-body"><span class="cite-card-journal">Applied Sciences</span><a class="cite-card-review" href="../sources/mozdzer2023-sludge-ash-granulates-crop-metals">Read source →</a></span></span></sup> Metals do not move together, so a lot that passes a lead limit says little about cadmium, arsenic or nickel unless those are tested as well.
+
+
 
 <a id="sampling-and-testing"></a>
 ## Testing oilseeds for metals
@@ -282,6 +272,8 @@ Results depend on the method and its reporting limit. Reporting limits for lead 
 
 A useful lot result names the form, the basis and a quantification limit well below the limit that applies.
 
+
+
 <a id="procurement-and-process-control"></a>
 ## Buying and verifying oilseeds
 
@@ -294,6 +286,8 @@ A useful lot result names the form, the basis and a quantification limit well be
 
 No maximum level for metals in oilseeds was verified from primary text for this page; buyers should confirm the limit that applies in the destination market.
 
+
+
 <a id="finished-product-and-exposure-implications"></a>
 ## Exposure from oilseeds
 
@@ -305,6 +299,7 @@ No maximum level for metals in oilseeds was verified from primary text for this 
 <a id="what-conclusions-require-finished-product-measurements-or-a-separate-exposure-assessment"></a>
 
 No source in the library converted oilseeds concentrations into a verified estimate of intake for a defined population. Concentrations describe the food, not individual risk.
+
 
 <a id="coverage"></a>
 <a id="indexed-source-records"></a>
@@ -322,6 +317,7 @@ No source in the library converted oilseeds concentrations into a verified estim
 Every source record that names oilseeds was decided on its content: 12 occurrence extracted, 12 records in all. The occurrence table renders every extracted result; held values remain visible with their reason.
 
 References identify the sources used in these answers. The Sources index preserves additional discovery links; inclusion there does not mean a source has been reviewed for this assessment. Corrections, completed searches, new direct evidence and changes in requirements should reopen the relevant answer.
+
 
 <a id="universal-faqs"></a>
 ## Oilseeds FAQs
@@ -365,15 +361,16 @@ Inorganic arsenic, the more toxic form, was measured in 7 results from 2 sources
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to a source record with bibliographic details, reported findings, and document provenance.
+Works cited on this page, in citation-number order. See [Sources](#sources) for this page's source inventory. Each title links to a source record with bibliographic details, reported findings, and document provenance.
 
 1. [[sources/who-gemsfood-heavy-metal-contaminants|GEMS/Food Contaminants database heavy-metal exports]]<span class="hmi-ref-meta">World Health Organization · GEMS/Food Contamination Monitoring and Assessment Programme · 2026 · [extranet.who.int](https://extranet.who.int/gemsfood/?DisplayFormat=1)</span><span class="hmi-ref-tag">Dataset</span>
 2. [[sources/zverina2025-plant-dairy-toxic-elements|Essential and toxic elements in plant-based dairy alternatives: implications for vegan diets]]<span class="hmi-ref-meta">Ondřej Zvěřina, Pavlína Kosečková, Pavel Coufalík, Dominika Michaličková, and Eva Duborská · European Food Research and Technology · 2025 · [doi.org/10.1007/s00217-025-04775-1](https://doi.org/10.1007/s00217-025-04775-1)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 3. [[sources/mozdzer2023-sludge-ash-granulates-crop-metals|The Effect of Sludge-Ash Granulates on the Content and Uptake of Heavy Metals by Winter Rape Seeds and Triticale]]<span class="hmi-ref-meta">Ewa Mozdzer and Renata Gamrat · Applied Sciences · 2023 · [doi.org/10.3390/app13052863](https://doi.org/10.3390/app13052863)</span><span class="hmi-ref-tag">Peer-reviewed</span>
-4. [[sources/efsa-lead-contam-2010|Scientific Opinion on Lead in Food]]<span class="hmi-ref-meta">EFSA Panel on Contaminants in the Food Chain (CONTAM) · EFSA Journal 2010;8(4):1570 · 2010 · [doi.org/10.2903/j.efsa.2010.1570](https://doi.org/10.2903/j.efsa.2010.1570)</span><span class="hmi-ref-tag">Government</span>
-5. [[sources/efsa2012-cadmium-dietary-exposure-europe|Cadmium dietary exposure in the European population]]<span class="hmi-ref-meta">European Food Safety Authority · EFSA Journal 2012;10(1):2551 · 2012 · [doi.org/10.2903/j.efsa.2012.2551](https://doi.org/10.2903/j.efsa.2012.2551)</span><span class="hmi-ref-tag">Government</span>
-6. [[sources/jecfa-91st-cadmium-2022|Cadmium: dietary exposure assessment]]<span class="hmi-ref-meta">Joint FAO/WHO Expert Committee on Food Additives · WHO Food Additives Series, No. 82 (Safety evaluation of certain contaminants in food, prepared by the 91st meeting of JECFA) · 2022 · [www.who.int](https://www.who.int/publications/i/item/9789240060760)</span><span class="hmi-ref-tag">Government</span>
-7. [[sources/efsa2014-dietary-exposure-iAs|Dietary exposure to inorganic arsenic in the European population]]<span class="hmi-ref-meta">European Food Safety Authority (EFSA) · EFSA Journal 2014;12(3):3597 · 2014 · [doi.org/10.2903/j.efsa.2014.3597](https://doi.org/10.2903/j.efsa.2014.3597)</span><span class="hmi-ref-tag">Government</span>
+4. [[sources/authors2016-a-comparative-study-of-the-content-of-heavy|A comparative study of the content of heavy metals in oils:]]<span class="hmi-ref-meta">Unknown authors · Peer-reviewed article · 2016 · [doi.org/10.1515/aep-2016-0029](https://doi.org/10.1515/aep-2016-0029)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+5. [[sources/efsa-lead-contam-2010|Scientific Opinion on Lead in Food]]<span class="hmi-ref-meta">EFSA Panel on Contaminants in the Food Chain (CONTAM) · EFSA Journal 2010;8(4):1570 · 2010 · [doi.org/10.2903/j.efsa.2010.1570](https://doi.org/10.2903/j.efsa.2010.1570)</span><span class="hmi-ref-tag">Government</span>
+6. [[sources/efsa2012-cadmium-dietary-exposure-europe|Cadmium dietary exposure in the European population]]<span class="hmi-ref-meta">European Food Safety Authority · EFSA Journal 2012;10(1):2551 · 2012 · [doi.org/10.2903/j.efsa.2012.2551](https://doi.org/10.2903/j.efsa.2012.2551)</span><span class="hmi-ref-tag">Government</span>
+7. [[sources/jecfa-91st-cadmium-2022|Cadmium: dietary exposure assessment]]<span class="hmi-ref-meta">Joint FAO/WHO Expert Committee on Food Additives · WHO Food Additives Series, No. 82 (Safety evaluation of certain contaminants in food, prepared by the 91st meeting of JECFA) · 2022 · [www.who.int](https://www.who.int/publications/i/item/9789240060760)</span><span class="hmi-ref-tag">Government</span>
+8. [[sources/efsa2014-dietary-exposure-iAs|Dietary exposure to inorganic arsenic in the European population]]<span class="hmi-ref-meta">European Food Safety Authority (EFSA) · EFSA Journal 2014;12(3):3597 · 2014 · [doi.org/10.2903/j.efsa.2014.3597](https://doi.org/10.2903/j.efsa.2014.3597)</span><span class="hmi-ref-tag">Government</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
@@ -385,5 +382,5 @@ Browse [Oilseeds Sources](../sources/index?topic=ingredients%2Foilseeds) for sou
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-No substantive edit history is available in this build. The full commit record is available in [git](https://github.com/paleofoundation/heavymetalindex).
+22 October 2026: Rebuilt from every oilseeds record in the library: 12 occurrence sources, references by form and basis, same-study contrasts.
 <!-- END: hmi-page-history -->
