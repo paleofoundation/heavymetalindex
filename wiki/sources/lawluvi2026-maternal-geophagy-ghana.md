@@ -1,29 +1,37 @@
 ---
 type: source
-raw_handle: FM_13070780
+raw_handle: PMC13070780
 cite_key: lawluvi2026-maternal-geophagy-ghana
-title: "Maternal geophagy in Ghana: heavy metal exposure and health risks during pregnancy"
-authors: [Lawluvi D, Glover ET, Agyei-Yeboah C, Nkrumah B]
+title: "Maternal geophagy in Ghana: a mini review of toxicological, microbial, nutritional, and radiological exposure pathways."
+authors: [Lawluvi H, Arwui CC, Beinpuo ESW, Faanu A, Agyeman L, Akrobortu E, Amarh T]
 year: 2026
-publication: "Frontiers in Public Health"
+publication: "Frontiers in Public Health 2026;14:1782963"
 doi: 10.3389/fpubh.2026.1782963
+pmcid: PMC13070780
+pmid: 41982891
 access_url: https://doi.org/10.3389/fpubh.2026.1782963
 source_type: peer-reviewed
 evidence_tier: A
+evidence_fitness: EF-4
+public_evidence_label: Review synthesis
+review_state: machine_extracted
 license: "CC BY"
-raw_path: raw/markdown/FM_13070780/FM_13070780.md
+raw_path: raw/deposits/HMI-FILL-0017/10.3389_fpubh.2026.1782963.pdf
+sha256: ec6557df2f7110a3f28bcc8e98878e0b420e7537f2a6d5216801f7bbb3e53c7e
+access_date: 2026-11-04
 metals: [Pb, tAs, Cd, Cr, tHg, U]
-ingredients: []
-products: []
-matrices: [clay-geophagic, dietary-intake]
+ingredients: ["[[ingredients/clay-geophagy]]"]
+products: ["[[products/supplements-clay-mineral-earth]]"]
+matrices: [geophagic-clay, kaolin, calabash-chalk]
 jurisdictions: [GH]
 near_duplicates: []
 sample_n: null
-sample_population: "Mini-review; pregnant women practicing geophagy in Ghana; no primary sample collection"
+sample_population: "Mini-review; pregnant women practicing geophagy in Ghana; no primary sample collection. Synthesizes analytical, toxicological, microbial, nutritional, and radiological literature."
 wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
-updated: 2026-05-12
+updated: 2026-11-04
+ingest: HMI-FILL-0017
 ---
 
 # Lawluvi et al. 2026 — Maternal geophagy in Ghana and multi-metal exposure during pregnancy
