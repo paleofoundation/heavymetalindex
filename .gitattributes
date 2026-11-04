@@ -1,1 +1,7 @@
 * text=auto eol=lf
+
+# Append-only logs: concatenate both sides on merge so parallel fill PRs do not conflict.
+data/evidence/wiki_edit_audit.jsonl merge=union
+wiki/log.md merge=union
+# Regenerated baseline: keep ours on merge, then regenerate with npm run (audit-page-structure --write-baseline).
+data/evidence/page-structure-baseline.json merge=ours

@@ -20,10 +20,10 @@ sha256: e4c33ae6e0dbfe8963e7f73af81409cadb42e967b8d9028e4cf954dbea362d2e
 access_date: 2026-11-03
 metals: [tAs, Pb, Ni, Mn, Fe, Cu, Zn, Ca, Mg, Na, K]
 ingredients: ["[[ingredients/clay-geophagy]]"]
-products: []
+products: ["[[products/supplements-clay-mineral-earth]]"]
 matrices: [geophagic-clay, kaolin]
 jurisdictions: [GH]
-near_duplicates: []
+near_duplicates: ["kortei2020-clay-pica-risk-ghana-ho"]
 sample_n: 4
 sample_population: "Kaolin clay ore from Anfoega mining site (Volta Region, Ghana) and final products (baked, unbaked) from Anfoega retail shops and Ho Asigame market. Cross-sectional study: 217 pregnant women (ages 16-45 years) attending antenatal clinic at Volta Regional Hospital and Ho Municipal Hospital, Ho municipality, Ghana."
 wiki_doi: null
