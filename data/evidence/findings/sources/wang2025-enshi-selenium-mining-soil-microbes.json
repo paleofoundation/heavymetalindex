@@ -1,0 +1,39 @@
+{
+ "source_id": "wang2025-enshi-selenium-mining-soil-microbes",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-GALLIUM-1/10.3389_fmicb.2025.1561678.pdf",
+ "primary_sha256": "6f9496c38faf8cc0f7ec601b5d96a96f38d9c164e1a630b8f675bfbf77399a6a",
+ "extracted_at": "2026-11-04",
+ "extractor": "engine-v1",
+ "disposition": "occurrence",
+ "disposition_reason": "Soil gallium means at three selenium levels in Enshi, and a correlation with soil bacterial community composition.",
+ "disposition_locator": "Soil chemistry table; Results, Mantel and random forest",
+ "study": {
+  "design": "see source record",
+  "origin": "not applicable",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "not stated"
+  },
+  "method": "ICP-MS",
+  "lod": [],
+  "basis": "as reported on the source page",
+  "qa": "see source record",
+  "site_context": "mining-area soil"
+ },
+ "findings": [],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "main-text",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [
+  "Soil gallium mean ± SD mg/kg: control 27.76 ± 1.81, low selenium 20.1 ± 2.24, high selenium 10.24 ± 3.59"
+ ],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/wang2025-enshi-selenium-mining-soil-microbes.md",
+ "non_numeric_findings": []
+}

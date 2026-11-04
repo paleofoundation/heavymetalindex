@@ -1,0 +1,39 @@
+{
+ "source_id": "bora2024-romanian-honey-elemental-profiling",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-GALLIUM-1/10.3390_foods13081253.pdf",
+ "primary_sha256": "4dca5eb1baf16924c1c68fd14325d23c5aa413c2594e62b971253ab5dac23c1f",
+ "extracted_at": "2026-11-04",
+ "extractor": "engine-v1",
+ "disposition": "occurrence",
+ "disposition_reason": "Gallium analyzed in 61 Romanian honeys and not detected. Quantification limit unit and table unit are not the same.",
+ "disposition_locator": "Table note, isotope 70",
+ "study": {
+  "design": "see source record",
+  "origin": "not applicable",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "not stated"
+  },
+  "method": "ICP-MS after microwave digestion",
+  "lod": [],
+  "basis": "as reported on the source page",
+  "qa": "see source record",
+  "site_context": "honey"
+ },
+ "findings": [],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "main-text",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [
+  "Gallium not detected in 61 honeys. Footnote quantification limit 0.04 µ/L; table unit stated as µg/kg"
+ ],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/bora2024-romanian-honey-elemental-profiling.md",
+ "non_numeric_findings": []
+}

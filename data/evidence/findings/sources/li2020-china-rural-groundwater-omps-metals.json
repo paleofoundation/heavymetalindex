@@ -1,0 +1,40 @@
+{
+ "source_id": "li2020-china-rural-groundwater-omps-metals",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-GALLIUM-1/10.1289_ehp6483.pdf",
+ "primary_sha256": "d39535dc24a7143aec9fd044543ee76c4043f90e9f58d9a8032412ef5424ba7a",
+ "extracted_at": "2026-11-04",
+ "extractor": "engine-v1",
+ "disposition": "occurrence",
+ "disposition_reason": "National rural Chinese drinking-groundwater survey reporting a gallium median and maximum, and no reference dose.",
+ "disposition_locator": "Results, metals; Health Risk Assessment",
+ "study": {
+  "design": "see source record",
+  "origin": "not applicable",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "not stated"
+  },
+  "method": "ICP-MS",
+  "lod": [],
+  "basis": "as reported on the source page",
+  "qa": "see source record",
+  "site_context": "groundwater used for drinking"
+ },
+ "findings": [],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "main-text",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [
+  "Groundwater gallium median to maximum 8.5 to 89 µg/L, detection frequency above 90 percent, n = 166, July 2016 to July 2017",
+  "No reference dose for gallium; excluded from noncancer risk sums with rubidium, thallium, and thorium"
+ ],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/li2020-china-rural-groundwater-omps-metals.md",
+ "non_numeric_findings": []
+}

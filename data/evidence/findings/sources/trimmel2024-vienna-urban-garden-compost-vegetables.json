@@ -1,0 +1,40 @@
+{
+ "source_id": "trimmel2024-vienna-urban-garden-compost-vegetables",
+ "primary_artifact": "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-GALLIUM-1/10.1007_s11356-024-34240-7.pdf",
+ "primary_sha256": "e9f09a64e2ca0afedcb324d7782f3315cc73104f51aa8d5e3a14572af09b626a",
+ "extracted_at": "2026-11-04",
+ "extractor": "engine-v1",
+ "disposition": "occurrence",
+ "disposition_reason": "Tomato fruit gallium below quantification; washing significantly reduced gallium on lettuce. Numeric tissue values are in the supplement.",
+ "disposition_locator": "Results, tomato section; Results, washing; Figure 3",
+ "study": {
+  "design": "see source record",
+  "origin": "not applicable",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "not stated"
+  },
+  "method": "ICP-MS",
+  "lod": [],
+  "basis": "as reported on the source page",
+  "qa": "see source record",
+  "site_context": "urban garden vegetables"
+ },
+ "findings": [],
+ "unresolved": [],
+ "sample_values": [],
+ "controls": [],
+ "extraction_scope": "main-text",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [
+  "Tomato fruit skin, pulp, and seeds: gallium below the quantification limit",
+  "Washing lettuce significantly reduced gallium; the main text does not print the size of the reduction"
+ ],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/trimmel2024-vienna-urban-garden-compost-vegetables.md",
+ "non_numeric_findings": []
+}
