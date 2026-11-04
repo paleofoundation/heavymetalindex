@@ -21,7 +21,7 @@ source_type: peer-reviewed
 evidence_tier: A
 raw_path: raw/markdown/FM_12840727/FM_12840727.md
 metals: [iAs, tAs]
-ingredients: [plant-milk, rice]
+ingredients: [plant-milk, rice, rice-milk]
 products: [plant-milks-rice-based]
 jurisdictions: [EU, Italy]
 wiki_doi: null
