@@ -153,18 +153,15 @@ contamination_profile:
     basis: null
     notes: null
 quick_read:
-  summary: >-
-    Lead and cadmium in salted fish vary significantly by species. Egyptian retail surveys
-    found herrings and feseikh (salted mullet) frequently exceeded EU regulatory limits
-    for Pb and Cd, while salted sardine and tilapia showed lower contamination. Mercury
-    is low in most salted fish types but substantially elevated in dried shark.
+  summary: "Lead and cadmium in salted fish vary by species, with herrings and mullet above sardine and tilapia, while mercury stays low except in dried shark."
   points:
     - label: Metals of concern
-      text: "Lead and cadmium at concentrations that frequently exceed EU limits in fatty salted fish (herrings, mullet); total arsenic high in fermented species but predominantly as the less toxic organic form; mercury low in common salted fish but high in dried predatory fish such as shark."
+      text: "Lead and cadmium often exceed EU limits in herrings and mullet; total arsenic is high but mostly organic; mercury is high in dried shark."
     - label: Main drivers
-      text: "Fish species and trophic position are the primary drivers; fatty predatory fish (herrings, mullet) accumulate more Pb and Cd than sardine or tilapia; the salting and fermentation process does not substantially remove metals; smoking may volatilize mercury."
+      text: "Species and trophic position drive levels: herrings and mullet hold more lead and cadmium than sardine or tilapia, salting does not remove metals, and smoking can lower mercury."
     - label: Practical framing
-      text: "Sardine-based and tilapia-based salted fish carry significantly lower Pb and Cd than herring or mullet types; dried shark is a distinct high-mercury category warranting separate handling; speciation data for arsenic and mercury are absent from the available studies."
+      text: "Sardine and tilapia salted fish carry less lead and cadmium than herring or mullet, dried shark is a separate high-mercury case, and arsenic and mercury speciation is unmeasured."
+  sources_line: "This page draws on evidence from [[sources/morshdy2023-heavy-metals-salted-fish-egypt|Morshdy et al. 2023]], [[sources/hasselberg2020-processed-small-fish-ghana-metals|Hasselberg et al. 2020]], [[sources/alkharusi2026-mercury-dried-shark-oman-case-report|Al Kharusi et al. 2026]], and [[sources/robinson2025-dried-fish-nutrients-africa|Robinson et al. 2025]]. The complete citation list is at the bottom of the page."
 ---
 
 # Salted fish
@@ -172,18 +169,18 @@ quick_read:
 <!-- BEGIN: hmi-opening -->
 <div class="hmi-quick-read">
   <div class="hmi-quick-read-label">Quick read</div>
-  <p>Lead and cadmium in salted fish vary significantly by species. Egyptian retail surveys found herrings and feseikh (salted mullet) frequently exceeded EU regulatory limits for Pb and Cd, while salted sardine and tilapia showed lower contamination. Mercury is low in most salted fish types but substantially elevated in dried shark.</p>
+  <p>Lead and cadmium in salted fish vary by species, with herrings and mullet above sardine and tilapia, while mercury stays low except in dried shark.</p>
   <ul>
-    <li><strong>Metals of concern:</strong> Lead and cadmium at concentrations that frequently exceed EU limits in fatty salted fish (herrings, mullet); total arsenic high in fermented species but predominantly as the less toxic organic form; mercury low in common salted fish but high in dried predatory fish such as shark.</li>
-    <li><strong>Main drivers:</strong> Fish species and trophic position are the primary drivers; fatty predatory fish (herrings, mullet) accumulate more Pb and Cd than sardine or tilapia; the salting and fermentation process does not substantially remove metals; smoking may volatilize mercury.</li>
-    <li><strong>Practical framing:</strong> Sardine-based and tilapia-based salted fish carry significantly lower Pb and Cd than herring or mullet types; dried shark is a distinct high-mercury category warranting separate handling; speciation data for arsenic and mercury are absent from the available studies.</li>
+    <li><strong>Metals of concern:</strong> Lead and cadmium often exceed EU limits in herrings and mullet; total arsenic is high but mostly organic; mercury is high in dried shark.</li>
+    <li><strong>Main drivers:</strong> Species and trophic position drive levels: herrings and mullet hold more lead and cadmium than sardine or tilapia, salting does not remove metals, and smoking can lower mercury.</li>
+    <li><strong>Practical framing:</strong> Sardine and tilapia salted fish carry less lead and cadmium than herring or mullet, dried shark is a separate high-mercury case, and arsenic and mercury speciation is unmeasured.</li>
   </ul>
 </div>
 
 This page draws on evidence from [[sources/morshdy2023-heavy-metals-salted-fish-egypt|Morshdy et al. 2023]], [[sources/hasselberg2020-processed-small-fish-ghana-metals|Hasselberg et al. 2020]], [[sources/alkharusi2026-mercury-dried-shark-oman-case-report|Al Kharusi et al. 2026]], and [[sources/robinson2025-dried-fish-nutrients-africa|Robinson et al. 2025]]. The complete citation list is at the bottom of the page.
 <!-- END: hmi-opening -->
 
-## Overview
+## Species differences in salted fish
 
 Salted fish is preserved with dry salt or brine, encompassing a wide range of traditional products including Egyptian feseikh (salted and fermented mullet), sahlia (salted keeled mullet), salted sardine, and salted smoked herrings, as well as dried salted tilapia and other small fish widely consumed across sub-Saharan Africa. These are traditional protein staples; in Egypt they are associated with specific festivals and in West Africa they are important dietary complements to starchy staples.
 
@@ -215,14 +212,14 @@ Dried shark and dried predatory fish are referenced briefly for mercury context 
 |---------|----------|---------------|------------|-------------|
 | Lead (Pb) | n=2 | 190–720 | low | [[sources/morshdy2023-heavy-metals-salted-fish-egypt\|1]], [[sources/hasselberg2020-processed-small-fish-ghana-metals\|2]] |
 | Cadmium (Cd) | n=2 | 30–90 | low | [[sources/morshdy2023-heavy-metals-salted-fish-egypt\|1]], [[sources/hasselberg2020-processed-small-fish-ghana-metals\|2]] |
-| Inorganic arsenic (iAs) | pending | — | — | — |
+| Inorganic arsenic (iAs) | pending | n/a | n/a | n/a |
 | Total arsenic (tAs) | n=1 | 160–1530 | low | [[sources/morshdy2023-heavy-metals-salted-fish-egypt\|1]] |
 | Total mercury (tHg) | n=1 | 2–6 | low | [[sources/morshdy2023-heavy-metals-salted-fish-egypt\|1]] |
-| Nickel (Ni) | pending | — | — | — |
-| Aluminum (Al) | pending | — | — | — |
-| Chromium (Cr) | — | — | — | — |
-| Tin (Sn) | pending | — | — | — |
-| Uranium (U) | — | — | — | — |
+| Nickel (Ni) | pending | n/a | n/a | n/a |
+| Aluminum (Al) | pending | n/a | n/a | n/a |
+| Chromium (Cr) | n/a | n/a | n/a | n/a |
+| Tin (Sn) | pending | n/a | n/a | n/a |
+| Uranium (U) | n/a | n/a | n/a | n/a |
 
 Typical-range values are means or mean ranges across product types from the Egypt retail survey (Morshdy 2023, n=80, wet weight). Tilapia data from Ghana (Hasselberg 2020) are whole dried product wet weight with 28% moisture; below-LOQ values indicate the contamination is at or below the detection threshold. p95 values are not calculable from the published mean and standard error data alone.
 

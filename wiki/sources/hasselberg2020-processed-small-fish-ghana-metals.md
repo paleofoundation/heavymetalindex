@@ -27,7 +27,7 @@ updated: 2026-11-04
 ingest: HMI-FILL-0001
 ---
 
-# Hasselberg et al. 2020 — Nutrients, heavy metals and PAHs in processed small indigenous fish from Ghana
+# Hasselberg et al. 2020: Nutrients, heavy metals and PAHs in processed small indigenous fish from Ghana
 
 ## Overview
 

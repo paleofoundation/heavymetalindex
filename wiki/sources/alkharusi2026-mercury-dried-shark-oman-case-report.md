@@ -27,7 +27,7 @@ updated: 2026-11-04
 ingest: HMI-FILL-0001
 ---
 
-# Al Kharusi et al. 2026 — Clinical mercury toxicity from habitual dried shark consumption, Oman
+# Al Kharusi et al. 2026: Clinical mercury toxicity from habitual dried shark consumption, Oman
 
 ## Overview
 

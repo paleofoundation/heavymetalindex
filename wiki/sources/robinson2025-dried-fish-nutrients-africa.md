@@ -27,7 +27,7 @@ updated: 2026-11-04
 ingest: HMI-FILL-0001
 ---
 
-# Robinson et al. 2025 — Nutrients and contaminants in dried small fish across Africa
+# Robinson et al. 2025: Nutrients and contaminants in dried small fish across Africa
 
 ## Overview
 

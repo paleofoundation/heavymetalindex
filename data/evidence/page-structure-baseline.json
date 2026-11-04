@@ -1484,7 +1484,7 @@
       ]
     },
     "metal_symbols": {
-      "pages": 592,
+      "pages": 593,
       "paths": [
         "wiki/ingredients/almond.md",
         "wiki/ingredients/apple-cider-vinegar.md",
@@ -1670,6 +1670,7 @@
         "wiki/ingredients/rice.md",
         "wiki/ingredients/root-vegetable-purees.md",
         "wiki/ingredients/root-vegetables.md",
+        "wiki/ingredients/salted-fish.md",
         "wiki/ingredients/saltine-crackers.md",
         "wiki/ingredients/seafood.md",
         "wiki/ingredients/seaweed.md",
@@ -2081,7 +2082,7 @@
       ]
     },
     "consumer_audience": {
-      "pages": 508,
+      "pages": 509,
       "paths": [
         "wiki/ingredients/almond-beverage.md",
         "wiki/ingredients/almond.md",
@@ -2345,6 +2346,7 @@
         "wiki/ingredients/salami.md",
         "wiki/ingredients/salmon.md",
         "wiki/ingredients/salsa.md",
+        "wiki/ingredients/salted-fish.md",
         "wiki/ingredients/saltine-crackers.md",
         "wiki/ingredients/sandwich-cookies.md",
         "wiki/ingredients/sea-salt.md",
@@ -2594,7 +2596,7 @@
       ]
     },
     "section_presence_and_order": {
-      "pages": 207,
+      "pages": 208,
       "paths": [
         "wiki/ingredients/almond.md",
         "wiki/ingredients/baby-cereals-dry.md",
@@ -2657,6 +2659,7 @@
         "wiki/ingredients/rice.md",
         "wiki/ingredients/root-vegetable-purees.md",
         "wiki/ingredients/salt.md",
+        "wiki/ingredients/salted-fish.md",
         "wiki/ingredients/seafood.md",
         "wiki/ingredients/sesame-oil.md",
         "wiki/ingredients/shark.md",
