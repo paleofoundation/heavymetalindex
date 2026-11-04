@@ -15,7 +15,8 @@ What counts as evidence:
 - The paper reports a measured reduction, removal, or lower result for a heavy metal in this specific food. Processing, washing, peeling, cooking water ratio, refining, soaking, cultivar, and soil amendment are the interventions to look for.
 - The food itself was measured. A class-level paper (vegetable oils, cereals, crops, food in general) is excluded when it does not print a result for this food. A mechanism paper, a cell study, or an animal tissue study is excluded when it does not print a result in the food.
 - Copy numbers and units exactly as they appear in the saved full text. Do not subtract, average, convert, or round. If the unit does not state dry weight, wet weight, or as sold, keep the unit as printed and say that the paper does not state the weight basis. Use the words "as printed" in that sentence.
-- A paper may measure more than one ingredient. Record every food it actually measured in the DOI map when that food has a page in this wiki. Edit only the pages listed above.
+- The manifest is ordered with reviews and meta-analyses that name many foods first. Read those before a single-food paper.
+- A paper may measure more than one food. That is the fan-out. For every food the full text actually measures, add it to `data/mitigation-map.json` and write that page's Mitigation section in this same run. Use `--ingredient` when the page id starts with `ingredients/`, and `--product` when it starts with `products/`. Do not map a food the paper only names, and do not map a food that has no page here. A class-level review is in scope only for the foods whose printed results you quote.
 
 How to record a paper:
 
@@ -109,4 +110,4 @@ Notes: Open-access full texts added measured reductions for <metals and interven
 
 Do not commit, do not push, and do not open a pull request. The workflow checks quotations, runs the tests, and opens the pull request only if those checks pass.
 
-Stop after these pages.
+Stop after the seed pages and every extra page those papers measure. One run, one pull request.

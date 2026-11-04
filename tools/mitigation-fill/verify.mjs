@@ -38,6 +38,19 @@ function freshMappings(beforeMap, afterMap, pageId) {
   })
 }
 
+export function fanoutPages(beforeMap, afterMap) {
+  const ids = new Set()
+  for (const paper of Object.values(afterMap.papers || {})) {
+    const prior = ((beforeMap.papers || {})[paper.doi] || {}).mappings || []
+    for (const mapping of paper.mappings || []) {
+      if (prior.some((item) => item.effect_as_printed === mapping.effect_as_printed)) continue
+      for (const slug of mapping.ingredients || []) ids.add(`ingredients/${slug}`)
+      for (const slug of mapping.products || []) ids.add(`products/${slug}`)
+    }
+  }
+  return [...ids].sort()
+}
+
 function git(args) {
   return execFileSync("git", args, { encoding: "utf8", maxBuffer: 64 * 1024 * 1024 })
 }
@@ -68,7 +81,6 @@ export function verifyTree({ root, pages, fulltextDir, status, diff, readBase })
   const beforeMap = beforeText ? JSON.parse(beforeText) : { papers: {} }
   const afterPath = path.join(root, "data/mitigation-map.json")
   const afterMap = fs.existsSync(afterPath) ? readMap(afterPath) : { papers: {} }
-  const selected = new Set((pages || []).filter(Boolean))
   for (const [doi, paper] of Object.entries(afterMap.papers || {})) {
     const prior = (beforeMap.papers || {})[doi]
     const priorEffects = new Set(((prior && prior.mappings) || []).map((item) => item.effect_as_printed))
@@ -104,10 +116,12 @@ export function verifyTree({ root, pages, fulltextDir, status, diff, readBase })
       errors.push(`${pageId}: mitigation prose changed without a new quoted effect`)
     }
   }
-  for (const pageId of selected) {
+  for (const pageId of fanoutPages(beforeMap, afterMap)) {
+    const pageFile = path.join(root, "wiki", `${pageId}.md`)
+    if (!fs.existsSync(pageFile)) continue
     const fresh = freshMappings(beforeMap, afterMap, pageId)
     if (!fresh.length) continue
-    const after = fs.readFileSync(path.join(root, "wiki", `${pageId}.md`), "utf8")
+    const after = fs.readFileSync(pageFile, "utf8")
     const section = mitigationSection(after)
     for (const item of fresh) {
       const key = String(item.source_page || "").replace(/^sources\//, "")

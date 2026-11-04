@@ -9,7 +9,7 @@ import path from "node:path"
 import { pathToFileURL } from "node:url"
 
 export const PRIORITY_PAGE = "ingredients/olive-oil"
-export const DEFAULT_LIMIT = 3
+export const DEFAULT_LIMIT = 8
 const FAMILIES = ["ingredients", "products"]
 const GENERIC_NAMES = new Set([
   "oil", "oils", "food", "foods", "metal", "metals", "product", "products",
@@ -275,8 +275,8 @@ function main() {
   const root = flag(args, "--root") || process.cwd()
   const limit = Number(flag(args, "--limit") || DEFAULT_LIMIT)
   const skip = (flag(args, "--skip") || "").split(",").map((item) => item.trim()).filter(Boolean)
-  if (!Number.isInteger(limit) || limit < 1 || limit > 10) {
-    console.error("limit must be an integer from 1 to 10")
+  if (!Number.isInteger(limit) || limit < 1 || limit > 20) {
+    console.error("limit must be an integer from 1 to 20")
     process.exit(2)
   }
   const chosen = selectPages(root, { limit, skip })

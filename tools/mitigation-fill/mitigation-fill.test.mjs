@@ -6,7 +6,9 @@ import test from "node:test"
 import { fileURLToPath } from "node:url"
 import { citationParts, nextCitationNumber } from "./cite.mjs"
 import {
+  DEFAULT_LIMIT,
   mitigationCitations,
+  namePattern,
   pageEditAllowed,
   searchNames,
   selectPages,
@@ -16,10 +18,11 @@ import {
   classifyCandidate,
   europePmcQuery,
   quoteInText,
+  rankCandidates,
   searchFood,
   unitAmbiguous,
 } from "./search.mjs"
-import { verifyTree } from "./verify.mjs"
+import { fanoutPages, verifyTree } from "./verify.mjs"
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "../..")
 const EM = "\u2014"
@@ -59,7 +62,8 @@ test("zero citations come first and olive oil leads that tie", () => {
   assert.equal(chosen[2].citations, 0)
   const skipped = selectPages(dir, { limit: 2, skip: ["olive-oil"] })
   assert.equal(skipped[0].page, "ingredients/almond")
-  assert.equal(selectPages(dir).length, 3)
+  assert.equal(DEFAULT_LIMIT, 8)
+  assert.equal(selectPages(dir).length, 4)
   fs.rmSync(dir, { recursive: true, force: true })
 })
 
@@ -111,6 +115,29 @@ test("class-level, closed, and mechanism-only papers are dropped", () => {
   }, names).reason, "no_measured_reduction_context")
   assert.match(europePmcQuery(names), /OPEN_ACCESS:Y/)
   assert.match(europePmcQuery(names), /olive oil/)
+})
+
+test("a review that names many foods sorts ahead of a single-food paper", () => {
+  const index = ["rice", "olive oil", "spinach"].map((name) => ({
+    page: `ingredients/${name.replace(/ /g, "-")}`,
+    patterns: [namePattern(name)],
+  }))
+  const review = {
+    doi: "10.1000/review",
+    title: "A review of washing to reduce cadmium in rice, olive oil, and spinach",
+    abstract: "Washing reduced cadmium in rice, olive oil, and spinach.",
+    year: 2018,
+    open_access: true,
+  }
+  const single = {
+    doi: "10.1000/single",
+    title: "Washing rice",
+    abstract: "Washing reduced cadmium in rice from 10 µg/kg dry weight.",
+    year: 2024,
+    open_access: true,
+  }
+  const ranked = rankCandidates([single, review], ["rice"], index)
+  assert.equal(ranked[0].doi, "10.1000/review")
 })
 
 test("search keeps an open-access full text that names the food", async () => {
@@ -278,6 +305,14 @@ test("citation markup drops unicode dashes and keeps the next number", () => {
   assert.match(parts.reference, /\[\[sources\/ada2019-olive\|Lead - cadmium\]\]/)
 })
 
+test("a new paper fans out to every mapped food", () => {
+  const pages = fanoutPages(
+    { papers: {} },
+    { papers: { "10.1/x": { doi: "10.1/x", mappings: [{ ingredients: ["olive-oil", "rice"], products: ["soup"], effect_as_printed: "a" }] } } },
+  )
+  assert.deepEqual(pages, ["ingredients/olive-oil", "ingredients/rice", "products/soup"])
+})
+
 test("verify accepts a quoted mitigation edit and rejects a side edit", () => {
   const dir = fs.mkdtempSync(path.join(os.tmpdir(), "mitigation-verify-"))
   const full = path.join(dir, "full")
@@ -362,8 +397,12 @@ test("verify accepts a quoted mitigation edit and rejects a side edit", () => {
 
 test("the scheduled workflow carries the mitigation fill contract", () => {
   const yml = fs.readFileSync(path.join(root, ".github/workflows/claude-mitigation-fill.yml"), "utf8")
-  assert.match(yml, /cron: "0 3 \* \* \*"/)
+  assert.match(yml, /cron: "0 1 \* \* \*"/)
+  assert.match(yml, /cron: "0 7 \* \* \*"/)
   assert.match(yml, /cron: "0 13 \* \* \*"/)
+  assert.match(yml, /cron: "0 19 \* \* \*"/)
+  assert.match(yml, /default: "8"/)
+  assert.equal(/cron: "0 3 \* \* \*"/.test(yml), false)
   assert.match(yml, /workflow_dispatch:/)
   assert.match(yml, /anthropics\/claude-code-action@v1/)
   assert.match(yml, /claude_code_oauth_token: \$\{\{ secrets\.CLAUDE_CODE_OAUTH_TOKEN \}\}/)

@@ -210,23 +210,38 @@ export function addedPapers(before, after) {
   return added
 }
 
+export function filledPages(papers) {
+  const ids = []
+  for (const paper of papers || []) {
+    for (const mapping of paper.mappings || []) {
+      for (const slug of mapping.ingredients || []) ids.push(`ingredients/${slug}`)
+      for (const slug of mapping.products || []) ids.push(`products/${slug}`)
+    }
+  }
+  return [...new Set(ids)]
+}
+
 export function renderPrBody({ pages, beforeMap, afterMap, coverage }) {
   const selected = pages || []
   const added = addedPapers(beforeMap, afterMap)
+  const filled = filledPages(added)
   const byId = new Map((coverage.pages || []).map((page) => [page.page, page]))
   const zeros = (coverage.pages || []).filter((page) => page.mitigation_papers === 0)
   const lines = [
-    "Automated mitigation evidence. Open-access full text only. Effects are quotations, not calculated reductions.",
+    "Automated mitigation evidence. Open-access full text only. Effects are quotations, not calculated reductions. One paper is indexed for every food it measures, and those pages are filled in this pull request.",
     "",
-    "Pages touched:",
+    "Pages filled:",
   ]
-  if (!selected.length) lines.push("- none")
-  for (const page of selected) {
+  if (!filled.length) lines.push("- none")
+  for (const page of filled) {
     const row = byId.get(page)
     const count = row ? row.mitigation_papers : "unknown"
     const metals = row && row.metals_covered.length ? row.metals_covered.join(", ") : "none mapped"
     lines.push(`- \`${page}\`: ${count} mitigation papers; metals covered: ${metals}`)
   }
+  lines.push("", "Seed pages searched:")
+  if (!selected.length) lines.push("- none")
+  for (const page of selected) lines.push(`- \`${page}\``)
   lines.push("", "Papers added:")
   if (!added.length) lines.push("- none")
   for (const paper of added) {

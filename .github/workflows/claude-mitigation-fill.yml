@@ -1,7 +1,8 @@
-# Scheduled mitigation fill. Twice a day, pick the ingredient and product pages
-# with the fewest mitigation citations (zero first, olive oil first among those),
-# search Europe PMC and OpenAlex for open-access full texts, and have Claude
-# write quoted reductions into the Mitigation section.
+# Scheduled mitigation fill. Four times a day, pick the next 8 ingredient and
+# product pages with the fewest mitigation citations (zero first, olive oil
+# first among those). Search Europe PMC and OpenAlex for open-access full
+# texts, preferring reviews that cover many foods. One paper is indexed for
+# every food it measures, and those pages are filled in the same pull request.
 #
 # .claude/settings.json is not applied by claude-code-action, so the tool list
 # is passed with --allowedTools below.
@@ -18,14 +19,16 @@ name: Claude mitigation fill
 
 on:
   schedule:
-    - cron: "0 3 * * *"
+    - cron: "0 1 * * *"
+    - cron: "0 7 * * *"
     - cron: "0 13 * * *"
+    - cron: "0 19 * * *"
   workflow_dispatch:
     inputs:
       count:
-        description: "Pages to fill this run (1 to 10)"
+        description: "Seed pages to search this run (1 to 20). A paper can fill more pages than this."
         required: false
-        default: "3"
+        default: "8"
   pull_request:
 
 concurrency:
@@ -101,7 +104,7 @@ jobs:
         id: pick
         env:
           GH_TOKEN: ${{ github.token }}
-          COUNT: ${{ github.event.inputs.count || '3' }}
+          COUNT: ${{ github.event.inputs.count || '8' }}
         run: |
           set -euo pipefail
           skips="$(gh pr list --state open --limit 200 --json headRefName,body --jq '.[] | select(.headRefName | startswith("evidence-fill/mitigation")) | .body' | grep -oE '(ingredients|products)/[a-z0-9-]+' | sort -u | paste -sd, - || true)"
@@ -168,7 +171,7 @@ jobs:
           # Settings in .claude/settings.json are ignored here. List tools in claude_args.
           claude_args: |
             --allowedTools "Bash,Read,Edit,Write,Grep,Glob"
-            --max-turns 100
+            --max-turns 160
       - name: Regenerate coverage, verify quotations, and run CI checks
         id: verify
         if: steps.pick.outputs.pages != ''

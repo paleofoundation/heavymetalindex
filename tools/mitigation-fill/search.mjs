@@ -179,6 +179,32 @@ export function unitAmbiguous(quote) {
   return !BASIS.test(quote)
 }
 
+export function isReview(paper) {
+  const title = paper.title || ""
+  const blob = `${title} ${paper.abstract || ""}`
+  return /\b(systematic review|meta-analysis|meta analysis|literature review|scoping review|narrative review)\b/i.test(blob)
+    || /\ba review\b/i.test(title)
+}
+
+export function rankCandidates(papers, names, index = []) {
+  return [...papers].sort((a, b) => {
+    const score = (paper) => {
+      const title = paper.title || ""
+      const blob = `${title} ${paper.abstract || ""}`
+      let value = 0
+      if (isReview(paper)) value += 30
+      value += mentionedPages(blob, index).length * 3
+      if (names.some((name) => namePattern(name).test(title))) value += 4
+      if (mitigationContext(title)) value += 4
+      if (mitigationContext(blob)) value += 2
+      return value
+    }
+    const delta = score(b) - score(a)
+    if (delta !== 0) return delta
+    return (b.year || 0) - (a.year || 0)
+  })
+}
+
 function mentionedPages(text, index) {
   const hits = []
   for (const entry of index) {
@@ -315,19 +341,7 @@ export async function searchFood(page, { fetchImpl = fetch, perPage = 5, index =
     if (!prev) byDoi.set(paper.doi, paper)
     else if (!prev.pmcid && paper.pmcid) byDoi.set(paper.doi, { ...prev, ...paper, abstract: prev.abstract || paper.abstract })
   }
-  const ranked = [...byDoi.values()].sort((a, b) => {
-    const score = (paper) => {
-      const title = paper.title || ""
-      let value = 0
-      if (names.some((name) => namePattern(name).test(title))) value += 4
-      if (mitigationContext(title)) value += 4
-      if (mitigationContext(`${title} ${paper.abstract || ""}`)) value += 2
-      return value
-    }
-    const delta = score(b) - score(a)
-    if (delta !== 0) return delta
-    return (b.year || 0) - (a.year || 0)
-  }).slice(0, perPage)
+  const ranked = rankCandidates([...byDoi.values()], names, index).slice(0, perPage)
   const papers = []
   for (const paper of ranked) {
     const file = fulltextName(paper.doi)
@@ -342,11 +356,14 @@ export async function searchFood(page, { fetchImpl = fetch, perPage = 5, index =
       continue
     }
     const blob = `${paper.title} ${paper.abstract}`
+    const mentioned = mentionedPages(blob, index)
     papers.push({
       ...paper,
       fulltext_file: file,
       fulltext: text,
-      mentioned_pages: mentionedPages(blob, index),
+      review: isReview(paper),
+      foods_named: mentioned.length,
+      mentioned_pages: mentioned,
     })
   }
   return { page: page.page, names, query: europePmcQuery(names), papers, excluded, errors }
