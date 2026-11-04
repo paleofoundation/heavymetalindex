@@ -117,6 +117,11 @@ function parseIngredientTables() {
       for (const m of line.matchAll(/\[\[sources\/([^\]|\\]+)(?:\\?\|[^\]]*)?\]\]/g)) {
         keys.push(m[1].trim())
       }
+      // The profile table is inserted at the top of the section. A later
+      // study-comparison table in the same section must not replace it.
+      // Palm oil's measurement summary was parsed as the Typical column and
+      // the build failed on numbers the profile table already stated.
+      if (table[analyte]) continue
       sources[analyte] = keys
 
       // Numeric drift anchors: strip wikilinks first so escaped pipes don't

@@ -1,0 +1,45 @@
+# Open evidence-fill pull requests go stale when another fill merges to main.
+# The shared baseline files then conflict, or a clean merge keeps the wrong
+# page entries, and CI fails. This job merges main into each open
+# evidence-fill/HMI-FILL-* branch, restores main's baselines, and records only
+# the pages that branch fills.
+#
+# A push made with the default GITHUB_TOKEN does not start pull_request
+# workflows. After the push, the job dispatches ci.yml so test, build-audits,
+# and content-gate run on the new commit.
+
+name: Refresh evidence-fill branches
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: write
+  pull-requests: read
+
+concurrency:
+  group: evidence-fill-refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    if: github.event_name == 'workflow_dispatch' || !contains(github.event.head_commit.message, '[skip-fill-refresh]')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          ref: main
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .node-version
+          cache: npm
+      - run: npm ci
+      - name: Merge main into open evidence-fill branches and re-record their pages
+        env:
+          GH_TOKEN: ${{ github.token }}
+          NODE_OPTIONS: --max-old-space-size=6144
+        run: node tools/evidence-fill/refresh-open-prs.mjs

@@ -4,6 +4,10 @@ on:
   pull_request:
   push:
     branches: [main]
+  # evidence-fill-refresh.yml dispatches this after a GITHUB_TOKEN push.
+  # That token does not start pull_request workflows, so the dispatch is what
+  # attaches test, build-audits, and content-gate to the refreshed commit.
+  workflow_dispatch:
 
 jobs:
   test:
@@ -26,15 +30,46 @@ jobs:
       - run: npm run lint:thin-with-evidence
       - run: npm run check
       - name: Hero images (no placeholder or fallback on added/changed ingredient, product, metal pages)
-        if: github.event_name == 'pull_request'
+        if: github.event_name == 'pull_request' || github.event_name == 'workflow_dispatch'
         run: |
-          git fetch --no-tags origin ${{ github.base_ref }}
-          node tools/lint/hero-image-placeholders.mjs --changed origin/${{ github.base_ref }}
+          if [ "${{ github.event_name }}" = "pull_request" ]; then
+            git fetch --no-tags origin "${{ github.base_ref }}"
+            BASE="origin/${{ github.base_ref }}"
+          else
+            git fetch --no-tags origin main
+            BASE="origin/main"
+          fi
+          node tools/lint/hero-image-placeholders.mjs --changed "$BASE"
       - name: Evidence fill diff gate (supplier data, em or en dashes, placeholder images)
-        if: github.event_name == 'pull_request'
+        if: github.event_name == 'pull_request' || github.event_name == 'workflow_dispatch'
         run: |
-          git fetch --no-tags origin ${{ github.base_ref }}
-          node tools/evidence-fill/diff-gate.mjs --base origin/${{ github.base_ref }}
+          if [ "${{ github.event_name }}" = "pull_request" ]; then
+            git fetch --no-tags origin "${{ github.base_ref }}"
+            BASE="origin/${{ github.base_ref }}"
+          else
+            git fetch --no-tags origin main
+            BASE="origin/main"
+          fi
+          node tools/evidence-fill/diff-gate.mjs --base "$BASE"
+
+  # Same gate as claude-evidence-fill.yml. This copy runs when a refresh
+  # dispatch needs a content-gate check on a commit that pull_request will not see.
+  content-gate:
+    if: github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .node-version
+      - name: Supplier data, dashes, and placeholder images
+        run: |
+          set -euo pipefail
+          git fetch --no-tags origin main
+          node tools/evidence-fill/diff-gate.mjs --base origin/main
+          node tools/lint/hero-image-placeholders.mjs --changed origin/main
 
   # Read-only audits are skipped when VERCEL=1 so the site build stays inside
   # the 45-minute builder cap. This job is the place they still run. The HTML

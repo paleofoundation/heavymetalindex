@@ -299,16 +299,9 @@ jobs:
             git commit -m "Evidence fill ${UNIT}: ${SLUG}"
           fi
           if ! git merge --no-edit origin/main; then
-            git checkout --theirs -- \
-              data/evidence/page-structure-baseline.json \
-              data/evidence/page-openings-baseline.json \
-              data/fanout/thin-with-evidence-baseline.txt || true
-            git add -- \
-              data/evidence/page-structure-baseline.json \
-              data/evidence/page-openings-baseline.json \
-              data/fanout/thin-with-evidence-baseline.txt || true
+            node tools/evidence-fill/resolve-merge-conflicts.mjs
             if git diff --name-only --diff-filter=U | grep -q .; then
-              echo "Merge with main left conflicts outside the baselines."
+              echo "Merge with main left conflicts outside the baselines, the alias registry, and wiki/log.md."
               git diff --name-only --diff-filter=U
               exit 1
             fi
@@ -325,10 +318,12 @@ jobs:
             --baseline-before "$before" \
             --baseline-after data/fanout/thin-with-evidence-baseline.txt \
             --entity "${FAMILY}/${SLUG}"
+          node --import tsx tools/build-alias-redirects.ts
           git add -- \
             data/evidence/page-structure-baseline.json \
             data/evidence/page-openings-baseline.json \
-            data/fanout/thin-with-evidence-baseline.txt
+            data/fanout/thin-with-evidence-baseline.txt \
+            data/redirects/aliases-301.json
           if ! git diff --cached --quiet; then
             git commit -m "Evidence fill ${UNIT}: record ${SLUG} baseline paths"
           fi
@@ -363,32 +358,29 @@ jobs:
           git config user.email "41898282+claude[bot]@users.noreply.github.com"
           git fetch --no-tags origin main
           if ! git merge --no-edit origin/main; then
-            git checkout --theirs -- \
-              data/evidence/page-structure-baseline.json \
-              data/evidence/page-openings-baseline.json \
-              data/fanout/thin-with-evidence-baseline.txt || true
-            git add -- \
-              data/evidence/page-structure-baseline.json \
-              data/evidence/page-openings-baseline.json \
-              data/fanout/thin-with-evidence-baseline.txt || true
+            node tools/evidence-fill/resolve-merge-conflicts.mjs
             if git diff --name-only --diff-filter=U | grep -q .; then
               echo "Could not merge latest main before opening the pull request."
               git diff --name-only --diff-filter=U
               exit 1
             fi
             git commit --no-edit
-            git checkout origin/main -- \
-              data/evidence/page-structure-baseline.json \
-              data/evidence/page-openings-baseline.json \
-              data/fanout/thin-with-evidence-baseline.txt
-            node tools/evidence-fill/record-filled-page.mjs --page "$PAGE"
-            git add -- \
-              data/evidence/page-structure-baseline.json \
-              data/evidence/page-openings-baseline.json \
-              data/fanout/thin-with-evidence-baseline.txt
-            if ! git diff --cached --quiet; then
-              git commit -m "Evidence fill ${UNIT}: record ${SLUG} baseline paths after merging main"
-            fi
+          fi
+          # A clean auto-merge of the shared baseline files can drop this page
+          # or keep a stale scanned-page count. Always re-record from main.
+          git checkout origin/main -- \
+            data/evidence/page-structure-baseline.json \
+            data/evidence/page-openings-baseline.json \
+            data/fanout/thin-with-evidence-baseline.txt
+          node tools/evidence-fill/record-filled-page.mjs --page "$PAGE"
+          node --import tsx tools/build-alias-redirects.ts
+          git add -- \
+            data/evidence/page-structure-baseline.json \
+            data/evidence/page-openings-baseline.json \
+            data/fanout/thin-with-evidence-baseline.txt \
+            data/redirects/aliases-301.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Evidence fill ${UNIT}: record ${SLUG} baseline paths after merging main"
           fi
           if git diff --quiet origin/main...HEAD; then
             echo "No changes against main. Not opening a pull request."

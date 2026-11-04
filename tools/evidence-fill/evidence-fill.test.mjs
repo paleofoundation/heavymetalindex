@@ -6,6 +6,7 @@ import test from "node:test"
 import { CHECKS } from "../audit-page-structure.mjs"
 import { baselineScopeErrors, violationsInDiff } from "./diff-gate.mjs"
 import { recordFilledPage } from "./record-filled-page.mjs"
+import { resolveConflictText } from "./resolve-merge-conflicts.mjs"
 import { selectNextUnit } from "./select-next-unit.mjs"
 
 const EM = "\u2014"
@@ -201,6 +202,14 @@ test("diff gate flags supplier data, dashes in new wiki prose, and placeholder i
   assert.equal(violations.some((line) => line.includes("tools/evidence-fill")), false)
 })
 
+test("a log conflict keeps both fill entries", () => {
+  const text = ["# log", "<<<<<<< HEAD", "- casein fill", "=======", "- palm oil fill", ">>>>>>> origin/main", ""].join("\n")
+  const resolved = resolveConflictText(text)
+  assert.match(resolved, /casein fill/)
+  assert.match(resolved, /palm oil fill/)
+  assert.equal(resolved.includes("<<<<<<<"), false)
+})
+
 test("baseline rewrite may drop only the filled page", () => {
   const before = "# note\ningredients/cocoa\ningredients/rice\n"
   assert.deepEqual(baselineScopeErrors(before, "# note\ningredients/rice\n", "ingredients/cocoa"), [])
@@ -236,6 +245,8 @@ test("the scheduled workflow carries the Claude fill contract", () => {
   assert.match(yml, /does not run --write-baseline/)
   assert.match(yml, /git merge --no-edit origin\/main/)
   assert.match(yml, /record-filled-page\.mjs/)
+  assert.match(yml, /resolve-merge-conflicts\.mjs/)
+  assert.match(yml, /Always re-record from main/)
   assert.match(yml, /kind == "product"/)
   const prompt = fs.readFileSync(new URL("./prompt.md", import.meta.url), "utf8")
   assert.match(prompt, /audit-page-structure\.mjs --write-baseline/)
@@ -263,6 +274,8 @@ test("baseline files change only the filled page path", () => {
     fs.writeFileSync(path.join(root, product), "---\ntitle: Tea\n---\n\n# Tea\n\nTea is a brewed drink.\n")
     const structure = {
       order: "HMI-STRUCTURE-SPEC-1",
+      pages_scanned: 1,
+      stubs_exempt_from_sections: 0,
       checks: Object.fromEntries(CHECKS.map((check) => [check, { pages: 1, paths: ["wiki/ingredients/rice.md"] }])),
     }
     const structurePath = path.join(root, "data/evidence/page-structure-baseline.json")
@@ -275,6 +288,8 @@ test("baseline files change only the filled page path", () => {
     recordFilledPage(root, page)
     assert.equal(fs.readFileSync(openingsPath, "utf8"), openingsBefore)
     const after = JSON.parse(fs.readFileSync(structurePath, "utf8"))
+    assert.equal(after.pages_scanned, 2)
+    assert.equal(after.stubs_exempt_from_sections, 1)
     for (const check of CHECKS) {
       assert.deepEqual(
         after.checks[check].paths.filter((rel) => rel !== page),

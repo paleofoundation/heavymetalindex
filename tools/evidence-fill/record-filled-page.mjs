@@ -6,7 +6,7 @@ import fs from "node:fs"
 import path from "node:path"
 import { pathToFileURL } from "node:url"
 import matter from "gray-matter"
-import { BASELINE_PATH, CHECKS, pageStructureFailures } from "../audit-page-structure.mjs"
+import { BASELINE_PATH, CHECKS, pageStructureFailures, scanRepo } from "../audit-page-structure.mjs"
 import { openingFindings } from "../build-page-openings.mjs"
 import { loadEvidenceEntities, pageStillThin } from "../fanout/audit-thin-with-evidence.mjs"
 
@@ -31,6 +31,22 @@ export function syncStructureBaseline(baseline, pageRel, failures) {
       block.pages = block.paths.length
       changed = true
     }
+  }
+  return changed
+}
+
+// The scanned page total is one number, so sibling fills that each add a page
+// collide on it. Set it from the working tree after this page is recorded.
+// Check path lists stay limited to this page.
+export function syncCorpusCounts(baseline, scan) {
+  let changed = false
+  if (baseline.pages_scanned !== scan.pages) {
+    baseline.pages_scanned = scan.pages
+    changed = true
+  }
+  if (baseline.stubs_exempt_from_sections !== scan.stubs) {
+    baseline.stubs_exempt_from_sections = scan.stubs
+    changed = true
   }
   return changed
 }
@@ -110,9 +126,12 @@ export function recordFilledPage(root, pageRel) {
   const result = { structure: false, openings: false, thin: false }
   const failures = pageStructureFailures(root, pageRel)
   const structurePath = path.join(root, BASELINE_PATH)
-  if (failures && fs.existsSync(structurePath)) {
+  if (fs.existsSync(structurePath)) {
     const baseline = JSON.parse(fs.readFileSync(structurePath, "utf8"))
-    if (syncStructureBaseline(baseline, pageRel, failures)) {
+    let changed = false
+    if (Array.isArray(failures)) changed = syncStructureBaseline(baseline, pageRel, failures)
+    if (syncCorpusCounts(baseline, scanRepo(root))) changed = true
+    if (changed) {
       fs.writeFileSync(structurePath, `${JSON.stringify(baseline, null, 2)}\n`)
       result.structure = true
     }
