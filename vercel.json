@@ -1385,6 +1385,10 @@
       "destination": "/api/account"
     },
     {
+      "source": "/pro/compare/:ingredient",
+      "destination": "/api/pro/page?ingredient=:ingredient"
+    },
+    {
       "source": "/pro",
       "destination": "/api/pro/page"
     },
@@ -1449,7 +1453,7 @@
     },
     "api/pro/**/*.mjs": {
       "maxDuration": 30,
-      "includeFiles": "data/pro/reference/**"
+      "includeFiles": "{data/pro/reference/**,tools/pdf/fonts/*.ttf}"
     },
     "api/billing/*.mjs": {
       "maxDuration": 30

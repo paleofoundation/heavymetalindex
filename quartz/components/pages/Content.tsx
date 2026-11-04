@@ -29,11 +29,21 @@ const Content: QuartzComponent = ({
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
-            __html: JSON.stringify(authorProfileJsonLd(cfg.baseUrl)).replace(/</g, "\\u003c"),
+            __html: JSON.stringify(authorProfileJsonLd(cfg.baseUrl)).replace(
+              /</g,
+              "\\u003c",
+            ),
           }}
         />
       )}
       {content}
+      {/^ingredients\/[a-z0-9-]+$/.test(String(fileData.slug)) && (
+        <p class="index-pro-cta">
+          <a href={`/pro/compare/${String(fileData.slug).split("/")[1]}`}>
+            Compare your lab result in Index Pro
+          </a>
+        </p>
+      )}
     </article>
   );
 };
