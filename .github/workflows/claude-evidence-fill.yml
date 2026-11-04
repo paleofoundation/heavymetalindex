@@ -100,7 +100,46 @@ jobs:
         run: |
           set -euo pipefail
           rm -rf "${RUNNER_TEMP}/hmi-evidence-deposits"
-          git clone --depth 1 "https://x-access-token:${DEPOSITS_READ_TOKEN}@github.com/paleofoundation/hmi-evidence-deposits.git" "${RUNNER_TEMP}/hmi-evidence-deposits"
+          # A full clone of the PDF tree fills the runner disk (run 41904870463).
+          # Blobless sparse checkout keeps the work graph and ledger text.
+          # The chosen unit's files are fetched in the next step.
+          df -h / | tail -1
+          git clone --depth 1 --filter=blob:none --sparse \
+            "https://x-access-token:${DEPOSITS_READ_TOKEN}@github.com/paleofoundation/hmi-evidence-deposits.git" \
+            "${RUNNER_TEMP}/hmi-evidence-deposits"
+          git -C "${RUNNER_TEMP}/hmi-evidence-deposits" ls-tree -r --name-only HEAD > "${RUNNER_TEMP}/deposit-tree.txt"
+          LIST="${RUNNER_TEMP}/deposit-tree.txt" OUT="${RUNNER_TEMP}/deposit-text.txt" python3 - <<'PY'
+          import os
+          names = open(os.environ["LIST"], encoding="utf-8", errors="replace").read().splitlines()
+          skip = (".pdf", ".png", ".jpg", ".jpeg", ".webp", ".gif", ".tif", ".tiff", ".zip", ".gz")
+          text_ext = (".json", ".jsonl", ".csv", ".md", ".txt", ".yml", ".yaml")
+          bare = {"status", "slug", "ingredient", "page", "target", "wiki"}
+          priority, rest = [], []
+          for name in names:
+              lower = name.lower()
+              if lower.endswith(skip):
+                  continue
+              base = lower.rsplit("/", 1)[-1]
+              if not (lower.endswith(text_ext) or base in bare):
+                  continue
+              if name == "graph/next_work.json" or base in {"status", "readme.md"} or "ledger" in base or name.count("/") <= 1:
+                  priority.append(name)
+              else:
+                  rest.append(name)
+          chosen = priority + rest
+          cap = 5000
+          if len(chosen) > cap:
+              must = [item for item in chosen if item == "graph/next_work.json" or item.count("/") <= 1]
+              chosen = (must + [item for item in chosen if item not in must])[:cap]
+          with open(os.environ["OUT"], "w", encoding="utf-8") as handle:
+              if chosen:
+                  handle.write("\n".join(chosen) + "\n")
+          print(f"sparse text files: {len(chosen)}")
+          PY
+          if [ -s "${RUNNER_TEMP}/deposit-text.txt" ]; then
+            git -C "${RUNNER_TEMP}/hmi-evidence-deposits" sparse-checkout set --no-cone --stdin < "${RUNNER_TEMP}/deposit-text.txt"
+          fi
+          df -h / | tail -1
       - name: Pick the next deposited unit
         id: pick
         env:
@@ -134,6 +173,21 @@ jobs:
           if [ "$(printf '%s' "$json" | python3 -c 'import json,sys; print(json.load(sys.stdin).get("unit") or "")')" = "" ]; then
             echo "No unblocked hmi-evidence-fill graph item, and no deposited ingredient or product. Nothing to do."
           fi
+      - name: Fetch the chosen deposit files
+        if: steps.pick.outputs.unit != ''
+        env:
+          DIR: ${{ steps.pick.outputs.dir }}
+          DEPOSITS_ROOT: ${{ runner.temp }}/hmi-evidence-deposits
+        run: |
+          set -euo pipefail
+          if [ ! -d "${DEPOSITS_ROOT}/.git" ]; then
+            echo "Deposits checkout has no git metadata. The full tree is already present."
+            exit 0
+          fi
+          unit_dir="${DIR%/}"
+          git -C "$DEPOSITS_ROOT" sparse-checkout add "${unit_dir}/"
+          git -C "$DEPOSITS_ROOT" checkout HEAD -- "$unit_dir"
+          df -h / | tail -1
       - name: Build the fill prompt
         id: prompt
         if: steps.pick.outputs.unit != ''
