@@ -15,7 +15,7 @@ raw_path: "raw/Manual Fetch Kimi /Children Personal Care Papers/babycare_04_Sham
 raw_sha256: 673ce34d6ef52aeab4d7a11a7228f832e89cd7245afb4d9e4d54f6db31308f21
 metals: [Pb, Cd, tAs, Al, Cr, Cu, Ni, Fe, Zn, Mn, Co]
 ingredients: []
-products: ["[[products/sun-suntan-products]]", "[[products/makeup-foundation-powders-blush]]", "[[products/body-hand-leave-on-skin-care]]", "[[products/leave-on-hair-preparations]]", "[[products/shampoo-adult]]", "[[products/facial-cleansers]]", "[[products/baby-oil]]", "[[products/baby-talcum-powder]]", "[[products/permanent-hair-dyes-tints]]", "[[products/eye-makeup]]", "[[products/deodorants]]", "[[products/shaving-cream-gel-foam]]", "[[products/lipstick]]", "[[products/toothpaste]]"]
+products: ["[[products/sun-suntan-products]]", "[[products/makeup-foundation-powders-blush]]", "[[products/body-hand-leave-on-skin-care]]", "[[products/leave-on-hair-preparations]]", "[[products/shampoo-adult]]", "[[products/facial-cleansers]]", "[[products/baby-oil]]", "[[products/baby-talcum-powder]]", "[[products/dusting-powder-cornstarch-adult]]", "[[products/permanent-hair-dyes-tints]]", "[[products/eye-makeup]]", "[[products/deodorants]]", "[[products/shaving-cream-gel-foam]]", "[[products/lipstick]]", "[[products/toothpaste]]"]
 matrices: [cosmetic-personal-care]
 jurisdictions: [SA, US, EU]
 near_duplicates: []
