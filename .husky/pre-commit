@@ -18,12 +18,15 @@
 if [ "${HMI_SKIP_COMMIT_LOCK:-0}" != "1" ]; then
   # shellcheck source=../tools/autonomy/commit-lock.sh
   . "$(git rev-parse --show-toplevel)/tools/autonomy/commit-lock.sh"
+  # The trap is installed before acquire so a crash after mkdir still removes
+  # this shell's lock directory on exit. A lock held by another pid is left
+  # alone, and a failed acquire returns 1 instead of aborting the shell.
+  trap 'release_lock' EXIT INT TERM
   if ! acquire_lock "pre-commit-${USER:-unknown}-$$" 60; then
     echo "pre-commit: another commit is in progress. Wait a moment and retry."
     echo "  (set HMI_SKIP_COMMIT_LOCK=1 to bypass; only do this if you know what you are doing)"
     exit 1
   fi
-  trap release_lock EXIT INT TERM
 fi
 
 # The public homepage is a designed layout. A markdown heading or a batch-log
