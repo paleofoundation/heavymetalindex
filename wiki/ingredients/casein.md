@@ -7,7 +7,6 @@ category: dairy-protein
 audience:
   - regulator
   - educator
-  - consumer
   - app
 sources: 5
 updated: '2026-11-04'
@@ -170,6 +169,9 @@ quick_read:
     - label: Evidence gap
       text: "Casein-specific ambient occurrence data with quantified Pb, Cd, and As concentrations are absent from published literature surveyed to date; available surveys found only below-detection values or measured other dairy matrices."
   sources_line: "This page draws on evidence from [[sources/horvath2025-hungary-protein-powders-metals|Horvath et al. 2025]], [[sources/chira2026-milk-coagulation-metal-partitioning|Chira and Amariei 2026]], [[sources/philips2025-india-whey-protein-cpp2|Philips et al. 2025]], [[sources/bandara2020-protein-powder-heavy-metals|Bandara et al. 2020]], and [[sources/ibrahim2025-metals-flavored-dairy-egypt|Ibrahim et al. 2025]]. The complete citation list is at the bottom of the page."
+hero_image: /static/heroes/dairy-butter-protein-powder-milk.webp
+hero_image_alt: "A butter block, an unmarked jar of fine pale powder and a glass of milk illustrating casein ingredient context."
+
 ---
 
 # Casein
