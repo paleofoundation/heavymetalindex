@@ -165,6 +165,7 @@ const config: QuartzConfig = {
       // Must stay last: moves occurrence-explorer payloads, after every other
       // transform, into JSON beside the page. See explorerSidecars.ts.
       Plugin.ExplorerSidecars(),
+      Plugin.RawExplorerHtml(),
     ],
     filters: [Plugin.RemoveDrafts()],
     emitters: [

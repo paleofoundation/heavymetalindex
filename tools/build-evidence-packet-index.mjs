@@ -115,7 +115,7 @@ function extractContributingSources(frontmatter, body) {
 // references, so normal prebuild decoration cannot invalidate an authored pin.
 function buildGitSnapshot(repoRoot) {
   const git = (args, options = {}) => execFileSync("git", args, {
-    cwd: repoRoot, encoding: "utf8", maxBuffer: 200 * 1024 * 1024,
+    cwd: repoRoot, encoding: "utf8", maxBuffer: 2 * 1024 * 1024 * 1024,
     stdio: ["pipe", "pipe", "ignore"], ...options,
   })
   let commit
