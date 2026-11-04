@@ -59,7 +59,7 @@
     "evidence:scan": "tsx tools/evidence/scan-markdown.ts --raw raw/markdown --out data/evidence/drafts",
     "crosswalk:apply": "node tools/evidence/build-routing-audit.mjs && node tools/apply-product-crosswalk-sections.mjs",
     "format": "npx prettier . --write",
-    "test": "tsx --test",
+    "test": "NODE_OPTIONS=--max-old-space-size=6144 tsx --test",
     "workbench": "node tools/standards-workbench/server.mjs",
     "fetch-app": "node tools/fetch-app/server.mjs",
     "fetch-app:install-desktop": "bash tools/fetch-app/desktop-app/build-desktop-app.sh",
