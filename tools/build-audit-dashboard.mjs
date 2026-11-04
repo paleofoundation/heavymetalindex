@@ -190,7 +190,9 @@ function buildDashboard(audits) {
   out.push(`| Taxonomy v2.0 coverage (destination pages exist for HMTc rows) | ${tax.exact + tax.by_alias} / ${tax.total} (${taxPct}%) | ${taxPct === 100 ? "PASS" : taxPct >= 80 ? "WARN" : "FAIL"} |`)
   if (audits.routing) {
     const routingClean = audits.routing.unresolved === 0
-    out.push(`| Routing audit (unresolved source routings) | ${audits.routing.unresolved} unresolved | ${routingClean ? "PASS" : "FAIL"} |`)
+    // Reader label. "Routing audit" is an ingest-log phrase and fails
+    // tools/audit-public-batch-prose.mjs on this published page.
+    out.push(`| Source routing (unresolved source routings) | ${audits.routing.unresolved} unresolved | ${routingClean ? "PASS" : "FAIL"} |`)
     out.push(`| Routing rows generated | ${audits.routing.rows} | — |`)
   }
   if (audits.ingredient_sections) {
@@ -231,10 +233,10 @@ function buildDashboard(audits) {
   out.push("Detail report: `data/evidence/taxonomy-coverage-audit.md`.  Full PRISMA-equivalent: [[coverage]].")
   out.push("")
 
-  out.push("## Routing audit")
+  out.push("## Source catalog")
   out.push("")
   if (audits.routing) {
-    out.push(`Routing layer (CLAUDE.md Part 5b) fans source-page declarations of \`products: [<slug>]\` to product-category pages. ${audits.routing.rows} routing rows in current audit.`)
+    out.push(`Source pages that name a product are listed on that product page. ${audits.routing.rows} source-to-page links are on record.`)
     out.push("")
     out.push(`- Unresolved targets (source frontmatter declares a slug that doesn't exist): **${audits.routing.unresolved}**`)
     out.push(`- Malformed sources (missing required frontmatter fields): **${audits.routing.malformed}** (non-blocking)`)
@@ -363,6 +365,8 @@ function buildDashboard(audits) {
   return out.join("\n")
 }
 
+export { buildDashboard }
+
 function main() {
   const audits = loadAudits()
   const dashboard = buildDashboard(audits)
@@ -383,4 +387,4 @@ function main() {
   if (audits.sources) console.log(`  sources: ${audits.sources.total} total, ${audits.sources.doi_missing} missing DOI`)
 }
 
-main()
+if (process.argv[1] && path.resolve(process.argv[1]) === path.resolve(new URL(import.meta.url).pathname)) main()
