@@ -13,7 +13,7 @@ license: "CC BY 4.0"
 raw_path: /Users/kmfp/papers-for-claude/hmi-thin/batch-13-addendum/pdfs/10.3390_foods14132261.pdf
 metals: [As, Pb, Cd, Hg, Al, Ni, Cr, Sn, Sb, Ba, Sr, Se, Zn, Cu, Fe, Mn, Co, Mo]
 ingredients: ["[[ingredients/rice]]"]
-products: []
+products: ["[[products/rice-grain-syrup]]", "[[products/rice-bulk-grain]]"]
 matrices: [white rice, parboiled rice, brown rice]
 jurisdictions: [HR]
 near_duplicates: []

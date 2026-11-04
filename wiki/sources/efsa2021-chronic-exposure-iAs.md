@@ -15,7 +15,7 @@ access_date: 2026-05-12
 access_url: "https://doi.org/10.2903/j.efsa.2021.6380"
 metals: [iAs, tAs]
 ingredients: ["[[ingredients/rice]]"]
-products: ["[[products/baby-cereals-dry-rice-based]]", "[[products/rice-bulk-grain]]", "[[products/other-grain-products]]"]
+products: ["[[products/baby-cereals-dry-rice-based]]", "[[products/rice-bulk-grain]]", "[[products/other-grain-products]]", "[[products/rice-grain-syrup]]"]
 matrices: [rice, rice-based-products, grain-based-products, drinking-water, dietary-intake]
 jurisdictions: [EU]
 near_duplicates: ["raw/Manual Fetch Kimi /June 3 Folder/EFSA Journal - 2021 -  - Chronic dietary exposure to inorganic arsenic.pdf — byte-near-identical content, 5 B PDF-metadata delta; verified 2026-06-03"]

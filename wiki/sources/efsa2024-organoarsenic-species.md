@@ -16,7 +16,7 @@ access_date: 2026-06-03
 access_url: "https://doi.org/10.2903/j.efsa.2024.8844"
 metals: [tAs]
 ingredients: ["[[ingredients/rice]]", "[[ingredients/fish]]", "[[ingredients/molluscs]]", "[[ingredients/seaweed]]"]
-products: ["[[products/baby-cereals-dry-rice-based]]", "[[products/rice-bulk-grain]]", "[[products/other-grain-products]]", "[[products/rice-snacks-crackers]]", "[[products/rice-beverages-rice-milk]]", "[[products/infant-formula-powder]]", "[[products/fresh-fish]]", "[[products/canned-fish]]", "[[products/shellfish]]", "[[products/seafood]]", "[[products/seaweed-kelp-foods]]"]
+products: ["[[products/baby-cereals-dry-rice-based]]", "[[products/rice-bulk-grain]]", "[[products/other-grain-products]]", "[[products/rice-snacks-crackers]]", "[[products/rice-beverages-rice-milk]]", "[[products/infant-formula-powder]]", "[[products/fresh-fish]]", "[[products/canned-fish]]", "[[products/shellfish]]", "[[products/seafood]]", "[[products/seaweed-kelp-foods]]", "[[products/rice-grain-syrup]]"]
 matrices: [rice, rice-based-products, grain-based-products, fish, seafood, mollusks, seaweed, infant-formula, dietary-intake]
 jurisdictions: [EU]
 near_duplicates: []

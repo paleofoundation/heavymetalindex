@@ -14,7 +14,7 @@ license: "CC BY"
 raw_path: raw/markdown/FM_12411130/FM_12411130.md
 metals: [iAs, tAs]
 ingredients: ["[[ingredients/rice]]"]
-products: ["[[products/baby-cereals-dry-rice-based]]"]
+products: ["[[products/baby-cereals-dry-rice-based]]", "[[products/rice-grain-syrup]]"]
 matrices: [rice, grain]
 jurisdictions: [US]
 near_duplicates: []
