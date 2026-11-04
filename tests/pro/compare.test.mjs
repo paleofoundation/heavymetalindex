@@ -139,3 +139,11 @@ test("pea-protein saves a supported insufficient-reference outcome instead of in
   assert.equal(o.bounds_flag, null);
   assert.deepEqual(o.source_ids, ["ring2021-ireland-protein-powders-metals"]);
 });
+
+test("small positive reported values and limits never display as zero", async () => {
+  const { numberText, resultText } =
+    await import("../../lib/pro/presentation.mjs");
+  assert.equal(numberText(0.00001), "1E-5");
+  const x = input({ result_kind: "below_loq", value: null, loq: 0.00001 });
+  assert.match(resultText(x, compare(x, rice)).value, /Not quantified.*1E-5/);
+});

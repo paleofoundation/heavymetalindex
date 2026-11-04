@@ -114,11 +114,15 @@ try {
   await fill({
     lot: "SYNTHETIC-RICE-NQ",
     "result-kind": "below_loq",
-    loq: "0.01",
+    loq: "0.00001",
   });
   const nq = await submit();
   assert.equal(nq.output.status, "not_quantified");
   assert.equal(nq.input.value, null);
+  assert.match(
+    await page.$eval("#result", (e) => e.textContent),
+    /Below LOQ: 1E-5 ppm/,
+  );
   await page.goto(`${app.origin}/pro/compare/pea-protein`, {
     waitUntil: "networkidle0",
   });
