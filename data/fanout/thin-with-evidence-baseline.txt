@@ -2,7 +2,6 @@
 # Rewrite with: node tools/fanout/audit-thin-with-evidence.mjs --write-baseline
 # A page leaves this list when it has a valid hmi-cited-measurements block.
 ingredients/casein
-ingredients/cod
 ingredients/cola
 ingredients/diet-cola
 ingredients/energy-drink

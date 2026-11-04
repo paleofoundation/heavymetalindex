@@ -1,7 +1,10 @@
-# Scheduled ingredient fill. One DEPOSITED unit from paleofoundation/hmi-evidence-deposits
-# per run. Claude writes the page. This workflow regenerates alias redirects and the
-# thin-with-evidence baseline, runs the same checks as CI, and opens
-# evidence-fill/<unit> only when those checks pass.
+# Scheduled page fill. One unit from paleofoundation/hmi-evidence-deposits per run,
+# taken from graph/next_work.json when that file lists an unblocked
+# hmi-evidence-fill item, otherwise the next DEPOSITED ingredient or product.
+# Claude writes the page. This workflow merges the latest main, records only
+# that page in the structure, openings, and thin-with-evidence baselines, runs
+# the same checks as CI, and opens evidence-fill/<unit> only when those checks pass.
+# It does not run --write-baseline.
 #
 # .claude/settings.json is not applied by claude-code-action, so the tool list is
 # passed with --allowedTools below.
@@ -97,8 +100,47 @@ jobs:
         run: |
           set -euo pipefail
           rm -rf "${RUNNER_TEMP}/hmi-evidence-deposits"
-          git clone --depth 1 "https://x-access-token:${DEPOSITS_READ_TOKEN}@github.com/paleofoundation/hmi-evidence-deposits.git" "${RUNNER_TEMP}/hmi-evidence-deposits"
-      - name: Pick the next DEPOSITED ingredient unit
+          # A full clone of the PDF tree fills the runner disk (run 41904870463).
+          # Blobless sparse checkout keeps the work graph and ledger text.
+          # The chosen unit's files are fetched in the next step.
+          df -h / | tail -1
+          git clone --depth 1 --filter=blob:none --sparse \
+            "https://x-access-token:${DEPOSITS_READ_TOKEN}@github.com/paleofoundation/hmi-evidence-deposits.git" \
+            "${RUNNER_TEMP}/hmi-evidence-deposits"
+          git -C "${RUNNER_TEMP}/hmi-evidence-deposits" ls-tree -r --name-only HEAD > "${RUNNER_TEMP}/deposit-tree.txt"
+          LIST="${RUNNER_TEMP}/deposit-tree.txt" OUT="${RUNNER_TEMP}/deposit-text.txt" python3 - <<'PY'
+          import os
+          names = open(os.environ["LIST"], encoding="utf-8", errors="replace").read().splitlines()
+          skip = (".pdf", ".png", ".jpg", ".jpeg", ".webp", ".gif", ".tif", ".tiff", ".zip", ".gz")
+          text_ext = (".json", ".jsonl", ".csv", ".md", ".txt", ".yml", ".yaml")
+          bare = {"status", "slug", "ingredient", "page", "target", "wiki"}
+          priority, rest = [], []
+          for name in names:
+              lower = name.lower()
+              if lower.endswith(skip):
+                  continue
+              base = lower.rsplit("/", 1)[-1]
+              if not (lower.endswith(text_ext) or base in bare):
+                  continue
+              if name == "graph/next_work.json" or base in {"status", "readme.md"} or "ledger" in base or name.count("/") <= 1:
+                  priority.append(name)
+              else:
+                  rest.append(name)
+          chosen = priority + rest
+          cap = 5000
+          if len(chosen) > cap:
+              must = [item for item in chosen if item == "graph/next_work.json" or item.count("/") <= 1]
+              chosen = (must + [item for item in chosen if item not in must])[:cap]
+          with open(os.environ["OUT"], "w", encoding="utf-8") as handle:
+              if chosen:
+                  handle.write("\n".join(chosen) + "\n")
+          print(f"sparse text files: {len(chosen)}")
+          PY
+          if [ -s "${RUNNER_TEMP}/deposit-text.txt" ]; then
+            git -C "${RUNNER_TEMP}/hmi-evidence-deposits" sparse-checkout set --no-cone --stdin < "${RUNNER_TEMP}/deposit-text.txt"
+          fi
+          df -h / | tail -1
+      - name: Pick the next deposited unit
         id: pick
         env:
           DEPOSITS_ROOT: ${{ runner.temp }}/hmi-evidence-deposits
@@ -108,10 +150,44 @@ jobs:
           skips="$(gh pr list --state open --limit 200 --json headRefName --jq '[.[] | select(.headRefName | startswith("evidence-fill/")) | .headRefName | sub("^evidence-fill/"; "")] | join(",")')"
           json="$(node tools/evidence-fill/select-next-unit.mjs --root "$DEPOSITS_ROOT" --skip "$skips")"
           echo "$json"
-          printf '%s' "$json" | python3 -c 'import json,sys,os; d=json.load(sys.stdin); f=open(os.environ["GITHUB_OUTPUT"],"a"); [f.write(f"{k}={d.get(k) or \"\"}\n") for k in ("unit","slug","dir")]'
+          unit_file="${RUNNER_TEMP:-/tmp}/next-unit.json"
+          printf '%s' "$json" > "$unit_file"
+          UNIT_FILE="$unit_file" python3 - <<'PY'
+          import json, os
+          data = json.load(open(os.environ["UNIT_FILE"]))
+          kind = data.get("kind") or ""
+          family = "products" if kind == "product" else "ingredients"
+          slug = data.get("slug") or ""
+          page = f"wiki/{family}/{slug}.md" if slug else ""
+          with open(os.environ["GITHUB_OUTPUT"], "a") as handle:
+              for key, value in (
+                  ("unit", data.get("unit") or ""),
+                  ("slug", slug),
+                  ("dir", data.get("dir") or ""),
+                  ("kind", kind or "ingredient"),
+                  ("family", family),
+                  ("page", page),
+              ):
+                  handle.write(f"{key}={value}\n")
+          PY
           if [ "$(printf '%s' "$json" | python3 -c 'import json,sys; print(json.load(sys.stdin).get("unit") or "")')" = "" ]; then
-            echo "No ingredient unit is marked DEPOSITED. Nothing to do."
+            echo "No unblocked hmi-evidence-fill graph item, and no deposited ingredient or product. Nothing to do."
           fi
+      - name: Fetch the chosen deposit files
+        if: steps.pick.outputs.unit != ''
+        env:
+          DIR: ${{ steps.pick.outputs.dir }}
+          DEPOSITS_ROOT: ${{ runner.temp }}/hmi-evidence-deposits
+        run: |
+          set -euo pipefail
+          if [ ! -d "${DEPOSITS_ROOT}/.git" ]; then
+            echo "Deposits checkout has no git metadata. The full tree is already present."
+            exit 0
+          fi
+          unit_dir="${DIR%/}"
+          git -C "$DEPOSITS_ROOT" sparse-checkout add "${unit_dir}/"
+          git -C "$DEPOSITS_ROOT" checkout HEAD -- "$unit_dir"
+          df -h / | tail -1
       - name: Build the fill prompt
         id: prompt
         if: steps.pick.outputs.unit != ''
@@ -119,6 +195,9 @@ jobs:
           UNIT: ${{ steps.pick.outputs.unit }}
           SLUG: ${{ steps.pick.outputs.slug }}
           DIR: ${{ steps.pick.outputs.dir }}
+          KIND: ${{ steps.pick.outputs.kind }}
+          FAMILY: ${{ steps.pick.outputs.family }}
+          PAGE: ${{ steps.pick.outputs.page }}
           DEPOSITS_ROOT: ${{ runner.temp }}/hmi-evidence-deposits
         run: |
           set -euo pipefail
@@ -126,13 +205,13 @@ jobs:
           import os
           import pathlib
           text = pathlib.Path("tools/evidence-fill/prompt.md").read_text()
-          for key in ("UNIT", "SLUG", "DIR", "DEPOSITS_ROOT"):
-              text = text.replace(f"__{key}__", os.environ[key])
+          for key in ("UNIT", "SLUG", "DIR", "DEPOSITS_ROOT", "KIND", "FAMILY", "PAGE"):
+              text = text.replace(f"__{key}__", os.environ.get(key) or "")
           delim = "EVIDENCE_FILL_PROMPT"
           with open(os.environ["GITHUB_OUTPUT"], "a") as handle:
               handle.write(f"prompt<<{delim}\n{text}\n{delim}\n")
           PY
-      - name: Fill the ingredient page
+      - name: Fill the page
         id: claude
         if: steps.pick.outputs.unit != ''
         uses: anthropics/claude-code-action@v1
@@ -150,37 +229,46 @@ jobs:
           claude_args: |
             --allowedTools "Bash,Read,Edit,Write,Grep,Glob"
             --max-turns 80
-      - name: Regenerate redirects and baseline, then run CI checks
+      - name: Merge main, record this page, then run CI checks
         id: verify
         if: steps.pick.outputs.unit != ''
         env:
           UNIT: ${{ steps.pick.outputs.unit }}
           SLUG: ${{ steps.pick.outputs.slug }}
+          FAMILY: ${{ steps.pick.outputs.family }}
+          PAGE: ${{ steps.pick.outputs.page }}
           NODE_OPTIONS: --max-old-space-size=6144
         run: |
           set -euo pipefail
           if [ ! -d node_modules ]; then npm ci; fi
-          before="${RUNNER_TEMP}/thin-before.txt"
-          cp data/fanout/thin-with-evidence-baseline.txt "$before"
-          node --import tsx tools/build-alias-redirects.ts
-          if [ -f "wiki/ingredients/${SLUG}.md" ]; then
-            node tools/build-page-openings.mjs --apply "wiki/ingredients/${SLUG}.md"
+          if [ -z "${PAGE}" ]; then
+            echo "The selected unit has no wiki page path."
+            exit 1
           fi
-          node tools/fanout/audit-thin-with-evidence.mjs --write-baseline
-          node tools/evidence-fill/diff-gate.mjs \
-            --baseline-before "$before" \
-            --baseline-after data/fanout/thin-with-evidence-baseline.txt \
-            --entity "ingredients/${SLUG}"
+          git config user.name "claude[bot]"
+          git config user.email "41898282+claude[bot]@users.noreply.github.com"
+          git fetch --no-tags origin main
+          # Drop a whole-baseline rewrite. The filled page is recorded after the merge.
+          git checkout origin/main -- \
+            data/evidence/page-structure-baseline.json \
+            data/evidence/page-openings-baseline.json \
+            data/fanout/thin-with-evidence-baseline.txt
+          if [ -f "$PAGE" ]; then
+            node tools/build-page-openings.mjs --apply "$PAGE"
+          fi
+          node --import tsx tools/build-alias-redirects.ts
           python3 - <<'PY'
           import subprocess, sys
           status = subprocess.check_output(["git", "status", "--porcelain"], text=True)
           allowed = (
               "wiki/ingredients/",
+              "wiki/products/",
               "wiki/sources/",
               "wiki/log.md",
               "data/redirects/aliases-301.json",
               "data/fanout/thin-with-evidence-baseline.txt",
               "data/evidence/page-openings-baseline.json",
+              "data/evidence/page-structure-baseline.json",
               "quartz/static/heroes/",
               "data/design/page-hero-images.json",
           )
@@ -192,25 +280,58 @@ jobs:
               if not any(path == item or path.startswith(item) for item in allowed):
                   bad.append(path)
           if bad:
-              print("The fill edited paths outside the ingredient page, its sources, and the regenerated files:")
+              print("The fill edited paths outside the page, its sources, and the regenerated files:")
               print("\n".join(bad))
               sys.exit(1)
           PY
           git add -- \
             wiki/ingredients \
+            wiki/products \
             wiki/sources \
             wiki/log.md \
             data/redirects/aliases-301.json \
             data/fanout/thin-with-evidence-baseline.txt \
             data/evidence/page-openings-baseline.json \
+            data/evidence/page-structure-baseline.json \
             quartz/static/heroes \
             data/design/page-hero-images.json
           if ! git diff --cached --quiet; then
-            git config user.name "claude[bot]"
-            git config user.email "41898282+claude[bot]@users.noreply.github.com"
             git commit -m "Evidence fill ${UNIT}: ${SLUG}"
           fi
-          git fetch --no-tags origin main
+          if ! git merge --no-edit origin/main; then
+            git checkout --theirs -- \
+              data/evidence/page-structure-baseline.json \
+              data/evidence/page-openings-baseline.json \
+              data/fanout/thin-with-evidence-baseline.txt || true
+            git add -- \
+              data/evidence/page-structure-baseline.json \
+              data/evidence/page-openings-baseline.json \
+              data/fanout/thin-with-evidence-baseline.txt || true
+            if git diff --name-only --diff-filter=U | grep -q .; then
+              echo "Merge with main left conflicts outside the baselines."
+              git diff --name-only --diff-filter=U
+              exit 1
+            fi
+            git commit --no-edit
+          fi
+          git checkout origin/main -- \
+            data/evidence/page-structure-baseline.json \
+            data/evidence/page-openings-baseline.json \
+            data/fanout/thin-with-evidence-baseline.txt
+          before="${RUNNER_TEMP}/thin-before.txt"
+          cp data/fanout/thin-with-evidence-baseline.txt "$before"
+          node tools/evidence-fill/record-filled-page.mjs --page "$PAGE"
+          node tools/evidence-fill/diff-gate.mjs \
+            --baseline-before "$before" \
+            --baseline-after data/fanout/thin-with-evidence-baseline.txt \
+            --entity "${FAMILY}/${SLUG}"
+          git add -- \
+            data/evidence/page-structure-baseline.json \
+            data/evidence/page-openings-baseline.json \
+            data/fanout/thin-with-evidence-baseline.txt
+          if ! git diff --cached --quiet; then
+            git commit -m "Evidence fill ${UNIT}: record ${SLUG} baseline paths"
+          fi
           node tools/evidence-fill/diff-gate.mjs --base origin/main
           node tools/lint/hero-image-placeholders.mjs --changed origin/main
           npm test
@@ -224,6 +345,8 @@ jobs:
         env:
           UNIT: ${{ steps.pick.outputs.unit }}
           SLUG: ${{ steps.pick.outputs.slug }}
+          FAMILY: ${{ steps.pick.outputs.family }}
+          PAGE: ${{ steps.pick.outputs.page }}
           CLAUDE_APP_TOKEN: ${{ steps.claude.outputs.github_token }}
           EXTRA_BRANCH: ${{ steps.claude.outputs.branch_name }}
         run: |
@@ -236,7 +359,37 @@ jobs:
           git_push() {
             GIT_ASKPASS="$askpass" GIT_TOKEN="$token" git -c credential.helper= "$@"
           }
+          git config user.name "claude[bot]"
+          git config user.email "41898282+claude[bot]@users.noreply.github.com"
           git fetch --no-tags origin main
+          if ! git merge --no-edit origin/main; then
+            git checkout --theirs -- \
+              data/evidence/page-structure-baseline.json \
+              data/evidence/page-openings-baseline.json \
+              data/fanout/thin-with-evidence-baseline.txt || true
+            git add -- \
+              data/evidence/page-structure-baseline.json \
+              data/evidence/page-openings-baseline.json \
+              data/fanout/thin-with-evidence-baseline.txt || true
+            if git diff --name-only --diff-filter=U | grep -q .; then
+              echo "Could not merge latest main before opening the pull request."
+              git diff --name-only --diff-filter=U
+              exit 1
+            fi
+            git commit --no-edit
+            git checkout origin/main -- \
+              data/evidence/page-structure-baseline.json \
+              data/evidence/page-openings-baseline.json \
+              data/fanout/thin-with-evidence-baseline.txt
+            node tools/evidence-fill/record-filled-page.mjs --page "$PAGE"
+            git add -- \
+              data/evidence/page-structure-baseline.json \
+              data/evidence/page-openings-baseline.json \
+              data/fanout/thin-with-evidence-baseline.txt
+            if ! git diff --cached --quiet; then
+              git commit -m "Evidence fill ${UNIT}: record ${SLUG} baseline paths after merging main"
+            fi
+          fi
           if git diff --quiet origin/main...HEAD; then
             echo "No changes against main. Not opening a pull request."
             if [ -n "${EXTRA_BRANCH}" ] && [ "${EXTRA_BRANCH}" != "$target" ]; then
@@ -249,9 +402,9 @@ jobs:
           git_push push "https://github.com/${GITHUB_REPOSITORY}.git" "HEAD:refs/heads/${target}"
           export GH_TOKEN="$token"
           cat > "${RUNNER_TEMP}/pr-body.md" <<EOF
-          Automated evidence fill for ${UNIT} (\`ingredients/${SLUG}\`).
+          Automated evidence fill for ${UNIT} (\`${FAMILY}/${SLUG}\`).
 
-          The page was built from that deposit unit. Alias redirects and the thin-with-evidence baseline were regenerated with the repo tools. \`npm test\`, \`npm run lint:page-structure\`, \`npm run lint:page-openings\`, \`npm run lint:thin-with-evidence\`, and \`npm run check\` passed before this pull request was opened.
+          The page was built from that deposit unit. Alias redirects were regenerated with the repo tools. The structure, openings, and thin-with-evidence baselines record only this page. The branch merged the latest main before this pull request was opened. \`npm test\`, \`npm run lint:page-structure\`, \`npm run lint:page-openings\`, \`npm run lint:thin-with-evidence\`, and \`npm run check\` passed before this pull request was opened.
 
           Direction: toward the literature.
           EOF
