@@ -22,6 +22,8 @@
 # cursor[bot] has no write permission, and Anthropic's OIDC app-token exchange
 # rejects it with 401. Bot actors therefore pass this job's GITHUB_TOKEN into
 # the action and then dispatch CI. A human actor still uses the app token.
+# After Claude returns, bot actors put that job token back on origin: the
+# action rewrites the remote, and its post step can leave a dead credential.
 # The cron is minute 17, not minute 0: GitHub delays and then drops a scheduled
 # run that is still waiting when the next tick is due, and the top of the hour
 # is when that delay is worst.
@@ -240,6 +242,90 @@ jobs:
           claude_args: |
             --allowedTools "Bash,Read,Edit,Write,Grep,Glob"
             --max-turns 80
+      # Bot actors must re-auth after claude-code-action. That action embeds the
+      # github_token it was given (this job's GITHUB_TOKEN) in origin and strips
+      # checkout's extraheader. Its post step can leave a dead or password-style
+      # remote, so the next git fetch fails with "Invalid username or token".
+      # A human actor keeps the Claude app token when that token still authenticates.
+      - name: Restore git authentication
+        id: gitauth
+        if: steps.pick.outputs.unit != ''
+        env:
+          JOB_TOKEN: ${{ github.token }}
+          CLAUDE_APP_TOKEN: ${{ steps.claude.outputs.github_token }}
+          ACTOR: ${{ github.actor }}
+        run: |
+          set -euo pipefail
+          export GIT_TERMINAL_PROMPT=0
+          if [ -n "${CLAUDE_APP_TOKEN}" ]; then
+            echo "::add-mask::${CLAUDE_APP_TOKEN}"
+          fi
+          if [ -n "${JOB_TOKEN}" ]; then
+            echo "::add-mask::${JOB_TOKEN}"
+          fi
+          token_accepted() {
+            local tok="$1"
+            local code
+            code="$(curl -sS -o /dev/null -w '%{http_code}' \
+              --connect-timeout 10 --max-time 30 \
+              -H "Authorization: Bearer ${tok}" \
+              -H "Accept: application/vnd.github+json" \
+              -H "X-GitHub-Api-Version: 2022-11-28" \
+              "${GITHUB_API_URL:-https://api.github.com}/repos/${GITHUB_REPOSITORY}" || true)"
+            [ "$code" = "200" ]
+          }
+          restore_origin() {
+            local tok="$1"
+            local basic includes line path
+            # Drop the token the action embedded. A URL credential beats extraheader,
+            # so a dead userinfo would keep the next fetch on password auth.
+            git remote set-url origin "https://github.com/${GITHUB_REPOSITORY}.git"
+            git config --local --unset-all "http.${GITHUB_SERVER_URL}/.extraheader" || true
+            git config --local --unset-all credential.helper || true
+            git config --local credential.helper ""
+            includes="$(git config --local --get-regexp '^include(If\..+)?\.path$' || true)"
+            if [ -n "$includes" ]; then
+              while IFS= read -r line; do
+                path="${line#* }"
+                [ -n "$path" ] || continue
+                git config --file "$path" --unset-all "http.${GITHUB_SERVER_URL}/.extraheader" || true
+              done <<< "$includes"
+            fi
+            basic="$(printf 'x-access-token:%s' "$tok" | base64 -w 0)"
+            git config --local "http.${GITHUB_SERVER_URL}/.extraheader" "AUTHORIZATION: basic ${basic}"
+          }
+          if [[ "${ACTOR}" == *'[bot]' ]]; then
+            token="${JOB_TOKEN}"
+            kind="job"
+          elif [ -n "${CLAUDE_APP_TOKEN}" ] && token_accepted "${CLAUDE_APP_TOKEN}"; then
+            token="${CLAUDE_APP_TOKEN}"
+            kind="app"
+          else
+            if [ -n "${CLAUDE_APP_TOKEN}" ]; then
+              echo "Claude app token cannot authenticate after claude-code-action. Using this job's GITHUB_TOKEN."
+            fi
+            token="${JOB_TOKEN}"
+            kind="job"
+          fi
+          if [ -z "${token}" ] || ! token_accepted "${token}"; then
+            echo "No working git token is available after the Claude step."
+            exit 1
+          fi
+          restore_origin "$token"
+          case "$(git config --local --get remote.origin.url)" in
+            *x-access-token*|*@*)
+              echo "origin URL still contains credentials after the reset."
+              exit 1
+              ;;
+          esac
+          git config --local --get "http.${GITHUB_SERVER_URL}/.extraheader" | grep -q '^AUTHORIZATION: basic '
+          git ls-remote origin refs/heads/main >/dev/null
+          {
+            echo "EVIDENCE_FILL_GIT_TOKEN<<EVIDENCE_FILL_GIT_TOKEN_END"
+            echo "$token"
+            echo "EVIDENCE_FILL_GIT_TOKEN_END"
+          } >> "$GITHUB_ENV"
+          echo "kind=${kind}" >> "$GITHUB_OUTPUT"
       - name: Merge main, record this page, then run CI checks
         id: verify
         if: steps.pick.outputs.unit != ''
@@ -354,11 +440,12 @@ jobs:
           PAGE: ${{ steps.pick.outputs.page }}
           CLAUDE_APP_TOKEN: ${{ steps.claude.outputs.github_token }}
           EXTRA_BRANCH: ${{ steps.claude.outputs.branch_name }}
+          GIT_AUTH_KIND: ${{ steps.gitauth.outputs.kind }}
           WIKI_EDIT_AUDIT_SKIP: "1"
         run: |
           set -euo pipefail
           target="evidence-fill/${UNIT}"
-          token="${CLAUDE_APP_TOKEN:-$GITHUB_TOKEN}"
+          token="${EVIDENCE_FILL_GIT_TOKEN:-${CLAUDE_APP_TOKEN:-$GITHUB_TOKEN}}"
           askpass="${RUNNER_TEMP}/git-askpass.sh"
           printf '%s\n' '#!/bin/sh' 'echo "$GIT_TOKEN"' > "$askpass"
           chmod 700 "$askpass"
@@ -408,8 +495,10 @@ jobs:
           export GH_TOKEN="$token"
           # A push with the workflow GITHUB_TOKEN does not start pull_request
           # workflows. Dispatch CI onto this branch so the checks still run.
-          if [[ "${GITHUB_ACTOR}" == *"[bot]"* ]]; then
-            echo "Actor ${GITHUB_ACTOR} has no Claude app token. Dispatching CI on ${target}."
+          # Human actors that still hold a live Claude app token push with it
+          # and do not need this dispatch.
+          if [ "${GIT_AUTH_KIND}" = "job" ] || { [ -z "${GIT_AUTH_KIND}" ] && [[ "${GITHUB_ACTOR}" == *"[bot]"* ]]; }; then
+            echo "Actor ${GITHUB_ACTOR} is pushing with the workflow token. Dispatching CI on ${target}."
             dispatched=false
             for _ in 1 2 3 4 5 6; do
               if gh workflow run ci.yml --ref "$target"; then
@@ -453,7 +542,7 @@ jobs:
             evidence-fill/*|claude/*) ;;
             *) echo "Refusing to delete ${EXTRA_BRANCH}"; exit 0 ;;
           esac
-          token="${CLAUDE_APP_TOKEN:-$GITHUB_TOKEN}"
+          token="${EVIDENCE_FILL_GIT_TOKEN:-${CLAUDE_APP_TOKEN:-$GITHUB_TOKEN}}"
           askpass="${RUNNER_TEMP}/git-askpass.sh"
           printf '%s\n' '#!/bin/sh' 'echo "$GIT_TOKEN"' > "$askpass"
           chmod 700 "$askpass"
