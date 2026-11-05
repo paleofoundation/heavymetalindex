@@ -15,7 +15,7 @@ raw_sha256: "607a8da30c2bcc1f2901732c326a0d49d2cdda4294d8982ceab7e904f4e48254"
 near_duplicates: []
 metals: [Cd, Pb, Cr, Ni]
 ingredients: ["[[ingredients/fruit-juice]]", "[[ingredients/mango-juice]]"]
-products: ["[[products/fruit-juice-not-canned]]", "[[products/fruit-juices-non-apple]]", "[[products/fresh-fruit]]"]
+products: ["[[products/fruit-juice-not-canned]]", "[[products/fruit-juices-non-apple]]", "[[products/fresh-fruit]]", "[[products/vegetable-juices]]"]
 matrices: [packaged-fruit-juice, mango-juice, pineapple-juice, strawberry-juice, cocktail-juice]
 jurisdictions: [ET]
 sample_n: 80

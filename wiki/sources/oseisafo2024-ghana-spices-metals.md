@@ -14,7 +14,7 @@ license: "CC BY"
 raw_path: raw/markdown/FM_11527527/FM_11527527.md
 metals: [tAs, Pb, Cd]
 ingredients: ["[[ingredients/herbal-botanicals]]", "[[ingredients/turmeric]]"]
-products: ["[[products/spices]]"]
+products: ["[[products/spices]]", "[[products/bouillon-seasoning-blends]]"]
 matrices: [spices, culinary-herbs]
 jurisdictions: [GH, IN, CN, MA, ML, FR, MY]
 near_duplicates: []

@@ -3,10 +3,10 @@
   "date": "2026-10-28",
   "note": "Warn-only baseline. CI fails only when a page newly fails a check. Counts are pages, not occurrences. Stubs are exempt only from section_presence_and_order. 2026-10-28 recount includes restored live pages and products moved out of ingredients.",
   "pages_scanned": 930,
-  "stubs_exempt_from_sections": 540,
+  "stubs_exempt_from_sections": 531,
   "checks": {
     "answer_block": {
-      "pages": 61,
+      "pages": 62,
       "paths": [
         "wiki/ingredients/canned-tuna.md",
         "wiki/ingredients/chocolate.md",
@@ -54,6 +54,7 @@
         "wiki/products/pet-food-freeze-dried.md",
         "wiki/products/pet-food-raw.md",
         "wiki/products/pet-treats-snacks.md",
+        "wiki/products/plant-based-beverages.md",
         "wiki/products/research-chem-raw-powders.md",
         "wiki/products/research-chemicals-peptides-sarms.md",
         "wiki/products/rice-bulk-grain.md",
@@ -72,7 +73,7 @@
       ]
     },
     "dois_or_author_year": {
-      "pages": 618,
+      "pages": 619,
       "paths": [
         "wiki/ingredients/algae.md",
         "wiki/ingredients/almond-beverage.md",
@@ -689,13 +690,14 @@
         "wiki/products/true-tea-camellia-sinensis.md",
         "wiki/products/utensils-metal.md",
         "wiki/products/vegetable-juices-non-root.md",
+        "wiki/products/vegetable-juices.md",
         "wiki/products/water-filters.md",
         "wiki/products/white-wine.md",
         "wiki/products/wild-mushrooms.md"
       ]
     },
     "generic_headings": {
-      "pages": 786,
+      "pages": 787,
       "paths": [
         "wiki/ingredients/almond-beverage.md",
         "wiki/ingredients/almond.md",
@@ -1348,6 +1350,7 @@
         "wiki/products/pet-toppers-mixers-broths.md",
         "wiki/products/pet-treats-snacks.md",
         "wiki/products/piercing-post-assemblies.md",
+        "wiki/products/plant-based-beverages.md",
         "wiki/products/plant-milks-non-soy-non-rice.md",
         "wiki/products/plant-milks-rice-based.md",
         "wiki/products/plant-milks-soy-based.md",
@@ -1486,7 +1489,7 @@
       ]
     },
     "metal_symbols": {
-      "pages": 594,
+      "pages": 596,
       "paths": [
         "wiki/ingredients/almond.md",
         "wiki/ingredients/apple-cider-vinegar.md",
@@ -1972,6 +1975,7 @@
         "wiki/products/pet-toppers-mixers-broths.md",
         "wiki/products/pet-treats-snacks.md",
         "wiki/products/piercing-post-assemblies.md",
+        "wiki/products/plant-based-beverages.md",
         "wiki/products/plant-milks-non-soy-non-rice.md",
         "wiki/products/plant-milks-rice-based.md",
         "wiki/products/plant-milks-soy-based.md",
@@ -2086,7 +2090,7 @@
       ]
     },
     "consumer_audience": {
-      "pages": 509,
+      "pages": 510,
       "paths": [
         "wiki/ingredients/almond-beverage.md",
         "wiki/ingredients/almond.md",
@@ -2551,6 +2555,7 @@
         "wiki/products/pancakes.md",
         "wiki/products/peanut-butter.md",
         "wiki/products/peanuts.md",
+        "wiki/products/plant-based-beverages.md",
         "wiki/products/plant-milks-non-soy-non-rice.md",
         "wiki/products/plant-milks-rice-based.md",
         "wiki/products/plant-milks-soy-based.md",
@@ -2600,7 +2605,7 @@
       ]
     },
     "section_presence_and_order": {
-      "pages": 209,
+      "pages": 208,
       "paths": [
         "wiki/ingredients/almond.md",
         "wiki/ingredients/baby-cereals-dry.md",
@@ -2791,7 +2796,6 @@
         "wiki/products/peptides-injectable-hormones.md",
         "wiki/products/pickled-fermented-vegetables.md",
         "wiki/products/pickled-mushrooms.md",
-        "wiki/products/plant-based-beverages.md",
         "wiki/products/plant-milks-non-soy-non-rice.md",
         "wiki/products/plant-milks-rice-based.md",
         "wiki/products/plant-milks-soy-based.md",
@@ -2801,7 +2805,6 @@
         "wiki/products/snack-bars-energy-bars.md",
         "wiki/products/snacks-general.md",
         "wiki/products/soft-drinks-carbonated-beverages.md",
-        "wiki/products/soups-broths-stocks.md",
         "wiki/products/sports-energy-drinks.md",
         "wiki/products/sun-suntan-mineral.md",
         "wiki/products/supplements-clay-mineral-earth.md",
@@ -2815,7 +2818,7 @@
       ]
     },
     "uncertainty_note": {
-      "pages": 911,
+      "pages": 909,
       "paths": [
         "wiki/ingredients/algae.md",
         "wiki/ingredients/almond-beverage.md",
@@ -3628,7 +3631,6 @@
         "wiki/products/snacks-crackers-biscuits.md",
         "wiki/products/snacks-general.md",
         "wiki/products/soft-drinks-carbonated-beverages.md",
-        "wiki/products/soups-broths-stocks.md",
         "wiki/products/soy-products.md",
         "wiki/products/soy-sauce-fermented.md",
         "wiki/products/sparkling-carbonated-water.md",
@@ -3715,7 +3717,6 @@
         "wiki/products/vegetable-beef-soup.md",
         "wiki/products/vegetable-juices-non-root.md",
         "wiki/products/vegetable-juices-root-vegetable-containing.md",
-        "wiki/products/vegetable-juices.md",
         "wiki/products/vegetable-soup.md",
         "wiki/products/veggie-burger.md",
         "wiki/products/vinegar.md",
