@@ -25,16 +25,16 @@ audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
 literature_scope: cited
-sources: 0
+sources: 1
 wiki_doi: null
-updated: 2026-10-15
+updated: 2026-11-04
 hero_image: /static/heroes/pickled-mushrooms-vegetable-jars.webp
 hero_image_alt: "Separate unmarked jars of mushrooms and cucumber/cabbage pieces in pale brine illustrating pickled fermented vegetables product-format context."
 ---
 
 # Pickled, fermented, and brined vegetables (sauerkraut, kimchi, pickles, table olives)
 
-> **v2.2 Step Zero scaffold — Category 4 (Fruits, Vegetables, and Produce), Row 8.** New row from the
+> **v2.2 Step Zero scaffold: Category 4 (Fruits, Vegetables, and Produce), Row 8.** New row from the
 > 2026-06-09 whole-taxonomy completeness audit; carries **no candidate values** yet. Routing
 > destination; sources populate it as ingest proceeds, then synthesis fills the evidence sections.
 

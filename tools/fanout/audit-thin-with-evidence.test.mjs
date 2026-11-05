@@ -191,6 +191,7 @@ const FILLED = [
   "ingredients/whey",
   "ingredients/whiskey",
   "ingredients/white-wine",
+  "products/plant-based-beverages",
 ]
 
 // Chunk 16 left these baseline ingredients unfilled. Later cited fills removed
