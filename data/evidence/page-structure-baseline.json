@@ -695,7 +695,7 @@
       ]
     },
     "generic_headings": {
-      "pages": 785,
+      "pages": 786,
       "paths": [
         "wiki/ingredients/almond-beverage.md",
         "wiki/ingredients/almond.md",
@@ -947,6 +947,7 @@
         "wiki/ingredients/rice-cakes.md",
         "wiki/ingredients/rice-cereal.md",
         "wiki/ingredients/rice-flour.md",
+        "wiki/ingredients/rice-milk.md",
         "wiki/ingredients/rice-noodles.md",
         "wiki/ingredients/rice-puffs.md",
         "wiki/ingredients/rice.md",
@@ -1668,6 +1669,7 @@
         "wiki/ingredients/rice-cakes.md",
         "wiki/ingredients/rice-cereal.md",
         "wiki/ingredients/rice-flour.md",
+        "wiki/ingredients/rice-milk.md",
         "wiki/ingredients/rice-puffs.md",
         "wiki/ingredients/rice.md",
         "wiki/ingredients/root-vegetable-purees.md",
@@ -2084,7 +2086,7 @@
       ]
     },
     "consumer_audience": {
-      "pages": 508,
+      "pages": 509,
       "paths": [
         "wiki/ingredients/almond-beverage.md",
         "wiki/ingredients/almond.md",
@@ -2338,6 +2340,7 @@
         "wiki/ingredients/rice-cakes.md",
         "wiki/ingredients/rice-cereal.md",
         "wiki/ingredients/rice-flour.md",
+        "wiki/ingredients/rice-milk.md",
         "wiki/ingredients/rice-noodles.md",
         "wiki/ingredients/rice-puffs.md",
         "wiki/ingredients/rice.md",
@@ -2657,6 +2660,7 @@
         "wiki/ingredients/rice-bran-oil.md",
         "wiki/ingredients/rice-cereal.md",
         "wiki/ingredients/rice-flour.md",
+        "wiki/ingredients/rice-milk.md",
         "wiki/ingredients/rice-puffs.md",
         "wiki/ingredients/rice.md",
         "wiki/ingredients/root-vegetable-purees.md",
@@ -3102,7 +3106,6 @@
         "wiki/ingredients/rice-cereal.md",
         "wiki/ingredients/rice-flour.md",
         "wiki/ingredients/rice-koji.md",
-        "wiki/ingredients/rice-milk.md",
         "wiki/ingredients/rice-noodles.md",
         "wiki/ingredients/rice-puffs.md",
         "wiki/ingredients/rice.md",
