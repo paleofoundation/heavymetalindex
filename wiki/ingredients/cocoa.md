@@ -16,9 +16,9 @@ audience:
   - educator
   - consumer
   - app
-sources: 43
+sources: 59
 wiki_doi: null
-updated: '2026-10-22'
+updated: '2026-11-05'
 page_contract_version: 1.0.0
 question_record: data/evidence/questions/ingredient/cocoa.json
 synthesis_record: data/evidence/syntheses/ingredient-cocoa-v1.json
@@ -55,8 +55,8 @@ ingredient_chrome:
   description: >-
     Cadmium, lead, nickel and other metals in cocoa beans, powder and chocolate:
     origins, cocoa content, processing, limits, testing and controls.
-  updated: '2026-10-22'
-  reference_count: 43
+  updated: '2026-11-05'
+  reference_count: 59
   snapshot:
     - label: Research sources referenced
       count: 31
@@ -590,6 +590,21 @@ Works cited on this page, in citation-number order. See [Sources](#sources) for 
 42. [[sources/burgon2023-cocoa-bean-to-bar-brazil-metals-ota|Cacau e Chocolates "Bean to Bar": Contaminantes Inorgânicos e Ocratoxina A (Cocoa beans and "Bean to Bar" chocolates: Inorganic contaminants and Ochratoxin A)]]<span class="hmi-ref-meta">Burgon VH · Master's thesis, Instituto de Tecnologia de Alimentos (ITAL), Centro de Ciência e Qualidade de Alimentos, Campinas-SP, Brazil · 2023 · [scholar.google.com](https://scholar.google.com/scholar?q=Burgon+2023+Cacau+Chocolates+Bean+to+Bar+Ocratoxina+ITAL)</span><span class="hmi-ref-tag">Thesis</span>
 43. [[sources/bravo2024-cadmium-cacao-arauca|Cadmium in cacao crops and artisanal chocolates in the Arauca Department, Colombia]]<span class="hmi-ref-meta">Bravo AG, Espinosa LF, Quiroga JA, Noriega RD, and Castellanos DA · Environmental Monitoring and Assessment · 2024 · [doi.org/10.1007/s10661-024-12539-9](https://doi.org/10.1007/s10661-024-12539-9)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 44. [[sources/arguello2019-ecuador-cacao-bean-cadmium-survey|Soil properties and agronomic factors affecting cadmium concentrations in cacao beans: A nationwide survey in Ecuador]]<span class="hmi-ref-meta">Argüello D, Chávez E, Lauryssen F, Vanderschueren R, Smolders E, and Montalvo D · Science of The Total Environment · 2019 · [doi.org/10.1016/j.scitotenv.2018.08.292](https://doi.org/10.1016/j.scitotenv.2018.08.292)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+45. [[sources/silva2026-mineral-profile-cocoa-powder|Mineral profile of cocoa powder: Analytical approach in commercial samples]]<span class="hmi-ref-meta">Silva MB, Santos HM, Pereira JCC, Sousa HC, Jesus RM, Leao DJ, Santos LS, and Ferrao SPB · Journal of the Science of Food and Agriculture · 2026 · [doi.org/10.1002/jsfa.70742](https://doi.org/10.1002/jsfa.70742)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+46. [[sources/morales-rodriguez2025-pte-fermentation-cadmium-cocoa|Fermentation with Pectin Trans-Eliminase to Reduce Cadmium Levels in Nacional and CCN-51 Cocoa Bean Genotypes]]<span class="hmi-ref-meta">Morales-Rodriguez WJ, Morante-Carriel J, Carranza-Patino M, Ormaza-Vasquez D, Ayuso-Yuste MC, and Bernalte-Garcia MJ · Plants · 2025 · [doi.org/10.3390/plants14162553](https://doi.org/10.3390/plants14162553)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+47. [[sources/molina2025-libs-cadmium-cocoa-powder|Assessing the Sensitivity and Efficiency of Laser-Induced Breakdown Spectroscopy (LIBS) for High-Concentration Cadmium Detection in Cocoa Powder]]<span class="hmi-ref-meta">Molina JM, Pincay R, Santos V, Gonzalez JL, Trujillo Guerrero MF, Diaz Pace D, and Costa-Vera C · Sensors · 2025 · [doi.org/10.3390/s25082434](https://doi.org/10.3390/s25082434)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+48. [[sources/dekeyrel2024-medxrf-cadmium-cacao-soil|Using optimized monochromatic energy dispersive X-ray fluorescence to determine the cadmium concentration in cacao and soil samples]]<span class="hmi-ref-meta">Dekeyrel J, Atkinson R, Chavez E, da Silva M, Idarraga-Castano O, Pulleman M, and Smolders E · Heliyon · 2024 · [doi.org/10.1016/j.heliyon.2024.e39034](https://doi.org/10.1016/j.heliyon.2024.e39034)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+49. [[sources/schmidt2025-microbial-bioindicators-cacao-cadmium|Microbial bioindicators associated with cadmium uptake in sixteen genotypes of Theobroma cacao]]<span class="hmi-ref-meta">Schmidt JE, Lewis CA, Firl AJ, and Umaharan P · Heliyon · 2025 · [doi.org/10.1016/j.heliyon.2025.e41890](https://doi.org/10.1016/j.heliyon.2025.e41890)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+50. [[sources/wang2024-cocoa-bean-shells-wheat-bread|Physicochemical, Antioxidant, Starch Digestibility, and Sensory Properties of Wheat Bread Fortified with Taiwanese Cocoa Bean Shells]]<span class="hmi-ref-meta">Wang CW, Shen HS, Yang CW, Syu PC, and Lin SD · Foods · 2024 · [doi.org/10.3390/foods13172854](https://doi.org/10.3390/foods13172854)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+51. [[sources/akyil-ozturk2026-pectin-protein-cocoa-beverage|Unraveling Pectin-Protein Interactions in Milk-Based Cocoa Beverages: Molecular Docking and Microstructure]]<span class="hmi-ref-meta">Akyil Ozturk S, Habibzadeh Khiabani A, Altan Kamer DD, Karaca AC, Konar N, Simsek S, and Toker OS · Foods · 2026 · [doi.org/10.3390/foods15203697](https://doi.org/10.3390/foods15203697)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+52. [[sources/contreras2025-hyperspectral-cocoa-beans-colombia|A Multimodal hyperspectral dataset of cocoa beans with physicochemical annotation]]<span class="hmi-ref-meta">Contreras K, Jouni M, Dalla Mura M, and Bacca J · Scientific Data · 2025 · [doi.org/10.1038/s41597-025-06314-9](https://doi.org/10.1038/s41597-025-06314-9)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+53. [[sources/fernandez2025-cacao-bioindicator-cadmium-h2o2|Evaluation of Theobroma cacao L. as a bioindicator for cadmium contamination through H2O2 electrochemical analysis]]<span class="hmi-ref-meta">Fernandez L, Espinoza-Montero PJ, Gallegos-Lovato MJ, Bustamante P, Bolanos-Mendez D, Sampedro JD, Rodriguez A, Ortega-Galvez A, and Jadan M · Scientific Reports · 2025 · [doi.org/10.1038/s41598-025-11715-2](https://doi.org/10.1038/s41598-025-11715-2)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+54. [[sources/adarme-duran2025-ureolytic-bacteria-cacao-cd|Cadmium removal and indole acetic acid production by ureolytic bacteria isolated from rhizosphere soils]]<span class="hmi-ref-meta">Adarme-Duran CA, Castillo E, and Brandao PFB · World Journal of Microbiology and Biotechnology · 2025 · [doi.org/10.1007/s11274-025-04482-9](https://doi.org/10.1007/s11274-025-04482-9)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+55. [[sources/alvarez-rubiano2026-bioremediation-cadmium-arauca|Bioremediation of cadmium using cadmium-tolerant bacteria in cacao farms in Arauca, Colombia]]<span class="hmi-ref-meta">Alvarez-Rubiano L, Brito Brandao P, and Bravo D · 3 Biotech · 2026 · [doi.org/10.1007/s13205-026-04790-3](https://doi.org/10.1007/s13205-026-04790-3)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+56. [[sources/ramos-armaulia2026-bacteria-inga-quararibea-peru|Cadmium tolerance and taxonomic diversity of cultivable bacteria isolated from Inga sp. nodules, Quararibea sp. roots and rhizosphere soil in cocoa agroforestry systems of the Peruvian Amazon]]<span class="hmi-ref-meta">Ramos Armaulia JS, Leiva Espinoza ST, and Oliva Cruz SM · Frontiers in Microbiology · 2026 · [doi.org/10.3389/fmicb.2026.1845000](https://doi.org/10.3389/fmicb.2026.1845000)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+57. [[sources/ramos-armaulia2026-trichoderma-amazonian-cocoa|Native Cadmium-Tolerant Trichoderma Associated with the Rhizosphere of Inga sp. and Quararibea sp. in Amazonian Cocoa Agroecosystems of Peru]]<span class="hmi-ref-meta">Ramos Armaulia JS, Mendez Fasabi LD, Leiva Espinoza ST, and Oliva Cruz SM · Journal of Fungi · 2026 · [doi.org/10.3390/jof12090644](https://doi.org/10.3390/jof12090644)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+58. [[sources/del-aguila-torres2026-amf-community-heavy-metals-cocoa|Arbuscular Mycorrhizal Fungal Community Shifts Driven by Heavy Metals in Cocoa Agroecosystems at Different Crop Age]]<span class="hmi-ref-meta">Del Aguila-Torres CE, Pezo-Torres MN, Vega-Herrera S, Vega-Girbau CR, Meseth E, Corazon-Guivin MA, and Paz-Urello JL · Mycobiology · 2026 · [doi.org/10.1080/12298093.2026.2688575](https://doi.org/10.1080/12298093.2026.2688575)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+59. [[sources/nonsocua-trivino2026-serratia-genome-cocoa-soil|Draft genome sequence of Serratia surfactantfaciens strain 5b, a cadmium-precipitating bacterium isolated from cocoa farm soil]]<span class="hmi-ref-meta">Nonsocua-Trivino K and Brandao PFB · Microbiology Resource Announcements · 2026 · [doi.org/10.1128/mra.01205-25](https://doi.org/10.1128/mra.01205-25)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
@@ -601,7 +616,9 @@ Browse [Cocoa Sources](../sources/index?topic=ingredients%2Fcocoa) for sources c
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-4 November 2026: Added the Argüello 2019 nationwide Ecuador cacao bean cadmium survey.
+5 November 2026: HMI-FILL-0050: added 15 source pages from deposit (mineral profile of commercial cocoa powder across 12 countries, pectin trans-eliminase fermentation cadmium reduction, LIBS and MEDXRF analytical methods, cocoa bean shells heavy metal characterization, cacao bioindicator and microbial bioremediation literature from Colombia and Peru including AMF community shifts, cadmium-tolerant bacteria and Trichoderma from Amazonian agroforestry, and ureolytic MICP bacteria from Santander rhizosphere soils). References updated to 59.
+
+4 November 2026: Added the Arguello 2019 nationwide Ecuador cacao bean cadmium survey.
 
 22 October 2026 — Rebuilt from every cocoa and chocolate record in the library: WHO GEMS/Food and FDA monitoring results, retail, farm and total diet studies, industry origin testing, form-specific comparisons, verified limits and stage-led controls.
 <!-- END: hmi-page-history -->
