@@ -3,7 +3,7 @@
   "date": "2026-10-28",
   "note": "Warn-only baseline. CI fails only when a page newly fails a check. Counts are pages, not occurrences. Stubs are exempt only from section_presence_and_order. 2026-10-28 recount includes restored live pages and products moved out of ingredients.",
   "pages_scanned": 930,
-  "stubs_exempt_from_sections": 542,
+  "stubs_exempt_from_sections": 540,
   "checks": {
     "answer_block": {
       "pages": 61,
@@ -2732,7 +2732,6 @@
         "wiki/products/breakfast-cereal-non-rice.md",
         "wiki/products/breakfast-cereal-rice-based.md",
         "wiki/products/canned-foods-general.md",
-        "wiki/products/canned-meats.md",
         "wiki/products/canned-mushrooms.md",
         "wiki/products/canned-seafood.md",
         "wiki/products/cereal-meals.md",
@@ -2815,7 +2814,7 @@
       ]
     },
     "uncertainty_note": {
-      "pages": 913,
+      "pages": 911,
       "paths": [
         "wiki/ingredients/algae.md",
         "wiki/ingredients/almond-beverage.md",
@@ -3295,7 +3294,6 @@
         "wiki/products/canned-fish.md",
         "wiki/products/canned-foods-general.md",
         "wiki/products/canned-fruit.md",
-        "wiki/products/canned-meats.md",
         "wiki/products/canned-mushrooms.md",
         "wiki/products/canned-seafood.md",
         "wiki/products/canned-tomatoes.md",
