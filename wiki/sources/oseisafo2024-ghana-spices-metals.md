@@ -26,7 +26,7 @@ sampling_year_range: null
 updated: 2026-05-13
 ---
 
-# Osei-Safo et al. 2024 — As, Cd, and Pb in spices from Accra markets, Ghana
+# Osei-Safo et al. 2024: As, Cd, and Pb in spices from Accra markets, Ghana
 
 ## Overview
 
@@ -34,15 +34,15 @@ Ninety spice samples across ten varieties (ginger, garlic, rosemary, aniseed, ne
 
 ## Key numbers
 
-Analytical method: Agilent 7700 Series ICP-MS; microwave-assisted acid digestion (65–69% HNO₃ and 30–32% H₂O₂ at 170 °C, 50 bar, 45 min). Certified reference material: FAPAS 07340 (Cocoa Powder). CRM recoveries: Pb 103%, As 108%, Fe 99.8%, Zn 101.4%, Cd 93.14%. Values reported as mg/kg (wet weight basis inferred from common conventions; dry weight not explicitly stated in abstract but context suggests as-received powder).
+Analytical method: Agilent 7700 Series ICP-MS; microwave-assisted acid digestion (65 to 69% HNO₃ and 30 to 32% H₂O₂ at 170 °C, 50 bar, 45 min). Certified reference material: FAPAS 07340 (Cocoa Powder). CRM recoveries: Pb 103%, As 108%, Fe 99.8%, Zn 101.4%, Cd 93.14%. Values reported as mg/kg (wet weight basis inferred from common conventions; dry weight not explicitly stated in abstract but context suggests as-received powder).
 
 - tAs (total arsenic) range across all spices: not detected to 14.012 mg/kg (14,012 µg/kg); highest in turmeric powder from India.
 - Mean tAs range: 0.068 ± 0.052 to 9.831 ± 4.352 mg/kg; turmeric showed highest mean As.
 - Pb range: not detected to 3.583 mg/kg (3,583 µg/kg).
 - Mean Pb range: 0.100 ± 0.110 to 2.016 ± 0.957 mg/kg; ginger and rosemary had highest Pb means.
-- Cd range: 0.02–0.45 mg/kg (20–450 µg/kg).
+- Cd range: 0.02 to 0.45 mg/kg (20 to 450 µg/kg).
 - Mean Cd range: 0.051 ± 0.017 to 0.156 ± 0.054 mg/kg.
-- Zn range: 0.056–0.895 mg/kg; Fe range: 0.022–5.814 mg/kg.
+- Zn range: 0.056 to 0.895 mg/kg; Fe range: 0.022 to 5.814 mg/kg.
 - Turmeric powder, whole rosemary, and garlic: As above Codex limit; turmeric As mean 9.83 mg/kg vs. Codex limit for spices.
 - Ginger and rosemary: Pb above Codex limit.
 - All THQ/HI < 1 at estimated ingestion rate of 10 g/day/person (body weight 60 kg).

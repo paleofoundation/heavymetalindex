@@ -20,7 +20,7 @@ matrices: [mixed-diet, herbs-spices, tea-infusions, beverages, candies-confectio
 jurisdictions: [US]
 near_duplicates: []
 sample_n: 186
-sample_population: "Cross-sectional online dietary survey (Qualtrics) administered between 1 March and 15 June 2023 to Southern California residents (adults aged ≥18 and adolescents aged 13–17). 207 surveys completed; 21 excluded for being below the age threshold, residing outside California, or implausible completion times (<3.38 min, the 1st-percentile cutoff). N = 186 retained. Demographics: 62.9% female, 36.0% male, 1.1% other; 60.8% adults vs 39.2% adolescents; race/ethnicity 40.9% Asian/Pacific Islander, 28.0% Latino/Hispanic, 11.8% White/Caucasian, 11.8% Middle Eastern, 6.5% Indian, 1.1% Other; majority resided in Orange County (Irvine 22.8%, Placentia 20.1%, Yorba Linda 18.1%, Anaheim 13.4%, Fullerton 6.0%). Recruitment by snowball sampling via community contacts (university groups, non-profit organizations) circulating the survey in English and Spanish via email listservs and social media."
+sample_population: "Cross-sectional online dietary survey (Qualtrics) administered between 1 March and 15 June 2023 to Southern California residents (adults aged ≥18 and adolescents aged 13 to 17). 207 surveys completed; 21 excluded for being below the age threshold, residing outside California, or implausible completion times (<3.38 min, the 1st-percentile cutoff). N = 186 retained. Demographics: 62.9% female, 36.0% male, 1.1% other; 60.8% adults vs 39.2% adolescents; race/ethnicity 40.9% Asian/Pacific Islander, 28.0% Latino/Hispanic, 11.8% White/Caucasian, 11.8% Middle Eastern, 6.5% Indian, 1.1% Other; majority resided in Orange County (Irvine 22.8%, Placentia 20.1%, Yorba Linda 18.1%, Anaheim 13.4%, Fullerton 6.0%). Recruitment by snowball sampling via community contacts (university groups, non-profit organizations) circulating the survey in English and Spanish via email listservs and social media."
 wiki_doi: null
 sampling_locations: ["Southern California (Orange County)"]
 sampling_year_range: "2023"
@@ -28,7 +28,7 @@ access_date: 2026-06-08
 updated: 2026-06-08
 ---
 
-# Masri et al. 2025 — Dietary consumption of toxicant-laden foods and beverages in Southern California
+# Masri et al. 2025: Dietary consumption of toxicant-laden foods and beverages in Southern California
 
 ## Overview
 
@@ -45,9 +45,9 @@ All values are intake in g/day or g/person/day; consumption frequency in eating 
 | Surveys completed | 207 |
 | Excluded (below age, non-CA, completion < 3.38 min) | 21 |
 | Retained for analysis | 186 |
-| Median completion time (min) | 8.15 (IQR 5.9–11.6) |
+| Median completion time (min) | 8.15 (IQR 5.9 to 11.6) |
 | Female / Male / Other | 62.9% / 36.0% / 1.1% |
-| Adults (≥18) / Adolescents (13–17) | 60.8% / 39.2% |
+| Adults (≥18) / Adolescents (13 to 17) | 60.8% / 39.2% |
 | Asian/Pacific Islander | 40.9% (n=76) |
 | Latino/Hispanic | 28.0% (n=52) |
 | White/Caucasian | 11.8% (n=22) |
@@ -97,7 +97,7 @@ Selection limited to categories most relevant to the heavy-metals corpus; full T
 - Other liquids (water, juice, tea): 8 oz = ~240 g per cup.
 - Nutritional powder and chocolate drink powder portion-size from USDA FoodData Central (mean portion 44.3 g and 23.3 g respectively); traditional drink powder 2.1 g per serving.
 
-**Herb and spice intake — top categories (Table 4)**
+**Herb and spice intake: top categories (Table 4)**
 
 Per-capita ("All N=186") and consumer-only daily mass intake of the 20 herbs/spices surveyed. Eating-occasion (EO) frequency averaged across all participants. Unit conversion (g/tsp) from USDA where available; "1.8 ᵇ" is the paper's fallback value when not separately reported.
 
@@ -123,23 +123,23 @@ Per-capita ("All N=186") and consumer-only daily mass intake of the 20 herbs/spi
 | Sage | 15.3 | 0.06 | 0.00 | 0.7 | 0.46 | 0.40 |
 | Za'atar | 13.7 | 0.17 | 0.00 | 1.8 ᵇ | 0.53 | 1.24 |
 | Ground mustard seed | 13.3 | 0.19 | 0.00 | 2.0 | 0.56 | 1.41 |
-| **Average across all 20** | — | 0.49 | — | 1.8 | 0.54 | 1.21 |
+| **Average across all 20** |: | 0.49 |: | 1.8 | 0.54 | 1.21 |
 
 **Cumulative herb/spice intake (all 20 categories aggregated to a single food category)**
 
 | Quantity | Per capita (N=186) | Consumers only |
 |---|---|---|
 | Mean cumulative daily intake (g/day) | 8.3 | (not reported as separate aggregate) |
-| Median cumulative daily intake (g/day) | 2.7 | — |
-| Mean cumulative EO frequency | 3.7 EO/day | — |
-| Median cumulative EO frequency | 2.6 EO/day | — |
-| Mean herb/spice intake per EO | 1.51 g/EO (IQR 1.1–2.6) | — |
-| Mean volumetric intake per EO | 0.83 tsp/EO | — |
-| Median volumetric intake per EO | 0.75 tsp/EO | — |
+| Median cumulative daily intake (g/day) | 2.7 |: |
+| Mean cumulative EO frequency | 3.7 EO/day |: |
+| Median cumulative EO frequency | 2.6 EO/day |: |
+| Mean herb/spice intake per EO | 1.51 g/EO (IQR 1.1 to 2.6) |: |
+| Mean volumetric intake per EO | 0.83 tsp/EO |: |
+| Median volumetric intake per EO | 0.75 tsp/EO |: |
 
 **Age and race/ethnicity differentials (Table 3, regression analyses, β estimates in g/day relative to reference)**
 
-Reference group for race/ethnicity: White/Caucasian. Reference for age: adolescents (13–17). Bold β = p < 0.01; underlined β = p < 0.05. Values reproduced as printed; only categories with at least one statistically significant differential are listed here.
+Reference group for race/ethnicity: White/Caucasian. Reference for age: adolescents (13 to 17). Bold β = p < 0.01; underlined β = p < 0.05. Values reproduced as printed; only categories with at least one statistically significant differential are listed here.
 
 | Food | r² | Intercept | Asian | Hispanic | Indian | Middle Eastern | Adult |
 |---|---|---|---|---|---|---|---|
@@ -174,7 +174,7 @@ Reference group for race/ethnicity: White/Caucasian. Reference for age: adolesce
 | Mass difference rice (adolescent − adult) | +41.4 g/day |
 | Variance explained for rice (r²) | 0.27 |
 
-**Stuffed grape leaves — single-serving lead exposure calculation (paper's own arithmetic, Discussion §4.4)**
+**Stuffed grape leaves: single-serving lead exposure calculation (paper's own arithmetic, Discussion §4.4)**
 
 Reference threshold: California Prop 65 consent-judgment lead ceiling for stuffed grape leaves, 0.018 ppm (Superior Court of California 2021, paper Reference 73).
 
@@ -214,9 +214,9 @@ The paper references the following lead ceilings as context for population expos
 | Of home-growers, those growing none in store-bought soil | 40% |
 | Participants reporting >70% of daily water from unfiltered tap | 26% (1 in 4) |
 | Participants reporting >70% of daily water from bottled / delivery | 20% |
-| Participants who "never" or "rarely" use single-serving labels for herb/spice quantity | "overwhelming majority" — teenagers >43%, adults >74% never; only 15% "often"/"always" (Chi-Square < 0.001) |
+| Participants who "never" or "rarely" use single-serving labels for herb/spice quantity | "overwhelming majority": teenagers >43%, adults >74% never; only 15% "often"/"always" (Chi-Square < 0.001) |
 
-**Race/ethnicity discrepancies — largest gaps reported in Section 3.4 and 3.5**
+**Race/ethnicity discrepancies: largest gaps reported in Section 3.4 and 3.5**
 
 | Item | Gap | Direction |
 |---|---|---|
@@ -224,24 +224,24 @@ The paper references the following lead ceilings as context for population expos
 | Stuffed grape leaves | 0% (Hispanic/Latino, Indian) → 38.9% (Middle Eastern) consumers | Middle Eastern concentrated |
 | Masala mix | 4% (Hispanic) → 83% (Indian) consumers | Indian concentrated |
 | Za'atar | <25% all other groups → 72.2% (Middle Eastern) consumers | Middle Eastern concentrated |
-| Cumin / turmeric / ginger consumption | 2–3× higher among Indian and Middle Eastern vs other groups | Indian / Middle Eastern concentrated |
+| Cumin / turmeric / ginger consumption | 2 to 3× higher among Indian and Middle Eastern vs other groups | Indian / Middle Eastern concentrated |
 | Total herbs/spices participation | <40% all other groups → ~60% (Indian, Middle Eastern) | Indian / Middle Eastern concentrated |
 
 ## Methods (brief)
 
-**Study design.** Cross-sectional online dietary survey administered via Qualtrics (Provo, UT) between 1 March and 15 June 2023 to Southern California residents (adults ≥18 and adolescents 13–17). Recruitment by snowball sampling through community contacts (university groups, non-profit organizations) circulating the survey link in English and Spanish via email listservs and social media (Facebook, Instagram). Targeted at popular staple foods consumed in high quantities and/or foods most commonly pursued under California's Proposition 65 enforcement for lead and acrylamide contamination, as reported by the California Attorney General. Concentration measurements were not performed.
+**Study design.** Cross-sectional online dietary survey administered via Qualtrics (Provo, UT) between 1 March and 15 June 2023 to Southern California residents (adults ≥18 and adolescents 13 to 17). Recruitment by snowball sampling through community contacts (university groups, non-profit organizations) circulating the survey link in English and Spanish via email listservs and social media (Facebook, Instagram). Targeted at popular staple foods consumed in high quantities and/or foods most commonly pursued under California's Proposition 65 enforcement for lead and acrylamide contamination, as reported by the California Attorney General. Concentration measurements were not performed.
 
 **Instrument.** Adapted from the NHANES Food Frequency Questionnaire with the recall window reduced from one year to one week. Participants were asked whether they consumed each item in the past 7 days, then (multiple-choice) how often and how much per typical occasion. Beverages were pre-assigned a serving size (5 oz wine, 8 oz other liquids); food/beverage powder serving size estimated from USDA FoodData Central. For 20 individual herbs/spices, only frequency was asked separately; quantity per occasion was asked once for the herb/spice food category as a whole (per FDA's RACC guidance). Additional questions on tea-bag reuse, cumulative water intake, tap vs bottled water source, home gardening, store-bought soil use, and pre-1978 housing year. Full survey instrument in Supplementary Table S1.
 
-**Data reduction.** Range-response options converted to range midpoint (e.g., "1–2 cups" → 1.5); "less than" responses converted to half-unit; "greater than" responses converted to plus-one-unit; consumption frequencies converted similarly ("2–4 times per week" → 3). Volume responses (cups, teaspoons) converted to grams via USDA FoodData Central density values. Daily intake (g/day) = portion size × consumption frequency. Per-capita statistics retained all participants including non-consumers; "consumers only" statistics excluded participants reporting zero consumption.
+**Data reduction.** Range-response options converted to range midpoint (e.g., "1 to 2 cups" → 1.5); "less than" responses converted to half-unit; "greater than" responses converted to plus-one-unit; consumption frequencies converted similarly ("2 to 4 times per week" → 3). Volume responses (cups, teaspoons) converted to grams via USDA FoodData Central density values. Daily intake (g/day) = portion size × consumption frequency. Per-capita statistics retained all participants including non-consumers; "consumers only" statistics excluded participants reporting zero consumption.
 
 **Herb/spice intake calculation.** Consumption frequency per herb/spice multiplied by 0.83 tsp/EO (the average consumption quantity per EO across all herb/spice categories) and by the USDA density (g/tsp) of that specific herb/spice to yield mass intake per category. Total Herb/Spice daily intake = sum across all 20 categories per participant.
 
-**Statistics.** SAS 9.4 (SAS Institute, Cary, NC). Means, medians, and group means by age and race/ethnicity. Multivariate regression with two covariates (age category, race/ethnicity) only — reference groups White/Caucasian and adolescent (13–17). Significance assessed at p < 0.10 and p < 0.05. No correction for multiple comparisons reported. The authors note that small-cell counts in some race/ethnicity strata may have lessened ability to detect intake differences.
+**Statistics.** SAS 9.4 (SAS Institute, Cary, NC). Means, medians, and group means by age and race/ethnicity. Multivariate regression with two covariates (age category, race/ethnicity) only: reference groups White/Caucasian and adolescent (13 to 17). Significance assessed at p < 0.10 and p < 0.05. No correction for multiple comparisons reported. The authors note that small-cell counts in some race/ethnicity strata may have lessened ability to detect intake differences.
 
 **Demographic distinctions.** "Indian" and "Middle Eastern" were defined as distinct from "Asian" (East/Southeast Asia only) given the differing cuisine and ingredient profiles described in Section 2.2. The "Other" category was 1.1% (n = 2).
 
-**Survey-completion quality control.** Of 207 surveys completed, 21 were excluded for being below the age threshold, residing outside California, or completion time < 3.38 min (the 1st-percentile threshold). N = 186 retained. Median completion time 8.15 min (IQR 5.9–11.6).
+**Survey-completion quality control.** Of 207 surveys completed, 21 were excluded for being below the age threshold, residing outside California, or completion time < 3.38 min (the 1st-percentile threshold). N = 186 retained. Median completion time 8.15 min (IQR 5.9 to 11.6).
 
 **Ethics.** IRB-exempt for adult survey (UC Irvine Office of Research, Kuali Research Protocols). Adolescent administration approved by IRB Committee C, approval code 2733, approval date 9 May 2023. Informed consent waived per exempt status.
 
@@ -270,11 +270,11 @@ The paper references the following lead ceilings as context for population expos
 
 **For Prop 65 / California regulatory crosswalk.** The paper documents the following specific consent-judgment lead ceilings as context: stuffed grape leaves 0.018 ppm (2021); rice 0.056 ppm (2018); nutritional powders 3 µg/day; nutritional powders containing chocolate 4 µg/day; chocolate products 0.225 ppm Pb and 0.960 ppm Cd; "naturally occurring" lead in tamarind/chili candy 0.02 ppm under OEHHA Title 27 §28500 (2021). These are settlement-derived legal maxima, not measured concentrations or population exposure benchmarks; they belong in the regulatory crosswalk rather than the contamination occurrence layer.
 
-**For age-stratified exposure.** Adolescent (13–17) intake exceeded adult intake by an average of +17% in portion size and +24% in daily mass, with statistically significant differentials (p < 0.05 multivariate) for rice, tostadas/taco shells, juice (p < 0.1), tea (p < 0.1), crackers, and popcorn. Combined with lower body weight, the per-kg-bw adolescent exposure differential is larger than the per-capita differential; downstream age-stratified exposure modeling should account for both factors.
+**For age-stratified exposure.** Adolescent (13 to 17) intake exceeded adult intake by an average of +17% in portion size and +24% in daily mass, with statistically significant differentials (p < 0.05 multivariate) for rice, tostadas/taco shells, juice (p < 0.1), tea (p < 0.1), crackers, and popcorn. Combined with lower body weight, the per-kg-bw adolescent exposure differential is larger than the per-capita differential; downstream age-stratified exposure modeling should account for both factors.
 
 **For race/ethnicity-stratified exposure.** Hispanic/Latino participants reported tamarind/chili candy intake 3.71 g/day higher than the White/Caucasian reference (p < 0.01); Middle Eastern participants reported stuffed grape leaves intake 18.44 g/day higher (p < 0.01); Indian participants reported root-vegetable intake 65.5 g/day higher (p < 0.01) and total herb/spice intake 13.1 g/day higher (p < 0.01). The authors frame these differentials as a Proposition-65 environmental-justice concern when product-specific "naturally occurring" pollution exemptions overlap with foods consumed disproportionately by specific racial/ethnic groups.
 
-**For tea exposure pathway.** Roughly two-thirds of tea consumers reported reusing tea bags across multiple cups per day, which the authors note creates greater opportunity for lead leaching than the 3–5 min single-infusion model used in conventional Prop 65 exposure assessment. Tea consumer-only intake of 151.7 g/day (~⅔ of an 8 oz cup) is the working denominator for tea-derived dietary lead in this population.
+**For tea exposure pathway.** Roughly two-thirds of tea consumers reported reusing tea bags across multiple cups per day, which the authors note creates greater opportunity for lead leaching than the 3 to 5 min single-infusion model used in conventional Prop 65 exposure assessment. Tea consumer-only intake of 151.7 g/day (~⅔ of an 8 oz cup) is the working denominator for tea-derived dietary lead in this population.
 
 **For homegrown-food and tap-water pathway exposure.** 23.1% of respondents reported homes built before 1978 (lead-paint and lead-plumbing era), 35% reported home food gardening, 40% of home-growers reported growing food in non-store-bought soil, and 26% reported >70% of daily water from unfiltered tap water. These behaviors are exposure modifiers for lead-from-paint-and-soil and lead-from-plumbing pathways; the paper does not measure but documents their prevalence.
 

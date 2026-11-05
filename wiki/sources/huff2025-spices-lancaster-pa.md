@@ -9,7 +9,7 @@ publication: "Environmental Monitoring and Assessment"
 doi: 10.1007/s10661-025-14064-9
 source_type: peer-reviewed
 evidence_tier: A
-tier_rationale: "Peer-reviewed original research in a Springer environmental-monitoring journal (open access, CC BY 4.0). Defined sampling frame of 116 spice samples (82 store-purchased, 34 home-donated) drawn from Lancaster, PA and surrounding areas. ICP-MS quantification of As, Cd, and Pb on an Agilent 7900 at AGQ Labs USA (ISO 17025:2017 accredited) per FDA EAM 4.7. Quality control by Inorganic Ventures custom CRM (composite of AGQ 22, AGQ 23, AGQ 29, ACG 23Q, MSHG-10PPM, ICP STD Hg 1000), LOD 0.01 ppm for all three metals, non-detects substituted with LOD/√2 per Croghan & Egeghy (2003). Median, IQR, and exceedance proportions reported against NYSDOH 2023 and WHO 2007 reference values; EDI calculated for children aged 1–5 using EPA WWEIA FCID intake estimates. Cochrane-bar weaknesses: (1) total As reported, not iAs speciation — authors flag this explicitly; (2) incomplete metadata for home-donated samples (spice type, country of origin, packaging at time of sale not always available); (3) no exact sampling year range stated in the paper."
+tier_rationale: "Peer-reviewed original research in a Springer environmental-monitoring journal (open access, CC BY 4.0). Defined sampling frame of 116 spice samples (82 store-purchased, 34 home-donated) drawn from Lancaster, PA and surrounding areas. ICP-MS quantification of As, Cd, and Pb on an Agilent 7900 at AGQ Labs USA (ISO 17025:2017 accredited) per FDA EAM 4.7. Quality control by Inorganic Ventures custom CRM (composite of AGQ 22, AGQ 23, AGQ 29, ACG 23Q, MSHG-10PPM, ICP STD Hg 1000), LOD 0.01 ppm for all three metals, non-detects substituted with LOD/√2 per Croghan & Egeghy (2003). Median, IQR, and exceedance proportions reported against NYSDOH 2023 and WHO 2007 reference values; EDI calculated for children aged 1 to 5 using EPA WWEIA FCID intake estimates. Cochrane-bar weaknesses: (1) total As reported, not iAs speciation: authors flag this explicitly; (2) incomplete metadata for home-donated samples (spice type, country of origin, packaging at time of sale not always available); (3) no exact sampling year range stated in the paper."
 license: "CC BY 4.0"
 access_url: "https://doi.org/10.1007/s10661-025-14064-9"
 raw_path: "raw/Manual Fetch Kimi /condiment_papers/05_PB_Vanilla_Spices/Heavy metals in spices from Lancaster, PA_ arsenic, cadmium, and lead exposure risks and the need fo.pdf"
@@ -28,7 +28,7 @@ sampling_year_range: null
 updated: 2026-05-29
 ---
 
-# Huff et al. 2025 — Heavy metals in spices from Lancaster, PA
+# Huff et al. 2025: Heavy metals in spices from Lancaster, PA
 
 ## Overview
 
@@ -37,16 +37,16 @@ This study measured arsenic, cadmium, and lead in 116 spice samples (82 store-pu
 ## Key numbers
 
 **Overall median concentrations (n = 116):**
-- tAs: 0.048 ppm (IQR 0.028–0.075), range 0.007–0.497 ppm
-- Cd: 0.056 ppm (IQR 0.034–0.083), range 0.007–0.333 ppm
-- Pb: 0.177 ppm (IQR 0.086–0.339), range 0.007–31.9 ppm
+- tAs: 0.048 ppm (IQR 0.028 to 0.075), range 0.007 to 0.497 ppm
+- Cd: 0.056 ppm (IQR 0.034 to 0.083), range 0.007 to 0.333 ppm
+- Pb: 0.177 ppm (IQR 0.086 to 0.339), range 0.007 to 31.9 ppm
 
 **Detection frequency:** tAs 90.37%, Cd 93.1%, Pb 98.3% of samples.
 
 **Store-purchased (n = 82) vs. home-donated (n = 34) medians (Wilcoxon rank sum):**
-- tAs: 0.055 (IQR 0.035–0.080) vs. 0.034 (IQR 0.019–0.049) ppm; p = 0.001 (significant)
-- Cd: 0.055 (IQR 0.037–0.081) vs. 0.058 (IQR 0.029–0.092) ppm; p = 0.98
-- Pb: 0.182 (IQR 0.105–0.352) vs. 0.119 (IQR 0.054–0.279) ppm; p = 0.06
+- tAs: 0.055 (IQR 0.035 to 0.080) vs. 0.034 (IQR 0.019 to 0.049) ppm; p = 0.001 (significant)
+- Cd: 0.055 (IQR 0.037 to 0.081) vs. 0.058 (IQR 0.029 to 0.092) ppm; p = 0.98
+- Pb: 0.182 (IQR 0.105 to 0.352) vs. 0.119 (IQR 0.054 to 0.279) ppm; p = 0.06
 
 **Proportion exceeding NYSDOH 2023 reference levels:**
 - tAs (limit 0.21 ppm, iAs basis): 6.03% all; 8.54% store-purchased; 0.00% home-donated
@@ -64,17 +64,17 @@ This study measured arsenic, cadmium, and lead in 116 spice samples (82 store-pu
 - Pb 31.9 ppm in curry powder from the USA
 
 **USA-origin (n = 19) vs other-country-origin (n = 55) store-purchased subsample, median (IQR):**
-- tAs: USA 0.060 (0.035–0.111) vs other 0.051 (0.037–0.077); p = 0.38
-- Cd: USA 0.058 (0.026–0.099) vs other 0.054 (0.037–0.069); p = 0.84
-- Pb: USA 0.182 (0.137–0.336) vs other 0.187 (0.109–0.406); p = 0.82
+- tAs: USA 0.060 (0.035 to 0.111) vs other 0.051 (0.037 to 0.077); p = 0.38
+- Cd: USA 0.058 (0.026 to 0.099) vs other 0.054 (0.037 to 0.069); p = 0.84
+- Pb: USA 0.182 (0.137 to 0.336) vs other 0.187 (0.109 to 0.406); p = 0.82
 - NYSDOH exceedance: tAs 1.11% USA vs 0.00% other; Cd 1.11% USA vs 0.00% other; Pb 42.1% USA vs 47.3% other
 
 **Spearman rank correlations between metals (in samples):**
-- tAs–Cd: rs = 0.33, p = 0.0003 (weak but significant)
-- Cd–Pb: rs = 0.34, p = 0.002 (weak but significant)
-- tAs–Pb: rs = 0.58, p < 0.001 (moderate, significant)
+- tAs, Cd: rs = 0.33, p = 0.0003 (weak but significant)
+- Cd, Pb: rs = 0.34, p = 0.002 (weak but significant)
+- tAs, Pb: rs = 0.58, p < 0.001 (moderate, significant)
 
-**Estimated daily intake (EDI) for children aged 1–5 (IR = 0.35 g/day, BW = 15 kg):**
+**Estimated daily intake (EDI) for children aged 1 to 5 (IR = 0.35 g/day, BW = 15 kg):**
 - Median: tAs 0.016 µg/day (0.0011 µg/kg/day); Cd 0.020 µg/day (0.0012 µg/kg/day); Pb 0.062 µg/day (0.0041 µg/kg/day)
 - Highest: tAs 0.174 µg/day (0.0114 µg/kg/day); Cd 0.117 µg/day (0.00766 µg/kg/day); Pb 11.2 µg/day (0.734 µg/kg/day)
 - Reference doses: EPA RfD As 0.6 µg/kg/day, Cd 0.54 µg/kg/day; FDA Pb reference level 2.2 µg/day. The highest Pb EDI (11.2 µg/day, curry powder) is the only sample whose intake exceeds the FDA reference level. Two other samples had EDIs above 1 µg/day but below the FDA action level: a store-purchased paprika at 1.77 µg/day and a home-donated spice at 1.41 µg/day.
@@ -89,11 +89,11 @@ ICP-MS (Agilent 7900) using FDA EAM 4.7 (FDA, 2015) for As, Cd, and Pb in spices
 
 **Statistical analysis:** Stata 14. Medians and IQRs because data were non-normal. Wilcoxon rank sum test for store-vs-home and USA-vs-other-country comparisons (α = 0.05). Spearman correlation for between-metal relationships.
 
-**Exposure assessment:** intake estimates from USEPA-WWEIA Food Commodity Intake Database (FCID 2005–2010), derived from NHANES dietary interview data, restricted to cinnamon, ginger (dried), pepper (black and white), turmeric, and "spices (other)." Children aged 1–5 selected because of vulnerability to heavy-metal effects and the 1–5 age band for routine childhood lead screening (Wengrovitz & Brown, 2009). IR 0.35 g/day; BW 15 kg per EPA Exposure Factors Handbook (2011). EDI = (C_metal × IR) / BW.
+**Exposure assessment:** intake estimates from USEPA-WWEIA Food Commodity Intake Database (FCID 2005 to 2010), derived from NHANES dietary interview data, restricted to cinnamon, ginger (dried), pepper (black and white), turmeric, and "spices (other)." Children aged 1 to 5 selected because of vulnerability to heavy-metal effects and the 1 to 5 age band for routine childhood lead screening (Wengrovitz & Brown, 2009). IR 0.35 g/day; BW 15 kg per EPA Exposure Factors Handbook (2011). EDI = (C_metal × IR) / BW.
 
 ## Implications
 
-**Certification:** The 40.5% exceedance rate against NYSDOH 2023 Pb guidance in commercial spice samples from a single US city is among the highest published US market-basket rates for any spice study, and the 31.9 ppm Pb concentration in a curry powder sample is in the range associated historically with lead-chromate adulteration. The authors connect the observed As–Pb correlation (rs = 0.58, p < 0.001) and the elevated single-analyte maxima to the broader literature on intentional colourant adulteration, citing Forsyth et al. 2024 on turmeric lead-chromate adulteration in South Asia. Three of the highest single-analyte concentrations originating from the same retail store points at clustered single-supplier concentration risk that supplier-audit programs would want to surface. The dataset supports inclusion of spice blends (masala, curry powder) as a distinct subcategory of higher-risk spices for routing into the spices product page.
+**Certification:** The 40.5% exceedance rate against NYSDOH 2023 Pb guidance in commercial spice samples from a single US city is among the highest published US market-basket rates for any spice study, and the 31.9 ppm Pb concentration in a curry powder sample is in the range associated historically with lead-chromate adulteration. The authors connect the observed As, Pb correlation (rs = 0.58, p < 0.001) and the elevated single-analyte maxima to the broader literature on intentional colourant adulteration, citing Forsyth et al. 2024 on turmeric lead-chromate adulteration in South Asia. Three of the highest single-analyte concentrations originating from the same retail store points at clustered single-supplier concentration risk that supplier-audit programs would want to surface. The dataset supports inclusion of spice blends (masala, curry powder) as a distinct subcategory of higher-risk spices for routing into the spices product page.
 
 **Courses:** Documents the immigration and refugee health angle: Lancaster has disproportionately high refugee resettlement and elevated childhood blood lead levels (in 2018 Pennsylvania was among the three states with the highest prevalence of childhood BLL ≥5 µg/dL nationally), and spices are both culturally important and a documented lead source in this community. Illustrates how standard childhood lead risk assessments (focused on paint and water) can miss spice exposure, especially in immigrant households. Strong case study for QA training on underregulated food categories: there is no US federal limit for heavy metals in spices, New York State guidance is currently the only US state-level reference, and the WHO 2007 guidance was developed for herbal medicines rather than culinary spices, so applying it to spices forces an assumption of methodological transferability the authors flag.
 
