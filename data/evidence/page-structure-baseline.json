@@ -3,7 +3,7 @@
   "date": "2026-10-28",
   "note": "Warn-only baseline. CI fails only when a page newly fails a check. Counts are pages, not occurrences. Stubs are exempt only from section_presence_and_order. 2026-10-28 recount includes restored live pages and products moved out of ingredients.",
   "pages_scanned": 930,
-  "stubs_exempt_from_sections": 544,
+  "stubs_exempt_from_sections": 540,
   "checks": {
     "answer_block": {
       "pages": 61,
@@ -72,7 +72,7 @@
       ]
     },
     "dois_or_author_year": {
-      "pages": 618,
+      "pages": 619,
       "paths": [
         "wiki/ingredients/algae.md",
         "wiki/ingredients/almond-beverage.md",
@@ -689,13 +689,14 @@
         "wiki/products/true-tea-camellia-sinensis.md",
         "wiki/products/utensils-metal.md",
         "wiki/products/vegetable-juices-non-root.md",
+        "wiki/products/vegetable-juices.md",
         "wiki/products/water-filters.md",
         "wiki/products/white-wine.md",
         "wiki/products/wild-mushrooms.md"
       ]
     },
     "generic_headings": {
-      "pages": 785,
+      "pages": 786,
       "paths": [
         "wiki/ingredients/almond-beverage.md",
         "wiki/ingredients/almond.md",
@@ -947,6 +948,7 @@
         "wiki/ingredients/rice-cakes.md",
         "wiki/ingredients/rice-cereal.md",
         "wiki/ingredients/rice-flour.md",
+        "wiki/ingredients/rice-milk.md",
         "wiki/ingredients/rice-noodles.md",
         "wiki/ingredients/rice-puffs.md",
         "wiki/ingredients/rice.md",
@@ -1485,7 +1487,7 @@
       ]
     },
     "metal_symbols": {
-      "pages": 593,
+      "pages": 595,
       "paths": [
         "wiki/ingredients/almond.md",
         "wiki/ingredients/apple-cider-vinegar.md",
@@ -1526,6 +1528,7 @@
         "wiki/ingredients/canned-tuna.md",
         "wiki/ingredients/cantaloupe.md",
         "wiki/ingredients/carrot.md",
+        "wiki/ingredients/casein.md",
         "wiki/ingredients/cashews.md",
         "wiki/ingredients/cassava.md",
         "wiki/ingredients/cauliflower.md",
@@ -1667,6 +1670,7 @@
         "wiki/ingredients/rice-cakes.md",
         "wiki/ingredients/rice-cereal.md",
         "wiki/ingredients/rice-flour.md",
+        "wiki/ingredients/rice-milk.md",
         "wiki/ingredients/rice-puffs.md",
         "wiki/ingredients/rice.md",
         "wiki/ingredients/root-vegetable-purees.md",
@@ -2083,7 +2087,7 @@
       ]
     },
     "consumer_audience": {
-      "pages": 508,
+      "pages": 509,
       "paths": [
         "wiki/ingredients/almond-beverage.md",
         "wiki/ingredients/almond.md",
@@ -2337,6 +2341,7 @@
         "wiki/ingredients/rice-cakes.md",
         "wiki/ingredients/rice-cereal.md",
         "wiki/ingredients/rice-flour.md",
+        "wiki/ingredients/rice-milk.md",
         "wiki/ingredients/rice-noodles.md",
         "wiki/ingredients/rice-puffs.md",
         "wiki/ingredients/rice.md",
@@ -2596,7 +2601,7 @@
       ]
     },
     "section_presence_and_order": {
-      "pages": 208,
+      "pages": 210,
       "paths": [
         "wiki/ingredients/almond.md",
         "wiki/ingredients/baby-cereals-dry.md",
@@ -2608,6 +2613,7 @@
         "wiki/ingredients/bread.md",
         "wiki/ingredients/breastmilk.md",
         "wiki/ingredients/camellia-sinensis.md",
+        "wiki/ingredients/casein.md",
         "wiki/ingredients/cashews.md",
         "wiki/ingredients/cereals.md",
         "wiki/ingredients/chocolate.md",
@@ -2655,6 +2661,7 @@
         "wiki/ingredients/rice-bran-oil.md",
         "wiki/ingredients/rice-cereal.md",
         "wiki/ingredients/rice-flour.md",
+        "wiki/ingredients/rice-milk.md",
         "wiki/ingredients/rice-puffs.md",
         "wiki/ingredients/rice.md",
         "wiki/ingredients/root-vegetable-purees.md",
@@ -2809,7 +2816,7 @@
       ]
     },
     "uncertainty_note": {
-      "pages": 914,
+      "pages": 911,
       "paths": [
         "wiki/ingredients/algae.md",
         "wiki/ingredients/almond-beverage.md",
@@ -3052,7 +3059,6 @@
         "wiki/ingredients/oranges.md",
         "wiki/ingredients/organ-meats.md",
         "wiki/ingredients/oyster.md",
-        "wiki/ingredients/palm-oil.md",
         "wiki/ingredients/pancake-syrup.md",
         "wiki/ingredients/pancakes.md",
         "wiki/ingredients/parsley.md",
@@ -3101,7 +3107,6 @@
         "wiki/ingredients/rice-cereal.md",
         "wiki/ingredients/rice-flour.md",
         "wiki/ingredients/rice-koji.md",
-        "wiki/ingredients/rice-milk.md",
         "wiki/ingredients/rice-noodles.md",
         "wiki/ingredients/rice-puffs.md",
         "wiki/ingredients/rice.md",
@@ -3712,7 +3717,6 @@
         "wiki/products/vegetable-beef-soup.md",
         "wiki/products/vegetable-juices-non-root.md",
         "wiki/products/vegetable-juices-root-vegetable-containing.md",
-        "wiki/products/vegetable-juices.md",
         "wiki/products/vegetable-soup.md",
         "wiki/products/veggie-burger.md",
         "wiki/products/vinegar.md",
