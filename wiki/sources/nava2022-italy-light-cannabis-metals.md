@@ -27,7 +27,7 @@ sampling_year_range: [2021, 2022]
 updated: 2026-11-05
 ---
 
-# Nava et al. 2022 — Trace elements in light cannabis inflorescences, Italy
+# Nava et al. 2022: Trace elements in light cannabis inflorescences, Italy
 
 This Italian survey measured 14 elements by ICP-MS and direct mercury analysis (DMA-80) in 72 light cannabis (hemp, THC below 0.6%) inflorescence samples representing 6 varieties from 4 Italian regions. Light cannabis (also called CBD flower) is the regulated hemp smokable sold legally in Italy and other EU member states. The study assessed compliance with WHO and USP inhalation limits and found that most samples are below limits for lead, cadmium, total arsenic, and total mercury, but chromium, nickel, cobalt, and copper exceeded USP inhalation limits in a minority of samples, with strong geographic variation.
 

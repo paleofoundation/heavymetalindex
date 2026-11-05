@@ -27,7 +27,7 @@ sampling_year_range: [2023, 2024]
 updated: 2026-11-05
 ---
 
-# Achuthan et al. 2025 — Metals in regulated Canadian dried cannabis and vaping products, risk assessment
+# Achuthan et al. 2025: Metals in regulated Canadian dried cannabis and vaping products, risk assessment
 
 This Health Canada study measured 18 metals in 50 regulated dried cannabis products and 12 metals in 20 cannabis vaping liquids from the Canadian legal market. The paper provides a probabilistic risk assessment applying European Pharmacopoeia (Ph Eur) permitted daily exposures and USP concentration limits as reference points, with the 50 dried cannabis samples comprising the same regulated product cohort reported in a companion paper by Fiering et al. (2026).
 
@@ -52,7 +52,7 @@ All concentrations are µg/g. Dried cannabis values (Table 1) are medians and ma
 
 Metals below detection in all 50 dried cannabis products: Ag (<0.07), Au (<0.01), Sb (<0.20), Se (<1.30), Sn (<0.60), Tl (<0.08). Li below detection in most samples (median <0.25, max 0.76 µg/g).
 
-**Cannabis vaping liquids (Table 2) — selected metals, median/maximum (µg/g):**
+**Cannabis vaping liquids (Table 2): selected metals, median/maximum (µg/g):**
 
 | Metal | Median | Maximum |
 |---|---|---|

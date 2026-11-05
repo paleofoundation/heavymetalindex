@@ -27,7 +27,7 @@ sampling_year_range: [2024, 2024]
 updated: 2026-11-05
 ---
 
-# Fiering et al. 2026 — Metals in legal and illegal cannabis inflorescences, Canada
+# Fiering et al. 2026: Metals in legal and illegal cannabis inflorescences, Canada
 
 This study measured 18 metals by ICP-MS/MS in 100 dried cannabis inflorescences: 50 purchased from licensed Canadian retailers and 50 seized from illegal sources by law enforcement. Results were compared against USP 232 concentration limits assuming 10 g/day oral or inhalation exposure. The comparison is the first head-to-head metals dataset for the Canadian legal versus illegal cannabis divide.
 

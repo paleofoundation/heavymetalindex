@@ -27,7 +27,7 @@ sampling_year_range: [2023, 2024]
 updated: 2026-11-05
 ---
 
-# Rodriguez et al. 2025 — Certified reference material for toxic elements in cannabis leaves
+# Rodriguez et al. 2025: Certified reference material for toxic elements in cannabis leaves
 
 This Colombian metrology paper describes the development and certification of INM-040-1, a pulverized lyophilized cannabis leaf CRM for arsenic, cadmium, and lead. The study is a laboratory quality-assurance tool, not an environmental occurrence survey.
 

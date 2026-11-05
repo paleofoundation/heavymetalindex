@@ -27,7 +27,7 @@ sampling_year_range: []
 updated: 2026-11-05
 ---
 
-# Thomas et al. 2026 — Procedural challenges in metals analysis of cannabis vape aerosols
+# Thomas et al. 2026: Procedural challenges in metals analysis of cannabis vape aerosols
 
 This white paper from the ASTM D37.08 Subcommittee (CDC Tobacco Products Laboratory authors) reviews and critiques aerosol collection methods for metals analysis in cannabis and nicotine electronic cannabinoid delivery systems (ECDS). It contains no primary occurrence measurements. It is catalogued here as methodological context for the vape-hardware routing.
 

@@ -27,7 +27,7 @@ sampling_year_range: [2017, 2020]
 updated: 2026-11-05
 ---
 
-# Douvris et al. 2022 — Trace metals in seized cannabis from Ghana
+# Douvris et al. 2022: Trace metals in seized cannabis from Ghana
 
 This study measured 12 elements by ICP-MS in 34 seized cannabis samples from Ghana, combining police seizures (2017-2020) and farm-collected samples from two regions. The study aimed to use multivariate metal profiles to distinguish farm origins. The matrix is mixed flower and leaf material, not pure inflorescence. Lead and arsenic concentrations span a wide range, reflecting heterogeneous soil contamination across sampling sites.
 

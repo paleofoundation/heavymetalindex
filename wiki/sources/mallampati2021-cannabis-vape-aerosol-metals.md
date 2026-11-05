@@ -27,7 +27,7 @@ sampling_year_range: [2019, 2020]
 updated: 2026-11-05
 ---
 
-# Mallampati et al. 2021 — Methods for heavy metals in inhaled cannabis aerosols
+# Mallampati et al. 2021: Methods for heavy metals in inhaled cannabis aerosols
 
 This methods development paper evaluated impinger configurations for collecting hydrophobic cannabis aerosol from vaped cannabis concentrate cartridges and combusted cannabis flower for subsequent ICP-MS metals analysis. The study used spiked model matrices and is not a retail market occurrence survey. It is catalogued here as methodological context for the vape-hardware routing.
 

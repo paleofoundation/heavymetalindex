@@ -27,7 +27,7 @@ sampling_year_range: [2022, 2023]
 updated: 2026-11-05
 ---
 
-# Gray et al. 2025 — Metals in commercial hemp cigarette fillers, USA
+# Gray et al. 2025: Metals in commercial hemp cigarette fillers, USA
 
 This CDC Tobacco Products Laboratory study measured nine metals by ICP-OES and QQQ-ICP-MS in the filler material of 14 commercial U.S. hemp cigarette brands and compared them against tobacco cigarettes and published U.S. state cannabis testing action limits. Hemp cigarette filler is predominantly hemp inflorescence material in ground form. Authors are from the U.S. Centers for Disease Control and Prevention.
 

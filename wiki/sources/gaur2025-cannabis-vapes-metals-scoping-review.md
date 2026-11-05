@@ -27,7 +27,7 @@ sampling_year_range: [2015, 2024]
 updated: 2026-11-05
 ---
 
-# Gaur and Agnihotri 2025 — Metals in cannabis vapes: scoping review
+# Gaur and Agnihotri 2025: Metals in cannabis vapes: scoping review
 
 This PRISMA-ScR scoping review synthesized nine primary studies on heavy metals in cannabis vaping (CV) liquids and aerosols. It identified nickel, chromium, lead, copper, manganese, cobalt, cadmium, zinc, and gold as the metals most frequently detected in cannabis vapes, with device components (battery contacts, heating coils, mouthpieces) as the primary metal sources. The paper does not contain primary concentration data beyond syntheses from cited studies.
 

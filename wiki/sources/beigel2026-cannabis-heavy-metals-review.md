@@ -27,7 +27,7 @@ sampling_year_range: [2024, 2025]
 updated: 2026-11-05
 ---
 
-# Beigel et al. 2026 — Heavy metals in cannabis: plant contamination and cannabinoid effects, Israel
+# Beigel et al. 2026: Heavy metals in cannabis: plant contamination and cannabinoid effects, Israel
 
 This paper combines a narrative review of the cannabis hyperaccumulation literature with a controlled hydroponic dose-response experiment exposing four medical cannabis cultivars to escalating cadmium, lead, cobalt, and nickel concentrations. It provides mechanistic context for why cannabis accumulates heavy metals from soil but does not supply finished-product occurrence data for the regulated or retail cannabis market.
 

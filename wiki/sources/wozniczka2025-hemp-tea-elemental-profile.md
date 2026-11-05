@@ -27,7 +27,7 @@ sampling_year_range: [2023, 2024]
 updated: 2026-11-05
 ---
 
-# Wozniczka et al. 2025 — Elemental and phenolic profile of commercial hemp tea products
+# Wozniczka et al. 2025: Elemental and phenolic profile of commercial hemp tea products
 
 This Polish study characterized the elemental and phenolic content of 12 commercially available hemp tea products (predominantly inflorescence material) by FAAS and HPLC. The study measured only four essential microelements (iron, manganese, zinc, copper) and four macroelements (sodium, magnesium, calcium, potassium). No toxic metals (lead, cadmium, arsenic, mercury) were measured. The paper provides context on essential mineral variability in commercial hemp inflorescence products but contributes no data on regulated contaminants.
 

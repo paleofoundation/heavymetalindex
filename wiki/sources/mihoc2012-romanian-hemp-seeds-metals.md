@@ -27,7 +27,7 @@ sampling_year_range: [2009, 2011]
 updated: 2026-11-05
 ---
 
-# Mihoc et al. 2012 — Metal content of Romanian hemp seeds
+# Mihoc et al. 2012: Metal content of Romanian hemp seeds
 
 This Romanian study measured cadmium, iron, manganese, and zinc in seeds of five hemp varieties under different fertilization and seeding-distance treatments. Only hemp seeds were analyzed; inflorescences were not measured. Cadmium concentrations in all varieties and all treatment conditions exceeded the Romanian maximum allowable limit for food (0.300 mg/kg) by 6 to 11 times.
 
