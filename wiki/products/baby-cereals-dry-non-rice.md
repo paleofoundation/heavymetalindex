@@ -43,7 +43,7 @@ audience:
   - app
 wiki_doi: null
 updated: 2026-05-03T00:00:00.000Z
-sources: 37
+sources: 38
 kind: Subcategory
 dek: "Dry infant cereals made from grains other than rice are covered through metal occurrence evidence, regulatory context and distinctions between cereal types."
 rail_highlights:

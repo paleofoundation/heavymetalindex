@@ -89,7 +89,7 @@ used_in_products: [non-root-vegetable-purees, vegetable-juices-non-root]
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-13
-sources: 24
+sources: 52
 hero_image: /static/heroes/garden-vegetables-tomato-cucumber-asparagus.webp
 quick_read:
   summary: "Non-root vegetables differ in metal uptake by plant type, with washing addressing surface contamination and drying changing concentration through moisture loss."

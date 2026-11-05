@@ -26,7 +26,7 @@ products_status: scaffold
 primary_metals_of_concern: [Pb, Cd, Cr, Al]
 literature_scope: cited
 wiki_doi: null
-sources: 24
+sources: 30
 updated: 2026-10-15
 hero_image: /static/heroes/lip-balms-cosmetic-compacts.webp
 hero_image_alt: "Unmarked lip-balm tubes with pale and rose-tinted tips beside an open cosmetic powder compact illustrating lipstick product-format context."

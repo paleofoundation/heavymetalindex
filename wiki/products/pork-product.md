@@ -14,7 +14,7 @@ panel_metals: [Pb, iAs, Hg, Cd, Cr, Ni, Sn, Al]
 audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
-sources: 10
+sources: 11
 wiki_doi: null
 updated: 2026-05-17
 hero_image: /static/heroes/pork-chops-bacon-slices.webp

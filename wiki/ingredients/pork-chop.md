@@ -119,7 +119,7 @@ used_in_products: []
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-13
-sources: 4
+sources: 7
 hero_image: /static/heroes/pork-chops-bacon-slices.webp
 quick_read:
   summary: "The tested pork chop composites had no detected metals, which establishes reporting-limit bounds rather than zero concentrations."

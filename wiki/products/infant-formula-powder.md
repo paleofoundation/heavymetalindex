@@ -21,7 +21,7 @@ primary_metals_of_concern: [Al, Ni, Cd, Pb, tAs, iAs, tHg, MeHg, Cr-VI, Sn]
 vulnerable_population: infants-0-12mo
 audience: [regulator, educator, consumer, app]
 review_state: draft
-sources: 104
+sources: 111
 wiki_doi: null
 updated: 2026-05-08
 hero_image: /static/heroes/infant-formula-powder-unmarked-container.webp

@@ -105,7 +105,7 @@ contamination_profile:
     basis: null
     notes: null
 literature_scope: thin
-sources: 3
+sources: 15
 wiki_doi: null
 updated: 2026-05-19
 hero_image: /static/heroes/infant-formula-powder-unmarked-container.webp

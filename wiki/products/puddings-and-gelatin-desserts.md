@@ -89,7 +89,7 @@ higher_risk_variants: []
 used_in_products: []
 audience: ["regulator","educator","consumer","app"]
 updated: "2026-09-10"
-sources: 1
+sources: 0
 last_full_resynthesis: null
 hero_image: /static/heroes/chocolate-milk-pudding-syrup.webp
 hero_image_alt: "A glass of pale chocolate milk, a bowl of chocolate pudding and unmarked chocolate-syrup containers illustrating chocolate pudding ingredient context."

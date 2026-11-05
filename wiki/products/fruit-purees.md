@@ -39,7 +39,7 @@ audience:
   - app
 wiki_doi: null
 updated: 2026-10-14T00:00:00.000Z
-sources: 36
+sources: 35
 kind: Subcategory
 dek: "Pureed fruit foods for infants and young children are examined for lead, cadmium, arsenic and other metals, with attention to product form, packaging and measurement basis."
 rail_highlights:

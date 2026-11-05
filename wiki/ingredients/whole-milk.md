@@ -99,7 +99,7 @@ used_in_products: []
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-13
-sources: 10
+sources: 22
 hero_image: /static/heroes/dairy-butter-protein-powder-milk.webp
 quick_read:
   summary: "Whole milk generally has low metal concentrations because transfer from feed into milk is restricted, though some market samples contain detectable lead."

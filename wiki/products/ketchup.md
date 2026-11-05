@@ -276,7 +276,7 @@ audience:
   - app
 wiki_doi: null
 updated: 2026-05-13T00:00:00.000Z
-sources: 5
+sources: 1
 hero_image: /static/heroes/condiments-ketchup-mayonnaise-vinaigrette.webp
 quick_read:
   summary: >-

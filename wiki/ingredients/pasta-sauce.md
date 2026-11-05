@@ -94,7 +94,7 @@ higher_risk_variants: []
 used_in_products: []
 audience: ["regulator","educator","consumer","app"]
 updated: "2026-09-10"
-sources: 1
+sources: 2
 last_full_resynthesis: null
 hero_image: /static/heroes/tomato-pasta-sauce.webp
 hero_image_alt: "Red tomato sauce in a dark ceramic bowl beside tomatoes and basil illustrating pasta sauce ingredient context."

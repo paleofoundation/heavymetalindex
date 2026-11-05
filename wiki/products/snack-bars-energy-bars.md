@@ -28,7 +28,7 @@ primary_metals_of_concern: [Pb, Cd, tAs]
 typical_ingredients: []
 applicable_regulations: []
 literature_scope: cited
-sources: 1
+sources: 2
 wiki_doi: null
 updated: 2026-10-15
 ---

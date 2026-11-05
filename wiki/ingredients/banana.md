@@ -102,7 +102,7 @@ used_in_products: [fruit-purees]
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-13
-sources: 13
+sources: 29
 hero_image: /static/heroes/tropical-fruit-banana-mango-pineapple.webp
 quick_read:
   summary: "Banana pulp is separated from surface contamination by its peel, while drying concentrates metals already present in the edible portion."

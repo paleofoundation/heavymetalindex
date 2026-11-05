@@ -10,7 +10,7 @@ microbiome_relevance: low
 wikibiome_crosswalk: []
 wiki_doi: null
 updated: 2026-10-16
-sources: 530
+sources: 588
 hero_image: /static/heroes/aluminum-tea-food-contact.webp
 hero_snapshot: cited-evidence
 dek: "Dietary aluminum, food-contact materials and exposure context, with separate interpretation for oral exposure and impaired renal clearance."

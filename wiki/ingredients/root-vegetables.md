@@ -89,7 +89,7 @@ used_in_products: [vegetable-juices-root-vegetable-containing]
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-16
-sources: 85
+sources: 129
 hero_image: /static/heroes/root-vegetables-carrots-beets-potatoes.webp
 quick_read:
   summary: "Root vegetables take up cadmium from soil and carry surface lead, so origin and preparation matter when interpreting measurements."

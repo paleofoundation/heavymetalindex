@@ -9,7 +9,7 @@ retirement_reason: "Synonym of the Cat 6 Row 6 page canned-seafood, created in t
 redirect_target: products/canned-seafood
 audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 updated: 2026-06-02
-sources: 53
+sources: 68
 ---
 
 # Canned Fish — REDIRECT

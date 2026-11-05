@@ -9,7 +9,7 @@ microbiome_relevance: high
 wikibiome_crosswalk: ["[[microbiome/arsenic-gut-axis]]", "[[microbiome/arsenic-microbial-methylation]]"]
 wiki_doi: null
 updated: 2026-09-11
-sources: 875
+sources: 1081
 hero_image: /static/heroes/arsenic-rice-water-soil.webp
 hero_snapshot: cited-evidence
 dek: "Exposure to arsenic in food and water, with separate interpretation of inorganic arsenic and total arsenic."

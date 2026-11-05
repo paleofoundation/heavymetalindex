@@ -28,7 +28,7 @@ step0_basis: "literature-baseline (iAs); regulatory-alignment (EU iAs rice-produ
 step0_confidence: medium
 across_row_review_hook: "ACTIVE: rice-based cereals carry the iAs platform (FDA 100 ppb infant-rice-cereal context); speciation required"
 literature_scope: cited
-sources: 0
+sources: 1
 wiki_doi: null
 created_by: cat3_breakfast_cereal_scaffold_2026_06_02
 updated: 2026-10-15

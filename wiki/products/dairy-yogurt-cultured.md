@@ -16,7 +16,7 @@ audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
 literature_scope: none
-sources: 1
+sources: 6
 wiki_doi: null
 updated: 2026-06-08
 hero_image: /static/heroes/fresh-frozen-dairy-desserts.webp

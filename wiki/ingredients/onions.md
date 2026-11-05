@@ -96,7 +96,7 @@ used_in_products: []
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-16
-sources: 22
+sources: 51
 hero_image: /static/heroes/alliums-garlic-onion.webp
 quick_read:
   summary: "Onion measurements include detections and non-detects, while outer scale removal and drying affect how the metal results should be interpreted."

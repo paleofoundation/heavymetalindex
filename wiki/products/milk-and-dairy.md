@@ -18,7 +18,7 @@ typical_ingredients: []
 applicable_regulations: []
 audience: [regulator, educator, consumer, app]
 literature_scope: thin
-sources: 12
+sources: 16
 wiki_doi: null
 created_by: cat24_step0_2026_06_08
 updated: 2026-06-08

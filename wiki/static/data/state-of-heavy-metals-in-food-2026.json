@@ -9,16 +9,16 @@
   "metrics": {
     "synthesis_findings": 25,
     "disclosed_anchor_source_relationships": 126,
-    "source_pages": 3910,
-    "peer_reviewed_source_pages": 3268,
-    "government_source_pages": 193,
-    "a_tier_source_pages": 2147,
-    "jurisdictions": 192,
-    "ingredient_pages": 377,
-    "product_pages": 417,
-    "regulation_pages": 182,
+    "source_pages": 4275,
+    "peer_reviewed_source_pages": 3607,
+    "government_source_pages": 203,
+    "a_tier_source_pages": 2482,
+    "jurisdictions": 195,
+    "ingredient_pages": 391,
+    "product_pages": 491,
+    "regulation_pages": 200,
     "structured_evidence_records": 10609,
-    "routing_audit_rows": 6964
+    "routing_audit_rows": 6906
   },
   "themes": [
     {

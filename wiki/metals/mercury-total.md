@@ -6,7 +6,7 @@ name: Mercury, total
 species: [Hg0, Hg2+, MeHg, EtHg, phenyl-Hg]
 audience: [regulator, educator, researcher]
 microbiome_relevance: medium
-sources: 275
+sources: 316
 wiki_doi: null
 updated: 2026-09-11
 status: scaffold

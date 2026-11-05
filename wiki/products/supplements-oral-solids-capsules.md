@@ -15,7 +15,7 @@ audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
 literature_scope: thin
-sources: 2
+sources: 3
 wiki_doi: null
 updated: 2026-05-17
 hero_image: /static/heroes/solid-supplement-tablets-softgels-gummies.webp

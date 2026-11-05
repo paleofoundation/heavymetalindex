@@ -90,7 +90,7 @@ higher_risk_variants: []
 used_in_products: []
 audience: ["regulator","educator","consumer","app"]
 updated: "2026-09-10"
-sources: 1
+sources: 0
 last_full_resynthesis: null
 hero_image: /static/heroes/clam-chowder-shellfish.webp
 hero_image_alt: "A bowl of pale chowder with small clam pieces and potatoes beside closed clams illustrating clam chowder ingredient context."

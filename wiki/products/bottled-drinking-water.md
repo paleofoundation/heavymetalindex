@@ -19,7 +19,7 @@ panel_metals: [Pb, iAs, Hg, Cd, Cr, Ni, Sn, Al]
 audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
-sources: 27
+sources: 45
 wiki_doi: null
 updated: 2026-10-15
 primary_metals_of_concern: [Pb, Cd, iAs, tAs]

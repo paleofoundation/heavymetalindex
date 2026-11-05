@@ -101,7 +101,7 @@ used_in_products: []
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-13
-sources: 2
+sources: 5
 hero_image: /static/heroes/frankfurter-sausages.webp
 quick_read:
   summary: "Pork sausage metal levels depend on formulation, particularly organ meat and cereal fillers, so testing should match the recipe."

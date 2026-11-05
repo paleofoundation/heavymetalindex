@@ -15,7 +15,7 @@ audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: locked
 splits_locked: true
 literature_scope: thin
-sources: 209
+sources: 210
 wiki_doi: null
 updated: 2026-06-02
 variant_type: whole_row_platform

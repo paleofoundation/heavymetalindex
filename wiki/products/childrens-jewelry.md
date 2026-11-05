@@ -27,7 +27,7 @@ primary_metals_of_concern: [Pb, Cd]
 typical_ingredients: []
 applicable_regulations: []
 literature_scope: cited
-sources: 13
+sources: 14
 wiki_doi: null
 updated: 2026-10-15
 hero_image: /static/heroes/small-jewelry-unmarked-metal.webp

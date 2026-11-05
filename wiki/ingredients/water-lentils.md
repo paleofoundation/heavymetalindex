@@ -137,6 +137,7 @@ contamination_profile:
     basis: null
     notes: Not yet measured in any source in this unit.
 literature_scope: thin
+sources: 9
 updated: 2026-11-04
 evidence_scope: populated
 quick_read:

@@ -31,7 +31,7 @@ applicable_regulations: []
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-09-26
-sources: 18
+sources: 24
 created_by: autonomy_v0
 created_from: cat2_seed
 parent_category: children-personal-care

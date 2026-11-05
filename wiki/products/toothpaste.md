@@ -28,7 +28,7 @@ applicable_regulations: [washington-tfca-toothpaste-pb-1000ppb]
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-10-15
-sources: 24
+sources: 23
 created_by: autonomy_v0
 created_from: cat2_seed
 parent_category: children-personal-care

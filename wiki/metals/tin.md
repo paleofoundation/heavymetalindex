@@ -6,7 +6,7 @@ name: Tin
 species: [Sn0, Sn2+, Sn4+, organotins]
 audience: [regulator, educator, consumer, researcher]
 microbiome_relevance: medium
-sources: 226
+sources: 239
 wiki_doi: null
 updated: 2026-09-11
 status: scaffold

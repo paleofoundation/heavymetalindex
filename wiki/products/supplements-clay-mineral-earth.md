@@ -16,7 +16,7 @@ audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: populated
 splits_locked: false
 literature_scope: "7 sources on geophagic clay from Ghana and Tanzania, commercial bentonite (EU animal-feed grade), and reviews of geophagy across sub-Saharan Africa; no US supplement-market surveillance data"
-sources: 7
+sources: 8
 wiki_doi: null
 updated: 2026-11-04
 hero_image: /static/heroes/mineral-earth-powders-unmarked.webp

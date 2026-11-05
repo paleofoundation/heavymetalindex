@@ -15,7 +15,7 @@ audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
 literature_scope: none
-sources: 0
+sources: 3
 wiki_doi: null
 updated: 2026-10-14
 hero_image: /static/heroes/cocoa-beverage-powder-cup.webp

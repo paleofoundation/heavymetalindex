@@ -9,7 +9,7 @@ microbiome_relevance: high
 wikibiome_crosswalk: []
 wiki_doi: null
 updated: 2026-10-16
-sources: 1583
+sources: 2137
 hero_image: /static/heroes/cadmium-cocoa-grains-crops.webp
 hero_snapshot: cited-evidence
 dek: "Long-term cadmium accumulation, kidney and bone effects, and the evidence behind dietary exposure assessment."

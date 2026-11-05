@@ -89,7 +89,7 @@ higher_risk_variants: []
 used_in_products: []
 audience: ["regulator","educator","consumer","app"]
 updated: "2026-09-10"
-sources: 1
+sources: 0
 last_full_resynthesis: null
 hero_image: /static/heroes/graham-saltine-crackers.webp
 hero_image_alt: "Rectangular brown graham crackers and a separate stack of pale square crackers illustrating graham crackers ingredient context."

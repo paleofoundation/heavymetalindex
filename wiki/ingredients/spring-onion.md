@@ -105,6 +105,7 @@ contamination_profile:
     basis: null
     notes: null
 literature_scope: thin
+sources: 5
 updated: 2026-10-15
 evidence_scope: navigation-only
 ---

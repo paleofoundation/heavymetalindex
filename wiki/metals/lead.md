@@ -25,7 +25,7 @@ microbiome_relevance: high
 wikibiome_crosswalk: []
 wiki_doi: null
 updated: 2026-10-16
-sources: 1455
+sources: 2072
 quick_read:
   summary: "Lead is treated differently from most dietary contaminants because major agencies have not identified a safe blood lead level for children."
   points:

@@ -8,7 +8,7 @@ aliases: [kaolin, ayilo, calabash chalk, ndom, nzu, mabele, craie, poto, argile]
 category: unclassified
 provisional_scaffold: false
 literature_scope: thin
-sources: 5
+sources: 17
 updated: 2026-11-04
 evidence_coverage: partial
 description: >-

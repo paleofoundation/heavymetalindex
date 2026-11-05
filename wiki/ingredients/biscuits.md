@@ -99,7 +99,7 @@ used_in_products: []
 audience: ["regulator","educator","consumer","app"]
 literature_scope: cited
 updated: "2026-10-15"
-sources: 3
+sources: 8
 last_full_resynthesis: null
 hero_image: /static/heroes/baked-foods-biscuits-crackers-muffin-brownie-crumbs.webp
 hero_image_alt: "Plain biscuits, butter crackers, a blueberry muffin, a chocolate brownie and a dish of breadcrumbs illustrating biscuits ingredient context."

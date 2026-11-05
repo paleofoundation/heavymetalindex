@@ -7,7 +7,7 @@ species: [Fe2+, Fe3+, iron-compounds, haem-iron, non-haem-iron, ferric-ammonium-
 audience: [regulator, brand-qa, food-safety, researcher, educator]
 microbiome_relevance: none established
 wikibiome_crosswalk: []
-sources: 18
+sources: 193
 wiki_doi: null
 updated: 2026-11-03
 n_sources: 18

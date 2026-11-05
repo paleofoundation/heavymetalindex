@@ -26,7 +26,7 @@ audience:
   - app
 wiki_doi: null
 updated: 2026-05-09T00:00:00.000Z
-sources: 34
+sources: 35
 kind: Subcategory
 dek: "Juices without apple are examined for lead and inorganic arsenic. The evidence distinguishes grapefruit results from broader grape and blend data."
 rail_highlights:

@@ -26,7 +26,7 @@ primary_metals_of_concern: [Pb, Cd, iAs, tAs]
 typical_ingredients: []
 applicable_regulations: []
 literature_scope: cited
-sources: 2
+sources: 4
 updated: 2026-10-15
 step0_status: provisional
 step0_provisional_reason: "1 routed source (lamb-meat snacks), off-platform for the row definition (crackers/granola/chips/popcorn). Discovery target needed."

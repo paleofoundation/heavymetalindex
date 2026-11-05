@@ -112,7 +112,7 @@ contamination_profile:
 literature_scope: cited
 status: stub
 audience: [regulator, researcher, consumer]
-sources: 1
+sources: 0
 last_full_resynthesis: null
 updated: 2026-10-15
 hero_image: /static/heroes/baking-powder-unmarked-jar.webp

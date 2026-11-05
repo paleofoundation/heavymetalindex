@@ -23,7 +23,7 @@ step0_basis: "regulatory-alignment (EU cereals Cd 100); literature-baseline wher
 step0_confidence: medium-low
 across_row_review_hook: "RESOLVED (Pb, Cd) — government ML binds these cap analytes, verified 2026-08-06 vs regulatory_limits.csv; occurrence/other analytes remain held pending clean-dirty review: oat/wheat (Cd, Pb) vs corn differ; review for a grain-type split"
 literature_scope: thin
-sources: 0
+sources: 1
 wiki_doi: null
 created_by: cat3_breakfast_cereal_scaffold_2026_06_02
 updated: 2026-06-02

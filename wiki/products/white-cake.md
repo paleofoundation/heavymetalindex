@@ -89,7 +89,7 @@ higher_risk_variants: []
 used_in_products: []
 audience: ["regulator","educator","consumer","app"]
 updated: "2026-09-10"
-sources: 1
+sources: 0
 last_full_resynthesis: null
 hero_image: /static/heroes/white-cake-slice.webp
 hero_image_alt: "A slice of white sponge cake with thin white frosting and pale fine crumb illustrating white cake ingredient context."

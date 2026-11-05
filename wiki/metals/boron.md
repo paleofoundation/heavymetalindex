@@ -11,7 +11,7 @@ microbiome_relevance: none established
 wikibiome_crosswalk: []
 wiki_doi: null
 updated: 2026-11-03
-sources: 25
+sources: 24
 quick_read:
   summary: "Boron is a plant micronutrient whose role in human nutrition is unsettled; diet and drinking water supply most intake, and developmental toxicity in rats underlies the European upper intake level."
   points:

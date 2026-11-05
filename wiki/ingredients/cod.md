@@ -157,7 +157,7 @@ higher_risk_variants: ["salted cod (baccala)", "stockfish", "dried cod"]
 used_in_products: []
 audience: ["regulator", "educator", "app"]
 updated: "2026-11-04"
-sources: 3
+sources: 4
 last_full_resynthesis: null
 hero_image: /static/heroes/cod-whitefish-fillets.webp
 hero_image_alt: "Thick pale whitefish fillet portions with subtle natural flaking illustrating cod ingredient context."

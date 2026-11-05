@@ -26,7 +26,7 @@ lower_risk_variants: []
 higher_risk_variants: []
 used_in_products: ["[[products/fruit-purees]]", "[[products/fruit-juice-not-canned]]"]
 audience: [regulator, educator, consumer, app]
-sources: 110
+sources: 136
 wiki_doi: null
 updated: 2026-05-16
 hero_image: /static/heroes/melons-watermelon-cantaloupe-mixed-fruit.webp

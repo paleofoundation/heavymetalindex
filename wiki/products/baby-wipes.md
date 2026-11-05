@@ -25,7 +25,7 @@ applicable_regulations: [health-canada-cosmetic-heavy-metal-impurities, eu-cosme
 audience: [regulator, educator, consumer, brand-legal]
 wiki_doi: null
 updated: 2026-10-02
-sources: 8
+sources: 93
 created_by: cat2_step0_scaffold_2026_05_16
 shareText: "One row per metal for baby wipes. Antimony is the measured one. Tin and aluminum: no wipe data found. Lead, arsenic, mercury, cadmium, and chromium are mostly zeros or untested species."
 shareHashtags: [BabyWipes, HeavyMetals, Nickel]

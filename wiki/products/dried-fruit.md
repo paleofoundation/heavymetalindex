@@ -15,7 +15,7 @@ applicable_regulations: []
 audience: [regulator, educator, consumer, brand-legal]
 wiki_doi: null
 updated: 2026-05-16
-sources: 6
+sources: 8
 created_by: cat4_step0_scaffold_2026_05_16
 hero_image: /static/heroes/berries-grapes-raisins.webp
 hero_image_alt: "Blueberries, raspberries, strawberries, grapes and raisins illustrating dried fruit product-format context."

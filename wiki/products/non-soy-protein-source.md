@@ -119,7 +119,7 @@ audience:
   - app
 wiki_doi: null
 updated: 2026-05-16T00:00:00.000Z
-sources: 6
+sources: 0
 hero_image: /static/heroes/eggs-whole-cracked-boiled.webp
 quick_read:
   summary: >-

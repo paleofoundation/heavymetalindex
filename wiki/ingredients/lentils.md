@@ -96,7 +96,7 @@ used_in_products: []
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-16
-sources: 25
+sources: 30
 hero_image: /static/heroes/nickel-legumes-nuts-cocoa.webp
 quick_read:
   summary: "Lentil metal content reflects soil conditions, geographic origin and whether the seed coat is retained."

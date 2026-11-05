@@ -14,7 +14,7 @@ panel_metals: [Pb, iAs, Hg, Cd, Cr, Ni, Sn, Al]
 audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: locked
 splits_locked: true
-sources: 105
+sources: 108
 wiki_doi: null
 updated: 2026-06-09
 variant_type: independent

@@ -26,7 +26,7 @@ audience:
   - app
 wiki_doi: null
 updated: 2026-05-09T00:00:00.000Z
-sources: 2
+sources: 4
 kind: Subcategory
 dek: "Powdered tea and its infusions are examined through matcha specific elemental measurements. The evidence distinguishes whole powder from soluble fractions and considers brewing temperature and analytical limitations."
 rail_highlights:

@@ -97,7 +97,7 @@ used_in_products: []
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-10-15
-sources: 21
+sources: 35
 hero_image: /static/heroes/canned-spaghetti-tuna.webp
 quick_read:
   summary: "Tinned fish metals reflect fish species and marine accumulation, alongside tin migration from cans during storage."

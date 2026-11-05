@@ -53,6 +53,6 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 _Auto-managed by `tools/autonomy/link-orphans.mjs`. These pages exist in this directory and are reachable from here, but have not yet been placed in a curated section above. A future structural pass relocates them into the appropriate section._
 
-- [[products/infant-and-child-foods-master|Infant And Child Foods Master]]
-- [[products/infant-food-ready-to-eat|Infant Food Ready To Eat]]
+- [[products/infant-and-child-foods-master|Infant And Child Foods Master]] (36 sources)
+- [[products/infant-food-ready-to-eat|Infant Food Ready To Eat]] (0 sources)
 <!-- END: hmi-auto-linked-stubs -->

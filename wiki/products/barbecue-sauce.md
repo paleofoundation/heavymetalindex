@@ -89,7 +89,7 @@ higher_risk_variants: []
 used_in_products: []
 audience: ["regulator","educator","consumer","app"]
 updated: "2026-09-10"
-sources: 1
+sources: 0
 last_full_resynthesis: null
 hero_image: /static/heroes/barbecue-sauce-unmarked-bottle.webp
 hero_image_alt: "An unmarked bottle and bowl of reddish-brown barbecue sauce illustrating barbecue sauce ingredient context."

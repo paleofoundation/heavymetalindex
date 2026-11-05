@@ -56,7 +56,7 @@ Min to max, mg/kg wet weight, n = 4 composites per vegetable (Table 1, pp. 11-13
 
 Microwave digestion and ICP-MS for Hg, Pb, Mn, Cr, Ni, Cu, Zn, Co, Fe, Al, Cd and As. LODs 0.03 µg/kg (Cd) to 21.5 µg/kg (Al); LOQs 0.09 to 65.2 µg/kg. CRMs NIST SRM 1547 peach leaves and LGC AF-038, recoveries 90% to 109.3%; RSD 2.1% to 13.9% (p. 7). Values below LOD were set to the LOD for risk calculations. Below-LOD counts: Hg 15, As 12, Pb 6, Cd 5 of 32 (p. 7).
 
-Limitations: four composites per vegetable from one city in one month. The CRMs are plant and feed materials, not vegetables. Of the eight vegetables only leek grows mostly above ground; the rest are roots, tubers or bulbs.
+Limitations: four composites per vegetable from one city in one month. The CRMs are plant and feed materials, not vegetables. The paper frames all eight vegetables as "underground" matrices (bulbs, tubers, or roots); leek is classified by the authors as a bulb despite its partial above-ground growth, so none of the eight fall within the above-ground non-root vegetable scope.
 
 ## Implications
 

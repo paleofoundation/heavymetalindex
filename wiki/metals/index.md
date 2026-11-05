@@ -105,53 +105,53 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 _Auto-managed by `tools/autonomy/link-orphans.mjs`. These pages exist in this directory and are reachable from here, but have not yet been placed in a curated section above. A future structural pass relocates them into the appropriate section._
 
-- [[metals/aluminum|Aluminum]]
-- [[metals/antimony|Antimony]]
-- [[metals/arsenic|Arsenic]]
-- [[metals/arsenic-inorganic|Arsenic, Inorganic]]
-- [[metals/arsenic-total|Arsenic, Total]]
-- [[metals/barium|Barium]]
-- [[metals/beryllium|Beryllium]]
-- [[metals/bismuth|Bismuth]]
-- [[metals/boron|Boron]]
-- [[metals/cadmium|Cadmium]]
-- [[metals/cesium|Cesium]]
-- [[metals/chromium|Chromium]]
-- [[metals/chromium-hexavalent|Chromium, Hexavalent]]
-- [[metals/cobalt|Cobalt]]
-- [[metals/copper|Copper]]
-- [[metals/gallium|Gallium]]
-- [[metals/germanium|Germanium]]
-- [[metals/gold|Gold]]
-- [[metals/indium|Indium]]
-- [[metals/iron|Iron]]
-- [[metals/lead|Lead]]
-- [[metals/lithium|Lithium]]
-- [[metals/magnesium|Magnesium]]
-- [[metals/manganese|Manganese]]
-- [[metals/mercury|Mercury]]
-- [[metals/mercury-methyl|Methylmercury]]
-- [[metals/mercury-total|Mercury, Total]]
-- [[metals/molybdenum|Molybdenum]]
-- [[metals/nickel|Nickel]]
-- [[metals/organotins|Organotins]]
-- [[metals/palladium|Palladium]]
-- [[metals/platinum|Platinum]]
-- [[metals/rare-earths|Rare Earths]]
-- [[metals/rubidium|Rubidium]]
-- [[metals/selenium|Selenium]]
+- [[metals/aluminum|Aluminum]] (588 sources)
+- [[metals/antimony|Antimony]] (152 sources)
+- [[metals/arsenic|Arsenic]] (1081 sources)
+- [[metals/arsenic-inorganic|Arsenic, Inorganic]] (119 sources)
+- [[metals/arsenic-total|Arsenic, Total]] (447 sources)
+- [[metals/barium|Barium]] (47 sources)
+- [[metals/beryllium|Beryllium]] (11 sources)
+- [[metals/bismuth|Bismuth]] (20 sources)
+- [[metals/boron|Boron]] (24 sources)
+- [[metals/cadmium|Cadmium]] (2137 sources)
+- [[metals/cesium|Cesium]] (5 sources)
+- [[metals/chromium|Chromium]] (1043 sources)
+- [[metals/chromium-hexavalent|Chromium, Hexavalent]] (81 sources)
+- [[metals/cobalt|Cobalt]] (153 sources)
+- [[metals/copper|Copper]] (363 sources)
+- [[metals/gallium|Gallium]] (11 sources)
+- [[metals/germanium|Germanium]] (4 sources)
+- [[metals/gold|Gold]] (3 sources)
+- [[metals/indium|Indium]] (2 sources)
+- [[metals/iron|Iron]] (193 sources)
+- [[metals/lead|Lead]] (2072 sources)
+- [[metals/lithium|Lithium]] (13 sources)
+- [[metals/magnesium|Magnesium]] (17 sources)
+- [[metals/manganese|Manganese]] (196 sources)
+- [[metals/mercury|Mercury]] (1014 sources)
+- [[metals/mercury-methyl|Methylmercury]] (64 sources)
+- [[metals/mercury-total|Mercury, Total]] (316 sources)
+- [[metals/molybdenum|Molybdenum]] (40 sources)
+- [[metals/nickel|Nickel]] (945 sources)
+- [[metals/organotins|Organotins]] (16 sources)
+- [[metals/palladium|Palladium]] (4 sources)
+- [[metals/platinum|Platinum]] (4 sources)
+- [[metals/rare-earths|Rare Earths]] (41 sources)
+- [[metals/rubidium|Rubidium]] (2 sources)
+- [[metals/selenium|Selenium]] (43 sources)
 - [[metals/selenium 2|Selenium]]
-- [[metals/silver|Silver]]
-- [[metals/strontium|Strontium]]
-- [[metals/tellurium|Tellurium]]
-- [[metals/thallium|Thallium]]
-- [[metals/tin|Tin]]
-- [[metals/tin-inorganic|Tin, Inorganic]]
-- [[metals/titanium|Titanium]]
-- [[metals/tungsten|Tungsten]]
-- [[metals/uranium|Uranium]]
-- [[metals/vanadium|Vanadium]]
-- [[metals/yttrium|Yttrium]]
-- [[metals/zinc|Zinc]]
-- [[metals/zirconium|Zirconium]]
+- [[metals/silver|Silver]] (20 sources)
+- [[metals/strontium|Strontium]] (26 sources)
+- [[metals/tellurium|Tellurium]] (2 sources)
+- [[metals/thallium|Thallium]] (17 sources)
+- [[metals/tin|Tin]] (239 sources)
+- [[metals/tin-inorganic|Tin, Inorganic]] (14 sources)
+- [[metals/titanium|Titanium]] (24 sources)
+- [[metals/tungsten|Tungsten]] (16 sources)
+- [[metals/uranium|Uranium]] (35 sources)
+- [[metals/vanadium|Vanadium]] (37 sources)
+- [[metals/yttrium|Yttrium]] (10 sources)
+- [[metals/zinc|Zinc]] (353 sources)
+- [[metals/zirconium|Zirconium]] (23 sources)
 <!-- END: hmi-auto-linked-stubs -->

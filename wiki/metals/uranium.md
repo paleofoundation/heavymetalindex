@@ -7,7 +7,7 @@ species: [natural-uranium, depleted-uranium, uranyl-ion, uranyl-carbonate-comple
 audience: [regulator, brand-qa, food-safety, researcher, educator]
 microbiome_relevance: none established
 wikibiome_crosswalk: []
-sources: 51
+sources: 35
 wiki_doi: null
 updated: 2026-11-03
 n_sources: 51

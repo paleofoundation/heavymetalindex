@@ -24,7 +24,7 @@ audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
 literature_scope: cited
-sources: 7
+sources: 8
 wiki_doi: null
 updated: 2026-10-15
 hero_image: /static/heroes/food-packaging-pouch-film-foil-carton.webp

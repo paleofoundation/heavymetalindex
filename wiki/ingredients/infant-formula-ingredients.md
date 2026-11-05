@@ -35,7 +35,7 @@ lower_risk_variants: []
 higher_risk_variants: ["[[ingredients/soy]]"]
 used_in_products: ["[[products/infant-formula-powder-non-soy]]", "[[products/infant-formula-powder-soy-based]]", "[[products/infant-formula-rtf-liquid-non-soy]]", "[[products/infant-formula-rtf-liquid-soy-based]]"]
 audience: [regulator, educator, consumer, app]
-sources: 18
+sources: 24
 wiki_doi: null
 updated: 2026-05-16
 hero_image: /static/heroes/infant-formula-powder-unmarked-container.webp

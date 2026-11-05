@@ -12,7 +12,7 @@ primary_metals_of_concern: []
 typical_ingredients: []
 applicable_regulations: []
 literature_scope: thin
-sources: 1
+sources: 0
 wiki_doi: null
 updated: 2026-05-19
 hero_image: /static/heroes/infant-food-purees-unmarked-bowls.webp

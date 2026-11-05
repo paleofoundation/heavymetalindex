@@ -42,7 +42,7 @@ audience:
   - app
 wiki_doi: null
 updated: 2026-05-03T00:00:00.000Z
-sources: 29
+sources: 30
 kind: Subcategory
 dek: "Liquid formula without a soy base is supplied ready to feed. Explore the evidence on measured metals, liquid concentration basis and comparisons with powdered formula."
 rail_highlights:

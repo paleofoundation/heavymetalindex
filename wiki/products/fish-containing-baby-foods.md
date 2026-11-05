@@ -66,7 +66,7 @@ audience:
   - app
 wiki_doi: null
 updated: 2026-05-03T00:00:00.000Z
-sources: 17
+sources: 18
 kind: Subcategory
 dek: "Infant foods containing fish are covered through measured arsenic and mercury, regulatory context and sourcing considerations. The page distinguishes total mercury from methylmercury and mixed meal evidence from fish specific measurements."
 rail_highlights:

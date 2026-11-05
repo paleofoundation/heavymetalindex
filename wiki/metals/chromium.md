@@ -7,7 +7,7 @@ species: [Cr3+, Cr6+, Cr-total, chromium(III) propionate complex, sodium dichrom
 audience: [regulator, educator, researcher]
 microbiome_relevance: medium
 wikibiome_crosswalk: ["[[microbiome/chromium-gut-axis]]"]
-sources: 1051
+sources: 1043
 wiki_doi: null
 updated: 2026-11-03
 n_sources: 1051

@@ -46,7 +46,7 @@ audience:
   - app
 wiki_doi: null
 updated: 2026-05-03T00:00:00.000Z
-sources: 27
+sources: 26
 kind: Subcategory
 dek: "Meals for infants and young children considered separately from rice-containing mixtures. Explore the evidence on lead, cadmium and arsenic, with distinctions between finished meals and broader food group summaries."
 rail_highlights:

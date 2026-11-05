@@ -54,7 +54,7 @@ audience:
   - app
 wiki_doi: null
 updated: 2026-05-03T00:00:00.000Z
-sources: 58
+sources: 60
 kind: Subcategory
 dek: "Powdered formula without a soy base is examined through published metal measurements and exposure studies. Explore the evidence on preparation basis, metal species and applicable regulatory limits."
 rail_highlights:

@@ -7,7 +7,7 @@ species: [Zn2+, total-zinc, zinc sulfate, zinc picolinate]
 audience: [regulator, educator, researcher, food-safety, brand-qa]
 microbiome_relevance: none established
 wikibiome_crosswalk: []
-sources: 34
+sources: 353
 wiki_doi: null
 updated: 2026-11-03
 n_sources: 34

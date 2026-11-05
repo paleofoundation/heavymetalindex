@@ -9,7 +9,7 @@ microbiome_relevance: low
 wikibiome_crosswalk: []
 wiki_doi: null
 updated: 2026-09-11
-sources: 774
+sources: 945
 hero_image: /static/heroes/nickel-legumes-nuts-cocoa.webp
 hero_snapshot: cited-evidence
 dek: "Dietary nickel, sensitization and the distinction between oral and occupational inhalation evidence."

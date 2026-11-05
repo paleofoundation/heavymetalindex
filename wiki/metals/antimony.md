@@ -9,7 +9,7 @@ microbiome_relevance: moderate
 description: "Reference page for antimony: oxidation states, uses, exposure routes, toxicokinetics, toxicology, the 2023 IARC classification of trivalent and pentavalent antimony, reference values, and regulatory limits, with occurrence figures reported as their sources print them."
 dek: "Trivalent antimony compounds, including antimony trioxide, are IARC Group 2A. Drinking-water limits, toy migration limits and cosmetic impurity guidance are not interchangeable."
 cite_title: "Antimony: chemistry, exposure, toxicology, reference values, and regulatory limits"
-sources: 146
+sources: 152
 updated: 2026-09-29
 license: "© All rights reserved. Institute of Contaminant Standards / Heavy Metal Index."
 wiki_doi: null

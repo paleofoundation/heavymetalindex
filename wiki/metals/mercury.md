@@ -9,7 +9,7 @@ microbiome_relevance: medium
 wikibiome_crosswalk: []
 wiki_doi: null
 updated: 2026-10-16
-sources: 875
+sources: 1014
 hero_image: /static/heroes/mercury-fish-water.webp
 hero_snapshot: cited-evidence
 dek: "Elemental, inorganic and methylmercury forms have different exposure pathways and toxicology. Explore the food and environmental evidence."

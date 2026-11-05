@@ -98,7 +98,7 @@ used_in_products: []
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-13
-sources: 1
+sources: 4
 hero_image: /static/heroes/citrus-oranges-tangerines-grapefruit-juice.webp
 quick_read:
   summary: "Fruit juice ready drinks inherit metals from juice and dilution water, with fruit origin and dilution affecting finished concentrations."

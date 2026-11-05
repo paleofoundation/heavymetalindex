@@ -89,7 +89,7 @@ used_in_products: []
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-10-14
-sources: 4
+sources: 5
 hero_image: /static/heroes/rice-grain-flour-noodles-cakes.webp
 quick_read:
   summary: "Rice cakes retain arsenic from their source grain, while the cited finished-product measurements describe rice crackers rather than every rice-cake format."

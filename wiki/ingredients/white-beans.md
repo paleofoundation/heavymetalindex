@@ -99,7 +99,7 @@ used_in_products: []
 audience: ["regulator","educator","consumer","app"]
 literature_scope: cited
 updated: "2026-10-15"
-sources: 1
+sources: 2
 last_full_resynthesis: null
 hero_image: /static/heroes/beans-dry-cooked-baked.webp
 hero_image_alt: "Dry white and red beans, plain cooked beans and baked beans in tomato sauce illustrating white beans ingredient context."

@@ -180,7 +180,7 @@ audience:
   - app
 wiki_doi: null
 updated: 2026-05-13T00:00:00.000Z
-sources: 3
+sources: 0
 hero_image: /static/heroes/oats-porridge-granola-bran-cereals.webp
 quick_read:
   summary: >-

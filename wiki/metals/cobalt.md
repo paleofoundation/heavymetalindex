@@ -6,7 +6,7 @@ name: Cobalt
 species: [Co2+, cobalt-compounds, cobalt-tungsten-carbide]
 audience: [regulator, educator, researcher]
 microbiome_relevance: unknown
-sources: 139
+sources: 153
 wiki_doi: null
 updated: 2026-09-11
 status: stub

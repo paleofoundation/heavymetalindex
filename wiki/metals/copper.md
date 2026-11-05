@@ -7,7 +7,7 @@ species: [Cu+, Cu2+, copper-compounds]
 audience: [regulator, educator, researcher]
 microbiome_relevance: none established
 wikibiome_crosswalk: []
-sources: 30
+sources: 363
 wiki_doi: null
 updated: 2026-11-03
 n_sources: 30

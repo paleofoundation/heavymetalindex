@@ -86,7 +86,7 @@ lower_risk_variants: []
 higher_risk_variants: ["[[ingredients/older-animal-organ-meat]]", "[[ingredients/horsemeat-offal]]"]
 used_in_products: ["[[products/pate]]", "[[products/sausages]]", "[[products/organ-meat-pies]]", "[[products/liver-based-baby-food]]", "[[products/nutritional-supplements]]", "[[products/pet-food]]"]
 audience: [regulator, educator, consumer, app]
-sources: 33
+sources: 48
 wiki_doi: null
 updated: 2026-05-16
 hero_image: /static/heroes/organ-meats-liver-kidney.webp

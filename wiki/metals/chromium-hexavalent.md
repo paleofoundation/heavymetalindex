@@ -6,7 +6,7 @@ name: Chromium, hexavalent
 species: [Cr6+, CrO4^2-, Cr2O7^2-]
 audience: [regulator, educator, consumer, researcher]
 microbiome_relevance: low
-sources: 74
+sources: 81
 wiki_doi: null
 updated: 2026-09-11
 status: scaffold

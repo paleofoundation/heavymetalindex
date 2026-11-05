@@ -28,7 +28,7 @@ audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: locked
 splits_locked: true
 literature_scope: cited
-sources: 16
+sources: 24
 wiki_doi: null
 updated: 2026-10-15
 hero_image: /static/heroes/diapers-plain-folded.webp

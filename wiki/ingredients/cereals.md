@@ -89,7 +89,7 @@ used_in_products: ["[[products/baby-cereals-dry-rice-based]]", "[[products/baby-
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-16
-sources: 70
+sources: 80
 hero_image: /static/heroes/oats-porridge-granola-bran-cereals.webp
 quick_read:
   summary: "Cereal metal exposure depends on the grain, with inorganic arsenic especially relevant to rice and cadmium distributed across grains."

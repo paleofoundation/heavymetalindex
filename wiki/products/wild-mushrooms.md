@@ -29,7 +29,7 @@ primary_metals_of_concern: [Cd, tHg, Pb]
 typical_ingredients: []
 applicable_regulations: []
 literature_scope: cited
-sources: 7
+sources: 14
 wiki_doi: null
 updated: 2026-10-15
 hero_image: /static/heroes/mushrooms-fresh-button-oyster.webp

@@ -278,7 +278,7 @@ audience:
   - app
 wiki_doi: null
 updated: 2026-05-13T00:00:00.000Z
-sources: 1
+sources: 0
 hero_image: /static/heroes/chicken-broth-noodle-soup.webp
 quick_read:
   summary: >-

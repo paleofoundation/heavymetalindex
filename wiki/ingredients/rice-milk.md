@@ -139,7 +139,7 @@ used_in_products:
   - plant-milks-rice-based
 audience: ["regulator", "educator", "consumer", "app"]
 literature_scope: cited
-sources: 9
+sources: 11
 wiki_doi: null
 updated: 2026-11-04
 last_full_resynthesis: 2026-11-04

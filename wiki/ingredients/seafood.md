@@ -89,7 +89,7 @@ used_in_products: [fish-containing-baby-foods]
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-16
-sources: 192
+sources: 193
 hero_image: /static/heroes/cod-whitefish-fillets.webp
 quick_read:
   summary: "Seafood metal concerns differ by subgroup, with methylmercury in finfish, cadmium in bivalves and inorganic arsenic in seaweed."

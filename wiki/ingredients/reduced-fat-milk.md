@@ -119,7 +119,7 @@ used_in_products: []
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-13
-sources: 1
+sources: 6
 hero_image: /static/heroes/dairy-butter-protein-powder-milk.webp
 quick_read:
   summary: "Reduced-fat milk measurements are mostly non-detects, and removing fat does not meaningfully remove metals retained in the aqueous and protein fractions."

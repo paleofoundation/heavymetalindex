@@ -110,7 +110,7 @@ contamination_profile:
     basis: null
     notes: null
 literature_scope: cited
-sources: 2
+sources: 0
 wiki_doi: null
 updated: 2026-10-15
 hero_image: /static/heroes/cereal-granola-bars-oats.webp

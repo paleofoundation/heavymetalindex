@@ -20,7 +20,7 @@ applicable_regulations: []
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-10-14
-sources: 36
+sources: 51
 created_by: autonomy_v0
 created_from: routing_unresolved
 created_routed_sources: 2

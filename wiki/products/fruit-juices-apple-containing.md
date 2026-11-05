@@ -28,7 +28,7 @@ audience:
   - app
 wiki_doi: null
 updated: 2026-05-09T00:00:00.000Z
-sources: 25
+sources: 26
 kind: Subcategory
 dek: "Beverages containing apple juice are examined for inorganic arsenic and lead, with measured concentrations and applicable regulatory context."
 rail_highlights:

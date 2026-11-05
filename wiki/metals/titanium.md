@@ -6,7 +6,7 @@ name: Titanium
 species: [Ti, titanium-compounds, titanium-implants]
 audience: [regulator, educator, researcher]
 microbiome_relevance: unknown
-sources: 11
+sources: 24
 wiki_doi: null
 updated: 2026-04-30
 status: stub

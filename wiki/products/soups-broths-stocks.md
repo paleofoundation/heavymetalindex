@@ -16,7 +16,7 @@ audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
 literature_scope: none
-sources: 0
+sources: 4
 wiki_doi: null
 updated: 2026-06-09
 hero_image: /static/heroes/chicken-broth-noodle-soup.webp

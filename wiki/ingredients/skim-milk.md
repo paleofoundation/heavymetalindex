@@ -123,7 +123,7 @@ used_in_products: []
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-13
-sources: 2
+sources: 8
 hero_image: /static/heroes/dairy-butter-protein-powder-milk.webp
 quick_read:
   summary: "Skim milk nondetections describe tested samples at their reporting limits, and fat removal does not eliminate metals from milk."

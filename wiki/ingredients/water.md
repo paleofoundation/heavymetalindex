@@ -97,7 +97,7 @@ used_in_products: [flavored-waters]
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-10-15
-sources: 58
+sources: 77
 hero_image: /static/heroes/antimony-water-polyester.webp
 quick_read:
   summary: "Drinking-water metals arise from source geology and plumbing, so sampling and treatment need to match the contamination pathway."

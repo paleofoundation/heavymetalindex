@@ -28,7 +28,7 @@ primary_metals_of_concern: []
 typical_ingredients: []
 applicable_regulations: []
 literature_scope: cited
-sources: 2
+sources: 10
 wiki_doi: null
 updated: 2026-10-15
 hero_image: /static/heroes/mushrooms-fresh-button-oyster.webp

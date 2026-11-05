@@ -89,7 +89,7 @@ higher_risk_variants: []
 used_in_products: []
 audience: ["regulator","educator","consumer","app"]
 updated: "2026-09-10"
-sources: 1
+sources: 0
 last_full_resynthesis: null
 hero_image: /static/heroes/apple-juice-pie-applesauce.webp
 hero_image_alt: "A glass of apple juice, a bowl of applesauce, a slice of apple pie and a whole apple illustrating apple pie ingredient context."

@@ -36,71 +36,71 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 _Auto-managed by `tools/autonomy/link-orphans.mjs`. These pages exist in this directory and are reachable from here, but have not yet been placed in a curated section above. A future structural pass relocates them into the appropriate section._
 
-- [[ingredients/apple-pie|Apple pie]]
-- [[ingredients/baby-cereals-dry|Baby Cereals Dry]]
-- [[ingredients/barbecue-sauce|Barbecue sauce]]
-- [[ingredients/beer|Beer]]
-- [[ingredients/bran-cereal-with-raisins|Bran cereal with raisins]]
-- [[ingredients/brownie|Brownie]]
-- [[ingredients/butter-crackers|Butter crackers]]
-- [[ingredients/camel-milk|Camel milk]]
-- [[ingredients/canned-fruit-cocktail|Canned fruit cocktail]]
-- [[ingredients/cereal-bars|Cereal Bars]]
-- [[ingredients/cereal-based-infant-formula|Cereal Based Infant Formula]]
-- [[ingredients/cheese-crackers|Cheese crackers]]
-- [[ingredients/cheese-pizza|Cheese pizza]]
-- [[ingredients/chicken-nuggets|Chicken nuggets]]
-- [[ingredients/chocolate-nut-candy|Chocolate nut candy]]
-- [[ingredients/chocolate-syrup|Chocolate syrup]]
-- [[ingredients/cinnamon-roll|Cinnamon roll]]
-- [[ingredients/corn-flakes|Corn flakes cereal]]
-- [[ingredients/cosmetic-clay|Cosmetic clay]]
-- [[ingredients/cranberry-juice-cocktail|Cranberry juice cocktail]]
-- [[ingredients/crisped-rice-cereal|Crisped rice cereal]]
-- [[ingredients/custard|Custard]]
-- [[ingredients/doughnut|Doughnut]]
-- [[ingredients/french-fries|French fries]]
-- [[ingredients/fruit-purees|Fruit Purees]]
-- [[ingredients/graham-crackers|Graham crackers]]
-- [[ingredients/hard-candy|Hard candy]]
-- [[ingredients/ice-cream|Ice cream]]
-- [[ingredients/infant-cereal-ingredients|Infant Cereal Ingredients]]
-- [[ingredients/infant-formula-powder|Infant Formula Powder]]
-- [[ingredients/infant-mixed-grain-cereal|Infant Mixed Grain Cereal]]
-- [[ingredients/infant-oat-cereal|Infant Oat Cereal]]
-- [[ingredients/infant-rice-cereal|Infant Rice Cereal]]
-- [[ingredients/ketchup|Ketchup]]
-- [[ingredients/mayonnaise|Mayonnaise]]
-- [[ingredients/meat-and-poultry-purees|Meat And Poultry Purees]]
-- [[ingredients/milkshake|Milkshake]]
-- [[ingredients/mixed-meals|Mixed Meals]]
-- [[ingredients/non-root-vegetable-purees|Non-root vegetable purees]]
-- [[ingredients/oat-ring-cereal|Oat ring cereal]]
-- [[ingredients/pancakes|Pancakes]]
-- [[ingredients/pea-protein|Pea protein]]
-- [[ingredients/popcorn|Popcorn]]
-- [[ingredients/potato-chips|Potato chips]]
-- [[ingredients/pretzels|Pretzels]]
-- [[ingredients/protein-powder|Protein powder]]
-- [[ingredients/pumpkin-pie|Pumpkin pie]]
-- [[ingredients/ramen-soup|Ramen soup]]
-- [[ingredients/ranch-dressing|Ranch dressing]]
-- [[ingredients/red-wine|Red wine]]
-- [[ingredients/rice-cereal|Rice Cereal]]
-- [[ingredients/rice-protein|Rice protein]]
-- [[ingredients/root-vegetable-purees|Root Vegetable Purees]]
-- [[ingredients/salami|Salami]]
-- [[ingredients/salsa|Salsa]]
-- [[ingredients/sandwich-cookies|Sandwich cookies]]
-- [[ingredients/soy-based-infant-formula|Soy-based infant formula]]
-- [[ingredients/soy-sauce|Soy sauce]]
-- [[ingredients/teething-and-snacks|Teething And Snacks]]
-- [[ingredients/toaster-pastry|Toaster pastry]]
-- [[ingredients/tortilla-chips|Tortilla chips]]
-- [[ingredients/vegetable-purees|Vegetable Purees]]
-- [[ingredients/vegetable-soup|Vegetable soup]]
-- [[ingredients/veggie-burger|Veggie burger]]
-- [[ingredients/vodka|Vodka]]
-- [[ingredients/white-cake|White cake]]
-- [[ingredients/white-wine|White wine]]
+- [[ingredients/apple-pie|Apple pie]] (1 source)
+- [[ingredients/baby-cereals-dry|Baby Cereals Dry]] (7 sources)
+- [[ingredients/barbecue-sauce|Barbecue sauce]] (1 source)
+- [[ingredients/beer|Beer]] (4 sources)
+- [[ingredients/bran-cereal-with-raisins|Bran cereal with raisins]] (1 source)
+- [[ingredients/brownie|Brownie]] (1 source)
+- [[ingredients/butter-crackers|Butter crackers]] (1 source)
+- [[ingredients/camel-milk|Camel milk]] (14 sources)
+- [[ingredients/canned-fruit-cocktail|Canned fruit cocktail]] (9 sources)
+- [[ingredients/cereal-bars|Cereal Bars]] (2 sources)
+- [[ingredients/cereal-based-infant-formula|Cereal Based Infant Formula]] (3 sources)
+- [[ingredients/cheese-crackers|Cheese crackers]] (1 source)
+- [[ingredients/cheese-pizza|Cheese pizza]] (1 source)
+- [[ingredients/chicken-nuggets|Chicken nuggets]] (2 sources)
+- [[ingredients/chocolate-nut-candy|Chocolate nut candy]] (2 sources)
+- [[ingredients/chocolate-syrup|Chocolate syrup]] (1 source)
+- [[ingredients/cinnamon-roll|Cinnamon roll]] (1 source)
+- [[ingredients/corn-flakes|Corn flakes cereal]] (4 sources)
+- [[ingredients/cosmetic-clay|Cosmetic clay]] (2 sources)
+- [[ingredients/cranberry-juice-cocktail|Cranberry juice cocktail]] (1 source)
+- [[ingredients/crisped-rice-cereal|Crisped rice cereal]] (14 sources)
+- [[ingredients/custard|Custard]] (0 sources)
+- [[ingredients/doughnut|Doughnut]] (2 sources)
+- [[ingredients/french-fries|French fries]] (2 sources)
+- [[ingredients/fruit-purees|Fruit Purees]] (3 sources)
+- [[ingredients/graham-crackers|Graham crackers]] (1 source)
+- [[ingredients/hard-candy|Hard candy]] (7 sources)
+- [[ingredients/ice-cream|Ice cream]] (3 sources)
+- [[ingredients/infant-cereal-ingredients|Infant Cereal Ingredients]] (6 sources)
+- [[ingredients/infant-formula-powder|Infant Formula Powder]] (30 sources)
+- [[ingredients/infant-mixed-grain-cereal|Infant Mixed Grain Cereal]] (3 sources)
+- [[ingredients/infant-oat-cereal|Infant Oat Cereal]] (2 sources)
+- [[ingredients/infant-rice-cereal|Infant Rice Cereal]] (12 sources)
+- [[ingredients/ketchup|Ketchup]] (7 sources)
+- [[ingredients/mayonnaise|Mayonnaise]] (2 sources)
+- [[ingredients/meat-and-poultry-purees|Meat And Poultry Purees]] (3 sources)
+- [[ingredients/milkshake|Milkshake]] (1 source)
+- [[ingredients/mixed-meals|Mixed Meals]] (5 sources)
+- [[ingredients/non-root-vegetable-purees|Non-root vegetable purees]] (1 source)
+- [[ingredients/oat-ring-cereal|Oat ring cereal]] (3 sources)
+- [[ingredients/pancakes|Pancakes]] (2 sources)
+- [[ingredients/pea-protein|Pea protein]] (1 source)
+- [[ingredients/popcorn|Popcorn]] (4 sources)
+- [[ingredients/potato-chips|Potato chips]] (12 sources)
+- [[ingredients/pretzels|Pretzels]] (1 source)
+- [[ingredients/protein-powder|Protein powder]] (9 sources)
+- [[ingredients/pumpkin-pie|Pumpkin pie]] (1 source)
+- [[ingredients/ramen-soup|Ramen soup]] (5 sources)
+- [[ingredients/ranch-dressing|Ranch dressing]] (1 source)
+- [[ingredients/red-wine|Red wine]] (4 sources)
+- [[ingredients/rice-cereal|Rice Cereal]] (12 sources)
+- [[ingredients/rice-protein|Rice protein]] (1 source)
+- [[ingredients/root-vegetable-purees|Root Vegetable Purees]] (1 source)
+- [[ingredients/salami|Salami]] (3 sources)
+- [[ingredients/salsa|Salsa]] (1 source)
+- [[ingredients/sandwich-cookies|Sandwich cookies]] (1 source)
+- [[ingredients/soy-based-infant-formula|Soy-based infant formula]] (18 sources)
+- [[ingredients/soy-sauce|Soy sauce]] (2 sources)
+- [[ingredients/teething-and-snacks|Teething And Snacks]] (1 source)
+- [[ingredients/toaster-pastry|Toaster pastry]] (1 source)
+- [[ingredients/tortilla-chips|Tortilla chips]] (2 sources)
+- [[ingredients/vegetable-purees|Vegetable Purees]] (1 source)
+- [[ingredients/vegetable-soup|Vegetable soup]] (2 sources)
+- [[ingredients/veggie-burger|Veggie burger]] (1 source)
+- [[ingredients/vodka|Vodka]] (2 sources)
+- [[ingredients/white-cake|White cake]] (1 source)
+- [[ingredients/white-wine|White wine]] (14 sources)
 <!-- END: hmi-auto-linked-stubs -->

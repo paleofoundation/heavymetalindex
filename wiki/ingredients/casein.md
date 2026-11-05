@@ -8,7 +8,7 @@ audience:
   - regulator
   - educator
   - app
-sources: 5
+sources: 6
 updated: '2026-11-04'
 evidence_coverage: partial
 literature_scope: thin

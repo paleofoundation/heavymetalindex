@@ -120,7 +120,7 @@ used_in_products: []
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-13
-sources: 7
+sources: 12
 hero_image: /static/heroes/dairy-butter-protein-powder-milk.webp
 quick_read:
   summary: "Butter carries little of the milk metal load because most metals partition into aqueous and protein fractions rather than fat."

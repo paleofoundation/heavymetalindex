@@ -24,7 +24,7 @@ audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
 literature_scope: cited
-sources: 17
+sources: 19
 wiki_doi: null
 updated: 2026-10-15
 hero_image: /static/heroes/lip-balms-cosmetic-compacts.webp

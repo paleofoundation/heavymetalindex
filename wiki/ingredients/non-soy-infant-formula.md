@@ -91,7 +91,7 @@ used_in_products: [infant-formula-powder-non-soy, infant-formula-rtf-liquid-non-
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-16
-sources: 20
+sources: 24
 hero_image: /static/heroes/infant-formula-powder-unmarked-container.webp
 quick_read:
   summary: "Non-soy formula metals come from ingredients, water and processing, and powder and prepared liquid results require different concentration bases."

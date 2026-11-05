@@ -6,7 +6,7 @@ retirement_date: 2026-10-28
 retirement_authority: "Index organization: product filed under products, not ingredients"
 title: "Non-soy protein source"
 type: ingredient
-sources: 10
+sources: 11
 ---
 
 This record now lives at [[products/non-soy-protein-source]].

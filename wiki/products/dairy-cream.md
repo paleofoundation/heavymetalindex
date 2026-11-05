@@ -25,7 +25,7 @@ audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
 literature_scope: cited
-sources: 0
+sources: 2
 wiki_doi: null
 updated: 2026-10-15
 hero_image: /static/heroes/milk-cream-unmarked-can-bottle.webp

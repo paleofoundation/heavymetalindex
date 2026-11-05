@@ -11,7 +11,7 @@ microbiome_relevance: none established
 wikibiome_crosswalk: []
 wiki_doi: null
 updated: 2026-11-03
-sources: 25
+sources: 26
 quick_read:
   summary: "Strontium behaves like calcium and collects in bone; food safety interest centers on radioactive strontium-90 after nuclear releases, while stable strontium is mostly studied as a dietary and geographic tracer."
   points:

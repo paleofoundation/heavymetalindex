@@ -32,7 +32,7 @@ audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-10-15
 literature_scope: cited
-sources: 9
+sources: 12
 hero_image: /static/heroes/energy-drink-unmarked-can-glass.webp
 hero_image_alt: "An unmarked metal beverage can and a glass of pale amber fizzy liquid illustrating sports energy drinks product-format context."
 ---

@@ -6,6 +6,7 @@ retirement_date: 2026-10-28
 retirement_authority: "Index organization: duplicate of the product page"
 title: "Fish Containing Baby Foods"
 type: ingredient
+sources: 5
 ---
 
 This record now lives at [[products/fish-containing-baby-foods]].

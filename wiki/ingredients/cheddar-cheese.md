@@ -101,7 +101,7 @@ used_in_products: []
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-13
-sources: 2
+sources: 4
 hero_image: /static/heroes/cheddar-cheese-crackers-pizza.webp
 quick_read:
   summary: "Cheddar surveys report low metal concentrations, with cheesemaking and aging affecting how retained metals are distributed."

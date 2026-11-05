@@ -19,7 +19,7 @@ panel_metals: [Pb, iAs, Hg, Cd, Cr, Ni, Sn, Al]
 audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: locked
 splits_locked: true
-sources: 36
+sources: 37
 wiki_doi: null
 updated: 2026-09-11
 primary_metals_of_concern: [Hg, MeHg, Pb]

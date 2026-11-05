@@ -94,7 +94,7 @@ used_in_products: []
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-13
-sources: 4
+sources: 7
 hero_image: /static/heroes/cod-whitefish-fillets.webp
 quick_read:
   summary: "White fish metal profiles vary with species, size, age, harvest waters, and aquaculture conditions."

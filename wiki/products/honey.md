@@ -11,7 +11,7 @@ applicable_regulations: []
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-06-09
-sources: 20
+sources: 35
 created_by: autonomy_v0
 created_from: routing_unresolved
 created_routed_sources: 3

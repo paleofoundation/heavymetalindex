@@ -99,7 +99,7 @@ used_in_products: []
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-13
-sources: 6
+sources: 7
 hero_image: /static/heroes/avocado-whole-cut.webp
 quick_read:
   summary: "Avocado flesh contains measurable nickel and cadmium, with interpretation depending on tissue, origin and measurement basis."

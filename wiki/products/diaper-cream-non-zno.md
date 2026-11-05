@@ -18,7 +18,7 @@ pair_row: 8
 audience: [regulator, educator, consumer, brand-legal]
 wiki_doi: null
 updated: 2026-05-16
-sources: 12
+sources: 14
 created_by: cat2_step0_scaffold_2026_05_16
 hero_image: /static/heroes/cosmetic-cream-jars-tube.webp
 hero_image_alt: "Two unmarked cosmetic cream jars, a squeeze tube and a dish of white cream illustrating diaper cream non zno product-format context."

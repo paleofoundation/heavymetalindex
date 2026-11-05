@@ -46,7 +46,7 @@ audience:
   - app
 wiki_doi: null
 updated: 2026-05-03T00:00:00.000Z
-sources: 34
+sources: 33
 kind: Subcategory
 dek: "Soy based powdered formula is examined through published measurements of metals. Explore the evidence on aluminum, nickel, cadmium and arsenic, with dry powder and prepared formula kept distinct."
 rail_highlights:

@@ -107,7 +107,7 @@ contamination_profile:
     basis: null
     notes: null
 literature_scope: thin-with-evidence
-sources: 4
+sources: 1
 wiki_doi: null
 updated: 2026-11-04
 hero_image: /static/heroes/melons-watermelon-cantaloupe-mixed-fruit.webp

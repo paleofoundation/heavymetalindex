@@ -93,7 +93,7 @@ higher_risk_variants: []
 used_in_products: []
 audience: ["regulator","educator","consumer","app"]
 literature_scope: cited
-sources: 1
+sources: 0
 updated: "2026-10-15"
 last_full_resynthesis: null
 hero_image: /static/heroes/shake-unmarked-bottle-glass.webp

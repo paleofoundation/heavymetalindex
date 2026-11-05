@@ -7,7 +7,7 @@ species: [Mo, molybdate, molybdenum-compounds, sodium molybdate dihydrate, molyb
 audience: [regulator, educator, researcher]
 microbiome_relevance: none established
 wikibiome_crosswalk: []
-sources: 11
+sources: 40
 wiki_doi: null
 updated: 2026-11-03
 n_sources: 11

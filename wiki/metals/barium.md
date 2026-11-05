@@ -6,7 +6,7 @@ name: Barium
 species: [Ba2+, barium-compounds]
 audience: [regulator, educator, researcher]
 microbiome_relevance: unknown
-sources: 46
+sources: 47
 wiki_doi: null
 updated: 2026-04-30
 status: stub

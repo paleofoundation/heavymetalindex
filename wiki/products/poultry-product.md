@@ -14,7 +14,7 @@ panel_metals: [Pb, iAs, Hg, Cd, Cr, Ni, Sn, Al]
 audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
-sources: 40
+sources: 44
 wiki_doi: null
 updated: 2026-05-17
 hero_image: /static/heroes/meat-poultry-beef-chicken.webp

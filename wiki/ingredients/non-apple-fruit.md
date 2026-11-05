@@ -87,7 +87,7 @@ used_in_products: [fruit-juices-non-apple]
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-13
-sources: 2
+sources: 14
 hero_image: /static/heroes/tropical-fruit-banana-mango-pineapple.webp
 quick_read:
   summary: "Non-apple fruits differ by commodity and skin characteristics, while drying and concentration can increase metal concentrations through moisture removal."

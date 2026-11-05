@@ -7,7 +7,7 @@ species: [Mn2+, Mn3+, Mn4+, total-manganese, manganese-chloride, manganese-sulph
 audience: [regulator, educator, researcher]
 microbiome_relevance: none established
 wikibiome_crosswalk: []
-sources: 25
+sources: 196
 wiki_doi: null
 updated: 2026-11-03
 n_sources: 25

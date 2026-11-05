@@ -7,7 +7,7 @@ species: [V, vanadium-compounds, ammonium metavanadate, vanadyl sulfate, vanadiu
 audience: [regulator, educator, researcher]
 microbiome_relevance: none established
 wikibiome_crosswalk: []
-sources: 4
+sources: 37
 wiki_doi: null
 updated: 2026-11-03
 n_sources: 4

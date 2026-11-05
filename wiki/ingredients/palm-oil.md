@@ -111,7 +111,7 @@ contamination_profile:
     basis: null
     notes: "Not measured in any deposit study."
 literature_scope: cited
-sources: 8
+sources: 10
 updated: 2026-11-04
 hero_image: /static/heroes/golden-oil-unmarked-bottle.webp
 hero_image_alt: "Golden edible oil in an unmarked glass bottle and a shallow dish illustrating palm oil ingredient context."

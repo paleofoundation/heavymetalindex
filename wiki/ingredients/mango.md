@@ -89,7 +89,7 @@ used_in_products: ["[[products/fruit-juice]]", "[[products/fruit-purees]]"]
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-16
-sources: 10
+sources: 17
 created_by: autonomy_v0
 created_from: routing_unresolved
 created_routed_sources: 3

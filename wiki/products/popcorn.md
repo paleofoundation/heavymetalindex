@@ -94,7 +94,7 @@ used_in_products: []
 audience: ["regulator","educator","consumer","app"]
 literature_scope: cited
 updated: "2026-10-15"
-sources: 2
+sources: 1
 last_full_resynthesis: null
 hero_image: /static/heroes/popcorn-pretzels.webp
 hero_image_alt: "Separate dishes of plain popped popcorn and small twisted pretzels illustrating popcorn ingredient context."

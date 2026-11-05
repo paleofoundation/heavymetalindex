@@ -93,7 +93,7 @@ higher_risk_variants: []
 used_in_products: []
 audience: ["regulator","educator","consumer","app"]
 updated: "2026-09-10"
-sources: 1
+sources: 0
 last_full_resynthesis: null
 hero_image: /static/heroes/cranberry-juice-fruit.webp
 hero_image_alt: "An unmarked bottle and glass of deep red juice beside whole cranberries illustrating cranberry juice cocktail ingredient context."

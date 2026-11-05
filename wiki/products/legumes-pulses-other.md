@@ -20,7 +20,7 @@ pair_rows: [9, 10]
 audience: [regulator, educator, consumer, brand-legal]
 wiki_doi: null
 updated: 2026-06-09
-sources: 24
+sources: 25
 created_by: cat4_step0_scaffold_2026_05_16
 hero_image: /static/heroes/beans-dry-cooked-baked.webp
 hero_image_alt: "Dry white and red beans, plain cooked beans and baked beans in tomato sauce illustrating legumes pulses other product-format context."

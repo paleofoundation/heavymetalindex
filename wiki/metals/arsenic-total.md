@@ -6,7 +6,7 @@ name: Arsenic, total
 species: [iAs, MMA, DMA, arsenobetaine, arsenosugars]
 audience: [regulator, educator, researcher]
 microbiome_relevance: medium
-sources: 369
+sources: 447
 wiki_doi: null
 updated: 2026-04-30
 

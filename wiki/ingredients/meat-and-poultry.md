@@ -26,7 +26,7 @@ lower_risk_variants: []
 higher_risk_variants: ["[[ingredients/organ-meats]]"]
 used_in_products: ["[[products/meat-and-poultry-purees]]", "[[products/mixed-meals-non-rice]]", "[[products/mixed-meals-rice-containing]]"]
 audience: [regulator, educator, consumer, app]
-sources: 110
+sources: 145
 wiki_doi: null
 updated: 2026-05-16
 hero_image: /static/heroes/meat-poultry-beef-chicken.webp

@@ -12,7 +12,7 @@ redirect_target_pending: false
 audience: [regulator, educator, consumer]
 wiki_doi: null
 updated: 2026-05-16
-sources: 12
+sources: 16
 ---
 
 # Skin Lightening Cream — RETIRED (out of HMTc scope)

@@ -11,7 +11,7 @@ microbiome_relevance: none established
 wikibiome_crosswalk: []
 wiki_doi: null
 updated: 2026-11-03
-sources: 25
+sources: 43
 quick_read:
   summary: "Selenium is an essential trace element whose dietary supply follows the soil, so diets can fall short in one region and exceed upper levels in another."
   points:
