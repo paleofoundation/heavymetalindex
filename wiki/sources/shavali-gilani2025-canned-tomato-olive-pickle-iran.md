@@ -18,7 +18,7 @@ access_url: "https://doi.org/10.1038/s41598-025-06896-9"
 access_date: 2026-11-04
 metals: [Pb, Cd, tHg, Sn]
 ingredients: ["[[ingredients/tomato]]", "[[ingredients/olives]]", "[[ingredients/cucumbers]]"]
-products: ["[[products/canned-vegetables]]", "[[products/tomato-paste]]", "[[products/pickled-fermented-vegetables]]", "[[products/canned-tomatoes]]"]
+products: ["[[products/canned-vegetables]]", "[[products/tomato-paste]]", "[[products/pickled-fermented-vegetables]]", "[[products/canned-tomatoes]]", "[[products/tomato-condiments]]"]
 matrices: [canned-tomato-paste, canned-olive, pickled-cucumber, canned-vegetable]
 jurisdictions: [IR]
 near_duplicates: []
