@@ -109,6 +109,7 @@ products/pet-supplements-botanical-herbal
 products/pet-supplements-vitamin-mineral
 products/pet-treats-snacks
 products/pickled-mushrooms
+products/plant-based-beverages
 products/play-yards-and-gates
 products/pre-treaters-stain-removers
 products/pretzels
@@ -141,6 +142,7 @@ products/toys-battery-electronic
 products/toys-crafts-other
 products/toys-marbles
 products/toys-yo-yo-elastic-tether
+products/traditional-eye-cosmetics
 products/utensils-plastic-silicone-tools
 products/vegetable-beef-soup
 products/vegetable-soup
