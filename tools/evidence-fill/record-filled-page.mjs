@@ -24,10 +24,14 @@ export function syncStructureBaseline(baseline, pageRel, failures) {
     if (now && !had) {
       block.paths.push(pageRel)
       block.paths.sort((a, b) => (a < b ? -1 : a > b ? 1 : 0))
-      block.pages = block.paths.length
       changed = true
     } else if (!now && had) {
       block.paths = block.paths.filter((rel) => rel !== pageRel)
+      changed = true
+    }
+    // A sibling merge can leave the count one off the path list. The count is
+    // the list length, so heal it without rewriting anyone else's paths.
+    if (block.pages !== block.paths.length) {
       block.pages = block.paths.length
       changed = true
     }
