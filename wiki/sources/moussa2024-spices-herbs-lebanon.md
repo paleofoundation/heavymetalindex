@@ -21,12 +21,12 @@ near_duplicates: []
 sample_n: 96
 sample_population: "96 composite samples (pooled from 480 individual samples; 5 brands per spice per category) of 13 dried herbs and spices collected from Lebanese markets in June and September 2020"
 wiki_doi: null
-sampling_locations: ["Lebanon — markets and supermarkets across multiple regions"]
+sampling_locations: ["Lebanon: markets and supermarkets across multiple regions"]
 sampling_year_range: "2020"
 updated: 2026-05-29
 ---
 
-# Moussa et al. 2024 — Heavy metals in spices and herbs on the Lebanese market
+# Moussa et al. 2024: Heavy metals in spices and herbs on the Lebanese market
 
 ## Overview
 
@@ -46,17 +46,17 @@ Moussa et al. measured Pb, Cd, total As, and total Hg in 96 composite samples re
 
 ## Methods (brief)
 
-Analysis at the Lebanese Agricultural Research Institute (LARI), ISO/IEC 17025 accredited. Composite sampling: five brands per (spice × category × collection period) combined into a single composite. Sample prep: approximately 0.5 g per composite digested in 1 mL H₂O₂ + 7 mL HNO₃ in Teflon containers using a microwave digester (Milestone Ethos Plus, 1000 W, two-stage to 200°C), then diluted to 25 mL with 1% HNO₃. Pb, Cd, and As determined by graphite-furnace atomic absorption spectroscopy (Thermo Fisher Scientific AAS thermal M series — Graphite Furnace GF95Z Zeeman Furnace) at 217.0 nm (Pb), 228.8 nm (Cd), and 193.7 nm (As). Hg determined by direct mercury analyzer (DMA-80, Milestone, Sorisole, Italy) at 253.7 nm; quartz furnace, 0.1 g sample, no separate digestion. LOD / LOQ (mg/kg): Hg 4×10⁻⁵ / 1.2×10⁻⁴; Cd 3.6×10⁻⁵ / 1.2×10⁻⁴; As 2.62×10⁻⁴ / 8.76×10⁻⁴; Pb 2.5×10⁻⁴ / 8.33×10⁻⁴. Recovery 90–103% across all analytes (validated by spike recovery on cinnamon at three concentration levels because certified reference material was unavailable). Statistical analysis: IBM SPSS v22.0; Kruskal-Wallis for non-normal data (Cd, Hg, As), ANOVA for normal data (Pb). Two collection periods (June and September 2020) to account for seasonal variability. Basis: as-sold dried spice/herb (dry-weight matrix). No arsenic speciation; no mercury speciation.
+Analysis at the Lebanese Agricultural Research Institute (LARI), ISO/IEC 17025 accredited. Composite sampling: five brands per (spice × category × collection period) combined into a single composite. Sample prep: approximately 0.5 g per composite digested in 1 mL H₂O₂ + 7 mL HNO₃ in Teflon containers using a microwave digester (Milestone Ethos Plus, 1000 W, two-stage to 200°C), then diluted to 25 mL with 1% HNO₃. Pb, Cd, and As determined by graphite-furnace atomic absorption spectroscopy (Thermo Fisher Scientific AAS thermal M series: Graphite Furnace GF95Z Zeeman Furnace) at 217.0 nm (Pb), 228.8 nm (Cd), and 193.7 nm (As). Hg determined by direct mercury analyzer (DMA-80, Milestone, Sorisole, Italy) at 253.7 nm; quartz furnace, 0.1 g sample, no separate digestion. LOD / LOQ (mg/kg): Hg 4×10⁻⁵ / 1.2×10⁻⁴; Cd 3.6×10⁻⁵ / 1.2×10⁻⁴; As 2.62×10⁻⁴ / 8.76×10⁻⁴; Pb 2.5×10⁻⁴ / 8.33×10⁻⁴. Recovery 90 to 103% across all analytes (validated by spike recovery on cinnamon at three concentration levels because certified reference material was unavailable). Statistical analysis: IBM SPSS v22.0; Kruskal-Wallis for non-normal data (Cd, Hg, As), ANOVA for normal data (Pb). Two collection periods (June and September 2020) to account for seasonal variability. Basis: as-sold dried spice/herb (dry-weight matrix). No arsenic speciation; no mercury speciation.
 
 ## Implications
 
-**Certification:** Spices and dried herbs are intermediate food ingredients used across many product categories; their Pb and Cd load contributes to dietary intake at the rates documented here. The 20% Pb exceedance rate against the Codex MPL of 0.3 mg/kg establishes an occurrence-data baseline for Lebanese-market spices and herbs. Bulk/unpackaged sourcing shows the worst Pb compliance profile (31%) and imported product is close behind (28%), indicating that channel-level surveillance and supplier-level controls — rather than packaging alone — are the loci where Pb load is determined.
+**Certification:** Spices and dried herbs are intermediate food ingredients used across many product categories; their Pb and Cd load contributes to dietary intake at the rates documented here. The 20% Pb exceedance rate against the Codex MPL of 0.3 mg/kg establishes an occurrence-data baseline for Lebanese-market spices and herbs. Bulk/unpackaged sourcing shows the worst Pb compliance profile (31%) and imported product is close behind (28%), indicating that channel-level surveillance and supplier-level controls: rather than packaging alone: are the loci where Pb load is determined.
 
-**Courses:** Useful as a case study in how packaging, FSMS status, and sourcing channel interact with contamination outcomes. The finding that Pb and Cd exceedance rates were identical for locally packaged categories with and without FSMS (both 12% for Pb, 4% for Cd) supports the authors' inference that FSMS programs in this setting do not routinely monitor heavy metals as part of food-safety management. Also illustrates the use of composite sampling (5 brands pooled per cell) to screen a market — including the limitation that individual high-contamination samples can be diluted by pooling.
+**Courses:** Useful as a case study in how packaging, FSMS status, and sourcing channel interact with contamination outcomes. The finding that Pb and Cd exceedance rates were identical for locally packaged categories with and without FSMS (both 12% for Pb, 4% for Cd) supports the authors' inference that FSMS programs in this setting do not routinely monitor heavy metals as part of food-safety management. Also illustrates the use of composite sampling (5 brands pooled per cell) to screen a market: including the limitation that individual high-contamination samples can be diluted by pooling.
 
 **App:** Spice/herb ingredients carry meaningful Pb load (range 0.052 to 0.486 mg/kg as-sold; multiple categories with mean exceeding the Codex MPL of 0.3 mg/kg) and lower Cd load (max mean 0.345 mg/kg, mostly compliant). Total As and total Hg are low in this category relative to Codex MPLs.
 
-**Regulations:** Benchmarked against Codex Alimentarius CXS 193–1995 (general standard for contaminants and toxins in food; Pb MPL 0.3 mg/kg, Cd MPL 0.2 mg/kg, As MPL 0.5 mg/kg, Hg MPL 0.1 mg/kg applied to spices and dried herbs) and Codex CXS 328–2017 for dried thyme. Lebanon has no national metal limits for most spices and herbs; the Lebanese Standards Institution (LIBNOR) NL 677:2017 covers thyme and thyme mixes and aligns with Codex.
+**Regulations:** Benchmarked against Codex Alimentarius CXS 193 to 1995 (general standard for contaminants and toxins in food; Pb MPL 0.3 mg/kg, Cd MPL 0.2 mg/kg, As MPL 0.5 mg/kg, Hg MPL 0.1 mg/kg applied to spices and dried herbs) and Codex CXS 328 to 2017 for dried thyme. Lebanon has no national metal limits for most spices and herbs; the Lebanese Standards Institution (LIBNOR) NL 677:2017 covers thyme and thyme mixes and aligns with Codex.
 
 ## Related evidence
 

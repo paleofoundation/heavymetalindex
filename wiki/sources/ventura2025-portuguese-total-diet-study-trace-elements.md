@@ -26,7 +26,7 @@ sampling_year_range: null
 updated: 2026-05-12
 ---
 
-# Ventura et al. 2025 — Portuguese Total Diet Study: dietary exposure to trace elements
+# Ventura et al. 2025: Portuguese Total Diet Study: dietary exposure to trace elements
 
 ## Overview
 
