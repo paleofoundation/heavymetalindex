@@ -13,16 +13,24 @@
 // the smoke tests still pass.
 
 import { describe, it } from "node:test"
+import type { TestContext } from "node:test"
 import assert from "node:assert/strict"
 
 import { createOpenAlexAdapter } from "./openalex.js"
+
+// Evidence-fill CI runs many branches at once. OpenAlex then answers 429 or 503
+// after the adapter's own retries. That is not a failure of the wiki change.
+function skipIfOpenAlexBusy(t: TestContext, error: unknown): void {
+  const message = error instanceof Error ? error.message : String(error)
+  if (/\[openalex\] API error (429|502|503|504)/.test(message)) t.skip(message)
+}
 
 // W4402700521: "Mitigating toxic metals contamination in foods: Bridging knowledge gaps"
 // PMC OA, best_oa_location.pdf_url = https://pmc.ncbi.nlm.nih.gov/articles/PMC11634057/pdf/nihms-2038402.pdf
 const TEST_WORK_ID = "W4402700521"
 
 describe("OpenAlex adapter — live API smoke", { timeout: 90_000, concurrency: 1 }, () => {
-  it("search() yields DiscoveryCandidateDraft objects for a gap with known results", async () => {
+  it("search() yields DiscoveryCandidateDraft objects for a gap with known results", async (t) => {
     const adapter = createOpenAlexAdapter()
     const gap = {
       gap_id: "smoke-test-lead-rice",
@@ -36,9 +44,14 @@ describe("OpenAlex adapter — live API smoke", { timeout: 90_000, concurrency: 
       url: string
       methodology_grade: string
     }> = []
-    for await (const draft of adapter.search(gap)) {
-      drafts.push(draft)
-      if (drafts.length >= 10) break
+    try {
+      for await (const draft of adapter.search(gap)) {
+        drafts.push(draft)
+        if (drafts.length >= 10) break
+      }
+    } catch (error) {
+      skipIfOpenAlexBusy(t, error)
+      throw error
     }
 
     assert.ok(drafts.length > 0, "search() returned no results for lead + rice")
@@ -57,7 +70,7 @@ describe("OpenAlex adapter — live API smoke", { timeout: 90_000, concurrency: 
     }
   })
 
-  it("fetch() returns bytes and manifestRow() produces a valid manifest row for W4402700521", async () => {
+  it("fetch() returns bytes and manifestRow() produces a valid manifest row for W4402700521", async (t) => {
     const adapter = createOpenAlexAdapter()
 
     // Synthetic draft for the known work so the test doesn't depend on search
@@ -75,7 +88,13 @@ describe("OpenAlex adapter — live API smoke", { timeout: 90_000, concurrency: 
       methodology_grade: "unknown" as const,
     }
 
-    const doc = await adapter.fetch(syntheticDraft)
+    let doc
+    try {
+      doc = await adapter.fetch(syntheticDraft)
+    } catch (error) {
+      skipIfOpenAlexBusy(t, error)
+      throw error
+    }
 
     assert.ok(["pdf", "html"].includes(doc.ext), `unexpected ext: ${doc.ext}`)
     assert.ok(doc.bytes.length > 0, "bytes must be non-empty")
