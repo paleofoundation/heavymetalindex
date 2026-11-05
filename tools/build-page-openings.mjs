@@ -21,9 +21,10 @@
 //   node tools/build-page-openings.mjs --apply [files...]   write blocks
 //   node tools/build-page-openings.mjs --check              CI lint
 // --check fails when an in-scope page outside the baseline lacks a valid,
-// in-sync opening, when any in-scope page outside the baseline still has a
-// "## Direct answer" section, or when a baseline entry is already compliant
-// (ratchet: remove it from data/evidence/page-openings-baseline.json).
+// in-sync opening, or when any in-scope page outside the baseline still has a
+// "## Direct answer" section. A baseline entry that is already compliant
+// passes. Lower data/evidence/page-openings-baseline.json on main to lock in
+// that improvement. A fill pull request does not need to edit that file.
 
 import fs from "node:fs"
 import { contractOwnsPage } from "./contracts/page-owner.mjs"
@@ -246,8 +247,8 @@ function generated() {
 
 // Findings that keep a page out of the openings ratchet. null means the
 // openings check does not score this page (draft, retired, compiled, or
-// generated). An empty array means the page is compliant, so a baseline
-// entry for it has to come out.
+// generated). An empty array means the page is compliant. A compliant page
+// that is still listed in the baseline is an improvement, not a failure.
 export function openingFindings(rel, raw) {
   const section = inScope(rel)
   if (!section || generated().has(rel)) return null
@@ -272,6 +273,23 @@ export function openingFindings(rel, raw) {
   return findings
 }
 
+export const OPENINGS_IMPROVEMENT_NOTE =
+  "Lower data/evidence/page-openings-baseline.json on main to lock in the improvement. A fill pull request does not need to edit that file."
+
+// inBaseline pages may keep their findings. A compliant baselined page is
+// below the ceiling. A page outside the baseline fails on its own findings.
+export function openingBaselineDecision(rel, findings, inBaseline) {
+  if (!findings) return { problems: [], improvements: [] }
+  if (inBaseline) {
+    if (!findings.length) {
+      return { problems: [], improvements: [`${rel}: opening is compliant`] }
+    }
+    return { problems: [], improvements: [] }
+  }
+  if (findings.length) return { problems: [...findings], improvements: [] }
+  return { problems: [], improvements: [] }
+}
+
 function main() {
   const args = process.argv.slice(2)
   const apply = args.includes("--apply"), checkMode = args.includes("--check")
@@ -280,6 +298,7 @@ function main() {
   const targets = (files.length ? files : walk()).filter((f) => inScope(f) && !gen.has(f))
   const baseline = new Set(fs.existsSync(BASELINE) ? JSON.parse(fs.readFileSync(BASELINE, "utf8")).pages : [])
   const problems = []
+  const improvements = []
   let written = 0, ok = 0
   for (const rel of targets) {
     const section = inScope(rel)
@@ -309,12 +328,17 @@ function main() {
     if (!checkMode) continue
     const findings = openingFindings(rel, raw)
     if (!findings) continue
-    if (baseline.has(rel)) {
-      if (!findings.length) problems.push(`${rel}: compliant but still listed in page-openings-baseline.json; remove it`)
-    } else if (findings.length) problems.push(...findings)
-    else ok++
+    const decision = openingBaselineDecision(rel, findings, baseline.has(rel))
+    problems.push(...decision.problems)
+    improvements.push(...decision.improvements)
+    if (!decision.problems.length && !findings.length) ok++
   }
   if (apply) console.log(`page openings: ${written} written`)
+  if (checkMode && improvements.length) {
+    console.log(
+      `page openings: ${improvements.length} baselined page(s) are compliant. ${OPENINGS_IMPROVEMENT_NOTE}`,
+    )
+  }
   if (checkMode) console.log(`page openings: ${ok} compliant, ${baseline.size} baselined, ${problems.length} problem(s)`)
   for (const p of problems) console.log(`PROBLEM ${p}`)
   process.exit(problems.length ? 1 : 0)

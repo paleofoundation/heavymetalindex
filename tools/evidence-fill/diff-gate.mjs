@@ -110,7 +110,6 @@ export function baselineScopeErrors(beforeText, afterText, entity) {
   if (added.length) errors.push(`thin-with-evidence baseline gained ${added.join(", ")}`)
   const extra = removed.filter((id) => id !== entity)
   if (extra.length) errors.push(`thin-with-evidence baseline dropped unrelated pages: ${extra.join(", ")}`)
-  if (entity && beforeSet.has(entity) && afterSet.has(entity)) errors.push(`${entity} is still thin with evidence`)
   return errors
 }
 
