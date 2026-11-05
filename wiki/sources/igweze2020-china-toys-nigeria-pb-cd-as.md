@@ -27,7 +27,7 @@ sampling_year_range: null
 updated: 2026-05-18
 ---
 
-# Igweze et al. 2020 — Pb, Cd, and As in Chinese-import children's toys in Nigeria, with USEPA non-carcinogenic and carcinogenic risk assessment
+# Igweze et al. 2020: Pb, Cd, and As in Chinese-import children's toys in Nigeria, with USEPA non-carcinogenic and carcinogenic risk assessment
 
 ## Overview
 
