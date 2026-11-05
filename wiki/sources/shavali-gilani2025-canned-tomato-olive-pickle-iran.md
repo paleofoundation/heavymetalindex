@@ -13,7 +13,7 @@ license: "CC BY-NC-ND 4.0"
 raw_path: "raw/Manual Fetch Kimi /02_Vegetables_and_Vegetable_Products/02_Vegetables_and_Vegetable_Products/Investigation of Heavy Metal Levels in Canned Tomato Paste, Olive.pdf"
 metals: [Pb, Cd, tHg, Sn]
 ingredients: ["[[ingredients/tomato]]", "[[ingredients/olives]]", "[[ingredients/cucumbers]]"]
-products: ["[[products/canned-vegetables]]", "[[products/tomato-paste]]", "[[products/pickled-fermented-vegetables]]", "[[products/canned-tomatoes]]"]
+products: ["[[products/canned-vegetables]]", "[[products/tomato-paste]]", "[[products/pickled-fermented-vegetables]]", "[[products/canned-tomatoes]]", "[[products/tomato-condiments]]"]
 matrices: [canned-tomato-paste, canned-olive, pickled-cucumber, canned-vegetable]
 jurisdictions: [IR]
 near_duplicates: []
