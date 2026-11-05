@@ -16,7 +16,7 @@ literature_scope: populated
 sources: 6
 updated: 2026-11-04
 evidence_scope: populated
-audience: [regulator, educator, consumer, app]
+audience: [regulator, educator, app]
 ---
 
 # Plant-based beverages
@@ -25,7 +25,7 @@ audience: [regulator, educator, consumer, app]
 
 Rice-based beverages carry the highest inorganic arsenic burden of any plant-based milk alternative studied to date, with Italian market data showing inorganic arsenic ranging from 7 to 24 µg/kg and all samples below the EU maximum level of 30 µg/kg. Soy-based beverages carry the highest cadmium and nickel of any plant-based type, and hemp milk carries the highest chromium; lead concentrations are broadly comparable across all subcategories and cow milk. No harmonized EU or US maximum levels currently apply to heavy metals in plant-based beverages other than inorganic arsenic in rice-based drinks.
 
-## Overview
+## What these beverages are
 
 Plant-based beverages include commercially produced liquid products made from soy, oat, almond, rice, coconut, hemp, cashew, spelt, and other plant sources. They are consumed as dairy-milk alternatives by adults, children, and infants. The heavy-metal contamination profile of this category is not uniform across subcategories: each base material (rice, soy, oat, almond) inherits a different metal signature from soil, irrigation water, and agronomic practice. Rice-based beverages carry the most studied and best-regulated heavy-metal concern (inorganic arsenic); soy-based beverages carry elevated cadmium, nickel, and aluminium; oat-based beverages carry elevated nickel and chromium; hemp-based beverages carry elevated chromium and total arsenic.
 
@@ -37,7 +37,7 @@ Subcategory pages with deeper evidence records:
 
 ## Contamination profile by subcategory
 
-The table below summarizes measured concentrations from the three primary sources in this unit. All values are as-consumed liquid unless otherwise noted. Speciation notation: tAs = total arsenic; iAs = inorganic arsenic; Cd = cadmium; Cr = chromium (total); Pb = lead; Ni = nickel; Al = aluminium.
+The table below summarizes measured concentrations from the three primary sources in this unit. All values are as-consumed liquid unless otherwise noted. Speciation notation: total arsenic = total arsenic; inorganic arsenic = inorganic arsenic; cadmium = cadmium; chromium = chromium (total); lead = lead; nickel = nickel; aluminium = aluminium.
 
 ### As-consumed liquid concentrations by milk type, US retail (Good et al. 2026, n = 22 products, ICP-MS)
 
@@ -58,7 +58,7 @@ Source: [[sources/good2026-plant-milk-heavy-metals]], Table 1. Brand replication
 
 ### Inorganic arsenic in rice-based beverages, Italian market (D'Amato et al. 2026, n = 25, HPLC-ICP-MS)
 
-Arsenic speciation was performed; inorganic arsenic (iAs = As(III) + As(V)) is the regulatory analyte. Sampling period: April 2022 to March 2023. All products were non-alcoholic rice-based beverages; 88 percent were certified organic.
+Arsenic speciation was performed; inorganic arsenic (inorganic arsenic = As(III) + As(V)) is the regulatory analyte. Sampling period: April 2022 to March 2023. All products were non-alcoholic rice-based beverages; 88 percent were certified organic.
 
 | Statistic | tAs (µg/kg) | iAs (µg/kg) | iAs as percent of tAs |
 | --- | --- | --- | --- |
@@ -69,7 +69,7 @@ Arsenic speciation was performed; inorganic arsenic (iAs = As(III) + As(V)) is t
 | EU maximum level | n/a | 30 | n/a |
 | Samples exceeding ML | n/a | 0 of 25 | n/a |
 
-Source: [[sources/damato2026-inorganic-arsenic-rice-based-beverages]], Table 3. LOQ for iAs was 0.7 µg/kg; no left-censoring occurred. The highest total arsenic (58 µg/kg) was in a rice-and-almond blend sample whose iAs was only 14 µg/kg (33 percent of species sum), suggesting organic arsenic from the almond fraction. No significant correlation was found between declared rice content and iAs concentration (Pearson r = 0.238).
+Source: [[sources/damato2026-inorganic-arsenic-rice-based-beverages]], Table 3. LOQ for inorganic arsenic was 0.7 µg/kg; no left-censoring occurred. The highest total arsenic (58 µg/kg) was in a rice-and-almond blend sample whose inorganic arsenic was only 14 µg/kg (33 percent of species sum), suggesting organic arsenic from the almond fraction. No significant correlation was found between declared rice content and inorganic arsenic concentration (Pearson r = 0.238).
 
 ### Cross-study concentration ranges compiled from multiple published studies (Sohlberg et al. 2026, review)
 
@@ -95,15 +95,15 @@ The EU regulatory framework for heavy metals in plant-based beverages is sparse 
 | --- | --- | --- | --- | --- |
 | [[regulations/eu2023-arsenic-rice-based-drinks\|EU 2023/915]] | iAs | Non-alcoholic rice-based drinks | 30 µg/kg | <span class="hmi-status hmi-status--binding">Binding</span> |
 
-No harmonized EU or US maximum levels for chromium, cadmium, lead, nickel, or aluminium in plant-based beverages other than infant formula are reported in the literature covered by this unit. Good et al. 2026 note that "no harmonized heavy-metal maximum limits currently apply to plant-based milk alternatives" in the US market. Sohlberg et al. 2026 confirm the same regulatory gap for the European market outside of the rice-drink iAs limit.
+No harmonized EU or US maximum levels for chromium, cadmium, lead, nickel, or aluminium in plant-based beverages other than infant formula are reported in the literature covered by this unit. Good et al. 2026 note that "no harmonized heavy-metal maximum limits currently apply to plant-based milk alternatives" in the US market. Sohlberg et al. 2026 confirm the same regulatory gap for the European market outside of the rice-drink inorganic arsenic limit.
 
 ## Ingredient drivers
 
 The contamination profile of a plant-based beverage is primarily inherited from its base plant material and the soil and water conditions of that crop.
 
-Rice inherits inorganic arsenic from flooded paddy soils; the arsenic accumulates in the grain and carries into the final beverage. Rice drinks measured in the Italian market ranged from 7 to 24 µg/kg iAs ([1]).
+Rice inherits inorganic arsenic from flooded paddy soils; the arsenic accumulates in the grain and carries into the final beverage. Rice drinks measured in the Italian market ranged from 7 to 24 µg/kg inorganic arsenic ([1]).
 
-Soy inherits cadmium and nickel from soil; soy plants are moderate cadmium accumulators and show some of the highest cadmium concentrations among common plant-based beverage bases. The Finnish review compiled soy Cd at 2 to 3.9 µg/L across multiple studies ([3]).
+Soy inherits cadmium and nickel from soil; soy plants are moderate cadmium accumulators and show some of the highest cadmium concentrations among common plant-based beverage bases. The Finnish review compiled soy cadmium at 2 to 3.9 µg/L across multiple studies ([3]).
 
 Hemp and oat show elevated chromium (hemp) and nickel (oat) relative to other PBMA types. Hemp also carried the second-highest total arsenic of the US study at 0.28 µg/L ([2]).
 
@@ -111,9 +111,9 @@ Aluminium in soy beverages shows the widest variability of any PBDA type (176 to
 
 ## Exposure and risk context
 
-For the general population, all heavy-metal concentrations measured in the Italian rice-beverage study fell below the EU maximum level of 30 µg/kg iAs, and the population-averaged dietary exposure from rice drinks was low (MOE 14 for toddlers at population level). However, among toddlers who regularly consume rice drinks, the consumer-mean iAs intake was 0.27 µg/kg body weight per day with a margin of exposure of 0.2, which D'Amato et al. 2026 describe as raising a potential health concern for this subgroup ([1]). The EFSA reference point for iAs is 0.06 µg/kg body weight per day (BMDL05 for skin cancer from epidemiological data).
+For the general population, all heavy-metal concentrations measured in the Italian rice-beverage study fell below the EU maximum level of 30 µg/kg inorganic arsenic, and the population-averaged dietary exposure from rice drinks was low (MOE 14 for toddlers at population level). However, among toddlers who regularly consume rice drinks, the consumer-mean inorganic arsenic intake was 0.27 µg/kg body weight per day with a margin of exposure of 0.2, which D'Amato et al. 2026 describe as raising a potential health concern for this subgroup ([1]). The EFSA reference point for inorganic arsenic is 0.06 µg/kg body weight per day (BMDL05 for skin cancer from epidemiological data).
 
-For nickel, the Finnish Food Authority risk assessment cited by Sohlberg et al. 2026 found that mean Ni in soy drinks (275 µg/kg in one dataset) may be of concern for nickel-sensitized individuals at daily consumption levels, though the review does not characterize population prevalence of nickel sensitization ([3]).
+For nickel, the Finnish Food Authority risk assessment cited by Sohlberg et al. 2026 found that mean nickel in soy drinks (275 µg/kg in one dataset) may be of concern for nickel-sensitized individuals at daily consumption levels, though the review does not characterize population prevalence of nickel sensitization ([3]).
 
 Good et al. 2026 do not compute formal hazard quotients or margin-of-exposure values; they frame the PBMA heavy-metal findings as qualitative concern for chronic low-level exposure in frequent consumers, particularly children and those who rely heavily on plant-based products ([2]).
 
@@ -121,7 +121,7 @@ Good et al. 2026 do not compute formal hazard quotients or margin-of-exposure va
 
 This page reports what the cited sources say about heavy-metal concentrations in plant-based beverages. HMT&C certification thresholds for products in this category are developed under the certification program at heavymetalcertified.com, not on this page.
 
-Speciation is treated as non-substitutable. Inorganic arsenic (iAs) and total arsenic (tAs) are separate analytes with different toxicological significance; total arsenic is not a proxy for inorganic arsenic. Total chromium (Cr) is not interpreted as hexavalent chromium (Cr-VI) unless the source explicitly speciates Cr-VI.
+Speciation is treated as non-substitutable. Inorganic arsenic (inorganic arsenic) and total arsenic (total arsenic) are separate analytes with different toxicological significance; total arsenic is not a proxy for inorganic arsenic. Total chromium (chromium) is not interpreted as hexavalent chromium (hexavalent chromium) unless the source explicitly speciates hexavalent chromium.
 
 Basis is preserved and labeled. Concentrations are reported as the source states them (as consumed, wet weight). Silent unit conversion is never performed.
 
@@ -158,7 +158,7 @@ This is the comparison view for standards developers, regulators, retailers, bra
 
 ## Historical recalls and enforcement
 
-No public recalls or enforcement actions specifically targeting heavy metals in plant-based beverages are documented in this unit's source corpus. The EU maximum level for iAs in non-alcoholic rice-based drinks (30 µg/kg, EU 2023/915) is the operative regulatory instrument for this product class in the EU market. This section will be populated when specific enforcement events are ingested.
+No public recalls or enforcement actions specifically targeting heavy metals in plant-based beverages are documented in this unit's source corpus. The EU maximum level for inorganic arsenic in non-alcoholic rice-based drinks (30 µg/kg, EU 2023/915) is the operative regulatory instrument for this product class in the EU market. This section will be populated when specific enforcement events are ingested.
 
 ## Related records
 
