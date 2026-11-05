@@ -62,19 +62,6 @@ jobs:
           fi
           echo "ready=${ready}" >> "$GITHUB_OUTPUT"
 
-  # One-shot starter. The Cursor app token cannot call workflow_dispatch.
-  # This pull request's GITHUB_TOKEN can. Removed once that run is queued.
-  dispatch-verify:
-    if: github.event_name == 'pull_request' && github.head_ref == 'cursor/evidence-fill-schedule-actor-4002'
-    runs-on: ubuntu-latest
-    permissions:
-      actions: write
-    steps:
-      - name: Dispatch the fill workflow on this branch
-        env:
-          GH_TOKEN: ${{ github.token }}
-        run: gh workflow run "Claude evidence fill" --repo "${{ github.repository }}" --ref "${{ github.head_ref }}"
-
   # Fails the pull request when the diff adds supplier or manufacturer data,
   # an em dash or en dash in wiki prose, or a placeholder hero image.
   content-gate:
