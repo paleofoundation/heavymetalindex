@@ -19,7 +19,7 @@ products: ["[[products/fresh-fish]]"]
 matrices: [fish-muscle, sediment, aquatic vegetation, aquatic invertebrates]
 jurisdictions: [US]
 near_duplicates: []
-sample_n: null
+sample_n: 133
 sample_population: "Wild subsistence fish (northern pike, Arctic grayling, burbot, slimy sculpin, whitefishes, inconnu, lake trout and others) from Dalton Highway waterbodies and the Koyukuk, John, Alatna and Kobuk rivers, Alaska; muscle analysed singly or as 2-3 fish composites"
 evidence_fitness:
   supports: [total-mercury-in-wild-freshwater-fish-muscle, species-and-size-dependence-of-fish-mercury, alaska-fish-consumption-categories]
