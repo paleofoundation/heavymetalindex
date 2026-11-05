@@ -1,6 +1,6 @@
 ---
 type: source
-raw_handle: manual-fetch-kimi
+raw_handle: manual-fetch-HMI-FILL-0019
 cite_key: shavali-gilani2025-canned-tomato-olive-pickle-iran
 title: "Investigation of heavy metal levels in canned tomato paste, olives, and pickled cucumbers"
 authors: [Shavali-gilani P, Abedini A, Irshad N, Maleknezhad S, Yazdanfar N, Sadighara P]
@@ -9,8 +9,13 @@ publication: "Scientific Reports"
 doi: 10.1038/s41598-025-06896-9
 source_type: peer-reviewed
 evidence_tier: A
+evidence_fitness: EF-3
+public_evidence_label: "Modeled or limited evidence"
 license: "CC BY-NC-ND 4.0"
-raw_path: "raw/Manual Fetch Kimi /02_Vegetables_and_Vegetable_Products/02_Vegetables_and_Vegetable_Products/Investigation of Heavy Metal Levels in Canned Tomato Paste, Olive.pdf"
+raw_path: "raw/manual-fetch/HMI-FILL-0019/10.1038_s41598-025-06896-9.pdf"
+raw_sha256: a81547f2fa704a3cf67eccef13a5738ca3789acf6f74d10264f32cc147969187
+access_url: "https://doi.org/10.1038/s41598-025-06896-9"
+access_date: 2026-11-04
 metals: [Pb, Cd, tHg, Sn]
 ingredients: ["[[ingredients/tomato]]", "[[ingredients/olives]]", "[[ingredients/cucumbers]]"]
 products: ["[[products/canned-vegetables]]", "[[products/tomato-paste]]", "[[products/pickled-fermented-vegetables]]", "[[products/canned-tomatoes]]"]
@@ -22,14 +27,14 @@ sample_population: "49 samples of canned tomato paste, canned olives, and pickle
 wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
-updated: 2026-05-13
+updated: 2026-11-04
 ---
 
-# Shavali-gilani et al. 2025 — Heavy metals in canned tomato paste, olives, and pickled cucumbers, Iran
+# Shavali-gilani et al. 2025: Heavy metals in canned tomato paste, olives, and pickled cucumbers, Iran
 
 ## Overview
 
-This Iranian study surveyed eight metals (Cd, Cu, As, Fe, Pb, Zn, Hg, Sn) in 49 samples of canned pickled cucumbers, tomato paste, and olives collected from Tehran markets, using AAS-flame and graphite furnace for most analytes and ICP-MS for mercury and tin. All three product types contained detectable lead at average concentrations above the Codex Alimentarius permissible limit of 0.10 mg/kg for canned products; mercury was not detected in any sample. Tin was detected in all canned goods, with tomato paste showing the highest Sn level (0.41 mg/kg), but all values remained far below the EU maximum of 200 mg/kg and Codex 150–250 mg/kg. The study highlights lead as the key canning-associated contaminant in these products.
+This Iranian study surveyed eight metals (Cd, Cu, As, Fe, Pb, Zn, Hg, Sn) in 49 samples of canned pickled cucumbers, tomato paste, and olives collected from Tehran markets, using AAS-flame and graphite furnace for most analytes and ICP-MS for mercury and tin. All three product types contained detectable lead at average concentrations above the Codex Alimentarius permissible limit of 0.10 mg/kg for canned products; mercury was not detected in any sample. Tin was detected in all canned goods, with tomato paste showing the highest Sn level (0.41 mg/kg), but all values remained far below the EU maximum of 200 mg/kg and the Codex range of 150 to 250 mg/kg. The study highlights lead as the key canning-associated contaminant in these products.
 
 ## Key numbers
 
@@ -39,12 +44,12 @@ All concentrations in mg/kg wet weight (as consumed). ND = not detected.
 |-------|--------------------------|---------------------|---------------|-------------|
 | Pb | 0.22 ± 0.08 | 0.19 ± 0.07 | 0.19 ± 0.04 | 0.10 mg/kg (canned products) |
 | Cd | ND | 0.008 ± 0.005 | 0.005 ± 0.001 | 0.05 mg/kg (fruiting vegetables) |
-| As | ND | 0.0005 ± 0.0004 | ND | — |
-| Fe | ND | 0.48 ± 0.4 | ND | — |
-| Sn | 0.11 ± 0.05 | 0.41 ± 0.21 (reported as 0.4 ± 0.2 in table) | 0.32 ± 0.17 | 200 mg/kg (EU); 150–250 mg/kg (Codex) |
-| Zn | ND | 0.0071 ± 0.007 | ND | — |
-| Hg | ND | ND | ND | — |
-| Cu | ND | 0.16 ± 0.1 | ND | — |
+| As | ND | 0.0005 ± 0.0004 | ND | n/a |
+| Fe | ND | 0.48 ± 0.4 | ND | n/a |
+| Sn | 0.11 ± 0.05 | 0.41 ± 0.21 (reported as 0.4 ± 0.2 in table) | 0.32 ± 0.17 | 200 mg/kg (EU); 150 to 250 mg/kg (Codex) |
+| Zn | ND | 0.0071 ± 0.007 | ND | n/a |
+| Hg | ND | ND | ND | n/a |
+| Cu | ND | 0.16 ± 0.1 | ND | n/a |
 
 Key findings:
 - Lead exceeded the Codex limit (0.10 mg/kg) in all three product types; no statistically significant difference in lead levels among the three products (Kruskal-Wallis, P > 0.05).
@@ -55,6 +60,10 @@ Key findings:
 
 **Method LOD/LOQ (ICP-MS):** Hg LOD 0.5 µg/kg, LOQ 1.8 µg/kg; Sn LOD 1.4 µg/kg, LOQ 4.6 µg/kg.
 **Method LOD/LOQ (GFAAS):** Cd LOD 0.09 µg/kg, LOQ 0.3 µg/kg; As LOD 0.8 µg/kg, LOQ 3.0 µg/kg; Pb LOD 0.7 µg/kg, LOQ 2.3 µg/kg.
+
+## Evidence Fitness
+
+This source provides modeled or limited evidence (EF-3). It reports mean values with standard deviations from a small market survey of 49 samples from five brands purchased in Tehran, Iran, all from tinplate cans. The dataset supports directional statements about lead and tin occurrence in Iranian canned pickled cucumbers, canned olives, and canned tomato paste, and can be used as a data point for regional occurrence context. It does not support population-level percentile estimation for international markets because the sampling frame is confined to a single city, the sample size per product type is not broken out by the authors, speciation was not performed (Hg reported as total Hg, As as total As, Sn as total Sn), and the source does not report individual sample data or distributional statistics beyond mean and standard deviation. The lead findings specifically indicate that canning-associated contamination is a material concern for this product class in the Iranian market.
 
 ## Methods (brief)
 
