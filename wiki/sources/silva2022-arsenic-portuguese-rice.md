@@ -28,7 +28,7 @@ sampling_year_range: "2020"
 updated: 2026-11-05
 ---
 
-# Silva et al. 2022: inorganic arsenic in Portuguese rice
+# Silva et al.: inorganic arsenic in Portuguese rice
 
 ## Overview
 
@@ -72,13 +72,13 @@ Speciation limited to inorganic arsenic (arsenite plus arsenate combined); organ
 
 ## Relevance to rice grain syrup
 
-Brown rice grain arsenic data support mechanistic understanding of OBRS arsenic: arsenic concentrated in the aleurone layer is retained in brown rice and carried forward into syrup production. The Portuguese brown rice mean of 47.1 µg/kg iAs is at the lower end of the range observed in other European and North American surveys. The EU ML structure (200 µg/kg for white rice; 100 µg/kg for rice-based infant food) applies to grain, not syrup; no comparable limit exists for syrups.
+Brown rice grain arsenic data support mechanistic understanding of OBRS arsenic: arsenic concentrated in the aleurone layer is retained in brown rice and carried forward into syrup production. The Portuguese brown rice mean of 47.1 µg/kg inorganic arsenic is at the lower end of the range observed in other European and North American surveys. The EU ML structure (200 µg/kg for white rice; 100 µg/kg for rice-based infant food) applies to grain, not syrup; no comparable limit exists for syrups.
 
 ## Related evidence
 
-- [[sources/jackson2012-arsenic-organic-foods-brown-rice-syrup]]
-- [[sources/efsa2021-chronic-exposure-iAs]]
-- [[sources/rumorasamarin2025-croatia-rice-trace-elements-arsenic-species]]
+- [[sources/jackson2012-arsenic-organic-foods-brown-rice-syrup|1]]
+- [[sources/efsa2021-chronic-exposure-inorganic arsenic|2]]
+- [[sources/rumorasamarin2025-croatia-rice-trace-elements-arsenic-species|3]]
 - [[products/rice-grain-syrup]]
 - [[products/rice-bulk-grain]]
 - [[ingredients/rice]]

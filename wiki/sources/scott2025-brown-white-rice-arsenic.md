@@ -26,25 +26,25 @@ sampling_year_range: null
 updated: 2026-05-13
 ---
 
-# Scott & Wu 2025 — Arsenic in brown vs. white rice in the United States
+# Scott & Wu 2025, Arsenic in brown vs. white rice in the United States
 
 ## Overview
 
-This critical review compares arsenic exposure from brown and white rice consumption for U.S. populations, synthesizing existing literature on iAs and tAs concentrations and conducting dietary exposure calculations. Rice bran and brown rice consistently contain higher arsenic concentrations than white rice endosperm, because arsenic concentrates in the outer bran and germ layers that are retained in brown rice but removed by milling to produce white rice. The review finds that Americans who regularly consume brown rice have higher estimated dietary arsenic exposures than white-rice consumers. Because young children consume substantially more food per unit body weight than adults, brown rice consumption in young children produces disproportionately greater arsenic exposure increments. The authors conclude that, while no acute public health risk is indicated for the general U.S. population, risk-benefit analyses comparing arsenic exposure against nutritional benefits are warranted, and that public health nutrition messaging promoting brown rice over white rice does not adequately account for the arsenic differential, particularly for infants and young children.
+This critical review compares arsenic exposure from brown and white rice consumption for U.S. populations, synthesizing existing literature on inorganic arsenic and total arsenic concentrations and conducting dietary exposure calculations. Rice bran and brown rice consistently contain higher arsenic concentrations than white rice endosperm, because arsenic concentrates in the outer bran and germ layers that are retained in brown rice but removed by milling to produce white rice. The review finds that Americans who regularly consume brown rice have higher estimated dietary arsenic exposures than white-rice consumers. Because young children consume substantially more food per unit body weight than adults, brown rice consumption in young children produces disproportionately greater arsenic exposure increments. The authors conclude that, while no acute public health risk is indicated for the general U.S. population, risk-benefit analyses comparing arsenic exposure against nutritional benefits are warranted, and that public health nutrition messaging promoting brown rice over white rice does not adequately account for the arsenic differential, particularly for infants and young children.
 
 ## Key numbers
 
-Brown rice and rice bran contain higher iAs and tAs than white rice endosperm (exact values cited from the underlying FDA TDS and published literature). The bran-to-endosperm gradient reflects preferential arsenic localization in the outer grain layers. Dietary exposure estimates use NHANES consumption survey data for multiple U.S. age groups. Published in *Risk Analysis* 2025;45:2183–2196. NIFA-funded (grants 2023-67017-40049, MICL02527).
+Brown rice and rice bran contain higher inorganic arsenic and total arsenic than white rice endosperm (exact values cited from the underlying FDA TDS and published literature). The bran-to-endosperm gradient reflects preferential arsenic localization in the outer grain layers. Dietary exposure estimates use NHANES consumption survey data for multiple U.S. age groups. Published in *Risk Analysis* 2025;45:2183 to 2196. NIFA-funded (grants 2023-67017-40049, MICL02527).
 
 ## Methods (brief)
 
-Narrative review and dietary exposure estimation. Literature synthesis of arsenic concentration data in brown vs. white rice. Dietary exposure calculated by combining food consumption data (NHANES) with arsenic concentration estimates from published sources. No primary ICP-MS measurements. Speciation focuses on iAs (inorganic arsenic), the regulatory and health-relevant fraction, though tAs concentrations are also reported from cited sources.
+Narrative review and dietary exposure estimation. Literature synthesis of arsenic concentration data in brown vs. white rice. Dietary exposure calculated by combining food consumption data (NHANES) with arsenic concentration estimates from published sources. No primary ICP-MS measurements. Speciation focuses on inorganic arsenic (inorganic arsenic), the regulatory and health-relevant fraction, though total arsenic concentrations are also reported from cited sources.
 
 ## Implications
 
-Certification: This review directly addresses the iAs gradient between rice bran and polished endosperm, relevant to HMT&C standards for any rice-containing product (infant cereal, rice protein, rice flour). The finding that brown rice carries higher iAs per serving than white rice is load-bearing for risk characterization in infant-grade and clean-platform standards.
+Certification: This review directly addresses the inorganic arsenic gradient between rice bran and polished endosperm, relevant to HMT&C standards for any rice-containing product (infant cereal, rice protein, rice flour). The finding that brown rice carries higher inorganic arsenic per serving than white rice is load-bearing for risk characterization in infant-grade and clean-platform standards.
 Courses: Essential for the rice arsenic module; provides clear mechanistic explanation of why milling reduces arsenic content and how to communicate this to brands and formulators.
-App: The brown-rice-vs-white-rice distinction must be reflected in the app's contamination profile for rice-derived ingredients; brown rice and rice bran should carry higher iAs estimates than white rice flour or white rice endosperm.
+App: The brown-rice-vs-white-rice distinction must be reflected in the app's contamination profile for rice-derived ingredients; brown rice and rice bran should carry higher inorganic arsenic estimates than white rice flour or white rice endosperm.
 
 ## Related evidence
 - [[metals/arsenic]]

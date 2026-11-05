@@ -44,13 +44,13 @@ sampling_year_range: null
 updated: 2026-11-05
 ---
 
-# Kessler 2012: news summary of rice as an arsenic source in children's diets
+# Kessler: news summary of rice as an arsenic source in children's diets
 
 ## Findings and scope
 
-This two-column item in the Environmental Health Perspectives "Science Selections" news section summarizes two research papers published simultaneously in October 2012: Davis et al. (EHP 120(10):1418-1424), which measured urinary arsenic in NHANES children by rice consumption status, and Jackson et al. (EHP 120(5):623-626), which measured arsenic in organic brown rice syrup and rice-containing products. The item reports no primary data.
+This two-column item in the Environmental Health Perspectives "Science Selections" news section summarizes two research papers published simultaneously in October: Davis et al. (EHP 120(10):1418-1424), which measured urinary arsenic in NHANES children by rice consumption status, and Jackson et al. (EHP 120(5):623-626), which measured arsenic in organic brown rice syrup and rice-containing products. The item reports no primary data.
 
-The key relayed findings include: rice eaters in the NHANES sample had a median urinary total arsenic of 8.9 µg/L compared with 5.5 µg/L in non-rice eaters; each additional 0.25 cup of rice was associated with a 14 percent increase in urinary arsenic; toddler formulas sweetened with organic brown rice syrup had arsenic concentrations more than 20 times higher than those without it; and rice absorbs up to 10 times more arsenic than other crops such as wheat, citing Williams et al. 2007.
+The key relayed findings include: rice eaters in the NHANES sample had a median urinary total arsenic of 8.9 µg/L compared with 5.5 µg/L in non-rice eaters; each additional 0.25 cup of rice was associated with a 14 percent increase in urinary arsenic; toddler formulas sweetened with organic brown rice syrup had arsenic concentrations more than 20 times higher than those without it; and rice absorbs up to 10 times more arsenic than other crops such as wheat, citing Williams et al..
 
 ## Key numbers
 
@@ -75,8 +75,8 @@ Figures are journalistic paraphrases and may differ slightly from the primary pa
 
 ## Related evidence
 
-- [[sources/davis2012-rice-urinary-arsenic-children]]
-- [[sources/jackson2012-arsenic-organic-foods-brown-rice-syrup]]
+- [[sources/davis2012-rice-urinary-arsenic-children|1]]
+- [[sources/jackson2012-arsenic-organic-foods-brown-rice-syrup|2]]
 - [[products/rice-grain-syrup]]
 - [[ingredients/rice]]
 - [[metals/arsenic-inorganic]]

@@ -26,7 +26,7 @@ updated: 2026-10-24
 ingest: HMI-THIN-INGEST-1 batch-13
 ---
 
-# Rumora Samarin et al. 2025: Arsenic species and trace elements in rice sold in Croatia
+# Rumora Samarin et al.: Arsenic species and trace elements in rice sold in Croatia
 
 ## Overview
 

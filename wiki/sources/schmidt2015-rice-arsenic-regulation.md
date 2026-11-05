@@ -45,7 +45,7 @@ sampling_year_range: null
 updated: 2026-11-05
 ---
 
-# Schmidt 2015: policy review of arsenic in rice regulation
+# Schmidt: policy review of arsenic in rice regulation
 
 ## Overview
 
@@ -65,7 +65,7 @@ No specific limit for rice grain syrups existed in any jurisdiction as of public
 
 ## OBRS context relayed
 
-The item states that OBRS arsenic ranges are similar to those in brown rice grain, citing Signes-Pastor et al. 2009 (four rice syrups at 80, 100, 120, and 330 ng/g dry weight, 71 percent iAs in the highest) and Jackson et al. 2012 (78-406 ng/g wet weight, 51-91 percent iAs). The mechanistic explanation given is that arsenic concentrates in the aleurone layer retained in brown rice and carried into the syrup; white rice products have lower arsenic because milling removes that layer.
+The item states that OBRS arsenic ranges are similar to those in brown rice grain, citing Signes-Pastor et al. (four rice syrups at 80, 100, 120, and 330 ng/g dry weight, 71 percent inorganic arsenic in the highest) and Jackson et al. (78-406 ng/g wet weight, 51-91 percent inorganic arsenic). The mechanistic explanation given is that arsenic concentrates in the aleurone layer retained in brown rice and carried into the syrup; white rice products have lower arsenic because milling removes that layer.
 
 ## Methods and evidence fitness
 
@@ -73,11 +73,11 @@ The item describes no primary measurements and no analytical methods. Evidence F
 
 ## Assessment limits
 
-Regulatory values relayed are those proposed or adopted as of early 2015. The EU 2015/1006 ML for infant rice foods (100 µg/kg iAs) was finalized after publication and is not presented as final here. Occurrence figures are journalistic paraphrases of primary studies.
+Regulatory values relayed are those proposed or adopted as of early 2015. The EU 2015/1006 ML for infant rice foods (100 µg/kg inorganic arsenic) was finalized after publication and is not presented as final here. Occurrence figures are journalistic paraphrases of primary studies.
 
 ## Related evidence
 
-- [[sources/jackson2012-arsenic-organic-foods-brown-rice-syrup]]
+- [[sources/jackson2012-arsenic-organic-foods-brown-rice-syrup|1]]
 - [[products/rice-grain-syrup]]
 - [[products/rice-bulk-grain]]
 - [[ingredients/rice]]

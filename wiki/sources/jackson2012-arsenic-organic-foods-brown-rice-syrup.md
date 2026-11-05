@@ -25,7 +25,7 @@ sampling_year_range: null
 updated: 2026-04-28
 ---
 
-# Jackson 2012 — Arsenic, Organic Foods, And Brown Rice Syrup
+# Jackson, Arsenic, Organic Foods, And Brown Rice Syrup
 
 ## Summary
 

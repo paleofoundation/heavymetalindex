@@ -28,7 +28,7 @@ sampling_year_range: "2003-2008"
 updated: 2026-11-05
 ---
 
-# Davis et al. 2012: rice consumption and urinary arsenic in U.S. children
+# Davis et al.: rice consumption and urinary arsenic in U.S. children
 
 ## Overview
 
@@ -55,11 +55,11 @@ Urinary arsenic is a biomarker of combined exposure from all dietary sources; th
 
 ## Relevance to rice grain syrup
 
-The paper directly names rice syrup as a vehicle for rice-derived arsenic entering the diet through processed foods. Because the 24-hour recall does not explicitly capture rice syrup as an ingredient, the urinary arsenic association with reported rice intake is a floor estimate of exposure from rice-derived ingredients overall, including rice syrups. The paper also cites Jackson et al. 2012 for the toddler formula finding, which measured rice syrup directly.
+The paper directly names rice syrup as a vehicle for rice-derived arsenic entering the diet through processed foods. Because the 24-hour recall does not explicitly capture rice syrup as an ingredient, the urinary arsenic association with reported rice intake is a floor estimate of exposure from rice-derived ingredients overall, including rice syrups. The paper also cites Jackson et al. for the toddler formula finding, which measured rice syrup directly.
 
 ## Related evidence
 
-- [[sources/jackson2012-arsenic-organic-foods-brown-rice-syrup]]
+- [[sources/jackson2012-arsenic-organic-foods-brown-rice-syrup|1]]
 - [[products/rice-grain-syrup]]
 - [[products/rice-bulk-grain]]
 - [[ingredients/rice]]
