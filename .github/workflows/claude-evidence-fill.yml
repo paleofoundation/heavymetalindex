@@ -73,7 +73,7 @@ jobs:
       - name: Dispatch the fill workflow on this branch
         env:
           GH_TOKEN: ${{ github.token }}
-        run: gh workflow run "Claude evidence fill" --ref "${{ github.head_ref }}"
+        run: gh workflow run "Claude evidence fill" --repo "${{ github.repository }}" --ref "${{ github.head_ref }}"
 
   # Fails the pull request when the diff adds supplier or manufacturer data,
   # an em dash or en dash in wiki prose, or a placeholder hero image.
