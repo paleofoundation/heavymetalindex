@@ -333,13 +333,26 @@ test("routing values count when the index has no values", () => {
   assert.ok(report.failures.includes("products/salt"))
 })
 
-test("cli fails when the baseline does not match", () => {
+test("cli fails when a new thin page is above the baseline", () => {
   const root = fixture()
   fs.writeFileSync(path.join(root, "data/fanout/thin-with-evidence-baseline.txt"), "products/other\n")
   const result = spawnSync(process.execPath, [script, `--root=${root}`], { encoding: "utf8" })
   assert.equal(result.status, 1)
   assert.match(result.stderr, /products\/tea/)
-  assert.match(result.stderr, /products\/other/)
+  assert.match(result.stdout, /products\/other/)
+  assert.doesNotMatch(result.stderr, /products\/other/)
+})
+
+test("cli passes when the baseline still lists a filled page", () => {
+  const root = fixture()
+  fs.writeFileSync(
+    path.join(root, "data/fanout/thin-with-evidence-baseline.txt"),
+    "products/tea\nproducts/filled\n",
+  )
+  const result = spawnSync(process.execPath, [script, `--root=${root}`], { encoding: "utf8" })
+  assert.equal(result.status, 0, result.stderr)
+  assert.match(result.stdout, /products\/filled/)
+  assert.match(result.stdout, /PASS/)
 })
 
 test("cli strict fails every thin-with-evidence page", () => {
@@ -464,9 +477,13 @@ test("the source catalogue cannot masquerade as a microbiome study", () => {
   fs.rmSync(root, { recursive: true, force: true })
 })
 
-test("live ratchet matches the baseline and this chunk is clear", () => {
+test("live thin pages stay inside the baseline and this chunk is clear", () => {
   const report = auditThinWithEvidence(repoRoot)
-  assert.deepEqual(report.failures, report.baseline)
+  const allowed = new Set(report.baseline)
+  assert.deepEqual(
+    report.failures.filter((id) => !allowed.has(id)),
+    [],
+  )
   for (const entity of FILLED) {
     assert.equal(report.failures.includes(entity), false, entity)
   }
