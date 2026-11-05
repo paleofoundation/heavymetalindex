@@ -27,8 +27,8 @@ vulnerable_population: children-2-12yr-and-adults
 applicable_regulations: [washington-tfca-toothpaste-pb-1000ppb]
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
-updated: 2026-10-15
-sources: 24
+updated: 2026-11-05
+sources: 25
 created_by: autonomy_v0
 created_from: cat2_seed
 parent_category: children-personal-care
@@ -40,7 +40,7 @@ hero_image_alt: "A U-shaped metal oral-care tool, toothbrush, separate brush hea
 
 ## Direct answer
 
-For the question of whether toothpaste contains lead, this page does not name retail brands: Orisakwe et al. 2016 measured lead at 4.514 to 23.575 mg/kg across 35 toothpastes purchased in Port Harcourt, Nigeria ([[sources/orisakwe2016-nigeria-toothpastes-metals]], no DOI), and Omosigho et al. 2025 measured lead at 4.917 to 6.113 mg/kg across five toothpastes purchased in Warri, Nigeria ([[sources/omosigho2025-nigeria-toothpaste-metals]], DOI 10.46602/jcsn.v50i1.1036). Massarsky et al. 2025 did not remeasure the products; in the 50-toothpaste dataset they assessed, only one product had a measured lead concentration above 1000 ppb, the cosmetics lead cap the paper cites, and that product's lead average daily dose for children aged 2 to 4 years was 2.10 µg/day under typical use and 5.11 µg/day under reasonable-upper-bound use ([[sources/massarsky2025-heavy-metals-toothpaste-health-risk]], DOI 10.18332/pht/207273; the same 1000 ppb cap is printed in [[sources/waecology2024-interim-policy-lead-cosmetics]], no DOI, and on [[regulations/washington-tfca-toothpaste-pb-1000ppb]]). Chengappa et al. 2025 reported a lead maximum of 0.0544 mg/L in the digested solution from 1.0 g of toothpaste made up to 100 mL, across 20 toothpastes purchased in India, which is a digested-solution concentration ([[sources/chengappa2025-toothpaste-india-aas]], DOI 10.1038/s41598-025-12748-3).
+For the question of whether toothpaste contains lead, this page does not name retail brands: Orisakwe et al. 2016 measured lead at 4.514 to 23.575 mg/kg across 35 toothpastes purchased in Port Harcourt, Nigeria ([[sources/orisakwe2016-nigeria-toothpastes-metals]], no DOI), and Omosigho et al. 2025 measured lead at 4.917 to 6.113 mg/kg across five toothpastes purchased in Warri, Nigeria ([[sources/omosigho2025-nigeria-toothpaste-metals]], DOI 10.46602/jcsn.v50i1.1036). Massarsky et al. 2025 did not remeasure the products; in the 50-toothpaste dataset they assessed, only one product had a measured lead concentration above 1000 ppb, the cosmetics lead cap the paper cites, and that product's lead average daily dose for children aged 2 to 4 years was 2.10 µg/day under typical use and 5.11 µg/day under reasonable-upper-bound use ([[sources/massarsky2025-heavy-metals-toothpaste-health-risk]], DOI 10.18332/pht/207273; the same 1000 ppb cap is printed in [[sources/waecology2024-interim-policy-lead-cosmetics]], no DOI, and on [[regulations/washington-tfca-toothpaste-pb-1000ppb]]). Chengappa et al. 2025 reported a lead maximum of 0.0544 mg/L in the digested solution from 1.0 g of toothpaste made up to 100 mL, across 20 toothpastes purchased in India, which is a digested-solution concentration ([[sources/chengappa2025-toothpaste-india-aas]], DOI 10.1038/s41598-025-12748-3). Ayyildiz and Altug Yildirim 2026 measured ten metals by ICP-MS in 15 toothpastes (8 children's, 7 adult; conventional and herbal formulations) purchased in Turkiye: total arsenic and total mercury were below detection limits in all samples; cadmium was detected in 5 of 15 samples at 0.00096 to 0.00578 ppm; lead was detected in 9 of 15 samples at 0.00583 to 0.12421 ppm; hazard quotients for both lead and cadmium were below 1.0 for children and adults under typical use and upper-bound conditions ([[sources/ayyildiz2026-toothpaste-turkey-icpms]], DOI 10.1186/s12903-026-09080-1).
 
 ## Overview
 
@@ -67,30 +67,31 @@ Methodology rules for speciation, basis preservation, non-detect handling, and s
 
 | Analyte | Subcategory | Reported concentration range | Detection rate | Applicable regulatory cap | Sources | Confidence | Basis |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| [[metals/lead\|Pb]] | Toothpaste (Cat 2) (no contributing evidence loaded) | No concentration data loaded for this analyte | Sample-level detection rate not reported | No applicable cap loaded | 0 | data gap | Basis not reported |
-| [[metals/cadmium\|Cd]] | Toothpaste (Cat 2) (no contributing evidence loaded) | No concentration data loaded for this analyte | Sample-level detection rate not reported | No applicable cap loaded | 0 | data gap | Basis not reported |
-| [[metals/mercury-total\|tHg]] | Toothpaste (Cat 2) (no contributing evidence loaded) | No concentration data loaded for this analyte | Sample-level detection rate not reported | No applicable cap loaded | 0 | data gap | Basis not reported |
-| [[metals/arsenic-total\|tAs]] | Toothpaste (Cat 2) (no contributing evidence loaded) | No concentration data loaded for this analyte | Sample-level detection rate not reported | No applicable cap loaded | 0 | data gap | Basis not reported |
+| [[metals/lead\|Pb]] | Toothpaste (Cat 2) | 0.00583 to 0.12421 ppm (Turkish market, ICP-MS, 15 products) | 9 of 15 (60%) in Turkiye survey; Pb detected in all 11 cited studies per systematic review | EU 0.5 ppm; Turkey 1 ppm; FDA 20 ppm | [[sources/ayyildiz2026-toothpaste-turkey-icpms\|1]], [[sources/chengappa2025-toothpaste-systematic-review\|2]] | low (single primary ICP-MS study, n=15, Turkish market only) | as-measured by ICP-MS (basis ambiguity noted in source page) |
+| [[metals/cadmium\|Cd]] | Toothpaste (Cat 2) | 0.00096 to 0.00578 ppm (Turkish market, ICP-MS, 15 products) | 5 of 15 (33%) in Turkiye survey | Turkey 0.1 ppm; WHO 0.3 ppm | [[sources/ayyildiz2026-toothpaste-turkey-icpms\|1]] | low (single primary ICP-MS study, n=15, Turkish market only) | as-measured by ICP-MS |
+| [[metals/mercury-total\|tHg]] | Toothpaste (Cat 2) | Below detection limit in all 15 samples (Turkiye, ICP-MS) | 0 of 15 (Turkish market) | Turkey 0.2 ppm; FDA 1 ppm | [[sources/ayyildiz2026-toothpaste-turkey-icpms\|1]] | low (single study, one market) | as-measured by ICP-MS |
+| [[metals/arsenic-total\|tAs]] | Toothpaste (Cat 2) | Below detection limit in all 15 samples (Turkiye, ICP-MS); 0.0006 to 0.5371 mg/L solution (India, AAS, 20 products) | 0 of 15 in Turkish survey; 19 of 20 in Indian survey (AAS) | EU 0.1 ppm; Turkey 0.1 ppm; India BIS 2 ppm | [[sources/ayyildiz2026-toothpaste-turkey-icpms\|1]], [[sources/chengappa2025-toothpaste-india-aas\|3]] | low (two studies, different markets and methods) | as-measured (ICP-MS Turkiye; AAS digested-solution India) |
 <!-- END: hmi-hmtc-evidence-summary -->
 
 | Analyte | Coverage | Notes from cited sources | Highest reported daily exposure (children 2-4 yr, upper-bound use) | Confidence | Key sources |
 |---|---|---|---:|---|---|
-| Pb | n=1 source, 50 toothpastes | Most products had detectable Pb; ADDs exceeded HGV in 10 toothpastes for children, 1 for adults (upper-bound use). Highest product: 5.11 µg/day in children. | 5.11 µg/day | low (single source, single dataset) | [[sources/massarsky2025-heavy-metals-toothpaste-health-risk\|1]] |
-| Cd | n=1 source, 50 toothpastes | Cd ADDs all below HGV at typical and upper-bound use; HQs < 1.0 for all products. | 9.05e-2 µg/day | low | [[sources/massarsky2025-heavy-metals-toothpaste-health-risk\|1]] |
-| tHg | n=1 source, 50 toothpastes | Hg ADDs all below HGV; HQs < 1.0 for all products. | 1.93e-2 µg/day | low | [[sources/massarsky2025-heavy-metals-toothpaste-health-risk\|1]] |
-| iAs | data gap | Total As only, no speciation in Massarsky 2025. | — | — | — |
-| tAs | n=1 source, 50 toothpastes | As LADDs exceed HGV in 3 toothpastes; but several orders of magnitude lower than dietary As intake. | 9.07e-3 µg/kg-bw/day | low | [[sources/massarsky2025-heavy-metals-toothpaste-health-risk\|1]] |
-| MeHg | not applicable | No methylmercury formation pathway in toothpaste matrix. | — | — | — |
-| Ni | data gap | Not reported in Massarsky 2025. | — | — | — |
-| Al | data gap | Not reported (some toothpastes contain Al-based abrasives that may release Al). | — | — | — |
-| Cr | data gap | Not reported. | — | — | — |
-| Sn | data gap | Not reported (some fluoride toothpastes use stannous fluoride; Sn release is intentional, not contamination). | — | — | — |
+| Pb | n=2 primary sources: 50 toothpastes (US dataset, risk model) + 15 toothpastes (Turkish ICP-MS) | Most products had detectable Pb in the US dataset; ADDs exceeded HGV in 10 toothpastes for children, 1 for adults (upper-bound). Highest child ADD: 5.11 micrograms/day. Turkish survey: 9 of 15 products detected, range 0.00583 to 0.12421 ppm; all HQ below 1.0. | 5.11 micrograms/day (US dataset, upper-bound) | low (two studies, different markets and methods) | [[sources/massarsky2025-heavy-metals-toothpaste-health-risk\|1]], [[sources/ayyildiz2026-toothpaste-turkey-icpms\|2]] |
+| Cd | n=2 primary sources: 50 toothpastes (US dataset) + 15 toothpastes (Turkish ICP-MS) | US dataset: Cd ADDs all below HGV; HQs below 1.0. Turkish survey: 5 of 15 detected, range 0.00096 to 0.00578 ppm; all HQ below 1.0. | 9.05e-2 micrograms/day (US dataset, upper-bound) | low | [[sources/massarsky2025-heavy-metals-toothpaste-health-risk\|1]], [[sources/ayyildiz2026-toothpaste-turkey-icpms\|2]] |
+| tHg | n=2 primary sources: 50 toothpastes (US dataset) + 15 toothpastes (Turkish ICP-MS) | US dataset: Hg ADDs all below HGV; HQs below 1.0. Turkish survey: below detection limit in all 15 samples. | 1.93e-2 micrograms/day (US dataset, upper-bound) | low | [[sources/massarsky2025-heavy-metals-toothpaste-health-risk\|1]], [[sources/ayyildiz2026-toothpaste-turkey-icpms\|2]] |
+| iAs | data gap | Total arsenic only in all cited primary studies; no inorganic arsenic speciation available for toothpaste products. | not measured | data gap | -- |
+| tAs | n=2 primary sources: 50 toothpastes (US dataset) + 15 toothpastes (Turkish ICP-MS) | US dataset: As LADDs exceed HGV in 3 toothpastes. Turkish survey: below detection limit in all 15 samples. Indian AAS study: 19 of 20 detected, with 1 sample exceeding EU 0.1 ppm limit at 0.54 mg/L solution. | 9.07e-3 micrograms/kg-bw/day (US dataset, upper-bound) | low | [[sources/massarsky2025-heavy-metals-toothpaste-health-risk\|1]], [[sources/ayyildiz2026-toothpaste-turkey-icpms\|2]], [[sources/chengappa2025-toothpaste-india-aas\|3]] |
+| MeHg | not applicable | No methylmercury formation pathway in toothpaste matrix. | not applicable | not applicable | -- |
+| Ni | n=1 source (Turkish ICP-MS) | Detected in 12 of 15 Turkish toothpastes at 0.010 to 0.154 ppm; no regulatory cap specific to nickel in toothpaste cited in the Turkish study. | not modelled | low (single study) | [[sources/ayyildiz2026-toothpaste-turkey-icpms\|2]] |
+| Al | n=1 source (Turkish ICP-MS) | Detected in all 15 Turkish toothpastes (range 1.250 to 48.19 ppm); high inter-product variability. No specific regulatory cap for aluminum in toothpaste cited. Note: some desensitising formulations contain aluminum lactate as an intentional active ingredient; aluminum measurements are not distinguishable between aluminum as contaminant and aluminum as active ingredient without formulation-level metadata. | not modelled | low (single study) | [[sources/ayyildiz2026-toothpaste-turkey-icpms\|2]] |
+| Cr | n=1 source (Turkish ICP-MS) | Detected in all 15 Turkish toothpastes at 0.017 to 0.352 ppm; toothpastes manufactured in Turkiye had significantly higher chromium than imported products (p = 0.028), suggesting a raw-material or manufacturing source. EU limit for chromium in cosmetics is 1.0 ppm; all samples below this. | not modelled | low (single study) | [[sources/ayyildiz2026-toothpaste-turkey-icpms\|2]] |
+| Sn | data gap | Not reported in any primary study on this page (some fluoride toothpastes use stannous fluoride; tin release is intentional, not contamination in those formulations). | not measured | data gap | -- |
 
 ## Source Evidence Inventory
 
 | Source | n products | Year | Methods | Notes |
 |---|---:|---:|---|---|
 | [[sources/massarsky2025-heavy-metals-toothpaste-health-risk\|Massarsky 2025]] | 50 toothpastes + 3 tooth powders | 2025 | Screening-level health risk assessment on Lead Safe Mama testing dataset | Per-product ADDs (Pb/Cd/Hg) and LADDs (As) calculated for children 2-4yr and adults 20-35yr; HQs compared to HGVs |
+| [[sources/ayyildiz2026-toothpaste-turkey-icpms\|Ayyildiz and Altug Yildirim 2026]] | 15 toothpastes (8 children's, 7 adult) | 2026 | ICP-MS, 10 metals (Al, Cr, Fe, Ni, Cu, Zn, tAs, Cd, tHg, Pb); microwave-assisted HNO3 digestion; triplicate measurements | Turkish market; tAs and tHg below LOD in all samples; Pb and Cd detected at low concentrations; screening-level HRA with ADD and HQ for Pb and Cd |
 
 ## Broad Product Context: Author-Scope Index
 
@@ -160,6 +161,7 @@ Cat 2 (children's personal care) regulatory enforcement is fragmented: cosmetics
 | 22 | [[sources/ecetoc1992-tr045-ni-co-cr-consumer-products\|European Chemical Industry Ecology 1992]]. *Nickel, Cobalt and Chromium in Consumer Products: Allergic Contact Dermatitis*, ECETOC Technical Report No. 45, Brussels, March 1992 (ISSN 0773-8072-45) | 1992 | Industry | EU/US/IL Ni, Co, Cr, Cr-VI occurrence in Literature-review compilation of nickel, cobalt and chromium concentrations measured in consumer products by 28 published studies (1956-1990) and... |
 | 23 | [[sources/wa-tfca-hb1047-2023\|Legislature 2023]]. *Washington State Toxic-Free Cosmetics Act (HB 1047) — statutory cap on heavy metals in cosmetic products*, Washington State Session Laws, Chapter 455, Laws of 2023 (2023 c 455), codified as Chapter 70A.560 RCW | 2023 | Regulation | Contribution to this topic remains under review; see the source record for its reported scope. |
 | 24 | [[sources/eu-2009-1223-cosmetic-products-regulation\|Parliament et al. 2009]]. *Regulation (EC) No 1223/2009 of the European Parliament and of the Council of 30 November 2009 on cosmetic products (recast)*, Official Journal of the European Union, L 342, 22.12.2009, p. 59-209 | 2009 | Regulation | Contribution to this topic remains under review; see the source record for its reported scope. |
+| 25 | [[sources/ayyildiz2026-toothpaste-turkey-icpms\|Ayyildiz and Altug Yildirim 2026]]. *Evaluation of toxic and essential metal content in selected children's, adult, and herbal toothpastes available in Turkiye: a cross-sectional analytical study*, BMC Oral Health 26:1912 | 2026 | Peer-reviewed | TR Al, Cr, Fe, Ni, Cu, Zn, tAs, Cd, tHg, Pb occurrence in 15 toothpastes (8 children's, 7 adult; conventional and herbal formulations; mixed domestic and imported) purchased in Turkiye; ICP-MS multi-element analysis; screening-level health risk assessment for Pb and Cd (n=15) |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -169,9 +171,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| (this commit) | 2026-11-05 | major | Added Ayyildiz and Altug Yildirim 2026 Turkish ICP-MS study; filled evidence tables for Pb, Cd, tHg, tAs, Al, Cr, Ni; added source 25 |
 | [ad172bca7](https://github.com/paleofoundation/heavymetalindex/commit/ad172bca7) | 2026-08-09 | correction | Narrative text revised |
 | [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added; narrative text revised |
 | [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
 | [91c7d5591](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591) | 2026-08-02 | minor | Narrative text revised |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 <!-- END: hmi-page-history -->
