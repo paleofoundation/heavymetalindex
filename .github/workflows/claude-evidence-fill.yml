@@ -16,12 +16,21 @@
 # The Claude GitHub App should be installed on this repository so the push that
 # opens the pull request is not made with the default GITHUB_TOKEN (that token
 # does not start the CI workflows auto-merge waits for).
+#
+# A schedule run's github.actor is the account that last changed the cron line
+# below (PR 508 was merged by the Cursor app, so the actor is cursor[bot]).
+# cursor[bot] has no write permission, and Anthropic's OIDC app-token exchange
+# rejects it with 401. Bot actors therefore pass this job's GITHUB_TOKEN into
+# the action and then dispatch CI. A human actor still uses the app token.
+# The cron is minute 17, not minute 0: GitHub delays and then drops a scheduled
+# run that is still waiting when the next tick is due, and the top of the hour
+# is when that delay is worst.
 
 name: Claude evidence fill
 
 on:
   schedule:
-    - cron: "0 */2 * * *"
+    - cron: "17 */2 * * *"
   workflow_dispatch:
   pull_request:
 
@@ -82,6 +91,7 @@ jobs:
     permissions:
       contents: write
       pull-requests: write
+      actions: write
       id-token: write
     steps:
       - uses: actions/checkout@v4
@@ -221,7 +231,8 @@ jobs:
         with:
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           show_full_output: "true"
-          allowed_bots: "github-actions[bot],claude[bot]"
+          github_token: "${{ endsWith(github.actor, '[bot]') && github.token || '' }}"
+          allowed_bots: "github-actions[bot],claude[bot],cursor[bot]"
           base_branch: main
           branch_prefix: evidence-fill/
           prompt: ${{ steps.prompt.outputs.prompt }}
@@ -393,6 +404,22 @@ jobs:
           fi
           git_push push "https://github.com/${GITHUB_REPOSITORY}.git" "HEAD:refs/heads/${target}"
           export GH_TOKEN="$token"
+          # A push with the workflow GITHUB_TOKEN does not start pull_request
+          # workflows. Dispatch CI onto this branch so the checks still run.
+          if [[ "${GITHUB_ACTOR}" == *"[bot]"* ]]; then
+            echo "Actor ${GITHUB_ACTOR} has no Claude app token. Dispatching CI on ${target}."
+            dispatched=false
+            for _ in 1 2 3 4 5 6; do
+              if gh workflow run ci.yml --ref "$target"; then
+                dispatched=true
+                break
+              fi
+              sleep 5
+            done
+            if [ "$dispatched" != true ]; then
+              echo "::warning::CI was not dispatched on ${target}. A pull_request run will not start from this token."
+            fi
+          fi
           cat > "${RUNNER_TEMP}/pr-body.md" <<EOF
           Automated evidence fill for ${UNIT} (\`${FAMILY}/${SLUG}\`).
 

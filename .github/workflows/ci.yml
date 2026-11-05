@@ -2,6 +2,7 @@ name: CI
 
 on:
   pull_request:
+  workflow_dispatch:
   push:
     branches: [main]
 
@@ -26,15 +27,15 @@ jobs:
       - run: npm run lint:thin-with-evidence
       - run: npm run check
       - name: Hero images (no placeholder or fallback on added/changed ingredient, product, metal pages)
-        if: github.event_name == 'pull_request'
+        if: github.event_name == 'pull_request' || github.event_name == 'workflow_dispatch'
         run: |
-          git fetch --no-tags origin ${{ github.base_ref }}
-          node tools/lint/hero-image-placeholders.mjs --changed origin/${{ github.base_ref }}
+          git fetch --no-tags origin "${{ github.event_name == 'pull_request' && github.base_ref || 'main' }}"
+          node tools/lint/hero-image-placeholders.mjs --changed "origin/${{ github.event_name == 'pull_request' && github.base_ref || 'main' }}"
       - name: Evidence fill diff gate (supplier data, em or en dashes, placeholder images)
-        if: github.event_name == 'pull_request'
+        if: github.event_name == 'pull_request' || github.event_name == 'workflow_dispatch'
         run: |
-          git fetch --no-tags origin ${{ github.base_ref }}
-          node tools/evidence-fill/diff-gate.mjs --base origin/${{ github.base_ref }}
+          git fetch --no-tags origin "${{ github.event_name == 'pull_request' && github.base_ref || 'main' }}"
+          node tools/evidence-fill/diff-gate.mjs --base "origin/${{ github.event_name == 'pull_request' && github.base_ref || 'main' }}"
 
   # Read-only audits are skipped when VERCEL=1 so the site build stays inside
   # the 45-minute builder cap. This job is the place they still run. The HTML
