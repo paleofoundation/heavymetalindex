@@ -6,7 +6,7 @@
   "stubs_exempt_from_sections": 540,
   "checks": {
     "answer_block": {
-      "pages": 62,
+      "pages": 61,
       "paths": [
         "wiki/ingredients/canned-tuna.md",
         "wiki/ingredients/chocolate.md",
@@ -57,7 +57,6 @@
         "wiki/products/research-chem-raw-powders.md",
         "wiki/products/research-chemicals-peptides-sarms.md",
         "wiki/products/rice-bulk-grain.md",
-        "wiki/products/rice-grain-syrup.md",
         "wiki/products/root-vegetable-purees.md",
         "wiki/products/seafood.md",
         "wiki/products/spices.md",
@@ -641,7 +640,6 @@
         "wiki/products/research-chem-raw-powders.md",
         "wiki/products/research-chemicals-peptides-sarms.md",
         "wiki/products/rice-bulk-grain.md",
-        "wiki/products/rice-grain-syrup.md",
         "wiki/products/rice-noodles.md",
         "wiki/products/rice-puffs.md",
         "wiki/products/root-tuber-vegetables.md",
@@ -691,13 +689,14 @@
         "wiki/products/true-tea-camellia-sinensis.md",
         "wiki/products/utensils-metal.md",
         "wiki/products/vegetable-juices-non-root.md",
+        "wiki/products/vegetable-juices.md",
         "wiki/products/water-filters.md",
         "wiki/products/white-wine.md",
         "wiki/products/wild-mushrooms.md"
       ]
     },
     "generic_headings": {
-      "pages": 787,
+      "pages": 786,
       "paths": [
         "wiki/ingredients/almond-beverage.md",
         "wiki/ingredients/almond.md",
@@ -1373,7 +1372,6 @@
         "wiki/products/research-chemicals-peptides-sarms.md",
         "wiki/products/rice-beverages-rice-milk.md",
         "wiki/products/rice-bulk-grain.md",
-        "wiki/products/rice-grain-syrup.md",
         "wiki/products/rice-noodles.md",
         "wiki/products/rice-puffs.md",
         "wiki/products/rice-snacks-crackers.md",
@@ -1489,7 +1487,7 @@
       ]
     },
     "metal_symbols": {
-      "pages": 596,
+      "pages": 595,
       "paths": [
         "wiki/ingredients/almond.md",
         "wiki/ingredients/apple-cider-vinegar.md",
@@ -1988,7 +1986,6 @@
         "wiki/products/regulatory-crosswalk-field-findings.md",
         "wiki/products/rice-beverages-rice-milk.md",
         "wiki/products/rice-bulk-grain.md",
-        "wiki/products/rice-grain-syrup.md",
         "wiki/products/rice-noodles.md",
         "wiki/products/rice-puffs.md",
         "wiki/products/rice-snacks-crackers.md",
@@ -2604,7 +2601,7 @@
       ]
     },
     "section_presence_and_order": {
-      "pages": 209,
+      "pages": 210,
       "paths": [
         "wiki/ingredients/almond.md",
         "wiki/ingredients/baby-cereals-dry.md",
@@ -2800,6 +2797,7 @@
         "wiki/products/plant-milks-rice-based.md",
         "wiki/products/plant-milks-soy-based.md",
         "wiki/products/refined-sugar.md",
+        "wiki/products/rice-grain-syrup.md",
         "wiki/products/root-vegetable-purees.md",
         "wiki/products/snack-bars-energy-bars.md",
         "wiki/products/snacks-general.md",
@@ -2818,7 +2816,7 @@
       ]
     },
     "uncertainty_note": {
-      "pages": 913,
+      "pages": 911,
       "paths": [
         "wiki/ingredients/algae.md",
         "wiki/ingredients/almond-beverage.md",
@@ -3719,7 +3717,6 @@
         "wiki/products/vegetable-beef-soup.md",
         "wiki/products/vegetable-juices-non-root.md",
         "wiki/products/vegetable-juices-root-vegetable-containing.md",
-        "wiki/products/vegetable-juices.md",
         "wiki/products/vegetable-soup.md",
         "wiki/products/veggie-burger.md",
         "wiki/products/vinegar.md",
