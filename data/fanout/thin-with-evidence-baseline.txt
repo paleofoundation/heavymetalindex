@@ -29,6 +29,7 @@ products/blankets-and-sleep-sacks
 products/broccoli-cheese-soup
 products/brownie
 products/butter-crackers
+products/canned-meats
 products/canned-mushrooms
 products/car-seats
 products/carpet-cleaners
