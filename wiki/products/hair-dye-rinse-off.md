@@ -14,10 +14,10 @@ panel_metals: [Pb, iAs, Hg, Cd, Cr, Ni, Sn, Al]
 audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
-literature_scope: thin
-sources: 5
+literature_scope: cited
+sources: 6
 wiki_doi: null
-updated: 2026-05-17
+updated: 2026-11-05
 hero_image: /static/heroes/washing-soap-bars-pump-bottles.webp
 hero_image_alt: "Plain soap bars beside an unmarked pump bottle and closed squeeze bottle illustrating hair dye rinse off product-format context."
 ---
@@ -123,7 +123,7 @@ Works cited in this page's text, in first-appearance order. See [Sources](#sourc
 | 3 | [[sources/yashim2020-hair-dyes-metals-nigeria\|Yashim et al. 2020]]. *Evaluation of Heavy Metals Level in Hair Dyes and their Potential Health Risk*, Nigerian Research Journal of Chemical Sciences 8(2):241-251 | 2020 | Peer-reviewed | NG Pb, Cr, Cd, Ni, Cu occurrence in Twenty-five samples of each of four hair-dye product forms purchased from different locations in Samaru market, Zaria, Nigeria;... (n=100) |
 | 4 | [[sources/us-epa-2011-efh-chapter17-consumer-products\|U.S. Environmental Protection Agency, 2011]]. *Exposure Factors Handbook: 2011 Edition — Chapter 17, Consumer Products*, U.S. Environmental Protection Agency, EPA/600/R-09/052F | 2011 | Government report | Chapter 17 of the U.S. EPA's 2011 Exposure Factors Handbook (EFH) compiles consumer-product use and exposure data — frequency of... |
 | 5 | [[sources/tjandraatmadja2010-csiro-household-products-nutrients-elements\|Tjandraatmadja et al. 2010]]. *Sources of contaminants in domestic wastewater: nutrients and additional elements from household products*, CSIRO Water for a Healthy Country National Research Flagship Report (Smart Water Fund Round 3 — Project 5), February 2010 (ISSN 1835-095X) | 2010 | Industry | AU Sb, Cr, Co, Mo, Se occurrence in One hundred and fifty-six household and personal-care products purchased from major supermarkets in Melbourne, Australia between February and... (n=156) |
-| 6 | [[sources/elturki2026-benghazi-blonde-hair-dyes-metals\|El-Turki et al. 2026]]. *Assessment of Heavy Metals and pH Levels in Commercial Blonde Hair Dyes Marketed in Benghazi, Libya: Human Dermal Exposure and Health Risk Assessment*, AlQalam Journal of Medical and Applied Sciences 9(10): 3416-3431 | 2026 | Peer-reviewed | Contribution to this topic remains under review; see the source record for its reported scope. |
+| 6 | [[sources/elturki2026-benghazi-blonde-hair-dyes-metals\|El-Turki et al. 2026]]. *Assessment of Heavy Metals and pH Levels in Commercial Blonde Hair Dyes Marketed in Benghazi, Libya: Human Dermal Exposure and Health Risk Assessment*, AlQalam Journal of Medical and Applied Sciences 9(10): 3416-3431 | 2026 | Peer-reviewed | LY Pb, Cd, Cr, Ni, Fe, Mn, Zn occurrence in Ten commercial blonde hair dye products purchased from pharmacies in Benghazi, Libya, measured by flame atomic absorption spectrophotometry; dermal exposure modelling for adults (n=10) |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
