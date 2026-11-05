@@ -24,8 +24,6 @@ wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
 updated: 2026-11-05
-hero_image: null
-hero_image_alt: null
 ---
 
 # Wang et al. 2024 -- Cocoa bean shells in wheat bread, Taiwan: lead and cadmium characterization

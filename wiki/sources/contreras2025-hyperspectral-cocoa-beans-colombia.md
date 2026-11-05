@@ -24,8 +24,6 @@ wiki_doi: null
 sampling_locations: []
 sampling_year_range: [2024, 2024]
 updated: 2026-11-05
-hero_image: null
-hero_image_alt: null
 ---
 
 # Contreras et al. 2025 -- Hyperspectral dataset of Colombian cocoa beans with cadmium annotation

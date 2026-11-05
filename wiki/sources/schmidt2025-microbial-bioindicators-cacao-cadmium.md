@@ -24,8 +24,6 @@ wiki_doi: null
 sampling_locations: []
 sampling_year_range: [2021, 2021]
 updated: 2026-11-05
-hero_image: null
-hero_image_alt: null
 ---
 
 # Schmidt et al. 2025 -- Microbial bioindicators of cadmium uptake in cacao genotypes, Trinidad

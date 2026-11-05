@@ -24,8 +24,6 @@ wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
 updated: 2026-11-05
-hero_image: null
-hero_image_alt: null
 ---
 
 # Ramos Armaulia et al. 2026 -- Cadmium-tolerant Trichoderma from Inga and Quararibea in Peruvian Amazon cocoa agroforestry

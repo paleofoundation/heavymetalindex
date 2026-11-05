@@ -24,8 +24,6 @@ wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
 updated: 2026-11-05
-hero_image: null
-hero_image_alt: null
 ---
 
 # Akyil Ozturk et al. 2026 -- Pectin-protein interactions in milk-based cocoa beverages

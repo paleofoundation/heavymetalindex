@@ -24,8 +24,6 @@ wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
 updated: 2026-11-05
-hero_image: null
-hero_image_alt: null
 ---
 
 # Silva et al. 2026 -- Mineral profile of commercial cocoa powder, 12 countries

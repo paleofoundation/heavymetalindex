@@ -24,8 +24,6 @@ wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
 updated: 2026-11-05
-hero_image: null
-hero_image_alt: null
 ---
 
 # Adarme-Duran et al. 2025 -- Ureolytic bacteria for cadmium removal from cacao rhizosphere soils, Santander Colombia

@@ -24,8 +24,6 @@ wiki_doi: null
 sampling_locations: []
 sampling_year_range: [2023, 2024]
 updated: 2026-11-05
-hero_image: null
-hero_image_alt: null
 ---
 
 # Del Aguila-Torres et al. 2026 -- Arbuscular mycorrhizal fungal community shifts driven by heavy metals in Peruvian cocoa agroecosystems

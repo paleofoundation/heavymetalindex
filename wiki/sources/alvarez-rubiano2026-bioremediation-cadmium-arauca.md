@@ -24,8 +24,6 @@ wiki_doi: null
 sampling_locations: []
 sampling_year_range: [2023, 2023]
 updated: 2026-11-05
-hero_image: null
-hero_image_alt: null
 ---
 
 # Alvarez-Rubiano et al. 2026 -- Cadmium-tolerant bacteria for bioremediation in Arauca cacao farms, Colombia
