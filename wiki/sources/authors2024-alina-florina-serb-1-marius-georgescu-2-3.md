@@ -2,119 +2,99 @@
 type: source
 raw_handle: RPMEHG_10-3390-molecules29061336
 cite_key: authors2024-alina-florina-serb-1-marius-georgescu-2-3
-title: "Alina Florina Serb 1 , Marius Georgescu 2,3, * , Robert Onulov 4 , Cristina Ramona Novaconi 4 , Eugen Sisu 1 ,"
-authors: ["Unknown authors"]
+title: "Mass-Spectrometry-Based Research of Cosmetic Ingredients"
+authors: [Serb AF, Georgescu M, Onulov R, Novaconi CR, Sisu E, Bolocan A, Sandu RE]
 year: 2024
-publication: "Peer-reviewed article"
+publication: "Molecules 29: 1336"
 doi: 10.3390/molecules29061336
 source_type: peer-reviewed
 evidence_tier: B
-license: "PDF-local extraction; verify publisher license before reuse"
+license: "CC BY 4.0"
 access_url: "https://doi.org/10.3390/molecules29061336"
-raw_path: "/Volumes/HMI-Library/research-pulls/ingredient-sweep/Baby sunscreen chemical UV filters/Baby sunscreen chemical UV filters chromium speciation/mass-spectrometry-based-research-of-cosmetic-ingredients.pdf"
-raw_sha256: "a393a85e22ec6428f6b130cf78754cc0807f4aa00bef83159f1fa651eadc94e9"
-metals: [MeHg, tHg, Cd, Pb, tAs, Ni, Al, Cr]
+raw_path: "deposits/HMI-FILL-0052/10.3390_molecules29061336.pdf"
+raw_sha256: a393a85e22ec6428f6b130cf78754cc0807f4aa00bef83159f1fa651eadc94e9
+metals: [tHg, Pb, Cd, tAs, Ni, Cr, Al, Co, Sb, Cu, Mn, Ba, Be, Tl]
 ingredients: []
-products: ["[[products/fish-marine-non-predatory]]", "[[products/shellfish]]", "[[products/baby-sunscreen-mineral]]", "[[products/seaweed-kelp-foods]]"]
-matrices: [fish-marine-non-predatory, shellfish, baby-sunscreen-mineral, seaweed-kelp-foods]
-jurisdictions: [US]
+products: ["[[products/manicuring-preparations-leave-on]]", "[[products/face-neck-leave-on-skin-care]]", "[[products/makeup-foundation-powders-blush]]"]
+matrices: [cosmetic-personal-care]
+jurisdictions: [EU, DE, US]
 sample_n: null
-sample_population: "Not mechanically resolved from the PDF; see Key numbers for source-reported sample descriptors."
-updated: 2026-08-03
+sample_population: "No primary measurement study; systematic literature review of MS-based analytical methods for cosmetic ingredients, covering publications 1992-2024 from PubMed and Web of Science. Table 5 and Table 6 compile reported heavy metal contaminants and regulatory limits for cosmetic products from cited literature."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
+updated: 2026-11-05
 hero_image: /static/heroes/research-glassware-notebook-sampling-spoon.webp
 hero_image_alt: "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating Serb and colleagues 2024 source research context."
 ---
 
-# authors et al. 2024 - Alina Florina Serb 1 , Marius Georgescu 2,3, * , Robert Onulov 4 , Cristina Ramo
+# Serb et al. 2024 -- Mass spectrometry methods for cosmetic ingredient analysis; regulatory limits and health effects of heavy metals in cosmetics (Table 5 and Table 6)
+
+This review from Victor Babes University of Medicine and Pharmacy (Timisoara, Romania) covers mass spectrometry (MS)-based analytical methods for characterizing cosmetic ingredients, including bioconjugates, preservatives, dyes, allergens, fragrances, and heavy metals, across leave-on and rinse-off product matrices. For heavy metals, the review synthesizes peer-reviewed literature (references 218-228, citing Grosser et al. 2228 and others) and compiles EU/Germany and US regulatory limits in Table 6. It is a secondary review source; it does not report any primary measured concentrations.
 
 ## Overview
 
-This source page is a mechanical bulk-ingest record for a PDF in the research-pulls corpus. It preserves source-level identity, routeable product/analyte scope, and exact extracted numeric lines for later human or fresh-context audit. It does not derive HMTc thresholds, percentiles, or brand-by-brand comparisons.
+This source page corrects an earlier bulk-ingest routing that erroneously assigned this paper to fish, shellfish, baby sunscreen, and seaweed product categories. Those routings were incorrect: the paper is a cosmetics-only MS methods review. The correct product scope is cosmetic personal care leave-on products (nail polish, face/skin care, foundation/powders/blush) for which heavy metals appear as contaminants or impurities.
 
 ## Key numbers
 
-The worker extracted the full PDF text with layout preservation twice and compared extraction hashes before commit. The following lines are copied from numeric/table-bearing regions of the PDF and retain the source units and wording where legible:
+Regulatory limits for heavy metals in cosmetic products (Table 6, Serb et al. 2024, citing EU/Germany and USA sources):
 
-- formula rich in a very complex lipid matrix (up to 90%), such as Ricinus communis oil
-- range m/z 500–600, for “in use” lipsticks showed several types of TAGs, while “new” ones
-- et al. (64), studied a set of maltodextrins with a degree of polymerization in the range of 2
-- to 13 and concluded that MALDI-TOF MS is the most suitable technique for detecting high-
-- the mass range between 600 and 4500 Da, and size exclusion chromatography (SEC
-- in the mass range of m/z 100–1000 was applied to determine MP, EP, PP, and BP, butylated
-- concentrations in real commercial cosmetics from not detected to 977 mg/kg.
-- ative ionization. Hair samples (n = 10) were cut into pieces of 1–2 mm and placed in
-- value within 15% of the theoretical ratio (0.734) was confirmed as a true-positive result.
-- peak area ratios were created. The concentrations ranged from 50.0 to 10,000 ng/mL, 100.0
-- Base, Dimethyl Yellow, Sudan I, Sudan Orange G, Solvent Blue 35, Sudan II, Sudan Black,
-- Blue 26, Basic Red 2, Disperse Brown 1, Disperse Orange 3, Disperse Yellow 3, HC Blue No.
-- prepared with 100% methanol to a volume of 50 mL and subjected to ultrasonic extraction
-- mobile phase consisted of 5 mM/10 mM ammonium acetate in water containing 0.1%
-- 53:1, Acid Yellow 36, Rhodamine B, Basic Violet 3, Disperse Yellow 3, Pigment Orange
-- solution (50% antonitrile: methanol) and the samples were coated using a commercial
-- sample was directly influenced by the color of the nail polish (Table 2). The CCR sample,
-- Table 2. Nail polish samples and the color for each. The third column refers to the aspect of
-- Table 3. Legally prohibited coloring agents detected in 26 cosmetic samples (93).
-- Table 3. Legally
-- considered to be more likely to cause allergic reactions in sensitive individuals (Table 4).
-- Table 4. Chemical characterization of 24 individual fragrance ingredients associated with allergic
-- other risky components in cosmetic analysis (Table A1). In addition to EI, other ioniza-
-- as the ion source by means of an fs laser, which emitted at 200 and 267 nm for the de-
-- termination of 26 allergenic compounds in perfumes. This ion source proved suitable
-- and the obtained limit of detection (LOD) values were all below 100 pg/µL. In fragrance
-- mass ranges) (190) selected ion monitoring (SIM)—in order to distinguish target fragrance,
-- and signal/noise ratio (107,189), and selected ion storage (SIS), with a reduced LOD, due
-- by GC, because of their decreased volatility and/or their thermostability (Table A1, (193,194)).
-- cosmetics, and personal care products in a very short time of 7 min (203) (Table A1). It is
-- (d) Solvent use is 95% lower than in existing HPLC methods.
-- in cosmetic products (Table 5) due to impurities in raw materials or the manufacturing
-- cosmetics have been established in Germany and USA (Table 6, (211,212)), but also in other
-- Table 5. Heavy metals contaminants in cosmetic products.
-- (Table 6). Despite abundant research on metal detection in cosmetic products (218–228),
-- Table 6. The permissible limits of heavy metals in cosmetic products and their adverse health effects.
-- 1 Mercury (Hg) 0.1 ppm * 1 ppm (colorants) Renal, neurologic, and dermal toxicity (229),
-- 2 Lead 2 ppm 20 ppm Affects the fetus and the central nervous system in
-- 3 Cadmium (Cd) 0.1 ppm - Damage of the kidneys, fragility of the bones,
-- 4 Arsenic (As) 0.5 ppm 3 ppm Skin eruptions, alopecia, and striation of the nails,
-- 5 Nickel (Ni) 10 ppm - Contact allergy, eyelid dermatitis, as well as irritation,
-- 7 Antimony (Sb) 0.5 ppm - Pneumoconiosis, alterations in pulmonary function,
+| Metal | Limit for cosmetics (EU, Germany) | Limit for cosmetics (USA) |
+| --- | --- | --- |
+| Mercury (Hg) | 0.1 ppm | 1 ppm (colorants) |
+| Lead (Pb) | 2 ppm | 20 ppm (colorants); 10 ppm (lipsticks, lip glosses) |
+| Cadmium (Cd) | 0.1 ppm | n/a |
+| Arsenic (As) | 0.5 ppm | 3 ppm (colorants) |
+| Nickel (Ni) | 10 ppm | n/a |
+| Chromium (Cr) | n/a | n/a |
+| Antimony (Sb) | 0.5 ppm | n/a |
+| Cobalt (Co) | n/a | n/a |
+
+Note: values reproduced from Table 6 of the review; ppm = parts per million (mg/kg). "n/a" indicates no limit stated in that jurisdiction column in the source table.
+
+Heavy metals identified as contaminants in cosmetic products by product type (Table 5, Serb et al. 2024):
+- Mercury (Hg): creams (antiseptic, skin-lightening) and some mascaras
+- Lead (Pb): lipsticks, eyeliners, lip glosses, and hair dyes
+- Cadmium (Cd): blush, eyeshadow, and face powders
+- Arsenic (As): eyeshadow and face powders
+- Nickel (Ni): foundations, eyeshadow, and mascaras
+- Chromium (Cr): eyeshadow, lipsticks, and face powders
+- Aluminum (Al): foundations, eyeshadow, and mascaras
+- Copper (Cu): blush, eyeshadow, and some lipsticks
+- Antimony (Sb): blush, eyeshadow, and mascara
+- Zinc (Zn): foundations, sunscreens, and face powders
+- Manganese (Mn): eyeshadow, blush, and some lipsticks
+- Cobalt (Co): hair dyes and some eyeshadows
+- Selenium (Se): hair dyes and some face powders
+- Barium (Ba): blush, eyeshadow, and face powders
+- Beryllium (Be): eyeshadow and face powders
+- Thallium (Tl): hair dyes and some face powders
+
+The ICP-MS section (Section 3.5) of the review notes that heavy metals in cosmetics are present as contaminants from impurities in raw materials or the manufacturing process. Grosser et al. [228] is cited as showing that Pb, As, Cd, Hg, Cr, and Sb levels in lipsticks, nail polishes, and skin creams can be determined by ICP-MS after microwave digestion. All cited values in this paper are secondary (compiled from other studies); no primary measurements were conducted.
 
 ## Methods (brief)
 
-- tools, mass spectrometry (MS) has been largely used for compound detection, ingredient screening,
-- Onulov, R.; Novaconi, C.R.; Sisu, E.; and fragrances, while inductively coupled plasma (ICP)-MS is ideal for comprehensive analysis of
-- Academic Editors: Rosa Iacovino and Keywords: mass spectrometry (MS); cosmetic ingredients; LC-MS; GC-MS; fragrances; preservatives;
-- chromatography–mass spectrometry (LC-MS) and gas chromatography–mass spectrometry
-- crease sample throughput, making direct analysis techniques such as ambient MS exciting
-- The main keywords of the search were “mass spectrometry” and “preservatives” and
-- “cosmetic”, “mass spectrometry” and “colorants” and “cosmetic”, “mass spectrometry”
-- and “allergens” and “cosmetic”, “mass spectrometry” and “metals” and “cosmetic”, as
-- well as “mass spectrometry” and “cosmetic ingredients”.
-- elaborate preparation of the samples. For lipstick application, a soft polymer-coated bar
-- was coated with lipstick samples and then “stamped” onto specific stainless steel plates
-- (targets) of the MALDI mass spectrometer. The samples corresponding to the dermato-
-- acetonitrile: methanol) and the samples were covered using a commercial brush (47). All
-- samples were analyzed in the positive-ion mode. The assignment of chemical structures
-- new and “in use” samples. The difference between “in use” and expired samples of der-
-- could switch between positive- and negative-ion modes within the same HPLC run, and at
-- (HPLC) used to determine
-- coupled with mass spectrometry (HPLC-MS and UHPLC-MS), as well as gas chromatogra-
+Literature review of publications 1992-2024 from PubMed and Web of Science. Search terms included "mass spectrometry" combined with "preservatives," "colorants," "allergens," "metals," and "cosmetic ingredients." Only peer-reviewed articles in English with full texts available were included. Duplicate removal and qualitative/quantitative evaluation of articles by title, keywords, abstract, year, and main text. 48 pages, 276 references.
 
-## Implications
+## Evidence fitness
 
-This page makes the source discoverable for category-level evidence routing. Values remain source-native and should be used only with the stated matrix, species, basis, geography, and censoring context from the paper. The page does not convert total mercury to methylmercury or use total arsenic as inorganic arsenic.
+This review provides a secondary compilation of heavy metal limits and product associations for cosmetic products. It does not provide measured concentrations from primary surveys; for primary measurement data, see Bashir et al. 2025 (nail polish, beauty creams, lipsticks sampled in Pakistan) and Karimi et al. 2015 (nail polishes, Iran). Table 6 of this review is a useful regulatory limit reference for EU/Germany and USA jurisdictions, clearly distinguishing colorant-specific limits from general cosmetic limits for lead and arsenic. The paper's earlier routing to fish, shellfish, baby sunscreen, and seaweed was an error; this correction routes it to cosmetic product categories.
+
+## Limitations
+
+Secondary source only; all heavy metal data are compiled from cited primary studies rather than measured in this paper. Table 6 does not cite the specific regulatory instruments for each limit, making independent verification necessary. No primary concentration measurements are available in this source.
 
 ## Related evidence
 
-- [[products/fish-marine-non-predatory]]
-- [[products/shellfish]]
-- [[products/baby-sunscreen-mineral]]
-- [[products/seaweed-kelp-foods]]
-- [[metals/mercury]]
-- [[metals/cadmium]]
+- [[products/manicuring-preparations-leave-on]]
+- [[products/face-neck-leave-on-skin-care]]
+- [[products/makeup-foundation-powders-blush]]
+- [[metals/mercury-total]]
 - [[metals/lead]]
-- [[metals/arsenic]]
+- [[metals/cadmium]]
+- [[metals/arsenic-total]]
 - [[metals/nickel]]
-- [[metals/aluminum]]
 - [[metals/chromium]]
 
 <!-- BEGIN: hmi-page-history -->
