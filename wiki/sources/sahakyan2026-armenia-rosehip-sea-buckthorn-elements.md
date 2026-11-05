@@ -26,12 +26,12 @@ evidence_fitness:
   does_not_support: [fresh-weight-fruit-levels, biological-variability, market-fruit]
 audience: [researcher, regulator]
 sources: 0
-updated: 2026-11-04
+updated: 2026-11-05
 ---
 
 # Sahakyan et al. 2026: Arsenic, cadmium and lead in Armenian rosehip and sea buckthorn
 
-Wild-collected rosehips and sea buckthorn berries from Armenia were shade-dried and analysed by ICP-OES. Six of seven rosehip samples had cadmium of 1.33 to 2.09 mg/kg dry weight, and five had total arsenic of 2.37 to 7.85 mg/kg. Lead was found only in two sea buckthorn samples. All values are on a dried-fruit basis and come from one digest per sample.
+Wild-collected rosehips and sea buckthorn berries from Armenia were shade-dried and analysed by ICP-OES. Six of seven rosehip samples had cadmium of 1.33 to 2.09 mg/kg dry weight, and five had total arsenic of 2.37 to 7.85 mg/kg. Table 3 shows lead of 0.49 mg/kg dry weight in one rosehip sample (RC-7, Aparan) and 0.69 mg/kg in one sea buckthorn sample (SB-4, Sevan Basin); the paper's narrative text states that lead was not detected in any rosehip sample, an internal inconsistency within the paper. All values are on a dried-fruit basis and come from one digest per sample.
 
 ## Key numbers
 
@@ -39,9 +39,9 @@ All mg/kg dry weight, shade-dried fruit (Table 3, p. 11):
 
 - Rosehip, total arsenic: 7.85, 2.71, 2.37, not detected, 2.43, 6.10, not detected (RC-1 to RC-7).
 - Rosehip, cadmium: 2.09, 1.34, 1.93, 1.33, 1.74, 1.69, not detected.
-- Rosehip, lead: not detected in all seven. Nickel: 1.29 to 4.29 in three samples.
+- Rosehip, lead: Table 3 records 0.49 mg/kg DW for RC-7 (Aparan); six of seven samples are ND. The paper's narrative text states lead was not detected in any rosehip sample, contradicting Table 3 for RC-7. Nickel: 1.29 to 4.29 in three samples (RC-1, RC-2, RC-3).
 - Sea buckthorn, total arsenic: not detected, 1.03, 0.24, not detected (SB-1 to SB-4).
-- Sea buckthorn, lead: 0.49 (SB-1) and 0.69 (SB-4); not detected in two. Cadmium and nickel not detected.
+- Sea buckthorn, lead: 0.69 mg/kg DW in SB-4 (Sevan Basin); not detected in SB-1, SB-2, SB-3. Cadmium and nickel not detected.
 - Method LODs: As 0.080, Cd 0.010, Pb 0.020 mg/kg dry weight (pp. 7, 10).
 
 ## Methods (brief)

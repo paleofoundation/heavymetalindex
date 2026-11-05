@@ -10,8 +10,8 @@ vulnerable_population: general_population
 applicable_regulations: []
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
-updated: 2026-05-14
-sources: 58
+updated: 2026-11-05
+sources: 59
 created_by: autonomy_v0
 created_from: routing_unresolved
 created_routed_sources: 2
@@ -50,16 +50,21 @@ Methodology rules for speciation, basis preservation, non-detect handling, and s
 
 | Analyte | Subcategory | Reported concentration range | Detection rate | Applicable regulatory cap | Sources | Confidence | Basis |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| [[metals/lead\|Pb]] | fresh (no contributing evidence loaded) | No concentration data loaded for this analyte | Sample-level detection rate not reported | No applicable cap loaded | 0 | data gap | Basis not reported |
-| [[metals/cadmium\|Cd]] | fresh (no contributing evidence loaded) | No concentration data loaded for this analyte | Sample-level detection rate not reported | No applicable cap loaded | 0 | data gap | Basis not reported |
-| [[metals/arsenic-total\|tAs]] | fresh (no contributing evidence loaded) | No concentration data loaded for this analyte | Sample-level detection rate not reported | No applicable cap loaded | 0 | data gap | Basis not reported |
+| [[metals/lead\|Pb]] | rosehip (Rosa spp.), dried, wild-collected, Armenia, 2025 | Table 3: 0.49 mg/kg DW (RC-7, Aparan); paper narrative states ND for all rosehip -- internal inconsistency within source | 1/7 per Table 3; 0/7 per paper narrative | No applicable cap cited in source | 1 | low | dry weight |
+| [[metals/lead\|Pb]] | sea buckthorn (Hippophae rhamnoides), dried, wild-collected, Armenia, 2024 | ND to 0.69 mg/kg DW (SB-4, Sevan Basin) | 1/4 (25%) | No applicable cap cited in source | 1 | low | dry weight |
+| [[metals/cadmium\|Cd]] | rosehip (Rosa spp.), dried, wild-collected, Armenia, 2025 | 1.33 to 2.09 mg/kg DW | 6/7 (86%) | No applicable cap cited in source | 1 | low | dry weight |
+| [[metals/cadmium\|Cd]] | grape berry (Vitis vinifera cv. Summer Black), deliberate-contamination trial, Sichuan, China, 2025 | 0.039 to 0.046 mg/kg FW at fruit maturity | n/a (plot-level; 3 plots per treatment) | GB 2762-2025: 0.05 mg/kg FW | 1 | low | fresh weight |
+| [[metals/arsenic-total\|tAs]] | rosehip (Rosa spp.), dried, wild-collected, Armenia, 2025 | ND to 7.85 mg/kg DW | 5/7 (71%) | No applicable cap cited in source | 1 | low | dry weight |
+| [[metals/arsenic-total\|tAs]] | sea buckthorn (Hippophae rhamnoides), dried, wild-collected, Armenia, 2024 | ND to 1.03 mg/kg DW | 2/4 (50%) | No applicable cap cited in source | 1 | low | dry weight |
 <!-- END: hmi-hmtc-evidence-summary -->
 
 ## Source Evidence Inventory
 
 Routed sources include [[sources/ye2026-tin-foods-dietary-exposure-zhejiang]], [[sources/anastario2025-hass-avocado-metal-profiling-icpms-pxrf]], [[sources/elbagory2025-toxic-elements-melon-ganges-yamuna]], [[sources/islam2024-heavy-metals-bangladeshi-fruits-review]], with the auto-generated source legend retaining the full citation list and row-use notes. At this synthesis stage, the inventory is used to distinguish direct finished-product occurrence data from broader dietary, ingredient, exposure, or review context. Sources that do not resolve product form, jurisdiction, basis, or analyte species remain visible here but should not be treated as benchmark-ready rows until structured extraction and routing confirm fit.
 
-**[[sources/sahakyan2026-armenia-rosehip-sea-buckthorn-elements|Sahakyan et al. 2026]].** Wild rosehips from five Armenian provinces, measured after shade-drying, had cadmium of 1.33 to 2.09 mg/kg dry weight in six of seven samples and total arsenic of 2.37 to 7.85 mg/kg in five. Lead was not detected in any rosehip. In four sea buckthorn samples cadmium was not detected, arsenic was 0.24 and 1.03 mg/kg in two, and lead was 0.49 and 0.69 mg/kg in two. These are dry-weight values for dried fruit from one digest per sample, with no reference material reported, so they cannot be compared directly with fresh-fruit limits.
+**[[sources/sahakyan2026-armenia-rosehip-sea-buckthorn-elements|Sahakyan et al. 2026]].** Wild rosehips from five Armenian provinces, measured after shade-drying, had cadmium of 1.33 to 2.09 mg/kg dry weight in six of seven samples and total arsenic of 2.37 to 7.85 mg/kg in five. Table 3 of the paper records lead of 0.49 mg/kg dry weight in one rosehip sample (RC-7, Aparan), though the paper's own narrative text states lead was not detected in any rosehip -- an internal inconsistency within the paper. In four sea buckthorn samples cadmium was not detected, arsenic was 0.24 and 1.03 mg/kg in two, and lead was 0.69 mg/kg in one (SB-4, Sevan Basin). All values are dry-weight values for dried fruit from one digest per sample with no certified reference material reported; they cannot be compared directly with fresh-fruit regulatory limits.
+
+**[[sources/pu2026-grape-solanum-nigrum-intercropping-cadmium|Pu et al. 2026]].** In a single-season trial on a Sichuan vineyard deliberately spiked with cadmium nitrate (soil total cadmium 1.49 mg/kg, above China's 0.3 mg/kg agricultural land risk screening value), ripe grape berries measured 0.046 mg/kg cadmium (fresh weight) under monoculture and 0.039 mg/kg when vines were intercropped with the cadmium hyperaccumulator Solanum nigrum, a 15.22% reduction. Both values were below China's GB 2762-2025 limit of 0.05 mg/kg fresh weight for fresh fruit. The deliberate-contamination design means these values describe an agricultural remediation scenario, not commercial market grape conditions; cadmium was the only metal measured.
 
 ## Broad Product Context: Author-Scope Index
 
@@ -164,8 +169,8 @@ Works cited in this page's text, in first-appearance order. See [Sources](#sourc
 | 55 | [[sources/dabeka1995-canadian-food-composites-metals\|Dabeka et al. 1995]]. *Survey of Lead, Cadmium, Fluoride, Nickel, and Cobalt in Food Composites and Estimation of Dietary Intakes of These Elements by Canadians in 1986-1988*, Journal of AOAC International | 1995 | Peer-reviewed | CA Pb, Cd, Ni, Co occurrence in Five Canadian total-diet composite groups, each with 113 composites and 39 composite subsets, prepared from foods purchased in... (n=760) |
 | 56 | [[sources/benoy1971-tin-toxicity-canned-fruit-juices\|Benoy et al. 1971]]. *The Toxicity of Tin in Canned Fruit Juices and Solid Foods*, Food and Cosmetics Toxicology, Vol. 9, Issue 5, pp. 645-656 | 1971 | Peer-reviewed | UK/KW Sn occurrence in 11 cats, dogs, rats, and 5 human volunteers; canned juices recovered from a 1967 Kuwait food poisoning outbreak... (n=11) |
 | 57 | [[sources/eu2015-consolidated-1881-2006-contaminants\|EU 2015]]. *Commission Regulation (EC) No 1881/2006, consolidated text of 21 May 2015*, EUR-Lex consolidated text, CELEX 02006R1881-20150521 | 2015 | Government report | Contribution to this topic remains under review; see the source record for its reported scope. |
-| 58 | [[sources/pu2026-grape-solanum-nigrum-intercropping-cadmium\|Pu et al. 2026]]. *Effects of Intercropping with Solanum nigrum on the Quality and Cadmium Accumulation of Grape Berries in Cadmium-Contaminated Soil*, Agronomy 16: 2158 | 2026 | Peer-reviewed | Contribution to this topic remains under review; see the source record for its reported scope. |
-| 59 | [[sources/sahakyan2026-armenia-rosehip-sea-buckthorn-elements\|Sahakyan et al. 2026]]. *Phytochemical Composition, Elemental Profiles, Antioxidant Activity, and Xenobiotic Relevance of Rosehip and Sea Buckthorn Fruits from Armenia*, Journal of Xenobiotics 16: 202 | 2026 | Peer-reviewed | Contribution to this topic remains under review; see the source record for its reported scope. |
+| 58 | [[sources/pu2026-grape-solanum-nigrum-intercropping-cadmium\|Pu et al. 2026]]. *Effects of Intercropping with Solanum nigrum on the Quality and Cadmium Accumulation of Grape Berries in Cadmium-Contaminated Soil*, Agronomy 16: 2158 | 2026 | Peer-reviewed | CN Cd occurrence in Ripe 'Summer Black' grape berries from a deliberately cadmium-spiked Sichuan vineyard plot (soil total Cd 1.49 mg/kg); two treatments -- monoculture and intercropping with Solanum nigrum -- across three replicate plots; harvested 2025; one cultivar, one site, one season (n=6 plots) |
+| 59 | [[sources/sahakyan2026-armenia-rosehip-sea-buckthorn-elements\|Sahakyan et al. 2026]]. *Phytochemical Composition, Elemental Profiles, Antioxidant Activity, and Xenobiotic Relevance of Rosehip and Sea Buckthorn Fruits from Armenia*, Journal of Xenobiotics 16: 202 | 2026 | Peer-reviewed | AM tAs, Cd, Pb, Ni occurrence in Seven shade-dried wild rosehip (Rosa canina, R. corymbifera, R. nisami) samples from five Armenian provinces (2025) and four shade-dried wild sea buckthorn (Hippophae rhamnoides) samples from Gegharkunik (2024); ICP-OES on dry-weight basis; one digest per sample (n=11) |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
