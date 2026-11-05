@@ -142,9 +142,8 @@ test("named metal pages use a complete title phrase and a whole-sentence descrip
 
 test("profile search intent keeps source-map and species claims distinct", () => {
   const barium = metalFields("barium")!
-  assert.match(barium.title, /^Barium Toxicology:/)
-  assert.doesNotMatch(barium.title + barium.description, /in food|food occurrence|regulatory limits/i)
-  assert.match(barium.description, /limited|limits|developing/i)
+  assert.match(barium.title, /^Barium in Food:/)
+  assert.match(barium.description, /Brazil nuts|bioaccessibility|mg\/kg/i)
   const lithium = metalFields("lithium")!
   assert.match(lithium.title, /Medical-Therapy/)
   assert.doesNotMatch(lithium.title + lithium.description, /lithium in food/i)
