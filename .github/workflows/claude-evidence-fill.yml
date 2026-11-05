@@ -1,10 +1,10 @@
 # Scheduled page fill. One unit from paleofoundation/hmi-evidence-deposits per run,
 # taken from graph/next_work.json when that file lists an unblocked
 # hmi-evidence-fill item, otherwise the next DEPOSITED ingredient or product.
-# Claude writes the page. This workflow merges the latest main, records only
-# that page in the structure, openings, and thin-with-evidence baselines, runs
-# the same checks as CI, and opens evidence-fill/<unit> only when those checks pass.
-# It does not run --write-baseline.
+# Claude writes the page. This workflow merges the latest main, runs the same
+# checks as CI, and opens evidence-fill/<unit> only when those checks pass.
+# It does not edit the structure, openings, or thin-with-evidence baselines.
+# It does not run --write-baseline. A count below a baseline passes.
 #
 # .claude/settings.json is not applied by claude-code-action, so the tool list is
 # passed with --allowedTools below.
@@ -248,7 +248,7 @@ jobs:
           git config user.name "claude[bot]"
           git config user.email "41898282+claude[bot]@users.noreply.github.com"
           git fetch --no-tags origin main
-          # Drop a whole-baseline rewrite. The filled page is recorded after the merge.
+          # Drop a whole-baseline rewrite. Fill pull requests leave the baselines on main.
           git checkout origin/main -- \
             data/evidence/page-structure-baseline.json \
             data/evidence/page-openings-baseline.json \
@@ -318,19 +318,12 @@ jobs:
             data/evidence/page-structure-baseline.json \
             data/evidence/page-openings-baseline.json \
             data/fanout/thin-with-evidence-baseline.txt
-          before="${RUNNER_TEMP}/thin-before.txt"
-          cp data/fanout/thin-with-evidence-baseline.txt "$before"
-          node tools/evidence-fill/record-filled-page.mjs --page "$PAGE"
-          node tools/evidence-fill/diff-gate.mjs \
-            --baseline-before "$before" \
-            --baseline-after data/fanout/thin-with-evidence-baseline.txt \
-            --entity "${FAMILY}/${SLUG}"
           git add -- \
             data/evidence/page-structure-baseline.json \
             data/evidence/page-openings-baseline.json \
             data/fanout/thin-with-evidence-baseline.txt
           if ! git diff --cached --quiet; then
-            git commit -m "Evidence fill ${UNIT}: record ${SLUG} baseline paths"
+            git commit -m "Evidence fill ${UNIT}: keep main baselines"
           fi
           node tools/evidence-fill/diff-gate.mjs --base origin/main
           node tools/lint/hero-image-placeholders.mjs --changed origin/main
@@ -377,18 +370,17 @@ jobs:
               exit 1
             fi
             git commit --no-edit
-            git checkout origin/main -- \
-              data/evidence/page-structure-baseline.json \
-              data/evidence/page-openings-baseline.json \
-              data/fanout/thin-with-evidence-baseline.txt
-            node tools/evidence-fill/record-filled-page.mjs --page "$PAGE"
-            git add -- \
-              data/evidence/page-structure-baseline.json \
-              data/evidence/page-openings-baseline.json \
-              data/fanout/thin-with-evidence-baseline.txt
-            if ! git diff --cached --quiet; then
-              git commit -m "Evidence fill ${UNIT}: record ${SLUG} baseline paths after merging main"
-            fi
+          fi
+          git checkout origin/main -- \
+            data/evidence/page-structure-baseline.json \
+            data/evidence/page-openings-baseline.json \
+            data/fanout/thin-with-evidence-baseline.txt
+          git add -- \
+            data/evidence/page-structure-baseline.json \
+            data/evidence/page-openings-baseline.json \
+            data/fanout/thin-with-evidence-baseline.txt
+          if ! git diff --cached --quiet; then
+            git commit -m "Evidence fill ${UNIT}: keep main baselines"
           fi
           if git diff --quiet origin/main...HEAD; then
             echo "No changes against main. Not opening a pull request."
@@ -404,7 +396,7 @@ jobs:
           cat > "${RUNNER_TEMP}/pr-body.md" <<EOF
           Automated evidence fill for ${UNIT} (\`${FAMILY}/${SLUG}\`).
 
-          The page was built from that deposit unit. Alias redirects were regenerated with the repo tools. The structure, openings, and thin-with-evidence baselines record only this page. The branch merged the latest main before this pull request was opened. \`npm test\`, \`npm run lint:page-structure\`, \`npm run lint:page-openings\`, \`npm run lint:thin-with-evidence\`, and \`npm run check\` passed before this pull request was opened.
+          The page was built from that deposit unit. Alias redirects were regenerated with the repo tools. The structure, openings, and thin-with-evidence baselines stay on main. The branch merged the latest main before this pull request was opened. \`npm test\`, \`npm run lint:page-structure\`, \`npm run lint:page-openings\`, \`npm run lint:thin-with-evidence\`, and \`npm run check\` passed before this pull request was opened.
 
           Direction: toward the literature.
           EOF
