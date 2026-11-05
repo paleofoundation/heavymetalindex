@@ -116,6 +116,7 @@ products/pretzels
 products/puddings-and-gelatin-desserts
 products/pumpkin-pie
 products/ranch-dressing
+products/refined-sugar
 products/research-chemicals-peptides-sarms
 products/rinse-aids
 products/salsa
