@@ -30,6 +30,6 @@ Append one entry at the top of wiki/log.md, under the frontmatter, in the existi
 
 You may run `node tools/build-page-openings.mjs --apply __PAGE__`. Do not commit, do not push, and do not open a pull request.
 
-Do not run `node tools/audit-page-structure.mjs --write-baseline`. Do not pass `--write-baseline` for page structure, page openings, or the thin-with-evidence list. Do not rewrite data/evidence/page-structure-baseline.json, data/evidence/page-openings-baseline.json, or data/fanout/thin-with-evidence-baseline.txt. The workflow merges the latest main before it opens the pull request, and it records only __PAGE__ in those three files.
+Do not run `node tools/audit-page-structure.mjs --write-baseline`. Do not pass `--write-baseline` for page structure, page openings, or the thin-with-evidence list. Do not rewrite data/evidence/page-structure-baseline.json, data/evidence/page-openings-baseline.json, or data/fanout/thin-with-evidence-baseline.txt. The workflow merges the latest main before it opens the pull request, and it leaves those three files untouched. A count below the baseline passes. Lower a baseline on main to lock in an improvement. A fill pull request does not edit it.
 
 One unit only. Do not start a second page.
