@@ -14,7 +14,7 @@ raw_path: "deposits/HMI-FILL-0009/10.3390_foods15091498.pdf"
 raw_sha256: "0fe2a7a80915add93eb05da2a1fc504bfb70ff03f626562e0e03cf67f1bc46c7"
 metals: [Pb, Cd, Cu]
 ingredients: ["[[ingredients/casein]]", "[[ingredients/milk-and-dairy]]"]
-products: []
+products: ["[[products/dairy-cream]]", "[[products/dairy-cheese]]"]
 matrices: [milk-curd, milk-whey, raw-milk]
 jurisdictions: [RO]
 near_duplicates: []
