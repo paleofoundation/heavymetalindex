@@ -16,7 +16,7 @@ raw_path: "raw/antimony-verify/Wang_2026_antimony_food_contact.pdf"
 raw_sha256: 468193f7186e0caccd8cecfeafa8007a9ca1032f76756b1435babea70953a990
 metals: [Sb]
 ingredients: []
-products: []
+products: ["[[products/feeding-accessories-child-sized]]"]
 matrices: ["food-contact"]
 jurisdictions: [INT]
 evidence_fitness:
