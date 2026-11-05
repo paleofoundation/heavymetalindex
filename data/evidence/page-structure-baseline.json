@@ -3,10 +3,10 @@
   "date": "2026-10-28",
   "note": "Warn-only baseline. CI fails only when a page newly fails a check. Counts are pages, not occurrences. Stubs are exempt only from section_presence_and_order. 2026-10-28 recount includes restored live pages and products moved out of ingredients.",
   "pages_scanned": 930,
-  "stubs_exempt_from_sections": 539,
+  "stubs_exempt_from_sections": 540,
   "checks": {
     "answer_block": {
-      "pages": 62,
+      "pages": 61,
       "paths": [
         "wiki/ingredients/canned-tuna.md",
         "wiki/ingredients/chocolate.md",
@@ -54,7 +54,6 @@
         "wiki/products/pet-food-freeze-dried.md",
         "wiki/products/pet-food-raw.md",
         "wiki/products/pet-treats-snacks.md",
-        "wiki/products/plant-based-beverages.md",
         "wiki/products/research-chem-raw-powders.md",
         "wiki/products/research-chemicals-peptides-sarms.md",
         "wiki/products/rice-bulk-grain.md",
@@ -697,7 +696,7 @@
       ]
     },
     "generic_headings": {
-      "pages": 787,
+      "pages": 786,
       "paths": [
         "wiki/ingredients/almond-beverage.md",
         "wiki/ingredients/almond.md",
@@ -1350,7 +1349,6 @@
         "wiki/products/pet-toppers-mixers-broths.md",
         "wiki/products/pet-treats-snacks.md",
         "wiki/products/piercing-post-assemblies.md",
-        "wiki/products/plant-based-beverages.md",
         "wiki/products/plant-milks-non-soy-non-rice.md",
         "wiki/products/plant-milks-rice-based.md",
         "wiki/products/plant-milks-soy-based.md",
@@ -1489,7 +1487,7 @@
       ]
     },
     "metal_symbols": {
-      "pages": 596,
+      "pages": 595,
       "paths": [
         "wiki/ingredients/almond.md",
         "wiki/ingredients/apple-cider-vinegar.md",
@@ -1975,7 +1973,6 @@
         "wiki/products/pet-toppers-mixers-broths.md",
         "wiki/products/pet-treats-snacks.md",
         "wiki/products/piercing-post-assemblies.md",
-        "wiki/products/plant-based-beverages.md",
         "wiki/products/plant-milks-non-soy-non-rice.md",
         "wiki/products/plant-milks-rice-based.md",
         "wiki/products/plant-milks-soy-based.md",
@@ -2090,7 +2087,7 @@
       ]
     },
     "consumer_audience": {
-      "pages": 510,
+      "pages": 509,
       "paths": [
         "wiki/ingredients/almond-beverage.md",
         "wiki/ingredients/almond.md",
@@ -2555,7 +2552,6 @@
         "wiki/products/pancakes.md",
         "wiki/products/peanut-butter.md",
         "wiki/products/peanuts.md",
-        "wiki/products/plant-based-beverages.md",
         "wiki/products/plant-milks-non-soy-non-rice.md",
         "wiki/products/plant-milks-rice-based.md",
         "wiki/products/plant-milks-soy-based.md",
@@ -2605,7 +2601,7 @@
       ]
     },
     "section_presence_and_order": {
-      "pages": 209,
+      "pages": 210,
       "paths": [
         "wiki/ingredients/almond.md",
         "wiki/ingredients/baby-cereals-dry.md",
@@ -2796,6 +2792,7 @@
         "wiki/products/peptides-injectable-hormones.md",
         "wiki/products/pickled-fermented-vegetables.md",
         "wiki/products/pickled-mushrooms.md",
+        "wiki/products/plant-based-beverages.md",
         "wiki/products/plant-milks-non-soy-non-rice.md",
         "wiki/products/plant-milks-rice-based.md",
         "wiki/products/plant-milks-soy-based.md",
