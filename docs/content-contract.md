@@ -320,8 +320,9 @@ pages. Its numbers are not deleted: they move into the relevant body section
 in the `[[sources/<slug>|1]]` form, without author-year text, inline titles or
 DOIs. `npm run lint:page-openings` (CI) fails when a metal or ingredient page
 outside `data/evidence/page-openings-baseline.json` lacks a valid, in-sync
-opening, when any in-scope page outside the baseline still has a Direct answer
-section, or when a baselined page is already compliant. The baseline only shrinks.
+opening, or when any in-scope page outside the baseline still has a Direct answer
+section. A baselined page that is already compliant passes. Lower the baseline
+on main to lock in that improvement. A fill pull request does not edit it.
 
 ## 7. Copy rules
 

@@ -72,7 +72,7 @@
       ]
     },
     "dois_or_author_year": {
-      "pages": 618,
+      "pages": 619,
       "paths": [
         "wiki/ingredients/algae.md",
         "wiki/ingredients/almond-beverage.md",
@@ -689,6 +689,7 @@
         "wiki/products/true-tea-camellia-sinensis.md",
         "wiki/products/utensils-metal.md",
         "wiki/products/vegetable-juices-non-root.md",
+        "wiki/products/vegetable-juices.md",
         "wiki/products/water-filters.md",
         "wiki/products/white-wine.md",
         "wiki/products/wild-mushrooms.md"
@@ -3715,7 +3716,6 @@
         "wiki/products/vegetable-beef-soup.md",
         "wiki/products/vegetable-juices-non-root.md",
         "wiki/products/vegetable-juices-root-vegetable-containing.md",
-        "wiki/products/vegetable-juices.md",
         "wiki/products/vegetable-soup.md",
         "wiki/products/veggie-burger.md",
         "wiki/products/vinegar.md",
