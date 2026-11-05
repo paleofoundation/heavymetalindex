@@ -13,7 +13,7 @@ license: "CC BY-NC-ND 4.0"
 raw_path: /Users/kmfp/papers-for-claude/hmi-thin/batch-07/pdfs/green-bell-pepper__Zhou2024__10.1038_s41598-024-68564-8.pdf
 metals: [As, Cd, Cr, Pb]
 ingredients: ["[[ingredients/spices]]"]
-products: []
+products: ["[[products/hot-chili-sauces]]", "[[products/spices]]"]
 matrices: [dried chili pepper]
 jurisdictions: [CN]
 near_duplicates: []

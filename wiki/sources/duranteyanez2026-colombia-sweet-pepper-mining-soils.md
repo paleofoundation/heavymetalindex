@@ -13,7 +13,7 @@ license: "CC BY 4.0"
 raw_path: "/Users/kmfp/papers-for-claude/hmi-thin/batch-07/pdfs/green-bell-pepper__Durante-Yanez2026__10.1007_s10653-026-03077-z.pdf"
 metals: [Hg, Pb, As]
 ingredients: ["[[ingredients/peppers]]"]
-products: []
+products: ["[[products/hot-chili-sauces]]"]
 matrices: [sweet pepper fruit, soil]
 jurisdictions: [CO]
 near_duplicates: []

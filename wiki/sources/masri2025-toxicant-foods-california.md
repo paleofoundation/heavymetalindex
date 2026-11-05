@@ -15,7 +15,7 @@ raw_path: "raw/Manual Fetch Discovery/masri2025-matcha-heavy-metal.pdf"
 raw_sha256: "d52043a930027d6e2626c5461437e7550b473436bb6cb17abfd0e209198d5160"
 metals: [Pb, Cd, tAs, MeHg]
 ingredients: ["[[ingredients/rice]]", "[[ingredients/tea]]", "[[ingredients/leafy-greens]]", "[[ingredients/root-vegetables]]", "[[ingredients/fruit-juice]]", "[[ingredients/seafood]]", "[[ingredients/fish]]", "[[ingredients/herbs-and-spices]]", "[[ingredients/spices]]", "[[ingredients/matcha-powder]]", "[[ingredients/chocolate]]", "[[ingredients/water]]", "[[ingredients/turmeric]]", "[[ingredients/parsley]]", "[[ingredients/cinnamon]]", "[[ingredients/pasta]]"]
-products: ["[[products/tea]]", "[[products/tea-infusions]]", "[[products/matcha]]", "[[products/fruit-juice-not-canned]]", "[[products/rice-bulk-grain]]", "[[products/leafy-vegetables-other]]", "[[products/root-tuber-vegetables]]", "[[products/pasta-wheat-based]]", "[[products/seafood]]", "[[products/spices]]", "[[products/chocolate]]"]
+products: ["[[products/tea]]", "[[products/tea-infusions]]", "[[products/matcha]]", "[[products/fruit-juice-not-canned]]", "[[products/rice-bulk-grain]]", "[[products/leafy-vegetables-other]]", "[[products/root-tuber-vegetables]]", "[[products/pasta-wheat-based]]", "[[products/seafood]]", "[[products/spices]]", "[[products/chocolate]]", "[[products/hot-chili-sauces]]"]
 matrices: [mixed-diet, herbs-spices, tea-infusions, beverages, candies-confectionery, prepared-mixed-dishes, dietary-survey]
 jurisdictions: [US]
 near_duplicates: []
