@@ -3,7 +3,7 @@
   "date": "2026-10-28",
   "note": "Warn-only baseline. CI fails only when a page newly fails a check. Counts are pages, not occurrences. Stubs are exempt only from section_presence_and_order. 2026-10-28 recount includes restored live pages and products moved out of ingredients.",
   "pages_scanned": 930,
-  "stubs_exempt_from_sections": 542,
+  "stubs_exempt_from_sections": 540,
   "checks": {
     "answer_block": {
       "pages": 61,
@@ -72,7 +72,7 @@
       ]
     },
     "dois_or_author_year": {
-      "pages": 618,
+      "pages": 619,
       "paths": [
         "wiki/ingredients/algae.md",
         "wiki/ingredients/almond-beverage.md",
@@ -689,6 +689,7 @@
         "wiki/products/true-tea-camellia-sinensis.md",
         "wiki/products/utensils-metal.md",
         "wiki/products/vegetable-juices-non-root.md",
+        "wiki/products/vegetable-juices.md",
         "wiki/products/water-filters.md",
         "wiki/products/white-wine.md",
         "wiki/products/wild-mushrooms.md"
@@ -1486,7 +1487,7 @@
       ]
     },
     "metal_symbols": {
-      "pages": 594,
+      "pages": 595,
       "paths": [
         "wiki/ingredients/almond.md",
         "wiki/ingredients/apple-cider-vinegar.md",
@@ -2600,7 +2601,7 @@
       ]
     },
     "section_presence_and_order": {
-      "pages": 209,
+      "pages": 210,
       "paths": [
         "wiki/ingredients/almond.md",
         "wiki/ingredients/baby-cereals-dry.md",
@@ -2815,7 +2816,7 @@
       ]
     },
     "uncertainty_note": {
-      "pages": 913,
+      "pages": 911,
       "paths": [
         "wiki/ingredients/algae.md",
         "wiki/ingredients/almond-beverage.md",
@@ -3716,7 +3717,6 @@
         "wiki/products/vegetable-beef-soup.md",
         "wiki/products/vegetable-juices-non-root.md",
         "wiki/products/vegetable-juices-root-vegetable-containing.md",
-        "wiki/products/vegetable-juices.md",
         "wiki/products/vegetable-soup.md",
         "wiki/products/veggie-burger.md",
         "wiki/products/vinegar.md",

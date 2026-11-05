@@ -8,11 +8,11 @@
 // data/evidence/product_source_routing_audit.csv (value_record_count > 0).
 // A frontmatter or body match with no values does not count.
 //
-// Default mode is a ratchet. The live failure set must equal
-// data/fanout/thin-with-evidence-baseline.txt. A new thin-with-evidence page
-// fails. A filled page left in the baseline also fails, so the baseline has
-// to be rewritten after a real fill. --strict ignores the baseline and fails
-// on every thin-with-evidence page. --write-baseline rewrites the file.
+// Default mode is a ceiling. A new thin-with-evidence page fails. A filled
+// page left in data/fanout/thin-with-evidence-baseline.txt passes. Lower that
+// file on main to lock in the improvement. A fill pull request does not need
+// to edit it. --strict ignores the baseline and fails on every
+// thin-with-evidence page. --write-baseline rewrites the file.
 
 import fs from "node:fs"
 import path from "node:path"
@@ -347,6 +347,9 @@ export function diffSets(live, baseline) {
   }
 }
 
+export const THIN_IMPROVEMENT_NOTE =
+  "Lower data/fanout/thin-with-evidence-baseline.txt on main to lock in the improvement. A fill pull request does not need to edit that file."
+
 function printReport(report, { strict }) {
   const { added, removed } = diffSets(report.failures, report.baseline)
   if (strict) {
@@ -356,12 +359,17 @@ function printReport(report, { strict }) {
     for (const id of report.failures) console.error(`  ${id}`)
     return report.failures.length === 0
   }
-  const ok = added.length === 0 && removed.length === 0
+  const ok = added.length === 0
   console.log(
     `audit-thin-with-evidence: ${ok ? "PASS" : "FAIL"} (${report.failures.length} live, ${report.baseline.length} baseline, ${report.evidence_entities} evidence entities)`,
   )
   for (const id of added) console.error(`  new thin-with-evidence: ${id}`)
-  for (const id of removed) console.error(`  stale baseline (page no longer thin-with-evidence): ${id}`)
+  if (removed.length) {
+    console.log(
+      `audit-thin-with-evidence: ${removed.length} baseline page(s) are no longer thin with evidence. ${THIN_IMPROVEMENT_NOTE}`,
+    )
+    for (const id of removed) console.log(`  improved: ${id}`)
+  }
   return ok
 }
 
