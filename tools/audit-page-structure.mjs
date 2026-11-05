@@ -3,7 +3,11 @@
 //
 // Warn-only against the committed baseline in
 // data/evidence/page-structure-baseline.json. Current debt does not fail CI.
-// A page that newly fails a check does.
+// A page that newly fails a check does. A count at or below the baseline
+// passes. A fill pull request does not edit the baseline. Lower
+// data/evidence/page-structure-baseline.json on main to lock in an
+// improvement. The cached `pages` integer can disagree with its path list
+// after parallel baseline edits. The path list is the allowlist.
 //
 //   node tools/audit-page-structure.mjs                 print counts, exit 0
 //   node tools/audit-page-structure.mjs --check         exit 1 if any failing
@@ -399,6 +403,42 @@ export function newViolations(scan, baseline) {
   return added
 }
 
+// Ceiling ratchet. Fail when the scanned page count or a check's failing
+// pages rise above the baseline, including a page that newly fails a check.
+// A lower count is an improvement: report it and keep going. The recorded
+// `pages` field is not compared with `paths.length`.
+export function structureRatchet(scan, baseline) {
+  const failures = []
+  const improvements = []
+  if (typeof baseline.pages_scanned === "number") {
+    if (scan.pages > baseline.pages_scanned) {
+      failures.push(
+        `scanned page count ${scan.pages} is above the page-structure baseline ${baseline.pages_scanned}`,
+      )
+    } else if (scan.pages < baseline.pages_scanned) {
+      improvements.push(
+        `scanned page count ${scan.pages} is below the page-structure baseline ${baseline.pages_scanned}`,
+      )
+    }
+  }
+  const added = newViolations(scan, baseline)
+  for (const check of CHECKS) {
+    const ceiling = baseline.checks[check].paths.length
+    const live = scan.checks[check].length
+    if (added[check].length) {
+      failures.push(`${check} grew past the baseline: ${added[check].join(", ")}`)
+    } else if (live > ceiling) {
+      failures.push(`${check} count ${live} is above the page-structure baseline ${ceiling}`)
+    } else if (live < ceiling) {
+      improvements.push(`${check} count ${live} is below the page-structure baseline ${ceiling}`)
+    }
+  }
+  return { failures, improvements }
+}
+
+export const BASELINE_IMPROVEMENT_NOTE =
+  "Lower data/evidence/page-structure-baseline.json on main to lock in the improvement. A fill pull request does not need to edit that file."
+
 function printScan(scan) {
   console.log(`Page-structure audit: ${scan.pages} pages, ${scan.stubs} stubs exempt from section presence and order`)
   for (const check of CHECKS) {
@@ -438,14 +478,15 @@ function main() {
     return
   }
   if (args.has("--check") && !args.has("--warn-only")) {
-    const added = newViolations(scan, loadBaseline(repoRoot))
-    const grew = CHECKS.filter((check) => added[check].length > 0)
-    if (grew.length) {
+    const { failures, improvements } = structureRatchet(scan, loadBaseline(repoRoot))
+    if (improvements.length) {
+      console.log(
+        `page-structure baseline: ${improvements.length} count(s) are below the baseline. ${BASELINE_IMPROVEMENT_NOTE}`,
+      )
+    }
+    if (failures.length) {
       console.error("\nPage-structure checks grew past the baseline:")
-      for (const check of grew) {
-        console.error(`  ${check}: ${added[check].length} new`)
-        for (const rel of added[check].slice(0, 20)) console.error(`    ${rel}`)
-      }
+      for (const failure of failures) console.error(`  ${failure}`)
       process.exit(1)
     }
     console.log("page-structure baseline holds")
