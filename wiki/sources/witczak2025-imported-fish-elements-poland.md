@@ -37,11 +37,15 @@ Witczak and colleagues bought 11 fish species from retail in Szczecin, Poland an
 
 Pacific cod (Gadus macrocephalus, imported from China, n=130 samples from 13 batches), muscle tissue, wet weight:
 
-- Lead: Table 1, estimated 11 µg/kg (range 10 to 14) based on Table 1 continuation; Table 3 EDI row Pacific cod Pb = 0.005.
-- Cadmium: 10 ± 6 µg/kg (range 5 to 18), Table 1 continuation.
-- Total mercury: 31 ± 9 µg/kg (range 22 to 43), Table 1 continuation.
-- Nickel: 90 ± 40 µg/kg (range 50 to 140), Table 1.
-- Zinc: Table 1 shows the range 2.34 to 3.03 mg/kg (2,340 to 3,030 µg/kg).
+- Lead: 11 ± 2 µg/kg (range 10 to 14), Table 1.
+- Cadmium: 10 ± 6 µg/kg (range 5 to 18), Table 1.
+- Total mercury: 31 ± 9 µg/kg (range 22 to 43), Table 1.
+- Total arsenic: 160 ± 30 µg/kg (range 120 to 190), Table 1.
+- Nickel: 100 ± 30 µg/kg (range 100 to 110), Table 1.
+- Aluminum: 140 ± 20 µg/kg (range 110 to 150), Table 1.
+- Chromium: 80 ± 10 µg/kg (range 70 to 90), Table 1.
+- Zinc: 3.19 ± 0.45 mg/kg (3,190 µg/kg), Table 1.
+- Limits of quantification (Table 6): lead 3.1, cadmium 1.1, mercury 5.2, arsenic 1.0, nickel 4.1, aluminum 18.8, and chromium 4.5 µg/kg.
 - Cadmium percent of Tolerable Weekly Intake (TWI at 2.5 µg/kg body weight per week, EFSA): 1.39 ± 0.87% per 100 g portion (Table 4).
 - Cadmium percent of Provisional Tolerable Monthly Intake (PTMI): 0.59 ± 0.37% (Table 4).
 - Lead percent of BMDL0.1: 0.36 ± 0.06% (Table 4).

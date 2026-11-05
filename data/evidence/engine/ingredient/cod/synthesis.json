@@ -1,0 +1,1634 @@
+{
+  "synthesis_id": "engine-ingredient-cod-v1",
+  "family": "ingredient",
+  "slug": "cod",
+  "title": "Cod",
+  "display_title": "Cod",
+  "version": 1,
+  "date": "2026-10-22",
+  "description": "Lead, cadmium, mercury, arsenic, nickel, and aluminum in cod: frozen Pacific cod, Italian retail cod products, US baked cod composites, EU limits, and what a test should report.",
+  "lede": "",
+  "article_lede": false,
+  "citation_style": "compact",
+  "citation_placement": "sentence",
+  "sections": [
+    {
+      "id": "summary",
+      "answers": [
+        {
+          "text": "Across three source families, cod carries low lead, cadmium, mercury, nickel, and aluminum and a much larger amount of total arsenic, most of which is not inorganic arsenic.",
+          "source_keys": [
+            "witczak2025-imported-fish-elements-poland",
+            "nava2026-messina-cod-products-elements",
+            "fda2022-tds-elements-fy2018-fy2020"
+          ],
+          "citation_spans": [
+            {
+              "after": "Across three source families, cod carries low lead, cadmium, mercury, nickel, and aluminum and a much larger amount of total arsenic, most of which is not inorganic arsenic.",
+              "source_keys": [
+                "witczak2025-imported-fish-elements-poland",
+                "nava2026-messina-cod-products-elements",
+                "fda2022-tds-elements-fy2018-fy2020"
+              ]
+            }
+          ],
+          "kind": "evidence",
+          "question_id": "HMI-ING-004",
+          "presentation": "record_only",
+          "public_context_section": "summary",
+          "passages": [
+            {
+              "text": "Studies measured lead, cadmium, total mercury, total arsenic, nickel, chromium, and aluminum in cod. Frozen Pacific cod averaged 11 µg/kg lead, 10 µg/kg cadmium, 31 µg/kg total mercury, 160 µg/kg total arsenic, 100 µg/kg nickel, and 140 µg/kg aluminum, wet weight.",
+              "source_keys": [
+                "witczak2025-imported-fish-elements-poland",
+                "nava2026-messina-cod-products-elements",
+                "fda2022-tds-elements-fy2018-fy2020"
+              ],
+              "citation_spans": [
+                {
+                  "after": "Studies measured lead, cadmium, total mercury, total arsenic, nickel, chromium, and aluminum in cod.",
+                  "source_keys": [
+                    "witczak2025-imported-fish-elements-poland",
+                    "nava2026-messina-cod-products-elements",
+                    "fda2022-tds-elements-fy2018-fy2020"
+                  ]
+                },
+                {
+                  "after": "Frozen Pacific cod averaged 11 µg/kg lead, 10 µg/kg cadmium, 31 µg/kg total mercury, 160 µg/kg total arsenic, 100 µg/kg nickel, and 140 µg/kg aluminum, wet weight.",
+                  "source_keys": [
+                    "witczak2025-imported-fish-elements-poland"
+                  ]
+                }
+              ],
+              "question": "What heavy metals are found in cod?",
+              "placement": "universal_faq"
+            },
+            {
+              "text": "Total mercury was 44 to 140 µg/kg in US baked cod composites and averaged 31 µg/kg in frozen Pacific cod. Stockfish held 140 µg/kg and baccala 270 µg/kg as sold.",
+              "source_keys": [
+                "fda2022-tds-elements-fy2018-fy2020",
+                "witczak2025-imported-fish-elements-poland",
+                "nava2026-messina-cod-products-elements"
+              ],
+              "citation_spans": [
+                {
+                  "after": "Total mercury was 44 to 140 µg/kg in US baked cod composites and averaged 31 µg/kg in frozen Pacific cod.",
+                  "source_keys": [
+                    "fda2022-tds-elements-fy2018-fy2020",
+                    "witczak2025-imported-fish-elements-poland"
+                  ]
+                },
+                {
+                  "after": "Stockfish held 140 µg/kg and baccala 270 µg/kg as sold.",
+                  "source_keys": [
+                    "nava2026-messina-cod-products-elements"
+                  ]
+                }
+              ],
+              "question": "How much mercury is in cod?",
+              "placement": "universal_faq"
+            },
+            {
+              "text": "Cod carries total arsenic of 160 µg/kg in frozen Pacific cod and 1,300 to 10,900 µg/kg in baked US composites. None of these studies measured inorganic arsenic, the form that limits regulate, so the risk cannot be judged from these totals.",
+              "source_keys": [
+                "witczak2025-imported-fish-elements-poland",
+                "fda2022-tds-elements-fy2018-fy2020",
+                "nava2026-messina-cod-products-elements"
+              ],
+              "citation_spans": [
+                {
+                  "after": "Cod carries total arsenic of 160 µg/kg in frozen Pacific cod and 1,300 to 10,900 µg/kg in baked US composites.",
+                  "source_keys": [
+                    "witczak2025-imported-fish-elements-poland",
+                    "fda2022-tds-elements-fy2018-fy2020"
+                  ]
+                },
+                {
+                  "after": "None of these studies measured inorganic arsenic, the form that limits regulate, so the risk cannot be judged from these totals.",
+                  "source_keys": [
+                    "witczak2025-imported-fish-elements-poland",
+                    "nava2026-messina-cod-products-elements",
+                    "fda2022-tds-elements-fy2018-fy2020"
+                  ]
+                }
+              ],
+              "question": "Is the arsenic in cod dangerous?",
+              "placement": "universal_faq"
+            },
+            {
+              "text": "Lead averaged 11 µg/kg in frozen Pacific cod and was below the 4 µg/kg reporting limit in all 27 US baked cod composites. Retail products in Italy held 10 to 80 µg/kg, with the highest values in baccala and stockfish.",
+              "source_keys": [
+                "witczak2025-imported-fish-elements-poland",
+                "fda2022-tds-elements-fy2018-fy2020",
+                "nava2026-messina-cod-products-elements"
+              ],
+              "citation_spans": [
+                {
+                  "after": "Lead averaged 11 µg/kg in frozen Pacific cod and was below the 4 µg/kg reporting limit in all 27 US baked cod composites.",
+                  "source_keys": [
+                    "witczak2025-imported-fish-elements-poland",
+                    "fda2022-tds-elements-fy2018-fy2020"
+                  ]
+                },
+                {
+                  "after": "Retail products in Italy held 10 to 80 µg/kg, with the highest values in baccala and stockfish.",
+                  "source_keys": [
+                    "nava2026-messina-cod-products-elements"
+                  ]
+                }
+              ],
+              "question": "Does cod contain lead?",
+              "placement": "universal_faq"
+            },
+            {
+              "text": "Cadmium averaged 10 µg/kg in frozen Pacific cod and reached 11 µg/kg in US baked composites. Baccala held 60 µg/kg as sold, which the authors flagged against the 50 µg/kg fish muscle limit.",
+              "source_keys": [
+                "witczak2025-imported-fish-elements-poland",
+                "fda2022-tds-elements-fy2018-fy2020",
+                "nava2026-messina-cod-products-elements",
+                "eu-2023-915-contaminants-maximum-levels"
+              ],
+              "citation_spans": [
+                {
+                  "after": "Cadmium averaged 10 µg/kg in frozen Pacific cod and reached 11 µg/kg in US baked composites.",
+                  "source_keys": [
+                    "witczak2025-imported-fish-elements-poland",
+                    "fda2022-tds-elements-fy2018-fy2020"
+                  ]
+                },
+                {
+                  "after": "Baccala held 60 µg/kg as sold, which the authors flagged against the 50 µg/kg fish muscle limit.",
+                  "source_keys": [
+                    "nava2026-messina-cod-products-elements",
+                    "eu-2023-915-contaminants-maximum-levels"
+                  ]
+                }
+              ],
+              "question": "Is cadmium a concern in cod?",
+              "placement": "universal_faq"
+            },
+            {
+              "text": "Only one study measured aluminum, finding an average of 140 µg/kg in frozen Pacific cod, with a range of 110 to 150 µg/kg. The Italian survey and the US Total Diet Study did not report aluminum.",
+              "source_keys": [
+                "witczak2025-imported-fish-elements-poland",
+                "nava2026-messina-cod-products-elements",
+                "fda2022-tds-elements-fy2018-fy2020"
+              ],
+              "citation_spans": [
+                {
+                  "after": "Only one study measured aluminum, finding an average of 140 µg/kg in frozen Pacific cod, with a range of 110 to 150 µg/kg.",
+                  "source_keys": [
+                    "witczak2025-imported-fish-elements-poland"
+                  ]
+                },
+                {
+                  "after": "The Italian survey and the US Total Diet Study did not report aluminum.",
+                  "source_keys": [
+                    "nava2026-messina-cod-products-elements",
+                    "fda2022-tds-elements-fy2018-fy2020"
+                  ]
+                }
+              ],
+              "question": "Has aluminum been measured in cod?",
+              "placement": "universal_faq"
+            },
+            {
+              "text": "Nickel averaged 100 µg/kg in frozen Pacific cod. It was detected once in 27 US baked composites, at 46 µg/kg, and only in the stockfish and baccala in the Italian survey.",
+              "source_keys": [
+                "witczak2025-imported-fish-elements-poland",
+                "fda2022-tds-elements-fy2018-fy2020",
+                "nava2026-messina-cod-products-elements"
+              ],
+              "citation_spans": [
+                {
+                  "after": "Nickel averaged 100 µg/kg in frozen Pacific cod.",
+                  "source_keys": [
+                    "witczak2025-imported-fish-elements-poland"
+                  ]
+                },
+                {
+                  "after": "It was detected once in 27 US baked composites, at 46 µg/kg, and only in the stockfish and baccala in the Italian survey.",
+                  "source_keys": [
+                    "fda2022-tds-elements-fy2018-fy2020",
+                    "nava2026-messina-cod-products-elements"
+                  ]
+                }
+              ],
+              "question": "Does cod contain nickel?",
+              "placement": "universal_faq"
+            },
+            {
+              "text": "Yes, in the Italian survey baccala and stockfish carried the highest lead, cadmium, mercury, arsenic, and nickel of all ten products. Part of this reflects water loss, since the values are as sold.",
+              "source_keys": [
+                "nava2026-messina-cod-products-elements"
+              ],
+              "citation_spans": [
+                {
+                  "after": "Yes, in the Italian survey baccala and stockfish carried the highest lead, cadmium, mercury, arsenic, and nickel of all ten products.",
+                  "source_keys": [
+                    "nava2026-messina-cod-products-elements"
+                  ]
+                },
+                {
+                  "after": "Part of this reflects water loss, since the values are as sold.",
+                  "source_keys": [
+                    "nava2026-messina-cod-products-elements"
+                  ]
+                }
+              ],
+              "question": "Is salted or dried cod higher in metals than fresh cod?",
+              "placement": "universal_faq"
+            },
+            {
+              "text": "No, eight of ten Italian retail products sold as cod were hake, Alaska pollock, or saithe.",
+              "source_keys": [
+                "nava2026-messina-cod-products-elements"
+              ],
+              "citation_spans": [
+                {
+                  "after": "No, eight of ten Italian retail products sold as cod were hake, Alaska pollock, or saithe.",
+                  "source_keys": [
+                    "nava2026-messina-cod-products-elements"
+                  ]
+                }
+              ],
+              "question": "Is the fish sold as cod always true cod?",
+              "placement": "universal_faq"
+            },
+            {
+              "text": "Drying, salting, and baking remove water and raise the concentration per kilogram. No cited source measured a step that removes metals from cod.",
+              "source_keys": [
+                "nava2026-messina-cod-products-elements",
+                "fda2022-tds-elements-fy2018-fy2020",
+                "witczak2025-imported-fish-elements-poland"
+              ],
+              "citation_spans": [
+                {
+                  "after": "Drying, salting, and baking remove water and raise the concentration per kilogram.",
+                  "source_keys": [
+                    "nava2026-messina-cod-products-elements",
+                    "fda2022-tds-elements-fy2018-fy2020"
+                  ]
+                },
+                {
+                  "after": "No cited source measured a step that removes metals from cod.",
+                  "source_keys": [
+                    "witczak2025-imported-fish-elements-poland",
+                    "nava2026-messina-cod-products-elements",
+                    "fda2022-tds-elements-fy2018-fy2020"
+                  ]
+                }
+              ],
+              "question": "Does processing change heavy metals in cod?",
+              "placement": "universal_faq"
+            },
+            {
+              "text": "The EU sets 300 µg/kg lead, 50 µg/kg cadmium, and 300 µg/kg mercury for Atlantic cod muscle.",
+              "source_keys": [
+                "eu-2023-915-contaminants-maximum-levels"
+              ],
+              "citation_spans": [
+                {
+                  "after": "The EU sets 300 µg/kg lead, 50 µg/kg cadmium, and 300 µg/kg mercury for Atlantic cod muscle.",
+                  "source_keys": [
+                    "eu-2023-915-contaminants-maximum-levels"
+                  ]
+                }
+              ],
+              "question": "What limits apply to metals in cod?",
+              "placement": "universal_faq"
+            },
+            {
+              "text": "It should report lead, cadmium, total mercury, speciated arsenic, nickel, and aluminum with a stated basis and quantification limits near a few µg/kg.",
+              "source_keys": [
+                "witczak2025-imported-fish-elements-poland"
+              ],
+              "citation_spans": [
+                {
+                  "after": "It should report lead, cadmium, total mercury, speciated arsenic, nickel, and aluminum with a stated basis and quantification limits near a few µg/kg.",
+                  "source_keys": [
+                    "witczak2025-imported-fish-elements-poland"
+                  ]
+                }
+              ],
+              "question": "What should a cod test report?",
+              "placement": "universal_faq"
+            }
+          ]
+        },
+        {
+          "text": "The salted and dried forms carry the highest values for nearly every metal, and the fresh and frozen fillets carry the lowest.",
+          "source_keys": [
+            "nava2026-messina-cod-products-elements"
+          ],
+          "citation_spans": [
+            {
+              "after": "The salted and dried forms carry the highest values for nearly every metal, and the fresh and frozen fillets carry the lowest.",
+              "source_keys": [
+                "nava2026-messina-cod-products-elements"
+              ]
+            }
+          ],
+          "kind": "evidence",
+          "question_id": "HMI-ING-005",
+          "presentation": "record_only",
+          "public_context_section": "summary"
+        },
+        {
+          "text": "Imported frozen Pacific cod averaged 11 µg/kg lead, 10 µg/kg cadmium, 31 µg/kg total mercury, 100 µg/kg nickel, and 140 µg/kg aluminum, wet weight.",
+          "source_keys": [
+            "witczak2025-imported-fish-elements-poland"
+          ],
+          "citation_spans": [
+            {
+              "after": "Imported frozen Pacific cod averaged 11 µg/kg lead, 10 µg/kg cadmium, 31 µg/kg total mercury, 100 µg/kg nickel, and 140 µg/kg aluminum, wet weight.",
+              "source_keys": [
+                "witczak2025-imported-fish-elements-poland"
+              ]
+            }
+          ],
+          "kind": "evidence",
+          "question_id": "HMI-ING-006",
+          "presentation": "record_only",
+          "public_context_section": "summary"
+        }
+      ],
+      "presentation": {
+        "text": "Cod on this page is the muscle of true cod and the whitefish products sold under the cod name, eaten fresh, frozen, breaded, salted, or dried. Across three source families, cod carries low lead, cadmium, mercury, nickel, and aluminum and a much larger amount of total arsenic, most of which is not inorganic arsenic.",
+        "source_keys": [
+          "witczak2025-imported-fish-elements-poland",
+          "nava2026-messina-cod-products-elements",
+          "fda2022-tds-elements-fy2018-fy2020"
+        ],
+        "citation_spans": [
+          {
+            "after": "Across three source families, cod carries low lead, cadmium, mercury, nickel, and aluminum and a much larger amount of total arsenic, most of which is not inorganic arsenic.",
+            "source_keys": [
+              "witczak2025-imported-fish-elements-poland",
+              "nava2026-messina-cod-products-elements",
+              "fda2022-tds-elements-fy2018-fy2020"
+            ]
+          }
+        ],
+        "narrative": "overview_and_questions",
+        "passages": [
+          {
+            "text": "The salted and dried forms carry the highest values for nearly every metal, and the fresh and frozen fillets carry the lowest. Imported frozen Pacific cod averaged 11 µg/kg lead, 10 µg/kg cadmium, 31 µg/kg total mercury, 100 µg/kg nickel, and 140 µg/kg aluminum, wet weight.",
+            "source_keys": [
+              "nava2026-messina-cod-products-elements",
+              "witczak2025-imported-fish-elements-poland"
+            ],
+            "citation_spans": [
+              {
+                "after": "The salted and dried forms carry the highest values for nearly every metal, and the fresh and frozen fillets carry the lowest.",
+                "source_keys": [
+                  "nava2026-messina-cod-products-elements"
+                ]
+              },
+              {
+                "after": "Imported frozen Pacific cod averaged 11 µg/kg lead, 10 µg/kg cadmium, 31 µg/kg total mercury, 100 µg/kg nickel, and 140 µg/kg aluminum, wet weight.",
+                "source_keys": [
+                  "witczak2025-imported-fish-elements-poland"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "identity",
+      "answers": [
+        {
+          "text": "True cod are Gadus species such as Atlantic cod (Gadus morhua) and Pacific cod (Gadus macrocephalus).",
+          "source_keys": [
+            "witczak2025-imported-fish-elements-poland",
+            "nava2026-messina-cod-products-elements"
+          ],
+          "citation_spans": [
+            {
+              "after": "True cod are Gadus species such as Atlantic cod (Gadus morhua) and Pacific cod (Gadus macrocephalus).",
+              "source_keys": [
+                "witczak2025-imported-fish-elements-poland",
+                "nava2026-messina-cod-products-elements"
+              ]
+            }
+          ],
+          "kind": "evidence",
+          "question_id": "HMI-ING-001",
+          "presentation": "record_only",
+          "public_context_section": "identity"
+        },
+        {
+          "text": "In the Italian retail survey, eight of ten products labeled or sold as cod were hake, Alaska pollock, or saithe, and only the stockfish and the baccala were Gadus morhua.",
+          "source_keys": [
+            "nava2026-messina-cod-products-elements"
+          ],
+          "kind": "evidence",
+          "question_id": "HMI-ING-002",
+          "presentation": "record_only",
+          "public_context_section": "identity",
+          "citation_spans": [
+            {
+              "after": "In the Italian retail survey, eight of ten products labeled or sold as cod were hake, Alaska pollock, or saithe, and only the stockfish and the baccala were Gadus morhua.",
+              "source_keys": [
+                "nava2026-messina-cod-products-elements"
+              ]
+            }
+          ]
+        },
+        {
+          "text": "This page reports each product under its stated species and form and does not pool the substitutes with true cod.",
+          "source_keys": [
+            "nava2026-messina-cod-products-elements"
+          ],
+          "kind": "evidence",
+          "question_id": "HMI-ING-003",
+          "presentation": "record_only",
+          "public_context_section": "identity",
+          "citation_spans": [
+            {
+              "after": "This page reports each product under its stated species and form and does not pool the substitutes with true cod.",
+              "source_keys": [
+                "nava2026-messina-cod-products-elements"
+              ]
+            }
+          ]
+        }
+      ],
+      "presentation": {
+        "text": "True cod are Gadus species such as Atlantic cod (Gadus morhua) and Pacific cod (Gadus macrocephalus). In the Italian retail survey, eight of ten products labeled or sold as cod were hake, Alaska pollock, or saithe, and only the stockfish and the baccala were Gadus morhua.",
+        "source_keys": [
+          "witczak2025-imported-fish-elements-poland",
+          "nava2026-messina-cod-products-elements"
+        ],
+        "citation_spans": [
+          {
+            "after": "True cod are Gadus species such as Atlantic cod (Gadus morhua) and Pacific cod (Gadus macrocephalus).",
+            "source_keys": [
+              "witczak2025-imported-fish-elements-poland",
+              "nava2026-messina-cod-products-elements"
+            ]
+          },
+          {
+            "after": "In the Italian retail survey, eight of ten products labeled or sold as cod were hake, Alaska pollock, or saithe, and only the stockfish and the baccala were Gadus morhua.",
+            "source_keys": [
+              "nava2026-messina-cod-products-elements"
+            ]
+          }
+        ],
+        "narrative": "overview_and_questions",
+        "passages": [
+          {
+            "text": "This page reports each product under its stated species and form and does not pool the substitutes with true cod. Salted cod (baccala) and air dried cod (stockfish) are separate forms, because drying and salting change the weight basis of every result.",
+            "source_keys": [
+              "nava2026-messina-cod-products-elements"
+            ],
+            "citation_spans": [
+              {
+                "after": "This page reports each product under its stated species and form and does not pool the substitutes with true cod.",
+                "source_keys": [
+                  "nava2026-messina-cod-products-elements"
+                ]
+              },
+              {
+                "after": "Salted cod (baccala) and air dried cod (stockfish) are separate forms, because drying and salting change the weight basis of every result.",
+                "source_keys": [
+                  "nava2026-messina-cod-products-elements"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "occurrence",
+      "answers": [
+        {
+          "text": "Frozen Pacific cod imported from China into Poland, 130 fish in 13 batches, averaged 11 µg/kg lead, 10 µg/kg cadmium, 31 µg/kg total mercury, 160 µg/kg total arsenic, 100 µg/kg nickel, 140 µg/kg aluminum, and 80 µg/kg chromium, wet weight.",
+          "source_keys": [
+            "witczak2025-imported-fish-elements-poland"
+          ],
+          "citation_spans": [
+            {
+              "after": "Frozen Pacific cod imported from China into Poland, 130 fish in 13 batches, averaged 11 µg/kg lead, 10 µg/kg cadmium, 31 µg/kg total mercury, 160 µg/kg total arsenic, 100 µg/kg nickel, 140 µg/kg aluminum, and 80 µg/kg chromium, wet weight.",
+              "source_keys": [
+                "witczak2025-imported-fish-elements-poland"
+              ]
+            }
+          ],
+          "kind": "evidence",
+          "question_id": "HMI-ING-007",
+          "presentation": "record_only",
+          "public_context_section": "occurrence"
+        },
+        {
+          "text": "In 27 baked cod composites from the US Total Diet Study, collected from 2017 to 2020, total arsenic ranged from 1,300 to 10,900 µg/kg and total mercury from 44 to 140 µg/kg.",
+          "source_keys": [
+            "fda2022-tds-elements-fy2018-fy2020"
+          ],
+          "kind": "evidence",
+          "question_id": "HMI-ING-008",
+          "presentation": "record_only",
+          "public_context_section": "occurrence",
+          "citation_spans": [
+            {
+              "after": "In 27 baked cod composites from the US Total Diet Study, collected from 2017 to 2020, total arsenic ranged from 1,300 to 10,900 µg/kg and total mercury from 44 to 140 µg/kg.",
+              "source_keys": [
+                "fda2022-tds-elements-fy2018-fy2020"
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Lead was below the 4 µg/kg reporting limit in all 27 baked cod composites, cadmium was detected in 16 of 27 at up to 11 µg/kg, and nickel was detected once, at 46 µg/kg.",
+          "source_keys": [
+            "fda2022-tds-elements-fy2018-fy2020"
+          ],
+          "kind": "evidence",
+          "question_id": "HMI-ING-009",
+          "presentation": "record_only",
+          "public_context_section": "occurrence",
+          "citation_spans": [
+            {
+              "after": "Lead was below the 4 µg/kg reporting limit in all 27 baked cod composites, cadmium was detected in 16 of 27 at up to 11 µg/kg, and nickel was detected once, at 46 µg/kg.",
+              "source_keys": [
+                "fda2022-tds-elements-fy2018-fy2020"
+              ]
+            }
+          ]
+        }
+      ],
+      "presentation": {
+        "text": "Frozen Pacific cod imported from China into Poland, 130 fish in 13 batches, averaged 11 µg/kg lead, 10 µg/kg cadmium, 31 µg/kg total mercury, 160 µg/kg total arsenic, 100 µg/kg nickel, 140 µg/kg aluminum, and 80 µg/kg chromium, wet weight. In 27 baked cod composites from the US Total Diet Study, collected from 2017 to 2020, total arsenic ranged from 1,300 to 10,900 µg/kg and total mercury from 44 to 140 µg/kg.",
+        "source_keys": [
+          "witczak2025-imported-fish-elements-poland",
+          "fda2022-tds-elements-fy2018-fy2020"
+        ],
+        "citation_spans": [
+          {
+            "after": "Frozen Pacific cod imported from China into Poland, 130 fish in 13 batches, averaged 11 µg/kg lead, 10 µg/kg cadmium, 31 µg/kg total mercury, 160 µg/kg total arsenic, 100 µg/kg nickel, 140 µg/kg aluminum, and 80 µg/kg chromium, wet weight.",
+            "source_keys": [
+              "witczak2025-imported-fish-elements-poland"
+            ]
+          },
+          {
+            "after": "In 27 baked cod composites from the US Total Diet Study, collected from 2017 to 2020, total arsenic ranged from 1,300 to 10,900 µg/kg and total mercury from 44 to 140 µg/kg.",
+            "source_keys": [
+              "fda2022-tds-elements-fy2018-fy2020"
+            ]
+          }
+        ],
+        "narrative": "overview_and_questions",
+        "passages": [
+          {
+            "text": "Lead was below the 4 µg/kg reporting limit in all 27 baked cod composites, cadmium was detected in 16 of 27 at up to 11 µg/kg, and nickel was detected once, at 46 µg/kg. In the Italian survey, the baccala held 80 µg/kg lead, 60 µg/kg cadmium, 270 µg/kg total mercury, 800 µg/kg total arsenic, and 20 µg/kg nickel, as sold.",
+            "source_keys": [
+              "fda2022-tds-elements-fy2018-fy2020",
+              "nava2026-messina-cod-products-elements"
+            ],
+            "citation_spans": [
+              {
+                "after": "Lead was below the 4 µg/kg reporting limit in all 27 baked cod composites, cadmium was detected in 16 of 27 at up to 11 µg/kg, and nickel was detected once, at 46 µg/kg.",
+                "source_keys": [
+                  "fda2022-tds-elements-fy2018-fy2020"
+                ]
+              },
+              {
+                "after": "In the Italian survey, the baccala held 80 µg/kg lead, 60 µg/kg cadmium, 270 µg/kg total mercury, 800 µg/kg total arsenic, and 20 µg/kg nickel, as sold.",
+                "source_keys": [
+                  "nava2026-messina-cod-products-elements"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "pathways",
+      "answers": [
+        {
+          "text": "Cod take up metals from seawater, sediment, and prey, and the studies here report the levels in the muscle that is eaten rather than tracing each route.",
+          "source_keys": [
+            "witczak2025-imported-fish-elements-poland",
+            "nava2026-messina-cod-products-elements"
+          ],
+          "kind": "evidence",
+          "question_id": "HMI-ING-010",
+          "presentation": "record_only",
+          "public_context_section": "pathways",
+          "citation_spans": [
+            {
+              "after": "Cod take up metals from seawater, sediment, and prey, and the studies here report the levels in the muscle that is eaten rather than tracing each route.",
+              "source_keys": [
+                "witczak2025-imported-fish-elements-poland",
+                "nava2026-messina-cod-products-elements"
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Arsenic in marine fish is mostly organic, and none of these sources measured inorganic arsenic, so the total arsenic values cannot be read as inorganic arsenic.",
+          "source_keys": [
+            "witczak2025-imported-fish-elements-poland",
+            "nava2026-messina-cod-products-elements",
+            "fda2022-tds-elements-fy2018-fy2020"
+          ],
+          "kind": "evidence",
+          "question_id": "HMI-ING-011",
+          "presentation": "record_only",
+          "public_context_section": "pathways",
+          "citation_spans": [
+            {
+              "after": "Arsenic in marine fish is mostly organic, and none of these sources measured inorganic arsenic, so the total arsenic values cannot be read as inorganic arsenic.",
+              "source_keys": [
+                "witczak2025-imported-fish-elements-poland",
+                "nava2026-messina-cod-products-elements",
+                "fda2022-tds-elements-fy2018-fy2020"
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Aluminum was measured only in the Polish study, and its source in the fish was not investigated.",
+          "source_keys": [
+            "witczak2025-imported-fish-elements-poland"
+          ],
+          "kind": "evidence",
+          "question_id": "HMI-ING-012",
+          "presentation": "record_only",
+          "public_context_section": "pathways",
+          "citation_spans": [
+            {
+              "after": "Aluminum was measured only in the Polish study, and its source in the fish was not investigated.",
+              "source_keys": [
+                "witczak2025-imported-fish-elements-poland"
+              ]
+            }
+          ]
+        }
+      ],
+      "presentation": {
+        "text": "Cod take up metals from seawater, sediment, and prey, and the studies here report the levels in the muscle that is eaten rather than tracing each route.",
+        "source_keys": [
+          "witczak2025-imported-fish-elements-poland",
+          "nava2026-messina-cod-products-elements"
+        ],
+        "citation_spans": [
+          {
+            "after": "Cod take up metals from seawater, sediment, and prey, and the studies here report the levels in the muscle that is eaten rather than tracing each route.",
+            "source_keys": [
+              "witczak2025-imported-fish-elements-poland",
+              "nava2026-messina-cod-products-elements"
+            ]
+          }
+        ],
+        "narrative": "overview_and_questions",
+        "passages": [
+          {
+            "text": "Arsenic in marine fish is mostly organic, and none of these sources measured inorganic arsenic, so the total arsenic values cannot be read as inorganic arsenic. Aluminum was measured only in the Polish study, and its source in the fish was not investigated.",
+            "source_keys": [
+              "witczak2025-imported-fish-elements-poland",
+              "nava2026-messina-cod-products-elements",
+              "fda2022-tds-elements-fy2018-fy2020"
+            ],
+            "citation_spans": [
+              {
+                "after": "Arsenic in marine fish is mostly organic, and none of these sources measured inorganic arsenic, so the total arsenic values cannot be read as inorganic arsenic.",
+                "source_keys": [
+                  "witczak2025-imported-fish-elements-poland",
+                  "nava2026-messina-cod-products-elements",
+                  "fda2022-tds-elements-fy2018-fy2020"
+                ]
+              },
+              {
+                "after": "Aluminum was measured only in the Polish study, and its source in the fish was not investigated.",
+                "source_keys": [
+                  "witczak2025-imported-fish-elements-poland"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "variation",
+      "answers": [
+        {
+          "text": "Product form drives most of the spread in the retail survey, with the stockfish and baccala above every fresh, frozen, and breaded product for lead, cadmium, mercury, arsenic, and nickel.",
+          "source_keys": [
+            "nava2026-messina-cod-products-elements"
+          ],
+          "citation_spans": [
+            {
+              "after": "Product form drives most of the spread in the retail survey, with the stockfish and baccala above every fresh, frozen, and breaded product for lead, cadmium, mercury, arsenic, and nickel.",
+              "source_keys": [
+                "nava2026-messina-cod-products-elements"
+              ]
+            }
+          ],
+          "kind": "evidence",
+          "question_id": "HMI-ING-013",
+          "presentation": "record_only",
+          "public_context_section": "variation"
+        },
+        {
+          "text": "Among the hake, pollock, and saithe products, lead ranged from 10 to 50 µg/kg, total mercury was 10 µg/kg except 80 µg/kg in fresh European hake, and nickel stayed below quantification.",
+          "source_keys": [
+            "nava2026-messina-cod-products-elements"
+          ],
+          "citation_spans": [
+            {
+              "after": "Among the hake, pollock, and saithe products, lead ranged from 10 to 50 µg/kg, total mercury was 10 µg/kg except 80 µg/kg in fresh European hake, and nickel stayed below quantification.",
+              "source_keys": [
+                "nava2026-messina-cod-products-elements"
+              ]
+            }
+          ],
+          "kind": "evidence",
+          "question_id": "HMI-ING-014",
+          "presentation": "record_only",
+          "public_context_section": "variation"
+        },
+        {
+          "text": "The US baked cod composites span four collection regions and both regional and national lists, and total arsenic varied about eightfold across them.",
+          "source_keys": [
+            "fda2022-tds-elements-fy2018-fy2020"
+          ],
+          "citation_spans": [
+            {
+              "after": "The US baked cod composites span four collection regions and both regional and national lists, and total arsenic varied about eightfold across them.",
+              "source_keys": [
+                "fda2022-tds-elements-fy2018-fy2020"
+              ]
+            }
+          ],
+          "kind": "evidence",
+          "question_id": "HMI-ING-015",
+          "presentation": "record_only",
+          "public_context_section": "variation"
+        }
+      ],
+      "presentation": {
+        "text": "Product form drives most of the spread in the retail survey, with the stockfish and baccala above every fresh, frozen, and breaded product for lead, cadmium, mercury, arsenic, and nickel.",
+        "source_keys": [
+          "nava2026-messina-cod-products-elements"
+        ],
+        "citation_spans": [
+          {
+            "after": "Product form drives most of the spread in the retail survey, with the stockfish and baccala above every fresh, frozen, and breaded product for lead, cadmium, mercury, arsenic, and nickel.",
+            "source_keys": [
+              "nava2026-messina-cod-products-elements"
+            ]
+          }
+        ],
+        "narrative": "overview_and_questions",
+        "passages": [
+          {
+            "text": "Among the hake, pollock, and saithe products, lead ranged from 10 to 50 µg/kg, total mercury was 10 µg/kg except 80 µg/kg in fresh European hake, and nickel stayed below quantification.",
+            "source_keys": [
+              "nava2026-messina-cod-products-elements"
+            ],
+            "citation_spans": [
+              {
+                "after": "Among the hake, pollock, and saithe products, lead ranged from 10 to 50 µg/kg, total mercury was 10 µg/kg except 80 µg/kg in fresh European hake, and nickel stayed below quantification.",
+                "source_keys": [
+                  "nava2026-messina-cod-products-elements"
+                ]
+              }
+            ]
+          },
+          {
+            "text": "The US baked cod composites span four collection regions and both regional and national lists, and total arsenic varied about eightfold across them. The Polish study does not report collection years, so its results cannot be placed in time.",
+            "source_keys": [
+              "fda2022-tds-elements-fy2018-fy2020",
+              "witczak2025-imported-fish-elements-poland"
+            ],
+            "citation_spans": [
+              {
+                "after": "The US baked cod composites span four collection regions and both regional and national lists, and total arsenic varied about eightfold across them.",
+                "source_keys": [
+                  "fda2022-tds-elements-fy2018-fy2020"
+                ]
+              },
+              {
+                "after": "The Polish study does not report collection years, so its results cannot be placed in time.",
+                "source_keys": [
+                  "witczak2025-imported-fish-elements-poland"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "processing",
+      "answers": [
+        {
+          "text": "Drying and salting remove water, so metals measured in stockfish and baccala are concentrated relative to fresh muscle, and the as sold values are not directly comparable with fresh fillets.",
+          "source_keys": [
+            "nava2026-messina-cod-products-elements"
+          ],
+          "citation_spans": [
+            {
+              "after": "Drying and salting remove water, so metals measured in stockfish and baccala are concentrated relative to fresh muscle, and the as sold values are not directly comparable with fresh fillets.",
+              "source_keys": [
+                "nava2026-messina-cod-products-elements"
+              ]
+            }
+          ],
+          "kind": "evidence",
+          "question_id": "HMI-ING-016",
+          "presentation": "record_only",
+          "public_context_section": "processing"
+        },
+        {
+          "text": "Breaded and battered sticks and burgers in the Italian survey carried 50 µg/kg lead, which is above most of the plain fillets in the same survey.",
+          "source_keys": [
+            "nava2026-messina-cod-products-elements"
+          ],
+          "kind": "evidence",
+          "question_id": "HMI-ING-017",
+          "presentation": "record_only",
+          "public_context_section": "processing",
+          "citation_spans": [
+            {
+              "after": "Breaded and battered sticks and burgers in the Italian survey carried 50 µg/kg lead, which is above most of the plain fillets in the same survey.",
+              "source_keys": [
+                "nava2026-messina-cod-products-elements"
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Baking also concentrates the muscle by losing water, which is one reason the US composites are reported as prepared rather than as sold.",
+          "source_keys": [
+            "fda2022-tds-elements-fy2018-fy2020"
+          ],
+          "kind": "evidence",
+          "question_id": "HMI-ING-018",
+          "presentation": "record_only",
+          "public_context_section": "processing",
+          "citation_spans": [
+            {
+              "after": "Baking also concentrates the muscle by losing water, which is one reason the US composites are reported as prepared rather than as sold.",
+              "source_keys": [
+                "fda2022-tds-elements-fy2018-fy2020"
+              ]
+            }
+          ]
+        }
+      ],
+      "presentation": {
+        "text": "Drying and salting remove water, so metals measured in stockfish and baccala are concentrated relative to fresh muscle, and the as sold values are not directly comparable with fresh fillets. Breaded and battered sticks and burgers in the Italian survey carried 50 µg/kg lead, which is above most of the plain fillets in the same survey.",
+        "source_keys": [
+          "nava2026-messina-cod-products-elements"
+        ],
+        "citation_spans": [
+          {
+            "after": "Drying and salting remove water, so metals measured in stockfish and baccala are concentrated relative to fresh muscle, and the as sold values are not directly comparable with fresh fillets.",
+            "source_keys": [
+              "nava2026-messina-cod-products-elements"
+            ]
+          },
+          {
+            "after": "Breaded and battered sticks and burgers in the Italian survey carried 50 µg/kg lead, which is above most of the plain fillets in the same survey.",
+            "source_keys": [
+              "nava2026-messina-cod-products-elements"
+            ]
+          }
+        ],
+        "narrative": "overview_and_questions",
+        "passages": [
+          {
+            "text": "Baking also concentrates the muscle by losing water, which is one reason the US composites are reported as prepared rather than as sold.",
+            "source_keys": [
+              "fda2022-tds-elements-fy2018-fy2020"
+            ],
+            "citation_spans": [
+              {
+                "after": "Baking also concentrates the muscle by losing water, which is one reason the US composites are reported as prepared rather than as sold.",
+                "source_keys": [
+                  "fda2022-tds-elements-fy2018-fy2020"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "controls",
+      "answers": [
+        {
+          "text": "None of the cited cod sources tested a control that lowers metals in cod itself.",
+          "source_keys": [
+            "witczak2025-imported-fish-elements-poland",
+            "nava2026-messina-cod-products-elements",
+            "fda2022-tds-elements-fy2018-fy2020"
+          ],
+          "kind": "evidence",
+          "question_id": "HMI-ING-019",
+          "presentation": "record_only",
+          "public_context_section": "controls",
+          "citation_spans": [
+            {
+              "after": "None of the cited cod sources tested a control that lowers metals in cod itself.",
+              "source_keys": [
+                "witczak2025-imported-fish-elements-poland",
+                "nava2026-messina-cod-products-elements",
+                "fda2022-tds-elements-fy2018-fy2020"
+              ]
+            }
+          ]
+        },
+        {
+          "text": "The evidence instead shows which choices go with lower values, namely fresh or frozen muscle rather than dried or salted forms.",
+          "source_keys": [
+            "nava2026-messina-cod-products-elements"
+          ],
+          "kind": "evidence",
+          "question_id": "HMI-ING-020",
+          "presentation": "record_only",
+          "public_context_section": "controls",
+          "citation_spans": [
+            {
+              "after": "The evidence instead shows which choices go with lower values, namely fresh or frozen muscle rather than dried or salted forms.",
+              "source_keys": [
+                "nava2026-messina-cod-products-elements"
+              ]
+            }
+          ]
+        },
+        {
+          "text": "No control for metals in cod was measured in the library; lot testing against the applicable limit remains the verifiable step.",
+          "source_keys": [],
+          "kind": "unresolved",
+          "question_id": "HMI-ING-021",
+          "presentation": "record_only",
+          "public_context_section": "controls"
+        }
+      ],
+      "presentation": {
+        "text": "None of the cited cod sources tested a control that lowers metals in cod itself. The evidence instead shows which choices go with lower values, namely fresh or frozen muscle rather than dried or salted forms.",
+        "source_keys": [
+          "witczak2025-imported-fish-elements-poland",
+          "nava2026-messina-cod-products-elements",
+          "fda2022-tds-elements-fy2018-fy2020"
+        ],
+        "citation_spans": [
+          {
+            "after": "None of the cited cod sources tested a control that lowers metals in cod itself.",
+            "source_keys": [
+              "witczak2025-imported-fish-elements-poland",
+              "nava2026-messina-cod-products-elements",
+              "fda2022-tds-elements-fy2018-fy2020"
+            ]
+          },
+          {
+            "after": "The evidence instead shows which choices go with lower values, namely fresh or frozen muscle rather than dried or salted forms.",
+            "source_keys": [
+              "nava2026-messina-cod-products-elements"
+            ]
+          }
+        ],
+        "narrative": "overview_and_questions",
+        "passages": [
+          {
+            "text": "For salted cod, soaking before cooking is a common practice, but no cited source measured its effect on metals, so this page makes no claim about it.",
+            "source_keys": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "tradeoffs",
+      "answers": [
+        {
+          "text": "Choosing a substitute whitefish sold as cod does not reliably lower metals, because the hake and pollock products carried total arsenic of 150 to 570 µg/kg, close to the frozen true cod range.",
+          "source_keys": [
+            "nava2026-messina-cod-products-elements",
+            "witczak2025-imported-fish-elements-poland"
+          ],
+          "kind": "evidence",
+          "question_id": "HMI-ING-022",
+          "presentation": "record_only",
+          "public_context_section": "tradeoffs",
+          "citation_spans": [
+            {
+              "after": "Choosing a substitute whitefish sold as cod does not reliably lower metals, because the hake and pollock products carried total arsenic of 150 to 570 µg/kg, close to the frozen true cod range.",
+              "source_keys": [
+                "nava2026-messina-cod-products-elements",
+                "witczak2025-imported-fish-elements-poland"
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Metals do not move together, so a lot that passes a lead limit says little about cadmium, arsenic or nickel unless those are tested as well.",
+          "source_keys": [],
+          "kind": "unresolved",
+          "question_id": "HMI-ING-023",
+          "presentation": "record_only",
+          "public_context_section": "tradeoffs"
+        },
+        {
+          "text": "Metals do not move together, so a lot that passes a lead limit says little about cadmium, arsenic or nickel unless those are tested as well.",
+          "source_keys": [],
+          "kind": "unresolved",
+          "question_id": "HMI-ING-024",
+          "presentation": "record_only",
+          "public_context_section": "tradeoffs"
+        }
+      ],
+      "presentation": {
+        "text": "Choosing a substitute whitefish sold as cod does not reliably lower metals, because the hake and pollock products carried total arsenic of 150 to 570 µg/kg, close to the frozen true cod range.",
+        "source_keys": [
+          "nava2026-messina-cod-products-elements",
+          "witczak2025-imported-fish-elements-poland"
+        ],
+        "citation_spans": [
+          {
+            "after": "Choosing a substitute whitefish sold as cod does not reliably lower metals, because the hake and pollock products carried total arsenic of 150 to 570 µg/kg, close to the frozen true cod range.",
+            "source_keys": [
+              "nava2026-messina-cod-products-elements",
+              "witczak2025-imported-fish-elements-poland"
+            ]
+          }
+        ],
+        "narrative": "overview_and_questions",
+        "passages": []
+      }
+    },
+    {
+      "id": "testing",
+      "answers": [
+        {
+          "text": "A useful cod test reports lead, cadmium, total mercury, arsenic, nickel, and aluminum on a stated basis, with limits of quantification low enough to see values near 10 µg/kg.",
+          "source_keys": [
+            "witczak2025-imported-fish-elements-poland",
+            "nava2026-messina-cod-products-elements"
+          ],
+          "citation_spans": [
+            {
+              "after": "A useful cod test reports lead, cadmium, total mercury, arsenic, nickel, and aluminum on a stated basis, with limits of quantification low enough to see values near 10 µg/kg.",
+              "source_keys": [
+                "witczak2025-imported-fish-elements-poland",
+                "nava2026-messina-cod-products-elements"
+              ]
+            }
+          ],
+          "kind": "evidence",
+          "question_id": "HMI-ING-025",
+          "presentation": "record_only",
+          "public_context_section": "testing"
+        },
+        {
+          "text": "The Polish method quantified lead at 3.1 µg/kg, cadmium at 1.1 µg/kg, and aluminum at 18.8 µg/kg.",
+          "source_keys": [
+            "witczak2025-imported-fish-elements-poland"
+          ],
+          "citation_spans": [
+            {
+              "after": "The Polish method quantified lead at 3.1 µg/kg, cadmium at 1.1 µg/kg, and aluminum at 18.8 µg/kg.",
+              "source_keys": [
+                "witczak2025-imported-fish-elements-poland"
+              ]
+            }
+          ],
+          "kind": "evidence",
+          "question_id": "HMI-ING-026",
+          "presentation": "record_only",
+          "public_context_section": "testing"
+        },
+        {
+          "text": "Arsenic should be speciated, because total arsenic in cod is far higher than the inorganic fraction that limits regulate.",
+          "source_keys": [
+            "fda2022-tds-elements-fy2018-fy2020",
+            "nava2026-messina-cod-products-elements"
+          ],
+          "citation_spans": [
+            {
+              "after": "Arsenic should be speciated, because total arsenic in cod is far higher than the inorganic fraction that limits regulate.",
+              "source_keys": [
+                "fda2022-tds-elements-fy2018-fy2020",
+                "nava2026-messina-cod-products-elements"
+              ]
+            }
+          ],
+          "kind": "evidence",
+          "question_id": "HMI-ING-027",
+          "presentation": "record_only",
+          "public_context_section": "testing"
+        }
+      ],
+      "presentation": {
+        "text": "A useful cod test reports lead, cadmium, total mercury, arsenic, nickel, and aluminum on a stated basis, with limits of quantification low enough to see values near 10 µg/kg. The Polish method quantified lead at 3.1 µg/kg, cadmium at 1.1 µg/kg, and aluminum at 18.8 µg/kg.",
+        "source_keys": [
+          "witczak2025-imported-fish-elements-poland",
+          "nava2026-messina-cod-products-elements"
+        ],
+        "citation_spans": [
+          {
+            "after": "A useful cod test reports lead, cadmium, total mercury, arsenic, nickel, and aluminum on a stated basis, with limits of quantification low enough to see values near 10 µg/kg.",
+            "source_keys": [
+              "witczak2025-imported-fish-elements-poland",
+              "nava2026-messina-cod-products-elements"
+            ]
+          },
+          {
+            "after": "The Polish method quantified lead at 3.1 µg/kg, cadmium at 1.1 µg/kg, and aluminum at 18.8 µg/kg.",
+            "source_keys": [
+              "witczak2025-imported-fish-elements-poland"
+            ]
+          }
+        ],
+        "narrative": "overview_and_questions",
+        "passages": [
+          {
+            "text": "Arsenic should be speciated, because total arsenic in cod is far higher than the inorganic fraction that limits regulate.",
+            "source_keys": [
+              "fda2022-tds-elements-fy2018-fy2020",
+              "nava2026-messina-cod-products-elements"
+            ],
+            "citation_spans": [
+              {
+                "after": "Arsenic should be speciated, because total arsenic in cod is far higher than the inorganic fraction that limits regulate.",
+                "source_keys": [
+                  "fda2022-tds-elements-fy2018-fy2020",
+                  "nava2026-messina-cod-products-elements"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "procurement",
+      "answers": [
+        {
+          "text": "Buyers should confirm the species on the label or by testing, since most products sold as cod in the Italian survey were other whitefish.",
+          "source_keys": [
+            "nava2026-messina-cod-products-elements"
+          ],
+          "citation_spans": [
+            {
+              "after": "Buyers should confirm the species on the label or by testing, since most products sold as cod in the Italian survey were other whitefish.",
+              "source_keys": [
+                "nava2026-messina-cod-products-elements"
+              ]
+            }
+          ],
+          "kind": "evidence",
+          "question_id": "HMI-ING-028",
+          "presentation": "record_only",
+          "public_context_section": "procurement"
+        },
+        {
+          "text": "Specifications for dried or salted cod should state whether results are as sold or rehydrated, because the basis changes the number.",
+          "source_keys": [
+            "nava2026-messina-cod-products-elements"
+          ],
+          "citation_spans": [
+            {
+              "after": "Specifications for dried or salted cod should state whether results are as sold or rehydrated, because the basis changes the number.",
+              "source_keys": [
+                "nava2026-messina-cod-products-elements"
+              ]
+            }
+          ],
+          "kind": "evidence",
+          "question_id": "HMI-ING-029",
+          "presentation": "record_only",
+          "public_context_section": "procurement"
+        },
+        {
+          "text": "The EU maximum levels for fish muscle are 300 µg/kg lead, 50 µg/kg cadmium, and 300 µg/kg mercury for Atlantic cod.",
+          "source_keys": [
+            "eu-2023-915-contaminants-maximum-levels"
+          ],
+          "citation_spans": [
+            {
+              "after": "The EU maximum levels for fish muscle are 300 µg/kg lead, 50 µg/kg cadmium, and 300 µg/kg mercury for Atlantic cod.",
+              "source_keys": [
+                "eu-2023-915-contaminants-maximum-levels"
+              ]
+            }
+          ],
+          "kind": "evidence",
+          "question_id": "HMI-ING-030",
+          "presentation": "record_only",
+          "public_context_section": "procurement"
+        }
+      ],
+      "presentation": {
+        "text": "Buyers should confirm the species on the label or by testing, since most products sold as cod in the Italian survey were other whitefish. Specifications for dried or salted cod should state whether results are as sold or rehydrated, because the basis changes the number.",
+        "source_keys": [
+          "nava2026-messina-cod-products-elements"
+        ],
+        "citation_spans": [
+          {
+            "after": "Buyers should confirm the species on the label or by testing, since most products sold as cod in the Italian survey were other whitefish.",
+            "source_keys": [
+              "nava2026-messina-cod-products-elements"
+            ]
+          },
+          {
+            "after": "Specifications for dried or salted cod should state whether results are as sold or rehydrated, because the basis changes the number.",
+            "source_keys": [
+              "nava2026-messina-cod-products-elements"
+            ]
+          }
+        ],
+        "narrative": "overview_and_questions",
+        "passages": [
+          {
+            "text": "The EU maximum levels for fish muscle are 300 µg/kg lead, 50 µg/kg cadmium, and 300 µg/kg mercury for Atlantic cod.",
+            "source_keys": [
+              "eu-2023-915-contaminants-maximum-levels"
+            ],
+            "citation_spans": [
+              {
+                "after": "The EU maximum levels for fish muscle are 300 µg/kg lead, 50 µg/kg cadmium, and 300 µg/kg mercury for Atlantic cod.",
+                "source_keys": [
+                  "eu-2023-915-contaminants-maximum-levels"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "product",
+      "answers": [
+        {
+          "text": "For most fresh and frozen cod, the measured lead, cadmium, and mercury sit well below the EU fish muscle limits.",
+          "source_keys": [
+            "witczak2025-imported-fish-elements-poland",
+            "eu-2023-915-contaminants-maximum-levels",
+            "fda2022-tds-elements-fy2018-fy2020"
+          ],
+          "kind": "evidence",
+          "question_id": "HMI-ING-031",
+          "presentation": "record_only",
+          "public_context_section": "product",
+          "citation_spans": [
+            {
+              "after": "For most fresh and frozen cod, the measured lead, cadmium, and mercury sit well below the EU fish muscle limits.",
+              "source_keys": [
+                "witczak2025-imported-fish-elements-poland",
+                "eu-2023-915-contaminants-maximum-levels",
+                "fda2022-tds-elements-fy2018-fy2020"
+              ]
+            }
+          ]
+        },
+        {
+          "text": "The baccala cadmium of 60 µg/kg as sold was above the 50 µg/kg fish muscle limit, and the authors noted the excess, but a drying and salting factor is needed before it can be judged against that limit.",
+          "source_keys": [
+            "nava2026-messina-cod-products-elements",
+            "eu-2023-915-contaminants-maximum-levels"
+          ],
+          "kind": "evidence",
+          "question_id": "HMI-ING-032",
+          "presentation": "record_only",
+          "public_context_section": "product",
+          "citation_spans": [
+            {
+              "after": "The baccala cadmium of 60 µg/kg as sold was above the 50 µg/kg fish muscle limit, and the authors noted the excess, but a drying and salting factor is needed before it can be judged against that limit.",
+              "source_keys": [
+                "nava2026-messina-cod-products-elements",
+                "eu-2023-915-contaminants-maximum-levels"
+              ]
+            }
+          ]
+        },
+        {
+          "text": "At an intake of 13.4 g per day, Pacific cod supplied 1.39 percent of the tolerable weekly intake for cadmium and 0.36 percent of the lead benchmark dose level.",
+          "source_keys": [
+            "witczak2025-imported-fish-elements-poland"
+          ],
+          "kind": "evidence",
+          "question_id": "HMI-ING-033",
+          "presentation": "record_only",
+          "public_context_section": "product",
+          "citation_spans": [
+            {
+              "after": "At an intake of 13.4 g per day, Pacific cod supplied 1.39 percent of the tolerable weekly intake for cadmium and 0.36 percent of the lead benchmark dose level.",
+              "source_keys": [
+                "witczak2025-imported-fish-elements-poland"
+              ]
+            }
+          ]
+        }
+      ],
+      "presentation": {
+        "text": "For most fresh and frozen cod, the measured lead, cadmium, and mercury sit well below the EU fish muscle limits.",
+        "source_keys": [
+          "witczak2025-imported-fish-elements-poland",
+          "eu-2023-915-contaminants-maximum-levels",
+          "fda2022-tds-elements-fy2018-fy2020"
+        ],
+        "citation_spans": [
+          {
+            "after": "For most fresh and frozen cod, the measured lead, cadmium, and mercury sit well below the EU fish muscle limits.",
+            "source_keys": [
+              "witczak2025-imported-fish-elements-poland",
+              "eu-2023-915-contaminants-maximum-levels",
+              "fda2022-tds-elements-fy2018-fy2020"
+            ]
+          }
+        ],
+        "narrative": "overview_and_questions",
+        "passages": [
+          {
+            "text": "The baccala cadmium of 60 µg/kg as sold was above the 50 µg/kg fish muscle limit, and the authors noted the excess, but a drying and salting factor is needed before it can be judged against that limit.",
+            "source_keys": [
+              "nava2026-messina-cod-products-elements",
+              "eu-2023-915-contaminants-maximum-levels"
+            ],
+            "citation_spans": [
+              {
+                "after": "The baccala cadmium of 60 µg/kg as sold was above the 50 µg/kg fish muscle limit, and the authors noted the excess, but a drying and salting factor is needed before it can be judged against that limit.",
+                "source_keys": [
+                  "nava2026-messina-cod-products-elements",
+                  "eu-2023-915-contaminants-maximum-levels"
+                ]
+              }
+            ]
+          },
+          {
+            "text": "At an intake of 13.4 g per day, Pacific cod supplied 1.39 percent of the tolerable weekly intake for cadmium and 0.36 percent of the lead benchmark dose level.",
+            "source_keys": [
+              "witczak2025-imported-fish-elements-poland"
+            ],
+            "citation_spans": [
+              {
+                "after": "At an intake of 13.4 g per day, Pacific cod supplied 1.39 percent of the tolerable weekly intake for cadmium and 0.36 percent of the lead benchmark dose level.",
+                "source_keys": [
+                  "witczak2025-imported-fish-elements-poland"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "assessment",
+      "answers": [
+        {
+          "text": "The cod evidence covers all six priority metals, but aluminum rests on one study and arsenic is reported only as total arsenic.",
+          "source_keys": [
+            "witczak2025-imported-fish-elements-poland",
+            "nava2026-messina-cod-products-elements",
+            "fda2022-tds-elements-fy2018-fy2020"
+          ],
+          "kind": "evidence",
+          "question_id": "HMI-ING-034",
+          "presentation": "record_only",
+          "public_context_section": "assessment",
+          "citation_spans": [
+            {
+              "after": "The cod evidence covers all six priority metals, but aluminum rests on one study and arsenic is reported only as total arsenic.",
+              "source_keys": [
+                "witczak2025-imported-fish-elements-poland",
+                "nava2026-messina-cod-products-elements",
+                "fda2022-tds-elements-fy2018-fy2020"
+              ]
+            }
+          ]
+        },
+        {
+          "text": "No source tested Atlantic cod fillets directly, and only two Gadus morhua products were measured, so the Atlantic cod picture is thin.",
+          "source_keys": [
+            "nava2026-messina-cod-products-elements"
+          ],
+          "kind": "evidence",
+          "question_id": "HMI-ING-035",
+          "presentation": "record_only",
+          "public_context_section": "assessment",
+          "citation_spans": [
+            {
+              "after": "No source tested Atlantic cod fillets directly, and only two Gadus morhua products were measured, so the Atlantic cod picture is thin.",
+              "source_keys": [
+                "nava2026-messina-cod-products-elements"
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Every source record that names cod was decided on its content: 3 occurrence extracted, 3 records in all.",
+          "source_keys": [],
+          "kind": "unresolved",
+          "question_id": "HMI-ING-036",
+          "presentation": "record_only",
+          "public_context_section": "assessment"
+        }
+      ],
+      "presentation": {
+        "text": "The cod evidence covers all six priority metals, but aluminum rests on one study and arsenic is reported only as total arsenic.",
+        "source_keys": [
+          "witczak2025-imported-fish-elements-poland",
+          "nava2026-messina-cod-products-elements",
+          "fda2022-tds-elements-fy2018-fy2020"
+        ],
+        "citation_spans": [
+          {
+            "after": "The cod evidence covers all six priority metals, but aluminum rests on one study and arsenic is reported only as total arsenic.",
+            "source_keys": [
+              "witczak2025-imported-fish-elements-poland",
+              "nava2026-messina-cod-products-elements",
+              "fda2022-tds-elements-fy2018-fy2020"
+            ]
+          }
+        ],
+        "narrative": "overview_and_questions",
+        "passages": [
+          {
+            "text": "No source tested Atlantic cod fillets directly, and only two Gadus morhua products were measured, so the Atlantic cod picture is thin.",
+            "source_keys": [
+              "nava2026-messina-cod-products-elements"
+            ],
+            "citation_spans": [
+              {
+                "after": "No source tested Atlantic cod fillets directly, and only two Gadus morhua products were measured, so the Atlantic cod picture is thin.",
+                "source_keys": [
+                  "nava2026-messina-cod-products-elements"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "section_headings": {
+    "summary": "Cod overview",
+    "identity": "What counts as cod",
+    "occurrence": "Heavy metal contamination profile of cod",
+    "pathways": "How metals reach cod",
+    "variation": "Which forms and regions measured lower",
+    "processing": "Processing, cooking and preparation",
+    "controls": "Mitigation for cod",
+    "tradeoffs": "Trade-offs and limits of controls",
+    "testing": "Testing cod for metals",
+    "procurement": "Buying and verifying cod",
+    "product": "Exposure from cod",
+    "assessment": "Evidence review and remaining gaps"
+  },
+  "universal_faqs": {
+    "title": "Cod FAQs",
+    "aliases": []
+  },
+  "scope": {
+    "analytes": "Pb, Cd, tAs, tHg, Ni, Cr, Al, Sn, Sb and U",
+    "material_form": "Cod, cooked, Cod, as sold, Cod, frozen and Cod, dried",
+    "basis": "As reported; µg/kg; no moisture conversion",
+    "geography_market": "Reporting region, purchase market or growing area as each source reports",
+    "period": "Source collection years where reported; unreported dates stay unknown",
+    "stage": "Growing area, processing, retail and release testing",
+    "population_route": "Dietary ingestion",
+    "comparator_outcome": "HMI references by form and basis; same-study site, sampling and form contrasts"
+  },
+  "search": {
+    "status": "in_progress",
+    "scope": "Every source record and indexed dataset row that names cod",
+    "protocol_ref": "data/evidence/engine/ingredient/cod/evidence-ledger.json",
+    "record_refs": [
+      "data/evidence/engine/ingredient/cod/synthesis.json"
+    ],
+    "screening_ref": "data/evidence/engine/ingredient/cod/evidence-ledger.json",
+    "searched_through": "2026-10-22",
+    "limitations": [
+      "No study in the library measured inorganic arsenic in cod.",
+      "Aluminum was measured only in imported frozen Pacific cod."
+    ],
+    "unresolved_access": []
+  },
+  "source_catalogue": {
+    "topic": "ingredients/cod"
+  },
+  "retain_history_only": true,
+  "quick_read": {
+    "text": "Cod carries low lead, cadmium, mercury, nickel, and aluminum, with salted and dried cod higher than fresh or frozen fillets. Total arsenic is the largest value, but it was never speciated.",
+    "source_keys": [
+      "witczak2025-imported-fish-elements-poland",
+      "nava2026-messina-cod-products-elements",
+      "fda2022-tds-elements-fy2018-fy2020"
+    ],
+    "citation_spans": [
+      {
+        "after": "Cod carries low lead, cadmium, mercury, nickel, and aluminum, with salted and dried cod higher than fresh or frozen fillets.",
+        "source_keys": [
+          "witczak2025-imported-fish-elements-poland",
+          "nava2026-messina-cod-products-elements"
+        ]
+      },
+      {
+        "after": "Total arsenic is the largest value, but it was never speciated.",
+        "source_keys": [
+          "fda2022-tds-elements-fy2018-fy2020",
+          "nava2026-messina-cod-products-elements"
+        ]
+      }
+    ],
+    "layout": "prose",
+    "facets": [
+      {
+        "label": "Metals of concern",
+        "text": "Mercury and cadmium are the metals with EU fish limits that cod comes nearest to, and only in dried or salted forms. Lead stayed below the 4 µg/kg reporting limit in every US baked cod composite.",
+        "source_keys": [
+          "nava2026-messina-cod-products-elements",
+          "eu-2023-915-contaminants-maximum-levels",
+          "fda2022-tds-elements-fy2018-fy2020"
+        ],
+        "citation_spans": [
+          {
+            "after": "Mercury and cadmium are the metals with EU fish limits that cod comes nearest to, and only in dried or salted forms.",
+            "source_keys": [
+              "nava2026-messina-cod-products-elements",
+              "eu-2023-915-contaminants-maximum-levels"
+            ]
+          },
+          {
+            "after": "Lead stayed below the 4 µg/kg reporting limit in every US baked cod composite.",
+            "source_keys": [
+              "fda2022-tds-elements-fy2018-fy2020"
+            ]
+          }
+        ]
+      },
+      {
+        "label": "What changes the level",
+        "text": "Drying and salting raise values per kilogram, and species substitution is common in products sold as cod.",
+        "source_keys": [
+          "nava2026-messina-cod-products-elements"
+        ],
+        "citation_spans": [
+          {
+            "after": "Drying and salting raise values per kilogram, and species substitution is common in products sold as cod.",
+            "source_keys": [
+              "nava2026-messina-cod-products-elements"
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Evidence gaps",
+        "text": "Aluminum has one study and inorganic arsenic has none.",
+        "source_keys": [
+          "witczak2025-imported-fish-elements-poland",
+          "nava2026-messina-cod-products-elements",
+          "fda2022-tds-elements-fy2018-fy2020"
+        ],
+        "citation_spans": [
+          {
+            "after": "Aluminum has one study and inorganic arsenic has none.",
+            "source_keys": [
+              "witczak2025-imported-fish-elements-poland",
+              "nava2026-messina-cod-products-elements",
+              "fda2022-tds-elements-fy2018-fy2020"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "uncertainty": {
+    "text": "Inorganic arsenic in cod has not been measured in any cited source. Aluminum rests on one study of imported Pacific cod without collection years. Only two Atlantic cod products were measured, both dried or salted.",
+    "source_keys": [
+      "witczak2025-imported-fish-elements-poland",
+      "nava2026-messina-cod-products-elements",
+      "fda2022-tds-elements-fy2018-fy2020"
+    ],
+    "citation_spans": [
+      {
+        "after": "Inorganic arsenic in cod has not been measured in any cited source.",
+        "source_keys": [
+          "witczak2025-imported-fish-elements-poland",
+          "nava2026-messina-cod-products-elements",
+          "fda2022-tds-elements-fy2018-fy2020"
+        ]
+      },
+      {
+        "after": "Aluminum rests on one study of imported Pacific cod without collection years.",
+        "source_keys": [
+          "witczak2025-imported-fish-elements-poland"
+        ]
+      },
+      {
+        "after": "Only two Atlantic cod products were measured, both dried or salted.",
+        "source_keys": [
+          "nava2026-messina-cod-products-elements"
+        ]
+      }
+    ]
+  }
+}

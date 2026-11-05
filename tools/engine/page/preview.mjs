@@ -28,6 +28,9 @@ export function buildPreview(compiled, finalRel, { quiet = true } = {}) {
     const sources = [...new Set(compiled.flatMap(previewSources))];
     const coverage = collectPreviewContext({ base: root, pages, syntheses: compiled.map(c => c.synthesis), sources, extraTargets: ['authors/karen-pendergrass', 'sources/index'], maxContextPages: 80 * compiled.length });
     const files = [...new Set([...sources, ...coverage.context_pages.map(x => x.path)])].filter(f => f !== 'wiki/sources/index.md' && !pages.includes(f) && exists(f));
+    // Metal pages split their evidence tables into generated metals/<slug>/evidence pages,
+    // and Quartz refuses to split without them, so stage those alongside each metal page.
+    for (const f of [...files]) { const m = f.match(/^wiki\/metals\/([^/]+)\.md$/); const dir = m && path.join(root, 'wiki/metals', m[1]); if (dir && fs.existsSync(dir)) for (const e of fs.readdirSync(dir)) if (e.endsWith('.md')) files.push(`wiki/metals/${m[1]}/${e}`); }
     for (const f of files) { const to = path.join(stagingRoot, f); fs.mkdirSync(path.dirname(to), { recursive: true }); fs.copyFileSync(path.join(root, f), to); }
     for (const c of compiled) { const to = path.join(stagingRoot, wikiPath(c.page)); fs.mkdirSync(path.dirname(to), { recursive: true }); fs.writeFileSync(to, c.candidate); }
     const baseline = 'data/evidence/contracts/pilot-2026-10-17/baseline.json';

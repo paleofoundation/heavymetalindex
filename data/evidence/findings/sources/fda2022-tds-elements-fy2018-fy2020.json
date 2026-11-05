@@ -1,0 +1,28 @@
+{
+ "source_id": "fda2022-tds-elements-fy2018-fy2020",
+ "primary_artifact": "data/evidence/fda_tds_fy2018_2020_element_results_samples.csv",
+ "primary_sha256": "47d4fbe68949204983f14146c0c29172f3a392a66abb14b5707acc58660b7636",
+ "extracted_at": "2026-11-05",
+ "extractor": "fda-tds-sample-csv",
+ "disposition": "occurrence_extracted",
+ "extraction_scope": "cod-rows-only",
+ "disposition_reason": "FDA TDS food 387 (Cod, baked) composite results for total arsenic, cadmium, chromium, lead, total mercury, nickel and uranium, 27 composites each, read from the FY2018-FY2020 sample results file. Other foods were not extracted for this page.",
+ "disposition_locator": "FDA TDS FY2018-FY2020 elements results, food 387",
+ "study": {
+  "design": "US Total Diet Study prepared-food composites",
+  "origin": "not stated",
+  "market": "United States retail, regional and national collections",
+  "period": {
+   "from": 2017,
+   "to": 2020,
+   "as_reported": "fiscal years 2018 to 2020"
+  },
+  "method": "FDA Elemental Analysis Manual ICP-MS; total arsenic and total mercury",
+  "basis": "as_sold",
+  "site_context": "monitoring",
+  "sampling_unit": "composites"
+ },
+ "findings": [],
+ "controls": [],
+ "sample_values": []
+}

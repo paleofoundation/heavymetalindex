@@ -1,0 +1,31 @@
+{
+ "entries": [
+  {
+   "source_id": "eu-2023-915-contaminants-maximum-levels",
+   "jurisdiction": "EU",
+   "analyte": "Pb",
+   "value": 300,
+   "unit": "µg/kg",
+   "applies_to": "muscle meat of fish",
+   "basis": "wet weight"
+  },
+  {
+   "source_id": "eu-2023-915-contaminants-maximum-levels",
+   "jurisdiction": "EU",
+   "analyte": "Cd",
+   "value": 50,
+   "unit": "µg/kg",
+   "applies_to": "muscle meat of fish",
+   "basis": "wet weight"
+  },
+  {
+   "source_id": "eu-2023-915-contaminants-maximum-levels",
+   "jurisdiction": "EU",
+   "analyte": "tHg",
+   "value": 300,
+   "unit": "µg/kg",
+   "applies_to": "muscle meat of Atlantic cod and other listed lower mercury fish",
+   "basis": "wet weight"
+  }
+ ]
+}
