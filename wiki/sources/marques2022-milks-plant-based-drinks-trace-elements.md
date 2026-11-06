@@ -16,7 +16,7 @@ raw_sha256: "c4a9ea041c237c439a2a6bd4d1f346b6d20718d7cefb44eced22089115cc6742"
 metals: [Pb, tHg, Ni, Co, U]
 products: [infant-formula-powder-non-soy]
 context_only_products: [infant-formula-stage1]
-ingredients: [cow-milk-based-infant-formula, soy-based-infant-formula]
+ingredients: [cow-milk-infant-formula, soy-based-infant-formula]
 matrices: [infant-formula, cow-milk, plant-based-drinks]
 jurisdictions: [ES]
 sample_n: 32
