@@ -12,6 +12,10 @@ hero_image_alt: "Unmarked glass laboratory vessels, a closed notebook, sampling 
 
 Health pages address the toxicology, routes of exposure, dose-response relationships, and vulnerable-population considerations for the metals in scope. Content is drawn from peer-reviewed toxicology, regulatory scientific opinions (such as European Food Safety Authority panels), and authoritative reviews. Pages are written to be usable by regulatory and scientific readers; consumer-facing explanations are tagged in-page and are anchored to specific populations, doses, and consumption frequencies rather than undefined qualifiers.
 
+## Pages
+
+- [[health/immunotoxicity|Immunotoxicology of metals]]
+
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
