@@ -13,7 +13,7 @@ raw_path: "raw/Digest/urinary_biomarkers_of_exposure_to_toxic_and.4.pdf"
 access_url: "https://doi.org/10.1097/EE9.0000000000000286"
 metals: [iAs, tAs, Pb, Cd, Hg, Mn]
 ingredients: ["[[ingredients/breastmilk]]", "[[ingredients/non-soy-infant-formula]]"]
-products: ["[[products/infant-formula-powder-non-soy]]"]
+products: ["[[products/infant-formula-powder-non-soy]]", "[[products/ready-to-feed-formula]]"]
 matrices: [infant-urine, breastmilk, infant-formula, prospective-cohort]
 jurisdictions: [US]
 sample_n_notes: "U.S. infant cohort (Dartmouth + Brigham/Harvard collaboration); urinary biomarkers paired with feeding-mode classification"

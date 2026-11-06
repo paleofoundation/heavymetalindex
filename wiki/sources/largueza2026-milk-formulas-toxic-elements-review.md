@@ -15,7 +15,7 @@ raw_path: "raw/Manual Fetch Discovery/largueza2026-milk-formulas-toxic-elements-
 raw_sha256: "799fb0233639f064512e01fb410d81ffc0c2fbc59b5638bc736d791b311f2f5e"
 metals: [Al, iAs, tAs, Cd, Co, Cr, Cu, Fe, MeHg, Mn, Ni, Pb, U, Zn]
 ingredients: ["[[ingredients/non-soy-infant-formula]]", "[[ingredients/soy-based-infant-formula]]"]
-products: ["[[products/infant-formula-powder]]", "[[products/infant-formula-powder-non-soy]]", "[[products/infant-formula-powder-soy-based]]"]
+products: ["[[products/infant-formula-powder]]", "[[products/infant-formula-powder-non-soy]]", "[[products/infant-formula-powder-soy-based]]", "[[products/ready-to-feed-formula]]"]
 matrices: [infant-formula, follow-on-formula, products-for-young-children, as-placed-on-market]
 jurisdictions: [BR, EU, US, global]
 near_duplicates: []

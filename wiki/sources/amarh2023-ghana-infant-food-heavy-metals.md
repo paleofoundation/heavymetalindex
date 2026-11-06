@@ -15,7 +15,7 @@ access_url: https://doi.org/10.1016/j.heliyon.2023.e16225
 raw_sha256: "13b4df3103222e2c0a1dc1dd51485129a9cc7f9619eb46abfd2b7d539e1dee57"
 metals: [tAs, Cd, Cr, tHg, Mn, Ni, Pb, Sb]
 ingredients: ["[[ingredients/baby-food]]", "[[ingredients/infant-formula-ingredients]]"]
-products: ["[[products/infant-food-general]]", "[[products/baby-food]]"]
+products: ["[[products/infant-food-general]]", "[[products/baby-food]]", "[[products/ready-to-feed-formula]]"]
 matrices: [baby-foods-and-formulas, baby-food, infant-formula, as-sold]
 jurisdictions: [GH]
 sample_n: 22
