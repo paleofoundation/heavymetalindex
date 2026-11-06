@@ -18,7 +18,7 @@ sha256: 22b965cdac66cb574e118ed68a9a414f96ecfbf98c7e7d8e69a286f66dc931ee
 access_date: 2026-11-04
 license: "CC BY"
 metals: [Cd, tAs, Pb, tHg]
-ingredients: ["[[ingredients/melon-seeds]]"]
+ingredients: ["[[ingredients/oilseeds]]"]
 products: []
 matrices: [melon-seeds, oilseeds]
 jurisdictions: [GH]
@@ -66,7 +66,7 @@ Six markets is a reasonable but not comprehensive sample of the Ghanaian market.
 ## Related evidence
 
 - [[health/dietary-heavy-metal-exposure]]
-- [[ingredients/melon-seeds]]
+- [[ingredients/oilseeds]]
 - [[metals/cadmium]]
 - [[metals/total-arsenic]]
 

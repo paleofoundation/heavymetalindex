@@ -18,7 +18,7 @@ sha256: 19ffe4ebd648b35148effb6e463af4381cceeba29b106ed7beee1a34cdfabd94
 access_date: 2026-11-04
 license: "CC BY-NC-ND"
 metals: [tAs, Pb, Cd, Cu, Zn]
-ingredients: ["[[ingredients/yam]]", "[[ingredients/cassava]]", "[[ingredients/cocoyam]]", "[[ingredients/waterleaf]]"]
+ingredients: ["[[ingredients/yam]]", "[[ingredients/cassava]]", "[[ingredients/leafy-greens]]"]
 products: []
 matrices: [root-tubers, vegetables, staple-crops]
 jurisdictions: [NG]

@@ -18,7 +18,7 @@ sha256: 2ae4816c45847ed86226c469353be302e904c9412cd5798d6b7bed46ba300320
 access_date: 2026-11-04
 license: "CC BY"
 metals: [tHg, Pb, Cd, tAs, Cr, Cu, Zn]
-ingredients: ["[[ingredients/ginger]]"]
+ingredients: ["[[ingredients/spices]]"]
 products: []
 matrices: [fresh-ginger, split-dried-ginger, milled-ginger, market-ginger]
 jurisdictions: [NG]
@@ -60,7 +60,7 @@ Sample sizes per stage not fully reported. CRM recovery data not stated in abstr
 ## Related evidence
 
 - [[health/dietary-heavy-metal-exposure]]
-- [[ingredients/ginger]]
+- [[ingredients/spices]]
 - [[metals/total-mercury]]
 - [[metals/lead]]
 

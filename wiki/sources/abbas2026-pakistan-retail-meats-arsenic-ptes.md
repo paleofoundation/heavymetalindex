@@ -18,8 +18,8 @@ sha256: 0e48b2faa615b434cf53852c3faa29823f079f770df6008b29e7568dc18001b2
 access_date: 2026-11-04
 license: "CC BY"
 metals: [Cd, tAs, Cr, Ni, Pb, Mn, Cu, Zn]
-ingredients: ["[[ingredients/chicken]]", "[[ingredients/goat-meat]]", "[[ingredients/beef]]"]
-products: ["[[products/meat]]", "[[products/poultry]]"]
+ingredients: ["[[ingredients/chicken]]", "[[ingredients/meat-and-poultry]]", "[[ingredients/beef]]"]
+products: ["[[products/processed-meats]]", "[[products/poultry-product]]"]
 matrices: [chicken-muscle, mutton-muscle, beef-muscle, chicken-liver, goat-liver, beef-liver, retail-meat]
 jurisdictions: [PK]
 superseded_by: null

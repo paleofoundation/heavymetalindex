@@ -18,8 +18,8 @@ sha256: 1e0565d24e0c22bdfe2785fda16a51a1c2e0a2a9d2921a74dc903168ce836447
 access_date: 2026-11-04
 license: "CC BY"
 metals: [Pb, Cd, Cr, tAs]
-ingredients: ["[[ingredients/fish]]", "[[ingredients/meat]]", "[[ingredients/cereals]]", "[[ingredients/milk]]", "[[ingredients/dairy]]", "[[ingredients/tea]]", "[[ingredients/coffee]]", "[[ingredients/salt]]"]
-products: ["[[products/canned-fish]]", "[[products/canned-meat]]", "[[products/processed-cereals]]"]
+ingredients: ["[[ingredients/fish]]", "[[ingredients/meat]]", "[[ingredients/cereals]]", "[[ingredients/milk-and-dairy]]", "[[ingredients/tea]]", "[[ingredients/coffee]]", "[[ingredients/salt]]"]
+products: ["[[products/canned-fish]]", "[[products/canned-meats]]", "[[products/breakfast-cereals]]"]
 matrices: [beverages, processed-cereals, milk-dairy-products, canned-fish-meat, table-salt]
 jurisdictions: [EG]
 superseded_by: null
