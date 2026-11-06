@@ -5,8 +5,12 @@
 // --skip wins. The work list may be a top-level array, an array or id map
 // under items/work/nodes/queue (including one level under meta or data), or
 // fields nested in properties. A numeric 0 or boolean false blocker is empty.
-// Otherwise the lowest DEPOSITED ingredient or product id that still needs a
-// page is used. LIVE, BUILT, and later ledger states are not eligible.
+// A fill item with no top-level slug still qualifies when pages[] includes an
+// ingredient or product path or URL. On one page, path is preferred over URL.
+// An explicit ingredient or product kind prefers a page of that family;
+// otherwise the first usable page wins. When the graph has no eligible item,
+// the lowest DEPOSITED ingredient or product id that still needs a page is
+// used. LIVE, BUILT, and later ledger states are not eligible.
 // --skip names open evidence-fill branches. When nothing is picked, stderr
 // names how many graph items were visible and why the rest were skipped.
 //
@@ -86,7 +90,17 @@ function normalizeKeys(record) {
   return out
 }
 
-function pageOf(record) {
+const FAMILY_PAGE = /(?:^|\/)(ingredients|products)\/([a-z0-9-]+)(?:\.md)?\/?(?:[?#].*)?$/i
+
+function familyPage(text) {
+  const match = FAMILY_PAGE.exec(String(text || "").replace(/\\/g, "/"))
+  if (!match) return null
+  const slug = match[2].toLowerCase()
+  if (!SLUG.test(slug) || slug.startsWith("hmi-")) return null
+  return { kind: match[1].toLowerCase() === "ingredients" ? "ingredient" : "product", slug }
+}
+
+function directPage(record) {
   return asText(
     record.wiki_path ||
       record.page ||
@@ -99,22 +113,76 @@ function pageOf(record) {
   )
 }
 
+function pageCandidates(page) {
+  if (typeof page === "string") {
+    const text = asText(page)
+    return text ? [text] : []
+  }
+  if (!page || typeof page !== "object" || Array.isArray(page)) return []
+  const fields = normalizeKeys(page)
+  return [
+    fields.path,
+    fields.wiki_path,
+    fields.page,
+    fields.page_url,
+    fields.target,
+    fields.url,
+    fields.wiki,
+    fields.href,
+  ]
+    .map(asText)
+    .filter(Boolean)
+}
+
+function listedPages(record) {
+  const pages = record.pages
+  if (Array.isArray(pages)) return pages
+  if (pages && typeof pages === "object") return [pages]
+  return []
+}
+
+function explicitFamily(record) {
+  const explicit = asText(record.kind || record.type || record.family || record.page_type || record.entity_type).toLowerCase()
+  if (explicit.includes("ingredient")) return "ingredient"
+  if (explicit.includes("product")) return "product"
+  return null
+}
+
+function pageOf(record) {
+  const direct = directPage(record)
+  const directFamily = familyPage(direct)
+  const preferred = explicitFamily(record)
+  if (directFamily && (!preferred || directFamily.kind === preferred)) return direct
+  let firstFamily = directFamily ? direct : ""
+  let firstText = direct
+  for (const page of listedPages(record)) {
+    for (const text of pageCandidates(page)) {
+      if (!firstText) firstText = text
+      const family = familyPage(text)
+      if (!family) continue
+      if (!firstFamily) firstFamily = text
+      if (!preferred || family.kind === preferred) return text
+    }
+  }
+  return firstFamily || firstText
+}
+
 function kindOf(record, id) {
   const explicit = asText(record.kind || record.type || record.family || record.page_type || record.entity_type).toLowerCase()
   if (explicit.includes("ingredient")) return "ingredient"
   if (explicit.includes("metal")) return "metal"
   if (explicit.includes("product")) return "product"
   const page = pageOf(record)
-  if (page.includes("ingredients/")) return "ingredient"
+  const family = familyPage(page)
+  if (family) return family.kind
   if (page.includes("metals/")) return "metal"
-  if (page.includes("products/")) return "product"
   if (id.startsWith("HMI-METAL-")) return "metal"
   if (id.startsWith("HMI-ING-")) return "ingredient"
   if (id.startsWith("HMI-FILL-") && (record.slug || record.ingredient || record.ingredient_slug)) return "ingredient"
   return null
 }
 
-function slugOf(record, id) {
+function directSlug(record) {
   const direct = asText(
     record.slug ||
       record.ingredient_slug ||
@@ -126,9 +194,11 @@ function slugOf(record, id) {
       record.wiki_slug,
   ).toLowerCase()
   if (SLUG.test(direct) && !direct.startsWith("hmi-")) return direct
-  const fromPath = pageOf(record).match(/(?:^|\/)(?:ingredients|products)\/([a-z0-9-]+)(?:\.md)?\/?$/i)
-  if (fromPath) return fromPath[1].toLowerCase()
-  return slugFromIngredientId(id)
+  return null
+}
+
+function slugOf(record, id) {
+  return directSlug(record) || familyPage(pageOf(record))?.slug || slugFromIngredientId(id)
 }
 
 function unitFromRecord(record, rank, dir) {
@@ -597,8 +667,9 @@ function readGraph(root, units, { skip = [] } = {}) {
       continue
     }
     const ledger = byId.get(id)
-    const kind = kindOf(fields, id) || ledger?.kind || null
-    const slug = slugOf(fields, id) || ledger?.slug || namedSlug(fields)
+    const named = directSlug(fields)
+    const fromPage = familyPage(pageOf(fields))
+    const slug = named || fromPage?.slug || slugFromIngredientId(id) || ledger?.slug || namedSlug(fields)
     if (!slug) {
       graph.skipped.no_slug++
       continue
@@ -608,6 +679,7 @@ function readGraph(root, units, { skip = [] } = {}) {
     const recordDir = asText(fields.dir || fields.deposit_dir || fields.folder)
     const dir = recordDir || ledger?.dir || path.join("deposits", id)
     const status = normalizeStatus(fields.status || fields.state || fields.mark) || ledger?.status || "DEPOSITED"
+    const kind = (!named && fromPage ? fromPage.kind : null) || kindOf(fields, id) || ledger?.kind || null
     graph.unit = { id, status, kind, slug, dir, rank: ledger?.rank ?? 0 }
   }
   graph.builders = [...builders.entries()].slice(0, 8).map(([name, count]) => `${name.slice(0, 60)}=${count}`)
