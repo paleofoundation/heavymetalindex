@@ -2,8 +2,8 @@
   "order": "HMI-STRUCTURE-SPEC-1",
   "date": "2026-10-16",
   "note": "Warn-only baseline. CI fails only when a page newly fails a check. Counts are pages, not occurrences. Stubs are exempt only from section_presence_and_order.",
-  "pages_scanned": 931,
-  "stubs_exempt_from_sections": 525,
+  "pages_scanned": 932,
+  "stubs_exempt_from_sections": 526,
   "checks": {
     "answer_block": {
       "pages": 44,
@@ -382,7 +382,7 @@
       ]
     },
     "generic_headings": {
-      "pages": 530,
+      "pages": 528,
       "paths": [
         "wiki/ingredients/almond-beverage.md",
         "wiki/ingredients/applesauce.md",
@@ -878,10 +878,8 @@
         "wiki/metals/bismuth.md",
         "wiki/metals/boron.md",
         "wiki/metals/cadmium.md",
-        "wiki/metals/cesium.md",
         "wiki/metals/chromium-hexavalent.md",
         "wiki/metals/chromium.md",
-        "wiki/metals/cobalt.md",
         "wiki/metals/copper.md",
         "wiki/metals/gallium.md",
         "wiki/metals/germanium.md",
@@ -1592,7 +1590,7 @@
       ]
     },
     "section_presence_and_order": {
-      "pages": 120,
+      "pages": 118,
       "paths": [
         "wiki/ingredients/beverages.md",
         "wiki/ingredients/bivalve-molluscs.md",
@@ -1695,9 +1693,7 @@
         "wiki/metals/barium.md",
         "wiki/metals/beryllium.md",
         "wiki/metals/cadmium.md",
-        "wiki/metals/cesium.md",
         "wiki/metals/chromium-hexavalent.md",
-        "wiki/metals/cobalt.md",
         "wiki/metals/gold.md",
         "wiki/metals/lead.md",
         "wiki/metals/lithium.md",
@@ -1717,7 +1713,7 @@
       ]
     },
     "uncertainty_note": {
-      "pages": 613,
+      "pages": 609,
       "paths": [
         "wiki/ingredients/almond-beverage.md",
         "wiki/ingredients/applesauce.md",
@@ -2067,7 +2063,6 @@
         "wiki/products/infant-formula-rtf-liquid-non-soy.md",
         "wiki/products/infant-formula-rtf-liquid-soy-based.md",
         "wiki/products/infant-formula-rtf-soy.md",
-        "wiki/products/infant-formula-stage1.md",
         "wiki/products/infant-formula.md",
         "wiki/products/infant-juice.md",
         "wiki/products/infant-porridges-dairy-free.md",
@@ -2180,7 +2175,6 @@
         "wiki/products/pumpkin-pie.md",
         "wiki/products/ramen-soup.md",
         "wiki/products/ranch-dressing.md",
-        "wiki/products/ready-to-feed-formula.md",
         "wiki/products/red-wine.md",
         "wiki/products/regulatory-crosswalk-field-findings.md",
         "wiki/products/research-chem-raw-powders.md",
@@ -2317,9 +2311,7 @@
         "wiki/metals/barium.md",
         "wiki/metals/beryllium.md",
         "wiki/metals/cadmium.md",
-        "wiki/metals/cesium.md",
         "wiki/metals/chromium-hexavalent.md",
-        "wiki/metals/cobalt.md",
         "wiki/metals/lead.md",
         "wiki/metals/lithium.md",
         "wiki/metals/mercury-methyl.md",
