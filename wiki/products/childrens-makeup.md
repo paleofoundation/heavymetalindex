@@ -9,16 +9,16 @@ category_label: "Infant and Child Personal Care"
 age_range: "0-5"
 evidence_fitness: EF-5
 public_evidence_label: Modeled or limited evidence
-review_state: scaffolded
+review_state: partially-populated
 vulnerable_population: infants-and-children-0-5
-primary_metals_of_concern: [Pb, Ni, Cr]
+primary_metals_of_concern: [Pb, Ni, Cr, Cd]
 applicable_regulations: []
 variant_type: whole_row_platform
 platform_metals: [Pb, Ni, Cr]
 audience: [regulator, educator, consumer, brand-legal]
 wiki_doi: null
-updated: 2026-05-16
-sources: 23
+updated: 2026-11-06
+sources: 24
 created_by: cat2_step0_scaffold_2026_05_16
 hero_image: /static/heroes/lip-balms-cosmetic-compacts.webp
 hero_image_alt: "Unmarked lip-balm tubes with pale and rose-tinted tips beside an open cosmetic powder compact illustrating childrens makeup product-format context."
@@ -29,7 +29,7 @@ hero_image_alt: "Unmarked lip-balm tubes with pale and rose-tinted tips beside a
 
 Cosmetic makeup products marketed for ages 0-5 (eye shadow, blush, foundation, bronzer formulated and sold as children's product). Whole-row platform — every commercial product in this row uses mineral cosmetic pigments (iron oxides, ultramarines, mica, bismuth oxychloride) which carry Pb/Ni/Cr platform load. No within-row split because no clean-counterpart variant exists in this row.
 
-This page is a Step 0 lock scaffold for Cat 2 Row 13. Literature evidence will be populated as routed source pages accumulate per the synthesis workflow. The Step 0 lock document at `Category2_Clean_vs_Contaminated_Splits.md` is the canonical reference for the row's clean-vs-contaminated framing and platform attribution.
+This page was scaffolded as a Step 0 lock entry for Cat 2 Row 13. The Step 0 lock document at `Category2_Clean_vs_Contaminated_Splits.md` is the canonical reference for the row's clean-vs-contaminated framing and platform attribution. Direct cadmium evidence in children's eyeshadow and blush products from Brazil has now been loaded from [[sources/desouza2026-cadmium-makeup-brazil-mdspe]]; evidence for the platform metals (lead, nickel, chromium) in specifically children-marketed makeup products remains a data gap pending further source routing.
 
 ## Who this page is for
 
@@ -58,14 +58,25 @@ Methodology rules for speciation, basis preservation, non-detect handling, and s
 
 | Analyte | Subcategory | Reported concentration range | Detection rate | Applicable regulatory cap | Sources | Confidence | Basis |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| [[metals/lead\|Pb]] | Children's Makeup (ages 0-5) (no contributing evidence loaded) | No concentration data loaded for this analyte | Sample-level detection rate not reported | No applicable cap loaded | 0 | data gap | Basis not reported |
-| [[metals/nickel\|Ni]] | Children's Makeup (ages 0-5) (no contributing evidence loaded) | No concentration data loaded for this analyte | Sample-level detection rate not reported | No applicable cap loaded | 0 | data gap | Basis not reported |
-| [[metals/chromium\|Cr]] | Children's Makeup (ages 0-5) (no contributing evidence loaded) | No concentration data loaded for this analyte | Sample-level detection rate not reported | No applicable cap loaded | 0 | data gap | Basis not reported |
+| [[metals/lead\|Pb]] | Children's Makeup (ages 0-5): platform metal, no direct children's-product measurement in current evidence set | No direct measurement in children-marketed makeup products loaded; platform attribution from mineral pigment ingredients (iron oxides, ultramarines, mica) | Sample-level detection rate not reported for children's products specifically | No binding finished-product cap; Washington TFCA and NY TCCP set state-level limits; EU 1223/2009 provides ingredient restrictions | 0 direct | data gap | Finished product as sold |
+| [[metals/nickel\|Ni]] | Children's Makeup (ages 0-5): platform metal, no direct children's-product measurement in current evidence set | No direct measurement in children-marketed makeup products loaded; platform attribution from mineral pigment ingredients | Sample-level detection rate not reported for children's products specifically | No applicable cap loaded | 0 direct | data gap | Finished product as sold |
+| [[metals/chromium\|Cr]] | Children's Makeup (ages 0-5): platform metal, no direct children's-product measurement in current evidence set | No direct measurement in children-marketed makeup products loaded; platform attribution from mineral pigment ingredients | Sample-level detection rate not reported for children's products specifically | Health Canada 1 mg/kg (total Cr); no finished-product Cr-VI cap in cosmetics | 0 direct | data gap | Finished product as sold |
+| [[metals/cadmium\|Cd]] | Children's Makeup (ages 0-5): eyeshadow and blush, Brazilian market | 0.54 to 17.99 mg/kg in children's products (8 of 13 children's products positive); overall range including adult products 0.54 to 25.72 mg/kg | 61.5% (8 of 13) in children's products; 55.2% (16 of 29) overall | German BVL technically avoidable 0.1 mg/kg; Health Canada guidance 3 mg/kg; ASEAN 5 mg/kg; Brazil: no limit | 1 | low (single study, one market) | Finished product as sold, dry powder |
 <!-- END: hmi-hmtc-evidence-summary -->
+
+<!-- BEGIN: hmi-cited-measurements -->
+
+## Reported measurements
+
+De Souza and colleagues, 2026, Brazil. MDSPE-FAAS (magnetic dispersive solid-phase extraction coupled with flame atomic absorption spectrometry). 29 commercial eyeshadow and blush products from the Brazilian market: 13 children's products and 16 adult products. Cadmium only; no other metals measured. Cadmium was detected in 16 of 29 samples (55.2%). Detection rate by category: children's products 61.5% (8 of 13); adult products 50.0% (8 of 16). Concentration range across all positive samples: 0.54 to 25.72 mg/kg. Highest single concentration in a children's product: 17.99 mg/kg (sample 25); highest concentration overall: 25.72 mg/kg (in an adult product, sample 1). The source conducted a health risk assessment using SCCS and USEPA frameworks. Noncarcinogenic risk (hazard quotient) remained below 1 for all positive samples, including all children's products. Lifetime cancer risk exceeded the 10 to the negative 4 conservative threshold for all 16 cadmium-positive samples; mean children's product lifetime cancer risk was 3.4 times higher than adult product mean, primarily attributable to the lower body weight assumed for children. The source notes that 100% of cadmium-positive samples exceeded the German BVL technically avoidable limit of 0.1 mg/kg, 75% exceeded Health Canada's 3 mg/kg guidance, and 68.8% exceeded the ASEAN 5 mg/kg guideline. Brazil had no specific cadmium limit for finished cosmetics at time of publication. LOD 0.0016 mg/L; LOQ 0.0053 mg/L. [[sources/desouza2026-cadmium-makeup-brazil-mdspe]]
+
+<!-- END: hmi-cited-measurements -->
 
 ## Source Evidence Inventory
 
-_Hand-curated section. Populated by the synthesis pass as Cat 2 sources are ingested and route to this row. Initial scaffold state: zero contributing sources._
+De Souza et al. 2026 ([[sources/desouza2026-cadmium-makeup-brazil-mdspe]]): direct A-tier evidence. 13 children's eyeshadow and blush products from the Brazilian market. Cadmium measured by MDSPE-FAAS. Detection rate 61.5%; concentration 0 to 17.99 mg/kg in children's products. Health risk assessment under SCCS and USEPA frameworks shows acceptable noncarcinogenic but elevated carcinogenic modeled risk.
+
+Platform metals (lead, nickel, chromium): no direct evidence in specifically children-marketed makeup products from this deposit. Existing sources 5 and 6 in the sources legend (Kopru 2024 and Mercan 2024) cover Turkey-market children's cosmetics and toy makeup and provide the nearest direct-measurement evidence for the platform metals in this row.
 
 ## Broad Product Context: Author-Scope Index
 
@@ -126,6 +137,7 @@ Cat 2 (children's personal care) regulatory enforcement is fragmented: cosmetics
 | 21 | [[sources/ny-dec-tccp-2023-chem-pqls-draft\|New York State Department 2023]]. *Toxic Chemicals in Children's Products Program: Chemicals and Practical Quantitation Limits Under Consideration (Draft Update, Feb. 2023)*, NY DEC Toxic Chemicals in Children's Products Program — stakeholder draft for public comment | 2023 | Regulation | Contribution to this topic remains under review; see the source record for its reported scope. |
 | 22 | [[sources/wa-tfca-hb1047-2023\|Legislature 2023]]. *Washington State Toxic-Free Cosmetics Act (HB 1047) — statutory cap on heavy metals in cosmetic products*, Washington State Session Laws, Chapter 455, Laws of 2023 (2023 c 455), codified as Chapter 70A.560 RCW | 2023 | Regulation | Contribution to this topic remains under review; see the source record for its reported scope. |
 | 23 | [[sources/eu-2009-1223-cosmetic-products-regulation\|Parliament et al. 2009]]. *Regulation (EC) No 1223/2009 of the European Parliament and of the Council of 30 November 2009 on cosmetic products (recast)*, Official Journal of the European Union, L 342, 22.12.2009, p. 59-209 | 2009 | Regulation | Contribution to this topic remains under review; see the source record for its reported scope. |
+| 24 | [[sources/desouza2026-cadmium-makeup-brazil-mdspe\|de Souza et al. 2026]]. *Health Risk Assessment of Cadmium in Brazilian Makeup Products Using a Novel MDSPE-FAAS Method*, ACS Omega 2026, 11, 46568-46582 | 2026 | Peer-reviewed | BR Cd occurrence in 29 commercial makeup products (eyeshadows and blushes) from the Brazilian market, explicitly including 13 products marketed for children: Cd detected in 61.5% of children's products at 0.54 to 17.99 mg/kg; health risk assessment via SCCS and USEPA frameworks (n=29) |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -135,9 +147,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| pending | 2026-11-06 | major | Evidence fill HMI-PROD-childrens-makeup-1: added reported measurements from de Souza et al. 2026 (Cd in Brazilian children's eyeshadow/blush), populated literature evidence summary Cd row, added 6 new source pages |
 | [ad172bca7](https://github.com/paleofoundation/heavymetalindex/commit/ad172bca7) | 2026-08-09 | correction | Narrative text revised |
 | [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added; narrative text revised |
 | [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
 | [91c7d5591](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591) | 2026-08-02 | minor | Narrative text revised |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 <!-- END: hmi-page-history -->
