@@ -28,7 +28,7 @@ sampling_year_range: null
 updated: 2026-11-06
 ---
 
-# Pilli et al. 2024 — Yellow gypsum amendment reduces arsenic bioavailability in groundnut and boro-rice
+# Pilli et al. 2024 - Yellow gypsum amendment reduces arsenic bioavailability in groundnut and boro-rice
 
 ## Overview
 

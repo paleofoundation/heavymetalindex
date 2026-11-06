@@ -28,7 +28,7 @@ sampling_year_range: null
 updated: 2026-11-06
 ---
 
-# Shao et al. 2022 — Selenium and biochar reduce cadmium in peanut grains under Cd stress
+# Shao et al. 2022 - Selenium and biochar reduce cadmium in peanut grains under Cd stress
 
 ## Overview
 

@@ -28,7 +28,7 @@ sampling_year_range: null
 updated: 2026-11-06
 ---
 
-# Chen et al. 2017 — AhIRT1 and AhNRAMP1 transporters drive cadmium uptake in peanuts under iron deficiency
+# Chen et al. 2017 - AhIRT1 and AhNRAMP1 transporters drive cadmium uptake in peanuts under iron deficiency
 
 ## Overview
 
