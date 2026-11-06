@@ -10,6 +10,7 @@ aliases:
   - lake fish
   - inland fish
   - sport fish
+  - silver carp
 category: aquatic-protein
 audience:
   - regulator
