@@ -18,12 +18,19 @@
 # does not start the CI workflows auto-merge waits for).
 #
 # A schedule run's github.actor is the account that last changed the cron line
-# below (PR 508 was merged by the Cursor app, so the actor is cursor[bot]).
-# cursor[bot] has no write permission, and Anthropic's OIDC app-token exchange
-# rejects it with 401. Bot actors therefore pass this job's GITHUB_TOKEN into
-# the action and then dispatch CI. A human actor still uses the app token.
-# After Claude returns, bot actors put that job token back on origin: the
-# action rewrites the remote, and its post step can leave a dead credential.
+# below. That account is often a human, the person who last merged this file,
+# so the name does not end in [bot]. An empty github_token sends the run through
+# Anthropic's OIDC app-token exchange, which returns 401 when that identity
+# lacks write access. A bot actor such as cursor[bot] has the same 401, because
+# that app has no write permission.
+# Schedule runs always pass this job's GITHUB_TOKEN into the action, and bot
+# actors do too. Those runs then dispatch CI, because the job token does not
+# start the pull_request workflows auto-merge waits for. A human
+# workflow_dispatch leaves github_token empty so the app-token path is used
+# when the Claude app has write access.
+# After Claude returns, schedule runs and bot actors put that job token back
+# on origin: the action rewrites the remote, and its post step can leave a
+# dead credential.
 # The cron is minute 17, not minute 0: GitHub delays and then drops a scheduled
 # run that is still waiting when the next tick is due, and the top of the hour
 # is when that delay is worst.
@@ -219,7 +226,7 @@ jobs:
         with:
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           show_full_output: "true"
-          github_token: "${{ endsWith(github.actor, '[bot]') && github.token || '' }}"
+          github_token: "${{ (github.event_name == 'schedule' || endsWith(github.actor, '[bot]')) && github.token || '' }}"
           allowed_bots: "github-actions[bot],claude[bot],cursor[bot]"
           base_branch: main
           branch_prefix: evidence-fill/
@@ -228,11 +235,12 @@ jobs:
           claude_args: |
             --allowedTools "Bash,Read,Edit,Write,Grep,Glob"
             --max-turns 80
-      # Bot actors must re-auth after claude-code-action. That action embeds the
-      # github_token it was given (this job's GITHUB_TOKEN) in origin and strips
-      # checkout's extraheader. Its post step can leave a dead or password-style
-      # remote, so the next git fetch fails with "Invalid username or token".
-      # A human actor keeps the Claude app token when that token still authenticates.
+      # Schedule runs and bot actors must re-auth after claude-code-action. That
+      # action embeds the github_token it was given (this job's GITHUB_TOKEN) in
+      # origin and strips checkout's extraheader. Its post step can leave a dead
+      # or password-style remote, so the next git fetch fails with "Invalid
+      # username or token". A human workflow_dispatch keeps the Claude app token
+      # when that token still authenticates.
       - name: Restore git authentication
         id: gitauth
         if: steps.pick.outputs.unit != ''
@@ -280,7 +288,7 @@ jobs:
             basic="$(printf 'x-access-token:%s' "$tok" | base64 -w 0)"
             git config --local "http.${GITHUB_SERVER_URL}/.extraheader" "AUTHORIZATION: basic ${basic}"
           }
-          if [[ "${ACTOR}" == *'[bot]' ]]; then
+          if [ "${GITHUB_EVENT_NAME}" = "schedule" ] || [[ "${ACTOR}" == *'[bot]' ]]; then
             token="${JOB_TOKEN}"
             kind="job"
           elif [ -n "${CLAUDE_APP_TOKEN}" ] && token_accepted "${CLAUDE_APP_TOKEN}"; then
@@ -482,9 +490,10 @@ jobs:
           export GH_TOKEN="$token"
           # A push with the workflow GITHUB_TOKEN does not start pull_request
           # workflows. Dispatch CI onto this branch so the checks still run.
-          # Human actors that still hold a live Claude app token push with it
-          # and do not need this dispatch.
-          if [ "${GIT_AUTH_KIND}" = "job" ] || { [ -z "${GIT_AUTH_KIND}" ] && [[ "${GITHUB_ACTOR}" == *"[bot]"* ]]; }; then
+          # Schedule runs and bot actors push with the job token. A human
+          # workflow_dispatch that still holds a live Claude app token pushes
+          # with it and does not need this dispatch.
+          if [ "${GIT_AUTH_KIND}" = "job" ] || [ "${GITHUB_EVENT_NAME}" = "schedule" ] || { [ -z "${GIT_AUTH_KIND}" ] && [[ "${GITHUB_ACTOR}" == *"[bot]"* ]]; }; then
             echo "Actor ${GITHUB_ACTOR} is pushing with the workflow token. Dispatching CI on ${target}."
             dispatched=false
             for _ in 1 2 3 4 5 6; do

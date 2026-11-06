@@ -220,6 +220,11 @@ test("the scheduled workflow carries the Claude fill contract", () => {
   assert.match(yml, /sparse-checkout add/)
   assert.match(yml, /workflow_dispatch:/)
   assert.match(yml, /anthropics\/claude-code-action@v1/)
+  assert.match(
+    yml,
+    /github_token: "\$\{\{ \(github\.event_name == 'schedule' \|\| endsWith\(github\.actor, '\[bot\]'\)\) && github\.token \|\| '' \}\}"/,
+  )
+  assert.match(yml, /\[ "\$\{GITHUB_EVENT_NAME\}" = "schedule" \] \|\| \[\[ "\$\{ACTOR\}" == \*'\[bot\]' \]\]/)
   assert.match(yml, /claude_code_oauth_token: \$\{\{ secrets\.CLAUDE_CODE_OAUTH_TOKEN \}\}/)
   assert.match(yml, /DEPOSITS_READ_TOKEN: \$\{\{ secrets\.DEPOSITS_READ_TOKEN \}\}/)
   assert.match(yml, /show_full_output: "true"/)
