@@ -15,7 +15,7 @@ raw_path: /Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-PLATINUM-1/10.339
 raw_sha256: 32a5b0c01dbf329e383edc6534b82217f175aca9ddae5b9a882b44dbf977fec7
 metals: [Pt]
 ingredients: ["[[ingredients/potato]]"]
-products: ["[[products/potato]]"]
+products: ["[[products/root-tuber-vegetables]]"]
 matrices: [potato]
 jurisdictions: [IT, FR, BE, AU]
 sample_n: 38

@@ -2601,7 +2601,7 @@
       ]
     },
     "section_presence_and_order": {
-      "pages": 210,
+      "pages": 216,
       "paths": [
         "wiki/ingredients/almond.md",
         "wiki/ingredients/baby-cereals-dry.md",
@@ -2732,6 +2732,9 @@
         "wiki/products/biscuits.md",
         "wiki/products/breakfast-cereal-non-rice.md",
         "wiki/products/breakfast-cereal-rice-based.md",
+        "wiki/products/cannabis-tinctures-oils.md",
+        "wiki/products/cannabis-topicals.md",
+        "wiki/products/cannabis-vape-hardware.md",
         "wiki/products/canned-foods-general.md",
         "wiki/products/canned-meats.md",
         "wiki/products/canned-mushrooms.md",
@@ -2744,6 +2747,7 @@
         "wiki/products/confectionery-candy.md",
         "wiki/products/cultivated-mushrooms.md",
         "wiki/products/dairy-cheese.md",
+        "wiki/products/dairy-condensed-evaporated.md",
         "wiki/products/dairy-cream.md",
         "wiki/products/dairy-milk-camel.md",
         "wiki/products/dairy-milk-cow.md",
@@ -2760,6 +2764,7 @@
         "wiki/products/fruit-purees.md",
         "wiki/products/grain-based-snacks.md",
         "wiki/products/herbal-botanical-infusions.md",
+        "wiki/products/hot-chili-sauces.md",
         "wiki/products/infant-food-general.md",
         "wiki/products/infant-food-powder.md",
         "wiki/products/infant-food-puree-fish.md",
@@ -2787,6 +2792,7 @@
         "wiki/products/mixed-meals-prepared-foods.md",
         "wiki/products/mixed-meals-rice-containing.md",
         "wiki/products/mushrooms.md",
+        "wiki/products/nail-polish.md",
         "wiki/products/non-root-vegetable-purees.md",
         "wiki/products/nutritional-beverage-child.md",
         "wiki/products/peptides-injectable-hormones.md",

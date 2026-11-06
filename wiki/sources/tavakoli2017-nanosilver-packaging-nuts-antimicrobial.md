@@ -14,8 +14,8 @@ license: "CC BY-NC"
 raw_path: /Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-SILVER-1/10.4081_ijfs.2017.6874.pdf
 raw_sha256: "5b197a69ab57ae7e18db58545b57a06ee00fa1d0ee80ce51fc4d048fdeed9ae1"
 metals: [Ag]
-ingredients: [walnut, hazelnut, almond, pistachio]
-products: [nuts]
+ingredients: [walnuts, hazelnuts, almond]
+products: [nuts-seeds-other]
 matrices: [nuts, food-packaging-material]
 jurisdictions: [IR]
 near_duplicates: []
@@ -57,6 +57,7 @@ No silver migration analysis; no toxicological assessment of silver residues in 
 ## Related evidence
 
 - [[metals/silver]]
-- [[ingredients/walnut]]
+- [[ingredients/walnuts]]
+- [[ingredients/hazelnuts]]
 - [[ingredients/almond]]
-- [[ingredients/pistachio]]
+- [[products/nuts-seeds-other]]
