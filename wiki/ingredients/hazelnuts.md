@@ -6,6 +6,7 @@ commodity: hazelnuts
 title: Hazelnuts
 label: Hazelnuts
 aliases:
+  - hazelnut
   - corylus-avellana
   - filberts
   - turkish-hazelnuts

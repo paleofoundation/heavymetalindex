@@ -6,6 +6,7 @@ commodity: walnuts
 title: Walnuts
 label: Walnuts
 aliases:
+  - walnut
   - juglans-regia
   - english-walnuts
   - persian-walnuts
