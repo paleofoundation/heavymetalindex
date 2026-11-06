@@ -15,8 +15,8 @@ audience:
   - consumer
   - app
 wiki_doi: null
-updated: '2026-10-22'
-sources: 29
+updated: '2026-11-06'
+sources: 31
 page_contract_version: 1.0.0
 question_record: data/evidence/engine/ingredient/white-sugar/question-record.json
 synthesis_record: data/evidence/engine/ingredient/white-sugar/synthesis.json
@@ -65,11 +65,11 @@ ingredient_chrome:
     Lead, cadmium, total arsenic, inorganic arsenic and total mercury in white
     sugar: monitoring results, studies, references by form and basis, limits,
     testing and controls.
-  updated: '2026-10-22'
-  reference_count: 29
+  updated: '2026-11-06'
+  reference_count: 31
   snapshot:
     - label: Research sources referenced
-      count: 18
+      count: 20
     - label: Official guidance and instruments
       count: 11
   key_evidence:
@@ -155,6 +155,8 @@ This page covers white sugar in 2 forms kept separate in every comparison: white
 
 Results stay on the basis each source reports: as sold or fresh weight, dry weight, or unstated. Dry-weight, as-sold and unstated results are never pooled, and no moisture conversion is applied.
 
+Non-centrifugal cane sugar (NCS), sold under names including rapadura (Brazil), panela (Colombia and Ecuador), and jaggery (South Asia), is a distinct artisanal product made by evaporating clarified sugarcane juice without centrifugation to remove molasses. It retains minerals, organic acids, and inorganic contaminants present in the whole-cane matrix, and its contamination profile cannot be inferred from refined white sugar data. Milani et al. 2025 measured lead, cadmium, and total arsenic in 72 NCS samples purchased from local markets in Brazil, Colombia, Ecuador, Mexico, and Peru using ICP-OES after ultrasound acid digestion: lead was detected and quantified in all 72 samples (range 65 to 122 µg/kg, dry weight as sold), cadmium was detected in 31 percent of samples (up to 45 µg/kg), and total arsenic was below the limit of quantification (LOQ 37 µg/kg) in all samples.<sup class="cite">[[sources/milani2025-rapadura-ncs-metals-latin-america|17]]<span class="cite-card"><span class="cite-card-head"><span class="cite-card-authors">Milani RF, Rodrigues JL, Henao Toro SJ, Mauri AA, Bragotto APA, Morgano MA · 2025</span><a class="cite-card-title" href="../sources/milani2025-rapadura-ncs-metals-latin-america">Inorganic Contaminants in Rapadura from Latin America</a></span><span class="cite-card-body"><span class="cite-card-journal">Foods 2025, 14, 3285</span><a class="cite-card-review" href="../sources/milani2025-rapadura-ncs-metals-latin-america">Read source →</a></span></span></sup> Evidence from NCS is treated as context for understanding cane-derived contamination pathways rather than as a direct measure of refined white sugar contamination.
+
 
 <!-- BEGIN: hmi-fda-tds-occurrence -->
 
@@ -195,6 +197,7 @@ The evidence on how metals reach white sugar comes from studies that compared ex
 
 These are observational comparisons from single studies; the size of the difference depends on the site, metal and distance.
 
+For cadmium, soil contamination from phosphate-based fertilizers is a recognized pathway in cane cultivation. In a 72-sample Latin American survey, cadmium was detectable in NCS/rapadura at levels up to 45 µg/kg, with higher rates in Peru and Mexico than in Brazil and Ecuador; the authors attributed variability to soil contamination, fertilizer use, and regional processing conditions.<sup class="cite">[[sources/milani2025-rapadura-ncs-metals-latin-america|17]]<span class="cite-card"><span class="cite-card-head"><span class="cite-card-authors">Milani RF, Rodrigues JL, Henao Toro SJ, Mauri AA, Bragotto APA, Morgano MA · 2025</span><a class="cite-card-title" href="../sources/milani2025-rapadura-ncs-metals-latin-america">Inorganic Contaminants in Rapadura from Latin America</a></span><span class="cite-card-body"><span class="cite-card-journal">Foods 2025, 14, 3285</span><a class="cite-card-review" href="../sources/milani2025-rapadura-ncs-metals-latin-america">Read source →</a></span></span></sup> A controlled field experiment in Colombia found that sugarcane (Saccharum officinarum) translocates soil cadmium to leaf tissue: at a soil cadmium loading of 50 mg/kg, leaf concentrations reached 1.21 mg/kg dry weight without mycorrhizal inoculation; arbuscular mycorrhizal fungi reduced leaf cadmium to 0.47 mg/kg by retaining metal in roots.<sup class="cite">[[sources/paladines-beltran2025-amf-sugarcane-cadmium-stress|18]]<span class="cite-card"><span class="cite-card-head"><span class="cite-card-authors">Paladines-Beltran GM, Venegas NA, Suarez JC · 2025</span><a class="cite-card-title" href="../sources/paladines-beltran2025-amf-sugarcane-cadmium-stress">Arbuscular Mycorrhizal Fungi Enhance Antioxidant Defense Systems in Sugarcane Under Soil Cadmium Stress</a></span><span class="cite-card-body"><span class="cite-card-journal">Plants 2025, 14, 2916</span><a class="cite-card-review" href="../sources/paladines-beltran2025-amf-sugarcane-cadmium-stress">Read source →</a></span></span></sup> The experimental cadmium dose (50 mg/kg soil) is not representative of ordinary agricultural conditions; these results characterize the soil-to-plant pathway mechanism, not expected food concentrations.
 
 
 <a id="ranges-by-source-region-and-variety"></a>
@@ -212,6 +215,8 @@ The HMI reference for lead in white sugar, as sold pools 122 subgroup units from
 Among GEMS/Food reporting regions, white sugar, as sold had the lowest lead subgroup median in PAHO (5.3 µg/kg) and the highest in EURO (82 µg/kg); reporting regions are markets, not growing areas.<sup class="cite">[[sources/who-gemsfood-heavy-metal-contaminants|1]]<span class="cite-card"><span class="cite-card-head"><span class="cite-card-authors">World Health Organization · 2026</span><a class="cite-card-title" href="../sources/who-gemsfood-heavy-metal-contaminants">GEMS/Food Contaminants database heavy-metal exports</a></span><span class="cite-card-body"><span class="cite-card-journal">GEMS/Food Contamination Monitoring and Assessment Programme</span><a class="cite-card-review" href="../sources/who-gemsfood-heavy-metal-contaminants">Read source →</a></span></span></sup> For cadmium, the lowest regional median was in PAHO (0.2 µg/kg) and the highest in EMRO (23 µg/kg).<sup class="cite">[[sources/who-gemsfood-heavy-metal-contaminants|1]]<span class="cite-card"><span class="cite-card-head"><span class="cite-card-authors">World Health Organization · 2026</span><a class="cite-card-title" href="../sources/who-gemsfood-heavy-metal-contaminants">GEMS/Food Contaminants database heavy-metal exports</a></span><span class="cite-card-body"><span class="cite-card-journal">GEMS/Food Contamination Monitoring and Assessment Programme</span><a class="cite-card-review" href="../sources/who-gemsfood-heavy-metal-contaminants">Read source →</a></span></span></sup>
 
 In one study, lead across 6 groups of white sugar ranged from 54 µg/kg (production batch 2019, Omo Kuraz sugar factory) to 508 µg/kg (production batch 2023, Omo Kuraz sugar factory); the lowest is the lowest observed in that study, not an established sourcing preference.<sup class="cite">[[sources/bekele2024-ethiopia-white-sugar-metals|6]]<span class="cite-card"><span class="cite-card-head"><span class="cite-card-authors">Bekele EE · 2024</span><a class="cite-card-title" href="../sources/bekele2024-ethiopia-white-sugar-metals">Determination of Selected Toxic Heavy Metals and Analysis of Proximate Composition in White Sugar Manufactured from the Omo Kuraz Sugar Factory in Ethiopia</a></span><span class="cite-card-body"><span class="cite-card-journal">Research Square (preprint, posted 29 February 2024)</span><a class="cite-card-review" href="../sources/bekele2024-ethiopia-white-sugar-metals">Read source →</a></span></span></sup>
+
+Non-centrifugal cane sugar from Latin America showed lead concentrations above the refined-sugar reference range across all five countries surveyed: country mean lead values ranged from 74 µg/kg (Colombia, n=36) to 107 µg/kg (Peru, n=5), with all country means falling between 65 and 122 µg/kg dry weight as sold; 33 percent of the 72 samples exceeded the Brazilian and MERCOSUR sugar limit for lead of 100 µg/kg, primarily from Minas Gerais and Rio Grande do Sul in Brazil, Quito and Vilcabamba in Ecuador, Mexico, and La Victoria and Lima in Peru.<sup class="cite">[[sources/milani2025-rapadura-ncs-metals-latin-america|17]]<span class="cite-card"><span class="cite-card-head"><span class="cite-card-authors">Milani RF, Rodrigues JL, Henao Toro SJ, Mauri AA, Bragotto APA, Morgano MA · 2025</span><a class="cite-card-title" href="../sources/milani2025-rapadura-ncs-metals-latin-america">Inorganic Contaminants in Rapadura from Latin America</a></span><span class="cite-card-body"><span class="cite-card-journal">Foods 2025, 14, 3285</span><a class="cite-card-review" href="../sources/milani2025-rapadura-ncs-metals-latin-america">Read source →</a></span></span></sup> These are NCS/rapadura values, not refined white sugar values, and are reported here as a form-contrast rather than as evidence for the refined sugar range.
 
 
 <a id="processing-effects"></a>
@@ -316,7 +321,7 @@ No source in the library converted white sugar concentrations into a verified es
 <a id="hmi-ing-036"></a>
 <a id="what-remains-unresolved-when-was-each-answer-reviewed-and-what-changed-in-this-version"></a>
 
-Every source record that names white sugar was decided on its content: 29 occurrence extracted, 29 records in all. The occurrence table renders every extracted result; held values remain visible with their reason.
+Every source record that names white sugar was decided on its content: 29 occurrence extracted, 31 records in all. The occurrence table renders every extracted result; held values remain visible with their reason.
 
 References identify the sources used in these answers. The Sources index preserves additional discovery links; inclusion there does not mean a source has been reviewed for this assessment. Corrections, completed searches, new direct evidence and changes in requirements should reopen the relevant answer.
 
@@ -381,6 +386,8 @@ Works cited on this page, in citation-number order. See [Sources](#sources) for 
 14. [[sources/fera2015-uk-tds-metals|Total Diet Study of metals and other elements in food]]<span class="hmi-ref-meta">Baxter M and Brereton N · Food and Environment Research Agency report for the UK Food Standards Agency, Fera report 15/06, project FS102081 · 2015 · [www.food.gov.uk](https://www.food.gov.uk/research/total-diet-study)</span><span class="hmi-ref-tag">Government</span>
 15. [[sources/cfs2012-hktds-inorganic-arsenic|The First Hong Kong Total Diet Study: Inorganic Arsenic]]<span class="hmi-ref-meta">Centre for Food Safety FEHD HKSAR · Centre for Food Safety, Food and Environmental Hygiene Department, Government of the Hong Kong Special Administrative Region · 2012 · [www.cfs.gov.hk](https://www.cfs.gov.hk/english/programme/programme_rdss/programme_rdss_tds_report.html)</span><span class="hmi-ref-tag">Government</span>
 16. [[sources/efsa2014-dietary-exposure-iAs|Dietary exposure to inorganic arsenic in the European population]]<span class="hmi-ref-meta">European Food Safety Authority (EFSA) · EFSA Journal 2014;12(3):3597 · 2014 · [doi.org/10.2903/j.efsa.2014.3597](https://doi.org/10.2903/j.efsa.2014.3597)</span><span class="hmi-ref-tag">Government</span>
+17. [[sources/milani2025-rapadura-ncs-metals-latin-america|Inorganic Contaminants in Rapadura from Latin America]]<span class="hmi-ref-meta">Milani RF, Rodrigues JL, Henao Toro SJ, Mauri AA, Bragotto APA, and Morgano MA · Foods 2025, 14, 3285 · 2025 · [doi.org/10.3390/foods14193285](https://doi.org/10.3390/foods14193285)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+18. [[sources/paladines-beltran2025-amf-sugarcane-cadmium-stress|Arbuscular Mycorrhizal Fungi Enhance Antioxidant Defense Systems in Sugarcane Under Soil Cadmium Stress]]<span class="hmi-ref-meta">Paladines-Beltran GM, Venegas NA, and Suarez JC · Plants 2025, 14, 2916 · 2025 · [doi.org/10.3390/plants14182916](https://doi.org/10.3390/plants14182916)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
@@ -392,5 +399,6 @@ Browse [White sugar Sources](../sources/index?topic=ingredients%2Fwhite-sugar) f
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
+6 November 2026: Added non-centrifugal cane sugar (NCS/rapadura) Latin American survey data from Milani et al. 2025 (72 samples, Brazil, Colombia, Ecuador, Mexico, Peru: lead 65-122 ug/kg, 33% above MERCOSUR limit; cadmium up to 45 ug/kg, arsenic below LOQ) and contextual cadmium uptake pathway evidence from Paladines-Beltran et al. 2025 (AMF/sugarcane cadmium stress experiment, Colombia); 2 sources added, page updated to 31 total.
 22 October 2026: Rebuilt from every white sugar record in the library: 29 occurrence sources, references by form and basis, same-study contrasts.
 <!-- END: hmi-page-history -->
