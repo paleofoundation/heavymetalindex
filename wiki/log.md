@@ -3,6 +3,11 @@ title: Heavy Metal Index — Change Log
 noindex: true
 ---
 
+## [2026-11-06] ingest | HMI-METAL-COBALT-1: cobalt cosmetics occurrence fill
+
+Pages touched: [[metals/cobalt]], [[sources/ahmed2021-cobalt-lead-cosmetics-saudi-arabia]] (created), [[sources/hussain2014-nico2o4-nanoneedles-glucose-sensor]] (created), [[sources/pokpas2017-nickel-graphene-chelate-adsorptive-stripping]] (created)
+Notes: Deposit HMI-METAL-COBALT-1 (3 papers). Ahmed et al. 2021 (Toxicology Reports, DOI 10.1016/j.toxrep.2021.09.004) measured cobalt and lead by FAAS in 41 cosmetic samples from Northern Province, Saudi Arabia covering four product types: henna (mean 141.71 µg/g Co), foundation cream (59.33 µg/g), kajal/kohl (39.02 µg/g), and skin-whitening cream (55.62 µg/g). All 41 samples exceeded the literature-proposed 5 µg/g cobalt dermatitis threshold. This is the first direct cobalt occurrence dataset for personal care product matrices on this wiki. Hussain et al. 2014 (Sensors, DOI 10.3390/s140305415) and Pokpas et al. 2017 (Sensors, DOI 10.3390/s17081711) are materials science and analytical chemistry sensor papers respectively; cobalt appears as an electrode component and an electrochemical interferent; both are filed with no-food-occurrence status. The cobalt metal page was restructured from stub to populated status with canonical metal section order. Direction: toward the literature (cosmetics occurrence data added honestly; no food occurrence data invented or approximated; dietary cobalt gap stated explicitly).
+
 ## [2026-11-05] ingest | HMI-FILL-0031: non-centrifugal cane sugar metals fill for refined-sugar page
 
 Pages touched: [[products/refined-sugar]], [[sources/milani2025-rapadura-ncs-metals-latin-america]] (created)
