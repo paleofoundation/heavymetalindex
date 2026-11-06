@@ -13,7 +13,7 @@ evidence_tier: C
 license: "CC BY 4.0"
 raw_path: /Users/kmfp/hmi-evidence-deposits/deposits/HMI-FILL-0205/10.54361_ajmas.261038.pdf
 raw_sha256: "a7e08d3b62280dbc01f3b292096f6a4fd446835c1c5f21d02ff2d539568fe9ba"
-metals: [Pb, Cd, Cr, Ni]
+metals: [Pb, Cd, Cr, Ni, Fe, Mn, Zn]
 ingredients: []
 products: ["[[products/hair-dye-rinse-off]]"]
 matrices: [blonde hair dye]
