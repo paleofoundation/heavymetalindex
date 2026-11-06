@@ -34,16 +34,22 @@ on:
   schedule:
     - cron: "17 */2 * * *"
   workflow_dispatch:
-  pull_request:
+  # No pull_request trigger. The content-gate job repeated diff-gate and the
+  # hero-image lint, which CI's test job already runs on the opened PR.
 
+# One scheduled fill at a time. cancel-in-progress stays false on purpose:
+# the cron is every 2 hours and the fill job may run for up to 6 hours.
+# Cancelling the in-progress run would abort a live Claude fill when the next
+# schedule starts. GitHub queues this group and keeps only the latest pending run.
 concurrency:
-  group: ${{ github.event_name == 'pull_request' && format('evidence-fill-gate-{0}', github.event.pull_request.number) || 'claude-evidence-fill' }}
+  group: claude-evidence-fill
   cancel-in-progress: false
 
 jobs:
   preflight:
     if: github.event_name != 'pull_request'
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     outputs:
       ready: ${{ steps.secrets.outputs.ready }}
     steps:
@@ -64,27 +70,7 @@ jobs:
           fi
           echo "ready=${ready}" >> "$GITHUB_OUTPUT"
 
-  # Fails the pull request when the diff adds supplier or manufacturer data,
-  # an em dash or en dash in wiki prose, or a placeholder hero image.
-  content-gate:
-    if: github.event_name == 'pull_request'
-    runs-on: ubuntu-latest
-    permissions:
-      contents: read
-    steps:
-      - uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-      - uses: actions/setup-node@v4
-        with:
-          node-version-file: .node-version
-      - name: Supplier data, dashes, and placeholder images
-        run: |
-          set -euo pipefail
-          git fetch --no-tags origin "${{ github.base_ref }}"
-          node tools/evidence-fill/diff-gate.mjs --base "origin/${{ github.base_ref }}"
-          node tools/lint/hero-image-placeholders.mjs --changed "origin/${{ github.base_ref }}"
-
+  # Pull-request supplier, dash, and hero checks run in CI (the test job).
   fill:
     needs: preflight
     if: github.event_name != 'pull_request' && needs.preflight.outputs.ready == 'true'
@@ -447,6 +433,7 @@ jobs:
           target="evidence-fill/${UNIT}"
           token="${EVIDENCE_FILL_GIT_TOKEN:-${CLAUDE_APP_TOKEN:-$GITHUB_TOKEN}}"
           askpass="${RUNNER_TEMP}/git-askpass.sh"
+          # shellcheck disable=SC2016  # askpass must contain a literal $GIT_TOKEN
           printf '%s\n' '#!/bin/sh' 'echo "$GIT_TOKEN"' > "$askpass"
           chmod 700 "$askpass"
           git_push() {
@@ -544,6 +531,7 @@ jobs:
           esac
           token="${EVIDENCE_FILL_GIT_TOKEN:-${CLAUDE_APP_TOKEN:-$GITHUB_TOKEN}}"
           askpass="${RUNNER_TEMP}/git-askpass.sh"
+          # shellcheck disable=SC2016  # askpass must contain a literal $GIT_TOKEN
           printf '%s\n' '#!/bin/sh' 'echo "$GIT_TOKEN"' > "$askpass"
           chmod 700 "$askpass"
           GIT_ASKPASS="$askpass" GIT_TOKEN="$token" git -c credential.helper= \

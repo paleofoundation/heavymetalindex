@@ -513,7 +513,16 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 > log with `node tools/outstanding/log.mjs` (or the `<!-- OUTSTANDING: {json} -->` sentinel the Stop-hook harvests),
 > and rule on human-gated items with `node tools/outstanding/decide.mjs <id> "APPROVE|DECLINE|DEFER: ..."`.
 
-419 open item(s): 94 auto, 325 awaiting a decision.
+420 open item(s): 94 auto, 326 awaiting a decision.
+
+### OI-20261105-index-scheduled-deploy-comment — scheduled-deploy.yml still says Vercel git deploys are off
+
+- scope: **human-gated** · type: finding · status: open · repo: index
+- paths: `.github/workflows/scheduled-deploy.yml`, `vercel.json`
+- repro: scheduled-deploy.yml comments say vercel.json git.deploymentEnabled is false and nothing deploys on push. vercel.json sets deploymentEnabled.main true and ** false, so pushes to main do build on Vercel. PR previews stay off.
+- done when: The workflow comment matches vercel.json: main is git-deployed, other branches are not, and the manual hook is described as it actually behaves.
+- decision: _pending_
+- notes: Not edited in the CI minutes PR. The skip of build-audits on main relies on the vercel.json setting, not on this comment.
 
 ### OI-20261016-thin-chunk16-no-honest-fill — Sixteenth cited chunk found no honest non-FDA fill among the remaining baseline ingredients
 
