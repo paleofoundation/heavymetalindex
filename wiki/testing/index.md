@@ -13,6 +13,10 @@ updated: 2026-04-29
 
 _Stub. This section is a planned home for analytical-method, detection-limit, and laboratory-program reference content. Pages here will support the wiki's occurrence-data claims by documenting what analytical confidence those numbers actually carry._
 
+Pages in this section:
+
+- [[testing/tap-water-lead-sampling]] — Lead concentrations measured in residential, school, institutional, and private well tap water. Coverage includes Lead and Copper Rule first-draw sampling protocols, the effect of flushing on measured concentrations, corrosion control approaches, and evidence from vulnerable settings.
+
 Planned topics:
 
 - [[testing/icp-ms]] — Inductively coupled plasma mass spectrometry, the dominant trace-metal analytical method underlying nearly all post-2000 food-occurrence datasets cited in this wiki.
