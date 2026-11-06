@@ -14,7 +14,7 @@ license: "CC-BY-NC-ND 4.0"
 raw_path: raw/markdown/FM_13019807/FM_13019807.md
 metals: [Pb, Cd, tAs, tHg, Cr]
 products: ["[[products/legumes-pulses-other]]"]
-ingredients: ["[[ingredients/lentils]]"]
+ingredients: ["[[ingredients/kidney-beans]]", "[[ingredients/lentils]]"]
 matrices: [legume-grain, dry-bean]
 jurisdictions: [CO, MX, PE]
 near_duplicates: []
@@ -59,6 +59,7 @@ App: Bean ingredients should carry a contamination_profile flag noting that the 
 
 ## Related evidence
 - [[ingredients/beans]]
+- [[ingredients/kidney-beans]]
 - [[metals/cadmium]]
 - [[metals/lead]]
 
