@@ -19,8 +19,8 @@ platform_metals: [Al, Ni]
 pair_row: 8
 audience: [regulator, educator, consumer, brand-legal]
 wiki_doi: null
-updated: 2026-06-09
-sources: 19
+updated: 2026-11-06
+sources: 22
 created_by: cat4_step0_scaffold_2026_05_16
 hero_image: /static/heroes/peanuts-butter-golden-oil.webp
 hero_image_alt: "Whole and shelled peanuts, a dish of peanut butter and an unmarked bottle of golden oil illustrating peanuts product-format context."
@@ -61,15 +61,21 @@ Methodology rules for speciation, basis preservation, non-detect handling, and s
 
 | Analyte | Subcategory | Reported concentration range | Detection rate | Applicable regulatory cap | Sources | Confidence | Basis |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| [[metals/aluminum\|Al]] | Peanuts (no contributing evidence loaded) | No concentration data loaded for this analyte | Sample-level detection rate not reported | No applicable cap loaded | 0 | data gap | Basis not reported |
-| [[metals/nickel\|Ni]] | Peanuts (no contributing evidence loaded) | No concentration data loaded for this analyte | Sample-level detection rate not reported | [[regulations/eu-2024-1987-nickel-maximum-levels]]: 12000 ppb (edible part) | 0 | data gap | Basis not reported |
-| [[metals/lead\|Pb]] | Peanuts (no contributing evidence loaded) | No concentration data loaded for this analyte | Sample-level detection rate not reported | No applicable cap loaded | 0 | data gap | Basis not reported |
-| [[metals/cadmium\|Cd]] | Peanuts (no contributing evidence loaded) | No concentration data loaded for this analyte | Sample-level detection rate not reported | [[regulations/eu-2023-915-cadmium]]: 200 ppb (product as placed on market) | 0 | data gap | Basis not reported |
+| [[metals/aluminum\|Al]] | Peanuts (Chinese, 6 provinces) | provincial means 64,500 to 119,000 ppb; overall range not separately reported | 100% detected (all 66 samples above LOD 0.036 mg/kg) | No applicable cap loaded | 1 cited | low (1-2 sources) | fresh weight, as-harvested kernel |
+| [[metals/nickel\|Ni]] | Peanuts (Chinese, 6 provinces; Polish market) | provincial means 1,340 to 8,730 ppb (CN, n=66); mean ~4,000 ppb, max 11,200 ppb (PL/multi-origin, n=16) | 79% above LOQ in PL study (3/16 samples below LOQ 0.44 mg/kg) | [[regulations/eu-2024-1987-nickel-maximum-levels]]: 12000 ppb (edible part) | 2 cited | low (1-2 sources) | fresh weight, as-harvested kernel |
+| [[metals/lead\|Pb]] | Peanuts (Chinese, 6 provinces; Polish market) | provincial means 7 to 60 ppb; 1 province ND (CN, n=66); mean 229 ppb, max 818 ppb (PL/multi-origin, n=16; 1 outlier from Poland) | CN: 1 of 6 provinces all ND; PL: 10/16 samples below LOQ (0.032 mg/kg), mean includes quantified samples | No applicable cap loaded | 2 cited | low (1-2 sources) | fresh weight, as-harvested kernel |
+| [[metals/cadmium\|Cd]] | Peanuts (Chinese, 6 provinces; Polish market) | provincial means 47 to 204 ppb (CN, n=66); mean 92 ppb, max 183 ppb (PL/multi-origin, n=16) | CN: all 66 samples above LOD 0.0001 mg/kg; PL: 6/16 samples below LOQ (0.0032 mg/kg) | [[regulations/eu-2023-915-cadmium]]: 200 ppb (product as placed on market) | 2 cited | low (1-2 sources) | fresh weight, as-harvested kernel |
+| [[metals/chromium\|Cr]] | Peanuts (Chinese, 6 provinces; Polish market) | provincial means 234 to 293 ppb (CN, n=66, total Cr); mean ~230 ppb (PL/multi-origin, n=16, total Cr) | CN: 100% detected (p=0.263, no significant regional differences); PL: 2/16 samples below LOQ | No applicable cap loaded | 2 cited | low (1-2 sources) | fresh weight, as-harvested kernel; total Cr only, Cr-VI not speciated |
+| [[metals/arsenic\|tAs]] | Peanuts (Chinese, 6 provinces) | provincial means 9 to 20 ppb (n=66) | 100% detected (all provinces; p=0.077, no significant regional differences) | No applicable cap loaded | 1 cited | low (1-2 sources) | fresh weight, as-harvested kernel; total As only, inorganic speciation not performed |
 <!-- END: hmi-hmtc-evidence-summary -->
 
 ## Source Evidence Inventory
 
-_Hand-curated section. Populated by the synthesis pass as Cat 4 sources route to this row. Initial scaffold state: zero contributing sources. The Cat 4 corpus search prioritizes sources reporting concentration data on the specific commodity in this row; broad-scope produce surveys are filed under the master.
+The following sources provide direct occurrence measurements for peanuts (Arachis hypogaea kernel, as-harvested fresh weight) and have been synthesized into the evidence table above. Mechanistic and agronomic sources that characterize cadmium and arsenic uptake pathways in peanuts but do not provide market-level occurrence data are listed in the Sources section below.
+
+**Chen et al. 2022** [[sources/chen2022-peanut-elements-china]]: ICP-MS analysis of 66 peanut samples from six Chinese provinces (Jilin, Liaoning, Henan, Hebei, Guangxi, Guangdong). Provides the most geographically detailed Chinese occurrence dataset in the deposit. Cadmium was highest in Liaoning (mean 204 ppb), and the provincial maximum for Cd approached or reached the EU ML of 200 ppb. Nickel showed large regional variation (1,340 ppb in Hebei to 8,730 ppb in Guangxi), consistent with the platform role assigned to nickel in this row. Aluminum concentrations (64,500 to 119,000 ppb) were 2 to 3 orders of magnitude above the toxic metals, consistent with the geocarpic exposure pathway for soil-sourced minerals. Total arsenic was uniformly low (9 to 20 ppb across all provinces). Total chromium was low and regionally uniform (234 to 293 ppb). Lead was near or below detection in several provinces. Authors note Cd contamination in Chinese peanuts was more serious than in some other countries and identify Liaoning as the highest-risk province. Arsenic is total, not speciated.
+
+**Cwielag-Drabek et al. 2025** [[sources/cwielag-drabek2025-nuts-cd-pb-cr-ni-poland]]: ETAAS analysis of 16 peanut samples from the Polish retail market (representing origins including China, Poland, and Argentina). Peanuts ranked highest among five nut types for both Cd and Pb in this study. Mean Cd 92 ppb (all below EU ML of 200 ppb). Mean Pb 229 ppb; one sample (from Poland) reached 818 ppb, exceeding the Chinese Pb limit of 200 ppb for peanuts. Nickel mean approximately 4,000 ppb with one sample at 11,200 ppb. Health risk assessment found that children consuming 50 to 100 g/day of peanuts may face hazard quotient greater than 1 for Cd, Pb, and Ni at the maximum observed concentrations. Chromium is total Cr; no Cr-VI speciation. This study provides European market-facing data complementing the Chinese field data above.
 
 ## Broad Product Context: Author-Scope Index
 
@@ -109,6 +115,11 @@ Cat 4 (produce, nuts, seeds) regulatory enforcement intersects two domains: heav
 Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to its source record.
 
 1. [[sources/fda-tds-elements-2018-2020|Total Diet Study Report: Fiscal Years 2018-2020 Elements Data]]<span class="hmi-ref-meta">U.S. Food and Drug Administration · 2022 · [www.fda.gov](https://www.fda.gov/food/fda-total-diet-study-tds/fda-total-diet-study-tds-results)</span><span class="hmi-ref-tag">Government</span>
+2. [[sources/chen2022-peanut-elements-china|Determination of macro, micro and toxic element concentrations in peanuts from main peanut producing areas of China by ICP-MS: a pilot study on the geographical characterization]]<span class="hmi-ref-meta">Chen L et al. · RSC Advances · 2022 · [doi.org/10.1039/d2ra02148j](https://doi.org/10.1039/d2ra02148j)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+3. [[sources/cwielag-drabek2025-nuts-cd-pb-cr-ni-poland|Evaluation of Cadmium, Lead, Chromium, and Nickel Content in Various Types of Nuts: Almonds, Cashews, Hazelnuts, Peanuts, and Walnuts - Health Risk of Polish Consumers]]<span class="hmi-ref-meta">Cwielag-Drabek M et al. · Biological Trace Element Research · 2025 · [doi.org/10.1007/s12011-024-04438-4](https://doi.org/10.1007/s12011-024-04438-4)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+4. [[sources/pilli2024-yellow-gypsum-arsenic-groundnut-rice|Efficacy of yellow gypsum application on mitigating arsenic bioavailability in groundnut and Boro-rice grown under arsenic contaminated soil]]<span class="hmi-ref-meta">Pilli K et al. · Heliyon · 2024 · [doi.org/10.1016/j.heliyon.2024.e26530](https://doi.org/10.1016/j.heliyon.2024.e26530)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+5. [[sources/shao2022-selenium-biochar-cadmium-peanut-grains|Foliar Spraying of Selenium Combined with Biochar Alleviates Cadmium Toxicity in Peanuts and Enriches Selenium in Peanut Grains]]<span class="hmi-ref-meta">Shao S et al. · Int J Environ Res Public Health · 2022 · [doi.org/10.3390/ijerph19063542](https://doi.org/10.3390/ijerph19063542)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+6. [[sources/chen2017-ahirt1-nramp1-cadmium-peanut-iron|AhIRT1 and AhNRAMP1 metal transporter expression correlates with Cd uptake in peanuts under iron deficiency]]<span class="hmi-ref-meta">Chen C et al. · PLoS ONE · 2017 · [doi.org/10.1371/journal.pone.0185144](https://doi.org/10.1371/journal.pone.0185144)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
@@ -137,6 +148,9 @@ Works cited in this page's text, in first-appearance order. See [Sources](#sourc
 | 17 | [[sources/efsa2015-nickel-food-water\|EFSA 2015]]. *Scientific Opinion on the risks to public health related to the presence of nickel in food and drinking water*, EFSA Journal 2015;13(2):4002, 202 pp. | 2015 | Government report | EU Ni occurrence in 18,885 food samples and 25,700 drinking water samples (final dataset after exclusions) submitted to EFSA from 15 European... (n=18885) |
 | 18 | [[sources/iyabo2015-ekiti-staple-foods-metals\|Iyabo et al. 2015]]. *Toxic and Essential Metals in Staple Foods Commonly Consumed by Students in Ekiti State, South West, Nigeria*, International Journal of Chemistry | 2015 | Peer-reviewed | NG Zn, Cu, Cd, Pb occurrence in Thirty listed staple food items identified from a questionnaire of 200 volunteered Ekiti State University students and purchased... (n=30) |
 | 19 | [[sources/fsanz2008-cadmium-peanuts-assessment\|Zealand 2008]]. *Final Assessment Report - Application A552: Cadmium in peanuts*, Food Standards Australia New Zealand Final Assessment Report 12-08 | 2008 | Government report | AU/NZ/CN Cd occurrence in FSANZ regulatory assessment using Australian AQIS 2001-2006 imported-food cadmium tests, USFDA Total Diet Study 1991-2004 peanut values, Chinese... |
+| 20 | [[sources/pilli2024-yellow-gypsum-arsenic-groundnut-rice\|Pilli et al. 2024]]. *Efficacy of yellow gypsum application on mitigating arsenic bioavailability in groundnut and Boro-rice grown under arsenic contaminated soil*, Heliyon | 2024 | Peer-reviewed | IN Agronomic intervention study: arsenic bioavailability reduction in groundnut under spiked soil conditions (As 0 to 24 mg/kg added) using yellow gypsum; soil As dynamics and Ca:As, Fe:As, S:As ratios across growth stages; no market-level grain As values |
+| 21 | [[sources/shao2022-selenium-biochar-cadmium-peanut-grains\|Shao et al. 2022]]. *Foliar Spraying of Selenium Combined with Biochar Alleviates Cadmium Toxicity in Peanuts and Enriches Selenium in Peanut Grains*, International Journal of Environmental Research and Public Health | 2022 | Peer-reviewed | CN Cd in peanut grain under artificially contaminated soil (5 to 20 mg/kg Cd, greenhouse pot experiment); selenium and biochar intervention reducing grain Cd by 32 to 50%; cultivar-level differences in Cd accumulation (Huayu 23 vs Huayu 20) |
+| 22 | [[sources/chen2017-ahirt1-nramp1-cadmium-peanut-iron\|Chen et al. 2017]]. *AhIRT1 and AhNRAMP1 metal transporter expression correlates with Cd uptake in peanuts under iron deficiency*, PLoS ONE | 2017 | Peer-reviewed | CN Mechanistic study: AhIRT1 and AhNRAMP1 as Cd transporters in peanut roots under Fe deficiency; Vmax for Cd influx 1.56-fold higher in Fe-deficient Zhenghong 3 (high-Cd cultivar) vs Fe-sufficient; yeast complementation confirming transporter function |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -146,9 +160,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| Evidence Fill HMI-PROD-peanuts-1 | 2026-11-06 | major | Literature Evidence Summary table filled with Cd, Pb, Ni, Al, Cr, tAs data from Chen 2022 (CN, n=66) and Cwielag-Drabek 2025 (PL/multi-origin, n=16); Source Evidence Inventory added; 3 new source pages added (Pilli 2024 gypsum/As, Shao 2022 Se/biochar/Cd, Chen 2017 AhIRT1/NRAMP1); sources count updated from 19 to 22 |
 | [cbedbcc786](https://github.com/paleofoundation/heavymetalindex/commit/cbedbcc786) | 2026-08-18 | correction | Narrative text revised |
 | [ad172bca7e](https://github.com/paleofoundation/heavymetalindex/commit/ad172bca7e) | 2026-08-09 | correction | Narrative text revised |
 | [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added; narrative text revised |
 | [3a67e13071](https://github.com/paleofoundation/heavymetalindex/commit/3a67e13071) | 2026-08-02 | minor | Narrative text revised |
-| [91c7d5591e](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591e) | 2026-08-02 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->
