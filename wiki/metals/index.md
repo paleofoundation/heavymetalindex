@@ -115,6 +115,7 @@ _Auto-managed by `tools/autonomy/link-orphans.mjs`. These pages exist in this di
 - [[metals/bismuth|Bismuth]]
 - [[metals/boron|Boron]]
 - [[metals/cadmium|Cadmium]]
+- [[metals/cerium|Cerium]]
 - [[metals/cesium|Cesium]]
 - [[metals/chromium|Chromium]]
 - [[metals/chromium-hexavalent|Chromium, Hexavalent]]
