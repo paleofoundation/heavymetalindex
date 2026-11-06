@@ -34,7 +34,7 @@ sampling_year_range: [2019, 2020]
 updated: 2026-11-06
 ---
 
-# Huang et al. 2020 — False positive monomethyltin in toys
+# Huang et al. 2020 - False positive monomethyltin in toys
 
 ## Overview
 

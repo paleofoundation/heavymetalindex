@@ -36,7 +36,7 @@ hero_image: /static/heroes/tin-canned-tomatoes-juice.webp
 hero_image_alt: "Canned tomatoes and fruit juice illustrating EFSA 2018 stannous chloride food additive evaluation."
 ---
 
-# EFSA ANS Panel 2018 — Re-evaluation of stannous chloride (E 512) as food additive
+# EFSA ANS Panel 2018 - Re-evaluation of stannous chloride (E 512) as food additive
 
 ## Overview
 

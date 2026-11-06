@@ -34,7 +34,7 @@ sampling_year_range: [2022, 2023]
 updated: 2026-11-06
 ---
 
-# Temerdashev et al. 2023 — ICP spectrometry for tin in waters
+# Temerdashev et al. 2023 - ICP spectrometry for tin in waters
 
 ## Overview
 

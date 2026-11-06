@@ -36,7 +36,7 @@ hero_image: /static/heroes/tin-canned-tomatoes-juice.webp
 hero_image_alt: "Canned fruits and vegetables illustrating Roncevic 2012 tin determination study."
 ---
 
-# Roncevic et al. 2012 — Tin in canned fruits and vegetables, Slovakia
+# Roncevic et al. 2012 - Tin in canned fruits and vegetables, Slovakia
 
 ## Overview
 

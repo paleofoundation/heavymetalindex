@@ -36,7 +36,7 @@ hero_image: /static/heroes/tin-canned-tomatoes-juice.webp
 hero_image_alt: "Canned tuna illustrating Al Ghoul 2020 tin study in Lebanese canned fish."
 ---
 
-# Al Ghoul et al. 2020 — Tin in canned tuna, Lebanon
+# Al Ghoul et al. 2020 - Tin in canned tuna, Lebanon
 
 ## Overview
 
