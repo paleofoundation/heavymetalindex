@@ -53,4 +53,5 @@ Germinating seeds only; values only in figures.
 
 ## Related evidence
 
+- [[metals/lanthanum]]
 - [[metals/rare-earths]]

@@ -54,4 +54,5 @@ Doses are very high relative to any food exposure described in the cited evidenc
 
 ## Related evidence
 
+- [[metals/lanthanum]]
 - [[metals/rare-earths]]

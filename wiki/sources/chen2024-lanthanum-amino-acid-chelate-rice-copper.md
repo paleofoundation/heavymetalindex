@@ -53,4 +53,5 @@ Seedling hydroponics; no lanthanum analysis of plant tissue reported in the abst
 
 ## Related evidence
 
+- [[metals/lanthanum]]
 - [[metals/rare-earths]]

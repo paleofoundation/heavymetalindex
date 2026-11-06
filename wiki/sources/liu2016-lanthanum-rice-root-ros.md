@@ -53,4 +53,5 @@ Root tissue only; solution concentrations far above typical environmental levels
 
 ## Related evidence
 
+- [[metals/lanthanum]]
 - [[metals/rare-earths]]

@@ -53,4 +53,5 @@ No tissue lanthanum analysis; single species and short trial; the abstract menti
 
 ## Related evidence
 
+- [[metals/lanthanum]]
 - [[metals/rare-earths]]

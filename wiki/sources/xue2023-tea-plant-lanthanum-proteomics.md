@@ -54,5 +54,6 @@ Values only in figures; fresh leaves rather than made tea; treatment concentrati
 
 ## Related evidence
 
+- [[metals/lanthanum]]
 - [[metals/rare-earths]]
 - [[ingredients/camellia-sinensis]]

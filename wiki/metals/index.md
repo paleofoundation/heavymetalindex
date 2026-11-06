@@ -125,6 +125,7 @@ _Auto-managed by `tools/autonomy/link-orphans.mjs`. These pages exist in this di
 - [[metals/gold|Gold]]
 - [[metals/indium|Indium]]
 - [[metals/iron|Iron]]
+- [[metals/lanthanum|Lanthanum]]
 - [[metals/lead|Lead]]
 - [[metals/lithium|Lithium]]
 - [[metals/magnesium|Magnesium]]

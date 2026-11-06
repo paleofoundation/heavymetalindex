@@ -52,4 +52,5 @@ Laboratory material or biomedical study; no environmental, food or human exposur
 
 ## Related evidence
 
+- [[metals/lanthanum]]
 - [[metals/rare-earths]]
