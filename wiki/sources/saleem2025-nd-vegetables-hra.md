@@ -24,7 +24,7 @@ sampling_year_range: null
 updated: 2026-05-13
 ---
 
-# Saleem et al. 2025 — Metal concentrations and health risk assessment in locally grown vegetables, Grand Forks, North Dakota
+# Saleem et al. 2025: Metal concentrations and health risk assessment in locally grown vegetables, Grand Forks, North Dakota
 
 ## Overview
 
