@@ -26,7 +26,7 @@ wiki_doi: null
 updated: 2026-11-05
 ---
 
-# De Simone et al. 2026 — HPLC-ICP-MS urinary arsenic speciation: development to post-implementation
+# De Simone et al. 2026 - HPLC-ICP-MS urinary arsenic speciation: development to post-implementation
 
 ## Summary
 

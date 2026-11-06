@@ -26,7 +26,7 @@ wiki_doi: null
 updated: 2026-11-05
 ---
 
-# Farruggia et al. 2025 — Arsenic in water and food: toxicity and human exposure
+# Farruggia et al. 2025 - Arsenic in water and food: toxicity and human exposure
 
 ## Summary
 

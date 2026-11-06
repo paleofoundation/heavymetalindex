@@ -26,7 +26,7 @@ wiki_doi: null
 updated: 2026-11-05
 ---
 
-# Lehel et al. 2026 — Toxic elements in European seabass marketed in Hungary
+# Lehel et al. 2026 - Toxic elements in European seabass marketed in Hungary
 
 ## Summary
 

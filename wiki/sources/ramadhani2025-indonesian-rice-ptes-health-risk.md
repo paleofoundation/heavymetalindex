@@ -26,7 +26,7 @@ wiki_doi: null
 updated: 2026-11-05
 ---
 
-# Ramadhani et al. 2025 — Potentially toxic elements in Indonesian rice, national survey
+# Ramadhani et al. 2025 - Potentially toxic elements in Indonesian rice, national survey
 
 ## Summary
 

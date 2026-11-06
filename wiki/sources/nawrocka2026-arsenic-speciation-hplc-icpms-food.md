@@ -26,7 +26,7 @@ wiki_doi: null
 updated: 2026-11-05
 ---
 
-# Nawrocka et al. 2026 — Simultaneous water- and fat-soluble arsenic speciation by HPLC-ICP-MS
+# Nawrocka et al. 2026 - Simultaneous water- and fat-soluble arsenic speciation by HPLC-ICP-MS
 
 ## Summary
 

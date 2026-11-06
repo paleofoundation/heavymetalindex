@@ -26,7 +26,7 @@ wiki_doi: null
 updated: 2026-11-05
 ---
 
-# Cheng et al. 2026 — Urinary arsenic speciation in the HEALS cohort, Bangladesh
+# Cheng et al. 2026 - Urinary arsenic speciation in the HEALS cohort, Bangladesh
 
 ## Summary
 

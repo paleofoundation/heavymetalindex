@@ -26,7 +26,7 @@ wiki_doi: null
 updated: 2026-11-05
 ---
 
-# Perez et al. 2026 — Probabilistic arsenic risk assessment, Taal volcano, Philippines
+# Perez et al. 2026 - Probabilistic arsenic risk assessment, Taal volcano, Philippines
 
 ## Summary
 

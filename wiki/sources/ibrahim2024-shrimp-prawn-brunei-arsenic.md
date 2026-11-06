@@ -26,7 +26,7 @@ wiki_doi: null
 updated: 2026-11-05
 ---
 
-# Ibrahim et al. 2024 — Arsenic in shrimp and prawn from Brunei Darussalam
+# Ibrahim et al. 2024 - Arsenic in shrimp and prawn from Brunei Darussalam
 
 ## Summary
 

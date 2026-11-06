@@ -26,7 +26,7 @@ wiki_doi: null
 updated: 2026-11-05
 ---
 
-# Feric et al. 2026 — Maternal arsenic exposure and birth outcomes: harmonised three-cohort analysis
+# Feric et al. 2026 - Maternal arsenic exposure and birth outcomes: harmonised three-cohort analysis
 
 ## Summary
 

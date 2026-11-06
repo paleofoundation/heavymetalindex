@@ -26,7 +26,7 @@ wiki_doi: null
 updated: 2026-11-05
 ---
 
-# Tanaka 2025 — Analytical techniques for arsenic speciation: mini-review
+# Tanaka 2025 - Analytical techniques for arsenic speciation: mini-review
 
 ## Summary
 
