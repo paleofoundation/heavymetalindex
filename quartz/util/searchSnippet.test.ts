@@ -135,8 +135,8 @@ test("named metal pages use a complete title phrase and a whole-sentence descrip
   assert.match(methylmercury.title, /^Methylmercury in Fish: Exposure and Evidence/)
   assert.match(methylmercury.description, /aquatic food webs/)
   const tellurium = fields("tellurium")
-  assert.match(tellurium.title, /^Tellurium Toxicology: Sources and Evidence Gaps/)
-  assert.match(tellurium.description, /minor toxic metals/)
+  assert.match(tellurium.title, /^Tellurium \(Te\) in Food: Sources, Limits and Evidence/)
+  assert.match(tellurium.description, /wild mushrooms/)
   assert.doesNotMatch(tellurium.description, /Ufelle|source-map/)
 })
 
