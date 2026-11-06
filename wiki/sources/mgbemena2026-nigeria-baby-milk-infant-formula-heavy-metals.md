@@ -27,7 +27,7 @@ sampling_year_range: null
 updated: 2026-11-06
 ---
 
-# Mgbemena et al. 2026 — Nigerian Baby Milk and Infant Formula Nutrient and Heavy Metal Risk Assessment
+# Mgbemena et al. 2026 - Nigerian Baby Milk and Infant Formula Nutrient and Heavy Metal Risk Assessment
 
 ## Summary
 

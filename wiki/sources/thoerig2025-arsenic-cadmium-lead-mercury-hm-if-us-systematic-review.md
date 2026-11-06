@@ -27,7 +27,7 @@ sampling_year_range: null
 updated: 2026-11-06
 ---
 
-# Thoerig et al. 2025 — Arsenic, Cadmium, Lead, Mercury, and PFAS in US Human Milk and Infant Formula
+# Thoerig et al. 2025 - Arsenic, Cadmium, Lead, Mercury, and PFAS in US Human Milk and Infant Formula
 
 ## Summary
 

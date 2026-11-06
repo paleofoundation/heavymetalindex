@@ -27,7 +27,7 @@ sampling_year_range: null
 updated: 2026-11-06
 ---
 
-# O'Connor et al. 2026 — US Infant Exposure to Heavy Metals and PFAS from Human Milk and Infant Formula
+# O'Connor et al. 2026 - US Infant Exposure to Heavy Metals and PFAS from Human Milk and Infant Formula
 
 ## Summary
 

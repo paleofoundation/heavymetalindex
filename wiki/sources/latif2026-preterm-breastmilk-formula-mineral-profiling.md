@@ -27,7 +27,7 @@ sampling_year_range: null
 updated: 2026-11-06
 ---
 
-# Latif et al. 2026 — Mineral Profiling of Preterm/Term Breast Milk and Preterm Infant Formula
+# Latif et al. 2026 - Mineral Profiling of Preterm/Term Breast Milk and Preterm Infant Formula
 
 ## Summary
 
