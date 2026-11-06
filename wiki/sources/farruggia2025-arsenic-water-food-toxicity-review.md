@@ -15,7 +15,7 @@ pmcid: PMC12248989
 pmid: 40646981
 metals: [iAs, tAs, MMA, DMA]
 ingredients: ["[[ingredients/rice]]", "[[ingredients/seafood]]", "[[ingredients/water]]"]
-products: ["[[products/infant-formula-powder-non-soy]]", "[[products/rice-based-beverages]]"]
+products: ["[[products/infant-formula-powder-non-soy]]", "[[products/rice-beverages-rice-milk]]"]
 matrices: [rice, rice-products, seafood, drinking-water, infant-formula]
 jurisdictions: [EU, US, WHO]
 sample_n: null

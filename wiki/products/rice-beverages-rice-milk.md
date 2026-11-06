@@ -1,4 +1,7 @@
 ---
+aliases:
+  - rice-based-beverages
+  - rice-based-beverage
 title: "Rice beverages (rice milk)"
 dek: "Drinks made from rice, covered within grains, cereals and rice products for heavy metal occurrence and regulatory context."
 type: product-category

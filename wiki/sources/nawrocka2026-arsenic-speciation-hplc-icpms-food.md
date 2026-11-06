@@ -15,7 +15,7 @@ pmcid: PMC13361988
 pmid: 42450423
 metals: [iAs, tAs, DMA, MMA]
 ingredients: ["[[ingredients/fish]]", "[[ingredients/seafood]]", "[[ingredients/algae]]"]
-products: ["[[products/fish-marine-fatty]]", "[[products/dietary-supplements-algae]]"]
+products: ["[[products/fish-marine-non-predatory]]", "[[products/supplements-algae-seaweed-based]]"]
 matrices: [marine-fish, algae, seafood]
 jurisdictions: [PL]
 sample_n: 4
