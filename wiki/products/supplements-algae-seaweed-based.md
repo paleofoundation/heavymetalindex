@@ -1,7 +1,4 @@
 ---
-aliases:
-  - dietary-supplements-algae
-  - algae-dietary-supplements
 title: "Ingredient class — algae/seaweed-based"
 dek: "Dietary supplements made from algae, cyanobacteria and seaweed are covered for arsenic species and other measured metals. Powder, tablet and capsule evidence retains its reported basis."
 rail_highlights:

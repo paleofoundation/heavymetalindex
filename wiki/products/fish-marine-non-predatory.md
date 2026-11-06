@@ -1,7 +1,4 @@
 ---
-aliases:
-  - fish-marine-fatty
-  - fatty-marine-fish
 title: "Fish — marine, non-predatory (sardines, anchovies, salmon, cod)"
 dek: "Sardines, anchovies, salmon and cod are covered as marine seafood. The page summarizes reported mercury, cadmium and inorganic arsenic measurements while preserving analytical species and measurement bases."
 type: product-category
