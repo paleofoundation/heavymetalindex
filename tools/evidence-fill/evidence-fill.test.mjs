@@ -214,6 +214,97 @@ test("a nested graph work list reports visible items and skips the blocked ones"
   }
 })
 
+test("a graph item with only pages[] supplies the ingredient or product slug", () => {
+  const root = fs.mkdtempSync(path.join(os.tmpdir(), "deposits-graph-pages-"))
+  try {
+    fs.mkdirSync(path.join(root, "graph"), { recursive: true })
+    fs.writeFileSync(
+      path.join(root, "graph", "next_work.json"),
+      JSON.stringify({
+        items: [
+          {
+            unit: "HMI-FILL-0056",
+            builder: "hmi-evidence-fill",
+            blocked_by: [],
+            kind: "topic",
+            pages: [{ path: "wiki/topics/arsenic.md", url: "https://heavymetalindex.com/topics/arsenic" }],
+          },
+          {
+            unit: "HMI-FILL-0053",
+            builder: "hmi-evidence-fill",
+            blocked_by: ["HMI-FILL-0001"],
+            kind: "product",
+            pages: [{ path: "wiki/products/blocked-tea.md" }],
+          },
+          {
+            unit: "HMI-FILL-0099",
+            builder: "catalog",
+            blocked_by: [],
+            kind: "product",
+            pages: [{ path: "wiki/products/not-this.md" }],
+          },
+          {
+            unit: "HMI-FILL-0054",
+            builder: "hmi-evidence-fill",
+            blocked_by: [],
+            kind: "product",
+            pages: [
+              { path: "wiki/sources/a-paper.md", url: "https://heavymetalindex.com/sources/a-paper" },
+              { path: "wiki/ingredients/also-wrong.md", url: "https://heavymetalindex.com/ingredients/also-wrong" },
+              {
+                path: "wiki/products/cultivated-mushrooms.md",
+                url: "https://heavymetalindex.com/ingredients/also-wrong?ref=graph",
+              },
+            ],
+          },
+          {
+            unit: "HMI-FILL-0055",
+            builder: "hmi-evidence-fill",
+            blocked_by: [],
+            kind: "article",
+            pages: [{ path: "notes/oat-milk.txt", url: "https://heavymetalindex.com/ingredients/oat-milk/?ref=graph" }],
+          },
+        ],
+      }),
+    )
+    const detail = describeSelection(root)
+    assert.equal(detail.source, "graph")
+    assert.equal(detail.unit.id, "HMI-FILL-0054")
+    assert.equal(detail.unit.slug, "cultivated-mushrooms")
+    assert.equal(detail.unit.kind, "product")
+    assert.equal(detail.unit.status, "DEPOSITED")
+    assert.equal(detail.unit.dir, "deposits/HMI-FILL-0054")
+    assert.equal(detail.graph.eligible, 2)
+    assert.equal(detail.graph.skipped.no_slug, 1)
+    assert.equal(detail.graph.skipped.blocked, 1)
+    assert.equal(detail.graph.skipped.other_builder, 1)
+    const skipped = selectNextUnit(root, { skip: ["hmi-fill-0054"] })
+    assert.equal(skipped.id, "HMI-FILL-0055")
+    assert.equal(skipped.slug, "oat-milk")
+    assert.equal(skipped.kind, "ingredient")
+    assert.equal(selectNextUnit(root, { skip: ["HMI-FILL-0054", "HMI-FILL-0055"] }), null)
+    fs.writeFileSync(
+      path.join(root, "graph", "next_work.json"),
+      JSON.stringify([
+        {
+          unit: "HMI-FILL-0060",
+          builder: "hmi-evidence-fill",
+          blocked_by: [],
+          kind: "ingredient",
+          slug: "salt",
+          pages: [{ path: "wiki/ingredients/pepper.md" }],
+        },
+      ]),
+    )
+    const direct = selectNextUnit(root)
+    assert.equal(direct.id, "HMI-FILL-0060")
+    assert.equal(direct.slug, "salt")
+    assert.equal(direct.kind, "ingredient")
+  } finally {
+    fs.rmSync(root, { recursive: true, force: true })
+  }
+})
+
 test("a directory status overrides the ledger, and a markdown table is a ledger", () => {
   const root = fs.mkdtempSync(path.join(os.tmpdir(), "deposits-"))
   fs.mkdirSync(path.join(root, "deposits", "HMI-ING-PEA-PROTEIN-1"), { recursive: true })
