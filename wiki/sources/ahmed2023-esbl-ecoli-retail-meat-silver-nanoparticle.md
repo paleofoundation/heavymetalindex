@@ -14,8 +14,8 @@ license: "CC BY"
 raw_path: /Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-SILVER-1/10.1186_s12866-023-02948-0.pdf
 raw_sha256: "2a4a50d61308db25ca8ad0c979e31a535b79829965322e1822b36393e3a1a808"
 metals: [Ag]
-ingredients: []
-products: [duck-meat, camel-meat, beef, chicken]
+ingredients: [meat-and-poultry]
+products: [beef-product, poultry-product]
 matrices: [retail-meat, food-microbiology]
 jurisdictions: [EG]
 near_duplicates: []

@@ -14,8 +14,8 @@ license: "CC BY"
 raw_path: /Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-SILVER-1/10.1002_fsn3.40.pdf
 raw_sha256: "945d0d9278dbdfc398c55d872f16848537eb70f539e5bd3932846723c55da765"
 metals: []
-ingredients: [silver-carp]
-products: [fish, freshwater-fish]
+ingredients: [fish]
+products: [fish-freshwater]
 matrices: [fish-flesh]
 jurisdictions: [IR]
 near_duplicates: []

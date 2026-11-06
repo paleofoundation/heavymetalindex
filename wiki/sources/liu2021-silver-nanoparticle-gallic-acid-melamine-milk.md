@@ -15,7 +15,7 @@ raw_path: /Users/kmfp/hmi-evidence-deposits/deposits/HMI-METAL-SILVER-1/10.1021_
 raw_sha256: "3e3f526a0c732db075967f1d194923fd56c17fd92e7913cd40e5607de9a8cfb1"
 metals: [Ag]
 ingredients: [milk]
-products: [milk]
+products: [milk-and-dairy]
 matrices: [milk, analytical-method]
 jurisdictions: [CN]
 near_duplicates: []
