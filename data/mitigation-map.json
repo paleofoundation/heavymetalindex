@@ -1,0 +1,2064 @@
+{
+  "version": 1,
+  "description": "DOI to ingredients, metals, intervention, and the effect as printed in the open-access full text. One paper may name several foods. Each mapping carries evidence_scope (product or parent-matrix); parent-matrix mappings name parent_matrix and must render as \"Evidence from <parent_matrix>, not measured in this product.\". Each mapping carries evidence_scope (product or parent-matrix); parent-matrix mappings name parent_matrix and must render as \"Evidence from <parent_matrix>, not measured in this product.\"",
+  "papers": {
+    "10.1002/fsn3.2245": {
+      "doi": "10.1002/fsn3.2245",
+      "title": "The chemical composition and heavy metal content of sesame oil produced by different methods: A risk assessment study.",
+      "year": null,
+      "source_page": null,
+      "mappings": [
+        {
+          "ingredients": [
+            "sesame-oil"
+          ],
+          "products": [],
+          "metals": [
+            "cadmium",
+            "lead",
+            "total arsenic"
+          ],
+          "intervention": "refining",
+          "effect_as_printed": "Although the oil refining had been greatly reduced the Pb of oil sample, but it had yet been much higher than the permissible levels set by Codex Alimentarius.",
+          "unit_ambiguous": false,
+          "evidence_scope": "product",
+          "parent_matrix": null,
+          "deposit": "paleofoundation/hmi-evidence-deposits:deposits/HMI-MIT-sesame-oil",
+          "oa_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC8194752.1/PMC8194752.1.pdf"
+        },
+        {
+          "ingredients": [
+            "olive-oil",
+            "soybean-oil",
+            "sunflower-oil",
+            "rapeseed-oil",
+            "palm-oil",
+            "vegetable-oils",
+            "corn-oil",
+            "niger-seed-oil",
+            "peanut-oil",
+            "rice-bran-oil",
+            "oilseeds",
+            "margarine",
+            "mayonnaise"
+          ],
+          "products": [],
+          "metals": [
+            "cadmium",
+            "lead",
+            "total arsenic"
+          ],
+          "intervention": "refining",
+          "effect_as_printed": "Although the oil refining had been greatly reduced the Pb of oil sample, but it had yet been much higher than the permissible levels set by Codex Alimentarius.",
+          "unit_ambiguous": false,
+          "evidence_scope": "parent-matrix",
+          "parent_matrix": "edible oil (sesame oil refining)",
+          "display_note": "Evidence from edible oil (sesame oil refining), not measured in this product.",
+          "deposit": "paleofoundation/hmi-evidence-deposits:deposits/HMI-MIT-PM-edible-oil",
+          "oa_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC8194752.1/PMC8194752.1.pdf"
+        }
+      ]
+    },
+    "10.1002/fsn3.2427": {
+      "doi": "10.1002/fsn3.2427",
+      "title": "Synthesis of coimmobilized microorganisms for the removal of cadmium from cadmium-contaminated rice flour.",
+      "year": null,
+      "source_page": null,
+      "mappings": [
+        {
+          "ingredients": [
+            "rice-flour"
+          ],
+          "products": [],
+          "metals": [
+            "cadmium"
+          ],
+          "intervention": "microbial fermentation (coimmobilized L. plantarum pellets)",
+          "effect_as_printed": "Cd removal rates of sample 1 (0.459 ± 0.006 mg/kg) and 2 (0.873 ± 0.031 mg/kg) reached 90.01% ± 1.01% (0.051 ± 0.003 mg/kg) and 91.80% ± 0.54% (0.068 ± 0.034 mg/kg)",
+          "unit_ambiguous": false,
+          "evidence_scope": "product",
+          "parent_matrix": null,
+          "deposit": "paleofoundation/hmi-evidence-deposits:deposits/HMI-MIT-rice-flour",
+          "oa_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC8358380.1/PMC8358380.1.pdf"
+        },
+        {
+          "ingredients": [
+            "rice-cakes",
+            "rice-cereal",
+            "crisped-rice-cereal",
+            "rice-noodles",
+            "rice-puffs",
+            "infant-rice-cereal",
+            "rice-milk",
+            "rice-koji"
+          ],
+          "products": [],
+          "metals": [
+            "cadmium"
+          ],
+          "intervention": "microbial fermentation (coimmobilized L. plantarum pellets)",
+          "effect_as_printed": "Cd removal rates of sample 1 (0.459 ± 0.006 mg/kg) and 2 (0.873 ± 0.031 mg/kg) reached 90.01% ± 1.01% (0.051 ± 0.003 mg/kg) and 91.80% ± 0.54% (0.068 ± 0.034 mg/kg)",
+          "unit_ambiguous": false,
+          "evidence_scope": "parent-matrix",
+          "parent_matrix": "rice grain (washing, soaking, cooking)",
+          "display_note": "Evidence from rice grain (washing, soaking, cooking), not measured in this product.",
+          "deposit": "paleofoundation/hmi-evidence-deposits:deposits/HMI-MIT-PM-rice",
+          "oa_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC8358380.1/PMC8358380.1.pdf"
+        }
+      ]
+    },
+    "10.1002/fsn3.2473": {
+      "doi": "10.1002/fsn3.2473",
+      "title": "The effect of chelating agents including potassium tartrate and citrate on the maximum reduction of lead and cadmium during soaking and cooking from some different varieties of rice available in Iran.",
+      "year": null,
+      "source_page": null,
+      "mappings": [
+        {
+          "ingredients": [
+            "rice-cakes",
+            "rice-cereal",
+            "crisped-rice-cereal",
+            "rice-noodles",
+            "rice-puffs",
+            "infant-rice-cereal",
+            "rice-milk",
+            "rice-koji"
+          ],
+          "products": [],
+          "metals": [
+            "cadmium",
+            "lead"
+          ],
+          "intervention": "soaking and cooking with chelating agents (potassium tartrate, potassium",
+          "effect_as_printed": "Simultaneous soaking and cooking in chelating agents such as potassium tartrate and potassium citrate significantly reduced lead (reduction rate compared to control 99.43% with potassium tartrate and 98.96% with potassium citrate)",
+          "unit_ambiguous": false,
+          "evidence_scope": "parent-matrix",
+          "parent_matrix": "rice grain (washing, soaking, cooking)",
+          "display_note": "Evidence from rice grain (washing, soaking, cooking), not measured in this product.",
+          "deposit": "paleofoundation/hmi-evidence-deposits:deposits/HMI-MIT-PM-rice",
+          "oa_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC8441478.1/PMC8441478.1.pdf"
+        }
+      ]
+    },
+    "10.1002/fsn3.384": {
+      "doi": "10.1002/fsn3.384",
+      "title": "Removal of cadmium from contaminated Lentinula edodes by optimized complexation and coagulation.",
+      "year": null,
+      "source_page": null,
+      "mappings": [
+        {
+          "ingredients": [
+            "mushrooms"
+          ],
+          "products": [],
+          "metals": [
+            "cadmium"
+          ],
+          "intervention": "decontamination (complexation and coagulation)",
+          "effect_as_printed": "Cd complexation from contaminated L. edodes was shown to be more efficient under acidic conditions (pH 5.0), with a clearance rate of 80.47% in 25 mmol/L EDTA and 78.45% in 25 mmol/L sodium citrate.",
+          "unit_ambiguous": false,
+          "evidence_scope": "product",
+          "parent_matrix": null,
+          "deposit": "paleofoundation/hmi-evidence-deposits:deposits/HMI-MIT-mushrooms",
+          "oa_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC5332263.1/PMC5332263.1.pdf"
+        },
+        {
+          "ingredients": [
+            "canned-mushrooms",
+            "cream-of-mushroom-soup"
+          ],
+          "products": [],
+          "metals": [
+            "cadmium"
+          ],
+          "intervention": "decontamination (complexation and coagulation)",
+          "effect_as_printed": "Cd complexation from contaminated L. edodes was shown to be more efficient under acidic conditions (pH 5.0), with a clearance rate of 80.47% in 25 mmol/L EDTA and 78.45% in 25 mmol/L sodium citrate.",
+          "unit_ambiguous": false,
+          "evidence_scope": "parent-matrix",
+          "parent_matrix": "mushrooms (blanching, boiling, pickling)",
+          "display_note": "Evidence from mushrooms (blanching, boiling, pickling), not measured in this product.",
+          "deposit": "paleofoundation/hmi-evidence-deposits:deposits/HMI-MIT-PM-mushrooms",
+          "oa_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC5332263.1/PMC5332263.1.pdf"
+        }
+      ]
+    },
+    "10.1002/gch2.202400161": {
+      "doi": "10.1002/gch2.202400161",
+      "title": "New Insight into Mercury Removal from Fish Meat Using a Single-Component Solution Containing cysteine.",
+      "year": null,
+      "source_page": null,
+      "mappings": [
+        {
+          "ingredients": [
+            "canned-tuna",
+            "fish",
+            "tinned-fish"
+          ],
+          "products": [],
+          "metals": [
+            "total mercury"
+          ],
+          "intervention": "decontamination (cysteine extraction medium)",
+          "effect_as_printed": "Using 1.2 wt% cysteine enables a reduction of mercury in canned Albacore tuna by 25-35%, depending on the fish product type and the exposure time of up to 2 weeks.",
+          "unit_ambiguous": false,
+          "evidence_scope": "product",
+          "parent_matrix": null,
+          "deposit": "paleofoundation/hmi-evidence-deposits:deposits/HMI-MIT-tinned-fish",
+          "oa_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC11557507.1/PMC11557507.1.pdf"
+        },
+        {
+          "ingredients": [
+            "salmon",
+            "cod",
+            "shark",
+            "swordfish",
+            "white-fish",
+            "catfish",
+            "tilapia",
+            "freshwater-fish",
+            "marlin",
+            "salted-fish",
+            "fish-containing-baby-foods"
+          ],
+          "products": [],
+          "metals": [
+            "total mercury"
+          ],
+          "intervention": "decontamination (cysteine extraction medium)",
+          "effect_as_printed": "Using 1.2 wt% cysteine enables a reduction of mercury in canned Albacore tuna by 25-35%, depending on the fish product type and the exposure time of up to 2 weeks.",
+          "unit_ambiguous": false,
+          "evidence_scope": "parent-matrix",
+          "parent_matrix": "fish muscle (cooking, cysteine extraction)",
+          "display_note": "Evidence from fish muscle (cooking, cysteine extraction), not measured in this product.",
+          "deposit": "paleofoundation/hmi-evidence-deposits:deposits/HMI-MIT-PM-fish",
+          "oa_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC11557507.1/PMC11557507.1.pdf"
+        }
+      ]
+    },
+    "10.1007/s11356-017-8933-5": {
+      "doi": "10.1007/s11356-017-8933-5",
+      "title": "Cooking can decrease mercury contamination of a mushroom meal: Cantharellus cibarius and Amanita fulva.",
+      "year": null,
+      "source_page": null,
+      "mappings": [
+        {
+          "ingredients": [
+            "wild-mushrooms",
+            "mushrooms"
+          ],
+          "products": [],
+          "metals": [
+            "total mercury"
+          ],
+          "intervention": "cooking (blanching, boiling, pickling)",
+          "effect_as_printed": "Blanching of fresh sliced C. cibarius caused leaching of Hg by approximately 15%, while loss of up to 35% was observed for sliced, deep-frozen fruit bodies.",
+          "unit_ambiguous": false,
+          "evidence_scope": "product",
+          "parent_matrix": null,
+          "deposit": "paleofoundation/hmi-evidence-deposits:deposits/HMI-MIT-mushrooms",
+          "oa_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC5434161.1/PMC5434161.1.pdf"
+        },
+        {
+          "ingredients": [
+            "canned-mushrooms",
+            "cream-of-mushroom-soup"
+          ],
+          "products": [],
+          "metals": [
+            "total mercury"
+          ],
+          "intervention": "cooking (blanching, boiling, pickling)",
+          "effect_as_printed": "Blanching of fresh sliced C. cibarius caused leaching of Hg by approximately 15%, while loss of up to 35% was observed for sliced, deep-frozen fruit bodies.",
+          "unit_ambiguous": false,
+          "evidence_scope": "parent-matrix",
+          "parent_matrix": "mushrooms (blanching, boiling, pickling)",
+          "display_note": "Evidence from mushrooms (blanching, boiling, pickling), not measured in this product.",
+          "deposit": "paleofoundation/hmi-evidence-deposits:deposits/HMI-MIT-PM-mushrooms",
+          "oa_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC5434161.1/PMC5434161.1.pdf"
+        }
+      ]
+    },
+    "10.1007/s11356-017-9819-2": {
+      "doi": "10.1007/s11356-017-9819-2",
+      "title": "Pickling of chanterelle Cantharellus cibarius mushrooms highly reduce cadmium contamination.",
+      "year": null,
+      "source_page": null,
+      "mappings": [
+        {
+          "ingredients": [
+            "wild-mushrooms",
+            "mushrooms"
+          ],
+          "products": [],
+          "metals": [
+            "cadmium"
+          ],
+          "intervention": "cooking (blanching, pickling)",
+          "effect_as_printed": "Blanched chanterelles when pickled lost an extra 37-71% of Cd.",
+          "unit_ambiguous": false,
+          "evidence_scope": "product",
+          "parent_matrix": null,
+          "deposit": "paleofoundation/hmi-evidence-deposits:deposits/HMI-MIT-mushrooms",
+          "oa_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC5591812.1/PMC5591812.1.pdf"
+        },
+        {
+          "ingredients": [
+            "canned-mushrooms",
+            "cream-of-mushroom-soup"
+          ],
+          "products": [],
+          "metals": [
+            "cadmium"
+          ],
+          "intervention": "cooking (blanching, pickling)",
+          "effect_as_printed": "Blanched chanterelles when pickled lost an extra 37-71% of Cd.",
+          "unit_ambiguous": false,
+          "evidence_scope": "parent-matrix",
+          "parent_matrix": "mushrooms (blanching, boiling, pickling)",
+          "display_note": "Evidence from mushrooms (blanching, boiling, pickling), not measured in this product.",
+          "deposit": "paleofoundation/hmi-evidence-deposits:deposits/HMI-MIT-PM-mushrooms",
+          "oa_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC5591812.1/PMC5591812.1.pdf"
+        }
+      ]
+    },
+    "10.1007/s12011-022-03353-w": {
+      "doi": "10.1007/s12011-022-03353-w",
+      "title": "Application of Bentonite Clay, Date Pit, and Chitosan Nanoparticles as Promising Adsorbents to Sequester Toxic Lead and Cadmium from Milk.",
+      "year": null,
+      "source_page": null,
+      "mappings": [
+        {
+          "ingredients": [
+            "semi-skimmed-milk",
+            "skim-milk",
+            "reduced-fat-milk",
+            "chocolate-reduced-fat-milk",
+            "milkshake",
+            "yogurt",
+            "cottage-cheese",
+            "cheddar-cheese",
+            "mozzarella",
+            "butter",
+            "ice-cream",
+            "sour-cream",
+            "cream-cheese",
+            "half-and-half",
+            "frozen-yogurt",
+            "swiss-cheese",
+            "monterey-jack-cheese",
+            "processed-american-cheese",
+            "fromage-frais"
+          ],
+          "products": [],
+          "metals": [
+            "cadmium",
+            "lead"
+          ],
+          "intervention": "decontamination (bentonite, date pit, chitosan nanoparticle adsorbents)",
+          "effect_as_printed": "the adsorption capacity of bentonite to Pb and Cd was 84 and 88%, date pit was 97 and 93%, and chitosan nanoparticles were 82 and 98%, respectively",
+          "unit_ambiguous": false,
+          "evidence_scope": "parent-matrix",
+          "parent_matrix": "cow milk (decontamination)",
+          "display_note": "Evidence from cow milk (decontamination), not measured in this product.",
+          "deposit": "paleofoundation/hmi-evidence-deposits:deposits/HMI-MIT-PM-milk",
+          "oa_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC10020323.1/PMC10020323.1.pdf"
+        }
+      ]
+    },
+    "10.1016/j.fochx.2022.100255": {
+      "doi": "10.1016/j.fochx.2022.100255",
+      "title": "Tea pruning litter biochar amendment in soil reduces arsenic, cadmium, and chromium in made tea (Camellia sinensis L.) and tea infusion: A safe drink for tea consumers.",
+      "year": null,
+      "source_page": null,
+      "mappings": [
+        {
+          "ingredients": [
+            "tea"
+          ],
+          "products": [],
+          "metals": [
+            "cadmium",
+            "chromium",
+            "total arsenic"
+          ],
+          "intervention": "soil amendment (tea pruning litter biochar)",
+          "effect_as_printed": "Made tea prepared from TV23 and S.3A/3 clone, a decrease in the concentration of As, Cd, and Cr by 36.73%, 16.22%, 13.96%, and 36.63%, 27.78%, 10.54%, respectively over control on the application of the highest dose of TPLBC (500 kg TPLBC ha-1).",
+          "unit_ambiguous": false,
+          "evidence_scope": "product",
+          "parent_matrix": null,
+          "deposit": "paleofoundation/hmi-evidence-deposits:deposits/HMI-MIT-tea",
+          "oa_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC9040026.1/PMC9040026.1.pdf"
+        },
+        {
+          "ingredients": [
+            "camellia-sinensis",
+            "matcha-powder"
+          ],
+          "products": [],
+          "metals": [
+            "cadmium",
+            "chromium",
+            "total arsenic"
+          ],
+          "intervention": "soil amendment (tea pruning litter biochar)",
+          "effect_as_printed": "Made tea prepared from TV23 and S.3A/3 clone, a decrease in the concentration of As, Cd, and Cr by 36.73%, 16.22%, 13.96%, and 36.63%, 27.78%, 10.54%, respectively over control on the application of the highest dose of TPLBC (500 kg TPLBC ha-1).",
+          "unit_ambiguous": false,
+          "evidence_scope": "parent-matrix",
+          "parent_matrix": "tea leaf (Camellia sinensis cultivation)",
+          "display_note": "Evidence from tea leaf (Camellia sinensis cultivation), not measured in this product.",
+          "deposit": "paleofoundation/hmi-evidence-deposits:deposits/HMI-MIT-PM-tea",
+          "oa_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC9040026.1/PMC9040026.1.pdf"
+        }
+      ]
+    },
+    "10.1016/j.fochx.2026.104208": {
+      "doi": "10.1016/j.fochx.2026.104208",
+      "title": "Organic cultivation on the Yungui plateau improves green tea flavor while reducing heavy metal accumulation.",
+      "year": null,
+      "source_page": null,
+      "mappings": [
+        {
+          "ingredients": [
+            "tea"
+          ],
+          "products": [],
+          "metals": [
+            "cadmium",
+            "chromium",
+            "lead"
+          ],
+          "intervention": "cultivation system (organic vs conventional)",
+          "effect_as_printed": "The concentrations of cadmium, lead, and chromium were 52.9%-96.8% lower in ORG tea.",
+          "unit_ambiguous": false,
+          "evidence_scope": "product",
+          "parent_matrix": null,
+          "deposit": "paleofoundation/hmi-evidence-deposits:deposits/HMI-MIT-tea",
+          "oa_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC13400431.1/PMC13400431.1.pdf"
+        },
+        {
+          "ingredients": [
+            "camellia-sinensis",
+            "matcha-powder"
+          ],
+          "products": [],
+          "metals": [
+            "cadmium",
+            "chromium",
+            "lead"
+          ],
+          "intervention": "cultivation system (organic vs conventional)",
+          "effect_as_printed": "The concentrations of cadmium, lead, and chromium were 52.9%-96.8% lower in ORG tea.",
+          "unit_ambiguous": false,
+          "evidence_scope": "parent-matrix",
+          "parent_matrix": "tea leaf (Camellia sinensis cultivation)",
+          "display_note": "Evidence from tea leaf (Camellia sinensis cultivation), not measured in this product.",
+          "deposit": "paleofoundation/hmi-evidence-deposits:deposits/HMI-MIT-PM-tea",
+          "oa_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC13400431.1/PMC13400431.1.pdf"
+        }
+      ]
+    },
+    "10.1016/j.heliyon.2024.e25563": {
+      "doi": "10.1016/j.heliyon.2024.e25563",
+      "title": "Effect of processing method (natural, washed, honey, fermentation, maceration) on the availability of heavy metals in specialty coffee.",
+      "year": null,
+      "source_page": null,
+      "mappings": [
+        {
+          "ingredients": [
+            "coffee"
+          ],
+          "products": [],
+          "metals": [
+            "aluminum",
+            "cadmium",
+            "chromium",
+            "lead",
+            "nickel",
+            "total mercury"
+          ],
+          "intervention": "processing (natural, washed, honey, fermentation, maceration; roasting)",
+          "effect_as_printed": "In conclusion, the method of processing can affect the contents of heavy metals in green and roasted specialty coffees.",
+          "unit_ambiguous": false,
+          "evidence_scope": "product",
+          "parent_matrix": null,
+          "deposit": "paleofoundation/hmi-evidence-deposits:deposits/HMI-MIT-coffee",
+          "oa_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC10848008.1/PMC10848008.1.pdf"
+        }
+      ]
+    },
+    "10.1016/j.heliyon.2024.e40519": {
+      "doi": "10.1016/j.heliyon.2024.e40519",
+      "title": "Nanoparticles for treatment of cadmium-contaminated cocoa-growing soils and beans: Performance on metal immobilization and removal.",
+      "year": null,
+      "source_page": null,
+      "mappings": [
+        {
+          "ingredients": [
+            "chocolate-chip-cookies",
+            "brownie",
+            "chocolate-syrup",
+            "chocolate-pudding",
+            "chocolate-nut-candy",
+            "chocolate-cake"
+          ],
+          "products": [],
+          "metals": [
+            "cadmium"
+          ],
+          "intervention": "decontamination during fermentation (multicomponent Fe nanoparticles)",
+          "effect_as_printed": "cadmium removal was ∼20 % and ∼75 % after treating CCN51 and Fino de Aroma cocoa beans with 0.112 kg MCNPs/kg in the fermentation on-site and 0.034 kg MCNPs/kg in the laboratory.",
+          "unit_ambiguous": false,
+          "evidence_scope": "parent-matrix",
+          "parent_matrix": "cocoa beans (fermentation-stage nanoparticle treatment)",
+          "display_note": "Evidence from cocoa beans (fermentation-stage nanoparticle treatment), not measured in this product.",
+          "deposit": "paleofoundation/hmi-evidence-deposits:deposits/HMI-MIT-PM-cocoa",
+          "oa_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC11889560.1/PMC11889560.1.pdf"
+        }
+      ]
+    },
+    "10.1016/j.toxrep.2021.11.001": {
+      "doi": "10.1016/j.toxrep.2021.11.001",
+      "title": "Effect of home processing methods on the levels of heavy metal contaminants in four food crops grown in and around two mining towns in Ghana.",
+      "year": null,
+      "source_page": null,
+      "mappings": [
+        {
+          "ingredients": [
+            "cassava",
+            "yam",
+            "plantain"
+          ],
+          "products": [],
+          "metals": [
+            "cadmium",
+            "lead",
+            "total arsenic",
+            "total mercury"
+          ],
+          "intervention": "cooking (boiling, frying, roasting)",
+          "effect_as_printed": "The levels showed a decreasing trend in the processed samples; with the lowest As and Pb content recorded after frying and boiling.",
+          "unit_ambiguous": false,
+          "evidence_scope": "product",
+          "parent_matrix": null,
+          "deposit": "paleofoundation/hmi-evidence-deposits:deposits/HMI-MIT-plantain",
+          "oa_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC8591352.1/PMC8591352.1.pdf"
+        },
+        {
+          "ingredients": [
+            "root-vegetables",
+            "root-vegetable-purees",
+            "sweet-potato"
+          ],
+          "products": [],
+          "metals": [
+            "cadmium",
+            "lead",
+            "total arsenic",
+            "total mercury"
+          ],
+          "intervention": "cooking (boiling, frying, roasting)",
+          "effect_as_printed": "The levels showed a decreasing trend in the processed samples; with the lowest As and Pb content recorded after frying and boiling.",
+          "unit_ambiguous": false,
+          "evidence_scope": "parent-matrix",
+          "parent_matrix": "starchy roots and tubers (cassava, yam, plantain cooking)",
+          "display_note": "Evidence from starchy roots and tubers (cassava, yam, plantain cooking), not measured in this product.",
+          "deposit": "paleofoundation/hmi-evidence-deposits:deposits/HMI-MIT-PM-roots-tubers",
+          "oa_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC8591352.1/PMC8591352.1.pdf"
+        }
+      ]
+    },
+    "10.1021/acsomega.5c00353": {
+      "doi": "10.1021/acsomega.5c00353",
+      "title": "Mitigation of Cadmium Uptake in Bread Wheat (Triticum aestivum L.) and Durum Wheat (Triticum durum L.) with Natural and Enriched Bentonite Treatments.",
+      "year": null,
+      "source_page": null,
+      "mappings": [
+        {
+          "ingredients": [
+            "wheat",
+            "bread"
+          ],
+          "products": [],
+          "metals": [
+            "cadmium"
+          ],
+          "intervention": "soil amendment (natural and sodium-enriched bentonite)",
+          "effect_as_printed": "cadmium bioavailability in bread wheat decreased by 55% with 5 ppm of Cd and by 66% with 10 ppm of Cd when treated with 6% sodium-enriched bentonite",
+          "unit_ambiguous": false,
+          "evidence_scope": "product",
+          "parent_matrix": null,
+          "deposit": "paleofoundation/hmi-evidence-deposits:deposits/HMI-MIT-wheat",
+          "oa_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC11966268.1/PMC11966268.1.pdf"
+        },
+        {
+          "ingredients": [
+            "wheat-flour",
+            "white-bread",
+            "whole-wheat-bread",
+            "wholemeal-bread",
+            "pasta",
+            "whole-wheat-pasta",
+            "noodles",
+            "egg-noodles",
+            "cream-of-wheat",
+            "saltine-crackers",
+            "flour-tortilla",
+            "wheat-cereal-biscuits",
+            "pretzels",
+            "bagel",
+            "english-muffin",
+            "chapattis",
+            "biscuits",
+            "graham-crackers",
+            "breadcrumbs",
+            "sugar-cookies",
+            "sandwich-cookies",
+            "doughnut",
+            "cinnamon-roll",
+            "pie-crust",
+            "toaster-pastry",
+            "cheese-crackers",
+            "butter-crackers",
+            "pancakes",
+            "cheese-pizza",
+            "macaroni-and-cheese",
+            "canned-spaghetti",
+            "chicken-noodle-soup"
+          ],
+          "products": [],
+          "metals": [
+            "cadmium"
+          ],
+          "intervention": "soil amendment (natural and sodium-enriched bentonite)",
+          "effect_as_printed": "cadmium bioavailability in bread wheat decreased by 55% with 5 ppm of Cd and by 66% with 10 ppm of Cd when treated with 6% sodium-enriched bentonite",
+          "unit_ambiguous": false,
+          "evidence_scope": "parent-matrix",
+          "parent_matrix": "wheat grain (agronomic Cd mitigation)",
+          "display_note": "Evidence from wheat grain (agronomic Cd mitigation), not measured in this product.",
+          "deposit": "paleofoundation/hmi-evidence-deposits:deposits/HMI-MIT-PM-wheat",
+          "oa_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC11966268.1/PMC11966268.1.pdf"
+        }
+      ]
+    },
+    "10.1021/acsomega.5c03376": {
+      "doi": "10.1021/acsomega.5c03376",
+      "title": "Roles of Soil and Foliar Spray of Zinc Nutrition in Cadmium Reduction of Wheat Grain.",
+      "year": null,
+      "source_page": null,
+      "mappings": [
+        {
+          "ingredients": [
+            "wheat"
+          ],
+          "products": [],
+          "metals": [
+            "cadmium"
+          ],
+          "intervention": "soil and foliar Zn fertilization",
+          "effect_as_printed": "foliar Zn application reduced the Cd concentration in grains by 70.49% in Cd-free soils and by 9.31% in Cd5 soils",
+          "unit_ambiguous": false,
+          "evidence_scope": "product",
+          "parent_matrix": null,
+          "deposit": "paleofoundation/hmi-evidence-deposits:deposits/HMI-MIT-wheat",
+          "oa_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC13019195.1/PMC13019195.1.pdf"
+        },
+        {
+          "ingredients": [
+            "wheat-flour",
+            "white-bread",
+            "whole-wheat-bread",
+            "wholemeal-bread",
+            "pasta",
+            "whole-wheat-pasta",
+            "noodles",
+            "egg-noodles",
+            "cream-of-wheat",
+            "saltine-crackers",
+            "flour-tortilla",
+            "wheat-cereal-biscuits",
+            "pretzels",
+            "bagel",
+            "english-muffin",
+            "chapattis",
+            "biscuits",
+            "graham-crackers",
+            "breadcrumbs",
+            "sugar-cookies",
+            "sandwich-cookies",
+            "doughnut",
+            "cinnamon-roll",
+            "pie-crust",
+            "toaster-pastry",
+            "cheese-crackers",
+            "butter-crackers",
+            "pancakes",
+            "cheese-pizza",
+            "macaroni-and-cheese",
+            "canned-spaghetti",
+            "chicken-noodle-soup"
+          ],
+          "products": [],
+          "metals": [
+            "cadmium"
+          ],
+          "intervention": "soil and foliar Zn fertilization",
+          "effect_as_printed": "foliar Zn application reduced the Cd concentration in grains by 70.49% in Cd-free soils and by 9.31% in Cd5 soils",
+          "unit_ambiguous": false,
+          "evidence_scope": "parent-matrix",
+          "parent_matrix": "wheat grain (agronomic Cd mitigation)",
+          "display_note": "Evidence from wheat grain (agronomic Cd mitigation), not measured in this product.",
+          "deposit": "paleofoundation/hmi-evidence-deposits:deposits/HMI-MIT-PM-wheat",
+          "oa_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC13019195.1/PMC13019195.1.pdf"
+        }
+      ]
+    },
+    "10.1038/s41598-019-45855-z": {
+      "doi": "10.1038/s41598-019-45855-z",
+      "title": "Arsenic accumulation in lentil (Lens culinaris) genotypes and risk associated with the consumption of grains.",
+      "year": null,
+      "source_page": null,
+      "mappings": [
+        {
+          "ingredients": [
+            "lentils"
+          ],
+          "products": [],
+          "metals": [
+            "total arsenic"
+          ],
+          "intervention": "cultivar selection",
+          "effect_as_printed": "Arsenic content in grains of red chief genotype was found significantly lower than pardina and precoz.",
+          "unit_ambiguous": false,
+          "evidence_scope": "product",
+          "parent_matrix": null,
+          "deposit": "paleofoundation/hmi-evidence-deposits:deposits/HMI-MIT-lentils",
+          "oa_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC6602935.1/PMC6602935.1.pdf"
+        }
+      ]
+    },
+    "10.1038/s41598-020-69803-4": {
+      "doi": "10.1038/s41598-020-69803-4",
+      "title": "Screening of safe soybean cultivars for cadmium contaminated fields.",
+      "year": null,
+      "source_page": null,
+      "mappings": [
+        {
+          "ingredients": [
+            "soy"
+          ],
+          "products": [],
+          "metals": [
+            "cadmium"
+          ],
+          "intervention": "cultivar selection (Cd-safe cultivars)",
+          "effect_as_printed": "The accumulation of Cd in the five soybean genotypes was lower than 0.20 mg kg-1 under 1.0 mg Cd kg-1 treatment, and the EF and TF were lower than 1.0.",
+          "unit_ambiguous": false,
+          "evidence_scope": "product",
+          "parent_matrix": null,
+          "deposit": "paleofoundation/hmi-evidence-deposits:deposits/HMI-MIT-soy",
+          "oa_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC7395758.1/PMC7395758.1.pdf"
+        },
+        {
+          "ingredients": [
+            "soy-milk",
+            "soy-sauce",
+            "tofu",
+            "soy-protein-isolate",
+            "soy-based-infant-formula"
+          ],
+          "products": [],
+          "metals": [
+            "cadmium"
+          ],
+          "intervention": "cultivar selection (Cd-safe cultivars)",
+          "effect_as_printed": "The accumulation of Cd in the five soybean genotypes was lower than 0.20 mg kg-1 under 1.0 mg Cd kg-1 treatment, and the EF and TF were lower than 1.0.",
+          "unit_ambiguous": false,
+          "evidence_scope": "parent-matrix",
+          "parent_matrix": "soybean grain (Cd-safe cultivars)",
+          "display_note": "Evidence from soybean grain (Cd-safe cultivars), not measured in this product.",
+          "deposit": "paleofoundation/hmi-evidence-deposits:deposits/HMI-MIT-PM-soybean",
+          "oa_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC7395758.1/PMC7395758.1.pdf"
+        }
+      ]
+    },
+    "10.1038/s41598-020-77079-x": {
+      "doi": "10.1038/s41598-020-77079-x",
+      "title": "Dietary zinc enrichment reduces the cadmium burden of mealworm beetle (Tenebrio molitor) larvae.",
+      "year": null,
+      "source_page": null,
+      "mappings": [
+        {
+          "ingredients": [
+            "edible-insects"
+          ],
+          "products": [],
+          "metals": [
+            "cadmium"
+          ],
+          "intervention": "rearing diet (dietary zinc enrichment)",
+          "effect_as_printed": "Dietary zinc enrichment reduces the cadmium burden of mealworm beetle (Tenebrio molitor) larvae",
+          "unit_ambiguous": false,
+          "evidence_scope": "product",
+          "parent_matrix": null,
+          "deposit": "paleofoundation/hmi-evidence-deposits:deposits/HMI-MIT-edible-insects",
+          "oa_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC7674442.1/PMC7674442.1.pdf"
+        }
+      ]
+    },
+    "10.1038/s41598-024-54969-y": {
+      "doi": "10.1038/s41598-024-54969-y",
+      "title": "Polycaprolactone/polyacrylic acid/graphene oxide composite nanofibers as a highly efficient sorbent to remove lead toxic metal from drinking water and apple juice.",
+      "year": null,
+      "source_page": null,
+      "mappings": [
+        {
+          "ingredients": [
+            "apple-juice"
+          ],
+          "products": [],
+          "metals": [
+            "lead"
+          ],
+          "intervention": "decontamination (nanofiber adsorbent)",
+          "effect_as_printed": "The adsorption efficacy of NFs to remove Pb in apple juice has reached 76%.",
+          "unit_ambiguous": false,
+          "evidence_scope": "product",
+          "parent_matrix": null,
+          "deposit": "paleofoundation/hmi-evidence-deposits:deposits/HMI-MIT-apple-juice",
+          "oa_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC10884409.1/PMC10884409.1.pdf"
+        }
+      ]
+    },
+    "10.1038/s41598-025-33257-3": {
+      "doi": "10.1038/s41598-025-33257-3",
+      "title": "Health hazard assessment and cooking effects on toxic metals in marine fish from the mediterranean sea at the Damietta Coast, Egypt.",
+      "year": null,
+      "source_page": null,
+      "mappings": [
+        {
+          "ingredients": [
+            "seafood",
+            "fish"
+          ],
+          "products": [],
+          "metals": [
+            "cadmium",
+            "lead",
+            "total arsenic",
+            "total mercury"
+          ],
+          "intervention": "cooking (frying, grilling)",
+          "effect_as_printed": "Frying and grilling significantly reduced the metal levels.",
+          "unit_ambiguous": false,
+          "evidence_scope": "product",
+          "parent_matrix": null,
+          "deposit": "paleofoundation/hmi-evidence-deposits:deposits/HMI-MIT-seafood",
+          "oa_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC12796347.1/PMC12796347.1.pdf"
+        },
+        {
+          "ingredients": [
+            "salmon",
+            "cod",
+            "shark",
+            "swordfish",
+            "white-fish",
+            "catfish",
+            "tilapia",
+            "freshwater-fish",
+            "marlin",
+            "salted-fish",
+            "fish-containing-baby-foods"
+          ],
+          "products": [],
+          "metals": [
+            "cadmium",
+            "lead",
+            "total arsenic",
+            "total mercury"
+          ],
+          "intervention": "cooking (frying, grilling)",
+          "effect_as_printed": "Frying and grilling significantly reduced the metal levels.",
+          "unit_ambiguous": false,
+          "evidence_scope": "parent-matrix",
+          "parent_matrix": "fish muscle (cooking, cysteine extraction)",
+          "display_note": "Evidence from fish muscle (cooking, cysteine extraction), not measured in this product.",
+          "deposit": "paleofoundation/hmi-evidence-deposits:deposits/HMI-MIT-PM-fish",
+          "oa_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC12796347.1/PMC12796347.1.pdf"
+        }
+      ]
+    },
+    "10.1038/s41598-026-42736-0": {
+      "doi": "10.1038/s41598-026-42736-0",
+      "title": "Detoxification of lead (pb²⁺) from simulated and real apple juice using chitosan/bacterial cellulose/MIL-100(Fe) aerogel microbeads.",
+      "year": null,
+      "source_page": null,
+      "mappings": [
+        {
+          "ingredients": [
+            "apple-juice"
+          ],
+          "products": [],
+          "metals": [
+            "lead"
+          ],
+          "intervention": "decontamination (adsorbent beads)",
+          "effect_as_printed": "The results showed that 95.6% of Pb²⁺ (10 mg/L) was adsorbed after 24 h using 2.5 mg of CS/BCN/MIL beads in an apple juice simulant.",
+          "unit_ambiguous": false,
+          "evidence_scope": "product",
+          "parent_matrix": null,
+          "deposit": "paleofoundation/hmi-evidence-deposits:deposits/HMI-MIT-apple-juice",
+          "oa_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC13212734.1/PMC13212734.1.pdf"
+        }
+      ]
+    },
+    "10.1111/jipb.70063": {
+      "doi": "10.1111/jipb.70063",
+      "title": "Trichoderma genome and multiomics insight into promoting yield and reducing grain cadmium in barley and wheat.",
+      "year": null,
+      "source_page": null,
+      "mappings": [
+        {
+          "ingredients": [
+            "cereals",
+            "wheat",
+            "barley"
+          ],
+          "products": [],
+          "metals": [
+            "cadmium"
+          ],
+          "intervention": "soil inoculation (Trichoderma nigricans T32781)",
+          "effect_as_printed": "We discovered that T32781 inoculation in soil significantly increased grain yield and decreased grain Cd concentration in barley and wheat exposed to different soil Cd levels.",
+          "unit_ambiguous": true,
+          "evidence_scope": "product",
+          "parent_matrix": null,
+          "deposit": "paleofoundation/hmi-evidence-deposits:deposits/HMI-MIT-wheat",
+          "oa_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC12782896.1/PMC12782896.1.pdf"
+        },
+        {
+          "ingredients": [
+            "wheat-flour",
+            "white-bread",
+            "whole-wheat-bread",
+            "wholemeal-bread",
+            "pasta",
+            "whole-wheat-pasta",
+            "noodles",
+            "egg-noodles",
+            "cream-of-wheat",
+            "saltine-crackers",
+            "flour-tortilla",
+            "wheat-cereal-biscuits",
+            "pretzels",
+            "bagel",
+            "english-muffin",
+            "chapattis",
+            "biscuits",
+            "graham-crackers",
+            "breadcrumbs",
+            "sugar-cookies",
+            "sandwich-cookies",
+            "doughnut",
+            "cinnamon-roll",
+            "pie-crust",
+            "toaster-pastry",
+            "cheese-crackers",
+            "butter-crackers",
+            "pancakes",
+            "cheese-pizza",
+            "macaroni-and-cheese",
+            "canned-spaghetti",
+            "chicken-noodle-soup"
+          ],
+          "products": [],
+          "metals": [
+            "cadmium"
+          ],
+          "intervention": "soil inoculation (Trichoderma nigricans T32781)",
+          "effect_as_printed": "We discovered that T32781 inoculation in soil significantly increased grain yield and decreased grain Cd concentration in barley and wheat exposed to different soil Cd levels.",
+          "unit_ambiguous": true,
+          "evidence_scope": "parent-matrix",
+          "parent_matrix": "wheat grain (agronomic Cd mitigation)",
+          "display_note": "Evidence from wheat grain (agronomic Cd mitigation), not measured in this product.",
+          "deposit": "paleofoundation/hmi-evidence-deposits:deposits/HMI-MIT-PM-wheat",
+          "oa_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC12782896.1/PMC12782896.1.pdf"
+        }
+      ]
+    },
+    "10.1155/ijfo/5137953": {
+      "doi": "10.1155/ijfo/5137953",
+      "title": "Effect of Boiling on Heavy Metal and Cyanide Concentrations and Associated Health Risks in Cassava and Cocoyam From a Gold Mining Area in Kade, Ghana.",
+      "year": null,
+      "source_page": null,
+      "mappings": [
+        {
+          "ingredients": [
+            "cassava"
+          ],
+          "products": [],
+          "metals": [
+            "cadmium",
+            "total arsenic",
+            "total mercury"
+          ],
+          "intervention": "cooking (boiling)",
+          "effect_as_printed": "thermal processing substantially reduced contaminant levels, decreasing Hg by 65%-80%, As by 85%-95%, and Cd by 60%-75% in both crops",
+          "unit_ambiguous": false,
+          "evidence_scope": "product",
+          "parent_matrix": null,
+          "deposit": "paleofoundation/hmi-evidence-deposits:deposits/HMI-MIT-cassava",
+          "oa_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC12017952.1/PMC12017952.1.pdf"
+        },
+        {
+          "ingredients": [
+            "root-vegetables",
+            "root-vegetable-purees",
+            "sweet-potato"
+          ],
+          "products": [],
+          "metals": [
+            "cadmium",
+            "total arsenic",
+            "total mercury"
+          ],
+          "intervention": "cooking (boiling)",
+          "effect_as_printed": "thermal processing substantially reduced contaminant levels, decreasing Hg by 65%-80%, As by 85%-95%, and Cd by 60%-75% in both crops",
+          "unit_ambiguous": false,
+          "evidence_scope": "parent-matrix",
+          "parent_matrix": "starchy roots and tubers (cassava, yam, plantain cooking)",
+          "display_note": "Evidence from starchy roots and tubers (cassava, yam, plantain cooking), not measured in this product.",
+          "deposit": "paleofoundation/hmi-evidence-deposits:deposits/HMI-MIT-PM-roots-tubers",
+          "oa_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC12017952.1/PMC12017952.1.pdf"
+        }
+      ]
+    },
+    "10.1186/s12870-024-05948-y": {
+      "doi": "10.1186/s12870-024-05948-y",
+      "title": "Exogenous salicylic acid reduces cadmium content in spinach (Spinacia oleracea L.) shoots under cadmium stress.",
+      "year": null,
+      "source_page": null,
+      "mappings": [
+        {
+          "ingredients": [
+            "spinach",
+            "leafy-greens"
+          ],
+          "products": [],
+          "metals": [
+            "cadmium"
+          ],
+          "intervention": "exogenous salicylic acid",
+          "effect_as_printed": "0.8 and 1.6 mmol/L SA significantly increased spinach root length, plant height, and biomass and decreased the Cd content in shoots by 30.03 and 17.35% compared to the Cd-treated group.",
+          "unit_ambiguous": false,
+          "evidence_scope": "product",
+          "parent_matrix": null,
+          "deposit": "paleofoundation/hmi-evidence-deposits:deposits/HMI-MIT-spinach",
+          "oa_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC11662821.1/PMC11662821.1.pdf"
+        }
+      ]
+    },
+    "10.1186/s12870-025-07534-2": {
+      "doi": "10.1186/s12870-025-07534-2",
+      "title": "Crosstalk between glomalin and AMF reduces cadmium uptake and leaching, enhancing pea yield and soil health.",
+      "year": null,
+      "source_page": null,
+      "mappings": [
+        {
+          "ingredients": [
+            "frozen-peas"
+          ],
+          "products": [],
+          "metals": [
+            "cadmium"
+          ],
+          "intervention": "soil amendment (AMF plus glomalin)",
+          "effect_as_printed": "reduced the concentrations of bioavailable Cd in soil, plant shoots, roots, and grain by 64%, 68%, 53%, and 89%, respectively",
+          "unit_ambiguous": false,
+          "evidence_scope": "product",
+          "parent_matrix": null,
+          "deposit": "paleofoundation/hmi-evidence-deposits:deposits/HMI-MIT-frozen-peas",
+          "oa_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC12595618.1/PMC12595618.1.pdf"
+        }
+      ]
+    },
+    "10.1186/s12870-025-08051-y": {
+      "doi": "10.1186/s12870-025-08051-y",
+      "title": "Mitigating cadmium and salinity stress in lettuce through biochar application: impacts on growth and nutrient dynamics.",
+      "year": null,
+      "source_page": null,
+      "mappings": [
+        {
+          "ingredients": [
+            "vegetables",
+            "lettuce"
+          ],
+          "products": [],
+          "metals": [
+            "cadmium"
+          ],
+          "intervention": "soil amendment (biochar)",
+          "effect_as_printed": "the highest biochar dose (2%) reduced shoot Cd concentrations by approximately 30-50% across Cd levels",
+          "unit_ambiguous": false,
+          "evidence_scope": "product",
+          "parent_matrix": null,
+          "deposit": "paleofoundation/hmi-evidence-deposits:deposits/HMI-MIT-vegetables",
+          "oa_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC12918618.1/PMC12918618.1.pdf"
+        }
+      ]
+    },
+    "10.1186/s12870-026-09130-4": {
+      "doi": "10.1186/s12870-026-09130-4",
+      "title": "Poly-γ-glutamic acid with moderate nitrogen mitigates cadmium accumulation in pepper fruits.",
+      "year": null,
+      "source_page": null,
+      "mappings": [
+        {
+          "ingredients": [
+            "green-bell-pepper",
+            "peppers"
+          ],
+          "products": [],
+          "metals": [
+            "cadmium"
+          ],
+          "intervention": "foliar amendment (poly-gamma-glutamic acid with moderate N)",
+          "effect_as_printed": "The Cd × N1 × PGA treatment also reduced fruit Cd concentration by 58.44% and decreased the root-to-fruit Cd translocation factor by 60.19%.",
+          "unit_ambiguous": false,
+          "evidence_scope": "product",
+          "parent_matrix": null,
+          "deposit": "paleofoundation/hmi-evidence-deposits:deposits/HMI-MIT-green-bell-pepper",
+          "oa_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC13449872.1/PMC13449872.1.pdf"
+        }
+      ]
+    },
+    "10.1186/s40360-020-0389-4": {
+      "doi": "10.1186/s40360-020-0389-4",
+      "title": "Sub-chronic treatment with high doses of ascorbic acid reduces lead levels in hen eggs intentionally exposed to a concentrated source of lead: a pilot study.",
+      "year": null,
+      "source_page": null,
+      "mappings": [
+        {
+          "ingredients": [
+            "eggs"
+          ],
+          "products": [],
+          "metals": [
+            "lead"
+          ],
+          "intervention": "hen feed supplementation (ascorbic acid)",
+          "effect_as_printed": "Findings of this pilot study showed that sub-chronic treatment of egg laying hens with ascorbic acid can reduce lead levels in different egg parts after intentional exposure to a concentrated source of lead.",
+          "unit_ambiguous": false,
+          "evidence_scope": "product",
+          "parent_matrix": null,
+          "deposit": "paleofoundation/hmi-evidence-deposits:deposits/HMI-MIT-eggs",
+          "oa_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC7052967.1/PMC7052967.1.pdf"
+        }
+      ]
+    },
+    "10.1371/journal.pone.0109967": {
+      "doi": "10.1371/journal.pone.0109967",
+      "title": "Field evidence of cadmium phytoavailability decreased effectively by rape straw and/or red mud with zinc sulphate in a Cd-contaminated calcareous soil.",
+      "year": null,
+      "source_page": null,
+      "mappings": [
+        {
+          "ingredients": [
+            "cabbage",
+            "spinach",
+            "tomato",
+            "radish"
+          ],
+          "products": [],
+          "metals": [
+            "cadmium"
+          ],
+          "intervention": "soil amendment (rape straw, red mud, Zn fertilization)",
+          "effect_as_printed": "water soluble and exchangeable Cd in soils was significantly decreased by the amendments themselves from 26% to 70%, which resulted in marked decrease by approximately from 34% to 77% in Cd concentration in vegetables",
+          "unit_ambiguous": false,
+          "evidence_scope": "product",
+          "parent_matrix": null,
+          "deposit": "paleofoundation/hmi-evidence-deposits:deposits/HMI-MIT-cabbage",
+          "oa_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC4193849.1/PMC4193849.1.pdf"
+        }
+      ]
+    },
+    "10.1371/journal.pone.0131608": {
+      "doi": "10.1371/journal.pone.0131608",
+      "title": "Rethinking Rice Preparation for Highly Efficient Removal of Inorganic Arsenic Using Percolating Cooking Water.",
+      "year": null,
+      "source_page": null,
+      "mappings": [
+        {
+          "ingredients": [
+            "rice-cakes",
+            "rice-cereal",
+            "crisped-rice-cereal",
+            "rice-noodles",
+            "rice-puffs",
+            "infant-rice-cereal",
+            "rice-milk",
+            "rice-koji"
+          ],
+          "products": [],
+          "metals": [
+            "total arsenic"
+          ],
+          "intervention": "cooking (high water ratio, percolating cooking water)",
+          "effect_as_printed": "At a water-to-rice cooking ratio of 12:1, 57±5% of Asi could be removed, average of 6 wholegrain and 6 polished rice samples.",
+          "unit_ambiguous": false,
+          "evidence_scope": "parent-matrix",
+          "parent_matrix": "rice grain (washing, soaking, cooking)",
+          "display_note": "Evidence from rice grain (washing, soaking, cooking), not measured in this product.",
+          "deposit": "paleofoundation/hmi-evidence-deposits:deposits/HMI-MIT-PM-rice",
+          "oa_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC4511802.1/PMC4511802.1.pdf"
+        }
+      ]
+    },
+    "10.3389/fmicb.2025.1734825": {
+      "doi": "10.3389/fmicb.2025.1734825",
+      "title": "Manganese-oxidizing Exiguobacterium acetylicum 4-3-1 reduces cadmium accumulation in spinach.",
+      "year": null,
+      "source_page": null,
+      "mappings": [
+        {
+          "ingredients": [
+            "spinach",
+            "leafy-greens"
+          ],
+          "products": [],
+          "metals": [
+            "cadmium"
+          ],
+          "intervention": "soil amendment (Mn-oxidizing rhizobacterium inoculation)",
+          "effect_as_printed": "decreasing the Cd concentration in spinach leaves by 53.07% through both intrinsic and extrinsic mechanisms",
+          "unit_ambiguous": false,
+          "evidence_scope": "product",
+          "parent_matrix": null,
+          "deposit": "paleofoundation/hmi-evidence-deposits:deposits/HMI-MIT-spinach",
+          "oa_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC12845336.1/PMC12845336.1.pdf"
+        }
+      ]
+    },
+    "10.3389/fpls.2022.989504": {
+      "doi": "10.3389/fpls.2022.989504",
+      "title": "Silicon-nanoparticles doped biochar is more effective than biochar for mitigation of arsenic and salinity stress in Quinoa: Insight to human health risk assessment.",
+      "year": null,
+      "source_page": null,
+      "mappings": [
+        {
+          "ingredients": [
+            "quinoa"
+          ],
+          "products": [],
+          "metals": [
+            "total arsenic"
+          ],
+          "intervention": "soil amendment (biochar, Si-nanoparticle doped biochar)",
+          "effect_as_printed": "As accumulation in grains was decreased by 65-fold and 25-fold, respectively for BC and SBC in addition to As-contaminated saline soil.",
+          "unit_ambiguous": false,
+          "evidence_scope": "product",
+          "parent_matrix": null,
+          "deposit": "paleofoundation/hmi-evidence-deposits:deposits/HMI-MIT-quinoa",
+          "oa_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC9592068.1/PMC9592068.1.pdf"
+        }
+      ]
+    },
+    "10.3389/fpls.2025.1619522": {
+      "doi": "10.3389/fpls.2025.1619522",
+      "title": "Exogenous jasmonic acid and salicylic acid enhance selenium uptake and mitigate cadmium accumulation in pak choi (Brassica chinensis L.) grown in selenium-rich, high-cadmium soil.",
+      "year": null,
+      "source_page": null,
+      "mappings": [
+        {
+          "ingredients": [
+            "brassica",
+            "brussels-sprouts",
+            "cauliflower"
+          ],
+          "products": [],
+          "metals": [
+            "cadmium"
+          ],
+          "intervention": "foliar jasmonic acid plus salicylic acid",
+          "effect_as_printed": "Cd accumulation in shoots decreased by 11.7%-29.3% in JA-containing treatments",
+          "unit_ambiguous": false,
+          "evidence_scope": "parent-matrix",
+          "parent_matrix": "pak choi (Brassica chinensis)",
+          "display_note": "Evidence from pak choi (Brassica chinensis), not measured in this product.",
+          "deposit": "paleofoundation/hmi-evidence-deposits:deposits/HMI-MIT-PM-pak-choi",
+          "oa_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC12401708.1/PMC12401708.1.pdf"
+        }
+      ]
+    },
+    "10.3390/biom12070913": {
+      "doi": "10.3390/biom12070913",
+      "title": "Alleviating Heavy Metal Toxicity in Milk and Water through a Synergistic Approach of Absorption Technique and High Voltage Atmospheric Cold Plasma and Probable Rheological Changes.",
+      "year": null,
+      "source_page": null,
+      "mappings": [
+        {
+          "ingredients": [
+            "whole-milk",
+            "milk-and-dairy"
+          ],
+          "products": [],
+          "metals": [
+            "cadmium",
+            "lead"
+          ],
+          "intervention": "decontamination (cold plasma plus soybean husk absorption)",
+          "effect_as_printed": "the highest mean elimination of about 27.37% for Pb and 14.89% for Cd was obtained",
+          "unit_ambiguous": false,
+          "evidence_scope": "product",
+          "parent_matrix": null,
+          "deposit": "paleofoundation/hmi-evidence-deposits:deposits/HMI-MIT-milk-and-dairy",
+          "oa_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC9312926.1/PMC9312926.1.pdf"
+        },
+        {
+          "ingredients": [
+            "semi-skimmed-milk",
+            "skim-milk",
+            "reduced-fat-milk",
+            "chocolate-reduced-fat-milk",
+            "milkshake",
+            "yogurt",
+            "cottage-cheese",
+            "cheddar-cheese",
+            "mozzarella",
+            "butter",
+            "ice-cream",
+            "sour-cream",
+            "cream-cheese",
+            "half-and-half",
+            "frozen-yogurt",
+            "swiss-cheese",
+            "monterey-jack-cheese",
+            "processed-american-cheese",
+            "fromage-frais"
+          ],
+          "products": [],
+          "metals": [
+            "cadmium",
+            "lead"
+          ],
+          "intervention": "decontamination (cold plasma plus soybean husk absorption)",
+          "effect_as_printed": "the highest mean elimination of about 27.37% for Pb and 14.89% for Cd was obtained",
+          "unit_ambiguous": false,
+          "evidence_scope": "parent-matrix",
+          "parent_matrix": "cow milk (decontamination)",
+          "display_note": "Evidence from cow milk (decontamination), not measured in this product.",
+          "deposit": "paleofoundation/hmi-evidence-deposits:deposits/HMI-MIT-PM-milk",
+          "oa_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC9312926.1/PMC9312926.1.pdf"
+        }
+      ]
+    },
+    "10.3390/ijerph15061056": {
+      "doi": "10.3390/ijerph15061056",
+      "title": "Risk and Benefit of Different Cooking Methods on Essential Elements and Arsenic in Rice.",
+      "year": null,
+      "source_page": null,
+      "mappings": [
+        {
+          "ingredients": [
+            "rice-cakes",
+            "rice-cereal",
+            "crisped-rice-cereal",
+            "rice-noodles",
+            "rice-puffs",
+            "infant-rice-cereal",
+            "rice-milk",
+            "rice-koji"
+          ],
+          "products": [],
+          "metals": [
+            "total arsenic"
+          ],
+          "intervention": "cooking (rice-to-water ratio, parboiling)",
+          "effect_as_printed": "Overall, we found 4.5%, 30%, and 44% decrease in the arsenic content of rice when cooked with rice-to-water ratios of 1:3, 1:6",
+          "unit_ambiguous": false,
+          "evidence_scope": "parent-matrix",
+          "parent_matrix": "rice grain (washing, soaking, cooking)",
+          "display_note": "Evidence from rice grain (washing, soaking, cooking), not measured in this product.",
+          "deposit": "paleofoundation/hmi-evidence-deposits:deposits/HMI-MIT-PM-rice",
+          "oa_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC6025416.1/PMC6025416.1.pdf"
+        }
+      ]
+    },
+    "10.3390/ijerph17217861": {
+      "doi": "10.3390/ijerph17217861",
+      "title": "Assessing the Influence of Compost and Biochar Amendments on the Mobility and Uptake of Heavy Metals by Green Leafy Vegetables.",
+      "year": null,
+      "source_page": null,
+      "mappings": [
+        {
+          "ingredients": [
+            "parsley",
+            "spinach",
+            "vegetables"
+          ],
+          "products": [],
+          "metals": [
+            "cadmium",
+            "chromium",
+            "lead",
+            "nickel"
+          ],
+          "intervention": "soil amendment (biochar, compost)",
+          "effect_as_printed": "organic amendments noticeably reduced the uptake of heavy metals by various leafy vegetables",
+          "unit_ambiguous": false,
+          "evidence_scope": "product",
+          "parent_matrix": null,
+          "deposit": "paleofoundation/hmi-evidence-deposits:deposits/HMI-MIT-vegetables",
+          "oa_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC7662399.1/PMC7662399.1.pdf"
+        },
+        {
+          "ingredients": [
+            "non-root-vegetables",
+            "vegetables-mixed",
+            "vegetable-purees",
+            "non-root-vegetable-purees"
+          ],
+          "products": [],
+          "metals": [
+            "cadmium",
+            "chromium",
+            "lead",
+            "nickel"
+          ],
+          "intervention": "soil amendment (biochar, compost)",
+          "effect_as_printed": "organic amendments noticeably reduced the uptake of heavy metals by various leafy vegetables",
+          "unit_ambiguous": false,
+          "evidence_scope": "parent-matrix",
+          "parent_matrix": "vegetables (soil amendment)",
+          "display_note": "Evidence from vegetables (soil amendment), not measured in this product.",
+          "deposit": "paleofoundation/hmi-evidence-deposits:deposits/HMI-MIT-PM-vegetables",
+          "oa_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC7662399.1/PMC7662399.1.pdf"
+        }
+      ]
+    },
+    "10.3390/ijerph17239038": {
+      "doi": "10.3390/ijerph17239038",
+      "title": "Lead, Zinc and Cadmium Accumulation, and Associated Health Risks, in Maize Grown near the Kabwe Mine in Zambia in Response to Organic and Inorganic Soil Amendments.",
+      "year": null,
+      "source_page": null,
+      "mappings": [
+        {
+          "ingredients": [
+            "corn"
+          ],
+          "products": [],
+          "metals": [
+            "lead"
+          ],
+          "intervention": "soil amendment (chicken manure, phosphate fertilizers)",
+          "effect_as_printed": "The amendments reduced Pb (>25%) and Zn concentrations (>18%) in the maize stover and grain.",
+          "unit_ambiguous": false,
+          "evidence_scope": "product",
+          "parent_matrix": null,
+          "deposit": "paleofoundation/hmi-evidence-deposits:deposits/HMI-MIT-PM-maize",
+          "oa_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC7730587.1/PMC7730587.1.pdf"
+        },
+        {
+          "ingredients": [
+            "tortilla-chips",
+            "corn-tortilla",
+            "corn-grits",
+            "popcorn",
+            "cornbread",
+            "canned-corn"
+          ],
+          "products": [],
+          "metals": [
+            "lead"
+          ],
+          "intervention": "soil amendment (chicken manure, phosphate fertilizers)",
+          "effect_as_printed": "The amendments reduced Pb (>25%) and Zn concentrations (>18%) in the maize stover and grain.",
+          "unit_ambiguous": false,
+          "evidence_scope": "parent-matrix",
+          "parent_matrix": "maize grain (soil amendment)",
+          "display_note": "Evidence from maize grain (soil amendment), not measured in this product.",
+          "deposit": "paleofoundation/hmi-evidence-deposits:deposits/HMI-MIT-PM-maize",
+          "oa_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC7730587.1/PMC7730587.1.pdf"
+        }
+      ]
+    },
+    "10.3390/ijerph19010442": {
+      "doi": "10.3390/ijerph19010442",
+      "title": "Cadmium Removal from Giant Squid (Dosidicus gigas) Hydrolysate in Fixed-Bed Columns Packed with Iminodiacetic Resin: Tools for Scaling up the Process.",
+      "year": null,
+      "source_page": null,
+      "mappings": [
+        {
+          "ingredients": [
+            "molluscs"
+          ],
+          "products": [],
+          "metals": [
+            "cadmium"
+          ],
+          "intervention": "decontamination (iminodiacetic resin columns on squid hydrolysate)",
+          "effect_as_printed": "The in-series columns evaluated reached a total efficiency of 90% on average after the third column in GSH with a cadmium concentration of 20.97 mg L-1.",
+          "unit_ambiguous": false,
+          "evidence_scope": "product",
+          "parent_matrix": null,
+          "deposit": "paleofoundation/hmi-evidence-deposits:deposits/HMI-MIT-molluscs",
+          "oa_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC8744781.1/PMC8744781.1.pdf"
+        },
+        {
+          "ingredients": [
+            "bivalve-molluscs",
+            "shellfish",
+            "oyster"
+          ],
+          "products": [],
+          "metals": [
+            "cadmium"
+          ],
+          "intervention": "decontamination (iminodiacetic resin columns on squid hydrolysate)",
+          "effect_as_printed": "The in-series columns evaluated reached a total efficiency of 90% on average after the third column in GSH with a cadmium concentration of 20.97 mg L-1.",
+          "unit_ambiguous": false,
+          "evidence_scope": "parent-matrix",
+          "parent_matrix": "molluscs (squid hydrolysate resin treatment)",
+          "display_note": "Evidence from molluscs (squid hydrolysate resin treatment), not measured in this product.",
+          "deposit": "paleofoundation/hmi-evidence-deposits:deposits/HMI-MIT-PM-molluscs",
+          "oa_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC8744781.1/PMC8744781.1.pdf"
+        }
+      ]
+    },
+    "10.3390/ijerph19052582": {
+      "doi": "10.3390/ijerph19052582",
+      "title": "Removal of Toxic and Essential Nutrient Elements from Commercial Rice Brands Using Different Washing and Cooking Practices: Human Health Risk Assessment.",
+      "year": null,
+      "source_page": null,
+      "mappings": [
+        {
+          "ingredients": [
+            "rice-cakes",
+            "rice-cereal",
+            "crisped-rice-cereal",
+            "rice-noodles",
+            "rice-puffs",
+            "infant-rice-cereal",
+            "rice-milk",
+            "rice-koji"
+          ],
+          "products": [],
+          "metals": [
+            "cadmium",
+            "lead",
+            "total arsenic"
+          ],
+          "intervention": "washing and cooking (excess water)",
+          "effect_as_printed": "We observed 33%, 35%, and 27% average removal of As, Cd, and Pb accordingly from rice when cooked with a rice to water ratio of 1:6 after washing 5 times.",
+          "unit_ambiguous": false,
+          "evidence_scope": "parent-matrix",
+          "parent_matrix": "rice grain (washing, soaking, cooking)",
+          "display_note": "Evidence from rice grain (washing, soaking, cooking), not measured in this product.",
+          "deposit": "paleofoundation/hmi-evidence-deposits:deposits/HMI-MIT-PM-rice",
+          "oa_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC8909527.1/PMC8909527.1.pdf"
+        }
+      ]
+    },
+    "10.3390/ijerph19063542": {
+      "doi": "10.3390/ijerph19063542",
+      "title": "Foliar Spraying of Selenium Combined with Biochar Alleviates Cadmium Toxicity in Peanuts and Enriches Selenium in Peanut Grains.",
+      "year": null,
+      "source_page": null,
+      "mappings": [
+        {
+          "ingredients": [
+            "peanuts"
+          ],
+          "products": [],
+          "metals": [
+            "cadmium"
+          ],
+          "intervention": "foliar selenium plus soil biochar",
+          "effect_as_printed": "Cd content in peanut grains was decreased by 32.81-50.07%",
+          "unit_ambiguous": false,
+          "evidence_scope": "product",
+          "parent_matrix": null,
+          "deposit": "paleofoundation/hmi-evidence-deposits:deposits/HMI-MIT-peanuts",
+          "oa_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC8952774.1/PMC8952774.1.pdf"
+        }
+      ]
+    },
+    "10.3390/ijerph191811736": {
+      "doi": "10.3390/ijerph191811736",
+      "title": "Calcareous Materials Effectively Reduce the Accumulation of Cd in Potatoes in Acidic Cadmium-Contaminated Farmland Soils in Mining Areas.",
+      "year": null,
+      "source_page": null,
+      "mappings": [
+        {
+          "ingredients": [
+            "potato-chips",
+            "french-fries",
+            "baked-potato-with-peel",
+            "cream-of-potato-soup"
+          ],
+          "products": [],
+          "metals": [
+            "cadmium"
+          ],
+          "intervention": "soil amendment (lime, apatite, calcite)",
+          "effect_as_printed": "LM, AP, and CA treatment strongly reduced Cd accumulation in the potato tubers by controlling the total 'flux' of Cd into the potato plants.",
+          "unit_ambiguous": false,
+          "evidence_scope": "parent-matrix",
+          "parent_matrix": "potato tuber (soil amendment)",
+          "display_note": "Evidence from potato tuber (soil amendment), not measured in this product.",
+          "deposit": "paleofoundation/hmi-evidence-deposits:deposits/HMI-MIT-PM-potato",
+          "oa_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC9517293.1/PMC9517293.1.pdf"
+        }
+      ]
+    },
+    "10.3390/ijerph191912125": {
+      "doi": "10.3390/ijerph191912125",
+      "title": "Toxic Metals and Metalloids in Hassawi Brown Rice: Fate during Cooking and Associated Health Risks.",
+      "year": null,
+      "source_page": null,
+      "mappings": [
+        {
+          "ingredients": [
+            "rice-cakes",
+            "rice-cereal",
+            "crisped-rice-cereal",
+            "rice-noodles",
+            "rice-puffs",
+            "infant-rice-cereal",
+            "rice-milk",
+            "rice-koji"
+          ],
+          "products": [],
+          "metals": [
+            "cadmium",
+            "lead",
+            "total arsenic"
+          ],
+          "intervention": "cooking (high rice:water ratio)",
+          "effect_as_printed": "The high-water cooking of the rice was more effective in the dissipation of metals from the rice as compared to low-water cooking conditions.",
+          "unit_ambiguous": false,
+          "evidence_scope": "parent-matrix",
+          "parent_matrix": "rice grain (washing, soaking, cooking)",
+          "display_note": "Evidence from rice grain (washing, soaking, cooking), not measured in this product.",
+          "deposit": "paleofoundation/hmi-evidence-deposits:deposits/HMI-MIT-PM-rice",
+          "oa_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC9566630.1/PMC9566630.1.pdf"
+        }
+      ]
+    },
+    "10.3390/life12030339": {
+      "doi": "10.3390/life12030339",
+      "title": "Screening of Leafy Vegetable Varieties with Low Lead and Cadmium Accumulation Based on Foliar Uptake.",
+      "year": null,
+      "source_page": null,
+      "mappings": [
+        {
+          "ingredients": [
+            "leafy-vegetables"
+          ],
+          "products": [],
+          "metals": [
+            "cadmium",
+            "lead"
+          ],
+          "intervention": "cultivar selection (low accumulation varieties)",
+          "effect_as_printed": "Yidianhongxiancai, Qingxiancai, Baiyuanyexiancai, Nanjingjiangengbai and Sijixiaobaicai were recommended for planting in kitchen gardens and suburban areas as they have low accumulation characteristics.",
+          "unit_ambiguous": false,
+          "evidence_scope": "product",
+          "parent_matrix": null,
+          "deposit": "paleofoundation/hmi-evidence-deposits:deposits/HMI-MIT-leafy-vegetables",
+          "oa_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC8955535.1/PMC8955535.1.pdf"
+        },
+        {
+          "ingredients": [
+            "iceberg-lettuce",
+            "kale",
+            "collard-greens"
+          ],
+          "products": [],
+          "metals": [
+            "cadmium",
+            "lead"
+          ],
+          "intervention": "cultivar selection (low accumulation varieties)",
+          "effect_as_printed": "Yidianhongxiancai, Qingxiancai, Baiyuanyexiancai, Nanjingjiangengbai and Sijixiaobaicai were recommended for planting in kitchen gardens and suburban areas as they have low accumulation characteristics.",
+          "unit_ambiguous": false,
+          "evidence_scope": "parent-matrix",
+          "parent_matrix": "lettuce and leafy greens (washing, cultivation)",
+          "display_note": "Evidence from lettuce and leafy greens (washing, cultivation), not measured in this product.",
+          "deposit": "paleofoundation/hmi-evidence-deposits:deposits/HMI-MIT-PM-lettuce",
+          "oa_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC8955535.1/PMC8955535.1.pdf"
+        }
+      ]
+    },
+    "10.3390/plants13141934": {
+      "doi": "10.3390/plants13141934",
+      "title": "Biochar Blended with Alkaline Mineral Can Better Inhibit Lead and Cadmium Uptake and Promote the Growth of Vegetables.",
+      "year": null,
+      "source_page": null,
+      "mappings": [
+        {
+          "ingredients": [
+            "vegetables"
+          ],
+          "products": [],
+          "metals": [
+            "cadmium",
+            "lead"
+          ],
+          "intervention": "soil amendment (biochar, alkaline mineral)",
+          "effect_as_printed": "the accumulation of Cd and Pb in the vegetables was most notably reduced with a high dosage of 9% peanut shell biochar alone",
+          "unit_ambiguous": false,
+          "evidence_scope": "product",
+          "parent_matrix": null,
+          "deposit": "paleofoundation/hmi-evidence-deposits:deposits/HMI-MIT-vegetables",
+          "oa_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC11280933.1/PMC11280933.1.pdf"
+        },
+        {
+          "ingredients": [
+            "non-root-vegetables",
+            "vegetables-mixed",
+            "vegetable-purees",
+            "non-root-vegetable-purees"
+          ],
+          "products": [],
+          "metals": [
+            "cadmium",
+            "lead"
+          ],
+          "intervention": "soil amendment (biochar, alkaline mineral)",
+          "effect_as_printed": "the accumulation of Cd and Pb in the vegetables was most notably reduced with a high dosage of 9% peanut shell biochar alone",
+          "unit_ambiguous": false,
+          "evidence_scope": "parent-matrix",
+          "parent_matrix": "vegetables (soil amendment)",
+          "display_note": "Evidence from vegetables (soil amendment), not measured in this product.",
+          "deposit": "paleofoundation/hmi-evidence-deposits:deposits/HMI-MIT-PM-vegetables",
+          "oa_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC11280933.1/PMC11280933.1.pdf"
+        }
+      ]
+    },
+    "10.3390/plants13192807": {
+      "doi": "10.3390/plants13192807",
+      "title": "Potentially Toxic Elements in Urban-Grown Lettuce: Effectiveness of Washing Procedures, Risk Assessment, and Isotopic Fingerprint.",
+      "year": null,
+      "source_page": null,
+      "mappings": [
+        {
+          "ingredients": [
+            "lettuce"
+          ],
+          "products": [],
+          "metals": [
+            "lead",
+            "total arsenic"
+          ],
+          "intervention": "washing (sodium hypochlorite)",
+          "effect_as_printed": "The most effective washing procedure involved the use of sodium hypochlorite, which reduced As by 46%, Pb by 48%, and V by 52%.",
+          "unit_ambiguous": false,
+          "evidence_scope": "product",
+          "parent_matrix": null,
+          "deposit": "paleofoundation/hmi-evidence-deposits:deposits/HMI-MIT-PM-lettuce",
+          "oa_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC11479218.1/PMC11479218.1.pdf"
+        },
+        {
+          "ingredients": [
+            "iceberg-lettuce",
+            "kale",
+            "collard-greens"
+          ],
+          "products": [],
+          "metals": [
+            "lead",
+            "total arsenic"
+          ],
+          "intervention": "washing (sodium hypochlorite)",
+          "effect_as_printed": "The most effective washing procedure involved the use of sodium hypochlorite, which reduced As by 46%, Pb by 48%, and V by 52%.",
+          "unit_ambiguous": false,
+          "evidence_scope": "parent-matrix",
+          "parent_matrix": "lettuce and leafy greens (washing, cultivation)",
+          "display_note": "Evidence from lettuce and leafy greens (washing, cultivation), not measured in this product.",
+          "deposit": "paleofoundation/hmi-evidence-deposits:deposits/HMI-MIT-PM-lettuce",
+          "oa_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC11479218.1/PMC11479218.1.pdf"
+        }
+      ]
+    },
+    "10.3390/plants14010141": {
+      "doi": "10.3390/plants14010141",
+      "title": "Evaluating a Soil Amendment for Cadmium Mitigation and Enhanced Nutritional Quality in Faba Bean Genotypes: Implications for Food Safety.",
+      "year": null,
+      "source_page": null,
+      "mappings": [
+        {
+          "ingredients": [
+            "black-beans",
+            "pinto-beans",
+            "kidney-beans",
+            "lima-beans",
+            "white-beans",
+            "refried-beans",
+            "baked-beans",
+            "pork-and-beans-canned",
+            "chili-con-carne-with-beans",
+            "legumes",
+            "chickpeas"
+          ],
+          "products": [],
+          "metals": [
+            "cadmium"
+          ],
+          "intervention": "soil amendment (pH-raising amendment) with low-Cd genotypes",
+          "effect_as_printed": "SA treatment reduced Cd concentration in seeds by 60%",
+          "unit_ambiguous": false,
+          "evidence_scope": "parent-matrix",
+          "parent_matrix": "faba bean seed (soil amendment)",
+          "display_note": "Evidence from faba bean seed (soil amendment), not measured in this product.",
+          "deposit": "paleofoundation/hmi-evidence-deposits:deposits/HMI-MIT-PM-beans",
+          "oa_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC11723064.1/PMC11723064.1.pdf"
+        }
+      ]
+    },
+    "10.3390/plants14193077": {
+      "doi": "10.3390/plants14193077",
+      "title": "Lead Immobilization in Soil and Uptake Reduction in Brassica chinensis Using Sepiolite-Supported Manganese Ferrite.",
+      "year": null,
+      "source_page": null,
+      "mappings": [
+        {
+          "ingredients": [
+            "brassica",
+            "brussels-sprouts",
+            "cauliflower"
+          ],
+          "products": [],
+          "metals": [
+            "lead"
+          ],
+          "intervention": "soil amendment with sepiolite-supported MnFe2O4",
+          "effect_as_printed": "In Brassica chinensis, MnFe2O4/SEP reduced Pb2+ uptake by 76%",
+          "unit_ambiguous": false,
+          "evidence_scope": "parent-matrix",
+          "parent_matrix": "pak choi (Brassica chinensis)",
+          "display_note": "Evidence from pak choi (Brassica chinensis), not measured in this product.",
+          "deposit": "paleofoundation/hmi-evidence-deposits:deposits/HMI-MIT-PM-pak-choi",
+          "oa_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC12526466.1/PMC12526466.1.pdf"
+        }
+      ]
+    },
+    "10.3390/plants15040621": {
+      "doi": "10.3390/plants15040621",
+      "title": "Combined Effects of Sulfhydryl-Grafted Palygorskite and Manganese Fertilizers in Reducing Cadmium Accumulation in Wheat.",
+      "year": null,
+      "source_page": null,
+      "mappings": [
+        {
+          "ingredients": [
+            "wheat"
+          ],
+          "products": [],
+          "metals": [
+            "cadmium"
+          ],
+          "intervention": "soil amendment (sulfhydryl-grafted palygorskite plus Mn fertilizer)",
+          "effect_as_printed": "the combined application of SGP and MnSO4 exhibited the highest efficiency, reducing grain Cd concentration by 62.5% compared to the control",
+          "unit_ambiguous": false,
+          "evidence_scope": "product",
+          "parent_matrix": null,
+          "deposit": "paleofoundation/hmi-evidence-deposits:deposits/HMI-MIT-wheat",
+          "oa_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC12944629.1/PMC12944629.1.pdf"
+        },
+        {
+          "ingredients": [
+            "wheat-flour",
+            "white-bread",
+            "whole-wheat-bread",
+            "wholemeal-bread",
+            "pasta",
+            "whole-wheat-pasta",
+            "noodles",
+            "egg-noodles",
+            "cream-of-wheat",
+            "saltine-crackers",
+            "flour-tortilla",
+            "wheat-cereal-biscuits",
+            "pretzels",
+            "bagel",
+            "english-muffin",
+            "chapattis",
+            "biscuits",
+            "graham-crackers",
+            "breadcrumbs",
+            "sugar-cookies",
+            "sandwich-cookies",
+            "doughnut",
+            "cinnamon-roll",
+            "pie-crust",
+            "toaster-pastry",
+            "cheese-crackers",
+            "butter-crackers",
+            "pancakes",
+            "cheese-pizza",
+            "macaroni-and-cheese",
+            "canned-spaghetti",
+            "chicken-noodle-soup"
+          ],
+          "products": [],
+          "metals": [
+            "cadmium"
+          ],
+          "intervention": "soil amendment (sulfhydryl-grafted palygorskite plus Mn fertilizer)",
+          "effect_as_printed": "the combined application of SGP and MnSO4 exhibited the highest efficiency, reducing grain Cd concentration by 62.5% compared to the control",
+          "unit_ambiguous": false,
+          "evidence_scope": "parent-matrix",
+          "parent_matrix": "wheat grain (agronomic Cd mitigation)",
+          "display_note": "Evidence from wheat grain (agronomic Cd mitigation), not measured in this product.",
+          "deposit": "paleofoundation/hmi-evidence-deposits:deposits/HMI-MIT-PM-wheat",
+          "oa_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC12944629.1/PMC12944629.1.pdf"
+        }
+      ]
+    },
+    "10.3390/toxics10080408": {
+      "doi": "10.3390/toxics10080408",
+      "title": "Effects of Amendments and Indigenous Microorganisms on the Growth and Cd and Pb Uptake of Coriander (Coriandrum sativum L.) in Heavy Metal-Contaminated Soils.",
+      "year": null,
+      "source_page": null,
+      "mappings": [
+        {
+          "ingredients": [
+            "coriander"
+          ],
+          "products": [],
+          "metals": [
+            "cadmium",
+            "lead"
+          ],
+          "intervention": "soil amendment (nano-hydroxyapatite, indigenous microorganisms)",
+          "effect_as_printed": "applying n-HAP, with and without IMOs, significantly increased shoot dry biomass and reduced plant Cd and Pb uptake",
+          "unit_ambiguous": false,
+          "evidence_scope": "product",
+          "parent_matrix": null,
+          "deposit": "paleofoundation/hmi-evidence-deposits:deposits/HMI-MIT-coriander",
+          "oa_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC9332394.1/PMC9332394.1.pdf"
+        }
+      ]
+    },
+    "10.3390/toxics12080532": {
+      "doi": "10.3390/toxics12080532",
+      "title": "Cadmium Minimization in Grains of Maize and Wheat Grown on Smelting-Impacted Land Ameliorated by Limestone.",
+      "year": null,
+      "source_page": null,
+      "mappings": [
+        {
+          "ingredients": [
+            "corn"
+          ],
+          "products": [],
+          "metals": [
+            "cadmium"
+          ],
+          "intervention": "soil amendment (limestone)",
+          "effect_as_printed": "Different rates of limestone application (2.25, 4.45, and 7.50 t ha-1) reduced Cd bioavailability in the soil by 20-54%, and Cd accumulation in wheat grains by 5-38% and maize grains by 21-63%, without yield penalty.",
+          "unit_ambiguous": false,
+          "evidence_scope": "product",
+          "parent_matrix": null,
+          "deposit": "paleofoundation/hmi-evidence-deposits:deposits/HMI-MIT-PM-maize",
+          "oa_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC11359027.1/PMC11359027.1.pdf"
+        },
+        {
+          "ingredients": [
+            "tortilla-chips",
+            "corn-tortilla",
+            "corn-grits",
+            "popcorn",
+            "cornbread",
+            "canned-corn"
+          ],
+          "products": [],
+          "metals": [
+            "cadmium"
+          ],
+          "intervention": "soil amendment (limestone)",
+          "effect_as_printed": "Different rates of limestone application (2.25, 4.45, and 7.50 t ha-1) reduced Cd bioavailability in the soil by 20-54%, and Cd accumulation in wheat grains by 5-38% and maize grains by 21-63%, without yield penalty.",
+          "unit_ambiguous": false,
+          "evidence_scope": "parent-matrix",
+          "parent_matrix": "maize grain (soil amendment)",
+          "display_note": "Evidence from maize grain (soil amendment), not measured in this product.",
+          "deposit": "paleofoundation/hmi-evidence-deposits:deposits/HMI-MIT-PM-maize",
+          "oa_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC11359027.1/PMC11359027.1.pdf"
+        }
+      ]
+    },
+    "10.3390/toxics13020079": {
+      "doi": "10.3390/toxics13020079",
+      "title": "Can N-Doped Biochar Achieve Safe Vegetable Production in Soil Heavily Contaminated by Heavy Metals?",
+      "year": null,
+      "source_page": null,
+      "mappings": [
+        {
+          "ingredients": [
+            "vegetables",
+            "spinach"
+          ],
+          "products": [],
+          "metals": [
+            "cadmium",
+            "lead",
+            "nickel"
+          ],
+          "intervention": "soil amendment (N-doped biochar)",
+          "effect_as_printed": "N-doped biochar significantly reduced the accumulation of Pb, Cd, and Ni in spinach by 35.50%, 33.25%, and 30.31%, respectively.",
+          "unit_ambiguous": false,
+          "evidence_scope": "product",
+          "parent_matrix": null,
+          "deposit": "paleofoundation/hmi-evidence-deposits:deposits/HMI-MIT-vegetables",
+          "oa_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC11860317.1/PMC11860317.1.pdf"
+        },
+        {
+          "ingredients": [
+            "non-root-vegetables",
+            "vegetables-mixed",
+            "vegetable-purees",
+            "non-root-vegetable-purees"
+          ],
+          "products": [],
+          "metals": [
+            "cadmium",
+            "lead",
+            "nickel"
+          ],
+          "intervention": "soil amendment (N-doped biochar)",
+          "effect_as_printed": "N-doped biochar significantly reduced the accumulation of Pb, Cd, and Ni in spinach by 35.50%, 33.25%, and 30.31%, respectively.",
+          "unit_ambiguous": false,
+          "evidence_scope": "parent-matrix",
+          "parent_matrix": "vegetables (soil amendment)",
+          "display_note": "Evidence from vegetables (soil amendment), not measured in this product.",
+          "deposit": "paleofoundation/hmi-evidence-deposits:deposits/HMI-MIT-PM-vegetables",
+          "oa_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC11860317.1/PMC11860317.1.pdf"
+        }
+      ]
+    },
+    "10.7717/peerj.21144": {
+      "doi": "10.7717/peerj.21144",
+      "title": "Biochar as a protective adsorbent against cadmium and lead stress in parsley (Petroselinum crispum): a study on growth, nutrient uptake, and antioxidant enzyme activities.",
+      "year": null,
+      "source_page": null,
+      "mappings": [
+        {
+          "ingredients": [
+            "parsley"
+          ],
+          "products": [],
+          "metals": [
+            "cadmium",
+            "lead"
+          ],
+          "intervention": "soil amendment (biochar)",
+          "effect_as_printed": "While the BC application reduced Cd concentration in the plant by 14.4%, it had no significant effect on Pb concentration.",
+          "unit_ambiguous": false,
+          "evidence_scope": "product",
+          "parent_matrix": null,
+          "deposit": "paleofoundation/hmi-evidence-deposits:deposits/HMI-MIT-parsley",
+          "oa_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC13069937.1/PMC13069937.1.pdf"
+        }
+      ]
+    }
+  }
+}
