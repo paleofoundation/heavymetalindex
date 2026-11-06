@@ -2,8 +2,8 @@
   "order": "HMI-STRUCTURE-SPEC-1",
   "date": "2026-10-16",
   "note": "Warn-only baseline. CI fails only when a page newly fails a check. Counts are pages, not occurrences. Stubs are exempt only from section_presence_and_order.",
-  "pages_scanned": 931,
-  "stubs_exempt_from_sections": 525,
+  "pages_scanned": 932,
+  "stubs_exempt_from_sections": 526,
   "checks": {
     "answer_block": {
       "pages": 44,
@@ -1334,7 +1334,7 @@
       ]
     },
     "consumer_audience": {
-      "pages": 253,
+      "pages": 254,
       "paths": [
         "wiki/ingredients/almond-beverage.md",
         "wiki/ingredients/applesauce.md",
@@ -1373,6 +1373,7 @@
         "wiki/ingredients/infant-formula-ingredients.md",
         "wiki/ingredients/italian-dressing.md",
         "wiki/ingredients/leafy-vegetables.md",
+        "wiki/ingredients/lemons.md",
         "wiki/ingredients/lemon-lime-soft-drink.md",
         "wiki/ingredients/lentils.md",
         "wiki/ingredients/lettuce.md",
