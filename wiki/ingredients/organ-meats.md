@@ -1,6 +1,6 @@
 ---
 title: Organ Meats (Kidney and Liver)
-dek: "Kidney and liver are edible tissues in which cadmium accumulates over an animal's lifetime. The page covers occurrence, animal age, feed sources and organ based derivatives."
+dek: "Kidney and liver are edible tissues in which cadmium accumulates over an animal's lifetime. The page covers occurrence across species and regions, animal age, feed exposure as a primary driver, species variation including equine offal as a high-cadmium outlier, and organ-based derivatives."
 rail_highlights:
   - label: Exposure
     text: Edible offal is among foods with high cadmium concentrations
@@ -16,79 +16,79 @@ contamination_profile:
     typical_ppb: [100, 800]
     p95_ppb: 4600
     confidence: medium
-    n_studies: 9
-    last_reviewed: 2026-05-16
+    n_studies: 13
+    last_reviewed: 2026-11-07
   Cd:
     status: populated
     typical_ppb: [50, 230]
     p95_ppb: 1500
     confidence: high
-    n_studies: 11
-    last_reviewed: 2026-05-16
+    n_studies: 17
+    last_reviewed: 2026-11-07
   iAs:
     status: populated
     typical_ppb: [null, null]
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: 2026-05-16
+    last_reviewed: 2026-11-07
   tHg:
     status: populated
     typical_ppb: [10, 280]
     p95_ppb: 500
-    confidence: low
-    n_studies: 2
-    last_reviewed: 2026-05-16
+    confidence: medium
+    n_studies: 5
+    last_reviewed: 2026-11-07
   Ni:
     status: populated
     typical_ppb: [100, 220]
     p95_ppb: 300
     confidence: low
-    n_studies: 2
-    last_reviewed: 2026-05-16
+    n_studies: 3
+    last_reviewed: 2026-11-07
   Al:
     status: populated
     typical_ppb: [290, 14000]
     p95_ppb: 18000
     confidence: low
-    n_studies: 1
-    last_reviewed: 2026-05-16
+    n_studies: 2
+    last_reviewed: 2026-11-07
   Cr:
     status: populated
     typical_ppb: [110, 600]
     p95_ppb: 1422
     confidence: medium
     n_studies: 5
-    last_reviewed: 2026-05-16
+    last_reviewed: 2026-11-07
   Sn:
     status: populated
     typical_ppb: [null, null]
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: 2026-05-16
+    last_reviewed: 2026-11-07
   tAs:
     status: populated
-    typical_ppb: [null, null]
+    typical_ppb: [55, 5320]
     p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: 2026-05-16
+    confidence: low
+    n_studies: 2
+    last_reviewed: 2026-11-07
   U:
     status: populated
     typical_ppb: [null, null]
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: 2026-05-16
+    last_reviewed: 2026-11-07
 drivers: [bioaccumulation-in-target-organ, animal-age, species, feed-cadmium]
 lower_risk_variants: []
 higher_risk_variants: ["[[ingredients/older-animal-organ-meat]]", "[[ingredients/horsemeat-offal]]"]
 used_in_products: ["[[products/pate]]", "[[products/sausages]]", "[[products/organ-meat-pies]]", "[[products/liver-based-baby-food]]", "[[products/nutritional-supplements]]", "[[products/pet-food]]"]
 audience: [regulator, educator, consumer, app]
-sources: 33
+sources: 48
 wiki_doi: null
-updated: 2026-05-16
+updated: 2026-11-07
 hero_image: /static/heroes/organ-meats-liver-kidney.webp
 quick_read:
   summary: "Kidney and liver accumulate cadmium over the animal lifetime, making animal age and feed exposure central to the organ metal profile."
@@ -115,7 +115,7 @@ hero_image_alt: "Separate raw liver and halved kidney portions on a dark ceramic
   </ul>
 </div>
 
-This page draws on evidence from [[sources/efsa-cadmium-contam-2009|EFSA]] and [[sources/codex-cxs-193-1995|Codex Alimentarius]], together with 5 peer-reviewed studies. The complete citation list is at the bottom of the page.
+This page draws on evidence from [[sources/efsa-cadmium-contam-2009|EFSA]] and [[sources/codex-cxs-193-1995|Codex Alimentarius]], together with 46 peer-reviewed studies and regulatory reports. The complete citation list is at the bottom of the page.
 <!-- END: hmi-opening -->
 
 ## Overview
@@ -128,13 +128,13 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 
 | Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
 |---------|----------|---------------|------------|-------------|
-| Pb | n=9 | 100–800 | medium | [[sources/marcelino2026-liver-trace-metals-netherlands-herbivores\|1]], [[sources/rabeey2025-bovine-hg-pb-cd-egypt\|2]], [[sources/zhao2024-toxic-metals-metalloids-food-review\|3]] |
-| Cd | n=11 | 50–230 | high | [[sources/marcelino2026-liver-trace-metals-netherlands-herbivores\|1]], [[sources/rabeey2025-bovine-hg-pb-cd-egypt\|2]], [[sources/zhao2024-toxic-metals-metalloids-food-review\|3]] |
+| Pb | n=13 | 100–800 | medium | [[sources/marcelino2026-liver-trace-metals-netherlands-herbivores\|1]], [[sources/rabeey2025-bovine-hg-pb-cd-egypt\|2]], [[sources/vidosavljevic2025-wild-boar-papuk-croatia\|3]] |
+| Cd | n=17 | 50–230 | high | [[sources/squadrone2026-cadmium-bovine-equine-cervid-italy\|1]], [[sources/ghidini2022-italian-heavy-pigs-muscle-liver\|2]], [[sources/emurotu2024-felele-abattoir-offal-nigeria\|3]] |
 | iAs | data gap | — | — | — |
-| tAs | data gap | — | — | — |
-| tHg | n=2 | 10–280 | low | [[sources/rabeey2025-bovine-hg-pb-cd-egypt\|1]], [[sources/codex-cxs-193-1995\|2]] |
-| Ni | n=2 | 100–220 | low | [[sources/marcelino2026-liver-trace-metals-netherlands-herbivores\|1]], [[sources/kamaly2023-egypt-poultry-metals\|2]] |
-| Al | n=1 | 290–14000 | low | [[sources/kamaly2023-egypt-poultry-metals\|1]] |
+| tAs | n=2 | 55–5320 | low | [[sources/domingo2025-africa-meat-toxic-elements-review\|1]], [[sources/emurotu2024-felele-abattoir-offal-nigeria\|2]] |
+| tHg | n=5 | 10–280 | medium | [[sources/rabeey2025-bovine-hg-pb-cd-egypt\|1]], [[sources/san2025-cambodia-animal-origin-hazards-review\|2]], [[sources/silva2025-amazon-beef-soil-grass-tissue-brazil\|3]] |
+| Ni | n=3 | 100–220 | low | [[sources/marcelino2026-liver-trace-metals-netherlands-herbivores\|1]], [[sources/kamaly2023-egypt-poultry-metals\|2]], [[sources/emurotu2024-felele-abattoir-offal-nigeria\|3]] |
+| Al | n=2 | 290–14000 | low | [[sources/kamaly2023-egypt-poultry-metals\|1]], [[sources/emurotu2024-felele-abattoir-offal-nigeria\|2]] |
 | Cr | n=5 | 110–600 | medium | [[sources/marcelino2026-liver-trace-metals-netherlands-herbivores\|1]], [[sources/meligy2024-camel-meat-toxic-elements\|2]], [[sources/kamaly2023-egypt-poultry-metals\|3]] |
 | Sn | data gap | — | — | — |
 | U | data gap | — | — | — |
@@ -145,11 +145,19 @@ Kidney and liver are the two tissues in mammals where cadmium preferentially acc
 
 ## Ranges by source, region, and variety
 
-EFSA 2009 Table 1 reports mean cadmium concentrations of 0.201 mg/kg for kidney and 0.116 mg/kg for liver across European samples. Horsemeat (muscle, not offal) separately carries a mean of 0.172 mg/kg, reflecting the same age-accumulation pattern._
+EFSA 2009 Table 1 reports mean cadmium concentrations of 0.201 mg/kg for kidney and 0.116 mg/kg for liver across European samples. The EU Commission Regulation 915/2023 sets maximum levels of 0.50 mg/kg for liver and 1.0 mg/kg for kidney (bovine, ovine, porcine, poultry). Italian heavy pig liver carries cadmium at approximately 60-fold the concentration in muscle from the same animals (Ghidini et al. 2022); the same pigs showed that children consuming pig liver alone at typical European portions reach more than 23% of the tolerable weekly intake for cadmium from that single source.
+
+For equine offal, the contrast is especially sharp. Squadrone et al. 2026 measured cadmium in liver, kidney, and muscle from 30 bovines, 30 equines, and 30 cervids slaughtered in northwest Italy from 2015 to 2025. Bovine kidney mean was 0.60 mg/kg and liver 0.14 mg/kg, both near the EU MLs. Equine kidney mean was 53 mg/kg and liver 10 mg/kg, with individual kidney values up to 140 mg/kg, reflecting the longer lifespan of horses and their correspondingly greater lifetime cadmium accumulation. Cervid kidney mean was 0.72 mg/kg and liver 0.13 mg/kg, similar to bovine.
+
+In Nigeria, Emurotu et al. 2024 found all internal organs at the Felele Abattoir (Lokoja) had nickel above regulatory threshold, and cadmium in muscle exceeded the 0.05 mg/kg MPL; hazard index calculations in this study were driven primarily by cadmium. In a review of African meat data, Domingo et al. 2025 collated total arsenic values reaching 5.32 ug/g wet weight and lead values reaching 18.90 ug/g wet weight in offal from high-contamination settings.
+
+For the Brazilian Amazon context, Silva et al. 2025 found that bovine kidney from Alta Floresta, Mato Grosso carried cadmium concentrations that, at a 100 g/month consumption rate for children, would contribute more than 5% of the monthly tolerable limit for cadmium from kidney alone, even in this relatively low-contamination market.
+
+Wild boar offal represents a consistently elevated category across European sampling. Vidosavljevic et al. 2025 (Papuk Nature Park, Croatia; n=38) found cadmium exceeded EU limits in 50% of kidneys (maximum 6.64 mg/kg) and 20% of livers (maximum 4.60 mg/kg); lead exceeded EU limits in 63% of livers and 51% of kidneys (maximum 11.8 mg/kg). These values reflect the absence of feed controls and the age heterogeneity of wild-harvested animals.
 
 ## Processing effects
 
-_Pending. Cadmium is incorporated into the organ tissue and is not meaningfully affected by cooking, curing, or processing into pates and sausages. Processed organ-meat products inherit the cadmium of their source organs._
+Cadmium is incorporated into the organ tissue at the cellular level, bound to metallothionein, and is not removed by cooking, curing, smoking, or processing into pates and sausages. Processed organ-meat products inherit the cadmium of their source organs without reduction. This distinguishes cadmium from some surface contaminants where washing or trimming reduces exposure. The practical implication is that the control point for cadmium in organ-meat-derived products is entirely upstream of processing: animal age, feed quality, and geographic origin determine the cadmium load, not the manufacturing process.
 
 ## Ingredient-derivative risk
 
@@ -157,11 +165,23 @@ Pates, liverwurst, and organ-meat-based prepared foods carry cadmium at the conc
 
 ## Mitigation options
 
-_Pending. Organ meats from younger animals, animals raised on documented lower-cadmium feed, and animals from non-hotspot regions carry lower cadmium than alternatives. Given the accumulation pattern, there is no processing intervention that removes cadmium from organ meat after slaughter._
+The principal levers are upstream of slaughter. Organ meats from younger animals carry lower cadmium loads because accumulation is time-dependent. Animals raised on feed with documented low cadmium content, from soil with low cadmium background, produce offal closer to the lower end of the occurrence distribution. Geographic origin matters: animals from areas near mining activity, phosphate-fertilized agricultural land, or industrial cadmium deposition carry markedly higher organ cadmium than animals from clean regions.
+
+There is no processing intervention that removes cadmium from organ meat after slaughter. For formulated products containing organ-meat fractions (pates, liverwurst, organ-meat-based supplements), the only control is sourcing from suppliers who test incoming organs and can document animal age and provenance. For wild game, there are no feed controls; cadmium in wild boar and deer offal reflects the contamination of the habitat and the age distribution of the harvest.
+
+Abd El Tawab et al. 2026 (goat feeding trial) demonstrated that cadmium accumulates preferentially in liver and kidney and that muscle is a substantially lower-cadmium tissue even under elevated dietary exposure; this feed-to-tissue transfer dynamic is consistent across species and explains why organ meats rather than muscle cuts are the primary dietary cadmium source from meat for most populations.
 
 ## Other metals of concern
 
-_Pending dedicated Pb, iAs, tHg, Ni, and Al ingest waves. The contamination_profile YAML block tracks all six metals; commodity-specific narrative for non-cadmium metals will populate when the corresponding source pages are ingested._
+Lead follows a broadly similar accumulation pattern to cadmium in kidney and liver, though it is less exclusively concentrated in those tissues. Wild boar offal carries the highest reported lead values in the European literature, with Vidosavljevic et al. 2025 finding up to 11.8 mg/kg in Croatian wild boar kidney and 63% of livers exceeding EU limits. In regulated commercial slaughter, bovine and porcine offal lead concentrations are generally below EU MLs (0.20 mg/kg for bovine and ovine liver; 0.15 mg/kg for pork liver), but lead in offal from unregulated or high-exposure settings (Nigerian abattoir data, Emurotu 2024; African review data, Domingo 2025) can reach multiple mg/kg wet weight.
+
+Total mercury (tHg) in organ meats from terrestrial commercial species is generally low relative to fish and seafood. Rabeey et al. 2025 found tHg in imported bovine liver and kidney in Egypt at the lower end of the detection range. San et al. 2025 (Cambodia systematic review) found that mean mercury in viscera of food animals remained below the hazard index threshold. The exception is organ meats from wildlife in mercury-impacted environments. Zarski et al. 2017 (mallard duck) and the wildlife literature generally show that predatory birds and mammals in mercury-contaminated watersheds can carry substantially elevated tissue mercury.
+
+Total arsenic (tAs) in organ meats spans a wide range depending on regional soil arsenic. The African review (Domingo 2025) reports total arsenic reaching 5.32 ug/g wet weight in offal from high-contamination settings in Nigeria; Emurotu 2024 found total arsenic (as Al proxy for contamination) in Nigerian offal at detectable levels. Inorganic arsenic data for organ meats are sparse; the available literature does not support a populated tAs typical-ppb range from clean-market sources, and the wide range in tAs reflects the mix of heavily contaminated and clean-market data.
+
+Nickel in poultry liver (Kamaly 2023, Egypt; Emurotu 2024, Nigeria) and in herbivore liver (Marcelino 2026, Netherlands) has been measured at 100 to 220 ug/kg in typical commercial settings; Emurotu 2024 reports all internal organs at Nigerian abattoir sites had nickel above regulatory threshold, suggesting localized contamination rather than a category-wide problem.
+
+Aluminium in poultry liver was found at high concentrations in Kamaly 2023 (up to 14,000 ug/kg), which is anomalously high and may reflect local contamination or analytical artifacts; and Emurotu 2024 found Al in Nigerian offal at 42.4 mg/kg dry weight (highest) in some tissues. The Al evidence base is thin and high values are geographically clustered.
 
 ## Regulatory limits that apply
 
@@ -174,6 +194,15 @@ _Pending dedicated Pb, iAs, tHg, Ni, and Al ingest waves. The contamination_prof
 Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record.
 
 1. [[sources/efsa-cadmium-contam-2009|Scientific Opinion of the Panel on Contaminants in the Food Chain on a request from the European Commission on cadmium in food]]<span class="hmi-ref-meta">EFSA Panel on Contaminants in the Food Chain (CONTAM) · The EFSA Journal · 2009 · [doi.org/10.2903/j.efsa.2009.980](https://doi.org/10.2903/j.efsa.2009.980)</span><span class="hmi-ref-tag">Government</span>
+2. [[sources/ghidini2022-italian-heavy-pigs-muscle-liver|Occurrence of Toxic Metals and Metalloids in Muscle and Liver of Italian Heavy Pigs and Potential Health Risk Associated with Dietary Exposure]]<span class="hmi-ref-meta">Ghidini S et al. · Foods · 2022 · [doi.org/10.3390/foods11162530](https://doi.org/10.3390/foods11162530)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+3. [[sources/squadrone2026-cadmium-bovine-equine-cervid-italy|Cadmium concentrations in liver, kidney and muscle of bovine, equine and cervid in northwest Italy]]<span class="hmi-ref-meta">Squadrone S et al. · Toxics · 2026 · [doi.org/10.3390/toxics14090806](https://doi.org/10.3390/toxics14090806)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+4. [[sources/emurotu2024-felele-abattoir-offal-nigeria|Heavy metal concentrations in selected animal organs slaughtered at the Felele Abattoir, Lokoja, Nigeria]]<span class="hmi-ref-meta">Emurotu JE et al. · Toxicology Reports · 2024 · [doi.org/10.1016/j.toxrep.2024.101701](https://doi.org/10.1016/j.toxrep.2024.101701)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+5. [[sources/vidosavljevic2025-wild-boar-papuk-croatia|Heavy metal contamination in wild boar tissues in Papuk Nature Park, Croatia]]<span class="hmi-ref-meta">Vidosavljevic D et al. · Journal of Xenobiotics · 2025 · [doi.org/10.3390/jox15030074](https://doi.org/10.3390/jox15030074)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+6. [[sources/domingo2025-africa-meat-toxic-elements-review|Toxic elements in meat and meat products from Africa: a systematic review and health risk assessment]]<span class="hmi-ref-meta">Domingo JL et al. · Nutrients · 2025 · [doi.org/10.3390/nu17111755](https://doi.org/10.3390/nu17111755)</span><span class="hmi-ref-tag">Review</span>
+7. [[sources/rabeey2025-bovine-hg-pb-cd-egypt|Health risk assessment of heavy metals in imported frozen bovine meat and organs marketed in Sohag, Egypt]]<span class="hmi-ref-meta">Rabeey M et al. · Scientific Reports · 2025 · [doi.org/10.1038/s41598-025-85851-6](https://doi.org/10.1038/s41598-025-85851-6)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+8. [[sources/san2025-cambodia-animal-origin-hazards-review|Chemical Hazards in Products of Animal Origin in Cambodia from 2000 to 2023: A Systematic Review and Meta-Analysis]]<span class="hmi-ref-meta">San SP et al. · International Journal of Environmental Research and Public Health · 2025 · [doi.org/10.3390/ijerph22081299](https://doi.org/10.3390/ijerph22081299)</span><span class="hmi-ref-tag">Review</span>
+9. [[sources/silva2025-amazon-beef-soil-grass-tissue-brazil|Toxic and essential elements in soil, grass and tissues of cattle raised in the Brazilian Amazon]]<span class="hmi-ref-meta">Silva TFL et al. · Journal of Agricultural and Food Chemistry · 2025 · [doi.org/10.1021/acs.jafc.4c12513](https://doi.org/10.1021/acs.jafc.4c12513)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+10. [[sources/abdeltawab2026-goat-feed-metal-tissue|Impacts of heavy metal-contaminated feed on growing goats: nutrient digestibility, metal absorption, tissue accumulation, meat quality, and carcass characteristics]]<span class="hmi-ref-meta">Abd El Tawab AM et al. · Frontiers in Veterinary Science · 2026 · [doi.org/10.3389/fvets.2026.1909059](https://doi.org/10.3389/fvets.2026.1909059)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
@@ -216,6 +245,21 @@ Works cited in this page's text, in first-appearance order. This is not the full
 | 31 | [[sources/efsa-lead-contam-2010\|EFSA 2010]]. *Scientific Opinion on Lead in Food*, EFSA Journal 2010;8(4):1570 | 2010 | Government report | EFSA Pb exposure assessment; organ meats included in the dietary Pb occurrence dataset as a contributing source for European populations |
 | 32 | [[sources/efsa-cadmium-contam-2009\|EFSA 2009]]. *Scientific Opinion of the Panel on Contaminants in the Food Chain on a request from the European Commission on cadmium in food*, The EFSA Journal | 2009 | Government report | EFSA CONTAM Cd opinion; kidney and liver reported as the highest-mean-Cd organ meats in the European occurrence dataset (kidney 0.201 mg/kg, liver 0.116 mg/kg) |
 | 33 | [[sources/codex-cxs-193-1995\|Codex 1995]]. *General Standard for Contaminants and Toxins in Food and Feed (CXS 193-1995)*, Codex Alimentarius (Joint FAO/WHO Food Standards Programme) | 1995 | Government report | Codex international Cd and Pb maximum levels for edible offal matrices; organ-specific MLs are higher than muscle-meat MLs across Codex tables |
+| 34 | [[sources/squadrone2026-cadmium-bovine-equine-cervid-italy\|Squadrone et al. 2026]]. *Cadmium contamination in liver, kidney and muscle of bovine, equine and cervid slaughtered in northwest Italy*, Toxics | 2026 | Peer-reviewed | IT Cd occurrence in liver, kidney, muscle from 30 bovines, 30 equines, 30 cervids from NW Italy 2015-2025 (n=270); equine kidney mean 53 mg/kg (max 140 mg/kg); bovine kidney mean 0.60 mg/kg; ICP-MS, LOQ 0.002 mg/kg |
+| 35 | [[sources/emurotu2024-felele-abattoir-offal-nigeria\|Emurotu et al. 2024]]. *Heavy metal concentrations in selected animal organs slaughtered at the Felele Abattoir, Lokoja, Nigeria*, Toxicology Reports | 2024 | Peer-reviewed | NG Al, Cd, Cr, Ni, Pb occurrence in kidney, liver, and muscle of cattle, goats, and rams at Felele Abattoir, Lokoja, Nigeria; ICP-OES; all internal organs had Ni above regulatory threshold; hazard index >1 driven by Cd |
+| 36 | [[sources/silva2025-amazon-beef-soil-grass-tissue-brazil\|Silva et al. 2025]]. *Toxic and essential elements in soil, grass and tissues of cattle raised in the Brazilian Amazon*, Journal of Agricultural and Food Chemistry | 2025 | Peer-reviewed | BR Pb, Cd, As, Hg occurrence in muscle, kidney, liver from 32 cattle each at Alta Floresta, Mato Grosso; all below regulatory limits; Cd from kidney at 100 g/month contributes >5% monthly UL for children |
+| 37 | [[sources/latoch2024-edible-offal-nutrients-review\|Latoch et al. 2024]]. *Edible animal offal: composition, nutritional value and consumer acceptance*, Nutrients | 2024 | Review | Review of offal nutritional composition and consumer acceptance in Europe; European daily liver consumption approximately 2.47 g/day; heavy metal accumulation cited as consumer concern |
+| 38 | [[sources/satarug2026-cadmium-dietary-guidelines-adequacy\|Satarug et al. 2026]]. *Cadmium dietary guidelines: adequacy and research needs*, Toxics | 2026 | Review | Cd exposure guidelines review: JECFA TDI 0.83, EFSA RfD 0.36, US FDA TRV 0.21-0.36 ug/kg bw/day; Cd biological half-life 7.4-30 years in proximal tubular cells |
+| 39 | [[sources/domingo2025-africa-meat-toxic-elements-review\|Domingo et al. 2025]]. *Toxic elements in meat and meat products from Africa: a systematic review and health risk assessment*, Nutrients | 2025 | Review | Review of African meat and offal metal studies; ranges: As 0.055-5.32, Cd 0.02-1.35, Hg 0.007-0.12, Pb 0.040-18.90 ug/g ww; Nigerian bovine offal (Adetunji et al.) Cd kidney 0.197, liver 0.172 ug/g ww |
+| 40 | [[sources/chirinos2025-guinea-pig-liver-kidney-peru\|Chirinos et al. 2025]]. *Heavy metals in tissues of guinea pigs near a mining concentrator in the Central Andes of Peru*, Veterinary Sciences | 2025 | Peer-reviewed | PE Pb, Cd, As occurrence in guinea pig liver, kidney, heart from animals near mining activity in central Andes Peru; not a commercial food species |
+| 41 | [[sources/abdelrahman2022-camel-organs-seasonal-saudi\|Abdelrahman et al. 2022]]. *Heavy metals in camel organs and seasonal variation in Saudi Arabia*, Animals | 2022 | Peer-reviewed | SA Cd, Pb occurrence in camel organs; seasonal variation observed (summer Cd higher in rumen); offal and muscle from Saudi dromedary |
+| 42 | [[sources/njoga2021-goat-carcasses-nigeria\|Njoga et al. 2021]]. *Heavy metals in goat carcasses from south-eastern Nigeria*, Foods | 2021 | Peer-reviewed | NG As, Cd, Pb occurrence in goat carcasses (muscle and offal) from south-eastern Nigeria; As 0.45-0.57, Cd 0.02-0.06, Pb 0.45-0.82 ug/g; hazard index below 1 |
+| 43 | [[sources/vidosavljevic2025-wild-boar-papuk-croatia\|Vidosavljevic et al. 2025]]. *Heavy metal contamination in wild boar tissues in Papuk Nature Park, Croatia*, Journal of Xenobiotics | 2025 | Peer-reviewed | HR Cd, Pb, Cu, Zn, Cr, Ni occurrence in wild boar (n=38) from Papuk Nature Park; Cd exceeded EU limits in 50% kidneys (max 6.64 mg/kg); Pb exceeded in 63% livers (max 11.8 mg/kg) |
+| 44 | [[sources/bende2026-european-hare-liver-kidney-hungary\|Bende et al. 2026]]. *Bioaccumulation of 17 heavy metals in liver and kidney of European hare (Lepus europaeus) in Hungary*, Toxics | 2026 | Peer-reviewed | HU 17 heavy metals in hare liver and kidney (n=163); Cd and Hg significantly higher in adults vs juveniles confirming age-dependent accumulation; not a major commercial species |
+| 45 | [[sources/vass2026-weasel-liver-kidney-bioaccumulation\|Vass et al. 2026]]. *Bioaccumulation of Heavy Metals (17 Elements) in the Liver and Kidneys of the Least Weasel (Mustela nivalis) from Agricultural Areas of Central Europe*, Toxics | 2026 | Peer-reviewed (C-tier, wildlife) | HU/AT 17-element bioaccumulation in least weasel liver and kidney (n=129); wildlife ecotoxicology, not human food; provides context on organ-specific Cd and Hg distribution in predatory mammals |
+| 46 | [[sources/ghidini2022-italian-heavy-pigs-muscle-liver\|Ghidini et al. 2022]]. *Occurrence of Toxic Metals and Metalloids in Muscle and Liver of Italian Heavy Pigs and Potential Health Risk Associated with Dietary Exposure*, Foods | 2022 | Peer-reviewed | IT Al, As, Cd, Cr, Cu, Fe, Hg, Ni, Pb, Sn, U, Zn occurrence in Italian heavy pig muscle and liver; Cd 60x higher in liver than muscle; children's Cd from pig liver alone >23% of tolerable weekly intake |
+| 47 | [[sources/abdeltawab2026-goat-feed-metal-tissue\|Abd El Tawab et al. 2026]]. *Impacts of heavy metal-contaminated feed on growing goats: nutrient digestibility, metal absorption, tissue accumulation, meat quality, and carcass characteristics*, Frontiers in Veterinary Science | 2026 | Peer-reviewed (B-tier, feed trial) | CN goat feed trial; demonstrates preferential Cd accumulation in liver and kidney over muscle under controlled dietary exposure conditions |
+| 48 | [[sources/san2025-cambodia-animal-origin-hazards-review\|San et al. 2025]]. *Chemical Hazards in Products of Animal Origin in Cambodia from 2000 to 2023: A Systematic Review and Meta-Analysis*, International Journal of Environmental Research and Public Health | 2025 | Review | KH systematic review of 23 reports; Hg in viscera of food animals (beef, pork, eggs) remained below hazard index threshold in Cambodia; fishery products were primary focus |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -225,9 +269,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| HMI-TOPIC-0274 | 2026-11-07 | major | 15 source pages added; contamination_profile updated (Pb n=13, Cd n=17, tHg medium confidence n=5, tAs populated, Ni n=3, Al n=2); "Ranges by source, region, and variety" expanded with Squadrone 2026 equine Cd data, Ghidini 2022 Italian pigs, Emurotu 2024 Nigeria, Vidosavljevic 2025 wild boar, Silva 2025 Brazil; "Processing effects" and "Mitigation options" filled from pending; "Other metals of concern" written from pending; sources 33 to 48 |
 | [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added and 1 removed; narrative text revised |
 | [a0eb4e0e2](https://github.com/paleofoundation/heavymetalindex/commit/a0eb4e0e2) | 2026-08-02 | major | 1 section removed; narrative text revised |
 | [91c7d5591](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591) | 2026-08-02 | minor | Narrative text revised |
 | [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | minor | Narrative text revised |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 source added; 2 sections added and 1 removed; narrative text revised |
 <!-- END: hmi-page-history -->
