@@ -30,7 +30,7 @@ sampling_year_range: null
 updated: 2026-11-06
 ---
 
-# EFSA ANS Panel 2018 — Re-evaluation of stannous chloride (E 512) as food additive
+# EFSA ANS Panel 2018 - Re-evaluation of stannous chloride (E 512) as food additive
 
 ## Overview
 

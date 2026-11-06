@@ -30,7 +30,7 @@ sampling_year_range: null
 updated: 2026-11-06
 ---
 
-# Al-Maqtari et al. 2020 — Metal content in Yemeni canned and fresh fruit juices
+# Al-Maqtari et al. 2020 - Metal content in Yemeni canned and fresh fruit juices
 
 ## Overview
 

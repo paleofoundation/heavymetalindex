@@ -30,7 +30,7 @@ sampling_year_range: "2000-2023"
 updated: 2026-11-06
 ---
 
-# Ly et al. 2025 — Chemical hazards in Cambodian animal-source foods, systematic review 2000-2023
+# Ly et al. 2025 - Chemical hazards in Cambodian animal-source foods, systematic review 2000-2023
 
 ## Overview
 

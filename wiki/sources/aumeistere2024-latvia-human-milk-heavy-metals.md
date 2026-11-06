@@ -30,7 +30,7 @@ sampling_year_range: "2016-2023"
 updated: 2026-11-06
 ---
 
-# Aumeistere et al. 2024 — Heavy metals in Latvian human milk
+# Aumeistere et al. 2024 - Heavy metals in Latvian human milk
 
 ## Overview
 

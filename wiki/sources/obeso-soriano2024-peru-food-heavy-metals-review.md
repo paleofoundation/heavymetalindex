@@ -30,7 +30,7 @@ sampling_year_range: "2000-2022"
 updated: 2026-11-06
 ---
 
-# Obeso-Soriano et al. 2024 — Heavy metal bioaccumulation in Peruvian foods: systematic review
+# Obeso-Soriano et al. 2024 - Heavy metal bioaccumulation in Peruvian foods: systematic review
 
 ## Overview
 

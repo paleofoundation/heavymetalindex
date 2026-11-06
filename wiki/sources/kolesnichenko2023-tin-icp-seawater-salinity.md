@@ -30,7 +30,7 @@ sampling_year_range: null
 updated: 2026-11-06
 ---
 
-# Kolesnichenko et al. 2023 — ICP-OES and ICP-MS methods for total tin in saline waters
+# Kolesnichenko et al. 2023 - ICP-OES and ICP-MS methods for total tin in saline waters
 
 ## Overview
 

@@ -30,7 +30,7 @@ sampling_year_range: null
 updated: 2026-11-06
 ---
 
-# Tabari et al. 2026 — Health risk assessment of potentially toxic elements in canned pinto and fava beans, Gilan Province, Iran
+# Tabari et al. 2026 - Health risk assessment of potentially toxic elements in canned pinto and fava beans, Gilan Province, Iran
 
 ## Overview
 
