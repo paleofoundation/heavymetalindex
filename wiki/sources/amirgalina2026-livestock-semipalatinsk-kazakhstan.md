@@ -15,7 +15,7 @@ raw_path: "raw/deposits/HMI-TOPIC-0021/10.3389_fvets.2026.1830035.pdf"
 raw_sha256: "4013afcabcf8c4805a16ea18c06701a1c6310ed7c08edf7353ff0041594c3084"
 near_duplicates: []
 metals: [Pb, Cd, Cu, Zn]
-ingredients: ["[[ingredients/beef]]", "[[ingredients/horse-meat]]", "[[ingredients/lamb]]", "[[ingredients/poultry]]", "[[ingredients/milk]]", "[[ingredients/meat]]"]
+ingredients: ["[[ingredients/beef]]", "[[ingredients/meat-and-poultry]]", "[[ingredients/lamb]]", "[[ingredients/poultry]]", "[[ingredients/milk]]", "[[ingredients/meat]]"]
 products: []
 matrices: [meat, milk, livestock]
 jurisdictions: [KZ]
