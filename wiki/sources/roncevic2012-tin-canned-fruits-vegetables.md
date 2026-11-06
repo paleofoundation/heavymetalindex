@@ -21,7 +21,7 @@ access_url: https://doi.org/10.1155/2012/376381
 license: cc by
 metals: [Sn]
 species: [Sn-inorganic]
-ingredients: ["[[ingredients/pineapple]]", "[[ingredients/peach]]", "[[ingredients/apricot]]", "[[ingredients/tomato]]", "[[ingredients/mushrooms]]", "[[ingredients/beans]]"]
+ingredients: ["[[ingredients/pineapple]]", "[[ingredients/peach]]", "[[ingredients/peach]]", "[[ingredients/tomato]]", "[[ingredients/mushrooms]]", "[[ingredients/beans]]"]
 products: ["[[products/canned-fruit]]", "[[products/canned-vegetables]]", "[[products/canned-foods-general]]"]
 matrices: [canned-fruit, canned-vegetable]
 jurisdictions: [SK]
