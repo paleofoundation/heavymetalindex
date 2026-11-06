@@ -2,117 +2,97 @@
 type: source
 raw_handle: RPMEHG_10-3390-ijerph22081299
 cite_key: authors2000-4-fisheries-administration-phnom-penh-120101-cambodia-chhounchamnan
-title: "4 Fisheries Administration, Phnom Penh 120101, Cambodia; chhounchamnan@gmail.com (C.C.);"
-authors: ["Unknown authors"]
-year: 2000
-publication: "Peer-reviewed article"
+title: "Chemical Hazards in Products of Animal Origin in Cambodia from 2000 to 2023: A Systematic Review and Meta-Analysis"
+authors: ["Shwe Phue San", "Linda Nicolaides", "Delia Grace", "Tumnoon Charaslertrangsi", "Chhoun Chamnan", "Shetty Seetharama Thombathu", "Ra Thorng", "Leab Kong", "Sreymom Noeurn", "Kuok Fidero", "Che Ratana", "Nazanin Zand", "Rortana Chea"]
+year: 2025
+publication: "International Journal of Environmental Research and Public Health"
 doi: 10.3390/ijerph22081299
 source_type: peer-reviewed
-evidence_tier: B
-license: "PDF-local extraction; verify publisher license before reuse"
+evidence_tier: A
+license: "CC BY 4.0"
 access_url: "https://doi.org/10.3390/ijerph22081299"
+pmcid: "PMC12386664"
+pmid: "40869884"
 raw_path: "/Volumes/HMI-Library/research-pulls/metal-deep-dive-mercury-hg/Fish marine non-predatory sardines anchovies salmon cod/EU mercury fish/10-3390-ijerph22081299.pdf"
 raw_sha256: "5f60d00921adc499e145aefea3701e34fd10fde938e53c0e844053da38c29a0d"
-metals: [MeHg, tHg, Cd, Pb, tAs, Sn]
-ingredients: []
-products: ["[[products/canned-seafood]]", "[[products/fish-marine-non-predatory]]", "[[products/shellfish]]", "[[products/root-vegetable-purees]]"]
-matrices: [canned-seafood, fish-marine-non-predatory, shellfish, root-vegetable-purees]
-jurisdictions: [US]
-sample_n: null
-sample_population: "Not mechanically resolved from the PDF; see Key numbers for source-reported sample descriptors."
-updated: 2026-08-03
+metals: [tAs, MeHg, tHg, Cd, Pb]
+ingredients: ["[[ingredients/meat-and-poultry]]"]
+products: ["[[products/fish-marine-non-predatory]]", "[[products/shellfish]]"]
+matrices: [pork, beef, egg, freshwater-fish, marine-fish, mussels]
+jurisdictions: [KH]
+sample_n: 1283
+sample_population: "1283 samples of products of animal origin (beef, beef viscera, egg, fish, pork, fishery products, mussels) collected across multiple Cambodian provinces from studies published 2000 to 2023; PRISMA-compliant systematic review and meta-analysis of 23 included studies and reports"
+wiki_doi: null
+sampling_locations: ["Kandal", "Kampong Cham", "Kampong Chhnang", "Kratie", "Battambang", "Siem Reap", "Kampong Thom", "Phnom Penh", "Tonle Sap", "Koh Kong", "Sihanoukville"]
+sampling_year_range: "2000-2023"
+updated: 2026-11-06
 hero_image: /static/heroes/research-glassware-notebook-sampling-spoon.webp
-hero_image_alt: "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating 2000 fisheries research research context."
+hero_image_alt: "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating San et al. 2025 Cambodia chemical hazards systematic review research context."
 ---
 
-# authors et al. 2000 - 4 Fisheries Administration, Phnom Penh 120101, Cambodia; chhounchamnan@gmail.com
+# San et al. 2025 -- Chemical Hazards in Products of Animal Origin in Cambodia: Systematic Review and Meta-Analysis
 
 ## Overview
 
-This source page is a mechanical bulk-ingest record for a PDF in the research-pulls corpus. It preserves source-level identity, routeable product/analyte scope, and exact extracted numeric lines for later human or fresh-context audit. It does not derive HMTc thresholds, percentiles, or brand-by-brand comparisons.
+This PRISMA-compliant systematic review and meta-analysis synthesises evidence on chemical contaminants in products of animal origin (POAO) in Cambodia from 2000 to 2023. A total of 23 studies and reports were included, covering 1283 samples across beef, beef viscera, egg, freshwater fish, marine fish, mussels, pork, and fishery products. It is the first published compilation of different types of chemical toxins in POAO in Cambodia over a 23-year period. Chemical hazards covered include elemental toxins (arsenic, cadmium, lead, mercury), persistent organic pollutants (PAHs, PBDEs, organochlorine pesticides, butyl tin), phthalate esters, and veterinary drug residues.
+
+The review was conducted by researchers at the Natural Resources Institute, University of Greenwich; International Livestock Research Institute; Mahidol University International College; Fisheries Administration of Cambodia; UNIDO; and the General Directorate of Animal Health and Production, Cambodia. No external funding was received.
 
 ## Key numbers
 
-The worker extracted the full PDF text with layout preservation twice and compared extraction hashes before commit. The following lines are copied from numeric/table-bearing regions of the PDF and retain the source units and wording where legible:
+Pork (from Table 4, San et al. 2025 p.13-14; Cambodia market pork; basis not explicitly stated for pork but wet weight is implied by the POAO monitoring context):
 
-- Fidero, K.; et al. Chemical Hazards in mean concentration of 1.92 mg/kg. The pooled geometric means of arsenic and mercury in fish
-- from Benin found the highest concentration of PAH4 at 0.48 ± 0.31 mg/kg in smoked
-- ated dietary MeHg source in Asia, projecting approximately a 60% rise in concentrations
-- Table 1. List of certain carcinogenic chemicals that can be found in products of animal origin.
-- of cadmium and mercury as 2.5 and 4 µg/kg body weight, respectively. The results
-- 2000 to 2024, reported by 23 studies included in the review, was summarized in Table 2.
-- Table 2. Quality assessment criteria for full-text review.
-- elemental toxins, specifically arsenic, cadmium, lead, and mercury. Meanwhile, 11 studies
-- The pooled geometric mean arsenic concentration in fish was 0.40 mg/kg (95% CI:
-- 0.25–0.66). The 95% prediction interval ranged from 0.015 to 10.50 mg/kg, indicating
-- The average mercury level in fish is ~0.14 mg/kg (95% CI: 0.087 to 0.223), significantly
-- above zero, and it serves as a meaningful finding for risk or regulation. Large τ2 suggesting
-- large between-study variance (log scale) and high I2 95% of the total variability is between
-- Most studies carry ~3% weight, indicating a balanced sample. No single study dominates
-- were outlined in Table 3. The concentrations of each identified chemical hazard in the food
-- CAC and the EU was also included in Table 4.
-- Table 3. Summary of evidence of chemical hazards in products of animal origin in Cambodia from
-- Table 4. Evidence of concentration of chemical contaminants in different POAO in Cambodia from
-- mean arsenic concentration in fish was 0.40 mg/kg (95% CI: 0.25–0.66). Details of meta
-- in Table 4. Despite the maximum limits of arsenic in other products such as rice and salt,
-- established the maximum level of cadmium in fish as 0.05 mg/kg. Our review indicates
-- revealed the pooled estimate of average mercury in fish is ~0.14 mg/kg (95% CI: 0.087 to
-- 0.223). The concentrations of mercury in mg/kg for beef, beef viscera, eggs, and pork are
-- summarized in Table 4. In total, 1.75% of the samples tested for mercury did not meet the
-- standards established by the CAC, which allows a maximum concentration of 0.005 mg/kg,
-- while all samples (100%) surpassed the EU’s permissible limit of 0.002 mg/kg.
-- concentration of 4.05 mg/kg. Neither the CAC nor the EU has any specific limits for the
-- butyl tin (expressed in wet weight) varied between 0.0024 and 0.15 mg/kg, with an average
-- concentration of 0.027 mg/kg. Similarly, the levels of tri-butyl tin in the marine fish samples
-- provinces (Table 5). For testing the samples, USEPA methods 3620B and 3640 A were
-- Table 5. Evidence of PBDE and organochlorine pesticides in marine fish and mussels.
-- concentration of chloramphenicol in farmed fish ranged from 0.03 to 1.18 mg/kg, with an
-- average concentration of 0.255 mg/kg. In total, 23 out of 129 samples tested did not comply
-- banned substances like nitrofuran metabolites (0.19 mg/kg in Kampong Chhnang and
-- 0.14 mg/kg in Takeo province) and leuco-malachite green 1.46 mg/kg in Kandal province.
-- of phthalate esters in beef, beef viscera, fish, and pork is summarized in Table 4. Neither the
-- As shown in Table 6, none of the hazard index of the average chemical toxin con-
-- Table 6. Health risk assessment of exposure to cadmium and mercury contamination in POAO
-- indicates that the highest arsenic concentration found in freshwater fish was 10.7 mg/kg,
-- 13.1 to 22.2 mg/kg as reported in Thailand (61). Arsenic dietary intake primarily derives
-- these, lead was responsible for 54% of the cases, methylmercury accounted for 22%, arsenic
-- contributed to 20%, and cadmium was linked to 1%. Notably, arsenic was the leading
+- Arsenic (total) in pork: minimum 0.01 mg/kg, maximum 0.02 mg/kg, average 0.015 mg/kg (= 10 to 20 ppb, avg 15 ppb). No national MRL exceedance reported; CAC and EU do not set a specific MRL for arsenic in pork. Sample count not disaggregated for pork specifically in the published table.
+- Mercury (total) in pork: minimum 0.002 mg/kg, maximum 0.01 mg/kg, average 0.01 mg/kg (= 2 to 10 ppb, avg 10 ppb). No MRL exceedance reported.
+- Organochlorine pesticides in pork: minimum 0.009 mg/kg, maximum 0.14 mg/kg, average 0.01 mg/kg; 100% of samples exceeded CAC and EU MRLs.
+- Phthalate esters in pork: minimum 0.92 mg/kg, maximum 1.24 mg/kg, average 1.08 mg/kg (phthalates are not metals; noted for completeness).
+- Mercury hazard index (HI) for pork (Table 6): minimum 0.002, maximum 0.01, average 0.008 (all well below 1; no acute health risk indicated at average consumption).
+
+Beef (from Table 4):
+- Arsenic in beef: min 0.004 mg/kg, max 0.1 mg/kg, avg 0.056 mg/kg.
+- Mercury in beef: min 0.004 mg/kg, max 0.02 mg/kg, avg 0.01 mg/kg.
+
+Egg (from Table 4):
+- Arsenic in egg: min 0.02 mg/kg, max 0.06 mg/kg, avg 0.04 mg/kg.
+- Mercury in egg: min 0.001 mg/kg, max 0.024 mg/kg, avg 0.02 mg/kg.
+
+Fish -- meta-analysis results (primary focus of the paper):
+- Pooled geometric mean arsenic concentration in fish: 0.40 mg/kg (95% CI: 0.25-0.66). Prediction interval 0.015-10.50 mg/kg.
+- Pooled average mercury in fish: approximately 0.14 mg/kg (95% CI: 0.087-0.223). Mercury HI for fish ranged 0.5-1.0 (average 0.75), indicating potential health risk at average Cambodian fish consumption.
+- Cadmium in fishery products: min 0.0003 mg/kg, max 0.28 mg/kg, avg 0.035 mg/kg; 9.09% exceeded CAC/EU ML of 0.05 mg/kg.
+- Lead in freshwater fish: below LOD to 0.31 mg/kg, avg 0.05 mg/kg; 5.88% exceeded CAC/EU ML of 0.3 mg/kg.
+
+Analytical methods used across the reviewed studies: acid digestion with ICP-MS, ICP-OES, ETAAS, AAS, and direct mercury analyser; methods specified per contaminant and study.
+
+LOD/LOQ: variable across the 23 included studies; not uniformly reported at the systematic review level.
+CRM and recovery: not reported at the systematic review level; individual primary studies may have reported them.
 
 ## Methods (brief)
 
-- and type of chemical contaminant, concentration details (including total sample counts,
-- total number of samples exceeded the maximum residue limits set by the CAC and the EU.
-- Most studies carry ~3% weight, indicating a balanced sample. No single study dominates
-- Additionally, the total number of samples, testing methodologies, and equipment utilized
-- Arsenic (Inorganic Kampong Cham, Aquaculture site Acid digestion, HPLC-ICP-MS,
-- arsenic and Kandal, Kratie, Tonle and nature (lakes, 331 internal ICP-MS,
-- total arsenic) Sap ponds, rivers) procedures ICP-OES, ETAAS
-- products Kampong Chhnang, and markets HPLC-FLD
-- Fish and fishery Tonle Sap, Phnom Acid digestion
-- Cadmium Coastal water 208 ICP-MS, ETAAS 9, 10, 14, 18
-- Lead Fish 249 Acid digestion ICP-MS
-- Chhnang, Pursat, Coastal water, AAS, Direct 7, 9, 10, 12, 19,
-- Kampong Thom, Siem markets ICP-MS 1, 2,3,4
-- aromatic Smoked Market, HPLC-FLD,
-- aromatic Mussels, smoked Kampong Cham, >87 samples; instead,
-- Lead Freshwater fish <LOD 0.31 0.05 5.88 5.88
-- including beef, beef viscera, egg, fish, and pork. Under the group of elements, 1283 samples
-- Materials S1) (31–35,37,47). The 331 samples were taken from snails, clams, fish, beef, beef
+PRISMA-P 2015 compliant systematic review. Literature searches in Scopus, PubMed, and Google Scholar for studies published 2000-2022 in English. Additional NRMP reports from the Fisheries Administration of Cambodia (2020-2024 farming seasons) obtained via direct request to DG Sante of the EU. Inclusion criteria: concentration data for chemical contaminants in food-sourced animals or POAO at any point in the production chain in Cambodia. Exclusion criteria: non-English language, non-food POAO hazards, biological hazards, no concentration data, non-original research.
+
+Quality assessment used four criteria (scientific method soundness, laboratory testing method appropriateness, data-analysis description accuracy, clarity of outcomes); studies rated good or medium were used for data extraction. Meta-analysis for arsenic and mercury in fish used random-effects model with Restricted Maximum Likelihood (REML) variance estimation and Knapp-Hartung adjustment. Health risk assessment used EFSA tolerable weekly intakes (Cd TWI 2.5 ug/kg bw, Hg TWI 4 ug/kg bw) with estimated weekly intakes based on Cambodian per capita consumption (63 kg/year fish, 18.5 kg/year meat).
 
 ## Implications
 
-This page makes the source discoverable for category-level evidence routing. Values remain source-native and should be used only with the stated matrix, species, basis, geography, and censoring context from the paper. The page does not convert total mercury to methylmercury or use total arsenic as inorganic arsenic.
+Ingredient/product pages: The paper provides pork-specific tAs and tHg occurrence data from Cambodia. These are the first published Cambodian values for pork arsenic and mercury in this systematic compilation. The concentrations are low and below the hazard index threshold of 1. The geographic scope (Cambodia) is specific and cannot be assumed to represent global pork production; use as regional evidence with explicit geographic caveat.
+
+Fish and seafood pages: The meta-analytic arsenic and mercury estimates for fish in Cambodia are the primary quantitative contribution of this paper. Mercury HI approaching 1 in fish is a signal for further monitoring.
+
+Cadmium page: 9.09% exceedance of the CAC/EU 0.05 mg/kg ML in Cambodian fishery products is relevant context for cadmium in fish.
+
+Lead page: 5.88% exceedance of the CAC/EU 0.3 mg/kg ML in freshwater fish from Cambodia is relevant regional context.
 
 ## Related evidence
 
-- [[products/canned-seafood]]
+- [[ingredients/meat-and-poultry]]
 - [[products/fish-marine-non-predatory]]
 - [[products/shellfish]]
-- [[products/root-vegetable-purees]]
-- [[metals/mercury]]
+- [[metals/arsenic-total]]
+- [[metals/mercury-total]]
+- [[metals/mercury-methyl]]
 - [[metals/cadmium]]
 - [[metals/lead]]
-- [[metals/arsenic]]
 - [[metals/tin]]
 
 <!-- BEGIN: hmi-page-history -->
@@ -122,6 +102,7 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| (pending) | 2026-11-06 | major | Source page corrected: title, authors, year, frontmatter and body replaced from full PDF read; pork tAs and tHg data extracted from Table 4 and routed to meat-and-poultry |
 | [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 2 sections added |
 | [d5eece0902](https://github.com/paleofoundation/heavymetalindex/commit/d5eece0902) | 2026-08-03 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

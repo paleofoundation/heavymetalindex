@@ -14,10 +14,10 @@ contamination_profile:
   Pb: { status: populated, typical_ppb: [1, 50], p95_ppb: 700, confidence: medium, n_studies: 8, last_reviewed: 2026-05-16 }
   Cd: { status: populated, typical_ppb: [1, 30], p95_ppb: 230, confidence: medium, n_studies: 6, last_reviewed: 2026-05-16 }
   iAs: { status: populated, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: 2026-05-16 }
-  tHg: { status: populated, typical_ppb: [0, 20], p95_ppb: 310, confidence: medium, n_studies: 5, last_reviewed: 2026-05-16 }
+  tHg: { status: populated, typical_ppb: [0, 20], p95_ppb: 310, confidence: medium, n_studies: 6, last_reviewed: 2026-11-06 }
   Ni: { status: populated, typical_ppb: [50, 250], p95_ppb: null, confidence: medium, n_studies: 5, last_reviewed: 2026-05-16 }
   Al: { status: populated, typical_ppb: [300, 600], p95_ppb: null, confidence: low, n_studies: 3, last_reviewed: 2026-05-16 }
-  tAs: { status: populated, typical_ppb: [1, 30], p95_ppb: null, confidence: medium, n_studies: 5, last_reviewed: 2026-05-16 }
+  tAs: { status: populated, typical_ppb: [1, 30], p95_ppb: null, confidence: medium, n_studies: 6, last_reviewed: 2026-11-06 }
   Cr: { status: populated, typical_ppb: [10, 70], p95_ppb: null, confidence: low, n_studies: 4, last_reviewed: 2026-05-16 }
   Sn: { status: populated, typical_ppb: [0, 50], p95_ppb: null, confidence: low, n_studies: 2, last_reviewed: 2026-05-16 }
   U: { status: populated, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: 2026-05-16 }
@@ -28,7 +28,7 @@ used_in_products: ["[[products/meat-and-poultry-purees]]", "[[products/mixed-mea
 audience: [regulator, educator, consumer, app]
 sources: 110
 wiki_doi: null
-updated: 2026-05-16
+updated: 2026-11-06
 hero_image: /static/heroes/meat-poultry-beef-chicken.webp
 quick_read:
   summary: "Meat and poultry metal content reflects animal feed and water exposure, with organ tissue carrying more cadmium than muscle."
@@ -70,8 +70,8 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 | Pb | n=8 | 1–50 | medium | — |
 | Cd | n=6 | 1–30 | medium | — |
 | iAs | data gap | — | — | — |
-| tAs | n=5 | 1–30 | medium | — |
-| tHg | n=5 | 0–20 | medium | — |
+| tAs | n=6 | 1-30 | medium | [[sources/authors2000-4-fisheries-administration-phnom-penh-120101-cambodia-chhounchamnan\|35]] |
+| tHg | n=6 | 0-20 | medium | [[sources/authors2000-4-fisheries-administration-phnom-penh-120101-cambodia-chhounchamnan\|35]] |
 | Ni | n=5 | 50–250 | medium | — |
 | Al | n=3 | 300–600 | low | — |
 | Cr | n=4 | 10–70 | low | — |
@@ -80,7 +80,9 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 
 ## Ranges by source, region, and variety
 
-_Pending meat- and poultry-specific occurrence extraction._
+A systematic review of products of animal origin in Cambodia (San et al. 2025; 23 included studies, 1283 samples; 2000-2023) reported pork-specific total arsenic and total mercury concentrations derived from multiple Cambodian survey studies. Total arsenic in pork ranged from 10 to 20 ppb (average 15 ppb); total mercury in pork ranged from 2 to 10 ppb (average 10 ppb). The hazard index for mercury in pork at average Cambodian consumption was 0.008, indicating no acute risk. These values are consistent with the category-wide typical range (tAs 1-30 ppb, tHg 0-20 ppb) and reflect the expected low metal loading in pork muscle from a Southeast Asian market context. [[sources/authors2000-4-fisheries-administration-phnom-penh-120101-cambodia-chhounchamnan]]
+
+The Cambodia data should be treated as regional evidence specific to the Cambodian market and production system; it is not directly generalizable to US, EU, or global pork supply chains. No pork-specific lead or cadmium data were reported in this review.
 
 <!-- BEGIN: hmi-page-references -->
 ## References
@@ -88,6 +90,7 @@ _Pending meat- and poultry-specific occurrence extraction._
 Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record.
 
 1. [[sources/chekri2019-french-infant-toddler-tds-trace-elements|Trace element contents in foods from the first French Total Diet Study on infants and toddlers]]<span class="hmi-ref-meta">Rachida Chekri, Emilie Le Calvez, Julie Zinck, Jean-Charles Leblanc, Veronique Sirot, Marion Hulin, et al. · Journal of Food Composition and Analysis · 2019 · [doi.org/10.1016/j.jfca.2019.02.002](https://doi.org/10.1016/j.jfca.2019.02.002)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+2. [[sources/authors2000-4-fisheries-administration-phnom-penh-120101-cambodia-chhounchamnan|Chemical Hazards in Products of Animal Origin in Cambodia from 2000 to 2023: A Systematic Review and Meta-Analysis]]<span class="hmi-ref-meta">Shwe Phue San, Linda Nicolaides, Delia Grace, et al. · International Journal of Environmental Research and Public Health · 2025 · [doi.org/10.3390/ijerph22081299](https://doi.org/10.3390/ijerph22081299)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
@@ -131,6 +134,7 @@ Works cited in this page's text, in first-appearance order. This is not the full
 | 32 | [[sources/hunt2009-lead-bullet-fragments-venison\|Hunt et al. 2009]]. *Lead bullet fragments in venison from rifle-killed deer: potential for human dietary exposure*, PLoS ONE | 2009 | Peer-reviewed | US Pb occurrence in Thirty eviscerated white-tailed deer carcasses shot by hunters in Sheridan County, Wyoming with standard lead-core, copper-jacketed rifle bullets... (n=30) |
 | 33 | [[sources/ammerman1977-mineral-supplements-contaminants\|Ammerman et al. 1977]]. *Contaminating elements in mineral supplements and their potential toxicity: A review*, Journal of Animal Science | 1977 | Peer-reviewed | US/CA Pb, tAs, Cd, Al, tHg, V occurrence in Example analyses of feed-grade micro-mineral supplement materials in Table 2: manganese oxide (n=3), iron carbonate/sulfate/oxide (n=5), zinc oxide... (n=12) |
 | 34 | [[sources/mahaffey1975-fda-total-diet-study-heavy-metals\|Mahaffey et al. 1975]]. *Heavy Metal Exposure from Foods*, Environmental Health Perspectives | 1975 | Peer-reviewed | US Pb, Cd, tHg, tAs, Zn, Se occurrence in US FDA Total Diet Study (Market Basket Survey), FY 1968–1974. 30 market baskets per year purchased from retail... |
+| 35 | [[sources/authors2000-4-fisheries-administration-phnom-penh-120101-cambodia-chhounchamnan\|San et al. 2025]]. *Chemical Hazards in Products of Animal Origin in Cambodia from 2000 to 2023: A Systematic Review and Meta-Analysis*, International Journal of Environmental Research and Public Health | 2025 | Peer-reviewed | KH tAs, tHg occurrence in pork; pork tAs min 10 ppb, max 20 ppb, avg 15 ppb; pork tHg min 2 ppb, max 10 ppb, avg 10 ppb; hazard index for pork mercury below 1; systematic review of 23 studies across 1283 animal-product samples in Cambodia 2000-2023 |
 <!-- END: hmi-source-legend -->
 ## Why this commodity accumulates heavy metals
 
@@ -183,9 +187,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| (pending) | 2026-11-06 | major | 1 source added (San et al. 2025 Cambodia POAO systematic review); pork tAs and tHg Cambodia data added to Ranges section; n_studies incremented for tAs and tHg |
 | [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 source added; 1 section added and 1 removed; narrative text revised |
 | [a0eb4e0e2](https://github.com/paleofoundation/heavymetalindex/commit/a0eb4e0e2) | 2026-08-02 | major | 1 section removed; narrative text revised |
 | [91c7d5591](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591) | 2026-08-02 | minor | Narrative text revised |
 | [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | major | 1 source added; narrative text revised |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 2 sections added and 1 removed; narrative text revised |
 <!-- END: hmi-page-history -->
