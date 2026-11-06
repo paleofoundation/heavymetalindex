@@ -15,7 +15,7 @@ raw_path: "raw/deposits/HMI-TOPIC-0021/10.1002_jsfa.70494.pdf"
 raw_sha256: "90565bf1125fceaa2a203802c6e47b11cf6fd973a69c5f2883f752bdc3fb23e1"
 near_duplicates: []
 metals: [As, Al, Ni, Pb]
-ingredients: ["[[ingredients/botanical-extracts]]", "[[ingredients/herbal-supplements]]"]
+ingredients: ["[[ingredients/herbal-botanicals]]"]
 products: []
 matrices: [botanical-extract, supplement]
 jurisdictions: [IT, EU]
@@ -59,7 +59,7 @@ Lanza and colleagues quantitatively assessed exposure levels and potential healt
 
 ## Related evidence
 
-- [[ingredients/botanical-extracts]]
+- [[ingredients/herbal-botanicals]]
 - [[metals/arsenic]]
 - [[metals/lead]]
 - [[metals/aluminium]]

@@ -15,7 +15,7 @@ raw_path: "raw/deposits/HMI-TOPIC-0021/10.1038_s41598-025-33838-2.pdf"
 raw_sha256: "a53c08e1f435de5473e8741af7bd310b2c27583a219e4d3f6f8364002f07c836"
 near_duplicates: []
 metals: [Cd, Ni, Pb, Co, Se, Cu, Fe, Mg, Mn, Zn]
-ingredients: ["[[ingredients/lamb]]", "[[ingredients/goat-meat]]", "[[ingredients/lamb-liver]]", "[[ingredients/goat-liver]]", "[[ingredients/meat]]", "[[ingredients/offal]]"]
+ingredients: ["[[ingredients/lamb]]", "[[ingredients/meat-and-poultry]]", "[[ingredients/organ-meats]]", "[[ingredients/meat]]", "[[ingredients/offal]]"]
 products: []
 matrices: [meat, liver, ruminant]
 jurisdictions: [IR]
@@ -61,9 +61,9 @@ Sampling conducted from October to December 2023 at Khorramabad slaughterhouse (
 ## Related evidence
 
 - [[ingredients/lamb]]
-- [[ingredients/goat-meat]]
+- [[ingredients/meat-and-poultry]]
 - [[ingredients/meat]]
-- [[ingredients/offal]]
+- [[ingredients/organ-meats]]
 - [[metals/cadmium]]
 - [[metals/lead]]
 - [[metals/nickel]]
