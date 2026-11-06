@@ -1,112 +1,73 @@
 ---
 type: source
-raw_handle: HMIRAW_10-1016-j-advnut-2026-100628
+raw_handle: PMC13156631
 cite_key: oconnor2026-bioavailability-of-and-us-infant-exposure-to-arsenic
 title: "Bioavailability of and US Infant Exposure to Arsenic, Cadmium, Lead, Mercury, and Per- and Polyfluoroalkyls from Human Milk and Infant Formula: Results from a Series of Systematic Reviews"
-authors: ["o’connor"]
+authors: ["Lauren E. O’Connor", "Rachel C. Thoerig", "Cassi N. Leta", "Arin A. Balalian", "Shailesh M. Advani", "Trish Bosse", "Margaret J. Foster", "Kyle M. Holland", "Kathryn G. Dewey", "Mandy M. Fisher", "Aubrey L. Galusha", "Carin A. Huset", "Amanda J. MacFarlane", "Maureen K. Spill"]
 year: 2026
-publication: "Advances in Nutrition"
+publication: "Advances in Nutrition 17(2026):100628"
 doi: "10.1016/j.advnut.2026.100628"
-source_type: peer-reviewed
-evidence_tier: B
-license: "PDF-local extraction; verify publisher license before reuse"
+source_type: systematic-review
+evidence_tier: A
+license: "CC BY"
 access_url: "https://doi.org/10.1016/j.advnut.2026.100628"
-raw_path: "/Volumes/HMI-Library/heavy-metal-index-raw/Digest/1-s2.0-S2161831326000426-main.pdf"
-raw_sha256: "5e235c016316ca3abf87c0cd37c32cc59bd55588c630dd880a445dce71275947"
-metals: [Cd, tAs, tHg]
-ingredients: []
-products: ["[[products/infant-formula-powder]]", "[[products/shellfish]]"]
-matrices: [infant-formula-powder, shellfish]
+raw_path: "raw/markdown/PMC13156631/PMC13156631.md"
+raw_sha256: "0ff9443ff1c4cf3cb67947792de4f623adaa405073df757bac9f5906a3912339"
+metals: [Pb, Cd, tAs, tHg]
+ingredients: [infant-formula-ingredients]
+products: [infant-formula-powder-non-soy, infant-formula-powder-soy-based]
+context_only_products: [infant-formula-stage1]
+matrices: [infant-formula, human-milk]
 jurisdictions: [US]
-sample_n: null
-sample_population: "Not mechanically resolved from the PDF; see Key numbers for source-reported sample descriptors."
-updated: 2026-07-30
+reviewed_study_n: 7
+sample_population: "Systematic review of US studies reporting contaminant concentrations in infant biospecimens by feeding type (human milk vs infant formula); 7 articles from 4 studies found meeting inclusion criteria, primarily the New Hampshire Birth Cohort (2009-2019)"
+evidence_fitness:
+  supports: [research-gap-documentation, us-infant-biomonitoring-context]
+  does_not_support: [formula-concentration-data, certification-limits, exposure-quantification]
+updated: 2026-11-06
 ---
 
-# Bioavailability of and US Infant Exposure to Arsenic, Cadmium, Lead, Mercury, and Per- and Polyfluoroalkyls from Human Milk and Infant Formula: Results from a Series of Systematic Reviews
+# O’Connor et al. 2026: US Infant Bioavailability and Exposure Systematic Review
 
-## Overview
-
-This source page is a mechanical bulk-ingest record for a PDF in the Heavy Metal Index raw corpus. It preserves source-level identity, routeable analyte and product scope, and the exact extracted numeric lines that justify that scope, for later human or fresh-context audit. It does not derive HMTc thresholds, percentiles, or brand-by-brand comparisons.
-
-Author, year, and title are taken from the Crossref record for the DOI, not scraped from the PDF text.
+This systematic review (PROSPERO: CRD42024530332, CRD42024530336, CRD42024530339, CRD42024530344), commissioned by the FDA’s human foods program, searched five databases through 2 April 2025 for peer-reviewed studies reporting contaminant concentrations in US infant biospecimens by feeding type. Despite a comprehensive search, only 7 articles from 4 studies met inclusion criteria. The primary data source was the New Hampshire Birth Cohort (NHBC), reporting infant urinary arsenic (n=4 articles), cadmium (n=2), lead (n=1), and mercury (n=1) between 2009 and 2019. The main conclusion is that no quantitative conclusions could be drawn about infant exposure to arsenic, cadmium, lead, or mercury from human milk or infant formula in the United States.
 
 ## Key numbers
 
-Each analyte named in `metals:` is listed below with the measurement-bearing lines that caused it to be asserted. Lines are copied from the verified extraction and retain the source units and wording where legible. An analyte with no lines here would not appear in the source metadata.
+The review did not produce formula-concentration rows. Its contribution is an absence finding: the US literature, through 2025, cannot support quantitative conclusions about infant exposure to arsenic, cadmium, lead, or mercury from human milk or formula.
 
-### Cd
+| Finding | Detail |
+| --- | --- |
+| Articles identified | 7 articles from 4 studies (of 6,799 unique records screened) |
+| Primary data source | New Hampshire Birth Cohort, 2009-2019 |
+| Analytes with NHBC biospecimen data | Urinary arsenic, urinary cadmium, blood lead, blood mercury |
+| Mercury detection rate | 19 to 31% of samples above detection limits |
+| Conclusion on US infant exposure | Insufficient; no quantitative conclusions possible |
+| Conclusion on bioavailability | No evidence found |
 
-- 2 Bioavailability of and US Infant Exposure to Arsenic, Cadmium, Lead, 67
-- 32 geographic diversity. Therefore, conclusions could not be made about exposure to arsenic, cadmium, lead, or mercury from HM and/or IF 98
-- 4 This series of systematic reviews highlights critical research gaps about US infant exposure to and bioavailability of arsenic, cadmium, lead, 70
-- 41 ciding with the introduction of complementary foods. Infants (n cohort (n = 187, in 2014‒2019), paired median cadmium con­ 107
-- 50 All evidence for arsenic was from a single cohort in 1 measured cadmium exposure of infants consuming HM and/or 116
-- 64 cadmium concentration from infants at 6 wk of age (n = 462, 1994 (Table 2). Concentrations across the 3 studies ranged from 130
-- 66 μg/L) (55). Urinary cadmium concentrations were not (59). In Iowa, a nonrandomized intervention with IF showed a 132
-- 21 specimens of infants consuming HM and/or IF in the United fant exposure to arsenic, cadmium, lead, mercury, and legacy 87
-- 23 cadmium, lead, mercury, or PFAS exposure as measured in 89
-- 36 economic heterogeneity in estimates of infant exposure to U-bags (86) for cadmium, total arsenic, and elemental and 102
-- 36 Changes in body burden of mercury, lead, arsenic, cadmium and (85) L. Zajac, S.A. Johnson, M. Hauptman, Doc, can you test me for “toxic 102
-
-### tAs
-
-- 2 Bioavailability of and US Infant Exposure to Arsenic, Cadmium, Lead, 67
-- 32 geographic diversity. Therefore, conclusions could not be made about exposure to arsenic, cadmium, lead, or mercury from HM and/or IF 98
-- 4 This series of systematic reviews highlights critical research gaps about US infant exposure to and bioavailability of arsenic, cadmium, lead, 70
-- gible because exposure to HM and/or IF did not precede bio­ Urinary arsenic concentrations were reported in 4 articles 99
-- 37 Of 544 additional unique records identified via other urinary total arsenic (minus arsenobetaine) as 0.23 μg/L (95% 103
-- 40 and both were excluded: 1 was a duplicate with the database nary total arsenic concentration (including arsenobetaine) as 106
-- 48 interest for our review. in the NHBC. Specifically, median urinary arsenic concentra­ 114
-- 60 renovation intervention, but contaminant concentrations were centrations associated with HM or IF intake. Urinary arsenic was 126
-- 43 had 1.6-fold higher median urinary arsenic concentration 0.20) at 6 wk to 0.13 μg/L (IQR = 0.08‒0.22) at 1 y (P = 0.046) 109
-- 50 All evidence for arsenic was from a single cohort in 1 measured cadmium exposure of infants consuming HM and/or 116
-- 21 specimens of infants consuming HM and/or IF in the United fant exposure to arsenic, cadmium, lead, mercury, and legacy 87
-- 42 Contaminant bioavailability from HM or IF arsenic exposure from the granite bedrock is high (73,74). The 108
-
-### tHg
-
-- 32 geographic diversity. Therefore, conclusions could not be made about exposure to arsenic, cadmium, lead, or mercury from HM and/or IF 98
-- 44 lead, and mercury, were also detected in HM as well as in IF, SRs are presented in this manuscript (Figure 1; PROSPERO: 110
-- 95% of all samples were above machine detection limits, except mercury, in which only 19%‒31% of samples were detected and thus imputed.
-- 21 specimens of infants consuming HM and/or IF in the United fant exposure to arsenic, cadmium, lead, mercury, and legacy 87
-- 23 cadmium, lead, mercury, or PFAS exposure as measured in 89
-- 2019 (Table 1). Median mercury concentrations were 0.14 μg/L
-- 48 (28) M.L. Kile, A.G. Ronnenberg, Can folate intake reduce arsenic toxicity? (49) W.A. Galster, Mercury in Alaskan Eskimo mothers and infants, Environ 114
-- 36 Changes in body burden of mercury, lead, arsenic, cadmium and (85) L. Zajac, S.A. Johnson, M. Hauptman, Doc, can you test me for “toxic 102
+NHBC arsenic: urinary total arsenic minus arsenobetaine 0.23 µg/L (formula-fed 1.6-fold higher than breastfed); NHBC mercury median 0.14 µg/L (2019 data). These are infant biospecimen concentrations, not formula concentrations.
 
 ## Methods (brief)
 
-- Abbreviations: DMA, dimethylarsinic acid; MMA, monomethylarsonic acid; NHBC, New Hampshire birth cohort; PFAS, per- and polyfluoroalkyl substances; ROB,
-- 59 also interfere with the absorption, digestion, metabolism, and tool to assess systematic reviews’ critical appraisal tool (32) 125
-- 11 which can help mitigate publication bias. We conducted dual coupled plasma mass spectrometry in feces-free spot urine 77
-- 50 search of the HOME study website (n = 24), the HOME study dimethylarsinic acid (DMA) but not including arsenobetaine) 116
-- search (n = 6), population (n = 35 total; n = 10 maternal sam­ DMA (P = 0.01), and 3.8-fold for sum of these 3 (P = 0.01) from 122
-- and/or blood of infants consuming HM and/or IF aged ≤12 mo ganic arsenic, MMA, DMA, and total arsenic (sum of inorganic,
-- 38 MMA, and DMA minus arsenobetaine; data shown in Supple­ significantly different among infants fed HM, IF, or both (P = 104
-- Total arsenic values were reported in each article. Pikounis et al. (55) and Signes-Pastor et al. (51,56), reported inorganic + MMA + DMA minus arsenobetaine, and Hoen et al. (57), reported Q15
-- total arsenic including arsenobetaine. Individual values for inorganic, MMA, DMA, and arsenobetaine were reported by Signes-Pastor et al. (51), and are shown in Supplemental Table 10.
-- All infants were from the New Hampshire birth cohort. All contaminants were measured via coupled plasma mass spectrometry in feces-free spot urine collected with supplied diapers and cotton
-- Abbreviations: DMA, dimethylarsinic acid; HM, human milk; IF, infant formula; MMA, monomethylarsonic acid.
-- 39 leveraged to assess infant contaminant exposure using bio­ arsenic) and species (e.g., the organic species of MMA and DMA 105
-- cohort study lying-in hospital cohort) the highest, lowest, and Isomil; the number of Fed formula (n = NR): 5.6 ± acid digestion and ESA Human Development
-- 64 by mechanistic study designs, such as animal or in vitro digestion types, such as cord blood and meconium, which were collected 130
-- Astolfi et al. (69), 2019 Italy Probiotic supplement/placebo was Not analyzed because levels were below LOD.
-- Astolfi et al. (69), 2019 Italy Probiotic supplement/placebo was Not analyzed because levels were below LOD.
-- Abbreviations: As, arsenic; C, control; Cd, cadmium; Hg, mercury; HM, human milk; LOD, limit of detection; MeHg, methylmercury; NR, not reported; Pb, lead; PFHxS, perfluorohexanesulfonic Q18
-- 22 from animal or in vitro digestion models that indirectly assess 88
+Five databases searched: CAB Abstracts, CENTRAL, CINAHL, Embase, and MEDLINE, through 2 April 2025, English-language peer-reviewed articles only. A technical expert panel (TEP) with experience in human biomonitoring, infant nutrition, and heavy metals developed the protocol. Risk of bias assessed using ROBINS-E. AMSTAR 2 critical appraisal applied. PROSPERO registration numbers: CRD42024530332, CRD42024530336, CRD42024530339, CRD42024530344.
 
-## Implications
+## Evidence fitness
 
-This page makes the source discoverable for category-level evidence routing. Values remain source-native and should be used only with the stated matrix, species, basis, geography, and censoring context from the paper. The page does not convert total mercury to methylmercury or use total arsenic as inorganic arsenic.
+This source supports documentation of the US research gap in infant biomonitoring for heavy metals from formula and human milk. It does not supply formula-concentration values and cannot support certification limit calculations. The finding that only 7 articles met inclusion criteria from 6,799 unique records, most from one cohort, is a usable evidence-gap statement.
+
+## Limitations
+
+No primary formula-concentration rows. The gap finding is methodologically strong but does not reflect available regulatory monitoring data (FDA Closer to Zero, EFSA, etc.) because those government datasets were outside the biospecimen inclusion criteria. US biospecimen studies only; does not cover international formula occurrence surveys.
 
 ## Related evidence
 
-- [[products/infant-formula-powder]]
-- [[products/shellfish]]
+- [[products/infant-formula-powder-non-soy]]
+- [[products/infant-formula-powder-soy-based]]
+- [[products/infant-formula-stage1]]
 - [[metals/cadmium]]
-- [[metals/arsenic]]
+- [[metals/arsenic-total]]
 - [[metals/mercury]]
+- [[metals/lead]]
+- [[sources/thoerig2025-toxic-elements-pfas-human-milk-formula-systematic-review]]
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
