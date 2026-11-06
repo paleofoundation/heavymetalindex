@@ -8,7 +8,7 @@ Today's date: __DATE__
 
 DEPOSITS_READ_TOKEN may be present in the environment. Do not print it, do not write it into a file, and do not put it in a commit. This run does not read the deposits repository. The only papers you may use are the open-access full texts saved in the full text directory.
 
-Read docs/page-structure.md before you edit. If that file defines a universal nine-section order, write under the mitigation heading in that order and do not rename or reorder the other sections. If it does not, leave the page outline alone and fill the existing Mitigation heading (the H2 that starts with "Mitigation", or "Levers to reduce contamination").
+Read docs/page-structure.md before you edit. If that file defines a universal nine-section order, write under the mitigation heading in that order and do not rename or reorder the other sections. If it does not, leave the page outline alone and fill the existing Mitigation heading. That heading is the H2 that starts with "Mitigation", the H2 that starts with "Heavy metal mitigation and remediation", or "Levers to reduce contamination".
 
 What counts as evidence:
 

@@ -1,7 +1,8 @@
 // Choose the next ingredient and product pages for the mitigation fill.
 // Zero mitigation citations come first. ingredients/olive-oil is first among
 // pages that share that lowest count. The Mitigation heading is the H2 whose
-// title starts with "Mitigation", or "Levers to reduce contamination".
+// title starts with "Mitigation", starts with "Heavy metal mitigation and
+// remediation", or is "Levers to reduce contamination".
 //
 //   node tools/mitigation-fill/pages.mjs [--root .] [--limit 3] [--skip ingredients/rice]
 import fs from "node:fs"
@@ -61,7 +62,9 @@ export function isRetired(data) {
 
 export function isMitigationTitle(title) {
   const heading = String(title || "").trim()
-  return /^mitigation\b/i.test(heading) || /^levers to reduce contamination$/i.test(heading)
+  return /^mitigation\b/i.test(heading)
+    || /^heavy metal mitigation and remediation\b/i.test(heading)
+    || /^levers to reduce contamination$/i.test(heading)
 }
 
 export function isReferencesTitle(title) {

@@ -55,25 +55,45 @@ function git(args) {
   return execFileSync("git", args, { encoding: "utf8", maxBuffer: 64 * 1024 * 1024 })
 }
 
-function show(base, file) {
+// A path missing from the base is a new file. `git show <base>:<path>` writes
+// "exists on disk, but not in '<base>'" to stderr and exits 128 for that case.
+// Capture both streams so a new source page stays a successful absence.
+export function readGitFile(base, file) {
   try {
-    return git(["show", `${base}:${file}`])
+    return execFileSync("git", ["show", `${base}:${file}`], {
+      encoding: "utf8",
+      maxBuffer: 64 * 1024 * 1024,
+      stdio: ["ignore", "pipe", "pipe"],
+    })
   } catch {
     return null
   }
 }
 
-export function verifyTree({ root, pages, fulltextDir, status, diff, readBase }) {
-  const errors = []
-  const changed = []
-  for (const line of status.split(/\n/)) {
+export function filesAgainstBase(status, nameStatus) {
+  const files = []
+  const add = (file) => {
+    let name = String(file || "").trim()
+    if (!name || name.startsWith("\"")) return
+    if (name.includes(" -> ")) name = name.split(" -> ").pop().trim()
+    if (!name || files.includes(name)) return
+    files.push(name)
+  }
+  for (const line of String(nameStatus || "").split(/\n/)) {
     if (!line.trim()) continue
-    let file = line.slice(3)
-    if (file.startsWith("\"")) continue
-    if (line.startsWith("??")) file = line.slice(3).trim()
-    else file = line.slice(3).trim()
-    if (file.includes(" -> ")) file = file.split(" -> ").pop().trim()
-    changed.push(file)
+    add(line.split("\t").pop())
+  }
+  for (const line of String(status || "").split(/\n/)) {
+    if (!line.trim()) continue
+    add(line.slice(3))
+  }
+  return files
+}
+
+export function verifyTree({ root, pages, fulltextDir, status, diff, readBase, nameStatus = "" }) {
+  const errors = []
+  const changed = filesAgainstBase(status, nameStatus)
+  for (const file of changed) {
     if (!allowedPath(file)) errors.push(`path outside the mitigation fill: ${file}`)
   }
   for (const violation of violationsInDiff(diff)) errors.push(violation)
@@ -170,7 +190,10 @@ function main() {
     process.exit(2)
   }
   const status = git(["status", "--porcelain"])
-  const diff = git(["diff", "-U0", base])
+  // Triple-dot is the pull request diff. A two-dot diff against origin/main
+  // also lists commits that landed on main while the fill was running.
+  const nameStatus = git(["diff", "--name-status", `${base}...HEAD`])
+  const diff = git(["diff", "-U0", `${base}...HEAD`])
   const untracked = status.split(/\n/).filter((line) => line.startsWith("?? "))
   let extra = ""
   for (const line of untracked) {
@@ -185,8 +208,9 @@ function main() {
     pages,
     fulltextDir,
     status,
+    nameStatus,
     diff: diff + extra,
-    readBase: (file) => show(base, file),
+    readBase: (file) => readGitFile(base, file),
   })
   if (errors.length) {
     for (const error of errors) console.error(error)

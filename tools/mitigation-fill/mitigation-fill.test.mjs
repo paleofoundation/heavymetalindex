@@ -1,4 +1,5 @@
 import assert from "node:assert/strict"
+import { execFileSync, spawnSync } from "node:child_process"
 import fs from "node:fs"
 import os from "node:os"
 import path from "node:path"
@@ -7,6 +8,7 @@ import { fileURLToPath } from "node:url"
 import { citationParts, nextCitationNumber } from "./cite.mjs"
 import {
   DEFAULT_LIMIT,
+  isMitigationTitle,
   mitigationCitations,
   namePattern,
   pageEditAllowed,
@@ -22,7 +24,7 @@ import {
   searchFood,
   unitAmbiguous,
 } from "./search.mjs"
-import { fanoutPages, verifyTree } from "./verify.mjs"
+import { fanoutPages, filesAgainstBase, readGitFile, verifyTree } from "./verify.mjs"
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "../..")
 const EM = "\u2014"
@@ -269,6 +271,38 @@ test("coverage counts mitigation citations and mapped metals", () => {
   fs.rmSync(dir, { recursive: true, force: true })
 })
 
+test("contract mitigation headings are editable and other remediation headings are not", () => {
+  assert.equal(isMitigationTitle("Heavy metal mitigation and remediation for seaweed"), true)
+  assert.equal(isMitigationTitle("Heavy metal mitigation and remediation for rice"), true)
+  assert.equal(isMitigationTitle("Mitigation for olive Oil"), true)
+  assert.equal(isMitigationTitle("Levers to reduce contamination"), true)
+  assert.equal(isMitigationTitle("Additional geographic and remediation evidence"), false)
+  const before = [
+    "---",
+    "title: Seaweed",
+    "---",
+    "# Seaweed",
+    "",
+    "## Overview",
+    "",
+    "Level.",
+    "",
+    "## Heavy metal mitigation and remediation for seaweed",
+    "",
+    '<a id="keep"></a>',
+    "<p>Gap.</p>",
+    "",
+    "## Trade-offs",
+    "",
+    "None.",
+    "",
+  ].join("\n")
+  const after = before.replace("<p>Gap.</p>", "Refining lowered lead. [[sources/ada2019-seaweed|1]]")
+  assert.equal(pageEditAllowed(before, after).ok, true)
+  assert.equal(pageEditAllowed(before, before.replace("## Heavy metal mitigation and remediation for seaweed", "## Mitigation")).reason, "mitigation heading renamed")
+  assert.equal(pageEditAllowed(before, before.replace("None.", "Changed.")).reason, "section changed: Trade-offs")
+})
+
 test("page edits stay in the mitigation section", () => {
   const before = [
     "---",
@@ -410,6 +444,135 @@ test("verify accepts a quoted mitigation edit and rejects a side edit", () => {
   fs.rmSync(dir, { recursive: true, force: true })
 })
 
+test("a committed new source and a contract mitigation edit pass verify", () => {
+  const dir = fs.mkdtempSync(path.join(os.tmpdir(), "mitigation-verify-git-"))
+  const full = path.join(dir, "full")
+  fs.mkdirSync(full, { recursive: true })
+  const effect = "Refining lowered lead from 12.5 mg/kg dry weight to 3.1 mg/kg dry weight."
+  fs.writeFileSync(path.join(full, "10.1000_seaweed.txt"), effect)
+  const before = [
+    "---",
+    "title: Seaweed",
+    "---",
+    "# Seaweed",
+    "",
+    "## Overview",
+    "",
+    "Level.",
+    "",
+    "## Heavy metal mitigation and remediation for seaweed",
+    "",
+    '<a id="keep"></a>',
+    "<p>Gap.</p>",
+    "",
+    "## Trade-offs",
+    "",
+    "None.",
+    "",
+  ].join("\n")
+  const after = before.replace(
+    "<p>Gap.</p>",
+    `Refining lowered lead, as printed. The paper does not state a second basis. [[sources/ada2019-seaweed|1]] ${effect}`,
+  )
+  const repo = path.join(dir, "repo")
+  fs.mkdirSync(path.join(repo, "wiki/ingredients"), { recursive: true })
+  fs.mkdirSync(path.join(repo, "wiki/sources"), { recursive: true })
+  fs.mkdirSync(path.join(repo, "data"), { recursive: true })
+  fs.writeFileSync(path.join(repo, "wiki/ingredients/seaweed.md"), before)
+  fs.writeFileSync(path.join(repo, "wiki/log.md"), "---\ntitle: Log\n---\n\n## [2026-11-01] ingest | older\n")
+  const git = (args) => execFileSync("git", args, {
+    cwd: repo,
+    encoding: "utf8",
+    stdio: ["ignore", "pipe", "pipe"],
+  })
+  git(["init", "-b", "main"])
+  git(["config", "user.email", "test@example.com"])
+  git(["config", "user.name", "Test"])
+  git(["config", "commit.gpgsign", "false"])
+  git(["add", "wiki/ingredients/seaweed.md", "wiki/log.md"])
+  git(["commit", "-m", "base"])
+  fs.writeFileSync(path.join(repo, "wiki/ingredients/seaweed.md"), after)
+  fs.writeFileSync(path.join(repo, "wiki/sources/ada2019-seaweed.md"), "---\ntype: source\n---\n# Ada\n")
+  fs.writeFileSync(path.join(repo, "wiki/log.md"), "---\ntitle: Log\n---\n\n## [2026-11-06] ingest | mitigation evidence for seaweed\n\nPages touched: [[ingredients/seaweed]]\nNotes: Direction: toward the literature.\n\n## [2026-11-01] ingest | older\n")
+  const map = { version: 1, papers: {} }
+  addMapping(map, {
+    doi: "10.1000/seaweed",
+    title: "Refining",
+    year: 2019,
+    ingredients: "seaweed",
+    metals: "lead",
+    intervention: "refining",
+    effect,
+    source: "sources/ada2019-seaweed",
+    fullText: effect,
+  })
+  writeMap(path.join(repo, "data/mitigation-map.json"), map)
+  const previous = process.cwd()
+  process.chdir(repo)
+  let leaked = ""
+  const write = process.stderr.write
+  process.stderr.write = (chunk, encoding, callback) => {
+    leaked += String(chunk)
+    return write.call(process.stderr, chunk, encoding, callback)
+  }
+  try {
+    assert.equal(readGitFile("HEAD", "wiki/sources/ada2019-seaweed.md"), null)
+  } finally {
+    process.stderr.write = write
+    process.chdir(previous)
+  }
+  assert.equal(leaked.includes("fatal:"), false)
+  assert.deepEqual(filesAgainstBase("", "A\twiki/sources/ada2019-seaweed.md\nM\twiki/ingredients/seaweed.md"), [
+    "wiki/sources/ada2019-seaweed.md",
+    "wiki/ingredients/seaweed.md",
+  ])
+  git(["add", "wiki", "data/mitigation-map.json"])
+  git(["commit", "-m", "fill"])
+  const passed = spawnSync(process.execPath, [
+    path.join(root, "tools/mitigation-fill/verify.mjs"),
+    "--base", "HEAD~1",
+    "--fulltext", full,
+    "--pages", "ingredients/seaweed",
+  ], { cwd: repo, encoding: "utf8" })
+  assert.equal(passed.status, 0, passed.stderr)
+  assert.equal(String(passed.stderr).includes("fatal:"), false)
+  const unquoted = JSON.parse(fs.readFileSync(path.join(repo, "data/mitigation-map.json"), "utf8"))
+  unquoted.papers["10.1000/seaweed"].mappings[0].effect_as_printed = "lead fell from 1 mg/kg dry weight to 0 mg/kg dry weight"
+  fs.writeFileSync(path.join(repo, "data/mitigation-map.json"), JSON.stringify(unquoted, null, 2) + "\n")
+  const forged = verifyTree({
+    root: repo,
+    pages: ["ingredients/seaweed"],
+    fulltextDir: full,
+    status: "",
+    nameStatus: "M\tdata/mitigation-map.json\nM\twiki/ingredients/seaweed.md\nA\twiki/sources/ada2019-seaweed.md\nM\twiki/log.md",
+    diff: "",
+    readBase: (file) => {
+      if (file === "wiki/ingredients/seaweed.md") return before
+      if (file === "wiki/log.md") return "---\ntitle: Log\n---\n\n## [2026-11-01] ingest | older\n"
+      return null
+    },
+  })
+  assert.ok(forged.some((line) => line.includes("effect is not a quotation of the saved full text")))
+  assert.equal(forged.some((line) => line.includes("section changed: Heavy metal mitigation")), false)
+  fs.writeFileSync(path.join(repo, "data/mitigation-map.json"), JSON.stringify({ version: 1, papers: {} }, null, 2) + "\n")
+  const noQuote = verifyTree({
+    root: repo,
+    pages: ["ingredients/seaweed"],
+    fulltextDir: full,
+    status: "",
+    nameStatus: "M\twiki/ingredients/seaweed.md\nM\twiki/log.md\n",
+    diff: "",
+    readBase: (file) => {
+      if (file === "wiki/ingredients/seaweed.md") return before
+      if (file === "wiki/log.md") return "---\ntitle: Log\n---\n\n## [2026-11-01] ingest | older\n"
+      return null
+    },
+  })
+  assert.ok(noQuote.some((line) => line.includes("mitigation prose changed without a new quoted effect")))
+  assert.equal(noQuote.some((line) => line.includes("section changed")), false)
+  fs.rmSync(dir, { recursive: true, force: true })
+})
+
 test("the scheduled workflow carries the mitigation fill contract", () => {
   const yml = fs.readFileSync(path.join(root, ".github/workflows/claude-mitigation-fill.yml"), "utf8")
   assert.match(yml, /cron: "0 1 \* \* \*"/)
@@ -434,4 +597,7 @@ test("the scheduled workflow carries the mitigation fill contract", () => {
   assert.match(yml, /tools\/mitigation-fill\/pages\.mjs/)
   assert.match(yml, /tools\/mitigation-fill\/search\.mjs/)
   assert.match(yml, /europepmc|search\.mjs/)
+  const commitAt = yml.indexOf('git commit -m "Mitigation evidence for ${PAGES}"')
+  const verifyAt = yml.indexOf("node tools/mitigation-fill/verify.mjs")
+  assert.ok(commitAt !== -1 && verifyAt !== -1 && commitAt < verifyAt)
 })

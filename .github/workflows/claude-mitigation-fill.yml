@@ -183,10 +183,9 @@ jobs:
           if [ ! -d node_modules ]; then npm ci; fi
           node tools/mitigation-fill/record.mjs coverage --write --manifest "${{ runner.temp }}/mitigation-fulltext/manifest.json"
           git fetch --no-tags origin main
-          node tools/mitigation-fill/verify.mjs \
-            --base origin/main \
-            --fulltext "${{ runner.temp }}/mitigation-fulltext" \
-            --pages "$PAGES"
+          # New source pages are not on origin/main yet. Commit them before
+          # verify so the check diffs this commit, including paths that exist
+          # on disk only.
           git add -- \
             wiki/ingredients \
             wiki/products \
@@ -200,6 +199,10 @@ jobs:
             git config user.email "41898282+claude[bot]@users.noreply.github.com"
             git commit -m "Mitigation evidence for ${PAGES}"
           fi
+          node tools/mitigation-fill/verify.mjs \
+            --base origin/main \
+            --fulltext "${{ runner.temp }}/mitigation-fulltext" \
+            --pages "$PAGES"
           node tools/evidence-fill/diff-gate.mjs --base origin/main
           node tools/lint/hero-image-placeholders.mjs --changed origin/main
           npm test
