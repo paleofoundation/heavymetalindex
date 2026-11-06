@@ -55,4 +55,5 @@ Relies on applicant-supplied data; composition analyses were older than one year
 
 ## Related evidence
 
+- [[metals/lanthanum]]
 - [[metals/rare-earths]]

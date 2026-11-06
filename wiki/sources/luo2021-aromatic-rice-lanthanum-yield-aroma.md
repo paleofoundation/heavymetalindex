@@ -53,5 +53,6 @@ No grain lanthanum analysis; one aromatic cultivar; one region.
 
 ## Related evidence
 
+- [[metals/lanthanum]]
 - [[metals/rare-earths]]
 - [[ingredients/rice]]

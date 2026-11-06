@@ -53,4 +53,5 @@ Small sample from limited sites (acknowledged by the authors); inconsistent disp
 
 ## Related evidence
 
+- [[metals/lanthanum]]
 - [[metals/rare-earths]]

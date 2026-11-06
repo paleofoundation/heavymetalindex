@@ -53,5 +53,6 @@ Laboratory microcosms at high lanthanum additions; three soils; analytical quali
 
 ## Related evidence
 
+- [[metals/lanthanum]]
 - [[metals/rare-earths]]
 - [[testing/icp-ms]]

@@ -53,4 +53,5 @@ No lanthanum residue data; mechanism inferred from expression correlations.
 
 ## Related evidence
 
+- [[metals/lanthanum]]
 - [[metals/rare-earths]]

@@ -54,4 +54,5 @@ Non-standard seven-day design; lanthanum solubility declined during exposure, co
 
 ## Related evidence
 
+- [[metals/lanthanum]]
 - [[metals/rare-earths]]
