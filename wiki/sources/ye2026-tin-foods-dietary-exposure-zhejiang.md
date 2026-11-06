@@ -14,7 +14,7 @@ license: "CC BY 4.0"
 raw_path: "raw/Manual Fetch Kimi /01_Fruits_and_Fruit_Products/01_Fruits_and_Fruit_Products/Occurrence of Tin in Foods and Dietary Exposure Assessment in Zhejiang Province, China.pdf"
 metals: [Sn]
 ingredients: ["[[ingredients/leafy-vegetables]]", "[[ingredients/root-vegetables]]", "[[ingredients/non-root-vegetables]]", "[[ingredients/fruits]]", "[[ingredients/tea]]", "[[ingredients/fish]]", "[[ingredients/shellfish]]", "[[ingredients/molluscs]]"]
-products: ["[[products/canned-vegetables]]", "[[products/canned-fruit]]", "[[products/canned-fish]]", "[[products/tea]]", "[[products/fresh-fruit]]"]
+products: ["[[products/canned-vegetables]]", "[[products/canned-fruit]]", "[[products/canned-fish]]", "[[products/canned-meats]]", "[[products/tea]]", "[[products/fresh-fruit]]"]
 matrices: [leafy-vegetable, root-vegetable, fruit-vegetable, canned-vegetable, canned-fruit, canned-meat, canned-fish, canned-edible-fungi, tea, fresh-fruit, fresh-aquatic-product]
 jurisdictions: [CN]
 near_duplicates: []

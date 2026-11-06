@@ -15,7 +15,7 @@ raw_path: "raw/Manual Fetch Kimi /June 3 Folder/41598_2025_Article_27798.pdf"
 raw_sha256: 1e0565d24e0c22bdfe2785fda16a51a1c2e0a2a9d2921a74dc903168ce836447
 metals: [Pb, Cd, Cr, tAs]
 ingredients: ["[[ingredients/wheat]]", "[[ingredients/bread]]", "[[ingredients/pasta]]", "[[ingredients/maize]]", "[[ingredients/tea]]", "[[ingredients/coffee]]", "[[ingredients/whole-milk]]", "[[ingredients/milk-and-dairy]]", "[[ingredients/fish]]", "[[ingredients/beef]]", "[[ingredients/meat]]"]
-products: ["[[products/soft-drinks-carbonated-beverages]]", "[[products/sports-energy-drinks]]", "[[products/tea]]", "[[products/coffee]]", "[[products/flour-non-rice]]", "[[products/bread-and-baked-goods]]", "[[products/pasta-wheat-based]]", "[[products/other-grain-products]]", "[[products/canned-fish]]", "[[products/processed-meats]]", "[[products/beef-product]]", "[[products/salt]]"]
+products: ["[[products/soft-drinks-carbonated-beverages]]", "[[products/sports-energy-drinks]]", "[[products/tea]]", "[[products/coffee]]", "[[products/flour-non-rice]]", "[[products/bread-and-baked-goods]]", "[[products/pasta-wheat-based]]", "[[products/other-grain-products]]", "[[products/canned-fish]]", "[[products/canned-meats]]", "[[products/processed-meats]]", "[[products/beef-product]]", "[[products/salt]]"]
 matrices: [carbonated-soft-drinks, energy-drinks, tea, instant-coffee, wheat-flour, bread, macaroni, instant-noodles, corn-products, milk, dairy-products, canned-fish, canned-beef, luncheon-meat, table-salt]
 jurisdictions: [EG]
 near_duplicates: []
