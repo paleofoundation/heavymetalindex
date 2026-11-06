@@ -2,9 +2,13 @@
 //
 // When <deposits root>/graph/next_work.json exists, the first item with
 // builder hmi-evidence-fill, an empty blocked_by list, and an id outside
-// --skip wins. Otherwise the lowest DEPOSITED ingredient or product id that
-// still needs a page is used. LIVE, BUILT, and later ledger states are not
-// eligible. --skip names open evidence-fill branches.
+// --skip wins. The work list may be a top-level array, an array or id map
+// under items/work/nodes/queue (including one level under meta or data), or
+// fields nested in properties. A numeric 0 or boolean false blocker is empty.
+// Otherwise the lowest DEPOSITED ingredient or product id that still needs a
+// page is used. LIVE, BUILT, and later ledger states are not eligible.
+// --skip names open evidence-fill branches. When nothing is picked, stderr
+// names how many graph items were visible and why the rest were skipped.
 //
 // The deposits repo is private and its ledger shape has varied, so this reader
 // accepts a root ledger (json, jsonl, csv, or a markdown table) and the same
@@ -112,7 +116,14 @@ function kindOf(record, id) {
 
 function slugOf(record, id) {
   const direct = asText(
-    record.slug || record.ingredient_slug || record.ingredient || record.product_slug || record.product || record.commodity,
+    record.slug ||
+      record.ingredient_slug ||
+      record.ingredient ||
+      record.product_slug ||
+      record.product ||
+      record.commodity ||
+      record.page_slug ||
+      record.wiki_slug,
   ).toLowerCase()
   if (SLUG.test(direct) && !direct.startsWith("hmi-")) return direct
   const fromPath = pageOf(record).match(/(?:^|\/)(?:ingredients|products)\/([a-z0-9-]+)(?:\.md)?\/?$/i)
@@ -359,8 +370,13 @@ function skipIdsOf(skip) {
   return new Set((skip || []).map((id) => String(id).trim().toUpperCase()).filter(Boolean))
 }
 
+const WORK_KEYS = ["items", "work", "next_work", "queue", "units", "nodes", "jobs", "tasks", "fills", "records", "entries", "rows"]
+const NEST_HOLDERS = ["meta", "data", "graph", "payload", "result", "body"]
+const FLATTEN_KEYS = ["properties", "props", "attrs", "attributes", "data", "fields", "meta"]
+
 function blockedByEmpty(value) {
-  if (value == null) return true
+  if (value == null || value === false) return true
+  if (typeof value === "number") return value === 0
   if (Array.isArray(value)) {
     return !value.some((item) => {
       if (item == null) return false
@@ -369,51 +385,214 @@ function blockedByEmpty(value) {
       return true
     })
   }
-  if (typeof value === "string") return asText(value) === ""
+  if (typeof value === "string") {
+    const text = asText(value).toLowerCase()
+    return text === "" || text === "0" || text === "none" || text === "false" || text === "[]" || text === "{}"
+  }
   if (typeof value === "object") return Object.keys(value).length === 0
   return false
 }
 
-function workItems(parsed) {
-  if (Array.isArray(parsed)) return parsed
-  if (!parsed || typeof parsed !== "object") return []
-  for (const key of ["items", "work", "next_work", "queue", "units", "nodes", "jobs"]) {
-    if (Array.isArray(parsed[key])) return parsed[key]
-  }
-  return []
+function asItemList(value) {
+  if (Array.isArray(value)) return value
+  if (!value || typeof value !== "object") return null
+  const entries = Object.entries(value)
+  if (!entries.length) return null
+  const objects = entries.filter(([, item]) => item && typeof item === "object" && !Array.isArray(item))
+  if (objects.length !== entries.length) return null
+  return objects.map(([key, item]) => {
+    if (asText(item.id || item.unit || item.unit_id || item.code)) return item
+    return { id: key, ...item }
+  })
 }
 
-function pickGraphUnit(root, units, { skip = [] } = {}) {
+function listAt(record, keys) {
+  if (!record || typeof record !== "object" || Array.isArray(record)) return null
+  for (const key of keys) {
+    if (record[key] == null) continue
+    if (Array.isArray(record[key])) return { via: key, items: record[key] }
+    const list = asItemList(record[key])
+    if (list) return { via: key, items: list }
+  }
+  return null
+}
+
+function locateWorkItems(parsed) {
+  if (Array.isArray(parsed)) return { via: "$", items: parsed }
+  const direct = listAt(parsed, WORK_KEYS)
+  if (direct) return direct
+  if (parsed && typeof parsed === "object") {
+    for (const holder of NEST_HOLDERS) {
+      const nested = listAt(parsed[holder], WORK_KEYS)
+      if (nested) return { via: `${holder}.${nested.via}`, items: nested.items }
+    }
+  }
+  return { via: "", items: [] }
+}
+
+function flattenItem(item) {
+  if (!item || typeof item !== "object" || Array.isArray(item)) return item
+  const out = { ...item }
+  for (const key of FLATTEN_KEYS) {
+    const child = item[key]
+    if (!child || typeof child !== "object" || Array.isArray(child)) continue
+    for (const [childKey, value] of Object.entries(child)) {
+      if (out[childKey] === undefined) out[childKey] = value
+    }
+  }
+  return out
+}
+
+function builderOf(fields) {
+  const direct = asText(fields.builder)
+  if (direct) return direct
+  const labels = fields.labels || fields.tags || fields.roles
+  if (!Array.isArray(labels)) return ""
+  return labels.map((item) => asText(typeof item === "string" ? item : item?.id || item?.name || "")).find((item) => item === "hmi-evidence-fill") || ""
+}
+
+function blockerOf(fields) {
+  if (fields.blocked_by !== undefined) return fields.blocked_by
+  if (fields.blockedby !== undefined) return fields.blockedby
+  if (fields.blocked !== undefined) return fields.blocked
+  if (fields.depends_on !== undefined) return fields.depends_on
+  if (fields.dependencies !== undefined) return fields.dependencies
+  return undefined
+}
+
+function namedSlug(fields) {
+  const named = asText(fields.name || fields.label || fields.title).toLowerCase()
+  if (SLUG.test(named) && !named.startsWith("hmi-")) return named
+  return null
+}
+
+function shortValue(value) {
+  if (value == null) return value === null ? null : "empty"
+  if (Array.isArray(value)) return `array:${value.length}`
+  if (typeof value === "object") return `object:${Object.keys(value).slice(0, 12).join(",")}`
+  if (typeof value === "string") return value.length > 80 ? `string:${value.length}` : value
+  return value
+}
+
+function sampleItem(item) {
+  if (!item || typeof item !== "object" || Array.isArray(item)) return null
+  const fields = normalizeKeys(flattenItem(item))
+  const sample = { keys: Object.keys(fields).slice(0, 24) }
+  for (const key of ["id", "unit", "unit_id", "builder", "kind", "type", "family", "slug", "status", "blocked_by", "blockedby", "blocked", "dir", "page"]) {
+    if (fields[key] !== undefined) sample[key] = shortValue(fields[key])
+  }
+  return sample
+}
+
+function tally(map, key) {
+  const name = key || "(none)"
+  map.set(name, (map.get(name) || 0) + 1)
+}
+
+function checkoutCensus(root) {
+  const census = {}
+  for (const name of ["graph/next_work.json", "deposits", "ledger", "units", "queue"]) {
+    const full = path.join(root, name)
+    if (!fs.existsSync(full)) {
+      census[name] = "absent"
+      continue
+    }
+    const stat = fs.statSync(full)
+    census[name] = stat.isDirectory() ? "dir" : stat.size
+  }
+  return census
+}
+
+function emptySkipped() {
+  return { no_builder: 0, other_builder: 0, blocked: 0, bad_id: 0, skip_list: 0, no_slug: 0, not_object: 0 }
+}
+
+function readGraph(root, units, { skip = [] } = {}) {
   const file = path.join(root, "graph", "next_work.json")
-  if (!fs.existsSync(file)) return null
+  const graph = {
+    present: false,
+    bytes: 0,
+    parse_error: "",
+    top_keys: [],
+    via: "",
+    items: 0,
+    eligible: 0,
+    skipped: emptySkipped(),
+    builders: [],
+    blocker_types: [],
+    sample: null,
+    unit: null,
+    census: checkoutCensus(root),
+  }
+  if (!fs.existsSync(file) || !fs.statSync(file).isFile()) return graph
+  graph.present = true
+  graph.bytes = fs.statSync(file).size
   let parsed
   try {
     parsed = JSON.parse(stripBom(fs.readFileSync(file, "utf8")))
-  } catch {
-    return null
+  } catch (error) {
+    graph.parse_error = error && error.name ? error.name : "Error"
+    return graph
   }
-  const items = workItems(parsed)
-  if (!items.length) return null
+  if (parsed && typeof parsed === "object" && !Array.isArray(parsed)) graph.top_keys = Object.keys(parsed).slice(0, 24)
+  const located = locateWorkItems(parsed)
+  graph.via = located.via
+  graph.items = located.items.length
+  if (!located.items.length) {
+    graph.sample = sampleItem(parsed)
+    return graph
+  }
+  graph.sample = sampleItem(located.items[0])
   const byId = new Map(units.map((unit) => [unit.id, unit]))
   const skipIds = skipIdsOf(skip)
-  for (const item of items) {
-    if (!item || typeof item !== "object" || Array.isArray(item)) continue
-    const fields = normalizeKeys(item)
-    if (asText(fields.builder) !== "hmi-evidence-fill") continue
-    const blocked = fields.blocked_by !== undefined ? fields.blocked_by : fields.blockedby
-    if (!blockedByEmpty(blocked)) continue
+  const builders = new Map()
+  const blockerTypes = new Map()
+  for (const item of located.items) {
+    if (!item || typeof item !== "object" || Array.isArray(item)) {
+      graph.skipped.not_object++
+      continue
+    }
+    const fields = normalizeKeys(flattenItem(item))
+    const builder = builderOf(fields)
+    tally(builders, builder)
+    if (builder !== "hmi-evidence-fill") {
+      if (!builder) graph.skipped.no_builder++
+      else graph.skipped.other_builder++
+      continue
+    }
+    const blocked = blockerOf(fields)
+    const blockedKind = blocked == null ? "empty" : Array.isArray(blocked) ? (blocked.length ? "array" : "empty-array") : typeof blocked
+    tally(blockerTypes, blockedKind)
+    if (!blockedByEmpty(blocked)) {
+      graph.skipped.blocked++
+      continue
+    }
     const id = asText(fields.id || fields.unit || fields.unit_id || fields.code).toUpperCase()
-    if (!UNIT_ID.test(id) || skipIds.has(id)) continue
+    if (!UNIT_ID.test(id)) {
+      graph.skipped.bad_id++
+      continue
+    }
+    if (skipIds.has(id)) {
+      graph.skipped.skip_list++
+      continue
+    }
     const ledger = byId.get(id)
     const kind = kindOf(fields, id) || ledger?.kind || null
-    const slug = slugOf(fields, id) || ledger?.slug || null
-    if (!slug) continue
+    const slug = slugOf(fields, id) || ledger?.slug || namedSlug(fields)
+    if (!slug) {
+      graph.skipped.no_slug++
+      continue
+    }
+    graph.eligible++
+    if (graph.unit) continue
     const recordDir = asText(fields.dir || fields.deposit_dir || fields.folder)
     const dir = recordDir || ledger?.dir || path.join("deposits", id)
     const status = normalizeStatus(fields.status || fields.state || fields.mark) || ledger?.status || "DEPOSITED"
-    return { id, status, kind, slug, dir, rank: ledger?.rank ?? 0 }
+    graph.unit = { id, status, kind, slug, dir, rank: ledger?.rank ?? 0 }
   }
-  return null
+  graph.builders = [...builders.entries()].slice(0, 8).map(([name, count]) => `${name.slice(0, 60)}=${count}`)
+  graph.blocker_types = [...blockerTypes.entries()].map(([name, count]) => `${name}=${count}`)
+  return graph
 }
 
 function pickUnit(units, { skip = [] } = {}) {
@@ -427,9 +606,40 @@ function pickUnit(units, { skip = [] } = {}) {
   return chosen
 }
 
-export function selectNextUnit(root, options) {
+function formatReport(detail) {
+  const graph = detail.graph
+  const skipText = Object.entries(graph.skipped)
+    .filter(([, count]) => count)
+    .map(([name, count]) => `${name}=${count}`)
+    .join(", ")
+  const lines = [
+    `Graph items visible: ${graph.items}. Eligible: ${graph.eligible}. Skipped: ${skipText || "none"}.`,
+  ]
+  if (graph.builders.length) lines.push(`Builders: ${graph.builders.join(", ")}.`)
+  if (graph.blocker_types.length) lines.push(`Fill item blocked_by types: ${graph.blocker_types.join(", ")}.`)
+  if (!graph.present) lines.push("graph/next_work.json is not in the checkout.")
+  else if (graph.parse_error) lines.push(`graph/next_work.json could not be parsed (${graph.parse_error}).`)
+  else if (!graph.items) {
+    lines.push(`No work list in graph/next_work.json. Top-level keys: ${graph.top_keys.join(", ") || "(none)"}.`)
+  } else if (graph.via) lines.push(`Work list: ${graph.via}.`)
+  lines.push(`Ledger units seen: ${JSON.stringify(seenCounts(detail.units))}. Checkout: ${JSON.stringify(graph.census)}.`)
+  if (graph.sample) lines.push(`First graph item: ${JSON.stringify(graph.sample)}`)
+  if (detail.unit) lines.push(`Picked ${detail.unit.id} from the ${detail.source}.`)
+  else lines.push("No deposited ingredient or product to fill.")
+  return lines.join("\n")
+}
+
+export function describeSelection(root, options) {
   const units = collectUnits(root)
-  return pickGraphUnit(root, units, options) || pickUnit(units, options)
+  const graph = readGraph(root, units, options)
+  const unit = graph.unit || pickUnit(units, options)
+  const detail = { unit, source: graph.unit ? "graph" : unit ? "ledger" : "none", units, graph }
+  detail.report = formatReport(detail)
+  return detail
+}
+
+export function selectNextUnit(root, options) {
+  return describeSelection(root, options).unit
 }
 
 function seenCounts(units) {
@@ -451,12 +661,12 @@ function main() {
     console.error("usage: select-next-unit.mjs --root <deposits-checkout> [--skip ID,ID]")
     process.exit(2)
   }
-  const units = collectUnits(root)
-  const unit = selectNextUnit(root, { skip })
+  const detail = describeSelection(root, { skip })
+  const unit = detail.unit
   const payload = unit
     ? { unit: unit.id, slug: unit.slug, dir: unit.dir, status: unit.status, kind: unit.kind || "" }
     : { unit: null, slug: "", dir: "", status: "", kind: "" }
-  if (!unit) console.error(`No deposited ingredient or product to fill. Units seen: ${JSON.stringify(seenCounts(units))}`)
+  console.error(detail.report)
   console.log(JSON.stringify(payload))
   const output = process.env.GITHUB_OUTPUT
   if (output) {
