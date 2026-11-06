@@ -41,7 +41,7 @@ hero_image: /static/heroes/research-glassware-notebook-sampling-spoon.webp
 hero_image_alt: "Laboratory electrochemical equipment illustrating water sensor research context."
 ---
 
-# Pokpas et al. 2017 — Nickel detection sensor with cobalt as interferent
+# Pokpas et al. 2017 - Nickel detection sensor with cobalt as interferent
 
 ## Overview
 

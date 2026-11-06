@@ -42,7 +42,7 @@ hero_image: /static/heroes/research-glassware-notebook-sampling-spoon.webp
 hero_image_alt: "Laboratory glassware and sampling equipment illustrating cobalt and lead measurement in cosmetic products."
 ---
 
-# Ahmed et al. 2021 — Cobalt and lead in cosmetics, Saudi Arabia
+# Ahmed et al. 2021 - Cobalt and lead in cosmetics, Saudi Arabia
 
 ## Overview
 

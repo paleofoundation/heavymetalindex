@@ -39,7 +39,7 @@ hero_image: /static/heroes/research-glassware-notebook-sampling-spoon.webp
 hero_image_alt: "Laboratory glassware illustrating materials synthesis research context."
 ---
 
-# Hussain et al. 2014 — NiCo2O4 nanoneedle glucose sensor
+# Hussain et al. 2014 - NiCo2O4 nanoneedle glucose sensor
 
 ## Overview
 

@@ -101,17 +101,17 @@ Cobalt speciation in food and personal care matrices. Total cobalt reported by F
 
 ## Sources
 
-- [[sources/ufelle2021-metals-chapter|Ufelle & Barchowsky 2021]] — Ufelle AC, Barchowsky A, 2021. Toxic Effects of Metals, Ch 23 in Casarett & Doull’s Essentials of Toxicology, 4th ed.
-- [[sources/ahmed2021-cobalt-lead-cosmetics-saudi-arabia|Ahmed et al. 2021]] — Cobalt and lead concentrations in cosmetic products sold at local markets in Saudi Arabia. Toxicology Reports 8:1693-1698.
-- [[sources/hussain2014-nico2o4-nanoneedles-glucose-sensor|Hussain et al. 2014]] — Synthesis of three dimensional nickel cobalt oxide nanoneedles on nickel foam (materials science; no food occurrence data).
-- [[sources/pokpas2017-nickel-graphene-chelate-adsorptive-stripping|Pokpas et al. 2017]] — Complexation-based detection of nickel(II) with cobalt as interferent (analytical chemistry; no food occurrence data).
-- [[sources/rueda-saa2025-valle-del-cauca-agricultural-soils|Rueda-Saa et al. 2025]] — Soil cobalt statistics, Valle del Cauca, Colombia.
-- [[sources/khalid2008-islamabad-chromium-electrokinetic-remediation|Khalid et al. 2008]] — Soil cobalt 0.76 µg/g, Nilore, Islamabad.
-- [[sources/authors2019-spatial-contamination-and-health-risks-of-heavy-metal|Boudia et al. 2019]] — Soil cobalt, Arzew, Algeria.
-- [[sources/abubakar2025-faisalabad-sewage-vegetables|Abubakar et al. 2025]] — Cobalt in sewage-irrigated soil and vegetables, Faisalabad.
-- [[sources/dyakova2023-voronezh-medicinal-plant-metals|Dyakova 2023]] — Cobalt in medicinal plant materials, Voronezh region.
-- [[sources/narayana-murthy2024-premna-village-elements|Narayana Murthy & Padala 2024]] — Cobalt in Premna latifolia leaves, Andhra Pradesh.
-- [[sources/ozarkar2025-nickel-cobalt-bioremediation|Ozarkar et al. 2025]] — Cobalt remediation by bacterial cultures and aquatic plants.
+- [[sources/ufelle2021-metals-chapter|Ufelle & Barchowsky 2021]] - Ufelle AC, Barchowsky A, 2021. Toxic Effects of Metals, Ch 23 in Casarett & Doull’s Essentials of Toxicology, 4th ed.
+- [[sources/ahmed2021-cobalt-lead-cosmetics-saudi-arabia|Ahmed et al. 2021]] - Cobalt and lead concentrations in cosmetic products sold at local markets in Saudi Arabia. Toxicology Reports 8:1693-1698.
+- [[sources/hussain2014-nico2o4-nanoneedles-glucose-sensor|Hussain et al. 2014]] - Synthesis of three dimensional nickel cobalt oxide nanoneedles on nickel foam (materials science; no food occurrence data).
+- [[sources/pokpas2017-nickel-graphene-chelate-adsorptive-stripping|Pokpas et al. 2017]] - Complexation-based detection of nickel(II) with cobalt as interferent (analytical chemistry; no food occurrence data).
+- [[sources/rueda-saa2025-valle-del-cauca-agricultural-soils|Rueda-Saa et al. 2025]] - Soil cobalt statistics, Valle del Cauca, Colombia.
+- [[sources/khalid2008-islamabad-chromium-electrokinetic-remediation|Khalid et al. 2008]] - Soil cobalt 0.76 µg/g, Nilore, Islamabad.
+- [[sources/authors2019-spatial-contamination-and-health-risks-of-heavy-metal|Boudia et al. 2019]] - Soil cobalt, Arzew, Algeria.
+- [[sources/abubakar2025-faisalabad-sewage-vegetables|Abubakar et al. 2025]] - Cobalt in sewage-irrigated soil and vegetables, Faisalabad.
+- [[sources/dyakova2023-voronezh-medicinal-plant-metals|Dyakova 2023]] - Cobalt in medicinal plant materials, Voronezh region.
+- [[sources/narayana-murthy2024-premna-village-elements|Narayana Murthy & Padala 2024]] - Cobalt in Premna latifolia leaves, Andhra Pradesh.
+- [[sources/ozarkar2025-nickel-cobalt-bioremediation|Ozarkar et al. 2025]] - Cobalt remediation by bacterial cultures and aquatic plants.
 
 <!-- BEGIN: hmi-page-references -->
 ## References
