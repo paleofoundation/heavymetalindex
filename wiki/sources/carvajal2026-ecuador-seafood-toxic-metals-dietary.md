@@ -18,8 +18,8 @@ sha256: 1014743ba3f86cdf60f4271a2489708fe0c93a74262452b77bf1eebfd9b361ea
 access_date: 2026-11-04
 license: "CC BY"
 metals: [Cd, Co, Pb, tHg]
-ingredients: ["[[ingredients/shrimp]]", "[[ingredients/fish]]", "[[ingredients/blue-marlin]]"]
-products: ["[[products/seafood]]", "[[products/shrimp]]"]
+ingredients: ["[[ingredients/shrimp]]", "[[ingredients/fish]]", "[[ingredients/marlin]]"]
+products: ["[[products/seafood]]", "[[products/shellfish]]"]
 matrices: [shrimp, shrimp-prawn, blue-marlin-muscle, pacific-thread-herring, marine-fish]
 jurisdictions: [EC]
 superseded_by: null

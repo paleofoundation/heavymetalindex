@@ -19,7 +19,7 @@ access_date: 2026-11-04
 license: "CC BY"
 metals: [Cd, Pb, tAs, iAs]
 ingredients: ["[[ingredients/rice]]"]
-products: ["[[products/rice]]"]
+products: []
 matrices: [raw-rice, cooked-rice]
 jurisdictions: [ID]
 superseded_by: null

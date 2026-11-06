@@ -18,7 +18,7 @@ sha256: a42046590ecd7bd850aa73f26bd7dc6679108071c9775c8fd423d0f3bba0ca0f
 access_date: 2026-11-04
 license: "CC BY-NC-ND"
 metals: [Ca, Cr, Mn, Fe, Co, Ni, Cu, Zn, tAs, Se, Rb, Sr, tHg, Pb]
-ingredients: ["[[ingredients/fish]]", "[[ingredients/pomfret]]"]
+ingredients: ["[[ingredients/fish]]"]
 products: []
 matrices: [fresh-fish-muscle, marine-fish]
 jurisdictions: [BD]

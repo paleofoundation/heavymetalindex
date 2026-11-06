@@ -18,7 +18,7 @@ sha256: f0dfc666e34bc4a9ab0a9ea65478828abba1bebc83e11d52ee2b992d54b96b68
 access_date: 2026-11-04
 license: "CC BY-NC"
 metals: [tAs, Pb, Cd, Cr, Fe, Cu]
-ingredients: ["[[ingredients/eggplant]]", "[[ingredients/string-beans]]", "[[ingredients/cucumber]]", "[[ingredients/sweet-potato]]", "[[ingredients/bitter-gourd]]", "[[ingredients/okra]]", "[[ingredients/pumpkin]]", "[[ingredients/spinach]]", "[[ingredients/wax-gourd]]"]
+ingredients: ["[[ingredients/eggplant]]", "[[ingredients/green-beans]]", "[[ingredients/cucumber]]", "[[ingredients/sweet-potato]]", "[[ingredients/squash]]", "[[ingredients/okra]]", "[[ingredients/spinach]]"]
 products: []
 matrices: [fresh-vegetables, agricultural-soil]
 jurisdictions: [BD]
@@ -69,7 +69,7 @@ Single district, non-random farm selection, dry-weight basis for concentrations 
 - [[health/dietary-heavy-metal-exposure]]
 - [[metals/lead]]
 - [[metals/cadmium]]
-- [[ingredients/bitter-gourd]]
+- [[ingredients/squash]]
 - [[ingredients/spinach]]
 
 <!-- BEGIN: hmi-page-history -->

@@ -19,7 +19,7 @@ access_date: 2026-11-04
 license: "CC BY"
 metals: [Mn, Co, Cu, tAs, Se, Cd, Pb, Zn]
 ingredients: ["[[ingredients/eggs]]"]
-products: ["[[products/eggs]]"]
+products: ["[[products/eggs-product]]"]
 matrices: [chicken-eggs, fresh-eggs]
 jurisdictions: [CN]
 superseded_by: null
