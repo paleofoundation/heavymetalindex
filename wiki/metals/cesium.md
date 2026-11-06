@@ -153,10 +153,10 @@ Shiitake mushrooms concentrate cesium because they grow on wood substrate, and c
 
 ## Sources
 
-- [[sources/koizumi2012-fukushima-cesium-dietary-exposure|Koizumi et al. 2012]] — Koizumi A et al. Preliminary assessment of ecological exposure of adult residents in Fukushima Prefecture to radioactive cesium through ingestion and inhalation. Environ Health Prev Med 17: 292-298.
-- [[sources/obrien2019-shiitake-cesium-log-transfer|O'Brien et al. 2019]] — O'Brien M et al. Efficient sampling of shiitake-inoculated oak logs to determine the log-to-mushroom transfer factor of stable cesium. PeerJ 7: e7825.
-- [[sources/saito2022-wild-boar-cesium-fukushima-drz|Saito et al. 2022]] — Saito R et al. Monitoring of radioactive cesium in wild boars captured inside the difficult-to-return zone in Fukushima Prefecture over a 5-year period. Sci Rep 12: 5667.
-- [[sources/ufelle2021-metals-chapter|Ufelle and Barchowsky 2021]] — Ufelle AC, Barchowsky A. Toxic Effects of Metals, Ch 23 in Casarett and Doull's Essentials of Toxicology, 4th ed.
+- [[sources/koizumi2012-fukushima-cesium-dietary-exposure|Koizumi et al. 2012]] - Koizumi A et al. Preliminary assessment of ecological exposure of adult residents in Fukushima Prefecture to radioactive cesium through ingestion and inhalation. Environ Health Prev Med 17: 292-298.
+- [[sources/obrien2019-shiitake-cesium-log-transfer|O'Brien et al. 2019]] - O'Brien M et al. Efficient sampling of shiitake-inoculated oak logs to determine the log-to-mushroom transfer factor of stable cesium. PeerJ 7: e7825.
+- [[sources/saito2022-wild-boar-cesium-fukushima-drz|Saito et al. 2022]] - Saito R et al. Monitoring of radioactive cesium in wild boars captured inside the difficult-to-return zone in Fukushima Prefecture over a 5-year period. Sci Rep 12: 5667.
+- [[sources/ufelle2021-metals-chapter|Ufelle and Barchowsky 2021]] - Ufelle AC, Barchowsky A. Toxic Effects of Metals, Ch 23 in Casarett and Doull's Essentials of Toxicology, 4th ed.
 
 <!-- BEGIN: hmi-page-references -->
 ## References
