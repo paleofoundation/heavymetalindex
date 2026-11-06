@@ -6,7 +6,7 @@ import test from "node:test"
 import { CHECKS } from "../audit-page-structure.mjs"
 import { baselineScopeErrors, violationsInDiff } from "./diff-gate.mjs"
 import { recordFilledPage } from "./record-filled-page.mjs"
-import { selectNextUnit } from "./select-next-unit.mjs"
+import { describeSelection, selectNextUnit } from "./select-next-unit.mjs"
 
 const EM = "\u2014"
 const EN = "\u2013"
@@ -151,6 +151,69 @@ test("graph/next_work.json wins, then the deposited ledger is the fallback", () 
   }
 })
 
+test("a nested graph work list reports visible items and skips the blocked ones", () => {
+  const root = fs.mkdtempSync(path.join(os.tmpdir(), "deposits-graph-meta-"))
+  try {
+    fs.mkdirSync(path.join(root, "graph"), { recursive: true })
+    fs.writeFileSync(
+      path.join(root, "graph", "next_work.json"),
+      JSON.stringify({
+        meta: {
+          count: 4,
+          items: [
+            { id: "HMI-FILL-0002", builder: "hmi-evidence-fill", blocked_by: 2, kind: "ingredient", slug: "salt" },
+            { id: "HMI-FILL-0007", properties: { builder: "hmi-evidence-fill", blocked_by: 0, kind: "ingredient", slug: "oats" } },
+            { id: "HMI-FILL-0008", builder: "catalog", blocked_by: [], kind: "ingredient", slug: "rye" },
+            { id: "HMI-FILL-0011", builder: "hmi-evidence-fill", blocked_by: false, kind: "ingredient" },
+          ],
+        },
+      }),
+    )
+    const next = selectNextUnit(root)
+    assert.equal(next.id, "HMI-FILL-0007")
+    assert.equal(next.slug, "oats")
+    const detail = describeSelection(root, { skip: ["HMI-FILL-0007"] })
+    assert.equal(detail.graph.items, 4)
+    assert.equal(detail.graph.via, "meta.items")
+    assert.equal(detail.graph.eligible, 0)
+    assert.equal(detail.graph.skipped.blocked, 1)
+    assert.equal(detail.graph.skipped.other_builder, 1)
+    assert.equal(detail.graph.skipped.skip_list, 1)
+    assert.equal(detail.graph.skipped.no_slug, 1)
+    assert.equal(detail.unit, null)
+    assert.match(detail.report, /Graph items visible: 4/)
+    assert.match(detail.report, /Eligible: 0/)
+    assert.match(detail.report, /No deposited ingredient or product to fill/)
+    fs.writeFileSync(
+      path.join(root, "graph", "next_work.json"),
+      JSON.stringify({
+        meta: { count: 1 },
+        items: {
+          "HMI-FILL-0014": { builder: "hmi-evidence-fill", blocked_by: [], kind: "product", slug: "tea" },
+        },
+      }),
+    )
+    const mapped = selectNextUnit(root)
+    assert.equal(mapped.id, "HMI-FILL-0014")
+    assert.equal(mapped.kind, "product")
+    assert.equal(mapped.slug, "tea")
+    fs.writeFileSync(
+      path.join(root, "graph", "next_work.json"),
+      JSON.stringify({
+        meta: { count: 2 },
+        nodes: [{ id: "HMI-NODE-1", kind: "source" }],
+        ready: [{ id: "HMI-FILL-0020", builder: "hmi-evidence-fill", blocked_by: [], kind: "ingredient", slug: "barley" }],
+      }),
+    )
+    const ready = describeSelection(root)
+    assert.equal(ready.graph.via, "ready")
+    assert.equal(ready.unit.id, "HMI-FILL-0020")
+    assert.equal(ready.unit.slug, "barley")
+  } finally {
+    fs.rmSync(root, { recursive: true, force: true })
+  }
+})
+
 test("a directory status overrides the ledger, and a markdown table is a ledger", () => {
   const root = fs.mkdtempSync(path.join(os.tmpdir(), "deposits-"))
   fs.mkdirSync(path.join(root, "deposits", "HMI-ING-PEA-PROTEIN-1"), { recursive: true })
@@ -219,6 +282,8 @@ test("the scheduled workflow carries the Claude fill contract", () => {
   assert.match(yml, /sparse-checkout set --no-cone/)
   assert.match(yml, /sparse-checkout add/)
   assert.match(yml, /workflow_dispatch:/)
+  assert.match(yml, /dry_run:/)
+  assert.match(yml, /DRY_RUN/)
   assert.match(yml, /anthropics\/claude-code-action@v1/)
   assert.match(
     yml,

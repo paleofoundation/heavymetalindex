@@ -41,6 +41,11 @@ on:
   schedule:
     - cron: "17 */2 * * *"
   workflow_dispatch:
+    inputs:
+      dry_run:
+        description: Pick a unit and stop before Claude writes a page
+        type: boolean
+        default: false
   # No pull_request trigger. The content-gate job repeated diff-gate and the
   # hero-image lint, which CI's test job already runs on the opened PR.
 
@@ -136,13 +141,27 @@ jobs:
           if len(chosen) > cap:
               must = [item for item in chosen if item == "graph/next_work.json" or item.count("/") <= 1]
               chosen = (must + [item for item in chosen if item not in must])[:cap]
+          def anchor(name):
+              # A leading slash keeps "!" and "#" literal. Escape glob characters.
+              escaped = "".join("\\" + ch if ch in "*?[]\\" else ch for ch in name)
+              return "/" + escaped
           with open(os.environ["OUT"], "w", encoding="utf-8") as handle:
               if chosen:
-                  handle.write("\n".join(chosen) + "\n")
+                  handle.write("\n".join(anchor(name) for name in chosen) + "\n")
           print(f"sparse text files: {len(chosen)}")
+          print("graph/next_work.json in sparse list:", "graph/next_work.json" in chosen)
           PY
           if [ -s "${RUNNER_TEMP}/deposit-text.txt" ]; then
             git -C "${RUNNER_TEMP}/hmi-evidence-deposits" sparse-checkout set --no-cone --stdin < "${RUNNER_TEMP}/deposit-text.txt"
+          fi
+          if [ ! -f "${RUNNER_TEMP}/hmi-evidence-deposits/graph/next_work.json" ]; then
+            echo "graph/next_work.json was not materialized. Adding that path."
+            git -C "${RUNNER_TEMP}/hmi-evidence-deposits" sparse-checkout add "graph/next_work.json" || true
+          fi
+          if [ -f "${RUNNER_TEMP}/hmi-evidence-deposits/graph/next_work.json" ]; then
+            wc -c "${RUNNER_TEMP}/hmi-evidence-deposits/graph/next_work.json"
+          else
+            echo "graph/next_work.json is still absent after sparse-checkout."
           fi
           df -h / | tail -1
       - name: Pick the next deposited unit
@@ -150,6 +169,7 @@ jobs:
         env:
           DEPOSITS_ROOT: ${{ runner.temp }}/hmi-evidence-deposits
           GH_TOKEN: ${{ github.token }}
+          DRY_RUN: ${{ github.event.inputs.dry_run == 'true' && 'true' || 'false' }}
         run: |
           set -euo pipefail
           skips="$(gh pr list --state open --limit 200 --json headRefName --jq '[.[] | select(.headRefName | startswith("evidence-fill/")) | .headRefName | sub("^evidence-fill/"; "")] | join(",")')"
@@ -164,9 +184,13 @@ jobs:
           family = "products" if kind == "product" else "ingredients"
           slug = data.get("slug") or ""
           page = f"wiki/{family}/{slug}.md" if slug else ""
+          dry = os.environ.get("DRY_RUN") == "true"
+          unit = "" if dry else (data.get("unit") or "")
+          if dry and data.get("unit"):
+              print(f"Dry run only. Claude will not run for {data.get('unit')}.")
           with open(os.environ["GITHUB_OUTPUT"], "a") as handle:
               for key, value in (
-                  ("unit", data.get("unit") or ""),
+                  ("unit", unit),
                   ("slug", slug),
                   ("dir", data.get("dir") or ""),
                   ("kind", kind or "ingredient"),
