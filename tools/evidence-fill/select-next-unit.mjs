@@ -371,7 +371,6 @@ function skipIdsOf(skip) {
 }
 
 const WORK_KEYS = ["items", "work", "next_work", "queue", "units", "nodes", "jobs", "tasks", "fills", "records", "entries", "rows"]
-const NEST_HOLDERS = ["meta", "data", "graph", "payload", "result", "body"]
 const FLATTEN_KEYS = ["properties", "props", "attrs", "attributes", "data", "fields", "meta"]
 
 function blockedByEmpty(value) {
@@ -406,28 +405,49 @@ function asItemList(value) {
   })
 }
 
-function listAt(record, keys) {
-  if (!record || typeof record !== "object" || Array.isArray(record)) return null
-  for (const key of keys) {
-    if (record[key] == null) continue
-    if (Array.isArray(record[key])) return { via: key, items: record[key] }
-    const list = asItemList(record[key])
-    if (list) return { via: key, items: list }
+function looksLikeWork(item) {
+  return Boolean(item && (item.builder || item.blocked_by || item.blockedBy || item.slug || item.id || item.unit || item.unit_id))
+}
+
+function collectWorkLists(node, via, depth, found) {
+  if (!node || typeof node !== "object") return
+  if (Array.isArray(node)) {
+    if (node.some((item) => item && typeof item === "object" && !Array.isArray(item))) found.push({ via: via || "$", items: node })
+    return
   }
-  return null
+  if (depth >= 3) return
+  const mapped = asItemList(node)
+  if (mapped && mapped.some(looksLikeWork)) found.push({ via: via || "$map", items: mapped })
+  for (const [key, value] of Object.entries(node)) {
+    collectWorkLists(value, via ? `${via}.${key}` : key, depth + 1, found)
+  }
+}
+
+function fillScore(items) {
+  let fill = 0
+  let objects = 0
+  for (const item of items) {
+    if (!item || typeof item !== "object" || Array.isArray(item)) continue
+    objects++
+    if (builderOf(normalizeKeys(flattenItem(item))) === "hmi-evidence-fill") fill++
+  }
+  return { fill, objects }
+}
+
+function knownRank(via) {
+  const key = via.split(".").pop()
+  const index = WORK_KEYS.indexOf(key)
+  return index === -1 ? WORK_KEYS.length : index
 }
 
 function locateWorkItems(parsed) {
   if (Array.isArray(parsed)) return { via: "$", items: parsed }
-  const direct = listAt(parsed, WORK_KEYS)
-  if (direct) return direct
-  if (parsed && typeof parsed === "object") {
-    for (const holder of NEST_HOLDERS) {
-      const nested = listAt(parsed[holder], WORK_KEYS)
-      if (nested) return { via: `${holder}.${nested.via}`, items: nested.items }
-    }
-  }
-  return { via: "", items: [] }
+  const found = []
+  collectWorkLists(parsed, "", 0, found)
+  if (!found.length) return { via: "", items: [] }
+  const ranked = found.map((entry) => ({ ...entry, ...fillScore(entry.items) }))
+  ranked.sort((a, b) => b.fill - a.fill || knownRank(a.via) - knownRank(b.via) || b.objects - a.objects)
+  return ranked[0]
 }
 
 function flattenItem(item) {

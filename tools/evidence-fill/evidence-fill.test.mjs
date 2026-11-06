@@ -197,6 +197,18 @@ test("a nested graph work list reports visible items and skips the blocked ones"
     assert.equal(mapped.id, "HMI-FILL-0014")
     assert.equal(mapped.kind, "product")
     assert.equal(mapped.slug, "tea")
+    fs.writeFileSync(
+      path.join(root, "graph", "next_work.json"),
+      JSON.stringify({
+        meta: { count: 2 },
+        nodes: [{ id: "HMI-NODE-1", kind: "source" }],
+        ready: [{ id: "HMI-FILL-0020", builder: "hmi-evidence-fill", blocked_by: [], kind: "ingredient", slug: "barley" }],
+      }),
+    )
+    const ready = describeSelection(root)
+    assert.equal(ready.graph.via, "ready")
+    assert.equal(ready.unit.id, "HMI-FILL-0020")
+    assert.equal(ready.unit.slug, "barley")
   } finally {
     fs.rmSync(root, { recursive: true, force: true })
   }
