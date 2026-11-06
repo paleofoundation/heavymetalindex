@@ -1,12 +1,12 @@
 {
   "order": "HMI-STRUCTURE-SPEC-1",
-  "date": "2026-10-28",
+  "date": "2026-11-06",
   "note": "Warn-only baseline. CI fails only when a page newly fails a check. Counts are pages, not occurrences. Stubs are exempt only from section_presence_and_order. 2026-10-28 recount includes restored live pages and products moved out of ingredients.",
   "pages_scanned": 931,
   "stubs_exempt_from_sections": 540,
   "checks": {
     "answer_block": {
-      "pages": 61,
+      "pages": 62,
       "paths": [
         "wiki/ingredients/canned-tuna.md",
         "wiki/ingredients/chocolate.md",
@@ -42,6 +42,7 @@
         "wiki/products/infant-food-puree-fruit.md",
         "wiki/products/infant-food-puree-vegetable.md",
         "wiki/products/infant-food-puree.md",
+        "wiki/products/infant-juice.md",
         "wiki/products/infant-rice-cereal.md",
         "wiki/products/menstrual-cups.md",
         "wiki/products/menstrual-pads.md",
@@ -696,7 +697,7 @@
       ]
     },
     "generic_headings": {
-      "pages": 786,
+      "pages": 787,
       "paths": [
         "wiki/ingredients/almond-beverage.md",
         "wiki/ingredients/almond.md",
@@ -1272,6 +1273,7 @@
         "wiki/products/infant-formula-powder.md",
         "wiki/products/infant-formula-rtf-liquid-non-soy.md",
         "wiki/products/infant-formula-rtf-liquid-soy-based.md",
+        "wiki/products/infant-juice.md",
         "wiki/products/infant-rice-cereal.md",
         "wiki/products/instant-air-refreshment-sprays.md",
         "wiki/products/intimate-washes-cleansers.md",
@@ -1487,7 +1489,7 @@
       ]
     },
     "metal_symbols": {
-      "pages": 595,
+      "pages": 596,
       "paths": [
         "wiki/ingredients/almond.md",
         "wiki/ingredients/apple-cider-vinegar.md",
@@ -1900,6 +1902,7 @@
         "wiki/products/infant-formula-rtf-liquid-non-soy.md",
         "wiki/products/infant-formula-rtf-liquid-soy-based.md",
         "wiki/products/infant-formula-rtf-soy.md",
+        "wiki/products/infant-juice.md",
         "wiki/products/instant-air-refreshment-sprays.md",
         "wiki/products/intimate-washes-cleansers.md",
         "wiki/products/ketchup.md",
