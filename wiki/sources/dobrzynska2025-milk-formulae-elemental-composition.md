@@ -15,7 +15,7 @@ raw_path: "raw/Manual Fetch Discovery/dobrzynska2026-milk-formulae-elemental-com
 raw_sha256: "5411ecc07d2bc5efece9f74c6f4597b88984fcf0cc226b31b50b5b3914ea6581"
 metals: [tAs, Cd, tHg, Ni, Sn, Cr, Co, Cu, Mn]
 ingredients: ["[[ingredients/cow-milk-infant-formula]]", "[[ingredients/soy-based-infant-formula]]", "[[ingredients/milk-based-infant-formula]]", "[[ingredients/non-soy-infant-formula]]"]
-products: ["[[products/infant-formula-powder]]", "[[products/infant-formula-powder-non-soy]]", "[[products/infant-formula-powder-soy-based]]"]
+products: ["[[products/infant-formula-powder]]", "[[products/infant-formula-powder-non-soy]]", "[[products/infant-formula-powder-soy-based]]", "[[products/ready-to-feed-formula]]"]
 matrices: [infant-formula-powder, follow-on-formula-powder, formula-special-medical-purposes-powder, as-placed-on-market]
 jurisdictions: [PL, EU]
 near_duplicates: []

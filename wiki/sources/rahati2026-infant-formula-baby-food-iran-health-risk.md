@@ -14,7 +14,7 @@ license: "CC BY-NC-ND 4.0"
 raw_path: "raw/Manual Fetch Kimi /06_Infant_Foods_Formula/06_Infant_Foods_Formula/Monte Carlo simulation approach for health risk analysis of heavy metals' contamination in infant formula and food on the Iranian market.pdf"
 metals: [Pb, Cd, tHg, Al, Cr, Co, Cu, Fe, Mn, Zn, Ba, Sr, Se]
 ingredients: ["[[ingredients/infant-formula-powder]]"]
-products: ["[[products/infant-formula-powder]]", "[[products/infant-and-child-foods-master]]"]
+products: ["[[products/infant-formula-powder]]", "[[products/infant-and-child-foods-master]]", "[[products/ready-to-feed-formula]]"]
 matrices: [infant-formula-powder, baby-food]
 jurisdictions: [IR]
 near_duplicates: []

@@ -14,7 +14,7 @@ evidence_tier: A
 raw_path: "raw/studies/Toxic Metals and Metalloids in Infant Formulas Marketed in Brazil, and Child Health Risks According to the Target Hazard Quotients and Target Cancer Risk.pdf"
 access_url: https://doi.org/10.3390/ijerph191811178
 metals: [Al, tAs, Cd, Sn, tHg, Pb, U]
-products: [infant-formula-powder-non-soy]
+products: [infant-formula-powder-non-soy, ready-to-feed-formula]
 matrices: [cow-milk-based-infant-formula-powder, phase-1-formula, phase-2-formula]
 jurisdictions: [BR]
 sample_population: "Phase 1 and phase 2 cow milk-based infant formulas marketed in Brazil; soy, rice, and wheat protein formulas excluded by design"

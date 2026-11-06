@@ -15,7 +15,7 @@ raw_path: raw/markdown/FM_10494610/FM_10494610.md
 manual_fetch_path: "raw/Manual Fetch Kimi /06_Infant_Foods_Formula/06_Infant_Foods_Formula/Occurrence and dietary exposure assessment of heavy metals in baby foods in the Kingdom of Saudi Arabia.pdf"
 metals: [tAs, Cd, Pb]
 ingredients: ["[[ingredients/infant-formula-powder]]", "[[ingredients/baby-cereals-dry]]"]
-products: ["[[products/infant-formula-powder]]", "[[products/baby-cereals-dry-rice-based]]", "[[products/baby-cereals-dry-non-rice]]", "[[products/teething-and-snacks-rice-based]]", "[[products/teething-and-snacks-non-rice]]"]
+products: ["[[products/infant-formula-powder]]", "[[products/baby-cereals-dry-rice-based]]", "[[products/baby-cereals-dry-non-rice]]", "[[products/teething-and-snacks-rice-based]]", "[[products/teething-and-snacks-non-rice]]", "[[products/ready-to-feed-formula]]"]
 matrices: [infant-formula-powder, cereal-grain, baby-snack, dietary-intake]
 jurisdictions: [SA]
 near_duplicates: []
