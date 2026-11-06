@@ -65,7 +65,7 @@ The page draws on a single source, [[sources/ufelle2021-metals-chapter|Ufelle & 
 
 ## Sources
 
-- [[sources/ufelle2021-metals-chapter|Ufelle & Barchowsky 2021]] — Ufelle AC, Barchowsky A, 2021. Toxic Effects of Metals, Ch 23 in Casarett & Doull's Essentials of Toxicology, 4th ed.
+- [[sources/ufelle2021-metals-chapter|Ufelle & Barchowsky 2021]] - Ufelle AC, Barchowsky A, 2021. Toxic Effects of Metals, Ch 23 in Casarett & Doull's Essentials of Toxicology, 4th ed.
 
 <!-- BEGIN: hmi-page-references -->
 ## References
@@ -73,7 +73,7 @@ The page draws on a single source, [[sources/ufelle2021-metals-chapter|Ufelle & 
 Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to its source record.
 
 1. [[sources/ufelle2021-metals-chapter|Toxic Effects of Metals (Chapter 23), in Casarett & Doull's Essentials of Toxicology, Fourth Edition]]<span class="hmi-ref-meta">Ufelle AC and Barchowsky A · Casarett & Doull's Essentials of Toxicology, Fourth Edition. McGraw Hill Education · 2021 · [www.mhprofessional.com](https://www.mhprofessional.com/9781264264827)</span><span class="hmi-ref-tag">Textbook</span>
-2. [[sources/dai2016-texas-animal-feed-metals|Heavy Metal Contamination of Animal Feed in Texas]]<span class="hmi-ref-meta">Susie Y. Dai, Ben Jones, Kyung-Min Lee, Wei Li, Lynn Post, and Timothy J. Herrman · Journal of Regulatory Science4(1):21–32 · 2016 · [doi.org/10.21423/jrs-v04n01p021](https://doi.org/10.21423/jrs-v04n01p021)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+2. [[sources/dai2016-texas-animal-feed-metals|Heavy Metal Contamination of Animal Feed in Texas]]<span class="hmi-ref-meta">Susie Y. Dai, Ben Jones, Kyung-Min Lee, Wei Li, Lynn Post, and Timothy J. Herrman · Journal of Regulatory Science4(1):21-32 · 2016 · [doi.org/10.21423/jrs-v04n01p021](https://doi.org/10.21423/jrs-v04n01p021)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-page-history -->
