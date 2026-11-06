@@ -13,10 +13,20 @@ const MARK_END = "<!-- END: outstanding-ledger -->"
 
 const items = openItems().sort((a, b) => (a.id < b.id ? 1 : -1)) // newest id first
 
+function headingTitle(title) {
+  return String(title)
+    .replaceAll(" \u2014 ", ": ")
+    .replaceAll("\u2014", ": ")
+    .replaceAll(" \u2013 ", ", ")
+    .replaceAll("\u2013", ", ")
+    .replace(/[ \t]{2,}/g, " ")
+    .trim()
+}
+
 function block(i) {
   const date = (i.id.match(/^OI-(\d{4})(\d{2})(\d{2})/) || []).slice(1).join("-") || i.ts.slice(0, 10)
   const lines = [
-    `### ${i.id} — ${i.title}`,
+    `### ${i.id}: ${headingTitle(i.title)}`,
     ``,
     `- scope: **${i.scope_class}** · type: ${i.type} · status: ${i.status} · repo: ${i.repo}${i.blocked_on.length ? ` · blocked_on: ${i.blocked_on.join(", ")}` : ""}`,
   ]
