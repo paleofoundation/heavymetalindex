@@ -16,7 +16,7 @@ sha256: e719f527bbdb60cede71c420ec7ba344c82adb819d5f8f553bf3f589afe692fd
 access_url: https://doi.org/10.3390/foods9060832
 license: cc-by
 metals: [Mg]
-ingredients: [buckwheat]
+ingredients: [non-rice-grains]
 products: []
 matrices: [buckwheat-grain, buckwheat-groats]
 jurisdictions: [PL]
