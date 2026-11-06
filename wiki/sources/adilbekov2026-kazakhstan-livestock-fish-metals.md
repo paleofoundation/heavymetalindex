@@ -13,7 +13,7 @@ license: "CC BY 4.0"
 raw_path: /Users/kmfp/papers-for-claude/hmi-thin/batch-03/pdfs/meat-and-poultry__Adilbekov2026__10.14202_vetworld.2026.1052-1068.pdf
 metals: [Pb, Cd, Cu, Zn, As, Hg]
 ingredients: ["[[ingredients/meat-and-poultry]]", "[[ingredients/beef]]", "[[ingredients/chicken]]", "[[ingredients/meat]]", "[[ingredients/whole-milk]]", "[[ingredients/cottage-cheese]]", "[[ingredients/freshwater-fish]]"]
-products: ["[[products/fish-freshwater]]"]
+products: ["[[products/fish-freshwater]]", "[[products/dairy-condensed-evaporated]]", "[[products/dairy-milk-cow]]"]
 matrices: [beef, horse meat, lamb, chicken, duck and goose meat, whole milk, cottage cheese and homemade cheese, freshwater fish]
 jurisdictions: [KZ]
 near_duplicates: []
@@ -22,14 +22,14 @@ sample_population: "Meat, poultry, whole milk and cottage cheese from farms and 
 wiki_doi: null
 sampling_locations: []
 sampling_year_range: "2024-2025"
-updated: 2026-10-24
+updated: 2026-11-05
 ingest: HMI-THIN-INGEST-1 batch-03
 ---
-# Adilbekov et al. 2026: Lead, cadmium, copper and zinc in meat, milk and fish from industrial regions of Kazakhstan
+# Adilbekov et al.: Lead, cadmium, copper and zinc in meat, milk and fish from industrial regions of Kazakhstan
 
 ## Overview
 
-Adilbekov and colleagues purposively sampled meat, poultry, milk, cottage cheese and freshwater fish from the most technogenically burdened districts of three Kazakh regions between August 2024 and September 2025. Tables 1 to 4 give mean ± SD lead, cadmium, copper and zinc by district and product, and cadmium, lead, arsenic and mercury for fish. Several district means exceed the Customs Union limits, especially for horse meat and lamb in Karaganda.
+Adilbekov and colleagues purposively sampled meat, poultry, milk, cottage cheese and freshwater fish from the most technogenically burdened districts of three Kazakh regions between August and September. Tables 1 to 4 give mean ± SD lead, cadmium, copper and zinc by district and product, and cadmium, lead, arsenic and mercury for fish. Several district means exceed the Customs Union limits, especially for horse meat and lamb in Karaganda.
 
 ## Key numbers
 

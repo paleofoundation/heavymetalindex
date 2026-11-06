@@ -3,21 +3,21 @@ type: source
 raw_handle: RPMEHG_10-3390-foods14010009
 cite_key: authors2015-toxic-trace-elements-in-meat-and-meat-products
 title: "Toxic Trace Elements in Meat and Meat Products Across Asia:"
-authors: ["Unknown authors"]
-year: 2015
-publication: "Peer-reviewed article"
+authors: [Chen Y, Qian Y, Huang Z, Wang Y, Zhou Y, Wang J, Zhao J, Li X]
+year: 2024
+publication: "Foods"
 doi: 10.3390/foods14010009
 source_type: peer-reviewed
 evidence_tier: B
-license: "PDF-local extraction; verify publisher license before reuse"
+license: "CC BY 4.0"
 access_url: "https://doi.org/10.3390/foods14010009"
-raw_path: "/Volumes/HMI-Library/research-pulls/ingredient-sweep/Complete & balanced dry kibble/Systematic review Complete & balanced dry kibble heavy metals/toxic-trace-elements-in-meat-and-meat-products-across-asia-a-comprehensive-literature-revi.pdf"
+raw_path: "/Users/kmfp/hmi-evidence-deposits/deposits/HMI-FILL-0020/10.3390_foods14010009.pdf"
 raw_sha256: "59594ecb5f60308d0c6d6ad5d86f9753c55a52e94357f45e518348cc943bc067"
 metals: [MeHg, tHg, Cd, Pb, tAs, Ni, Cr]
-ingredients: []
-products: ["[[products/infant-formula-powder]]", "[[products/fish-marine-predatory]]", "[[products/fish-marine-non-predatory]]", "[[products/shellfish]]", "[[products/root-vegetable-purees]]", "[[products/seaweed-kelp-foods]]"]
-matrices: [infant-formula-powder, fish-marine-predatory, fish-marine-non-predatory, shellfish, root-vegetable-purees, seaweed-kelp-foods]
-jurisdictions: [US]
+ingredients: ["[[ingredients/beef]]", "[[ingredients/pork]]", "[[ingredients/chicken]]", "[[ingredients/meat-and-poultry]]", "[[ingredients/organ-meats]]"]
+products: ["[[products/canned-meats]]", "[[products/processed-meats]]", "[[products/beef-product]]", "[[products/poultry-product]]"]
+matrices: [beef, pork, poultry, organ-meat, sausage, canned-meat, processed-meat]
+jurisdictions: [CN, IR, SA, TH, BD, KR, TW, IQ, AM, PK]
 sample_n: null
 sample_population: "Not mechanically resolved from the PDF; see Key numbers for source-reported sample descriptors."
 updated: 2026-08-03

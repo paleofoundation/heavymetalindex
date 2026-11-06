@@ -13,7 +13,7 @@ license: "CC BY"
 raw_path: raw/manual-fetch/seasonal-geographic-variance/auto-fetched/auto-cookware-nonstick-coated-cd-product_2023_10-3390-toxics11070640.pdf
 metals: [Al, Pb, Cd, Ni, Cr, Sn]
 ingredients: []
-products: ["[[products/cookware-metal-alloy]]"]
+products: ["[[products/cookware-metal-alloy]]", "[[products/feeding-accessories-child-sized]]"]
 matrices: [cookware-metal, acidic-leachate, alkaline-leachate, neutral-water-leachate, cooked-meat-leachate, blood-serum]
 jurisdictions: [PK]
 near_duplicates: []

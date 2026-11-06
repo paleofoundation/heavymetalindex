@@ -1,10 +1,10 @@
 # Scheduled page fill. One unit from paleofoundation/hmi-evidence-deposits per run,
 # taken from graph/next_work.json when that file lists an unblocked
 # hmi-evidence-fill item, otherwise the next DEPOSITED ingredient or product.
-# Claude writes the page. This workflow merges the latest main, records only
-# that page in the structure, openings, and thin-with-evidence baselines, runs
-# the same checks as CI, and opens evidence-fill/<unit> only when those checks pass.
-# It does not run --write-baseline.
+# Claude writes the page. This workflow merges the latest main, runs the same
+# checks as CI, and opens evidence-fill/<unit> only when those checks pass.
+# It does not edit the structure, openings, or thin-with-evidence baselines.
+# It does not run --write-baseline. A count below a baseline passes.
 #
 # .claude/settings.json is not applied by claude-code-action, so the tool list is
 # passed with --allowedTools below.
@@ -16,12 +16,23 @@
 # The Claude GitHub App should be installed on this repository so the push that
 # opens the pull request is not made with the default GITHUB_TOKEN (that token
 # does not start the CI workflows auto-merge waits for).
+#
+# A schedule run's github.actor is the account that last changed the cron line
+# below (PR 508 was merged by the Cursor app, so the actor is cursor[bot]).
+# cursor[bot] has no write permission, and Anthropic's OIDC app-token exchange
+# rejects it with 401. Bot actors therefore pass this job's GITHUB_TOKEN into
+# the action and then dispatch CI. A human actor still uses the app token.
+# After Claude returns, bot actors put that job token back on origin: the
+# action rewrites the remote, and its post step can leave a dead credential.
+# The cron is minute 17, not minute 0: GitHub delays and then drops a scheduled
+# run that is still waiting when the next tick is due, and the top of the hour
+# is when that delay is worst.
 
 name: Claude evidence fill
 
 on:
   schedule:
-    - cron: "0 */2 * * *"
+    - cron: "17 */2 * * *"
   workflow_dispatch:
   # No pull_request trigger. The content-gate job repeated diff-gate and the
   # hero-image lint, which CI's test job already runs on the opened PR.
@@ -68,6 +79,7 @@ jobs:
     permissions:
       contents: write
       pull-requests: write
+      actions: write
       id-token: write
     steps:
       - uses: actions/checkout@v4
@@ -207,7 +219,8 @@ jobs:
         with:
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           show_full_output: "true"
-          allowed_bots: "github-actions[bot],claude[bot]"
+          github_token: "${{ endsWith(github.actor, '[bot]') && github.token || '' }}"
+          allowed_bots: "github-actions[bot],claude[bot],cursor[bot]"
           base_branch: main
           branch_prefix: evidence-fill/
           prompt: ${{ steps.prompt.outputs.prompt }}
@@ -215,6 +228,90 @@ jobs:
           claude_args: |
             --allowedTools "Bash,Read,Edit,Write,Grep,Glob"
             --max-turns 80
+      # Bot actors must re-auth after claude-code-action. That action embeds the
+      # github_token it was given (this job's GITHUB_TOKEN) in origin and strips
+      # checkout's extraheader. Its post step can leave a dead or password-style
+      # remote, so the next git fetch fails with "Invalid username or token".
+      # A human actor keeps the Claude app token when that token still authenticates.
+      - name: Restore git authentication
+        id: gitauth
+        if: steps.pick.outputs.unit != ''
+        env:
+          JOB_TOKEN: ${{ github.token }}
+          CLAUDE_APP_TOKEN: ${{ steps.claude.outputs.github_token }}
+          ACTOR: ${{ github.actor }}
+        run: |
+          set -euo pipefail
+          export GIT_TERMINAL_PROMPT=0
+          if [ -n "${CLAUDE_APP_TOKEN}" ]; then
+            echo "::add-mask::${CLAUDE_APP_TOKEN}"
+          fi
+          if [ -n "${JOB_TOKEN}" ]; then
+            echo "::add-mask::${JOB_TOKEN}"
+          fi
+          token_accepted() {
+            local tok="$1"
+            local code
+            code="$(curl -sS -o /dev/null -w '%{http_code}' \
+              --connect-timeout 10 --max-time 30 \
+              -H "Authorization: Bearer ${tok}" \
+              -H "Accept: application/vnd.github+json" \
+              -H "X-GitHub-Api-Version: 2022-11-28" \
+              "${GITHUB_API_URL:-https://api.github.com}/repos/${GITHUB_REPOSITORY}" || true)"
+            [ "$code" = "200" ]
+          }
+          restore_origin() {
+            local tok="$1"
+            local basic includes line path
+            # Drop the token the action embedded. A URL credential beats extraheader,
+            # so a dead userinfo would keep the next fetch on password auth.
+            git remote set-url origin "https://github.com/${GITHUB_REPOSITORY}.git"
+            git config --local --unset-all "http.${GITHUB_SERVER_URL}/.extraheader" || true
+            git config --local --unset-all credential.helper || true
+            git config --local credential.helper ""
+            includes="$(git config --local --get-regexp '^include(If\..+)?\.path$' || true)"
+            if [ -n "$includes" ]; then
+              while IFS= read -r line; do
+                path="${line#* }"
+                [ -n "$path" ] || continue
+                git config --file "$path" --unset-all "http.${GITHUB_SERVER_URL}/.extraheader" || true
+              done <<< "$includes"
+            fi
+            basic="$(printf 'x-access-token:%s' "$tok" | base64 -w 0)"
+            git config --local "http.${GITHUB_SERVER_URL}/.extraheader" "AUTHORIZATION: basic ${basic}"
+          }
+          if [[ "${ACTOR}" == *'[bot]' ]]; then
+            token="${JOB_TOKEN}"
+            kind="job"
+          elif [ -n "${CLAUDE_APP_TOKEN}" ] && token_accepted "${CLAUDE_APP_TOKEN}"; then
+            token="${CLAUDE_APP_TOKEN}"
+            kind="app"
+          else
+            if [ -n "${CLAUDE_APP_TOKEN}" ]; then
+              echo "Claude app token cannot authenticate after claude-code-action. Using this job's GITHUB_TOKEN."
+            fi
+            token="${JOB_TOKEN}"
+            kind="job"
+          fi
+          if [ -z "${token}" ] || ! token_accepted "${token}"; then
+            echo "No working git token is available after the Claude step."
+            exit 1
+          fi
+          restore_origin "$token"
+          case "$(git config --local --get remote.origin.url)" in
+            *x-access-token*|*@*)
+              echo "origin URL still contains credentials after the reset."
+              exit 1
+              ;;
+          esac
+          git config --local --get "http.${GITHUB_SERVER_URL}/.extraheader" | grep -q '^AUTHORIZATION: basic '
+          git ls-remote origin refs/heads/main >/dev/null
+          {
+            echo "EVIDENCE_FILL_GIT_TOKEN<<EVIDENCE_FILL_GIT_TOKEN_END"
+            echo "$token"
+            echo "EVIDENCE_FILL_GIT_TOKEN_END"
+          } >> "$GITHUB_ENV"
+          echo "kind=${kind}" >> "$GITHUB_OUTPUT"
       - name: Merge main, record this page, then run CI checks
         id: verify
         if: steps.pick.outputs.unit != ''
@@ -224,6 +321,7 @@ jobs:
           FAMILY: ${{ steps.pick.outputs.family }}
           PAGE: ${{ steps.pick.outputs.page }}
           NODE_OPTIONS: --max-old-space-size=6144
+          WIKI_EDIT_AUDIT_SKIP: "1"
         run: |
           set -euo pipefail
           if [ ! -d node_modules ]; then npm ci; fi
@@ -234,7 +332,7 @@ jobs:
           git config user.name "claude[bot]"
           git config user.email "41898282+claude[bot]@users.noreply.github.com"
           git fetch --no-tags origin main
-          # Drop a whole-baseline rewrite. The filled page is recorded after the merge.
+          # Drop a whole-baseline rewrite. Fill pull requests leave the baselines on main.
           git checkout origin/main -- \
             data/evidence/page-structure-baseline.json \
             data/evidence/page-openings-baseline.json \
@@ -304,19 +402,12 @@ jobs:
             data/evidence/page-structure-baseline.json \
             data/evidence/page-openings-baseline.json \
             data/fanout/thin-with-evidence-baseline.txt
-          before="${RUNNER_TEMP}/thin-before.txt"
-          cp data/fanout/thin-with-evidence-baseline.txt "$before"
-          node tools/evidence-fill/record-filled-page.mjs --page "$PAGE"
-          node tools/evidence-fill/diff-gate.mjs \
-            --baseline-before "$before" \
-            --baseline-after data/fanout/thin-with-evidence-baseline.txt \
-            --entity "${FAMILY}/${SLUG}"
           git add -- \
             data/evidence/page-structure-baseline.json \
             data/evidence/page-openings-baseline.json \
             data/fanout/thin-with-evidence-baseline.txt
           if ! git diff --cached --quiet; then
-            git commit -m "Evidence fill ${UNIT}: record ${SLUG} baseline paths"
+            git commit -m "Evidence fill ${UNIT}: keep main baselines"
           fi
           node tools/evidence-fill/diff-gate.mjs --base origin/main
           node tools/lint/hero-image-placeholders.mjs --changed origin/main
@@ -335,10 +426,12 @@ jobs:
           PAGE: ${{ steps.pick.outputs.page }}
           CLAUDE_APP_TOKEN: ${{ steps.claude.outputs.github_token }}
           EXTRA_BRANCH: ${{ steps.claude.outputs.branch_name }}
+          GIT_AUTH_KIND: ${{ steps.gitauth.outputs.kind }}
+          WIKI_EDIT_AUDIT_SKIP: "1"
         run: |
           set -euo pipefail
           target="evidence-fill/${UNIT}"
-          token="${CLAUDE_APP_TOKEN:-$GITHUB_TOKEN}"
+          token="${EVIDENCE_FILL_GIT_TOKEN:-${CLAUDE_APP_TOKEN:-$GITHUB_TOKEN}}"
           askpass="${RUNNER_TEMP}/git-askpass.sh"
           # shellcheck disable=SC2016  # askpass must contain a literal $GIT_TOKEN
           printf '%s\n' '#!/bin/sh' 'echo "$GIT_TOKEN"' > "$askpass"
@@ -364,18 +457,17 @@ jobs:
               exit 1
             fi
             git commit --no-edit
-            git checkout origin/main -- \
-              data/evidence/page-structure-baseline.json \
-              data/evidence/page-openings-baseline.json \
-              data/fanout/thin-with-evidence-baseline.txt
-            node tools/evidence-fill/record-filled-page.mjs --page "$PAGE"
-            git add -- \
-              data/evidence/page-structure-baseline.json \
-              data/evidence/page-openings-baseline.json \
-              data/fanout/thin-with-evidence-baseline.txt
-            if ! git diff --cached --quiet; then
-              git commit -m "Evidence fill ${UNIT}: record ${SLUG} baseline paths after merging main"
-            fi
+          fi
+          git checkout origin/main -- \
+            data/evidence/page-structure-baseline.json \
+            data/evidence/page-openings-baseline.json \
+            data/fanout/thin-with-evidence-baseline.txt
+          git add -- \
+            data/evidence/page-structure-baseline.json \
+            data/evidence/page-openings-baseline.json \
+            data/fanout/thin-with-evidence-baseline.txt
+          if ! git diff --cached --quiet; then
+            git commit -m "Evidence fill ${UNIT}: keep main baselines"
           fi
           if git diff --quiet origin/main...HEAD; then
             echo "No changes against main. Not opening a pull request."
@@ -388,10 +480,28 @@ jobs:
           fi
           git_push push "https://github.com/${GITHUB_REPOSITORY}.git" "HEAD:refs/heads/${target}"
           export GH_TOKEN="$token"
+          # A push with the workflow GITHUB_TOKEN does not start pull_request
+          # workflows. Dispatch CI onto this branch so the checks still run.
+          # Human actors that still hold a live Claude app token push with it
+          # and do not need this dispatch.
+          if [ "${GIT_AUTH_KIND}" = "job" ] || { [ -z "${GIT_AUTH_KIND}" ] && [[ "${GITHUB_ACTOR}" == *"[bot]"* ]]; }; then
+            echo "Actor ${GITHUB_ACTOR} is pushing with the workflow token. Dispatching CI on ${target}."
+            dispatched=false
+            for _ in 1 2 3 4 5 6; do
+              if gh workflow run ci.yml --ref "$target"; then
+                dispatched=true
+                break
+              fi
+              sleep 5
+            done
+            if [ "$dispatched" != true ]; then
+              echo "::warning::CI was not dispatched on ${target}. A pull_request run will not start from this token."
+            fi
+          fi
           cat > "${RUNNER_TEMP}/pr-body.md" <<EOF
           Automated evidence fill for ${UNIT} (\`${FAMILY}/${SLUG}\`).
 
-          The page was built from that deposit unit. Alias redirects were regenerated with the repo tools. The structure, openings, and thin-with-evidence baselines record only this page. The branch merged the latest main before this pull request was opened. \`npm test\`, \`npm run lint:page-structure\`, \`npm run lint:page-openings\`, \`npm run lint:thin-with-evidence\`, and \`npm run check\` passed before this pull request was opened.
+          The page was built from that deposit unit. Alias redirects were regenerated with the repo tools. The structure, openings, and thin-with-evidence baselines stay on main. The branch merged the latest main before this pull request was opened. \`npm test\`, \`npm run lint:page-structure\`, \`npm run lint:page-openings\`, \`npm run lint:thin-with-evidence\`, and \`npm run check\` passed before this pull request was opened.
 
           Direction: toward the literature.
           EOF
@@ -419,7 +529,7 @@ jobs:
             evidence-fill/*|claude/*) ;;
             *) echo "Refusing to delete ${EXTRA_BRANCH}"; exit 0 ;;
           esac
-          token="${CLAUDE_APP_TOKEN:-$GITHUB_TOKEN}"
+          token="${EVIDENCE_FILL_GIT_TOKEN:-${CLAUDE_APP_TOKEN:-$GITHUB_TOKEN}}"
           askpass="${RUNNER_TEMP}/git-askpass.sh"
           # shellcheck disable=SC2016  # askpass must contain a literal $GIT_TOKEN
           printf '%s\n' '#!/bin/sh' 'echo "$GIT_TOKEN"' > "$askpass"

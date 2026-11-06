@@ -3,6 +3,11 @@ title: Heavy Metal Index — Change Log
 noindex: true
 ---
 
+## [2026-11-05] ingest | HMI-FILL-0031: non-centrifugal cane sugar metals fill for refined-sugar page
+
+Pages touched: [[products/refined-sugar]], [[sources/milani2025-rapadura-ncs-metals-latin-america]] (created)
+Notes: Thin unit (one paper). Milani et al. 2025 (Foods, DOI 10.3390/foods14193285) measured total arsenic, cadmium, and lead by ultrasound acid digestion and ICP-OES in 72 non-centrifugal cane sugar (NCS/rapadura) samples from Brazil (n=16), Colombia (n=36), Ecuador (n=12), Mexico (n=3), and Peru (n=5). Lead was detected and quantified in all 72 samples; country means ranged from 74 µg/kg (Colombia) to 107 µg/kg (Peru); 33 percent of samples exceeded the Brazilian and MERCOSUR sugar limit of 100 µg/kg. Cadmium was detectable in 31 percent and quantifiable in 7 percent of samples; the highest quantified value was 45 µg/kg from Peru. Total arsenic was below the LOQ of 37 µg/kg in all samples. Inorganic arsenic was not speciated. The source covers NCS/rapadura only, not conventionally refined white cane sugar or beet sugar. All required product page sections added; page removed from thin-with-evidence and page-structure baselines. Direction: toward the literature.
+
 ## [2026-11-04] ingest | HMI-FILL-0007: soybean raw material context added to tofu page
 
 Pages touched: [[ingredients/tofu]], [[sources/jaudenes-marrero2024-soybeans-toxic-elements]]

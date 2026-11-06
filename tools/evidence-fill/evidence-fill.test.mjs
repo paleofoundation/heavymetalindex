@@ -204,14 +204,14 @@ test("diff gate flags supplier data, dashes in new wiki prose, and placeholder i
 test("baseline rewrite may drop only the filled page", () => {
   const before = "# note\ningredients/cocoa\ningredients/rice\n"
   assert.deepEqual(baselineScopeErrors(before, "# note\ningredients/rice\n", "ingredients/cocoa"), [])
-  assert.ok(baselineScopeErrors(before, before, "ingredients/cocoa").length)
+  assert.deepEqual(baselineScopeErrors(before, before, "ingredients/cocoa"), [])
   assert.ok(baselineScopeErrors(before, before + "ingredients/pea\n", "ingredients/cocoa").some((line) => line.includes("gained")))
   assert.ok(baselineScopeErrors(before, "# note\n", "ingredients/cocoa").some((line) => line.includes("unrelated")))
 })
 
 test("the scheduled workflow carries the Claude fill contract", () => {
   const yml = fs.readFileSync(new URL("../../.github/workflows/claude-evidence-fill.yml", import.meta.url), "utf8")
-  assert.match(yml, /cron: "0 \*\/2 \* \* \*"/)
+  assert.match(yml, /cron: "17 \*\/2 \* \* \*"/)
   assert.doesNotMatch(yml, /cron: "0 5 \* \* \*"/)
   assert.match(yml, /GH_TOKEN: \$\{\{ github\.token \}\}/)
   assert.match(yml, /GITHUB_OUTPUT/)
@@ -235,7 +235,8 @@ test("the scheduled workflow carries the Claude fill contract", () => {
   assert.doesNotMatch(yml, /^\s*(?:node|npm)\b.*--write-baseline/m)
   assert.match(yml, /does not run --write-baseline/)
   assert.match(yml, /git merge --no-edit origin\/main/)
-  assert.match(yml, /record-filled-page\.mjs/)
+  assert.doesNotMatch(yml, /record-filled-page\.mjs/)
+  assert.match(yml, /does not edit the structure, openings, or thin-with-evidence baselines/)
   assert.match(yml, /kind == "product"/)
   const prompt = fs.readFileSync(new URL("./prompt.md", import.meta.url), "utf8")
   assert.match(prompt, /audit-page-structure\.mjs --write-baseline/)

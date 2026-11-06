@@ -16,42 +16,64 @@ raw_path: "raw/antimony-verify/Wang_2026_antimony_food_contact.pdf"
 raw_sha256: 468193f7186e0caccd8cecfeafa8007a9ca1032f76756b1435babea70953a990
 metals: [Sb]
 ingredients: []
-products: []
-matrices: ["food-contact"]
+products: ["[[products/feeding-accessories-child-sized]]", "[[products/food-packaging-plastic-tubs]]", "[[products/food-storage-plastic-containers]]", "[[products/food-packaging-cans-lids]]"]
+matrices: [food-contact, food-packaging-migration, ceramic-fcm, plastic-fcm]
 jurisdictions: [INT]
 evidence_fitness:
-  supports: ["review of food-contact antimony migration ranges"]
-  does_not_support: ["an opened EPA IRIS reference dose"]
+  supports: ["review of food-contact antimony migration ranges across FCM types", "ceramics reaching highest maximum Sb migration (up to 15 micrograms/L)", "urinary Sb biomonitoring geometric means across US, Canada, and China (0.047 to 0.050 micrograms/L)"]
+  does_not_support: ["an opened EPA IRIS reference dose", "PET-specific migration values without reading primary studies in FCCmigex database"]
 audience: [regulator, educator, consumer, app]
 sources: 0
 wiki_doi: null
-updated: 2026-09-25
+updated: 2026-11-05
 ---
 
-# Wang 2026 ,  Antimony in food-contact materials
+# Wang - Antimony in food-contact materials
 
-A review of migration from food-contact materials. Parenthetical unit conversions in the review mix water concentrations with food mass fractions.
+A review of antimony migration from food-contact materials (FCMs) drawing on the FCCmigex database (102 entries, 54 references, 78 entries from plastics) and human biomonitoring data. Parenthetical unit conversions in the review mix water concentrations with food mass fractions; this page reproduces the values as printed.
 
 ## Key numbers
 
-Most studies the review discusses are described as below a WHO figure written as 20 ppb and also as 0.02 mg/kg, and below an EU specific migration limit written as 40 ppb and also as 0.04 mg/kg (PDF p.2). Ordinary storage is described as often under 2.5 µg/L, and acid, heat, and time as able to exceed 5 µg/L. The review states that EPA recommends less than 0.35 µg Sb/kg body weight per day. The IRIS file was not opened, so that sentence stays a citation.
+**Antimony migration by FCM type (from FCCmigex database as summarized in Table 2):**
+
+| FCM type | Fraction below LOD | Migration range (micrograms/L) |
+|---|---:|---|
+| Paper/board | 0% | 0.001 to 0.03 |
+| Plastic | 71% | 0.001 to 0.01 |
+| Ceramics | 30% | 0.00004 to 15 |
+| Crystalware | 6% | 0.016 to 0.024 |
+| Metals | 0% | not tabulated |
+
+Ceramics showed the highest maximum antimony migration values, reaching up to 15 micrograms/L in the FCCmigex data. This exceeds the EU drinking-water limit of 5 micrograms/L and the US EPA limit of 6 micrograms/L.
+
+The review describes typical storage antimony migration from PET as often under 2.5 micrograms/L, with acid, heat, and time able to exceed 5 micrograms/L. The EU specific migration limit (SML) for antimony from plastic food contact materials is 0.04 mg/kg (40 micrograms/kg food), listed in Regulation EU 10/2011.
+
+**Human biomonitoring (urinary antimony):**
+
+| Population | Geometric mean (micrograms/L) | Source |
+|---|---:|---|
+| US NHANES | 0.047 | NHANES survey |
+| Canada CHMS | 0.048 | Canadian survey |
+| China CNHBS | 0.050 | Chinese survey |
+
+Blood antimony in Chinese CNHBS: 2.35 micrograms/L.
+
+The review also notes that EPA cited 0.35 micrograms antimony/kg bw/day as a reference dose in a referenced source; that IRIS file was not opened for this source page, and this value is not adopted as an independent derivation.
 
 ## Methods (brief)
 
-Narrative review. Not a new migration experiment.
-
-## Evidence fitness
-
-Supports what the review prints, including the unit conflation. Does not support adopting 20 ppb as 0.02 mg/kg, or adopting 0.35 µg/kg/day as an opened reference dose.
+Narrative review drawing on the FCCmigex database and published biomonitoring literature. Not a new migration experiment.
 
 ## Limitations
 
-Not a baby-bottle study.
+Unit conflation in the review (water micrograms/L presented alongside food micrograms/kg without noting the basis difference). FCCmigex database values reflect diverse methodologies; migration ranges across studies are not strictly comparable. Ceramics maximum (15 micrograms/L) is an outlier value within a broad range.
 
 ## Related evidence
 
 - [[metals/antimony]]
 - [[synthesis/antimony-in-baby-products]]
+- [[products/food-packaging-plastic-tubs]]
+- [[products/food-packaging-cans-lids]]
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

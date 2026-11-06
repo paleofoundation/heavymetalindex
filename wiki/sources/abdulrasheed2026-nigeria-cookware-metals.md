@@ -13,7 +13,7 @@ license: "CC BY-NC-ND"
 raw_path: raw/manual-fetch/seasonal-geographic-variance/auto-fetched/auto-cookware-nonstick-coated-cd-product_2026_10-1186-s13065-026-01720-5.pdf
 metals: [Pb, Cd, Ni, Cr]
 ingredients: []
-products: ["[[products/cookware-metal-alloy]]"]
+products: ["[[products/cookware-metal-alloy]]", "[[products/feeding-accessories-child-sized]]"]
 matrices: [cookware-metal, neutral-water-leachate, moulding-materials, manufacturing-site-soil]
 jurisdictions: [NG]
 near_duplicates: []

@@ -24,9 +24,9 @@ audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
 literature_scope: cited
-sources: 8
+sources: 10
 wiki_doi: null
-updated: 2026-10-15
+updated: 2026-11-05
 hero_image: /static/heroes/nail-polish-unmarked-bottles.webp
 hero_image_alt: "Plain unmarked nail-polish bottles containing burgundy, rose and neutral liquids illustrating manicuring preparations leave on product-format context."
 ---

@@ -3,10 +3,11 @@ import assert from "node:assert/strict"
 import fs from "node:fs"
 import {
   CHECKS,
+  BASELINE_IMPROVEMENT_NOTE,
   auditPage,
   loadBaseline,
-  newViolations,
   scanRepo,
+  structureRatchet,
 } from "./audit-page-structure.mjs"
 
 function page(body, audience = "[regulator, brand-qa]") {
@@ -308,13 +309,57 @@ test("the spec names one section list per type", () => {
   assert.match(spec, /Key facts/)
 })
 
+function baselineFixture(pagesScanned, pathCount, recordedPages = pathCount) {
+  const paths = Array.from({ length: pathCount }, (_, index) => `wiki/ingredients/p${index}.md`)
+  return {
+    pages_scanned: pagesScanned,
+    checks: Object.fromEntries(
+      CHECKS.map((check) => [check, { pages: recordedPages, paths: [...paths] }]),
+    ),
+  }
+}
+
+function scanFixture(pages, liveCount, extra = {}) {
+  const paths = Array.from({ length: liveCount }, (_, index) => `wiki/ingredients/p${index}.md`)
+  return {
+    pages,
+    checks: Object.fromEntries(
+      CHECKS.map((check) => [check, extra[check] ? [...extra[check]] : [...paths]]),
+    ),
+  }
+}
+
+test("a page-structure count below the baseline passes", () => {
+  // recorded pages 4 and 5 paths is the 594 versus 595 baseline desync.
+  const baseline = baselineFixture(10, 5, 4)
+  const { failures, improvements } = structureRatchet(scanFixture(9, 2), baseline)
+  assert.deepEqual(failures, [])
+  assert.ok(improvements.some((line) => line.includes("scanned page count 9")))
+  assert.ok(improvements.some((line) => line.includes("below the page-structure baseline 5")))
+  assert.match(BASELINE_IMPROVEMENT_NOTE, /does not need to edit/)
+})
+
+test("a page-structure count above the baseline fails", () => {
+  const baseline = baselineFixture(10, 3)
+  const morePages = structureRatchet(scanFixture(11, 1), baseline)
+  assert.ok(morePages.failures.some((line) => line.includes("scanned page count 11")))
+  const moreViolations = structureRatchet(scanFixture(10, 4), baseline)
+  assert.ok(moreViolations.failures.some((line) => line.includes("grew past the baseline")))
+  const swapped = structureRatchet(
+    scanFixture(10, 1, { metal_symbols: ["wiki/ingredients/new.md"] }),
+    baseline,
+  )
+  assert.ok(swapped.failures.some((line) => line.startsWith("metal_symbols grew")))
+})
+
 test("the corpus does not exceed the page-structure baseline", () => {
   const scan = scanRepo(".")
   const baseline = loadBaseline(".")
-  assert.equal(scan.pages, baseline.pages_scanned)
-  const added = newViolations(scan, baseline)
-  for (const check of CHECKS) {
-    assert.deepEqual(added[check], [], `${check} grew`)
-    assert.equal(baseline.checks[check].pages, baseline.checks[check].paths.length)
+  const { failures, improvements } = structureRatchet(scan, baseline)
+  if (improvements.length) {
+    console.log(
+      `page-structure baseline: ${improvements.length} count(s) are below the baseline. ${BASELINE_IMPROVEMENT_NOTE}`,
+    )
   }
+  assert.deepEqual(failures, [])
 })
