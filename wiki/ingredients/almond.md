@@ -8,6 +8,7 @@ label: Almond
 aliases:
   - almond milk
   - almond base
+  - almonds
 category: tree-nut
 audience:
   - regulator

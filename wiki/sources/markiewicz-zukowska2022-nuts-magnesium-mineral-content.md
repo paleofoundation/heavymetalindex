@@ -16,7 +16,7 @@ sha256: 48bd97caff5729c69db8c9ee50cbc892a2f650e6b604a1c65126effff4155b4e
 access_url: https://doi.org/10.3390/foods11203152
 license: cc-by
 metals: [Mg]
-ingredients: [nuts, almonds, brazil-nuts, cashews, hazelnuts, peanuts, pecans, pine-nuts, pistachios, walnuts, macadamia-nuts]
+ingredients: [almond, cashews, hazelnuts, peanuts, walnuts]
 products: []
 matrices: [tree-nuts]
 jurisdictions: [PL]

@@ -16,7 +16,7 @@ sha256: f1baedcc6e098bcc1259dd5f11366392fe3e718abeac49f4b69abea359f77b0d
 access_url: https://doi.org/10.3390/md22040162
 license: PMC OA subset
 metals: [Mg]
-ingredients: [fish, hake, cod, salmon]
+ingredients: [fish, white-fish, cod, salmon]
 products: []
 matrices: [fish-bone-powder, fish-side-stream]
 jurisdictions: [DK, ES]
