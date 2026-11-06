@@ -211,7 +211,7 @@ test("baseline rewrite may drop only the filled page", () => {
 
 test("the scheduled workflow carries the Claude fill contract", () => {
   const yml = fs.readFileSync(new URL("../../.github/workflows/claude-evidence-fill.yml", import.meta.url), "utf8")
-  assert.match(yml, /cron: "0 \*\/2 \* \* \*"/)
+  assert.match(yml, /cron: "17 \*\/2 \* \* \*"/)
   assert.doesNotMatch(yml, /cron: "0 5 \* \* \*"/)
   assert.match(yml, /GH_TOKEN: \$\{\{ github\.token \}\}/)
   assert.match(yml, /GITHUB_OUTPUT/)
