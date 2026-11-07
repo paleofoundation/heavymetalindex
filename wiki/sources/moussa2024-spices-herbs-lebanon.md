@@ -13,7 +13,7 @@ evidence_tier: A
 license: "CC BY"
 raw_path: raw/markdown/FM_11343411/FM_11343411.md
 metals: [Pb, Cd, tAs, tHg]
-ingredients: ["[[ingredients/cinnamon]]", "[[ingredients/black-pepper]]", "[[ingredients/herbs-and-spices]]", "[[ingredients/herbal-botanicals]]"]
+ingredients: ["[[ingredients/cumin]]", "[[ingredients/cinnamon]]", "[[ingredients/black-pepper]]", "[[ingredients/herbs-and-spices]]", "[[ingredients/herbal-botanicals]]"]
 products: ["[[products/spices]]"]
 matrices: [spices, dried-herbs]
 jurisdictions: [LB]

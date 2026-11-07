@@ -6,15 +6,8 @@ type: ingredient
 commodity: cumin
 aliases: []
 category: spice
-provisional_scaffold: true
-provisional_created: 2026-06-02T00:00:00.000Z
-provisional_reason: >-
-  ingest of sabri2025-moroccan-spices-casablanca-metals declared
-  ingredients/cumin which did not exist
-provisional_source: '[[sources/sabri2025-moroccan-spices-casablanca-metals]]'
-literature_scope: thin
-sources: 14
-updated: '2026-10-22'
+sources: 22
+updated: '2026-11-07'
 page_contract_version: 1.0.0
 question_record: data/evidence/engine/ingredient/cumin/question-record.json
 synthesis_record: data/evidence/engine/ingredient/cumin/synthesis.json
@@ -63,25 +56,27 @@ ingredient_chrome:
     Lead, cadmium, total arsenic, inorganic arsenic and total mercury in cumin:
     monitoring results, studies, references by form and basis, limits, testing
     and controls.
-  updated: '2026-10-22'
-  reference_count: 14
+  updated: '2026-11-07'
+  reference_count: 22
   snapshot:
     - label: Research sources referenced
-      count: 12
+      count: 20
     - label: Official guidance and instruments
       count: 2
   key_evidence:
     - label: Exposure
       text: >-
-        No source in the library converted cumin concentrations into a verified
-        estimate of intake for a defined population.
+        Ghosh et al. 2025 estimated daily intake for cumin from Patna, India:
+        Pb EDI 0.0122 ug/kg-bw/day (bioaccessible fraction 26.1%); all cumin
+        THQ values below 1 at Indian consumption rates.
       href: '#exposure-from-cumin'
       link_label: Exposure
     - label: Limits
       text: >-
-        No maximum level for metals in cumin was verified from primary text for
-        this page; buyers should confirm the limit that applies in the
-        destination market.
+        EU Regulation 2023/915 sets a maximum level of 0.90 mg/kg for lead in
+        spices from seeds (cumin category); Codex Alimentarius ML for Pb in
+        spices from seeds is 0.3 mg/kg; New York State action level is 1 ppm
+        (Class II) and 25 ppm (Class I) for Pb in spices.
       href: '#buying-and-verifying-cumin'
       link_label: Limits by market
     - label: Key distinction
