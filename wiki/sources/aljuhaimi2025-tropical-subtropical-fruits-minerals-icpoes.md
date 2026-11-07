@@ -35,7 +35,7 @@ audience:
   - brand-qa
 ---
 
-# AlJuhaimi et al. 2025 — Minerals and toxic elements in 15 tropical and subtropical fruits, Konya Turkey
+# AlJuhaimi et al. 2025 - Minerals and toxic elements in 15 tropical and subtropical fruits, Konya Turkey
 
 This study measured macro- and microelements and toxic elements in 15 fruits purchased at retail in Konya, Turkey in 2023. Samples were dried at 70 °C for 24 hours and ground before microwave-assisted acid digestion (HNO3/H2O2) and ICP-OES analysis (Agilent-5110). All reported values are on a dry-weight basis. Cape gooseberry (listed in Table 1 as "Cape Gooseberry / Peruvian groundcherry," scientific name given as *Peruvian groundcherry* rather than *Physalis peruviana*, though the common and commercial synonymy is unambiguous) is one of the 15 fruits. This source is the sole peer-reviewed occurrence dataset for cape gooseberry in the current HMI corpus.
 
