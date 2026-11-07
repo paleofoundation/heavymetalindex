@@ -93,6 +93,15 @@ jobs:
       pull-requests: write
       actions: write
       id-token: write
+    # Puppeteer 25's postinstall downloads Chrome and chrome-headless-shell.
+    # npm test launches Chrome (headless: true). chrome-headless-shell is the
+    # old headless binary and is unused on this path. Its download failed run
+    # 42316389810 with DefaultProvider read ECONNRESET after Chrome had already
+    # downloaded. PUPPETEER_SKIP_DOWNLOAD would skip Chrome too and break those
+    # tests. This applies to every npm ci in the job, including the fallback
+    # when node_modules is missing.
+    env:
+      PUPPETEER_SKIP_CHROME_HEADLESS_SHELL_DOWNLOAD: "1"
     steps:
       - uses: actions/checkout@v4
         with:
@@ -102,6 +111,8 @@ jobs:
           node-version-file: .node-version
           cache: npm
       - run: npm ci
+        env:
+          PUPPETEER_SKIP_CHROME_HEADLESS_SHELL_DOWNLOAD: "1"
       - name: Install PDF text tools
         run: sudo apt-get update -qq && sudo apt-get install -y --no-install-recommends poppler-utils
       - name: Clone evidence deposits
@@ -354,6 +365,7 @@ jobs:
           PAGE: ${{ steps.pick.outputs.page }}
           NODE_OPTIONS: --max-old-space-size=6144
           WIKI_EDIT_AUDIT_SKIP: "1"
+          PUPPETEER_SKIP_CHROME_HEADLESS_SHELL_DOWNLOAD: "1"
         run: |
           set -euo pipefail
           if [ ! -d node_modules ]; then npm ci; fi
