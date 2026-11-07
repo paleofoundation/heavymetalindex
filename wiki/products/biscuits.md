@@ -31,6 +31,8 @@ literature_scope: cited
 sources: 2
 wiki_doi: null
 updated: 2026-10-15
+hero_image: /static/heroes/baked-foods-biscuits-crackers-muffin-brownie-crumbs.webp
+hero_image_alt: "Plain biscuits, butter crackers, a blueberry muffin, a chocolate brownie and a dish of breadcrumbs illustrating biscuits product-format context."
 ---
 
 # Biscuits
