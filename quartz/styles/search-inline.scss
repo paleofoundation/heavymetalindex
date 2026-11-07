@@ -166,14 +166,16 @@
   // Keep the header's compact geometry; focusing its search expands the same
   // field within the bar, without a modal or a second text box.
   .hmi-topnav-search .hmi-search-form {
-    width: 36px;
+    width: 46px;
+    height: 46px;
     padding: 0;
     .hmi-search-icon {
       position: absolute;
-      left: 12px;
+      left: 16px;
       pointer-events: none;
     }
     .search-bar {
+      font-size: 16px;
       padding: 0;
       cursor: text;
       color: transparent;
@@ -199,8 +201,8 @@
     }
   }
   .hmi-topnav-search.hmi-inline-search {
-    height: 36px;
-    min-width: 36px;
+    height: 46px;
+    min-width: 46px;
     max-width: none;
   }
 }

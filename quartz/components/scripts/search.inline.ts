@@ -154,6 +154,9 @@ function setupSearch(root: HTMLElement, slug: FullSlug) {
     root.style.setProperty("--hmi-search-input-top", `${root.getBoundingClientRect().top}px`)
     void render()
   }
+  const onViewportResize = () => {
+    if (active) open()
+  }
   const onSubmit = async (event: Event) => {
     event.preventDefault()
     window.clearTimeout(timer)
@@ -173,6 +176,7 @@ function setupSearch(root: HTMLElement, slug: FullSlug) {
     if (event.key === "Escape") {
       event.preventDefault()
       close()
+      if (root.classList.contains("hmi-topnav-search")) input.blur()
       return
     }
     if (event.key === "ArrowDown" || event.key === "ArrowUp") {
@@ -209,6 +213,7 @@ function setupSearch(root: HTMLElement, slug: FullSlug) {
   root.addEventListener("focusout", onFocusOut)
   results.addEventListener("click", onResultClick)
   document.addEventListener("pointerdown", onOutside)
+  window.visualViewport?.addEventListener("resize", onViewportResize)
   window.addCleanup(() => {
     close()
     window.clearTimeout(timer)
@@ -220,6 +225,7 @@ function setupSearch(root: HTMLElement, slug: FullSlug) {
     root.removeEventListener("focusout", onFocusOut)
     results.removeEventListener("click", onResultClick)
     document.removeEventListener("pointerdown", onOutside)
+    window.visualViewport?.removeEventListener("resize", onViewportResize)
   })
 }
 

@@ -25,7 +25,7 @@ function onSnavSecClick(this: HTMLElement) {
 }
 
 function setupSnav() {
-  const snav = document.querySelector(".snav")
+  const snav = document.querySelector<HTMLElement>(".snav")
   if (!snav) return
   const toggle = snav.querySelector<HTMLButtonElement>(".snav-toggle")
   if (toggle) {
@@ -33,12 +33,23 @@ function setupSnav() {
     const onToggle = () => toggle.setAttribute("aria-expanded", String(toggle.getAttribute("aria-expanded") !== "true"))
     toggle.addEventListener("click", onToggle)
     const onNavigate = (event: Event) => {
-      if ((event.target as Element).closest("a[href^='#']")) toggle.setAttribute("aria-expanded", "false")
+      if ((event.target as Element).closest("a[href^='#']") && window.matchMedia("(max-width: 1149px)").matches) {
+        toggle.focus({ preventScroll: true })
+        toggle.setAttribute("aria-expanded", "false")
+      }
+    }
+    const onKeydown = (event: KeyboardEvent) => {
+      if (event.key === "Escape" && window.matchMedia("(max-width: 1149px)").matches) {
+        toggle.setAttribute("aria-expanded", "false")
+        toggle.focus()
+      }
     }
     snav.addEventListener("click", onNavigate)
+    snav.addEventListener("keydown", onKeydown)
     window.addCleanup(() => {
       toggle.removeEventListener("click", onToggle)
       snav.removeEventListener("click", onNavigate)
+      snav.removeEventListener("keydown", onKeydown)
     })
   }
   snav.querySelectorAll(".grp:not(.snav-further) > a.sec").forEach((sec) => {
