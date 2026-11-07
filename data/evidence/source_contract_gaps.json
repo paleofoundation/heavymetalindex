@@ -79,6 +79,27 @@
       "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
     },
     {
+      "page": "wiki/sources/abbas2026-pakistan-retail-meats-arsenic-ptes.md",
+      "cite_key": "abbas2026-pakistan-retail-meats-arsenic-ptes",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "evidence_fitness"
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
+      "page": "wiki/sources/abd-elmoniem2025-wheat-magnesium-fertilization.md",
+      "cite_key": "abd-elmoniem2025-wheat-magnesium-fertilization",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "evidence_fitness",
+        "raw_path"
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
       "page": "wiki/sources/abdalabass2026-liquid-supplements-radioactivity-metals.md",
       "cite_key": "abdalabass2026-liquid-supplements-radioactivity-metals",
       "metadata_complete": false,
@@ -495,6 +516,16 @@
     {
       "page": "wiki/sources/acutus2022-role-of-sulfate-transporters-in-chromium-tolerance-in.md",
       "cite_key": "acutus2022-role-of-sulfate-transporters-in-chromium-tolerance-in",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "evidence_fitness"
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
+      "page": "wiki/sources/adachi2024-palladium-contact-dermatitis-oral-acid.md",
+      "cite_key": "adachi2024-palladium-contact-dermatitis-oral-acid",
       "metadata_complete": false,
       "ingest_complete": false,
       "gaps": [
@@ -940,6 +971,16 @@
       "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
     },
     {
+      "page": "wiki/sources/akinkpelumi2025-niger-delta-food-crops-crude-oil.md",
+      "cite_key": "akinkpelumi2025-niger-delta-food-crops-crude-oil",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "evidence_fitness"
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
       "page": "wiki/sources/akinlolu2025-cadmium-neurotoxicity-moringa-musa.md",
       "cite_key": "akinlolu2025-cadmium-neurotoxicity-moringa-musa",
       "metadata_complete": false,
@@ -1027,6 +1068,16 @@
       "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
     },
     {
+      "page": "wiki/sources/al-hasan2026-silver-pomfret-bay-of-bengal-trace-elements.md",
+      "cite_key": "al-hasan2026-silver-pomfret-bay-of-bengal-trace-elements",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "evidence_fitness"
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
       "page": "wiki/sources/al-khayri2023-cd-medicinal-plants.md",
       "cite_key": "al-khayri2023-cd-medicinal-plants",
       "metadata_complete": false,
@@ -1078,6 +1129,16 @@
       "gaps": [
         "evidence_fitness",
         "raw_sha256"
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
+      "page": "wiki/sources/alaimo2023-palladium-platinum-boletus-mushroom-sicily.md",
+      "cite_key": "alaimo2023-palladium-platinum-boletus-mushroom-sicily",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "evidence_fitness"
       ],
       "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
     },
@@ -1250,6 +1311,16 @@
       "gaps": [
         "evidence_fitness",
         "raw_sha256"
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
+      "page": "wiki/sources/algoul2020-tin-canned-tuna-lebanon.md",
+      "cite_key": "algoul2020-tin-canned-tuna-lebanon",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "evidence_fitness"
       ],
       "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
     },
@@ -1454,6 +1525,18 @@
       "ingest_complete": false,
       "gaps": [
         "evidence_fitness"
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
+      "page": "wiki/sources/almashiova2023-goat-milk-whey-cheese-yogurt-slovakia.md",
+      "cite_key": "almashiova2023-goat-milk-whey-cheese-yogurt-slovakia",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "evidence_fitness",
+        "raw_sha256",
+        "raw_path"
       ],
       "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
     },
@@ -1817,6 +1900,16 @@
       "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
     },
     {
+      "page": "wiki/sources/amirgalina2026-livestock-semipalatinsk-kazakhstan.md",
+      "cite_key": "amirgalina2026-livestock-semipalatinsk-kazakhstan",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "evidence_fitness"
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
       "page": "wiki/sources/amjad2021-lahore-chocolates-metals.md",
       "cite_key": "amjad2021-lahore-chocolates-metals",
       "metadata_complete": false,
@@ -1851,6 +1944,16 @@
     {
       "page": "wiki/sources/amodio-cocchieri2000-farmed-fish-shellfish-alkyltins.md",
       "cite_key": "amodio-cocchieri2000-farmed-fish-shellfish-alkyltins",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "evidence_fitness"
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
+      "page": "wiki/sources/amponsah2026-ghana-melon-seeds-metals.md",
+      "cite_key": "amponsah2026-ghana-melon-seeds-metals",
       "metadata_complete": false,
       "ingest_complete": false,
       "gaps": [
@@ -2654,6 +2757,16 @@
       "gaps": [
         "evidence_fitness",
         "raw_sha256"
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
+      "page": "wiki/sources/auclair2025-pge-toxicity-hydra-vulgaris.md",
+      "cite_key": "auclair2025-pge-toxicity-hydra-vulgaris",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "evidence_fitness"
       ],
       "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
     },
@@ -8530,16 +8643,6 @@
       "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
     },
     {
-      "page": "wiki/sources/authors2025-identifying-studies-evaluating-susceptibility-factors-for-chemical.md",
-      "cite_key": "authors2025-identifying-studies-evaluating-susceptibility-factors-for-chemical",
-      "metadata_complete": false,
-      "ingest_complete": false,
-      "gaps": [
-        "evidence_fitness"
-      ],
-      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
-    },
-    {
       "page": "wiki/sources/authors2025-impact-of-long-term-exposure-to-arsenic.md",
       "cite_key": "authors2025-impact-of-long-term-exposure-to-arsenic",
       "metadata_complete": false,
@@ -11835,6 +11938,16 @@
       "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
     },
     {
+      "page": "wiki/sources/bliss2026-nigeria-fish-slaughterhouse-wastewater.md",
+      "cite_key": "bliss2026-nigeria-fish-slaughterhouse-wastewater",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "evidence_fitness"
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
       "page": "wiki/sources/blommaert2022-cd-cacao-translocation.md",
       "cite_key": "blommaert2022-cd-cacao-translocation",
       "metadata_complete": false,
@@ -11848,6 +11961,16 @@
     {
       "page": "wiki/sources/blunden2003-tin-canned-food-review.md",
       "cite_key": "blunden2003-tin-canned-food-review",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "evidence_fitness"
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
+      "page": "wiki/sources/bluteau2025-pge-biodynamics-freshwater.md",
+      "cite_key": "bluteau2025-pge-biodynamics-freshwater",
       "metadata_complete": false,
       "ingest_complete": false,
       "gaps": [
@@ -11932,6 +12055,16 @@
       "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
     },
     {
+      "page": "wiki/sources/bonefeld-jorgensen2024-arctic-contaminants-health.md",
+      "cite_key": "bonefeld-jorgensen2024-arctic-contaminants-health",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "evidence_fitness"
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
       "page": "wiki/sources/bonglaisin2022-geophagia-benefits-toxicity-review.md",
       "cite_key": "bonglaisin2022-geophagia-benefits-toxicity-review",
       "metadata_complete": false,
@@ -11995,6 +12128,16 @@
       "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
     },
     {
+      "page": "wiki/sources/bordignon2008-palladium-nickel-elispot-contact-dermatitis.md",
+      "cite_key": "bordignon2008-palladium-nickel-elispot-contact-dermatitis",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "evidence_fitness"
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
       "page": "wiki/sources/boreiko2020-antimony-pulmonary-review.md",
       "cite_key": "boreiko2020-antimony-pulmonary-review",
       "metadata_complete": false,
@@ -12049,8 +12192,29 @@
       "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
     },
     {
+      "page": "wiki/sources/boukhari2025-palladium-daphnia-chronic-toxicity.md",
+      "cite_key": "boukhari2025-palladium-daphnia-chronic-toxicity",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "evidence_fitness"
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
       "page": "wiki/sources/bousquet2024-lead-drinking-water-university.md",
       "cite_key": "bousquet2024-lead-drinking-water-university",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "evidence_fitness",
+        "raw_sha256"
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
+      "page": "wiki/sources/bozkurt2025-massachusetts-lead-monitoring-sensors.md",
+      "cite_key": "bozkurt2025-massachusetts-lead-monitoring-sensors",
       "metadata_complete": false,
       "ingest_complete": false,
       "gaps": [
@@ -12182,6 +12346,16 @@
     {
       "page": "wiki/sources/brizio2013-italian-food-supplements-metals.md",
       "cite_key": "brizio2013-italian-food-supplements-metals",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "evidence_fitness"
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
+      "page": "wiki/sources/brkic2026-cereals-pannonian-croatia-exposure.md",
+      "cite_key": "brkic2026-cereals-pannonian-croatia-exposure",
       "metadata_complete": false,
       "ingest_complete": false,
       "gaps": [
@@ -12890,6 +13064,16 @@
       "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
     },
     {
+      "page": "wiki/sources/carle2025-palladium-platinum-sediment-toxicity-benthic.md",
+      "cite_key": "carle2025-palladium-platinum-sediment-toxicity-benthic",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "evidence_fitness"
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
       "page": "wiki/sources/carlin2020-tampons-eyeshadows-chemistry.md",
       "cite_key": "carlin2020-tampons-eyeshadows-chemistry",
       "metadata_complete": false,
@@ -12929,6 +13113,16 @@
       "gaps": [
         "evidence_fitness",
         "raw_sha256"
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
+      "page": "wiki/sources/carvajal2026-ecuador-seafood-toxic-metals-dietary.md",
+      "cite_key": "carvajal2026-ecuador-seafood-toxic-metals-dietary",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "evidence_fitness"
       ],
       "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
     },
@@ -13307,6 +13501,16 @@
       "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
     },
     {
+      "page": "wiki/sources/chatzopoulou2022-palladium-impurities-drug-compounds.md",
+      "cite_key": "chatzopoulou2022-palladium-impurities-drug-compounds",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "evidence_fitness"
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
       "page": "wiki/sources/chaura2026-phaseolus-multiomics-ionomics.md",
       "cite_key": "chaura2026-phaseolus-multiomics-ionomics",
       "metadata_complete": false,
@@ -13357,6 +13561,16 @@
       "gaps": [
         "evidence_fitness",
         "raw_sha256"
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
+      "page": "wiki/sources/chen2017-ahirt1-nramp1-cadmium-peanut-iron.md",
+      "cite_key": "chen2017-ahirt1-nramp1-cadmium-peanut-iron",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "evidence_fitness"
       ],
       "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
     },
@@ -13522,8 +13736,30 @@
       "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
     },
     {
+      "page": "wiki/sources/chen2026-hypermagnesemia-bath-agent-hemodialysis.md",
+      "cite_key": "chen2026-hypermagnesemia-bath-agent-hemodialysis",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "evidence_fitness",
+        "raw_path"
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
       "page": "wiki/sources/cheng2023-cadmium-rice-cultivars-root-microbiome.md",
       "cite_key": "cheng2023-cadmium-rice-cultivars-root-microbiome",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "evidence_fitness",
+        "raw_sha256"
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
+      "page": "wiki/sources/cheng2026-heals-urinary-arsenic-speciation.md",
+      "cite_key": "cheng2026-heals-urinary-arsenic-speciation",
       "metadata_complete": false,
       "ingest_complete": false,
       "gaps": [
@@ -14970,6 +15206,17 @@
       "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
     },
     {
+      "page": "wiki/sources/decharat2020-thailand-school-water-lead.md",
+      "cite_key": "decharat2020-thailand-school-water-lead",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "evidence_fitness",
+        "raw_sha256"
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
       "page": "wiki/sources/decharat2023-lead-cadmium-drinking-water-thailand.md",
       "cite_key": "decharat2023-lead-cadmium-drinking-water-thailand",
       "metadata_complete": false,
@@ -15169,12 +15416,33 @@
       "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
     },
     {
+      "page": "wiki/sources/desimone2026-urinary-arsenic-speciation-hplc.md",
+      "cite_key": "desimone2026-urinary-arsenic-speciation-hplc",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "evidence_fitness",
+        "raw_sha256"
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
       "page": "wiki/sources/desouza2022-fruit-juice-trace-elements.md",
       "cite_key": "desouza2022-fruit-juice-trace-elements",
       "metadata_complete": false,
       "ingest_complete": false,
       "gaps": [
         "license",
+        "evidence_fitness"
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
+      "page": "wiki/sources/desouza2026-cadmium-makeup-brazil-mdspe.md",
+      "cite_key": "desouza2026-cadmium-makeup-brazil-mdspe",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
         "evidence_fitness"
       ],
       "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
@@ -15350,6 +15618,16 @@
       "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
     },
     {
+      "page": "wiki/sources/diong2016-pge-pm10-pm25-kolkata.md",
+      "cite_key": "diong2016-pge-pm10-pm25-kolkata",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "evidence_fitness"
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
       "page": "wiki/sources/disalvo2023-gourmet-table-salts-minerals.md",
       "cite_key": "disalvo2023-gourmet-table-salts-minerals",
       "metadata_complete": false,
@@ -15418,6 +15696,16 @@
     {
       "page": "wiki/sources/dobrzynska2025-milk-formulae-elemental-composition.md",
       "cite_key": "dobrzynska2025-milk-formulae-elemental-composition",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "evidence_fitness"
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
+      "page": "wiki/sources/dobrzynska2026-selenium-speciation-infant-formulae.md",
+      "cite_key": "dobrzynska2026-selenium-speciation-infant-formulae",
       "metadata_complete": false,
       "ingest_complete": false,
       "gaps": [
@@ -16163,6 +16451,16 @@
       "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
     },
     {
+      "page": "wiki/sources/efsa2018-stannous-chloride-e512.md",
+      "cite_key": "efsa2018-stannous-chloride-e512",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "evidence_fitness"
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
       "page": "wiki/sources/efsa2021-aluminium-food-qa.md",
       "cite_key": "efsa2021-aluminium-food-qa",
       "metadata_complete": false,
@@ -16611,6 +16909,26 @@
       "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
     },
     {
+      "page": "wiki/sources/ellakany2022-agpd-nicr-cytotoxicity-dental-alloys.md",
+      "cite_key": "ellakany2022-agpd-nicr-cytotoxicity-dental-alloys",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "evidence_fitness"
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
+      "page": "wiki/sources/ellakany2026-agpd-nicr-cytotoxicity-gingival-fibroblasts.md",
+      "cite_key": "ellakany2026-agpd-nicr-cytotoxicity-gingival-fibroblasts",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "evidence_fitness"
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
       "page": "wiki/sources/elliott1998-antimony-trioxide-genotoxicity.md",
       "cite_key": "elliott1998-antimony-trioxide-genotoxicity",
       "metadata_complete": false,
@@ -16960,6 +17278,16 @@
       "gaps": [
         "evidence_fitness",
         "raw_sha256"
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
+      "page": "wiki/sources/ermolin2022-platinum-palladium-road-dust-fractions.md",
+      "cite_key": "ermolin2022-platinum-palladium-road-dust-fractions",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "evidence_fitness"
       ],
       "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
     },
@@ -17438,6 +17766,16 @@
       "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
     },
     {
+      "page": "wiki/sources/falade2026-nigeria-ginger-aflatoxins-heavy-metals.md",
+      "cite_key": "falade2026-nigeria-ginger-aflatoxins-heavy-metals",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "evidence_fitness"
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
       "page": "wiki/sources/falandysz2020-yunnan-fungi-mercury.md",
       "cite_key": "falandysz2020-yunnan-fungi-mercury",
       "metadata_complete": false,
@@ -17608,6 +17946,29 @@
       "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
     },
     {
+      "page": "wiki/sources/farruggia2025-arsenic-water-food-toxicity-review.md",
+      "cite_key": "farruggia2025-arsenic-water-food-toxicity-review",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "evidence_fitness",
+        "raw_sha256"
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
+      "page": "wiki/sources/faryad2026-chromium-stress-trehalose-pea.md",
+      "cite_key": "faryad2026-chromium-stress-trehalose-pea",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "evidence_fitness",
+        "raw_sha256",
+        "raw_path"
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
       "page": "wiki/sources/farzan2021-hispanic-urinary-arsenic.md",
       "cite_key": "farzan2021-hispanic-urinary-arsenic",
       "metadata_complete": false,
@@ -17632,6 +17993,16 @@
     {
       "page": "wiki/sources/fatai2024-african-spinach-tomato-nigeria.md",
       "cite_key": "fatai2024-african-spinach-tomato-nigeria",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "evidence_fitness"
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
+      "page": "wiki/sources/fathi2025-ruminant-tissues-lorestan-monte-carlo.md",
+      "cite_key": "fathi2025-ruminant-tissues-lorestan-monte-carlo",
       "metadata_complete": false,
       "ingest_complete": false,
       "gaps": [
@@ -18076,6 +18447,17 @@
       "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
     },
     {
+      "page": "wiki/sources/feric2026-maternal-arsenic-birth-outcomes-cohorts.md",
+      "cite_key": "feric2026-maternal-arsenic-birth-outcomes-cohorts",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "evidence_fitness",
+        "raw_sha256"
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
       "page": "wiki/sources/feszterova2025-herbal-tea-risk-elements.md",
       "cite_key": "feszterova2025-herbal-tea-risk-elements",
       "metadata_complete": false,
@@ -18266,6 +18648,16 @@
       "gaps": [
         "evidence_fitness",
         "access_url"
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
+      "page": "wiki/sources/freeman2026-systemic-nickel-allergy-syndrome.md",
+      "cite_key": "freeman2026-systemic-nickel-allergy-syndrome",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "evidence_fitness"
       ],
       "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
     },
@@ -18488,6 +18880,16 @@
       "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
     },
     {
+      "page": "wiki/sources/fujii2017-palladium-nickel-dermatitis-dental.md",
+      "cite_key": "fujii2017-palladium-nickel-dermatitis-dental",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "evidence_fitness"
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
       "page": "wiki/sources/gacal2023-cadmium-lead-bread-gluten-free-poland.md",
       "cite_key": "gacal2023-cadmium-lead-bread-gluten-free-poland",
       "metadata_complete": false,
@@ -18560,6 +18962,18 @@
       "gaps": [
         "evidence_fitness",
         "raw_sha256"
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
+      "page": "wiki/sources/gajewska2023-dietary-supplements-metals-poland.md",
+      "cite_key": "gajewska2023-dietary-supplements-metals-poland",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "evidence_fitness",
+        "raw_sha256",
+        "raw_path"
       ],
       "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
     },
@@ -18854,6 +19268,17 @@
       "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
     },
     {
+      "page": "wiki/sources/geiger2021-illinois-private-wells-lead.md",
+      "cite_key": "geiger2021-illinois-private-wells-lead",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "evidence_fitness",
+        "raw_sha256"
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
       "page": "wiki/sources/gekpe2023-cadmium-quercetin-omega3-rats.md",
       "cite_key": "gekpe2023-cadmium-quercetin-omega3-rats",
       "metadata_complete": false,
@@ -19063,6 +19488,16 @@
     {
       "page": "wiki/sources/godwill2015-soft-drinks-metals-nigeria.md",
       "cite_key": "godwill2015-soft-drinks-metals-nigeria",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "evidence_fitness"
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
+      "page": "wiki/sources/gokcen2026-pentraxin3-metals-acs.md",
+      "cite_key": "gokcen2026-pentraxin3-metals-acs",
       "metadata_complete": false,
       "ingest_complete": false,
       "gaps": [
@@ -19773,6 +20208,17 @@
       "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
     },
     {
+      "page": "wiki/sources/hadj-sadok2022-uk-tap-water-minerals-kidney-stone.md",
+      "cite_key": "hadj-sadok2022-uk-tap-water-minerals-kidney-stone",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "evidence_fitness",
+        "raw_path"
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
       "page": "wiki/sources/haft2022-methylmercury-biosynthesis.md",
       "cite_key": "haft2022-methylmercury-biosynthesis",
       "metadata_complete": false,
@@ -20211,6 +20657,18 @@
       "gaps": [
         "evidence_fitness",
         "raw_sha256"
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
+      "page": "wiki/sources/hashmat2026-acinetobacter-cadmium-pea.md",
+      "cite_key": "hashmat2026-acinetobacter-cadmium-pea",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "evidence_fitness",
+        "raw_sha256",
+        "raw_path"
       ],
       "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
     },
@@ -20724,6 +21182,28 @@
       "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
     },
     {
+      "page": "wiki/sources/hood2025-orthophosphate-silicate-lead-corrosion.md",
+      "cite_key": "hood2025-orthophosphate-silicate-lead-corrosion",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "evidence_fitness",
+        "raw_sha256"
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
+      "page": "wiki/sources/hood2026-granular-activated-carbon-lead.md",
+      "cite_key": "hood2026-granular-activated-carbon-lead",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "evidence_fitness",
+        "raw_sha256"
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
       "page": "wiki/sources/hopfer2017-whiskey-elemental-profiles-type-region.md",
       "cite_key": "hopfer2017-whiskey-elemental-profiles-type-region",
       "metadata_complete": false,
@@ -20840,6 +21320,16 @@
       "gaps": [
         "evidence_fitness",
         "raw_sha256"
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
+      "page": "wiki/sources/hossen2026-bangladesh-vegetables-noakhali-metals.md",
+      "cite_key": "hossen2026-bangladesh-vegetables-noakhali-metals",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "evidence_fitness"
       ],
       "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
     },
@@ -21101,6 +21591,16 @@
       "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
     },
     {
+      "page": "wiki/sources/huang2020-monomethyltin-toys-gastric-juice.md",
+      "cite_key": "huang2020-monomethyltin-toys-gastric-juice",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "evidence_fitness"
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
       "page": "wiki/sources/huang2022-pb-cd-rice-china-meta.md",
       "cite_key": "huang2022-pb-cd-rice-china-meta",
       "metadata_complete": false,
@@ -21141,6 +21641,16 @@
       "gaps": [
         "evidence_fitness",
         "raw_sha256"
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
+      "page": "wiki/sources/huang2026-mercury-lgi1-caspr2-encephalitis.md",
+      "cite_key": "huang2026-mercury-lgi1-caspr2-encephalitis",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "evidence_fitness"
       ],
       "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
     },
@@ -21349,6 +21859,17 @@
     {
       "page": "wiki/sources/ibrahim2024-heavy-metals-egyptian-milk-cheese.md",
       "cite_key": "ibrahim2024-heavy-metals-egyptian-milk-cheese",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "evidence_fitness",
+        "raw_sha256"
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
+      "page": "wiki/sources/ibrahim2024-shrimp-prawn-brunei-arsenic.md",
+      "cite_key": "ibrahim2024-shrimp-prawn-brunei-arsenic",
       "metadata_complete": false,
       "ingest_complete": false,
       "gaps": [
@@ -22341,6 +22862,17 @@
       "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
     },
     {
+      "page": "wiki/sources/jensen2024-fish-bone-minerals-bioaccessibility.md",
+      "cite_key": "jensen2024-fish-bone-minerals-bioaccessibility",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "evidence_fitness",
+        "raw_path"
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
       "page": "wiki/sources/jermilova2025-mackenzie-mercury-fish-bayesian.md",
       "cite_key": "jermilova2025-mackenzie-mercury-fish-bayesian",
       "metadata_complete": false,
@@ -22495,6 +23027,16 @@
       "gaps": [
         "evidence_fitness",
         "raw_sha256"
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
+      "page": "wiki/sources/johnson1975-platinum-palladium-lead-southern-california.md",
+      "cite_key": "johnson1975-platinum-palladium-lead-southern-california",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "evidence_fitness"
       ],
       "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
     },
@@ -22691,6 +23233,16 @@
       "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
     },
     {
+      "page": "wiki/sources/kadi2020-pge-pm10-jeddah.md",
+      "cite_key": "kadi2020-pge-pm10-jeddah",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "evidence_fitness"
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
       "page": "wiki/sources/kagawa2023-fish-arsenic-hypertension-japan.md",
       "cite_key": "kagawa2023-fish-arsenic-hypertension-japan",
       "metadata_complete": false,
@@ -22790,6 +23342,16 @@
       "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
     },
     {
+      "page": "wiki/sources/kapp2020-palladium-nickel-lymphocyte-test.md",
+      "cite_key": "kapp2020-palladium-nickel-lymphocyte-test",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "evidence_fitness"
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
       "page": "wiki/sources/karatasli2018-radionuclide-heavy-metal-turkey-olives.md",
       "cite_key": "karatasli2018-radionuclide-heavy-metal-turkey-olives",
       "metadata_complete": false,
@@ -22879,6 +23441,17 @@
     {
       "page": "wiki/sources/katebe2024-vegetables-lubumbashi.md",
       "cite_key": "katebe2024-vegetables-lubumbashi",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "evidence_fitness",
+        "raw_sha256"
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
+      "page": "wiki/sources/katner2018-flush-guidelines-lead-tap-water.md",
+      "cite_key": "katner2018-flush-guidelines-lead-tap-water",
       "metadata_complete": false,
       "ingest_complete": false,
       "gaps": [
@@ -23079,6 +23652,19 @@
       "gaps": [
         "evidence_fitness",
         "raw_sha256"
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
+      "page": "wiki/sources/khalili2017-iran-sports-supplements-lead-cadmium-mercury.md",
+      "cite_key": "khalili2017-iran-sports-supplements-lead-cadmium-mercury",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "evidence_fitness",
+        "access_url",
+        "raw_sha256",
+        "raw_path"
       ],
       "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
     },
@@ -23472,6 +24058,16 @@
       "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
     },
     {
+      "page": "wiki/sources/kiyanda2026-metals-uterine-fibroids-tobago.md",
+      "cite_key": "kiyanda2026-metals-uterine-fibroids-tobago",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "evidence_fitness"
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
       "page": "wiki/sources/kjolholt2015-car-safety-seats-childrens-textiles.md",
       "cite_key": "kjolholt2015-car-safety-seats-childrens-textiles",
       "metadata_complete": false,
@@ -23501,6 +24097,17 @@
       "gaps": [
         "evidence_fitness",
         "raw_sha256"
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
+      "page": "wiki/sources/klepacka2020-buckwheat-magnesium-bioaccessibility.md",
+      "cite_key": "klepacka2020-buckwheat-magnesium-bioaccessibility",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "evidence_fitness",
+        "raw_path"
       ],
       "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
     },
@@ -23888,6 +24495,16 @@
       "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
     },
     {
+      "page": "wiki/sources/kowalska2025-platinum-nanoparticle-soil-transformation.md",
+      "cite_key": "kowalska2025-platinum-nanoparticle-soil-transformation",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "evidence_fitness"
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
       "page": "wiki/sources/kowalski2024-herbal-tea-heavy-metals.md",
       "cite_key": "kowalski2024-herbal-tea-heavy-metals",
       "metadata_complete": false,
@@ -24126,6 +24743,26 @@
       "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
     },
     {
+      "page": "wiki/sources/lai2026-platinum-accumulation-chemotherapy-toxicity.md",
+      "cite_key": "lai2026-platinum-accumulation-chemotherapy-toxicity",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "evidence_fitness"
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
+      "page": "wiki/sources/lai2026-selenium-hyperuricemia-metal-mixtures.md",
+      "cite_key": "lai2026-selenium-hyperuricemia-metal-mixtures",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "evidence_fitness"
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
       "page": "wiki/sources/laizu2007-dhaka-vegetables-arsenic-speciation.md",
       "cite_key": "laizu2007-dhaka-vegetables-arsenic-speciation",
       "metadata_complete": false,
@@ -24180,6 +24817,16 @@
       "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
     },
     {
+      "page": "wiki/sources/lanza2026-botanical-extracts-italy-risk-benefit.md",
+      "cite_key": "lanza2026-botanical-extracts-italy-risk-benefit",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "evidence_fitness"
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
       "page": "wiki/sources/laoye2024-fish-fruits-veg-heavy-metals-nigeria-review.md",
       "cite_key": "laoye2024-fish-fruits-veg-heavy-metals-nigeria-review",
       "metadata_complete": false,
@@ -24187,6 +24834,16 @@
       "gaps": [
         "evidence_fitness",
         "raw_sha256"
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
+      "page": "wiki/sources/laoye2025-nigeria-heavy-metal-sources-health-review.md",
+      "cite_key": "laoye2025-nigeria-heavy-metal-sources-health-review",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "evidence_fitness"
       ],
       "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
     },
@@ -24261,6 +24918,16 @@
       "gaps": [
         "evidence_fitness",
         "raw_sha256"
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
+      "page": "wiki/sources/latif2026-preterm-breastmilk-formula-mineral-profiling.md",
+      "cite_key": "latif2026-preterm-breastmilk-formula-mineral-profiling",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "evidence_fitness"
       ],
       "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
     },
@@ -24450,6 +25117,17 @@
       "ingest_complete": false,
       "gaps": [
         "evidence_fitness"
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
+      "page": "wiki/sources/lehel2026-seabass-hungary-toxic-elements.md",
+      "cite_key": "lehel2026-seabass-hungary-toxic-elements",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "evidence_fitness",
+        "raw_sha256"
       ],
       "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
     },
@@ -24845,6 +25523,26 @@
       "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
     },
     {
+      "page": "wiki/sources/li2026-cadmium-rice-nanning-dietary-risk.md",
+      "cite_key": "li2026-cadmium-rice-nanning-dietary-risk",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "evidence_fitness"
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
+      "page": "wiki/sources/li2026-crvi-macrophage-polarization.md",
+      "cite_key": "li2026-crvi-macrophage-polarization",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "evidence_fitness"
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
       "page": "wiki/sources/li2026-heavy-metals-chinese-chicken-eggs-urban-mining.md",
       "cite_key": "li2026-heavy-metals-chinese-chicken-eggs-urban-mining",
       "metadata_complete": false,
@@ -24852,6 +25550,36 @@
       "gaps": [
         "evidence_fitness",
         "raw_sha256"
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
+      "page": "wiki/sources/li2026-metal-mixtures-hypertension-ckd-nhanes.md",
+      "cite_key": "li2026-metal-mixtures-hypertension-ckd-nhanes",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "evidence_fitness"
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
+      "page": "wiki/sources/li2026-nanning-rice-heavy-metals-dietary-risk.md",
+      "cite_key": "li2026-nanning-rice-heavy-metals-dietary-risk",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "evidence_fitness"
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
+      "page": "wiki/sources/li2026-yunnan-heavy-metal-intestinal-defenses.md",
+      "cite_key": "li2026-yunnan-heavy-metal-intestinal-defenses",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "evidence_fitness"
       ],
       "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
     },
@@ -25025,6 +25753,27 @@
       "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
     },
     {
+      "page": "wiki/sources/linauskiene2017-metal-contact-sensitizers-lithuania.md",
+      "cite_key": "linauskiene2017-metal-contact-sensitizers-lithuania",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "evidence_fitness"
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
+      "page": "wiki/sources/lisciani2025-vegetables-mineral-cooking-retention.md",
+      "cite_key": "lisciani2025-vegetables-mineral-cooking-retention",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "evidence_fitness",
+        "raw_path"
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
       "page": "wiki/sources/litrenta2025-ready-to-eat-fish-meat-elements.md",
       "cite_key": "litrenta2025-ready-to-eat-fish-meat-elements",
       "metadata_complete": false,
@@ -25191,6 +25940,16 @@
     {
       "page": "wiki/sources/liu2025-mercury-poisoning-associated-membranous.md",
       "cite_key": "liu2025-mercury-poisoning-associated-membranous",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "evidence_fitness"
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
+      "page": "wiki/sources/liu2025-metal-mixtures-overactive-bladder-nhanes.md",
+      "cite_key": "liu2025-metal-mixtures-overactive-bladder-nhanes",
       "metadata_complete": false,
       "ingest_complete": false,
       "gaps": [
@@ -25657,6 +26416,16 @@
       "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
     },
     {
+      "page": "wiki/sources/ma2026-pollutants-gut-microbiota-systemic-disease.md",
+      "cite_key": "ma2026-pollutants-gut-microbiota-systemic-disease",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "evidence_fitness"
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
       "page": "wiki/sources/maccaferri2019-durum-wheat-genome-cadmium.md",
       "cite_key": "maccaferri2019-durum-wheat-genome-cadmium",
       "metadata_complete": false,
@@ -25695,6 +26464,16 @@
       "gaps": [
         "evidence_fitness",
         "raw_sha256"
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
+      "page": "wiki/sources/macpherson2026-chemical-mixtures-birth-weight-mirec.md",
+      "cite_key": "macpherson2026-chemical-mixtures-birth-weight-mirec",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "evidence_fitness"
       ],
       "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
     },
@@ -25968,6 +26747,16 @@
       "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
     },
     {
+      "page": "wiki/sources/makroum2026-marine-fish-damietta-cooking-effects.md",
+      "cite_key": "makroum2026-marine-fish-damietta-cooking-effects",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "evidence_fitness"
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
       "page": "wiki/sources/mallampati2021-cannabis-vape-aerosol-metals.md",
       "cite_key": "mallampati2021-cannabis-vape-aerosol-metals",
       "metadata_complete": false,
@@ -26115,6 +26904,17 @@
       "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
     },
     {
+      "page": "wiki/sources/mantha2020-flint-water-lead-reduction.md",
+      "cite_key": "mantha2020-flint-water-lead-reduction",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "evidence_fitness",
+        "raw_sha256"
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
       "page": "wiki/sources/manuscript2018-remediation-of-manufactured-methamphetamine-in-clandestine.md",
       "cite_key": "manuscript2018-remediation-of-manufactured-methamphetamine-in-clandestine",
       "metadata_complete": false,
@@ -26172,6 +26972,17 @@
       "ingest_complete": false,
       "gaps": [
         "evidence_fitness"
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
+      "page": "wiki/sources/maraver2015-magnesium-tap-bottled-water-spain.md",
+      "cite_key": "maraver2015-magnesium-tap-bottled-water-spain",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "evidence_fitness",
+        "raw_path"
       ],
       "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
     },
@@ -26272,6 +27083,30 @@
       "gaps": [
         "evidence_fitness",
         "raw_sha256"
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
+      "page": "wiki/sources/markiewicz-zukowska2022-nuts-magnesium-mineral-content.md",
+      "cite_key": "markiewicz-zukowska2022-nuts-magnesium-mineral-content",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "evidence_fitness",
+        "raw_path"
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
+      "page": "wiki/sources/markovic2020-dietary-supplements-metals-republika-srpska.md",
+      "cite_key": "markovic2020-dietary-supplements-metals-republika-srpska",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "license",
+        "evidence_fitness",
+        "raw_sha256",
+        "raw_path"
       ],
       "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
     },
@@ -26511,6 +27346,16 @@
       "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
     },
     {
+      "page": "wiki/sources/matsubara2017-palladium-allergy-fexofenadine-mouse.md",
+      "cite_key": "matsubara2017-palladium-allergy-fexofenadine-mouse",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "evidence_fitness"
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
       "page": "wiki/sources/matsumoto-tanibuchi2019-seaweed-seafood-ias.md",
       "cite_key": "matsumoto-tanibuchi2019-seaweed-seafood-ias",
       "metadata_complete": false,
@@ -26582,6 +27427,17 @@
       "ingest_complete": false,
       "gaps": [
         "evidence_fitness"
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
+      "page": "wiki/sources/mazzola2024-chlorine-lead-solder-corrosion.md",
+      "cite_key": "mazzola2024-chlorine-lead-solder-corrosion",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "evidence_fitness",
+        "raw_sha256"
       ],
       "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
     },
@@ -26919,6 +27775,18 @@
       "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
     },
     {
+      "page": "wiki/sources/mesci2025-nickel-lead-stress-genes-forage-pea.md",
+      "cite_key": "mesci2025-nickel-lead-stress-genes-forage-pea",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "evidence_fitness",
+        "raw_sha256",
+        "raw_path"
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
       "page": "wiki/sources/mesinger2021-red-deer-heavy-metals.md",
       "cite_key": "mesinger2021-red-deer-heavy-metals",
       "metadata_complete": false,
@@ -26994,6 +27862,28 @@
       "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
     },
     {
+      "page": "wiki/sources/mgbemena2026-baby-milk-infant-formula-nigeria.md",
+      "cite_key": "mgbemena2026-baby-milk-infant-formula-nigeria",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "evidence_fitness",
+        "raw_sha256",
+        "raw_path"
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
+      "page": "wiki/sources/mgbemena2026-nigeria-baby-milk-infant-formula-heavy-metals.md",
+      "cite_key": "mgbemena2026-nigeria-baby-milk-infant-formula-heavy-metals",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "evidence_fitness"
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
       "page": "wiki/sources/mhlw2007-milk-products-standards.md",
       "cite_key": "mhlw2007-milk-products-standards",
       "metadata_complete": false,
@@ -27037,6 +27927,17 @@
       "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
     },
     {
+      "page": "wiki/sources/mihai2025-volcanic-ash-phaseolus-heavy-metals.md",
+      "cite_key": "mihai2025-volcanic-ash-phaseolus-heavy-metals",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "evidence_fitness",
+        "raw_sha256"
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
       "page": "wiki/sources/mihoc2012-romanian-hemp-seeds-metals.md",
       "cite_key": "mihoc2012-romanian-hemp-seeds-metals",
       "metadata_complete": false,
@@ -27066,6 +27967,16 @@
         "license",
         "evidence_fitness",
         "raw_sha256"
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
+      "page": "wiki/sources/milheiro2015-palladium-dental-alloy-corrosion.md",
+      "cite_key": "milheiro2015-palladium-dental-alloy-corrosion",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "evidence_fitness"
       ],
       "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
     },
@@ -27220,6 +28131,16 @@
       "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
     },
     {
+      "page": "wiki/sources/mitu2026-metal-mixtures-neurodegeneration-review.md",
+      "cite_key": "mitu2026-metal-mixtures-neurodegeneration-review",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "evidence_fitness"
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
       "page": "wiki/sources/mleczek2016-mushroom-arsenic-substrate.md",
       "cite_key": "mleczek2016-mushroom-arsenic-substrate",
       "metadata_complete": false,
@@ -27293,6 +28214,16 @@
       "gaps": [
         "evidence_fitness",
         "raw_sha256"
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
+      "page": "wiki/sources/mohamed2026-hair-dyes-sudan-heavy-metals.md",
+      "cite_key": "mohamed2026-hair-dyes-sudan-heavy-metals",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "evidence_fitness"
       ],
       "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
     },
@@ -27453,6 +28384,16 @@
       "gaps": [
         "evidence_fitness",
         "raw_sha256"
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
+      "page": "wiki/sources/moore1975-palladium-platinum-toxicity-metabolism.md",
+      "cite_key": "moore1975-palladium-platinum-toxicity-metabolism",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "evidence_fitness"
       ],
       "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
     },
@@ -27911,6 +28852,17 @@
       "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
     },
     {
+      "page": "wiki/sources/murphy1993-school-drinking-water-flushing-lead.md",
+      "cite_key": "murphy1993-school-drinking-water-flushing-lead",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "evidence_fitness",
+        "raw_sha256"
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
       "page": "wiki/sources/murtaza2025-biochar-selenium-barley-lead.md",
       "cite_key": "murtaza2025-biochar-selenium-barley-lead",
       "metadata_complete": false,
@@ -28233,6 +29185,16 @@
       "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
     },
     {
+      "page": "wiki/sources/nasu2023-palladium-contact-mucositis-mouse.md",
+      "cite_key": "nasu2023-palladium-contact-mucositis-mouse",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "evidence_fitness"
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
       "page": "wiki/sources/nava2022-italy-light-cannabis-metals.md",
       "cite_key": "nava2022-italy-light-cannabis-metals",
       "metadata_complete": false,
@@ -28267,6 +29229,17 @@
     {
       "page": "wiki/sources/nawaz2019-wastewater-manganese-spinach.md",
       "cite_key": "nawaz2019-wastewater-manganese-spinach",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "evidence_fitness",
+        "raw_sha256"
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
+      "page": "wiki/sources/nawrocka2026-arsenic-speciation-hplc-icpms-food.md",
+      "cite_key": "nawrocka2026-arsenic-speciation-hplc-icpms-food",
       "metadata_complete": false,
       "ingest_complete": false,
       "gaps": [
@@ -28648,6 +29621,16 @@
       "gaps": [
         "evidence_fitness",
         "raw_sha256"
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
+      "page": "wiki/sources/nischkauer2015-palladium-platinum-road-dust-icp-ms.md",
+      "cite_key": "nischkauer2015-palladium-platinum-road-dust-icp-ms",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "evidence_fitness"
       ],
       "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
     },
@@ -29095,8 +30078,8 @@
       "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
     },
     {
-      "page": "wiki/sources/oconnor2026-bioavailability-of-and-us-infant-exposure-to-arsenic.md",
-      "cite_key": "oconnor2026-bioavailability-of-and-us-infant-exposure-to-arsenic",
+      "page": "wiki/sources/oconnor2026-us-infant-exposure-hm-hm-if-systematic-reviews.md",
+      "cite_key": "oconnor2026-us-infant-exposure-hm-hm-if-systematic-reviews",
       "metadata_complete": false,
       "ingest_complete": false,
       "gaps": [
@@ -29778,6 +30761,16 @@
       "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
     },
     {
+      "page": "wiki/sources/orecchio2019-platinum-rhodium-potato-voltammetric.md",
+      "cite_key": "orecchio2019-platinum-rhodium-potato-voltammetric",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "evidence_fitness"
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
       "page": "wiki/sources/orisakwe2012-owerri-food-crops-fruits-metals.md",
       "cite_key": "orisakwe2012-owerri-food-crops-fruits-metals",
       "metadata_complete": false,
@@ -30116,6 +31109,16 @@
       "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
     },
     {
+      "page": "wiki/sources/oztas2024-lead-lipsticks-turkey-children-risk.md",
+      "cite_key": "oztas2024-lead-lipsticks-turkey-children-risk",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "evidence_fitness"
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
       "page": "wiki/sources/ozturk2023-kirsehir-infant-formula-elements.md",
       "cite_key": "ozturk2023-kirsehir-infant-formula-elements",
       "metadata_complete": false,
@@ -30252,6 +31255,16 @@
       "gaps": [
         "evidence_fitness",
         "raw_sha256"
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
+      "page": "wiki/sources/palazzo2026-polymorphisms-toxic-elements.md",
+      "cite_key": "palazzo2026-polymorphisms-toxic-elements",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "evidence_fitness"
       ],
       "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
     },
@@ -30681,6 +31694,26 @@
       "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
     },
     {
+      "page": "wiki/sources/pena-fernandez2026-rare-earth-technology-metals-paediatric-hair.md",
+      "cite_key": "pena-fernandez2026-rare-earth-technology-metals-paediatric-hair",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "evidence_fitness"
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
+      "page": "wiki/sources/pena-fernandez2026-ultratrace-osmium-wild-mushrooms.md",
+      "cite_key": "pena-fernandez2026-ultratrace-osmium-wild-mushrooms",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "evidence_fitness"
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
       "page": "wiki/sources/peng2023-al-fluoride-tea-stress.md",
       "cite_key": "peng2023-al-fluoride-tea-stress",
       "metadata_complete": false,
@@ -30713,6 +31746,17 @@
     {
       "page": "wiki/sources/perez-carrera2016-cordoba-raw-milk-trace-elements.md",
       "cite_key": "perez-carrera2016-cordoba-raw-milk-trace-elements",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "evidence_fitness",
+        "raw_sha256"
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
+      "page": "wiki/sources/perez2026-taal-volcano-arsenic-risk-philippines.md",
+      "cite_key": "perez2026-taal-volcano-arsenic-risk-philippines",
       "metadata_complete": false,
       "ingest_complete": false,
       "gaps": [
@@ -30848,6 +31892,16 @@
       "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
     },
     {
+      "page": "wiki/sources/pilakouta2024-xrf-calibration-lipsticks.md",
+      "cite_key": "pilakouta2024-xrf-calibration-lipsticks",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "evidence_fitness"
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
       "page": "wiki/sources/pillay2018-uae-breakfast-cereals-metals.md",
       "cite_key": "pillay2018-uae-breakfast-cereals-metals",
       "metadata_complete": false,
@@ -30855,6 +31909,16 @@
       "gaps": [
         "evidence_fitness",
         "raw_sha256"
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
+      "page": "wiki/sources/pilli2024-yellow-gypsum-arsenic-groundnut-rice.md",
+      "cite_key": "pilli2024-yellow-gypsum-arsenic-groundnut-rice",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "evidence_fitness"
       ],
       "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
     },
@@ -31314,6 +32378,16 @@
       "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
     },
     {
+      "page": "wiki/sources/qiu2026-metals-dyslipidemia-rural-china.md",
+      "cite_key": "qiu2026-metals-dyslipidemia-rural-china",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "evidence_fitness"
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
       "page": "wiki/sources/qu2022-lead-cadmium-drinking-water-soil-china.md",
       "cite_key": "qu2022-lead-cadmium-drinking-water-soil-china",
       "metadata_complete": false,
@@ -31351,6 +32425,17 @@
       "ingest_complete": false,
       "gaps": [
         "evidence_fitness"
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
+      "page": "wiki/sources/ra2024-buildings-stagnation-water-lead.md",
+      "cite_key": "ra2024-buildings-stagnation-water-lead",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "evidence_fitness",
+        "raw_sha256"
       ],
       "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
     },
@@ -31559,6 +32644,17 @@
       "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
     },
     {
+      "page": "wiki/sources/ramadhani2025-indonesian-rice-ptes-health-risk.md",
+      "cite_key": "ramadhani2025-indonesian-rice-ptes-health-risk",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "evidence_fitness",
+        "raw_sha256"
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
       "page": "wiki/sources/ramly2023-arsenic-drinking-water-malaysia.md",
       "cite_key": "ramly2023-arsenic-drinking-water-malaysia",
       "metadata_complete": false,
@@ -31701,6 +32797,16 @@
       "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
     },
     {
+      "page": "wiki/sources/ray2026-fish-nagapattinam-organ-bioaccumulation.md",
+      "cite_key": "ray2026-fish-nagapattinam-organ-bioaccumulation",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "evidence_fitness"
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
       "page": "wiki/sources/razanov2019-poultry-silicon-mineral-heavy-metals.md",
       "cite_key": "razanov2019-poultry-silicon-mineral-heavy-metals",
       "metadata_complete": false,
@@ -31788,6 +32894,16 @@
     {
       "page": "wiki/sources/redan2023-plant-milk-alternatives-elements.md",
       "cite_key": "redan2023-plant-milk-alternatives-elements",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "evidence_fitness"
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
+      "page": "wiki/sources/reddy2025-immune-epigenetic-pollutants.md",
+      "cite_key": "reddy2025-immune-epigenetic-pollutants",
       "metadata_complete": false,
       "ingest_complete": false,
       "gaps": [
@@ -32095,6 +33211,16 @@
       "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
     },
     {
+      "page": "wiki/sources/rodriguez-carmona2026-metals-dii-inflammatory-biomarkers.md",
+      "cite_key": "rodriguez-carmona2026-metals-dii-inflammatory-biomarkers",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "evidence_fitness"
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
       "page": "wiki/sources/rodriguez-mendivil2019-heavy-metals-canned-tuna-tijuana.md",
       "cite_key": "rodriguez-mendivil2019-heavy-metals-canned-tuna-tijuana",
       "metadata_complete": false,
@@ -32227,6 +33353,16 @@
       "gaps": [
         "evidence_fitness",
         "raw_sha256"
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
+      "page": "wiki/sources/roncevic2012-tin-canned-fruits-vegetables.md",
+      "cite_key": "roncevic2012-tin-canned-fruits-vegetables",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "evidence_fitness"
       ],
       "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
     },
@@ -32404,6 +33540,17 @@
       "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
     },
     {
+      "page": "wiki/sources/rukin2022-australian-tap-bottled-water-minerals.md",
+      "cite_key": "rukin2022-australian-tap-bottled-water-minerals",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "evidence_fitness",
+        "raw_path"
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
       "page": "wiki/sources/rukondo2024-tanzania-geophagic-soils-metals.md",
       "cite_key": "rukondo2024-tanzania-geophagic-soils-metals",
       "metadata_complete": false,
@@ -32530,6 +33677,16 @@
       "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
     },
     {
+      "page": "wiki/sources/rybka2026-natural-cosmetics-contaminants-poland.md",
+      "cite_key": "rybka2026-natural-cosmetics-contaminants-poland",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "evidence_fitness"
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
       "page": "wiki/sources/rylander2025-georgia-children-blood-lead.md",
       "cite_key": "rylander2025-georgia-children-blood-lead",
       "metadata_complete": false,
@@ -32537,6 +33694,16 @@
       "gaps": [
         "evidence_fitness",
         "raw_sha256"
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
+      "page": "wiki/sources/saah2024-lipstick-heavy-metals-ghana.md",
+      "cite_key": "saah2024-lipstick-heavy-metals-ghana",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "evidence_fitness"
       ],
       "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
     },
@@ -32668,6 +33835,16 @@
       "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
     },
     {
+      "page": "wiki/sources/sadrolvaezin2023-palladium-platinum-titanium-contact-dermatitis-review.md",
+      "cite_key": "sadrolvaezin2023-palladium-platinum-titanium-contact-dermatitis-review",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "evidence_fitness"
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
       "page": "wiki/sources/saei-dehkordi2012-pb-cd-cu-zn-iranian-vinegars.md",
       "cite_key": "saei-dehkordi2012-pb-cd-cu-zn-iranian-vinegars",
       "metadata_complete": false,
@@ -32739,6 +33916,26 @@
       "gaps": [
         "evidence_fitness",
         "access_url"
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
+      "page": "wiki/sources/sajkowska2024-palladium-platinum-microplastics-sorption.md",
+      "cite_key": "sajkowska2024-palladium-platinum-microplastics-sorption",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "evidence_fitness"
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
+      "page": "wiki/sources/salahel-din2025-egypt-common-foods-heavy-metals.md",
+      "cite_key": "salahel-din2025-egypt-common-foods-heavy-metals",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "evidence_fitness"
       ],
       "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
     },
@@ -32946,8 +34143,29 @@
       "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
     },
     {
+      "page": "wiki/sources/salwen2026-tregs-ifngamma-mercury-autoimmunity.md",
+      "cite_key": "salwen2026-tregs-ifngamma-mercury-autoimmunity",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "evidence_fitness"
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
       "page": "wiki/sources/samarasiri2026-urban-mushroom-farming-safety.md",
       "cite_key": "samarasiri2026-urban-mushroom-farming-safety",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "evidence_fitness",
+        "raw_sha256"
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
+      "page": "wiki/sources/samet2026-brassicaceae-cadmium-partitioning.md",
+      "cite_key": "samet2026-brassicaceae-cadmium-partitioning",
       "metadata_complete": false,
       "ingest_complete": false,
       "gaps": [
@@ -33291,6 +34509,26 @@
       "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
     },
     {
+      "page": "wiki/sources/savici2026-crvi-pancreas-hypericum.md",
+      "cite_key": "savici2026-crvi-pancreas-hypericum",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "evidence_fitness"
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
+      "page": "wiki/sources/savici2026-crvi-sperm-multigenerational.md",
+      "cite_key": "savici2026-crvi-sperm-multigenerational",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "evidence_fitness"
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
       "page": "wiki/sources/sawadogo2023-burkina-faso-packaged-water-metals.md",
       "cite_key": "sawadogo2023-burkina-faso-packaged-water-metals",
       "metadata_complete": false,
@@ -33535,6 +34773,17 @@
     {
       "page": "wiki/sources/schwalfenberg2018-canada-prenatal-vitamins-metals.md",
       "cite_key": "schwalfenberg2018-canada-prenatal-vitamins-metals",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "evidence_fitness",
+        "raw_sha256"
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
+      "page": "wiki/sources/schwartz2021-first-nations-canada-drinking-water.md",
+      "cite_key": "schwartz2021-first-nations-canada-drinking-water",
       "metadata_complete": false,
       "ingest_complete": false,
       "gaps": [
@@ -33961,6 +35210,16 @@
       "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
     },
     {
+      "page": "wiki/sources/shao2022-selenium-biochar-cadmium-peanut-grains.md",
+      "cite_key": "shao2022-selenium-biochar-cadmium-peanut-grains",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "evidence_fitness"
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
       "page": "wiki/sources/shar2021-pakistan-milk-cadmium-lead.md",
       "cite_key": "shar2021-pakistan-milk-cadmium-lead",
       "metadata_complete": false,
@@ -34205,6 +35464,16 @@
       "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
     },
     {
+      "page": "wiki/sources/shi2025-metal-mixtures-osteoporosis-sex-differences.md",
+      "cite_key": "shi2025-metal-mixtures-osteoporosis-sex-differences",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "evidence_fitness"
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
       "page": "wiki/sources/shibata2016-arsenic-rice-cereal-risk-assessment-us.md",
       "cite_key": "shibata2016-arsenic-rice-cereal-risk-assessment-us",
       "metadata_complete": false,
@@ -34212,6 +35481,16 @@
       "gaps": [
         "evidence_fitness",
         "raw_sha256"
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
+      "page": "wiki/sources/shigematsu2020-palladium-nickel-cross-reactivity-mouse.md",
+      "cite_key": "shigematsu2020-palladium-nickel-cross-reactivity-mouse",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "evidence_fitness"
       ],
       "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
     },
@@ -34343,6 +35622,17 @@
     {
       "page": "wiki/sources/shrivastava2025-bhopal-milk-products-metals.md",
       "cite_key": "shrivastava2025-bhopal-milk-products-metals",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "evidence_fitness",
+        "raw_sha256"
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
+      "page": "wiki/sources/shrivatsa2023-schools-lead-water-prediction.md",
+      "cite_key": "shrivatsa2023-schools-lead-water-prediction",
       "metadata_complete": false,
       "ingest_complete": false,
       "gaps": [
@@ -35417,6 +36707,16 @@
       "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
     },
     {
+      "page": "wiki/sources/steffes2025-arsenic-mine-dust-bronchial.md",
+      "cite_key": "steffes2025-arsenic-mine-dust-bronchial",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "raw_sha256"
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
       "page": "wiki/sources/steigner2024-marketing-for-tableware.md",
       "cite_key": "steigner2024-marketing-for-tableware",
       "metadata_complete": false,
@@ -35470,6 +36770,16 @@
       "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
     },
     {
+      "page": "wiki/sources/stolecka2026-edible-plants-extraction-monte-carlo.md",
+      "cite_key": "stolecka2026-edible-plants-extraction-monte-carlo",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "evidence_fitness"
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
       "page": "wiki/sources/stone2012-wa-qapp-formaldehyde-voc-metals-childrens-products.md",
       "cite_key": "stone2012-wa-qapp-formaldehyde-voc-metals-childrens-products",
       "metadata_complete": false,
@@ -35506,6 +36816,17 @@
       "ingest_complete": false,
       "gaps": [
         "routing_input:products left empty: this plan covers packaging. It does not name baby wipes and it reports no concentrations."
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
+      "page": "wiki/sources/stratton2023-newark-lead-copper-rule.md",
+      "cite_key": "stratton2023-newark-lead-copper-rule",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "evidence_fitness",
+        "raw_sha256"
       ],
       "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
     },
@@ -36020,12 +37341,33 @@
       "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
     },
     {
+      "page": "wiki/sources/tajima2025-metal-allergy-earrings-tokushima.md",
+      "cite_key": "tajima2025-metal-allergy-earrings-tokushima",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "evidence_fitness"
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
       "page": "wiki/sources/takanashi2018-aluminium-baking-powder-japan.md",
       "cite_key": "takanashi2018-aluminium-baking-powder-japan",
       "metadata_complete": false,
       "ingest_complete": false,
       "gaps": [
         "evidence_fitness"
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
+      "page": "wiki/sources/takenaka2025-hypermagnesemia-psychiatric-hospital-mgo.md",
+      "cite_key": "takenaka2025-hypermagnesemia-psychiatric-hospital-mgo",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "evidence_fitness",
+        "raw_path"
       ],
       "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
     },
@@ -36072,6 +37414,17 @@
       "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
     },
     {
+      "page": "wiki/sources/tanaka2025-analytical-techniques-arsenic-speciation.md",
+      "cite_key": "tanaka2025-analytical-techniques-arsenic-speciation",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "evidence_fitness",
+        "raw_sha256"
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
       "page": "wiki/sources/tandhanskul2025-kombucha-metabiotics-review.md",
       "cite_key": "tandhanskul2025-kombucha-metabiotics-review",
       "metadata_complete": false,
@@ -36089,6 +37442,16 @@
       "gaps": [
         "evidence_fitness",
         "raw_sha256"
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
+      "page": "wiki/sources/tang2026-china-food-trade-heavy-metals-crops.md",
+      "cite_key": "tang2026-china-food-trade-heavy-metals-crops",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "evidence_fitness"
       ],
       "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
     },
@@ -36144,6 +37507,16 @@
       "gaps": [
         "evidence_fitness",
         "raw_sha256"
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
+      "page": "wiki/sources/tasnia2026-metals-pfas-diabetes-nhanes.md",
+      "cite_key": "tasnia2026-metals-pfas-diabetes-nhanes",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "evidence_fitness"
       ],
       "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
     },
@@ -36266,6 +37639,16 @@
       "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
     },
     {
+      "page": "wiki/sources/temerdashev2023-icp-tin-speciation-waters.md",
+      "cite_key": "temerdashev2023-icp-tin-speciation-waters",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "evidence_fitness"
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
       "page": "wiki/sources/terbeche2022-algeria-canned-tomato-fish-metals.md",
       "cite_key": "terbeche2022-algeria-canned-tomato-fish-metals",
       "metadata_complete": false,
@@ -36341,8 +37724,29 @@
       "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
     },
     {
+      "page": "wiki/sources/thoerig2025-arsenic-cadmium-lead-mercury-hm-if-us-systematic-review.md",
+      "cite_key": "thoerig2025-arsenic-cadmium-lead-mercury-hm-if-us-systematic-review",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "evidence_fitness"
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
       "page": "wiki/sources/thoerig2025-toxic-elements-pfas-human-milk-formula-systematic-review.md",
       "cite_key": "thoerig2025-toxic-elements-pfas-human-milk-formula-systematic-review",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "evidence_fitness",
+        "raw_sha256"
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
+      "page": "wiki/sources/tholecatola2026-bioslurry-brassica-malawi.md",
+      "cite_key": "tholecatola2026-bioslurry-brassica-malawi",
       "metadata_complete": false,
       "ingest_complete": false,
       "gaps": [
@@ -36779,6 +38183,16 @@
     {
       "page": "wiki/sources/tsegay2025-fruit-byproduct-toxicology-detoxification-review.md",
       "cite_key": "tsegay2025-fruit-byproduct-toxicology-detoxification-review",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "evidence_fitness"
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
+      "page": "wiki/sources/tsegay2026-ethiopia-coffee-soil-heavy-metals.md",
+      "cite_key": "tsegay2026-ethiopia-coffee-soil-heavy-metals",
       "metadata_complete": false,
       "ingest_complete": false,
       "gaps": [
@@ -37394,6 +38808,16 @@
       "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
     },
     {
+      "page": "wiki/sources/varela2023-pge-urban-trees-proxy.md",
+      "cite_key": "varela2023-pge-urban-trees-proxy",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "evidence_fitness"
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
       "page": "wiki/sources/vasilachi2023-heavy-metals-cereal-crops.md",
       "cite_key": "vasilachi2023-heavy-metals-cereal-crops",
       "metadata_complete": false,
@@ -37576,6 +39000,17 @@
       "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
     },
     {
+      "page": "wiki/sources/vijayashanthar2023-pittsburgh-lead-sampling-programs.md",
+      "cite_key": "vijayashanthar2023-pittsburgh-lead-sampling-programs",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "evidence_fitness",
+        "raw_sha256"
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
       "page": "wiki/sources/villarreal2021-ic-icpms-cr-vi-toys.md",
       "cite_key": "villarreal2021-ic-icpms-cr-vi-toys",
       "metadata_complete": false,
@@ -37604,6 +39039,16 @@
       "gaps": [
         "evidence_fitness",
         "raw_sha256"
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
+      "page": "wiki/sources/vincze2024-maize-pgpr-cd-zn-stress.md",
+      "cite_key": "vincze2024-maize-pgpr-cd-zn-stress",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "evidence_fitness"
       ],
       "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
     },
@@ -38293,6 +39738,16 @@
       "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
     },
     {
+      "page": "wiki/sources/wiester1975-palladium-cardiovascular-rat.md",
+      "cite_key": "wiester1975-palladium-cardiovascular-rat",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "evidence_fitness"
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
       "page": "wiki/sources/wijeyaratne2021-alternanthera-metals-sri-lanka.md",
       "cite_key": "wijeyaratne2021-alternanthera-metals-sri-lanka",
       "metadata_complete": false,
@@ -38507,6 +39962,16 @@
       "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
     },
     {
+      "page": "wiki/sources/wu2026-metal-mixtures-insulin-resistance-nhanes.md",
+      "cite_key": "wu2026-metal-mixtures-insulin-resistance-nhanes",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "evidence_fitness"
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
       "page": "wiki/sources/wu2026-methylmercury-whole-cell-biosensor.md",
       "cite_key": "wu2026-methylmercury-whole-cell-biosensor",
       "metadata_complete": false,
@@ -38636,6 +40101,28 @@
       "ingest_complete": false,
       "gaps": [
         "license",
+        "raw_sha256",
+        "raw_path"
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
+      "page": "wiki/sources/xiong2026-blood-metals-hypertension-china.md",
+      "cite_key": "xiong2026-blood-metals-hypertension-china",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "evidence_fitness"
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
+      "page": "wiki/sources/xiong2026-copper-tolfenpyrad-pea-seedlings.md",
+      "cite_key": "xiong2026-copper-tolfenpyrad-pea-seedlings",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "evidence_fitness",
         "raw_sha256",
         "raw_path"
       ],
@@ -38886,6 +40373,18 @@
       "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
     },
     {
+      "page": "wiki/sources/yang2025-silica-nanoparticles-cadmium-pea-seedlings.md",
+      "cite_key": "yang2025-silica-nanoparticles-cadmium-pea-seedlings",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "evidence_fitness",
+        "raw_sha256",
+        "raw_path"
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
       "page": "wiki/sources/yang2025-xinjiang-camel-milk-minerals.md",
       "cite_key": "yang2025-xinjiang-camel-milk-minerals",
       "metadata_complete": false,
@@ -38893,6 +40392,16 @@
       "gaps": [
         "evidence_fitness",
         "raw_sha256"
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
+      "page": "wiki/sources/yang2026-china-chicken-eggs-urban-mining.md",
+      "cite_key": "yang2026-china-chicken-eggs-urban-mining",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "evidence_fitness"
       ],
       "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
     },
@@ -38924,6 +40433,16 @@
       "gaps": [
         "evidence_fitness",
         "raw_sha256"
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
+      "page": "wiki/sources/yao2026-urinary-metals-visceral-obesity-china.md",
+      "cite_key": "yao2026-urinary-metals-visceral-obesity-china",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "evidence_fitness"
       ],
       "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
     },
@@ -39188,6 +40707,16 @@
       "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
     },
     {
+      "page": "wiki/sources/yuliani2025-indonesia-rice-ptes-health-risk.md",
+      "cite_key": "yuliani2025-indonesia-rice-ptes-health-risk",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "evidence_fitness"
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
       "page": "wiki/sources/yun2022-in-silico-pediatric-dermal-model.md",
       "cite_key": "yun2022-in-silico-pediatric-dermal-model",
       "metadata_complete": false,
@@ -39371,6 +40900,16 @@
       "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
     },
     {
+      "page": "wiki/sources/zemelka-wiacek2022-metal-allergy-review.md",
+      "cite_key": "zemelka-wiacek2022-metal-allergy-review",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "evidence_fitness"
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
       "page": "wiki/sources/zeng2023-disposable-food-containers-metals.md",
       "cite_key": "zeng2023-disposable-food-containers-metals",
       "metadata_complete": false,
@@ -39500,6 +41039,16 @@
       "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
     },
     {
+      "page": "wiki/sources/zhang2021-metal-patch-test-cytotoxicity.md",
+      "cite_key": "zhang2021-metal-patch-test-cytotoxicity",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "evidence_fitness"
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
       "page": "wiki/sources/zhang2021-shandong-vegetables-fruits-metals.md",
       "cite_key": "zhang2021-shandong-vegetables-fruits-metals",
       "metadata_complete": false,
@@ -39599,6 +41148,16 @@
       "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
     },
     {
+      "page": "wiki/sources/zhang2025-metal-mixtures-ckd-nhanes.md",
+      "cite_key": "zhang2025-metal-mixtures-ckd-nhanes",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "evidence_fitness"
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
       "page": "wiki/sources/zhang2025-metalorian-de-novo-metal-binding-peptides.md",
       "cite_key": "zhang2025-metalorian-de-novo-metal-binding-peptides",
       "metadata_complete": false,
@@ -39627,6 +41186,26 @@
       "gaps": [
         "evidence_fitness",
         "raw_sha256"
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
+      "page": "wiki/sources/zhang2026-metal-mixtures-breast-cancer-shbg.md",
+      "cite_key": "zhang2026-metal-mixtures-breast-cancer-shbg",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "evidence_fitness"
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
+      "page": "wiki/sources/zhang2026-metal-mixtures-liver-cadmium.md",
+      "cite_key": "zhang2026-metal-mixtures-liver-cadmium",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "evidence_fitness"
       ],
       "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
     },
