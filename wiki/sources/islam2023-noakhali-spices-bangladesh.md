@@ -15,11 +15,11 @@ license: "CC BY 4.0"
 raw_path: "raw/manual-fetch/Kimi_Agent_Download Corruption Issue/condiments2_papers/04_Chocolate_Seasonings_Salt/02_Chowdhury_2023_heavy_metals_spices_Bangladesh.pdf"
 raw_sha256: "3165838e271b253c3c98b804ea37f081c3419263149134267260c00f640ea8f0"
 metals: [Pb, Cd, Cr]
-ingredients: ["[[ingredients/spices]]", "[[ingredients/herbs-and-spices]]", "[[ingredients/turmeric]]", "[[ingredients/cinnamon]]", "[[ingredients/black-pepper]]"]
+ingredients: ["[[ingredients/cumin]]", "[[ingredients/spices]]", "[[ingredients/herbs-and-spices]]", "[[ingredients/turmeric]]", "[[ingredients/cinnamon]]", "[[ingredients/black-pepper]]"]
 products: ["[[products/spices]]", "[[products/condiments-general]]"]
 matrices: [spices, dried-herbs]
 jurisdictions: [BD]
-near_duplicates: []
+near_duplicates: ["islam2023-noakhali-spices-heliyon-published"]
 sample_n: 19
 sample_population: "19 commercially-available spice samples (15 non-branded, 4 branded) collected from Sonapur and Maijdee marketplaces in Noakhali District, Bangladesh; spice consumption frequency data collected from 180 households across six clusters (Chowmuhani, Maijdee, Bashurhat, Kabirhat, Noakhali Union, Underchar Union)"
 wiki_doi: null

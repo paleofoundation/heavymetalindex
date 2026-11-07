@@ -12,7 +12,7 @@ evidence_tier: A
 license: "CC BY 4.0"
 raw_path: "raw/Manual Fetch Kimi /condiment_papers/05_PB_Vanilla_Spices/The Safety Assessment of Toxic Metals in Commonly Used Herbs, Spices, Tea, and Coffee in Poland.pdf"
 metals: [Cd, Pb, tAs, tHg]
-ingredients: ["[[ingredients/herbs-and-spices]]", "[[ingredients/dried-herbs]]", "[[ingredients/tea]]", "[[ingredients/coffee]]", "[[ingredients/spices]]"]
+ingredients: ["[[ingredients/cumin]]", "[[ingredients/herbs-and-spices]]", "[[ingredients/dried-herbs]]", "[[ingredients/tea]]", "[[ingredients/coffee]]", "[[ingredients/spices]]"]
 products: ["[[products/tea]]", "[[products/coffee]]", "[[products/spices]]"]
 matrices: [dried-herbs, spices, tea, coffee]
 jurisdictions: [PL, EU]

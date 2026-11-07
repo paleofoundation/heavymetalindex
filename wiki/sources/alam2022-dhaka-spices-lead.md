@@ -16,7 +16,7 @@ ingredients: ["[[ingredients/spices]]", "[[ingredients/herbs-and-spices]]", "[[i
 products: ["[[products/spices]]", "[[products/condiments-general]]"]
 matrices: [spices]
 jurisdictions: [BD]
-near_duplicates: []
+near_duplicates: ["alam2023-dhaka-spices-lead-published"]
 sample_n: 72
 sample_population: "72 branded and nonbranded powdered spice samples (cumin, red pepper chili, turmeric, and coriander) collected from three local markets in Dhaka city, Bangladesh."
 updated: 2026-06-02
