@@ -10,7 +10,7 @@ access_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC13258499/
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY 4.0"
-raw_path: /Users/kmfp/papers-for-claude/hmi-thin/batch-04-addendum/pdfs/10.3390_molecules31111865.pdf
+raw_path: hmi-evidence-deposits/deposits/HMI-FILL-0054/10.3390_molecules31111865.pdf
 metals: [Cd, Pb, Hg, As]
 ingredients: ["[[ingredients/wild-mushrooms]]", "[[ingredients/mushrooms]]"]
 products: ["[[products/wild-mushrooms]]", "[[products/cultivated-mushrooms]]"]

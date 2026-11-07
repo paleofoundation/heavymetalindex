@@ -3,6 +3,11 @@ title: Heavy Metal Index — Change Log
 noindex: true
 ---
 
+## [2026-11-07] ingest | HMI-FILL-0054: cultivated-mushrooms product fill
+
+Pages touched: [[products/cultivated-mushrooms]] (two measurement paragraphs and two source-legend rows added), [[sources/domagalska2026-poland-dried-mushrooms-toxic-elements]] (raw_path updated), [[sources/qin2024-shaanxi-edible-mushrooms-metals]] (raw_path updated).
+Notes: Deposit HMI-FILL-0054. Added dried button mushroom medians (Domagalska 2026, n=8) and fresh oyster, shiitake, and Agaricus blazei means (Qin 2024) with basis, statistic, and n as the papers state. Other deposited papers were wild-species, substrate-trial, or review papers already cited or outside the cultivated scope. Direction: toward the literature. No thresholds or contamination_profile cells changed.
+
 ## [2026-11-06] ingest | HMI-TOPIC-0022: metal mixture epidemiology fill for combined-exposure-underprotection
 
 Pages touched: [[synthesis/combined-exposure-underprotection]] (major update), [[sources/mitu2026-metal-mixtures-neurodegeneration-review]] (created), [[sources/li2026-metal-mixtures-hypertension-ckd-nhanes]] (created), [[sources/lai2026-selenium-hyperuricemia-metal-mixtures]] (created), [[sources/tasnia2026-metals-pfas-diabetes-nhanes]] (created), [[sources/zhang2025-metal-mixtures-ckd-nhanes]] (created), [[sources/wu2026-metal-mixtures-insulin-resistance-nhanes]] (created), [[sources/xiong2026-blood-metals-hypertension-china]] (created), [[sources/kiyanda2026-metals-uterine-fibroids-tobago]] (created), [[sources/qiu2026-metals-dyslipidemia-rural-china]] (created), [[sources/zhang2026-metal-mixtures-breast-cancer-shbg]] (created), [[sources/zhang2026-metal-mixtures-liver-cadmium]] (created), [[sources/macpherson2026-chemical-mixtures-birth-weight-mirec]] (created), [[sources/liu2025-metal-mixtures-overactive-bladder-nhanes]] (created), [[sources/shi2025-metal-mixtures-osteoporosis-sex-differences]] (created), [[sources/yao2026-urinary-metals-visceral-obesity-china]] (created)
