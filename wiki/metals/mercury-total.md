@@ -8,51 +8,137 @@ audience: [regulator, educator, researcher]
 microbiome_relevance: medium
 sources: 275
 wiki_doi: null
-updated: 2026-09-11
-status: scaffold
-n_sources: 2
+updated: 2026-11-06
+n_sources: 21
 hero_image: /static/heroes/mercury-fish-water.webp
 hero_snapshot: cited-evidence
 dek: "An analytical quantity covering all mercury species in a sample. Dietary health interpretation needs species and matrix context."
 rail_highlights:
   - label: "Key distinction"
     text: "Total mercury alone does not identify methylmercury"
-    source: "sources/ufelle2021-metals-chapter"
-    source_label: "Toxicology chapter"
+    source: "sources/fioravanti2025-bioaccumulation-mercury-seafood-europe-review"
+    source_label: "Systematic review, 74 studies"
+  - label: "MeHg fraction in fish"
+    text: "75 to 100 percent of total mercury in fish muscle is methylmercury"
+    source: "sources/fioravanti2025-bioaccumulation-mercury-seafood-europe-review"
+    source_label: "Systematic review, 74 studies"
+  - label: "Dominant exposure route"
+    text: "Fish and seafood consumption is the primary dietary source"
+    source: "sources/coppola2026-spes-diet-serum-metals-campania"
+    source_label: "SPES biomonitoring, n=4137"
 hero_image_alt: "Fish and water illustrating dietary mercury exposure through aquatic food webs."
-search_title: "Total Mercury vs Methylmercury: Measurement"
-search_description: "Total mercury sums all mercury species in a sample. Dietary health interpretation requires chemical-species information and the food matrix context."
+search_title: "Total Mercury in Food: Occurrence, Measurement, and Regulatory Limits"
+search_description: "Total mercury sums all mercury species in a sample. Fish and seafood dominate dietary exposure. Evidence on occurrence, speciation, and regulatory limits."
 ---
+
+<!-- BEGIN: hmi-opening -->
+This page draws on 21 peer-reviewed studies and regulatory sources deposited in evidence unit HMI-METAL-MERCURY-TOTAL-1. For the toxicologically primary methylmercury page, see [methylmercury](/metals/mercury-methyl).
+<!-- END: hmi-opening -->
 
 ## Overview
 
-Total mercury (tHg) denotes the sum of all mercury species in a sample and is a common analytical quantity in routine food surveillance. Because the toxicity of dietary mercury is dominated by methylmercury, health-based interpretation usually requires either speciation or the assumption that a matrix-dependent fraction of total mercury is methylmercury. See [methylmercury](/metals/mercury-methyl) for the toxicologically primary page.
+Total mercury (tHg) is an analytical quantity that sums all mercury species present in a sample: elemental mercury vapor (Hg0), inorganic divalent mercury (Hg2+), methylmercury (MeHg), ethylmercury (EtHg), and other organomercury forms. It is the measurement of record in most food surveillance programmes and the compliance analyte in most regulatory maximum levels for fishery products.
 
-[[sources/ufelle2021-metals-chapter|Ufelle & Barchowsky 2021]] is attached to this analytical-quantity page as mercury-species context. The chapter reinforces why elemental mercury vapor, inorganic mercury, and methylmercury require separate interpretation even when a surveillance dataset reports total mercury.
+Interpreting total mercury for health purposes requires matrix context because the species composition differs substantially across food types. In fish muscle, methylmercury typically accounts for 75 to 100 percent of total mercury, a range established by a 2025 PROSPERO-registered systematic review of 74 published studies on seafood mercury bioaccumulation and biomagnification across European fisheries [[sources/fioravanti2025-bioaccumulation-mercury-seafood-europe-review|Fioravanti et al. 2025]]. In that context, total mercury is a defensible proxy for methylmercury exposure. In matrices where inorganic mercury predominates, such as rice, root vegetables, or some animal organs, total mercury cannot be read directly as a methylmercury exposure estimate. The Genchi et al. 2026 review of heavy metal toxicity mechanisms confirms that elemental mercury vapor, inorganic mercury, and methylmercury require separate mechanistic interpretation even when only total mercury is measured [[sources/ijms2026-heavy-metal-toxicity-mechanisms-review|Genchi et al. 2026]].
 
-## Status
+The principal dietary source of total mercury is fish and seafood, driven by aquatic methylation and trophic biomagnification. A population biomonitoring study of 4137 adults in Campania, Italy (the SPES programme), found that fish and seafood intake was the food group most significantly associated with serum total mercury concentrations, measured as the Hg-202 isotope by ICP-MS [[sources/coppola2026-spes-diet-serum-metals-campania|Coppola et al. 2026]]. A 2024 literature review of dietary exposure studies conducted in Catalonia, Spain, confirms fish and seafood as the dominant dietary mercury source in that European setting [[sources/sola2024-catalonia-diet-arsenic-metals-review|Sola et al. 2024]].
 
-This page is a scaffold. EU 2023/915 total-mercury fish maximum levels have been routed, but the full mercury occurrence and methylmercury-fraction synthesis remains on the ingest queue.
+## Analytical definition and measurement
 
-## Regulatory Limits
+Total mercury is determined by complete acid digestion or thermal decomposition of the sample matrix followed by detection of Hg2+ or elemental mercury vapor. Thermal decomposition amalgamation atomic absorption spectrometry (TDA-AAS) is a validated single-element method that avoids chromatographic separation. Carter et al. 2025 describe a TDA-AAS method validated for both total mercury and methylmercury in finfish, confirmed against a salting-out assisted liquid-liquid extraction (SALLE) approach; the method achieved recoveries within acceptance criteria for certified reference materials [[sources/carter2025-tda-aas-methylmercury-finfish-fda-method|Carter et al. 2025]]. ICP-MS, including isotope-selective monitoring of Hg-202, is used in population biomonitoring programmes and allows multi-element analysis in the same analytical run [[sources/coppola2026-spes-diet-serum-metals-campania|Coppola et al. 2026]].
 
-| Jurisdiction / Body | Type | Value | Page |
+The methylmercury fraction of total mercury can be measured by coupling liquid or gas chromatography to cold-vapour atomic fluorescence spectrometry (CV-AFS) or ICP-MS after extraction and species-selective derivatization. Routine surveillance typically reports total mercury only. The TDA-AAS method of Carter et al. 2025 demonstrates that methylmercury can be measured alongside total mercury in a finfish matrix without full chromatographic separation, reducing the analytical burden when speciation is required.
+
+## Mercury speciation fraction in fish and seafood matrices
+
+The fraction of total mercury present as methylmercury varies by matrix and trophic position. The systematic review by Fioravanti et al. 2025, covering 74 primary studies on European seafood, establishes that methylmercury constitutes 75 to 100 percent of total mercury in fish muscle tissue [[sources/fioravanti2025-bioaccumulation-mercury-seafood-europe-review|Fioravanti et al. 2025]]. The upper bound near 100 percent applies to high-trophic apex predators; the lower end of the range applies to some shellfish and lower-trophic species where inorganic mercury contributes a larger fraction.
+
+Shark muscle data from Boldrocchi et al. 2026, a global speciation study of 18 shark species (n=63 samples), show methylmercury-to-total-mercury ratios of 65 to 101 percent, with the highest MeHg/tHg ratios in species with the highest absolute mercury loads [[sources/boldrocchi2026-mercury-sharks-global-speciation|Boldrocchi et al. 2026]]. Six-spotted thresher sharks (Alopias pelagicus) had methylmercury fractions close to 100 percent at absolute concentrations exceeding regulatory limits in several jurisdictions. Greenland shark (Somniosus microcephalus) muscle contained up to 17.7 mg/kg methylmercury in that dataset, the highest reported for a commercially landed species.
+
+For canned tuna and processed seafood, Rock et al. 2025 analyzed 148 US retail canned seafood products representing 11 species. Total mercury concentrations differed substantially by species and processing type: albacore tuna (mean 396.4 ng/g) exceeded yellowfin tuna (mean 68.3 ng/g), and canned clams were the lowest category measured (mean 7.8 ng/g). Brand-to-brand variability was statistically significant even within species, indicating that origin and processing affect the mercury load in finished product [[sources/rock2025-mercury-variability-canned-seafood-us|Rock et al. 2025]].
+
+Trujillo-Cruz et al. 2026 measured total mercury in canned tuna in oil sold in Quito, Ecuador; mean total mercury concentrations ranged from 0.097 to 0.418 ug/g wet weight across product categories [[sources/trujillocruz2026-quito-canned-tuna-oil-mercury|Trujillo-Cruz et al. 2026]]. Carvajal et al. 2026 analyzed 71 Ecuadorian seafood samples; blue marlin had a mean total mercury of 1117.7 ug/kg (wet weight), exceeding the EU 1000 ug/kg maximum level for higher-mercury fish [[sources/carvajal2026-ecuadorian-seafood-toxic-metals-exposure|Carvajal et al. 2026]].
+
+## Occurrence by food category
+
+The table below summarizes total mercury concentrations in selected food matrices from studies in the evidence deposit. All values are wet weight unless noted.
+
+| Matrix | Jurisdiction | Mean or range (ug/kg or ng/g ww) | n | Source |
+| --- | --- | --- | --- | --- |
+| Albacore canned tuna | US | mean 396.4 ng/g | 148 products | [[sources/rock2025-mercury-variability-canned-seafood-us\|Rock et al. 2025]] |
+| Yellowfin canned tuna | US | mean 68.3 ng/g | 148 products | [[sources/rock2025-mercury-variability-canned-seafood-us\|Rock et al. 2025]] |
+| Canned clams | US | mean 7.8 ng/g | 148 products | [[sources/rock2025-mercury-variability-canned-seafood-us\|Rock et al. 2025]] |
+| Canned tuna in oil | Ecuador | mean 0.097-0.418 ug/g | multiple categories | [[sources/trujillocruz2026-quito-canned-tuna-oil-mercury\|Trujillo-Cruz et al. 2026]] |
+| Blue marlin | Ecuador | mean 1117.7 ug/kg | 71 samples total | [[sources/carvajal2026-ecuadorian-seafood-toxic-metals-exposure\|Carvajal et al. 2026]] |
+| Fish muscle, seafood range | Italy, 10-year | Cd, Pb, Hg all monitored; Hg below ML in most | 625+ samples | [[sources/garofalo2025-seafood-cd-pb-hg-italy-10yr\|Garofalo et al. 2025]] |
+| Sardines and sprats (raw) | European | 0.0518-0.1322 ug/g dw | cooking study | [[sources/smid2026-cooking-mercury-sardines-sprats\|Smid et al. 2026]] |
+| Sea cucumbers (muscle) | Italy | 0.0022-0.0146 mg/kg | Holothuria spp. | [[sources/dilena2026-sea-cucumbers-mercury-italy\|Di Lena et al. 2026]] |
+| Perch muscle | Poland | mean 0.061 ug/g | freshwater fish | [[sources/stanek2026-freshwater-fish-mercury-poland\|Stanek and Rozanski 2026]] |
+| Rudd muscle | Poland | mean 0.050 ug/g | freshwater fish | [[sources/stanek2026-freshwater-fish-mercury-poland\|Stanek and Rozanski 2026]] |
+| Inland fish (5 Latvian lakes) | Latvia | dominant risk constraint in predatory fish | 460 samples | [[sources/rusko2026-latvian-inland-fish-risk-benefit\|Rusko et al. 2026]] |
+| Shark muscle (18 species) | Global | up to 17.7 mg/kg (Greenland shark) | 63 samples | [[sources/boldrocchi2026-mercury-sharks-global-speciation\|Boldrocchi et al. 2026]] |
+
+Garofalo et al. 2025 report a ten-year monitoring study (2010-2019) of cadmium, lead, and mercury in Italian fishery products from the Marmara region, covering more than 625 samples. Mercury was the analyte most consistently above regulatory limits in higher-trophic species, confirming the trophic-level pattern [[sources/garofalo2025-seafood-cd-pb-hg-italy-10yr|Garofalo et al. 2025]].
+
+## Trophic biomagnification and species patterns
+
+The methylmercury fraction and the absolute total mercury concentration both increase with trophic level in aquatic food chains. Fioravanti et al. 2025 found that apex predators were the category most frequently exceeding EU maximum levels, consistent with the biomagnification mechanism: each step up the food chain concentrates mercury further because methylmercury binds strongly to muscle protein and has a long biological half-life [[sources/fioravanti2025-bioaccumulation-mercury-seafood-europe-review|Fioravanti et al. 2025]].
+
+Boldrocchi et al. 2026 demonstrate this pattern in global shark data. The study attributes the high methylmercury fractions in sharks to their position as apex marine predators and to the lipid-independent binding of methylmercury to sulfhydryl groups in muscle protein [[sources/boldrocchi2026-mercury-sharks-global-speciation|Boldrocchi et al. 2026]]. The same mechanism underlies the FDA action level of 1 ppm methylmercury in fish and the EU elevated maximum level for shark (1000 ug/kg total mercury, applied on the assumption that most is methylmercury in apex predators).
+
+Chang et al. 2026 examined blood mercury concentrations in 912 Korean adolescents (13-18 years) and found that those reporting shark meat consumption had an odds ratio of 35.84 for exceeding the blood mercury reference level compared with non-consumers, confirming the sharp concentration step associated with shark consumption at the population level [[sources/chang2026-shark-blood-mercury-korean-adolescents|Chang et al. 2026]].
+
+At the low end of the trophic scale, Di Lena et al. 2026 measured total mercury in sea cucumbers (Holothuria polii and Holothuria tubulosa) collected from two sites in southern Italy and found concentrations of 0.0022 to 0.0146 mg/kg, well below the EU 500 ug/kg general maximum level for fishery products. Sea cucumbers are deposit feeders at the base of the benthic food web; the low mercury burden is consistent with their trophic position [[sources/dilena2026-sea-cucumbers-mercury-italy|Di Lena et al. 2026]].
+
+## Freshwater fish
+
+Freshwater fish can carry significant mercury loads depending on lake catchment characteristics and predator-prey chains, but concentrations are generally lower than those measured in marine apex predators. Stanek and Rozanski 2026 measured total mercury in muscle tissue of perch (Perca fluviatilis) and rudd (Scardinius erythrophthalmus) from Polish freshwater bodies; mean total mercury was 0.061 ug/g in perch and 0.050 ug/g in rudd. Target hazard quotients (THQ) were below 1 for both species under realistic consumption scenarios, indicating acceptable risk at typical intake levels for the Polish population [[sources/stanek2026-freshwater-fish-mercury-poland|Stanek and Rozanski 2026]].
+
+Rusko et al. 2026 assessed risk and benefit of mercury, lead, cadmium, and arsenic in 460 fish samples from five Latvian lakes. Total mercury was the dominant constraint for predatory freshwater fish, limiting safe weekly consumption more than any other analyte measured. The study also established safe weekly consumption guidance specific to each species-lake combination, illustrating how total mercury occurrence data feed regulatory and advisory work at the national level [[sources/rusko2026-latvian-inland-fish-risk-benefit|Rusko et al. 2026]].
+
+## Effects of cooking on total mercury
+
+Smid et al. 2026 examined the effect of common cooking methods (boiling, steaming, grilling, frying) on total mercury and methylmercury concentrations in sardines and sprats, two widely consumed lower-trophic fish. Raw total mercury concentrations ranged from 0.0518 to 0.1322 ug/g dry weight across both species and both market forms tested. The study found no cooking method that consistently and materially reduced total mercury or methylmercury concentrations. Some methods produced concentration increases in cooked tissue due to water loss (dry weight effect), and no method achieved substantial mercury elimination [[sources/smid2026-cooking-mercury-sardines-sprats|Smid et al. 2026]]. This finding is consistent with the chemical stability of methylmercury-protein bonds at cooking temperatures and implies that raw total mercury measurements provide an adequate basis for estimating mercury intake from cooked fish.
+
+## Regulatory limits
+
+| Jurisdiction / Body | Instrument | Value | Notes |
 | --- | --- | --- | --- |
-| [[regulators/eu-commission\|EU]] | Binding maximum levels in fishery products and molluscs | General crustaceans, molluscs, and muscle meat of fish 500 ug/kg; listed lower-mercury fish 300 ug/kg; listed higher-mercury fish including tuna, shark, swordfish, marlin, halibut, pike, and sturgeon 1000 ug/kg | [[regulations/eu2023-contaminants-maximum-levels]] |
+| EU | EU Reg. 2023/915, Annex I | 500 ug/kg (general crustaceans, molluscs, fish muscle) | Measured as total mercury; methylmercury assumed dominant |
+| EU | EU Reg. 2023/915, Annex I | 300 ug/kg (listed lower-mercury fish) | Applies to species with documented lower Hg profiles |
+| EU | EU Reg. 2023/915, Annex I | 1000 ug/kg (tuna, shark, swordfish, marlin, halibut, pike, sturgeon) | Elevated limit for listed apex predator and long-lived species |
+| FDA (US) | Action level | 1000 ug/kg (1 ppm) methylmercury in commercial fish | Action level, not binding ML; total Hg used as proxy pre-speciation |
+| Codex | Codex Stan 193-1995 (amended) | 500 ug/kg methylmercury in fish | General limit; predatory fish subject to separate guidance |
 
-Product interpretation still requires methylmercury caution: total mercury is the compliance analyte for many fish rows, but methylmercury is the primary dietary toxicology driver.
+The EFSA 2026 opinion on fish methylmercury consumption frequency provides EU-specific consumption pattern data and discusses the information available to consumers on national fish consumption advisories. EFSA’s analysis is relevant to interpreting how well current maximum levels translate to population methylmercury intake control across diverse EU member-state diets [[sources/efsa2026-fish-methylmercury-consumption-frequency|EFSA 2026]].
 
-## Planned sections
+## Biomonitoring
 
-Analytical definition, relationship to methylmercury across matrices (linked to [ingredients](/ingredients) and [products](/products)), regulatory limits where total mercury is the measurement instrument of record (linked to [regulations](/regulations)), testing methods (linked to [testing](/testing)), and sources.
+Population biomonitoring measures blood, urine, or hair mercury rather than food concentrations, and provides an integrated estimate of dietary mercury intake. Blood mercury is predominantly methylmercury in fish-consuming populations, because methylmercury has a longer blood half-life than inorganic mercury.
 
-## Human exposure source
+Taylor et al. 2026 measured whole blood total mercury in 262 pregnant women in south-west England (the PEAR Study, gestational age 8.3 to 15.9 weeks). Blood total mercury mean was 0.83 ug/L (SD 0.64), median 0.69 ug/L (IQR 0.34 to 1.19), range 0.07 to 3.40 ug/L. These concentrations are approximately 60 percent lower than values reported in the ALSPAC cohort from 1991 to 1992 and approximately 37 percent lower than the Born in Bradford cohort from 2007 to 2011, indicating a substantial decline in mercury exposure in UK pregnant women over three decades, consistent with the trajectory of Minamata Convention-aligned policies and reduced mercury use in several industrial and commercial applications [[sources/taylor2026-lead-mercury-pregnant-women-uk-pear|Taylor et al. 2026]].
 
-[[sources/olivas-martinez2026-spanish-girls-urinary-metals]] reports urinary metal biomarkers and early-puberty associations in girls recruited across six Spanish hospitals during 2018–2022. The source keeps case and control summaries, detection frequencies and observational effect estimates separate. A single urine measurement and case–control sampling cannot establish exposure before puberty onset, causality, or a particular consumer-product source.
+Velasco et al. 2026 measured blood metals in an adult working population in the Valencia Region of Spain (n not extracted at first ingest; full text required for n). Blood total mercury was detected in this occupationally active adult cohort; fish consumption was identified as a primary predictor [[sources/velasco2026-blood-metals-valencia-workers|Velasco et al. 2026]].
 
-## Nahavand farm study: evidence limitations
+The SPES biomonitoring study (Campania, Italy) analyzed 4137 participants using serum ICP-MS (20-channel panel). Fish and seafood intake was the food group most significantly associated with serum Hg-202 (total mercury isotope). Serum Hg-202 was not speciated; for a fish-consuming population, serum total mercury is predominantly methylmercury [[sources/coppola2026-spes-diet-serum-metals-campania|Coppola et al. 2026]].
 
-Sharafi et al. described atomic-fluorescence analysis of mercury in farm soil, irrigation water and whole crop biomass after digestion. No mercury species were resolved. Conflicting concentrations and risk-model graphics limit quantitative reuse, and the measurements cannot establish methylmercury occurrence (Methods pp4–5; Results pp10–21). [[sources/sharafi2026-nahavand-soil-water-crop-metals]]
+Paternina-Uribe et al. 2026 assessed mercury exposure in indigenous communities in the Colombian Amazon, where blood and hair mercury biomarkers documented high exposure from both artisanal small-scale gold mining (ASGM) and subsistence fishing on contaminated waterways. This population represents the upper extreme of the dietary mercury exposure spectrum. The study illustrates how total mercury biomarkers integrate multiple exposure pathways and that the fish consumption pathway is compounded by proximity to ASGM operations [[sources/paternina-uribe2026-mercury-indigenous-amazon|Paternina-Uribe et al. 2026]].
+
+## Human milk
+
+Total mercury transfers to human milk, though concentrations are generally low in populations without occupational or high-seafood exposure. Zhelyazkova et al. 2026, in a review of toxic metal biomonitoring in human milk, report that mercury concentrations in human milk typically fall in the range of 1.4 to 1.7 ug/L across the published literature, with higher concentrations in coastal and island populations with high fish consumption [[sources/zhelyazkova2026-human-milk-toxic-metals-review|Zhelyazkova et al. 2026]]. Mercury in human milk is predominantly methylmercury in fish-consuming populations; the inorganic fraction is relevant only where dental amalgam or occupational exposure contributes meaningfully.
+
+## Vulnerable populations and emerging evidence
+
+The fetus, the breastfed infant, and the young child are the populations with the most toxicologically significant exposure windows for methylmercury, the dominant toxicological species in fish-derived total mercury. See [methylmercury](/metals/mercury-methyl) for the developmental neurotoxicity evidence base.
+
+Kwon et al. 2026 reviewed the literature on dietary and environmental exposure to toxic elements in endometriosis, including total mercury. The review identifies associations between mercury exposure and reproductive conditions, though the evidence base for direct causation is not established. Total mercury in blood and urine was measured in several included studies [[sources/kwon2026-endometriosis-toxic-elements-review|Kwon et al. 2026]].
+
+The Genchi et al. 2026 mechanistic review confirms that inorganic mercury, elemental mercury vapor, and methylmercury each require distinct clinical and mechanistic interpretation. Inorganic mercury is a primary renal toxicant; elemental mercury vapor is primarily an inhalation neurotoxicant from occupational or amalgam sources; methylmercury is the developmental and adult neurotoxicant relevant to dietary fish consumption. These distinctions are operationally important when total mercury measurements are available but speciation is not [[sources/ijms2026-heavy-metal-toxicity-mechanisms-review|Genchi et al. 2026]].
+
+## Uncertainty note
+
+The evidence base for total mercury occurrence in fish and seafood is well developed. Gaps remain in: (1) speciation data for processed and mixed-matrix products, where the methylmercury fraction cannot be assumed without measurement; (2) occurrence data for traditional or geographically specific fish preparations; (3) freshwater fish occurrence data outside Europe and North America; (4) cooking and processing effects on total mercury in species other than sardines and sprats. Where data are absent or sparse, this page does not impute values.
 
 <!-- BEGIN: hmi-metal-faq -->
 ## Frequently asked questions
@@ -60,37 +146,52 @@ Sharafi et al. described atomic-fluorescence analysis of mercury in farm soil, i
 
 ### What is total mercury and how is it different from methylmercury?
 
-Total mercury (tHg) is the sum of all mercury species in a sample, and it is a common measurement in routine food surveillance. The toxicity of dietary mercury is dominated by methylmercury, so total mercury is an analytical quantity rather than a direct measure of the most harmful form. See the [methylmercury](/metals/mercury-methyl) page for the toxicologically primary discussion.
+Total mercury (tHg) is the sum of all mercury species in a sample. Methylmercury is the specific organomercury species that dominates dietary exposure from fish and that drives the health-based interpretation of dietary mercury. In fish muscle, methylmercury typically accounts for 75 to 100 percent of total mercury, so total mercury in fish is a reasonable proxy for methylmercury intake [[sources/fioravanti2025-bioaccumulation-mercury-seafood-europe-review|Fioravanti et al. 2025]]. In other matrices where inorganic mercury may predominate, total mercury cannot be directly read as a methylmercury estimate.
 
-### Why can't a total mercury number in food be read as the health risk directly?
+### Which foods contain the most total mercury?
 
-Because dietary mercury toxicity is driven mainly by methylmercury, interpreting a total mercury result for health usually requires either species-specific measurement (speciation) or the assumption that a matrix-dependent fraction of the total is methylmercury. Elemental mercury vapor, inorganic mercury, and methylmercury need to be interpreted separately even when a dataset reports only total mercury [[sources/ufelle2021-metals-chapter|Ufelle & Barchowsky 2021]].
+Shark, swordfish, marlin, tilefish, and large tuna species carry the highest total mercury concentrations because of their position as apex marine predators and their long lifespan. Greenland shark muscle has been reported at up to 17.7 mg/kg methylmercury [[sources/boldrocchi2026-mercury-sharks-global-speciation|Boldrocchi et al. 2026]]. Among commercially canned fish, albacore tuna (mean 396.4 ng/g in US retail samples) is markedly higher than yellowfin tuna (mean 68.3 ng/g) [[sources/rock2025-mercury-variability-canned-seafood-us|Rock et al. 2025]]. Low-trophic seafood such as clams (mean 7.8 ng/g), sardines, and sea cucumbers carry substantially less.
 
-### What are the legal limits for mercury in fish and seafood?
+### Does cooking reduce mercury in fish?
 
-The EU sets binding maximum levels for mercury in fishery products and molluscs: 500 ug/kg for general crustaceans, molluscs, and fish muscle meat, and 300 ug/kg for a listed group of lower-mercury fish [[regulations/eu2023-contaminants-maximum-levels]]. These are the compliance figures for many fish products, though methylmercury remains the primary dietary toxicology concern.
+No cooking method tested in the available evidence consistently and materially reduces total mercury or methylmercury in sardines and sprats. Some methods increase measured concentrations on a dry weight basis due to water loss [[sources/smid2026-cooking-mercury-sardines-sprats|Smid et al. 2026]]. Consumers cannot rely on cooking to reduce dietary mercury intake from fish.
 
-### Which fish are allowed to have the highest mercury levels under EU rules?
+### What are the EU limits for mercury in fish?
 
-A listed group of higher-mercury fish is permitted up to 1000 ug/kg under the EU maximum levels, including tuna, shark, swordfish, marlin, halibut, pike, and sturgeon [[regulations/eu2023-contaminants-maximum-levels]]. This is higher than the 500 ug/kg general limit and the 300 ug/kg limit for listed lower-mercury fish.
+The EU sets binding maximum levels for mercury in fishery products under Regulation 2023/915: 500 ug/kg for general crustaceans, molluscs, and fish muscle; 300 ug/kg for a listed group of lower-mercury fish; and 1000 ug/kg for listed higher-mercury species including tuna, shark, swordfish, marlin, halibut, pike, and sturgeon [[regulations/eu2023-contaminants-maximum-levels]]. These are measured as total mercury on the assumption that the dominant species is methylmercury in those matrices.
 
-### Is total mercury or methylmercury the number used for regulatory compliance?
+### How has mercury exposure in the population changed over time?
 
-Total mercury is the compliance analyte for many fish rows, meaning it is the measurement of record used to check against limits. Methylmercury, however, is the primary driver of dietary mercury toxicology, so product interpretation still requires methylmercury caution even where total mercury is the enforced measurement.
+Blood total mercury in UK pregnant women has declined by approximately 60 percent between the ALSPAC cohort (1991-1992) and the PEAR Study (2023-2025), and by approximately 37 percent between the Born in Bradford cohort (2007-2011) and the PEAR Study [[sources/taylor2026-lead-mercury-pregnant-women-uk-pear|Taylor et al. 2026]]. This trajectory is consistent with global mercury use reductions driven by the Minamata Convention and predecessor agreements.
 <!-- END: hmi-metal-faq -->
 
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to its source record.
+Works cited in this page’s text, in first-appearance order. See [Sources](#sources) for this page’s source inventory. Each title links to its source record.
 
-1. [[sources/ufelle2021-metals-chapter|Toxic Effects of Metals (Chapter 23), in Casarett & Doull's Essentials of Toxicology, Fourth Edition]]<span class="hmi-ref-meta">Ufelle AC and Barchowsky A · Casarett & Doull's Essentials of Toxicology, Fourth Edition. McGraw Hill Education · 2021 · [www.mhprofessional.com](https://www.mhprofessional.com/9781264264827)</span><span class="hmi-ref-tag">Textbook</span>
-2. [[sources/olivas-martinez2026-spanish-girls-urinary-metals|Association of exposure to synthetic phenols and metal(loid)s with early puberty in Spanish girls: a multicentric case–control study]]<span class="hmi-ref-meta">Olivas-Martinez A, Escribano A, Riaño-Galán I, Torrebias M, Olmedo P, Gil F, et al. · European Journal of Pediatrics 185:295 · 2026 · [doi.org/10.1007/s00431-026-06919-1](https://doi.org/10.1007/s00431-026-06919-1)</span><span class="hmi-ref-tag">Peer-reviewed</span>
-3. [[sources/sharafi2026-nahavand-soil-water-crop-metals|Soil–water–crop pathways of heavy metal contamination and human health risks in intensive smallholder farms of the Nahavand Plain, Iran]]<span class="hmi-ref-meta">Saeed Sharafi, Maryam Sharafi, and Maryam Lorvand · Scientific Reports 16:9947 · 2026 · [doi.org/10.1038/s41598-026-38637-x](https://doi.org/10.1038/s41598-026-38637-x)</span><span class="hmi-ref-tag">Peer-reviewed</span>
-4. [[sources/abubakar2025-faisalabad-sewage-vegetables|Effects of sewage water irrigation on heavy metals accumulation in vegetables in peri-urban areas of Faisalabad, Pakistan]]<span class="hmi-ref-meta">Muhammad Abubakar, Basit Haider, Hadeeqa Arshad, Tufail Shah, Ameer Khan, Hummera Nawaz, et al. · Agricultural Research Reports 3(1):46–57 · 2025 · [doi.org/10.54219/arr.03.1.2025.418](https://doi.org/10.54219/arr.03.1.2025.418)</span><span class="hmi-ref-tag">Peer-reviewed</span>
-5. [[sources/dyakova2023-voronezh-medicinal-plant-metals|Study of Peculiarities of Accumulation of Heavy Metals and Arsenic in Medicinal Plant Raw Materials of Synanthropic Flora of Voronezh Region]]<span class="hmi-ref-meta">Nina Alekseevna Dyakova · Khimiya Rastitel’nogo Syr’ya 2:163–170 · 2023 · [doi.org/10.14258/jcprm.20230211725](https://doi.org/10.14258/jcprm.20230211725)</span><span class="hmi-ref-tag">Peer-reviewed</span>
-6. [[sources/bashkin2021-vegetable-risk-review|Assessment of the Risk of Heavy Metals Accumulation in Vegetable Crops]]<span class="hmi-ref-meta">Vladimir N. Bashkin and Rosa A. Galiulina · Issues of Risk Analysis18(4):48–65 · 2021 · [doi.org/10.32686/1812-5220-2021-18-4-48-65](https://doi.org/10.32686/1812-5220-2021-18-4-48-65)</span><span class="hmi-ref-tag">Peer-reviewed</span>
-7. [[sources/wen2022-mercury-water-removal-review|Mercury Contamination of Water and the Removal of Mercury from Water]]<span class="hmi-ref-meta">Jiayue Wen · Highlights in Science,Engineering and Technology26:378–383 (GEMFE2022) · 2022 · [doi.org/10.54097/hset.v26i.4008](https://doi.org/10.54097/hset.v26i.4008)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+1. [[sources/fioravanti2025-bioaccumulation-mercury-seafood-europe-review|Bioaccumulation and Biomagnification of Mercury Along the Seafood Chain in Europe: A Systematic Review]]<span class="hmi-ref-meta">Fioravanti M, Barbiroli A, Faoro F, Bonomi F, Iametti S, et al. · Foods 14(21):3752 · 2025 · [doi.org/10.3390/foods14213752](https://doi.org/10.3390/foods14213752)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+2. [[sources/ijms2026-heavy-metal-toxicity-mechanisms-review|Heavy Metal Toxicity in Clinical and Environmental Health: Sources, Mechanisms, Diagnostics, and Evidence-Based Management of Mercury, Lead, Cadmium, and Arsenic]]<span class="hmi-ref-meta">Genchi G, Sinicropi MS, Lauria G, Carocci A, Catalano A · International Journal of Molecular Sciences 27(8):3513 · 2026 · [doi.org/10.3390/ijms27083513](https://doi.org/10.3390/ijms27083513)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+3. [[sources/coppola2026-spes-diet-serum-metals-campania|Food-Source Patterns and Serum Trace-Metal Biomarkers in the SPES Population Biomonitoring Study, Campania, Italy]]<span class="hmi-ref-meta">Coppola A, Montuori P, Triassi M, Federico A, Dallio M, Di Duca F, De Rosa E, Buonerba C, Cerino P · Journal of Xenobiotics 16(4):153 · 2026 · [doi.org/10.3390/jox16040153](https://doi.org/10.3390/jox16040153)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+4. [[sources/sola2024-catalonia-diet-arsenic-metals-review|Human Exposure through the Diet to Arsenic and Other Toxic Elements: A Literature Review of Scientific Studies Conducted in Catalonia, Spain, in the Current Century]]<span class="hmi-ref-meta">Sola C, Nadal M, Domingo JL · Toxics 12(10):749 · 2024 · [doi.org/10.3390/toxics12100749](https://doi.org/10.3390/toxics12100749)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+5. [[sources/carter2025-tda-aas-methylmercury-finfish-fda-method|Development and Validation of a Non-Chromatographic Method for Mercury and Methylmercury in Finfish Using Thermal Decomposition Gold Amalgamation AAS and SALLE]]<span class="hmi-ref-meta">Carter JL et al. · Analytical and Bioanalytical Chemistry · 2025 · [doi.org/10.1007/s00216-025-05989-8](https://doi.org/10.1007/s00216-025-05989-8)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+6. [[sources/rock2025-mercury-variability-canned-seafood-us|Variability of Mercury Concentrations Across Species, Brand, and Tissue Type in Processed Commercial Seafood Products]]<span class="hmi-ref-meta">Rock KL et al. · Toxics 13(6):426 · 2025 · [doi.org/10.3390/toxics13060426](https://doi.org/10.3390/toxics13060426)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+7. [[sources/trujillocruz2026-quito-canned-tuna-oil-mercury|Total Mercury Exposure through Canned Tuna in Oil Sold in Quito, Ecuador]]<span class="hmi-ref-meta">Trujillo-Cruz et al. · NPJ Science of Food · 2026 · [doi.org/10.1038/s41538-025-00693-4](https://doi.org/10.1038/s41538-025-00693-4)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+8. [[sources/carvajal2026-ecuadorian-seafood-toxic-metals-exposure|Toxic Metal Exposure from Ecuadorian Seafood: Dietary Exposure and Risk Characterization Across Key Commercial Species]]<span class="hmi-ref-meta">Carvajal et al. · Foods 15(19):3428 · 2026 · [doi.org/10.3390/foods15193428](https://doi.org/10.3390/foods15193428)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+9. [[sources/garofalo2025-seafood-cd-pb-hg-italy-10yr|Monitoring of Cadmium, Lead, and Mercury Levels in Seafood Products: A Ten-Year Analysis]]<span class="hmi-ref-meta">Garofalo et al. · Foods 14(3):451 · 2025 · [doi.org/10.3390/foods14030451](https://doi.org/10.3390/foods14030451)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+10. [[sources/smid2026-cooking-mercury-sardines-sprats|Effects of Common Cooking Methods on Total Mercury and Methylmercury in Sardines and Sprats]]<span class="hmi-ref-meta">Smid et al. · Foods 15(16):2802 · 2026 · [doi.org/10.3390/foods15162802](https://doi.org/10.3390/foods15162802)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+11. [[sources/dilena2026-sea-cucumbers-mercury-italy|Total Mercury Levels in Sea Cucumbers Holothuria polii and Holothuria tubulosa and Sediments from Two Sites of Southern Italy]]<span class="hmi-ref-meta">Di Lena et al. · Bulletin of Environmental Contamination and Toxicology · 2026 · [doi.org/10.1007/s00128-026-04288-x](https://doi.org/10.1007/s00128-026-04288-x)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+12. [[sources/boldrocchi2026-mercury-sharks-global-speciation|Global Patterns of Mercury Speciation and Biomagnification in Sharks: Ecological Drivers and Food Safety Implications]]<span class="hmi-ref-meta">Boldrocchi et al. · Environmental Science and Technology · 2026 · [doi.org/10.1021/acs.est.6c01257](https://doi.org/10.1021/acs.est.6c01257)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+13. [[sources/chang2026-shark-blood-mercury-korean-adolescents|Relationship between Shark Meat Intake and Blood Mercury Concentration in Korean Adolescents]]<span class="hmi-ref-meta">Chang et al. · Annals of Occupational and Environmental Medicine 38:e28 · 2026 · [doi.org/10.35371/aoem.2026.38.e28](https://doi.org/10.35371/aoem.2026.38.e28)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+14. [[sources/stanek2026-freshwater-fish-mercury-poland|Bioaccumulation of Total Mercury (THg) in Freshwater Fish: Perch and Rudd. Human Health Risk Assessment.]]<span class="hmi-ref-meta">Stanek and Rozanski · Bulletin of Environmental Contamination and Toxicology · 2026 · [doi.org/10.1007/s00128-026-04313-z](https://doi.org/10.1007/s00128-026-04313-z)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+15. [[sources/rusko2026-latvian-inland-fish-risk-benefit|Deterministic Pilot Risk-Benefit Assessment of Latvian Inland Fish: Safe Weekly Consumption Guidance]]<span class="hmi-ref-meta">Rusko et al. · Foods 15(5):901 · 2026 · [doi.org/10.3390/foods15050901](https://doi.org/10.3390/foods15050901)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+16. [[sources/efsa2026-fish-methylmercury-consumption-frequency|Frequency of Consumption of Different Fish, Crustacean and Mollusc Species Contributing to Methylmercury Exposure and Consumer Awareness of National Advice on Their Consumption]]<span class="hmi-ref-meta">EFSA CONTAM Panel · EFSA Journal · 2026 · [doi.org/10.2903/j.efsa.2026.9865](https://doi.org/10.2903/j.efsa.2026.9865)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+17. [[sources/taylor2026-lead-mercury-pregnant-women-uk-pear|Lead and Mercury Exposure in Pregnant Women in the UK: a Cross-Sectional Observational Study (the PEAR Study)]]<span class="hmi-ref-meta">Taylor CM, Mottram L, Ingram J, Entwistle J, Kordas K, Lanphear B, Golding J, Morton J · BMJ Open · 2026 · [doi.org/10.1136/bmjopen-2025-114169](https://doi.org/10.1136/bmjopen-2025-114169)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+18. [[sources/velasco2026-blood-metals-valencia-workers|Levels, Exposure and Risk Assessment to Metals in Blood of Adult Working Population in Valencia Region (Spain)]]<span class="hmi-ref-meta">Velasco et al. · Toxics 14(10):874 · 2026 · [doi.org/10.3390/toxics14100874](https://doi.org/10.3390/toxics14100874)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+19. [[sources/coppola2026-spes-diet-serum-metals-campania|Food-Source Patterns and Serum Trace-Metal Biomarkers in the SPES Population Biomonitoring Study, Campania, Italy]]<span class="hmi-ref-meta">Coppola et al. · Journal of Xenobiotics 16(4):153 · 2026 · [doi.org/10.3390/jox16040153](https://doi.org/10.3390/jox16040153)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+20. [[sources/paternina-uribe2026-mercury-indigenous-amazon|Silent Burden of Mercury: Environmental Exposure and Determinants Among Indigenous Communities in the Colombian Amazon]]<span class="hmi-ref-meta">Paternina-Uribe R, Rendon-Marin S, Ruiz-Saenz J, Martinez-Gutierrez M · Toxics 14(10):880 · 2026 · [doi.org/10.3390/toxics14100880](https://doi.org/10.3390/toxics14100880)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+21. [[sources/zhelyazkova2026-human-milk-toxic-metals-review|Human Milk as a Biomonitor of Toxic Metal Exposure: Sources, Transfer Mechanisms, and Implications for Infant Health]]<span class="hmi-ref-meta">Zhelyazkova et al. · Nutrients 18(10):1527 · 2026 · [doi.org/10.3390/nu18101527](https://doi.org/10.3390/nu18101527)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+22. [[sources/kwon2026-endometriosis-toxic-elements-review|Dietary and Environmental Exposure to Toxic Elements in Endometriosis: A Missing Piece of the Etiological Puzzle?]]<span class="hmi-ref-meta">Kwon et al. · Nutrients 18(15):2489 · 2026 · [doi.org/10.3390/nu18152489](https://doi.org/10.3390/nu18152489)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
