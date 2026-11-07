@@ -93,6 +93,11 @@ jobs:
       pull-requests: write
       actions: write
       id-token: write
+    # npm ci runs Puppeteer's postinstall, which downloads chrome-headless-shell.
+    # Scheduled fill does not launch a browser. Skip that download so a reset
+    # connection cannot fail install (run 42316389810, read ECONNRESET).
+    env:
+      PUPPETEER_SKIP_DOWNLOAD: "1"
     steps:
       - uses: actions/checkout@v4
         with:

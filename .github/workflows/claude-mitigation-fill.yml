@@ -89,6 +89,10 @@ jobs:
       contents: write
       pull-requests: write
       id-token: write
+    # Same install flake as evidence fill: Puppeteer's postinstall downloads
+    # chrome-headless-shell, and this job does not launch a browser.
+    env:
+      PUPPETEER_SKIP_DOWNLOAD: "1"
     steps:
       - uses: actions/checkout@v4
         with:
