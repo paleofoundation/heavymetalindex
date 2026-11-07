@@ -28,7 +28,7 @@ sampling_year_range: null
 updated: 2026-11-07
 ---
 
-# King et al. 2024 — Mercury speciation in ASGM environmental samples, western Kenya
+# King et al. 2024 - Mercury speciation in ASGM environmental samples, western Kenya
 
 ## Overview
 
