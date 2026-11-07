@@ -6,6 +6,7 @@ import test from "node:test"
 import { CHECKS } from "../audit-page-structure.mjs"
 import { baselineScopeErrors, violationsInDiff } from "./diff-gate.mjs"
 import { recordFilledPage } from "./record-filled-page.mjs"
+import { unitIdFromHead, unitIdsFromPulls } from "./done-units.mjs"
 import { describeSelection, selectNextUnit } from "./select-next-unit.mjs"
 
 const EM = "\u2014"
@@ -285,6 +286,33 @@ test("a graph item with only pages[] supplies the ingredient or product slug", (
     assert.equal(selectNextUnit(root, { skip: ["HMI-FILL-0054", "HMI-FILL-0055"] }), null)
     fs.writeFileSync(
       path.join(root, "graph", "next_work.json"),
+      JSON.stringify({
+        items: [
+          {
+            unit: "HMI-FILL-0054",
+            builder: "hmi-evidence-fill",
+            blocked_by: [],
+            kind: "product",
+            slug: "cultivated-mushrooms",
+            ledger_status: "merged",
+          },
+          {
+            unit: "HMI-FILL-0057",
+            builder: "hmi-evidence-fill",
+            blocked_by: [],
+            kind: "ingredient",
+            slug: "kale",
+            ledger_status: "DEPOSITED",
+          },
+        ],
+      }),
+    )
+    const recorded = describeSelection(root)
+    assert.equal(recorded.unit.id, "HMI-FILL-0057")
+    assert.equal(recorded.unit.slug, "kale")
+    assert.equal(recorded.graph.skipped.done, 1)
+    fs.writeFileSync(
+      path.join(root, "graph", "next_work.json"),
       JSON.stringify([
         {
           unit: "HMI-FILL-0060",
@@ -387,6 +415,9 @@ test("the scheduled workflow carries the Claude fill contract", () => {
   assert.match(yml, /--allowedTools "Bash,Read,Edit,Write,Grep,Glob"/)
   assert.match(yml, /gh pr merge --auto --squash/)
   assert.match(yml, /evidence-fill\//)
+  assert.match(yml, /done-units\.mjs/)
+  assert.match(yml, /--state merged/)
+  assert.match(yml, /--force-with-lease=/)
   assert.match(yml, /npm test/)
   assert.match(yml, /lint:page-structure/)
   assert.match(yml, /lint:page-openings/)
@@ -407,6 +438,19 @@ test("the scheduled workflow carries the Claude fill contract", () => {
   assert.match(prompt, /thin-with-evidence-baseline\.txt/)
   assert.match(prompt, /latest main/)
   assert.match(prompt, /__PAGE__/)
+})
+
+test("open and merged evidence-fill heads are done units", () => {
+  assert.equal(unitIdFromHead("evidence-fill/HMI-FILL-0054"), "HMI-FILL-0054")
+  assert.equal(unitIdFromHead("evidence-fill/mitigation-423"), "")
+  assert.equal(unitIdFromHead("evidence-fill/SRC-coryell2019"), "")
+  const ids = unitIdsFromPulls([
+    { state: "MERGED", headRefName: "evidence-fill/HMI-FILL-0054" },
+    { state: "OPEN", headRefName: "evidence-fill/HMI-FILL-0050" },
+    { state: "CLOSED", headRefName: "evidence-fill/HMI-FILL-0001" },
+    { state: "MERGED", headRefName: "evidence-fill/mitigation-9" },
+  ])
+  assert.deepEqual(ids, ["HMI-FILL-0054", "HMI-FILL-0050"])
 })
 
 test("baseline files change only the filled page path", () => {

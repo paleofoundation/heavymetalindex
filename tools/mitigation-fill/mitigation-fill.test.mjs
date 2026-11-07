@@ -22,6 +22,7 @@ import {
   searchFood,
   unitAmbiguous,
 } from "./search.mjs"
+import { BASIS_SENTENCE, repairPage } from "./repair.mjs"
 import { fanoutPages, verifyTree } from "./verify.mjs"
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "../..")
@@ -303,6 +304,10 @@ test("page edits stay in the mitigation section", () => {
   assert.equal(pageEditAllowed(before, after).ok, true)
   assert.equal(pageEditAllowed(before, before.replace("olive.webp", "other.webp")).ok, false)
   assert.equal(pageEditAllowed(before, before.replace("None.", "Changed.")).ok, false)
+  const contract = page('## Heavy metal mitigation and remediation for seaweed\n\n<a id="keep"></a>\nGap.')
+  const contractAfter = contract.replace("Gap.", "Washing lowered cadmium. [[sources/cui2026|1]]")
+  assert.equal(pageEditAllowed(contract, contractAfter).ok, true)
+  assert.equal(pageEditAllowed(contract, contract.replace("Level.", "Changed.")).ok, false)
 })
 
 test("citation markup drops unicode dashes and keeps the next number", () => {
@@ -410,6 +415,40 @@ test("verify accepts a quoted mitigation edit and rejects a side edit", () => {
   fs.rmSync(dir, { recursive: true, force: true })
 })
 
+test("repair drops a new em dash and states an ambiguous basis", () => {
+  const before = page('## Mitigation for apple juice\n\n<a id="keep"></a>\nGap.')
+  const quote = "The beads were able to reduce the lead content in juice containing 10 ppm by up to 30%."
+  const after = before.replace("Gap.", `Beads cut lead ${EM} 30 percent. ${quote}`)
+  const map = {
+    papers: {
+      "10.1/x": {
+        doi: "10.1/x",
+        mappings: [{ ingredients: ["apple-juice"], products: [], effect_as_printed: quote, unit_ambiguous: true }],
+      },
+    },
+  }
+  const repaired = repairPage({
+    before,
+    after,
+    pageId: "ingredients/apple-juice",
+    beforeMap: { papers: {} },
+    afterMap: map,
+  })
+  assert.equal(repaired.includes(EM), false)
+  assert.match(repaired, /Beads cut lead - 30 percent/)
+  assert.match(repaired, new RegExp(BASIS_SENTENCE.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")))
+  assert.match(repaired, /<a id="keep"><\/a>/)
+  assert.match(repaired, /## Trade-offs\n\nNone\./)
+  const already = repairPage({
+    before,
+    after: before.replace("Gap.", `${quote} The paper does not state the weight basis. The concentration is as printed.`),
+    pageId: "ingredients/apple-juice",
+    beforeMap: { papers: {} },
+    afterMap: map,
+  })
+  assert.equal(already.split(BASIS_SENTENCE).length - 1, 1)
+})
+
 test("the scheduled workflow carries the mitigation fill contract", () => {
   const yml = fs.readFileSync(path.join(root, ".github/workflows/claude-mitigation-fill.yml"), "utf8")
   assert.match(yml, /cron: "0 1 \* \* \*"/)
@@ -433,5 +472,7 @@ test("the scheduled workflow carries the mitigation fill contract", () => {
   assert.match(yml, /npm run check/)
   assert.match(yml, /tools\/mitigation-fill\/pages\.mjs/)
   assert.match(yml, /tools\/mitigation-fill\/search\.mjs/)
+  assert.match(yml, /tools\/mitigation-fill\/repair\.mjs/)
+  assert.match(yml, /PUPPETEER_SKIP_CHROME_HEADLESS_SHELL_DOWNLOAD/)
   assert.match(yml, /europepmc|search\.mjs/)
 })

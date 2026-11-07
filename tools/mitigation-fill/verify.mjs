@@ -57,7 +57,14 @@ function git(args) {
 
 function show(base, file) {
   try {
-    return git(["show", `${base}:${file}`])
+    // A path that exists only on disk is a new file. git show writes
+    // "exists on disk, but not in '<base>'" and exits 128. Capture that
+    // stderr so a new source page is an absence, not a failed run.
+    return execFileSync("git", ["show", `${base}:${file}`], {
+      encoding: "utf8",
+      maxBuffer: 64 * 1024 * 1024,
+      stdio: ["ignore", "pipe", "pipe"],
+    })
   } catch {
     return null
   }
