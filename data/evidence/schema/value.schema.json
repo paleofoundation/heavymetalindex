@@ -75,6 +75,79 @@
         "needs_unit_review",
         "needs_legal_review"
       ]
+    },
+    "sampling_country": {
+      "type": ["string", "null"],
+      "pattern": "^[A-Z]{2}$",
+      "description": "ISO 3166-1 alpha-2 country where the sample was taken. Omit when the source does not state a sampling country. Not an author affiliation and not the source-page jurisdictions array."
+    },
+    "sampling_region": {
+      "type": ["string", "null"],
+      "minLength": 1,
+      "description": "Admin-1 name as printed (state, province, prefecture, governorate). Omit when no admin-1 name is printed."
+    },
+    "lat": {
+      "type": ["number", "null"],
+      "minimum": -90,
+      "maximum": 90,
+      "description": "Latitude in decimal degrees. Set only when the source prints a coordinate pair."
+    },
+    "lon": {
+      "type": ["number", "null"],
+      "minimum": -180,
+      "maximum": 180,
+      "description": "Longitude in decimal degrees. Set only together with lat."
+    },
+    "sampling_year_start": {
+      "type": ["integer", "null"],
+      "minimum": 1900,
+      "maximum": 2100,
+      "description": "First year the food was sampled or collected, not the publication year."
+    },
+    "sampling_year_end": {
+      "type": ["integer", "null"],
+      "minimum": 1900,
+      "maximum": 2100,
+      "description": "Last year the food was sampled or collected. Equal to sampling_year_start for a single year."
+    },
+    "harvest_year": {
+      "type": ["integer", "null"],
+      "minimum": 1900,
+      "maximum": 2100,
+      "description": "Harvest year when the source states one."
+    },
+    "practice": {
+      "enum": [
+        "flooded",
+        "awd",
+        "upland",
+        "organic",
+        "conventional",
+        "wastewater_irrigated",
+        "sludge_amended",
+        "mining_proximate",
+        "smelter_proximate",
+        "volcanic_soil",
+        "geogenic_as_groundwater",
+        "post_harvest_processing",
+        "unknown",
+        null
+      ],
+      "description": "Farming or exposure practice stated for the sample. unknown is allowed but is not written as a placeholder."
+    },
+    "geo_precision": {
+      "enum": ["point", "admin2", "admin1", "country", "multi_country", "unknown", null],
+      "description": "How precise the stated place is. point requires lat and lon. admin1 requires sampling_region. country requires sampling_country. multi_country means more than one country was stated and no single country is stored."
+    },
+    "geo_source": {
+      "type": ["string", "null"],
+      "minLength": 1,
+      "description": "Page, table, figure, frontmatter field, or CSV column the place and time were copied from."
+    },
+    "geo_provenance": {
+      "type": "object",
+      "additionalProperties": { "type": "string" },
+      "description": "Map of filled field name to the repo path and field or column it was copied from."
     }
   }
 }
