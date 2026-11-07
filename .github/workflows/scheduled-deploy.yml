@@ -19,7 +19,9 @@ name: manual-production-deploy
 #
 # The hook build runs tools/deploy/vercel-ignore-command.mjs first. That command
 # compares the SHA with the last successful deployment and skips docs, status,
-# and tracking-only ranges. See docs/ops/production-build-guard.md.
+# and tracking-only ranges. It does not read GitHub statuses. A same-SHA refresh
+# needs [production rebuild] in the commit message or HMI_FORCE_PRODUCTION_BUILD=1.
+# See docs/ops/production-build-guard.md.
 #
 # COST/FRESHNESS KNOB: manual workflow_dispatch is the only trigger here.
 # Do not add a cron unless a specific build budget has been approved.

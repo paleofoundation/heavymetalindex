@@ -7,6 +7,12 @@
 // The diff base is the last successful deployment for the branch
 // (VERCEL_GIT_PREVIOUS_SHA). A parent-commit diff is the wrong base: a
 // docs-only tip would hide content merged after the previous success.
+//
+// Public GitHub commit statuses are not an input. A success whose context
+// contains "vercel" can belong to another project, a preview, or an older
+// deployment. None of those may cancel this production build.
+
+export const PRODUCTION_REBUILD_TOKEN = "[production rebuild]"
 
 const SKIP_PREFIXES = [
   "docs/",
@@ -38,9 +44,6 @@ const SKIP_EXACT = new Set([
   "wiki/log.md",
 ])
 
-const IN_PROGRESS = new Set(["BUILDING", "QUEUED", "INITIALIZING", "ANALYZING", "PENDING"])
-const FAILED = new Set(["ERROR", "CANCELED", "BLOCKED", "FAILED"])
-
 export function normalizeRepoPath(filePath) {
   return String(filePath || "")
     .replaceAll("\\", "/")
@@ -62,28 +65,17 @@ export function pathAffectsProduction(filePath) {
   return true
 }
 
-function statesForHead(input) {
-  if (!Array.isArray(input.deploymentStates)) return null
-  const sha = String(input.headSha || "").toLowerCase()
-  return input.deploymentStates.filter((item) => {
-    if (!item?.state) return false
-    if (!item.sha || !sha) return true
-    return String(item.sha).toLowerCase() === sha
-  })
+// Commit message token, or the non-secret process flag HMI_FORCE_PRODUCTION_BUILD=1.
+// Any other flag value is ignored. The flag forces every build while it is set.
+export function explicitRebuildRequested(source = {}) {
+  const message = String(source.VERCEL_GIT_COMMIT_MESSAGE || source.message || "")
+  if (message.includes(PRODUCTION_REBUILD_TOKEN)) return true
+  return source.HMI_FORCE_PRODUCTION_BUILD === "1"
 }
 
 export function decideProductionBuild(input = {}) {
-  const states = statesForHead(input)
-  if (states) {
-    if (states.some((item) => item.state === "READY")) {
-      return { action: "skip", reason: "sha_already_ready" }
-    }
-    if (states.some((item) => IN_PROGRESS.has(item.state))) {
-      return { action: "skip", reason: "sha_already_in_progress" }
-    }
-    if (input.onFailedSha === "suppress" && states.some((item) => FAILED.has(item.state))) {
-      return { action: "skip", reason: "sha_failed_no_automatic_retry" }
-    }
+  if (input.forceRebuild === true) {
+    return { action: "build", reason: "explicit_rebuild_override" }
   }
 
   if (input.baseAvailable !== true || !Array.isArray(input.paths)) {
