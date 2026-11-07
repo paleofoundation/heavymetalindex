@@ -12,8 +12,8 @@ evidence_tier: A
 license: "CC BY-NC 4.0"
 raw_path: null
 metals: [Pb, Cd, Hg]
-ingredients: ["[[ingredients/non-soy-protein-source]]", "[[ingredients/herbal-extracts]]"]
-products: ["[[products/supplements-protein-collagen-powders]]", "[[products/dietary-supplements-vitamins-minerals]]"]
+ingredients: ["[[ingredients/non-soy-protein-source]]", "[[ingredients/herbal-botanicals]]"]
+products: ["[[products/supplements-protein-collagen-powders]]", "[[products/dietary-supplements]]"]
 matrices: [vitamin-mineral dietary supplements, herbal dietary supplements]
 jurisdictions: [PL]
 near_duplicates: []
@@ -62,7 +62,7 @@ Well-validated analytical methods with stated LOD and LOQ and reference material
 
 ## Related evidence
 - [[ingredients/non-soy-protein-source]]
-- [[ingredients/herbal-extracts]]
+- [[ingredients/herbal-botanicals]]
 - [[products/supplements-protein-collagen-powders]]
 - [[metals/lead]]
 - [[metals/cadmium]]
