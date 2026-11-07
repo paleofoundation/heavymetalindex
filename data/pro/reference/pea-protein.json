@@ -1,0 +1,481 @@
+{
+  "schema_version": 1,
+  "ingredient_slug": "pea-protein",
+  "method": "hmi-pooled-reference-v2",
+  "provenance": [
+    {
+      "path": "data/evidence/findings/by-page/ingredients/pea-protein.json",
+      "sha256": "734e3ad45f4e600be4379b779e9eb0bb5fb3799b473a0b71ec05dcc9086f9134"
+    },
+    {
+      "path": "data/evidence/findings/sources/ring2021-ireland-protein-powders-metals.json",
+      "sha256": "2185f004ad4e9879237d677e08b8afbd3847f77e85d522132c53c604f271db50"
+    },
+    {
+      "path": "wiki/sources/ring2021-ireland-protein-powders-metals.md",
+      "sha256": "2c809583003f790653d398dd0f9711ea72e5ed34466f604592c46506cd021094"
+    },
+    {
+      "path": "tools/engine/page/model.mjs",
+      "sha256": "a986feca11b5b037b157412fa37b8cd3d25ea324724c1a232025e182fa9e9537"
+    },
+    {
+      "path": "tools/engine/page/inputs.mjs",
+      "sha256": "dfe3c403df4bd4abeebb5dfc54e117f62f3e808768b1a7ada9433ab1f58807ab"
+    },
+    {
+      "path": "tools/engine/page/classify.mjs",
+      "sha256": "d998a703544965f4f978da97f74424b5b56dcffa6726edfd327304b90575281a"
+    },
+    {
+      "path": "tools/contracts/pilot/hmi-baseline.mjs",
+      "sha256": "f79551219d00b2d2974d71ea63e1e3a5e0d2eaa09979ebf706ddff0034a003c2"
+    },
+    {
+      "path": "tools/evidence/build-hmtc-aggregate-distributions.mjs",
+      "sha256": "b58178f8d49264b1aba2fe6f7231e3497101cc890faa61ba31523d91dcadaa13"
+    },
+    {
+      "path": "tools/pro/build-reference.mjs",
+      "sha256": "740b274f55d060342e82efed276ab5b2a7735b69853b782f3b6dd12dce7376a4"
+    }
+  ],
+  "references": [
+    {
+      "reference_id": "hmi-pooled-reference-v2:pea-protein-9abd3cdd6591:fd8bde5fc313",
+      "ingredient_slug": "pea-protein",
+      "analyte": "Pb",
+      "form": "Pea protein, powder or ground",
+      "basis": "native",
+      "basis_description": "Pea protein, powder or ground; As sold, as eaten or fresh weight, µg/kg; no moisture conversion",
+      "unit": "ug/kg",
+      "eligible": false,
+      "unavailable_reason": "insufficient_reference_units",
+      "n": 2,
+      "family_count": 1,
+      "sampling_unit": [
+        null
+      ],
+      "markets": [
+        {
+          "source_id": "ring2021-ireland-protein-powders-metals",
+          "market": "purchased online and from local retail outlets in Cork, Ireland (14 brands)"
+        }
+      ],
+      "period": [
+        {
+          "source_id": "ring2021-ireland-protein-powders-metals",
+          "period": {
+            "from": 2016,
+            "to": 2017,
+            "as_reported": "2016 and 2017"
+          }
+        }
+      ],
+      "median": {
+        "lower": 22.35,
+        "upper": 22.35,
+        "exact": true
+      },
+      "quartiles": {
+        "q1": {
+          "lower": 22.2,
+          "upper": 22.2,
+          "exact": true
+        },
+        "q3": {
+          "lower": 22.5,
+          "upper": 22.5,
+          "exact": true
+        }
+      },
+      "quantile_method": "Inverse weighted empirical CDF; midpoint at exact cumulative-weight boundaries",
+      "weighting": "family",
+      "limitations": "Ring et al. 2021 is the only compatible sampling family for pea protein, powder or ground on this basis in the completed pea protein ledger, so this single-family reference cannot represent other markets. Reporting regions and purchase markets are not growing areas. Non-detects with differing limits widen the bounds. A position is descriptive concentration, not a safety or compliance judgment.",
+      "sources": [
+        {
+          "source_id": "ring2021-ireland-protein-powders-metals",
+          "title": "Development, Validation and Application of an ICP-SFMS Method for the Determination of Metals in Protein Powder Samples, Sourced in Ireland, with Risk Assessment for Irish Consumers",
+          "url": "https://doi.org/10.3390/molecules26144347",
+          "page_url": "https://heavymetalindex.com/sources/ring2021-ireland-protein-powders-metals",
+          "sampling_unit": null,
+          "market": "purchased online and from local retail outlets in Cork, Ireland (14 brands)",
+          "period": {
+            "from": 2016,
+            "to": 2017,
+            "as_reported": "2016 and 2017"
+          }
+        }
+      ],
+      "members": [
+        {
+          "id": "med-291c53734fb0",
+          "finding_id": "ring2021-ireland-protein-powders-metals:Pb:protein-powder-pea-retail-sample-p2-retail-product:sample_value",
+          "source_id": "ring2021-ireland-protein-powders-metals",
+          "locator": "Table 6, p. 9",
+          "lower": 22.2,
+          "upper": 22.2,
+          "weight": 0.5
+        },
+        {
+          "id": "med-56524c5b0c01",
+          "finding_id": "ring2021-ireland-protein-powders-metals:Pb:protein-powder-pea-retail-sample-p12-retail-produc:sample_value",
+          "source_id": "ring2021-ireland-protein-powders-metals",
+          "locator": "Table 6, p. 9",
+          "lower": 22.5,
+          "upper": 22.5,
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "reference_id": "hmi-pooled-reference-v2:pea-protein-f78a9cb8a2a4:4e957c08e0ec",
+      "ingredient_slug": "pea-protein",
+      "analyte": "Cd",
+      "form": "Pea protein, powder or ground",
+      "basis": "native",
+      "basis_description": "Pea protein, powder or ground; As sold, as eaten or fresh weight, µg/kg; no moisture conversion",
+      "unit": "ug/kg",
+      "eligible": false,
+      "unavailable_reason": "insufficient_reference_units",
+      "n": 2,
+      "family_count": 1,
+      "sampling_unit": [
+        null
+      ],
+      "markets": [
+        {
+          "source_id": "ring2021-ireland-protein-powders-metals",
+          "market": "purchased online and from local retail outlets in Cork, Ireland (14 brands)"
+        }
+      ],
+      "period": [
+        {
+          "source_id": "ring2021-ireland-protein-powders-metals",
+          "period": {
+            "from": 2016,
+            "to": 2017,
+            "as_reported": "2016 and 2017"
+          }
+        }
+      ],
+      "median": {
+        "lower": 28,
+        "upper": 28,
+        "exact": true
+      },
+      "quartiles": {
+        "q1": {
+          "lower": 15.4,
+          "upper": 15.4,
+          "exact": true
+        },
+        "q3": {
+          "lower": 40.6,
+          "upper": 40.6,
+          "exact": true
+        }
+      },
+      "quantile_method": "Inverse weighted empirical CDF; midpoint at exact cumulative-weight boundaries",
+      "weighting": "family",
+      "limitations": "Ring et al. 2021 is the only compatible sampling family for pea protein, powder or ground on this basis in the completed pea protein ledger, so this single-family reference cannot represent other markets. Reporting regions and purchase markets are not growing areas. Non-detects with differing limits widen the bounds. A position is descriptive concentration, not a safety or compliance judgment.",
+      "sources": [
+        {
+          "source_id": "ring2021-ireland-protein-powders-metals",
+          "title": "Development, Validation and Application of an ICP-SFMS Method for the Determination of Metals in Protein Powder Samples, Sourced in Ireland, with Risk Assessment for Irish Consumers",
+          "url": "https://doi.org/10.3390/molecules26144347",
+          "page_url": "https://heavymetalindex.com/sources/ring2021-ireland-protein-powders-metals",
+          "sampling_unit": null,
+          "market": "purchased online and from local retail outlets in Cork, Ireland (14 brands)",
+          "period": {
+            "from": 2016,
+            "to": 2017,
+            "as_reported": "2016 and 2017"
+          }
+        }
+      ],
+      "members": [
+        {
+          "id": "med-c9fe7558fc15",
+          "finding_id": "ring2021-ireland-protein-powders-metals:Cd:protein-powder-pea-retail-sample-p2-retail-product:sample_value",
+          "source_id": "ring2021-ireland-protein-powders-metals",
+          "locator": "Table 6, p. 9",
+          "lower": 40.6,
+          "upper": 40.6,
+          "weight": 0.5
+        },
+        {
+          "id": "med-1d325e14e063",
+          "finding_id": "ring2021-ireland-protein-powders-metals:Cd:protein-powder-pea-retail-sample-p12-retail-produc:sample_value",
+          "source_id": "ring2021-ireland-protein-powders-metals",
+          "locator": "Table 6, p. 9",
+          "lower": 15.4,
+          "upper": 15.4,
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "reference_id": "hmi-pooled-reference-v2:pea-protein-56dce793f4ac:0f0d5493c000",
+      "ingredient_slug": "pea-protein",
+      "analyte": "tHg",
+      "form": "Pea protein, powder or ground",
+      "basis": "native",
+      "basis_description": "Pea protein, powder or ground; As sold, as eaten or fresh weight, µg/kg; no moisture conversion",
+      "unit": "ug/kg",
+      "eligible": false,
+      "unavailable_reason": "insufficient_reference_units",
+      "n": 2,
+      "family_count": 1,
+      "sampling_unit": [
+        null
+      ],
+      "markets": [
+        {
+          "source_id": "ring2021-ireland-protein-powders-metals",
+          "market": "purchased online and from local retail outlets in Cork, Ireland (14 brands)"
+        }
+      ],
+      "period": [
+        {
+          "source_id": "ring2021-ireland-protein-powders-metals",
+          "period": {
+            "from": 2016,
+            "to": 2017,
+            "as_reported": "2016 and 2017"
+          }
+        }
+      ],
+      "median": {
+        "lower": 2.15,
+        "upper": 2.25,
+        "exact": false
+      },
+      "quartiles": {
+        "q1": {
+          "lower": 0,
+          "upper": 0.2,
+          "exact": false
+        },
+        "q3": {
+          "lower": 4.3,
+          "upper": 4.3,
+          "exact": true
+        }
+      },
+      "quantile_method": "Inverse weighted empirical CDF; midpoint at exact cumulative-weight boundaries",
+      "weighting": "family",
+      "limitations": "Ring et al. 2021 is the only compatible sampling family for pea protein, powder or ground on this basis in the completed pea protein ledger, so this single-family reference cannot represent other markets. Reporting regions and purchase markets are not growing areas. Non-detects with differing limits widen the bounds. A position is descriptive concentration, not a safety or compliance judgment.",
+      "sources": [
+        {
+          "source_id": "ring2021-ireland-protein-powders-metals",
+          "title": "Development, Validation and Application of an ICP-SFMS Method for the Determination of Metals in Protein Powder Samples, Sourced in Ireland, with Risk Assessment for Irish Consumers",
+          "url": "https://doi.org/10.3390/molecules26144347",
+          "page_url": "https://heavymetalindex.com/sources/ring2021-ireland-protein-powders-metals",
+          "sampling_unit": null,
+          "market": "purchased online and from local retail outlets in Cork, Ireland (14 brands)",
+          "period": {
+            "from": 2016,
+            "to": 2017,
+            "as_reported": "2016 and 2017"
+          }
+        }
+      ],
+      "members": [
+        {
+          "id": "med-2c657ebcef83",
+          "finding_id": "ring2021-ireland-protein-powders-metals:tHg:protein-powder-pea-retail-sample-p2-retail-product:sample_value",
+          "source_id": "ring2021-ireland-protein-powders-metals",
+          "locator": "Table 6, p. 9",
+          "lower": 4.3,
+          "upper": 4.3,
+          "weight": 0.5
+        },
+        {
+          "id": "med-74084e36a688",
+          "finding_id": "ring2021-ireland-protein-powders-metals:tHg:protein-powder-pea-retail-sample-p12-retail-produc:not_detected",
+          "source_id": "ring2021-ireland-protein-powders-metals",
+          "locator": "Table 6, p. 9",
+          "lower": 0,
+          "upper": 0.2,
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "reference_id": "hmi-pooled-reference-v2:pea-protein-1b5722f9b52a:7f1585b6d1a3",
+      "ingredient_slug": "pea-protein",
+      "analyte": "Cr",
+      "form": "Pea protein, powder or ground",
+      "basis": "native",
+      "basis_description": "Pea protein, powder or ground; As sold, as eaten or fresh weight, µg/kg; no moisture conversion",
+      "unit": "ug/kg",
+      "eligible": false,
+      "unavailable_reason": "insufficient_reference_units",
+      "n": 2,
+      "family_count": 1,
+      "sampling_unit": [
+        null
+      ],
+      "markets": [
+        {
+          "source_id": "ring2021-ireland-protein-powders-metals",
+          "market": "purchased online and from local retail outlets in Cork, Ireland (14 brands)"
+        }
+      ],
+      "period": [
+        {
+          "source_id": "ring2021-ireland-protein-powders-metals",
+          "period": {
+            "from": 2016,
+            "to": 2017,
+            "as_reported": "2016 and 2017"
+          }
+        }
+      ],
+      "median": {
+        "lower": 249.95,
+        "upper": 249.95,
+        "exact": true
+      },
+      "quartiles": {
+        "q1": {
+          "lower": 210.7,
+          "upper": 210.7,
+          "exact": true
+        },
+        "q3": {
+          "lower": 289.2,
+          "upper": 289.2,
+          "exact": true
+        }
+      },
+      "quantile_method": "Inverse weighted empirical CDF; midpoint at exact cumulative-weight boundaries",
+      "weighting": "family",
+      "limitations": "Ring et al. 2021 is the only compatible sampling family for pea protein, powder or ground on this basis in the completed pea protein ledger, so this single-family reference cannot represent other markets. Reporting regions and purchase markets are not growing areas. Non-detects with differing limits widen the bounds. A position is descriptive concentration, not a safety or compliance judgment.",
+      "sources": [
+        {
+          "source_id": "ring2021-ireland-protein-powders-metals",
+          "title": "Development, Validation and Application of an ICP-SFMS Method for the Determination of Metals in Protein Powder Samples, Sourced in Ireland, with Risk Assessment for Irish Consumers",
+          "url": "https://doi.org/10.3390/molecules26144347",
+          "page_url": "https://heavymetalindex.com/sources/ring2021-ireland-protein-powders-metals",
+          "sampling_unit": null,
+          "market": "purchased online and from local retail outlets in Cork, Ireland (14 brands)",
+          "period": {
+            "from": 2016,
+            "to": 2017,
+            "as_reported": "2016 and 2017"
+          }
+        }
+      ],
+      "members": [
+        {
+          "id": "med-dee5e436cddb",
+          "finding_id": "ring2021-ireland-protein-powders-metals:Cr:protein-powder-pea-retail-sample-p2-retail-product:sample_value",
+          "source_id": "ring2021-ireland-protein-powders-metals",
+          "locator": "Table 6, p. 9",
+          "lower": 289.2,
+          "upper": 289.2,
+          "weight": 0.5
+        },
+        {
+          "id": "med-b94a7fcdfb67",
+          "finding_id": "ring2021-ireland-protein-powders-metals:Cr:protein-powder-pea-retail-sample-p12-retail-produc:sample_value",
+          "source_id": "ring2021-ireland-protein-powders-metals",
+          "locator": "Table 6, p. 9",
+          "lower": 210.7,
+          "upper": 210.7,
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "reference_id": "hmi-pooled-reference-v2:pea-protein-fb9ccbe22b32:db8c3b758701",
+      "ingredient_slug": "pea-protein",
+      "analyte": "Sn",
+      "form": "Pea protein, powder or ground",
+      "basis": "native",
+      "basis_description": "Pea protein, powder or ground; As sold, as eaten or fresh weight, µg/kg; no moisture conversion",
+      "unit": "ug/kg",
+      "eligible": false,
+      "unavailable_reason": "insufficient_reference_units",
+      "n": 2,
+      "family_count": 1,
+      "sampling_unit": [
+        null
+      ],
+      "markets": [
+        {
+          "source_id": "ring2021-ireland-protein-powders-metals",
+          "market": "purchased online and from local retail outlets in Cork, Ireland (14 brands)"
+        }
+      ],
+      "period": [
+        {
+          "source_id": "ring2021-ireland-protein-powders-metals",
+          "period": {
+            "from": 2016,
+            "to": 2017,
+            "as_reported": "2016 and 2017"
+          }
+        }
+      ],
+      "median": {
+        "lower": 178.2,
+        "upper": 178.2,
+        "exact": true
+      },
+      "quartiles": {
+        "q1": {
+          "lower": 26.7,
+          "upper": 26.7,
+          "exact": true
+        },
+        "q3": {
+          "lower": 329.7,
+          "upper": 329.7,
+          "exact": true
+        }
+      },
+      "quantile_method": "Inverse weighted empirical CDF; midpoint at exact cumulative-weight boundaries",
+      "weighting": "family",
+      "limitations": "Ring et al. 2021 is the only compatible sampling family for pea protein, powder or ground on this basis in the completed pea protein ledger, so this single-family reference cannot represent other markets. Reporting regions and purchase markets are not growing areas. Non-detects with differing limits widen the bounds. A position is descriptive concentration, not a safety or compliance judgment.",
+      "sources": [
+        {
+          "source_id": "ring2021-ireland-protein-powders-metals",
+          "title": "Development, Validation and Application of an ICP-SFMS Method for the Determination of Metals in Protein Powder Samples, Sourced in Ireland, with Risk Assessment for Irish Consumers",
+          "url": "https://doi.org/10.3390/molecules26144347",
+          "page_url": "https://heavymetalindex.com/sources/ring2021-ireland-protein-powders-metals",
+          "sampling_unit": null,
+          "market": "purchased online and from local retail outlets in Cork, Ireland (14 brands)",
+          "period": {
+            "from": 2016,
+            "to": 2017,
+            "as_reported": "2016 and 2017"
+          }
+        }
+      ],
+      "members": [
+        {
+          "id": "med-751716d83112",
+          "finding_id": "ring2021-ireland-protein-powders-metals:Sn:protein-powder-pea-retail-sample-p2-retail-product:sample_value",
+          "source_id": "ring2021-ireland-protein-powders-metals",
+          "locator": "Table 6, p. 9",
+          "lower": 26.7,
+          "upper": 26.7,
+          "weight": 0.5
+        },
+        {
+          "id": "med-abeeb7e2f3f6",
+          "finding_id": "ring2021-ireland-protein-powders-metals:Sn:protein-powder-pea-retail-sample-p12-retail-produc:sample_value",
+          "source_id": "ring2021-ireland-protein-powders-metals",
+          "locator": "Table 6, p. 9",
+          "lower": 329.7,
+          "upper": 329.7,
+          "weight": 0.5
+        }
+      ]
+    }
+  ],
+  "sha256": "2fe2f384a69c973803c008026d9da213c0566e19ff6707273f8b2470dc765fa1"
+}

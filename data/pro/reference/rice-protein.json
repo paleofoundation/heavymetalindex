@@ -1,0 +1,705 @@
+{
+  "schema_version": 1,
+  "ingredient_slug": "rice-protein",
+  "method": "hmi-pooled-reference-v2",
+  "provenance": [
+    {
+      "path": "data/evidence/findings/by-page/ingredients/rice-protein.json",
+      "sha256": "5508721d0d9aa2a0c0c9b6dc6c2ace988aad96e0a3c2de4bed6428ba29db4463"
+    },
+    {
+      "path": "data/evidence/findings/sources/fda2013-ias-rice-products-sampling.json",
+      "sha256": "de9853a17dad29482310750abb5fda85e1db16a421a1f7d71a7060a620d14912"
+    },
+    {
+      "path": "wiki/sources/fda2013-ias-rice-products-sampling.md",
+      "sha256": "e147ac1282b76f8e093e5b4c760344ce5016268ad7154d26fa6692e9c1a9280f"
+    },
+    {
+      "path": "data/evidence/findings/sources/cfia2020-toxic-metals-selected-foods-2018-19.json",
+      "sha256": "fbab96553111af32f58cdd61828bf5a3132d742588e5585e4a138694a2f86004"
+    },
+    {
+      "path": "wiki/sources/cfia2020-toxic-metals-selected-foods-2018-19.md",
+      "sha256": "2172fceb6c4884c8dda2ede534ac6cc95a1bf01169dc94182729184c0bcda1e3"
+    },
+    {
+      "path": "tools/engine/page/model.mjs",
+      "sha256": "a986feca11b5b037b157412fa37b8cd3d25ea324724c1a232025e182fa9e9537"
+    },
+    {
+      "path": "tools/engine/page/inputs.mjs",
+      "sha256": "dfe3c403df4bd4abeebb5dfc54e117f62f3e808768b1a7ada9433ab1f58807ab"
+    },
+    {
+      "path": "tools/engine/page/classify.mjs",
+      "sha256": "d998a703544965f4f978da97f74424b5b56dcffa6726edfd327304b90575281a"
+    },
+    {
+      "path": "tools/contracts/pilot/hmi-baseline.mjs",
+      "sha256": "f79551219d00b2d2974d71ea63e1e3a5e0d2eaa09979ebf706ddff0034a003c2"
+    },
+    {
+      "path": "tools/evidence/build-hmtc-aggregate-distributions.mjs",
+      "sha256": "b58178f8d49264b1aba2fe6f7231e3497101cc890faa61ba31523d91dcadaa13"
+    },
+    {
+      "path": "tools/pro/build-reference.mjs",
+      "sha256": "740b274f55d060342e82efed276ab5b2a7735b69853b782f3b6dd12dce7376a4"
+    }
+  ],
+  "references": [
+    {
+      "reference_id": "hmi-pooled-reference-v2:rice-protein-203badecdc99:9107b251b36e",
+      "ingredient_slug": "rice-protein",
+      "analyte": "tAs",
+      "form": "Rice protein, as sold",
+      "basis": "native",
+      "basis_description": "Rice protein, as sold; As sold, as eaten or fresh weight, µg/kg; no moisture conversion",
+      "unit": "ug/kg",
+      "eligible": true,
+      "unavailable_reason": null,
+      "n": 15,
+      "family_count": 1,
+      "sampling_unit": [
+        "samples"
+      ],
+      "markets": [
+        {
+          "source_id": "fda2013-ias-rice-products-sampling",
+          "market": "United States retail"
+        }
+      ],
+      "period": [
+        {
+          "source_id": "fda2013-ias-rice-products-sampling",
+          "period": {
+            "from": 2012,
+            "to": 2013,
+            "as_reported": "September 2012 sampling included in the September 2013 release"
+          }
+        }
+      ],
+      "median": {
+        "lower": 100,
+        "upper": 100,
+        "exact": true
+      },
+      "quartiles": {
+        "q1": {
+          "lower": 86,
+          "upper": 86,
+          "exact": true
+        },
+        "q3": {
+          "lower": 120,
+          "upper": 120,
+          "exact": true
+        }
+      },
+      "quantile_method": "Inverse weighted empirical CDF; midpoint at exact cumulative-weight boundaries",
+      "weighting": "family",
+      "limitations": "U.S. Food and Drug Administration 2013 is the only compatible sampling family for rice protein, as sold on this basis in the completed rice protein ledger, so this single-family reference cannot represent other markets. Reporting regions and purchase markets are not growing areas. Non-detects with differing limits widen the bounds. A position is descriptive concentration, not a safety or compliance judgment.",
+      "sources": [
+        {
+          "source_id": "fda2013-ias-rice-products-sampling",
+          "title": "Analytical Results from Inorganic Arsenic in Rice and Rice Products Sampling, September 2013",
+          "url": "https://www.fda.gov/food/environmental-contaminants-food/arsenic-food-and-dietary-supplements",
+          "page_url": "https://heavymetalindex.com/sources/fda2013-ias-rice-products-sampling",
+          "sampling_unit": "samples",
+          "market": "United States retail",
+          "period": {
+            "from": 2012,
+            "to": 2013,
+            "as_reported": "September 2012 sampling included in the September 2013 release"
+          }
+        }
+      ],
+      "members": [
+        {
+          "id": "med-c1aa6cc47416",
+          "finding_id": "fda2013-ias-rice-products-sampling:tAs:333511880:sample_value",
+          "source_id": "fda2013-ias-rice-products-sampling",
+          "locator": "Full analytical results, rice products",
+          "lower": 108,
+          "upper": 108,
+          "weight": 0.06666666666666667
+        },
+        {
+          "id": "med-900689f79a6c",
+          "finding_id": "fda2013-ias-rice-products-sampling:tAs:333511892:sample_value",
+          "source_id": "fda2013-ias-rice-products-sampling",
+          "locator": "Full analytical results, rice products",
+          "lower": 86,
+          "upper": 86,
+          "weight": 0.06666666666666667
+        },
+        {
+          "id": "med-de79b2bc1751",
+          "finding_id": "fda2013-ias-rice-products-sampling:tAs:333511937:sample_value",
+          "source_id": "fda2013-ias-rice-products-sampling",
+          "locator": "Full analytical results, rice products",
+          "lower": 94,
+          "upper": 94,
+          "weight": 0.06666666666666667
+        },
+        {
+          "id": "med-68f86dd4571e",
+          "finding_id": "fda2013-ias-rice-products-sampling:tAs:333687931:sample_value",
+          "source_id": "fda2013-ias-rice-products-sampling",
+          "locator": "Full analytical results, rice products",
+          "lower": 110,
+          "upper": 110,
+          "weight": 0.06666666666666667
+        },
+        {
+          "id": "med-9b6eaa9eb8b7",
+          "finding_id": "fda2013-ias-rice-products-sampling:tAs:333688312:sample_value",
+          "source_id": "fda2013-ias-rice-products-sampling",
+          "locator": "Full analytical results, rice products",
+          "lower": 120,
+          "upper": 120,
+          "weight": 0.06666666666666667
+        },
+        {
+          "id": "med-0cf1e3d52c6e",
+          "finding_id": "fda2013-ias-rice-products-sampling:tAs:333863609:lt_lod",
+          "source_id": "fda2013-ias-rice-products-sampling",
+          "locator": "Full analytical results, rice products",
+          "lower": 0,
+          "upper": 10,
+          "weight": 0.06666666666666667
+        },
+        {
+          "id": "med-9fcbabf3c405",
+          "finding_id": "fda2013-ias-rice-products-sampling:tAs:334093871:sample_value",
+          "source_id": "fda2013-ias-rice-products-sampling",
+          "locator": "Full analytical results, rice products",
+          "lower": 130,
+          "upper": 130,
+          "weight": 0.06666666666666667
+        },
+        {
+          "id": "med-579aaf54df99",
+          "finding_id": "fda2013-ias-rice-products-sampling:tAs:334093956:sample_value",
+          "source_id": "fda2013-ias-rice-products-sampling",
+          "locator": "Full analytical results, rice products",
+          "lower": 230,
+          "upper": 230,
+          "weight": 0.06666666666666667
+        },
+        {
+          "id": "med-3c76a3d4ac30",
+          "finding_id": "fda2013-ias-rice-products-sampling:tAs:334094067:sample_value",
+          "source_id": "fda2013-ias-rice-products-sampling",
+          "locator": "Full analytical results, rice products",
+          "lower": 100,
+          "upper": 100,
+          "weight": 0.06666666666666667
+        },
+        {
+          "id": "med-31ee12293583",
+          "finding_id": "fda2013-ias-rice-products-sampling:tAs:334620956:sample_value",
+          "source_id": "fda2013-ias-rice-products-sampling",
+          "locator": "Full analytical results, rice products",
+          "lower": 90,
+          "upper": 90,
+          "weight": 0.06666666666666667
+        },
+        {
+          "id": "med-9decda247dfc",
+          "finding_id": "fda2013-ias-rice-products-sampling:tAs:333512027:sample_value",
+          "source_id": "fda2013-ias-rice-products-sampling",
+          "locator": "Full analytical results, rice products",
+          "lower": 82,
+          "upper": 82,
+          "weight": 0.06666666666666667
+        },
+        {
+          "id": "med-045b935f5ba5",
+          "finding_id": "fda2013-ias-rice-products-sampling:tAs:333512299:sample_value",
+          "source_id": "fda2013-ias-rice-products-sampling",
+          "locator": "Full analytical results, rice products",
+          "lower": 94,
+          "upper": 94,
+          "weight": 0.06666666666666667
+        },
+        {
+          "id": "med-f72333143fe1",
+          "finding_id": "fda2013-ias-rice-products-sampling:tAs:333688277:sample_value",
+          "source_id": "fda2013-ias-rice-products-sampling",
+          "locator": "Full analytical results, rice products",
+          "lower": 110,
+          "upper": 110,
+          "weight": 0.06666666666666667
+        },
+        {
+          "id": "med-bbc6a948947b",
+          "finding_id": "fda2013-ias-rice-products-sampling:tAs:334095704:sample_value",
+          "source_id": "fda2013-ias-rice-products-sampling",
+          "locator": "Full analytical results, rice products",
+          "lower": 130,
+          "upper": 130,
+          "weight": 0.06666666666666667
+        },
+        {
+          "id": "med-f5d7a3750c2e",
+          "finding_id": "fda2013-ias-rice-products-sampling:tAs:334095916:lt_lod",
+          "source_id": "fda2013-ias-rice-products-sampling",
+          "locator": "Full analytical results, rice products",
+          "lower": 0,
+          "upper": 10,
+          "weight": 0.06666666666666667
+        }
+      ]
+    },
+    {
+      "reference_id": "hmi-pooled-reference-v2:rice-protein-8db3b75ddfe7:9cba856802fb",
+      "ingredient_slug": "rice-protein",
+      "analyte": "tAs",
+      "form": "Rice protein, powder or ground",
+      "basis": "native",
+      "basis_description": "Rice protein, powder or ground; As sold, as eaten or fresh weight, µg/kg; no moisture conversion",
+      "unit": "ug/kg",
+      "eligible": false,
+      "unavailable_reason": "insufficient_reference_units",
+      "n": 1,
+      "family_count": 1,
+      "sampling_unit": [
+        "samples"
+      ],
+      "markets": [
+        {
+          "source_id": "fda2013-ias-rice-products-sampling",
+          "market": "United States retail"
+        }
+      ],
+      "period": [
+        {
+          "source_id": "fda2013-ias-rice-products-sampling",
+          "period": {
+            "from": 2012,
+            "to": 2013,
+            "as_reported": "September 2012 sampling included in the September 2013 release"
+          }
+        }
+      ],
+      "median": {
+        "lower": 260,
+        "upper": 260,
+        "exact": true
+      },
+      "quartiles": {
+        "q1": {
+          "lower": 260,
+          "upper": 260,
+          "exact": true
+        },
+        "q3": {
+          "lower": 260,
+          "upper": 260,
+          "exact": true
+        }
+      },
+      "quantile_method": "Inverse weighted empirical CDF; midpoint at exact cumulative-weight boundaries",
+      "weighting": "family",
+      "limitations": "U.S. Food and Drug Administration 2013 is the only compatible sampling family for rice protein, powder or ground on this basis in the completed rice protein ledger, so this single-family reference cannot represent other markets. Reporting regions and purchase markets are not growing areas. Non-detects with differing limits widen the bounds. A position is descriptive concentration, not a safety or compliance judgment.",
+      "sources": [
+        {
+          "source_id": "fda2013-ias-rice-products-sampling",
+          "title": "Analytical Results from Inorganic Arsenic in Rice and Rice Products Sampling, September 2013",
+          "url": "https://www.fda.gov/food/environmental-contaminants-food/arsenic-food-and-dietary-supplements",
+          "page_url": "https://heavymetalindex.com/sources/fda2013-ias-rice-products-sampling",
+          "sampling_unit": "samples",
+          "market": "United States retail",
+          "period": {
+            "from": 2012,
+            "to": 2013,
+            "as_reported": "September 2012 sampling included in the September 2013 release"
+          }
+        }
+      ],
+      "members": [
+        {
+          "id": "med-756a64cc4b6e",
+          "finding_id": "fda2013-ias-rice-products-sampling:tAs:333512053:sample_value",
+          "source_id": "fda2013-ias-rice-products-sampling",
+          "locator": "Full analytical results, rice products",
+          "lower": 260,
+          "upper": 260,
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "reference_id": "hmi-pooled-reference-v2:rice-protein-e572877ed71a:69ec811f795b",
+      "ingredient_slug": "rice-protein",
+      "analyte": "iAs",
+      "form": "Rice protein, as sold",
+      "basis": "native",
+      "basis_description": "Rice protein, as sold; As sold, as eaten or fresh weight, µg/kg; no moisture conversion",
+      "unit": "ug/kg",
+      "eligible": true,
+      "unavailable_reason": null,
+      "n": 16,
+      "family_count": 1,
+      "sampling_unit": [
+        "samples"
+      ],
+      "markets": [
+        {
+          "source_id": "fda2013-ias-rice-products-sampling",
+          "market": "United States retail"
+        }
+      ],
+      "period": [
+        {
+          "source_id": "fda2013-ias-rice-products-sampling",
+          "period": {
+            "from": 2012,
+            "to": 2013,
+            "as_reported": "September 2012 sampling included in the September 2013 release"
+          }
+        }
+      ],
+      "median": {
+        "lower": 45.5,
+        "upper": 45.5,
+        "exact": true
+      },
+      "quartiles": {
+        "q1": {
+          "lower": 38,
+          "upper": 38,
+          "exact": true
+        },
+        "q3": {
+          "lower": 69,
+          "upper": 69,
+          "exact": true
+        }
+      },
+      "quantile_method": "Inverse weighted empirical CDF; midpoint at exact cumulative-weight boundaries",
+      "weighting": "family",
+      "limitations": "U.S. Food and Drug Administration 2013 is the only compatible sampling family for rice protein, as sold on this basis in the completed rice protein ledger, so this single-family reference cannot represent other markets. Reporting regions and purchase markets are not growing areas. Non-detects with differing limits widen the bounds. A position is descriptive concentration, not a safety or compliance judgment.",
+      "sources": [
+        {
+          "source_id": "fda2013-ias-rice-products-sampling",
+          "title": "Analytical Results from Inorganic Arsenic in Rice and Rice Products Sampling, September 2013",
+          "url": "https://www.fda.gov/food/environmental-contaminants-food/arsenic-food-and-dietary-supplements",
+          "page_url": "https://heavymetalindex.com/sources/fda2013-ias-rice-products-sampling",
+          "sampling_unit": "samples",
+          "market": "United States retail",
+          "period": {
+            "from": 2012,
+            "to": 2013,
+            "as_reported": "September 2012 sampling included in the September 2013 release"
+          }
+        }
+      ],
+      "members": [
+        {
+          "id": "med-3edcb9c049f9",
+          "finding_id": "fda2013-ias-rice-products-sampling:iAs:333511880:sample_value",
+          "source_id": "fda2013-ias-rice-products-sampling",
+          "locator": "Full analytical results, rice products",
+          "lower": 50,
+          "upper": 50,
+          "weight": 0.0625
+        },
+        {
+          "id": "med-0ed1596b8d13",
+          "finding_id": "fda2013-ias-rice-products-sampling:iAs:333511892:sample_value",
+          "source_id": "fda2013-ias-rice-products-sampling",
+          "locator": "Full analytical results, rice products",
+          "lower": 37,
+          "upper": 37,
+          "weight": 0.0625
+        },
+        {
+          "id": "med-4753e2b06623",
+          "finding_id": "fda2013-ias-rice-products-sampling:iAs:333511937:sample_value",
+          "source_id": "fda2013-ias-rice-products-sampling",
+          "locator": "Full analytical results, rice products",
+          "lower": 43,
+          "upper": 43,
+          "weight": 0.0625
+        },
+        {
+          "id": "med-c5f928551700",
+          "finding_id": "fda2013-ias-rice-products-sampling:iAs:333687931:sample_value",
+          "source_id": "fda2013-ias-rice-products-sampling",
+          "locator": "Full analytical results, rice products",
+          "lower": 71,
+          "upper": 71,
+          "weight": 0.0625
+        },
+        {
+          "id": "med-6fb3dac32c27",
+          "finding_id": "fda2013-ias-rice-products-sampling:iAs:333687971:sample_value",
+          "source_id": "fda2013-ias-rice-products-sampling",
+          "locator": "Full analytical results, rice products",
+          "lower": 42,
+          "upper": 42,
+          "weight": 0.0625
+        },
+        {
+          "id": "med-1a3e3c2fb165",
+          "finding_id": "fda2013-ias-rice-products-sampling:iAs:333688312:sample_value",
+          "source_id": "fda2013-ias-rice-products-sampling",
+          "locator": "Full analytical results, rice products",
+          "lower": 67,
+          "upper": 67,
+          "weight": 0.0625
+        },
+        {
+          "id": "med-dce7efedecb6",
+          "finding_id": "fda2013-ias-rice-products-sampling:iAs:334093871:sample_value",
+          "source_id": "fda2013-ias-rice-products-sampling",
+          "locator": "Full analytical results, rice products",
+          "lower": 71,
+          "upper": 71,
+          "weight": 0.0625
+        },
+        {
+          "id": "med-e25df5fe2b73",
+          "finding_id": "fda2013-ias-rice-products-sampling:iAs:334093956:sample_value",
+          "source_id": "fda2013-ias-rice-products-sampling",
+          "locator": "Full analytical results, rice products",
+          "lower": 152,
+          "upper": 152,
+          "weight": 0.0625
+        },
+        {
+          "id": "med-076b072e8393",
+          "finding_id": "fda2013-ias-rice-products-sampling:iAs:334094067:sample_value",
+          "source_id": "fda2013-ias-rice-products-sampling",
+          "locator": "Full analytical results, rice products",
+          "lower": 72,
+          "upper": 72,
+          "weight": 0.0625
+        },
+        {
+          "id": "med-281c445cce79",
+          "finding_id": "fda2013-ias-rice-products-sampling:iAs:334094485:sample_value",
+          "source_id": "fda2013-ias-rice-products-sampling",
+          "locator": "Full analytical results, rice products",
+          "lower": 39,
+          "upper": 39,
+          "weight": 0.0625
+        },
+        {
+          "id": "med-7f7d5ca4b5db",
+          "finding_id": "fda2013-ias-rice-products-sampling:iAs:334620956:sample_value",
+          "source_id": "fda2013-ias-rice-products-sampling",
+          "locator": "Full analytical results, rice products",
+          "lower": 44,
+          "upper": 44,
+          "weight": 0.0625
+        },
+        {
+          "id": "med-7695a3835463",
+          "finding_id": "fda2013-ias-rice-products-sampling:iAs:333512027:sample_value",
+          "source_id": "fda2013-ias-rice-products-sampling",
+          "locator": "Full analytical results, rice products",
+          "lower": 37,
+          "upper": 37,
+          "weight": 0.0625
+        },
+        {
+          "id": "med-b963e5eeb17c",
+          "finding_id": "fda2013-ias-rice-products-sampling:iAs:333512299:sample_value",
+          "source_id": "fda2013-ias-rice-products-sampling",
+          "locator": "Full analytical results, rice products",
+          "lower": 30,
+          "upper": 30,
+          "weight": 0.0625
+        },
+        {
+          "id": "med-6eac75ae944b",
+          "finding_id": "fda2013-ias-rice-products-sampling:iAs:333512301:sample_value",
+          "source_id": "fda2013-ias-rice-products-sampling",
+          "locator": "Full analytical results, rice products",
+          "lower": 25,
+          "upper": 25,
+          "weight": 0.0625
+        },
+        {
+          "id": "med-58c51d242440",
+          "finding_id": "fda2013-ias-rice-products-sampling:iAs:333688277:sample_value",
+          "source_id": "fda2013-ias-rice-products-sampling",
+          "locator": "Full analytical results, rice products",
+          "lower": 47,
+          "upper": 47,
+          "weight": 0.0625
+        },
+        {
+          "id": "med-73ab86738f27",
+          "finding_id": "fda2013-ias-rice-products-sampling:iAs:334095704:sample_value",
+          "source_id": "fda2013-ias-rice-products-sampling",
+          "locator": "Full analytical results, rice products",
+          "lower": 53,
+          "upper": 53,
+          "weight": 0.0625
+        }
+      ]
+    },
+    {
+      "reference_id": "hmi-pooled-reference-v2:rice-protein-f841e7876af9:1edec0e47c24",
+      "ingredient_slug": "rice-protein",
+      "analyte": "iAs",
+      "form": "Rice protein, powder or ground",
+      "basis": "native",
+      "basis_description": "Rice protein, powder or ground; As sold, as eaten or fresh weight, µg/kg; no moisture conversion",
+      "unit": "ug/kg",
+      "eligible": false,
+      "unavailable_reason": "insufficient_reference_units",
+      "n": 1,
+      "family_count": 1,
+      "sampling_unit": [
+        "samples"
+      ],
+      "markets": [
+        {
+          "source_id": "fda2013-ias-rice-products-sampling",
+          "market": "United States retail"
+        }
+      ],
+      "period": [
+        {
+          "source_id": "fda2013-ias-rice-products-sampling",
+          "period": {
+            "from": 2012,
+            "to": 2013,
+            "as_reported": "September 2012 sampling included in the September 2013 release"
+          }
+        }
+      ],
+      "median": {
+        "lower": 99,
+        "upper": 99,
+        "exact": true
+      },
+      "quartiles": {
+        "q1": {
+          "lower": 99,
+          "upper": 99,
+          "exact": true
+        },
+        "q3": {
+          "lower": 99,
+          "upper": 99,
+          "exact": true
+        }
+      },
+      "quantile_method": "Inverse weighted empirical CDF; midpoint at exact cumulative-weight boundaries",
+      "weighting": "family",
+      "limitations": "U.S. Food and Drug Administration 2013 is the only compatible sampling family for rice protein, powder or ground on this basis in the completed rice protein ledger, so this single-family reference cannot represent other markets. Reporting regions and purchase markets are not growing areas. Non-detects with differing limits widen the bounds. A position is descriptive concentration, not a safety or compliance judgment.",
+      "sources": [
+        {
+          "source_id": "fda2013-ias-rice-products-sampling",
+          "title": "Analytical Results from Inorganic Arsenic in Rice and Rice Products Sampling, September 2013",
+          "url": "https://www.fda.gov/food/environmental-contaminants-food/arsenic-food-and-dietary-supplements",
+          "page_url": "https://heavymetalindex.com/sources/fda2013-ias-rice-products-sampling",
+          "sampling_unit": "samples",
+          "market": "United States retail",
+          "period": {
+            "from": 2012,
+            "to": 2013,
+            "as_reported": "September 2012 sampling included in the September 2013 release"
+          }
+        }
+      ],
+      "members": [
+        {
+          "id": "med-80583dafa094",
+          "finding_id": "fda2013-ias-rice-products-sampling:iAs:333512053:sample_value",
+          "source_id": "fda2013-ias-rice-products-sampling",
+          "locator": "Full analytical results, rice products",
+          "lower": 99,
+          "upper": 99,
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "reference_id": "hmi-pooled-reference-v2:rice-protein-e0c00e626210:14175b3d1421",
+      "ingredient_slug": "rice-protein",
+      "analyte": "tHg",
+      "form": "Rice protein, powder or ground",
+      "basis": "native",
+      "basis_description": "Rice protein, powder or ground; As sold, as eaten or fresh weight, µg/kg; no moisture conversion",
+      "unit": "ug/kg",
+      "eligible": false,
+      "unavailable_reason": "insufficient_reference_units",
+      "n": 1,
+      "family_count": 1,
+      "sampling_unit": [
+        "samples"
+      ],
+      "markets": [
+        {
+          "source_id": "cfia2020-toxic-metals-selected-foods-2018-19",
+          "market": "Retail in Halifax, Montreal, Toronto, Ottawa, Vancouver and Calgary"
+        }
+      ],
+      "period": [
+        {
+          "source_id": "cfia2020-toxic-metals-selected-foods-2018-19",
+          "period": {
+            "from": 2018,
+            "to": 2019,
+            "as_reported": "1 April 2018 to 21 March 2019 in the sampling section; the report title says 31 March 2019"
+          }
+        }
+      ],
+      "median": {
+        "lower": 22,
+        "upper": 22,
+        "exact": true
+      },
+      "quartiles": {
+        "q1": {
+          "lower": 22,
+          "upper": 22,
+          "exact": true
+        },
+        "q3": {
+          "lower": 22,
+          "upper": 22,
+          "exact": true
+        }
+      },
+      "quantile_method": "Inverse weighted empirical CDF; midpoint at exact cumulative-weight boundaries",
+      "weighting": "family",
+      "limitations": "Canadian Food Inspection Agency 2020 is the only compatible sampling family for rice protein, powder or ground on this basis in the completed rice protein ledger, so this single-family reference cannot represent other markets. Reporting regions and purchase markets are not growing areas. Non-detects with differing limits widen the bounds. A position is descriptive concentration, not a safety or compliance judgment.",
+      "sources": [
+        {
+          "source_id": "cfia2020-toxic-metals-selected-foods-2018-19",
+          "title": "Toxic Metals in Selected Foods – April 1, 2018 to March 31, 2019: Food chemistry – Targeted surveys – Final report",
+          "url": "https://inspection.canada.ca/en/food-safety-industry/food-chemistry-and-microbiology/testing-reports-and-journal-articles/2018-2019-toxic-metals",
+          "page_url": "https://heavymetalindex.com/sources/cfia2020-toxic-metals-selected-foods-2018-19",
+          "sampling_unit": "samples",
+          "market": "Retail in Halifax, Montreal, Toronto, Ottawa, Vancouver and Calgary",
+          "period": {
+            "from": 2018,
+            "to": 2019,
+            "as_reported": "1 April 2018 to 21 March 2019 in the sampling section; the report title says 31 March 2019"
+          }
+        }
+      ],
+      "members": [
+        {
+          "id": "med-a3588e6d47a4",
+          "finding_id": "cfia2020-toxic-metals-selected-foods-2018-19:tHg:brown-rice-protein-powder:sample_value",
+          "source_id": "cfia2020-toxic-metals-selected-foods-2018-19",
+          "locator": "Mercury section, p. 8",
+          "lower": 22,
+          "upper": 22,
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "sha256": "a5787a9eece4ac87273a80b6ee0f670cbf45e72a1efbf835845b5209ed42af81"
+}
