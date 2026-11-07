@@ -99,10 +99,6 @@ The review's discussion of urinary biomarkers for renal toxicity (beta-2-microgl
 
 Open access under CC BY-NC license. Source retrieved from PMC OA S3 (PMC8207007, PMID 33730790). SHA-256 of the PDF: 74f3f299c40d2954e63aa4a4ed8402d5967815c5ab78c0e3820c16cbdbe2ebf3. The authors declare no conflict of interest. No concerns about retrieval or document versioning.
 
-## Wiki pages updated on ingest
-
-- [[metals/cadmium]]
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
