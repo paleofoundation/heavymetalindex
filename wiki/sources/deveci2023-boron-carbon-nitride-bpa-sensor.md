@@ -15,7 +15,7 @@ raw_path: /Users/kmfp/hmi-evidence-deposits/deposits/SRC-deveci2023-boron-carbon
 raw_sha256: "f6f1e1b387bf03b577ba94501f7212a3e994732493512435a8c9ffb1908ee73e"
 metals: [B]
 ingredients: []
-products: [orange-juice]
+products: [fruit-juices-non-apple]
 matrices: [orange-juice, food-samples]
 jurisdictions: [TR]
 near_duplicates: []
