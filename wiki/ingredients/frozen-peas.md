@@ -14,8 +14,8 @@ audience:
   - consumer
   - app
 wiki_doi: null
-updated: '2026-10-22'
-sources: 4
+updated: '2026-11-07'
+sources: 9
 page_contract_version: 1.0.0
 question_record: data/evidence/engine/ingredient/frozen-peas/question-record.json
 synthesis_record: data/evidence/engine/ingredient/frozen-peas/synthesis.json
@@ -62,11 +62,11 @@ ingredient_chrome:
     Lead, cadmium, total arsenic and total mercury in frozen peas: monitoring
     results, studies, references by form and basis, limits, testing and
     controls.
-  updated: '2026-10-22'
-  reference_count: 4
+  updated: '2026-11-07'
+  reference_count: 9
   snapshot:
     - label: Research sources referenced
-      count: 2
+      count: 7
     - label: Official guidance and instruments
       count: 2
   key_evidence:
@@ -188,7 +188,17 @@ The table holds every extracted frozen peas result: one row for each statistic a
 <a id="hmi-ing-012"></a>
 <a id="which-source-attribution-claims-are-measured-modelled-inferred-or-unresolved"></a>
 
-No study in the library compared frozen peas from contaminated and ordinary settings, so the routes by which metals reach it are not measured here.
+Peas (Pisum sativum L.) take up cadmium, lead, nickel, and chromium from soil through root absorption, with subsequent translocation to stems and leaves. Five studies involving experimentally contaminated substrates document these pathways in Pisum sativum.
+
+Cadmium enters pea roots from soil and translocates to leaves in a dose-dependent manner. A field experiment in Faisalabad, Pakistan, applied cadmium as CdCl2 at soil concentrations of 120 and 240 mg/kg and measured Cd accumulation in roots and leaves by ICP-MS. Leaf Cd content increased by approximately 58% above control at 120 mg/kg soil Cd and by approximately 78% above control at 240 mg/kg soil Cd. Root Cd increased by approximately 64% and 81% at the same doses. At both doses, Cd stress significantly reduced leaf concentrations of nitrogen (31-142% below control), iron (51-135%), zinc (37-123%), potassium (31-80%), and magnesium (25-86%), indicating competitive interference with essential micronutrient uptake.<sup class="cite">[[sources/hashmat2026-acinetobacter-cadmium-pea|5]]<span class="cite-card"><span class="cite-card-head"><span class="cite-card-authors">Hashmat S et al. · 2026</span><a class="cite-card-title" href="../sources/hashmat2026-acinetobacter-cadmium-pea">Microbial intervention by Acinetobacter schindleri SR-5-1 alleviates cadmium toxicity in pea cultivation</a></span><span class="cite-card-body"><span class="cite-card-journal">Plant Signaling and Behavior</span><a class="cite-card-review" href="../sources/hashmat2026-acinetobacter-cadmium-pea">Read source →</a></span></span></sup> A hydroponic study confirmed cadmium uptake by pea roots and translocation to leaves: at 9 uM CdCl2 (approximately 1 mg/L) applied for 12 days, roots accumulated approximately 120 mg/kg Cd; leaf Cd was lower. Silica nanoparticle co-treatment reduced leaf Cd by 67.88% and root Cd by 22.24% relative to Cd-only plants, indicating that root absorption can be partially suppressed by silica binding.<sup class="cite">[[sources/yang2025-silica-nanoparticles-cadmium-pea-seedlings|6]]<span class="cite-card"><span class="cite-card-head"><span class="cite-card-authors">Yang X et al. · 2025</span><a class="cite-card-title" href="../sources/yang2025-silica-nanoparticles-cadmium-pea-seedlings">Silica nanoparticles alleviate cadmium toxicity to Pisum sativum L. seedling growth by remodeling carbon-nitrogen metabolism</a></span><span class="cite-card-body"><span class="cite-card-journal">Frontiers in Plant Science</span><a class="cite-card-review" href="../sources/yang2025-silica-nanoparticles-cadmium-pea-seedlings">Read source →</a></span></span></sup>
+
+Chromium applied to soil also enters pea roots and accumulates in shoot tissue. A pot experiment in Faisalabad applied 100 uM Cr (approximately 5.2 mg/L) as CrCl3 and measured Cr in soil, shoot, and grain by atomic absorption spectrometry. Soil, shoot, and grain Cr increased 69.4% (Supreme variety) and 44.5% (Meteor variety) above control. Chromium stress also disrupted ionic balance: shoot K+ decreased 39.4-39.7% and shoot Ca2+ decreased 33.1-39.8% relative to control, while shoot Na+ increased 60.9-67.1%.<sup class="cite">[[sources/faryad2026-chromium-stress-trehalose-pea|7]]<span class="cite-card"><span class="cite-card-head"><span class="cite-card-authors">Faryad H et al. · 2026</span><a class="cite-card-title" href="../sources/faryad2026-chromium-stress-trehalose-pea">Mitigating chromium stress on pea (Pisum sativum L.) by foliar application of trehalose</a></span><span class="cite-card-body"><span class="cite-card-journal">BMC Plant Biology</span><a class="cite-card-review" href="../sources/faryad2026-chromium-stress-trehalose-pea">Read source →</a></span></span></sup>
+
+Pea plants respond to nickel and lead through antioxidant defense and metal chelation gene pathways. A greenhouse study in Rize, Turkiye, exposed three forage pea cultivars (Pisum sativum ssp. arvense) to nickel sulphate (20 and 40 mg/L) and lead acetate trihydrate (20 and 40 mg/L). Expression of APX (ascorbate peroxidase), CAT (catalase), MT (metallothionein), and PCS (phytochelatin synthase) genes was measured by qRT-PCR. At 40 mg/L lead acetate trihydrate, APX expression in the Kirazli cultivar reached approximately 43-fold above control. MT expression in Kurtbey reached approximately 8.7-fold above control at 20 mg/L lead. These responses indicate the plant is sequestering metal ions intracellularly via phytochelatins and scavenging reactive oxygen species. Lead acetate trihydrate at 20 mg/L reduced mean plant height from 46.88 cm to 39.66 cm (p less than 0.05), confirming phytotoxicity at the applied dose. ANOVA found significant APX gene expression differences attributable to heavy metal treatment (p = 0.0472).<sup class="cite">[[sources/mesci2025-nickel-lead-stress-genes-forage-pea|8]]<span class="cite-card"><span class="cite-card-head"><span class="cite-card-authors">Mesci S, Catal MI · 2025</span><a class="cite-card-title" href="../sources/mesci2025-nickel-lead-stress-genes-forage-pea">Effects of nickel sulphate and lead acetate trihydrate on heavy metal stress-related gene activities in forage pea (Pisum sativum ssp. arvense L.) in Turkiye</a></span><span class="cite-card-body"><span class="cite-card-journal">Frontiers in Plant Science</span><a class="cite-card-review" href="../sources/mesci2025-nickel-lead-stress-genes-forage-pea">Read source →</a></span></span></sup>
+
+Copper enters pea seedling roots and distributes to stems and leaves. In a greenhouse study measuring copper in soil-cultivated pea seedling tissues, root Cu ranged from 0.392 to 0.552 mg/kg without added Cu and increased to 0.462 to 0.649 mg/kg with 10 mg/L Cu addition in the substrate. Stem and leaf Cu concentrations were similarly elevated by Cu addition. This study used a pesticide co-exposure design; the Cu tissue concentrations are reported from ICP-MS on fresh tissue samples.<sup class="cite">[[sources/xiong2026-copper-tolfenpyrad-pea-seedlings|9]]<span class="cite-card"><span class="cite-card-head"><span class="cite-card-authors">Xiong W et al. · 2026</span><a class="cite-card-title" href="../sources/xiong2026-copper-tolfenpyrad-pea-seedlings">Effect of copper and cultivation condition on the transport, metabolism, and potential risk of tolfenpyrad in pea seedlings (Pisum sativum Linn.)</a></span><span class="cite-card-body"><span class="cite-card-journal">iScience</span><a class="cite-card-review" href="../sources/xiong2026-copper-tolfenpyrad-pea-seedlings">Read source →</a></span></span></sup>
+
+All five studies used experimentally elevated metal concentrations (soil Cd 120-240 mg/kg, Cr 100 uM, Ni and Pb 20-40 mg/L solution, Cu 10 mg/L addition). These are stress physiology experiments, not food surveys. The concentration levels applied substantially exceed typical agricultural soil background levels for most of these metals. The experiments document that the uptake pathway is active and that metals do translocate from roots to shoot tissue; they do not provide finished-food concentrations for frozen peas sold commercially.
 
 
 
@@ -233,7 +243,15 @@ No processing study for metals in this food is in the library yet.
 
 Lot testing against the applicable limit is the check that can be verified.
 
-<p class="hmi-mitigation-gap" data-mitigation-gap>No measured way to lower metals in this food is in the library yet.</p>
+Two categories of pre-harvest intervention have been evaluated in Pisum sativum experiments using experimentally elevated metal concentrations. Both are pathway-stage interventions; neither has been validated under commercial growing conditions.
+
+Foliar application of trehalose reduced chromium accumulation in pea shoot and grain tissue. In a pot experiment applying 100 uM Cr (approximately 5.2 mg/L) to soil, trehalose sprayed at 10 mM concentration reduced shoot Cr by 31.6% in the Supreme variety and 22.3% in the Meteor variety relative to untreated Cr-stressed plants. Trehalose at 5 mM produced smaller reductions (7-18% in shoots). The intervention also partially restored the K+ and Ca2+ imbalances caused by Cr stress, with shoot K+ increasing 42.8-47.3% above the Cr-stressed control after 10 mM trehalose.<sup class="cite">[[sources/faryad2026-chromium-stress-trehalose-pea|7]]<span class="cite-card"><span class="cite-card-head"><span class="cite-card-authors">Faryad H et al. · 2026</span><a class="cite-card-title" href="../sources/faryad2026-chromium-stress-trehalose-pea">Mitigating chromium stress on pea (Pisum sativum L.) by foliar application of trehalose</a></span><span class="cite-card-body"><span class="cite-card-journal">BMC Plant Biology</span><a class="cite-card-review" href="../sources/faryad2026-chromium-stress-trehalose-pea">Read source →</a></span></span></sup>
+
+Rhizosphere bacterial inoculation reduced cadmium accumulation in pea leaves and roots. In a field experiment in Faisalabad applying CdCl2 at 120 and 240 mg/kg soil, inoculation with Acinetobacter schindleri SR-5-1 reduced leaf Cd content by approximately 7.21% at 120 mg/kg and 10.85% at 240 mg/kg, relative to non-inoculated stressed plants. The reductions are partial; at 240 mg/kg soil Cd, inoculated plants still accumulated substantially more Cd than control plants grown in uncontaminated soil.<sup class="cite">[[sources/hashmat2026-acinetobacter-cadmium-pea|5]]<span class="cite-card"><span class="cite-card-head"><span class="cite-card-authors">Hashmat S et al. · 2026</span><a class="cite-card-title" href="../sources/hashmat2026-acinetobacter-cadmium-pea">Microbial intervention by Acinetobacter schindleri SR-5-1 alleviates cadmium toxicity in pea cultivation</a></span><span class="cite-card-body"><span class="cite-card-journal">Plant Signaling and Behavior</span><a class="cite-card-review" href="../sources/hashmat2026-acinetobacter-cadmium-pea">Read source →</a></span></span></sup>
+
+Silica nanoparticle co-treatment in a hydroponic study reduced leaf cadmium by 67.88% and root cadmium by 22.24% at 9 uM CdCl2. The mechanism appears to involve silica binding at the root surface, reducing initial Cd absorption before shoot translocation occurs.<sup class="cite">[[sources/yang2025-silica-nanoparticles-cadmium-pea-seedlings|6]]<span class="cite-card"><span class="cite-card-head"><span class="cite-card-authors">Yang X et al. · 2025</span><a class="cite-card-title" href="../sources/yang2025-silica-nanoparticles-cadmium-pea-seedlings">Silica nanoparticles alleviate cadmium toxicity to Pisum sativum L. seedling growth by remodeling carbon-nitrogen metabolism</a></span><span class="cite-card-body"><span class="cite-card-journal">Frontiers in Plant Science</span><a class="cite-card-review" href="../sources/yang2025-silica-nanoparticles-cadmium-pea-seedlings">Read source →</a></span></span></sup>
+
+No intervention study measured finished-food metal concentrations in commercially produced or frozen peas. The experiments document biologically plausible reduction mechanisms; regulatory or commercial application remains unvalidated.
 
 
 
@@ -308,7 +326,7 @@ No source in the library converted frozen peas concentrations into a verified es
 <a id="hmi-ing-036"></a>
 <a id="what-remains-unresolved-when-was-each-answer-reviewed-and-what-changed-in-this-version"></a>
 
-Every source record that names frozen peas was decided on its content: 4 occurrence extracted, 4 records in all. The occurrence table renders every extracted result; held values remain visible with their reason.
+Every source record that names frozen peas was decided on its content: 4 occurrence sources extracted, 9 records in all. Five additional sources document cadmium, chromium, nickel, lead, and copper uptake pathways in Pisum sativum under experimentally elevated metal concentrations; these are classified as plant-uptake pathway context and are not entered into the occurrence table. The occurrence table renders every extracted result; held values remain visible with their reason.
 
 References identify the sources used in these answers. The Sources index preserves additional discovery links; inclusion there does not mean a source has been reviewed for this assessment. Corrections, completed searches, new direct evidence and changes in requirements should reopen the relevant answer.
 
@@ -334,6 +352,11 @@ Works cited on this page, in citation-number order. See [Sources](#sources) for 
 2. [[sources/fda2022-tds-elements-fy2018-fy2020|FY2018-FY2020 TDS Elements Analytical Results]]<span class="hmi-ref-meta">U.S. Food and Drug Administration · FDA Total Diet Study · 2022 · [www.fda.gov](https://www.fda.gov/food/fda-total-diet-study-tds/fda-total-diet-study-tds-results)</span><span class="hmi-ref-tag">Dataset</span>
 3. [[sources/tokay2022-balikesir-canned-frozen-vegetables|Determination of Some Elements in Canned and Frozen Vegetables Sold in Balıkesir (Türkiye) Markets and Nutritional Assessment]]<span class="hmi-ref-meta">Tokay F · Adıyaman University Journal of Science (ADYU J SCI) 12(2), 230-243 · 2022 · [doi.org/10.37094/adyujsci.1181786](https://doi.org/10.37094/adyujsci.1181786)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 4. [[sources/spungen2024-fda-tds-infant-lead-cadmium|Infants' and young children's dietary exposures to lead and cadmium: FDA total diet study 2018-2020]]<span class="hmi-ref-meta">Spungen JH and et al. · Food Additives & Contaminants: Part A · 2024 · [doi.org/10.1080/19440049.2024.2396910](https://doi.org/10.1080/19440049.2024.2396910)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+5. [[sources/hashmat2026-acinetobacter-cadmium-pea|Microbial intervention by Acinetobacter schindleri SR-5-1 alleviates cadmium toxicity in pea cultivation]]<span class="hmi-ref-meta">Hashmat S et al. · Plant Signaling and Behavior · 2026 · [doi.org/10.1080/15592324.2026.2689808](https://doi.org/10.1080/15592324.2026.2689808)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+6. [[sources/yang2025-silica-nanoparticles-cadmium-pea-seedlings|Silica nanoparticles alleviate cadmium toxicity to Pisum sativum L. seedling growth by remodeling carbon-nitrogen metabolism]]<span class="hmi-ref-meta">Yang X et al. · Frontiers in Plant Science · 2025 · [doi.org/10.3389/fpls.2025.1641785](https://doi.org/10.3389/fpls.2025.1641785)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+7. [[sources/faryad2026-chromium-stress-trehalose-pea|Mitigating chromium stress on pea (Pisum sativum L.) by foliar application of trehalose]]<span class="hmi-ref-meta">Faryad H et al. · BMC Plant Biology · 2026 · [doi.org/10.1186/s12870-026-09747-5](https://doi.org/10.1186/s12870-026-09747-5)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+8. [[sources/mesci2025-nickel-lead-stress-genes-forage-pea|Effects of nickel sulphate and lead acetate trihydrate on heavy metal stress-related gene activities in forage pea (Pisum sativum ssp. arvense L.) in Turkiye]]<span class="hmi-ref-meta">Mesci S, Catal MI · Frontiers in Plant Science · 2025 · [doi.org/10.3389/fpls.2025.1549488](https://doi.org/10.3389/fpls.2025.1549488)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+9. [[sources/xiong2026-copper-tolfenpyrad-pea-seedlings|Effect of copper and cultivation condition on the transport, metabolism, and potential risk of tolfenpyrad in pea seedlings (Pisum sativum Linn.)]]<span class="hmi-ref-meta">Xiong W et al. · iScience · 2026 · [doi.org/10.1016/j.isci.2026.116318](https://doi.org/10.1016/j.isci.2026.116318)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
@@ -346,4 +369,6 @@ Browse [Frozen peas Sources](../sources/index?topic=ingredients%2Ffrozen-peas) f
 ## Update history
 
 22 October 2026: Rebuilt from every frozen peas record in the library: 4 occurrence sources, references by form and basis, same-study contrasts.
+
+7 November 2026: Evidence Fill HMI-TOPIC-0206. Added 5 plant-uptake pathway sources (Hashmat 2026, Yang 2025, Faryad 2026, Mesci 2025, Xiong 2026) covering cadmium, chromium, nickel, lead, and copper uptake in Pisum sativum. Filled "How metals reach frozen peas" and "Mitigation for frozen peas" sections. Sources updated from 4 to 9.
 <!-- END: hmi-page-history -->
