@@ -11,50 +11,232 @@ access_url: "https://doi.org/10.3358/shokueishi.47.51"
 retrieval_date: 2026-09-25
 source_type: peer-reviewed
 evidence_tier: A
+tier_rationale: "Peer-reviewed primary study published in the Journal of the Food Hygienic Society of Japan by researchers at the National Institute of Health Sciences (NIHS), Japan's national regulatory science body. ICP with ultrasonic nebulizer used throughout; determination limits stated; spike recovery 62-100% across seven analytes and four matrix types. The study applies ISO 8124-3 and the Japanese official food-sanitation method in parallel, making it directly relevant to international regulatory comparisons."
 license: "all-rights-reserved"
 raw_path: "raw/antimony-verify/Kawamura_2006_baby_toys.pdf"
 raw_sha256: c19dcb27301784c8adfc80a3291c655b31844ea2584685d1c97a26c073929b6f
-metals: [Sb]
+metals: [Sb, As, Ba, Cd, Cr, Pb, Hg, Se]
 ingredients: []
-products: ["[[products/toys-painted]]"]
-matrices: ["baby-toys"]
+products: ["[[products/toys-painted]]", "[[products/toys-crafts-other]]", "[[products/art-craft-materials]]"]
+matrices: ["baby-toys", "toy-paint-film", "polyvinyl-chloride"]
 jurisdictions: [JP]
+sample_n: 55
+sample_population: "45 baby toys and 10 paints purchased in 2001 and 2002 from toy stores, supermarkets, department stores, and 100-yen shops in the Tokyo metropolitan area. Toy types: dolls (8), animal toys (8), pseudofood (3), balls (12), inflated air toys (8), crayons (1), and clay (1). An additional 4 dolls and 6 animal toys with wide-area paint were separated into paint and substrate and analyzed separately, giving 55 test specimens total. Paints were 4 household/commercial paints (vinyl resin clear, vinyl resin yellow, cashew nut resin red, acrylic resin green) used as method-validation reference materials. The toy population is Japanese retail 2001-2002."
+sampling_locations: ["Tokyo metropolitan area, Japan"]
+sampling_year_range: "2001-2002"
 evidence_fitness:
-  supports: ["one antimony content result in a baby toy or paint"]
-  does_not_support: ["a market distribution"]
-audience: [regulator, educator, consumer, app]
+  supports:
+    - "content levels of antimony, arsenic, barium, cadmium, chromium, lead, mercury, and selenium in PVC toy paint films and toy body materials purchased in Japan in 2001-2002"
+    - "ISO 8124-3 migration test results for barium, cadmium, chromium, and lead in a subset of 16 high-content samples"
+    - "comparison of ISO 8124-3 migration with the Japanese official food-sanitation migration method"
+    - "single antimony detection at 5.3 mg/kg in one animal toy body material (orange PVC)"
+  does_not_support:
+    - "a market-wide distribution of any element in Japanese or non-Japanese toys beyond this 45-toy purchase sample"
+    - "migration exceedances: all measured migration values were below ISO 8124-3 limits"
+    - "arsenic, mercury, or selenium content above determination limits in any toy paint or body material tested"
+public_evidence_label: "Reconstructable dataset"
+review_state: machine_extracted
+audience: [regulator, educator, app]
 sources: 0
 wiki_doi: null
-updated: 2026-09-25
+updated: 2026-11-07
 ---
 
-# Kawamura 2006 ,  Eight elements in baby toys
+# Kawamura 2006 -- Eight harmful elements in Japanese baby toys and ISO 8124-3 migration tests
 
-Antimony was found in one sample among 45 baby toys and 10 paints, at 5.3 mg/kg (PDF p.1 and p.5). That is a content result.
+## Overview
 
-## Key numbers
+Researchers at Japan's National Institute of Health Sciences (NIHS) measured eight elements -- antimony (Sb), arsenic (As), barium (Ba), cadmium (Cd), chromium (Cr), lead (Pb), mercury (Hg), and selenium (Se) -- in 45 baby toys and 10 paints (mostly polyvinyl chloride) purchased in the Tokyo metropolitan area in 2001 and 2002. All 55 test specimens were analyzed for total content by ICP optical emission spectrometry after microwave acid digestion. A subset of 16 high-content samples was then subjected to the ISO 8124-3 migration test (0.07 mol/L HCl, 37 degrees C, 2 hours). Migration results were also compared with the Japanese Food Sanitation Law official toy migration method (water, 40 degrees C, 30 minutes).
 
-Antimony was found in one sample among 45 baby toys and 10 paints, at 5.3 mg/kg (PDF p.1 and p.5). That is a content result.
+Barium was detected in every sample at 0.3 to 3,700 mg/kg. Lead (1.5 to 1,300 mg/kg), chromium (0.5 to 280 mg/kg), cadmium (0.2 to 26 mg/kg), and antimony (5.3 mg/kg in one sample) were also detected. Arsenic, mercury, and selenium were not detected above determination limits in any toy paint or body material. All measured ISO 8124-3 migration values were below the standard's limits. The ISO method produced higher migration than the Japanese official water-based method.
 
-## Methods (brief)
+## Study design and samples
 
-Content and migration tests. Brand names are not repeated.
+The study was conducted under Japan's Ministry of Health, Labour and Welfare research program on safety of food utensils, containers, and packaging (fiscal year 2002).
 
-## Evidence fitness
+Toys purchased in 2001 and 2002 from Tokyo-area toy stores, supermarkets, department stores, and 100-yen shops were classified by type: 41 painted or colored toys (8 dolls, 8 animal toys, 3 pseudofood items, 12 balls, 8 inflated air toys, 1 crayon, and 1 clay item) and 4 crayons of different colors. For the 10 toys with wide-area surface paint (4 dolls, 6 animal toys), the paint film and toy body were separated and analyzed independently, giving 55 total test specimens. Four commercial household paints (vinyl resin clear, vinyl resin yellow, cashew nut resin red, and acrylic resin green) served as reference materials for method comparison. PVC identification was confirmed by the Beilstein flame test on a copper wire.
 
-Supports the single 5.3 mg/kg content result and the sample count. Does not support a migration exceedance for antimony.
+## Methods
+
+### Reagents and standards
+
+Hydrochloric acid (analytical grade, 36%), nitric acid (toxic-metal grade, 61%), and hydrogen peroxide (special grade, 30%) were from Sigma-Aldrich Japan (Wako). Single-element standard solutions at 1,000 mg/L were diluted in 0.07 mol/L HCl for calibration.
+
+### Instrumentation
+
+- ICP optical emission spectrometry: Seiko Instruments SPS7800
+- Ultrasonic nebulizer: CETAC U-5000AT+
+- Microwave digestion system: Milestone ETHOS900
+
+### ICP operating conditions
+
+Radio-frequency power: 1.2 kW. Carrier gas (Ar): 0.35 L/min. Plasma gas (Ar): 16 L/min. Auxiliary gas (Ar): 0.6 L/min.
+
+### Analytical wavelengths
+
+| Element | Wavelength (nm) |
+| --- | --- |
+| Antimony (Sb) | 206.833 |
+| Arsenic (As) | 193.696 |
+| Barium (Ba) | 455.403 |
+| Cadmium (Cd) | 214.438 |
+| Chromium (Cr) | 283.563 |
+| Lead (Pb) | 220.353 |
+| Mercury (Hg) | 253.652 |
+| Selenium (Se) | 196.026 |
+
+### Determination limits
+
+Standard solutions were prepared in 0.07 mol/L HCl. Calibration was linear from 5 to 200 micrograms/L (ICP only) or 2 to 10 times more sensitive with the ultrasonic nebulizer attachment.
+
+Determination limits in standard solution (units: micrograms per liter), from Table 2 (source, p. 53):
+
+| Equipment | Sb | As | Ba | Cd | Cr | Pb | Hg | Se |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| ICP only | 100 | 100 | 5.0 | 5.0 | 20 | 50 | 100 | 200 |
+| ICP + ultrasonic nebulizer | 50 | 50 | 1.0 | 1.0 | 5.0 | 10 | 500 | 50 |
+
+Mercury sensitivity declined with the ultrasonic nebulizer (500 micrograms/L vs 100 micrograms/L); all other elements improved 2- to 10-fold. The authors used ICP without the nebulizer for mercury and the nebulizer configuration for all other seven elements. Measuring at 25 times sample dilution (the ISO 8124-3 preparation), the determination limits in solid material were below 1/10 of the ISO migration limits for all elements except mercury. Mercury was achievable only to 1/5 of the migration limit by ICP and 2/5 by ICP with nebulizer.
+
+### Sample preparation
+
+**Microwave digestion (paints):** 0.3 g paint film in Teflon vessel; 3 mL nitric acid + 0.6 mL hydrogen peroxide; heating sequence 250 W/1 min, 0 W/1 min, 250 W/5 min, 400 W/5 min, 650 W/5 min, 400 W/30 min; diluted to 15 mL with 0.07 mol/L HCl after cooling.
+
+**Electric muffle furnace dry-ashing (toy bodies):** 0.5 g in silica evaporating dish; 1.2 mL sulfuric acid added; heated on hot plate until sulfuric acid fumed and most material was carbonized; ashed at 450 degrees C; 1-2 mL HCl added, dried on hot plate; diluted to 15 mL with 0.07 mol/L HCl.
+
+The comparison of microwave and dry-ashing methods on four commercial paints (Table 3, p. 53) showed higher barium values by microwave (6,100 vs 1,100 mg/kg for the yellow vinyl resin paint) because barium sulfate -- an insoluble white pigment -- partially converted to soluble barium during microwave acid digestion but was lost as precipitate during dry-ashing. Mercury and selenium were not detected by dry-ashing, consistent with volatilization at 450 degrees C. Microwave digestion was adopted for all 55 test specimens.
+
+### LOD/LOQ
+
+Not reported as separate LOD/LOQ values. The paper reports determination limits as concentrations in standard solution (Table 2). In-material determination limits, back-calculated from the 25x dilution factor and the instrument determination limits, are stated to be at or below 1/10 of the ISO migration limits for seven of eight elements.
+
+### CRM and spike recovery
+
+Spike recovery was tested on 4 paint films and 3 toy body materials (polyvinyl chloride). Paints were spiked at 7.5 mg element per 0.3 g paint film (25 mg/kg). Toy materials were spiked at 7.5 mg element per 0.5 g material.
+
+Spike recoveries from Table 4 (source, p. 54):
+
+| Sample | Material | Sb | As | Ba | Cd | Cr | Pb | Hg | Se |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Paint 1 | Vinyl resin | 89 | 70 | 97 | 88 | 94 | 89 | 84 | 93 |
+| Paint 2 | Vinyl resin | 83 | 62 | n/a | 79 | 84 | 73 | 76 | 77 |
+| Paint 3 | Cashew nut resin | 82 | 73 | n/a | 76 | 80 | 78 | 79 | 88 |
+| Paint 4 | Acrylic resin | 86 | 89 | n/a | 78 | 86 | 78 | 77 | 77 |
+| Toy material 1 | Polyvinyl chloride | 82 | 93 | 91 | 89 | 88 | 90 | 79 | 86 |
+| Toy material 2 | Polyvinyl chloride | 93 | 87 | 98 | 90 | 97 | 91 | 81 | 100 |
+| Toy material 3 | Polyvinyl chloride | 80 | 76 | 93 | 82 | 90 | 82 | 82 | 97 |
+
+Overall recovery range: 62-100%. Paints 2-4 had large white precipitate (barium sulfate) which was filtered off before measurement, explaining the lower barium recovery for those matrices and the lower overall recoveries for arsenic (62-73%). The authors note that barium in toy materials was measured as acid-soluble barium only, not total barium.
+
+## Results -- content in toy paint films
+
+Ten paint film specimens scraped from widely painted toys were analyzed. All contained barium. Cadmium was detected in 3 of 10, chromium in 4 of 10, and lead in 4 of 10 specimens. Antimony, arsenic, mercury, and selenium were not detected in any paint film.
+
+Element content in toy paint films (units: mg/kg dry paint), from Table 5 (source, p. 54):
+
+| Sample | Color | Sb | As | Ba | Cd | Cr | Pb | Hg | Se |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | Light green + white | ND | ND | 6.6 | 1.9 | ND | 4.1 | ND | ND |
+| 2 | Pink + white | ND | ND | 1.9 | 1.0 | 1.3 | 3.2 | ND | ND |
+| 3 | Green | ND | ND | 3.5 | ND | 1.7 | 6.2 | ND | ND |
+| 4 | Red | ND | ND | 12 | ND | ND | ND | ND | ND |
+| 5 | Green + yellow | ND | ND | 14 | ND | 38 | 220 | ND | ND |
+| 6 | Black | ND | ND | 15 | 1.5 | ND | ND | ND | ND |
+| 7 | Yellow | ND | ND | 51 | ND | ND | ND | ND | ND |
+| 8 | Red | ND | ND | 270 | ND | ND | ND | ND | ND |
+| 9 | Red-purple | ND | ND | 440 | ND | ND | ND | ND | ND |
+| 10 | Blue | ND | ND | 2,600 | ND | 1.4 | ND | ND | ND |
+| Determination limit | n/a | 5.0 | 5.0 | 0.3 | 0.3 | 1.0 | 2.5 | 5.0 | 10 |
+
+ND = not detected.
+
+Barium ranged 1.9 to 2,600 mg/kg. The highest barium value was paint specimen 10 (blue). Paint specimen 5 (green + yellow) had the highest lead (220 mg/kg) and chromium (38 mg/kg) simultaneously, consistent with chrome yellow (lead chromate) pigment use. Lead and chromium co-detected in the same specimen are a systematic feature: in four specimens where both were above detection limits, they were detected together.
+
+## Results -- content in toy body materials
+
+Forty-five toy body materials were analyzed. All contained barium. Chromium was detected in 14 specimens, lead in 5 specimens, cadmium in 4 specimens, and antimony in 1 specimen (5.3 mg/kg, an orange animal toy body). Arsenic, mercury, and selenium were not detected in any toy body material.
+
+Inflated air toys (8 specimens) consistently had among the highest barium values: 510 to 1,500 mg/kg. Ball specimen 10 (brown) had the highest single-specimen lead (1,300 mg/kg) and the highest chromium (280 mg/kg) among body materials. Ball specimen 12 (pink + yellow) had the highest cadmium among body materials (26 mg/kg). Crayon specimen 3 (red) had the highest barium in the entire dataset, at 3,700 mg/kg. Animal toy specimen 4 (orange) was the sole detection of antimony, at 5.3 mg/kg, and also had chromium at 38 mg/kg and lead at 200 mg/kg in the same specimen.
+
+Summary of body-material content ranges across all 45 specimens (determination limits: Sb 3.0, As 3.0, Ba 0.2, Cd 0.2, Cr 0.5, Pb 1.5, Hg 3.0, Se 6.0 mg/kg):
+
+| Element | Detected in (of 45) | Range when detected (mg/kg) |
+| --- | --- | --- |
+| Barium | 45 | 0.3 to 3,700 |
+| Chromium | 14 | 0.5 to 280 |
+| Lead | 5 | 1.5 to 1,300 |
+| Cadmium | 4 | 0.2 to 26 |
+| Antimony | 1 | 5.3 |
+| Arsenic | 0 | n/a |
+| Mercury | 0 | n/a |
+| Selenium | 0 | n/a |
+
+## Results -- ISO 8124-3 migration tests
+
+Sixteen specimens with the highest content values were selected for ISO 8124-3 migration testing (0.4 g sample ground to powder, extracted in 10 mL of 0.07 mol/L HCl at 37 degrees C for 2 hours total: 1 hour continuous shaking followed by 1 hour standing). Results are from Table 7 (source, p. 56).
+
+Barium migrated from all 16 specimens. The highest migration was paint specimen 10 (190 mg/kg). Cadmium migrated from 2 specimens (ball 12: 1.6 mg/kg; paint 1: 0.7 mg/kg). Chromium migrated from 1 specimen (paint 5: 1.0 mg/kg). Lead migrated from 2 specimens (paint 5: 5.2 mg/kg; ball 10: 3.9 mg/kg). Antimony, arsenic, mercury, and selenium were not detected above migration determination limits in any specimen.
+
+ISO 8124-3 migration limits for comparison (Table 1, source, p. 52), units: mg/kg in material:
+
+| Material type | Sb | As | Ba | Cd | Cr | Pb | Hg | Se |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| All toys except modeling clay/finger paint | 60 | 25 | 1,000 | 75 | 60 | 90 | 60 | 500 |
+| Modeling clay and finger paint | 60 | 25 | 250 | 50 | 25 | 90 | 25 | 500 |
+
+All measured migration values were below the applicable ISO 8124-3 limits. The highest barium migration (190 mg/kg, paint specimen 10) was approximately 1/5 of the 1,000 mg/kg general limit. Lead migration in paint specimen 5 (5.2 mg/kg) was approximately 1/18 of the 90 mg/kg general limit. The authors note that high content does not reliably predict high migration: specimens with high content were sometimes low migrators, and paint specimens migrated more readily than toy body materials.
+
+## Comparison of ISO and Japanese official migration methods
+
+Four specimens that showed multiple element migration under ISO 8124-3 were tested in parallel under the Japanese Food Sanitation Law official method: intact sample in water at 40 degrees C for 30 minutes. No migration was detected above determination limits by the water/40-degree method for any element in any of the four specimens. The ISO method (ground powder in 0.07 mol/L HCl at 37 degrees C for 2 hours) gave measurably higher migration in all cases.
+
+The authors note that the Japanese official method was designed to simulate saliva (pure water) when a child puts a toy in its mouth, while the ISO 8124-3 method simulates gastric fluid (dilute HCl) if a toy part is swallowed. The ISO method therefore represents a worst-case internal exposure scenario rather than an oral-contact scenario. Despite the higher ISO migration values, all results remained below the ISO limits.
+
+## Regulatory context
+
+ISO 8124-3 (1997) specifies migration limits for the same eight elements in units of mg/kg in toy material, based on the scenario of a child ingesting a fragment of toy material. The Japan Toy Association had already adopted ISO 8124-3 as a voluntary standard ("ST criteria, Part 3, chemical properties") at the time of this study.
+
+The Japanese Food Sanitation Law regulated toy migration with different limits and a different test methodology (water extraction): lead 1 mg/kg, cadmium 0.5 mg/kg, and polyethylene and similar plastics lead 1 mg/kg. Those limits are substantially tighter than the ISO 8124-3 migration limits on a per-element basis, but the test method extracts less, as this study confirms.
+
+## Speciation
+
+No speciation. All eight elements are reported as total element. Chromium is not distinguished as hexavalent versus trivalent. Arsenic is total arsenic. Barium solubility is affected by matrix chemistry (barium sulfate is poorly soluble in dilute HCl), so the measured barium values in toy bodies reflect acid-soluble barium only.
 
 ## Limitations
 
-One detection. Not a wipe study.
+- The 45-toy sample was purchased from one metropolitan retail market (Tokyo) in 2001 and 2002; it is not a statistically representative survey of Japanese or global toy markets.
+- Arsenic determination limits (3.0 mg/kg in toy body, 5.0 mg/kg in paint film) are well below the ISO 8124-3 migration limit of 25 mg/kg, so non-detection is informative at migration-relevant concentrations.
+- Mercury determination was limited: the nebulizer configuration degraded mercury sensitivity (500 micrograms/L vs 100 micrograms/L), and mercury was achievable only to 1/5 of the ISO limit by ICP and 2/5 by ICP with nebulizer.
+- Recovery for arsenic in paint matrices was 62-73%, the lowest in the dataset, partly attributable to barium sulfate coprecipitation during filtration.
+- Barium measurements reflect acid-soluble barium; insoluble barium sulfate was filtered before ICP analysis.
+- One antimony detection was in a toy body material, not a paint film; the orange color and co-occurrence with chromium (38 mg/kg) and lead (200 mg/kg) suggest lead chromate pigment and antimony trioxide (a PVC stabilizer) as probable sources.
+
+## Evidence fitness
+
+This source supports individual-specimen content values and ISO 8124-3 migration test results for eight elements in 45 baby toys and 10 paints purchased in Tokyo in 2001 and 2002. The dataset is reconstructable from Tables 5 and 6 and Table 7. It supports the conclusion that barium was universally present (almost certainly from barium sulfate or barium-based pigments), that lead and chromium co-occurred in a subset of specimens consistent with lead chromate pigment use, and that migration from all specimens tested was below ISO 8124-3 limits. It does not support population-level distribution estimates for Japanese or international toy markets.
+
+## Implications
+
+The dataset provides specimen-level content and migration data for eight elements across a range of PVC toy types purchased in Japan in 2001-2002. For the wiki, the most relevant observation is the near-universal barium detection (all 55 specimens) and the co-detection pattern of lead and chromium in colored paints consistent with lead chromate pigment. The single antimony detection (5.3 mg/kg in one orange animal toy body) confirms antimony's presence as a PVC stabilizer in toy materials. The finding that the ISO 8124-3 powder extraction method yielded higher migration than the Japanese water-based official method is methodologically important for cross-jurisdiction regulatory comparisons. No migration limit was exceeded.
+
+## Provenance notes
+
+The PDF was obtained from the J-STAGE platform via Unpaywall OA location. SHA-256: c19dcb27301784c8adfc80a3291c655b31844ea2584685d1c97a26c073929b6f. The paper is in Japanese with an English abstract and English-language tables and figure legends; the analysis above was performed on the full Japanese text using the OCR-extracted English table data and the English abstract as primary sources, with the Japanese body text used to confirm procedural details not in the abstract.
 
 ## Related evidence
-
 - [[metals/antimony]]
-- [[synthesis/antimony-in-baby-products]]
+- [[metals/barium]]
+- [[metals/lead]]
+- [[metals/cadmium]]
+- [[metals/chromium]]
+- [[products/toys-painted]]
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-No substantive edit history is available in this build. The full commit record is available in [git](https://github.com/paleofoundation/heavymetalindex).
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| (this commit) | 2026-11-07 | major | Full rebuild from PDF: added study design, methods, results tables (Tables 2, 4, 5, 6, 7, 8), LOD/LOQ, spike recovery, ISO comparison, regulatory context, speciation, and implications sections |
 <!-- END: hmi-page-history -->
