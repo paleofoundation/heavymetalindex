@@ -14,7 +14,16 @@
 // --skip names units that already have an open or merged evidence-fill pull
 // request, plus any unit the caller has recorded done. A graph item whose
 // ledger_status, status, state, or mark is LIVE, BUILT, MERGED, or SHIPPED
-// is recorded done and is not eligible. When nothing is picked, stderr
+// is recorded done and is not eligible. A graph item whose deposit directory
+// is missing from the checkout is skipped as no_deposit_dir, and the next
+// eligible item with a real directory is chosen. The directory check runs
+// when the checkout has a deposits directory or a git HEAD. With a git HEAD,
+// the directory must be in that tree, so a sparse checkout that has not
+// materialized the files still qualifies and a path git does not know is
+// skipped. With no HEAD, a deposits directory on disk is enough. Open pull
+// requests,
+// merged and done units, blocked items, other builders, and items with no
+// slug keep their existing skip reasons. When nothing is picked, stderr
 // names how many graph items were visible and why the rest were skipped.
 //
 // The deposits repo is private and its ledger shape has varied, so this reader
@@ -25,6 +34,7 @@
 // the picker would return nothing.
 //
 //   node tools/evidence-fill/select-next-unit.mjs --root <deposits-checkout> [--skip ID,ID]
+import { execFileSync } from "node:child_process"
 import fs from "node:fs"
 import path from "node:path"
 import { pathToFileURL } from "node:url"
@@ -598,10 +608,75 @@ function checkoutCensus(root) {
 }
 
 function emptySkipped() {
-  return { no_builder: 0, other_builder: 0, blocked: 0, bad_id: 0, skip_list: 0, done: 0, no_slug: 0, not_object: 0 }
+  return { no_builder: 0, other_builder: 0, blocked: 0, bad_id: 0, skip_list: 0, done: 0, no_slug: 0, no_deposit_dir: 0, not_object: 0 }
 }
 
-function readGraph(root, units, { skip = [] } = {}) {
+function gitTreeDirs(root) {
+  if (!fs.existsSync(path.join(root, ".git"))) return null
+  try {
+    const out = execFileSync("git", ["-C", root, "ls-tree", "-d", "-r", "-z", "--name-only", "HEAD"], {
+      encoding: "utf8",
+      timeout: 60_000,
+      maxBuffer: 64 * 1024 * 1024,
+      stdio: ["ignore", "pipe", "pipe"],
+    })
+    const dirs = new Set()
+    for (const line of out.split("\0")) {
+      const name = line.trim().replace(/\\/g, "/").replace(/\/+$/, "")
+      if (name) dirs.add(name)
+    }
+    return dirs
+  } catch {
+    return null
+  }
+}
+
+function depositsDirExists(root) {
+  try {
+    return fs.statSync(path.join(root, "deposits")).isDirectory()
+  } catch {
+    return false
+  }
+}
+
+function indexDeposits(root) {
+  const gitDirs = gitTreeDirs(root)
+  return { root, gitDirs, requireDir: gitDirs !== null || depositsDirExists(root) }
+}
+
+function relativeDepositDir(root, dir) {
+  const raw = String(dir || "").trim()
+  if (!raw) return ""
+  const base = path.resolve(root)
+  let full
+  if (path.isAbsolute(raw)) full = path.resolve(raw)
+  else {
+    const text = raw.replace(/\\/g, "/").replace(/^\.\/+/, "").replace(/\/+$/, "")
+    if (!text || text.split("/").includes("..")) return ""
+    full = path.resolve(base, ...text.split("/"))
+  }
+  const rel = path.relative(base, full)
+  if (!rel || rel.startsWith("..") || path.isAbsolute(rel)) return ""
+  return rel.split(path.sep).join("/").replace(/\/+$/, "")
+}
+
+function depositDirPresent(deposits, dir) {
+  if (!deposits?.requireDir) return true
+  const rel = relativeDepositDir(deposits.root, dir)
+  if (!rel) return false
+  if (deposits.gitDirs) return deposits.gitDirs.has(rel)
+  try {
+    return fs.statSync(path.join(deposits.root, ...rel.split("/"))).isDirectory()
+  } catch {
+    return false
+  }
+}
+
+function unitDepositDir(unit) {
+  return unit.dir || path.join("deposits", unit.id)
+}
+
+function readGraph(root, units, { skip = [], deposits = null } = {}) {
   const file = path.join(root, "graph", "next_work.json")
   const graph = {
     present: false,
@@ -639,6 +714,7 @@ function readGraph(root, units, { skip = [] } = {}) {
   graph.sample = sampleItem(located.items[0])
   const byId = new Map(units.map((unit) => [unit.id, unit]))
   const skipIds = skipIdsOf(skip)
+  const depositIndex = deposits || indexDeposits(root)
   const builders = new Map()
   const blockerTypes = new Map()
   for (const item of located.items) {
@@ -683,10 +759,14 @@ function readGraph(root, units, { skip = [] } = {}) {
       graph.skipped.no_slug++
       continue
     }
-    graph.eligible++
-    if (graph.unit) continue
     const recordDir = asText(fields.dir || fields.deposit_dir || fields.folder)
     const dir = recordDir || ledger?.dir || path.join("deposits", id)
+    if (!depositDirPresent(depositIndex, dir)) {
+      graph.skipped.no_deposit_dir++
+      continue
+    }
+    graph.eligible++
+    if (graph.unit) continue
     const kind = (!named && fromPage ? fromPage.kind : null) || kindOf(fields, id) || ledger?.kind || null
     graph.unit = { id, status, kind, slug, dir, rank: ledger?.rank ?? 0 }
   }
@@ -695,10 +775,14 @@ function readGraph(root, units, { skip = [] } = {}) {
   return graph
 }
 
-function pickUnit(units, { skip = [] } = {}) {
+function pickUnit(units, { skip = [], deposits = null, requireDir = false } = {}) {
   const skipIds = skipIdsOf(skip)
   const eligible = units
-    .filter((unit) => unit.status === "DEPOSITED" && PAGE_KINDS.has(unit.kind) && unit.slug && !skipIds.has(unit.id))
+    .filter((unit) => {
+      if (unit.status !== "DEPOSITED" || !PAGE_KINDS.has(unit.kind) || !unit.slug || skipIds.has(unit.id)) return false
+      if (!requireDir) return true
+      return depositDirPresent(deposits, unitDepositDir(unit))
+    })
     .sort((a, b) => a.id.localeCompare(b.id, "en", { numeric: true }))
   const chosen = eligible[0]
   if (!chosen) return null
@@ -731,8 +815,15 @@ function formatReport(detail) {
 
 export function describeSelection(root, options) {
   const units = collectUnits(root)
-  const graph = readGraph(root, units, options)
-  const unit = graph.unit || pickUnit(units, options)
+  const deposits = indexDeposits(root)
+  const graph = readGraph(root, units, { ...options, deposits })
+  const unit =
+    graph.unit ||
+    pickUnit(units, {
+      ...options,
+      deposits,
+      requireDir: deposits.requireDir && graph.skipped.no_deposit_dir > 0 && !graph.unit,
+    })
   const detail = { unit, source: graph.unit ? "graph" : unit ? "ledger" : "none", units, graph }
   detail.report = formatReport(detail)
   return detail
