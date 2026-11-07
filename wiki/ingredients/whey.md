@@ -14,8 +14,8 @@ audience:
   - consumer
   - app
 last_full_resynthesis: null
-updated: '2026-10-22'
-sources: 6
+updated: '2026-11-07'
+sources: 12
 page_contract_version: 1.0.0
 question_record: data/evidence/engine/ingredient/whey/question-record.json
 synthesis_record: data/evidence/engine/ingredient/whey/synthesis.json
@@ -61,11 +61,11 @@ ingredient_chrome:
   description: >-
     Lead, cadmium, total arsenic and total mercury in whey: monitoring results,
     studies, references by form and basis, limits, testing and controls.
-  updated: '2026-10-22'
-  reference_count: 6
+  updated: '2026-11-07'
+  reference_count: 12
   snapshot:
     - label: Research sources referenced
-      count: 4
+      count: 10
     - label: Official guidance and instruments
       count: 2
   key_evidence:
@@ -187,7 +187,7 @@ The table holds every extracted whey result: one row for each statistic a source
 <a id="hmi-ing-012"></a>
 <a id="which-source-attribution-claims-are-measured-modelled-inferred-or-unresolved"></a>
 
-No study in the library compared whey from contaminated and ordinary settings, so the routes by which metals reach it are not measured here.
+No study in the library compared whey from contaminated and ordinary settings, so the routes by which metals reach it are not measured here. Within the broader protein-powder category, weight-gainer formulations carried significantly higher arsenic per serving than whey-protein powders in a US secondary risk assessment (median arsenic 4.68 µg per serving in weight-gainers versus 1.10 µg per serving for whey at the Clean Label Project set median), with lead and cadmium also higher in weight-gainers, suggesting that carbohydrate and blending ingredients rather than the whey fraction itself are the primary contamination route in blended products.<sup class="cite">[[sources/bandara2020-protein-powder-heavy-metals|8]]<span class="cite-card"><span class="cite-card-head"><span class="cite-card-authors">Bandara SB, Towle KM, Monnot AD · 2020</span><a class="cite-card-title" href="../sources/bandara2020-protein-powder-heavy-metals">A human health risk assessment of heavy metal ingestion among consumers of protein powder supplements</a></span><span class="cite-card-body"><span class="cite-card-journal">Toxicology Reports (2020)</span><a class="cite-card-review" href="../sources/bandara2020-protein-powder-heavy-metals">Read source →</a></span></span></sup> In a survey of 60 Iranian sports supplement samples from 12 coded brands, lead concentrations ranged from 3 µg/kg (brand S1) to 2310 µg/kg (brand S12), and cadmium from 12 µg/kg (brand S5) to 704 µg/kg (brand S11); the supplement types within each brand were not individually specified, so the route of contamination within products cannot be attributed to whey versus co-formulants.<sup class="cite">[[sources/khalili2017-iran-sports-supplements-lead-cadmium-mercury|10]]<span class="cite-card"><span class="cite-card-head"><span class="cite-card-authors">Khalili F, Asefpour Vakilian K, Rahimian Zarif M · 2017</span><a class="cite-card-title" href="../sources/khalili2017-iran-sports-supplements-lead-cadmium-mercury">Evaluation of Lead, Cadmium and Mercury Content in Sports Supplements in the Market of Iran</a></span><span class="cite-card-body"><span class="cite-card-journal">International Journal of Life Science and Pharma Research 2017, 7(1): L10-L14</span><a class="cite-card-review" href="../sources/khalili2017-iran-sports-supplements-lead-cadmium-mercury">Read source →</a></span></span></sup>
 
 
 
@@ -206,6 +206,10 @@ The HMI reference for lead in whey, as sold pools 18 subgroup units from 2 sampl
 Among GEMS/Food reporting regions, whey, as sold had the lowest lead subgroup median in PAHO (4.2 µg/kg) and the highest in PAHO (64.8 µg/kg); reporting regions are markets, not growing areas.<sup class="cite">[[sources/who-gemsfood-heavy-metal-contaminants|1]]<span class="cite-card"><span class="cite-card-head"><span class="cite-card-authors">World Health Organization · 2026</span><a class="cite-card-title" href="../sources/who-gemsfood-heavy-metal-contaminants">GEMS/Food Contaminants database heavy-metal exports</a></span><span class="cite-card-body"><span class="cite-card-journal">GEMS/Food Contamination Monitoring and Assessment Programme</span><a class="cite-card-review" href="../sources/who-gemsfood-heavy-metal-contaminants">Read source →</a></span></span></sup>
 
 
+
+Among published studies of whey protein powders, lead concentrations in Irish retail products ranged from 0.8 µg/kg to 88.4 µg/kg, with cadmium up to 17.0 µg/kg in a casein product and mercury below 0.2 µg/kg across most whey samples; a mixed plant powder had the highest cadmium (58.1 µg/kg) and mercury (18.4 µg/kg), consistent with the broader observation that plant-derived protein sources carry a heavier toxic-metal burden than dairy-derived ones.<sup class="cite">[[sources/ring2021-ireland-protein-powders-metals|7]]<span class="cite-card"><span class="cite-card-head"><span class="cite-card-authors">Ring G, Sheehan A, Lehane M, Furey A · 2021</span><a class="cite-card-title" href="../sources/ring2021-ireland-protein-powders-metals">Development, Validation and Application of an ICP-SFMS Method for the Determination of Metals in Protein Powder Samples, Sourced in Ireland, with Risk Assessment for Irish Consumers</a></span><span class="cite-card-body"><span class="cite-card-journal">Molecules 2021, 26, 4347</span><a class="cite-card-review" href="../sources/ring2021-ireland-protein-powders-metals">Read source →</a></span></span></sup> In the Hungarian market, arsenic, cadmium, mercury and lead were below the detection limit in all 22 protein powders tested, including both whey and casein products, while aluminum and manganese were elevated only in plant-based powders.<sup class="cite">[[sources/horvath2025-hungary-protein-powders-metals|12]]<span class="cite-card"><span class="cite-card-head"><span class="cite-card-authors">Horváth IL, Kajner G, Galbács G, Csupor D · 2025</span><a class="cite-card-title" href="../sources/horvath2025-hungary-protein-powders-metals">Analysis of heavy metal content in protein powders available on the Hungarian market: a reassuring snapshot, but not a reassuring quality guarantee</a></span><span class="cite-card-body"><span class="cite-card-journal">Journal of Nutritional Science 14: e49 (2025)</span><a class="cite-card-review" href="../sources/horvath2025-hungary-protein-powders-metals">Read source →</a></span></span></sup>
+
+A Bosnian regulatory retrospective of 90 protein and amino acid supplements submitted for registration in 2018 and 2019 found lead and cadmium entirely below detection limits (less than 10 µg/kg for lead, less than 30 µg/kg for cadmium), with mercury present across all samples in the range 8 to below 100 µg/kg (mean 9.5 µg/kg), all within the applied limit of 100 µg/kg.<sup class="cite">[[sources/markovic2020-dietary-supplements-metals-republika-srpska|11]]<span class="cite-card"><span class="cite-card-head"><span class="cite-card-authors">Markovic MM, Dragicevic S · 2020</span><a class="cite-card-title" href="../sources/markovic2020-dietary-supplements-metals-republika-srpska">Importance of Public Health Control of Metals as Chemical Risks in Dietary Supplements</a></span><span class="cite-card-body"><span class="cite-card-journal">Quality of Life (Banja Luka) - APEIRON 2020, 12(3-4): 94-101</span><a class="cite-card-review" href="../sources/markovic2020-dietary-supplements-metals-republika-srpska">Read source →</a></span></span></sup> At the unprocessed-liquid-whey end of the production chain, samples from two Slovakian goat farms, one ecological and one conventional, in a low-contamination area showed all toxic elements (lead, cadmium, arsenic, nickel and chromium) below detection limits in every whey sample, with lead below 0.8 µg/kg, cadmium below 0.05 µg/kg and arsenic below 1.5 µg/kg.<sup class="cite">[[sources/almashiova2023-goat-milk-whey-cheese-yogurt-slovakia|9]]<span class="cite-card"><span class="cite-card-head"><span class="cite-card-authors">Almashiova S, Toman R, Pshenkova M, Tancin V, Miklas S, Janco I · 2023</span><a class="cite-card-title" href="../sources/almashiova2023-goat-milk-whey-cheese-yogurt-slovakia">Chemical elements content in goat milk, whey, cheese and yogurt from an ecological and conventional farm in Slovakia</a></span><span class="cite-card-body"><span class="cite-card-journal">Journal of Central European Agriculture 2023, 24(1): 43-52</span><a class="cite-card-review" href="../sources/almashiova2023-goat-milk-whey-cheese-yogurt-slovakia">Read source →</a></span></span></sup>
 
 <a id="processing-effects-and-derivatives"></a>
 ## Processing, cooking and preparation
@@ -305,7 +309,7 @@ No source in the library converted whey concentrations into a verified estimate 
 <a id="hmi-ing-036"></a>
 <a id="what-remains-unresolved-when-was-each-answer-reviewed-and-what-changed-in-this-version"></a>
 
-Every source record that names whey was decided on its content: 6 occurrence extracted, 6 records in all. The occurrence table renders every extracted result; held values remain visible with their reason.
+Every source record that names whey was decided on its content: 12 occurrence extracted, 12 records in all. The occurrence table renders every extracted result; held values remain visible with their reason.
 
 References identify the sources used in these answers. The Sources index preserves additional discovery links; inclusion there does not mean a source has been reviewed for this assessment. Corrections, completed searches, new direct evidence and changes in requirements should reopen the relevant answer.
 
@@ -342,6 +346,12 @@ Works cited on this page, in citation-number order. See [Sources](#sources) for 
 4. [[sources/hassan2025-milk-products-metal-transfer|Heavy Metals Transfer from Milk into Milk Products]]<span class="hmi-ref-meta">Hassan TM and Elarnaoutti MS · Turkish Journal of Agriculture - Food Science and Technology, 13(4): 900-906, 2025 · 2025 · [doi.org/10.24925/turjaf.v13i4.900-906.7292](https://doi.org/10.24925/turjaf.v13i4.900-906.7292)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 5. [[sources/bavatharani2026-india-protein-powders-labeling-metals|Labeling Transparency and Heavy Metal Contamination in Commercial Protein Powders: A Case Study]]<span class="hmi-ref-meta">Bavatharani V, Shaw A, Sunil A, and Gupta J · International Journal of Nutritions 2026; 3(2): 37-46 · 2026 · [doi.org/10.37591/ijn.v03i02.242178](https://doi.org/10.37591/ijn.v03i02.242178)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 6. [[sources/efsa2012-cadmium-dietary-exposure-europe|Cadmium dietary exposure in the European population]]<span class="hmi-ref-meta">European Food Safety Authority · EFSA Journal 2012;10(1):2551 · 2012 · [doi.org/10.2903/j.efsa.2012.2551](https://doi.org/10.2903/j.efsa.2012.2551)</span><span class="hmi-ref-tag">Government</span>
+7. [[sources/ring2021-ireland-protein-powders-metals|Development, Validation and Application of an ICP-SFMS Method for the Determination of Metals in Protein Powder Samples, Sourced in Ireland, with Risk Assessment for Irish Consumers]]<span class="hmi-ref-meta">Ring G, Sheehan A, Lehane M, and Furey A · Molecules 2021, 26, 4347 · 2021 · [doi.org/10.3390/molecules26144347](https://doi.org/10.3390/molecules26144347)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+8. [[sources/bandara2020-protein-powder-heavy-metals|A human health risk assessment of heavy metal ingestion among consumers of protein powder supplements]]<span class="hmi-ref-meta">Bandara SB, Towle KM, and Monnot AD · Toxicology Reports (2020) · 2020 · [doi.org/10.1016/j.toxrep.2020.08.001](https://doi.org/10.1016/j.toxrep.2020.08.001)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+9. [[sources/almashiova2023-goat-milk-whey-cheese-yogurt-slovakia|Chemical elements content in goat milk, whey, cheese and yogurt from an ecological and conventional farm in Slovakia]]<span class="hmi-ref-meta">Almashiova S, Toman R, Pshenkova M, Tancin V, Miklas S, and Janco I · Journal of Central European Agriculture 2023, 24(1): 43-52 · 2023 · [doi.org/10.5513/jcea01/24.1.3733](https://doi.org/10.5513/jcea01/24.1.3733)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+10. [[sources/khalili2017-iran-sports-supplements-lead-cadmium-mercury|Evaluation of Lead, Cadmium and Mercury Content in Sports Supplements in the Market of Iran]]<span class="hmi-ref-meta">Khalili F, Asefpour Vakilian K, and Rahimian Zarif M · International Journal of Life Science and Pharma Research 2017, 7(1): L10-L14 · 2017</span><span class="hmi-ref-tag">Peer-reviewed</span>
+11. [[sources/markovic2020-dietary-supplements-metals-republika-srpska|Importance of Public Health Control of Metals as Chemical Risks in Dietary Supplements]]<span class="hmi-ref-meta">Markovic MM and Dragicevic S · Quality of Life (Banja Luka) - APEIRON 2020, 12(3-4): 94-101 · 2020 · [doi.org/10.7251/qol2003094m](https://doi.org/10.7251/qol2003094m)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+12. [[sources/horvath2025-hungary-protein-powders-metals|Analysis of heavy metal content in protein powders available on the Hungarian market: a reassuring snapshot, but not a reassuring quality guarantee]]<span class="hmi-ref-meta">Horváth IL, Kajner G, Galbács G, and Csupor D · Journal of Nutritional Science 14: e49 (2025) · 2025 · [doi.org/10.1017/jns.2025.10024](https://doi.org/10.1017/jns.2025.10024)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
@@ -353,5 +363,6 @@ Browse [Whey Sources](../sources/index?topic=ingredients%2Fwhey) for sources cit
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
+7 November 2026: Evidence fill HMI-TOPIC-0288: 5 new source pages added (Ring 2021 Ireland protein powders, Bandara 2020 US protein powder risk assessment, Almashiova 2023 Slovak goat whey, Khalili 2017 Iran sports supplements, Markovic 2020 Bosnia supplements); pathways and variation sections expanded; reference count raised to 12.
 22 October 2026: Rebuilt from every whey record in the library: 6 occurrence sources, references by form and basis, same-study contrasts.
 <!-- END: hmi-page-history -->
