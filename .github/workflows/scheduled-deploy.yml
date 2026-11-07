@@ -10,14 +10,19 @@ name: manual-production-deploy
 # deploy limit on 2026-06-08, freezing production while still billing for the
 # failing builds.
 #
-# The fix: push-triggered auto-deploys are disabled in vercel.json
-# (git.deploymentEnabled = false). FRANK and Codex can keep pushing for backup
-# + multi-agent sync, but the public site rebuilds only when this workflow is
-# manually run. One manual build batches every push since the last publish, so
-# cost scales with human publish decisions, not commit rate or a timer.
+# Repo setting: vercel.json git.deploymentEnabled false asks Vercel not to
+# auto-deploy any branch. Deploy Hooks still create production deployments, and
+# a hook deploy is recorded with git metadata, so that setting alone did not
+# stop main production builds (PR #583). This workflow remains manual
+# workflow_dispatch. It POSTs the existing hook; it does not decide whether the
+# build is worth running.
 #
-# COST/FRESHNESS KNOB: manual workflow_dispatch is the default emergency brake.
-# Add a cron back only when a specific build budget has been approved.
+# The hook build runs tools/deploy/vercel-ignore-command.mjs first. That command
+# compares the SHA with the last successful deployment and skips docs, status,
+# and tracking-only ranges. See docs/ops/production-build-guard.md.
+#
+# COST/FRESHNESS KNOB: manual workflow_dispatch is the only trigger here.
+# Do not add a cron unless a specific build budget has been approved.
 #
 # SETUP (one-time, Vercel + GitHub dashboards):
 #   1. Vercel → Project heavymetalindex → Settings → Git → Deploy Hooks:
