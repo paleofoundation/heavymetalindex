@@ -25,7 +25,7 @@ sampling_year_range: null
 updated: 2026-11-06
 ---
 
-# Abia et al. 2025 — Africa as emerging turmeric exporter and adulteration detection review
+# Abia et al. 2025 - Africa as emerging turmeric exporter and adulteration detection review
 
 ## Overview
 

@@ -25,7 +25,7 @@ sampling_year_range: "2021-2023"
 updated: 2026-11-06
 ---
 
-# Forsyth et al. 2026 — Lead chromate adulteration in turmeric across eastern India
+# Forsyth et al. 2026 - Lead chromate adulteration in turmeric across eastern India
 
 ## Overview
 

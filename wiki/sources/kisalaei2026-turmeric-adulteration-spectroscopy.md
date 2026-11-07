@@ -25,7 +25,7 @@ sampling_year_range: null
 updated: 2026-11-06
 ---
 
-# Kisalaei et al. 2026 — Machine learning and spectroscopy for turmeric adulteration detection
+# Kisalaei et al. 2026 - Machine learning and spectroscopy for turmeric adulteration detection
 
 ## Overview
 
