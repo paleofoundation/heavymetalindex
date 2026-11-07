@@ -1,4 +1,5 @@
 import assert from "node:assert/strict"
+import { execFileSync } from "node:child_process"
 import fs from "node:fs"
 import os from "node:os"
 import path from "node:path"
@@ -328,6 +329,188 @@ test("a graph item with only pages[] supplies the ingredient or product slug", (
     assert.equal(direct.id, "HMI-FILL-0060")
     assert.equal(direct.slug, "salt")
     assert.equal(direct.kind, "ingredient")
+  } finally {
+    fs.rmSync(root, { recursive: true, force: true })
+  }
+})
+
+test("a missing deposit directory is skipped and the next real directory is chosen", () => {
+  const root = fs.mkdtempSync(path.join(os.tmpdir(), "deposits-missing-dir-"))
+  try {
+    fs.mkdirSync(path.join(root, "graph"), { recursive: true })
+    for (const id of ["HMI-FILL-0054", "HMI-FILL-0003", "HMI-FILL-0008", "HMI-FILL-0011", "HMI-FILL-0016", "HMI-FILL-0017"]) {
+      fs.mkdirSync(path.join(root, "deposits", id), { recursive: true })
+    }
+    fs.writeFileSync(
+      path.join(root, "graph", "next_work.json"),
+      JSON.stringify({
+        items: [
+          {
+            unit: "HMI-FILL-0090",
+            builder: "hmi-evidence-fill",
+            blocked_by: [],
+            kind: "ingredient",
+            slug: "open-branch",
+            deposit_dir: "deposits/HMI-FILL-0090",
+          },
+          {
+            unit: "HMI-FILL-0015",
+            builder: "hmi-evidence-fill",
+            blocked_by: [],
+            kind: "product",
+            slug: "ready-to-feed-formula",
+            deposit_dir: "deposits/HMI-FILL-0015",
+          },
+          {
+            unit: "HMI-FILL-0054",
+            builder: "hmi-evidence-fill",
+            blocked_by: [],
+            kind: "product",
+            slug: "cultivated-mushrooms",
+            ledger_status: "merged",
+            deposit_dir: "deposits/HMI-FILL-0054",
+          },
+          {
+            unit: "HMI-FILL-0003",
+            builder: "hmi-evidence-fill",
+            blocked_by: ["HMI-FILL-0001"],
+            kind: "ingredient",
+            slug: "salt",
+            dir: "deposits/HMI-FILL-0003",
+          },
+          {
+            unit: "HMI-FILL-0008",
+            builder: "catalog",
+            blocked_by: [],
+            kind: "ingredient",
+            slug: "rye",
+            dir: "deposits/HMI-FILL-0008",
+          },
+          {
+            unit: "HMI-FILL-0011",
+            builder: "hmi-evidence-fill",
+            blocked_by: [],
+            kind: "ingredient",
+            dir: "deposits/HMI-FILL-0011",
+          },
+          {
+            unit: "HMI-FILL-0016",
+            builder: "hmi-evidence-fill",
+            blocked_by: [],
+            kind: "ingredient",
+            slug: "kale",
+          },
+          {
+            unit: "HMI-FILL-0017",
+            builder: "hmi-evidence-fill",
+            blocked_by: [],
+            kind: "product",
+            slug: "tea",
+            dir: "deposits/HMI-FILL-0017",
+          },
+        ],
+      }),
+    )
+    const detail = describeSelection(root, { skip: ["HMI-FILL-0090"] })
+    assert.equal(detail.source, "graph")
+    assert.equal(detail.unit.id, "HMI-FILL-0016")
+    assert.equal(detail.unit.slug, "kale")
+    assert.equal(detail.unit.kind, "ingredient")
+    assert.equal(detail.unit.dir, path.join("deposits", "HMI-FILL-0016"))
+    assert.equal(detail.graph.skipped.skip_list, 1)
+    assert.equal(detail.graph.skipped.no_deposit_dir, 1)
+    assert.equal(detail.graph.skipped.done, 1)
+    assert.equal(detail.graph.skipped.blocked, 1)
+    assert.equal(detail.graph.skipped.other_builder, 1)
+    assert.equal(detail.graph.skipped.no_slug, 1)
+    assert.equal(detail.graph.eligible, 2)
+    assert.match(detail.report, /no_deposit_dir=1/)
+    const skipped = selectNextUnit(root, { skip: ["HMI-FILL-0090", "HMI-FILL-0016"] })
+    assert.equal(skipped.id, "HMI-FILL-0017")
+    assert.equal(skipped.slug, "tea")
+    fs.writeFileSync(
+      path.join(root, "ledger.json"),
+      JSON.stringify([
+        { id: "HMI-FILL-0001", status: "DEPOSITED", kind: "ingredient", slug: "rice" },
+        { id: "HMI-FILL-0099", status: "DEPOSITED", kind: "ingredient", slug: "oats", dir: "deposits/HMI-FILL-0099" },
+      ]),
+    )
+    fs.mkdirSync(path.join(root, "deposits", "HMI-FILL-0099"), { recursive: true })
+    fs.writeFileSync(
+      path.join(root, "graph", "next_work.json"),
+      JSON.stringify({
+        items: [
+          {
+            unit: "HMI-FILL-0015",
+            builder: "hmi-evidence-fill",
+            blocked_by: [],
+            kind: "product",
+            slug: "ready-to-feed-formula",
+            deposit_dir: "deposits/HMI-FILL-0015",
+          },
+        ],
+      }),
+    )
+    const fallback = describeSelection(root)
+    assert.equal(fallback.source, "ledger")
+    assert.equal(fallback.unit.id, "HMI-FILL-0099")
+    assert.equal(fallback.unit.slug, "oats")
+    assert.equal(fallback.unit.dir, "deposits/HMI-FILL-0099")
+    assert.equal(fallback.graph.skipped.no_deposit_dir, 1)
+    assert.equal(fallback.graph.eligible, 0)
+    fs.rmSync(path.join(root, "deposits", "HMI-FILL-0099"), { recursive: true, force: true })
+    const none = describeSelection(root)
+    assert.equal(none.unit, null)
+    assert.equal(none.graph.skipped.no_deposit_dir, 1)
+    assert.match(none.report, /No deposited ingredient or product to fill/)
+  } finally {
+    fs.rmSync(root, { recursive: true, force: true })
+  }
+})
+
+test("a deposit directory recorded in git still qualifies when the worktree has not materialized it", () => {
+  const root = fs.mkdtempSync(path.join(os.tmpdir(), "deposits-git-dir-"))
+  try {
+    fs.mkdirSync(path.join(root, "graph"), { recursive: true })
+    fs.mkdirSync(path.join(root, "deposits", "HMI-FILL-0021"), { recursive: true })
+    fs.writeFileSync(path.join(root, "deposits", "HMI-FILL-0021", "STATUS"), "DEPOSITED\n")
+    fs.writeFileSync(
+      path.join(root, "graph", "next_work.json"),
+      JSON.stringify({
+        items: [
+          {
+            unit: "HMI-FILL-0020",
+            builder: "hmi-evidence-fill",
+            blocked_by: [],
+            kind: "ingredient",
+            slug: "missing-spice",
+            dir: "deposits/HMI-FILL-0020",
+          },
+          {
+            unit: "HMI-FILL-0021",
+            builder: "hmi-evidence-fill",
+            blocked_by: [],
+            kind: "ingredient",
+            slug: "barley",
+            dir: "deposits/HMI-FILL-0021",
+          },
+        ],
+      }),
+    )
+    const git = (args) => execFileSync("git", ["-C", root, ...args], { stdio: "pipe" })
+    git(["init"])
+    git(["config", "user.email", "fill@example.com"])
+    git(["config", "user.name", "fill"])
+    git(["add", "graph", "deposits"])
+    git(["commit", "-m", "deposit files"])
+    fs.rmSync(path.join(root, "deposits", "HMI-FILL-0021"), { recursive: true, force: true })
+    const detail = describeSelection(root)
+    assert.equal(detail.source, "graph")
+    assert.equal(detail.unit.id, "HMI-FILL-0021")
+    assert.equal(detail.unit.slug, "barley")
+    assert.equal(detail.unit.dir, "deposits/HMI-FILL-0021")
+    assert.equal(detail.graph.skipped.no_deposit_dir, 1)
+    assert.equal(detail.graph.eligible, 1)
   } finally {
     fs.rmSync(root, { recursive: true, force: true })
   }
