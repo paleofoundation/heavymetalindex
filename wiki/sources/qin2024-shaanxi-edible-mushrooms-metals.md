@@ -10,7 +10,7 @@ access_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC11541732/
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY-NC-ND 4.0"
-raw_path: /Users/kmfp/papers-for-claude/hmi-thin/batch-04-addendum/pdfs/10.1038_s41598-024-78091-1.pdf
+raw_path: hmi-evidence-deposits/deposits/HMI-FILL-0054/10.1038_s41598-024-78091-1.pdf
 metals: [Pb, Cd, As, Hg, Cr]
 ingredients: ["[[ingredients/mushrooms]]"]
 products: ["[[products/cultivated-mushrooms]]"]
