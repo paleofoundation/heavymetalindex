@@ -183,7 +183,14 @@ jobs:
           DRY_RUN: ${{ github.event.inputs.dry_run == 'true' && 'true' || 'false' }}
         run: |
           set -euo pipefail
-          skips="$(gh pr list --state open --limit 200 --json headRefName --jq '[.[] | select(.headRefName | startswith("evidence-fill/")) | .headRefName | sub("^evidence-fill/"; "")] | join(",")')"
+          # Open and merged evidence-fill pull requests are done. A unit whose
+          # graph ledger_status is LIVE, BUILT, MERGED, or SHIPPED is done too.
+          open_file="${RUNNER_TEMP}/evidence-fill-open.json"
+          merged_file="${RUNNER_TEMP}/evidence-fill-merged.json"
+          gh pr list --state open --limit 200 --json state,headRefName > "$open_file"
+          gh pr list --state merged --limit 500 --search "head:evidence-fill/" --json state,headRefName > "$merged_file"
+          skips="$(node tools/evidence-fill/done-units.mjs --open "$open_file" --merged "$merged_file")"
+          echo "Skipping done units: ${skips:-none}"
           json="$(node tools/evidence-fill/select-next-unit.mjs --root "$DEPOSITS_ROOT" --skip "$skips")"
           echo "$json"
           unit_file="${RUNNER_TEMP:-/tmp}/next-unit.json"
@@ -522,7 +529,14 @@ jobs:
             fi
             exit 0
           fi
-          git_push push "https://github.com/${GITHUB_REPOSITORY}.git" "HEAD:refs/heads/${target}"
+          # A previous run can leave evidence-fill/<unit> behind. Update that
+          # stale tip when it is still the commit we just fetched. A missing
+          # branch is a normal first push.
+          if git fetch --no-tags origin "refs/heads/${target}:refs/remotes/origin/${target}" 2>/dev/null; then
+            git_push push --force-with-lease="refs/heads/${target}:refs/remotes/origin/${target}" "https://github.com/${GITHUB_REPOSITORY}.git" "HEAD:refs/heads/${target}"
+          else
+            git_push push "https://github.com/${GITHUB_REPOSITORY}.git" "HEAD:refs/heads/${target}"
+          fi
           export GH_TOKEN="$token"
           # A push with the workflow GITHUB_TOKEN does not start pull_request
           # workflows. Dispatch CI onto this branch so the checks still run.
@@ -556,7 +570,12 @@ jobs:
           fi
           gh api -X PATCH "repos/${GITHUB_REPOSITORY}" -F allow_auto_merge=true \
             || echo "::warning::Could not set allow_auto_merge on the repository. The pull request auto-merge call is next."
-          gh pr merge --auto --squash "$target"
+          # The job token cannot turn on the repository auto-merge setting.
+          # A pull request that is open still meets the fill. Do not fail the
+          # run when that setting is off.
+          if ! gh pr merge --auto --squash "$target"; then
+            echo "::warning::Auto-merge is not available for ${target}. The pull request stays open."
+          fi
           if [ -n "$EXTRA_BRANCH" ] && [ "$EXTRA_BRANCH" != "$target" ]; then
             case "$EXTRA_BRANCH" in
               evidence-fill/*|claude/*) git_push push "https://github.com/${GITHUB_REPOSITORY}.git" --delete "$EXTRA_BRANCH" || true ;;

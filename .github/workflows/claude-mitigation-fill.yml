@@ -195,6 +195,7 @@ jobs:
           if [ ! -d node_modules ]; then npm ci; fi
           node tools/mitigation-fill/record.mjs coverage --write --manifest "${{ runner.temp }}/mitigation-fulltext/manifest.json"
           git fetch --no-tags origin main
+          node tools/mitigation-fill/repair.mjs --base origin/main
           node tools/mitigation-fill/verify.mjs \
             --base origin/main \
             --fulltext "${{ runner.temp }}/mitigation-fulltext" \
@@ -258,7 +259,12 @@ jobs:
           fi
           gh api -X PATCH "repos/${GITHUB_REPOSITORY}" -F allow_auto_merge=true \
             || echo "::warning::Could not set allow_auto_merge on the repository. The pull request auto-merge call is next."
-          gh pr merge --auto --squash "$target"
+          # The job token cannot turn on the repository auto-merge setting.
+          # A pull request that is open still meets the fill. Do not fail the
+          # run when that setting is off.
+          if ! gh pr merge --auto --squash "$target"; then
+            echo "::warning::Auto-merge is not available for ${target}. The pull request stays open."
+          fi
           if [ -n "$EXTRA_BRANCH" ] && [ "$EXTRA_BRANCH" != "$target" ]; then
             case "$EXTRA_BRANCH" in
               evidence-fill/*|claude/*) git_push push "https://github.com/${GITHUB_REPOSITORY}.git" --delete "$EXTRA_BRANCH" || true ;;

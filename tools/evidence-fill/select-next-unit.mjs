@@ -11,7 +11,10 @@
 // otherwise the first usable page wins. When the graph has no eligible item,
 // the lowest DEPOSITED ingredient or product id that still needs a page is
 // used. LIVE, BUILT, and later ledger states are not eligible.
-// --skip names open evidence-fill branches. When nothing is picked, stderr
+// --skip names units that already have an open or merged evidence-fill pull
+// request, plus any unit the caller has recorded done. A graph item whose
+// ledger_status, status, state, or mark is LIVE, BUILT, MERGED, or SHIPPED
+// is recorded done and is not eligible. When nothing is picked, stderr
 // names how many graph items were visible and why the rest were skipped.
 //
 // The deposits repo is private and its ledger shape has varied, so this reader
@@ -435,6 +438,7 @@ export function collectUnits(root) {
 }
 
 const PAGE_KINDS = new Set(["ingredient", "product"])
+const DONE_LEDGER = new Set(["LIVE", "BUILT", "MERGED", "SHIPPED"])
 
 function skipIdsOf(skip) {
   return new Set((skip || []).map((id) => String(id).trim().toUpperCase()).filter(Boolean))
@@ -568,7 +572,7 @@ function sampleItem(item) {
   if (!item || typeof item !== "object" || Array.isArray(item)) return null
   const fields = normalizeKeys(flattenItem(item))
   const sample = { keys: Object.keys(fields).slice(0, 24) }
-  for (const key of ["id", "unit", "unit_id", "builder", "kind", "type", "family", "slug", "status", "blocked_by", "blockedby", "blocked", "dir", "page"]) {
+  for (const key of ["id", "unit", "unit_id", "builder", "kind", "type", "family", "slug", "status", "ledger_status", "blocked_by", "blockedby", "blocked", "dir", "page"]) {
     if (fields[key] !== undefined) sample[key] = shortValue(fields[key])
   }
   return sample
@@ -594,7 +598,7 @@ function checkoutCensus(root) {
 }
 
 function emptySkipped() {
-  return { no_builder: 0, other_builder: 0, blocked: 0, bad_id: 0, skip_list: 0, no_slug: 0, not_object: 0 }
+  return { no_builder: 0, other_builder: 0, blocked: 0, bad_id: 0, skip_list: 0, done: 0, no_slug: 0, not_object: 0 }
 }
 
 function readGraph(root, units, { skip = [] } = {}) {
@@ -667,6 +671,11 @@ function readGraph(root, units, { skip = [] } = {}) {
       continue
     }
     const ledger = byId.get(id)
+    const status = normalizeStatus(fields.ledger_status || fields.status || fields.state || fields.mark) || ledger?.status || "DEPOSITED"
+    if (DONE_LEDGER.has(status)) {
+      graph.skipped.done++
+      continue
+    }
     const named = directSlug(fields)
     const fromPage = familyPage(pageOf(fields))
     const slug = named || fromPage?.slug || slugFromIngredientId(id) || ledger?.slug || namedSlug(fields)
@@ -678,7 +687,6 @@ function readGraph(root, units, { skip = [] } = {}) {
     if (graph.unit) continue
     const recordDir = asText(fields.dir || fields.deposit_dir || fields.folder)
     const dir = recordDir || ledger?.dir || path.join("deposits", id)
-    const status = normalizeStatus(fields.status || fields.state || fields.mark) || ledger?.status || "DEPOSITED"
     const kind = (!named && fromPage ? fromPage.kind : null) || kindOf(fields, id) || ledger?.kind || null
     graph.unit = { id, status, kind, slug, dir, rank: ledger?.rank ?? 0 }
   }
