@@ -6,15 +6,13 @@ type: ingredient
 commodity: mustard
 label: Mustard
 category: prepared-food
-provisional_scaffold: true
-status: stub
 audience:
   - regulator
   - educator
   - consumer
   - app
-updated: '2026-10-22'
-sources: 18
+updated: '2026-11-07'
+sources: 27
 last_full_resynthesis: null
 page_contract_version: 1.0.0
 question_record: data/evidence/engine/ingredient/mustard/question-record.json
@@ -64,11 +62,11 @@ ingredient_chrome:
     Lead, cadmium, total arsenic, inorganic arsenic and total mercury in
     mustard: monitoring results, studies, references by form and basis, limits,
     testing and controls.
-  updated: '2026-10-22'
-  reference_count: 18
+  updated: '2026-11-07'
+  reference_count: 22
   snapshot:
     - label: Research sources referenced
-      count: 11
+      count: 15
     - label: Official guidance and instruments
       count: 7
   key_evidence:
@@ -192,7 +190,9 @@ The table holds every extracted mustard result: one row for each statistic a sou
 
 The evidence on how metals reach mustard comes from studies that compared exposed and ordinary settings. Mustard, as sold from local vendors, Dehradun City (wastewater-irrigated fields) had chromium higher at 2,570 µg/kg, against 1,060 µg/kg for walled garden control in the same study.<sup class="cite">[[sources/chemistry2022-bio-accumulation-of-heavy-metals-in-some-north|4]]<span class="cite-card"><span class="cite-card-head"><span class="cite-card-authors">INDIAN LEAFY VEGETABLES AND QUANTIFICATION OF CONSUMER HEALTH RISK DUE TO THEIR DIETARY INTAKE SHAIL KULSHRESTHA Department of Chemistry, D. B. S. (P. G.) College, Dehradun, India ( · 2022</span><a class="cite-card-title" href="../sources/chemistry2022-bio-accumulation-of-heavy-metals-in-some-north">BIO-ACCUMULATION OF HEAVY METALS IN SOME NORTH</a></span><span class="cite-card-body"><span class="cite-card-journal">Peer-reviewed article</span><a class="cite-card-review" href="../sources/chemistry2022-bio-accumulation-of-heavy-metals-in-some-north">Read source →</a></span></span></sup>
 
-These are observational comparisons from single studies; the size of the difference depends on the site, metal and distance.
+A within-study comparison in Saharanpur district, India found that *Brassica juncea* grown with clean borewell water had cadmium in leaves of 40 µg/kg DW (0.04 mg/kg), well below the FAO/WHO permissible limit of 100 µg/kg, while the same crop grown with paper mill effluent had cadmium in leaves of 150 µg/kg DW, above the limit; chromium health risk index (HRI) for children exceeded 1 under effluent irrigation but remained below 1 under borewell irrigation.<sup class="cite">[[sources/elbagory2026-india-brassica-juncea-paper-mill-effluent|14]]<span class="cite-card"><span class="cite-card-head"><span class="cite-card-authors">Elbagory M et al. · 2026</span><a class="cite-card-title" href="../sources/elbagory2026-india-brassica-juncea-paper-mill-effluent">Heavy metal contamination in soil and Indian mustard (Brassica juncea L. Czern.) irrigated with borewell water and paper mill effluent</a></span><span class="cite-card-body"><span class="cite-card-journal">Scientific Reports</span><a class="cite-card-review" href="../sources/elbagory2026-india-brassica-juncea-paper-mill-effluent">Read source →</a></span></span></sup> A field study in Brunei Darussalam found cadmium in *B. juncea* leaves of 4,100 µg/kg DW (41-fold above FAO/WHO limit) and lead at 4,800 µg/kg DW (16-fold above limit), both from soil with moderate cadmium elevation (1.3 mg/kg pre-harvest soil Cd, near the Canadian Council of Ministers of the Environment guideline of 1.4 mg/kg); HRI for cadmium exceeded 1 for both adults (3.3) and children (5.2).<sup class="cite">[[sources/zunaidi2021-brunei-brassica-juncea-heavy-metals|15]]<span class="cite-card"><span class="cite-card-head"><span class="cite-card-authors">Zunaidi AA, Lim LH, Metali F · 2021</span><a class="cite-card-title" href="../sources/zunaidi2021-brunei-brassica-juncea-heavy-metals">Transfer of heavy metals from soils to curly mustard (Brassica juncea (L.) Czern.) grown in an agricultural farm in Brunei Darussalam.</a></span><span class="cite-card-body"><span class="cite-card-journal">Heliyon</span><a class="cite-card-review" href="../sources/zunaidi2021-brunei-brassica-juncea-heavy-metals">Read source →</a></span></span></sup>
+
+These are observational comparisons from single studies; the size of the difference depends on the site, metal and distance. Irrigation water quality is the primary within-study driver in the Indian comparison; soil cadmium background is the driver in Brunei.
 
 
 
@@ -214,6 +214,8 @@ Targeted mustard, as sold samples in EURO had cadmium lower at 10 µg/kg, agains
 
 In one study, nickel across 10 groups of mustard ranged from 550 µg/kg (sample M3, Dhaka/Chattogram/Cumilla/Feni retail markets) to 11,300 µg/kg (sample M6, Dhaka/Chattogram/Cumilla/Feni retail markets); the lowest is the lowest observed in that study, not an established sourcing preference.<sup class="cite">[[sources/islam2024-edible-fats-oils-bangladesh|11]]<span class="cite-card"><span class="cite-card-head"><span class="cite-card-authors">Islam MSMM, Akter H, Ali MH, Morshed AJM, Islam MA, Uddin MH, Sarkar MAASU, Siddik MNA · 2024</span><a class="cite-card-title" href="../sources/islam2024-edible-fats-oils-bangladesh">Physicochemical characterization and determination of trace metals in different edible fats and oils in Bangladesh: Nexus to human health</a></span><span class="cite-card-body"><span class="cite-card-journal">Heliyon 10(18):e37606</span><a class="cite-card-review" href="../sources/islam2024-edible-fats-oils-bangladesh">Read source →</a></span></span></sup> In another study, nickel across 4 groups of mustard ranged from 1,500 µg/kg (2nd phase (mid)) to 6,500 µg/kg (3rd phase (mid)); the lowest is the lowest observed in that study, not an established sourcing preference.<sup class="cite">[[sources/sultana2022-dhaka-root-leafy-vegetables|9]]<span class="cite-card"><span class="cite-card-head"><span class="cite-card-authors">Sultana R, Tanvir RU, Hussain KA, Chamon AS, Mondol MN · 2022</span><a class="cite-card-title" href="../sources/sultana2022-dhaka-root-leafy-vegetables">Heavy Metals in Commonly Consumed Root and Leafy Vegetables in Dhaka City, Bangladesh, and Assessment of Associated Public Health Risks</a></span><span class="cite-card-body"><span class="cite-card-journal">Environmental Systems Research</span><a class="cite-card-review" href="../sources/sultana2022-dhaka-root-leafy-vegetables">Read source →</a></span></span></sup>
 
+Under clean (borewell) irrigation in a field trial in Saharanpur district, India, cadmium in *B. juncea* leaves was 40 µg/kg DW, below the FAO/WHO permissible limit; under paper mill effluent irrigation in the same study, leaf cadmium rose to 150 µg/kg DW.<sup class="cite">[[sources/elbagory2026-india-brassica-juncea-paper-mill-effluent|14]]<span class="cite-card"><span class="cite-card-head"><span class="cite-card-authors">Elbagory M et al. · 2026</span><a class="cite-card-title" href="../sources/elbagory2026-india-brassica-juncea-paper-mill-effluent">Heavy metal contamination in soil and Indian mustard (Brassica juncea L. Czern.) irrigated with borewell water and paper mill effluent</a></span><span class="cite-card-body"><span class="cite-card-journal">Scientific Reports</span><a class="cite-card-review" href="../sources/elbagory2026-india-brassica-juncea-paper-mill-effluent">Read source →</a></span></span></sup> Mustard honey (*Brassica juncea* floral honey) sampled from three regions of Bangladesh had cadmium below the detection limit and lead at a mean of 100 µg/kg (range below detection to 190 µg/kg), within the EU maximum admissible level of 1,000 µg/kg for honey.<sup class="cite">[[sources/sarker2015-bangladesh-mustard-honey-metals|16]]<span class="cite-card"><span class="cite-card-head"><span class="cite-card-authors">Sarker DC et al. · 2015</span><a class="cite-card-title" href="../sources/sarker2015-bangladesh-mustard-honey-metals">Heavy Metal Contents and Physical Parameters of Aegiceras corniculatum, Brassica juncea, and Litchi chinensis Honeys from Bangladesh.</a></span><span class="cite-card-body"><span class="cite-card-journal">BioMed Research International</span><a class="cite-card-review" href="../sources/sarker2015-bangladesh-mustard-honey-metals">Read source →</a></span></span></sup> Lead in mustard honey is not transferable to condiment mustard or mustard seeds because the bee-honey accumulation pathway differs from direct plant uptake.
+
 
 
 <a id="processing-effects-and-derivatives"></a>
@@ -226,7 +228,7 @@ In one study, nickel across 10 groups of mustard ranged from 550 µg/kg (sample 
 <a id="hmi-ing-018"></a>
 <a id="do-changes-reflect-removal-redistribution-moisture-or-yield-change-dilution-or-altered-species-or-availability"></a>
 
-No processing study for metals in this food is in the library yet.
+No study measuring metals before and after a defined processing step for condiment mustard or mustard seeds is in the library. For fermented mustard products, one migration study found that unglazed ceramic food containers with elevated cadmium and lead content (Cd 422-571 mg/kg, Pb 570-758 mg/kg in ceramic body) can leach measurable cadmium and lead into acidic pickled mustard greens juice over storage time, with cadmium reaching approximately 150 µg/L in the leachate at later time points; the paper is primarily in Vietnamese and the full numerical series is not fully extractable.<sup class="cite">[[sources/tran2021-ceramic-containers-pickled-mustard-metals|17]]<span class="cite-card"><span class="cite-card-head"><span class="cite-card-authors">Tran et al. · 2021</span><a class="cite-card-title" href="../sources/tran2021-ceramic-containers-pickled-mustard-metals">Release of Cadmium, Lead and Manganese from Unglazed Ceramic Food Containers to Pickled Mustard Greens Juice and Soy Sauce</a></span><span class="cite-card-body"><span class="cite-card-journal">Vietnam Journal of Catalysis and Adsorption</span><a class="cite-card-review" href="../sources/tran2021-ceramic-containers-pickled-mustard-metals">Read source →</a></span></span></sup> This is a food contact material pathway, not a primary agricultural contamination pathway.
 
 
 
@@ -314,7 +316,7 @@ No source in the library converted mustard concentrations into a verified estima
 <a id="hmi-ing-036"></a>
 <a id="what-remains-unresolved-when-was-each-answer-reviewed-and-what-changed-in-this-version"></a>
 
-Every source record that names mustard was decided on its content: 18 occurrence extracted, 18 records in all. The occurrence table renders every extracted result; held values remain visible with their reason.
+Every source record that names mustard was decided on its content: 27 records in all. The occurrence table renders every extracted result; held values remain visible with their reason. The 9 sources added in the 7 November 2026 evidence fill (HMI-TOPIC-0297) are field and laboratory studies of *Brassica juncea* tissue: they contribute pathways and variation evidence but are not retail or market occurrence surveys; their concentrations reflect specific soil conditions and are not transferable to the market-occurrence distribution.
 
 References identify the sources used in these answers. The Sources index preserves additional discovery links; inclusion there does not mean a source has been reviewed for this assessment. Corrections, completed searches, new direct evidence and changes in requirements should reopen the relevant answer.
 
@@ -376,6 +378,15 @@ Works cited on this page, in citation-number order. See [Sources](#sources) for 
 11. [[sources/islam2024-edible-fats-oils-bangladesh|Physicochemical characterization and determination of trace metals in different edible fats and oils in Bangladesh: Nexus to human health]]<span class="hmi-ref-meta">Islam MSMM, Akter H, Ali MH, Morshed AJM, Islam MA, Uddin MH, et al. · Heliyon 10(18):e37606 · 2024 · [doi.org/10.1016/j.heliyon.2024.e37606](https://doi.org/10.1016/j.heliyon.2024.e37606)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 12. [[sources/cfs2012-hktds-inorganic-arsenic|The First Hong Kong Total Diet Study: Inorganic Arsenic]]<span class="hmi-ref-meta">Centre for Food Safety FEHD HKSAR · Centre for Food Safety, Food and Environmental Hygiene Department, Government of the Hong Kong Special Administrative Region · 2012 · [www.cfs.gov.hk](https://www.cfs.gov.hk/english/programme/programme_rdss/programme_rdss_tds_report.html)</span><span class="hmi-ref-tag">Government</span>
 13. [[sources/efsa2014-dietary-exposure-iAs|Dietary exposure to inorganic arsenic in the European population]]<span class="hmi-ref-meta">European Food Safety Authority (EFSA) · EFSA Journal 2014;12(3):3597 · 2014 · [doi.org/10.2903/j.efsa.2014.3597](https://doi.org/10.2903/j.efsa.2014.3597)</span><span class="hmi-ref-tag">Government</span>
+14. [[sources/elbagory2026-india-brassica-juncea-paper-mill-effluent|Heavy metal contamination in soil and Indian mustard (Brassica juncea L. Czern.) irrigated with borewell water and paper mill effluent]]<span class="hmi-ref-meta">Elbagory M et al. · Scientific Reports · 2026 · [doi.org/10.1038/s41598-026-62409-2](https://doi.org/10.1038/s41598-026-62409-2)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+15. [[sources/zunaidi2021-brunei-brassica-juncea-heavy-metals|Transfer of heavy metals from soils to curly mustard (Brassica juncea (L.) Czern.) grown in an agricultural farm in Brunei Darussalam.]]<span class="hmi-ref-meta">Zunaidi AA, Lim LH, Metali F · Heliyon · 2021 · [doi.org/10.1016/j.heliyon.2021.e07945](https://doi.org/10.1016/j.heliyon.2021.e07945)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+16. [[sources/sarker2015-bangladesh-mustard-honey-metals|Heavy Metal Contents and Physical Parameters of Aegiceras corniculatum, Brassica juncea, and Litchi chinensis Honeys from Bangladesh.]]<span class="hmi-ref-meta">Sarker DC et al. · BioMed Research International · 2015 · [doi.org/10.1155/2015/720341](https://doi.org/10.1155/2015/720341)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+17. [[sources/tran2021-ceramic-containers-pickled-mustard-metals|Release of Cadmium, Lead and Manganese from Unglazed Ceramic Food Containers to Pickled Mustard Greens Juice and Soy Sauce]]<span class="hmi-ref-meta">Tran et al. · Vietnam Journal of Catalysis and Adsorption · 2021 · [doi.org/10.51316/jca.2021.060](https://doi.org/10.51316/jca.2021.060)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+18. [[sources/malecka2019-brassica-juncea-phytoremediation-antioxidant|Insight into the Phytoremediation Capability of Brassica juncea (v. Malopolska): Metal Accumulation and Antioxidant Enzyme Activity.]]<span class="hmi-ref-meta">Malecka A et al. · International Journal of Molecular Sciences · 2019 · [doi.org/10.3390/ijms20184355](https://doi.org/10.3390/ijms20184355)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+19. [[sources/rahman2013-mustard-sunflower-copper-lead-phytoremediation|Enhanced accumulation of copper and lead in amaranth (Amaranthus paniculatus), Indian mustard (Brassica juncea) and sunflower (Helianthus annuus).]]<span class="hmi-ref-meta">Rahman MA et al. · PLoS ONE · 2013 · [doi.org/10.1371/journal.pone.0062941](https://doi.org/10.1371/journal.pone.0062941)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+20. [[sources/mazzon2024-brassica-sorghum-compost-contaminated-soil|Pot experimental trial for assessing the role of different composts on decontamination and reclamation of a polluted soil from an illegal dump site in Southern Italy using Brassica juncea and Sorghum bicolor.]]<span class="hmi-ref-meta">Mazzon M et al. · Environmental Science and Pollution Research International · 2024 · [doi.org/10.1007/s11356-023-31256-3](https://doi.org/10.1007/s11356-023-31256-3)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+21. [[sources/liao2023-brassica-juncea-cadmium-zinc-translocation|Response of Cd, Zn Translocation and Distribution to Organic Acids Heterogeneity in Brassica juncea L.]]<span class="hmi-ref-meta">Liao X et al. · Plants (Basel) · 2023 · [doi.org/10.3390/plants12030479](https://doi.org/10.3390/plants12030479)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+22. [[sources/nguyen2024-mustard-greens-heavy-metal-reference-material|Study on reference material of heavy metals (lead, cadmium, arsenicic, and mercury) in mustard greens by natural infection method]]<span class="hmi-ref-meta">Nguyen et al. · Vietnam Journal of Food Control · 2024 · [doi.org/10.47866/2615-9252/vjfc.4376](https://doi.org/10.47866/2615-9252/vjfc.4376)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
@@ -386,6 +397,8 @@ Browse [Mustard Sources](../sources/index?topic=ingredients%2Fmustard) for sourc
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
+
+7 November 2026: Evidence Fill HMI-TOPIC-0297: 9 source pages added (Elbagory 2026, Zunaidi 2021, Sarker 2015, Tran 2021, Malecka 2019, Rahman 2013, Mazzon 2024, Liao 2023, Nguyen 2024); pathways section extended with borewell-vs-PME contrast (Elbagory 2026) and Brunei field data (Zunaidi 2021); variation section extended with Indian irrigation contrast and Bangladesh mustard honey (Sarker 2015); processing section updated with ceramic container migration evidence (Tran 2021); sources 18 to 27, references 13 to 22.
 
 22 October 2026: Rebuilt from every mustard record in the library: 18 occurrence sources, references by form and basis, same-study contrasts.
 <!-- END: hmi-page-history -->
