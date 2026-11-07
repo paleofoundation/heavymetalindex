@@ -51,7 +51,7 @@ hero_image_alt: "Bottled water and polyester fabric illustrating antimony resear
   </ul>
 </div>
 
-This page draws on evidence from [[sources/cfr2025-40cfr141-62-antimony-mcl|EPA]] and [[sources/eu-2023-1809-ecolabel-absorbent-hygiene|European Commission]], together with 25 peer-reviewed studies and 10 other cited sources. The complete citation list is at the bottom of the page.
+This page draws on evidence from [[sources/cfr2025-40cfr141-62-antimony-mcl|EPA]] and [[sources/eu-2023-1809-ecolabel-absorbent-hygiene|European Commission]], together with 24 peer-reviewed studies and 11 other cited sources. The complete citation list is at the bottom of the page.
 <!-- END: hmi-opening -->
 
 This page draws on the ATSDR toxicological profile, IARC Monograph Volume 131, the WHO drinking-water fact sheet and background document, the OECD SIDS profile for diantimony trioxide, the OEHHA public health goal, the NTP inhalation bioassay and Report on Carcinogens monograph, and the regulatory texts transcribed below. Occurrence in infant articles is synthesized product by product at [[synthesis/antimony-in-baby-products]]. Where a source examined for this page does not print a figure, the gap is named rather than filled.
