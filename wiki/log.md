@@ -2647,6 +2647,11 @@ Notes: Added consultation events for G/TBT/N/VNM/451 and G/TBT/N/VNM/452 from th
 Pages touched: none. Hub-only ledger. No regulation page and no regulatory_limit row.
 Notes: Added one consultation event for G/TBT/N/KOR/1384 from the WTO notification, MOTIR Public Notice No. 2026-597, and the draft Annex 6 texts. Printed figures stay in the verification note in the printed unit. Chromium(VI) stays speciated. Direction is toward the primary text.
 
+## [2026-11-06] ingest | HMI-TOPIC-0054: rapeseed (canola seed) ingredient scaffold and source pages
+
+Pages touched: [[ingredients/rapeseed]], [[sources/li2025-rapeseed-varieties-heavy-metal-stress]], [[sources/ullah2025-canola-sewage-effluent-irrigation]], [[sources/alshaal2026-biochar-pgpr-canola-contaminated-soil]]
+Notes: Deposit HMI-TOPIC-0054 (3 papers). Unit is thin: all three papers are plant-uptake stress-response or soil-remediation context studies; none report metal concentrations in market-ready rapeseed seed as a food commodity. Created source pages for: Li et al. 2025 (Frontiers in Plant Science; cadmium, arsenic, lead in rapeseed plant tissues across 127 varieties and a field experiment at two Hunan, China sites); Ullah et al. 2025 (Scientific Reports; heavy metals in sewage effluent used to irrigate canola in Pakistan; seed metal not measured); Alshaal et al. 2026 (BMC Plant Biology; cadmium, lead, nickel in canola roots, shoots, and seeds from drainage-water-irrigated field in Egypt under biochar-PGPR treatments). Created provisional scaffold ingredient page rapeseed.md with evidence_scope: context-only, documenting the uptake pathway, soil-to-plant transfer findings, and the evidence gap for food-occurrence data. Regenerated page-structure baseline (931 to 932 pages) and alias-redirect registry (650 entries, 3 new aliases: canola-seed, brassica-napus-seed, rape-seed). Direction: toward the literature (plant tissue values reported as such, not reframed as food occurrence; evidence gaps named explicitly; no HMT&C alignment).
+
 ## [2026-11-04] ingest | HMI-FILL-0002: clay-geophagy ingredient fill
 
 Pages touched: [[ingredients/clay-geophagy]], [[sources/bonglaisin2022-geophagia-benefits-toxicity-review]], [[sources/davies2023-geophagy-africa-research-gaps]], [[sources/kortei2019-kaolin-minerals-microbes-ghana-ho]]
