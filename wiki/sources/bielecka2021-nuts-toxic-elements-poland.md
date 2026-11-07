@@ -14,7 +14,7 @@ raw_path: "raw/Manual Fetch Kimi /June 8 New Folder With Items 3 2/nutrients-13-
 raw_sha256: "0eee74e70c603f17988beffe43d1effaceea754e41974b378d3ceb1228c3abc0"
 access_url: "https://doi.org/10.3390/nu13103606"
 metals: [tAs, Cd, Pb, tHg]
-ingredients: ["[[ingredients/almond]]", "[[ingredients/cashew-nuts]]", "[[ingredients/cashews]]", "[[ingredients/hazelnuts]]", "[[ingredients/peanuts]]", "[[ingredients/walnuts]]"]
+ingredients: ["[[ingredients/almond]]", "[[ingredients/brazil-nuts]]", "[[ingredients/cashew-nuts]]", "[[ingredients/cashews]]", "[[ingredients/hazelnuts]]", "[[ingredients/peanuts]]", "[[ingredients/walnuts]]"]
 products: ["[[products/nuts-seeds-other]]", "[[products/cashews]]", "[[products/peanuts]]"]
 matrices: [nuts, tree-nuts, peanuts, as-sold]
 jurisdictions: [Poland]
