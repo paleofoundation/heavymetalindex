@@ -17,7 +17,7 @@ raw_path: raw/markdown/FM_3346791/FM_3346791.md
 access_url: https://doi.org/10.1289/ehp.1104619
 metals: [tAs, iAs]
 ingredients: [rice, infant-formula-powder]
-products: [infant-formula, toddler-formula, rice-containing-products]
+products: [infant-formula, toddler-formula, rice-containing-products, "[[products/rice-grain-syrup]]"]
 jurisdictions: [US]
 wiki_doi: null
 sampling_locations: []
@@ -25,7 +25,7 @@ sampling_year_range: null
 updated: 2026-04-28
 ---
 
-# Jackson 2012 — Arsenic, Organic Foods, And Brown Rice Syrup
+# Jackson, Arsenic, Organic Foods, And Brown Rice Syrup
 
 ## Summary
 
