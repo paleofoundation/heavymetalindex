@@ -30,7 +30,7 @@ pmcid: PMC13565099
 pmid: 42737252
 ---
 
-# Di Bella et al. 2026 — Multi-element analysis of Sicilian citrus fruits from volcanic and non-volcanic areas
+# Di Bella et al. 2026 - Multi-element analysis of Sicilian citrus fruits from volcanic and non-volcanic areas
 
 ## Overview
 

@@ -30,7 +30,7 @@ pmcid: PMC12939959
 pmid: 41750977
 ---
 
-# Penic et al. 2026 — Multi-element composition of clementine, mandarin, and orange peel by-products, Zagreb
+# Penic et al. 2026 - Multi-element composition of clementine, mandarin, and orange peel by-products, Zagreb
 
 ## Overview
 
