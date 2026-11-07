@@ -62,8 +62,9 @@ Well-validated analytical methods with stated LOD and LOQ and reference material
 
 ## Related evidence
 - [[ingredients/non-soy-protein-source]]
-- [[ingredients/herbal-extracts]]
+- [[ingredients/herbal-botanicals]]
 - [[products/supplements-protein-collagen-powders]]
+- [[products/dietary-supplements]]
 - [[metals/lead]]
 - [[metals/cadmium]]
 - [[metals/mercury]]
