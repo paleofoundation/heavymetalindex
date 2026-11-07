@@ -14,7 +14,7 @@ access_url: "https://doi.org/10.1038/s41598-026-44766-0"
 raw_path: "raw/Manual Fetch Discovery/good2026-plant-milk-heavy-metals.pdf"
 raw_sha256: "2e76de25f1683bf2273bc6b244323e1d70332ee54022948cf8f8cf790ed3a2eb"
 metals: [Cr, tAs, Cd, Pb]
-ingredients: ["[[ingredients/plant-milk]]", "[[ingredients/almond]]", "[[ingredients/coconut]]", "[[ingredients/oat]]", "[[ingredients/soy-milk]]", "[[ingredients/soy]]", "[[ingredients/rice-milk]]", "[[ingredients/rice]]", "[[ingredients/cashews]]", "[[ingredients/non-rice-grains]]", "[[ingredients/milk-and-dairy]]"]
+ingredients: ["[[ingredients/plant-milk]]", "[[ingredients/almond]]", "[[ingredients/coconut]]", "[[ingredients/oat]]", "[[ingredients/soy-milk]]", "[[ingredients/soy]]", "[[ingredients/rice-milk]]", "[[ingredients/rice]]", "[[ingredients/cashews]]", "[[ingredients/non-rice-grains]]", "[[ingredients/milk-and-dairy]]", "[[ingredients/hemp]]"]
 products: ["[[products/plant-milks-non-soy-non-rice]]", "[[products/plant-milks-rice-based]]", "[[products/plant-milks-soy-based]]", "[[products/rice-beverages-rice-milk]]"]
 matrices: [plant-based-drink, dairy-alternative]
 jurisdictions: [US]

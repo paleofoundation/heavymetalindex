@@ -12,15 +12,15 @@ provisional_reason: >-
   Historical internal reference has an indexed source or distinct category
   directory. Navigation only; synthesis pending.
 provisional_source: '[[sources/zafeiraki2021-hemp-cannabis-metals-greece]]'
-literature_scope: thin
-updated: '2026-10-22'
+literature_scope: moderate
+updated: '2026-11-07'
 evidence_scope: navigation-only
 page_contract_version: 1.0.0
 question_record: data/evidence/engine/ingredient/hemp/question-record.json
 synthesis_record: data/evidence/engine/ingredient/hemp/synthesis.json
 evidence_coverage: partial
 ingredient_presentation: rice-shared-v1
-sources: 11
+sources: 15
 description: >-
   Lead, cadmium, total arsenic, inorganic arsenic and total mercury in hemp:
   monitoring results, studies, references by form and basis, limits, testing and
@@ -64,11 +64,11 @@ ingredient_chrome:
     Lead, cadmium, total arsenic, inorganic arsenic and total mercury in hemp:
     monitoring results, studies, references by form and basis, limits, testing
     and controls.
-  updated: '2026-10-22'
-  reference_count: 11
+  updated: '2026-11-07'
+  reference_count: 15
   snapshot:
     - label: Research sources referenced
-      count: 10
+      count: 14
     - label: Official guidance and instruments
       count: 1
   key_evidence:
