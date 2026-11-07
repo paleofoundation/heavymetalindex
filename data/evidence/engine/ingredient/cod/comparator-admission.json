@@ -1,0 +1,4234 @@
+{
+  "method": "hmi-pooled-reference-v2",
+  "frozen": "2026-10-22",
+  "admission": [
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:Pb:fda-tds-e3b565adfaa849dd0b69:nd",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "Pb",
+      "reference_id": "hmi-pooled-reference-v2:cod-db7099ec5924:ee36591f9563",
+      "reason": "Reporting bounds or insufficient reference spread prevent a stable Low / Moderate / High classification.",
+      "level": null,
+      "target": {
+        "lower": 0,
+        "upper": 4,
+        "exact": false,
+        "statistic": "non-detect bounds"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:Pb:fda-tds-76fbfd30382fbae27352:nd",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "Pb",
+      "reference_id": "hmi-pooled-reference-v2:cod-db7099ec5924:ee36591f9563",
+      "reason": "Reporting bounds or insufficient reference spread prevent a stable Low / Moderate / High classification.",
+      "level": null,
+      "target": {
+        "lower": 0,
+        "upper": 4,
+        "exact": false,
+        "statistic": "non-detect bounds"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:Pb:fda-tds-b319edb42efb37896ac9:nd",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "Pb",
+      "reference_id": "hmi-pooled-reference-v2:cod-db7099ec5924:ee36591f9563",
+      "reason": "Reporting bounds or insufficient reference spread prevent a stable Low / Moderate / High classification.",
+      "level": null,
+      "target": {
+        "lower": 0,
+        "upper": 4,
+        "exact": false,
+        "statistic": "non-detect bounds"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:Pb:fda-tds-fc6a742d777d1c99f747:nd",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "Pb",
+      "reference_id": "hmi-pooled-reference-v2:cod-db7099ec5924:ee36591f9563",
+      "reason": "Reporting bounds or insufficient reference spread prevent a stable Low / Moderate / High classification.",
+      "level": null,
+      "target": {
+        "lower": 0,
+        "upper": 4,
+        "exact": false,
+        "statistic": "non-detect bounds"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:Pb:fda-tds-f9e68021ad9faf89be86:nd",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "Pb",
+      "reference_id": "hmi-pooled-reference-v2:cod-db7099ec5924:ee36591f9563",
+      "reason": "Reporting bounds or insufficient reference spread prevent a stable Low / Moderate / High classification.",
+      "level": null,
+      "target": {
+        "lower": 0,
+        "upper": 4,
+        "exact": false,
+        "statistic": "non-detect bounds"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:Pb:fda-tds-467cc2c4ef314ad07ed6:nd",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "Pb",
+      "reference_id": "hmi-pooled-reference-v2:cod-db7099ec5924:ee36591f9563",
+      "reason": "Reporting bounds or insufficient reference spread prevent a stable Low / Moderate / High classification.",
+      "level": null,
+      "target": {
+        "lower": 0,
+        "upper": 4,
+        "exact": false,
+        "statistic": "non-detect bounds"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:Pb:fda-tds-487afc7c62f9bddb6805:nd",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "Pb",
+      "reference_id": "hmi-pooled-reference-v2:cod-db7099ec5924:ee36591f9563",
+      "reason": "Reporting bounds or insufficient reference spread prevent a stable Low / Moderate / High classification.",
+      "level": null,
+      "target": {
+        "lower": 0,
+        "upper": 4,
+        "exact": false,
+        "statistic": "non-detect bounds"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:Pb:fda-tds-32847b82cd63fdf4d847:nd",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "Pb",
+      "reference_id": "hmi-pooled-reference-v2:cod-db7099ec5924:ee36591f9563",
+      "reason": "Reporting bounds or insufficient reference spread prevent a stable Low / Moderate / High classification.",
+      "level": null,
+      "target": {
+        "lower": 0,
+        "upper": 4,
+        "exact": false,
+        "statistic": "non-detect bounds"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:Pb:fda-tds-97334f4db9c7e5ade1aa:nd",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "Pb",
+      "reference_id": "hmi-pooled-reference-v2:cod-db7099ec5924:ee36591f9563",
+      "reason": "Reporting bounds or insufficient reference spread prevent a stable Low / Moderate / High classification.",
+      "level": null,
+      "target": {
+        "lower": 0,
+        "upper": 4,
+        "exact": false,
+        "statistic": "non-detect bounds"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:Pb:fda-tds-b88cf3ce4dab24117adb:nd",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "Pb",
+      "reference_id": "hmi-pooled-reference-v2:cod-db7099ec5924:ee36591f9563",
+      "reason": "Reporting bounds or insufficient reference spread prevent a stable Low / Moderate / High classification.",
+      "level": null,
+      "target": {
+        "lower": 0,
+        "upper": 4,
+        "exact": false,
+        "statistic": "non-detect bounds"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:Pb:fda-tds-689ad2ab7635946eb539:nd",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "Pb",
+      "reference_id": "hmi-pooled-reference-v2:cod-db7099ec5924:ee36591f9563",
+      "reason": "Reporting bounds or insufficient reference spread prevent a stable Low / Moderate / High classification.",
+      "level": null,
+      "target": {
+        "lower": 0,
+        "upper": 4,
+        "exact": false,
+        "statistic": "non-detect bounds"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:Pb:fda-tds-ae84964c299b3ba11ad7:nd",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "Pb",
+      "reference_id": "hmi-pooled-reference-v2:cod-db7099ec5924:ee36591f9563",
+      "reason": "Reporting bounds or insufficient reference spread prevent a stable Low / Moderate / High classification.",
+      "level": null,
+      "target": {
+        "lower": 0,
+        "upper": 4,
+        "exact": false,
+        "statistic": "non-detect bounds"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:Pb:fda-tds-206d6dd258e54b128e88:nd",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "Pb",
+      "reference_id": "hmi-pooled-reference-v2:cod-db7099ec5924:ee36591f9563",
+      "reason": "Reporting bounds or insufficient reference spread prevent a stable Low / Moderate / High classification.",
+      "level": null,
+      "target": {
+        "lower": 0,
+        "upper": 4,
+        "exact": false,
+        "statistic": "non-detect bounds"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:Pb:fda-tds-0858109a8aa853156648:nd",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "Pb",
+      "reference_id": "hmi-pooled-reference-v2:cod-db7099ec5924:ee36591f9563",
+      "reason": "Reporting bounds or insufficient reference spread prevent a stable Low / Moderate / High classification.",
+      "level": null,
+      "target": {
+        "lower": 0,
+        "upper": 4,
+        "exact": false,
+        "statistic": "non-detect bounds"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:Pb:fda-tds-08061c740c14441531a9:nd",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "Pb",
+      "reference_id": "hmi-pooled-reference-v2:cod-db7099ec5924:ee36591f9563",
+      "reason": "Reporting bounds or insufficient reference spread prevent a stable Low / Moderate / High classification.",
+      "level": null,
+      "target": {
+        "lower": 0,
+        "upper": 4,
+        "exact": false,
+        "statistic": "non-detect bounds"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:Pb:fda-tds-055d79217128dbd56184:nd",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "Pb",
+      "reference_id": "hmi-pooled-reference-v2:cod-db7099ec5924:ee36591f9563",
+      "reason": "Reporting bounds or insufficient reference spread prevent a stable Low / Moderate / High classification.",
+      "level": null,
+      "target": {
+        "lower": 0,
+        "upper": 4,
+        "exact": false,
+        "statistic": "non-detect bounds"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:Pb:fda-tds-b24f68c53dbcb07c291c:nd",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "Pb",
+      "reference_id": "hmi-pooled-reference-v2:cod-db7099ec5924:ee36591f9563",
+      "reason": "Reporting bounds or insufficient reference spread prevent a stable Low / Moderate / High classification.",
+      "level": null,
+      "target": {
+        "lower": 0,
+        "upper": 4,
+        "exact": false,
+        "statistic": "non-detect bounds"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:Pb:fda-tds-9f42e52aacea1c51d9f8:nd",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "Pb",
+      "reference_id": "hmi-pooled-reference-v2:cod-db7099ec5924:ee36591f9563",
+      "reason": "Reporting bounds or insufficient reference spread prevent a stable Low / Moderate / High classification.",
+      "level": null,
+      "target": {
+        "lower": 0,
+        "upper": 4,
+        "exact": false,
+        "statistic": "non-detect bounds"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:Pb:fda-tds-74d55bbd8ece1cf922a2:nd",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "Pb",
+      "reference_id": "hmi-pooled-reference-v2:cod-db7099ec5924:ee36591f9563",
+      "reason": "Reporting bounds or insufficient reference spread prevent a stable Low / Moderate / High classification.",
+      "level": null,
+      "target": {
+        "lower": 0,
+        "upper": 4,
+        "exact": false,
+        "statistic": "non-detect bounds"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:Pb:fda-tds-dc773faa5bf9ab050ab5:nd",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "Pb",
+      "reference_id": "hmi-pooled-reference-v2:cod-db7099ec5924:ee36591f9563",
+      "reason": "Reporting bounds or insufficient reference spread prevent a stable Low / Moderate / High classification.",
+      "level": null,
+      "target": {
+        "lower": 0,
+        "upper": 4,
+        "exact": false,
+        "statistic": "non-detect bounds"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:Pb:fda-tds-1eb7fd12dc8375902b70:nd",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "Pb",
+      "reference_id": "hmi-pooled-reference-v2:cod-db7099ec5924:ee36591f9563",
+      "reason": "Reporting bounds or insufficient reference spread prevent a stable Low / Moderate / High classification.",
+      "level": null,
+      "target": {
+        "lower": 0,
+        "upper": 4,
+        "exact": false,
+        "statistic": "non-detect bounds"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:Pb:fda-tds-ddf0ddcb92ce2e92af1b:nd",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "Pb",
+      "reference_id": "hmi-pooled-reference-v2:cod-db7099ec5924:ee36591f9563",
+      "reason": "Reporting bounds or insufficient reference spread prevent a stable Low / Moderate / High classification.",
+      "level": null,
+      "target": {
+        "lower": 0,
+        "upper": 4,
+        "exact": false,
+        "statistic": "non-detect bounds"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:Pb:fda-tds-e41ab6fa61318a35b58c:nd",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "Pb",
+      "reference_id": "hmi-pooled-reference-v2:cod-db7099ec5924:ee36591f9563",
+      "reason": "Reporting bounds or insufficient reference spread prevent a stable Low / Moderate / High classification.",
+      "level": null,
+      "target": {
+        "lower": 0,
+        "upper": 4,
+        "exact": false,
+        "statistic": "non-detect bounds"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:Pb:fda-tds-6cce9fd34292c867320d:nd",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "Pb",
+      "reference_id": "hmi-pooled-reference-v2:cod-db7099ec5924:ee36591f9563",
+      "reason": "Reporting bounds or insufficient reference spread prevent a stable Low / Moderate / High classification.",
+      "level": null,
+      "target": {
+        "lower": 0,
+        "upper": 4,
+        "exact": false,
+        "statistic": "non-detect bounds"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:Pb:fda-tds-2ca34e5ece1261ce2345:nd",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "Pb",
+      "reference_id": "hmi-pooled-reference-v2:cod-db7099ec5924:ee36591f9563",
+      "reason": "Reporting bounds or insufficient reference spread prevent a stable Low / Moderate / High classification.",
+      "level": null,
+      "target": {
+        "lower": 0,
+        "upper": 4,
+        "exact": false,
+        "statistic": "non-detect bounds"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:Pb:fda-tds-cca3b55669e84b0890e0:nd",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "Pb",
+      "reference_id": "hmi-pooled-reference-v2:cod-db7099ec5924:ee36591f9563",
+      "reason": "Reporting bounds or insufficient reference spread prevent a stable Low / Moderate / High classification.",
+      "level": null,
+      "target": {
+        "lower": 0,
+        "upper": 4,
+        "exact": false,
+        "statistic": "non-detect bounds"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:Pb:fda-tds-fa2be6bfa8e8cba911cf:nd",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "Pb",
+      "reference_id": "hmi-pooled-reference-v2:cod-db7099ec5924:ee36591f9563",
+      "reason": "Reporting bounds or insufficient reference spread prevent a stable Low / Moderate / High classification.",
+      "level": null,
+      "target": {
+        "lower": 0,
+        "upper": 4,
+        "exact": false,
+        "statistic": "non-detect bounds"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "nava2026-messina-cod-products-elements:Pb:baccala-salted-cured-cod-gadus-morhua-f10-messina-:mean",
+      "source": "nava2026-messina-cod-products-elements",
+      "analyte": "Pb",
+      "reference_id": null,
+      "reason": "No compatible reference units for cod, as sold and lead on this basis.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "nava2026-messina-cod-products-elements:Pb:cod-burger-theragra-chalcogramma-f3-messina-local-:mean",
+      "source": "nava2026-messina-cod-products-elements",
+      "analyte": "Pb",
+      "reference_id": null,
+      "reason": "No compatible reference units for cod, as sold and lead on this basis.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "nava2026-messina-cod-products-elements:Pb:cod-decapitated-merluccius-polli-f1-messina-local-:mean",
+      "source": "nava2026-messina-cod-products-elements",
+      "analyte": "Pb",
+      "reference_id": null,
+      "reason": "No compatible reference units for cod, as sold and lead on this basis.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "nava2026-messina-cod-products-elements:Pb:cod-fillet-sticks-battered-merluccius-productus-f5:mean",
+      "source": "nava2026-messina-cod-products-elements",
+      "analyte": "Pb",
+      "reference_id": null,
+      "reason": "No compatible reference units for cod, as sold and lead on this basis.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "nava2026-messina-cod-products-elements:Pb:cod-fillet-sticks-breaded-theragra-chalcogramma-f4:mean",
+      "source": "nava2026-messina-cod-products-elements",
+      "analyte": "Pb",
+      "reference_id": null,
+      "reason": "No compatible reference units for cod, as sold and lead on this basis.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "nava2026-messina-cod-products-elements:Pb:cod-fillets-south-african-merluccius-capensis-and-:mean",
+      "source": "nava2026-messina-cod-products-elements",
+      "analyte": "Pb",
+      "reference_id": null,
+      "reason": "No compatible reference units for cod, as sold and lead on this basis.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "nava2026-messina-cod-products-elements:Pb:cod-fillets-with-thin-breadcrumb-coating-pollachiu:mean",
+      "source": "nava2026-messina-cod-products-elements",
+      "analyte": "Pb",
+      "reference_id": null,
+      "reason": "No compatible reference units for cod, as sold and lead on this basis.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "nava2026-messina-cod-products-elements:Pb:fresh-cod-merluccius-merluccius-f8-messina-local-m:mean",
+      "source": "nava2026-messina-cod-products-elements",
+      "analyte": "Pb",
+      "reference_id": null,
+      "reason": "No compatible reference units for cod, as sold and lead on this basis.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "nava2026-messina-cod-products-elements:Pb:frozen-cod-fillet-medallions-merluccius-hubbsi-f6-:mean",
+      "source": "nava2026-messina-cod-products-elements",
+      "analyte": "Pb",
+      "reference_id": null,
+      "reason": "No compatible reference units for cod, frozen and lead on this basis.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "witczak2025-imported-fish-elements-poland:Pb:pacific-cod-gadus-macrocephalus-china-poland:mean",
+      "source": "witczak2025-imported-fish-elements-poland",
+      "analyte": "Pb",
+      "reference_id": null,
+      "reason": "No compatible reference units for cod, frozen and lead on this basis.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "nava2026-messina-cod-products-elements:Pb:stockfish-unsalted-dried-cod-gadus-morhua-f9-messi:mean",
+      "source": "nava2026-messina-cod-products-elements",
+      "analyte": "Pb",
+      "reference_id": null,
+      "reason": "No compatible reference units for cod, dried and lead on this basis.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:Cd:fda-tds-e3b565adfaa849dd0b69:sample_value",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "Cd",
+      "reference_id": "hmi-pooled-reference-v2:cod-fd6d2964c02f:9d44660a6763",
+      "reason": null,
+      "level": "high",
+      "target": {
+        "lower": 8.5,
+        "upper": 8.5,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:Cd:fda-tds-76fbfd30382fbae27352:sample_value",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "Cd",
+      "reference_id": "hmi-pooled-reference-v2:cod-fd6d2964c02f:9d44660a6763",
+      "reason": null,
+      "level": "moderate",
+      "target": {
+        "lower": 2.1,
+        "upper": 2.1,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:Cd:fda-tds-b319edb42efb37896ac9:nd",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "Cd",
+      "reference_id": "hmi-pooled-reference-v2:cod-fd6d2964c02f:9d44660a6763",
+      "reason": "Reporting bounds or insufficient reference spread prevent a stable Low / Moderate / High classification.",
+      "level": null,
+      "target": {
+        "lower": 0,
+        "upper": 1,
+        "exact": false,
+        "statistic": "non-detect bounds"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:Cd:fda-tds-fc6a742d777d1c99f747:sample_value",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "Cd",
+      "reference_id": "hmi-pooled-reference-v2:cod-fd6d2964c02f:9d44660a6763",
+      "reason": null,
+      "level": "moderate",
+      "target": {
+        "lower": 3.1,
+        "upper": 3.1,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:Cd:fda-tds-f9e68021ad9faf89be86:sample_value",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "Cd",
+      "reference_id": "hmi-pooled-reference-v2:cod-fd6d2964c02f:9d44660a6763",
+      "reason": null,
+      "level": "high",
+      "target": {
+        "lower": 3.9,
+        "upper": 3.9,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:Cd:fda-tds-467cc2c4ef314ad07ed6:sample_value",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "Cd",
+      "reference_id": "hmi-pooled-reference-v2:cod-fd6d2964c02f:9d44660a6763",
+      "reason": null,
+      "level": "moderate",
+      "target": {
+        "lower": 1.4,
+        "upper": 1.4,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:Cd:fda-tds-487afc7c62f9bddb6805:sample_value",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "Cd",
+      "reference_id": "hmi-pooled-reference-v2:cod-fd6d2964c02f:9d44660a6763",
+      "reason": null,
+      "level": "moderate",
+      "target": {
+        "lower": 2.7,
+        "upper": 2.7,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:Cd:fda-tds-32847b82cd63fdf4d847:nd",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "Cd",
+      "reference_id": "hmi-pooled-reference-v2:cod-fd6d2964c02f:9d44660a6763",
+      "reason": "Reporting bounds or insufficient reference spread prevent a stable Low / Moderate / High classification.",
+      "level": null,
+      "target": {
+        "lower": 0,
+        "upper": 1,
+        "exact": false,
+        "statistic": "non-detect bounds"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:Cd:fda-tds-97334f4db9c7e5ade1aa:sample_value",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "Cd",
+      "reference_id": "hmi-pooled-reference-v2:cod-fd6d2964c02f:9d44660a6763",
+      "reason": null,
+      "level": "moderate",
+      "target": {
+        "lower": 1.1,
+        "upper": 1.1,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:Cd:fda-tds-b88cf3ce4dab24117adb:sample_value",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "Cd",
+      "reference_id": "hmi-pooled-reference-v2:cod-fd6d2964c02f:9d44660a6763",
+      "reason": null,
+      "level": "high",
+      "target": {
+        "lower": 3.8,
+        "upper": 3.8,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:Cd:fda-tds-689ad2ab7635946eb539:nd",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "Cd",
+      "reference_id": "hmi-pooled-reference-v2:cod-fd6d2964c02f:9d44660a6763",
+      "reason": "Reporting bounds or insufficient reference spread prevent a stable Low / Moderate / High classification.",
+      "level": null,
+      "target": {
+        "lower": 0,
+        "upper": 1,
+        "exact": false,
+        "statistic": "non-detect bounds"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:Cd:fda-tds-ae84964c299b3ba11ad7:sample_value",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "Cd",
+      "reference_id": "hmi-pooled-reference-v2:cod-fd6d2964c02f:9d44660a6763",
+      "reason": null,
+      "level": "high",
+      "target": {
+        "lower": 11,
+        "upper": 11,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:Cd:fda-tds-206d6dd258e54b128e88:nd",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "Cd",
+      "reference_id": "hmi-pooled-reference-v2:cod-fd6d2964c02f:9d44660a6763",
+      "reason": "Reporting bounds or insufficient reference spread prevent a stable Low / Moderate / High classification.",
+      "level": null,
+      "target": {
+        "lower": 0,
+        "upper": 1,
+        "exact": false,
+        "statistic": "non-detect bounds"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:Cd:fda-tds-0858109a8aa853156648:sample_value",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "Cd",
+      "reference_id": "hmi-pooled-reference-v2:cod-fd6d2964c02f:9d44660a6763",
+      "reason": null,
+      "level": "high",
+      "target": {
+        "lower": 4.4,
+        "upper": 4.4,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:Cd:fda-tds-08061c740c14441531a9:nd",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "Cd",
+      "reference_id": "hmi-pooled-reference-v2:cod-fd6d2964c02f:9d44660a6763",
+      "reason": "Reporting bounds or insufficient reference spread prevent a stable Low / Moderate / High classification.",
+      "level": null,
+      "target": {
+        "lower": 0,
+        "upper": 1,
+        "exact": false,
+        "statistic": "non-detect bounds"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:Cd:fda-tds-055d79217128dbd56184:nd",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "Cd",
+      "reference_id": "hmi-pooled-reference-v2:cod-fd6d2964c02f:9d44660a6763",
+      "reason": "Reporting bounds or insufficient reference spread prevent a stable Low / Moderate / High classification.",
+      "level": null,
+      "target": {
+        "lower": 0,
+        "upper": 1,
+        "exact": false,
+        "statistic": "non-detect bounds"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:Cd:fda-tds-b24f68c53dbcb07c291c:sample_value",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "Cd",
+      "reference_id": "hmi-pooled-reference-v2:cod-fd6d2964c02f:9d44660a6763",
+      "reason": null,
+      "level": "moderate",
+      "target": {
+        "lower": 1,
+        "upper": 1,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:Cd:fda-tds-9f42e52aacea1c51d9f8:sample_value",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "Cd",
+      "reference_id": "hmi-pooled-reference-v2:cod-fd6d2964c02f:9d44660a6763",
+      "reason": null,
+      "level": "high",
+      "target": {
+        "lower": 7.7,
+        "upper": 7.7,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:Cd:fda-tds-74d55bbd8ece1cf922a2:sample_value",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "Cd",
+      "reference_id": "hmi-pooled-reference-v2:cod-fd6d2964c02f:9d44660a6763",
+      "reason": null,
+      "level": "moderate",
+      "target": {
+        "lower": 1.2,
+        "upper": 1.2,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:Cd:fda-tds-dc773faa5bf9ab050ab5:sample_value",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "Cd",
+      "reference_id": "hmi-pooled-reference-v2:cod-fd6d2964c02f:9d44660a6763",
+      "reason": null,
+      "level": "moderate",
+      "target": {
+        "lower": 1.3,
+        "upper": 1.3,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:Cd:fda-tds-1eb7fd12dc8375902b70:nd",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "Cd",
+      "reference_id": "hmi-pooled-reference-v2:cod-fd6d2964c02f:9d44660a6763",
+      "reason": "Reporting bounds or insufficient reference spread prevent a stable Low / Moderate / High classification.",
+      "level": null,
+      "target": {
+        "lower": 0,
+        "upper": 1,
+        "exact": false,
+        "statistic": "non-detect bounds"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:Cd:fda-tds-ddf0ddcb92ce2e92af1b:nd",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "Cd",
+      "reference_id": "hmi-pooled-reference-v2:cod-fd6d2964c02f:9d44660a6763",
+      "reason": "Reporting bounds or insufficient reference spread prevent a stable Low / Moderate / High classification.",
+      "level": null,
+      "target": {
+        "lower": 0,
+        "upper": 1,
+        "exact": false,
+        "statistic": "non-detect bounds"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:Cd:fda-tds-e41ab6fa61318a35b58c:sample_value",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "Cd",
+      "reference_id": "hmi-pooled-reference-v2:cod-fd6d2964c02f:9d44660a6763",
+      "reason": null,
+      "level": "moderate",
+      "target": {
+        "lower": 2.5,
+        "upper": 2.5,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:Cd:fda-tds-6cce9fd34292c867320d:sample_value",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "Cd",
+      "reference_id": "hmi-pooled-reference-v2:cod-fd6d2964c02f:9d44660a6763",
+      "reason": null,
+      "level": "moderate",
+      "target": {
+        "lower": 3.3,
+        "upper": 3.3,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:Cd:fda-tds-2ca34e5ece1261ce2345:nd",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "Cd",
+      "reference_id": "hmi-pooled-reference-v2:cod-fd6d2964c02f:9d44660a6763",
+      "reason": "Reporting bounds or insufficient reference spread prevent a stable Low / Moderate / High classification.",
+      "level": null,
+      "target": {
+        "lower": 0,
+        "upper": 1,
+        "exact": false,
+        "statistic": "non-detect bounds"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:Cd:fda-tds-cca3b55669e84b0890e0:nd",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "Cd",
+      "reference_id": "hmi-pooled-reference-v2:cod-fd6d2964c02f:9d44660a6763",
+      "reason": "Reporting bounds or insufficient reference spread prevent a stable Low / Moderate / High classification.",
+      "level": null,
+      "target": {
+        "lower": 0,
+        "upper": 1,
+        "exact": false,
+        "statistic": "non-detect bounds"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:Cd:fda-tds-fa2be6bfa8e8cba911cf:nd",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "Cd",
+      "reference_id": "hmi-pooled-reference-v2:cod-fd6d2964c02f:9d44660a6763",
+      "reason": "Reporting bounds or insufficient reference spread prevent a stable Low / Moderate / High classification.",
+      "level": null,
+      "target": {
+        "lower": 0,
+        "upper": 1,
+        "exact": false,
+        "statistic": "non-detect bounds"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "nava2026-messina-cod-products-elements:Cd:baccala-salted-cured-cod-gadus-morhua-f10-messina-:mean",
+      "source": "nava2026-messina-cod-products-elements",
+      "analyte": "Cd",
+      "reference_id": "hmi-pooled-reference-v2:cod-5c7e869c6280:97959a392762",
+      "reason": "Only 3 reference unit is available; at least four are required by this descriptive display rule.",
+      "level": null,
+      "target": {
+        "lower": 60,
+        "upper": 60,
+        "exact": true,
+        "statistic": "mean"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "nava2026-messina-cod-products-elements:Cd:cod-burger-theragra-chalcogramma-f3-messina-local-:mean",
+      "source": "nava2026-messina-cod-products-elements",
+      "analyte": "Cd",
+      "reference_id": "hmi-pooled-reference-v2:cod-5c7e869c6280:97959a392762",
+      "reason": "Only 3 reference unit is available; at least four are required by this descriptive display rule.",
+      "level": null,
+      "target": {
+        "lower": 10,
+        "upper": 10,
+        "exact": true,
+        "statistic": "mean"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "nava2026-messina-cod-products-elements:Cd:cod-fillet-sticks-battered-merluccius-productus-f5:mean",
+      "source": "nava2026-messina-cod-products-elements",
+      "analyte": "Cd",
+      "reference_id": "hmi-pooled-reference-v2:cod-5c7e869c6280:97959a392762",
+      "reason": "Only 3 reference unit is available; at least four are required by this descriptive display rule.",
+      "level": null,
+      "target": {
+        "lower": 10,
+        "upper": 10,
+        "exact": true,
+        "statistic": "mean"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "nava2026-messina-cod-products-elements:Cd:cod-fillet-sticks-breaded-theragra-chalcogramma-f4:mean",
+      "source": "nava2026-messina-cod-products-elements",
+      "analyte": "Cd",
+      "reference_id": "hmi-pooled-reference-v2:cod-5c7e869c6280:97959a392762",
+      "reason": "Only 3 reference unit is available; at least four are required by this descriptive display rule.",
+      "level": null,
+      "target": {
+        "lower": 10,
+        "upper": 10,
+        "exact": true,
+        "statistic": "mean"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "nava2026-messina-cod-products-elements:Cd:cod-fillets-with-thin-breadcrumb-coating-pollachiu:mean",
+      "source": "nava2026-messina-cod-products-elements",
+      "analyte": "Cd",
+      "reference_id": "hmi-pooled-reference-v2:cod-5c7e869c6280:97959a392762",
+      "reason": "Only 3 reference unit is available; at least four are required by this descriptive display rule.",
+      "level": null,
+      "target": {
+        "lower": 10,
+        "upper": 10,
+        "exact": true,
+        "statistic": "mean"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "nava2026-messina-cod-products-elements:Cd:cod-decapitated-merluccius-polli-f1-messina-local-:not_detected",
+      "source": "nava2026-messina-cod-products-elements",
+      "analyte": "Cd",
+      "reference_id": "hmi-pooled-reference-v2:cod-5c7e869c6280:97959a392762",
+      "reason": "Only 3 reference unit is available; at least four are required by this descriptive display rule.",
+      "level": null,
+      "target": {
+        "lower": 0,
+        "upper": 3,
+        "exact": false,
+        "statistic": "non-detect bounds"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "nava2026-messina-cod-products-elements:Cd:cod-fillets-south-african-merluccius-capensis-and-:not_detected",
+      "source": "nava2026-messina-cod-products-elements",
+      "analyte": "Cd",
+      "reference_id": "hmi-pooled-reference-v2:cod-5c7e869c6280:97959a392762",
+      "reason": "Only 3 reference unit is available; at least four are required by this descriptive display rule.",
+      "level": null,
+      "target": {
+        "lower": 0,
+        "upper": 3,
+        "exact": false,
+        "statistic": "non-detect bounds"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "nava2026-messina-cod-products-elements:Cd:fresh-cod-merluccius-merluccius-f8-messina-local-m:not_detected",
+      "source": "nava2026-messina-cod-products-elements",
+      "analyte": "Cd",
+      "reference_id": "hmi-pooled-reference-v2:cod-5c7e869c6280:97959a392762",
+      "reason": "Only 3 reference unit is available; at least four are required by this descriptive display rule.",
+      "level": null,
+      "target": {
+        "lower": 0,
+        "upper": 3,
+        "exact": false,
+        "statistic": "non-detect bounds"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "nava2026-messina-cod-products-elements:Cd:frozen-cod-fillet-medallions-merluccius-hubbsi-f6-:not_detected",
+      "source": "nava2026-messina-cod-products-elements",
+      "analyte": "Cd",
+      "reference_id": "hmi-pooled-reference-v2:cod-9689959090ae:e15030f8037c",
+      "reason": "Only 1 reference unit is available; at least four are required by this descriptive display rule.",
+      "level": null,
+      "target": {
+        "lower": 0,
+        "upper": 3,
+        "exact": false,
+        "statistic": "non-detect bounds"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "witczak2025-imported-fish-elements-poland:Cd:pacific-cod-gadus-macrocephalus-china-poland:mean",
+      "source": "witczak2025-imported-fish-elements-poland",
+      "analyte": "Cd",
+      "reference_id": "hmi-pooled-reference-v2:cod-9689959090ae:e15030f8037c",
+      "reason": "Only 1 reference unit is available; at least four are required by this descriptive display rule.",
+      "level": null,
+      "target": {
+        "lower": 10,
+        "upper": 10,
+        "exact": true,
+        "statistic": "mean"
+      },
+      "contributes": false
+    },
+    {
+      "finding": "nava2026-messina-cod-products-elements:Cd:stockfish-unsalted-dried-cod-gadus-morhua-f9-messi:mean",
+      "source": "nava2026-messina-cod-products-elements",
+      "analyte": "Cd",
+      "reference_id": null,
+      "reason": "No compatible reference units for cod, dried and cadmium on this basis.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:tAs:fda-tds-e3b565adfaa849dd0b69:sample_value",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "tAs",
+      "reference_id": "hmi-pooled-reference-v2:cod-fd24bcba364b:8357674531f0",
+      "reason": null,
+      "level": "moderate",
+      "target": {
+        "lower": 4200,
+        "upper": 4200,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:tAs:fda-tds-76fbfd30382fbae27352:sample_value",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "tAs",
+      "reference_id": "hmi-pooled-reference-v2:cod-fd24bcba364b:8357674531f0",
+      "reason": null,
+      "level": "high",
+      "target": {
+        "lower": 10900,
+        "upper": 10900,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:tAs:fda-tds-b319edb42efb37896ac9:sample_value",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "tAs",
+      "reference_id": "hmi-pooled-reference-v2:cod-fd24bcba364b:8357674531f0",
+      "reason": null,
+      "level": "low",
+      "target": {
+        "lower": 3300,
+        "upper": 3300,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:tAs:fda-tds-fc6a742d777d1c99f747:sample_value",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "tAs",
+      "reference_id": "hmi-pooled-reference-v2:cod-fd24bcba364b:8357674531f0",
+      "reason": null,
+      "level": "high",
+      "target": {
+        "lower": 6400,
+        "upper": 6400,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:tAs:fda-tds-f9e68021ad9faf89be86:sample_value",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "tAs",
+      "reference_id": "hmi-pooled-reference-v2:cod-fd24bcba364b:8357674531f0",
+      "reason": null,
+      "level": "low",
+      "target": {
+        "lower": 3000,
+        "upper": 3000,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:tAs:fda-tds-467cc2c4ef314ad07ed6:sample_value",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "tAs",
+      "reference_id": "hmi-pooled-reference-v2:cod-fd24bcba364b:8357674531f0",
+      "reason": null,
+      "level": "moderate",
+      "target": {
+        "lower": 5900,
+        "upper": 5900,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:tAs:fda-tds-487afc7c62f9bddb6805:sample_value",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "tAs",
+      "reference_id": "hmi-pooled-reference-v2:cod-fd24bcba364b:8357674531f0",
+      "reason": null,
+      "level": "high",
+      "target": {
+        "lower": 9100,
+        "upper": 9100,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:tAs:fda-tds-32847b82cd63fdf4d847:sample_value",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "tAs",
+      "reference_id": "hmi-pooled-reference-v2:cod-fd24bcba364b:8357674531f0",
+      "reason": null,
+      "level": "moderate",
+      "target": {
+        "lower": 5400,
+        "upper": 5400,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:tAs:fda-tds-97334f4db9c7e5ade1aa:sample_value",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "tAs",
+      "reference_id": "hmi-pooled-reference-v2:cod-fd24bcba364b:8357674531f0",
+      "reason": null,
+      "level": "high",
+      "target": {
+        "lower": 7600,
+        "upper": 7600,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:tAs:fda-tds-b88cf3ce4dab24117adb:sample_value",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "tAs",
+      "reference_id": "hmi-pooled-reference-v2:cod-fd24bcba364b:8357674531f0",
+      "reason": null,
+      "level": "low",
+      "target": {
+        "lower": 2700,
+        "upper": 2700,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:tAs:fda-tds-689ad2ab7635946eb539:sample_value",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "tAs",
+      "reference_id": "hmi-pooled-reference-v2:cod-fd24bcba364b:8357674531f0",
+      "reason": null,
+      "level": "moderate",
+      "target": {
+        "lower": 3400,
+        "upper": 3400,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:tAs:fda-tds-ae84964c299b3ba11ad7:sample_value",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "tAs",
+      "reference_id": "hmi-pooled-reference-v2:cod-fd24bcba364b:8357674531f0",
+      "reason": null,
+      "level": "moderate",
+      "target": {
+        "lower": 3900,
+        "upper": 3900,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:tAs:fda-tds-206d6dd258e54b128e88:sample_value",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "tAs",
+      "reference_id": "hmi-pooled-reference-v2:cod-fd24bcba364b:8357674531f0",
+      "reason": null,
+      "level": "moderate",
+      "target": {
+        "lower": 4200,
+        "upper": 4200,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:tAs:fda-tds-0858109a8aa853156648:sample_value",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "tAs",
+      "reference_id": "hmi-pooled-reference-v2:cod-fd24bcba364b:8357674531f0",
+      "reason": null,
+      "level": "moderate",
+      "target": {
+        "lower": 4500,
+        "upper": 4500,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:tAs:fda-tds-08061c740c14441531a9:sample_value",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "tAs",
+      "reference_id": "hmi-pooled-reference-v2:cod-fd24bcba364b:8357674531f0",
+      "reason": null,
+      "level": "high",
+      "target": {
+        "lower": 8000,
+        "upper": 8000,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:tAs:fda-tds-055d79217128dbd56184:sample_value",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "tAs",
+      "reference_id": "hmi-pooled-reference-v2:cod-fd24bcba364b:8357674531f0",
+      "reason": null,
+      "level": "high",
+      "target": {
+        "lower": 6100,
+        "upper": 6100,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:tAs:fda-tds-b24f68c53dbcb07c291c:sample_value",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "tAs",
+      "reference_id": "hmi-pooled-reference-v2:cod-fd24bcba364b:8357674531f0",
+      "reason": null,
+      "level": "low",
+      "target": {
+        "lower": 2800,
+        "upper": 2800,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:tAs:fda-tds-9f42e52aacea1c51d9f8:sample_value",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "tAs",
+      "reference_id": "hmi-pooled-reference-v2:cod-fd24bcba364b:8357674531f0",
+      "reason": null,
+      "level": "moderate",
+      "target": {
+        "lower": 4200,
+        "upper": 4200,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:tAs:fda-tds-74d55bbd8ece1cf922a2:sample_value",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "tAs",
+      "reference_id": "hmi-pooled-reference-v2:cod-fd24bcba364b:8357674531f0",
+      "reason": null,
+      "level": "moderate",
+      "target": {
+        "lower": 4700,
+        "upper": 4700,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:tAs:fda-tds-dc773faa5bf9ab050ab5:sample_value",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "tAs",
+      "reference_id": "hmi-pooled-reference-v2:cod-fd24bcba364b:8357674531f0",
+      "reason": null,
+      "level": "moderate",
+      "target": {
+        "lower": 3500,
+        "upper": 3500,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:tAs:fda-tds-1eb7fd12dc8375902b70:sample_value",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "tAs",
+      "reference_id": "hmi-pooled-reference-v2:cod-fd24bcba364b:8357674531f0",
+      "reason": null,
+      "level": "moderate",
+      "target": {
+        "lower": 4600,
+        "upper": 4600,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:tAs:fda-tds-ddf0ddcb92ce2e92af1b:sample_value",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "tAs",
+      "reference_id": "hmi-pooled-reference-v2:cod-fd24bcba364b:8357674531f0",
+      "reason": null,
+      "level": "low",
+      "target": {
+        "lower": 2300,
+        "upper": 2300,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:tAs:fda-tds-e41ab6fa61318a35b58c:sample_value",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "tAs",
+      "reference_id": "hmi-pooled-reference-v2:cod-fd24bcba364b:8357674531f0",
+      "reason": null,
+      "level": "moderate",
+      "target": {
+        "lower": 5500,
+        "upper": 5500,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:tAs:fda-tds-6cce9fd34292c867320d:sample_value",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "tAs",
+      "reference_id": "hmi-pooled-reference-v2:cod-fd24bcba364b:8357674531f0",
+      "reason": null,
+      "level": "moderate",
+      "target": {
+        "lower": 3600,
+        "upper": 3600,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:tAs:fda-tds-2ca34e5ece1261ce2345:sample_value",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "tAs",
+      "reference_id": "hmi-pooled-reference-v2:cod-fd24bcba364b:8357674531f0",
+      "reason": null,
+      "level": "low",
+      "target": {
+        "lower": 1300,
+        "upper": 1300,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:tAs:fda-tds-cca3b55669e84b0890e0:sample_value",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "tAs",
+      "reference_id": "hmi-pooled-reference-v2:cod-fd24bcba364b:8357674531f0",
+      "reason": null,
+      "level": "moderate",
+      "target": {
+        "lower": 5700,
+        "upper": 5700,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:tAs:fda-tds-fa2be6bfa8e8cba911cf:sample_value",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "tAs",
+      "reference_id": "hmi-pooled-reference-v2:cod-fd24bcba364b:8357674531f0",
+      "reason": null,
+      "level": "moderate",
+      "target": {
+        "lower": 5900,
+        "upper": 5900,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "nava2026-messina-cod-products-elements:tAs:baccala-salted-cured-cod-gadus-morhua-f10-messina-:mean",
+      "source": "nava2026-messina-cod-products-elements",
+      "analyte": "tAs",
+      "reference_id": null,
+      "reason": "No compatible reference units for cod, as sold and total arsenic on this basis.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "nava2026-messina-cod-products-elements:tAs:cod-burger-theragra-chalcogramma-f3-messina-local-:mean",
+      "source": "nava2026-messina-cod-products-elements",
+      "analyte": "tAs",
+      "reference_id": null,
+      "reason": "No compatible reference units for cod, as sold and total arsenic on this basis.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "nava2026-messina-cod-products-elements:tAs:cod-decapitated-merluccius-polli-f1-messina-local-:mean",
+      "source": "nava2026-messina-cod-products-elements",
+      "analyte": "tAs",
+      "reference_id": null,
+      "reason": "No compatible reference units for cod, as sold and total arsenic on this basis.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "nava2026-messina-cod-products-elements:tAs:cod-fillet-sticks-battered-merluccius-productus-f5:mean",
+      "source": "nava2026-messina-cod-products-elements",
+      "analyte": "tAs",
+      "reference_id": null,
+      "reason": "No compatible reference units for cod, as sold and total arsenic on this basis.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "nava2026-messina-cod-products-elements:tAs:cod-fillet-sticks-breaded-theragra-chalcogramma-f4:mean",
+      "source": "nava2026-messina-cod-products-elements",
+      "analyte": "tAs",
+      "reference_id": null,
+      "reason": "No compatible reference units for cod, as sold and total arsenic on this basis.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "nava2026-messina-cod-products-elements:tAs:cod-fillets-south-african-merluccius-capensis-and-:mean",
+      "source": "nava2026-messina-cod-products-elements",
+      "analyte": "tAs",
+      "reference_id": null,
+      "reason": "No compatible reference units for cod, as sold and total arsenic on this basis.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "nava2026-messina-cod-products-elements:tAs:cod-fillets-with-thin-breadcrumb-coating-pollachiu:mean",
+      "source": "nava2026-messina-cod-products-elements",
+      "analyte": "tAs",
+      "reference_id": null,
+      "reason": "No compatible reference units for cod, as sold and total arsenic on this basis.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "nava2026-messina-cod-products-elements:tAs:fresh-cod-merluccius-merluccius-f8-messina-local-m:mean",
+      "source": "nava2026-messina-cod-products-elements",
+      "analyte": "tAs",
+      "reference_id": null,
+      "reason": "No compatible reference units for cod, as sold and total arsenic on this basis.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "nava2026-messina-cod-products-elements:tAs:frozen-cod-fillet-medallions-merluccius-hubbsi-f6-:mean",
+      "source": "nava2026-messina-cod-products-elements",
+      "analyte": "tAs",
+      "reference_id": null,
+      "reason": "No compatible reference units for cod, frozen and total arsenic on this basis.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "witczak2025-imported-fish-elements-poland:tAs:pacific-cod-gadus-macrocephalus-china-poland:mean",
+      "source": "witczak2025-imported-fish-elements-poland",
+      "analyte": "tAs",
+      "reference_id": null,
+      "reason": "No compatible reference units for cod, frozen and total arsenic on this basis.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "nava2026-messina-cod-products-elements:tAs:stockfish-unsalted-dried-cod-gadus-morhua-f9-messi:mean",
+      "source": "nava2026-messina-cod-products-elements",
+      "analyte": "tAs",
+      "reference_id": null,
+      "reason": "No compatible reference units for cod, dried and total arsenic on this basis.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:tHg:fda-tds-e3b565adfaa849dd0b69:sample_value",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "tHg",
+      "reference_id": "hmi-pooled-reference-v2:cod-ef1f4adcb621:da01e99a6252",
+      "reason": null,
+      "level": "low",
+      "target": {
+        "lower": 45,
+        "upper": 45,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:tHg:fda-tds-76fbfd30382fbae27352:sample_value",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "tHg",
+      "reference_id": "hmi-pooled-reference-v2:cod-ef1f4adcb621:da01e99a6252",
+      "reason": null,
+      "level": "moderate",
+      "target": {
+        "lower": 75,
+        "upper": 75,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:tHg:fda-tds-b319edb42efb37896ac9:sample_value",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "tHg",
+      "reference_id": "hmi-pooled-reference-v2:cod-ef1f4adcb621:da01e99a6252",
+      "reason": null,
+      "level": "moderate",
+      "target": {
+        "lower": 80,
+        "upper": 80,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:tHg:fda-tds-fc6a742d777d1c99f747:sample_value",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "tHg",
+      "reference_id": "hmi-pooled-reference-v2:cod-ef1f4adcb621:da01e99a6252",
+      "reason": null,
+      "level": "moderate",
+      "target": {
+        "lower": 110,
+        "upper": 110,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:tHg:fda-tds-f9e68021ad9faf89be86:sample_value",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "tHg",
+      "reference_id": "hmi-pooled-reference-v2:cod-ef1f4adcb621:da01e99a6252",
+      "reason": null,
+      "level": "high",
+      "target": {
+        "lower": 130,
+        "upper": 130,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:tHg:fda-tds-467cc2c4ef314ad07ed6:sample_value",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "tHg",
+      "reference_id": "hmi-pooled-reference-v2:cod-ef1f4adcb621:da01e99a6252",
+      "reason": null,
+      "level": "low",
+      "target": {
+        "lower": 64,
+        "upper": 64,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:tHg:fda-tds-487afc7c62f9bddb6805:sample_value",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "tHg",
+      "reference_id": "hmi-pooled-reference-v2:cod-ef1f4adcb621:da01e99a6252",
+      "reason": null,
+      "level": "moderate",
+      "target": {
+        "lower": 68,
+        "upper": 68,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:tHg:fda-tds-32847b82cd63fdf4d847:sample_value",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "tHg",
+      "reference_id": "hmi-pooled-reference-v2:cod-ef1f4adcb621:da01e99a6252",
+      "reason": null,
+      "level": "moderate",
+      "target": {
+        "lower": 74,
+        "upper": 74,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:tHg:fda-tds-97334f4db9c7e5ade1aa:sample_value",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "tHg",
+      "reference_id": "hmi-pooled-reference-v2:cod-ef1f4adcb621:da01e99a6252",
+      "reason": null,
+      "level": "moderate",
+      "target": {
+        "lower": 71,
+        "upper": 71,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:tHg:fda-tds-b88cf3ce4dab24117adb:sample_value",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "tHg",
+      "reference_id": "hmi-pooled-reference-v2:cod-ef1f4adcb621:da01e99a6252",
+      "reason": null,
+      "level": "low",
+      "target": {
+        "lower": 56,
+        "upper": 56,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:tHg:fda-tds-689ad2ab7635946eb539:sample_value",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "tHg",
+      "reference_id": "hmi-pooled-reference-v2:cod-ef1f4adcb621:da01e99a6252",
+      "reason": null,
+      "level": "moderate",
+      "target": {
+        "lower": 74,
+        "upper": 74,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:tHg:fda-tds-ae84964c299b3ba11ad7:sample_value",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "tHg",
+      "reference_id": "hmi-pooled-reference-v2:cod-ef1f4adcb621:da01e99a6252",
+      "reason": null,
+      "level": "moderate",
+      "target": {
+        "lower": 110,
+        "upper": 110,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:tHg:fda-tds-206d6dd258e54b128e88:sample_value",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "tHg",
+      "reference_id": "hmi-pooled-reference-v2:cod-ef1f4adcb621:da01e99a6252",
+      "reason": null,
+      "level": "moderate",
+      "target": {
+        "lower": 78,
+        "upper": 78,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:tHg:fda-tds-0858109a8aa853156648:sample_value",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "tHg",
+      "reference_id": "hmi-pooled-reference-v2:cod-ef1f4adcb621:da01e99a6252",
+      "reason": null,
+      "level": "low",
+      "target": {
+        "lower": 53,
+        "upper": 53,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:tHg:fda-tds-08061c740c14441531a9:sample_value",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "tHg",
+      "reference_id": "hmi-pooled-reference-v2:cod-ef1f4adcb621:da01e99a6252",
+      "reason": null,
+      "level": "moderate",
+      "target": {
+        "lower": 100,
+        "upper": 100,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:tHg:fda-tds-055d79217128dbd56184:sample_value",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "tHg",
+      "reference_id": "hmi-pooled-reference-v2:cod-ef1f4adcb621:da01e99a6252",
+      "reason": null,
+      "level": "moderate",
+      "target": {
+        "lower": 110,
+        "upper": 110,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:tHg:fda-tds-b24f68c53dbcb07c291c:sample_value",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "tHg",
+      "reference_id": "hmi-pooled-reference-v2:cod-ef1f4adcb621:da01e99a6252",
+      "reason": null,
+      "level": "high",
+      "target": {
+        "lower": 120,
+        "upper": 120,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:tHg:fda-tds-9f42e52aacea1c51d9f8:sample_value",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "tHg",
+      "reference_id": "hmi-pooled-reference-v2:cod-ef1f4adcb621:da01e99a6252",
+      "reason": null,
+      "level": "moderate",
+      "target": {
+        "lower": 85,
+        "upper": 85,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:tHg:fda-tds-74d55bbd8ece1cf922a2:sample_value",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "tHg",
+      "reference_id": "hmi-pooled-reference-v2:cod-ef1f4adcb621:da01e99a6252",
+      "reason": null,
+      "level": "moderate",
+      "target": {
+        "lower": 93,
+        "upper": 93,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:tHg:fda-tds-dc773faa5bf9ab050ab5:sample_value",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "tHg",
+      "reference_id": "hmi-pooled-reference-v2:cod-ef1f4adcb621:da01e99a6252",
+      "reason": null,
+      "level": "low",
+      "target": {
+        "lower": 44,
+        "upper": 44,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:tHg:fda-tds-1eb7fd12dc8375902b70:sample_value",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "tHg",
+      "reference_id": "hmi-pooled-reference-v2:cod-ef1f4adcb621:da01e99a6252",
+      "reason": null,
+      "level": "moderate",
+      "target": {
+        "lower": 76,
+        "upper": 76,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:tHg:fda-tds-ddf0ddcb92ce2e92af1b:sample_value",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "tHg",
+      "reference_id": "hmi-pooled-reference-v2:cod-ef1f4adcb621:da01e99a6252",
+      "reason": null,
+      "level": "low",
+      "target": {
+        "lower": 45,
+        "upper": 45,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:tHg:fda-tds-e41ab6fa61318a35b58c:sample_value",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "tHg",
+      "reference_id": "hmi-pooled-reference-v2:cod-ef1f4adcb621:da01e99a6252",
+      "reason": null,
+      "level": "moderate",
+      "target": {
+        "lower": 75,
+        "upper": 75,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:tHg:fda-tds-6cce9fd34292c867320d:sample_value",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "tHg",
+      "reference_id": "hmi-pooled-reference-v2:cod-ef1f4adcb621:da01e99a6252",
+      "reason": null,
+      "level": "moderate",
+      "target": {
+        "lower": 100,
+        "upper": 100,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:tHg:fda-tds-2ca34e5ece1261ce2345:sample_value",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "tHg",
+      "reference_id": "hmi-pooled-reference-v2:cod-ef1f4adcb621:da01e99a6252",
+      "reason": null,
+      "level": "high",
+      "target": {
+        "lower": 140,
+        "upper": 140,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:tHg:fda-tds-cca3b55669e84b0890e0:sample_value",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "tHg",
+      "reference_id": "hmi-pooled-reference-v2:cod-ef1f4adcb621:da01e99a6252",
+      "reason": null,
+      "level": "moderate",
+      "target": {
+        "lower": 65,
+        "upper": 65,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:tHg:fda-tds-fa2be6bfa8e8cba911cf:sample_value",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "tHg",
+      "reference_id": "hmi-pooled-reference-v2:cod-ef1f4adcb621:da01e99a6252",
+      "reason": null,
+      "level": "moderate",
+      "target": {
+        "lower": 110,
+        "upper": 110,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "nava2026-messina-cod-products-elements:tHg:baccala-salted-cured-cod-gadus-morhua-f10-messina-:mean",
+      "source": "nava2026-messina-cod-products-elements",
+      "analyte": "tHg",
+      "reference_id": null,
+      "reason": "No compatible reference units for cod, as sold and total mercury on this basis.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "nava2026-messina-cod-products-elements:tHg:cod-burger-theragra-chalcogramma-f3-messina-local-:mean",
+      "source": "nava2026-messina-cod-products-elements",
+      "analyte": "tHg",
+      "reference_id": null,
+      "reason": "No compatible reference units for cod, as sold and total mercury on this basis.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "nava2026-messina-cod-products-elements:tHg:cod-decapitated-merluccius-polli-f1-messina-local-:mean",
+      "source": "nava2026-messina-cod-products-elements",
+      "analyte": "tHg",
+      "reference_id": null,
+      "reason": "No compatible reference units for cod, as sold and total mercury on this basis.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "nava2026-messina-cod-products-elements:tHg:cod-fillet-sticks-battered-merluccius-productus-f5:mean",
+      "source": "nava2026-messina-cod-products-elements",
+      "analyte": "tHg",
+      "reference_id": null,
+      "reason": "No compatible reference units for cod, as sold and total mercury on this basis.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "nava2026-messina-cod-products-elements:tHg:cod-fillet-sticks-breaded-theragra-chalcogramma-f4:mean",
+      "source": "nava2026-messina-cod-products-elements",
+      "analyte": "tHg",
+      "reference_id": null,
+      "reason": "No compatible reference units for cod, as sold and total mercury on this basis.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "nava2026-messina-cod-products-elements:tHg:cod-fillets-south-african-merluccius-capensis-and-:mean",
+      "source": "nava2026-messina-cod-products-elements",
+      "analyte": "tHg",
+      "reference_id": null,
+      "reason": "No compatible reference units for cod, as sold and total mercury on this basis.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "nava2026-messina-cod-products-elements:tHg:cod-fillets-with-thin-breadcrumb-coating-pollachiu:mean",
+      "source": "nava2026-messina-cod-products-elements",
+      "analyte": "tHg",
+      "reference_id": null,
+      "reason": "No compatible reference units for cod, as sold and total mercury on this basis.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "nava2026-messina-cod-products-elements:tHg:fresh-cod-merluccius-merluccius-f8-messina-local-m:mean",
+      "source": "nava2026-messina-cod-products-elements",
+      "analyte": "tHg",
+      "reference_id": null,
+      "reason": "No compatible reference units for cod, as sold and total mercury on this basis.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "nava2026-messina-cod-products-elements:tHg:frozen-cod-fillet-medallions-merluccius-hubbsi-f6-:mean",
+      "source": "nava2026-messina-cod-products-elements",
+      "analyte": "tHg",
+      "reference_id": null,
+      "reason": "No compatible reference units for cod, frozen and total mercury on this basis.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "witczak2025-imported-fish-elements-poland:tHg:pacific-cod-gadus-macrocephalus-china-poland:mean",
+      "source": "witczak2025-imported-fish-elements-poland",
+      "analyte": "tHg",
+      "reference_id": null,
+      "reason": "No compatible reference units for cod, frozen and total mercury on this basis.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "nava2026-messina-cod-products-elements:tHg:stockfish-unsalted-dried-cod-gadus-morhua-f9-messi:mean",
+      "source": "nava2026-messina-cod-products-elements",
+      "analyte": "tHg",
+      "reference_id": null,
+      "reason": "No compatible reference units for cod, dried and total mercury on this basis.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:Ni:fda-tds-e3b565adfaa849dd0b69:nd",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "Ni",
+      "reference_id": "hmi-pooled-reference-v2:cod-d07c294507d5:1d842d060a2e",
+      "reason": "Reporting bounds or insufficient reference spread prevent a stable Low / Moderate / High classification.",
+      "level": null,
+      "target": {
+        "lower": 0,
+        "upper": 40,
+        "exact": false,
+        "statistic": "non-detect bounds"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:Ni:fda-tds-76fbfd30382fbae27352:nd",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "Ni",
+      "reference_id": "hmi-pooled-reference-v2:cod-d07c294507d5:1d842d060a2e",
+      "reason": "Reporting bounds or insufficient reference spread prevent a stable Low / Moderate / High classification.",
+      "level": null,
+      "target": {
+        "lower": 0,
+        "upper": 40,
+        "exact": false,
+        "statistic": "non-detect bounds"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:Ni:fda-tds-b319edb42efb37896ac9:nd",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "Ni",
+      "reference_id": "hmi-pooled-reference-v2:cod-d07c294507d5:1d842d060a2e",
+      "reason": "Reporting bounds or insufficient reference spread prevent a stable Low / Moderate / High classification.",
+      "level": null,
+      "target": {
+        "lower": 0,
+        "upper": 40,
+        "exact": false,
+        "statistic": "non-detect bounds"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:Ni:fda-tds-fc6a742d777d1c99f747:nd",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "Ni",
+      "reference_id": "hmi-pooled-reference-v2:cod-d07c294507d5:1d842d060a2e",
+      "reason": "Reporting bounds or insufficient reference spread prevent a stable Low / Moderate / High classification.",
+      "level": null,
+      "target": {
+        "lower": 0,
+        "upper": 40,
+        "exact": false,
+        "statistic": "non-detect bounds"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:Ni:fda-tds-f9e68021ad9faf89be86:nd",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "Ni",
+      "reference_id": "hmi-pooled-reference-v2:cod-d07c294507d5:1d842d060a2e",
+      "reason": "Reporting bounds or insufficient reference spread prevent a stable Low / Moderate / High classification.",
+      "level": null,
+      "target": {
+        "lower": 0,
+        "upper": 40,
+        "exact": false,
+        "statistic": "non-detect bounds"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:Ni:fda-tds-467cc2c4ef314ad07ed6:nd",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "Ni",
+      "reference_id": "hmi-pooled-reference-v2:cod-d07c294507d5:1d842d060a2e",
+      "reason": "Reporting bounds or insufficient reference spread prevent a stable Low / Moderate / High classification.",
+      "level": null,
+      "target": {
+        "lower": 0,
+        "upper": 40,
+        "exact": false,
+        "statistic": "non-detect bounds"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:Ni:fda-tds-487afc7c62f9bddb6805:nd",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "Ni",
+      "reference_id": "hmi-pooled-reference-v2:cod-d07c294507d5:1d842d060a2e",
+      "reason": "Reporting bounds or insufficient reference spread prevent a stable Low / Moderate / High classification.",
+      "level": null,
+      "target": {
+        "lower": 0,
+        "upper": 40,
+        "exact": false,
+        "statistic": "non-detect bounds"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:Ni:fda-tds-32847b82cd63fdf4d847:nd",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "Ni",
+      "reference_id": "hmi-pooled-reference-v2:cod-d07c294507d5:1d842d060a2e",
+      "reason": "Reporting bounds or insufficient reference spread prevent a stable Low / Moderate / High classification.",
+      "level": null,
+      "target": {
+        "lower": 0,
+        "upper": 40,
+        "exact": false,
+        "statistic": "non-detect bounds"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:Ni:fda-tds-97334f4db9c7e5ade1aa:nd",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "Ni",
+      "reference_id": "hmi-pooled-reference-v2:cod-d07c294507d5:1d842d060a2e",
+      "reason": "Reporting bounds or insufficient reference spread prevent a stable Low / Moderate / High classification.",
+      "level": null,
+      "target": {
+        "lower": 0,
+        "upper": 40,
+        "exact": false,
+        "statistic": "non-detect bounds"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:Ni:fda-tds-b88cf3ce4dab24117adb:nd",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "Ni",
+      "reference_id": "hmi-pooled-reference-v2:cod-d07c294507d5:1d842d060a2e",
+      "reason": "Reporting bounds or insufficient reference spread prevent a stable Low / Moderate / High classification.",
+      "level": null,
+      "target": {
+        "lower": 0,
+        "upper": 40,
+        "exact": false,
+        "statistic": "non-detect bounds"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:Ni:fda-tds-689ad2ab7635946eb539:nd",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "Ni",
+      "reference_id": "hmi-pooled-reference-v2:cod-d07c294507d5:1d842d060a2e",
+      "reason": "Reporting bounds or insufficient reference spread prevent a stable Low / Moderate / High classification.",
+      "level": null,
+      "target": {
+        "lower": 0,
+        "upper": 40,
+        "exact": false,
+        "statistic": "non-detect bounds"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:Ni:fda-tds-ae84964c299b3ba11ad7:nd",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "Ni",
+      "reference_id": "hmi-pooled-reference-v2:cod-d07c294507d5:1d842d060a2e",
+      "reason": "Reporting bounds or insufficient reference spread prevent a stable Low / Moderate / High classification.",
+      "level": null,
+      "target": {
+        "lower": 0,
+        "upper": 40,
+        "exact": false,
+        "statistic": "non-detect bounds"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:Ni:fda-tds-206d6dd258e54b128e88:nd",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "Ni",
+      "reference_id": "hmi-pooled-reference-v2:cod-d07c294507d5:1d842d060a2e",
+      "reason": "Reporting bounds or insufficient reference spread prevent a stable Low / Moderate / High classification.",
+      "level": null,
+      "target": {
+        "lower": 0,
+        "upper": 40,
+        "exact": false,
+        "statistic": "non-detect bounds"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:Ni:fda-tds-0858109a8aa853156648:nd",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "Ni",
+      "reference_id": "hmi-pooled-reference-v2:cod-d07c294507d5:1d842d060a2e",
+      "reason": "Reporting bounds or insufficient reference spread prevent a stable Low / Moderate / High classification.",
+      "level": null,
+      "target": {
+        "lower": 0,
+        "upper": 40,
+        "exact": false,
+        "statistic": "non-detect bounds"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:Ni:fda-tds-08061c740c14441531a9:nd",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "Ni",
+      "reference_id": "hmi-pooled-reference-v2:cod-d07c294507d5:1d842d060a2e",
+      "reason": "Reporting bounds or insufficient reference spread prevent a stable Low / Moderate / High classification.",
+      "level": null,
+      "target": {
+        "lower": 0,
+        "upper": 40,
+        "exact": false,
+        "statistic": "non-detect bounds"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:Ni:fda-tds-055d79217128dbd56184:nd",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "Ni",
+      "reference_id": "hmi-pooled-reference-v2:cod-d07c294507d5:1d842d060a2e",
+      "reason": "Reporting bounds or insufficient reference spread prevent a stable Low / Moderate / High classification.",
+      "level": null,
+      "target": {
+        "lower": 0,
+        "upper": 40,
+        "exact": false,
+        "statistic": "non-detect bounds"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:Ni:fda-tds-b24f68c53dbcb07c291c:nd",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "Ni",
+      "reference_id": "hmi-pooled-reference-v2:cod-d07c294507d5:1d842d060a2e",
+      "reason": "Reporting bounds or insufficient reference spread prevent a stable Low / Moderate / High classification.",
+      "level": null,
+      "target": {
+        "lower": 0,
+        "upper": 40,
+        "exact": false,
+        "statistic": "non-detect bounds"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:Ni:fda-tds-9f42e52aacea1c51d9f8:nd",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "Ni",
+      "reference_id": "hmi-pooled-reference-v2:cod-d07c294507d5:1d842d060a2e",
+      "reason": "Reporting bounds or insufficient reference spread prevent a stable Low / Moderate / High classification.",
+      "level": null,
+      "target": {
+        "lower": 0,
+        "upper": 40,
+        "exact": false,
+        "statistic": "non-detect bounds"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:Ni:fda-tds-74d55bbd8ece1cf922a2:nd",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "Ni",
+      "reference_id": "hmi-pooled-reference-v2:cod-d07c294507d5:1d842d060a2e",
+      "reason": "Reporting bounds or insufficient reference spread prevent a stable Low / Moderate / High classification.",
+      "level": null,
+      "target": {
+        "lower": 0,
+        "upper": 40,
+        "exact": false,
+        "statistic": "non-detect bounds"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:Ni:fda-tds-dc773faa5bf9ab050ab5:sample_value",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "Ni",
+      "reference_id": "hmi-pooled-reference-v2:cod-d07c294507d5:1d842d060a2e",
+      "reason": "Reporting bounds or insufficient reference spread prevent a stable Low / Moderate / High classification.",
+      "level": null,
+      "target": {
+        "lower": 46,
+        "upper": 46,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:Ni:fda-tds-1eb7fd12dc8375902b70:nd",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "Ni",
+      "reference_id": "hmi-pooled-reference-v2:cod-d07c294507d5:1d842d060a2e",
+      "reason": "Reporting bounds or insufficient reference spread prevent a stable Low / Moderate / High classification.",
+      "level": null,
+      "target": {
+        "lower": 0,
+        "upper": 40,
+        "exact": false,
+        "statistic": "non-detect bounds"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:Ni:fda-tds-ddf0ddcb92ce2e92af1b:nd",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "Ni",
+      "reference_id": "hmi-pooled-reference-v2:cod-d07c294507d5:1d842d060a2e",
+      "reason": "Reporting bounds or insufficient reference spread prevent a stable Low / Moderate / High classification.",
+      "level": null,
+      "target": {
+        "lower": 0,
+        "upper": 40,
+        "exact": false,
+        "statistic": "non-detect bounds"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:Ni:fda-tds-e41ab6fa61318a35b58c:nd",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "Ni",
+      "reference_id": "hmi-pooled-reference-v2:cod-d07c294507d5:1d842d060a2e",
+      "reason": "Reporting bounds or insufficient reference spread prevent a stable Low / Moderate / High classification.",
+      "level": null,
+      "target": {
+        "lower": 0,
+        "upper": 40,
+        "exact": false,
+        "statistic": "non-detect bounds"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:Ni:fda-tds-6cce9fd34292c867320d:nd",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "Ni",
+      "reference_id": "hmi-pooled-reference-v2:cod-d07c294507d5:1d842d060a2e",
+      "reason": "Reporting bounds or insufficient reference spread prevent a stable Low / Moderate / High classification.",
+      "level": null,
+      "target": {
+        "lower": 0,
+        "upper": 40,
+        "exact": false,
+        "statistic": "non-detect bounds"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:Ni:fda-tds-2ca34e5ece1261ce2345:nd",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "Ni",
+      "reference_id": "hmi-pooled-reference-v2:cod-d07c294507d5:1d842d060a2e",
+      "reason": "Reporting bounds or insufficient reference spread prevent a stable Low / Moderate / High classification.",
+      "level": null,
+      "target": {
+        "lower": 0,
+        "upper": 40,
+        "exact": false,
+        "statistic": "non-detect bounds"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:Ni:fda-tds-cca3b55669e84b0890e0:nd",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "Ni",
+      "reference_id": "hmi-pooled-reference-v2:cod-d07c294507d5:1d842d060a2e",
+      "reason": "Reporting bounds or insufficient reference spread prevent a stable Low / Moderate / High classification.",
+      "level": null,
+      "target": {
+        "lower": 0,
+        "upper": 40,
+        "exact": false,
+        "statistic": "non-detect bounds"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:Ni:fda-tds-fa2be6bfa8e8cba911cf:nd",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "Ni",
+      "reference_id": "hmi-pooled-reference-v2:cod-d07c294507d5:1d842d060a2e",
+      "reason": "Reporting bounds or insufficient reference spread prevent a stable Low / Moderate / High classification.",
+      "level": null,
+      "target": {
+        "lower": 0,
+        "upper": 40,
+        "exact": false,
+        "statistic": "non-detect bounds"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "nava2026-messina-cod-products-elements:Ni:baccala-salted-cured-cod-gadus-morhua-f10-messina-:mean",
+      "source": "nava2026-messina-cod-products-elements",
+      "analyte": "Ni",
+      "reference_id": null,
+      "reason": "No compatible reference units for cod, as sold and nickel on this basis.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "nava2026-messina-cod-products-elements:Ni:cod-burger-theragra-chalcogramma-f3-messina-local-:not_detected",
+      "source": "nava2026-messina-cod-products-elements",
+      "analyte": "Ni",
+      "reference_id": null,
+      "reason": "The source reports no numerical value or limit for this result; its position cannot be identified.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "nava2026-messina-cod-products-elements:Ni:cod-decapitated-merluccius-polli-f1-messina-local-:not_detected",
+      "source": "nava2026-messina-cod-products-elements",
+      "analyte": "Ni",
+      "reference_id": null,
+      "reason": "The source reports no numerical value or limit for this result; its position cannot be identified.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "nava2026-messina-cod-products-elements:Ni:cod-fillet-sticks-battered-merluccius-productus-f5:not_detected",
+      "source": "nava2026-messina-cod-products-elements",
+      "analyte": "Ni",
+      "reference_id": null,
+      "reason": "The source reports no numerical value or limit for this result; its position cannot be identified.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "nava2026-messina-cod-products-elements:Ni:cod-fillet-sticks-breaded-theragra-chalcogramma-f4:not_detected",
+      "source": "nava2026-messina-cod-products-elements",
+      "analyte": "Ni",
+      "reference_id": null,
+      "reason": "The source reports no numerical value or limit for this result; its position cannot be identified.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "nava2026-messina-cod-products-elements:Ni:cod-fillets-south-african-merluccius-capensis-and-:not_detected",
+      "source": "nava2026-messina-cod-products-elements",
+      "analyte": "Ni",
+      "reference_id": null,
+      "reason": "The source reports no numerical value or limit for this result; its position cannot be identified.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "nava2026-messina-cod-products-elements:Ni:cod-fillets-with-thin-breadcrumb-coating-pollachiu:not_detected",
+      "source": "nava2026-messina-cod-products-elements",
+      "analyte": "Ni",
+      "reference_id": null,
+      "reason": "The source reports no numerical value or limit for this result; its position cannot be identified.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "nava2026-messina-cod-products-elements:Ni:fresh-cod-merluccius-merluccius-f8-messina-local-m:not_detected",
+      "source": "nava2026-messina-cod-products-elements",
+      "analyte": "Ni",
+      "reference_id": null,
+      "reason": "The source reports no numerical value or limit for this result; its position cannot be identified.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "nava2026-messina-cod-products-elements:Ni:frozen-cod-fillet-medallions-merluccius-hubbsi-f6-:not_detected",
+      "source": "nava2026-messina-cod-products-elements",
+      "analyte": "Ni",
+      "reference_id": null,
+      "reason": "The source reports no numerical value or limit for this result; its position cannot be identified.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "witczak2025-imported-fish-elements-poland:Ni:pacific-cod-gadus-macrocephalus-china-poland:mean",
+      "source": "witczak2025-imported-fish-elements-poland",
+      "analyte": "Ni",
+      "reference_id": null,
+      "reason": "No compatible reference units for cod, frozen and nickel on this basis.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "nava2026-messina-cod-products-elements:Ni:stockfish-unsalted-dried-cod-gadus-morhua-f9-messi:mean",
+      "source": "nava2026-messina-cod-products-elements",
+      "analyte": "Ni",
+      "reference_id": null,
+      "reason": "No compatible reference units for cod, dried and nickel on this basis.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:Cr:fda-tds-e3b565adfaa849dd0b69:nd",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "Cr",
+      "reference_id": "hmi-pooled-reference-v2:cod-126af0c8a5b5:248a0a95c427",
+      "reason": "Reporting bounds or insufficient reference spread prevent a stable Low / Moderate / High classification.",
+      "level": null,
+      "target": {
+        "lower": 0,
+        "upper": 50,
+        "exact": false,
+        "statistic": "non-detect bounds"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:Cr:fda-tds-76fbfd30382fbae27352:nd",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "Cr",
+      "reference_id": "hmi-pooled-reference-v2:cod-126af0c8a5b5:248a0a95c427",
+      "reason": "Reporting bounds or insufficient reference spread prevent a stable Low / Moderate / High classification.",
+      "level": null,
+      "target": {
+        "lower": 0,
+        "upper": 50,
+        "exact": false,
+        "statistic": "non-detect bounds"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:Cr:fda-tds-b319edb42efb37896ac9:nd",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "Cr",
+      "reference_id": "hmi-pooled-reference-v2:cod-126af0c8a5b5:248a0a95c427",
+      "reason": "Reporting bounds or insufficient reference spread prevent a stable Low / Moderate / High classification.",
+      "level": null,
+      "target": {
+        "lower": 0,
+        "upper": 50,
+        "exact": false,
+        "statistic": "non-detect bounds"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:Cr:fda-tds-fc6a742d777d1c99f747:nd",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "Cr",
+      "reference_id": "hmi-pooled-reference-v2:cod-126af0c8a5b5:248a0a95c427",
+      "reason": "Reporting bounds or insufficient reference spread prevent a stable Low / Moderate / High classification.",
+      "level": null,
+      "target": {
+        "lower": 0,
+        "upper": 50,
+        "exact": false,
+        "statistic": "non-detect bounds"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:Cr:fda-tds-f9e68021ad9faf89be86:nd",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "Cr",
+      "reference_id": "hmi-pooled-reference-v2:cod-126af0c8a5b5:248a0a95c427",
+      "reason": "Reporting bounds or insufficient reference spread prevent a stable Low / Moderate / High classification.",
+      "level": null,
+      "target": {
+        "lower": 0,
+        "upper": 50,
+        "exact": false,
+        "statistic": "non-detect bounds"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:Cr:fda-tds-467cc2c4ef314ad07ed6:nd",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "Cr",
+      "reference_id": "hmi-pooled-reference-v2:cod-126af0c8a5b5:248a0a95c427",
+      "reason": "Reporting bounds or insufficient reference spread prevent a stable Low / Moderate / High classification.",
+      "level": null,
+      "target": {
+        "lower": 0,
+        "upper": 50,
+        "exact": false,
+        "statistic": "non-detect bounds"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:Cr:fda-tds-487afc7c62f9bddb6805:nd",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "Cr",
+      "reference_id": "hmi-pooled-reference-v2:cod-126af0c8a5b5:248a0a95c427",
+      "reason": "Reporting bounds or insufficient reference spread prevent a stable Low / Moderate / High classification.",
+      "level": null,
+      "target": {
+        "lower": 0,
+        "upper": 50,
+        "exact": false,
+        "statistic": "non-detect bounds"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:Cr:fda-tds-32847b82cd63fdf4d847:nd",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "Cr",
+      "reference_id": "hmi-pooled-reference-v2:cod-126af0c8a5b5:248a0a95c427",
+      "reason": "Reporting bounds or insufficient reference spread prevent a stable Low / Moderate / High classification.",
+      "level": null,
+      "target": {
+        "lower": 0,
+        "upper": 50,
+        "exact": false,
+        "statistic": "non-detect bounds"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:Cr:fda-tds-97334f4db9c7e5ade1aa:nd",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "Cr",
+      "reference_id": "hmi-pooled-reference-v2:cod-126af0c8a5b5:248a0a95c427",
+      "reason": "Reporting bounds or insufficient reference spread prevent a stable Low / Moderate / High classification.",
+      "level": null,
+      "target": {
+        "lower": 0,
+        "upper": 50,
+        "exact": false,
+        "statistic": "non-detect bounds"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:Cr:fda-tds-b88cf3ce4dab24117adb:nd",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "Cr",
+      "reference_id": "hmi-pooled-reference-v2:cod-126af0c8a5b5:248a0a95c427",
+      "reason": "Reporting bounds or insufficient reference spread prevent a stable Low / Moderate / High classification.",
+      "level": null,
+      "target": {
+        "lower": 0,
+        "upper": 50,
+        "exact": false,
+        "statistic": "non-detect bounds"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:Cr:fda-tds-689ad2ab7635946eb539:nd",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "Cr",
+      "reference_id": "hmi-pooled-reference-v2:cod-126af0c8a5b5:248a0a95c427",
+      "reason": "Reporting bounds or insufficient reference spread prevent a stable Low / Moderate / High classification.",
+      "level": null,
+      "target": {
+        "lower": 0,
+        "upper": 50,
+        "exact": false,
+        "statistic": "non-detect bounds"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:Cr:fda-tds-ae84964c299b3ba11ad7:nd",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "Cr",
+      "reference_id": "hmi-pooled-reference-v2:cod-126af0c8a5b5:248a0a95c427",
+      "reason": "Reporting bounds or insufficient reference spread prevent a stable Low / Moderate / High classification.",
+      "level": null,
+      "target": {
+        "lower": 0,
+        "upper": 50,
+        "exact": false,
+        "statistic": "non-detect bounds"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:Cr:fda-tds-206d6dd258e54b128e88:nd",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "Cr",
+      "reference_id": "hmi-pooled-reference-v2:cod-126af0c8a5b5:248a0a95c427",
+      "reason": "Reporting bounds or insufficient reference spread prevent a stable Low / Moderate / High classification.",
+      "level": null,
+      "target": {
+        "lower": 0,
+        "upper": 50,
+        "exact": false,
+        "statistic": "non-detect bounds"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:Cr:fda-tds-0858109a8aa853156648:nd",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "Cr",
+      "reference_id": "hmi-pooled-reference-v2:cod-126af0c8a5b5:248a0a95c427",
+      "reason": "Reporting bounds or insufficient reference spread prevent a stable Low / Moderate / High classification.",
+      "level": null,
+      "target": {
+        "lower": 0,
+        "upper": 50,
+        "exact": false,
+        "statistic": "non-detect bounds"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:Cr:fda-tds-08061c740c14441531a9:nd",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "Cr",
+      "reference_id": "hmi-pooled-reference-v2:cod-126af0c8a5b5:248a0a95c427",
+      "reason": "Reporting bounds or insufficient reference spread prevent a stable Low / Moderate / High classification.",
+      "level": null,
+      "target": {
+        "lower": 0,
+        "upper": 50,
+        "exact": false,
+        "statistic": "non-detect bounds"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:Cr:fda-tds-055d79217128dbd56184:nd",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "Cr",
+      "reference_id": "hmi-pooled-reference-v2:cod-126af0c8a5b5:248a0a95c427",
+      "reason": "Reporting bounds or insufficient reference spread prevent a stable Low / Moderate / High classification.",
+      "level": null,
+      "target": {
+        "lower": 0,
+        "upper": 50,
+        "exact": false,
+        "statistic": "non-detect bounds"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:Cr:fda-tds-b24f68c53dbcb07c291c:nd",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "Cr",
+      "reference_id": "hmi-pooled-reference-v2:cod-126af0c8a5b5:248a0a95c427",
+      "reason": "Reporting bounds or insufficient reference spread prevent a stable Low / Moderate / High classification.",
+      "level": null,
+      "target": {
+        "lower": 0,
+        "upper": 50,
+        "exact": false,
+        "statistic": "non-detect bounds"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:Cr:fda-tds-9f42e52aacea1c51d9f8:nd",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "Cr",
+      "reference_id": "hmi-pooled-reference-v2:cod-126af0c8a5b5:248a0a95c427",
+      "reason": "Reporting bounds or insufficient reference spread prevent a stable Low / Moderate / High classification.",
+      "level": null,
+      "target": {
+        "lower": 0,
+        "upper": 50,
+        "exact": false,
+        "statistic": "non-detect bounds"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:Cr:fda-tds-74d55bbd8ece1cf922a2:nd",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "Cr",
+      "reference_id": "hmi-pooled-reference-v2:cod-126af0c8a5b5:248a0a95c427",
+      "reason": "Reporting bounds or insufficient reference spread prevent a stable Low / Moderate / High classification.",
+      "level": null,
+      "target": {
+        "lower": 0,
+        "upper": 50,
+        "exact": false,
+        "statistic": "non-detect bounds"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:Cr:fda-tds-dc773faa5bf9ab050ab5:nd",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "Cr",
+      "reference_id": "hmi-pooled-reference-v2:cod-126af0c8a5b5:248a0a95c427",
+      "reason": "Reporting bounds or insufficient reference spread prevent a stable Low / Moderate / High classification.",
+      "level": null,
+      "target": {
+        "lower": 0,
+        "upper": 50,
+        "exact": false,
+        "statistic": "non-detect bounds"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:Cr:fda-tds-1eb7fd12dc8375902b70:nd",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "Cr",
+      "reference_id": "hmi-pooled-reference-v2:cod-126af0c8a5b5:248a0a95c427",
+      "reason": "Reporting bounds or insufficient reference spread prevent a stable Low / Moderate / High classification.",
+      "level": null,
+      "target": {
+        "lower": 0,
+        "upper": 50,
+        "exact": false,
+        "statistic": "non-detect bounds"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:Cr:fda-tds-ddf0ddcb92ce2e92af1b:sample_value",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "Cr",
+      "reference_id": "hmi-pooled-reference-v2:cod-126af0c8a5b5:248a0a95c427",
+      "reason": "Reporting bounds or insufficient reference spread prevent a stable Low / Moderate / High classification.",
+      "level": null,
+      "target": {
+        "lower": 87,
+        "upper": 87,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:Cr:fda-tds-e41ab6fa61318a35b58c:nd",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "Cr",
+      "reference_id": "hmi-pooled-reference-v2:cod-126af0c8a5b5:248a0a95c427",
+      "reason": "Reporting bounds or insufficient reference spread prevent a stable Low / Moderate / High classification.",
+      "level": null,
+      "target": {
+        "lower": 0,
+        "upper": 50,
+        "exact": false,
+        "statistic": "non-detect bounds"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:Cr:fda-tds-6cce9fd34292c867320d:nd",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "Cr",
+      "reference_id": "hmi-pooled-reference-v2:cod-126af0c8a5b5:248a0a95c427",
+      "reason": "Reporting bounds or insufficient reference spread prevent a stable Low / Moderate / High classification.",
+      "level": null,
+      "target": {
+        "lower": 0,
+        "upper": 50,
+        "exact": false,
+        "statistic": "non-detect bounds"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:Cr:fda-tds-2ca34e5ece1261ce2345:nd",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "Cr",
+      "reference_id": "hmi-pooled-reference-v2:cod-126af0c8a5b5:248a0a95c427",
+      "reason": "Reporting bounds or insufficient reference spread prevent a stable Low / Moderate / High classification.",
+      "level": null,
+      "target": {
+        "lower": 0,
+        "upper": 50,
+        "exact": false,
+        "statistic": "non-detect bounds"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:Cr:fda-tds-cca3b55669e84b0890e0:nd",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "Cr",
+      "reference_id": "hmi-pooled-reference-v2:cod-126af0c8a5b5:248a0a95c427",
+      "reason": "Reporting bounds or insufficient reference spread prevent a stable Low / Moderate / High classification.",
+      "level": null,
+      "target": {
+        "lower": 0,
+        "upper": 50,
+        "exact": false,
+        "statistic": "non-detect bounds"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:Cr:fda-tds-fa2be6bfa8e8cba911cf:nd",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "Cr",
+      "reference_id": "hmi-pooled-reference-v2:cod-126af0c8a5b5:248a0a95c427",
+      "reason": "Reporting bounds or insufficient reference spread prevent a stable Low / Moderate / High classification.",
+      "level": null,
+      "target": {
+        "lower": 0,
+        "upper": 50,
+        "exact": false,
+        "statistic": "non-detect bounds"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "nava2026-messina-cod-products-elements:Cr:baccala-salted-cured-cod-gadus-morhua-f10-messina-:mean",
+      "source": "nava2026-messina-cod-products-elements",
+      "analyte": "Cr",
+      "reference_id": null,
+      "reason": "No compatible reference units for cod, as sold and chromium on this basis.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "nava2026-messina-cod-products-elements:Cr:cod-burger-theragra-chalcogramma-f3-messina-local-:mean",
+      "source": "nava2026-messina-cod-products-elements",
+      "analyte": "Cr",
+      "reference_id": null,
+      "reason": "No compatible reference units for cod, as sold and chromium on this basis.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "nava2026-messina-cod-products-elements:Cr:cod-decapitated-merluccius-polli-f1-messina-local-:mean",
+      "source": "nava2026-messina-cod-products-elements",
+      "analyte": "Cr",
+      "reference_id": null,
+      "reason": "No compatible reference units for cod, as sold and chromium on this basis.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "nava2026-messina-cod-products-elements:Cr:cod-fillet-sticks-battered-merluccius-productus-f5:mean",
+      "source": "nava2026-messina-cod-products-elements",
+      "analyte": "Cr",
+      "reference_id": null,
+      "reason": "No compatible reference units for cod, as sold and chromium on this basis.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "nava2026-messina-cod-products-elements:Cr:cod-fillet-sticks-breaded-theragra-chalcogramma-f4:mean",
+      "source": "nava2026-messina-cod-products-elements",
+      "analyte": "Cr",
+      "reference_id": null,
+      "reason": "No compatible reference units for cod, as sold and chromium on this basis.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "nava2026-messina-cod-products-elements:Cr:fresh-cod-merluccius-merluccius-f8-messina-local-m:mean",
+      "source": "nava2026-messina-cod-products-elements",
+      "analyte": "Cr",
+      "reference_id": null,
+      "reason": "No compatible reference units for cod, as sold and chromium on this basis.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "nava2026-messina-cod-products-elements:Cr:cod-fillets-south-african-merluccius-capensis-and-:not_detected",
+      "source": "nava2026-messina-cod-products-elements",
+      "analyte": "Cr",
+      "reference_id": null,
+      "reason": "The source reports no numerical value or limit for this result; its position cannot be identified.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "nava2026-messina-cod-products-elements:Cr:cod-fillets-with-thin-breadcrumb-coating-pollachiu:not_detected",
+      "source": "nava2026-messina-cod-products-elements",
+      "analyte": "Cr",
+      "reference_id": null,
+      "reason": "The source reports no numerical value or limit for this result; its position cannot be identified.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "nava2026-messina-cod-products-elements:Cr:frozen-cod-fillet-medallions-merluccius-hubbsi-f6-:not_detected",
+      "source": "nava2026-messina-cod-products-elements",
+      "analyte": "Cr",
+      "reference_id": null,
+      "reason": "The source reports no numerical value or limit for this result; its position cannot be identified.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "witczak2025-imported-fish-elements-poland:Cr:pacific-cod-gadus-macrocephalus-china-poland:mean",
+      "source": "witczak2025-imported-fish-elements-poland",
+      "analyte": "Cr",
+      "reference_id": null,
+      "reason": "No compatible reference units for cod, frozen and chromium on this basis.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "nava2026-messina-cod-products-elements:Cr:stockfish-unsalted-dried-cod-gadus-morhua-f9-messi:mean",
+      "source": "nava2026-messina-cod-products-elements",
+      "analyte": "Cr",
+      "reference_id": null,
+      "reason": "No compatible reference units for cod, dried and chromium on this basis.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "witczak2025-imported-fish-elements-poland:Al:pacific-cod-gadus-macrocephalus-china-poland:mean",
+      "source": "witczak2025-imported-fish-elements-poland",
+      "analyte": "Al",
+      "reference_id": null,
+      "reason": "No compatible reference units for cod, frozen and aluminium on this basis.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "nava2026-messina-cod-products-elements:Sn:baccala-salted-cured-cod-gadus-morhua-f10-messina-:mean",
+      "source": "nava2026-messina-cod-products-elements",
+      "analyte": "Sn",
+      "reference_id": null,
+      "reason": "No compatible reference units for cod, as sold and tin on this basis.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "nava2026-messina-cod-products-elements:Sn:cod-decapitated-merluccius-polli-f1-messina-local-:mean",
+      "source": "nava2026-messina-cod-products-elements",
+      "analyte": "Sn",
+      "reference_id": null,
+      "reason": "No compatible reference units for cod, as sold and tin on this basis.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "nava2026-messina-cod-products-elements:Sn:cod-fillets-south-african-merluccius-capensis-and-:mean",
+      "source": "nava2026-messina-cod-products-elements",
+      "analyte": "Sn",
+      "reference_id": null,
+      "reason": "No compatible reference units for cod, as sold and tin on this basis.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "nava2026-messina-cod-products-elements:Sn:fresh-cod-merluccius-merluccius-f8-messina-local-m:mean",
+      "source": "nava2026-messina-cod-products-elements",
+      "analyte": "Sn",
+      "reference_id": null,
+      "reason": "No compatible reference units for cod, as sold and tin on this basis.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "nava2026-messina-cod-products-elements:Sn:cod-burger-theragra-chalcogramma-f3-messina-local-:not_detected",
+      "source": "nava2026-messina-cod-products-elements",
+      "analyte": "Sn",
+      "reference_id": null,
+      "reason": "The source reports no numerical value or limit for this result; its position cannot be identified.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "nava2026-messina-cod-products-elements:Sn:cod-fillet-sticks-battered-merluccius-productus-f5:not_detected",
+      "source": "nava2026-messina-cod-products-elements",
+      "analyte": "Sn",
+      "reference_id": null,
+      "reason": "The source reports no numerical value or limit for this result; its position cannot be identified.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "nava2026-messina-cod-products-elements:Sn:cod-fillet-sticks-breaded-theragra-chalcogramma-f4:not_detected",
+      "source": "nava2026-messina-cod-products-elements",
+      "analyte": "Sn",
+      "reference_id": null,
+      "reason": "The source reports no numerical value or limit for this result; its position cannot be identified.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "nava2026-messina-cod-products-elements:Sn:cod-fillets-with-thin-breadcrumb-coating-pollachiu:not_detected",
+      "source": "nava2026-messina-cod-products-elements",
+      "analyte": "Sn",
+      "reference_id": null,
+      "reason": "The source reports no numerical value or limit for this result; its position cannot be identified.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "nava2026-messina-cod-products-elements:Sn:frozen-cod-fillet-medallions-merluccius-hubbsi-f6-:mean",
+      "source": "nava2026-messina-cod-products-elements",
+      "analyte": "Sn",
+      "reference_id": null,
+      "reason": "No compatible reference units for cod, frozen and tin on this basis.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "nava2026-messina-cod-products-elements:Sn:stockfish-unsalted-dried-cod-gadus-morhua-f9-messi:mean",
+      "source": "nava2026-messina-cod-products-elements",
+      "analyte": "Sn",
+      "reference_id": null,
+      "reason": "No compatible reference units for cod, dried and tin on this basis.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "nava2026-messina-cod-products-elements:Sb:baccala-salted-cured-cod-gadus-morhua-f10-messina-:not_detected",
+      "source": "nava2026-messina-cod-products-elements",
+      "analyte": "Sb",
+      "reference_id": null,
+      "reason": "The source reports no numerical value or limit for this result; its position cannot be identified.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "nava2026-messina-cod-products-elements:Sb:cod-burger-theragra-chalcogramma-f3-messina-local-:not_detected",
+      "source": "nava2026-messina-cod-products-elements",
+      "analyte": "Sb",
+      "reference_id": null,
+      "reason": "The source reports no numerical value or limit for this result; its position cannot be identified.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "nava2026-messina-cod-products-elements:Sb:cod-decapitated-merluccius-polli-f1-messina-local-:not_detected",
+      "source": "nava2026-messina-cod-products-elements",
+      "analyte": "Sb",
+      "reference_id": null,
+      "reason": "The source reports no numerical value or limit for this result; its position cannot be identified.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "nava2026-messina-cod-products-elements:Sb:cod-fillet-sticks-battered-merluccius-productus-f5:not_detected",
+      "source": "nava2026-messina-cod-products-elements",
+      "analyte": "Sb",
+      "reference_id": null,
+      "reason": "The source reports no numerical value or limit for this result; its position cannot be identified.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "nava2026-messina-cod-products-elements:Sb:cod-fillet-sticks-breaded-theragra-chalcogramma-f4:not_detected",
+      "source": "nava2026-messina-cod-products-elements",
+      "analyte": "Sb",
+      "reference_id": null,
+      "reason": "The source reports no numerical value or limit for this result; its position cannot be identified.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "nava2026-messina-cod-products-elements:Sb:cod-fillets-south-african-merluccius-capensis-and-:not_detected",
+      "source": "nava2026-messina-cod-products-elements",
+      "analyte": "Sb",
+      "reference_id": null,
+      "reason": "The source reports no numerical value or limit for this result; its position cannot be identified.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "nava2026-messina-cod-products-elements:Sb:cod-fillets-with-thin-breadcrumb-coating-pollachiu:not_detected",
+      "source": "nava2026-messina-cod-products-elements",
+      "analyte": "Sb",
+      "reference_id": null,
+      "reason": "The source reports no numerical value or limit for this result; its position cannot be identified.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "nava2026-messina-cod-products-elements:Sb:fresh-cod-merluccius-merluccius-f8-messina-local-m:not_detected",
+      "source": "nava2026-messina-cod-products-elements",
+      "analyte": "Sb",
+      "reference_id": null,
+      "reason": "The source reports no numerical value or limit for this result; its position cannot be identified.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "nava2026-messina-cod-products-elements:Sb:frozen-cod-fillet-medallions-merluccius-hubbsi-f6-:not_detected",
+      "source": "nava2026-messina-cod-products-elements",
+      "analyte": "Sb",
+      "reference_id": null,
+      "reason": "The source reports no numerical value or limit for this result; its position cannot be identified.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "nava2026-messina-cod-products-elements:Sb:stockfish-unsalted-dried-cod-gadus-morhua-f9-messi:not_detected",
+      "source": "nava2026-messina-cod-products-elements",
+      "analyte": "Sb",
+      "reference_id": null,
+      "reason": "The source reports no numerical value or limit for this result; its position cannot be identified.",
+      "level": null,
+      "target": null,
+      "contributes": false
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:U:fda-tds-e3b565adfaa849dd0b69:sample_value",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "U",
+      "reference_id": "hmi-pooled-reference-v2:cod-30f1bcf4078d:c214efc654e0",
+      "reason": "Reporting bounds or insufficient reference spread prevent a stable Low / Moderate / High classification.",
+      "level": null,
+      "target": {
+        "lower": 5.5,
+        "upper": 5.5,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:U:fda-tds-76fbfd30382fbae27352:nd",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "U",
+      "reference_id": "hmi-pooled-reference-v2:cod-30f1bcf4078d:c214efc654e0",
+      "reason": "Reporting bounds or insufficient reference spread prevent a stable Low / Moderate / High classification.",
+      "level": null,
+      "target": {
+        "lower": 0,
+        "upper": 1,
+        "exact": false,
+        "statistic": "non-detect bounds"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:U:fda-tds-b319edb42efb37896ac9:sample_value",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "U",
+      "reference_id": "hmi-pooled-reference-v2:cod-30f1bcf4078d:c214efc654e0",
+      "reason": "Reporting bounds or insufficient reference spread prevent a stable Low / Moderate / High classification.",
+      "level": null,
+      "target": {
+        "lower": 2.2,
+        "upper": 2.2,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:U:fda-tds-fc6a742d777d1c99f747:nd",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "U",
+      "reference_id": "hmi-pooled-reference-v2:cod-30f1bcf4078d:c214efc654e0",
+      "reason": "Reporting bounds or insufficient reference spread prevent a stable Low / Moderate / High classification.",
+      "level": null,
+      "target": {
+        "lower": 0,
+        "upper": 1,
+        "exact": false,
+        "statistic": "non-detect bounds"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:U:fda-tds-f9e68021ad9faf89be86:nd",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "U",
+      "reference_id": "hmi-pooled-reference-v2:cod-30f1bcf4078d:c214efc654e0",
+      "reason": "Reporting bounds or insufficient reference spread prevent a stable Low / Moderate / High classification.",
+      "level": null,
+      "target": {
+        "lower": 0,
+        "upper": 1,
+        "exact": false,
+        "statistic": "non-detect bounds"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:U:fda-tds-467cc2c4ef314ad07ed6:nd",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "U",
+      "reference_id": "hmi-pooled-reference-v2:cod-30f1bcf4078d:c214efc654e0",
+      "reason": "Reporting bounds or insufficient reference spread prevent a stable Low / Moderate / High classification.",
+      "level": null,
+      "target": {
+        "lower": 0,
+        "upper": 1,
+        "exact": false,
+        "statistic": "non-detect bounds"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:U:fda-tds-487afc7c62f9bddb6805:nd",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "U",
+      "reference_id": "hmi-pooled-reference-v2:cod-30f1bcf4078d:c214efc654e0",
+      "reason": "Reporting bounds or insufficient reference spread prevent a stable Low / Moderate / High classification.",
+      "level": null,
+      "target": {
+        "lower": 0,
+        "upper": 1,
+        "exact": false,
+        "statistic": "non-detect bounds"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:U:fda-tds-32847b82cd63fdf4d847:nd",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "U",
+      "reference_id": "hmi-pooled-reference-v2:cod-30f1bcf4078d:c214efc654e0",
+      "reason": "Reporting bounds or insufficient reference spread prevent a stable Low / Moderate / High classification.",
+      "level": null,
+      "target": {
+        "lower": 0,
+        "upper": 1,
+        "exact": false,
+        "statistic": "non-detect bounds"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:U:fda-tds-97334f4db9c7e5ade1aa:nd",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "U",
+      "reference_id": "hmi-pooled-reference-v2:cod-30f1bcf4078d:c214efc654e0",
+      "reason": "Reporting bounds or insufficient reference spread prevent a stable Low / Moderate / High classification.",
+      "level": null,
+      "target": {
+        "lower": 0,
+        "upper": 1,
+        "exact": false,
+        "statistic": "non-detect bounds"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:U:fda-tds-b88cf3ce4dab24117adb:nd",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "U",
+      "reference_id": "hmi-pooled-reference-v2:cod-30f1bcf4078d:c214efc654e0",
+      "reason": "Reporting bounds or insufficient reference spread prevent a stable Low / Moderate / High classification.",
+      "level": null,
+      "target": {
+        "lower": 0,
+        "upper": 1,
+        "exact": false,
+        "statistic": "non-detect bounds"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:U:fda-tds-689ad2ab7635946eb539:nd",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "U",
+      "reference_id": "hmi-pooled-reference-v2:cod-30f1bcf4078d:c214efc654e0",
+      "reason": "Reporting bounds or insufficient reference spread prevent a stable Low / Moderate / High classification.",
+      "level": null,
+      "target": {
+        "lower": 0,
+        "upper": 1,
+        "exact": false,
+        "statistic": "non-detect bounds"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:U:fda-tds-ae84964c299b3ba11ad7:sample_value",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "U",
+      "reference_id": "hmi-pooled-reference-v2:cod-30f1bcf4078d:c214efc654e0",
+      "reason": "Reporting bounds or insufficient reference spread prevent a stable Low / Moderate / High classification.",
+      "level": null,
+      "target": {
+        "lower": 1.8,
+        "upper": 1.8,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:U:fda-tds-206d6dd258e54b128e88:nd",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "U",
+      "reference_id": "hmi-pooled-reference-v2:cod-30f1bcf4078d:c214efc654e0",
+      "reason": "Reporting bounds or insufficient reference spread prevent a stable Low / Moderate / High classification.",
+      "level": null,
+      "target": {
+        "lower": 0,
+        "upper": 1,
+        "exact": false,
+        "statistic": "non-detect bounds"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:U:fda-tds-0858109a8aa853156648:sample_value",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "U",
+      "reference_id": "hmi-pooled-reference-v2:cod-30f1bcf4078d:c214efc654e0",
+      "reason": "Reporting bounds or insufficient reference spread prevent a stable Low / Moderate / High classification.",
+      "level": null,
+      "target": {
+        "lower": 1.6,
+        "upper": 1.6,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:U:fda-tds-08061c740c14441531a9:nd",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "U",
+      "reference_id": "hmi-pooled-reference-v2:cod-30f1bcf4078d:c214efc654e0",
+      "reason": "Reporting bounds or insufficient reference spread prevent a stable Low / Moderate / High classification.",
+      "level": null,
+      "target": {
+        "lower": 0,
+        "upper": 1,
+        "exact": false,
+        "statistic": "non-detect bounds"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:U:fda-tds-055d79217128dbd56184:nd",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "U",
+      "reference_id": "hmi-pooled-reference-v2:cod-30f1bcf4078d:c214efc654e0",
+      "reason": "Reporting bounds or insufficient reference spread prevent a stable Low / Moderate / High classification.",
+      "level": null,
+      "target": {
+        "lower": 0,
+        "upper": 1,
+        "exact": false,
+        "statistic": "non-detect bounds"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:U:fda-tds-b24f68c53dbcb07c291c:sample_value",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "U",
+      "reference_id": "hmi-pooled-reference-v2:cod-30f1bcf4078d:c214efc654e0",
+      "reason": "Reporting bounds or insufficient reference spread prevent a stable Low / Moderate / High classification.",
+      "level": null,
+      "target": {
+        "lower": 1.8,
+        "upper": 1.8,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:U:fda-tds-9f42e52aacea1c51d9f8:nd",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "U",
+      "reference_id": "hmi-pooled-reference-v2:cod-30f1bcf4078d:c214efc654e0",
+      "reason": "Reporting bounds or insufficient reference spread prevent a stable Low / Moderate / High classification.",
+      "level": null,
+      "target": {
+        "lower": 0,
+        "upper": 1,
+        "exact": false,
+        "statistic": "non-detect bounds"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:U:fda-tds-74d55bbd8ece1cf922a2:nd",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "U",
+      "reference_id": "hmi-pooled-reference-v2:cod-30f1bcf4078d:c214efc654e0",
+      "reason": "Reporting bounds or insufficient reference spread prevent a stable Low / Moderate / High classification.",
+      "level": null,
+      "target": {
+        "lower": 0,
+        "upper": 1,
+        "exact": false,
+        "statistic": "non-detect bounds"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:U:fda-tds-dc773faa5bf9ab050ab5:nd",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "U",
+      "reference_id": "hmi-pooled-reference-v2:cod-30f1bcf4078d:c214efc654e0",
+      "reason": "Reporting bounds or insufficient reference spread prevent a stable Low / Moderate / High classification.",
+      "level": null,
+      "target": {
+        "lower": 0,
+        "upper": 1,
+        "exact": false,
+        "statistic": "non-detect bounds"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:U:fda-tds-1eb7fd12dc8375902b70:nd",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "U",
+      "reference_id": "hmi-pooled-reference-v2:cod-30f1bcf4078d:c214efc654e0",
+      "reason": "Reporting bounds or insufficient reference spread prevent a stable Low / Moderate / High classification.",
+      "level": null,
+      "target": {
+        "lower": 0,
+        "upper": 1,
+        "exact": false,
+        "statistic": "non-detect bounds"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:U:fda-tds-ddf0ddcb92ce2e92af1b:nd",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "U",
+      "reference_id": "hmi-pooled-reference-v2:cod-30f1bcf4078d:c214efc654e0",
+      "reason": "Reporting bounds or insufficient reference spread prevent a stable Low / Moderate / High classification.",
+      "level": null,
+      "target": {
+        "lower": 0,
+        "upper": 1,
+        "exact": false,
+        "statistic": "non-detect bounds"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:U:fda-tds-e41ab6fa61318a35b58c:nd",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "U",
+      "reference_id": "hmi-pooled-reference-v2:cod-30f1bcf4078d:c214efc654e0",
+      "reason": "Reporting bounds or insufficient reference spread prevent a stable Low / Moderate / High classification.",
+      "level": null,
+      "target": {
+        "lower": 0,
+        "upper": 1,
+        "exact": false,
+        "statistic": "non-detect bounds"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:U:fda-tds-6cce9fd34292c867320d:nd",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "U",
+      "reference_id": "hmi-pooled-reference-v2:cod-30f1bcf4078d:c214efc654e0",
+      "reason": "Reporting bounds or insufficient reference spread prevent a stable Low / Moderate / High classification.",
+      "level": null,
+      "target": {
+        "lower": 0,
+        "upper": 1,
+        "exact": false,
+        "statistic": "non-detect bounds"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:U:fda-tds-2ca34e5ece1261ce2345:nd",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "U",
+      "reference_id": "hmi-pooled-reference-v2:cod-30f1bcf4078d:c214efc654e0",
+      "reason": "Reporting bounds or insufficient reference spread prevent a stable Low / Moderate / High classification.",
+      "level": null,
+      "target": {
+        "lower": 0,
+        "upper": 1,
+        "exact": false,
+        "statistic": "non-detect bounds"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:U:fda-tds-cca3b55669e84b0890e0:sample_value",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "U",
+      "reference_id": "hmi-pooled-reference-v2:cod-30f1bcf4078d:c214efc654e0",
+      "reason": "Reporting bounds or insufficient reference spread prevent a stable Low / Moderate / High classification.",
+      "level": null,
+      "target": {
+        "lower": 1.2,
+        "upper": 1.2,
+        "exact": true,
+        "statistic": "sample_value"
+      },
+      "contributes": true
+    },
+    {
+      "finding": "fda2022-tds-elements-fy2018-fy2020:U:fda-tds-fa2be6bfa8e8cba911cf:nd",
+      "source": "fda2022-tds-elements-fy2018-fy2020",
+      "analyte": "U",
+      "reference_id": "hmi-pooled-reference-v2:cod-30f1bcf4078d:c214efc654e0",
+      "reason": "Reporting bounds or insufficient reference spread prevent a stable Low / Moderate / High classification.",
+      "level": null,
+      "target": {
+        "lower": 0,
+        "upper": 1,
+        "exact": false,
+        "statistic": "non-detect bounds"
+      },
+      "contributes": true
+    }
+  ],
+  "unit_audit": [
+    {
+      "unit": "nava2026-messina-cod-products-elements:Pb:baccala-salted-cured-cod-gadus-morhua-f10-messina-:mean",
+      "admitted": false,
+      "reason": "a mean is not an observed subgroup median or sample value"
+    },
+    {
+      "unit": "nava2026-messina-cod-products-elements:Pb:cod-burger-theragra-chalcogramma-f3-messina-local-:mean",
+      "admitted": false,
+      "reason": "a mean is not an observed subgroup median or sample value"
+    },
+    {
+      "unit": "nava2026-messina-cod-products-elements:Pb:cod-decapitated-merluccius-polli-f1-messina-local-:mean",
+      "admitted": false,
+      "reason": "a mean is not an observed subgroup median or sample value"
+    },
+    {
+      "unit": "nava2026-messina-cod-products-elements:Pb:cod-fillet-sticks-battered-merluccius-productus-f5:mean",
+      "admitted": false,
+      "reason": "a mean is not an observed subgroup median or sample value"
+    },
+    {
+      "unit": "nava2026-messina-cod-products-elements:Pb:cod-fillet-sticks-breaded-theragra-chalcogramma-f4:mean",
+      "admitted": false,
+      "reason": "a mean is not an observed subgroup median or sample value"
+    },
+    {
+      "unit": "nava2026-messina-cod-products-elements:Pb:cod-fillets-south-african-merluccius-capensis-and-:mean",
+      "admitted": false,
+      "reason": "a mean is not an observed subgroup median or sample value"
+    },
+    {
+      "unit": "nava2026-messina-cod-products-elements:Pb:cod-fillets-with-thin-breadcrumb-coating-pollachiu:mean",
+      "admitted": false,
+      "reason": "a mean is not an observed subgroup median or sample value"
+    },
+    {
+      "unit": "nava2026-messina-cod-products-elements:Pb:fresh-cod-merluccius-merluccius-f8-messina-local-m:mean",
+      "admitted": false,
+      "reason": "a mean is not an observed subgroup median or sample value"
+    },
+    {
+      "unit": "nava2026-messina-cod-products-elements:Pb:frozen-cod-fillet-medallions-merluccius-hubbsi-f6-:mean",
+      "admitted": false,
+      "reason": "a mean is not an observed subgroup median or sample value"
+    },
+    {
+      "unit": "witczak2025-imported-fish-elements-poland:Pb:pacific-cod-gadus-macrocephalus-china-poland:mean",
+      "admitted": false,
+      "reason": "a mean is not an observed subgroup median or sample value"
+    },
+    {
+      "unit": "nava2026-messina-cod-products-elements:Pb:stockfish-unsalted-dried-cod-gadus-morhua-f9-messi:mean",
+      "admitted": false,
+      "reason": "a mean is not an observed subgroup median or sample value"
+    },
+    {
+      "unit": "nava2026-messina-cod-products-elements:Cd:baccala-salted-cured-cod-gadus-morhua-f10-messina-:mean",
+      "admitted": false,
+      "reason": "a mean is not an observed subgroup median or sample value"
+    },
+    {
+      "unit": "nava2026-messina-cod-products-elements:Cd:cod-burger-theragra-chalcogramma-f3-messina-local-:mean",
+      "admitted": false,
+      "reason": "a mean is not an observed subgroup median or sample value"
+    },
+    {
+      "unit": "nava2026-messina-cod-products-elements:Cd:cod-fillet-sticks-battered-merluccius-productus-f5:mean",
+      "admitted": false,
+      "reason": "a mean is not an observed subgroup median or sample value"
+    },
+    {
+      "unit": "nava2026-messina-cod-products-elements:Cd:cod-fillet-sticks-breaded-theragra-chalcogramma-f4:mean",
+      "admitted": false,
+      "reason": "a mean is not an observed subgroup median or sample value"
+    },
+    {
+      "unit": "nava2026-messina-cod-products-elements:Cd:cod-fillets-with-thin-breadcrumb-coating-pollachiu:mean",
+      "admitted": false,
+      "reason": "a mean is not an observed subgroup median or sample value"
+    },
+    {
+      "unit": "witczak2025-imported-fish-elements-poland:Cd:pacific-cod-gadus-macrocephalus-china-poland:mean",
+      "admitted": false,
+      "reason": "a mean is not an observed subgroup median or sample value"
+    },
+    {
+      "unit": "nava2026-messina-cod-products-elements:Cd:stockfish-unsalted-dried-cod-gadus-morhua-f9-messi:mean",
+      "admitted": false,
+      "reason": "a mean is not an observed subgroup median or sample value"
+    },
+    {
+      "unit": "nava2026-messina-cod-products-elements:tAs:baccala-salted-cured-cod-gadus-morhua-f10-messina-:mean",
+      "admitted": false,
+      "reason": "a mean is not an observed subgroup median or sample value"
+    },
+    {
+      "unit": "nava2026-messina-cod-products-elements:tAs:cod-burger-theragra-chalcogramma-f3-messina-local-:mean",
+      "admitted": false,
+      "reason": "a mean is not an observed subgroup median or sample value"
+    },
+    {
+      "unit": "nava2026-messina-cod-products-elements:tAs:cod-decapitated-merluccius-polli-f1-messina-local-:mean",
+      "admitted": false,
+      "reason": "a mean is not an observed subgroup median or sample value"
+    },
+    {
+      "unit": "nava2026-messina-cod-products-elements:tAs:cod-fillet-sticks-battered-merluccius-productus-f5:mean",
+      "admitted": false,
+      "reason": "a mean is not an observed subgroup median or sample value"
+    },
+    {
+      "unit": "nava2026-messina-cod-products-elements:tAs:cod-fillet-sticks-breaded-theragra-chalcogramma-f4:mean",
+      "admitted": false,
+      "reason": "a mean is not an observed subgroup median or sample value"
+    },
+    {
+      "unit": "nava2026-messina-cod-products-elements:tAs:cod-fillets-south-african-merluccius-capensis-and-:mean",
+      "admitted": false,
+      "reason": "a mean is not an observed subgroup median or sample value"
+    },
+    {
+      "unit": "nava2026-messina-cod-products-elements:tAs:cod-fillets-with-thin-breadcrumb-coating-pollachiu:mean",
+      "admitted": false,
+      "reason": "a mean is not an observed subgroup median or sample value"
+    },
+    {
+      "unit": "nava2026-messina-cod-products-elements:tAs:fresh-cod-merluccius-merluccius-f8-messina-local-m:mean",
+      "admitted": false,
+      "reason": "a mean is not an observed subgroup median or sample value"
+    },
+    {
+      "unit": "nava2026-messina-cod-products-elements:tAs:frozen-cod-fillet-medallions-merluccius-hubbsi-f6-:mean",
+      "admitted": false,
+      "reason": "a mean is not an observed subgroup median or sample value"
+    },
+    {
+      "unit": "witczak2025-imported-fish-elements-poland:tAs:pacific-cod-gadus-macrocephalus-china-poland:mean",
+      "admitted": false,
+      "reason": "a mean is not an observed subgroup median or sample value"
+    },
+    {
+      "unit": "nava2026-messina-cod-products-elements:tAs:stockfish-unsalted-dried-cod-gadus-morhua-f9-messi:mean",
+      "admitted": false,
+      "reason": "a mean is not an observed subgroup median or sample value"
+    },
+    {
+      "unit": "nava2026-messina-cod-products-elements:tHg:baccala-salted-cured-cod-gadus-morhua-f10-messina-:mean",
+      "admitted": false,
+      "reason": "a mean is not an observed subgroup median or sample value"
+    },
+    {
+      "unit": "nava2026-messina-cod-products-elements:tHg:cod-burger-theragra-chalcogramma-f3-messina-local-:mean",
+      "admitted": false,
+      "reason": "a mean is not an observed subgroup median or sample value"
+    },
+    {
+      "unit": "nava2026-messina-cod-products-elements:tHg:cod-decapitated-merluccius-polli-f1-messina-local-:mean",
+      "admitted": false,
+      "reason": "a mean is not an observed subgroup median or sample value"
+    },
+    {
+      "unit": "nava2026-messina-cod-products-elements:tHg:cod-fillet-sticks-battered-merluccius-productus-f5:mean",
+      "admitted": false,
+      "reason": "a mean is not an observed subgroup median or sample value"
+    },
+    {
+      "unit": "nava2026-messina-cod-products-elements:tHg:cod-fillet-sticks-breaded-theragra-chalcogramma-f4:mean",
+      "admitted": false,
+      "reason": "a mean is not an observed subgroup median or sample value"
+    },
+    {
+      "unit": "nava2026-messina-cod-products-elements:tHg:cod-fillets-south-african-merluccius-capensis-and-:mean",
+      "admitted": false,
+      "reason": "a mean is not an observed subgroup median or sample value"
+    },
+    {
+      "unit": "nava2026-messina-cod-products-elements:tHg:cod-fillets-with-thin-breadcrumb-coating-pollachiu:mean",
+      "admitted": false,
+      "reason": "a mean is not an observed subgroup median or sample value"
+    },
+    {
+      "unit": "nava2026-messina-cod-products-elements:tHg:fresh-cod-merluccius-merluccius-f8-messina-local-m:mean",
+      "admitted": false,
+      "reason": "a mean is not an observed subgroup median or sample value"
+    },
+    {
+      "unit": "nava2026-messina-cod-products-elements:tHg:frozen-cod-fillet-medallions-merluccius-hubbsi-f6-:mean",
+      "admitted": false,
+      "reason": "a mean is not an observed subgroup median or sample value"
+    },
+    {
+      "unit": "witczak2025-imported-fish-elements-poland:tHg:pacific-cod-gadus-macrocephalus-china-poland:mean",
+      "admitted": false,
+      "reason": "a mean is not an observed subgroup median or sample value"
+    },
+    {
+      "unit": "nava2026-messina-cod-products-elements:tHg:stockfish-unsalted-dried-cod-gadus-morhua-f9-messi:mean",
+      "admitted": false,
+      "reason": "a mean is not an observed subgroup median or sample value"
+    },
+    {
+      "unit": "nava2026-messina-cod-products-elements:Ni:baccala-salted-cured-cod-gadus-morhua-f10-messina-:mean",
+      "admitted": false,
+      "reason": "a mean is not an observed subgroup median or sample value"
+    },
+    {
+      "unit": "nava2026-messina-cod-products-elements:Ni:cod-burger-theragra-chalcogramma-f3-messina-local-:not_detected",
+      "admitted": false,
+      "reason": "not detected without a numeric value or reporting limit"
+    },
+    {
+      "unit": "nava2026-messina-cod-products-elements:Ni:cod-decapitated-merluccius-polli-f1-messina-local-:not_detected",
+      "admitted": false,
+      "reason": "not detected without a numeric value or reporting limit"
+    },
+    {
+      "unit": "nava2026-messina-cod-products-elements:Ni:cod-fillet-sticks-battered-merluccius-productus-f5:not_detected",
+      "admitted": false,
+      "reason": "not detected without a numeric value or reporting limit"
+    },
+    {
+      "unit": "nava2026-messina-cod-products-elements:Ni:cod-fillet-sticks-breaded-theragra-chalcogramma-f4:not_detected",
+      "admitted": false,
+      "reason": "not detected without a numeric value or reporting limit"
+    },
+    {
+      "unit": "nava2026-messina-cod-products-elements:Ni:cod-fillets-south-african-merluccius-capensis-and-:not_detected",
+      "admitted": false,
+      "reason": "not detected without a numeric value or reporting limit"
+    },
+    {
+      "unit": "nava2026-messina-cod-products-elements:Ni:cod-fillets-with-thin-breadcrumb-coating-pollachiu:not_detected",
+      "admitted": false,
+      "reason": "not detected without a numeric value or reporting limit"
+    },
+    {
+      "unit": "nava2026-messina-cod-products-elements:Ni:fresh-cod-merluccius-merluccius-f8-messina-local-m:not_detected",
+      "admitted": false,
+      "reason": "not detected without a numeric value or reporting limit"
+    },
+    {
+      "unit": "nava2026-messina-cod-products-elements:Ni:frozen-cod-fillet-medallions-merluccius-hubbsi-f6-:not_detected",
+      "admitted": false,
+      "reason": "not detected without a numeric value or reporting limit"
+    },
+    {
+      "unit": "witczak2025-imported-fish-elements-poland:Ni:pacific-cod-gadus-macrocephalus-china-poland:mean",
+      "admitted": false,
+      "reason": "a mean is not an observed subgroup median or sample value"
+    },
+    {
+      "unit": "nava2026-messina-cod-products-elements:Ni:stockfish-unsalted-dried-cod-gadus-morhua-f9-messi:mean",
+      "admitted": false,
+      "reason": "a mean is not an observed subgroup median or sample value"
+    },
+    {
+      "unit": "nava2026-messina-cod-products-elements:Cr:baccala-salted-cured-cod-gadus-morhua-f10-messina-:mean",
+      "admitted": false,
+      "reason": "a mean is not an observed subgroup median or sample value"
+    },
+    {
+      "unit": "nava2026-messina-cod-products-elements:Cr:cod-burger-theragra-chalcogramma-f3-messina-local-:mean",
+      "admitted": false,
+      "reason": "a mean is not an observed subgroup median or sample value"
+    },
+    {
+      "unit": "nava2026-messina-cod-products-elements:Cr:cod-decapitated-merluccius-polli-f1-messina-local-:mean",
+      "admitted": false,
+      "reason": "a mean is not an observed subgroup median or sample value"
+    },
+    {
+      "unit": "nava2026-messina-cod-products-elements:Cr:cod-fillet-sticks-battered-merluccius-productus-f5:mean",
+      "admitted": false,
+      "reason": "a mean is not an observed subgroup median or sample value"
+    },
+    {
+      "unit": "nava2026-messina-cod-products-elements:Cr:cod-fillet-sticks-breaded-theragra-chalcogramma-f4:mean",
+      "admitted": false,
+      "reason": "a mean is not an observed subgroup median or sample value"
+    },
+    {
+      "unit": "nava2026-messina-cod-products-elements:Cr:fresh-cod-merluccius-merluccius-f8-messina-local-m:mean",
+      "admitted": false,
+      "reason": "a mean is not an observed subgroup median or sample value"
+    },
+    {
+      "unit": "nava2026-messina-cod-products-elements:Cr:cod-fillets-south-african-merluccius-capensis-and-:not_detected",
+      "admitted": false,
+      "reason": "not detected without a numeric value or reporting limit"
+    },
+    {
+      "unit": "nava2026-messina-cod-products-elements:Cr:cod-fillets-with-thin-breadcrumb-coating-pollachiu:not_detected",
+      "admitted": false,
+      "reason": "not detected without a numeric value or reporting limit"
+    },
+    {
+      "unit": "nava2026-messina-cod-products-elements:Cr:frozen-cod-fillet-medallions-merluccius-hubbsi-f6-:not_detected",
+      "admitted": false,
+      "reason": "not detected without a numeric value or reporting limit"
+    },
+    {
+      "unit": "witczak2025-imported-fish-elements-poland:Cr:pacific-cod-gadus-macrocephalus-china-poland:mean",
+      "admitted": false,
+      "reason": "a mean is not an observed subgroup median or sample value"
+    },
+    {
+      "unit": "nava2026-messina-cod-products-elements:Cr:stockfish-unsalted-dried-cod-gadus-morhua-f9-messi:mean",
+      "admitted": false,
+      "reason": "a mean is not an observed subgroup median or sample value"
+    },
+    {
+      "unit": "witczak2025-imported-fish-elements-poland:Al:pacific-cod-gadus-macrocephalus-china-poland:mean",
+      "admitted": false,
+      "reason": "a mean is not an observed subgroup median or sample value"
+    },
+    {
+      "unit": "nava2026-messina-cod-products-elements:Sn:baccala-salted-cured-cod-gadus-morhua-f10-messina-:mean",
+      "admitted": false,
+      "reason": "a mean is not an observed subgroup median or sample value"
+    },
+    {
+      "unit": "nava2026-messina-cod-products-elements:Sn:cod-decapitated-merluccius-polli-f1-messina-local-:mean",
+      "admitted": false,
+      "reason": "a mean is not an observed subgroup median or sample value"
+    },
+    {
+      "unit": "nava2026-messina-cod-products-elements:Sn:cod-fillets-south-african-merluccius-capensis-and-:mean",
+      "admitted": false,
+      "reason": "a mean is not an observed subgroup median or sample value"
+    },
+    {
+      "unit": "nava2026-messina-cod-products-elements:Sn:fresh-cod-merluccius-merluccius-f8-messina-local-m:mean",
+      "admitted": false,
+      "reason": "a mean is not an observed subgroup median or sample value"
+    },
+    {
+      "unit": "nava2026-messina-cod-products-elements:Sn:cod-burger-theragra-chalcogramma-f3-messina-local-:not_detected",
+      "admitted": false,
+      "reason": "not detected without a numeric value or reporting limit"
+    },
+    {
+      "unit": "nava2026-messina-cod-products-elements:Sn:cod-fillet-sticks-battered-merluccius-productus-f5:not_detected",
+      "admitted": false,
+      "reason": "not detected without a numeric value or reporting limit"
+    },
+    {
+      "unit": "nava2026-messina-cod-products-elements:Sn:cod-fillet-sticks-breaded-theragra-chalcogramma-f4:not_detected",
+      "admitted": false,
+      "reason": "not detected without a numeric value or reporting limit"
+    },
+    {
+      "unit": "nava2026-messina-cod-products-elements:Sn:cod-fillets-with-thin-breadcrumb-coating-pollachiu:not_detected",
+      "admitted": false,
+      "reason": "not detected without a numeric value or reporting limit"
+    },
+    {
+      "unit": "nava2026-messina-cod-products-elements:Sn:frozen-cod-fillet-medallions-merluccius-hubbsi-f6-:mean",
+      "admitted": false,
+      "reason": "a mean is not an observed subgroup median or sample value"
+    },
+    {
+      "unit": "nava2026-messina-cod-products-elements:Sn:stockfish-unsalted-dried-cod-gadus-morhua-f9-messi:mean",
+      "admitted": false,
+      "reason": "a mean is not an observed subgroup median or sample value"
+    },
+    {
+      "unit": "nava2026-messina-cod-products-elements:Sb:baccala-salted-cured-cod-gadus-morhua-f10-messina-:not_detected",
+      "admitted": false,
+      "reason": "not detected without a numeric value or reporting limit"
+    },
+    {
+      "unit": "nava2026-messina-cod-products-elements:Sb:cod-burger-theragra-chalcogramma-f3-messina-local-:not_detected",
+      "admitted": false,
+      "reason": "not detected without a numeric value or reporting limit"
+    },
+    {
+      "unit": "nava2026-messina-cod-products-elements:Sb:cod-decapitated-merluccius-polli-f1-messina-local-:not_detected",
+      "admitted": false,
+      "reason": "not detected without a numeric value or reporting limit"
+    },
+    {
+      "unit": "nava2026-messina-cod-products-elements:Sb:cod-fillet-sticks-battered-merluccius-productus-f5:not_detected",
+      "admitted": false,
+      "reason": "not detected without a numeric value or reporting limit"
+    },
+    {
+      "unit": "nava2026-messina-cod-products-elements:Sb:cod-fillet-sticks-breaded-theragra-chalcogramma-f4:not_detected",
+      "admitted": false,
+      "reason": "not detected without a numeric value or reporting limit"
+    },
+    {
+      "unit": "nava2026-messina-cod-products-elements:Sb:cod-fillets-south-african-merluccius-capensis-and-:not_detected",
+      "admitted": false,
+      "reason": "not detected without a numeric value or reporting limit"
+    },
+    {
+      "unit": "nava2026-messina-cod-products-elements:Sb:cod-fillets-with-thin-breadcrumb-coating-pollachiu:not_detected",
+      "admitted": false,
+      "reason": "not detected without a numeric value or reporting limit"
+    },
+    {
+      "unit": "nava2026-messina-cod-products-elements:Sb:fresh-cod-merluccius-merluccius-f8-messina-local-m:not_detected",
+      "admitted": false,
+      "reason": "not detected without a numeric value or reporting limit"
+    },
+    {
+      "unit": "nava2026-messina-cod-products-elements:Sb:frozen-cod-fillet-medallions-merluccius-hubbsi-f6-:not_detected",
+      "admitted": false,
+      "reason": "not detected without a numeric value or reporting limit"
+    },
+    {
+      "unit": "nava2026-messina-cod-products-elements:Sb:stockfish-unsalted-dried-cod-gadus-morhua-f9-messi:not_detected",
+      "admitted": false,
+      "reason": "not detected without a numeric value or reporting limit"
+    }
+  ],
+  "unit_counts": {
+    "Pb|cod: Cod, cooked|As sold, as eaten or fresh weight": {
+      "units": 27,
+      "families": [
+        "fda2022-tds-elements-fy2018-fy2020"
+      ]
+    },
+    "Cd|cod: Cod, cooked|As sold, as eaten or fresh weight": {
+      "units": 27,
+      "families": [
+        "fda2022-tds-elements-fy2018-fy2020"
+      ]
+    },
+    "Cd|cod: Cod, as sold|As sold, as eaten or fresh weight": {
+      "units": 3,
+      "families": [
+        "nava2026-messina-cod-products-elements"
+      ]
+    },
+    "Cd|cod: Cod, frozen|As sold, as eaten or fresh weight": {
+      "units": 1,
+      "families": [
+        "nava2026-messina-cod-products-elements"
+      ]
+    },
+    "tAs|cod: Cod, cooked|As sold, as eaten or fresh weight": {
+      "units": 27,
+      "families": [
+        "fda2022-tds-elements-fy2018-fy2020"
+      ]
+    },
+    "tHg|cod: Cod, cooked|As sold, as eaten or fresh weight": {
+      "units": 27,
+      "families": [
+        "fda2022-tds-elements-fy2018-fy2020"
+      ]
+    },
+    "Ni|cod: Cod, cooked|As sold, as eaten or fresh weight": {
+      "units": 27,
+      "families": [
+        "fda2022-tds-elements-fy2018-fy2020"
+      ]
+    },
+    "Cr|cod: Cod, cooked|As sold, as eaten or fresh weight": {
+      "units": 27,
+      "families": [
+        "fda2022-tds-elements-fy2018-fy2020"
+      ]
+    },
+    "U|cod: Cod, cooked|As sold, as eaten or fresh weight": {
+      "units": 27,
+      "families": [
+        "fda2022-tds-elements-fy2018-fy2020"
+      ]
+    }
+  }
+}

@@ -67,6 +67,7 @@ const owners = new Set([
   "data/evidence/engine/ingredient/clementines-tangerines/synthesis.json",
   "data/evidence/engine/ingredient/coconut-water/synthesis.json",
   "data/evidence/engine/ingredient/coconut/synthesis.json",
+  "data/evidence/engine/ingredient/cod/synthesis.json",
   "data/evidence/engine/ingredient/coffee/synthesis.json",
   "data/evidence/engine/ingredient/collard-greens/synthesis.json",
   "data/evidence/engine/ingredient/coriander/synthesis.json",

@@ -1,0 +1,1889 @@
+{
+  "contract_version": "1.0.0",
+  "family": "ingredient",
+  "page_slug": "ingredients/cod",
+  "coverage_state": "partial",
+  "answers": [
+    {
+      "question_id": "HMI-ING-001",
+      "scope": {
+        "analytes": "Pb, Cd, tAs, tHg, Ni, Cr, Al, Sn, Sb and U",
+        "material_form": "Cod, cooked, Cod, as sold, Cod, frozen and Cod, dried",
+        "basis": "As reported; µg/kg; no moisture conversion",
+        "geography_market": "Reporting region, purchase market or growing area as each source reports",
+        "period": "Source collection years where reported; unreported dates stay unknown",
+        "stage": "Growing area, processing, retail and release testing",
+        "population_route": "Dietary ingestion",
+        "comparator_outcome": "HMI references by form and basis; same-study site, sampling and form contrasts"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "available",
+      "answer": "True cod are Gadus species such as Atlantic cod (Gadus morhua) and Pacific cod (Gadus macrocephalus).",
+      "search": {
+        "status": "in_progress",
+        "scope": "Every source record and indexed dataset row that names cod",
+        "protocol_ref": "data/evidence/engine/ingredient/cod/evidence-ledger.json",
+        "record_refs": [
+          "data/evidence/engine/ingredient/cod/synthesis.json"
+        ],
+        "screening_ref": "data/evidence/engine/ingredient/cod/evidence-ledger.json",
+        "searched_through": "2026-10-22",
+        "limitations": [
+          "No study in the library measured inorganic arsenic in cod.",
+          "Aluminum was measured only in imported frozen Pacific cod."
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [
+        "wiki/sources/witczak2025-imported-fish-elements-poland.md",
+        "wiki/sources/nava2026-messina-cod-products-elements.md"
+      ],
+      "synthesis_refs": [
+        "data/evidence/syntheses/engine-ingredient-cod-v1.json#identity/1"
+      ],
+      "applicability": "Applies only to the source-specific material, period, preparation and endpoint stated in the answer and attached evidence records",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/ingredients/cod.md"
+      ]
+    },
+    {
+      "question_id": "HMI-ING-002",
+      "scope": {
+        "analytes": "Pb, Cd, tAs, tHg, Ni, Cr, Al, Sn, Sb and U",
+        "material_form": "Cod, cooked, Cod, as sold, Cod, frozen and Cod, dried",
+        "basis": "As reported; µg/kg; no moisture conversion",
+        "geography_market": "Reporting region, purchase market or growing area as each source reports",
+        "period": "Source collection years where reported; unreported dates stay unknown",
+        "stage": "Growing area, processing, retail and release testing",
+        "population_route": "Dietary ingestion",
+        "comparator_outcome": "HMI references by form and basis; same-study site, sampling and form contrasts"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "available",
+      "answer": "In the Italian retail survey, eight of ten products labeled or sold as cod were hake, Alaska pollock, or saithe, and only the stockfish and the baccala were Gadus morhua.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Every source record and indexed dataset row that names cod",
+        "protocol_ref": "data/evidence/engine/ingredient/cod/evidence-ledger.json",
+        "record_refs": [
+          "data/evidence/engine/ingredient/cod/synthesis.json"
+        ],
+        "screening_ref": "data/evidence/engine/ingredient/cod/evidence-ledger.json",
+        "searched_through": "2026-10-22",
+        "limitations": [
+          "No study in the library measured inorganic arsenic in cod.",
+          "Aluminum was measured only in imported frozen Pacific cod."
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [
+        "wiki/sources/nava2026-messina-cod-products-elements.md"
+      ],
+      "synthesis_refs": [
+        "data/evidence/syntheses/engine-ingredient-cod-v1.json#identity/2"
+      ],
+      "applicability": "Applies only to the source-specific material, period, preparation and endpoint stated in the answer and attached evidence records",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/ingredients/cod.md"
+      ]
+    },
+    {
+      "question_id": "HMI-ING-003",
+      "scope": {
+        "analytes": "Pb, Cd, tAs, tHg, Ni, Cr, Al, Sn, Sb and U",
+        "material_form": "Cod, cooked, Cod, as sold, Cod, frozen and Cod, dried",
+        "basis": "As reported; µg/kg; no moisture conversion",
+        "geography_market": "Reporting region, purchase market or growing area as each source reports",
+        "period": "Source collection years where reported; unreported dates stay unknown",
+        "stage": "Growing area, processing, retail and release testing",
+        "population_route": "Dietary ingestion",
+        "comparator_outcome": "HMI references by form and basis; same-study site, sampling and form contrasts"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "available",
+      "answer": "This page reports each product under its stated species and form and does not pool the substitutes with true cod.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Every source record and indexed dataset row that names cod",
+        "protocol_ref": "data/evidence/engine/ingredient/cod/evidence-ledger.json",
+        "record_refs": [
+          "data/evidence/engine/ingredient/cod/synthesis.json"
+        ],
+        "screening_ref": "data/evidence/engine/ingredient/cod/evidence-ledger.json",
+        "searched_through": "2026-10-22",
+        "limitations": [
+          "No study in the library measured inorganic arsenic in cod.",
+          "Aluminum was measured only in imported frozen Pacific cod."
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [
+        "wiki/sources/nava2026-messina-cod-products-elements.md"
+      ],
+      "synthesis_refs": [
+        "data/evidence/syntheses/engine-ingredient-cod-v1.json#identity/3"
+      ],
+      "applicability": "Applies only to the source-specific material, period, preparation and endpoint stated in the answer and attached evidence records",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/ingredients/cod.md"
+      ]
+    },
+    {
+      "question_id": "HMI-ING-004",
+      "scope": {
+        "analytes": "Pb, Cd, tAs, tHg, Ni, Cr, Al, Sn, Sb and U",
+        "material_form": "Cod, cooked, Cod, as sold, Cod, frozen and Cod, dried",
+        "basis": "As reported; µg/kg; no moisture conversion",
+        "geography_market": "Reporting region, purchase market or growing area as each source reports",
+        "period": "Source collection years where reported; unreported dates stay unknown",
+        "stage": "Growing area, processing, retail and release testing",
+        "population_route": "Dietary ingestion",
+        "comparator_outcome": "HMI references by form and basis; same-study site, sampling and form contrasts"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "available",
+      "answer": "Across three source families, cod carries low lead, cadmium, mercury, nickel, and aluminum and a much larger amount of total arsenic, most of which is not inorganic arsenic.\n\nWhat heavy metals are found in cod? Studies measured lead, cadmium, total mercury, total arsenic, nickel, chromium, and aluminum in cod. Frozen Pacific cod averaged 11 µg/kg lead, 10 µg/kg cadmium, 31 µg/kg total mercury, 160 µg/kg total arsenic, 100 µg/kg nickel, and 140 µg/kg aluminum, wet weight.\n\nHow much mercury is in cod? Total mercury was 44 to 140 µg/kg in US baked cod composites and averaged 31 µg/kg in frozen Pacific cod. Stockfish held 140 µg/kg and baccala 270 µg/kg as sold.\n\nIs the arsenic in cod dangerous? Cod carries total arsenic of 160 µg/kg in frozen Pacific cod and 1,300 to 10,900 µg/kg in baked US composites. None of these studies measured inorganic arsenic, the form that limits regulate, so the risk cannot be judged from these totals.\n\nDoes cod contain lead? Lead averaged 11 µg/kg in frozen Pacific cod and was below the 4 µg/kg reporting limit in all 27 US baked cod composites. Retail products in Italy held 10 to 80 µg/kg, with the highest values in baccala and stockfish.\n\nIs cadmium a concern in cod? Cadmium averaged 10 µg/kg in frozen Pacific cod and reached 11 µg/kg in US baked composites. Baccala held 60 µg/kg as sold, which the authors flagged against the 50 µg/kg fish muscle limit.\n\nHas aluminum been measured in cod? Only one study measured aluminum, finding an average of 140 µg/kg in frozen Pacific cod, with a range of 110 to 150 µg/kg. The Italian survey and the US Total Diet Study did not report aluminum.\n\nDoes cod contain nickel? Nickel averaged 100 µg/kg in frozen Pacific cod. It was detected once in 27 US baked composites, at 46 µg/kg, and only in the stockfish and baccala in the Italian survey.\n\nIs salted or dried cod higher in metals than fresh cod? Yes, in the Italian survey baccala and stockfish carried the highest lead, cadmium, mercury, arsenic, and nickel of all ten products. Part of this reflects water loss, since the values are as sold.\n\nIs the fish sold as cod always true cod? No, eight of ten Italian retail products sold as cod were hake, Alaska pollock, or saithe.\n\nDoes processing change heavy metals in cod? Drying, salting, and baking remove water and raise the concentration per kilogram. No cited source measured a step that removes metals from cod.\n\nWhat limits apply to metals in cod? The EU sets 300 µg/kg lead, 50 µg/kg cadmium, and 300 µg/kg mercury for Atlantic cod muscle.\n\nWhat should a cod test report? It should report lead, cadmium, total mercury, speciated arsenic, nickel, and aluminum with a stated basis and quantification limits near a few µg/kg.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Every source record and indexed dataset row that names cod",
+        "protocol_ref": "data/evidence/engine/ingredient/cod/evidence-ledger.json",
+        "record_refs": [
+          "data/evidence/engine/ingredient/cod/synthesis.json"
+        ],
+        "screening_ref": "data/evidence/engine/ingredient/cod/evidence-ledger.json",
+        "searched_through": "2026-10-22",
+        "limitations": [
+          "No study in the library measured inorganic arsenic in cod.",
+          "Aluminum was measured only in imported frozen Pacific cod."
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [
+        "wiki/sources/witczak2025-imported-fish-elements-poland.md",
+        "wiki/sources/nava2026-messina-cod-products-elements.md",
+        "wiki/sources/fda2022-tds-elements-fy2018-fy2020.md",
+        "wiki/sources/eu-2023-915-contaminants-maximum-levels.md"
+      ],
+      "synthesis_refs": [
+        "data/evidence/syntheses/engine-ingredient-cod-v1.json#summary/1"
+      ],
+      "applicability": "Applies only to the source-specific material, period, preparation and endpoint stated in the answer and attached evidence records",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/ingredients/cod.md"
+      ]
+    },
+    {
+      "question_id": "HMI-ING-005",
+      "scope": {
+        "analytes": "Pb, Cd, tAs, tHg, Ni, Cr, Al, Sn, Sb and U",
+        "material_form": "Cod, cooked, Cod, as sold, Cod, frozen and Cod, dried",
+        "basis": "As reported; µg/kg; no moisture conversion",
+        "geography_market": "Reporting region, purchase market or growing area as each source reports",
+        "period": "Source collection years where reported; unreported dates stay unknown",
+        "stage": "Growing area, processing, retail and release testing",
+        "population_route": "Dietary ingestion",
+        "comparator_outcome": "HMI references by form and basis; same-study site, sampling and form contrasts"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "available",
+      "answer": "The salted and dried forms carry the highest values for nearly every metal, and the fresh and frozen fillets carry the lowest.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Every source record and indexed dataset row that names cod",
+        "protocol_ref": "data/evidence/engine/ingredient/cod/evidence-ledger.json",
+        "record_refs": [
+          "data/evidence/engine/ingredient/cod/synthesis.json"
+        ],
+        "screening_ref": "data/evidence/engine/ingredient/cod/evidence-ledger.json",
+        "searched_through": "2026-10-22",
+        "limitations": [
+          "No study in the library measured inorganic arsenic in cod.",
+          "Aluminum was measured only in imported frozen Pacific cod."
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [
+        "wiki/sources/nava2026-messina-cod-products-elements.md"
+      ],
+      "synthesis_refs": [
+        "data/evidence/syntheses/engine-ingredient-cod-v1.json#summary/2"
+      ],
+      "applicability": "Applies only to the source-specific material, period, preparation and endpoint stated in the answer and attached evidence records",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/ingredients/cod.md"
+      ]
+    },
+    {
+      "question_id": "HMI-ING-006",
+      "scope": {
+        "analytes": "Pb, Cd, tAs, tHg, Ni, Cr, Al, Sn, Sb and U",
+        "material_form": "Cod, cooked, Cod, as sold, Cod, frozen and Cod, dried",
+        "basis": "As reported; µg/kg; no moisture conversion",
+        "geography_market": "Reporting region, purchase market or growing area as each source reports",
+        "period": "Source collection years where reported; unreported dates stay unknown",
+        "stage": "Growing area, processing, retail and release testing",
+        "population_route": "Dietary ingestion",
+        "comparator_outcome": "HMI references by form and basis; same-study site, sampling and form contrasts"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "available",
+      "answer": "Imported frozen Pacific cod averaged 11 µg/kg lead, 10 µg/kg cadmium, 31 µg/kg total mercury, 100 µg/kg nickel, and 140 µg/kg aluminum, wet weight.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Every source record and indexed dataset row that names cod",
+        "protocol_ref": "data/evidence/engine/ingredient/cod/evidence-ledger.json",
+        "record_refs": [
+          "data/evidence/engine/ingredient/cod/synthesis.json"
+        ],
+        "screening_ref": "data/evidence/engine/ingredient/cod/evidence-ledger.json",
+        "searched_through": "2026-10-22",
+        "limitations": [
+          "No study in the library measured inorganic arsenic in cod.",
+          "Aluminum was measured only in imported frozen Pacific cod."
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [
+        "wiki/sources/witczak2025-imported-fish-elements-poland.md"
+      ],
+      "synthesis_refs": [
+        "data/evidence/syntheses/engine-ingredient-cod-v1.json#summary/3"
+      ],
+      "applicability": "Applies only to the source-specific material, period, preparation and endpoint stated in the answer and attached evidence records",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/ingredients/cod.md"
+      ]
+    },
+    {
+      "question_id": "HMI-ING-007",
+      "scope": {
+        "analytes": "Pb, Cd, tAs, tHg, Ni, Cr, Al, Sn, Sb and U",
+        "material_form": "Cod, cooked, Cod, as sold, Cod, frozen and Cod, dried",
+        "basis": "As reported; µg/kg; no moisture conversion",
+        "geography_market": "Reporting region, purchase market or growing area as each source reports",
+        "period": "Source collection years where reported; unreported dates stay unknown",
+        "stage": "Growing area, processing, retail and release testing",
+        "population_route": "Dietary ingestion",
+        "comparator_outcome": "HMI references by form and basis; same-study site, sampling and form contrasts"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "available",
+      "answer": "Frozen Pacific cod imported from China into Poland, 130 fish in 13 batches, averaged 11 µg/kg lead, 10 µg/kg cadmium, 31 µg/kg total mercury, 160 µg/kg total arsenic, 100 µg/kg nickel, 140 µg/kg aluminum, and 80 µg/kg chromium, wet weight.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Every source record and indexed dataset row that names cod",
+        "protocol_ref": "data/evidence/engine/ingredient/cod/evidence-ledger.json",
+        "record_refs": [
+          "data/evidence/engine/ingredient/cod/synthesis.json"
+        ],
+        "screening_ref": "data/evidence/engine/ingredient/cod/evidence-ledger.json",
+        "searched_through": "2026-10-22",
+        "limitations": [
+          "No study in the library measured inorganic arsenic in cod.",
+          "Aluminum was measured only in imported frozen Pacific cod."
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [
+        "wiki/sources/witczak2025-imported-fish-elements-poland.md"
+      ],
+      "synthesis_refs": [
+        "data/evidence/syntheses/engine-ingredient-cod-v1.json#occurrence/1"
+      ],
+      "applicability": "Applies only to the source-specific material, period, preparation and endpoint stated in the answer and attached evidence records",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/ingredients/cod.md"
+      ]
+    },
+    {
+      "question_id": "HMI-ING-008",
+      "scope": {
+        "analytes": "Pb, Cd, tAs, tHg, Ni, Cr, Al, Sn, Sb and U",
+        "material_form": "Cod, cooked, Cod, as sold, Cod, frozen and Cod, dried",
+        "basis": "As reported; µg/kg; no moisture conversion",
+        "geography_market": "Reporting region, purchase market or growing area as each source reports",
+        "period": "Source collection years where reported; unreported dates stay unknown",
+        "stage": "Growing area, processing, retail and release testing",
+        "population_route": "Dietary ingestion",
+        "comparator_outcome": "HMI references by form and basis; same-study site, sampling and form contrasts"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "available",
+      "answer": "In 27 baked cod composites from the US Total Diet Study, collected from 2017 to 2020, total arsenic ranged from 1,300 to 10,900 µg/kg and total mercury from 44 to 140 µg/kg.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Every source record and indexed dataset row that names cod",
+        "protocol_ref": "data/evidence/engine/ingredient/cod/evidence-ledger.json",
+        "record_refs": [
+          "data/evidence/engine/ingredient/cod/synthesis.json"
+        ],
+        "screening_ref": "data/evidence/engine/ingredient/cod/evidence-ledger.json",
+        "searched_through": "2026-10-22",
+        "limitations": [
+          "No study in the library measured inorganic arsenic in cod.",
+          "Aluminum was measured only in imported frozen Pacific cod."
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [
+        "wiki/sources/fda2022-tds-elements-fy2018-fy2020.md"
+      ],
+      "synthesis_refs": [
+        "data/evidence/syntheses/engine-ingredient-cod-v1.json#occurrence/2"
+      ],
+      "applicability": "Applies only to the source-specific material, period, preparation and endpoint stated in the answer and attached evidence records",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/ingredients/cod.md"
+      ]
+    },
+    {
+      "question_id": "HMI-ING-009",
+      "scope": {
+        "analytes": "Pb, Cd, tAs, tHg, Ni, Cr, Al, Sn, Sb and U",
+        "material_form": "Cod, cooked, Cod, as sold, Cod, frozen and Cod, dried",
+        "basis": "As reported; µg/kg; no moisture conversion",
+        "geography_market": "Reporting region, purchase market or growing area as each source reports",
+        "period": "Source collection years where reported; unreported dates stay unknown",
+        "stage": "Growing area, processing, retail and release testing",
+        "population_route": "Dietary ingestion",
+        "comparator_outcome": "HMI references by form and basis; same-study site, sampling and form contrasts"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "available",
+      "answer": "Lead was below the 4 µg/kg reporting limit in all 27 baked cod composites, cadmium was detected in 16 of 27 at up to 11 µg/kg, and nickel was detected once, at 46 µg/kg.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Every source record and indexed dataset row that names cod",
+        "protocol_ref": "data/evidence/engine/ingredient/cod/evidence-ledger.json",
+        "record_refs": [
+          "data/evidence/engine/ingredient/cod/synthesis.json"
+        ],
+        "screening_ref": "data/evidence/engine/ingredient/cod/evidence-ledger.json",
+        "searched_through": "2026-10-22",
+        "limitations": [
+          "No study in the library measured inorganic arsenic in cod.",
+          "Aluminum was measured only in imported frozen Pacific cod."
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [
+        "wiki/sources/fda2022-tds-elements-fy2018-fy2020.md"
+      ],
+      "synthesis_refs": [
+        "data/evidence/syntheses/engine-ingredient-cod-v1.json#occurrence/3"
+      ],
+      "applicability": "Applies only to the source-specific material, period, preparation and endpoint stated in the answer and attached evidence records",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/ingredients/cod.md"
+      ]
+    },
+    {
+      "question_id": "HMI-ING-010",
+      "scope": {
+        "analytes": "Pb, Cd, tAs, tHg, Ni, Cr, Al, Sn, Sb and U",
+        "material_form": "Cod, cooked, Cod, as sold, Cod, frozen and Cod, dried",
+        "basis": "As reported; µg/kg; no moisture conversion",
+        "geography_market": "Reporting region, purchase market or growing area as each source reports",
+        "period": "Source collection years where reported; unreported dates stay unknown",
+        "stage": "Growing area, processing, retail and release testing",
+        "population_route": "Dietary ingestion",
+        "comparator_outcome": "HMI references by form and basis; same-study site, sampling and form contrasts"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "available",
+      "answer": "Cod take up metals from seawater, sediment, and prey, and the studies here report the levels in the muscle that is eaten rather than tracing each route.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Every source record and indexed dataset row that names cod",
+        "protocol_ref": "data/evidence/engine/ingredient/cod/evidence-ledger.json",
+        "record_refs": [
+          "data/evidence/engine/ingredient/cod/synthesis.json"
+        ],
+        "screening_ref": "data/evidence/engine/ingredient/cod/evidence-ledger.json",
+        "searched_through": "2026-10-22",
+        "limitations": [
+          "No study in the library measured inorganic arsenic in cod.",
+          "Aluminum was measured only in imported frozen Pacific cod."
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [
+        "wiki/sources/witczak2025-imported-fish-elements-poland.md",
+        "wiki/sources/nava2026-messina-cod-products-elements.md"
+      ],
+      "synthesis_refs": [
+        "data/evidence/syntheses/engine-ingredient-cod-v1.json#pathways/1"
+      ],
+      "applicability": "Applies only to the source-specific material, period, preparation and endpoint stated in the answer and attached evidence records",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/ingredients/cod.md"
+      ]
+    },
+    {
+      "question_id": "HMI-ING-011",
+      "scope": {
+        "analytes": "Pb, Cd, tAs, tHg, Ni, Cr, Al, Sn, Sb and U",
+        "material_form": "Cod, cooked, Cod, as sold, Cod, frozen and Cod, dried",
+        "basis": "As reported; µg/kg; no moisture conversion",
+        "geography_market": "Reporting region, purchase market or growing area as each source reports",
+        "period": "Source collection years where reported; unreported dates stay unknown",
+        "stage": "Growing area, processing, retail and release testing",
+        "population_route": "Dietary ingestion",
+        "comparator_outcome": "HMI references by form and basis; same-study site, sampling and form contrasts"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "available",
+      "answer": "Arsenic in marine fish is mostly organic, and none of these sources measured inorganic arsenic, so the total arsenic values cannot be read as inorganic arsenic.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Every source record and indexed dataset row that names cod",
+        "protocol_ref": "data/evidence/engine/ingredient/cod/evidence-ledger.json",
+        "record_refs": [
+          "data/evidence/engine/ingredient/cod/synthesis.json"
+        ],
+        "screening_ref": "data/evidence/engine/ingredient/cod/evidence-ledger.json",
+        "searched_through": "2026-10-22",
+        "limitations": [
+          "No study in the library measured inorganic arsenic in cod.",
+          "Aluminum was measured only in imported frozen Pacific cod."
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [
+        "wiki/sources/witczak2025-imported-fish-elements-poland.md",
+        "wiki/sources/nava2026-messina-cod-products-elements.md",
+        "wiki/sources/fda2022-tds-elements-fy2018-fy2020.md"
+      ],
+      "synthesis_refs": [
+        "data/evidence/syntheses/engine-ingredient-cod-v1.json#pathways/2"
+      ],
+      "applicability": "Applies only to the source-specific material, period, preparation and endpoint stated in the answer and attached evidence records",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/ingredients/cod.md"
+      ]
+    },
+    {
+      "question_id": "HMI-ING-012",
+      "scope": {
+        "analytes": "Pb, Cd, tAs, tHg, Ni, Cr, Al, Sn, Sb and U",
+        "material_form": "Cod, cooked, Cod, as sold, Cod, frozen and Cod, dried",
+        "basis": "As reported; µg/kg; no moisture conversion",
+        "geography_market": "Reporting region, purchase market or growing area as each source reports",
+        "period": "Source collection years where reported; unreported dates stay unknown",
+        "stage": "Growing area, processing, retail and release testing",
+        "population_route": "Dietary ingestion",
+        "comparator_outcome": "HMI references by form and basis; same-study site, sampling and form contrasts"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "available",
+      "answer": "Aluminum was measured only in the Polish study, and its source in the fish was not investigated.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Every source record and indexed dataset row that names cod",
+        "protocol_ref": "data/evidence/engine/ingredient/cod/evidence-ledger.json",
+        "record_refs": [
+          "data/evidence/engine/ingredient/cod/synthesis.json"
+        ],
+        "screening_ref": "data/evidence/engine/ingredient/cod/evidence-ledger.json",
+        "searched_through": "2026-10-22",
+        "limitations": [
+          "No study in the library measured inorganic arsenic in cod.",
+          "Aluminum was measured only in imported frozen Pacific cod."
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [
+        "wiki/sources/witczak2025-imported-fish-elements-poland.md"
+      ],
+      "synthesis_refs": [
+        "data/evidence/syntheses/engine-ingredient-cod-v1.json#pathways/3"
+      ],
+      "applicability": "Applies only to the source-specific material, period, preparation and endpoint stated in the answer and attached evidence records",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/ingredients/cod.md"
+      ]
+    },
+    {
+      "question_id": "HMI-ING-013",
+      "scope": {
+        "analytes": "Pb, Cd, tAs, tHg, Ni, Cr, Al, Sn, Sb and U",
+        "material_form": "Cod, cooked, Cod, as sold, Cod, frozen and Cod, dried",
+        "basis": "As reported; µg/kg; no moisture conversion",
+        "geography_market": "Reporting region, purchase market or growing area as each source reports",
+        "period": "Source collection years where reported; unreported dates stay unknown",
+        "stage": "Growing area, processing, retail and release testing",
+        "population_route": "Dietary ingestion",
+        "comparator_outcome": "HMI references by form and basis; same-study site, sampling and form contrasts"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "available",
+      "answer": "Product form drives most of the spread in the retail survey, with the stockfish and baccala above every fresh, frozen, and breaded product for lead, cadmium, mercury, arsenic, and nickel.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Every source record and indexed dataset row that names cod",
+        "protocol_ref": "data/evidence/engine/ingredient/cod/evidence-ledger.json",
+        "record_refs": [
+          "data/evidence/engine/ingredient/cod/synthesis.json"
+        ],
+        "screening_ref": "data/evidence/engine/ingredient/cod/evidence-ledger.json",
+        "searched_through": "2026-10-22",
+        "limitations": [
+          "No study in the library measured inorganic arsenic in cod.",
+          "Aluminum was measured only in imported frozen Pacific cod."
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [
+        "wiki/sources/nava2026-messina-cod-products-elements.md"
+      ],
+      "synthesis_refs": [
+        "data/evidence/syntheses/engine-ingredient-cod-v1.json#variation/1"
+      ],
+      "applicability": "Applies only to the source-specific material, period, preparation and endpoint stated in the answer and attached evidence records",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/ingredients/cod.md"
+      ]
+    },
+    {
+      "question_id": "HMI-ING-014",
+      "scope": {
+        "analytes": "Pb, Cd, tAs, tHg, Ni, Cr, Al, Sn, Sb and U",
+        "material_form": "Cod, cooked, Cod, as sold, Cod, frozen and Cod, dried",
+        "basis": "As reported; µg/kg; no moisture conversion",
+        "geography_market": "Reporting region, purchase market or growing area as each source reports",
+        "period": "Source collection years where reported; unreported dates stay unknown",
+        "stage": "Growing area, processing, retail and release testing",
+        "population_route": "Dietary ingestion",
+        "comparator_outcome": "HMI references by form and basis; same-study site, sampling and form contrasts"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "available",
+      "answer": "Among the hake, pollock, and saithe products, lead ranged from 10 to 50 µg/kg, total mercury was 10 µg/kg except 80 µg/kg in fresh European hake, and nickel stayed below quantification.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Every source record and indexed dataset row that names cod",
+        "protocol_ref": "data/evidence/engine/ingredient/cod/evidence-ledger.json",
+        "record_refs": [
+          "data/evidence/engine/ingredient/cod/synthesis.json"
+        ],
+        "screening_ref": "data/evidence/engine/ingredient/cod/evidence-ledger.json",
+        "searched_through": "2026-10-22",
+        "limitations": [
+          "No study in the library measured inorganic arsenic in cod.",
+          "Aluminum was measured only in imported frozen Pacific cod."
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [
+        "wiki/sources/nava2026-messina-cod-products-elements.md"
+      ],
+      "synthesis_refs": [
+        "data/evidence/syntheses/engine-ingredient-cod-v1.json#variation/2"
+      ],
+      "applicability": "Applies only to the source-specific material, period, preparation and endpoint stated in the answer and attached evidence records",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/ingredients/cod.md"
+      ]
+    },
+    {
+      "question_id": "HMI-ING-015",
+      "scope": {
+        "analytes": "Pb, Cd, tAs, tHg, Ni, Cr, Al, Sn, Sb and U",
+        "material_form": "Cod, cooked, Cod, as sold, Cod, frozen and Cod, dried",
+        "basis": "As reported; µg/kg; no moisture conversion",
+        "geography_market": "Reporting region, purchase market or growing area as each source reports",
+        "period": "Source collection years where reported; unreported dates stay unknown",
+        "stage": "Growing area, processing, retail and release testing",
+        "population_route": "Dietary ingestion",
+        "comparator_outcome": "HMI references by form and basis; same-study site, sampling and form contrasts"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "available",
+      "answer": "The US baked cod composites span four collection regions and both regional and national lists, and total arsenic varied about eightfold across them.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Every source record and indexed dataset row that names cod",
+        "protocol_ref": "data/evidence/engine/ingredient/cod/evidence-ledger.json",
+        "record_refs": [
+          "data/evidence/engine/ingredient/cod/synthesis.json"
+        ],
+        "screening_ref": "data/evidence/engine/ingredient/cod/evidence-ledger.json",
+        "searched_through": "2026-10-22",
+        "limitations": [
+          "No study in the library measured inorganic arsenic in cod.",
+          "Aluminum was measured only in imported frozen Pacific cod."
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [
+        "wiki/sources/fda2022-tds-elements-fy2018-fy2020.md"
+      ],
+      "synthesis_refs": [
+        "data/evidence/syntheses/engine-ingredient-cod-v1.json#variation/3"
+      ],
+      "applicability": "Applies only to the source-specific material, period, preparation and endpoint stated in the answer and attached evidence records",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/ingredients/cod.md"
+      ]
+    },
+    {
+      "question_id": "HMI-ING-016",
+      "scope": {
+        "analytes": "Pb, Cd, tAs, tHg, Ni, Cr, Al, Sn, Sb and U",
+        "material_form": "Cod, cooked, Cod, as sold, Cod, frozen and Cod, dried",
+        "basis": "As reported; µg/kg; no moisture conversion",
+        "geography_market": "Reporting region, purchase market or growing area as each source reports",
+        "period": "Source collection years where reported; unreported dates stay unknown",
+        "stage": "Growing area, processing, retail and release testing",
+        "population_route": "Dietary ingestion",
+        "comparator_outcome": "HMI references by form and basis; same-study site, sampling and form contrasts"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "available",
+      "answer": "Drying and salting remove water, so metals measured in stockfish and baccala are concentrated relative to fresh muscle, and the as sold values are not directly comparable with fresh fillets.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Every source record and indexed dataset row that names cod",
+        "protocol_ref": "data/evidence/engine/ingredient/cod/evidence-ledger.json",
+        "record_refs": [
+          "data/evidence/engine/ingredient/cod/synthesis.json"
+        ],
+        "screening_ref": "data/evidence/engine/ingredient/cod/evidence-ledger.json",
+        "searched_through": "2026-10-22",
+        "limitations": [
+          "No study in the library measured inorganic arsenic in cod.",
+          "Aluminum was measured only in imported frozen Pacific cod."
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [
+        "wiki/sources/nava2026-messina-cod-products-elements.md"
+      ],
+      "synthesis_refs": [
+        "data/evidence/syntheses/engine-ingredient-cod-v1.json#processing/1"
+      ],
+      "applicability": "Applies only to the source-specific material, period, preparation and endpoint stated in the answer and attached evidence records",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/ingredients/cod.md"
+      ]
+    },
+    {
+      "question_id": "HMI-ING-017",
+      "scope": {
+        "analytes": "Pb, Cd, tAs, tHg, Ni, Cr, Al, Sn, Sb and U",
+        "material_form": "Cod, cooked, Cod, as sold, Cod, frozen and Cod, dried",
+        "basis": "As reported; µg/kg; no moisture conversion",
+        "geography_market": "Reporting region, purchase market or growing area as each source reports",
+        "period": "Source collection years where reported; unreported dates stay unknown",
+        "stage": "Growing area, processing, retail and release testing",
+        "population_route": "Dietary ingestion",
+        "comparator_outcome": "HMI references by form and basis; same-study site, sampling and form contrasts"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "available",
+      "answer": "Breaded and battered sticks and burgers in the Italian survey carried 50 µg/kg lead, which is above most of the plain fillets in the same survey.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Every source record and indexed dataset row that names cod",
+        "protocol_ref": "data/evidence/engine/ingredient/cod/evidence-ledger.json",
+        "record_refs": [
+          "data/evidence/engine/ingredient/cod/synthesis.json"
+        ],
+        "screening_ref": "data/evidence/engine/ingredient/cod/evidence-ledger.json",
+        "searched_through": "2026-10-22",
+        "limitations": [
+          "No study in the library measured inorganic arsenic in cod.",
+          "Aluminum was measured only in imported frozen Pacific cod."
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [
+        "wiki/sources/nava2026-messina-cod-products-elements.md"
+      ],
+      "synthesis_refs": [
+        "data/evidence/syntheses/engine-ingredient-cod-v1.json#processing/2"
+      ],
+      "applicability": "Applies only to the source-specific material, period, preparation and endpoint stated in the answer and attached evidence records",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/ingredients/cod.md"
+      ]
+    },
+    {
+      "question_id": "HMI-ING-018",
+      "scope": {
+        "analytes": "Pb, Cd, tAs, tHg, Ni, Cr, Al, Sn, Sb and U",
+        "material_form": "Cod, cooked, Cod, as sold, Cod, frozen and Cod, dried",
+        "basis": "As reported; µg/kg; no moisture conversion",
+        "geography_market": "Reporting region, purchase market or growing area as each source reports",
+        "period": "Source collection years where reported; unreported dates stay unknown",
+        "stage": "Growing area, processing, retail and release testing",
+        "population_route": "Dietary ingestion",
+        "comparator_outcome": "HMI references by form and basis; same-study site, sampling and form contrasts"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "available",
+      "answer": "Baking also concentrates the muscle by losing water, which is one reason the US composites are reported as prepared rather than as sold.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Every source record and indexed dataset row that names cod",
+        "protocol_ref": "data/evidence/engine/ingredient/cod/evidence-ledger.json",
+        "record_refs": [
+          "data/evidence/engine/ingredient/cod/synthesis.json"
+        ],
+        "screening_ref": "data/evidence/engine/ingredient/cod/evidence-ledger.json",
+        "searched_through": "2026-10-22",
+        "limitations": [
+          "No study in the library measured inorganic arsenic in cod.",
+          "Aluminum was measured only in imported frozen Pacific cod."
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [
+        "wiki/sources/fda2022-tds-elements-fy2018-fy2020.md"
+      ],
+      "synthesis_refs": [
+        "data/evidence/syntheses/engine-ingredient-cod-v1.json#processing/3"
+      ],
+      "applicability": "Applies only to the source-specific material, period, preparation and endpoint stated in the answer and attached evidence records",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/ingredients/cod.md"
+      ]
+    },
+    {
+      "question_id": "HMI-ING-019",
+      "scope": {
+        "analytes": "Pb, Cd, tAs, tHg, Ni, Cr, Al, Sn, Sb and U",
+        "material_form": "Cod, cooked, Cod, as sold, Cod, frozen and Cod, dried",
+        "basis": "As reported; µg/kg; no moisture conversion",
+        "geography_market": "Reporting region, purchase market or growing area as each source reports",
+        "period": "Source collection years where reported; unreported dates stay unknown",
+        "stage": "Growing area, processing, retail and release testing",
+        "population_route": "Dietary ingestion",
+        "comparator_outcome": "HMI references by form and basis; same-study site, sampling and form contrasts"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "available",
+      "answer": "None of the cited cod sources tested a control that lowers metals in cod itself.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Every source record and indexed dataset row that names cod",
+        "protocol_ref": "data/evidence/engine/ingredient/cod/evidence-ledger.json",
+        "record_refs": [
+          "data/evidence/engine/ingredient/cod/synthesis.json"
+        ],
+        "screening_ref": "data/evidence/engine/ingredient/cod/evidence-ledger.json",
+        "searched_through": "2026-10-22",
+        "limitations": [
+          "No study in the library measured inorganic arsenic in cod.",
+          "Aluminum was measured only in imported frozen Pacific cod."
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [
+        "wiki/sources/witczak2025-imported-fish-elements-poland.md",
+        "wiki/sources/nava2026-messina-cod-products-elements.md",
+        "wiki/sources/fda2022-tds-elements-fy2018-fy2020.md"
+      ],
+      "synthesis_refs": [
+        "data/evidence/syntheses/engine-ingredient-cod-v1.json#controls/1"
+      ],
+      "applicability": "Applies only to the source-specific material, period, preparation and endpoint stated in the answer and attached evidence records",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/ingredients/cod.md"
+      ]
+    },
+    {
+      "question_id": "HMI-ING-020",
+      "scope": {
+        "analytes": "Pb, Cd, tAs, tHg, Ni, Cr, Al, Sn, Sb and U",
+        "material_form": "Cod, cooked, Cod, as sold, Cod, frozen and Cod, dried",
+        "basis": "As reported; µg/kg; no moisture conversion",
+        "geography_market": "Reporting region, purchase market or growing area as each source reports",
+        "period": "Source collection years where reported; unreported dates stay unknown",
+        "stage": "Growing area, processing, retail and release testing",
+        "population_route": "Dietary ingestion",
+        "comparator_outcome": "HMI references by form and basis; same-study site, sampling and form contrasts"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "available",
+      "answer": "The evidence instead shows which choices go with lower values, namely fresh or frozen muscle rather than dried or salted forms.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Every source record and indexed dataset row that names cod",
+        "protocol_ref": "data/evidence/engine/ingredient/cod/evidence-ledger.json",
+        "record_refs": [
+          "data/evidence/engine/ingredient/cod/synthesis.json"
+        ],
+        "screening_ref": "data/evidence/engine/ingredient/cod/evidence-ledger.json",
+        "searched_through": "2026-10-22",
+        "limitations": [
+          "No study in the library measured inorganic arsenic in cod.",
+          "Aluminum was measured only in imported frozen Pacific cod."
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [
+        "wiki/sources/nava2026-messina-cod-products-elements.md"
+      ],
+      "synthesis_refs": [
+        "data/evidence/syntheses/engine-ingredient-cod-v1.json#controls/2"
+      ],
+      "applicability": "Applies only to the source-specific material, period, preparation and endpoint stated in the answer and attached evidence records",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/ingredients/cod.md"
+      ]
+    },
+    {
+      "question_id": "HMI-ING-021",
+      "scope": {
+        "analytes": "Pb, Cd, tAs, tHg, Ni, Cr, Al, Sn, Sb and U",
+        "material_form": "Cod, cooked, Cod, as sold, Cod, frozen and Cod, dried",
+        "basis": "As reported; µg/kg; no moisture conversion",
+        "geography_market": "Reporting region, purchase market or growing area as each source reports",
+        "period": "Source collection years where reported; unreported dates stay unknown",
+        "stage": "Growing area, processing, retail and release testing",
+        "population_route": "Dietary ingestion",
+        "comparator_outcome": "HMI references by form and basis; same-study site, sampling and form contrasts"
+      },
+      "workflow_state": "unassessed",
+      "evidence_state": "not_assessed",
+      "answer": "No control for metals in cod was measured in the library; lot testing against the applicable limit remains the verifiable step.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Every source record and indexed dataset row that names cod",
+        "protocol_ref": "data/evidence/engine/ingredient/cod/evidence-ledger.json",
+        "record_refs": [
+          "data/evidence/engine/ingredient/cod/synthesis.json"
+        ],
+        "screening_ref": "data/evidence/engine/ingredient/cod/evidence-ledger.json",
+        "searched_through": "2026-10-22",
+        "limitations": [
+          "No study in the library measured inorganic arsenic in cod.",
+          "Aluminum was measured only in imported frozen Pacific cod."
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [],
+      "synthesis_refs": [
+        "data/evidence/syntheses/engine-ingredient-cod-v1.json#controls/3"
+      ],
+      "applicability": "Scope remains unassessed; statement describes the limit of this pilot",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/ingredients/cod.md"
+      ]
+    },
+    {
+      "question_id": "HMI-ING-022",
+      "scope": {
+        "analytes": "Pb, Cd, tAs, tHg, Ni, Cr, Al, Sn, Sb and U",
+        "material_form": "Cod, cooked, Cod, as sold, Cod, frozen and Cod, dried",
+        "basis": "As reported; µg/kg; no moisture conversion",
+        "geography_market": "Reporting region, purchase market or growing area as each source reports",
+        "period": "Source collection years where reported; unreported dates stay unknown",
+        "stage": "Growing area, processing, retail and release testing",
+        "population_route": "Dietary ingestion",
+        "comparator_outcome": "HMI references by form and basis; same-study site, sampling and form contrasts"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "available",
+      "answer": "Choosing a substitute whitefish sold as cod does not reliably lower metals, because the hake and pollock products carried total arsenic of 150 to 570 µg/kg, close to the frozen true cod range.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Every source record and indexed dataset row that names cod",
+        "protocol_ref": "data/evidence/engine/ingredient/cod/evidence-ledger.json",
+        "record_refs": [
+          "data/evidence/engine/ingredient/cod/synthesis.json"
+        ],
+        "screening_ref": "data/evidence/engine/ingredient/cod/evidence-ledger.json",
+        "searched_through": "2026-10-22",
+        "limitations": [
+          "No study in the library measured inorganic arsenic in cod.",
+          "Aluminum was measured only in imported frozen Pacific cod."
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [
+        "wiki/sources/nava2026-messina-cod-products-elements.md",
+        "wiki/sources/witczak2025-imported-fish-elements-poland.md"
+      ],
+      "synthesis_refs": [
+        "data/evidence/syntheses/engine-ingredient-cod-v1.json#tradeoffs/1"
+      ],
+      "applicability": "Applies only to the source-specific material, period, preparation and endpoint stated in the answer and attached evidence records",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/ingredients/cod.md"
+      ]
+    },
+    {
+      "question_id": "HMI-ING-023",
+      "scope": {
+        "analytes": "Pb, Cd, tAs, tHg, Ni, Cr, Al, Sn, Sb and U",
+        "material_form": "Cod, cooked, Cod, as sold, Cod, frozen and Cod, dried",
+        "basis": "As reported; µg/kg; no moisture conversion",
+        "geography_market": "Reporting region, purchase market or growing area as each source reports",
+        "period": "Source collection years where reported; unreported dates stay unknown",
+        "stage": "Growing area, processing, retail and release testing",
+        "population_route": "Dietary ingestion",
+        "comparator_outcome": "HMI references by form and basis; same-study site, sampling and form contrasts"
+      },
+      "workflow_state": "unassessed",
+      "evidence_state": "not_assessed",
+      "answer": "Metals do not move together, so a lot that passes a lead limit says little about cadmium, arsenic or nickel unless those are tested as well.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Every source record and indexed dataset row that names cod",
+        "protocol_ref": "data/evidence/engine/ingredient/cod/evidence-ledger.json",
+        "record_refs": [
+          "data/evidence/engine/ingredient/cod/synthesis.json"
+        ],
+        "screening_ref": "data/evidence/engine/ingredient/cod/evidence-ledger.json",
+        "searched_through": "2026-10-22",
+        "limitations": [
+          "No study in the library measured inorganic arsenic in cod.",
+          "Aluminum was measured only in imported frozen Pacific cod."
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [],
+      "synthesis_refs": [
+        "data/evidence/syntheses/engine-ingredient-cod-v1.json#tradeoffs/2"
+      ],
+      "applicability": "Scope remains unassessed; statement describes the limit of this pilot",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/ingredients/cod.md"
+      ]
+    },
+    {
+      "question_id": "HMI-ING-024",
+      "scope": {
+        "analytes": "Pb, Cd, tAs, tHg, Ni, Cr, Al, Sn, Sb and U",
+        "material_form": "Cod, cooked, Cod, as sold, Cod, frozen and Cod, dried",
+        "basis": "As reported; µg/kg; no moisture conversion",
+        "geography_market": "Reporting region, purchase market or growing area as each source reports",
+        "period": "Source collection years where reported; unreported dates stay unknown",
+        "stage": "Growing area, processing, retail and release testing",
+        "population_route": "Dietary ingestion",
+        "comparator_outcome": "HMI references by form and basis; same-study site, sampling and form contrasts"
+      },
+      "workflow_state": "unassessed",
+      "evidence_state": "not_assessed",
+      "answer": "Metals do not move together, so a lot that passes a lead limit says little about cadmium, arsenic or nickel unless those are tested as well.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Every source record and indexed dataset row that names cod",
+        "protocol_ref": "data/evidence/engine/ingredient/cod/evidence-ledger.json",
+        "record_refs": [
+          "data/evidence/engine/ingredient/cod/synthesis.json"
+        ],
+        "screening_ref": "data/evidence/engine/ingredient/cod/evidence-ledger.json",
+        "searched_through": "2026-10-22",
+        "limitations": [
+          "No study in the library measured inorganic arsenic in cod.",
+          "Aluminum was measured only in imported frozen Pacific cod."
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [],
+      "synthesis_refs": [
+        "data/evidence/syntheses/engine-ingredient-cod-v1.json#tradeoffs/3"
+      ],
+      "applicability": "Scope remains unassessed; statement describes the limit of this pilot",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/ingredients/cod.md"
+      ]
+    },
+    {
+      "question_id": "HMI-ING-025",
+      "scope": {
+        "analytes": "Pb, Cd, tAs, tHg, Ni, Cr, Al, Sn, Sb and U",
+        "material_form": "Cod, cooked, Cod, as sold, Cod, frozen and Cod, dried",
+        "basis": "As reported; µg/kg; no moisture conversion",
+        "geography_market": "Reporting region, purchase market or growing area as each source reports",
+        "period": "Source collection years where reported; unreported dates stay unknown",
+        "stage": "Growing area, processing, retail and release testing",
+        "population_route": "Dietary ingestion",
+        "comparator_outcome": "HMI references by form and basis; same-study site, sampling and form contrasts"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "available",
+      "answer": "A useful cod test reports lead, cadmium, total mercury, arsenic, nickel, and aluminum on a stated basis, with limits of quantification low enough to see values near 10 µg/kg.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Every source record and indexed dataset row that names cod",
+        "protocol_ref": "data/evidence/engine/ingredient/cod/evidence-ledger.json",
+        "record_refs": [
+          "data/evidence/engine/ingredient/cod/synthesis.json"
+        ],
+        "screening_ref": "data/evidence/engine/ingredient/cod/evidence-ledger.json",
+        "searched_through": "2026-10-22",
+        "limitations": [
+          "No study in the library measured inorganic arsenic in cod.",
+          "Aluminum was measured only in imported frozen Pacific cod."
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [
+        "wiki/sources/witczak2025-imported-fish-elements-poland.md",
+        "wiki/sources/nava2026-messina-cod-products-elements.md"
+      ],
+      "synthesis_refs": [
+        "data/evidence/syntheses/engine-ingredient-cod-v1.json#testing/1"
+      ],
+      "applicability": "Applies only to the source-specific material, period, preparation and endpoint stated in the answer and attached evidence records",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/ingredients/cod.md"
+      ]
+    },
+    {
+      "question_id": "HMI-ING-026",
+      "scope": {
+        "analytes": "Pb, Cd, tAs, tHg, Ni, Cr, Al, Sn, Sb and U",
+        "material_form": "Cod, cooked, Cod, as sold, Cod, frozen and Cod, dried",
+        "basis": "As reported; µg/kg; no moisture conversion",
+        "geography_market": "Reporting region, purchase market or growing area as each source reports",
+        "period": "Source collection years where reported; unreported dates stay unknown",
+        "stage": "Growing area, processing, retail and release testing",
+        "population_route": "Dietary ingestion",
+        "comparator_outcome": "HMI references by form and basis; same-study site, sampling and form contrasts"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "available",
+      "answer": "The Polish method quantified lead at 3.1 µg/kg, cadmium at 1.1 µg/kg, and aluminum at 18.8 µg/kg.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Every source record and indexed dataset row that names cod",
+        "protocol_ref": "data/evidence/engine/ingredient/cod/evidence-ledger.json",
+        "record_refs": [
+          "data/evidence/engine/ingredient/cod/synthesis.json"
+        ],
+        "screening_ref": "data/evidence/engine/ingredient/cod/evidence-ledger.json",
+        "searched_through": "2026-10-22",
+        "limitations": [
+          "No study in the library measured inorganic arsenic in cod.",
+          "Aluminum was measured only in imported frozen Pacific cod."
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [
+        "wiki/sources/witczak2025-imported-fish-elements-poland.md"
+      ],
+      "synthesis_refs": [
+        "data/evidence/syntheses/engine-ingredient-cod-v1.json#testing/2"
+      ],
+      "applicability": "Applies only to the source-specific material, period, preparation and endpoint stated in the answer and attached evidence records",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/ingredients/cod.md"
+      ]
+    },
+    {
+      "question_id": "HMI-ING-027",
+      "scope": {
+        "analytes": "Pb, Cd, tAs, tHg, Ni, Cr, Al, Sn, Sb and U",
+        "material_form": "Cod, cooked, Cod, as sold, Cod, frozen and Cod, dried",
+        "basis": "As reported; µg/kg; no moisture conversion",
+        "geography_market": "Reporting region, purchase market or growing area as each source reports",
+        "period": "Source collection years where reported; unreported dates stay unknown",
+        "stage": "Growing area, processing, retail and release testing",
+        "population_route": "Dietary ingestion",
+        "comparator_outcome": "HMI references by form and basis; same-study site, sampling and form contrasts"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "available",
+      "answer": "Arsenic should be speciated, because total arsenic in cod is far higher than the inorganic fraction that limits regulate.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Every source record and indexed dataset row that names cod",
+        "protocol_ref": "data/evidence/engine/ingredient/cod/evidence-ledger.json",
+        "record_refs": [
+          "data/evidence/engine/ingredient/cod/synthesis.json"
+        ],
+        "screening_ref": "data/evidence/engine/ingredient/cod/evidence-ledger.json",
+        "searched_through": "2026-10-22",
+        "limitations": [
+          "No study in the library measured inorganic arsenic in cod.",
+          "Aluminum was measured only in imported frozen Pacific cod."
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [
+        "wiki/sources/fda2022-tds-elements-fy2018-fy2020.md",
+        "wiki/sources/nava2026-messina-cod-products-elements.md"
+      ],
+      "synthesis_refs": [
+        "data/evidence/syntheses/engine-ingredient-cod-v1.json#testing/3"
+      ],
+      "applicability": "Applies only to the source-specific material, period, preparation and endpoint stated in the answer and attached evidence records",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/ingredients/cod.md"
+      ]
+    },
+    {
+      "question_id": "HMI-ING-028",
+      "scope": {
+        "analytes": "Pb, Cd, tAs, tHg, Ni, Cr, Al, Sn, Sb and U",
+        "material_form": "Cod, cooked, Cod, as sold, Cod, frozen and Cod, dried",
+        "basis": "As reported; µg/kg; no moisture conversion",
+        "geography_market": "Reporting region, purchase market or growing area as each source reports",
+        "period": "Source collection years where reported; unreported dates stay unknown",
+        "stage": "Growing area, processing, retail and release testing",
+        "population_route": "Dietary ingestion",
+        "comparator_outcome": "HMI references by form and basis; same-study site, sampling and form contrasts"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "available",
+      "answer": "Buyers should confirm the species on the label or by testing, since most products sold as cod in the Italian survey were other whitefish.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Every source record and indexed dataset row that names cod",
+        "protocol_ref": "data/evidence/engine/ingredient/cod/evidence-ledger.json",
+        "record_refs": [
+          "data/evidence/engine/ingredient/cod/synthesis.json"
+        ],
+        "screening_ref": "data/evidence/engine/ingredient/cod/evidence-ledger.json",
+        "searched_through": "2026-10-22",
+        "limitations": [
+          "No study in the library measured inorganic arsenic in cod.",
+          "Aluminum was measured only in imported frozen Pacific cod."
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [
+        "wiki/sources/nava2026-messina-cod-products-elements.md"
+      ],
+      "synthesis_refs": [
+        "data/evidence/syntheses/engine-ingredient-cod-v1.json#procurement/1"
+      ],
+      "applicability": "Applies only to the source-specific material, period, preparation and endpoint stated in the answer and attached evidence records",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/ingredients/cod.md"
+      ]
+    },
+    {
+      "question_id": "HMI-ING-029",
+      "scope": {
+        "analytes": "Pb, Cd, tAs, tHg, Ni, Cr, Al, Sn, Sb and U",
+        "material_form": "Cod, cooked, Cod, as sold, Cod, frozen and Cod, dried",
+        "basis": "As reported; µg/kg; no moisture conversion",
+        "geography_market": "Reporting region, purchase market or growing area as each source reports",
+        "period": "Source collection years where reported; unreported dates stay unknown",
+        "stage": "Growing area, processing, retail and release testing",
+        "population_route": "Dietary ingestion",
+        "comparator_outcome": "HMI references by form and basis; same-study site, sampling and form contrasts"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "available",
+      "answer": "Specifications for dried or salted cod should state whether results are as sold or rehydrated, because the basis changes the number.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Every source record and indexed dataset row that names cod",
+        "protocol_ref": "data/evidence/engine/ingredient/cod/evidence-ledger.json",
+        "record_refs": [
+          "data/evidence/engine/ingredient/cod/synthesis.json"
+        ],
+        "screening_ref": "data/evidence/engine/ingredient/cod/evidence-ledger.json",
+        "searched_through": "2026-10-22",
+        "limitations": [
+          "No study in the library measured inorganic arsenic in cod.",
+          "Aluminum was measured only in imported frozen Pacific cod."
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [
+        "wiki/sources/nava2026-messina-cod-products-elements.md"
+      ],
+      "synthesis_refs": [
+        "data/evidence/syntheses/engine-ingredient-cod-v1.json#procurement/2"
+      ],
+      "applicability": "Applies only to the source-specific material, period, preparation and endpoint stated in the answer and attached evidence records",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/ingredients/cod.md"
+      ]
+    },
+    {
+      "question_id": "HMI-ING-030",
+      "scope": {
+        "analytes": "Pb, Cd, tAs, tHg, Ni, Cr, Al, Sn, Sb and U",
+        "material_form": "Cod, cooked, Cod, as sold, Cod, frozen and Cod, dried",
+        "basis": "As reported; µg/kg; no moisture conversion",
+        "geography_market": "Reporting region, purchase market or growing area as each source reports",
+        "period": "Source collection years where reported; unreported dates stay unknown",
+        "stage": "Growing area, processing, retail and release testing",
+        "population_route": "Dietary ingestion",
+        "comparator_outcome": "HMI references by form and basis; same-study site, sampling and form contrasts"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "available",
+      "answer": "The EU maximum levels for fish muscle are 300 µg/kg lead, 50 µg/kg cadmium, and 300 µg/kg mercury for Atlantic cod.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Every source record and indexed dataset row that names cod",
+        "protocol_ref": "data/evidence/engine/ingredient/cod/evidence-ledger.json",
+        "record_refs": [
+          "data/evidence/engine/ingredient/cod/synthesis.json"
+        ],
+        "screening_ref": "data/evidence/engine/ingredient/cod/evidence-ledger.json",
+        "searched_through": "2026-10-22",
+        "limitations": [
+          "No study in the library measured inorganic arsenic in cod.",
+          "Aluminum was measured only in imported frozen Pacific cod."
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [
+        "wiki/sources/eu-2023-915-contaminants-maximum-levels.md"
+      ],
+      "synthesis_refs": [
+        "data/evidence/syntheses/engine-ingredient-cod-v1.json#procurement/3"
+      ],
+      "applicability": "Applies only to the source-specific material, period, preparation and endpoint stated in the answer and attached evidence records",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/ingredients/cod.md"
+      ]
+    },
+    {
+      "question_id": "HMI-ING-031",
+      "scope": {
+        "analytes": "Pb, Cd, tAs, tHg, Ni, Cr, Al, Sn, Sb and U",
+        "material_form": "Cod, cooked, Cod, as sold, Cod, frozen and Cod, dried",
+        "basis": "As reported; µg/kg; no moisture conversion",
+        "geography_market": "Reporting region, purchase market or growing area as each source reports",
+        "period": "Source collection years where reported; unreported dates stay unknown",
+        "stage": "Growing area, processing, retail and release testing",
+        "population_route": "Dietary ingestion",
+        "comparator_outcome": "HMI references by form and basis; same-study site, sampling and form contrasts"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "available",
+      "answer": "For most fresh and frozen cod, the measured lead, cadmium, and mercury sit well below the EU fish muscle limits.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Every source record and indexed dataset row that names cod",
+        "protocol_ref": "data/evidence/engine/ingredient/cod/evidence-ledger.json",
+        "record_refs": [
+          "data/evidence/engine/ingredient/cod/synthesis.json"
+        ],
+        "screening_ref": "data/evidence/engine/ingredient/cod/evidence-ledger.json",
+        "searched_through": "2026-10-22",
+        "limitations": [
+          "No study in the library measured inorganic arsenic in cod.",
+          "Aluminum was measured only in imported frozen Pacific cod."
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [
+        "wiki/sources/witczak2025-imported-fish-elements-poland.md",
+        "wiki/sources/eu-2023-915-contaminants-maximum-levels.md",
+        "wiki/sources/fda2022-tds-elements-fy2018-fy2020.md"
+      ],
+      "synthesis_refs": [
+        "data/evidence/syntheses/engine-ingredient-cod-v1.json#product/1"
+      ],
+      "applicability": "Applies only to the source-specific material, period, preparation and endpoint stated in the answer and attached evidence records",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/ingredients/cod.md"
+      ]
+    },
+    {
+      "question_id": "HMI-ING-032",
+      "scope": {
+        "analytes": "Pb, Cd, tAs, tHg, Ni, Cr, Al, Sn, Sb and U",
+        "material_form": "Cod, cooked, Cod, as sold, Cod, frozen and Cod, dried",
+        "basis": "As reported; µg/kg; no moisture conversion",
+        "geography_market": "Reporting region, purchase market or growing area as each source reports",
+        "period": "Source collection years where reported; unreported dates stay unknown",
+        "stage": "Growing area, processing, retail and release testing",
+        "population_route": "Dietary ingestion",
+        "comparator_outcome": "HMI references by form and basis; same-study site, sampling and form contrasts"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "available",
+      "answer": "The baccala cadmium of 60 µg/kg as sold was above the 50 µg/kg fish muscle limit, and the authors noted the excess, but a drying and salting factor is needed before it can be judged against that limit.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Every source record and indexed dataset row that names cod",
+        "protocol_ref": "data/evidence/engine/ingredient/cod/evidence-ledger.json",
+        "record_refs": [
+          "data/evidence/engine/ingredient/cod/synthesis.json"
+        ],
+        "screening_ref": "data/evidence/engine/ingredient/cod/evidence-ledger.json",
+        "searched_through": "2026-10-22",
+        "limitations": [
+          "No study in the library measured inorganic arsenic in cod.",
+          "Aluminum was measured only in imported frozen Pacific cod."
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [
+        "wiki/sources/nava2026-messina-cod-products-elements.md",
+        "wiki/sources/eu-2023-915-contaminants-maximum-levels.md"
+      ],
+      "synthesis_refs": [
+        "data/evidence/syntheses/engine-ingredient-cod-v1.json#product/2"
+      ],
+      "applicability": "Applies only to the source-specific material, period, preparation and endpoint stated in the answer and attached evidence records",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/ingredients/cod.md"
+      ]
+    },
+    {
+      "question_id": "HMI-ING-033",
+      "scope": {
+        "analytes": "Pb, Cd, tAs, tHg, Ni, Cr, Al, Sn, Sb and U",
+        "material_form": "Cod, cooked, Cod, as sold, Cod, frozen and Cod, dried",
+        "basis": "As reported; µg/kg; no moisture conversion",
+        "geography_market": "Reporting region, purchase market or growing area as each source reports",
+        "period": "Source collection years where reported; unreported dates stay unknown",
+        "stage": "Growing area, processing, retail and release testing",
+        "population_route": "Dietary ingestion",
+        "comparator_outcome": "HMI references by form and basis; same-study site, sampling and form contrasts"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "available",
+      "answer": "At an intake of 13.4 g per day, Pacific cod supplied 1.39 percent of the tolerable weekly intake for cadmium and 0.36 percent of the lead benchmark dose level.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Every source record and indexed dataset row that names cod",
+        "protocol_ref": "data/evidence/engine/ingredient/cod/evidence-ledger.json",
+        "record_refs": [
+          "data/evidence/engine/ingredient/cod/synthesis.json"
+        ],
+        "screening_ref": "data/evidence/engine/ingredient/cod/evidence-ledger.json",
+        "searched_through": "2026-10-22",
+        "limitations": [
+          "No study in the library measured inorganic arsenic in cod.",
+          "Aluminum was measured only in imported frozen Pacific cod."
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [
+        "wiki/sources/witczak2025-imported-fish-elements-poland.md"
+      ],
+      "synthesis_refs": [
+        "data/evidence/syntheses/engine-ingredient-cod-v1.json#product/3"
+      ],
+      "applicability": "Applies only to the source-specific material, period, preparation and endpoint stated in the answer and attached evidence records",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/ingredients/cod.md"
+      ]
+    },
+    {
+      "question_id": "HMI-ING-034",
+      "scope": {
+        "analytes": "Pb, Cd, tAs, tHg, Ni, Cr, Al, Sn, Sb and U",
+        "material_form": "Cod, cooked, Cod, as sold, Cod, frozen and Cod, dried",
+        "basis": "As reported; µg/kg; no moisture conversion",
+        "geography_market": "Reporting region, purchase market or growing area as each source reports",
+        "period": "Source collection years where reported; unreported dates stay unknown",
+        "stage": "Growing area, processing, retail and release testing",
+        "population_route": "Dietary ingestion",
+        "comparator_outcome": "HMI references by form and basis; same-study site, sampling and form contrasts"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "available",
+      "answer": "The cod evidence covers all six priority metals, but aluminum rests on one study and arsenic is reported only as total arsenic.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Every source record and indexed dataset row that names cod",
+        "protocol_ref": "data/evidence/engine/ingredient/cod/evidence-ledger.json",
+        "record_refs": [
+          "data/evidence/engine/ingredient/cod/synthesis.json"
+        ],
+        "screening_ref": "data/evidence/engine/ingredient/cod/evidence-ledger.json",
+        "searched_through": "2026-10-22",
+        "limitations": [
+          "No study in the library measured inorganic arsenic in cod.",
+          "Aluminum was measured only in imported frozen Pacific cod."
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [
+        "wiki/sources/witczak2025-imported-fish-elements-poland.md",
+        "wiki/sources/nava2026-messina-cod-products-elements.md",
+        "wiki/sources/fda2022-tds-elements-fy2018-fy2020.md"
+      ],
+      "synthesis_refs": [
+        "data/evidence/syntheses/engine-ingredient-cod-v1.json#assessment/1"
+      ],
+      "applicability": "Applies only to the source-specific material, period, preparation and endpoint stated in the answer and attached evidence records",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/ingredients/cod.md"
+      ]
+    },
+    {
+      "question_id": "HMI-ING-035",
+      "scope": {
+        "analytes": "Pb, Cd, tAs, tHg, Ni, Cr, Al, Sn, Sb and U",
+        "material_form": "Cod, cooked, Cod, as sold, Cod, frozen and Cod, dried",
+        "basis": "As reported; µg/kg; no moisture conversion",
+        "geography_market": "Reporting region, purchase market or growing area as each source reports",
+        "period": "Source collection years where reported; unreported dates stay unknown",
+        "stage": "Growing area, processing, retail and release testing",
+        "population_route": "Dietary ingestion",
+        "comparator_outcome": "HMI references by form and basis; same-study site, sampling and form contrasts"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "available",
+      "answer": "No source tested Atlantic cod fillets directly, and only two Gadus morhua products were measured, so the Atlantic cod picture is thin.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Every source record and indexed dataset row that names cod",
+        "protocol_ref": "data/evidence/engine/ingredient/cod/evidence-ledger.json",
+        "record_refs": [
+          "data/evidence/engine/ingredient/cod/synthesis.json"
+        ],
+        "screening_ref": "data/evidence/engine/ingredient/cod/evidence-ledger.json",
+        "searched_through": "2026-10-22",
+        "limitations": [
+          "No study in the library measured inorganic arsenic in cod.",
+          "Aluminum was measured only in imported frozen Pacific cod."
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [
+        "wiki/sources/nava2026-messina-cod-products-elements.md"
+      ],
+      "synthesis_refs": [
+        "data/evidence/syntheses/engine-ingredient-cod-v1.json#assessment/2"
+      ],
+      "applicability": "Applies only to the source-specific material, period, preparation and endpoint stated in the answer and attached evidence records",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/ingredients/cod.md"
+      ]
+    },
+    {
+      "question_id": "HMI-ING-036",
+      "scope": {
+        "analytes": "Pb, Cd, tAs, tHg, Ni, Cr, Al, Sn, Sb and U",
+        "material_form": "Cod, cooked, Cod, as sold, Cod, frozen and Cod, dried",
+        "basis": "As reported; µg/kg; no moisture conversion",
+        "geography_market": "Reporting region, purchase market or growing area as each source reports",
+        "period": "Source collection years where reported; unreported dates stay unknown",
+        "stage": "Growing area, processing, retail and release testing",
+        "population_route": "Dietary ingestion",
+        "comparator_outcome": "HMI references by form and basis; same-study site, sampling and form contrasts"
+      },
+      "workflow_state": "unassessed",
+      "evidence_state": "not_assessed",
+      "answer": "Every source record that names cod was decided on its content: 3 occurrence extracted, 3 records in all.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Every source record and indexed dataset row that names cod",
+        "protocol_ref": "data/evidence/engine/ingredient/cod/evidence-ledger.json",
+        "record_refs": [
+          "data/evidence/engine/ingredient/cod/synthesis.json"
+        ],
+        "screening_ref": "data/evidence/engine/ingredient/cod/evidence-ledger.json",
+        "searched_through": "2026-10-22",
+        "limitations": [
+          "No study in the library measured inorganic arsenic in cod.",
+          "Aluminum was measured only in imported frozen Pacific cod."
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [],
+      "synthesis_refs": [
+        "data/evidence/syntheses/engine-ingredient-cod-v1.json#assessment/3"
+      ],
+      "applicability": "Scope remains unassessed; statement describes the limit of this pilot",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/ingredients/cod.md"
+      ]
+    }
+  ]
+}

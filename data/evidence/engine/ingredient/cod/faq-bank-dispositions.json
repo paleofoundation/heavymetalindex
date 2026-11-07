@@ -1,0 +1,212 @@
+{
+  "selected_count": 12,
+  "bank": [
+    {
+      "id": "ING-FAQ-ED-1",
+      "status": "selected",
+      "question": "What heavy metals are found in cod?",
+      "answer_locator": "What heavy metals are found in cod?",
+      "primary_locator": "Authored section prose",
+      "source_keys": [
+        "witczak2025-imported-fish-elements-poland",
+        "nava2026-messina-cod-products-elements",
+        "fda2022-tds-elements-fy2018-fy2020"
+      ]
+    },
+    {
+      "id": "ING-FAQ-ED-2",
+      "status": "selected",
+      "question": "How much mercury is in cod?",
+      "answer_locator": "How much mercury is in cod?",
+      "primary_locator": "Authored section prose",
+      "source_keys": [
+        "fda2022-tds-elements-fy2018-fy2020",
+        "witczak2025-imported-fish-elements-poland",
+        "nava2026-messina-cod-products-elements"
+      ]
+    },
+    {
+      "id": "ING-FAQ-ED-3",
+      "status": "selected",
+      "question": "Is the arsenic in cod dangerous?",
+      "answer_locator": "Is the arsenic in cod dangerous?",
+      "primary_locator": "Authored section prose",
+      "source_keys": [
+        "witczak2025-imported-fish-elements-poland",
+        "fda2022-tds-elements-fy2018-fy2020",
+        "nava2026-messina-cod-products-elements"
+      ]
+    },
+    {
+      "id": "ING-FAQ-ED-4",
+      "status": "selected",
+      "question": "Does cod contain lead?",
+      "answer_locator": "Does cod contain lead?",
+      "primary_locator": "Authored section prose",
+      "source_keys": [
+        "witczak2025-imported-fish-elements-poland",
+        "fda2022-tds-elements-fy2018-fy2020",
+        "nava2026-messina-cod-products-elements"
+      ]
+    },
+    {
+      "id": "ING-FAQ-ED-5",
+      "status": "selected",
+      "question": "Is cadmium a concern in cod?",
+      "answer_locator": "Is cadmium a concern in cod?",
+      "primary_locator": "Authored section prose",
+      "source_keys": [
+        "witczak2025-imported-fish-elements-poland",
+        "fda2022-tds-elements-fy2018-fy2020",
+        "nava2026-messina-cod-products-elements",
+        "eu-2023-915-contaminants-maximum-levels"
+      ]
+    },
+    {
+      "id": "ING-FAQ-ED-6",
+      "status": "selected",
+      "question": "Has aluminum been measured in cod?",
+      "answer_locator": "Has aluminum been measured in cod?",
+      "primary_locator": "Authored section prose",
+      "source_keys": [
+        "witczak2025-imported-fish-elements-poland",
+        "nava2026-messina-cod-products-elements",
+        "fda2022-tds-elements-fy2018-fy2020"
+      ]
+    },
+    {
+      "id": "ING-FAQ-ED-7",
+      "status": "selected",
+      "question": "Does cod contain nickel?",
+      "answer_locator": "Does cod contain nickel?",
+      "primary_locator": "Authored section prose",
+      "source_keys": [
+        "witczak2025-imported-fish-elements-poland",
+        "fda2022-tds-elements-fy2018-fy2020",
+        "nava2026-messina-cod-products-elements"
+      ]
+    },
+    {
+      "id": "ING-FAQ-ED-8",
+      "status": "selected",
+      "question": "Is salted or dried cod higher in metals than fresh cod?",
+      "answer_locator": "Is salted or dried cod higher in metals than fresh cod?",
+      "primary_locator": "Authored section prose",
+      "source_keys": [
+        "nava2026-messina-cod-products-elements"
+      ]
+    },
+    {
+      "id": "ING-FAQ-ED-9",
+      "status": "selected",
+      "question": "Is the fish sold as cod always true cod?",
+      "answer_locator": "Is the fish sold as cod always true cod?",
+      "primary_locator": "Authored section prose",
+      "source_keys": [
+        "nava2026-messina-cod-products-elements"
+      ]
+    },
+    {
+      "id": "ING-FAQ-ED-10",
+      "status": "selected",
+      "question": "Does processing change heavy metals in cod?",
+      "answer_locator": "Does processing change heavy metals in cod?",
+      "primary_locator": "Authored section prose",
+      "source_keys": [
+        "nava2026-messina-cod-products-elements",
+        "fda2022-tds-elements-fy2018-fy2020",
+        "witczak2025-imported-fish-elements-poland"
+      ]
+    },
+    {
+      "id": "ING-FAQ-ED-11",
+      "status": "selected",
+      "question": "What limits apply to metals in cod?",
+      "answer_locator": "What limits apply to metals in cod?",
+      "primary_locator": "Authored section prose",
+      "source_keys": [
+        "eu-2023-915-contaminants-maximum-levels"
+      ]
+    },
+    {
+      "id": "ING-FAQ-ED-12",
+      "status": "selected",
+      "question": "What should a cod test report?",
+      "answer_locator": "What should a cod test report?",
+      "primary_locator": "Authored section prose",
+      "source_keys": [
+        "witczak2025-imported-fish-elements-poland"
+      ]
+    },
+    {
+      "id": "ING-FAQ-02",
+      "status": "not_applicable",
+      "reason": "No study compares exposed and ordinary settings for this food."
+    },
+    {
+      "id": "ING-FAQ-03",
+      "status": "not_applicable",
+      "reason": "No study in the ledger compares organic and conventional production for metals."
+    },
+    {
+      "id": "ING-FAQ-04",
+      "status": "not_applicable",
+      "reason": "No two forms have comparable eligible references for the same metal."
+    },
+    {
+      "id": "ING-FAQ-05",
+      "status": "not_applicable",
+      "reason": "No comparable regional medians or same-study group comparisons."
+    },
+    {
+      "id": "ING-FAQ-06",
+      "status": "not_applicable",
+      "reason": "Derived products have their own pages."
+    },
+    {
+      "id": "ING-FAQ-07",
+      "status": "deferred",
+      "reason": "No exposure assessment in the ledger."
+    },
+    {
+      "id": "ING-FAQ-10",
+      "status": "not_applicable",
+      "reason": "Arsenic species were not both measured."
+    },
+    {
+      "id": "ING-FAQ-11",
+      "status": "deferred",
+      "reason": "Needs a direct comparison or authoritative guidance that the ledger does not contain for this food."
+    },
+    {
+      "id": "ING-FAQ-12",
+      "status": "deferred",
+      "reason": "Needs a direct comparison or authoritative guidance that the ledger does not contain for this food."
+    },
+    {
+      "id": "ING-FAQ-13",
+      "status": "deferred",
+      "reason": "Needs a direct comparison or authoritative guidance that the ledger does not contain for this food."
+    },
+    {
+      "id": "ING-FAQ-14",
+      "status": "deferred",
+      "reason": "Needs a direct comparison or authoritative guidance that the ledger does not contain for this food."
+    },
+    {
+      "id": "ING-FAQ-15",
+      "status": "deferred",
+      "reason": "Needs a direct comparison or authoritative guidance that the ledger does not contain for this food."
+    },
+    {
+      "id": "ING-FAQ-16",
+      "status": "deferred",
+      "reason": "Needs a direct comparison or authoritative guidance that the ledger does not contain for this food."
+    },
+    {
+      "id": "ING-FAQ-17",
+      "status": "deferred",
+      "reason": "Needs a direct comparison or authoritative guidance that the ledger does not contain for this food."
+    }
+  ]
+}
